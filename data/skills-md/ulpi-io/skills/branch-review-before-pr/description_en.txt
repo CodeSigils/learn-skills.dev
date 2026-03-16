@@ -1,0 +1,4 @@
+Pre-landing PR review. Analyzes diff against main for structural issues that
+tests don't catch: query safety, race conditions, trust boundary violations,
+conditional side effects, and more. Critical findings block /ship and /create-pr.
+Invoke via /branch-review-before-pr or when integrated as a gate in ship workflows.
