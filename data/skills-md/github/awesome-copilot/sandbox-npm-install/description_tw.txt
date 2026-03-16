@@ -1,0 +1,1 @@
+在 Docker 沙箱環境中安裝 npm 套件。每當您需要在透過 virtiofs 掛載工作空間的容器內安裝、重新安裝或更新 node_modules 時，請使用此技能。本機二進位（esbuild、lightningcss、rollup）在 virtiofs 上崩潰，因此必須將軟體包安裝在本機 ext4 檔案系統上並進行符號連結。
