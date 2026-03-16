@@ -1,0 +1,10 @@
+모범 사례에 따라 Spring Boot 4.x 애플리케이션을 빌드하세요.  이 기술을 사용하십시오:
+  * Spring MVC, Spring Data JPA, Spring Modulith, Spring Security를 사용하여 Spring Boot 애플리케이션을 개발하는 경우
+  * 권장되는 Spring Boot 패키지 구조를 생성하려면
+  * REST API, 엔터티/저장소, 서비스 계층, 모듈형 모놀리스 구현
+  * 웹 애플리케이션 구축을 위해 Thymeleaf 보기 템플릿을 사용하려면
+  * REST API 및 웹 애플리케이션에 대한 테스트 작성
+  * 아키텍처 테스트를 위한 ArchUnit 테스트 작성
+  * 코드 품질을 향상시키기 위해 권장 플러그인 및 구성을 구성하고 Maven을 사용하는 동안 테스트합니다.
+  * 로컬 개발을 위해 Spring Boot의 Docker Compose 지원을 사용하려면
+  * Spring Boot 애플리케이션으로 작업하는 동안 일반적인 작업을 더 쉽게 실행할 수 있도록 Taskfile을 생성합니다.
