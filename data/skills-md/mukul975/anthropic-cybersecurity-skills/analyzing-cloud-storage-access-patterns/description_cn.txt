@@ -1,0 +1,1 @@
+通过分析 CloudTrail 数据事件、GCS 审核日志和 Azure 存储分析，检测 AWS S3、GCS 和 Azure Blob 存储中的异常访问模式。使用统计基线和时间序列异常检测来识别非工作时间批量下载、来自新 IP 地址的访问、异常 API 调用（GetObject 峰值）以及潜在的数据泄露。
