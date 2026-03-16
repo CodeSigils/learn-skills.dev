@@ -1,0 +1,1 @@
+Docker 샌드박스 환경에 npm 패키지를 설치합니다. virtiofs를 통해 작업공간이 마운트된 컨테이너 내부에 node_modules를 설치, 재설치 또는 업데이트해야 할 때마다 이 기술을 사용하세요. 기본 바이너리(esbuild, Lightningcss, 롤업)가 virtiofs에서 충돌하므로 패키지를 로컬 ext4 파일 시스템에 설치하고 다시 심볼릭 링크해야 합니다.
