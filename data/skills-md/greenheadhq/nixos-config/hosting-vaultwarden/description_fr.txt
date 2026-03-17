@@ -1,0 +1,12 @@
+Cette compétence doit être utilisée lorsque l'utilisateur doit gérer Vaultwarden/Bitwarden :
+gestionnaire de mots de passe, panneau d'administration, sauvegarde, mises à jour, configuration du client.
+Déclencheurs : "비밀번호 관리자", "볼트워든", "vaultwarden 설정",
+"garde-fort 백업", "비밀번호 서버", "비밀번호 동기화",
+"mot de passe principal", "jeton d'administrateur", "administrateur 패널",
+"vaultwarden 업데이트", "vaultwarden 복원", "restauration de sauvegarde",
+"vaultwarden.greenhead.dev", "Bitwarden auto-hébergé",
+"mise à jour de Vaultwarden", "code de sortie de Vaultwarden 4",
+Problèmes de connexion client Bitwarden, problèmes de synchronisation du coffre-fort.
+Pour les opérations génériques au niveau du conteneur (Podman, MOO, composants internes du framework de mise à jour partagée), utilisez plutôt running-containers.
+Les workflows Vaultwarden spécifiques au service tels que « vaultwarden-update », sauvegarde/restauration restent ici.
+Pour la gestion des secrets d'Agenix, utilisez plutôt management-secrets.

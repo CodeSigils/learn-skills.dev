@@ -1,3 +1,3 @@
-Payment Skill: recognizes the user’s intent to pay/make a payment/check out, or is invoked by other skills (e.g., the tip skill), executes scripts/payment_api.py to call the payment-code API, obtains the tradeCode, and prominently displays it to the user.  
-TRIGGER when: the user says “I want to pay,” “I want to make a payment,” “go pay,” “help me pay,” “check out,” “pay the bill,” or is invoked by another skill with an amount parameter.  
-DO NOT TRIGGER when: the user expresses an intent to tip/gift/reward (handled by the tip skill).
+Payment Skill: Recognizes the user's intent to pay/check out, or receives calls from other skills (e.g., tip skill), executes scripts/payment_api.py to call the payment-code API, obtains tradeCode, and prominently displays it to the user.  
+TRIGGER when: user says “I want to pay,” “I need to pay,” “go pay,” “help me pay,” “check out,” “pay the bill,” “foot the bill,” or is invoked by another skill with an amount parameter.  
+DO NOT TRIGGER when: user expresses tipping/gift-giving/appreciation intent (handled by tip skill).

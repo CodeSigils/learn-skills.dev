@@ -1,0 +1,12 @@
+Questa abilità dovrebbe essere utilizzata quando l'utente deve gestire Vaultwarden/Bitwarden:
+gestore password, pannello di amministrazione, backup, aggiornamenti, configurazione client.
+Trigger: "비밀번호 관리자", "볼트워든", "vaultwarden 설정",
+"guardiano della volta 백업", "비밀번호 서버", "비밀번호 동기화",
+"password principale", "token amministratore", "nome amministratore",
+"vaultwarden 업데이트", "vaultwarden 복원", "ripristino backup",
+"vaultwarden.greenhead.dev", "Bitwarden ospitato autonomamente",
+"vaultwarden-update", "codice di uscita vaultwarden 4",
+Problemi di connessione del client Bitwarden, problemi di sincronizzazione del vault.
+Per operazioni generiche a livello di contenitore (Podman, OOM, interni del framework di aggiornamento condiviso), utilizza invece i contenitori in esecuzione.
+I flussi di lavoro Vaultwarden specifici del servizio come "vaultwarden-update", backup/ripristino rimangono qui.
+Per la gestione dei segreti di Agenix, utilizzare invece Managing-secrets.

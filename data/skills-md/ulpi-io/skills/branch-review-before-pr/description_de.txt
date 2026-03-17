@@ -1,0 +1,4 @@
+PR-Überprüfung vor der Landung. Analysiert Unterschiede im Vergleich zu den wichtigsten strukturellen Problemen
+Tests fangen nicht ab: Abfragesicherheit, Rennbedingungen, Verstöße gegen Vertrauensgrenzen,
+bedingte Nebenwirkungen und mehr. Kritische Ergebnisse blockieren /ship und /create-pr.
+Aufruf über /branch-review-before-pr oder bei Integration als Gate in Versand-Workflows.

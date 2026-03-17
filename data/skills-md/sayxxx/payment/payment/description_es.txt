@@ -1,0 +1,3 @@
+Habilidad de pago: reconoce la intención del usuario de pagar/pagar, o recibe llamadas de otras habilidades (por ejemplo, habilidad de propinas), ejecuta scripts/paid_api.py para llamar a la API del código de pago, obtiene tradeCode y lo muestra de manera destacada al usuario.  
+DISPARAR cuando: el usuario dice "Quiero pagar", "Necesito pagar", "ir a pagar", "ayúdame a pagar", "pagar", "pagar la factura", "pagar la factura" o es invocado por otra habilidad con un parámetro de cantidad.  
+NO DISPARAR cuando: el usuario expresa intención de dar propina/obsequio/agradecimiento (manejado por la habilidad de propina).

@@ -1,0 +1,12 @@
+Diese Fähigkeit sollte verwendet werden, wenn der Benutzer Vaultwarden/Bitwarden verwalten muss:
+Passwort-Manager, Admin-Panel, Backup, Updates, Client-Setup.
+Auslöser: „비밀번호 관리자“, „볼트워든“, „vaultwarden 설정“,
+„vaultwarden 백업“, „비밀번호 서버“, „비밀번호 동기화“,
+„Master-Passwort“, „Admin-Token“, „Admin-Passwort“,
+„Vaultwarden 업데이트“, „Vaultwarden 복원“, „Backup-Wiederherstellung“,
+„vaultwarden.greenhead.dev“, „Bitwarden Self-hosted“,
+„Vaultwarden-Update“, „Vaultwarden-Exit-Code 4“,
+Probleme mit der Bitwarden-Clientverbindung, Probleme mit der Tresorsynchronisierung.
+Für generische Vorgänge auf Containerebene (Podman, OOM, Shared Update Framework-Interna) verwenden Sie stattdessen „running-containers“.
+Dienstspezifische Vaultwarden-Workflows wie „Vaultwarden-Update“ und Sicherung/Wiederherstellung bleiben hier.
+Verwenden Sie für die Verwaltung von Agenix-Geheimnissen stattdessen „managing-secrets“.

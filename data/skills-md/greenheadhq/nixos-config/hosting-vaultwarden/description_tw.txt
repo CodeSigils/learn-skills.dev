@@ -1,0 +1,12 @@
+當使用者需要管理 Vaultwarden/Bitwarden 時應該使用此技能：
+密碼管理器、管理面板、備份、更新、客戶端設定。
+觸發器：「비밀번호 관리자」、「볼트워든」、「Vaultwarden 설정」、
+"vaultwarden 백업", "비밀번호 서버", "비밀번호 동기화",
+“主密碼”，“管理令牌”，“admin 패널”，
+"vaultwarden 업데ei트", "vaultwarden 복원", "備份恢復",
+"vaultwarden.greenhead.dev", "Bitwarden 自託管",
+"vaultwarden-update", "vaultwarden 退出代碼 4",
+Bitwarden 用戶端連線問題、保管庫同步問題。
+對於通用容器級操作（Podman、OOM、共用更新框架內部），請改用運行容器。
+特定於服務的 Vaultwarden 工作流程（例如「vaultwarden-update」、備份/還原）保留在此。
+對於 agenix 秘密管理，請改用管理秘密。

@@ -1,0 +1,4 @@
+Revisione PR pre-atterraggio. Le analisi differiscono rispetto alle principali per questioni strutturali che
+i test non rilevano: sicurezza delle query, condizioni di competizione, violazioni dei limiti di fiducia,
+effetti collaterali condizionali e altro ancora. I risultati critici bloccano /ship e /create-pr.
+Richiamalo tramite /branch-review-before-pr o quando integrato come gate nei flussi di lavoro della nave.

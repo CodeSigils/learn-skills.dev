@@ -1,0 +1,12 @@
+Esta habilidad debe usarse cuando el usuario necesita administrar Vaultwarden/Bitwarden:
+administrador de contraseñas, panel de administración, copia de seguridad, actualizaciones, configuración del cliente.
+Activadores: "비밀번호 관리자", "볼트워든", "vaultwarden 설정",
+"guardián de la bóveda 백업", "비밀번호 서버", "비밀번호 동기화",
+"contraseña maestra", "token de administrador", "admin 패널",
+"vaultwarden 업데이트", "vaultwarden 복원", "restauración de copia de seguridad",
+"vaultwarden.greenhead.dev", "Bitwarden autohospedado",
+"vaultwarden-update", "código de salida 4 de Vaultwarden",
+Problemas de conexión del cliente Bitwarden, problemas de sincronización de bóveda.
+Para operaciones genéricas a nivel de contenedor (Podman, OOM, componentes internos del marco de actualización compartido), utilice contenedores en ejecución en su lugar.
+Los flujos de trabajo de Vaultwarden específicos del servicio, como `vaultwarden-update`, copia de seguridad/restauración, permanecen aquí.
+Para la gestión de secretos de agenix, utilice los secretos de gestión en su lugar.

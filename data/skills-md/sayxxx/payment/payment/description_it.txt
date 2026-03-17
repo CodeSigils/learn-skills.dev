@@ -1,0 +1,3 @@
+Abilità di pagamento: riconosce l'intenzione dell'utente di pagare/fare il check-out o riceve chiamate da altre abilità (ad esempio, abilità di mancia), esegue script/payment_api.py per chiamare l'API del codice di pagamento, ottiene tradeCode e lo mostra in modo visibile all'utente.  
+SI ATTIVA quando: l'utente dice "Voglio pagare", "Devo pagare", "vai a pagare", "aiutami a pagare", "check out", "paga il conto", "paga il conto" o viene richiamato da un'altra abilità con un parametro di importo.  
+NON SI ATTIVA quando: l'utente esprime l'intento di dare mance/regali/apprezzamento (gestito dall'abilità mancia).

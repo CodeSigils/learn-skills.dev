@@ -1,0 +1,3 @@
+Zahlungsfähigkeit: Erkennt die Absicht des Benutzers zu zahlen/auszuchecken oder empfängt Anrufe von anderen Fähigkeiten (z. B. Trinkgeldfähigkeit), führt scripts/ payment_api.py aus, um die Zahlungscode-API aufzurufen, ruft den Handelscode ab und zeigt ihn dem Benutzer gut sichtbar an.  
+TRIGGER, wenn: Der Benutzer sagt „Ich möchte bezahlen“, „Ich muss bezahlen“, „Bezahlen gehen“, „Hilf mir beim Bezahlen“, „Auschecken“, „Rechnung bezahlen“, „Rechnung bezahlen“ oder wird von einer anderen Fähigkeit mit einem Betragsparameter aufgerufen.  
+NICHT AUSLÖSEN, wenn: Der Benutzer die Absicht zum Ausdruck bringt, Trinkgeld zu geben/Geschenke zu geben/Anerkennungsabsicht (verwaltet durch Trinkgeld-Skill).

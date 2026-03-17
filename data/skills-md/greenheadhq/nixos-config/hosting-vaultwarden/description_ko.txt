@@ -1,0 +1,12 @@
+이 스킬은 사용자가 Vaultwarden/Bitwarden을 관리해야 할 때 사용해야 합니다.
+비밀번호 관리자, 관리자 패널, 백업, 업데이트, 클라이언트 설정.
+트리거: "비밀번호 관리자", "볼트워든", "vaultwarden 설정",
+"vaultwarden 백업", "비밀번호 서버", "비밀번호 이야기",
+"마스터 비밀번호", "관리자 토큰", "관리자 패널",
+"vaultwarden 업데이트", "vaultwarden 복원", "백업 복원",
+"vaultwarden.greenhead.dev", "Bitwarden 자체 호스팅",
+"vaultwarden-update", "vaultwarden 종료 코드 4",
+Bitwarden 클라이언트 연결 문제, 볼트 동기화 문제.
+일반 컨테이너 수준 작업(Podman, OOM, 공유 업데이트 프레임워크 내부)의 경우 대신 실행 중인 컨테이너를 사용하세요.
+`vaultwarden-update`, 백업/복원과 같은 서비스별 Vaultwarden 워크플로는 여기에 유지됩니다.
+agenix 비밀 관리의 경우 대신 Managing-secrets를 사용하세요.

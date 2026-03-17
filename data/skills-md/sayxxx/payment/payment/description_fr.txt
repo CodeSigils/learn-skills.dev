@@ -1,0 +1,3 @@
+Compétence de paiement : reconnaît l'intention de l'utilisateur de payer/paiement, ou reçoit des appels d'autres compétences (par exemple, compétence de pourboire), exécute des scripts/payment_api.py pour appeler l'API du code de paiement, obtient le code commercial et l'affiche bien en évidence à l'utilisateur.  
+DÉCLENCHEMENT lorsque : l'utilisateur dit "Je veux payer", "Je dois payer", "aller payer", "aidez-moi à payer", "passer à la caisse", "payer la facture", "payer la facture" ou est invoqué par une autre compétence avec un paramètre de montant.  
+NE PAS DÉCLENCHER lorsque : l'utilisateur exprime une intention de donner un pourboire/un cadeau/une appréciation (géré par la compétence de pourboire).

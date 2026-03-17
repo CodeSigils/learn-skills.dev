@@ -1,0 +1,12 @@
+このスキルは、ユーザーが Vaultwarden/Bitwarden を管理する必要がある場合に使用する必要があります。
+パスワード マネージャー、管理パネル、バックアップ、アップデート、クライアント セットアップ。
+トリガー: "비밀번호 관리자"、"볼트워든"、"vaultwarden 설정"、
+"vaultwarden 백업"、"비밀번호 서버"、"비밀번호 동기화"、
+"マスターパスワード"、"管理者トークン"、"管理者패널"、
+"vaultwarden の管理"、"vaultwarden の管理"、"バックアップ リストア"、
+"vaultwarden.greenhead.dev"、"Bitwarden セルフホスト"、
+"vaultwarden-update"、"vaultwarden 終了コード 4"、
+Bitwarden クライアント接続の問題、Vault 同期の問題。
+一般的なコンテナレベルの操作 (Podman、OOM、共有更新フレームワーク内部) の場合は、代わりに running-containers を使用してください。
+「vaultwarden-update」、バックアップ/復元などのサービス固有の Vaultwarden ワークフローはここに残ります。
+agenix シークレット管理の場合は、代わりに Managing-Secrets を使用してください。
