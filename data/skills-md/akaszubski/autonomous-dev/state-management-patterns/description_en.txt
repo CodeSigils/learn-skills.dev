@@ -1,0 +1,1 @@
+JSON persistence, atomic writes, file locking, crash recovery, and state versioning patterns. Use when implementing stateful libraries or features requiring persistent state. TRIGGER when: state persistence, atomic write, file locking, crash recovery, checkpoint. DO NOT TRIGGER when: stateless utilities, pure functions, config reads, documentation.
