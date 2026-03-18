@@ -1,0 +1,1 @@
+解析 Kubernetes API 服务器审核日志（JSON 行）以检测 exec-into-pod、秘密访问、RBAC 修改、特权 Pod 创建和匿名 API 访问。根据审核事件模式构建威胁检测规则。在调查 Kubernetes 集群泄露或构建特定于 k8s 的 SIEM 检测规则时使用。

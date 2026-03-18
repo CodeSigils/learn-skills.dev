@@ -1,0 +1,1 @@
+使用“pcb scan”阅读数据表和技术 PDF 文档。当用户提供本地 PDF 路径或“http(s)”数据表/文档 URL 时，当任务需要读取、总结、从数据表或技术 PDF 中提取信息或回答有关数据表或技术 PDF 的问题时，或者当 KiCad 符号/“.kicad_sym”提供要解析的“数据表”属性时，请使用。在 bash 中运行“pcb scan <input>”，将 stdout 视为生成的“.md”路径，然后读取该 markdown 文件。
