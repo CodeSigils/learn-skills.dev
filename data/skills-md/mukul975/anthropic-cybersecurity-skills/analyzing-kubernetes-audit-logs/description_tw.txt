@@ -1,0 +1,1 @@
+解析 Kubernetes API 伺服器審核日誌（JSON 行）以偵測 exec-into-pod、秘密存取、RBAC 修改、特權 Pod 建立和匿名 API 存取。根據審核事件模式建構威脅偵測規則。在調查 Kubernetes 叢集外洩或建置特定於 k8s 的 SIEM 檢測規則時使用。
