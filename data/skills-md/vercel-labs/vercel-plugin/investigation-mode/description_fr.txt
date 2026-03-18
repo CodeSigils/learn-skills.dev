@@ -1,0 +1,1 @@
+Coordinateur du débogage orchestré. Se déclenche sur les signaux de frustration (bloqué, bloqué, cassé, en attente) et trie systématiquement : journaux d'exécution → état du workflow → vérification du navigateur → déploiement/env. Rapporte les résultats à chaque étape.
