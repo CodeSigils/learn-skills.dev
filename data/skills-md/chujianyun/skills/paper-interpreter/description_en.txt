@@ -1,5 +1,1 @@
-Paper Reading Assistant.  
-For when a user sends an arXiv link and wants the paper downloaded, interpreted, turned into reading notes, dissected, or output as a detailed report.  
-Creates a paper folder in the working directory, downloads the PDF and TeX source (if available), and produces a Chinese Markdown report.  
-Delivers a first draft by default without automatic review; proceeds to scheduled follow-up reviews only if the user explicitly agrees.  
-Not intended for brief recommendations.
+Paper Interpreter Assistant. For when users send an arXiv link and want the paper downloaded, interpreted, turned into reading notes, dissected, or reported in detail. It creates a paper folder in the working directory, downloads the PDF and TeX source (if available), and outputs a Chinese Markdown report. By default it delivers a first draft without automatic review; only if the user explicitly agrees will a follow-up review be scheduled. Not suitable if you just want a brief recommendation.
