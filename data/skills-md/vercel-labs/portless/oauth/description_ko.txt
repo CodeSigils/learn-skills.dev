@@ -1,0 +1,1 @@
+포트리스 로컬 개발 URL과 작동하도록 OAuth 공급자(Google, Apple, Microsoft, Facebook, GitHub 등)를 구성합니다. OAuth 리디렉션 URI를 설정할 때, "redirect_uri_mismatch" 또는 "잘못된 리디렉션" 오류 수정, 로컬 개발을 위한 로그인 공급자 구성 또는 공급자가 .localhost 하위 도메인을 거부할 때 사용합니다. 트리거에는 "포틀리스에서 작동하지 않는 OAuth", "리디렉션 URI 불일치", "Google/Apple/Microsoft 로그인이 로컬에서 실패함", "로컬 개발자를 위한 OAuth 구성" 또는 포트리스 도메인이 있는 OAuth 콜백 URL과 관련된 모든 작업이 포함됩니다.
