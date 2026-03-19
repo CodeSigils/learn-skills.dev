@@ -1,0 +1,22 @@
+Une compétence de composition pour transformer les enregistrements de réunions en procès-verbaux structurés. Prend en charge la transcription Step ASR, la diarisation du locuteur pyannote, la correspondance empreinte vocale-nom, la génération de résumés structurés et le traitement incrémentiel fragmenté des enregistrements longs.
+
+Conditions de déclenchement :
+(1) L'utilisateur envoie un fichier audio de réunion (mp3/wav/ogg/opus/m4a/flac)
+(2) L'utilisateur dit "Résumer la réunion", "Procès-verbal de la réunion", "Résumer cet enregistrement pour moi", "Résumé de la réunion"
+(3) L'utilisateur dit « enregistrer l'empreinte vocale », « mémoriser ma voix », « enregistrer l'empreinte vocale »
+(4) L'utilisateur dit "qui parle", "identifier l'orateur", "identifier l'orateur"
+(5) L'utilisateur envoie un fichier audio et demande une transcription avec les étiquettes des locuteurs
+(6) L'utilisateur demande d'abord des minutes rapides, puis une précision raffinée du haut-parleur
+(7) L'utilisateur demande un nouveau résumé de la réunion dans le style du procès-verbal précédent
+
+Modèles utilisés :
+- Transcription ASR : `step-asr` (point de terminaison de téléchargement de fichier)
+- LLM (estimation des effectifs + génération de minutes) : `step-3.5-flash` (remplaçable via la var env MEETING_SUMMARY_LLM_MODEL)
+
+Dépendances :
+- Clé API StepFun (ASR + LLM) — postulez sur https://platform.stepfun.com/interface-key
+- ffmpeg (prétraitement audio)
+- Python : numpy, scipy, soundfile, onnxruntime
+- Facultatif : pyannote.audio (venv séparé, nécessite PyTorch)
+- Les modèles locaux (wespeaker / pyannote) nécessitent un compte Hugging Face et une autorisation de téléchargement depuis https://huggingface.co/
+- Voir références/setup-guide.md
