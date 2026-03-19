@@ -1,0 +1,4 @@
+使代理能够使用操作系统本机调度程序（Linux/WSL 的 crontab、macOS 的 launchd）注册、管理和执行计划任务。没有 git，没有危险标志，没有会话依赖。任务无头运行，输出到日志文件，用户在准备好时读取。
+在以下情况下使用此技能： - 用户想要用自然语言安排重复任务 - 用户提到“每天”、“cada hora”、“计划”、“programar”、“automatizar” - 用户需要在没有打开会话的情况下运行任务（无头） - 用户想要操作系统级调度（crontab/launchd） - 用户提到“cada minuto durante la próxima hora”或时间间隔
+当用户提及以下内容时激活：“schedule”、“programar”、“cron”、“cada día”、“每小时”、“automate”、“tarea programada”、“ejecutar automáticamente”、“recordatorio”、“cada minuto durante”、“durante la próxima”、“intervalo”、“任务调度程序”、“opencode headless”、“kiro”已计划”、“后台任务”、“tarea en segundo plano”
+请勿用于：git 操作、危险权限、MCP 采样依赖性。
