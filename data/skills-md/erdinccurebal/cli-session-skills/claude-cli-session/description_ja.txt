@@ -1,0 +1,1 @@
+ユーザーが CLI を繰り返し実行してもクロード コードのセッションを継続したい場合に使用します。利用可能な場合は、プロジェクト ルートの `.claude-cli-session-id` ファイルからセッション ID を読み取ります。それ以外の場合は、新しい UUID ベースのクロード セッションを作成し、その ID を永続化してから、同じ固定セッションを通じて実際のタスクを実行します。 「--resume」、「--session-id」、「-p」、「--output-format stream-json」、「--permission-mode acceptEdits」、およびオプションの「ollama launch claude --model ...」統合をカバーします。

@@ -1,0 +1,1 @@
+VTEX IO プロジェクトの node/ の下にバックエンド サービス アプリを構築する場合、または service.json ルートを構成する場合に適用します。 Service クラス、ミドルウェア関数、ctx.clients パターン、JanusClient、ExternalClient、MasterDataClient、IOClients の登録について説明します。未加工の HTTP ライブラリの代わりに @vtex/api クライアントを使用する必要があるバックエンド API、イベント ハンドラー、または統合の実装に使用します。
