@@ -1,0 +1,18 @@
+Compétence d’automatisation du renforcement de la sécurité VPS. Connectez-vous au VPS via SSH et exécutez une configuration complète de la politique de sécurité.
+
+Phrases déclencheurs :
+- "renforcer la sécurité du VPS", "configuration de la sécurité du VPS", "nouvelle init du VPS"
+- "configurer la sécurité SSH", "changer le port SSH", "désactiver la connexion par mot de passe root"
+- "Renforcement de la sécurité VPS", "Paramètres de sécurité du serveur", "renforcement"
+
+Caractéristiques (7 mouvements de durcissement) :
+1. Créez un utilisateur sudo, désactivez la connexion par mot de passe root
+2. Changez le port SSH (prend en charge différentes versions d'Ubuntu)
+3. Installer et configurer automatiquement Fail2ban
+4. Prise en charge de la connexion par clé SSH
+5. Notifications de connexion SSH (facultatif)
+6. Configuration du pare-feu UFW
+7. Rappels de sécurité Docker
+
+Auteur : github.com/wlzh
+Version : 1.0.0

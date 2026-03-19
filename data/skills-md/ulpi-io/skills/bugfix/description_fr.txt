@@ -1,0 +1,9 @@
+Corrigez les bugs trouvés par /find-bugs, signalés par l'utilisateur ou rencontrés lors du développement.
+Reproduit systématiquement, diagnostique la cause première, planifie une solution minimale, met en œuvre avec
+tests de régression, vérifie l’absence de régression et rapporte les résultats. Inclut des informations spécifiques au type de bug
+corrigez les playbooks pour la sécurité, la logique, l'asynchrone, la sécurité nulle, les conditions de concurrence, etc.
+Comprend des fichiers de référence spécifiques au framework pour 18 frameworks/langages (Express, React,
+Next.js, Fastify, Hono, Remix, Laravel, Go, Gin, Echo, Fiber, Swift, Bun, Rust,
+Axum, Actix Web, Rocket, React Native). Gère les bogues uniques, les bogues multi-fichiers et les correctifs par lots à partir de la sortie de recherche de bogues.
+Invoquer via /bugfix ou lorsque l'utilisateur dit "corriger ce bug", "corriger les résultats",
+"corriger le résultat n°3", "corriger les bugs critiques".

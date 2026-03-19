@@ -1,0 +1,26 @@
+Convient pour interroger, analyser et visualiser des données. Par exemple, analysez les données des fichiers CSV, Excel, Parquet, JSON, JSONL, effectuez une agrégation statistique et des requêtes catégorielles. Importez d’abord les données, puis utilisez les instructions SQL pour les interroger, les analyser et les visualiser.
+
+**Formats de fichiers pris en charge** :
+- Fichiers CSV : chargement direct pris en charge, y compris les fichiers CSV compressés (par exemple, .gz)
+- Fichiers Excel : formats .xlsx et .xls pris en charge
+- Fichiers Parquet : format de stockage en colonnes pris en charge
+- Fichiers JSON : format JSON standard pris en charge
+- Fichiers JSONL : un objet JSON par ligne pris en charge
+
+**Instructions d'importation de fichiers** :
+- Basé sur les méthodes d'importation officielles recommandées par DuckDB
+- Reconnaissance et chargement automatiques du format de fichier
+- Prend en charge les chemins relatifs et absolus
+- Chargement direct de fichiers compressés pris en charge
+
+**QUAND UTILISER :**
+- Vous devez interroger, analyser et visualiser des données.
+- Vous devez effectuer une agrégation statistique et des requêtes catégorielles sur les données.
+- Vous devez traiter et analyser des fichiers de données dans plusieurs formats.
+- Vous devez générer des graphiques de visualisation de données.
+
+**EXEMPLE D'UTILISATION :**
+- Analyser les données de ventes et générer des graphiques de tendances des ventes
+- Traiter les données utilisateur dans des fichiers CSV pour l'analyse du comportement des utilisateurs
+- Analyser les données financières dans des fichiers Excel et générer des rapports financiers
+- Traiter les données du journal au format JSON pour l'analyse des journaux
