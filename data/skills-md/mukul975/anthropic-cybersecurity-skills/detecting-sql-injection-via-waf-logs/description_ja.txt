@@ -1,0 +1,1 @@
+WAF (ModSecurity/AWS WAF/Cloudflare) ログを分析して、SQL インジェクション攻撃キャンペーンを検出します。 ModSecurity 監査ログと JSON WAF イベント ログを解析して SQLi パターン (UNION SELECT、OR 1=1、SLEEP()、BENCHMARK()) を特定し、攻撃元を追跡し、複数段階のインジェクション試行を関連付け、OWASP 分類を使用したインシデント レポートを生成します。

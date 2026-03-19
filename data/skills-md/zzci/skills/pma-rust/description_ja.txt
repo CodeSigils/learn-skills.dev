@@ -1,0 +1,1 @@
+マルチクレート ワークスペース プロジェクト用の Rust プロジェクト実装ガイド。ワークスペース構成、ツールチェーン (nightly + Rustfmt + Clippy + Cranky + Cargo-deny)、厳密な lint ルール (unsafe/unwrap/expect/panic なし)、エラー処理 (thiserror + anyhow)、非同期ランタイム (Tokio)、TLS (rustls + aws-lc-rs)、CI/CD (test/build/docker/SBOM を使用した GitHub Actions)、およびコーディングをカバーします。慣例。 Rust アプリケーションのスキャフォールディング、開発、またはレビューを行うときに使用します。

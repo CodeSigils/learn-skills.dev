@@ -1,0 +1,1 @@
+手動の withCheckedThrowingContinuation ラッパーの代わりに、RxSwift の組み込み Swift Concurrency ブリッジング API を使用します。 Swift コードが RxSwift (Observable、Single、Maybe、Completable、Infallible、Driver、Signal) と async/await の間をブリッジするとき、または RxSwift サブスクライブ パターンと一緒に使用されている withCheckedThrowingContinuation/withCheckedContinuation を見たときにトリガーしなければなりません。非同期作業を Observable または Single に変換し直すときにもトリガーされます。
