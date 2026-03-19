@@ -1,0 +1,22 @@
+회의 녹음을 체계적인 회의록으로 변환하는 작성 기술입니다. 단계 ASR 전사, 피안노트 화자 분할, 성문-이름 일치, 구조화된 요약 생성 및 긴 녹음의 청크 증분 처리를 지원합니다.
+
+트리거 조건:
+(1) 사용자가 회의 오디오 파일(mp3/wav/ogg/opus/m4a/flac)을 보냅니다.
+(2) 사용자가 "회의 요약", "회의록", "녹화 요약 도움말", "회의 요약"이라고 말합니다.
+(3) 사용자가 "성문 등록", "내 목소리 기억하기", "성문 등록"이라고 말합니다.
+(4) 사용자는 "말하는 사람", "화자 식별", "화자 식별"이라고 말합니다.
+(5) 사용자가 오디오 파일을 보내고 화자 라벨이 포함된 전사를 요청합니다.
+(6) 사용자는 먼저 간략한 요약을 요청한 다음, 화자의 정확도를 세밀하게 요청합니다.
+(7) 사용자는 과거 회의록 스타일을 참조하는 새로운 회의 요약을 요청합니다.
+
+사용된 모델:
+- ASR 전사: `step-asr`(파일 업로드 인터페이스)
+- LLM(인원 추정 + 분 생성): `step-3.5-flash`(env var MEETING_SUMMARY_LLM_MODEL을 통해 재정의 가능)
+
+종속성:
+- StepFun API 키(ASR + LLM) — https://platform.stepfun.com/interface-key에서 신청하세요.
+- ffmpeg(오디오 전처리)
+- Python: numpy, scipy, 사운드 파일, onnxruntime
+- 선택 사항: pyannote.audio(별도의 venv, PyTorch 필요)
+- 로컬 모델(wespeaker/pyannote)은 https://huggingface.co/에서 다운로드하기 전에 Hugging Face 계정 등록 및 권한이 필요합니다.
+- 자세한 내용은 참고자료/setup-guide.md를 참조하세요.
