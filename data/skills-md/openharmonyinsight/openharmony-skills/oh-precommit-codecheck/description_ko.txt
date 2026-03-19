@@ -1,0 +1,5 @@
+OpenHarmony 게이트 CI의 하위 집합을 다루는 로컬 코드 품질 검사 실행
+(저작권, CodeArts C/C++) 및 추가 로컬 검사(pylint/flake8,
+shellcheck/bashate, gn 형식). 게이트 오류를 ​​줄이려면 커밋하기 전에 사용하세요.
+트리거 대상: /oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+"코드 검사 실행" 또는 코드 구현 완료 후.

@@ -1,0 +1,1 @@
+AIR의 `/v2/wallet/agent-sign` HTTP 끝점 및 ERC-4337 UserOps를 통해 AIR 에이전트 지갑을 작동합니다. 외부 에이전트가 `userId`, `walletId`, `privyAppId`, `abstractAccountAddress` 및 `airApiAgentSignUrl`이 포함된 AIR 핸드오프 번들을 수신하고 메시지, 입력된 데이터에 서명하거나 온체인 스마트 계정을 제어해야 하는 경우에 사용합니다.
