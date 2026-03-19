@@ -1,0 +1,1 @@
+从 EVTX 文件中解析 Windows PowerShell 脚本块日志（事件 ID 4104），以检测混淆的命令、编码的有效负载和独立技术。使用 python-evtx 提取和重建多块脚本，对 Base64 编码命令应用熵分析和模式匹配、Invoke-Expression 滥用、下载支架和 AMSI 绕过尝试。

@@ -1,0 +1,9 @@
+修复 /find-bugs 发现的、用户报告的或开发过程中遇到的错误。
+系统地重现、诊断根本原因、计划最小修复、实施
+回归测试，验证没有回归，并报告结果。包括特定于错误类型的
+修复安全、逻辑、异步、空安全、竞争条件等方面的剧本。
+包括 18 种框架/语言（Express、React、
+Next.js、Fastify、Hono、Remix、Laravel、Go、Gin、Echo、Fiber、Swift、Bun、Rust、
+Axum、Actix Web、Rocket、React Native）。处理单个错误、多文件错误以及 find-bugs 输出的批量修复。
+通过 /bugfix 或当用户说“修复此错误”、“修复结果”时调用，
+“修复发现＃3”，“修复关键错误”。

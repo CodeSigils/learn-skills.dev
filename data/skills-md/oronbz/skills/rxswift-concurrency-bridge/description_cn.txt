@@ -1,0 +1,1 @@
+使用 RxSwift 的内置 Swift Concurrency 桥接 API，而不是手动 withCheckedThrowingContinuation 包装器。每当 Swift 代码在 RxSwift（Observable、Single、 Maybe、Completable、Infallible、Driver、Signal）和 async/await 之间桥接时，或者当您看到 withCheckedThrowingContinuation/withCheckedContinuation 与 RxSwift 订阅模式一起使用时，都必须触发。当将异步工作转换回 Observables 或 Singles 时也会触发。
