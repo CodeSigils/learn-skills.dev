@@ -1,0 +1,22 @@
+Fähigkeit, Besprechungsaufzeichnungen in Protokolle zu strukturieren. Unterstützt Step-ASR-Transkription, Pyannote-Sprecherdiarisierung, Voice-Print-Real-Name-Matching, strukturierte Zusammenfassungsgenerierung und stückweise inkrementelle Verarbeitung langer Aufnahmen.
+
+Auslösebedingungen:
+(1) Der Benutzer sendet eine Besprechungsaufzeichnungsdatei (mp3/wav/ogg/opus/m4a/flac)
+(2) Der Benutzer sagt „Besprechung zusammenfassen“, „Besprechungsprotokoll“, „Diese Aufzeichnung für mich zusammenfassen“, „Besprechungszusammenfassung“
+(3) Der Benutzer sagt „Stimmenabdruck registrieren“, „Meine Stimme merken“, „Stimmenabdruck registrieren“
+(4) Benutzer sagt „Wer spricht“, „Sprecher identifizieren“
+(5) Der Benutzer sendet eine Audiodatei und bittet um eine Transkription mit Sprecherbezeichnungen
+(6) Der Benutzer fragt zunächst nach kurzen Minuten und verfeinert dann die Sprechergenauigkeit
+(7) Der Benutzer bittet darum, eine neue Besprechungszusammenfassung zu erstellen, die sich auf den Stil historischer Protokolle bezieht
+
+Verwendete Modelle:
+- ASR-Transkription: „step-asr“ (Datei-Upload-Schnittstelle)
+- LLM (Schätzung der Mitarbeiterzahl + Generierung von Minuten): „step-3.5-flash“ (kann über die Umgebungsvariable MEETING_SUMMARY_LLM_MODEL überschrieben werden)
+
+Abhängigkeiten:
+- StepFun-API-Schlüssel (ASR + LLM) – beantragen Sie unter https://platform.stepfun.com/interface-key
+- ffmpeg (Audiovorverarbeitung)
+- Python: Numpy, Scipy, Soundfile, Onnxruntime
+- Optional: pyannote.audio (separater Venv, benötigt PyTorch)
+- Lokale Modelle (Wespeaker / Pyannote) erfordern die Registrierung eines Hugging Face-Kontos und die Erlaubnis zum Herunterladen von https://huggingface.co/
+- Weitere Informationen finden Sie unter references/setup-guide.md
