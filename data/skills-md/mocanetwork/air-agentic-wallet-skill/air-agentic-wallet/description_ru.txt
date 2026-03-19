@@ -1,0 +1,1 @@
+Управляет агентскими кошельками AIR через конечную точку HTTP `/v2/wallet/agent-sign` AIR и UserOps ERC-4337. Используйте, когда внешний агент получает пакет передачи обслуживания AIR с userId, WalletId, privyAppId, abstractAccountAddress и airApiAgentSignUrl и ему необходимо подписывать сообщения, вводить данные или управлять смарт-аккаунтом в цепочке.
