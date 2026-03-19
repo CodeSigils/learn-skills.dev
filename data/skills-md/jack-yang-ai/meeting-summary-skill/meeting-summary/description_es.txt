@@ -1,0 +1,22 @@
+Una habilidad que orquesta la transformación de las grabaciones de reuniones en actas estructuradas. Admite transcripción Step ASR, diario del hablante de pyannote, coincidencia de huellas de voz con nombres, generación de resúmenes estructurados y procesamiento incremental fragmentado de grabaciones largas.
+
+Condiciones de activación:
+(1) El usuario envía un archivo de grabación de la reunión (mp3/wav/ogg/opus/m4a/flac)
+(2) El usuario dice "resumir la reunión", "actas de la reunión", "ayúdame a resumir la grabación", "resumen de la reunión"
+(3) El usuario dice "registrar huella de voz", "recordar mi voz", "registrar huella de voz"
+(4) El usuario dice "quién habla", "identificar al hablante", "identificar al hablante"
+(5) El usuario envía un archivo de audio y solicita la transcripción con el etiquetado del hablante.
+(6) El usuario solicita minutos primero y luego refina la precisión del hablante
+(7) El usuario solicita un nuevo resumen de la reunión que hace referencia al estilo de las actas históricas
+
+Modelos utilizados:
+- Transcripción ASR: `step-asr` (interfaz de carga de archivos)
+- LLM (estimación de plantilla + generación de minutos): `step-3.5-flash` (se puede anular mediante env var MEETING_SUMMARY_LLM_MODEL)
+
+Dependencias:
+- Clave API de StepFun (ASR + LLM): solicítela en https://platform.stepfun.com/interface-key
+- ffmpeg (preprocesamiento de audio)
+- Python: numpy, scipy, archivo de sonido, onnxruntime
+- Opcional: pyannote.audio (venv separado, necesita PyTorch)
+- Los modelos locales (wespeaker / pyannote) requieren una cuenta de Hugging Face y permiso de https://huggingface.co/
+- Ver referencias/setup-guide.md para más detalles
