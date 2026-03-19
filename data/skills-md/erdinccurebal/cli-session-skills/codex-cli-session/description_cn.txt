@@ -1,0 +1,1 @@
+当用户希望在重复的非交互式运行中保持 Codex CLI 会话连续性时使用。从项目根“.codex-cli-session-id”文件中读取可用的会话 ID；否则引导一个新的 Codex 会话，保留新的会话 ID，然后使用“codex execresume”运行实际任务。涵盖会话连续性、“--json”、“-m”和项目范围的会话固定。

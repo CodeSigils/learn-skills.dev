@@ -1,0 +1,1 @@
+当用户希望主代理直接调用 Gemini CLI 同时保留现有 Gemini 对话历史记录时使用。从项目根“.gemini-cli-session-id”文件中读取可用的会话 ID；否则，从本地 Gemini 历史记录中恢复最新的项目会话或创建一个新会话，然后保留该 ID。默认情况下使用 `--approval-mode auto_edit`，以便 Gemini CLI 可以使用自己的编辑工具编写文件。涵盖 `-r <session-id>`、`-p`、`-m gemini-3-flash-preview` 和 `stream-json` 输出处理。

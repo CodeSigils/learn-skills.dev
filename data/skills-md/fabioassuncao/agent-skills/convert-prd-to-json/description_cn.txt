@@ -1,0 +1,1 @@
+将 PRD markdown 文件 (issues/{N}/prd.md) 转换为适合自主迭代执行的结构化 JSON 任务计划 (issues/{N}/tasks.json)。当您拥有 PRD 并需要将其转换为包含有序用户故事、验收标准和依赖性跟踪的机器可读任务计划时，请使用此技能。在以下条件下触发：“将 prd 转换为 json”、“从 prd 创建任务计划”或当resolve-gh-issue 技能委派任务计划创建时触发。

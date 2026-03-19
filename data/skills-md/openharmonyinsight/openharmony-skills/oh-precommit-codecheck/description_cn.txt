@@ -1,0 +1,5 @@
+运行涵盖 OpenHarmony 门 CI 子集的本地代码质量检查
+（版权，CodeArts C/C++）加上额外的本地检查（pylint/flake8，
+shellcheck/bashate，gn 格式）。在提交之前使用以减少门故障。
+触发条件：/oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+“运行codecheck”，或完成代码实现后。
