@@ -1,0 +1,1 @@
+分析 WAF (ModSecurity/AWS WAF/Cloudflare) 日志以检测 SQL 注入攻击活动。解析 ModSecurity 審核日誌和 JSON WAF 事件日誌以識別 SQLi 模式（UNION SELECT、OR 1=1、SLEEP()、BENCHMARK()）、追蹤攻擊來源、關聯多階段注入嘗試並產生具有 OWASP 分類的事件報告。

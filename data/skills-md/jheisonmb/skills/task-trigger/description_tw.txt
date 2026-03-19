@@ -1,0 +1,4 @@
+使代理程式能夠使用作業系統本機排程器（Linux/WSL 的 crontab、macOS 的 launchd）註冊、管理和執行排程任務。沒有 git，沒有危險標誌，沒有會話依賴。任務無頭運行，輸出到日誌文件，使用者在準備好時讀取。
+在以下情況下使用此技能： - 使用者想要用自然語言安排重複任務 - 使用者提到「每天」、「cada hora」、「計畫」、「programar」、「automatizar」 - 使用者需要在沒有開啟會話的情況下執行任務（無頭） - 使用者想要作業系統等級調度（crontab/launch） - 使用者提到「時間間隔
+當使用者提及以下內容時啟動：「schedule」、「programar」、「cron」、「cada día」、「每小時」、「automate」、「tarea programada」、「ejecutar automáticamente」、「recordatorio」、「cada minuto durante」、「調度程式、próx」 headless”、“kiro”已計劃”、“後台任務”、“tarea en segundo plano”
+請勿用於：git 操作、危險權限、MCP 採樣依賴性。

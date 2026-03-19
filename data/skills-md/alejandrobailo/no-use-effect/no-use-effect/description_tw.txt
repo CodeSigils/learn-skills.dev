@@ -1,0 +1,1 @@
+始終保持活躍。在 React 和 React Native 程式碼中強制執行嚴格的 no-direct-useEffect 規則。切勿直接編寫 useEffect - 使用派生狀態、事件處理程序、useMemo、useSyncExternalStore、資料獲取庫、基於鍵的重設或 useMountEffect。觸發所有 React 元件程式碼：編寫新元件、編輯現有元件、審查程式碼、修復錯誤或重構。當使用者提及 useEffect、副作用、資料取得、狀態同步或元件生命週期時也會觸發。

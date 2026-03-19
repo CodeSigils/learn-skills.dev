@@ -1,0 +1,1 @@
+從 EVTX 檔案解析 Windows PowerShell 腳本區塊日誌（事件 ID 4104），以偵測混淆的命令、編碼的有效負載和獨立技術。使用 python-evtx 擷取和重建多區塊腳本，對 Base64 編碼指令套用熵分析和模式比對、Invoke-Expression 濫用、下載支架和 AMSI 繞過嘗試。
