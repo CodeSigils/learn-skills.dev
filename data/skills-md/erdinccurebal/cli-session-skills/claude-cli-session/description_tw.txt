@@ -1,0 +1,1 @@
+當使用者希望 Claude Code 會話在重複的 CLI 運行中保持連續性時使用。從專案根「.claude-cli-session-id」檔案讀取可用的會話 ID；否則，建立一個新的 UUID 支援的 Claude 會話，保留該 ID，然後透過相同固定會話執行實際任務。涵蓋 `--resume`、`--session-id`、`-p`、`--output-format stream-json`、`--permission-mode AcceptEdits` 和可選的 `ollama launch claude --model ...` 整合。
