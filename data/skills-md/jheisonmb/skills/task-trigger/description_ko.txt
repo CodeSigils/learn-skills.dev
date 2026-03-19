@@ -1,0 +1,4 @@
+에이전트가 OS 기본 스케줄러(Linux/WSL의 경우 crontab, macOS의 경우 launchd)를 사용하여 예약된 작업을 등록, 관리 및 실행할 수 있습니다. 자식도 없고, 위험한 플래그도 없고, 세션 종속성도 없습니다. 작업은 헤드리스로 실행되고, 로그 파일로 출력되며, 준비되면 사용자가 읽습니다.
+다음 경우에 이 기술을 사용하십시오. - 사용자가 자연어로 반복 작업을 예약하려고 합니다. - 사용자가 "매일", "cada hora", "일정", "programar", "automatizar"를 언급합니다. - 사용자가 열린 세션(헤드리스) 없이 실행할 작업이 필요합니다. - 사용자가 OS 수준 예약(crontab/launchd)을 원합니다. - 사용자가 "cada minuto durante la próxima hora" 또는 시간 간격을 언급합니다.
+사용자가 "schedule", "programar", "cron", "cada día", "every hour", "automate", "tarea programada", "ejecutar automáticamente", "recordatorio", "cada minuto durante", "durante la próxima", "intervalo", "task Scheduler", "opencode headless"라고 언급하면 활성화하세요. "kiro 예정됨", "백그라운드 작업", "tarea en segundo plano"
+git 작업, 위험한 권한, MCP 샘플링 종속성에는 사용하지 마십시오.

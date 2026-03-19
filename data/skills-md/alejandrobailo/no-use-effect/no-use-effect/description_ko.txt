@@ -1,0 +1,1 @@
+항상 활동적입니다. React 및 React Native 코드에서 직접적인 no-direct-useEffect 규칙을 시행합니다. useEffect를 직접 작성하지 마세요. 대신 파생된 상태, 이벤트 핸들러, useMemo, useSyncExternalStore, 데이터 가져오기 라이브러리, 키 기반 재설정 또는 useMountEffect를 사용하세요. 모든 React 구성 요소 코드에서 트리거: 새 구성 요소 작성, 기존 구성 요소 편집, 코드 검토, 버그 수정 또는 리팩토링. 또한 사용자가 useEffect, 부작용, 데이터 가져오기, 상태 동기화 또는 구성 요소 수명 주기를 언급하는 경우에도 트리거됩니다.

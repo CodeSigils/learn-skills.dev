@@ -1,0 +1,1 @@
+KMP(Kotlin Multiplatform) 프로젝트를 Android Gradle 플러그인 9.0 이상으로 마이그레이션합니다. 플러그인 교체(com.android.kotlin.multiplatform.library), 모듈 분할, DSL 마이그레이션 및 새로운 기본 프로젝트 구조를 처리합니다. AGP를 업그레이드할 때, KMP+AGP 비호환으로 인해 빌드가 실패할 때 또는 사용자가 AGP 9.0, Android 멀티플랫폼 플러그인, KMP 마이그레이션 또는 com.android.kotlin.multiplatform.library를 언급할 때 사용합니다.

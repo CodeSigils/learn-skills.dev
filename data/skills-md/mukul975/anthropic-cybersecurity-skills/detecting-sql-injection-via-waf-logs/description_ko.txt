@@ -1,0 +1,1 @@
+WAF(ModSecurity/AWS WAF/Cloudflare) 로그를 분석하여 SQL 주입 공격 캠페인을 탐지합니다. ModSecurity 감사 로그 및 JSON WAF 이벤트 로그를 구문 분석하여 SQLi 패턴(UNION SELECT, OR 1=1, SLEEP(), BENCHMARK())을 식별하고, 공격 소스를 추적하고, 다단계 주입 시도의 상관 관계를 파악하고, OWASP 분류로 사고 보고서를 생성합니다.

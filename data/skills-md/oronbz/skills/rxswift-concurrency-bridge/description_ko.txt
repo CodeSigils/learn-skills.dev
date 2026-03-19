@@ -1,0 +1,1 @@
+수동으로 CheckedThrowingContinuation 래퍼를 사용하는 대신 RxSwift에 내장된 Swift 동시성 브리징 API를 사용하세요. Swift 코드가 RxSwift(Observable, Single, Maybe, Completable, Infallible, Driver, Signal)와 async/await 사이를 연결할 때마다 또는 RxSwift 구독 패턴과 함께 withCheckedThrowingContinuation/withCheckedContinuation이 사용되는 것을 볼 때 트리거해야 합니다. 또한 비동기 작업을 다시 Observable 또는 Single로 변환할 때 트리거됩니다.
