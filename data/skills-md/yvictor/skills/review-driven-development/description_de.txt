@@ -1,0 +1,7 @@
+Verwendung bei der Entwicklung von Funktionen von GitHub/GitLab-Problemen bis hin zu zusammengeführten PRs/MRs mit iterativen Überprüfungszyklen.
+Umfasst: Problemrecherche, Implementierungsplanung, Worktree-Isolierung, Codierung, Tests, PR/MR-Erstellung,
+Codeüberprüfung durch mehrere Prüfer (aktueller Agent, Codex Exec, Claude -p), Korrektur-Überprüfungsschleifen bis GENEHMIGUNG,
+zusammenführen und bereinigen. Zusammensetzbar mit TDD, BDD, systematischem Debuggen und anderen Methodenkenntnissen.
+Verwenden Sie dies immer dann, wenn: der Benutzer eine Problemnummer (#NN) angibt, um die Implementierung einer Funktion aus einem Problem bittet,
+möchte einen überprüften PR/MR erstellen oder muss den Code vor dem Zusammenführen iterativ überprüfen.
+Selbst wenn der Benutzer nur „Implementieren Sie Nr. 42“ oder „An Problem 15 arbeiten“ sagt, gilt diese Fähigkeit.

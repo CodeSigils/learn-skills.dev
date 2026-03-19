@@ -1,0 +1,19 @@
+Automatisierte VPS-Härtungsfähigkeit.  
+Meldet sich über SSH beim VPS an und wendet eine vollständige Sicherheitsrichtlinienkonfiguration an.
+
+Triggerphrasen:
+- „VPS-Sicherheit verstärken“, „VPS-Sicherheitskonfiguration“, „Neue VPS-Initialisierung“
+- „SSH-Sicherheit konfigurieren“, „SSH-Port ändern“, „Root-Passwort-Anmeldung deaktivieren“
+- „VPS-Härtung“, „Server-Sicherheitseinstellungen“, „Härtung“
+
+Merkmale (7 Verhärtungsbewegungen):
+1. Sudo-Benutzer erstellen, Root-Passwort-Anmeldung deaktivieren
+2. SSH-Port ändern (unterstützt verschiedene Ubuntu-Versionen)
+3. Fail2ban automatisch installieren und konfigurieren
+4. SSH-schlüsselbasierte Anmeldeunterstützung
+5. SSH-Anmeldebenachrichtigung (optional)
+6. UFW-Firewall-Setup
+7. Docker-Sicherheitserinnerung
+
+Autor: github.com/wlzh  
+Version: 1.0.0

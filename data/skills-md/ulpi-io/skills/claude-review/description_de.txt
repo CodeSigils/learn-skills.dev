@@ -1,0 +1,4 @@
+Erstellen Sie einen separaten Claude Code-Agenten, um in der aktuellen Sitzung vorgenommene Codeänderungen zu überprüfen
+oder Zweig. Verwendet das Agent-Tool mit Worktree-Isolation, sodass der Prüfer unabhängig ist
+schreibgeschützte Kopie. Wird verwendet, wenn der Benutzer „claude review“, „self-review“, „/claude-review“ sagt.
+oder wenn ein Aufgabenplan eine Überprüfung nach der Aufgabe erfordert.

@@ -1,0 +1,26 @@
+Geeignet zum Abfragen, Analysieren und Visualisieren von Daten. Zum Beispiel die Analyse von Daten aus CSV-, Excel-, Parquet-, JSON- und JSONL-Dateien sowie die Durchführung statistischer Aggregation und Klassifizierungsabfragen. Importieren Sie zunächst die Daten und verwenden Sie dann SQL-Anweisungen, um Daten abzufragen, zu analysieren und zu visualisieren.
+
+**Unterstützte Dateiformate**:
+- CSV-Dateien: Direktes Laden unterstützt, einschließlich komprimierter CSV-Dateien (z. B. .gz)
+- Excel-Dateien: Unterstützte Formate .xlsx und .xls
+- Parquet-Dateien: Spaltenspeicherformat wird unterstützt
+- JSON-Dateien: Standard-JSON-Format unterstützt
+- JSONL-Dateien: Format mit einem JSON-Objekt pro Zeile unterstützt
+
+**Anweisungen zum Dateiimport**:
+- Basierend auf den offiziell empfohlenen Importmethoden von DuckDB
+- Automatische Erkennung und Laden von Dateiformaten
+- Unterstützt relative und absolute Pfade
+- Direktes Laden komprimierter Dateien unterstützt
+
+**WANN ZU VERWENDEN:**
+- Sie müssen Daten abfragen, analysieren und visualisieren.
+- Sie müssen statistische Aggregations- und Klassifizierungsabfragen für Daten durchführen.
+- Sie müssen Datendateien in mehreren Formaten verarbeiten und analysieren.
+- Sie müssen Datenvisualisierungsdiagramme erstellen.
+
+**BEISPIEL FÜR DIE VERWENDUNG:**
+- Analysieren Sie Verkaufsdaten und erstellen Sie Verkaufstrenddiagramme
+- Verarbeiten Sie Benutzerdaten in CSV-Dateien zur Analyse des Benutzerverhaltens
+- Analysieren Sie Finanzdaten in Excel-Dateien, um Finanzberichte zu erstellen
+- Verarbeiten Sie Protokolldaten im JSON-Format zur Protokollanalyse
