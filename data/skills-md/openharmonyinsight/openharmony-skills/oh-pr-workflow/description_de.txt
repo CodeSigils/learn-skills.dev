@@ -1,0 +1,11 @@
+OpenHarmony PR-Workflow für den gesamten Lebenszyklus. Fünf Modi:
+- Commit: Standardisiertes Commit mit DCO-Abzeichnung und Issue-Verknüpfung
+- PR erstellen: Commit + Push-to-Fork + Issue erstellen + PR im Upstream erstellen
+- Codecheck beheben: Gate-CI-Codecheckfehler von einem PR abrufen und automatisch beheben
+- PR überprüfen: Rufen Sie die Änderungen eines PR zur lokalen Codeüberprüfung ab
+- Korrektur der Bewertung: Rufen Sie ungelöste Bewertungskommentare von einem PR ab und korrigieren Sie sie automatisch
+Auslöser bei: /oh-pr-workflow, „提交代码“, „创建PR“, „提个PR“, „commit“,
+„修复告警“, „修复门禁“, „修复codecheck“, „codecheck beheben“,
+„review pr“, „review这个pr“, „看下这个pr“, „检视pr“,
+„修复review“, „修复检视意见“, „fix review“,
+oder eine GitCode-PR-URL mit Korrektur-/Überprüfungsabsicht.

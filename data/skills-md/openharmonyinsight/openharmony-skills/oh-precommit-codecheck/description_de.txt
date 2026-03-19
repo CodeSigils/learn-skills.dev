@@ -1,0 +1,5 @@
+Führen Sie lokale Code-Qualitätsprüfungen durch, die eine Teilmenge der OpenHarmony-Gate-CI abdecken
+(Copyright, CodeArts C/C++) plus zusätzliche lokale Prüfungen (pylint/flake8,
+Shellcheck/Bashate, GN-Format). Vor dem Commit verwenden, um Gate-Ausfälle zu reduzieren.
+Auslöser bei: /oh-precommit-codecheck, „门禁检查“, „门禁预检“, „检查代码“,
+„Codecheck ausführen“ oder nach Abschluss der Codeimplementierung.
