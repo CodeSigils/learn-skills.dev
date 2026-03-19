@@ -1,0 +1,1 @@
+Use when the user wants Codex CLI session continuity across repeated non-interactive runs. Read the session ID from a project-root `.codex-cli-session-id` file when available; otherwise bootstrap a new Codex session, persist the new session ID, and then run the real task with `codex exec resume`. Covers session continuity, `--json`, `-m`, and project-scoped session pinning.

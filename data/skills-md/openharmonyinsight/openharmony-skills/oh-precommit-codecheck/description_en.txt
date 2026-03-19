@@ -1,0 +1,5 @@
+Run local code quality checks covering a subset of OpenHarmony gate CI
+(copyright, CodeArts C/C++) plus additional local checks (pylint/flake8,
+shellcheck/bashate, gn format). Use before committing to reduce gate failures.
+Triggers on: /oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+"run codecheck", or after completing code implementation.

@@ -1,0 +1,1 @@
+Operates AIR agentic wallets through AIR's `/v2/wallet/agent-sign` HTTP endpoint and ERC-4337 UserOps. Use when an external agent receives an AIR handoff bundle with `userId`, `walletId`, `privyAppId`, `abstractAccountAddress`, and `airApiAgentSignUrl`, and needs to sign messages, typed data, or control the smart account onchain.

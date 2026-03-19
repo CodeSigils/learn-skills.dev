@@ -1,0 +1,11 @@
+OpenHarmony PR full lifecycle workflow. Five modes:
+- Commit: standardized commit with DCO sign-off and Issue linking
+- Create PR: commit + push to fork + create Issue + create PR on upstream
+- Fix Codecheck: fetch gate CI codecheck defects from a PR and auto-fix them
+- Review PR: fetch a PR's changes to local for code review
+- Fix Review: fetch unresolved review comments from a PR and auto-fix them
+Triggers on: /oh-pr-workflow, "提交代码", "创建PR", "提个PR", "commit",
+"修复告警", "修复门禁", "修复codecheck", "fix codecheck",
+"review pr", "review这个pr", "看下这个pr", "检视pr",
+"修复review", "修复检视意见", "fix review",
+or a GitCode PR URL with fix/review intent.

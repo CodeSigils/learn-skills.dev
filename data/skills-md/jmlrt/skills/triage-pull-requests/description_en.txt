@@ -1,0 +1,1 @@
+Orchestrates review of one or more GitHub PRs in parallel using subagents. Produces a triage summary table with Critical/Suggestion/NIT findings per PR, then posts reviews (approve/comment/request-changes) based on user decisions. Use when the user asks to review multiple PRs, review PRs in parallel, or batch-review PRs across repos.
