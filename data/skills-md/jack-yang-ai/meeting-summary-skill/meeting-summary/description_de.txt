@@ -1,17 +1,17 @@
-Fähigkeit, Besprechungsaufzeichnungen in Protokolle zu strukturieren. Unterstützt Step-ASR-Transkription, Pyannote-Sprecherdiarisierung, Voice-Print-Real-Name-Matching, strukturierte Zusammenfassungsgenerierung und stückweise inkrementelle Verarbeitung langer Aufnahmen.
+Eine Orchestrierungsfähigkeit, die Besprechungsaufzeichnungen in strukturierte Protokolle umwandelt. Unterstützt Step-ASR-Transkription, Pyannote-Sprechertagebuch, Stimmabdruck-zu-Namen-Abgleich, strukturierte Zusammenfassungsgenerierung und stückweise inkrementelle Verarbeitung langer Aufnahmen.
 
 Auslösebedingungen:
-(1) Der Benutzer sendet eine Besprechungsaufzeichnungsdatei (mp3/wav/ogg/opus/m4a/flac)
-(2) Der Benutzer sagt „Besprechung zusammenfassen“, „Besprechungsprotokoll“, „Diese Aufzeichnung für mich zusammenfassen“, „Besprechungszusammenfassung“
-(3) Der Benutzer sagt „Stimmenabdruck registrieren“, „Meine Stimme merken“, „Stimmenabdruck registrieren“
-(4) Benutzer sagt „Wer spricht“, „Sprecher identifizieren“
-(5) Der Benutzer sendet eine Audiodatei und bittet um eine Transkription mit Sprecherbezeichnungen
-(6) Der Benutzer fragt zunächst nach kurzen Minuten und verfeinert dann die Sprechergenauigkeit
-(7) Der Benutzer bittet darum, eine neue Besprechungszusammenfassung zu erstellen, die sich auf den Stil historischer Protokolle bezieht
+(1) Der Benutzer sendet eine Meeting-Audiodatei (mp3/wav/ogg/opus/m4a/flac)
+(2) Der Benutzer sagt „Besprechung zusammenfassen“, „Besprechungsprotokoll“, „Diese Aufzeichnung zusammenfassen“ oder „Besprechungszusammenfassung“.
+(3) Der Benutzer sagt „Stimmenabdruck registrieren“, „Meine Stimme merken“ oder „Stimmenabdruck registrieren“.
+(4) Der Benutzer sagt „Wer spricht“, „Sprecher identifizieren“ oder „Sprecher identifizieren“.
+(5) Der Benutzer sendet eine Audiodatei und fordert eine Transkription mit Sprecherbezeichnungen an
+(6) Der Benutzer fragt zuerst nach schnellen Minuten und dann nach einer verfeinerten Sprechergenauigkeit
+(7) Der Benutzer fordert eine neue Besprechungszusammenfassung im Stil historischer Protokolle an
 
 Verwendete Modelle:
-- ASR-Transkription: „step-asr“ (Datei-Upload-Schnittstelle)
-- LLM (Schätzung der Mitarbeiterzahl + Generierung von Minuten): „step-3.5-flash“ (kann über die Umgebungsvariable MEETING_SUMMARY_LLM_MODEL überschrieben werden)
+- ASR-Transkription: „step-asr“ (Datei-Upload-Endpunkt)
+- LLM (Personalzahlschätzung + Minutengenerierung): „step-3.5-flash“ (überschreibbar über die Umgebungsvariable MEETING_SUMMARY_LLM_MODEL)
 
 Abhängigkeiten:
 - StepFun-API-Schlüssel (ASR + LLM) – beantragen Sie unter https://platform.stepfun.com/interface-key
@@ -19,4 +19,4 @@ Abhängigkeiten:
 - Python: Numpy, Scipy, Soundfile, Onnxruntime
 - Optional: pyannote.audio (separater Venv, benötigt PyTorch)
 - Lokale Modelle (Wespeaker / Pyannote) erfordern die Registrierung eines Hugging Face-Kontos und die Erlaubnis zum Herunterladen von https://huggingface.co/
-- Weitere Informationen finden Sie unter references/setup-guide.md
+- Siehe references/setup-guide.md

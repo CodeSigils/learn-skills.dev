@@ -1,22 +1,22 @@
-一種將會議錄音變成結構化會議記錄的寫作技巧。支援Step ASR轉錄、pyannote說話人二值化、基於聲紋的實名匹配、結構化摘要生成以及長錄音的分塊增量處理。
+一種將會議錄音轉換為結構化會議記錄的編排技能。支援 Step ASR 轉錄、pyannote 說話人分類、聲紋與姓名匹配、結構化摘要生成以及長錄音的分塊增量處理。
 
 觸發條件：
 (1) 使用者發送會議音訊檔案(mp3/wav/ogg/opus/m4a/flac)
-(2) 使用者說“總結會議”、“會議記錄”、“為我總結此錄音”或“會議總結”
+(2) 使用者說“總結會議”、“會議記錄”、“總結本次錄音”或“會議總結”
 (3) 用戶說“註冊聲紋”、“記住我的聲音”或“註冊聲紋”
 (4) 使用者說出「誰在說話」、「辨識說話者」或「辨識說話者」
 (5) 使用者發送音訊檔案並請求帶有說話者標籤的轉錄
-(6) 使用者先要求快速草擬會議記錄，然後再完善演講者的準確性
-(7) 使用者請求參考歷史記錄風格的新會議摘要
+(6) 使用者首先要求快速發言，然後提高說話者的準確性
+(7) 使用者請求根據歷史記錄編寫新的會議摘要
 
 使用型號：
 - ASR 轉錄：「step-asr」（檔案上傳端點）
-- LLM（人數估計 + 分鐘產生）：「step-3.5-flash」（可以透過環境變數 MEETING_SUMMARY_LLM_MODEL 覆蓋）
+- LLM（人數估計 + 分鐘產生）：「step-3.5-flash」（可透過環境變數 MEETING_SUMMARY_LLM_MODEL 覆寫）
 
 依賴項：
 - StepFun API 金鑰 (ASR + LLM) — 在 https://platform.stepfun.com/interface-key 申請
 - ffmpeg（音訊預處理）
 - Python：numpy、scipy、soundfile、onnxruntime
 - 可選：pyannote.audio（單獨的 venv，需要 PyTorch）
-- 本地型號（wespeaker / pyannote）必須在 https://huggingface.co/ 註冊並獲得許可後下載
-- 詳細資訊請參閱references/setup-guide.md
+- 本地型號（wespeaker / pyannote）需要註冊 Hugging Face 帳戶並從 https://huggingface.co/ 下載權限
+- 請參閱參考文獻/setup-guide.md

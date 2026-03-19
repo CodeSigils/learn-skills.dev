@@ -1,17 +1,17 @@
-A compositional skill that turns meeting recordings into structured minutes. Supports Step ASR transcription, pyannote speaker diarization, voiceprint-to-name matching, structured summary generation, and chunked incremental processing of long recordings.
+An orchestration skill that converts meeting recordings into structured minutes. Supports Step ASR transcription, pyannote speaker diarization, voiceprint-to-name matching, structured summary generation, and chunked incremental processing of long recordings.
 
 Trigger conditions:
-(1) User sends a meeting recording file (mp3/wav/ogg/opus/m4a/flac)
-(2) User says "summarize meeting", "meeting minutes", "summarize this recording for me", "meeting summary"
-(3) User says "enroll voiceprint", "remember my voice", "enroll voiceprint"
-(4) User says "who is speaking", "identify speaker", "identify speaker"
+(1) User sends a meeting audio file (mp3/wav/ogg/opus/m4a/flac)
+(2) User says “summarize meeting,” “meeting minutes,” “summarize this recording,” or “meeting summary”
+(3) User says “register voiceprint,” “remember my voice,” or “enroll voiceprint”
+(4) User says “who’s speaking,” “identify speaker,” or “identify speaker”
 (5) User sends an audio file and requests transcription with speaker labels
 (6) User asks for quick minutes first, then refined speaker accuracy
-(7) User requests a new meeting summary referencing historical minute styles
+(7) User requests new meeting summary styled after historical minutes
 
 Models used:
-- ASR transcription: `step-asr` (file-upload interface)
-- LLM (headcount estimation + minutes generation): `step-3.5-flash` (can be overridden via env var MEETING_SUMMARY_LLM_MODEL)
+- ASR transcription: `step-asr` (file-upload endpoint)
+- LLM (headcount estimation + minutes generation): `step-3.5-flash` (overridable via env var MEETING_SUMMARY_LLM_MODEL)
 
 Dependencies:
 - StepFun API Key (ASR + LLM) — apply at https://platform.stepfun.com/interface-key

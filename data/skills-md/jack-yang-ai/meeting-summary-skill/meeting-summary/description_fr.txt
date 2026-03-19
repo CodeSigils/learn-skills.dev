@@ -1,13 +1,13 @@
-Une compétence de composition pour transformer les enregistrements de réunions en procès-verbaux structurés. Prend en charge la transcription Step ASR, la diarisation du locuteur pyannote, la correspondance empreinte vocale-nom, la génération de résumés structurés et le traitement incrémentiel fragmenté des enregistrements longs.
+Une compétence d'orchestration qui convertit les enregistrements de réunions en procès-verbaux structurés. Prend en charge la transcription Step ASR, la diarisation du locuteur pyannote, la correspondance empreinte vocale-nom, la génération de résumés structurés et le traitement incrémentiel fragmenté des enregistrements longs.
 
 Conditions de déclenchement :
 (1) L'utilisateur envoie un fichier audio de réunion (mp3/wav/ogg/opus/m4a/flac)
-(2) L'utilisateur dit "Résumer la réunion", "Procès-verbal de la réunion", "Résumer cet enregistrement pour moi", "Résumé de la réunion"
-(3) L'utilisateur dit « enregistrer l'empreinte vocale », « mémoriser ma voix », « enregistrer l'empreinte vocale »
-(4) L'utilisateur dit "qui parle", "identifier l'orateur", "identifier l'orateur"
+(2) L'utilisateur dit « résumer la réunion », « procès-verbal de la réunion », « résumer cet enregistrement » ou « résumé de la réunion »
+(3) L'utilisateur dit « enregistrer l'empreinte vocale », « mémoriser ma voix » ou « enregistrer l'empreinte vocale »
+(4) L'utilisateur dit « qui parle », « identifier l'orateur » ou « identifier l'orateur »
 (5) L'utilisateur envoie un fichier audio et demande une transcription avec les étiquettes des locuteurs
-(6) L'utilisateur demande d'abord des minutes rapides, puis une précision raffinée du haut-parleur
-(7) L'utilisateur demande un nouveau résumé de la réunion dans le style du procès-verbal précédent
+(6) L'utilisateur demande d'abord des minutes rapides, puis une précision affinée du haut-parleur
+(7) L'utilisateur demande un nouveau résumé de réunion stylisé d'après les procès-verbaux historiques
 
 Modèles utilisés :
 - Transcription ASR : `step-asr` (point de terminaison de téléchargement de fichier)
@@ -18,5 +18,5 @@ Dépendances :
 - ffmpeg (prétraitement audio)
 - Python : numpy, scipy, soundfile, onnxruntime
 - Facultatif : pyannote.audio (venv séparé, nécessite PyTorch)
-- Les modèles locaux (wespeaker / pyannote) nécessitent un compte Hugging Face et une autorisation de téléchargement depuis https://huggingface.co/
+- Les modèles locaux (wespeaker / pyannote) nécessitent l'enregistrement d'un compte Hugging Face et le téléchargement d'une autorisation depuis https://huggingface.co/
 - Voir références/setup-guide.md
