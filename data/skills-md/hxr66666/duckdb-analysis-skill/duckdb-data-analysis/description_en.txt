@@ -1,26 +1,26 @@
-Suitable for querying, analyzing, and visualizing data. For example, analyze data from CSV, Excel, Parquet, JSON, JSONL, and other files, perform statistical aggregation and classification queries. First import the data, then use SQL statements to query, analyze, and visualize it.
+适用于查询、分析和可视化数据。例如分析csv、excel、parquet、json、jsonl  等文件的数据,进行统计聚合分类查询。先导入数据,然后使用SQL语句查询、分析和可视化数据。
 
-**Supported file formats**:
-- CSV files: Direct loading supported, including compressed CSV files (e.g., .gz)
-- Excel files: .xlsx and .xls formats supported
-- Parquet files: Columnar storage format supported
-- JSON files: Standard JSON format supported
-- JSONL files: One JSON object per line supported
+**支持的文件格式**:
+- CSV 文件: 支持直接加载，包括压缩的CSV文件（如.gz）
+- Excel 文件: 支持.xlsx和.xls格式
+- Parquet 文件: 支持列式存储格式
+- JSON 文件: 支持标准JSON格式
+- JSONL 文件: 支持每行一个JSON对象的格式
 
-**File import instructions**:
-- Based on DuckDB's official recommended import methods
-- Automatic file format recognition and loading
-- Supports relative and absolute paths
-- Direct loading of compressed files supported
+**文件导入说明**:
+- 基于DuckDB官方推荐的导入方法
+- 自动处理文件格式识别和加载
+- 支持相对路径和绝对路径
+- 支持压缩文件的直接加载
 
-**WHEN TO USE**:
-- When you need to query, analyze, and visualize data.
-- When you need to perform statistical aggregation and classification queries on data.
-- When you need to process and analyze data files in multiple formats.
-- When you need to generate data visualization charts.
+**WHEN TO USE:**
+- 你需要查询、分析和可视化数据。
+- 你需要对数据进行统计聚合分类查询。
+- 你需要处理和分析多种格式的数据文件。
+- 你需要生成数据可视化图表。
 
-**EXAMPLE USAGE**:
-- Analyze sales data and generate sales trend charts
-- Process user data from CSV files and perform user behavior analysis
-- Analyze financial data from Excel files and generate financial reports
-- Process JSON-format log data and perform log analysis
+**EXAMPLE USAGE:**
+- 分析销售数据，生成销售趋势图表
+- 处理CSV文件中的用户数据，进行用户行为分析
+- 分析Excel文件中的财务数据，生成财务报表
+- 处理JSON格式的日志数据，进行日志分析
