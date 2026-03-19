@@ -1,0 +1,5 @@
+Exécuter des contrôles de qualité du code local couvrant un sous-ensemble de CI de porte OpenHarmony
+(copyright, CodeArts C/C++) plus des vérifications locales supplémentaires (pylint/flake8,
+shellcheck/bashate, format gn). À utiliser avant de vous engager à réduire les défaillances des portes.
+Déclencheurs sur : /oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+"exécuter la vérification du code", ou après avoir terminé l'implémentation du code.
