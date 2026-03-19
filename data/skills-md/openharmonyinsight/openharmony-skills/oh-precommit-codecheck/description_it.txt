@@ -1,0 +1,5 @@
+Esegui controlli di qualità del codice locale che coprono un sottoinsieme di CI gate OpenHarmony
+(copyright, CodeArts C/C++) più controlli locali aggiuntivi (pylint/flake8,
+shellcheck/bashate, formato gn). Utilizzare prima di impegnarsi per ridurre i guasti del gate.
+Si attiva su: /oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+"esegui codecheck" o dopo aver completato l'implementazione del codice.

@@ -1,0 +1,1 @@
+Gestisce i portafogli agenti AIR tramite l'endpoint HTTP `/v2/wallet/agent-sign` di AIR e UserOps ERC-4337. Da utilizzare quando un agente esterno riceve un bundle di trasferimento AIR con `userId`, `walletId`, `privyAppId`, `abstractAccountAddress` e `airApiAgentSignUrl` e deve firmare messaggi, dati digitati o controllare lo smart account onchain.

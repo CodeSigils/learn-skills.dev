@@ -1,0 +1,11 @@
+Flusso di lavoro completo del ciclo di vita di OpenHarmony PR. Cinque modalità:
+- Commit: commit standardizzato con approvazione DCO e collegamento al problema
+- Crea PR: commit + push to fork + crea Issue + crea PR a monte
+- Correzione del controllo del codice: recupera i difetti del controllo del codice CI del gate da un PR e correggili automaticamente
+- Revisione PR: recupera le modifiche di un PR in locale per la revisione del codice
+- Correggi revisione: recupera i commenti di revisione non risolti da un PR e correggili automaticamente
+Si attiva su: /oh-pr-workflow, "提交代码", "创建PR", "提个PR", "commit",
+"修复告警", "修复门禁", "修复codecheck", "correzione codecheck",
+"recensione pr", "recensione这个pr", "看下这个pr", "检视pr",
+"修复recensione", "修复检视意见", "correzione revisione",
+o un URL PR GitCode con intento di correzione/revisione.
