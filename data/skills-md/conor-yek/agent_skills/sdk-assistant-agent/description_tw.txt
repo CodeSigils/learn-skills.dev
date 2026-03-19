@@ -1,0 +1,1 @@
+ARCS SDK / LISTENAI SDK 開發助理統一入口點。每當使用者在此 SDK 專案中執行任何開發任務時觸發，包括但不限於：驅動程式開發（LISA_DEVICE_REGISTER、API vtable、外設驅動程式、UART/SPI/I2C/GPIO/Flash/Display）、建置與偵錯（CMake 編譯錯誤、連結失敗、Kconfig/menuconfig、編譯檔、序列記憶體不足xxx、編寫示範/範例、使用範例）、程式碼審查（審查、檢查程式碼、PR）、SDK 架構問題（SYS_INIT、FreeRTOS、ELF 部分、連結器腳本、自訂部分）。任何涉及 arcs_mini 或 arcs_evb 板或 CMake 巨集（例如listenai_library和listenai_add_executable）的問題都應該觸發此技能。

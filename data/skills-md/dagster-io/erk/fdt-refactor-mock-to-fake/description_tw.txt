@@ -1,0 +1,1 @@
+將使用unittest.mock.patch或MagicMock的測試重構為erk基於網關的假模式。當測試導入unittest.mock時使用，使用@patch裝飾器，或直接呼叫mock.patch()作為上下文管理器。當 test_*.py 檔案修補模組級屬性（如 subprocess.run、shutil.which、os.environ 或其他系統呼叫）時至關重要。涵蓋製作原始碼可注入和重寫測試。
