@@ -1,0 +1,22 @@
+Una capacità di orchestrazione che converte le registrazioni delle riunioni in verbali strutturati. Supporta la trascrizione Step ASR, la diarizzazione degli altoparlanti Pyannote, l'identificazione degli altoparlanti basata sull'impronta vocale, la generazione di riepiloghi strutturati e l'elaborazione incrementale in blocchi di registrazioni lunghe.
+
+Condizioni di attivazione:
+(1) L'utente invia un file di registrazione della riunione (mp3/wav/ogg/opus/m4a/flac)
+(2) L'utente dice "riepiloga riunione", "verbale della riunione", "aiutami a riassumere la registrazione", "riepilogo della riunione"
+(3) L'utente dice "registra l'impronta vocale", "ricorda la mia voce", "registra l'impronta vocale"
+(4) L'utente dice "chi sta parlando", "identifica l'oratore", "identifica l'oratore"
+(5) L'utente invia un file audio e richiede la trascrizione e l'etichettatura del relatore
+(6) L'utente richiede prima minuti rapidi, quindi una precisione migliorata dell'altoparlante
+(7) Richieste dell'utente che generano un nuovo riepilogo della riunione che fa riferimento allo stile dei minuti storici
+
+Modelli utilizzati:
+- Trascrizione ASR: `step-asr` (interfaccia di caricamento file)
+- LLM (stima dell'organico + generazione di minuti): `step-3.5-flash` (può essere sovrascritto tramite env var MEETING_SUMMARY_LLM_MODEL)
+
+Dipendenze:
+- Chiave API StepFun (ASR + LLM): applicare su https://platform.stepfun.com/interface-key
+- ffmpeg (preelaborazione audio)
+- Python: numpy, scipy, file audio, onnxruntime
+- Opzionale: pyannote.audio (venv separato, richiede PyTorch)
+- I modelli locali (wespeaker/pyannote) richiedono la registrazione su https://huggingface.co/ e l'ottenimento delle autorizzazioni prima del download
+- Per i dettagli vedere references/setup-guide.md

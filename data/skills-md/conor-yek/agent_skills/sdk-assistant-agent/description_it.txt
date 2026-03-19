@@ -1,0 +1,8 @@
+Voce unificata dell'assistente allo sviluppo ARCS SDK / LISTENAI SDK. Si attiva ogni volta che un utente esegue qualsiasi attività di sviluppo all'interno di questo progetto SDK, incluso ma non limitato a:  
+sviluppo driver (LISA_DEVICE_REGISTER, API vtable, driver periferici, UART/SPI/I2C/GPIO/Flash/Display),  
+compilazione e debug (errori di compilazione CMake, errori di collegamento, Kconfig/menuconfig, file di mappa, memoria insufficiente, compilazione/flash/seriale),  
+generazione di campioni (come utilizzare xxx, scrivere una demo/campione, esempi di utilizzo),  
+revisione del codice (revisione, ispezione del codice, PR),  
+Problemi di architettura SDK (SYS_INIT, FreeRTOS, sezioni ELF, script linker, sezioni personalizzate).  
+
+Qualsiasi problema che coinvolga la scheda arcs_mini o arcs_evb o le macro CMake come listenai_library e listenai_add_executable dovrebbe attivare questa abilità.
