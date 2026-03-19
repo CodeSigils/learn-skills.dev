@@ -1,0 +1,1 @@
+将使用unittest.mock.patch或MagicMock的测试重构为erk基于网关的假模式。当测试导入unittest.mock时使用，使用@patch装饰器，或直接调用mock.patch()作为上下文管理器。当 test_*.py 文件修补模块级属性（如 subprocess.run、shutil.which、os.environ 或其他系统调用）时至关重要。涵盖制作源代码可注入和重写测试。

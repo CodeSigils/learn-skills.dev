@@ -1,22 +1,22 @@
-会议录音转结构化纪要的编排型 skill。支持 Step ASR 转写、pyannote 说话人分割、声纹实名匹配、结构化摘要生成，以及长录音的 chunk 化增量处理。
+A compositional skill that turns meeting recordings into structured minutes. Supports Step ASR transcription, pyannote speaker diarization, voiceprint-to-name matching, structured summary generation, and chunked incremental processing of long recordings.
 
-触发条件：
-(1) 用户发送会议录音文件（mp3/wav/ogg/opus/m4a/flac）
-(2) 用户说"总结会议"、"会议纪要"、"帮我总结录音"、"meeting summary"
-(3) 用户说"注册声纹"、"记住我的声音"、"enroll voiceprint"
-(4) 用户说"谁在说话"、"识别说话人"、"identify speaker"
-(5) 用户发送音频文件并要求转写、标注说话人
-(6) 用户要求先快速出纪要、再补 speaker 精度
-(7) 用户要求参考历史纪要风格生成新的会议摘要
+Trigger conditions:
+(1) User sends a meeting recording file (mp3/wav/ogg/opus/m4a/flac)
+(2) User says "summarize meeting", "meeting minutes", "summarize this recording for me", "meeting summary"
+(3) User says "enroll voiceprint", "remember my voice", "enroll voiceprint"
+(4) User says "who is speaking", "identify speaker", "identify speaker"
+(5) User sends an audio file and requests transcription with speaker labels
+(6) User asks for quick minutes first, then refined speaker accuracy
+(7) User requests a new meeting summary referencing historical minute styles
 
-使用模型：
-- ASR 转写：`step-asr`（文件上传接口）
-- LLM（估人数 + 纪要生成）：`step-3.5-flash`（可通过环境变量 MEETING_SUMMARY_LLM_MODEL 覆盖）
+Models used:
+- ASR transcription: `step-asr` (file-upload interface)
+- LLM (headcount estimation + minutes generation): `step-3.5-flash` (can be overridden via env var MEETING_SUMMARY_LLM_MODEL)
 
-依赖：
-- StepFun API Key（ASR + LLM）— 申请地址 https://platform.stepfun.com/interface-key
-- ffmpeg（音频预处理）
+Dependencies:
+- StepFun API Key (ASR + LLM) — apply at https://platform.stepfun.com/interface-key
+- ffmpeg (audio preprocessing)
 - Python: numpy, scipy, soundfile, onnxruntime
-- 可选：pyannote.audio（独立 venv，需 PyTorch）
-- 本地模型（wespeaker / pyannote）需从 https://huggingface.co/ 注册账号并获取权限后下载
-- 详见 references/setup-guide.md
+- Optional: pyannote.audio (separate venv, needs PyTorch)
+- Local models (wespeaker / pyannote) require Hugging Face account registration and permission download from https://huggingface.co/
+- See references/setup-guide.md
