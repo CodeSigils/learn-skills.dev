@@ -1,0 +1,1 @@
+تشغيل محافظ وكيل AIR من خلال نقطة نهاية HTTP الخاصة بـ AIR `/v2/wallet/agent-sign` وERC-4337 UserOps. يُستخدم عندما يتلقى وكيل خارجي حزمة تسليم AIR تحتوي على "userId"، و"walletId"، و"privyAppId"، و"abstractAccountAddress"، و"airApiAgentSignUrl"، ويحتاج إلى توقيع الرسائل أو البيانات المكتوبة أو التحكم في الحساب الذكي على السلسلة.
