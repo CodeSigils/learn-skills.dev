@@ -1,0 +1,26 @@
+Adatto per interrogare, analizzare e visualizzare dati. Ad esempio, analizzando dati da file CSV, Excel, Parquet, JSON, JSONL, eseguendo query di aggregazione statistica e classificazione. Importare innanzitutto i dati, quindi utilizzare le istruzioni SQL per eseguire query, analizzare e visualizzare i dati.
+
+**Formati di file supportati**:
+- File CSV: caricamento diretto supportato, inclusi file CSV compressi (ad esempio .gz)
+- File Excel: formati .xlsx e .xls supportati
+- File parquet: formato di archiviazione a colonne supportato
+- File JSON: formato JSON standard supportato
+- File JSONL: formato supportato con un oggetto JSON per riga
+
+**Istruzioni per l'importazione dei file**:
+- Basato sui metodi di importazione consigliati ufficiali di DuckDB
+- Riconoscimento e caricamento automatico del formato file
+- Supporta percorsi relativi e assoluti
+- È supportato il caricamento diretto di file compressi
+
+**QUANDO USARLO:**
+- È necessario interrogare, analizzare e visualizzare i dati.
+- È necessario eseguire query di aggregazione statistica e classificazione sui dati.
+- È necessario elaborare e analizzare file di dati in più formati.
+- È necessario generare grafici di visualizzazione dei dati.
+
+**ESEMPIO DI UTILIZZO:**
+- Analizzare i dati di vendita e generare grafici sull'andamento delle vendite
+- Elaborare i dati utente in file CSV per l'analisi del comportamento degli utenti
+- Analizzare i dati finanziari in file Excel e generare report finanziari
+- Elabora i dati di registro in formato JSON per l'analisi dei registri

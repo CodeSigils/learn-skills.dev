@@ -1,0 +1,18 @@
+Abilità di automazione del rafforzamento dei VPS. Accedi al VPS tramite SSH e applica una configurazione completa della politica di sicurezza.
+
+Frasi trigger:
+- "rafforzare la sicurezza VPS", "configurazione sicurezza VPS", "nuova inizializzazione VPS"
+- "configura sicurezza SSH", "cambia porta SSH", "disabilita accesso con password di root"
+- "Potenziamento VPS", "impostazioni di sicurezza del server", "potenziamento"
+
+Caratteristiche (7 passaggi di indurimento):
+1. Crea un utente sudo, disabilita l'accesso con password di root
+2. Cambia porta SSH (supporta diverse versioni di Ubuntu)
+3. Installa e configura automaticamente Fail2ban
+4. Supporto per l'accesso basato su chiave SSH
+5. Notifiche di accesso SSH (opzionale)
+6. Configurazione del firewall UFW
+7. Promemoria sulla sicurezza di Docker
+
+Autore: github.com/wlzh
+Versione: 1.0.0

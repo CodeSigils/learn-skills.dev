@@ -1,0 +1,9 @@
+Correggi i bug trovati da /find-bugs, segnalati dall'utente o riscontrati durante lo sviluppo.
+Riproduce sistematicamente, diagnostica la causa principale, pianifica soluzioni minime e implementa
+test di regressione, verifica l'assenza di regressioni e riporta i risultati. Include specifici per tipo di bug
+correggere i playbook per sicurezza, logica, asincrona, sicurezza nulla, condizioni di gara e altro ancora.
+Include file di riferimento specifici del framework per 18 framework/linguaggi (Express, React,
+Next.js, Fastify, Hono, Remix, Laravel, Go, Gin, Echo, Fiber, Swift, Bun, Rust,
+Axum, Actix Web, Rocket, React Native). Gestisce bug singoli, bug multi-file e correzioni batch dall'output di find-bugs.
+Richiamare tramite /bugfix o quando l'utente dice "correggi questo bug", "correggi i risultati",
+"correggi il risultato n. 3", "correggi i bug critici".
