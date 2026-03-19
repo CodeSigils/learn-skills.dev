@@ -1,0 +1,4 @@
+Orchestrate multiple specialized agents working in parallel when building independent features.
+Use when the task list contains 3+ unrelated tasks that don't share state or files.
+Matches each task to the right expert agent and launches them concurrently via the Agent tool
+with worktree isolation. Supports all available subagent types.

@@ -1,0 +1,9 @@
+Fix bugs found by /find-bugs, reported by the user, or encountered during development.
+Systematically reproduces, diagnoses root cause, plans minimal fix, implements with
+regression tests, verifies no regressions, and reports results. Includes bug-type-specific
+fix playbooks for security, logic, async, null safety, race conditions, and more.
+Includes framework-specific reference files for 18 frameworks/languages (Express, React,
+Next.js, Fastify, Hono, Remix, Laravel, Go, Gin, Echo, Fiber, Swift, Bun, Rust,
+Axum, Actix Web, Rocket, React Native). Handles single bugs, multi-file bugs, and batch fixes from find-bugs output.
+Invoke via /bugfix or when user says "fix this bug", "fix the findings",
+"fix finding #3", "fix the critical bugs".

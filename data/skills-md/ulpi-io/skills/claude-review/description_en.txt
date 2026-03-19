@@ -1,0 +1,4 @@
+Spawn a separate Claude Code agent to review code changes made in the current session
+or branch. Uses the Agent tool with worktree isolation so the reviewer gets an independent
+read-only copy. Use when the user says "claude review", "self-review", "/claude-review",
+or when a task plan calls for post-task review.

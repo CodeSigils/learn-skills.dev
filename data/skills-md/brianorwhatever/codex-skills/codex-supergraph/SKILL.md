@@ -1,0 +1,88 @@
+---
+name: codex-supergraph
+description: >-
+  Use when the user asks about token prices, charts, holders, trending tokens,
+  pair data, or any on-chain analytics from Codex.
+  Also use when building GraphQL queries against https://graph.codex.io/graphql.
+metadata:
+  author: codex-data
+  version: "1.0"
+---
+
+# Codex Supergraph Data
+
+## Authentication
+
+Pass `$CODEX_API_KEY` in the `Authorization` header if available. If the server returns `402 Payment Required`, use the codex-gateway skill to handle the payment flow.
+
+If both a local and global copy of this skill exist, the local copy takes precedence.
+
+## Summary
+
+Use this skill to produce valid Codex GraphQL requests using API key authentication.
+
+|                       |                                                                 |
+| --------------------- | --------------------------------------------------------------- |
+| HTTP endpoint         | `https://graph.codex.io/graphql`                                |
+| WebSocket endpoint    | `wss://graph.codex.io/graphql`                                  |
+| Schema (SDL)          | `https://graph.codex.io/schema/latest.graphql`                  |
+| Introspection JSON    | `https://graph.codex.io/schema/latest.json`                     |
+| API-key auth          | `Authorization: <key>` or `Authorization: Bearer <token>`       |
+
+## Session preflight (required)
+
+Run once and cache:
+
+```bash
+curl -sS https://graph.codex.io/graphql \
+  -H "Content-Type: application/json" \
+  -H "Authorization: $CODEX_API_KEY" \
+  --data-binary '{"query":"query GetNetworks { getNetworks { id name } }"}'
+```
+
+Use network IDs from this result before expensive requests.
+
+## Operation selection
+
+| Need | Operation |
+| ---- | --------- |
+| Networks | `getNetworks` |
+| Token discovery/search | `filterTokens` |
+| Trending tokens | `filterTokens` with `trendingScore24` ranking |
+| Token prices | `getTokenPrices` |
+| Pairs for a token | `listPairsWithMetadataForToken` |
+| Pair metadata | `pairMetadata` |
+| Pair OHLCV | `getBars` |
+| Token OHLCV | `getTokenBars` |
+| Token events | `getTokenEvents` |
+| Maker events | `getTokenEventsForMaker` |
+| Wallet leaders | `filterTokenWallets` |
+| Wallet chart/stats | `walletChart`, `detailedWalletStats` |
+| Holders | `holders` |
+| Top-10 concentration | `top10HoldersPercent` |
+| Live single price | `onPriceUpdated` |
+| Live multi-price | `onPricesUpdated` |
+| Live token events | `onTokenEventsCreated`, `onEventsCreatedByMaker` |
+| Live bars/pairs | `onBarsUpdated`, `onPairMetadataUpdated`, `onTokenBarsUpdated` |
+| Launchpad streams | `onLaunchpadTokenEventBatch`, `onLaunchpadTokenEvent` |
+| Unconfirmed Solana events | `onUnconfirmedEventsCreated` |
+| Short-lived keys | `createApiTokens`, `apiTokens`, `apiToken`, `deleteApiToken` |
+
+Default discovery path: start with `filterTokens`.
+
+## Rules
+
+- Never print raw API keys.
+- Validate `networkId` first.
+- Keep selection sets minimal until shape is confirmed.
+- Use `onPricesUpdated` instead of many single-token subscriptions.
+
+## References
+
+| File | Purpose |
+| ---- | ------- |
+| [references/gotchas.md](references/gotchas.md) | Common failure points — check here first |
+| [references/query-templates.md](references/query-templates.md) | Query + websocket templates with examples |
+| [references/endpoint-playbook.md](references/endpoint-playbook.md) | Operation selection heuristics by intent |
+| [references/apis.md](references/apis.md) | Endpoint/auth matrix, pagination, rate limits |
+| [references/tooling-and-mcp.md](references/tooling-and-mcp.md) | Codex Docs MCP setup for coding tools |
