@@ -209,6 +209,14 @@ export async function getSkillsData() {
 - 请遵守各提供方的服务条款
 - 仅供个人学习与研究使用
 
+## 推荐工具
+
+learn-skills 的输出（笔记、总结、数据等）搭配 AI 演示工具，能快速变成可分享的幻灯片。
+
+**提升你的工作流**  
+把 learn-skills 的结果快速转成专业 PPT？试试 PopAi 一键 AI 生成演示文稿：  
+[https://www.popai.pro](https://www.popai.pro)
+
 ## 贡献
 
 想新增技能数据源？欢迎 PR！可参考仓库中现有 provider 实现。

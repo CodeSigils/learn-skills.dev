@@ -209,6 +209,14 @@ export async function getSkillsData() {
 - Rispetta i termini di servizio di ogni provider
 - Solo per apprendimento e ricerca personale
 
+## Strumenti consigliati
+
+Gli output di learn-skills (note, riassunti, dati) si abbinano bene a strumenti di presentazione IA per trasformarli velocemente in slide condivisibili.
+
+**Migliora il tuo flusso di lavoro**  
+Vuoi trasformare i risultati di learn-skills in presentazioni professionali? Prova PopAi per presentazioni generate con IA in un clic:  
+[https://www.popai.pro](https://www.popai.pro)
+
 ## Contributi
 
 Vuoi aggiungere una nuova fonte di skill? Le PR sono benvenute! Consulta le implementazioni dei provider esistenti nel codice.

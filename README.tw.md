@@ -209,6 +209,14 @@ export async function getSkillsData() {
 - 請遵守各提供方的服務條款
 - 僅供個人學習與研究使用
 
+## 推薦工具
+
+learn-skills 的輸出（筆記、摘要、資料等）搭配 AI 簡報工具，能快速變成可分享的幻燈片。
+
+**提升你的工作流程**  
+把 learn-skills 的結果快速轉成專業 PPT？試試 PopAi 一鍵 AI 生成簡報：  
+[https://www.popai.pro](https://www.popai.pro)
+
 ## 貢獻
 
 想新增技能資料來源？歡迎 PR！可參考儲存庫中現有的 provider 實作。

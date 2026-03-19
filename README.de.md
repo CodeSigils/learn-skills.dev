@@ -209,6 +209,14 @@ export async function getSkillsData() {
 - Bitte die Nutzungsbedingungen jedes Anbieters einhalten
 - Nur für persönliches Lernen und Forschung
 
+## Empfohlene Tools
+
+Ausgaben von learn-skills (Notizen, Zusammenfassungen, Daten) lassen sich mit KI-Präsentationstools schnell in teilbare Folien verwandeln.
+
+**Workflow verbessern**  
+Ergebnisse von learn-skills als professionelle Präsentation? PopAi für KI-generierte Folien mit einem Klick ausprobieren:  
+[https://www.popai.pro](https://www.popai.pro)
+
 ## Mitwirken
 
 Neue Skill-Quelle hinzufügen? PRs sind willkommen! Schaut euch die vorhandenen Provider-Implementierungen im Repo an.

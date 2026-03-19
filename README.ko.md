@@ -209,6 +209,14 @@ export async function getSkillsData() {
 - 각 제공자의 서비스 약관을 준수하세요
 - 개인 학습 및 연구 목적으로만 사용하세요
 
+## 추천 도구
+
+learn-skills의 산출물(노트, 요약, 데이터 등)에 AI 프레젠테이션 도구를 더하면 공유하기 쉬운 슬라이드로 빠르게 옮길 수 있습니다.
+
+**워크플로 개선**  
+learn-skills 결과를 전문 PPT로? PopAi로 원클릭 AI 프레젠테이션 생성을 써 보세요:  
+[https://www.popai.pro](https://www.popai.pro)
+
 ## 기여
 
 새 스킬 소스를 추가하고 싶으신가요? PR을 환영합니다. 코드베이스의 기존 프로바이더 구현을 참고하세요.
