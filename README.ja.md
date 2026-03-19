@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-厳選された高品質な AI エージェント向けスキル。検索・インストール・コピー・共有ができます。  
-Claude Code、Cursor、OpenClaw、その他の AI コーディングツールと連携します。
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**Web アプリ:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — AI エージェントスキルの検索・インストール・コピー・共有。
+<p>厳選された高品質な AI エージェント向けスキル。検索・インストール・コピー・共有ができます。<br>
+Claude Code、Cursor、OpenClaw、その他の AI コーディングツールと連携します。</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
-    日本語 |
-    <a href="./README.ko.md">한국어</a> |
-    <a href="./README.fr.md">Français</a> |
-    <a href="./README.de.md">Deutsch</a> |
-    <a href="./README.es.md">Español</a> |
-    <a href="./README.it.md">Italiano</a> |
-    <a href="./README.ru.md">Русский</a> |
-    <a href="./README.ar.md">العربية</a>
+<p><strong>Web アプリ:</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — AI エージェントスキルの検索・インストール・コピー・共有。</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+日本語 |
+<a href="./README.ko.md">한국어</a> |
+<a href="./README.fr.md">Français</a> |
+<a href="./README.de.md">Deutsch</a> |
+<a href="./README.es.md">Español</a> |
+<a href="./README.it.md">Italiano</a> |
+<a href="./README.ru.md">Русский</a> |
+<a href="./README.ar.md">العربية</a>
 </p>
-<p align="center">
-    <em>厳選された高品質な AI エージェント向けスキル — 検索・インストール・コピー・共有。</em>
-</p>
+
+</div>
 
 ## データソース
 

@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-Kuratierte, hochwertige KI-Agenten-Skills. Suchen, installieren, kopieren und teilen.  
-Funktioniert mit Claude Code, Cursor, OpenClaw und anderen KI-Coding-Tools.
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**Web-App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — KI-Agenten-Skills suchen, installieren, kopieren und teilen.
+<p>Kuratierte, hochwertige KI-Agenten-Skills. Suchen, installieren, kopieren und teilen.<br>
+Funktioniert mit Claude Code, Cursor, OpenClaw und anderen KI-Coding-Tools.</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
-    <a href="./README.ja.md">日本語</a> |
-    <a href="./README.ko.md">한국어</a> |
-    <a href="./README.fr.md">Français</a> |
-    Deutsch |
-    <a href="./README.es.md">Español</a> |
-    <a href="./README.it.md">Italiano</a> |
-    <a href="./README.ru.md">Русский</a> |
-    <a href="./README.ar.md">العربية</a>
+<p><strong>Web-App:</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — KI-Agenten-Skills suchen, installieren, kopieren und teilen.</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+<a href="./README.ja.md">日本語</a> |
+<a href="./README.ko.md">한국어</a> |
+<a href="./README.fr.md">Français</a> |
+Deutsch |
+<a href="./README.es.md">Español</a> |
+<a href="./README.it.md">Italiano</a> |
+<a href="./README.ru.md">Русский</a> |
+<a href="./README.ar.md">العربية</a>
 </p>
-<p align="center">
-    <em>Kuratierte KI-Agenten-Skills — suchen, installieren, kopieren und teilen.</em>
-</p>
+
+</div>
 
 ## Datenquellen
 

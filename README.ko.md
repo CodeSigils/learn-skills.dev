@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-엄선된 고품질 AI 에이전트 스킬. 검색, 설치, 복사 및 공유를 지원합니다.  
-Claude Code, Cursor, OpenClaw 및 기타 AI 코딩 도구와 함께 사용할 수 있습니다.
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**웹 앱:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — AI 에이전트 스킬 검색, 설치, 복사 및 공유.
+<p>엄선된 고품질 AI 에이전트 스킬. 검색, 설치, 복사 및 공유를 지원합니다.<br>
+Claude Code, Cursor, OpenClaw 및 기타 AI 코딩 도구와 함께 사용할 수 있습니다.</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
-    <a href="./README.ja.md">日本語</a> |
-    한국어 |
-    <a href="./README.fr.md">Français</a> |
-    <a href="./README.de.md">Deutsch</a> |
-    <a href="./README.es.md">Español</a> |
-    <a href="./README.it.md">Italiano</a> |
-    <a href="./README.ru.md">Русский</a> |
-    <a href="./README.ar.md">العربية</a>
+<p><strong>웹 앱:</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — AI 에이전트 스킬 검색, 설치, 복사 및 공유.</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+<a href="./README.ja.md">日本語</a> |
+한국어 |
+<a href="./README.fr.md">Français</a> |
+<a href="./README.de.md">Deutsch</a> |
+<a href="./README.es.md">Español</a> |
+<a href="./README.it.md">Italiano</a> |
+<a href="./README.ru.md">Русский</a> |
+<a href="./README.ar.md">العربية</a>
 </p>
-<p align="center">
-    <em>엄선된 고품질 AI 에이전트 스킬 — 검색, 설치, 복사 및 공유.</em>
-</p>
+
+</div>
 
 ## 데이터 소스
 

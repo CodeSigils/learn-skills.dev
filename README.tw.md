@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-精選高品質 AI Agent Skills。搜尋、安裝、複製與分享。  
-適用於 Claude Code、Cursor、OpenClaw 及其他 AI 程式工具。
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**Web 應用：** [https://www.learn-skills.dev](https://www.learn-skills.dev) — 搜尋、安裝、複製與分享 AI Agent Skills。
+<p>精選高品質 AI Agent Skills。搜尋、安裝、複製與分享。<br>
+適用於 Claude Code、Cursor、OpenClaw 及其他 AI 程式工具。</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | 繁體中文 |
-    <a href="./README.ja.md">日本語</a> |
-    <a href="./README.ko.md">한국어</a> |
-    <a href="./README.fr.md">Français</a> |
-    <a href="./README.de.md">Deutsch</a> |
-    <a href="./README.es.md">Español</a> |
-    <a href="./README.it.md">Italiano</a> |
-    <a href="./README.ru.md">Русский</a> |
-    <a href="./README.ar.md">العربية</a>
+<p><strong>Web 應用：</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — 搜尋、安裝、複製與分享 AI Agent Skills。</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | 繁體中文 |
+<a href="./README.ja.md">日本語</a> |
+<a href="./README.ko.md">한국어</a> |
+<a href="./README.fr.md">Français</a> |
+<a href="./README.de.md">Deutsch</a> |
+<a href="./README.es.md">Español</a> |
+<a href="./README.it.md">Italiano</a> |
+<a href="./README.ru.md">Русский</a> |
+<a href="./README.ar.md">العربية</a>
 </p>
-<p align="center">
-    <em>精選高品質 AI Agent Skills——搜尋、安裝、複製與分享。</em>
-</p>
+
+</div>
 
 ## 資料來源
 

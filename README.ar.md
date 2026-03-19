@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-مهارات وكلاء ذكاء اصطناعي مُنتقاة وعالية الجودة. ابحث، ثبّت، انسخ، وشارك.  
-يعمل مع Claude Code وCursor وOpenClaw وأدوات برمجة أخرى مدعومة بالذكاء الاصطناعي.
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**تطبيق الويب:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — ابحث، ثبّت، انسخ، وشارك مهارات وكلاء الذكاء الاصطناعي.
+<p>مهارات وكلاء ذكاء اصطناعي مُنتقاة وعالية الجودة. ابحث، ثبّت، انسخ، وشارك.<br>
+يعمل مع Claude Code وCursor وOpenClaw وأدوات برمجة أخرى مدعومة بالذكاء الاصطناعي.</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
-    <a href="./README.ja.md">日本語</a> |
-    <a href="./README.ko.md">한국어</a> |
-    <a href="./README.fr.md">Français</a> |
-    <a href="./README.de.md">Deutsch</a> |
-    <a href="./README.es.md">Español</a> |
-    <a href="./README.it.md">Italiano</a> |
-    <a href="./README.ru.md">Русский</a> |
-    العربية
+<p><strong>تطبيق الويب:</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — ابحث، ثبّت، انسخ، وشارك مهارات وكلاء الذكاء الاصطناعي.</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+<a href="./README.ja.md">日本語</a> |
+<a href="./README.ko.md">한국어</a> |
+<a href="./README.fr.md">Français</a> |
+<a href="./README.de.md">Deutsch</a> |
+<a href="./README.es.md">Español</a> |
+<a href="./README.it.md">Italiano</a> |
+<a href="./README.ru.md">Русский</a> |
+العربية
 </p>
-<p align="center">
-    <em>مهارات وكلاء ذكاء اصطناعي مُنتقاة — ابحث، ثبّت، انسخ، وشارك.</em>
-</p>
+
+</div>
 
 ## مصادر البيانات
 

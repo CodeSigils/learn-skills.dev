@@ -1,24 +1,25 @@
-# [learn-skills.dev](https://www.learn-skills.dev)
+<div align="center">
 
-Skill per agenti IA curati e di alta qualità. Cerca, installa, copia e condividi.  
-Compatibile con Claude Code, Cursor, OpenClaw e altri strumenti di coding con IA.
+<h1><a href="https://www.learn-skills.dev">learn-skills.dev</a></h1>
 
-**Web app:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Cerca, installa, copia e condividi skill per agenti IA.
+<p>Skill per agenti IA curati e di alta qualità. Cerca, installa, copia e condividi.<br>
+Compatibile con Claude Code, Cursor, OpenClaw e altri strumenti di coding con IA.</p>
 
-<p align="center">
-    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
-    <a href="./README.ja.md">日本語</a> |
-    <a href="./README.ko.md">한국어</a> |
-    <a href="./README.fr.md">Français</a> |
-    <a href="./README.de.md">Deutsch</a> |
-    <a href="./README.es.md">Español</a> |
-    Italiano |
-    <a href="./README.ru.md">Русский</a> |
-    <a href="./README.ar.md">العربية</a>
+<p><strong>Web app:</strong> <a href="https://www.learn-skills.dev">https://www.learn-skills.dev</a> — Cerca, installa, copia e condividi skill per agenti IA.</p>
+
+<p>
+<a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+<a href="./README.ja.md">日本語</a> |
+<a href="./README.ko.md">한국어</a> |
+<a href="./README.fr.md">Français</a> |
+<a href="./README.de.md">Deutsch</a> |
+<a href="./README.es.md">Español</a> |
+Italiano |
+<a href="./README.ru.md">Русский</a> |
+<a href="./README.ar.md">العربية</a>
 </p>
-<p align="center">
-    <em>Skill per agenti IA curati — cerca, installa, copia e condividi.</em>
-</p>
+
+</div>
 
 ## Fonti dati
 
