@@ -5,6 +5,8 @@ Works with Claude Code, Cursor, OpenClaw, and other AI coding tools.
 
 **Web App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Search, install, copy and share AI Agent Skills.
 
+**Languages:** [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.tw.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [العربية](README.ar.md)
+
 ## Data Sources
 
 ### Current Providers
