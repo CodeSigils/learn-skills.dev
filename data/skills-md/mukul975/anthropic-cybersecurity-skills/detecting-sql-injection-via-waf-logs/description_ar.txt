@@ -1,0 +1,1 @@
+قم بتحليل سجلات WAF (ModSecurity/AWS WAF/Cloudflare) لاكتشاف حملات هجوم حقن SQL. يوزع سجلات تدقيق ModSecurity وسجلات أحداث JSON WAF لتحديد أنماط SQLi (UNION SELECT، OR 1=1، SLEEP()، BENCHMARK())، ويتتبع مصادر الهجوم، ويربط محاولات الحقن متعددة المراحل، وينشئ تقارير الحوادث بتصنيف OWASP.
