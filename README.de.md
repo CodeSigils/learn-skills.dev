@@ -5,7 +5,20 @@ Funktioniert mit Claude Code, Cursor, OpenClaw und anderen KI-Coding-Tools.
 
 **Web-App:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — KI-Agenten-Skills suchen, installieren, kopieren und teilen.
 
-**Sprachen:** [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.tw.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [العربية](README.ar.md)
+<p align="center">
+    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+    <a href="./README.ja.md">日本語</a> |
+    <a href="./README.ko.md">한국어</a> |
+    <a href="./README.fr.md">Français</a> |
+    Deutsch |
+    <a href="./README.es.md">Español</a> |
+    <a href="./README.it.md">Italiano</a> |
+    <a href="./README.ru.md">Русский</a> |
+    <a href="./README.ar.md">العربية</a>
+</p>
+<p align="center">
+    <em>Kuratierte KI-Agenten-Skills — suchen, installieren, kopieren und teilen.</em>
+</p>
 
 ## Datenquellen
 

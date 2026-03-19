@@ -5,7 +5,20 @@ Compatible con Claude Code, Cursor, OpenClaw y otras herramientas de programaci�
 
 **Aplicación web:** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Busca, instala, copia y comparte skills de agentes de IA.
 
-**Idiomas:** [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.tw.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [العربية](README.ar.md)
+<p align="center">
+    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+    <a href="./README.ja.md">日本語</a> |
+    <a href="./README.ko.md">한국어</a> |
+    <a href="./README.fr.md">Français</a> |
+    <a href="./README.de.md">Deutsch</a> |
+    Español |
+    <a href="./README.it.md">Italiano</a> |
+    <a href="./README.ru.md">Русский</a> |
+    <a href="./README.ar.md">العربية</a>
+</p>
+<p align="center">
+    <em>Skills de agentes de IA seleccionados — busca, instala, copia y comparte.</em>
+</p>
 
 ## Fuentes de datos
 

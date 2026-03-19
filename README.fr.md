@@ -5,7 +5,20 @@ Compatible avec Claude Code, Cursor, OpenClaw et d’autres outils de codage ass
 
 **Application web :** [https://www.learn-skills.dev](https://www.learn-skills.dev) — Recherchez, installez, copiez et partagez des skills d’agents IA.
 
-**Langues :** [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.tw.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Русский](README.ru.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [العربية](README.ar.md)
+<p align="center">
+    <a href="./README.md">English</a> | <a href="./README.zh.md">简体中文</a> | <a href="./README.tw.md">繁體中文</a> |
+    <a href="./README.ja.md">日本語</a> |
+    <a href="./README.ko.md">한국어</a> |
+    Français |
+    <a href="./README.de.md">Deutsch</a> |
+    <a href="./README.es.md">Español</a> |
+    <a href="./README.it.md">Italiano</a> |
+    <a href="./README.ru.md">Русский</a> |
+    <a href="./README.ar.md">العربية</a>
+</p>
+<p align="center">
+    <em>Skills d’agents IA sélectionnés — recherchez, installez, copiez et partagez.</em>
+</p>
 
 ## Sources de données
 
