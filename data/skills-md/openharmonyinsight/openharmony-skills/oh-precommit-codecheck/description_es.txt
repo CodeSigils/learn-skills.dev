@@ -1,0 +1,5 @@
+Ejecute comprobaciones de calidad del código local que cubran un subconjunto de CI de puerta OpenHarmony
+(copyright, CodeArts C/C++) más comprobaciones locales adicionales (pylint/flake8,
+shellcheck/bashate, formato gn). Úselo antes de comprometerse para reducir las fallas de la puerta.
+Se activa en: /oh-precommit-codecheck, "门禁检查", "门禁预检", "检查代码",
+"ejecutar codecheck", o después de completar la implementación del código.

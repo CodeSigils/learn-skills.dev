@@ -1,0 +1,1 @@
+Opera carteras agentes de AIR a través del punto final HTTP `/v2/wallet/agent-sign` de AIR y UserOps ERC-4337. Úselo cuando un agente externo recibe un paquete de transferencia de AIR con `userId`, `walletId`, `privyAppId`, `abstractAccountAddress` y `airApiAgentSignUrl` y necesita firmar mensajes, escribir datos o controlar la cuenta inteligente en cadena.

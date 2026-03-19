@@ -1,0 +1,11 @@
+Flujo de trabajo del ciclo de vida completo de OpenHarmony PR. Cinco modos:
+- Compromiso: compromiso estandarizado con aprobación de DCO y vinculación de problemas
+- Crear relaciones públicas: confirmar + empujar a la bifurcación + crear problema + crear relaciones públicas en sentido ascendente
+- Reparar Codecheck: recupera los defectos de verificación del código CI de la puerta de un PR y los corrige automáticamente
+- Revisar PR: recupera los cambios de un PR a local para revisar el código
+- Corregir revisión: obtenga comentarios de revisión no resueltos de un PR y corríjalos automáticamente
+Activadores en: /oh-pr-workflow, "提交代码", "创建PR", "提个PR", "commit",
+"修复告警", "修复门禁", "修复codecheck", "arreglar codecheck",
+"review pr", "review这个pr", "看下这个pr", "检视pr",
+"修复review", "修复检视意见", "arreglar revisión",
+o una URL de GitCode PR con intención de corregir/revisar.
