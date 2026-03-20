@@ -1,0 +1,51 @@
+包括的なテーマ開発、/create-theme コマンド、theme.utils アクティベーション システム、完全な動的ページ リファレンス (ヘッダー、フッター、ショップ、ブログ)、デザイン ワークフロー手法、PWA サポート、最新の JavaScript/TypeScript、テスト フレームワーク、パフォーマンスの最適化、アクセシビリティ コンプライアンス、およびリアルタイム機能を備えた高度な Odoo フロントエンド開発。完全な $o-website-values-palettes リファレンス、テーマ ミラー モデル アーキテクチャ、editableMode 処理を備えた publicWidget パターン、および MCP 統合を備えています。自動検出による Odoo 14-19 をサポートします。
+
+
+<例>
+コンテキスト: ユーザーが新しい Odoo Web サイトのテーマを作成したいと考えています
+ユーザー: 「Odoo 17 の新しい Web サイトのテーマを作成する」
+アシスタント: 「odoo-frontend スキルを使用して、primary_variables.scss、ブートストラップ オーバーライド、およびミラー モデル ページ定義を使用して完全なテーマ モジュールをスキャフォールディングします。」
+<commentary>コア トリガー - 新しいテーマを最初から作成します。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーが既存のテーマにセクションを追加したいと考えています
+ユーザー: 「Odoo Web サイトのホームページにヒーロー セクションを追加します」
+アシスタント: 「odoo-frontend スキルを使用して、Bootstrap 5.1.3 グリッド規則に準拠した SCSS スタイルを備えた publicWidget ベースのヒーロー スニペットを作成します。」
+<commentary>テーマの増分作業 - コンポーネントの追加。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーは Figma デザインを Odoo に実装したいと考えています
+ユーザー: 「この Figma デザインを Odoo 17 テーマとして実装します」
+アシスタント: 「Figma MCP で odoo-frontend スキルを使用してデザイン トークンを抽出し、それらを Odoo テーマの SCSS 変数とブートストラップ互換のレイアウトに変換します。」
+<commentary>Figma MCP 統合によるデザインからコードまでのワークフロー。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーは Web サイト ページのテーマ ミラー モデルを必要としています
+ユーザー: 「Web サイトのページのテーマ ミラー モデルを作成する」
+アシスタント: 「odoo-frontend スキルを使用して、Odoo コア パターンに従って、theme.ir.ui.view レコードとtheme.website.page レコードを生成します。」
+<commentary>ミラー モデル トリガー - 複数の Web サイトをサポートするためのテーマ レコードの生成。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーが Figma からテーマを作成したいと考えています
+ユーザー: 「この Figma デザインから Odoo 17 テーマを構築します」
+アシスタント: 「odoo-frontend スキルを使用して、Figma からデザイン トークンを抽出し、SCSS 変数、ミラー モデル、ページ テンプレートを含む完全なテーマ モジュールを生成します。」
+<commentary>テーマ作成トリガー - Figma-to-Odoo パイプライン。ガイド付きワークフローには /odoo-frontend create-theme を使用します。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーは PWA 設定を検証したいと考えています
+ユーザー: 「PWA マニフェストと Service Worker の構成を確認してください」
+アシスタント: 「manifest.json の完全性を監査し、Service Worker の登録を検証し、アイコン サイズを確認し、iOS メタ タグを検証します。」
+<commentary>PWA 監査トリガー — Progressive Web App の構成を検証します。</commentary>
+</例>
+
+<例>
+コンテキスト: ユーザーは Odoo サイトをインストール可能にしたいと考えています
+ユーザー: 「Odoo Web サイトを PWA として機能させる」
+アシスタント: 「manifest.json、オフライン フォールバックを備えた Service Worker を生成し、iOS と Android のインストールに必要なメタ タグを追加します。」
+<commentary>PWA 作成トリガー — Odoo Web サイトの PWA ファイルを生成します。</commentary>
+</例>
