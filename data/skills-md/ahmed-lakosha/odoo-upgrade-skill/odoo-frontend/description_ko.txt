@@ -1,0 +1,51 @@
+포괄적인 테마 개발, /create-theme 명령, theme.utils 활성화 시스템, 완전한 동적 페이지 참조(머리글, 바닥글, 상점, 블로그), 디자인 작업 흐름 방법론, PWA 지원, 최신 JavaScript/TypeScript, 테스트 프레임워크, 성능 최적화, 접근성 규정 준수 및 실시간 기능을 갖춘 고급 Odoo 프런트엔드 개발. 완전한 $o-website-values-palettes 참조, 테마 미러 모델 아키텍처, editableMode 처리 기능이 있는 publicWidget 패턴 및 MCP 통합 기능을 갖추고 있습니다. 자동 감지 기능으로 Odoo 14-19를 지원합니다.
+
+
+<예>
+컨텍스트: 사용자가 새로운 Odoo 웹사이트 테마를 만들고 싶어합니다.
+사용자: "Odoo 17용 새 웹사이트 테마를 만들어보세요."
+길잡이: "primary_variables.scss, 부트스트랩 재정의 및 미러 모델 페이지 정의로 전체 테마 모듈을 구성하기 위해 odoo-frontend 기술을 사용할 것입니다."
+<commentary>핵심 트리거 - 처음부터 새로운 테마 생성</commentary>
+</예>
+
+<예>
+컨텍스트: 사용자가 기존 테마에 섹션을 추가하려고 합니다.
+사용자: "내 Odoo 웹사이트 홈페이지에 히어로 섹션 추가"
+길잡이: "저는 odoo-frontend 기술을 사용하여 Bootstrap 5.1.3 그리드 규칙을 따르는 SCSS 스타일을 갖춘 publicWidget 기반 Hero 스니펫을 생성하겠습니다."
+<commentary>증분 테마 작업 - 구성요소 추가</commentary>
+</예>
+
+<예>
+상황: 사용자는 Odoo에서 Figma 디자인을 구현하려고 합니다.
+사용자: "이 Figma 디자인을 Odoo 17 테마로 구현하세요."
+어시스턴트: "Figma MCP와 함께 odoo-frontend 기술을 사용하여 디자인 토큰을 추출하고 이를 Odoo 테마 SCSS 변수 및 Bootstrap 호환 레이아웃으로 변환하겠습니다."
+<commentary>Figma MCP 통합을 통한 디자인-코드 워크플로우</commentary>
+</예>
+
+<예>
+맥락: 사용자는 웹사이트 페이지에 대한 테마 미러 모델이 필요합니다.
+사용자: "내 웹사이트 페이지에 대한 테마 미러 모델 만들기"
+길잡이: "Odoo 핵심 패턴에 따라 theme.ir.ui.view 및 theme.website.page 레코드를 생성하기 위해 odoo-frontend 기술을 사용할 것입니다."
+<commentary>미러 모델 트리거 - 다중 웹사이트 지원을 위한 테마 레코드 생성</commentary>
+</예>
+
+<예>
+컨텍스트: 사용자가 Figma에서 테마를 만들고 싶어합니다.
+사용자: "이 Figma 디자인으로 Odoo 17 테마를 만들어 보세요."
+길잡이: "저는 odoo-frontend 기술을 사용하여 Figma에서 디자인 토큰을 추출하고 SCSS 변수, 미러 모델 및 페이지 템플릿이 포함된 완전한 테마 모듈을 생성하겠습니다."
+<commentary>테마 생성 트리거 - Figma-to-Odoo 파이프라인. 안내된 작업 흐름을 위해 /odoo-frontend create-theme을 사용하세요.</commentary>
+</예>
+
+<예>
+상황: 사용자가 PWA 설정을 확인하려고 합니다.
+사용자: "내 PWA 매니페스트 및 서비스 작업자 구성을 확인하세요."
+Assistant: "manifest.json의 완전성을 감사하고, 서비스 워커 등록을 확인하고, 아이콘 크기를 확인하고, iOS 메타 태그의 유효성을 검사하겠습니다."
+<commentary>PWA 감사 트리거 — 프로그레시브 웹 앱 구성을 검증합니다.</commentary>
+</예>
+
+<예>
+상황: 사용자가 Odoo 사이트를 설치 가능하게 만들고 싶어합니다.
+사용자: "내 Odoo 웹사이트를 PWA로 작동하게 만들기"
+길잡이: "오프라인 폴백이 포함된 서비스 워커인 Manifest.json을 생성하고 iOS 및 Android 설치에 필요한 메타 태그를 추가하겠습니다."
+<commentary>PWA 생성 트리거 — Odoo 웹사이트용 PWA 파일을 생성합니다.</commentary>
+</예>
