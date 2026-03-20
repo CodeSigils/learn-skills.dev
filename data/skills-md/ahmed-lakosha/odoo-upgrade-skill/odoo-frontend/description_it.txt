@@ -1,0 +1,51 @@
+Sviluppo frontend Odoo avanzato con sviluppo completo di temi, comando /create-theme, sistema di attivazione theme.utils, riferimento completo alla pagina dinamica (intestazioni, piè di pagina, negozio, blog), metodologia del flusso di lavoro di progettazione, supporto PWA, JavaScript/TypeScript moderno, framework di test, ottimizzazione delle prestazioni, conformità all'accessibilità e funzionalità in tempo reale. Presenta un riferimento completo alle tavolozze dei valori del sito Web $o, architettura del modello mirror del tema, modelli publicWidget con gestione editableMode e integrazione MCP. Supporta Odoo 14-19 con rilevamento automatico.
+
+
+<esempio>
+Contesto: l'utente desidera creare un nuovo tema per il sito Web Odoo
+utente: "Crea un nuovo tema del sito web per Odoo 17"
+assistente: "Utilizzerò l'abilità odoo-frontend per impalcare un modulo tematico completo con primario_variabili.scss, sostituzioni Bootstrap e definizioni di pagina del modello mirror."
+<commentary>Trigger principale: nuova creazione di temi da zero.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente desidera aggiungere una sezione a un tema esistente
+utente: "Aggiungi una sezione eroe alla home page del mio sito web Odoo"
+assistente: "Utilizzerò l'abilità odoo-frontend per creare uno snippet di eroe basato su publicWidget con stile SCSS che segua le convenzioni della griglia di Bootstrap 5.1.3."
+<commentary>Lavoro incrementale sul tema - aggiunta di componenti.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente desidera implementare un progetto Figma in Odoo
+utente: "Implementa questo design Figma come tema Odoo 17"
+assistente: "Utilizzerò l'abilità odoo-frontend con Figma MCP per estrarre token di progettazione e convertirli in variabili SCSS del tema Odoo e layout compatibili con Bootstrap."
+<commentary>Flusso di lavoro dalla progettazione al codice con integrazione Figma MCP.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente ha bisogno di modelli mirror dei temi per le pagine del sito web
+utente: "Crea modelli mirror di temi per le pagine del mio sito Web"
+assistente: "Utilizzerò l'abilità odoo-frontend per generare record theme.ir.ui.view e theme.website.page seguendo i modelli principali di Odoo."
+<commentary>Trigger del modello mirror: generazione di record di temi per il supporto di più siti Web.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente desidera creare un tema da Figma
+utente: "Costruisci un tema Odoo 17 da questo disegno Figma"
+assistente: "Utilizzerò l'abilità odoo-frontend per estrarre token di progettazione da Figma e generare un modulo tematico completo con variabili SCSS, modelli mirror e modelli di pagina."
+<commentary>Trigger per la creazione del tema: pipeline da Figma a Odoo. Utilizza /odoo-frontend create-theme per il flusso di lavoro guidato.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente desidera convalidare la propria configurazione PWA
+utente: "Controlla il mio manifest PWA e la configurazione del service work"
+assistente: "Controllerò la completezza di manifest.json, verificherò la registrazione del lavoratore del servizio, controllerò le dimensioni delle icone e convaliderò i meta tag iOS."
+<commentary>Trigger di controllo PWA: convalida la configurazione dell'app Web progressiva.</commentary>
+</esempio>
+
+<esempio>
+Contesto: l'utente desidera rendere installabile il proprio sito Odoo
+utente: "Fai in modo che il mio sito web Odoo funzioni come PWA"
+assistente: "Generò un manifest.json, un service lavoratore con fallback offline e aggiungerò i meta tag richiesti per l'installazione iOS e Android."
+<commentary>Trigger di creazione PWA: genera file PWA per il sito Web Odoo.</commentary>
+</esempio>
