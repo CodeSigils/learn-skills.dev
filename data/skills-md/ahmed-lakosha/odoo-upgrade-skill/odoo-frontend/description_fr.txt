@@ -1,0 +1,51 @@
+Développement frontal Odoo avancé avec développement de thème complet, commande /create-theme, système d'activation theme.utils, référence de page dynamique complète (en-têtes, pieds de page, boutique, blog), méthodologie de flux de travail de conception, prise en charge PWA, JavaScript/TypeScript moderne, cadres de test, optimisation des performances, conformité en matière d'accessibilité et fonctionnalités en temps réel. Comprend une référence complète $o-website-values-palettes, une architecture de modèle miroir de thème, des modèles publicWidget avec gestion editableMode et une intégration MCP. Prend en charge Odoo 14-19 avec détection automatique.
+
+
+<exemple>
+Contexte : L'utilisateur souhaite créer un nouveau thème de site Web Odoo
+utilisateur : "Créer un nouveau thème de site Web pour Odoo 17"
+assistant : "J'utiliserai la compétence odoo-frontend pour échafauder un module de thème complet avec Primary_variables.scss, les remplacements Bootstrap et les définitions de page de modèle miroir."
+<commentary>Déclencheur principal - création d'un nouveau thème à partir de zéro.</commentary>
+</exemple>
+
+<exemple>
+Contexte : L'utilisateur souhaite ajouter une section à un thème existant
+utilisateur : "Ajouter une section héros à la page d'accueil de mon site Odoo"
+assistant : "J'utiliserai la compétence odoo-frontend pour créer un extrait de héros basé sur publicWidget avec un style SCSS qui suit les conventions de grille Bootstrap 5.1.3."
+<commentary>Travail de thème incrémental - ajout de composants.</commentary>
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur souhaite implémenter une conception Figma dans Odoo
+utilisateur : "Implémentez cette conception Figma en tant que thème Odoo 17"
+assistant : "J'utiliserai la compétence odoo-frontend avec Figma MCP pour extraire les jetons de conception et les convertir en variables SCSS du thème Odoo et en mises en page compatibles Bootstrap."
+<commentary>Flux de travail de conception à code avec intégration Figma MCP.</commentary>
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur a besoin de modèles de miroir de thème pour les pages de sites Web
+user : "Créer des modèles miroir de thème pour les pages de mon site Web"
+assistant : "J'utiliserai la compétence odoo-frontend pour générer des enregistrements theme.ir.ui.view et theme.website.page suivant les modèles de base d'Odoo."
+<commentary>Déclencheur de modèle miroir - génération d'enregistrements de thème pour la prise en charge de plusieurs sites Web.</commentary>
+</exemple>
+
+<exemple>
+Contexte : l'utilisateur souhaite créer un thème à partir de Figma
+utilisateur : "Créez un thème Odoo 17 à partir de ce design Figma"
+assistant : "J'utiliserai la compétence odoo-frontend pour extraire des jetons de conception de Figma et générer un module de thème complet avec des variables SCSS, des modèles miroir et des modèles de page."
+<commentaire>Déclencheur de création de thème - Pipeline Figma-to-Odoo. Utilisez /odoo-frontend create-theme pour le flux de travail guidé.</commentary>
+</exemple>
+
+<exemple>
+Contexte : L'utilisateur souhaite valider sa configuration PWA
+user : "Vérifier mon manifeste PWA et la configuration de mon service worker"
+assistant : "Je vais vérifier si le fichier manifest.json est complet, vérifier l'enregistrement des techniciens de service, vérifier la taille des icônes et valider les balises méta iOS."
+<commentary>Déclencheur d'audit PWA : valide la configuration de la Progressive Web App.</commentary>
+</exemple>
+
+<exemple>
+Contexte : L'utilisateur souhaite rendre son site Odoo installable
+utilisateur : "Faire fonctionner mon site Web Odoo comme une PWA"
+assistant : "Je vais générer un manifest.json, un service worker avec une solution de secours hors ligne, et ajouter les balises méta requises pour l'installation iOS et Android."
+<commentary>Déclencheur de création PWA — génère des fichiers PWA pour le site Web Odoo.</commentary>
+</exemple>
