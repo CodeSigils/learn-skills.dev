@@ -1,0 +1,51 @@
+Desarrollo frontend avanzado de Odoo con desarrollo integral de temas, comando /create-theme, sistema de activación theme.utils, referencia de página dinámica completa (encabezados, pies de página, tienda, blog), metodología de flujo de trabajo de diseño, compatibilidad con PWA, JavaScript/TypeScript moderno, marcos de prueba, optimización del rendimiento, cumplimiento de accesibilidad y funciones en tiempo real. Incluye una referencia completa de $o-website-values-palettes, arquitectura de modelo de espejo de tema, patrones de widgets públicos con manejo de modo editable e integración de MCP. Soporta Odoo 14-19 con detección automática.
+
+
+<ejemplo>
+Contexto: El usuario quiere crear un nuevo tema para el sitio web de Odoo
+usuario: "Crear un nuevo tema de sitio web para Odoo 17"
+asistente: "Usaré la habilidad de interfaz de odoo para crear un módulo de tema completo con variables_primarias.scss, anulaciones de Bootstrap y definiciones de páginas de modelos espejo".
+<commentary>Activador principal: creación de un nuevo tema desde cero.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: el usuario desea agregar una sección a un tema existente
+usuario: "Agregar una sección principal a la página de inicio de mi sitio web Odoo"
+asistente: "Usaré la habilidad de interfaz de odoo para crear un fragmento de héroe basado en widget público con estilo SCSS que sigue las convenciones de cuadrícula de Bootstrap 5.1.3".
+<commentary>Trabajo de tema incremental: agregar componentes.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: El usuario quiere implementar un diseño de Figma en Odoo
+usuario: "Implemente este diseño de Figma como un tema de Odoo 17"
+asistente: "Usaré la habilidad de interfaz de Odoo con Figma MCP para extraer tokens de diseño y convertirlos en variables SCSS del tema Odoo y diseños compatibles con Bootstrap".
+<commentary>Flujo de trabajo de diseño a código con integración de Figma MCP.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: el usuario necesita modelos espejo temáticos para las páginas del sitio web
+usuario: "Crear modelos espejo de temas para las páginas de mi sitio web"
+asistente: "Usaré la habilidad de interfaz de Odoo para generar registros theme.ir.ui.view y theme.website.page siguiendo los patrones centrales de Odoo".
+<commentary>Activador de modelo espejo: generación de registros de temas para soporte de múltiples sitios web.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: el usuario quiere crear un tema desde Figma
+usuario: "Construya un tema de Odoo 17 a partir de este diseño de Figma"
+asistente: "Usaré la habilidad de interfaz de odoo para extraer tokens de diseño de Figma y generar un módulo temático completo con variables SCSS, modelos espejo y plantillas de página".
+<comentario>Activador de creación de tema: canalización de Figma a Odoo. Utilice /odoo-frontend create-theme para el flujo de trabajo guiado.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: el usuario desea validar la configuración de su PWA
+usuario: "Verificar mi manifiesto de PWA y la configuración del trabajador de servicio"
+asistente: "Auditaré el archivo manifest.json para verificar que esté completo, verificaré el registro del trabajador del servicio, verificaré el tamaño de los íconos y validaré las metaetiquetas de iOS".
+<commentary>Activador de auditoría de PWA: valida la configuración de la aplicación web progresiva.</commentary>
+</ejemplo>
+
+<ejemplo>
+Contexto: El usuario quiere que su sitio Odoo sea instalable
+usuario: "Hacer que mi sitio web Odoo funcione como una PWA"
+asistente: "Generaré un manifest.json, un trabajador de servicio con respaldo fuera de línea y agregaré las metaetiquetas necesarias para la instalación de iOS y Android".
+<commentary>Activador de creación de PWA: genera archivos PWA para el sitio web de Odoo.</commentary>
+</ejemplo>
