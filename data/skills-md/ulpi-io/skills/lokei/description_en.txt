@@ -1,0 +1,6 @@
+Local dev proxy that gives projects named HTTPS domains on .test with valid TLS.
+Use when setting up local development environments, running dev servers, sharing localhost
+publicly via tunnels, or managing Docker Compose services with HTTPS. Handles framework
+detection (30+ frameworks), port management, DNS, certificates, and public tunnels.
+Trigger on: "run my dev server", "set up HTTPS locally", "share localhost", "expose my app",
+"local dev proxy", "tunnel", ".test domain", or when helping users start/configure web projects.

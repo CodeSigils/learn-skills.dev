@@ -1,0 +1,11 @@
+Slack automation CLI for AI agents. Use when:
+- Reading a Slack message or thread (given a URL or channel+ts)
+- Browsing recent channel messages / channel history
+- Searching Slack messages or files
+- Sending, editing, or deleting a message; adding/removing reactions
+- Listing channels/conversations; creating channels and inviting users
+- Fetching a Slack canvas as markdown
+- Looking up Slack users
+- Marking channels/DMs as read
+- Opening DM or group DM channels
+Triggers: "slack message", "slack thread", "slack URL", "slack link", "read slack", "reply on slack", "search slack", "channel history", "recent messages", "channel messages", "latest messages", "mark as read", "mark read"

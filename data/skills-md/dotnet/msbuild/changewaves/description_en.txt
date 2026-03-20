@@ -1,0 +1,1 @@
+Manage MSBuild Change Waves: create new waves, condition features behind opt-out flags, write tests for wave-gated features, document change waves in ChangeWaves.md, and retire expired waves. Use when adding changes that need an opt-out or rotating out old change waves. Changes that introduce a user-visible behavior change should consider whether to use a changewave.
