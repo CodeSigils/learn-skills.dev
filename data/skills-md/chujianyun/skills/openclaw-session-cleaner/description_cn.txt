@@ -1,0 +1,1 @@
+OpenClaw 会话清理助手。当用户提到清理 OpenClaw 会话、删除旧的 cron 会话、压缩或重建 session.json 或解决会话文件膨胀问题时使用。触发后，首先检查~/.openclaw/agents/main/sessions/下的session文件数量和sessions.json大小，然后根据命令进行清理。
