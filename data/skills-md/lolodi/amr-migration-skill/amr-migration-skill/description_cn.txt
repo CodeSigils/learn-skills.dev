@@ -1,0 +1,11 @@
+帮助用户从 Azure Cache for Redis (ACR/OSS) 基本、标准和高级层迁移
+到 Azure 托管 Redis (AMR)。提供SKU映射、实时定价脚本、缓存指标
+评估，以及通过带有 DNS 切换的 ARM REST API 进行自动迁移。
+当用户询问以下问题时使用：Redis 迁移、ACR 到 AMR、OSS 到 AMR、自动迁移、
+DNS 交换机迁移、缓存停用截止日期、ACR 停用日期、SKU 选择、
+AMR 与 ACR 功能、功能兼容性、Redis 模块支持、价格比较、
+缓存升级、基本/标准/高级层迁移、P1/P2/C3 缓存迁移、
+AMR SKU 建议、迁移回滚、迁移验证、连接字符串更改、
+端口更改、缓存评估和指标或检查 amr-migration-skill 更新。
+请勿用于：企业 (ACRE) 层迁移、创建新的 Redis 缓存或一般
+Redis 性能调优。
