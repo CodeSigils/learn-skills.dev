@@ -1,0 +1,51 @@
+Erweiterte Odoo-Frontend-Entwicklung mit umfassender Theme-Entwicklung, /create-theme-Befehl, theme.utils-Aktivierungssystem, vollständiger dynamischer Seitenreferenz (Kopf- und Fußzeilen, Shop, Blog), Design-Workflow-Methodik, PWA-Unterstützung, modernem JavaScript/TypeScript, Test-Frameworks, Leistungsoptimierung, Barrierefreiheits-Compliance und Echtzeitfunktionen. Verfügt über eine vollständige $o-website-values-palettes-Referenz, eine Theme-Mirror-Modellarchitektur, publicWidget-Muster mit editableMode-Handhabung und MCP-Integration. Unterstützt Odoo 14-19 mit automatischer Erkennung.
+
+
+<Beispiel>
+Kontext: Der Benutzer möchte ein neues Odoo-Website-Theme erstellen
+Benutzer: „Erstellen Sie ein neues Website-Theme für Odoo 17“
+Assistent: „Ich werde den Odoo-Frontend-Skill verwenden, um ein komplettes Theme-Modul mit Primary_Variables.scss, Bootstrap-Überschreibungen und Spiegelmodellseitendefinitionen zu erstellen.“
+<commentary>Kernauslöser – Erstellung eines neuen Themes von Grund auf.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer möchte einen Abschnitt zu einem vorhandenen Thema hinzufügen
+Benutzer: „Heldenbereich zur Startseite meiner Odoo-Website hinzufügen“
+Assistent: „Ich werde den Odoo-Frontend-Skill verwenden, um ein publicWidget-basiertes Hero-Snippet mit SCSS-Stil zu erstellen, das den Rasterkonventionen von Bootstrap 5.1.3 folgt.“
+<commentary>Inkrementelle Themenarbeit – Hinzufügen von Komponenten.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer möchte ein Figma-Design in Odoo implementieren
+Benutzer: „Implementieren Sie dieses Figma-Design als Odoo 17-Theme“
+Assistent: „Ich werde den Odoo-Frontend-Skill mit Figma MCP verwenden, um Design-Tokens zu extrahieren und sie in Odoo-Theme-SCSS-Variablen und Bootstrap-kompatible Layouts umzuwandeln.“
+<commentary>Design-to-Code-Workflow mit Figma MCP-Integration.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer benötigt Theme-Mirror-Modelle für Website-Seiten
+Benutzer: „Themenspiegelmodelle für meine Website-Seiten erstellen“
+Assistent: „Ich werde den Odoo-Frontend-Skill verwenden, um theme.ir.ui.view- und theme.website.page-Datensätze gemäß den Odoo-Kernmustern zu generieren.“
+<commentary>Spiegelmodell-Trigger – Generierung von Themendatensätzen für die Unterstützung mehrerer Websites.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer möchte ein Thema aus Figma erstellen
+Benutzer: „Erstellen Sie ein Odoo 17-Theme aus diesem Figma-Design“
+Assistent: „Ich werde die Odoo-Frontend-Fähigkeit nutzen, um Design-Tokens aus Figma zu extrahieren und ein komplettes Theme-Modul mit SCSS-Variablen, Spiegelmodellen und Seitenvorlagen zu generieren.“
+<commentary>Auslöser für die Themenerstellung – Figma-zu-Odoo-Pipeline. Verwenden Sie /odoo-frontend create-theme für den geführten Workflow.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer möchte sein PWA-Setup validieren
+Benutzer: „Überprüfen Sie mein PWA-Manifest und meine Service-Worker-Konfiguration“
+Assistent: „Ich werde die manifest.json auf Vollständigkeit prüfen, die Registrierung von Servicemitarbeitern überprüfen, Symbolgrößen überprüfen und iOS-Meta-Tags validieren.“
+<commentary>PWA-Audit-Trigger – validiert die Progressive Web App-Konfiguration.</commentary>
+</Beispiel>
+
+<Beispiel>
+Kontext: Der Benutzer möchte seine Odoo-Site installierbar machen
+Benutzer: „Meine Odoo-Website als PWA funktionieren lassen“
+Assistent: „Ich werde eine manifest.json generieren, einen Service-Worker mit Offline-Fallback, und die erforderlichen Meta-Tags für die iOS- und Android-Installation hinzufügen.“
+<commentary>PWA-Erstellungsauslöser – generiert PWA-Dateien für die Odoo-Website.</commentary>
+</Beispiel>
