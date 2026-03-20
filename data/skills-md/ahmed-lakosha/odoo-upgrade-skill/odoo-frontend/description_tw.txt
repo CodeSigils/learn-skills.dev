@@ -1,0 +1,51 @@
+高級 Odoo 前端開發，具有全面的主題開發、/create-theme 命令、theme.utils 激活系統、完整的動態頁面參考（頁眉、頁腳、商店、博客）、設計工作流程方法、PWA 支援、現代 JavaScript/TypeScript、測試框架、效能優化、可訪問性合規性和即時功能。具有完整的 $o-website-values-palettes 參考、主題鏡像模型架構、具有 editableMode 處理的 publicWidget 模式以及 MCP 整合。支援 Odoo 14-19 並自動偵測。
+
+
+<範例>
+上下文：使用者想要建立一個新的 Odoo 網站主題
+使用者：“為 Odoo 17 創建一個新的網站主題”
+助理：“我將使用 odoo-frontend 技能來建立一個完整的主題模組，其中包含 Primary_variables.scss、Bootstrap 覆蓋和鏡像模型頁面定義。”
+<commentary>核心觸發器 - 從頭開始建立新主題。 </commentary>
+</範例>
+
+<範例>
+上下文：使用者想要為現有主題新增一個部分
+用戶：“為我的 Odoo 網站主頁添加英雄部分”
+助手：“我將使用 odoo-frontend 技能創建一個基於 publicWidget 的英雄片段，其 SCSS 樣式遵循 Bootstrap 5.1.3 網格約定。”
+<commentary>增量主題工作 - 新增元件。 </commentary>
+</範例>
+
+<範例>
+背景：使用者想要在 Odoo 中實現 Figma 設計
+使用者：“將此 Figma 設計實現為 Odoo 17 主題”
+助理：“我將使用 Figma MCP 的 odoo 前端技能來提取設計令牌並將其轉換為 Odoo 主題 SCSS 變數和 Bootstrap 相容佈局。”
+<commentary>與 Figma MCP 整合的設計到程式碼工作流程。 </commentary>
+</範例>
+
+<範例>
+背景：使用者需要網站頁面的主題鏡像模型
+使用者：“為我的網站頁面建立主題鏡像模型”
+助理：“我將使用 odoo-frontend 技能來產生遵循 Odoo 核心模式的 theme.ir.ui.view 和 theme.website.page 記錄。”
+<commentary>鏡像模型觸發器 - 產生多網站支援的主題記錄。 </commentary>
+</範例>
+
+<範例>
+上下文：使用者想要從 Figma 建立主題
+使用者：“根據 Figma 設計建立 Odoo 17 主題”
+助理：“我將使用 odoo-frontend 技能從 Figma 中提取設計令牌，並產生包含 SCSS 變數、鏡像模型和頁面模板的完整主題模組。”
+<評論>主題建立觸發器 - Figma-to-Odoo 管道。使用 /odoo-frontend create-theme 進行引導工作流程。 </commentary>
+</範例>
+
+<範例>
+上下文：使用者想要驗證他們的 PWA 設置
+使用者：“檢查我的 PWA 清單和 Service Worker 配置”
+助理：“我將審核 manifest.json 的完整性、驗證 Service Worker 註冊、檢查圖示大小並驗證 iOS 元標記。”
+<commentary>PWA 審核觸發器 - 驗證漸進式 Web 應用程式設定。 </commentary>
+</範例>
+
+<範例>
+背景：用戶希望他們的 Odoo 網站可安裝
+用戶：“讓我的 Odoo 網站作為 PWA 運行”
+助理：“我將產生一個manifest.json，具有離線回退功能的serviceworker，並添加iOS和Android安裝所需的元標記。”
+<commentary>PWA 建立觸發器 — 為 Odoo 網站產生 PWA 檔案。 </commentary>
+</範例>
