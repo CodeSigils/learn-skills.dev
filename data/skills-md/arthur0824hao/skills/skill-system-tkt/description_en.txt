@@ -1,0 +1,1 @@
+Canonical ticket lifecycle engine for multi-agent orchestration. Two backends: (1) filesystem YAML bundles for project-level work management (roadmap → bundle → tickets → review), (2) DB-backed durable tickets for session-level claim/block/close lifecycle. This skill is the single source of truth for all ticket operations.

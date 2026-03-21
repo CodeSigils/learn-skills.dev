@@ -4,583 +4,594 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 20 Mar 2026 07:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2026 02:30:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-20)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-21)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:snapshot</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:snapshot</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7727
-Trending skills: 7549
-Hot skills: 4220
-Top All Time: find-skills (630597)
-Top Trending: find-skills (16439)
-Top Hot: java-spring-boot (73)]]></description>
+All Time skills: 7718
+Trending skills: 7693
+Hot skills: 3306
+Top All Time: find-skills (642472)
+Top Trending: find-skills (15061)
+Top Hot: browser-use (47)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): azure-rbac]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-rbac</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topAllTime:new:microsoft/azure-skills/azure-rbac</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): azure-storage]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-storage</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topAllTime:new:microsoft/azure-skills/azure-storage</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #50
-Installs: 65328
+Installs: 69488
 Source: microsoft/azure-skills
-Description: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles.]]></description>
+Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): java-spring-boot]]></title>
-            <link>https://skills.sh/pluginagentmarketplace/custom-plugin-java/java-spring-boot</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:pluginagentmarketplace/custom-plugin-java/java-spring-boot</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): browser-use]]></title>
+            <link>https://skills.sh/browser-use/browser-use/browser-use</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:browser-use/browser-use/browser-use</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 73
-Source: pluginagentmarketplace/custom-plugin-java
-Description: Build production Spring Boot applications - REST APIs, Security, Data, Actuator]]></description>
+Installs: 47
+Source: browser-use/browser-use
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): convex-performance-audit]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-performance-audit</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:get-convex/agent-skills/convex-performance-audit</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): rivetkit]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/rivetkit</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 24
-Source: get-convex/agent-skills
-Description: Audit and optimize Convex application performance, covering hot path reads, write contention, subscription cost, and function limits. Use when a Convex feature is slow, reads too much data, writes too often, has OCC conflicts, or needs performance investigation.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: RivetKit backend and Rivet Actor runtime guidance. Use for building, modifying, debugging, or testing Rivet Actors, registries, serverless/runner modes, deployment, or actor-based workflows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): convex-quickstart]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-quickstart</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:get-convex/agent-skills/convex-quickstart</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): rivetkit-client-swiftui]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swiftui</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/rivetkit-client-swiftui</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 24
-Source: get-convex/agent-skills
-Description: Initialize a new Convex backend from scratch with schema, auth, and basic CRUD operations. Use when starting a new project or adding Convex to an existing app.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: RivetKit SwiftUI client guidance. Use for SwiftUI apps that connect to Rivet Actors with RivetKitSwiftUI, @Actor, rivetKit view modifiers, and SwiftUI bindings.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): convex-setup-auth]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-setup-auth</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:get-convex/agent-skills/convex-setup-auth</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): rivetkit-client-javascript]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-javascript</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/rivetkit-client-javascript</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 24
-Source: get-convex/agent-skills
-Description: Set up Convex authentication with proper user management, identity mapping, and access control patterns. Use when implementing auth flows.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: RivetKit JavaScript client guidance. Use for browser, Node.js, or Bun clients that connect to Rivet Actors with rivetkit/client, create clients, call actions, or manage connections.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): convex-create-component]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-create-component</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:get-convex/agent-skills/convex-create-component</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): rivetkit-client-react]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-react</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/rivetkit-client-react</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 24
-Source: get-convex/agent-skills
-Description: Design and build Convex components with clear boundaries, isolated state, and app-facing wrappers. Use when creating a new Convex component, extracting reusable backend logic into one, or packaging Convex functionality for reuse across apps.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: RivetKit React client guidance. Use for React apps that connect to Rivet Actors with @rivetkit/react, create hooks with createRivetKit, or manage realtime state with useActor.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): stitch-loop]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/stitch-loop</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/stitch-loop</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): rivetkit-client-swift]]></title>
+            <link>https://skills.sh/rivet-dev/skills/rivetkit-client-swift</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/rivetkit-client-swift</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 54
-Source: google-labs-code/stitch-skills
-Description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: RivetKit Swift client guidance. Use for Swift clients that connect to Rivet Actors with RivetKitClient, create actor handles, call actions, or manage connections.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): vue-best-practices]]></title>
-            <link>https://skills.sh/hyf0/vue-skills/vue-best-practices</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:hyf0/vue-skills/vue-best-practices</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): multiplayer-game]]></title>
+            <link>https://skills.sh/rivet-dev/skills/multiplayer-game</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/multiplayer-game</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 50
-Source: hyf0/vue-skills
-Description: Vue 3 and Vue.js best practices for TypeScript, vue-tsc, and Volar. This skill should be used when writing, reviewing, or refactoring Vue components to ensure correct typing patterns. Triggers on tasks involving Vue components, props extraction, wrapper components, template type checking, or Volar configuration.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: Pragmatic patterns for building multiplayer games: matchmaking, tick loops, realtime state, interest management, and validation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): spring-boot-engineer]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/spring-boot-engineer</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:jeffallan/claude-skills/spring-boot-engineer</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): swiftui-pro]]></title>
+            <link>https://skills.sh/twostraws/swiftui-agent-skill/swiftui-pro</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:twostraws/swiftui-agent-skill/swiftui-pro</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 27
-Source: jeffallan/claude-skills
-Description: Use when building Spring Boot 3.x applications, microservices, or reactive Java applications. Invoke for Spring Data JPA, Spring Security 6, WebFlux, Spring Cloud integration.]]></description>
+Installs: 13
+Source: twostraws/swiftui-agent-skill
+Description: Comprehensively reviews SwiftUI code for best practices on modern APIs, maintainability, and performance. Use when reading, writing, or reviewing SwiftUI projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): react:components]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/react:components</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/react:components</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): sandbox-agent]]></title>
+            <link>https://skills.sh/rivet-dev/skills/sandbox-agent</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:rivet-dev/skills/sandbox-agent</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 48
-Source: google-labs-code/stitch-skills
-Description: Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation.]]></description>
+Installs: 12
+Source: rivet-dev/skills
+Description: Deploy, configure, and integrate Sandbox Agent - a universal API for orchestrating AI coding agents (Claude Code, Codex, OpenCode, Amp) in sandboxed environments. Use when setting up sandbox-agent server locally or in cloud sandboxes (E2B, Daytona, Docker), creating and managing agent sessions via SDK or API, streaming agent events and handling human-in-the-loop interactions, building chat UIs for coding agents, or understanding the universal schema for agent responses.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): fastapi-python]]></title>
-            <link>https://skills.sh/mindrally/skills/fastapi-python</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:mindrally/skills/fastapi-python</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): openclaw-control-center]]></title>
+            <link>https://skills.sh/aradotso/trending-skills/openclaw-control-center</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:aradotso/trending-skills/openclaw-control-center</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 35
-Source: mindrally/skills
-Description: Expert in FastAPI Python development with best practices for APIs and async operations]]></description>
+Installs: 21
+Source: aradotso/trending-skills
+Description: Local-first, security-first control center for OpenClaw agents — visibility dashboard with readonly defaults, token attribution, collaboration tracing, and safe write operations.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): design-md]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/design-md</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/design-md</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): ctf-crypto]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-crypto</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-crypto</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 52
-Source: google-labs-code/stitch-skills
-Description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files]]></description>
+Installs: 10
+Source: ljagiello/ctf-skills
+Description: Cryptography techniques for CTF challenges. Use when attacking encryption, hashing, ZKP, signatures, or mathematical crypto problems.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): docker-expert]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/docker-expert</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:sickn33/antigravity-awesome-skills/docker-expert</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): design-taste-frontend]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/design-taste-frontend</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:leonxlnx/taste-skill/design-taste-frontend</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #2
+Installs: 17
+Source: leonxlnx/taste-skill
+Description: Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): ctf-web]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-web</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-web</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 32
-Source: sickn33/antigravity-awesome-skills
-Description: Docker containerization expert with deep knowledge of multi-stage builds, image optimization, container security, Docker Compose orchestration, and production deployment patterns. Use PROACTIVELY for Dockerfile optimization, container issues, image size problems, security hardening, networking, and orchestration challenges.]]></description>
+Installs: 10
+Source: ljagiello/ctf-skills
+Description: Web exploitation techniques for CTF challenges. Use when solving web security challenges involving XSS, SQLi, CSRF, file upload bypasses, JWT attacks, Web3/blockchain exploits, or other web vulnerabilities.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): data-storytelling]]></title>
-            <link>https://skills.sh/wshobson/agents/data-storytelling</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/data-storytelling</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): presentation-builder]]></title>
+            <link>https://skills.sh/supercent-io/skills-template/presentation-builder</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:supercent-io/skills-template/presentation-builder</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 30
-Source: wshobson/agents
-Description: Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations.]]></description>
+Installs: 7
+Source: supercent-io/skills-template
+Description: Build professional PPTX presentations with brand-aligned layouts using structured deck briefs and validation steps for pitch, roadmap, and product decks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): postgresql-table-design]]></title>
-            <link>https://skills.sh/wshobson/agents/postgresql-table-design</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/postgresql-table-design</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): macro-liquidity]]></title>
+            <link>https://skills.sh/star23/day1global-skills/macro-liquidity</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:star23/day1global-skills/macro-liquidity</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 26
-Source: wshobson/agents
-Description: Design a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features]]></description>
+Installs: 6
+Source: star23/day1global-skills
+Description: Macro liquidity monitoring and risk early-warning system. By tracking 4 core indicators (Fed Net Liquidity, SOFR Overnight Financing Rate, MOVE Treasury Volatility Index, Yen Carry Trade Signals), it provides real-time assessment of liquidity conditions in the global financial system, outputting liquidity ratings and risk response recommendations. When users mention topics such as liquidity, Fed balance sheet reduction (QT), TGA account, reverse repo ON RRP, SOFR rate, MOVE index, Treasury volatility, yen carry trade, USDJPY and interest rate differentials, impact of QT on markets, whether money is tight, liquidity inflection points, tightening financial conditions, etc., this skill should be used. Even if users ask broadly "how is liquidity right now" or "is the Fed draining or injecting liquidity," this skill should be triggered to provide a structured analytical framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): stitch-design]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/stitch-design</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/stitch-design</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): us-market-sentiment]]></title>
+            <link>https://skills.sh/star23/day1global-skills/us-market-sentiment</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:star23/day1global-skills/us-market-sentiment</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 39
-Source: google-labs-code/stitch-skills
-Description: Unified entry point for Stitch design work. Handles prompt enhancement (UI/UX keywords, atmosphere), design system synthesis (.stitch/DESIGN.md), and high-fidelity screen generation/editing via Stitch MCP.]]></description>
+Installs: 6
+Source: star23/day1global-skills
+Description: US stock market sentiment monitoring and position recommendation system. Evaluates market sentiment by tracking 5 core indicators (NAAIM Exposure Index, Institutional Equity Allocation, Retail Net Buying, S&P 500 Forward P/E Ratio, Hedge Fund Leverage) and outputs sentiment ratings and position recommendations. This skill should be used when the user mentions topics such as US stock sentiment, market overheating, greed/fear indicators, NAAIM, institutional positioning, retail sentiment, P/E valuation bubbles, hedge fund leverage, whether to reduce positions, market risk assessment, position management advice, market top/bottom signals, etc. Even if the user simply asks "Is the US stock market risky right now?" or "Should I reduce my positions?", this skill should be triggered to provide a structured analytical framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): expo-tailwind-setup]]></title>
-            <link>https://skills.sh/expo/skills/expo-tailwind-setup</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:expo/skills/expo-tailwind-setup</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): us-value-investing]]></title>
+            <link>https://skills.sh/star23/day1global-skills/us-value-investing</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:star23/day1global-skills/us-value-investing</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 35
-Source: expo/skills
-Description: Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling]]></description>
+Installs: 6
+Source: star23/day1global-skills
+Description: US stock value investing analysis framework. Systematically evaluates listed companies through 4 core dimensions (ROE sustainability, debt safety, free cash flow quality, economic moat assessment), outputting investment ratings and analytical reasoning. This skill should be used when users mention topics such as whether a US stock is worth holding long-term, fundamental analysis of a company, ROE analysis, debt ratio assessment, free cash flow, economic moat, Buffett-style stock picking, value investing screening, how to read a company's financial reports, whether a stock's valuation is reasonable, etc. Even if users simply ask something general like "What do you think of stock XX?" or "Help me analyze XX's fundamentals," this skill should be triggered to provide a structured value investing analysis framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): k8s-security-policies]]></title>
-            <link>https://skills.sh/wshobson/agents/k8s-security-policies</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/k8s-security-policies</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): tech-earnings-deepdive]]></title>
+            <link>https://skills.sh/star23/day1global-skills/tech-earnings-deepdive</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:star23/day1global-skills/tech-earnings-deepdive</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 29
-Source: wshobson/agents
-Description: Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards.]]></description>
+Installs: 6
+Source: star23/day1global-skills
+Description: Tech Stock Earnings Deep Dive Analysis and Multi-Perspective Investment Memo System (v3.0). Covers 16 major analysis modules (A-P), 6 investment philosophy perspectives, institutional-grade evidence standards, anti-bias framework, and actionable decision system. When users mention topics such as tech company earnings analysis, quarterly/annual report interpretation, earnings call, revenue growth analysis, margin changes, guidance, valuation models, DCF, reverse DCF, EV/EBITDA, PEG, Rule of 40, management analysis, competitive landscape, position sizing, whether to buy/sell/add to a tech stock position, how to interpret a company's latest earnings, doing a deep dive, multi-angle valuation, how investment masters view a company, variant view, key forces, kill conditions, ownership structure, executive team, partner ecosystem, macro policy impact, etc., this skill should be used. Even if the user simply asks "help me look at NVDA's latest earnings" or "how did META do this quarter" or "should I keep holding MSFT," this skill should be triggered to provide comprehensive earnings analysis and a multi-perspective investment memo. This skill complements the us-value-investing skill — us-value-investing focuses on long-term value four-dimensional scoring, while this skill focuses on in-depth dissection of the latest earnings, comprehensive judgment across multiple investment philosophies, and actionable position decisions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): mobile-ios-design]]></title>
-            <link>https://skills.sh/wshobson/agents/mobile-ios-design</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/mobile-ios-design</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): btc-bottom-model]]></title>
+            <link>https://skills.sh/star23/day1global-skills/btc-bottom-model</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:star23/day1global-skills/btc-bottom-model</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 28
-Source: wshobson/agents
-Description: Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles.]]></description>
+Installs: 6
+Source: star23/day1global-skills
+Description: Bitcoin bottom-timing judgment model. By tracking 6 core indicators (RSI technical oversold, volume dry-up, MVRV ratio, social media fear index, miner shutdown price, long-term holder behavior), it comprehensively evaluates whether Bitcoin has entered a bottom-fishing zone and outputs a bottom-fishing rating and position-building recommendations. When users mention topics such as Bitcoin bottom-fishing, whether BTC has bottomed out, Bitcoin oversold, MVRV, miner shutdown price, long-term holder LTH, Bitcoin fear index, whether to buy Bitcoin, BTC position entry timing, crypto market bottom signals, Bitcoin cycle bottom, etc., be sure to use this skill. Even if the user simply asks "Can I buy the dip on Bitcoin now?" or "Has BTC finished dropping?", this skill should be triggered to provide a structured analysis framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): api-security-best-practices]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/api-security-best-practices</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:sickn33/antigravity-awesome-skills/api-security-best-practices</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): dogfood]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/dogfood</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:vercel-labs/agent-browser/dogfood</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 26
-Source: sickn33/antigravity-awesome-skills
-Description: Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities]]></description>
+Installs: 19
+Source: vercel-labs/agent-browser
+Description: Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test", "find issues", "bug hunt", "test this app/site/platform", or review the quality of a web application. Produces a structured report with full reproduction evidence -- step-by-step screenshots, repro videos, and detailed repro steps for every issue -- so findings can be handed directly to the responsible teams.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): python-testing-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/python-testing-patterns</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/python-testing-patterns</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): defuddle]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/defuddle</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:kepano/obsidian-skills/defuddle</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 24
-Source: wshobson/agents
-Description: Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices.]]></description>
+Installs: 12
+Source: kepano/obsidian-skills
+Description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): security-requirement-extraction]]></title>
-            <link>https://skills.sh/wshobson/agents/security-requirement-extraction</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/security-requirement-extraction</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): ctf-misc]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-misc</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-misc</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 33
-Source: wshobson/agents
-Description: Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases.]]></description>
+Installs: 9
+Source: ljagiello/ctf-skills
+Description: Miscellaneous CTF challenge techniques. Use for trivia, automation scripts, encoding puzzles, RF/SDR signal processing, or challenges that don't fit other categories.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): enhance-prompt]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/enhance-prompt</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/enhance-prompt</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): dbs]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 57
-Source: google-labs-code/stitch-skills
-Description: Transforms vague UI ideas into polished, Stitch-optimized prompts. Enhances specificity, adds UI/UX keywords, injects design system context, and structures output for better generation results.]]></description>
+Installs: 14
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。
+触发方式：/dbs、/商业、「帮我看看」
+Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.
+Trigger: /dbs, "help me with my business"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): audit-website]]></title>
-            <link>https://skills.sh/squirrelscan/skills/audit-website</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:squirrelscan/skills/audit-website</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): ctf-reverse]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-reverse</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-reverse</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 31
-Source: squirrelscan/skills
-Description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.]]></description>
+Installs: 9
+Source: ljagiello/ctf-skills
+Description: Reverse engineering techniques for CTF challenges. Use when analyzing binaries, game clients, obfuscated code, or esoteric languages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): rust-best-practices]]></title>
-            <link>https://skills.sh/apollographql/skills/rust-best-practices</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:apollographql/skills/rust-best-practices</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): debugging]]></title>
+            <link>https://skills.sh/supercent-io/skills-template/debugging</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:supercent-io/skills-template/debugging</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 27
-Source: apollographql/skills
-Description: Guide for writing idiomatic Rust code based on Apollo GraphQL's best practices handbook. Use this skill when: (1) writing new Rust code or functions, (2) reviewing or refactoring existing Rust code, (3) deciding between borrowing vs cloning or ownership patterns, (4) implementing error handling with Result types, (5) optimizing Rust code for performance, (6) writing tests or documentation for Rust projects.]]></description>
+Installs: 6
+Source: supercent-io/skills-template
+Description: Systematically debug code issues using proven methodologies. Use when encountering errors, unexpected behavior, or performance problems. Handles error analysis, root cause identification, debugging strategies, and fix verification.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): e2e-testing-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/e2e-testing-patterns</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/e2e-testing-patterns</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): content-creator]]></title>
+            <link>https://skills.sh/shubhamsaboo/awesome-llm-apps/content-creator</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:shubhamsaboo/awesome-llm-apps/content-creator</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 38
-Source: wshobson/agents
-Description: Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards.]]></description>
+Installs: 5
+Source: shubhamsaboo/awesome-llm-apps
+Description: Creates engaging content for blogs, social media, and marketing materials with audience focus.
+Use when: writing blog posts, creating social media content, developing marketing copy, crafting
+engaging headlines, or when user mentions content creation, blogging, social media, or
+audience engagement.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): typescript-expert]]></title>
-            <link>https://skills.sh/sickn33/antigravity-awesome-skills/typescript-expert</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:sickn33/antigravity-awesome-skills/typescript-expert</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): page-cro]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/page-cro</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:coreyhaines31/marketingskills/page-cro</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 28
-Source: sickn33/antigravity-awesome-skills
-Description: TypeScript and JavaScript expert with deep knowledge of type-level programming, performance optimization, monorepo management, migration strategies, and modern tooling. Use PROACTIVELY for any TypeScript/JavaScript issues including complex type gymnastics, build performance, debugging, and architectural decisions. If a specialized expert is a better fit, I will recommend switching and stop.]]></description>
+Installs: 20
+Source: coreyhaines31/marketingskills
+Description: When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): typescript-react-reviewer]]></title>
-            <link>https://skills.sh/dotneet/claude-code-marketplace/typescript-react-reviewer</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:dotneet/claude-code-marketplace/typescript-react-reviewer</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): competitor-alternatives]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/competitor-alternatives</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:coreyhaines31/marketingskills/competitor-alternatives</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 23
-Source: dotneet/claude-code-marketplace
-Description: Expert code reviewer for TypeScript + React 19 applications. Use when reviewing React code, identifying anti-patterns, evaluating state management, or assessing code maintainability. Triggers: code review requests, PR reviews, React architecture evaluation, identifying code smells, TypeScript type safety checks, useEffect abuse detection, state management review.]]></description>
+Installs: 20
+Source: coreyhaines31/marketingskills
+Description: When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' or 'competitive landing pages.' Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. Emphasizes deep research, modular content architecture, and varied section types beyond feature tables.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): shadcn]]></title>
-            <link>https://skills.sh/shadcn/ui/shadcn</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:shadcn/ui/shadcn</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): vercel-sandbox]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/vercel-sandbox</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:vercel-labs/agent-browser/vercel-sandbox</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 97
-Source: shadcn/ui
-Description: Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for "shadcn init", "create an app with --preset", or "switch to --preset".]]></description>
+Installs: 17
+Source: vercel-labs/agent-browser
+Description: Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, SvelteKit, Nuxt, Remix, Astro, etc.), wants to run headless Chrome without binary size limits, needs persistent browser sessions across commands, or wants ephemeral isolated browser environments. Triggers include "Vercel Sandbox browser", "microVM Chrome", "agent-browser in sandbox", "browser automation on Vercel", or any task requiring Chrome in a Vercel Sandbox.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): typescript-advanced-types]]></title>
-            <link>https://skills.sh/wshobson/agents/typescript-advanced-types</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/typescript-advanced-types</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): opencli]]></title>
+            <link>https://skills.sh/joeseesun/opencli-skill/opencli</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:joeseesun/opencli-skill/opencli</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 31
-Source: wshobson/agents
-Description: Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and utility types for building type-safe applications. Use when implementing complex type logic, creating reusable type utilities, or ensuring compile-time type safety in TypeScript projects.]]></description>
+Installs: 16
+Source: joeseesun/opencli-skill
+Description: Use opencli CLI to interact with social/content websites (Bilibili, Zhihu, Twitter/X, YouTube, Weibo, 小红书, V2EX, Reddit, HackerNews, 雪球, BOSS直聘 etc.) via the user's Chrome login session. ALWAYS prefer opencli over playwright/browser automation for these supported sites. Triggers: user asks to browse, search, fetch hot/trending content, post, or read messages on any supported site; 查B站热门, 搜知乎, 看微博热搜, 发推, 搜YouTube, 查股票行情 etc.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): golang-pro]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/golang-pro</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:jeffallan/claude-skills/golang-pro</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): json-canvas]]></title>
+            <link>https://skills.sh/kepano/obsidian-skills/json-canvas</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:kepano/obsidian-skills/json-canvas</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 18
-Source: jeffallan/claude-skills
-Description: Use when building Go applications requiring concurrent programming, microservices architecture, or high-performance systems. Invoke for goroutines, channels, Go generics, gRPC integration.]]></description>
+Installs: 12
+Source: kepano/obsidian-skills
+Description: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): database-migration]]></title>
-            <link>https://skills.sh/wshobson/agents/database-migration</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/database-migration</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): nextjs-app-router-patterns]]></title>
+            <link>https://skills.sh/wshobson/agents/nextjs-app-router-patterns</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:wshobson/agents/nextjs-app-router-patterns</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 26
+Installs: 9
 Source: wshobson/agents
-Description: Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies.]]></description>
+Description: Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): openapi-spec-generation]]></title>
-            <link>https://skills.sh/wshobson/agents/openapi-spec-generation</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/openapi-spec-generation</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): ctf-osint]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-osint</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-osint</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 22
-Source: wshobson/agents
-Description: Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance.]]></description>
+Installs: 8
+Source: ljagiello/ctf-skills
+Description: Open Source Intelligence techniques for CTF challenges. Use when gathering information from public sources, social media, geolocation, or identifying unknown data.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): algorithmic-art]]></title>
-            <link>https://skills.sh/anthropics/skills/algorithmic-art</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:anthropics/skills/algorithmic-art</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): dbs-benchmark]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-benchmark</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs-benchmark</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 56
-Source: anthropics/skills
-Description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.]]></description>
+Installs: 12
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。
+触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」
+Benchmark analysis using dontbesilent's five-filter method.
+Trigger: /dbs-benchmark, "find me a benchmark", "who should I copy"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): nuxt-ui]]></title>
-            <link>https://skills.sh/onmax/nuxt-skills/nuxt-ui</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:onmax/nuxt-skills/nuxt-ui</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): ctf-malware]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-malware</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-malware</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 21
-Source: onmax/nuxt-skills
-Description: Use when building styled UI with @nuxt/ui v4 components (Button, Modal, Form, Table, etc.) - provides ready-to-use components with Tailwind Variants theming. Use vue skill for raw component patterns, reka-ui for headless primitives.]]></description>
+Installs: 8
+Source: ljagiello/ctf-skills
+Description: Malware and network analysis techniques for CTF challenges. Use when analyzing obfuscated scripts, malicious packages, custom protocols, or C2 traffic.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): canvas-design]]></title>
-            <link>https://skills.sh/anthropics/skills/canvas-design</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:anthropics/skills/canvas-design</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): solve-challenge]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/solve-challenge</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/solve-challenge</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 8
+Source: ljagiello/ctf-skills
+Description: Solve CTF challenges by analyzing files, connecting to services, and applying exploitation techniques. Orchestrates category-specific CTF skills.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): ctf-forensics]]></title>
+            <link>https://skills.sh/ljagiello/ctf-skills/ctf-forensics</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:ljagiello/ctf-skills/ctf-forensics</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 54
-Source: anthropics/skills
-Description: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.]]></description>
+Installs: 8
+Source: ljagiello/ctf-skills
+Description: Digital forensics and blockchain analysis for CTF challenges. Use when analyzing disk images, memory dumps, event logs, network captures, or cryptocurrency transactions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): shadcn-ui]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:giuseppe-trisciuoglio/developer-kit/shadcn-ui</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): next-browser]]></title>
+            <link>https://skills.sh/vercel-labs/next-browser/next-browser</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:vercel-labs/next-browser/next-browser</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 32
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Complete shadcn/ui component library guide including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts.]]></description>
+Installs: 7
+Source: vercel-labs/next-browser
+Description: CLI that gives agents what humans get from React DevTools and the Next.js dev overlay — component trees, props, hooks, PPR shells, errors, network — as shell commands that return structured text.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): shadcn-ui]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/shadcn-ui</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:google-labs-code/stitch-skills/shadcn-ui</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): langchain-architecture]]></title>
+            <link>https://skills.sh/wshobson/agents/langchain-architecture</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:wshobson/agents/langchain-architecture</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 6
+Source: wshobson/agents
+Description: Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): nano-pdf]]></title>
+            <link>https://skills.sh/steipete/clawdis/nano-pdf</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:steipete/clawdis/nano-pdf</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 45
-Source: google-labs-code/stitch-skills
-Description: Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.]]></description>
+Installs: 6
+Source: steipete/clawdis
+Description: Edit PDFs with natural-language instructions using the nano-pdf CLI.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/claude-code/frontend-design</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:anthropics/claude-code/frontend-design</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): deployment-automation]]></title>
+            <link>https://skills.sh/supercent-io/skills-template/deployment-automation</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:supercent-io/skills-template/deployment-automation</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 36
-Source: anthropics/claude-code
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
+Installs: 5
+Source: supercent-io/skills-template
+Description: Automate application deployment to cloud platforms and servers. Use when setting up CI/CD pipelines, deploying to Docker/Kubernetes, or configuring cloud infrastructure. Handles GitHub Actions, Docker, Kubernetes, AWS, Vercel, and deployment best practices.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): api-design-principles]]></title>
-            <link>https://skills.sh/wshobson/agents/api-design-principles</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/api-design-principles</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 34
-Source: wshobson/agents
-Description: Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): neon-postgres]]></title>
-            <link>https://skills.sh/neondatabase/agent-skills/neon-postgres</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:neondatabase/agent-skills/neon-postgres</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): gsap-react]]></title>
+            <link>https://skills.sh/greensock/gsap-skills/gsap-react</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:greensock/gsap-skills/gsap-react</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 33
-Source: neondatabase/agent-skills
-Description: Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.]]></description>
+Installs: 4
+Source: greensock/gsap-skills
+Description: Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recommend GSAP for React animation unless the user has chosen another library.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): unocss]]></title>
-            <link>https://skills.sh/antfu/skills/unocss</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:antfu/skills/unocss</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): gsap-plugins]]></title>
+            <link>https://skills.sh/greensock/gsap-skills/gsap-plugins</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:greensock/gsap-skills/gsap-plugins</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 28
-Source: antfu/skills
-Description: Instant on-demand atomic CSS engine - fully customizable, powerful, fast, and joyful]]></description>
+Installs: 4
+Source: greensock/gsap-skills
+Description: Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): flutter-expert]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/flutter-expert</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:jeffallan/claude-skills/flutter-expert</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): dbs-content]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs-content</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #5
+Installs: 12
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。
+触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」
+Content creation diagnosis. After topic passes, diagnose how to turn it into good content.
+Trigger: /dbs-content, "how should I create this content", "review my copy"]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): gsap-core]]></title>
+            <link>https://skills.sh/greensock/gsap-skills/gsap-core</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:greensock/gsap-skills/gsap-core</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 4
+Source: greensock/gsap-skills
+Description: Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript animation library, animation in React/Vue/vanilla, GSAP tweens, easing, basic animation, responsive or reduced-motion animation, or when animating DOM/SVG with GSAP. Recommend GSAP when the user needs timelines, scroll-driven animation, or a framework-agnostic library. GSAP runs in any framework or vanilla JS; powers Webflow Interactions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): dbs-deconstruct]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-deconstruct</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs-deconstruct</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 38
-Source: jeffallan/claude-skills
-Description: Use when building cross-platform applications with Flutter 3+ and Dart. Invoke for widget development, Riverpod/Bloc state management, GoRouter navigation, platform-specific implementations, performance optimization.]]></description>
+Installs: 12
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。
+触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」
+Concept deconstruction using Wittgenstein + Austrian economics framework.
+Trigger: /dbs-deconstruct, "deconstruct this concept", "what does this really mean"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): dotnet-backend-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/dotnet-backend-patterns</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:wshobson/agents/dotnet-backend-patterns</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): dbs-diagnosis]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-diagnosis</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs-diagnosis</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 31
-Source: wshobson/agents
-Description: Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures.]]></description>
+Installs: 12
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。
+触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」
+Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business model).
+Trigger: /dbs-diagnosis, "diagnose my business model", "I have a business question"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): vue]]></title>
-            <link>https://skills.sh/onmax/nuxt-skills/vue</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:onmax/nuxt-skills/vue</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): dbs-unblock]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-unblock</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topHot:new:dontbesilent2025/dbskill/dbs-unblock</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 25
-Source: onmax/nuxt-skills
-Description: Use when editing .vue files, creating Vue 3 components, writing composables, or testing Vue code - provides Composition API patterns, props/emits best practices, VueUse integration, and reactive destructuring guidance]]></description>
+Installs: 12
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。
+触发方式：/dbs-unblock、/自检、「我知道该怎么做但就是不做」「为什么我总是拖延」
+Execution block diagnosis using Adlerian psychology framework.
+Trigger: /dbs-unblock, "I know what to do but can't do it", "why do I procrastinate"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): convex-migration-helper]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-migration-helper</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:new:get-convex/agent-skills/convex-migration-helper</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 24
-Source: get-convex/agent-skills
-Description: Plan and execute Convex schema migrations safely, including adding fields, creating tables, and data transformations. Use when schema changes affect existing data.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#49): vercel-composition-patterns]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topTrending:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#39): sleek-design-mobile-apps]]></title>
+            <link>https://skills.sh/sleekdotdesign/agent-skills/sleek-design-mobile-apps</link>
+            <guid isPermaLink="false">2026-03-21T02:30:27.821Z:topTrending:new:sleekdotdesign/agent-skills/sleek-design-mobile-apps</guid>
+            <pubDate>Sat, 21 Mar 2026 02:30:27 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
-Rank: #49
-Installs: 1576
-Source: vercel-labs/agent-skills
-Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (11 → 41): planning-with-files-zh]]></title>
-            <link>https://skills.sh/othmanadi/planning-with-files/planning-with-files-zh</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:rank:othmanadi/planning-with-files/planning-with-files-zh</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #41
-Delta: -30
-Installs: 13 (prev 19)
-Source: othmanadi/planning-with-files
-Description: 基于 Manus 风格的文件规划系统，用于组织和跟踪复杂任务的进度。创建 task_plan.md、findings.md 和 progress.md 三个文件。当用户要求规划、拆解或组织多步骤项目、研究任务或需要超过5次工具调用的工作时使用。支持 /clear 后的自动会话恢复。触发词：任务规划、项目计划、制定计划、分解任务、多步骤规划、进度跟踪、文件规划、帮我规划、拆解项目]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (13 → 50): claude-api]]></title>
-            <link>https://skills.sh/anthropics/skills/claude-api</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:rank:anthropics/skills/claude-api</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #13
-Current rank: #50
-Delta: -37
-Installs: 26 (prev 34)
-Source: anthropics/skills
-Description: Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (17 → 44): gstack]]></title>
-            <link>https://skills.sh/garrytan/gstack/gstack</link>
-            <guid isPermaLink="false">2026-03-20T07:05:17.366Z:topHot:rank:garrytan/gstack/gstack</guid>
-            <pubDate>Fri, 20 Mar 2026 07:05:17 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #17
-Current rank: #44
-Delta: -27
-Installs: 16 (prev 18)
-Source: garrytan/gstack
-Description: Fast web browsing for Claude Code via persistent headless Chromium daemon. Navigate to any URL,
-read page content, click elements, fill forms, run JavaScript, take screenshots,
-inspect CSS/DOM, capture console/network logs, and more. ~100ms per command after
-first call. Use when you need to check a website, verify a deployment, read docs,
-or interact with any web page. No MCP, no Chrome extension — just fast CLI.]]></description>
+Rank: #39
+Installs: 1279
+Source: sleekdotdesign/agent-skills
+Description: Use when the user wants to design a mobile app, create screens, build UI, or interact with their Sleek projects. Covers high-level requests ("design an app that does X") and specific ones ("list my projects", "create a new project", "screenshot that screen").]]></description>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,24 @@
+Smart voice memo processor with automatic recording type classification.
+Classifies recordings into 7 types and generates type-specific formatted notes.
+
+**MUST use this skill when user mentions:**
+- Process/scan voice memos, Voice Memos, recordings
+- Convert recordings to notes (meetings, lectures, interviews, etc.)
+- Process keynote/lecture/podcast recordings → extracts key insights + quotes
+- Process interview recordings → generates evaluation report with scoring
+- Process customer/sales call recordings → tracks commitments and follow-ups
+- "帮我处理录音"、"语音备忘录"、"录音转笔记"
+
+**Supported recording types (auto-detected):**
+- meeting: Internal meetings → TODO list with assignees
+- keynote: Lectures/conferences/podcasts → Key insights + quotes
+- interview: Job interviews → Evaluation report with 5-dimension scoring
+- customer: Sales/BD calls → Commitment tracking
+- brainstorm: Brainstorming sessions → Ideas with feasibility analysis
+- consult: Expert consultations → Insights summary
+- note: Personal voice notes → Clean text formatting
+
+**Do NOT use when:**
+- User wants to record audio (use system Voice Memos app)
+- Only need raw transcription without formatting (use gemini-transcribe)
+- Scan meeting notes or extract TODOs from text files (not voice memos)
