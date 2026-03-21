@@ -1,0 +1,5 @@
+[Trigger] When PPT workflow needs SVG slide quality review via Gemini.
+[Output] Structured review assessment with scores, pass/fail, and fix suggestions.
+[Skip] For content authoring or SVG generation tasks (those are handled by Claude).
+[Ask] No user input needed; invoked by review-core agent.
+[Resource Usage] Use references/, scripts/ (`scripts/invoke-gemini-ppt.ts`).
