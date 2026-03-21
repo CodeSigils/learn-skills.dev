@@ -1,0 +1,3 @@
+Use when the user mentions staking SUI, withdrawing, claiming rewards, or operating haSUI on Haedal Protocol (a DeFi/LST protocol on SUI).
+Trigger phrases: "haedal","stake sui"，"stake hasui", "withdraw hasui", "withdraw sui"，"instant withdraw hasui", "instant withdraw sui", "claim hasui rewards","claim sui rewards".
+This skill calls https://skillsapi.haedal.xyz/api/v1/hasui/* via curl POST. On HTTP 200 returns txBytes (base64); on non‑200 returns msg.
