@@ -6,6 +6,9 @@ Regenerates:
   - data/skills_index.json
   - data/skills_first_seen.json
   - data/skills_search_index.json
+  - data/skills_search_index2.json
+  - data/skills_search_index3.json
+  - ... (as needed)
   - data/skills_category_index.json
 
 By default this does NOT re-crawl skills.sh; it rebuilds indexes from the
@@ -29,6 +32,20 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
+
+
+def _search_index_shard_sort_key(path: Path) -> int:
+    if path.name == "skills_search_index.json":
+        return 1
+    suffix = path.stem[len("skills_search_index") :]
+    try:
+        return int(suffix)
+    except ValueError:
+        return 1_000_000_000
+
+
+def _search_index_shard_paths() -> list[Path]:
+    return sorted(DATA_DIR.glob("skills_search_index*.json"), key=_search_index_shard_sort_key)
 
 
 def run(cmd: list[str], *, env: dict[str, str] | None = None) -> None:
@@ -58,7 +75,7 @@ def main() -> None:
     ap.add_argument(
         "--skip-search",
         action="store_true",
-        help="Skip rebuilding data/skills_search_index.json",
+        help="Skip rebuilding data/skills_search_index*.json",
     )
     ap.add_argument(
         "--skip-category",
@@ -96,12 +113,16 @@ def main() -> None:
 
     # Print summary counts.
     idx = json.loads((DATA_DIR / "skills_index.json").read_text(encoding="utf-8"))
-    search = json.loads((DATA_DIR / "skills_search_index.json").read_text(encoding="utf-8"))
+    search_shards = _search_index_shard_paths()
+    if not search_shards:
+        raise SystemExit("Missing data/skills_search_index*.json. Run search index build first.")
+    search = json.loads(search_shards[0].read_text(encoding="utf-8"))
     cat = json.loads((DATA_DIR / "skills_category_index.json").read_text(encoding="utf-8"))
     print(
         "Done.",
         f"skills_index.count={idx.get('count')}",
-        f"skills_search_index.count={search.get('count')}",
+        f"skills_search_index.shards={len(search_shards)}",
+        f"skills_search_index.totalCount={search.get('totalCount') or search.get('count')}",
         f"skills_category_index.skills={len((cat.get('skillToCategory') or {}))}",
         sep="\n",
     )
@@ -109,4 +130,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

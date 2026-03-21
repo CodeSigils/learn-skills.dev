@@ -41,7 +41,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add data/skills_search_index.json
+          git add -A -- 'data/skills_search_index*.json'
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
@@ -62,4 +62,3 @@ jobs:
             git rebase origin/main -X theirs
             sleep $((i * 2))
           done
-
