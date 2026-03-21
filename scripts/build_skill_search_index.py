@@ -30,6 +30,8 @@ FIRST_SEEN_PATH = DATA_DIR / "skills_first_seen.json"
 
 # Safety cap: descriptions should be short, but avoid accidental huge payloads.
 MAX_DESCRIPTION_CHARS = 5000
+# GitHub rejects regular Git blobs larger than 100,000,000 bytes.
+GITHUB_GIT_BLOB_LIMIT_BYTES = 100_000_000
 
 
 def _utc_now_iso() -> str:
@@ -158,10 +160,20 @@ def main() -> None:
         "items": dict(sorted(by_id.items())),
     }
 
-    OUTPUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUTPUT_PATH} ({len(by_id)} skills)")
+    # Keep this file compact so it stays below GitHub's regular Git blob limit.
+    payload = json.dumps(out, ensure_ascii=False, separators=(",", ":")) + "\n"
+    payload_bytes = payload.encode("utf-8")
+    OUTPUT_PATH.write_bytes(payload_bytes)
+
+    if len(payload_bytes) >= GITHUB_GIT_BLOB_LIMIT_BYTES:
+        raise SystemExit(
+            f"{OUTPUT_PATH} is {len(payload_bytes):,} bytes, which exceeds GitHub's "
+            f"regular Git blob limit of {GITHUB_GIT_BLOB_LIMIT_BYTES:,} bytes. "
+            "Reduce the payload size or move this artifact out of normal Git history."
+        )
+
+    print(f"Wrote {OUTPUT_PATH} ({len(by_id)} skills, {len(payload_bytes):,} bytes)")
 
 
 if __name__ == "__main__":
     main()
-
