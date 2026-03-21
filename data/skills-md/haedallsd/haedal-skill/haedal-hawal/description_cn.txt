@@ -1,0 +1,3 @@
+当用户提及在 Haedal 协议（SUI 上的 DeFi/LST 协议）上质押 WAL、提取 hawal、领取奖励或操作 haWAL 时使用。
+触发短语：“质押 hawal”、“质押 hawal”、“提现 hawal”、“提现 wal”、“即时提现 hawal”、“即时提现 wal”、“索取 hawal 奖励”、“索取 wal 奖励”。
+该技能通过curl POST调用https://skillsapi.haedal.xyz/api/v1/hawal/*。在 HTTP 200 上返回 txBytes (base64)；非 200 返回消息。

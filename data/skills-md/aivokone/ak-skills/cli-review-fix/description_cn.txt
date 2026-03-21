@@ -1,0 +1,1 @@
+向外部 CLI 工具（Codex CLI、Gemini CLI）发送代码审查请求，严格评估结果，修复有效问题，并提交修复报告。自动检测上下文（PR、分支、未提交的更改）。使用 Codex 和 Gemini 的捆绑包装脚本。对于 Gemini，在安装时更喜欢代码审查扩展（具有完整文件访问权限的交互模式）。运行 /cli-review-fix 以启动所有可用的 CLI，或运行 /cli-review-fix codex 以启动特定的 CLI。
