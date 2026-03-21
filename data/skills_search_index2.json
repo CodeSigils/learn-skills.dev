@@ -1,19 +1,38 @@
 {
-  "updatedAt": "2026-03-21T07:24:01Z",
-  "sourceIndexUpdatedAt": "2026-03-21T07:23:56Z",
+  "updatedAt": "2026-03-21T07:25:41Z",
+  "sourceIndexUpdatedAt": "2026-03-21T07:25:37Z",
   "sourceSkillsUpdatedAt": "2026-03-21T02:30:27.821Z",
   "version": 3,
   "part": 2,
   "totalParts": 2,
-  "count": 3169,
+  "count": 3170,
   "totalCount": 60985,
-  "startId": "wire-dsl/wire-dsl/wireframe-generator",
+  "startId": "wintree86/plan-task-fix/task",
   "endId": "zzzhizhia/repowiki/repowiki",
   "files": [
     "data/skills_search_index.json",
     "data/skills_search_index2.json"
   ],
   "items": {
+    "wintree86/plan-task-fix/task": {
+      "id": "wintree86/plan-task-fix/task",
+      "providerId": "cached",
+      "source": "wintree86/plan-task-fix",
+      "skillId": "task",
+      "title": "task",
+      "link": "https://github.com/wintree86/plan-task-fix",
+      "firstSeenAt": "2026-02-25T23:15:22.452Z",
+      "installsAllTime": 8,
+      "installsTrending": null,
+      "installsHot": null,
+      "description": "Task tracker -- track progress and verify implementation directly on plan.md. 범용 프로젝트 태스크 관리. plan 문서에서 진행률 추적, 현황 요약. Triggers: /task, \"task\", \"태스크\", \"progress\", \"진행률\", \"진행 상황\"",
+      "descriptionEn": "Task tracker -- track progress and verify implementation directly on plan.md. 범용 프로젝트 태스크 관리. plan 문서에서 진행률 추적, 현황 요약. Triggers: /task, \"task\", \"태스크\", \"progress\", \"진행률\", \"진행 상황\"",
+      "descriptionCn": "任务跟踪器——直接在 plan.md 上跟踪进度并验证实施情况。通用项目任务管理。在计划文档中跟踪进度并总结状态。触发器：/任务、“任务”、“任务”、“进度”、“进度”、“进度”",
+      "descriptionPath": "data/skills-md/wintree86/plan-task-fix/task/description_en.txt",
+      "descriptionEnPath": "data/skills-md/wintree86/plan-task-fix/task/description_en.txt",
+      "descriptionCnPath": "data/skills-md/wintree86/plan-task-fix/task/description_cn.txt",
+      "skillMdPath": "data/skills-md/wintree86/plan-task-fix/task/SKILL.md"
+    },
     "wire-dsl/wire-dsl/wireframe-generator": {
       "id": "wire-dsl/wire-dsl/wireframe-generator",
       "providerId": "cached",
