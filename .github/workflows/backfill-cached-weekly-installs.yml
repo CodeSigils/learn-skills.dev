@@ -1,0 +1,89 @@
+name: Backfill Cached Weekly Installs
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max cached skills to backfill this run (0 = all)'
+        required: false
+        default: '500'
+      concurrency:
+        description: 'Concurrent skills.sh page fetches'
+        required: false
+        default: '8'
+      timeout_seconds:
+        description: 'Per-request timeout in seconds'
+        required: false
+        default: '20'
+      force:
+        description: 'Refetch even if stats.json already exists'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+concurrency:
+  group: backfill-cached-weekly-installs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Backfill cached weekly installs
+        run: |
+          FORCE_FLAG=""
+          if [ "${{ github.event.inputs.force || 'false' }}" = "true" ]; then
+            FORCE_FLAG="--force"
+          fi
+
+          python scripts/backfill_cached_weekly_installs.py \
+            --limit "${{ github.event.inputs.limit || '500' }}" \
+            --concurrency "${{ github.event.inputs.concurrency || '8' }}" \
+            --timeout "${{ github.event.inputs.timeout_seconds || '20' }}" \
+            $FORCE_FLAG
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: backfill cached weekly installs"
+
+          git stash --include-untracked 2>/dev/null || true
+          git fetch origin main
+          git rebase origin/main -X theirs
+          git stash pop 2>/dev/null || true
+
+          for i in 1 2 3 4 5; do
+            git push && break
+            echo "Push failed, retrying ($i/5)..."
+            git stash --include-untracked 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main -X theirs
+            git stash pop 2>/dev/null || true
+            sleep $((i * 2))
+          done
