@@ -1,0 +1,1 @@
+當使用 tidyverse 資料屏蔽函數（dplyr、ggplot2、tidyr）進行程式設計並且需要透過函數傳遞列引用時使用。涵蓋：使用 {{ 和 ... 的轉送模式、使用 .data/.env 代名詞的命名模式、使用 across()/all_of() 的橋接模式、雙重評估和歧義陷阱。不涵蓋：表達式機制（r-元程式設計）、錯誤處理（rlang-條件）、函數設計（designing-tidy-r-functions）。

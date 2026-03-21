@@ -1,0 +1,1 @@
+인증된 사용자가 API 요청에서 객체 식별자를 조작하여 다른 사용자에게 속한 리소스에 액세스하거나 수정할 수 있는 BOLA/IDOR(Broken Object Level Authorization) 취약성에 대해 REST 및 GraphQL API를 테스트합니다. 테스터는 API 호출을 가로채고 객체 ID 매개변수(숫자 ID, UUID, 슬러그)를 식별하고 이를 다른 사용자에게 속한 ID로 체계적으로 대체하여 서버가 객체별 인증을 시행하는지 확인합니다. OWASP API 보안 상위 10 2023 위험 API1입니다. BOLA 테스트, API의 IDOR, 개체 수준 인증 테스트 또는 API 액세스 제어 우회와 관련된 요청에 대해 활성화됩니다.

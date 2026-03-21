@@ -1,0 +1,1 @@
+当使用 tidyverse 数据屏蔽函数（dplyr、ggplot2、tidyr）进行编程并且需要通过函数传递列引用时使用。涵盖：使用 {{ 和 ... 的转发模式、使用 .data/.env 代词的命名模式、使用 across()/all_of() 的桥接模式、双重评估和歧义陷阱。不涵盖：表达式机制（r-元编程）、错误处理（rlang-条件）、函数设计（designing-tidy-r-functions）。

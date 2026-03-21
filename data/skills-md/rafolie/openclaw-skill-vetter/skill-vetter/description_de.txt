@@ -1,0 +1,9 @@
+Protokoll zur Überprüfung der Kompetenzsicherheit. Alle externen Fähigkeiten müssen vor der Installation überprüft werden.
+
+**Trigger-Szenarien**:
+(1) Benutzeranfragen zur Installation eines Skills von ClawdHub, GitHub oder einer anderen Quelle
+(2) Der Benutzer gibt einen Skill für die Installation weiter oder empfiehlt ihn
+(3) Ein anderer Agent teilt den Skill-Code
+(4) Der Benutzer sagt „Skill installieren“, „Skill installieren“ oder „Überprüfen Sie, ob dieser Skill sicher ist“.
+
+**Warum eine Überprüfung erforderlich ist**: Skills können auf das Dateisystem zugreifen, Befehle ausführen und Netzwerkanfragen senden. Böswillige Fähigkeiten können Anmeldeinformationen stehlen, Systemdateien ändern oder Daten exfiltrieren. Die Überprüfung dauert nur wenige Minuten, verhindert jedoch schwerwiegende Sicherheitsprobleme.

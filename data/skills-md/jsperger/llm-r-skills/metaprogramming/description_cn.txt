@@ -1,0 +1,1 @@
+在编写操作表达式、以编程方式构建代码或需要了解 rlang 的 deuse/inject 机制的 R 代码时使用。涵盖：使用 expr()/enquo()/enquos() 进行解构，quosure 环境跟踪，使用 !!/!!!/{{ 进行注入，使用 sym()/syms() 进行符号构造。不涵盖：数据掩码编程模式（tidy-evaluation）、错误处理（rlang-conditions）、函数设计（designing-tidy-r-functions）。

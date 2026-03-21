@@ -1,10 +1,9 @@
-技能安全审核协议。安装任何外部技能前必须先审核。
+Skill Security Review Protocol. Any external skill must be reviewed before installation.
 
-**触发场景**：
-(1) 用户要求从 ClawdHub、GitHub 或其他来源安装技能
-(2) 用户分享或推荐一个技能让安装
-(3) 其他 Agent 分享了技能代码
-(4) 用户说"安装技能"、"装个skill"、"看看这个技能安不安全"
+**Trigger Scenarios**:
+(1) User requests to install a skill from ClawdHub, GitHub, or another source
+(2) User shares or recommends a skill for installation
+(3) Another Agent shares skill code
+(4) User says "install skill", "install a skill", or "check if this skill is safe"
 
-**为什么需要审核**：技能可以访问文件系统、执行命令、发送网络请求。
-恶意技能可能窃取凭据、修改系统文件、外传数据。审核只需几分钟，但能避免严重安全问题。
+**Why Review Is Needed**: Skills can access the filesystem, execute commands, and send network requests. Malicious skills may steal credentials, modify system files, or exfiltrate data. Review takes only a few minutes but prevents serious security issues.

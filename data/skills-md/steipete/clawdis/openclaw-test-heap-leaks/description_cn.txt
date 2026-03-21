@@ -1,0 +1,1 @@
+使用“scripts/test-parallel.mjs”堆快照工具调查 OpenClaw 中的“pnpm test”内存增长、Vitest 工作线程 OOM 和可疑 RSS 增加。当 Codex 需要重现测试通道内存增长、收集重复的“.heapsnapshot”文件、比较来自同一工作进程 PID 的快照、区分转换模块保留和实际数据泄漏，以及通过修补清理逻辑或隔离热点测试来修复或减少影响时使用。

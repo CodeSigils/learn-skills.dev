@@ -1,0 +1,1 @@
+在开发需要正确处理错误、警告和条件的 R 包时使用。涵盖：(1) cli_abort/cli_warn/cli_inform 用于抛出带格式的条件，(2) 使用 caller_env() 和 caller_arg() 的错误调用上下文，(3) 报告正确函数的输入验证帮助程序，(4) 使用 try_fetch() 和父参数进行错误链接，(5) 使用 testthat 快照测试错误条件。
