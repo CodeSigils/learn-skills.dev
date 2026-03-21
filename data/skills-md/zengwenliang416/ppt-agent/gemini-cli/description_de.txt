@@ -1,0 +1,5 @@
+[Auslöser] Wenn der PPT-Workflow eine Qualitätsüberprüfung der SVG-Folie über Gemini erfordert.
+[Ausgabe] Strukturierte Überprüfungsbewertung mit Bewertungen, Bestanden/Nicht bestanden und Lösungsvorschlägen.
+[Überspringen] Für Inhaltserstellungs- oder SVG-Generierungsaufgaben (diese werden von Claude erledigt).
+[Fragen] Keine Benutzereingabe erforderlich; Wird vom Review-Core-Agenten aufgerufen.
+[Ressourcennutzung] Verwenden Sie references/, scripts/ („scripts/invoke-gemini-ppt.ts“).
