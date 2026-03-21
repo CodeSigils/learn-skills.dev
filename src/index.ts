@@ -63,6 +63,11 @@ type SkillsFirstSeenJson = {
   items: Record<string, string>; // id -> ISO timestamp
 };
 
+type SkillStatsCache = {
+  updatedAt: string;
+  weeklyInstalls?: number;
+};
+
 interface FeedItem {
   id: string;
   title: string;
@@ -162,6 +167,10 @@ function repoRelativeDescriptionEnPath(source: string, skillId: string) {
 
 function descriptionEnAbsPath(source: string, skillId: string) {
   return join(process.cwd(), 'data', 'skills-md', source, skillId, 'description_en.txt');
+}
+
+function skillStatsAbsPath(source: string, skillId: string) {
+  return join(process.cwd(), 'data', 'skills-md', source, skillId, 'stats.json');
 }
 
 function writeDescriptionEnIfChanged(source: string, skillId: string, description: string | undefined) {
@@ -283,6 +292,29 @@ async function fetchText(url: string): Promise<string | null> {
   } catch {
     return null;
   }
+}
+
+function extractWeeklyInstallsFromSkillPage(html: string): number | null {
+  const normalized = html.replace(/\s+/g, ' ');
+  const patterns = [
+    /Weekly Installs<\/span>\s*<\/div>\s*<div[^>]*>([\d,]+)<\/div>/i,
+    /Weekly Installs<\/[^>]+>\s*<div[^>]*>([\d,]+)<\/div>/i,
+  ];
+
+  for (const pattern of patterns) {
+    const match = normalized.match(pattern);
+    if (!match?.[1]) continue;
+    const value = Number(match[1].replace(/,/g, ''));
+    if (Number.isFinite(value)) return value;
+  }
+
+  return null;
+}
+
+async function fetchWeeklyInstallsFromSkillPage(source: string, skillId: string): Promise<number | null> {
+  const html = await fetchText(skillsShSkillUrl(source, skillId));
+  if (!html) return null;
+  return extractWeeklyInstallsFromSkillPage(html);
 }
 
 async function fetchGithubJson<T>(url: string): Promise<T | null> {
@@ -813,6 +845,14 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
       // ignore read errors
     }
 
+    const firstSeenAt = getOrInitFirstSeenAt(id);
+    // Avoid turning each crawl into a full-site stats scrape. New cached skills
+    // get their weekly installs immediately; older backlog entries should be
+    // filled by the dedicated backfill script.
+    const weeklyInstalls = await getCachedSkillWeeklyInstalls(source, skillId, {
+      fetchIfMissing: firstSeenAt === nowIso,
+    });
+
     items[idx] = {
       id,
       providerId: 'cached',
@@ -820,8 +860,8 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
       skillId,
       title,
       link: `https://github.com/${source}`,
-      installsAllTime: 0,
-      firstSeenAt: getOrInitFirstSeenAt(id),
+      installsAllTime: weeklyInstalls ?? 0,
+      firstSeenAt,
       description: descriptionPath,
       skillMdPath,
     };
@@ -1226,6 +1266,39 @@ function readJsonFile<T>(path: string): T | null {
   } catch {
     return null;
   }
+}
+
+function readSkillStatsCache(source: string, skillId: string): SkillStatsCache | null {
+  return readJsonFile<SkillStatsCache>(skillStatsAbsPath(source, skillId));
+}
+
+function writeSkillStatsCache(source: string, skillId: string, weeklyInstalls: number) {
+  const dir = join(process.cwd(), 'data', 'skills-md', source, skillId);
+  mkdirSync(dir, { recursive: true });
+  const out: SkillStatsCache = {
+    updatedAt: new Date().toISOString(),
+    weeklyInstalls,
+  };
+  writeFileSync(skillStatsAbsPath(source, skillId), JSON.stringify(out, null, 2));
+}
+
+async function getCachedSkillWeeklyInstalls(
+  source: string,
+  skillId: string,
+  opts: { fetchIfMissing?: boolean } = {},
+): Promise<number | null> {
+  const cached = readSkillStatsCache(source, skillId);
+  if (cached && typeof cached.weeklyInstalls === 'number' && Number.isFinite(cached.weeklyInstalls)) {
+    return cached.weeklyInstalls;
+  }
+
+  if (!opts.fetchIfMissing) return null;
+
+  const weeklyInstalls = await fetchWeeklyInstallsFromSkillPage(source, skillId);
+  if (weeklyInstalls === null) return null;
+
+  writeSkillStatsCache(source, skillId, weeklyInstalls);
+  return weeklyInstalls;
 }
 
 function manualSkillsPath() {
