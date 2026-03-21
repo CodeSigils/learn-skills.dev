@@ -1,0 +1,1 @@
+파일을 분석하고 Nullables 패턴을 적용하기 위한 리팩토링 계획을 생성합니다. 부작용 경계(PURE, IN_MEMORY, OUTSIDE_WORLD)로 코드를 분류하고, HARDWIRED_INFRA를 식별하고, INFRASTRUCTURE_WRAPPER 또는 NULLABLE_CLASS 변환을 권장하고, DUAL_FACTORY 및 CREATE_BOUNDARY_RULE 규정 준수를 확인하고 DELAYED_INSTANTIATION을 결정합니다. Null 허용 패턴을 따르도록 파일이나 모듈을 리팩터링하라는 요청을 받을 때 사용합니다.
