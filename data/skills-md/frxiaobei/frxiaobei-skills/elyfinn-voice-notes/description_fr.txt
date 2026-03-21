@@ -1,0 +1,24 @@
+Processeur de mémos vocaux intelligent avec classification automatique des types d'enregistrement.
+Classifie les enregistrements en 7 types et génère des notes formatées spécifiques au type.
+
+**DOIT utiliser cette compétence lorsque l'utilisateur mentionne :**
+- Traiter/analyser les mémos vocaux, les mémos vocaux, les enregistrements
+- Convertir les enregistrements en notes (réunions, conférences, entretiens, etc.)
+- Traiter les enregistrements de keynote/conférence/podcast → extrait les informations clés + citations
+- Traiter les enregistrements des entretiens → génère un rapport d'évaluation avec notation
+- Traiter les enregistrements des appels clients/ventes → suivre les engagements et les suivis
+- "帮我处理录音"、"语音备忘录"、"录音转笔记"
+
+**Types d'enregistrement pris en charge (détectés automatiquement) :**
+- réunion : Réunions internes → liste TODO avec les responsables
+- keynote : Conférences/conférences/podcasts → Points clés + citations
+- entretien : Entretiens d'embauche → Rapport d'évaluation avec notation en 5 dimensions
+- client : Appels commerciaux/BD → Suivi des engagements
+- brainstorming : Séances de brainstorming → Idées avec analyse de faisabilité
+- consulter : Consultations d'experts → Résumé des insights
+- remarque : Notes vocales personnelles → Formatage du texte propre
+
+**Ne PAS utiliser quand :**
+- L'utilisateur souhaite enregistrer de l'audio (utilisez l'application Voice Memos du système)
+- Seulement besoin d'une transcription brute sans formatage (utilisez gemini-transcribe)
+- Numérisez des notes de réunion ou extrayez des TODO à partir de fichiers texte (pas de mémos vocaux)
