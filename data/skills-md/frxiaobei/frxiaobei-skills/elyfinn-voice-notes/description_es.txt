@@ -1,0 +1,24 @@
+Procesador inteligente de notas de voz con clasificación automática del tipo de grabación.
+Clasifica grabaciones en 7 tipos y genera notas formateadas de tipos específicos.
+
+**DEBE usar esta habilidad cuando el usuario menciona:**
+- Procesar/escanear notas de voz, notas de voz, grabaciones
+- Convertir grabaciones en notas (reuniones, conferencias, entrevistas, etc.)
+- Procesar grabaciones de discursos/conferencias/podcasts → extrae ideas clave + citas
+- Procesar grabaciones de entrevistas → genera informe de evaluación con puntuación.
+- Procesar grabaciones de llamadas de clientes/ventas → realizar un seguimiento de los compromisos y seguimientos
+- "帮我处理录音", "语音备忘录", "录音转笔记"
+
+**Tipos de grabación admitidos (detectados automáticamente):**
+- reunión: Reuniones internas → Lista de tareas pendientes con los asignados
+- discurso de apertura: conferencias/podcasts → Ideas clave + citas
+- entrevista: Entrevistas de trabajo → Informe de evaluación con puntuación de 5 dimensiones
+- cliente: Ventas/llamadas BD → Seguimiento de compromisos
+- lluvia de ideas: Sesiones de lluvia de ideas → Ideas con análisis de viabilidad
+- consultar: Consultas de expertos → Resumen de conocimientos
+- nota: Notas de voz personales → Formato de texto limpio
+
+**NO lo use cuando:**
+- El usuario desea grabar audio (use la aplicación Notas de voz del sistema)
+- Sólo se necesita transcripción sin formato (use gemini-transcribe)
+- Escanee notas de reuniones o extraiga TODO de archivos de texto (no notas de voz)
