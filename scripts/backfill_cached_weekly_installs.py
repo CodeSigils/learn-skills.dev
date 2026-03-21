@@ -229,6 +229,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Do not rebuild data/skills_search_index*.json after updating skills_index.json",
     )
+    parser.add_argument(
+        "--list-target-ids",
+        action="store_true",
+        help="Print selected cached skill ids (<source>/<skillId>) and exit",
+    )
     return parser.parse_args()
 
 
@@ -238,6 +243,11 @@ def main() -> None:
     targets = load_cached_targets(force=args.force, only_ids=only_ids or None)
     if args.limit > 0:
         targets = targets[: args.limit]
+
+    if args.list_target_ids:
+        for it in targets:
+            print(f"{it['source']}/{it['skillId']}")
+        return
 
     print(f"Targets: {len(targets)} cached skills")
     if not targets:

@@ -1,6 +1,9 @@
 name: Backfill Cached Weekly Installs
 
 on:
+  schedule:
+    # Run every Sunday at 03:00 UTC with force refresh enabled.
+    - cron: '0 3 * * 0'
   workflow_dispatch:
     inputs:
       limit:
@@ -47,43 +50,89 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Backfill cached weekly installs
+      - name: Backfill cached weekly installs in batches
+        env:
+          LIMIT: ${{ github.event_name == 'schedule' && '500' || github.event.inputs.limit || '500' }}
+          CONCURRENCY: ${{ github.event_name == 'schedule' && '8' || github.event.inputs.concurrency || '8' }}
+          TIMEOUT_SECONDS: ${{ github.event_name == 'schedule' && '20' || github.event.inputs.timeout_seconds || '20' }}
+          FORCE_REFRESH: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.force || 'false' }}
         run: |
-          FORCE_FLAG=""
-          if [ "${{ github.event.inputs.force || 'false' }}" = "true" ]; then
-            FORCE_FLAG="--force"
+          set -euo pipefail
+
+          BATCH_SIZE=500
+          FORCE_ARGS=()
+          if [ "$FORCE_REFRESH" = "true" ]; then
+            FORCE_ARGS+=(--force)
           fi
 
           python scripts/backfill_cached_weekly_installs.py \
-            --limit "${{ github.event.inputs.limit || '500' }}" \
-            --concurrency "${{ github.event.inputs.concurrency || '8' }}" \
-            --timeout "${{ github.event.inputs.timeout_seconds || '20' }}" \
-            $FORCE_FLAG
+            "${FORCE_ARGS[@]}" \
+            --list-target-ids > "$RUNNER_TEMP/backfill-targets.txt"
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          if [ "$LIMIT" != "0" ]; then
+            head -n "$LIMIT" "$RUNNER_TEMP/backfill-targets.txt" > "$RUNNER_TEMP/backfill-targets.limited.txt"
+            mv "$RUNNER_TEMP/backfill-targets.limited.txt" "$RUNNER_TEMP/backfill-targets.txt"
+          fi
 
-          git add data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          TARGET_COUNT=$(wc -l < "$RUNNER_TEMP/backfill-targets.txt" | tr -d ' ')
+          echo "Selected ${TARGET_COUNT} cached skills"
+
+          if [ "$TARGET_COUNT" = "0" ]; then
+            echo "No cached skills selected for backfill"
             exit 0
           fi
 
-          git commit -m "chore: backfill cached weekly installs"
+          split -l "$BATCH_SIZE" "$RUNNER_TEMP/backfill-targets.txt" "$RUNNER_TEMP/backfill-batch-"
 
-          git stash --include-untracked 2>/dev/null || true
-          git fetch origin main
-          git rebase origin/main -X theirs
-          git stash pop 2>/dev/null || true
+          shopt -s nullglob
+          batch_files=("$RUNNER_TEMP"/backfill-batch-*)
+          total_batches=${#batch_files[@]}
 
-          for i in 1 2 3 4 5; do
-            git push && break
-            echo "Push failed, retrying ($i/5)..."
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          batch_num=0
+          for batch_file in "${batch_files[@]}"; do
+            batch_num=$((batch_num + 1))
+            echo "Processing batch ${batch_num}/${total_batches}: ${batch_file}"
+
+            mapfile -t batch_ids < "$batch_file"
+            if [ "${#batch_ids[@]}" -eq 0 ]; then
+              echo "Empty batch, skipping"
+              continue
+            fi
+
+            ID_ARGS=()
+            for id in "${batch_ids[@]}"; do
+              ID_ARGS+=(--id "$id")
+            done
+
+            python scripts/backfill_cached_weekly_installs.py \
+              "${FORCE_ARGS[@]}" \
+              --concurrency "$CONCURRENCY" \
+              --timeout "$TIMEOUT_SECONDS" \
+              "${ID_ARGS[@]}"
+
+            git add data/
+            if git diff --staged --quiet; then
+              echo "No changes to commit for batch ${batch_num}/${total_batches}"
+              continue
+            fi
+
+            git commit -m "chore: backfill cached weekly installs (${batch_num}/${total_batches})"
+
             git stash --include-untracked 2>/dev/null || true
             git fetch origin main
             git rebase origin/main -X theirs
             git stash pop 2>/dev/null || true
-            sleep $((i * 2))
+
+            for i in 1 2 3 4 5; do
+              git push && break
+              echo "Push failed, retrying ($i/5)..."
+              git stash --include-untracked 2>/dev/null || true
+              git fetch origin main
+              git rebase origin/main -X theirs
+              git stash pop 2>/dev/null || true
+              sleep $((i * 2))
+            done
           done
