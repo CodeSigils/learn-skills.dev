@@ -1,0 +1,24 @@
+Intelligenter Sprachnotizprozessor mit automatischer Klassifizierung der Aufnahmeart.
+Klassifiziert Aufzeichnungen in 7 Typen und generiert typspezifisch formatierte Notizen.
+
+**Diese Fähigkeit MUSS verwendet werden, wenn der Benutzer Folgendes erwähnt:**
+- Sprachnotizen, Sprachnotizen und Aufzeichnungen verarbeiten/scannen
+- Konvertieren Sie Aufzeichnungen in Notizen (Besprechungen, Vorträge, Interviews usw.)
+- Keynote-/Vorlesungs-/Podcast-Aufzeichnungen verarbeiten → wichtige Erkenntnisse und Zitate extrahieren
+- Interviewaufzeichnungen verarbeiten → Bewertungsbericht mit Bewertung erstellen
+- Verarbeiten Sie Aufzeichnungen von Kunden-/Verkaufsgesprächen → Verfolgen Sie Verpflichtungen und Nachverfolgungen
+- „帮我处理录音“, „语音备忘录“ und „录音转笔记“
+
+**Unterstützte Aufnahmetypen (automatisch erkannt):**
+- Besprechung: Interne Besprechungen → TODO-Liste mit Beauftragten
+- Keynote: Vorträge/Konferenzen/Podcasts → Wichtige Erkenntnisse + Zitate
+- Vorstellungsgespräch: Vorstellungsgespräche → Evaluationsbericht mit 5-dimensionalem Scoring
+- Kunde: Vertriebs-/BD-Anrufe → Verpflichtungsverfolgung
+- Brainstorming: Brainstorming-Sitzungen → Ideen mit Machbarkeitsanalyse
+- konsultieren: Expertenkonsultationen → Zusammenfassung der Erkenntnisse
+- Hinweis: Persönliche Sprachnotizen → Textformatierung bereinigen
+
+**NICHT verwenden, wenn:**
+- Der Benutzer möchte Audio aufnehmen (verwenden Sie die Sprachnotiz-App des Systems).
+- Benötigt nur Rohtranskription ohne Formatierung (gemini-trancribe verwenden)
+- Scannen Sie Besprechungsnotizen oder extrahieren Sie TODOs aus Textdateien (keine Sprachnotizen).
