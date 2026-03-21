@@ -1,0 +1,5 @@
+[觸發] 當 PPT 工作流程需要透過 Gemini 進行 SVG 投影片品質審核時。
+[輸出] 結構化評審評估，包括分數、通過/失敗和修復建議。
+[跳過] 用於內容創作或 SVG 生成任務（這些任務由 Claude 處理）。
+[問] 無需用戶輸入；由review-core代理呼叫。
+[資源使用] 使用references/、scripts/(`scripts/invoke-gemini-ppt.ts`)。
