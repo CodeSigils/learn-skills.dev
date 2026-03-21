@@ -1,0 +1,5 @@
+[Trigger] Quando il flusso di lavoro PPT richiede la revisione della qualità delle diapositive SVG tramite Gemini.
+[Risultato] Valutazione della revisione strutturata con punteggi, superamento/fallimento e suggerimenti per la correzione.
+[Salta] Per attività di creazione di contenuti o di generazione SVG (quelle sono gestite da Claude).
+[Chiedi] Non è necessario alcun input da parte dell'utente; richiamato dall'agente review-core.
+[Utilizzo delle risorse] Utilizzare riferimenti/, script/ (`scripts/invoke-gemini-ppt.ts`).
