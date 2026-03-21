@@ -1,0 +1,5 @@
+[Déclencheur] Lorsque le flux de travail PPT nécessite une vérification de la qualité des diapositives SVG via Gemini.
+[Sortie] Évaluation d'examen structurée avec scores, réussite/échec et suggestions de correction.
+[Passer] Pour les tâches de création de contenu ou de génération SVG (celles-ci sont gérées par Claude).
+[Demander] Aucune intervention de l'utilisateur n'est nécessaire ; invoqué par l'agent principal de révision.
+[Utilisation des ressources] Utilisez references/, scripts/ (`scripts/invoke-gemini-ppt.ts`).

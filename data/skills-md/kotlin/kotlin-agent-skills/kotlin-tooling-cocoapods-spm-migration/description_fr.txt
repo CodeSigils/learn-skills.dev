@@ -1,0 +1,1 @@
+Migrez les projets KMP de CocoaPods (kotlin("native.cocoapods")) vers Swift Package Manager (swiftPMDependencies DSL) - remplace pod() par swiftPackage(), transforme les importations cocoapods.* en swiftPMImport.* et reconfigure le projet Xcode.
