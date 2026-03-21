@@ -130,6 +130,7 @@ def load_cached_targets(force: bool, only_ids: set[str] | None) -> list[dict[str
                 "source": source,
                 "skillId": skill_id,
                 "firstSeenAt": str(item.get("firstSeenAt") or ""),
+                "installsAllTime": item.get("installsAllTime"),
             }
         )
 
@@ -143,6 +144,10 @@ def load_cached_targets(force: bool, only_ids: set[str] | None) -> list[dict[str
         targets = filtered
 
     targets.sort(key=lambda it: (it["firstSeenAt"], f"{it['source']}/{it['skillId']}"), reverse=True)
+    if force:
+        # When force-refreshing, prioritize cached skills whose install count is
+        # still missing/zero so the earliest batches fix the most visible gap first.
+        targets.sort(key=lambda it: 0 if int(it.get("installsAllTime") or 0) == 0 else 1)
     return targets
 
 
