@@ -1,0 +1,3 @@
+ユーザーが HAEDAL のステーキング、ロック、ロックの拡張、報酬の請求、減衰、または Haedal プロトコル (SUI 上の DeFi エコシステム) での VeHaedal の操作について言及する場合に使用します。
+トリガーフレーズ: 「ヘイダルを賭ける」、「ヘイダルをロックする」、「ロックを延長する」、「ヘイダルから報酬を受け取る」、「ヘイダルのロックを解除/引き換える」、「ステークに追加する」、「衰退を開始する」、「衰退を止める」、「ヴェハイダル」。
+このスキルは、curl POST 経由で https://skillsapi.haedal.xyz/api/v1/vehaedal/* を呼び出します。 add_stake とclaim_rewards* には、signerAddress (+ 金額/期間) のみが必要です。 add_to_existing_stake、extend_existing_lock、start_decay、stop_decay、unstake_and_claim require vehaedalObj — get_vehaedal_list(address) 経由で取得し、current_amount/locked_amount/is_decaying/lock_end_time を含むリストをユーザーに提示し、選択した objectId を使用します。すべての金額は人間が判読可能です。 HTTP 200 では txBytes (base64) を返します。 200 以外の場合はメッセージを返します。

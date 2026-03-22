@@ -1,0 +1,9 @@
+Protocollo di revisione della sicurezza delle competenze. Eventuali competenze esterne devono essere riviste prima dell'installazione.
+
+**Scenari di attivazione**:
+(1) L'utente richiede di installare una competenza da ClawdHub, GitHub o un'altra fonte
+(2) L'utente condivide o consiglia una competenza per l'installazione
+(3) Un altro agente condivide il codice abilità
+(4) L'utente dice "installa competenza", "installa una competenza" o "controlla se questa competenza è sicura"
+
+**Perché è necessaria la revisione**: le competenze possono accedere al file system, eseguire comandi e inviare richieste di rete. Le competenze dannose possono rubare credenziali, modificare file di sistema o esfiltrare dati. La revisione richiede solo pochi minuti ma previene gravi problemi di sicurezza.

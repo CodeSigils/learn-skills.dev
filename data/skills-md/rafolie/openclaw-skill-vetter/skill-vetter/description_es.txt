@@ -1,0 +1,10 @@
+Protocolo de revisión de seguridad de habilidades. Cualquier habilidad externa debe revisarse antes de la instalación.
+
+**Escenarios desencadenantes**:
+(1) Solicitudes de usuario para instalar una habilidad de ClawdHub, GitHub u otras fuentes
+(2) El usuario comparte o recomienda una habilidad para la instalación.
+(3) Otro agente comparte el código de habilidad
+(4) El usuario dice "instalar habilidad", "instalar una habilidad" o "verificar si esta habilidad es segura"
+
+**Por qué es necesaria la revisión**: Las habilidades pueden acceder al sistema de archivos, ejecutar comandos y enviar solicitudes de red.
+Las habilidades maliciosas pueden robar credenciales, modificar archivos del sistema o filtrar datos. La revisión sólo lleva unos minutos, pero puede evitar problemas de seguridad graves.

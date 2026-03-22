@@ -1,0 +1,3 @@
+Use when the user mentions staking WAL, withdrawing hawal, claiming rewards, or operating haWAL on Haedal Protocol (a DeFi/LST protocol on SUI).
+Trigger phrases: “stake hawal”,"stake hawal", "withdraw hawal", "withdraw wal","instant withdraw hawal","instant withdraw wal","claim hawal rewards","claim wal rewards" .
+This skill calls https://skillsapi.haedal.xyz/api/v1/hawal/* via curl POST. On HTTP 200 returns txBytes (base64); on non‑200 returns msg.

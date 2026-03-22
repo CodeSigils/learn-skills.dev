@@ -1,0 +1,1 @@
+Go (Golang) 命名约定 - 涵盖包、构造函数、结构、接口、常量、枚举、错误、布尔值、接收器、getter/setter、功能选项、首字母缩略词、测试函数和子测试名称。在编写新的 Go 代码、审查或重构、在命名替代方案之间进行选择（New 与 NewTypeName、isConnected 与已连接、ErrNotFound 与 NotFoundError、StatusReady 与 StatusUnknown at iota 0）、讨论 Go 包名称（utils/helpers 反模式）或询问 Go 命名最佳实践时，请使用此技能。当用户提到 MixedCaps 与 Snake_case、ALL_CAPS 常量、getter 上的 Get-prefix 或错误字符串大小写时也会触发。不要用于不涉及命名决策的一般 Go 实现问题。

@@ -1,0 +1,5 @@
+Barriere di sicurezza per comandi distruttivi. Avvisa prima di rm -rf, DROP TABLE,
+force-push, git reset --hard, kubectl delete e operazioni distruttive simili.
+L'utente può ignorare ogni avviso. Da utilizzare quando si tocca il prodotto, si esegue il debug di sistemi live,
+o lavorare in un ambiente condiviso. Utilizzare quando viene richiesto "stai attento", "modalità di sicurezza",
+"modalità prod" o "modalità attenta".

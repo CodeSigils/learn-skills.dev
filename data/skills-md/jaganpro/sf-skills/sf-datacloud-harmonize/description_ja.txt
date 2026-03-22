@@ -1,0 +1,1 @@
+Salesforce データクラウドの調和フェーズ。トリガーのタイミング: ユーザーが DMO、マッピング、リレーションシップ、ID 解決、統合プロファイル、データ グラフ、またはユニバーサル ID を使用する場合。次の場合はトリガーしないでください: タスクがストリーム/DLO (sf-datacloud-prepare を使用)、セグメント/インサイト (sf-datacloud-segment を使用)、取得/検索 (sf-datacloud-retrieve を使用)、または STDM/セッション トレース (sf-ai-agentforce-observability を使用) のみに関するものである場合。

@@ -1,0 +1,1 @@
+Golang 日常可觀察性－生產中始終在線的訊號。涵蓋使用 slog 進行結構化日誌記錄、Prometheus 指標、OpenTelemetry 分散式追蹤、使用 pprof/Pyrscope 進行連續分析、伺服器端 RUM 事件追蹤、警報和 Grafana 儀表板。適用於偵測 Go 服務以進行生產監控、設定指標或警報、新增 OpenTelemetry 追蹤、將日誌與追蹤關聯、將舊記錄器 (zap/logrus/zerolog) 遷移到 slog、為新功能新增可觀察性或使用客戶資料平台 (CDP) 實施符合 GDPR/CCPA 的追蹤。不適用於臨時的深入性能調查（→ 請參閱 golang-benchmark 和 golang-performance Skills）。

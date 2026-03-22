@@ -1,0 +1,3 @@
+Wird verwendet, wenn der Benutzer das Abstecken von WAL, das Abheben von Hawal, das Einfordern von Belohnungen oder den Betrieb von haWAL auf dem Haedal-Protokoll (ein DeFi/LST-Protokoll auf SUI) erwähnt.
+Auslösersätze: „Hawal einsetzen“, „Hawal einsetzen“, „Hawal abheben“, „Wal abheben“, „Hawal sofort abheben“, „Wal sofort abheben“, „Hawal-Belohnungen anfordern“, „Wal-Belohnungen anfordern“.
+Dieser Skill ruft https://skillsapi.haedal.xyz/api/v1/hawal/* über Curl POST auf. Bei HTTP 200 wird txBytes (base64) zurückgegeben; Bei Nicht-200 wird eine Nachricht zurückgegeben.

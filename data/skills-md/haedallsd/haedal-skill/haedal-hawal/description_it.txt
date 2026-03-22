@@ -1,0 +1,3 @@
+Da utilizzare quando l'utente menziona lo staking di WAL, il ritiro di hawal, la richiesta di premi o l'utilizzo di haWAL sul protocollo Haedal (un protocollo DeFi/LST su SUI).
+Frasi trigger: "stake hawal", "stake hawal", "ritira hawal", "ritira wal", "ritiro istantaneo hawal", "ritiro istantaneo wal", "richiedi premi hawal", "richiedi premi wal".
+Questa abilità chiama https://skillsapi.haedal.xyz/api/v1/hawal/* tramite curl POST. Su HTTP 200 restituisce txBytes (base64); su valori diversi da 200 restituisce msg.

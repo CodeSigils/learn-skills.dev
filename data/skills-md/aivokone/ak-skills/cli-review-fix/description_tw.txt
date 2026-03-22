@@ -1,0 +1,1 @@
+向外部 CLI 工具（Codex CLI、Gemini CLI）發送程式碼審查請求，嚴格評估結果，修復有效問題，並提交修復報告。自動檢測上下文（PR、分支、未提交的更改）。使用 Codex 和 Gemini 的捆綁包裝腳本。對於 Gemini，在安裝時更喜歡程式碼審查擴充功能（具有完整檔案存取權限的互動模式）。執行 /cli-review-fix 以啟動所有可用的 CLI，或執行 /cli-review-fix codex 以啟動特定的 CLI。

@@ -1,0 +1,1 @@
+연결→준비→조화→세그먼트→작업 워크플로를 위한 Salesforce Data Cloud 제품 조정자입니다. 트리거 시기: 사용자가 다단계 Data Cloud 파이프라인이 필요하거나, 여러 단계에 걸쳐 Data Cloud 설정 또는 문제 해결을 요청하거나, 데이터 공간 또는 데이터 키트를 관리하거나, 교차 단계 `sf data360` 워크플로를 원할 때. 작업이 단일 단계로 격리된 경우(일치하는 sf-datacloud-* 기술 사용), 작업이 STDM/세션 추적/parquet 원격 측정(sf-ai-agentforce-observability 사용), 표준 CRM SOQL(sf-soql 사용) 또는 Apex 구현(sf-apex 사용)인 경우에는 트리거하지 마세요.

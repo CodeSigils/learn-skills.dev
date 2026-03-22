@@ -1,0 +1,5 @@
+[触发] 当 PPT 工作流程需要通过 Gemini 进行 SVG 幻灯片质量审核时。
+[输出] 结构化评审评估，包括分数、通过/失败和修复建议。
+[跳过] 用于内容创作或 SVG 生成任务（这些任务由 Claude 处理）。
+[问] 无需用户输入；由review-core代理调用。
+[资源使用] 使用references/、scripts/(`scripts/invoke-gemini-ppt.ts`)。

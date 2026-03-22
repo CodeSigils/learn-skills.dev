@@ -1,0 +1,3 @@
+À utiliser lorsque l'utilisateur mentionne le jalonnement de WAL, le retrait de hawal, la réclamation de récompenses ou l'exploitation de haWAL sur le protocole Haedal (un protocole DeFi/LST sur SUI).
+Phrases de déclenchement : « mise hawal », « mise hawal », « retrait hawal », « retrait wal », « retrait instantané hawal », « retrait instantané wal », « réclamer des récompenses hawal », « réclamer des récompenses wal ».
+Cette compétence appelle https://skillsapi.haedal.xyz/api/v1/hawal/* via curl POST. Sur HTTP, 200 renvoie txBytes (base64) ; sur les non‑200 renvoie msg.

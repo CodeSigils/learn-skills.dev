@@ -1,0 +1,5 @@
+Fetch any URL as clean Markdown via proxy services (r.jina.ai / defuddle.md) or built-in scripts.
+Works with login-required pages like X/Twitter, WeChat 公众号, Feishu/Lark docs, Instagram, etc.
+Use this BEFORE agent-fetch, defuddle CLI, or WebFetch when the URL might need authentication or when you want the cleanest markdown output.
+Triggers on any URL the user shares, "fetch this", "read this link", "get content from".
+Supports X/Twitter posts, WeChat 公众号 articles, Feishu/Lark documents, and login-walled pages.

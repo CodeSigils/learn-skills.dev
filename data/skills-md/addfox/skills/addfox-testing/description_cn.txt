@@ -1,0 +1,1 @@
+测试 Addfox 浏览器扩展。 Rstest（Rsbuild 测试），用于使用 jsdom/happy-dom 进行单元和组件测试；模拟 chrome.* / browser.* API； Playwright E2E 带有 chromium.launchPersistentContext、--load-extension 指向 .addfox/extension、扩展装置、弹出 chrome-extension:// URL、CI 脚本（addfox 构建 && playwright 测试）。

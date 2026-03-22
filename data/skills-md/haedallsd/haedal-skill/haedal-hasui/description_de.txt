@@ -1,0 +1,3 @@
+Wird verwendet, wenn der Benutzer das Abstecken von SUI, das Abheben, das Einfordern von Belohnungen oder den Betrieb von haSUI auf dem Haedal-Protokoll (ein DeFi/LST-Protokoll auf SUI) erwähnt.
+Auslöserphrasen: „haedal“, „stake sui“, „stake hasui“, „withdraw hasui“, „withdraw sui“, „sofortige Auszahlung von Hasui“, „sofortige Auszahlung von Sui“, „Anforderung von Hasui-Belohnungen“, „Anforderung von Sui-Belohnungen“.
+Dieser Skill ruft https://skillsapi.haedal.xyz/api/v1/hasui/* über Curl POST auf. Bei HTTP 200 wird txBytes (base64) zurückgegeben; Bei Nicht-200 wird eine Nachricht zurückgegeben.

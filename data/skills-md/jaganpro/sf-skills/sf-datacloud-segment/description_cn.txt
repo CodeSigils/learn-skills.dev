@@ -1,0 +1,1 @@
+Salesforce 数据云段阶段。在以下情况下触发：用户创建或发布细分、管理计算得出的见解、检查细分计数或成员资格，或者对数据云中的受众 SQL 进行故障排除。在以下情况下请勿触发：任务是 DMO/映射/身份解析工作（使用 sf-datacloud-harmonize）、激活工作（使用 sf-datacloud-act）、查询/搜索索引工作（使用 sf-datacloud-retrieve）或 STDM/会话跟踪（使用 sf-ai-agentforce-observability）。

@@ -1,0 +1,24 @@
+Processore di promemoria vocale intelligente con classificazione automatica del tipo di registrazione.
+Classifica le registrazioni in 7 tipi e genera note formattate specifiche per tipo.
+
+**DEVI utilizzare questa abilità quando l'utente menziona:**
+- Elabora/scansiona memo vocali, memo vocali, registrazioni
+- Convertire le registrazioni in appunti (riunioni, conferenze, interviste, ecc.)
+- Elabora le registrazioni di keynote/lezioni/podcast → estrae approfondimenti chiave + citazioni
+- Elaborare le registrazioni delle interviste → genera un rapporto di valutazione con punteggio
+- Elaborare le registrazioni delle chiamate dei clienti/vendite → tiene traccia degli impegni e dei follow-up
+- "帮我处理录音"、"语音备忘录"、"录音转笔记"
+
+**Tipi di registrazione supportati (rilevati automaticamente):**
+- meeting: Riunioni interne → lista TODO con gli assegnatari
+- keynote: Lezioni/conferenze/podcast → Approfondimenti chiave + citazioni
+- colloquio: Colloqui di lavoro → Rapporto di valutazione con punteggio a 5 dimensioni
+- cliente: chiamate vendite/BD → tracciamento impegni
+- brainstorming: sessioni di brainstorming → Idee con analisi di fattibilità
+- consultare: Consultazioni di esperti → Riepilogo approfondimenti
+- nota: note vocali personali → Pulisci la formattazione del testo
+
+**NON utilizzare quando:**
+- L'utente desidera registrare l'audio (usa l'app Memo vocali del sistema)
+- È necessaria solo la trascrizione grezza senza formattazione (usa gemini-transcribe)
+- Scansione degli appunti della riunione o estrazione delle cose da fare da file di testo (non memo vocali)

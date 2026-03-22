@@ -1,0 +1,3 @@
+當用戶提及在 Haedal 協議（SUI 上的 DeFi/LST 協議）上質押 SUI、提現、領取獎勵或操作 haSUI 時使用。
+觸發短語：「haedal」、「抵押sui」、「抵押hasui」、「提取hasui」、「提取sui」、「立即提取hasui」、「立即提取sui」、「領取hasui獎勵」、「領取sui獎勵」。
+此技能透過curl POST呼叫https://skillsapi.haedal.xyz/api/v1/hasui/*。在 HTTP 200 上傳回 txBytes (base64)；非 200 回傳訊息。

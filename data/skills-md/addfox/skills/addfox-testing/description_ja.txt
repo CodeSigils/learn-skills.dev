@@ -1,0 +1,1 @@
+Addfox ブラウザ拡張機能をテストします。 jsdom/happy-dom を使用した単体テストおよびコンポーネント テスト用の Rstest (Rsbuild テスト)。モック chrome.* / browser.* API; Playwright E2E と chromium.launchPersistentContext、.addfox/extension を指す --load-extension、拡張フィクスチャ、ポップアップ chrome-extension:// URL、CI スクリプト (addfox ビルド && playwright テスト)。

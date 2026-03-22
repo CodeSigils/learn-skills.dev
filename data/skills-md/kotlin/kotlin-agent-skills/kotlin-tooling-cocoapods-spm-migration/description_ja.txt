@@ -1,0 +1,1 @@
+KMP プロジェクトを CocoaPods (kotlin("native.cocoapods")) から Swift Package Manager (swiftPMDependency DSL) に移行します。pod() を swiftPackage() に置き換え、cocoapods.* インポートを swiftPMImport.* に変換し、Xcode プロジェクトを再構成します。

@@ -1,0 +1,1 @@
+通过交互式修复来诊断和修复 Kubernetes 问题。当 Pod 崩溃（CrashLoopBackOff、OOMKilled）、服务无法访问（502/503、空端点）、部署卡住（ImagePullBackOff、待处理）时使用。当想要直接运行 kubectl fix 命令而不提供选项时，或者当用户对 K8s 问题说“修复它”时，也可以使用。

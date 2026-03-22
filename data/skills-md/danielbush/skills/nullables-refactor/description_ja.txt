@@ -1,0 +1,1 @@
+ファイルを分析し、Nullables パターンを適用するためのリファクタリング計画を作成します。副作用境界 (PURE、IN_MEMORY、OUTSIDE_WORLD) によってコードを分類し、HARDWIRED_INFRA を識別し、INFRASTRUCTURE_WRAPPER または NULLABLE_CLASS 変換を推奨し、DUAL_FACTORY および CREATE_BOUNDARY_RULE への準拠をチェックし、DELAYED_INSTANTIATION を決定します。 Nullable パターンに従うようにファイルまたはモジュールをリファクタリングするように求められた場合に使用します。

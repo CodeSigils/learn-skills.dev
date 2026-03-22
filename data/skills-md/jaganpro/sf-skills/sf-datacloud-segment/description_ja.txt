@@ -1,0 +1,1 @@
+Salesforce データクラウドセグメントフェーズ。トリガーのタイミング: ユーザーがセグメントの作成または公開、計算された分析情報の管理、セグメント数またはメンバーシップの検査、または Data Cloud でのオーディエンス SQL のトラブルシューティングを行う場合。次の場合はトリガーしないでください: タスクが DMO/マッピング/アイデンティティ解決作業 (sf-datacloud-harmonize を使用)、アクティブ化作業 (sf-datacloud-act を使用)、クエリ/検索インデックス作業 (sf-datacloud-retrieve を使用)、または STDM/セッション トレース (sf-ai-agentforce-observability を使用) である場合。

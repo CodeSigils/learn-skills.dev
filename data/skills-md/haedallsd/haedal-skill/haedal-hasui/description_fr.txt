@@ -1,0 +1,3 @@
+À utiliser lorsque l'utilisateur mentionne le jalonnement de SUI, le retrait, la réclamation de récompenses ou l'exploitation de haSUI sur le protocole Haedal (un protocole DeFi/LST sur SUI).
+Phrases de déclenchement : "haedal", "stake sui", "stake hasui", "retirer hasui", "retirer sui", "instant retirer hasui", "instant retirer sui", "réclamez des récompenses hasui", "réclamez des récompenses sui".
+Cette compétence appelle https://skillsapi.haedal.xyz/api/v1/hasui/* via curl POST. Sur HTTP, 200 renvoie txBytes (base64) ; sur les non‑200 renvoie msg.

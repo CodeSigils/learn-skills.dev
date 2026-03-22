@@ -1,0 +1,1 @@
+Diagnoses and fixes Kubernetes issues with interactive remediation. Use when pods crash (CrashLoopBackOff, OOMKilled), services unreachable (502/503, empty endpoints), deployments stuck (ImagePullBackOff, pending). Also use when tempted to run kubectl fix commands directly without presenting options, or when user says "just fix it" for K8s issues.

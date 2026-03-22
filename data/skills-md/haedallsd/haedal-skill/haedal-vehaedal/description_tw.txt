@@ -1,0 +1,3 @@
+當用戶提到在 Haedal 協議（SUI 上的 DeFi 生態系統）上質押 HAEDAL、鎖定、延長鎖定、領取獎勵、衰減或操作 VeHaedal 時使用。
+觸發短語：「質押 haedal」、「鎖定 haedal」、「延長鎖定」、「從 haedal 獲取獎勵」、「解鎖/兌換 haedal」、「加到質押」、「開始衰減」、「停止衰減」、「vehaedal」。
+此技能透過curl POST呼叫https://skillsapi.haedal.xyz/api/v1/vehaedal/*。 add_stake和claim_rewards*只需要signerAddress（+金額/期間）；add_to_existing_stake、extend_existing_lock、start_decay、stop_decay、unstake_and_claim 需要 vehaedalObj — 透過 get_veaddal_list( current_amount/locked_amount/is_decaying/lock_end_time 的列表，然後使用他們選擇的 objectId。所有金額都是人類可讀的。在 HTTP 200 上傳回 txBytes (base64)；非 200 回傳訊息。

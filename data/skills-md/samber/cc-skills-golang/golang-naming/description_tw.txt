@@ -1,0 +1,1 @@
+Go (Golang) 命名約定 - 涵蓋套件、建構子、結構、介面、常數、枚舉、錯誤、布林值、接收器、getter/setter、功能選項、首字母縮寫、測試函數和子測試名稱。在編寫新的 Go 程式碼、審查或重構、在命名替代方案之間進行選擇（New 與 NewTypeName、isConnected 與已連接、ErrNotFound 與 NotFoundError、StatusReady 與 StatusUnknown at iota 0）、討論 Go 套件名稱（utils/helpers 反模式）或詢問 Go 命名實踐時，請使用此技能時，請使用此技能。當使用者提到 MixedCaps 與 Snake_case、ALL_CAPS 常數、getter 上的 Get-prefix 或錯誤字串大小寫時也會觸發。不要用於不涉及命名決策的一般 Go 實作問題。
