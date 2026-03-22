@@ -1,0 +1,8 @@
+電子建構器 (v26.x) 打包、代碼簽章、自動更新的綜合指南
+並發布工作流程。在以下情況下使用：(1) 配置 Electron-builder 建置（ Electron-builder.yml
+或 config.js/ts），(2) 設定 macOS/Windows 程式碼簽章或公證，(3) 實作
+使用電子更新程式自動更新，(4) 發佈到 GitHub Releases、S3 或通用伺服器，
+(5) 設定平台目標（NSIS、DMG、AppImage、Snap、PKG、MSI），(6) 使用
+建構掛鉤（beforePack、afterSign、afterAllArtifactBuild），或 (7) 使用程式 API。
+觸發：電子建構器、電子更新器、程式碼簽章、公證、NSIS、DMG、AppImage、
+自動更新、發布版本、建立掛鉤、電子打包、電子分發。

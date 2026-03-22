@@ -1,0 +1,4 @@
+登陸並部署工作流程。合併PR，等待CI並部署，
+透過金絲雀檢查驗證生產健康狀況。 Takes over after /ship
+creates the PR. Use when: "merge", "land", "deploy", "merge and verify",
+「落地」、「將其交付生產」。

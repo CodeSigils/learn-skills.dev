@@ -1,0 +1,1 @@
+為遵循 Nullables 模式的程式碼編寫說明性測試。驗證被測類是否已準備就緒（所有 HARDWIRED_INFRA 均替換為 INJECTED_INFRA，每個依賴項都有 .createNull），然後使用 .createNull() 編寫狹窄的、可社交的、基於狀態的測試。測試應該說明系統的概念和架構，而不僅僅是實現覆蓋範圍。在應用 nullables 重構技能之後，或在為已經使用 DUAL_FACTORY 的程式碼編寫測試時使用。
