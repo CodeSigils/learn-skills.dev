@@ -1,0 +1,1 @@
+將模型從最新的 vLLM 上游儲存庫遷移到 vllm-plugin-FL 專案（固定在 vLLM v0.13.0）。每當有人想要在 vllm-plugin-FL 中加入對新模型的支援、從上游 vLLM 移植模型程式碼或向後移植新發布的模型時，請使用此技能。當使用者說出「遷移 X 模型」、「新增 X 模型支援」、「從上游 vLLM 連接埠 X」、「使 X 使用 FL 外掛程式」或簡單的「/model-migrate-flagos model_name」等內容時觸發。 model_name 參數使用 Snake_case（例如 qwen3_5、kimi_k25、deepseek_v4）。請勿用於 vLLM 0.13.0 核心已支援的模型，或不需要向後移植的僅多模式組件。

@@ -1,0 +1,1 @@
+AI 代理程式的 Nostr 協定操作 — 發布 kind:1 註釋、讀取提要、按主題標籤搜尋（#t 過濾器）、取得/設定設定檔、衍生金鑰（NIP-06 預設透過 m/44'/1237'/0'/0/0）、將 aibtc.news 訊號放大到 Nostr 網絡，並管理中繼連接。使用 nostr-tools + ws 套件。寫入操作需要解鎖的錢包。使用 --key-source 選擇 nip06（預設）、taproot 或 stacks 派生路徑。
