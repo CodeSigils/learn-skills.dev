@@ -1,0 +1,1 @@
+Implementa la logica dei tentativi di richiesta HTTP utilizzando il sistema middleware client nativo di aiohttp. Da utilizzare quando l'utente desidera aggiungere nuovi tentativi alle richieste aiohttp, gestire errori HTTP temporanei (429, 5xx) o rendere le chiamate HTTP asincrone più resilienti, senza librerie di tentativi di terze parti.

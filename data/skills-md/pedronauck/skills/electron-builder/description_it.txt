@@ -1,0 +1,8 @@
+Guida completa per la creazione di pacchetti di elettroni (v26.x), firma del codice, aggiornamenti automatici,
+e rilasciare i flussi di lavoro. Da utilizzare quando: (1) si configurano build di generatori di elettroni (electron-builder.yml
+o config.js/ts), (2) impostazione della firma o dell'autenticazione del codice macOS/Windows, (3) implementazione
+aggiornamenti automatici con l'aggiornamento elettronico, (4) pubblicazione su versioni GitHub, S3 o server generici,
+(5) configurare gli obiettivi della piattaforma (NSIS, DMG, AppImage, Snap, PKG, MSI), (6) lavorare con
+creare hook (beforePack, afterSign, afterAllArtifactBuild) o (7) utilizzando l'API programmatica.
+Si attiva su: costruttore di elettroni, aggiornamento di elettroni, firma del codice, autenticazione, NSIS, DMG, AppImage,
+aggiornamento automatico, pubblicazione di versioni, creazione di hook, confezionamento di elettroni, distribuzione di elettroni.

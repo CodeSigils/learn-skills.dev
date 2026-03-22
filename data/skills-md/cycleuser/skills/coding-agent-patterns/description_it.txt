@@ -1,0 +1,16 @@
+Modelli principali per agenti di codifica AI basati sull'analisi di Claude Code, Codex, Cline, Aider, OpenCode.
+
+**Si attiva quando:**
+- Costruire un agente o assistente di codifica AI
+- Implementazione di cicli di chiamata degli strumenti
+- Gestione delle finestre di contesto per LLM
+- Impostazione della memoria dell'agente o dei sistemi di abilità
+- Progettazione dell'astrazione LLM multi-provider
+
+**Funzionalità:**
+- Ciclo dell'agente principale: while(true) con l'esecuzione dello strumento
+- Gestione del contesto: potatura, compressione, mappe repo
+- Sicurezza degli strumenti: sandboxing, flussi di approvazione, rilevamento del doom loop
+- Astrazione multi-provider: API unificata per diversi LLM
+- Sistemi di memoria: regole di progetto, auto-memory, caricamento delle competenze
+- Persistenza della sessione: modelli SQLite vs JSONL
