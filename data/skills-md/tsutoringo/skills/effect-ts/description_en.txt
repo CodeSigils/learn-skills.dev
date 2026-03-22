@@ -1,0 +1,1 @@
+Guidance for implementing Effect TS code. Use when adding or reviewing Effect-based services, Layers, HttpApi clients, or HTTP integrations. Prefer @effect/platform HttpClient and HttpApiClient over raw fetch, keep I/O inside Effect, and map failures to typed errors.

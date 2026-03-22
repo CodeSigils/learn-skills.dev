@@ -1,0 +1,16 @@
+Core patterns for AI coding agents based on analysis of Claude Code, Codex, Cline, Aider, OpenCode.
+
+**Triggers when:**
+- Building an AI coding agent or assistant
+- Implementing tool-calling loops
+- Managing context windows for LLMs
+- Setting up agent memory or skill systems
+- Designing multi-provider LLM abstraction
+
+**Capabilities:**
+- Core agent loop: while(true) with tool execution
+- Context management: pruning, compression, repo maps
+- Tool safety: sandboxing, approval flows, doom loop detection
+- Multi-provider abstraction: unified API for different LLMs
+- Memory systems: project rules, auto-memory, skill loading
+- Session persistence: SQLite vs JSONL patterns

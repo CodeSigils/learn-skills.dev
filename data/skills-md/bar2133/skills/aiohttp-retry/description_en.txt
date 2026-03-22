@@ -1,0 +1,1 @@
+Implement HTTP request retry logic using aiohttp's native client middleware system. Use when the user wants to add retries to aiohttp requests, handle transient HTTP errors (429, 5xx), or make async HTTP calls more resilient — without third-party retry libraries.

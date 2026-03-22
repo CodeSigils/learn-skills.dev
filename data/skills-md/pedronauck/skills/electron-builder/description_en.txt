@@ -1,0 +1,8 @@
+Comprehensive guide for electron-builder (v26.x) packaging, code signing, auto-updates,
+and release workflows. Use when: (1) configuring electron-builder builds (electron-builder.yml
+or config.js/ts), (2) setting up macOS/Windows code signing or notarization, (3) implementing
+auto-updates with electron-updater, (4) publishing to GitHub Releases, S3, or generic servers,
+(5) configuring platform targets (NSIS, DMG, AppImage, Snap, PKG, MSI), (6) working with
+build hooks (beforePack, afterSign, afterAllArtifactBuild), or (7) using the programmatic API.
+Triggers on: electron-builder, electron-updater, code signing, notarize, NSIS, DMG, AppImage,
+auto-update, publish releases, build hooks, electron packaging, electron distribution.
