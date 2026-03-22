@@ -1,0 +1,16 @@
+Kernmuster für KI-Codierungsagenten basierend auf der Analyse von Claude Code, Codex, Cline, Aider, OpenCode.
+
+**Wird ausgelöst, wenn:**
+- Aufbau eines KI-Coding-Agenten oder -Assistenten
+- Implementierung von Werkzeugaufrufschleifen
+- Verwalten von Kontextfenstern für LLMs
+- Einrichten von Agentengedächtnis- oder Fähigkeitssystemen
+- Entwerfen einer Multi-Provider-LLM-Abstraktion
+
+**Fähigkeiten:**
+- Kernagentenschleife: while(true) mit Toolausführung
+- Kontextverwaltung: Bereinigung, Komprimierung, Repo-Maps
+- Werkzeugsicherheit: Sandboxing, Genehmigungsflüsse, Doom-Loop-Erkennung
+- Multi-Provider-Abstraktion: einheitliche API für verschiedene LLMs
+- Speichersysteme: Projektregeln, automatischer Speicher, Laden von Fertigkeiten
+- Sitzungspersistenz: SQLite- und JSONL-Muster
