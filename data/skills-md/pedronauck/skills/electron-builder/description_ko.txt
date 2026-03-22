@@ -1,0 +1,8 @@
+Electron-Builder(v26.x) 패키징, 코드 서명, 자동 업데이트에 대한 종합 가이드
+워크플로를 출시합니다. 다음 경우에 사용하십시오: (1) Electron-Builder 빌드 구성(electron-builder.yml)
+또는 config.js/ts), (2) macOS/Windows 코드 서명 또는 공증 설정, (3) 구현
+Electron-updater를 사용한 자동 업데이트, (4) GitHub 릴리스, S3 또는 일반 서버에 게시,
+(5) 플랫폼 대상(NSIS, DMG, AppImage, Snap, PKG, MSI) 구성, (6) 작업
+빌드 후크(beforePack, afterSign, afterAllArtifactBuild) 또는 (7) 프로그래밍 방식 API를 사용합니다.
+트리거 대상: Electron-Builder, Electron-Updater, 코드 서명, 공증, NSIS, DMG, AppImage,
+자동 업데이트, 릴리스 게시, 후크 빌드, 전자 패키징, 전자 배포.
