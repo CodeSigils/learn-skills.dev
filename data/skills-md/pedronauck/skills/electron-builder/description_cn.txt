@@ -1,0 +1,8 @@
+电子构建器 (v26.x) 打包、代码签名、自动更新的综合指南
+并发布工作流程。在以下情况下使用：(1) 配置 Electron-builder 构建（ Electron-builder.yml
+或 config.js/ts），(2) 设置 macOS/Windows 代码签名或公证，(3) 实施
+使用电子更新程序自动更新，(4) 发布到 GitHub Releases、S3 或通用服务器，
+(5) 配置平台目标（NSIS、DMG、AppImage、Snap、PKG、MSI），(6) 使用
+构建挂钩（beforePack、afterSign、afterAllArtifactBuild），或 (7) 使用编程 API。
+触发：电子构建器、电子更新器、代码签名、公证、NSIS、DMG、AppImage、
+自动更新、发布版本、构建挂钩、电子打包、电子分发。

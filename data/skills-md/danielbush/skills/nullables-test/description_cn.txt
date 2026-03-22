@@ -1,0 +1,1 @@
+为遵循 Nullables 模式的代码编写说明性测试。验证被测类是否已准备就绪（所有 HARDWIRED_INFRA 均替换为 INJECTED_INFRA，每个依赖项都有 .createNull），然后使用 .createNull() 编写狭窄的、可社交的、基于状态的测试。测试应该说明系统的概念和架构，而不仅仅是实现覆盖范围。在应用 nullables 重构技能后使用，或者在为已使用 DUAL_FACTORY 的代码编写测试时使用。

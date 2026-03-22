@@ -1,0 +1,1 @@
+实施 Effect TS 代码的指南。在添加或查看基于效果的服务、图层、HttpApi 客户端或 HTTP 集成时使用。优先使用 @effect/platform HttpClient 和 HttpApiClient 而不是原始获取，将 I/O 保留在 Effect 内，并将失败映射到类型错误。
