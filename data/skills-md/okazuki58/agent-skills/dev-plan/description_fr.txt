@@ -1,0 +1,3 @@
+Une compétence permettant de générer automatiquement des collections d'invites d'exécution pour le développement parallèle avec Claude Code des groupes de problèmes GitHub (docs/prompts/xxx.md).  
+Déclenché par des requêtes telles que « créer un plan de développement », « générer des invites d'exécution », « créer un plan de développement », « créer une collection d'invites » ou « mettre en place un plan de développement parallèle ».  
+Accepte une liste de numéros de problème, détermine de manière interactive une structure de dépendance Wave et produit une séquence de commandes pour chaque problème : /gtr-workflow → mise en œuvre → /e2e-test → /pull-request.

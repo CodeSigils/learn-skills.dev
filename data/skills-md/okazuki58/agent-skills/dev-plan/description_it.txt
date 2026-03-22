@@ -1,4 +1,3 @@
-Capacità di generare automaticamente una serie di richieste di esecuzione per lo sviluppo parallelo del codice Claude (docs/prompts/xxx.md) dalla coda dei problemi di GitHub.  
-Attivato da richieste come "crea un piano di sviluppo", "genera richieste di esecuzione", "crea un piano di sviluppo", "crea un set di prompt" o "imposta un piano di sviluppo parallelo".  
-Accetta un elenco di numeri di emissione, determina in modo interattivo la struttura dell'onda di dipendenza e produce per ogni emissione la sequenza:  
-/gtr-workflow → implementa → /e2e-test → /pull-request.
+Una capacità di generare automaticamente raccolte di prompt di esecuzione per lo sviluppo parallelo con Claude Code dai gruppi di problemi di GitHub (docs/prompts/xxx.md).  
+Attivato da richieste come "creare un piano di sviluppo", "generare prompt di esecuzione", "creare un piano di sviluppo", "creare una raccolta di prompt" o "impostare un piano di sviluppo parallelo".  
+Accetta un elenco di numeri di problema, determina in modo interattivo una struttura di dipendenza Wave e produce una sequenza di comandi per ciascun problema: /gtr-workflow → implementazione → /e2e-test → /pull-request.

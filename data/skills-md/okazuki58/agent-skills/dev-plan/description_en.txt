@@ -1,3 +1,3 @@
-A skill that automatically generates execution prompt collections for parallel development with Claude Code from GitHub Issue groups (docs/prompts/xxx.md).  
+A skill to automatically generate execution prompt collections for parallel development with Claude Code from GitHub Issue groups (docs/prompts/xxx.md).  
 Triggered by requests like “create a development plan,” “generate execution prompts,” “make a dev-plan,” “build a prompt collection,” or “set up a parallel development plan.”  
-Accepts a list of issue numbers, interactively determines the dependency Wave structure, and produces a complete set of instructions for each issue: /gtr-workflow → implementation → /e2e-test → /pull-request.
+Accepts a list of issue numbers, interactively determines a Wave dependency structure, and produces a sequence of commands for each issue: /gtr-workflow → implementation → /e2e-test → /pull-request.

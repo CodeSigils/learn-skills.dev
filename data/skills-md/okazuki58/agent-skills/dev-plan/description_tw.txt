@@ -1,3 +1,3 @@
-自動產生一組執行提示，以便使用 GitHub 問題群組 (docs/prompts/xxx.md) 中的 Claude Code 進行平行開發。  
+自動產生執行提示集合以使用 GitHub 問題群組 (docs/prompts/xxx.md) 中的 Claude Code 進行並行開發的技能。  
 由「建立開發計畫」、「產生執行提示」、「制定開發計畫」、「建置提示集合」或「設定平行開發計畫」等請求觸發。  
-接受問題編號列表，以互動方式決定依賴性 Wave 結構，並為每個問題產生完整的指令鏈 - /gtr-workflow → 實作 → /e2e-test → /pull-request。
+接受問題編號列表，互動式決定 Wave 依賴結構，並為每個問題產生一系列指令：/gtr-workflow → 實作 → /e2e-test → /pull-request。

@@ -1,0 +1,3 @@
+Eine Fähigkeit zum automatischen Generieren von Ausführungsaufforderungssammlungen für die parallele Entwicklung mit Claude Code aus GitHub-Problemgruppen (docs/prompts/xxx.md).  
+Ausgelöst durch Anfragen wie „Entwicklungsplan erstellen“, „Ausführungsprompts generieren“, „Entwicklungsplan erstellen“, „Promptsammlung erstellen“ oder „Parallelen Entwicklungsplan einrichten“.  
+Akzeptiert eine Liste von Problemnummern, bestimmt interaktiv eine Wave-Abhängigkeitsstruktur und erzeugt eine Befehlsfolge für jedes Problem: /gtr-workflow → Implementierung → /e2e-test → /pull-request.
