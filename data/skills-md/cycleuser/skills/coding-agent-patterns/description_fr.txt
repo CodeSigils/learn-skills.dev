@@ -1,0 +1,16 @@
+Modèles de base pour les agents de codage d'IA basés sur l'analyse de Claude Code, Codex, Cline, Aider, OpenCode.
+
+**Se déclenche quand :**
+- Construire un agent ou un assistant de codage IA
+- Implémentation de boucles d'appel d'outils
+- Gestion des fenêtres contextuelles pour les LLM
+- Mise en place de mémoire d'agent ou de systèmes de compétences
+- Conception d'une abstraction LLM multi-fournisseurs
+
+**Capacités :**
+- Boucle d'agent principale : while(true) avec exécution de l'outil
+- Gestion du contexte : élagage, compression, repo maps
+- Sécurité des outils : sandboxing, flux d'approbation, détection de boucles catastrophiques
+- Abstraction multi-fournisseurs : API unifiée pour différents LLM
+- Systèmes de mémoire : règles de projet, mémoire automatique, chargement de compétences
+- Persistance de session : modèles SQLite vs JSONL

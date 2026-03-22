@@ -1,0 +1,8 @@
+Guide complet pour le packaging d'Electron-Builder (v26.x), la signature de code, les mises à jour automatiques,
+et libérer les flux de travail. À utiliser lorsque : (1) la configuration des builds de constructeur d'électrons (electron-builder.yml
+ou config.js/ts), (2) configuration de la signature ou de la notarisation du code macOS/Windows, (3) implémentation
+mises à jour automatiques avec Electron-Updater, (4) publication sur les versions GitHub, S3 ou sur des serveurs génériques,
+(5) configurer les cibles de la plate-forme (NSIS, DMG, AppImage, Snap, PKG, MSI), (6) travailler avec
+créer des hooks (beforePack, afterSign, afterAllArtifactBuild) ou (7) à l'aide de l'API de programmation.
+Se déclenche sur : constructeur d'électrons, mise à jour d'électrons, signature de code, légalisation, NSIS, DMG, AppImage,
+mise à jour automatique, publication de versions, construction de hooks, packaging d'électrons, distribution d'électrons.

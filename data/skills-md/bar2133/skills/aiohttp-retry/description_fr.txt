@@ -1,0 +1,1 @@
+Implémentez la logique de nouvelle tentative de requête HTTP à l'aide du système middleware client natif d'aiohttp. À utiliser lorsque l'utilisateur souhaite ajouter des tentatives aux requêtes aiohttp, gérer les erreurs HTTP transitoires (429, 5xx) ou rendre les appels HTTP asynchrones plus résilients, sans bibliothèques de nouvelles tentatives tierces.
