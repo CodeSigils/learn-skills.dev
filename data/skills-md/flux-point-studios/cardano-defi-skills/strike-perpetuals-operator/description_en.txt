@@ -1,0 +1,4 @@
+OPERATOR SKILL — requires manual confirmation. Execute Strike Finance v2
+perpetual trades (orders, leverage changes, cancellations).
+Strike v2 uses Ed25519 signed API requests — no CBOR signing needed.
+Auth is handled by the client via STRIKE_API_PUBLIC_KEY/PRIVATE_KEY.
