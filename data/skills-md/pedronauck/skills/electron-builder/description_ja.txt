@@ -1,0 +1,8 @@
+Electron-Builder (v26.x) のパッケージ化、コード署名、自動更新、
+そしてリリースワークフロー。以下の場合に使用します: (1) Electron-Builder ビルドを構成する (electron-builder.yml)
+または config.js/ts)、(2) macOS/Windows コード署名または公証のセットアップ、(3) 実装
+Electron-updater による自動更新、(4) GitHub Releases、S3、または汎用サーバーへの公開
+(5) プラットフォーム ターゲットの構成 (NSIS、DMG、AppImage、Snap、PKG、MSI)、(6) の操作
+ビルドフック (beforePack、afterSign、afterAllArtifactBuild)、または (7) プログラム API を使用します。
+トリガー: Electron-Builder、Electron-updater、コード署名、公証、NSIS、DMG、AppImage、
+自動更新、リリースの公開、フックの構築、電子パッケージ化、電子配布。

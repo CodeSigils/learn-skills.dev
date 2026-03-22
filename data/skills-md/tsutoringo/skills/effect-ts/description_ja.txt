@@ -1,0 +1,1 @@
+Effect TS コードの実装に関するガイダンス。エフェクトベースのサービス、レイヤー、HttpApi クライアント、または HTTP 統合を追加または確認するときに使用します。 @effect/platform HttpClient および HttpApiClient を raw フェッチよりも優先し、I/O を Effect 内に保持し、失敗を型付きエラーにマップします。
