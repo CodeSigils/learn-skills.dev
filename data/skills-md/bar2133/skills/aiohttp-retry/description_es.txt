@@ -1,0 +1,1 @@
+Implemente la lógica de reintento de solicitudes HTTP utilizando el sistema de middleware de cliente nativo de aiohttp. Úselo cuando el usuario quiera agregar reintentos a solicitudes aiohttp, manejar errores HTTP transitorios (429, 5xx) o hacer que las llamadas HTTP asíncronas sean más resistentes, sin bibliotecas de reintentos de terceros.

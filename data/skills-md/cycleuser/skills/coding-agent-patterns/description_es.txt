@@ -1,0 +1,16 @@
+Patrones centrales para agentes de codificación de IA basados ​​en el análisis de Claude Code, Codex, Cline, Aider, OpenCode.
+
+**Se activa cuando:**
+- Creación de un agente o asistente de codificación de IA
+- Implementación de bucles de llamada de herramientas.
+- Gestión de ventanas contextuales para LLM.
+- Configurar la memoria del agente o los sistemas de habilidades.
+- Diseño de abstracción LLM multiproveedor.
+
+**Capacidades:**
+- Bucle del agente central: while (verdadero) con ejecución de herramienta
+- Gestión de contexto: poda, compresión, mapas de repositorio.
+- Seguridad de herramientas: sandboxing, flujos de aprobación, detección de bucles fatales
+- Abstracción de múltiples proveedores: API unificada para diferentes LLM
+- Sistemas de memoria: reglas del proyecto, memoria automática, carga de habilidades.
+- Persistencia de sesión: patrones SQLite vs JSONL
