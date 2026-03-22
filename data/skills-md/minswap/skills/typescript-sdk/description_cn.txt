@@ -1,0 +1,1 @@
+在 TypeScript 项目中集成和使用已发布的“@minswap/sdk” npm 包的指南。当用户需要帮助安装软件包、修复 ESM/运行时设置、在 Blockfrost 和 Maestro 适配器之间进行选择、查询池或价格、使用计算助手或使用 Lucid 构建 Minswap 交易时使用。主要关注“Dex”、“DexV2”和“Stableswap”消费者工作流程。将“LbeV2”、“Dao”和“ExpiredOrderMonitor”视为辅助导出，仅在用户明确要求时覆盖。忽略仅存储库的基础设施，例如索引器/同步器、Prisma/Postgres、Docker 和其他内部工具，除非用户明确要求提供自托管同步器详细信息。

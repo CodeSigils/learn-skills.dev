@@ -1,0 +1,1 @@
+AI 代理的 Nostr 协议操作 — 发布 kind:1 注释、读取提要、按主题标签搜索（#t 过滤器）、获取/设置配置文件、派生密钥（NIP-06 默认通过 m/44'/1237'/0'/0/0）、将 aibtc.news 信号放大到 Nostr 网络，并管理中继连接。使用 nostr-tools + ws 包。写入操作需要解锁的钱包。使用 --key-source 选择 nip06（默认）、taproot 或 stacks 派生路径。
