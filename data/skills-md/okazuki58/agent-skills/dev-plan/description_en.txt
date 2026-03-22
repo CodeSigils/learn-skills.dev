@@ -1,0 +1,5 @@
+GitHub Issue群からClaude Code並列開発用の実行プロンプト集（docs/prompts/xxx.md）を自動生成するスキル。
+「開発計画を作成して」「実行プロンプトを生成して」「dev-planを作って」「プロンプト集を作って」
+「並列開発の計画を立てて」などのリクエストで発動。
+Issue番号リストを受け取り、依存関係のWave構造を対話で決定し、
+/gtr-workflow → 実装 → /e2e-test → /pull-request の一連の指示を各Issueごとに生成する。
