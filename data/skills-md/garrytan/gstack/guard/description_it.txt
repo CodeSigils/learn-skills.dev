@@ -1,0 +1,5 @@
+Modalità di sicurezza completa: avvisi di comandi distruttivi + modifiche nell'ambito della directory.
+Combina /careful (avvisa prima di rm -rf, DROP TABLE, force-push, ecc.) con
+/freeze (blocca le modifiche all'esterno di una directory specificata). Utilizzare per la massima sicurezza
+quando si tocca il prodotto o si esegue il debug di sistemi live. Utilizzare quando viene richiesto di "modalità guardia",
+"sicurezza totale", "bloccalo" o "massima sicurezza".

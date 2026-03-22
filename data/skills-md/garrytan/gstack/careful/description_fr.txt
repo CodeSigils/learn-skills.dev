@@ -1,0 +1,5 @@
+Garde-corps de sécurité pour commandes destructives. Avertit avant rm -rf, DROP TABLE,
+force-push, git reset --hard, kubectl delete et opérations destructrices similaires.
+L'utilisateur peut ignorer chaque avertissement. À utiliser lorsque vous touchez la production, déboguez des systèmes en direct,
+ou travailler dans un environnement partagé. À utiliser lorsqu'on vous demande de "faire attention", de "mode sécurité",
+"mode prod", ou "mode prudent".

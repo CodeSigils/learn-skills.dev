@@ -1,0 +1,1 @@
+Salesforce データクラウド取得フェーズ。トリガーのタイミング: ユーザーが Data Cloud SQL、記述、非同期クエリ、ベクトル検索、検索インデックス ワークフロー、または Data Cloud オブジェクトのメタデータ イントロスペクションを実行したとき。次の場合はトリガーしないでください: タスクが標準 CRM SOQL (sf-soql を使用)、セグメント作成または計算されたインサイト設計 (sf-datacloud-segment を使用)、または STDM/セッション トレーシング/パーケット分析 (sf-ai-agentforce-observability を使用) である場合。
