@@ -1,0 +1,1 @@
+Security anti-pattern for timing side-channel vulnerabilities (CWE-208). Use when generating or reviewing code that compares secrets, tokens, passwords, or cryptographic values. Detects early-exit comparisons that leak information through timing differences.

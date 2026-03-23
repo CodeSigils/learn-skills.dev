@@ -1,0 +1,1 @@
+Warn before destructive commands. Checks Bash commands for rm -rf, DROP TABLE, force-push, git reset --hard, kubectl delete, and similar patterns. User can override each warning. Use when touching prod, debugging live systems, or in shared environments.
