@@ -1,0 +1,1 @@
+Tabbit のライブ DevToolsActivePort ファイルを読み取り、ブラウザの WebSocket エンドポイントに接続することで、Chrome の代わりに Tabbit を使用します。ユーザーが「用我的 tabbit 浏览器」、「在 Tabbit 里」、「Tabbit当前页」、「Tabbit当前标签」などの発言をしたとき、またはデフォルトの Chrome DevTools セッションではなく Tabbit で開かれているページの検査、要約、スクレイピング、またはデバッグを要求したときにトリガーされます。現在のページの抽出には、追加のカスタム MCP サーバーを必要とせず、デフォルトで軽量のローカル Python スクリプトが使用されます。

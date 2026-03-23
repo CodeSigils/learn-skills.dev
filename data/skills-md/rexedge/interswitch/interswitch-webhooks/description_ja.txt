@@ -1,0 +1,1 @@
+Interswitch Webhook — トランザクション、サブスクリプション、支払いリンク、請求書に関するリアルタイムのイベント通知を受信します。 HmacSHA512 で署名を検証し、再試行ロジックを処理し、すべてのイベント タイプを処理します。このスキルは、Webhook エンドポイントの設定、X-Interswitch-Signature ヘッダーの検証、非同期支払い確認の処理、サブスクリプション ライフサイクル イベントの処理、または Webhook 配信のデバッグを行うときに常に使用します。 X-Interswitch-Signature、HmacSHA512、Webhook イベント タイプ、または Quickteller Business Webhook 構成への参照が表示された場合にも使用します。
