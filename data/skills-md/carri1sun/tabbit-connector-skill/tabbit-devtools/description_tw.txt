@@ -1,0 +1,1 @@
+透過讀取 Tabbit 的即時 DevToolsActivePort 檔案並連接到瀏覽器 WebSocket 端點來使用 Tabbit 而不是 Chrome。當使用者說出「用我的 tabbit 瀏覽器」、「在 Tabbit 裡」、「Tabbit 目前頁面」、「Tabbit 目前標籤」等內容，或要求檢查、總結、抓取或偵錯在 Tabbit 而不是預設 Chrome DevTools 會話中開啟的頁面時觸發。預設使用輕量級本機 Python 腳本進行目前頁面提取，而不需要額外的自訂 MCP 伺服器。

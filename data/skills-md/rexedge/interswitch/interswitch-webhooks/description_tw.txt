@@ -1,0 +1,1 @@
+Interswitch Webhooks — 接收交易、訂閱、付款連結和發票的即時事件通知。使用 HmacSHA512 驗證簽章、處理重試邏輯並處理所有事件類型。每當設定 Webhook 端點、驗證 X-Interswitch-Signature 標頭、處理非同步支付確認、處理訂閱生命週期事件或偵錯 Webhook 傳遞時，請使用此技能。當您看到對 X-Interswitch-Signature、HmacSHA512、Webhook 事件類型或 Quickteller Business Webhook 配置的參考時也可使用。
