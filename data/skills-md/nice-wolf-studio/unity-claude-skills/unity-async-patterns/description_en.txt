@@ -1,0 +1,1 @@
+Unity async and coroutine correctness patterns. Catches common mistakes with Awaitable double-await, missing cancellation tokens, thread context after BackgroundThreadAsync, coroutine error swallowing, batch mode WaitForEndOfFrame, and Addressables handle leaks. PATTERN format: WHEN/WRONG/RIGHT/GOTCHA. Based on Unity 6.3 LTS documentation.

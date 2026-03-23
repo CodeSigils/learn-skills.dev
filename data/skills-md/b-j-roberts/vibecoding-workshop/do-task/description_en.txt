@@ -1,0 +1,1 @@
+This skill implements a specific task from a project's ROADMAP.md file. It should be used when the user wants to work on a roadmap action item by its ID (e.g., '1.1', '2.3'). Triggered by requests like '/do-task 1.1', '/do-task 2.3', or 'do task 3.1'. Works alongside the project-init skill (which creates the roadmap) and the checkpoint skill (which commits afterward).

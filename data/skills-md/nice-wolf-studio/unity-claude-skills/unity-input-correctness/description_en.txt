@@ -1,0 +1,1 @@
+Unity New Input System correctness patterns. Catches common mistakes with action reading (triggered vs IsPressed vs WasPressedThisFrame), action map switching, rebinding persistence, InputValue lifetime, PassThrough vs Value, local multiplayer device assignment, and control scheme auto-switching. PATTERN format: WHEN/WRONG/RIGHT/GOTCHA. Based on Unity 6.3 LTS.
