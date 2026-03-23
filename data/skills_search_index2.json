@@ -1,19 +1,38 @@
 {
-  "updatedAt": "2026-03-23T11:51:29Z",
-  "sourceIndexUpdatedAt": "2026-03-23T11:51:25Z",
+  "updatedAt": "2026-03-23T11:52:21Z",
+  "sourceIndexUpdatedAt": "2026-03-23T11:52:16Z",
   "sourceSkillsUpdatedAt": "2026-03-23T07:21:25.735Z",
   "version": 3,
   "part": 2,
   "totalParts": 2,
-  "count": 5161,
+  "count": 5162,
   "totalCount": 62854,
-  "startId": "unlayer/unlayer-skills/unlayer-integration",
+  "startId": "unlayer/unlayer-skills/unlayer-export",
   "endId": "zzzhizhia/repowiki/repowiki",
   "files": [
     "data/skills_search_index.json",
     "data/skills_search_index2.json"
   ],
   "items": {
+    "unlayer/unlayer-skills/unlayer-export": {
+      "id": "unlayer/unlayer-skills/unlayer-export",
+      "providerId": "cached",
+      "source": "unlayer/unlayer-skills",
+      "skillId": "unlayer-export",
+      "title": "unlayer-export",
+      "link": "https://github.com/unlayer/unlayer-skills",
+      "firstSeenAt": "2026-02-24T11:09:27.086Z",
+      "installsAllTime": 37,
+      "installsTrending": null,
+      "installsHot": null,
+      "description": "Exports content from the Unlayer editor — HTML, PDF, image, plain text, saving and loading design JSON, auto-save patterns, server-side Cloud API export.",
+      "descriptionEn": "Exports content from the Unlayer editor — HTML, PDF, image, plain text, saving and loading design JSON, auto-save patterns, server-side Cloud API export.",
+      "descriptionCn": "从 Unlayer 编辑器导出内容 — HTML、PDF、图像、纯文本、保存和加载设计 JSON、自动保存模式、服务器端云 API 导出。",
+      "descriptionPath": "data/skills-md/unlayer/unlayer-skills/unlayer-export/description_en.txt",
+      "descriptionEnPath": "data/skills-md/unlayer/unlayer-skills/unlayer-export/description_en.txt",
+      "descriptionCnPath": "data/skills-md/unlayer/unlayer-skills/unlayer-export/description_cn.txt",
+      "skillMdPath": "data/skills-md/unlayer/unlayer-skills/unlayer-export/SKILL.md"
+    },
     "unlayer/unlayer-skills/unlayer-integration": {
       "id": "unlayer/unlayer-skills/unlayer-integration",
       "providerId": "cached",
