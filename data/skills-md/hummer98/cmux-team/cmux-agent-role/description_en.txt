@@ -1,0 +1,1 @@
+Activated when running as a cmux-team sub-agent. Triggers: .team/team.json exists AND current session was spawned by Conductor (detect via: initial prompt contains "[CMUX-TEAM-AGENT]" marker). Provides: output protocol, issue creation, inter-agent coordination.
