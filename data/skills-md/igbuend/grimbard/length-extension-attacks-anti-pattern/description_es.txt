@@ -1,0 +1,1 @@
+Antipatrón de seguridad para vulnerabilidades de extensión de longitud de hash (CWE-328). Utilícelo al generar o revisar código que utilice hash (secreto + mensaje) para autenticación, firmas de API o verificación de integridad. Detecta el uso indebido del hash Merkle-Damgard.
