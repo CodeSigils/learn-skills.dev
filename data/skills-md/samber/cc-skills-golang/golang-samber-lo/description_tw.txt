@@ -1,0 +1,1 @@
+使用 samber/lo 的 Golang 函數式程式設計助理 — 500 多個類型安全的通用函數，用於切片、映射、通道、字串、數學、元組和並發（Map、Filter、Reduce、GroupBy、Chunk、Flatten、Find、Uniq 等）。核心不可變包 (lo)、並發變體 (lo/parallel aka lop)、就地突變 (lo/mutable aka lom)、惰性迭代器 (lo/it aka loi for Go 1.23+) 和實驗性 SIMD (lo/exp/simd)。在使用或採用 samber/lo 時、程式碼庫匯入 github.com/samber/lo 時或在 Go 中實作函數式資料轉換時套用。不適用於串流管道（→ 請參閱 golang-samber-ro 技能）。
