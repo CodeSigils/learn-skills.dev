@@ -1,0 +1,1 @@
+samber/hot — 제거 알고리즘(LRU, LFU, TinyLFU, W-TinyLFU, S3FIFO, ARC, TwoQueue, SIEVE, FIFO), TTL, 캐시 로더, 샤딩, 유효하지 않은 재검증, 누락된 키 캐싱 및 Prometheus 메트릭을 사용하는 Golang의 메모리 내 캐싱. samber/hot을 사용하거나 채택할 때, 코드베이스가 github.com/samber/hot을 가져올 때 또는 프로젝트가 높은 빈도로 동일한 중간에서 낮은 카디널리티 리소스를 반복적으로 로드하고 대기 시간이나 백엔드 부담을 줄여야 할 때 적용합니다.
