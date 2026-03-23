@@ -1,0 +1,1 @@
+암호화 작업 및 키 관리를 외부 서비스에 위임하기 위한 보안 패턴입니다. 암호화 키를 직접 소유해서는 안 되는 시스템을 설계할 때 사용합니다. 암호화 키 관리 패턴 구현. 예로는 Android Keystore, iOS KeyChain, AWS KMS, Azure Key Vault, Google Cloud KMS가 있습니다. 키 유출 및 암호 구성 오류의 위험을 줄입니다.

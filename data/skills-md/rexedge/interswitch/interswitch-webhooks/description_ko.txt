@@ -1,0 +1,1 @@
+Interswitch Webhooks — 거래, 구독, 결제 링크 및 송장에 대한 실시간 이벤트 알림을 받습니다. HmacSHA512로 서명을 검증하고, 재시도 논리를 처리하고, 모든 이벤트 유형을 처리합니다. 웹훅 엔드포인트 설정, X-Interswitch-Signature 헤더 유효성 검사, 비동기 결제 확인 처리, 구독 수명 주기 이벤트 처리 또는 웹훅 전달 디버깅 시 이 기술을 사용하세요. 또한 X-Interswitch-Signature, HmacSHA512, 웹훅 이벤트 유형 또는 Quickteller Business 웹훅 구성에 대한 참조를 볼 때도 사용하세요.
