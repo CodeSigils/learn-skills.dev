@@ -20,6 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
+from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 
@@ -40,7 +41,11 @@ def utc_now_iso() -> str:
 
 
 def skill_page_url(source: str, skill_id: str) -> str:
-    return f"https://skills.sh/{source}/{skill_id}"
+    # Percent-encode each path segment so urllib's HTTP client (ASCII request line) does not
+    # raise UnicodeEncodeError when owner/repo/skill names contain non-ASCII characters.
+    segments = [p for p in source.split("/") if p] + [skill_id]
+    path = "/".join(quote(seg, safe="") for seg in segments)
+    return f"https://skills.sh/{path}"
 
 
 def github_repo_url(source: str) -> str:
