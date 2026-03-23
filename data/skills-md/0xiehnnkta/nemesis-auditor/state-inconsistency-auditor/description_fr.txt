@@ -1,0 +1,1 @@
+Détecte les bogues d'incohérence d'état dans lesquels une opération mute un élément de l'état couplé sans mettre à jour son homologue dépendant, provoquant une corruption silencieuse des données ou des retours dans les opérations ultérieures. Déclencheurs sur /state-audit, audit d’incohérence d’état ou audit d’état couplé.
