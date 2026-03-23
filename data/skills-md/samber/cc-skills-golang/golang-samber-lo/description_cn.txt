@@ -1,0 +1,1 @@
+使用 samber/lo 的 Golang 函数式编程助手 — 500 多个类型安全的通用函数，用于切片、映射、通道、字符串、数学、元组和并发（Map、Filter、Reduce、GroupBy、Chunk、Flatten、Find、Uniq 等）。核心不可变包 (lo)、并发变体 (lo/parallel aka lop)、就地突变 (lo/mutable aka lom)、惰性迭代器 (lo/it aka loi for Go 1.23+) 和实验性 SIMD (lo/exp/simd)。在使用或采用 samber/lo 时、代码库导入 github.com/samber/lo 时或在 Go 中实现函数式数据转换时应用。不适用于流管道（→ 请参阅 golang-samber-ro 技能）。
