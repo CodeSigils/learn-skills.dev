@@ -1,0 +1,1 @@
+Findet Zustandsinkonsistenzfehler, bei denen ein Vorgang einen Teil des gekoppelten Zustands verändert, ohne sein abhängiges Gegenstück zu aktualisieren, was zu einer unbemerkten Datenbeschädigung führt oder bei nachfolgenden Vorgängen zu einem Rückfall führt. Wird bei /state-audit, bei der Statusinkonsistenzprüfung oder bei der gekoppelten Statusprüfung ausgelöst.
