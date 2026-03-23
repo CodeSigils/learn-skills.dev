@@ -1,0 +1,1 @@
+samber/hot を使用した Golang のメモリ内キャッシュ — エビクション アルゴリズム (LRU、LFU、TinyLFU、W-TinyLFU、S3FIFO、ARC、TwoQueue、SIEVE、FIFO)、TTL、キャッシュ ローダー、シャーディング、再検証中の失効、欠落キー キャッシュ、および Prometheus メトリクス。 samber/hot を使用または採用する場合、コードベースが github.com/samber/hot をインポートする場合、またはプロジェクトが同じ中から低のカーディナリティのリソースを高頻度で繰り返しロードし、レイテンシやバックエンドの圧力を軽減する必要がある場合に適用します。

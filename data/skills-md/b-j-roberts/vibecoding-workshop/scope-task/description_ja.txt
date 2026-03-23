@@ -1,0 +1,1 @@
+このスキルは、既存のプロジェクトの ROADMAP.md に挿入する単一の新しいタスクを範囲指定して調査します。これは、開発者が do-task/checkpoint ループ中にロードマップのギャップを特定し、実装する前に新しいアクション アイテムの範囲を適切に設定する必要がある場合に使用する必要があります。 「/scope-task 2.5 Integrate Research into SPEC.md」、「/scope-task 3.3 Add WebSocket support」、「scope task 1.4 Set up CI Pipeline」などのリクエストによってトリガーされます。 project-init (ロードマップを作成する) および do-task (タスクを実装する) と並行して動作します。
