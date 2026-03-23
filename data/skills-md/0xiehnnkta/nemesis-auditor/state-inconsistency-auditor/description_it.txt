@@ -1,0 +1,1 @@
+Trova bug di incoerenza di stato in cui un'operazione muta un pezzo di stato accoppiato senza aggiornare la sua controparte dipendente, causando il danneggiamento silenzioso dei dati o il ripristino nelle operazioni successive. Si attiva su /state-audit, audit di incoerenza dello stato o audit di stato accoppiato.

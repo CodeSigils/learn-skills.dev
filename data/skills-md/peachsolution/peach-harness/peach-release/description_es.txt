@@ -1,4 +1,4 @@
-Una habilidad de lanzamiento que automatiza todo el flujo desde la actualización de la versión Peach-harness → generar automáticamente CHANGELOG.md → confirmar/empujar para desarrollar → crear PR en principal → fusionar PR → crear GitHub Release.
-Después de analizar los cambios, el usuario selecciona manualmente mayor/menor/parche. Una aprobación desencadena la ejecución completa.
-Activado por palabras clave: "lanzamiento", "versión actualizada", "lanzamiento", "fusionar con principal", "implementación lista".
-Usado solo en el repositorio de Peach-Arnés.
+Una habilidad de lanzamiento que maneja todo, desde la actualización de la versión Peach-harness → generación automática de CHANGELOG.md → desarrollo de confirmación/empuje → creación de PR principal → fusión de PR → creación de lanzamiento de GitHub.
+Después de analizar los cambios, el usuario elige manualmente mayor/menor/parche. Una aprobación y luego ejecución por lotes.
+Activado por las palabras clave "릴리스", "버전 업", "release", "main 머지", "배포 준비".
+Para uso únicamente en el depósito de Peach-Arnés.
