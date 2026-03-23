@@ -1,0 +1,6 @@
+NetEase Cloud Music Smart Assistant, cuya base es la toma de decisiones basada en modelos, ejecuta acciones a través de ncm-cli.  
+Capacidades principales: analizar el perfil de preferencia de lista de reproducción de canciones que le gustan al usuario, elaborar estrategias de búsqueda de múltiples palabras clave, recomendar de manera inteligente listas de reproducción/álbumes/pistas (con explicaciones de recomendación de dos niveles), control de reproducción (reproducir/pausar/siguiente/volumen/cola), administrar el envío de envíos programados, enviar resultados de recomendaciones a Feishu y otros canales de mensajería instantánea a través de OpenClaw, crear y escribir listas de reproducción.  
+Condiciones de activación (se activa si se cumple alguna):  
+- el mensaje contiene “NetEase Cloud” o “Cloud Music”  
+- el usuario quiere escuchar música, solicita recomendaciones de listas de reproducción o busca un género  
+- el usuario quiere analizar sus preferencias musicales o el historial de canciones que le gustan
