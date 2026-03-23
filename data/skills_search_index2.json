@@ -1,19 +1,38 @@
 {
-  "updatedAt": "2026-03-23T11:56:38Z",
-  "sourceIndexUpdatedAt": "2026-03-23T11:56:34Z",
+  "updatedAt": "2026-03-23T11:57:23Z",
+  "sourceIndexUpdatedAt": "2026-03-23T11:57:18Z",
   "sourceSkillsUpdatedAt": "2026-03-23T07:21:25.735Z",
   "version": 3,
   "part": 2,
   "totalParts": 2,
-  "count": 5162,
+  "count": 5163,
   "totalCount": 62854,
-  "startId": "unlayer/unlayer-skills/unlayer-export",
+  "startId": "unlayer/unlayer-skills/unlayer-custom-tools",
   "endId": "zzzhizhia/repowiki/repowiki",
   "files": [
     "data/skills_search_index.json",
     "data/skills_search_index2.json"
   ],
   "items": {
+    "unlayer/unlayer-skills/unlayer-custom-tools": {
+      "id": "unlayer/unlayer-skills/unlayer-custom-tools",
+      "providerId": "cached",
+      "source": "unlayer/unlayer-skills",
+      "skillId": "unlayer-custom-tools",
+      "title": "unlayer-custom-tools",
+      "link": "https://github.com/unlayer/unlayer-skills",
+      "firstSeenAt": "2026-02-24T11:09:27.086Z",
+      "installsAllTime": 39,
+      "installsTrending": null,
+      "installsHot": null,
+      "description": "Builds custom drag-and-drop tools for the Unlayer editor — registering tools, adding property editors, creating custom widgets, head CSS/JS injection, tool configuration, and the custom# prefix convention.",
+      "descriptionEn": "Builds custom drag-and-drop tools for the Unlayer editor — registering tools, adding property editors, creating custom widgets, head CSS/JS injection, tool configuration, and the custom# prefix convention.",
+      "descriptionCn": "为 Unlayer 编辑器构建自定义拖放工具 - 注册工具、添加属性编辑器、创建自定义小部件、头 CSS/JS 注入、工具配置和 custom# 前缀约定。",
+      "descriptionPath": "data/skills-md/unlayer/unlayer-skills/unlayer-custom-tools/description_en.txt",
+      "descriptionEnPath": "data/skills-md/unlayer/unlayer-skills/unlayer-custom-tools/description_en.txt",
+      "descriptionCnPath": "data/skills-md/unlayer/unlayer-skills/unlayer-custom-tools/description_cn.txt",
+      "skillMdPath": "data/skills-md/unlayer/unlayer-skills/unlayer-custom-tools/SKILL.md"
+    },
     "unlayer/unlayer-skills/unlayer-export": {
       "id": "unlayer/unlayer-skills/unlayer-export",
       "providerId": "cached",
