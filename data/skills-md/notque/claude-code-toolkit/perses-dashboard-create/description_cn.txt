@@ -1,0 +1,7 @@
+指导 Perses 仪表板创建：收集需求（指标、数据源、布局），
+生成 CUE 定义或 JSON 规范，使用 percli lint 进行验证，使用 percli 进行部署
+应用或 MCPperses_create_dashboard。当用户想要创建新的 Perses 时使用
+仪表板、构建监控仪表板或生成仪表板定义。用于
+“创建 Perses 仪表板”、“新仪表板”、“Perses 新仪表板”、“构建仪表板”。
+请勿用于 Grafana 迁移（使用perses-grafana-migrate）或插件开发
+（使用perses-plugin-create）。

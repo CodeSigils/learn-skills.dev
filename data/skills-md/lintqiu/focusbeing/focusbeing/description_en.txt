@@ -1,1 +1,1 @@
-数字人生成 CLI 工具，凭 accessKeyId/accessKeySecret 调用后端 API，支持提交任务（MP3/MP4/文字→视频）与查询任务结果（orderNo）；不在本仓库持久化业务数据；凭证仅进程内用于请求头；数据发往用户配置之后端。
+Digital human generation CLI tool, using accessKeyId/accessKeySecret to call backend API, supports submitting tasks (MP3/MP4/text→video) and querying task results (orderNo); does not persist business data in this repository; credentials are only used in-process for request headers; data is sent to the backend configured by the user.

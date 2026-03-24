@@ -1,0 +1,1 @@
+在 TypeScript 和 JavaScript 代码中使用“never throw”而不是手写的“try/catch”来捕获异常并承诺失败。在包装可能抛出异常的同步函数、可能在返回之前抛出的承诺返回函数、可能拒绝的现有“PromiseLike”值或第三方 API（例如解析器、数据库客户端、HTTP 客户端、文件系统帮助程序、序列化程序和 SDK 调用）时使用。对于同步抛出器，首选“Result.fromThrowable”，对于可能抛出或拒绝的承诺返回函数，首选“ResultAsync.fromThrowable”，当您手头已有“PromiseLike”值时，首选“ResultAsync.fromPromise”。仅当语言构造、清理要求或框架边界确实需要时才保留“try/catch”。

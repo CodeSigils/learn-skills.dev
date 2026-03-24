@@ -1,0 +1,6 @@
+Perses 变量生命周期管理：在全局创建 Text 和 List 变量，
+项目或仪表板范围。处理具有依赖关系的变量链（A 取决于
+B 取决于 C)。支持 14+ 插值格式。使用 MCP 工具时
+可用，percli CLI 作为后备。用于“perses 变量”、“仪表板变量”、
+“perses过滤器”，“添加变量”。请勿用于数据源管理
+（使用perses-datasource-manage）。
