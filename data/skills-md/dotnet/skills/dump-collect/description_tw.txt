@@ -1,0 +1,1 @@
+配置和收集現代 .NET 應用程式的故障轉儲。用途：為 CoreCLR 或 NativeAOT 啟用自動故障轉儲、從正在執行的 .NET 程序擷取轉儲、在 Docker 或 Kubernetes 中設定轉儲收集、使用 dotnet-dumpcollect 或 createdump。請勿用於：分析或調試轉儲、使用 lldb/windbg/dotnet-dump 分析進行事後調查、分析或跟踪，或用於 .NET Framework 進程。

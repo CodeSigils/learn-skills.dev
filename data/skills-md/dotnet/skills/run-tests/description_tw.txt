@@ -1,0 +1,1 @@
+使用 dotnet test 執行 .NET 測試。當使用者說「執行測試」、「執行測試」、「dotnet 測試」、「測試過濾器」、「按類別過濾」、「按類別過濾」、「僅執行特定測試」、「測試未運行」或需要檢測測試平台（VSTest 或 Microsoft.Testing.Platform）、識別測試框架、應用測試過濾器或排除測試執行故障時使用。涵蓋 VSTest 和 MTP 平台上的 MSTest、xUnit、NUnit 和 TUnit。也用於 treenode-filter、--filter-class、--filter-trait 和其他特定於框架的過濾器語法。請勿用於：編寫或產生測試程式碼、CI/CD 管道配置或調試失敗的測試邏輯。
