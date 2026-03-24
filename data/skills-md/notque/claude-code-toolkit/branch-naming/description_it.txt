@@ -1,0 +1,6 @@
+Genera e convalida i nomi dei rami Git dai messaggi di commit o dalle descrizioni.
+Da utilizzare durante la creazione di rami, la generazione di nomi per /pr-sync, la convalida dell'esistente
+nomi di rami o convertire commit convenzionali in prefissi di rami. Trigger:
+"nome ramo", "crea ramo", "rinomina questo ramo", "convalida ramo". NON farlo
+utilizzare per operazioni git (checkout, unione, eliminazione), strategie di ramificazione o
+norme di tutela delle filiali.

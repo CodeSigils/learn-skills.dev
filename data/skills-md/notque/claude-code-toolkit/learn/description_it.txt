@@ -1,0 +1,6 @@
+Insegna manualmente a Claude Code un modello di errore e la sua soluzione, memorizzandolo in
+il database di apprendimento con elevata sicurezza. Utilizzare quando l'utente fornisce un file
+coppia esplicita "errore -> soluzione", desidera precaricare la conoscenza della correzione o
+corregge una precedente correzione errata. Utilizzare per "/impara", "insegna modello", "ricorda
+questa correzione". NON utilizzare per l'apprendimento automatico degli errori (ovvero il file error-learner
+hook), eseguire il debug di problemi attivi o eseguire query su modelli esistenti.

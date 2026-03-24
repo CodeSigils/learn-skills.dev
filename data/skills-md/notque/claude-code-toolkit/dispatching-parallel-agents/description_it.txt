@@ -1,0 +1,6 @@
+Invia agenti secondari indipendenti in parallelo per problemi non correlati
+diversi sottosistemi. Da utilizzare quando più di 2 guasti hanno cause principali indipendenti,
+più sottosistemi vengono interrotti in modo indipendente o le richieste degli utenti simultanee
+indagine. Utilizzare per "parallelo", "guasti multipli", "bug indipendenti",
+"risolvere questi contemporaneamente". NON utilizzare per errori correlati, stato condiviso
+problemi o debug esplorativo in cui la causa principale è sconosciuta.

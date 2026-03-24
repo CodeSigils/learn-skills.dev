@@ -1,0 +1,7 @@
+Creazione guidata della dashboard Perses: raccolta dei requisiti (metriche, origine dati, layout),
+generare la definizione CUE o le specifiche JSON, convalidare con percli lint, distribuire con percli
+apply o MCP perses_create_dashboard. Utilizzare quando l'utente desidera creare un nuovo Perses
+dashboard, creare un dashboard di monitoraggio o generare definizioni di dashboard. Utilizzare per
+"crea dashboard perse", "nuova dashboard", "crea nuova dashboard", "crea dashboard".
+NON utilizzare per la migrazione di Grafana (utilizzare perses-grafana-migrate) o per lo sviluppo di plug-in
+(usa perses-plugin-crea).

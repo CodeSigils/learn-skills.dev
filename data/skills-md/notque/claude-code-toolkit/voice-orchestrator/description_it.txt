@@ -1,0 +1,7 @@
+Generazione di contenuti vocali in più fasi con convalida deterministica. Orchestra
+una pipeline a 7 fasi: CARICO, TERRA, GENERAZIONE, VALIDAZIONE, RAFFINAMENTO, OUTPUT, PULIZIA.
+Da utilizzare quando si genera contenuto con una voce specifica, si scrive come personaggio o
+convalidare il contenuto esistente rispetto a un profilo vocale. Utilizzare per "scrittura vocale",
+"scrivi come", "genera in voce" o "contenuto vocale". NON utilizzare per creare
+nuovi profili vocali (usare il calibratore vocale), analizzare campioni di scrittura (usare
+voice_analyzer.py) o contenuti generali senza target vocale.

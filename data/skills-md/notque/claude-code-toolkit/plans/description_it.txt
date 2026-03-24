@@ -1,0 +1,5 @@
+Gestione deterministica del ciclo di vita del piano tramite scripts/plan-manager.py: crea,
+tenere traccia, controllare, completare e abbandonare i piani di attività. Utilizzare quando l'utente dice "/plans",
+ha bisogno di creare un piano multifase, monitorare i progressi sui piani attivi o gestire
+pianificare il ciclo di vita (completamento, abbandono, audit). NON utilizzare per attività una tantum che
+non necessitano di monitoraggio, implementazione di funzionalità o flussi di lavoro di debug.

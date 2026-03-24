@@ -1,0 +1,8 @@
+Orchestrazione multi-competenza basata su DAG: individuazione, pianificazione, convalida, esecuzione.
+Costruisce grafici di esecuzione per attività che richiedono più competenze in sequenza
+o parallelamente alla risoluzione delle dipendenze e al passaggio del contesto. Utilizzare quando a
+l'attività richiede 2+ abilità concatenate insieme, esecuzione parallela di abilità o
+ramificazione condizionale tra le competenze. Utilizzare per "comporre abilità", "catena
+flusso di lavoro", "multi-abilità" o "abilità di orchestrazione". NON utilizzare quando a
+singola competenza può gestire la richiesta, oppure per semplice invocazione sequenziale
+che non necessita di gestione delle dipendenze.

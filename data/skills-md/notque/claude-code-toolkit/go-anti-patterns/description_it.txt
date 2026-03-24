@@ -1,0 +1,7 @@
+Rileva e correggi gli anti-pattern Go: astrazione prematura dell'interfaccia,
+eccesso di goroutine, zuppa di contesto, errori di avvolgimento degli errori, abuso generico,
+uso improprio del canale, estrazione di funzioni non necessarie e inquinamento dell'interfaccia.
+Da utilizzare durante la revisione della qualità del codice Go, il rilevamento di un eccesso di ingegneria o quando
+l'utente menziona "anti-pattern", "code odor", "Go error" o "bad Go".
+NON utilizzare per l'implementazione di funzionalità e l'ottimizzazione delle prestazioni senza a
+odore di codice o lingue non Go.

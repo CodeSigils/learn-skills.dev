@@ -1,0 +1,6 @@
+Audit di conformità SAP Converged Cloud Go a repository completo. Revisiona ogni pacchetto
+rispetto agli standard di revisione stabiliti, concentrandosi sull’ingegneria eccessiva,
+qualità dei messaggi di errore, codice morto, contratti di interfaccia, strutture copia-incolla,
+e coerenza del modello con keppel. Invia agenti paralleli per pacchetto
+gruppo, ognuno dei quali legge TUTTE le regole sapcc. Produce risultati a livello di codice con
+differenze effettive prima/dopo. Richiamato tramite "/sapcc-audit" o tramite /do.
