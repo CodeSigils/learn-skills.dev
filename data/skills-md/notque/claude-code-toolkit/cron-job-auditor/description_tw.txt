@@ -1,0 +1,6 @@
+對 cron/預定作業腳本的可靠性進行確定性審核，
+錯誤處理、日誌記錄、清理和並發安全。使用時
+使用者說「審核 cron」、「檢查 cron 腳本」、「cron 最佳實務」、
+“預定作業審查”或“bash 腳本審核”。請勿用於
+crontab 調度語法、systemd 計時器或一般 shell linting
+沒有 cron/scheduled-job 上下文。

@@ -1,0 +1,1 @@
+使用 Viceroy 在本地運行快速計算 WASM 應用程序，特別適用於 Rust 和元件模型專案。在使用 Viceroy 啟動本地 Fastly Compute 開發伺服器、為本地後端覆蓋和儲存定義配置 fastly.toml、針對計算運行時使用 Cargo-nextest 運行 Rust 單元測試、本地調試計算應用程式、使核心 WASM 模組適應組件模型或排除本地計算測試問題（連接被拒絕、缺少後端、存儲配置）時使用。對於非 Rust 計算工作或了解計算 API，更喜歡使用 fastlike 技能——它的原始程式碼作為 Fastly Compute API 參考更容易理解。

@@ -1,0 +1,7 @@
+Next.js 快取元件和部分預渲染 (PPR) 的專家指南。
+
+**主動啟動**：在 next.js 專案中工作時，在 next.config.ts/next.config.js 中包含 `cacheComponents: true` 時，自動使用此技能。當偵測到此配置時，主動將快取元件模式和最佳實踐套用至所有 React 伺服器元件實作。
+
+**检测**：在 Next.js 项目中的会话开始时，检查 next.config 中的“cacheComponents: true”。如果啟用，該技能的模式應指導所有元件創作、資料取得和快取決策。
+
+**用例**：實作「使用快取」指令、使用cacheLife()配置快取生命週期、使用cacheTag()標記快取資料、使用updateTag()/revalidateTag()使快取無效、最佳化靜態與動態內容邊界、偵錯快取問題以及檢查快取元件實作。

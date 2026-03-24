@@ -1,0 +1,5 @@
+Grafana 到 Perses 儀表板遷移：導出 Grafana 儀表板，轉換為
+percli 遷移、驗證轉換後的輸出、修復不相容性、部署到 Perses。
+透過並行處理處理批量遷移。用於“遷移grafana”，
+「grafana 到 perses」、「perses 遷移」、「轉換 grafana」。請勿用於創建
+從頭開始新的儀表板（使用perses-dashboard-create）。
