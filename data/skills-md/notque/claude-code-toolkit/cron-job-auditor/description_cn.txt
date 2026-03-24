@@ -1,0 +1,6 @@
+对 cron/预定作业脚本的可靠性进行确定性审核，
+错误处理、日志记录、清理和并发安全。使用时
+用户说“审核 cron”、“检查 cron 脚本”、“cron 最佳实践”、
+“预定作业审查”或“bash 脚本审核”。请勿用于
+crontab 调度语法、systemd 计时器或一般 shell linting
+没有 cron/scheduled-job 上下文。

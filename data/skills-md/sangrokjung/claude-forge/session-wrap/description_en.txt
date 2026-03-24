@@ -1,2 +1,2 @@
-세션 종료 전 자동 정리 스킬. 4개 병렬 subagent가 문서 업데이트, 반복 패턴, 학습 포인트, 후속 작업을 동시 탐지하고, 1개 검증 subagent가 중복 제거 후 사용자에게 선택지를 제시한다.
-트리거: /session-wrap, 세션 마무리, 세션 정리, 작업 마무리
+Auto-cleanup skill before session ends. Four parallel subagents simultaneously detect document updates, repetitive patterns, learning points, and follow-up tasks, while one validation subagent deduplicates and presents options to the user.
+Triggers: /session-wrap, session wrap-up, session cleanup, task wrap-up
