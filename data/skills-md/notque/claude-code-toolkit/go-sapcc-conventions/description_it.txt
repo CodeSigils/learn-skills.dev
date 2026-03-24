@@ -1,0 +1,7 @@
+Convenzioni di codifica SAP Converged Cloud Go estratte da sapcc/keppel e
+recensioni PR di sapcc/go-bits. Applica l'architettura
+modelli, regole di utilizzo della libreria, convenzioni di gestione degli errori, modelli di test,
+e principi anti-overengineering. Da utilizzare quando si lavora in repository sapcc/*,
+quando il codice importa github.com/sapcc/go-bits o quando si sceglie come target SAP CC
+standard di revisione del codice. NON utilizzare per progetti Go generali senza
+dipendenze sapcc.

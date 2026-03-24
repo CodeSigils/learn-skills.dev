@@ -1,0 +1,7 @@
+Controlla lo stato del flusso di lavoro di GitHub Actions dopo git push utilizzando gh CLI. Rapporti
+Lo stato CI, identifica i lavori in fallimento e suggerisce la riproduzione locale
+comandi. Da utilizzare dopo "git push", quando l'utente chiede informazioni sullo stato dell'elemento della configurazione e sul flusso di lavoro
+fallimenti o creare risultati. Utilizzare per "controlla CI", "stato del flusso di lavoro",
+"azioni fallite" o "costruzione interrotta". NON utilizzare per la formazione di pelucchi locali
+(usare code-linting), debugging degli errori di test localmente (usare
+debug sistematico) o l'impostazione di nuovi flussi di lavoro.

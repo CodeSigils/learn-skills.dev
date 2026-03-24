@@ -1,0 +1,6 @@
+Esecuzione subagente per attività con revisione in due fasi (conformità ADR +
+qualità del codice). Da utilizzare quando esiste un piano di implementazione prevalentemente indipendente
+compiti e desideri porte di qualità tra ciascuno. Utilizzare per "eseguire piano",
+vengono eseguite "subagent", "dispatch task" o implementazioni multi-task. NON utilizzare
+per singoli compiti semplici, lavori strettamente associati che richiedono un contesto condiviso o quando
+l'utente desidera una revisione manuale dopo ogni attività.

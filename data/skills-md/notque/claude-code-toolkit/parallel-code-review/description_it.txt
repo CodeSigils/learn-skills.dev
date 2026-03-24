@@ -1,0 +1,7 @@
+Orchestrazione parallela della revisione del codice da parte di 3 revisori: avvio di sicurezza, logica aziendale,
+e revisori dell'architettura contemporaneamente, aggregare i risultati per gravità e
+produrre un verdetto unificato BLOCCO/FIX/APPROVAZIONE. Da utilizzare durante la revisione dei PR con 5+
+file, modifiche sensibili alla sicurezza, nuove funzionalità che richiedono un'ampia copertura o quando
+l'utente richiede "revisione parallela", "revisione completa" o "revisione completa".
+NON utilizzare per correzioni di file singoli, modifiche solo alla documentazione o quando
+la revisione sistematica del codice (sequenziale) è sufficiente.

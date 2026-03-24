@@ -1,0 +1,5 @@
+Genera lavori cron headless di Claude Code dalla descrizione e dalla pianificazione dell'attività.
+Crea uno script wrapper con meccanismi di sicurezza (lockfile, limite di budget, dry-run
+default, logging) e installa le voci crontab tramite script Python deterministico.
+Da utilizzare quando l'utente dice "programma", "esegui ogni", "cron job", "esegui due volte al giorno",
+"esegui ogni ora", "esegui ogni giorno", "esegui settimanalmente" o "attività pianificata".

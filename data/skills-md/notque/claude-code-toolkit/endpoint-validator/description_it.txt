@@ -1,0 +1,6 @@
+Convalida deterministica degli endpoint API con reporting strutturato di superamento/non superamento.
+Da utilizzare quando gli endpoint necessitano di test del fumo, prima sono richiesti controlli sanitari
+la distribuzione o le pipeline CI/CD necessitano di porte di convalida HTTP. Utilizzare per
+"convalida endpoint", "verifica integrità API", "test fumo API" o
+"gli endpoint funzionano". NON utilizzare per test di carico, test del browser,
+suite di integrazione completa o flussi di autenticazione OAuth/complessi.

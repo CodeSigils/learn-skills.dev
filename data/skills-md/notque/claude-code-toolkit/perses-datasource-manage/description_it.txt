@@ -1,0 +1,5 @@
+Gestione del ciclo di vita dell'origine dati: crea, aggiorna, elimina le origini dati in
+ambito globale, di progetto o di dashboard. Supporta Prometeo, Tempo, Loki, Piroscopio,
+ClickHouse e VictoriaLogs. Utilizza gli strumenti MCP quando disponibili, CLI CLI come fallback.
+Utilizzare per "perses datasource", "aggiungi datasource", "configura prometheus perses",
+"perse l'origine dati". NON utilizzare per la creazione di dashboard (utilizzare perses-dashboard-create).

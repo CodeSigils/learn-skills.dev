@@ -1,0 +1,5 @@
+Esamina la qualità delle dashboard Perses esistenti: recupera tramite MCP o API, analizza il pannello
+layout, efficienza delle query, utilizzo variabile, configurazione dell'origine dati. Genera
+rapporto di miglioramento. Modalità --fix opzionale. Pipeline a 4 fasi: FETCH, ANALYZE, REPORT, FIX.
+Utilizzare per "dashboard di revisione perses", "dashboard di controllo", "qualità del dashboard di perses".
+NON utilizzare per creare nuove dashboard (utilizzare perses-dashboard-create).

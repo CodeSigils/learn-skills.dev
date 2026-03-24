@@ -1,0 +1,6 @@
+Classifica le richieste degli utenti e instradale alla corretta combinazione agente + competenza.
+Utilizzare per qualsiasi richiesta dell'utente che necessita di delega: modifiche al codice, debugging,
+revisioni, creazione di contenuti, ricerche o flussi di lavoro in più fasi. Invocato come
+il punto di ingresso principale tramite "/do [richiesta]". NON gestire le modifiche al codice
+direttamente: instrada sempre a un agente di dominio. NON saltare il percorso per
+qualsiasi cosa oltre la pura ricerca di fatti o i singoli comandi di lettura.

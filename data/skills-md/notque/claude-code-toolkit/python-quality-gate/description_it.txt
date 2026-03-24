@@ -1,0 +1,7 @@
+Esegui controlli di qualità Python inserendo ruff, pytest, mypy e bandit
+ordine deterministico. Utilizzare QUANDO l'utente richiede "quality gate", "lint",
+"verifica la qualità del codice", "controlla Python" o "controllo pre-commit". Utilizzare per
+convalida pre-unione, gating CI/CD o qualità del codice completa
+rapporti. NON utilizzare per esecuzioni con uno strumento singolo (eseguire direttamente lo strumento) e per il debug
+bug di runtime (usare il debug sistematico), refactoring (usare
+refactoring sistematico) o revisione dell'architettura.

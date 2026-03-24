@@ -1,0 +1,7 @@
+Vai ai modelli di gestione degli errori: avvolgimento con contesto, errori sentinella, custom
+tipi di errore, catene di errori.Is/As e mappatura degli errori HTTP. Utilizzare quando
+implementazione di resi di errore, definizione di errori a livello di pacchetto, creazione di file personalizzati
+tipi di errore, racchiudendo gli errori con fmt.Errorf o controllando gli errori con
+errori.È/As. Utilizzare per "gestione degli errori", "fmt.Errorf", "errors.Is",
+"errors.As", "errore sentinella", "errore personalizzato" o "%w". NON utilizzare per
+sviluppo Go generale, debug di errori di runtime o strategia di registrazione.

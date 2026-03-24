@@ -1,0 +1,5 @@
+Migrazione dashboard Grafana-to-Perses: esporta dashboard Grafana, converti con
+percli migra, convalida l'output convertito, corregge le incompatibilità, distribuisce su Perses.
+Gestisce la migrazione di massa con l'elaborazione parallela. Utilizzare per "migrare grafana",
+"grafana a perses", "perses migra", "converti grafana". NON utilizzare per creare
+nuove dashboard da zero (usa perses-dashboard-create).

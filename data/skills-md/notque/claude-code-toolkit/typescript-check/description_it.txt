@@ -1,0 +1,6 @@
+Esegui il controllo del tipo TypeScript con tsc --noEmit e analizza gli errori
+output utilizzabile e raggruppato in file. Da utilizzare prima durante la convalida del codice TypeScript
+commit, dopo i refactoring o durante il controllo delle regressioni di tipo. Utilizzare per
+"controllo del tipo", "tsc", "errori di TypeScript", "convalida del tipo" o pre-commit
+Verifica TypeScript. NON utilizzare per linting, esecuzione di test, runtime
+errori o progetti solo JavaScript senza tsconfig.json.

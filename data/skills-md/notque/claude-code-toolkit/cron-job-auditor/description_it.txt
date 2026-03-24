@@ -1,0 +1,6 @@
+Controllo deterministico degli script cron/processi pianificati per verificarne l'affidabilità,
+gestione degli errori, registrazione, pulizia e sicurezza della concorrenza. Utilizzare quando
+l'utente dice "controlla cron", "controlla lo script cron", "migliori pratiche cron",
+"revisione del lavoro pianificata" o "audit dello script bash". NON utilizzare per
+sintassi di pianificazione crontab, timer systemd o linting generale della shell
+senza un contesto cron/lavoro pianificato.
