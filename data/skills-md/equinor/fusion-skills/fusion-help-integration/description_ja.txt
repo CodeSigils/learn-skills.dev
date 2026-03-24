@@ -1,0 +1,1 @@
+Fusion ヘルプ センターをアプリ ページに接続します。記事のスラッグ定数を作成し、useHelpCenter フックを追加し、PageLayout プロパティを接続して、ユーザーがコンテキストに応じたヘルプ記事を開くことができるようにします。用途: ページにヘルプ ボタンを追加する、useHelpCenter を接続する、helpArticles 定数を作成する、アプリに Fusion Help を統合する、PageLayout をヘルプ センターに接続する、openHelpArticle をページに追加する。次の用途には使用しないでください: マークダウン ヘルプ記事の作成 (fusion-help-docs を使用)、ヘルプ REST API の直接呼び出し (fusion-help-api を使用)、@fra/ui 共有コンポーネントの変更。
