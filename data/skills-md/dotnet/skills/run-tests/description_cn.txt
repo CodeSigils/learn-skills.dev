@@ -1,0 +1,1 @@
+使用 dotnet test 运行 .NET 测试。当用户说“运行测试”、“执行测试”、“dotnet 测试”、“测试过滤器”、“按类别过滤”、“按类过滤”、“仅运行特定测试”、“测试未运行”或需要检测测试平台（VSTest 或 Microsoft.Testing.Platform）、识别测试框架、应用测试过滤器或排除测试执行故障时使用。涵盖 VSTest 和 MTP 平台上的 MSTest、xUnit、NUnit 和 TUnit。还用于 treenode-filter、--filter-class、--filter-trait 和其他特定于框架的过滤器语法。请勿用于：编写或生成测试代码、CI/CD 管道配置或调试失败的测试逻辑。

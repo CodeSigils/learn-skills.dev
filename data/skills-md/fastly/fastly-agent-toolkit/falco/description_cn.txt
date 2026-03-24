@@ -1,0 +1,1 @@
+使用 falco 工具对 Fastly VCL 代码进行 Lint、测试、模拟和格式化。还通过 falco Go 源代码作为权威的 VCL 参考，它实现了 Fastly 的完整 VCL 方言。在验证 VCL 语法、运行 VCL linting、本地测试 VCL、模拟 VCL 请求处理、格式化 VCL 文件、使用断言编写 VCL 单元测试、调试 VCL 逻辑错误、查找 VCL 函数签名或变量范围、了解 VCL 子例程行为或运行 `falco lint`/`falco Simulate`/`falco test`/`falco fmt` 时使用。也适用于处理 VCL 语法错误、VCL 中的类型不匹配、选择要使用的 VCL 子例程或设置本地 VCL 开发和测试环境。
