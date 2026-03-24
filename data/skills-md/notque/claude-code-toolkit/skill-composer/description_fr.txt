@@ -1,0 +1,8 @@
+Orchestration multi-compétences basée sur DAG : découvrir, planifier, valider, exécuter.
+Construit des graphiques d'exécution pour les tâches nécessitant plusieurs compétences en séquence
+ou parallèlement à la résolution des dépendances et au passage du contexte. À utiliser lorsqu'un
+la tâche nécessite plus de 2 compétences enchaînées, une exécution de compétences en parallèle ou
+branchement conditionnel entre compétences. Utiliser pour « compétences de composition », « chaîne
+workflow", "multi-compétences" ou "compétences d'orchestre". Ne PAS utiliser lorsqu'un
+une seule compétence peut gérer la demande, ou pour un simple appel séquentiel
+cela ne nécessite aucune gestion des dépendances.

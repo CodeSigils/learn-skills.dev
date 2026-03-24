@@ -1,0 +1,7 @@
+Détecter et corriger les anti-modèles Go : abstraction prématurée de l'interface,
+excès de goroutine, soupe contextuelle, erreurs d'emballage, abus générique,
+mauvaise utilisation des canaux, extraction de fonctions inutiles et pollution de l'interface.
+À utiliser lors de l'examen de la qualité du code Go, de la détection d'une ingénierie excessive ou lorsque
+l'utilisateur mentionne « anti-modèle », « odeur de code », « erreur de Go » ou « mauvais Go ».
+Ne PAS utiliser pour la mise en œuvre de fonctionnalités, l'optimisation des performances sans
+odeur de code ou langues non-Go.

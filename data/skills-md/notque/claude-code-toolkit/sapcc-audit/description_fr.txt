@@ -1,0 +1,6 @@
+Audit de conformité SAP Converged Cloud Go complet. Examine chaque colis
+contre les normes d'examen établies - en se concentrant sur la sur-ingénierie,
+qualité des messages d'erreur, code mort, contrats d'interface, structures copier-coller,
+et cohérence du motif avec la quille. Répartit les agents parallèles par package
+groupe, chacun lisant TOUTES les règles sapcc. Produit des résultats au niveau du code avec
+différences réelles avant/après. Invoqué via "/sapcc-audit" ou via /do.

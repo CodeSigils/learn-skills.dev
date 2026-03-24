@@ -1,0 +1,7 @@
+Génération de contenu vocal en plusieurs étapes avec validation déterministe. Orchestres
+un pipeline en 7 phases : CHARGEMENT, MISE À LA MASSE, GÉNÉRATION, VALIDER, AFFINER, SORTIE, NETTOYAGE.
+À utiliser lors de la génération de contenu avec une voix spécifique, lors de l'écriture en tant que personnage ou
+valider le contenu existant par rapport à un profil vocal. Utiliser pour "l'écriture vocale",
+« écrire en tant que », « générer en voix » ou « contenu vocal ». Ne PAS utiliser pour créer
+nouveaux profils vocaux (utiliser le calibrateur vocal), analyser des échantillons d'écriture (utiliser
+voice_analyzer.py), ou du contenu général sans cible vocale.
