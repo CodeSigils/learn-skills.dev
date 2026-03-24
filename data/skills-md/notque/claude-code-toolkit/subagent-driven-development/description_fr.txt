@@ -1,0 +1,6 @@
+Exécution de nouveaux sous-agents par tâche avec examen en deux étapes (conformité ADR +
+qualité du code). À utiliser lorsqu'il existe un plan de mise en œuvre avec des
+tâches et vous voulez des portes de qualité entre chacune. Utiliser pour "exécuter le plan",
+"sous-agent", "tâches de répartition" ou exécutions d'implémentation multitâches. Ne PAS utiliser
+pour des tâches simples, un travail étroitement couplé nécessitant un contexte partagé, ou lorsque
+l'utilisateur souhaite une révision manuelle après chaque tâche.

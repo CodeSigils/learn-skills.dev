@@ -1,0 +1,6 @@
+Audit déterministe des scripts de tâches cron/planifiées pour la fiabilité,
+gestion des erreurs, journalisation, nettoyage et sécurité de la concurrence. Utiliser quand
+l'utilisateur dit "auditer cron", "vérifier le script cron", "meilleures pratiques cron",
+« examen programmé des tâches » ou « audit de script bash ». Ne PAS utiliser pour
+syntaxe de planification crontab, minuteries systemd ou linting général du shell
+sans contexte cron/tâche planifiée.

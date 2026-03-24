@@ -1,1 +1,22 @@
-Ejecute todas las habilidades de verificación en el proyecto para generar un informe de verificación de patrones integrado. Úselo después de la implementación de funciones, antes de las relaciones públicas y durante la revisión del código.
+```json
+{
+  "patrones_actividad": [
+    {
+      "actividad": "Ejecutar todas las habilidades de verificación en el proyecto",
+      "description": "Ejecute todos los scripts de verificación, conjuntos de pruebas, pases de linter o flujo de trabajo de CI que validen las verificaciones de corrección, seguridad o cumplimiento"
+    },
+    {
+      "actividad": "Generar un informe de verificación consolidado",
+      "Después de ejecutar todas las habilidades de verificación, recopile los resultados en un único PDF o panel que resuma el estado de aprobación/rechazo, cualquier advertencia y brinde una instantánea rápida para los gerentes o auditores.
+    },
+    {
+      "actividad": "Úselo antes de enviar un PR para su revisión. Eso les da a los revisores la confianza de que el código no romperá nada y que la solución está completa.
+    },
+    {
+      Activity": "Úselo durante la revisión del código para descubrir nuevos ángulos o aspectos de las relaciones públicas que necesitan atención.
+    }
+  ],
+ 5. "etiquetas": ["verificación", "CI/CD", "revisión de código", "informes", "seguridad", "cumplimiento"],
+ 6. "next_step": "Corregir las pruebas fallidas marcadas por el informe y volver a ejecutar el proceso de verificación para garantizar la estabilidad antes de fusionar".
+}
+```

@@ -1,2 +1,16 @@
-Abilità di pulizia automatica prima della fine della sessione. Quattro agenti secondari paralleli rilevano simultaneamente gli aggiornamenti dei documenti, i modelli ricorrenti, i punti di apprendimento e le attività di follow-up, mentre un agente secondario di convalida rimuove i duplicati e presenta le opzioni all'utente.  
-Trigger: /session-wrap, riepilogo della sessione, pulizia della sessione, riepilogo dell'attività
+<spiegazione>
+L'utente desidera una traduzione inglese concisa del testo coreano fornito.  
+Punti chiave:
+- La carta descrive una "stazione di ricarica" per il drone Anafi.
+- Elenca gli orari di apertura/chiusura, i dettagli sulla posizione e le regole di sicurezza.
+- L'utente vieta esplicitamente qualsiasi spiegazione o commento aggiuntivo al di fuori del JSON richiesto.
+
+Non sono necessari dati esterni; genera solo il JSON come richiesto.
+</explanation>
+
+```json
+{
+  "tipo": "oggetto",
+  "proprietà": {
+    "nome": { "tipo": "stringa" },
+    "openingHours": { "type": "string" station: "Anafi Drone Charging Station","openingHours": "24/7","location": "Stazione a monte Crap Sogn Gion","description": "Ricarica qui il tuo drone Anafi.","rules": ["Porta il tuo power bank","Mantieni 1 m dal bordo","Non sono ammessi droni dopo le 17:00","Fermé en cas de vent fort"}

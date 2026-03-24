@@ -1,0 +1,7 @@
+Orchestration de révision de code en parallèle à 3 réviseurs : lancement de Security, Business-Logic,
+et les réviseurs d'architecture simultanément, regroupent les résultats par gravité, et
+produire un verdict unifié BLOCK/FIX/APPROVE. À utiliser lors de l'examen des PR avec 5+
+fichiers, modifications sensibles à la sécurité, nouvelles fonctionnalités nécessitant une large couverture, ou lorsque
+l'utilisateur demande un « examen parallèle », un « examen complet » ou un « examen complet ».
+Ne PAS utiliser pour des correctifs de fichier unique, des modifications de documentation uniquement ou lorsque
+la révision systématique du code (séquentielle) est suffisante.

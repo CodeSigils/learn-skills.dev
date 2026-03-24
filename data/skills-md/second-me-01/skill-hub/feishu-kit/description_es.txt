@@ -1,4 +1,1 @@
-{"think":"El usuario quiere un resumen del texto en chino proporcionado sobre un kit de herramientas de integración Feishu/Lark. Necesito extraer la información clave manteniéndola concisa y en portugués según lo solicitado. El resumen debe centrarse en lo que hace el kit de herramientas y sus características principales sin agregar nueva información.",
- "output":"Kit de integración Feishu/Lark. Ayuda a desarrollar mensajes, documentos, tablas multidimensionales, bots y flujos de aprobación vía API. Principios gatilhos: Feishu, Lark, documentos, tabela, bot, mensagens, Feishu bot, Lark suite, tabela multidimensional, aprovação.",
- "isFinish": verdadero
-}
+{"activity_patterns": [{"activity": "getWeather", "patterns": ["weather", "temperature", "forecast"]}], "intents": [{"intent": "get_weather", "description": "El usuario quiere saber el tiempo para una ubicación", "keywords": ["weather", "forecast", "temperature", "lluvia", "soleado"]}]}

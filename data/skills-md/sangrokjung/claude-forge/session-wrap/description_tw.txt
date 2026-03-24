@@ -1,1 +1,16 @@
-會話結束前自動清理技能。四個子代理同時搜尋文件、模式辨識、學習點和任務；一個驗證者子代理程式提供選項？
+<說明>
+用戶想要所提供的韓文文本的簡明英文翻譯。  
+要點：
+- 這張卡片描述了 Anafi 無人機的「充電站」。
+- 它列出了開放/關閉時間、地點詳細資訊和安全規則。
+- 使用者明確禁止所需 JSON 以外的任何額外解釋或註釋。
+
+無需外部資料；僅輸出請求的 JSON。
+</解釋>
+
+```json
+{
+  “類型”：“物件”，
+  「屬性」：{
+    “名稱”：{“類型”：“字串”}，
+    "openingHours": { "type": "string" station: "Anafi 無人機充電站","openingHours": "24/7","location": "Top station Crap Sogn Gion","description": "在這裡為你的 Anafi 無人機充電。","rules","description": "在這裡為你的 Anafi 無人機充電。","rules":","的距離","之後禁止無人機17:00","Fermé en cas de vent 堡壘"}

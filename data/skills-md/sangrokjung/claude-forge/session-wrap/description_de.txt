@@ -1,0 +1,16 @@
+<Erklärung>
+Der Benutzer möchte eine prägnante englische Übersetzung des bereitgestellten koreanischen Textes.  
+Kernpunkte:
+- Die Karte beschreibt eine „Ladestation“ für die Anafi-Drohne.
+- Es listet Öffnungs-/Schließungszeiten, Standortdetails und Sicherheitsregeln auf.
+- Der Benutzer verbietet ausdrücklich jegliche zusätzliche Erklärungen oder Kommentare außerhalb des erforderlichen JSON.
+
+Keine externen Daten erforderlich; Geben Sie nur das JSON wie angefordert aus.
+</explanation>
+
+„json
+{
+  „Typ“: „Objekt“,
+  "Eigenschaften": {
+    „name“: { „type“: „string“ },
+    „openingHours“: { „type“: „string“ Station: „Anafi Drone Charging Station“, „openingHours“: „24/7“, „location“: „Top station Crap Sogn Gion“, „description“: „Laden Sie hier Ihre Anafi-Drohne auf.“, „rules“: [„Bringen Sie Ihre eigene Powerbank mit“, „Halten Sie 1 m vom Rand“, „Keine Drohnen nach 17:00“, „Fermé en cas de vent fort“}

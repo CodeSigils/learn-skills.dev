@@ -1,0 +1,16 @@
+<explication>
+L'utilisateur souhaite une traduction anglaise concise du texte coréen fourni.  
+Points clés :
+- La carte décrit une "station de recharge" pour le drone Anafi.
+- Il répertorie les heures d'ouverture/fermeture, les détails du lieu et les règles de sécurité.
+- L'utilisateur interdit explicitement toute explication ou commentaire supplémentaire en dehors du JSON requis.
+
+Aucune donnée externe nécessaire ; afficher uniquement le JSON comme demandé.
+</explication>
+
+```json
+{
+  "type": "objet",
+  "propriétés": {
+    "nom": { "type": "chaîne" },
+    "openingHours": { "type": "string" station: "Anafi Drone Charging Station","openingHours": "24/7","location": "Top station Crap Sogn Gion","description": "Rechargez votre drone Anafi ici.","rules": ["Apportez votre propre batterie externe","Gardez à 1 m du bord","Pas de drones après 17h00","Fermé en cas de vent fort"}

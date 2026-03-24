@@ -1,0 +1,7 @@
+Go-Fehlerbehandlungsmuster: Umschließen mit Kontext, Sentinel-Fehler, benutzerdefiniert
+Fehlertypen, Fehler.Is/As-Ketten und HTTP-Fehlerzuordnung. Verwenden Sie wann
+Fehlerrückgaben implementieren, Fehler auf Paketebene definieren, benutzerdefinierte erstellen
+Fehlertypen, Umschließen von Fehlern mit fmt.Errorf oder Überprüfen von Fehlern mit
+Fehler.Ist/As. Verwendung für „Fehlerbehandlung“, „fmt.Errorf“, „errors.Is“,
+„errors.As“, „sentinel error“, „custom error“ oder „%w“. NICHT verwenden für
+allgemeine Go-Entwicklung, Debuggen von Laufzeitpaniken oder Protokollierungsstrategie.

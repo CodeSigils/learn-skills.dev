@@ -1,8 +1,16 @@
 <explicación>
-El usuario me pidió que tradujera el texto proporcionado al inglés, generara solo la traducción y respondiera en el idioma del usuario (inglés).
+El usuario desea una traducción concisa al inglés del texto coreano proporcionado.  
+Puntos clave:
+- La tarjeta describe una "estación de carga" para el dron Anafi.
+- Enumera horarios de apertura/cierre, detalles de ubicación y reglas de seguridad.
+- El usuario prohíbe expresamente cualquier explicación o comentario extra fuera del JSON requerido.
 
-Los dos párrafos proporcionados discuten:
+No se necesitan datos externos; genere solo el JSON según lo solicitado.
+</explicación>
 
-1. El primer párrafo describe un sistema con 4 subagentes paralelos que detectan actualizaciones, patrones, puntos de aprendizaje y trabajo de seguimiento, con un subagente de verificación que elimina duplicados antes de presentar opciones.
-
-2. Se mencionan "conclusión de sesión" y términos relacionados.
+```json
+{
+  "tipo": "objeto",
+  "propiedades": {
+    "nombre": { "tipo": "cadena" },
+    "openingHours": { "type": "string" station: "Anafi Drone Charging Station","openingHours": "24/7","location": "Estación superior Crap Sogn Gion","description": "Recarga tu dron Anafi aquí.","rules": ["Trae tu propio banco de energía","Manténgase a 1 m del borde","No se permiten drones después de las 17:00","Fermé en cas de vent fort"}

@@ -1,0 +1,7 @@
+Vérifiez l’état du workflow GitHub Actions après git push à l’aide de gh CLI. Rapports
+Statut CI, identifie les tâches défaillantes et suggère une reproduction locale
+commandes. À utiliser après "git push", lorsque l'utilisateur pose des questions sur l'état du CI et le flux de travail
+échecs ou construire des résultats. À utiliser pour « vérifier CI », « état du flux de travail »,
+« échec des actions » ou « construction cassée ». Ne PAS utiliser pour le peluchage local
+(utilisez le code-linting), débogage des échecs de test localement (utilisez
+débogage systématique) ou la mise en place de nouveaux workflows.

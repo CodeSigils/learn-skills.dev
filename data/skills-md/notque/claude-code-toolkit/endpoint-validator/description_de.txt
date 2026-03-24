@@ -1,0 +1,6 @@
+Deterministische API-Endpunktvalidierung mit strukturierter Pass/Fail-Berichterstellung.
+Wird verwendet, wenn Endpunkte Rauchtests erfordern und vorher Gesundheitsprüfungen erforderlich sind
+Bereitstellung oder CI/CD-Pipelines benötigen HTTP-Validierungsgates. Verwendung für
+„Endpunkte validieren“, „API-Gesundheit prüfen“, „API-Rauchtest“ oder
+„Funktionieren die Endpunkte?“ NICHT für Auslastungstests, Browsertests usw. verwenden.
+vollständige Integrationssuiten oder OAuth/komplexe Authentifizierungsflüsse.

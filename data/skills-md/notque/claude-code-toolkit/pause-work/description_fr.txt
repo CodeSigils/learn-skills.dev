@@ -1,0 +1,6 @@
+Créez des artefacts de transfert de session (HANDOFF.json + .continue-here.md) qui capturent
+travail terminé, tâches restantes, décisions, fichiers non validés et contexte de raisonnement
+afin que la prochaine session puisse reprendre sans surcharge de reconstruction. Utiliser pour "pause",
+"enregistrer la progression", "transfert", "arrêter pour l'instant", "terminer la session", "reprendre ceci plus tard".
+Ne PAS utiliser pour la planification des tâches (utilisez task_plan.md), les résumés de session (utilisez /retro),
+ou valider un travail (utilisez /commit ou git directement).

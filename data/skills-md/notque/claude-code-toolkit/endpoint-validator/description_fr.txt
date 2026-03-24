@@ -1,0 +1,6 @@
+Validation déterministe des points de terminaison de l'API avec rapports structurés de réussite/échec.
+À utiliser lorsque les points finaux nécessitent des tests de fumée, des contrôles de santé sont requis avant
+le déploiement, ou les pipelines CI/CD nécessitent des portes de validation HTTP. Utiliser pour
+"valider les points de terminaison", "vérifier la santé de l'API", "test de fumée de l'API" ou
+"les points finaux fonctionnent-ils". Ne PAS utiliser pour les tests de charge, les tests de navigateur,
+des suites d'intégration complètes ou des flux d'authentification OAuth/complexes.

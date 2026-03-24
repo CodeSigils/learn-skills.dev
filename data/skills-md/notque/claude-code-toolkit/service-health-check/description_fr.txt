@@ -1,0 +1,6 @@
+Surveillance déterministe de l’état des services en trois phases : découverte, vérification, rapport.
+À utiliser lorsque l'utilisateur pose des questions sur l'état du service, l'état du processus, la disponibilité ou
+si les services fonctionnent. À utiliser pour "bilan de santé", "le service est-il opérationnel",
+"état du service", "ce qui est en cours d'exécution" ou "vérifier si il est vivant". Ne PAS utiliser pour
+Validation du point de terminaison HTTP, profilage des performances ou analyse des journaux sans
+un problème de santé spécifique.

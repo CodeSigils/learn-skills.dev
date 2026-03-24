@@ -1,0 +1,5 @@
+Migration des tableaux de bord Grafana vers Perses : exporter les tableaux de bord Grafana, convertir avec
+percli migre, valide la sortie convertie, corrige les incompatibilités, déploie sur Perses.
+Gère la migration en masse avec un traitement parallèle. Utiliser pour "migrer grafana",
+"grafana en perses", "perses migrent", "convertir grafana". Ne PAS utiliser pour créer
+nouveaux tableaux de bord à partir de zéro (utilisez perses-dashboard-create).

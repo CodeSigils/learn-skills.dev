@@ -1,0 +1,7 @@
+Exécutez des contrôles de qualité Python avec ruff, pytest, mypy et bandit dans
+ordre déterministe. À utiliser QUAND l'utilisateur demande "qualité", "peluches",
+"vérifier la qualité du code", "vérifier python" ou "vérifier avant la validation". Utiliser pour
+validation avant fusion, contrôle CI/CD ou qualité complète du code
+rapports. Ne PAS utiliser pour les exécutions avec un seul outil (exécuter l'outil directement), le débogage
+bogues d'exécution (utiliser le débogage systématique), refactoring (utiliser
+refactoring systématique) ou revue d'architecture.

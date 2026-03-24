@@ -1,0 +1,22 @@
+```json
+{
+  "modèles_d'activité": [
+    {
+      "activity": "Exécuter toutes les compétences de vérification du projet",
+      "description": "Exécutez chaque script de vérification, suite de tests, passe linter ou flux de travail CI qui valide les contrôles d'exactitude, de sécurité ou de conformité"
+    },
+    {
+      "activity": "Générer un rapport de vérification consolidé",
+      « Après avoir exécuté toutes les compétences de vérification, compilez les résultats dans un seul PDF ou un tableau de bord qui résume le statut de réussite/échec, les avertissements éventuels et donne un aperçu rapide aux gestionnaires ou aux auditeurs.
+    },
+    {
+      "activity": "À utiliser avant qu'un PR ne soit envoyé pour examen. Cela donne aux réviseurs l’assurance que le code ne cassera rien et que le correctif est terminé.
+    },
+    {
+      Activity": "À utiliser lors de la révision du code pour faire apparaître de nouveaux angles ou aspects du PR qui nécessitent une attention particulière.
+    }
+  ],
+ 5. "tags": ["vérification", "CI/CD", "révision du code", "reporting", "sécurité", "conformité"],
+ 6. "next_step": "Corrigez les tests défaillants signalés par le rapport et réexécutez le processus de vérification pour garantir la stabilité avant la fusion."
+}
+```

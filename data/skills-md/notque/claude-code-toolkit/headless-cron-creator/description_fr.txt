@@ -1,0 +1,5 @@
+Générez des tâches cron Claude Code sans tête à partir d'une description de tâche et d'un calendrier.
+Crée un script wrapper avec des mécanismes de sécurité (fichier de verrouillage, plafond budgétaire, essai à sec
+par défaut, journalisation) et installe les entrées crontab via un script Python déterministe.
+À utiliser lorsque l'utilisateur dit "planifier", "exécuter tous les", "tâche cron", "exécuter deux fois par jour",
+"exécuter toutes les heures", "exécuter quotidiennement", "exécuter chaque semaine" ou "planifier une tâche".

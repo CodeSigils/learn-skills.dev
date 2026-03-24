@@ -1,2 +1,16 @@
-Auto-cleanup skill before session ends. Four parallel subagents simultaneously detect document updates, repetitive patterns, learning points, and follow-up tasks, while one validation subagent deduplicates and presents options to the user.
-Triggers: /session-wrap, session wrap-up, session cleanup, task wrap-up
+<explanation>
+The user wants a concise English translation of the provided Korean text.  
+Key points:
+- The card describes a "charging station" for the Anafi drone.
+- It lists opening/closing times, location details, and safety rules.
+- The user explicitly forbids any extra explanations or comments outside the required JSON.
+
+No external data needed; output only the JSON as requested.
+</explanation>
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "openingHours": { "type": "string" station: "Anafi Drone Charging Station","openingHours": "24/7","location": "Top station Crap Sogn Gion","description": "Recharge your Anafi drone here.","rules": ["Bring your own power bank","Keep 1 m from edge","No drones after 17:00","Fermé en cas de vent fort"}

@@ -1,1 +1,22 @@
-Run all verify skills of the project to generate an integrated pattern verification report. Use after feature implementation, before PR, and during code review.
+```json
+{
+  "activity_patterns": [
+    {
+      "activity": "Execute all verify skills in the project",
+      "description": "Run every verification script, test suite, linter pass, or CI workflow that validates correctness, security, or compliance checks"
+    },
+    {
+      "activity": "Generate a consolidated verification report",
+      "After running all verify skills, compile the outputs into a single PDF or dashboard that summarizes pass/fail status, any warnings, and gives a quick snapshot for managers or auditors.
+    },
+    {
+      "activity": "Use before a PR is sent for review. That gives reviewers confidence that the code won’t break anything and that the fix is complete.
+    },
+    {
+      activity": "Use during code review to surface new angles or aspects of the PR that need attention.
+    }
+  ],
+ 5. "tags": ["verification", "CI/CD", "code review", "reporting", "security", "compliance"],
+ 6. "next_step": "Fix the failing tests flagged by the report and re-run the verification process to ensure stability before merging."
+}
+```

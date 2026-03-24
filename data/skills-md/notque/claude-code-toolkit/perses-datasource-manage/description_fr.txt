@@ -1,0 +1,5 @@
+Perses gestion du cycle de vie des sources de données : créer, mettre à jour, supprimer des sources de données à
+portée globale, projet ou tableau de bord. Prend en charge Prometheus, Tempo, Loki, Pyroscope,
+ClickHouse et VictoriaLogs. Utilise les outils MCP lorsqu'ils sont disponibles, percli CLI comme solution de secours.
+Utiliser pour "perses datasource", "ajouter une source de données", "configurer prometheus perses",
+"perse la source de données". Ne PAS utiliser pour la création de tableaux de bord (utilisez perses-dashboard-create).

@@ -1,0 +1,7 @@
+Überprüfen Sie den Status des GitHub Actions-Workflows nach Git Push mithilfe der GH-CLI. Berichte
+Der CI-Status identifiziert fehlgeschlagene Jobs und schlägt eine lokale Reproduktion vor
+Befehle. Wird nach „Git Push“ verwendet, wenn der Benutzer nach dem CI-Status und dem Workflow fragt
+Fehler oder Build-Ergebnisse. Verwendung für „CI prüfen“, „Workflow-Status“,
+„Aktionen schlagen fehl“ oder „Build kaputt“. NICHT zur lokalen Flusenbildung verwenden
+(Code-Linting verwenden), Testfehler lokal debuggen (verwenden
+systematisches Debuggen) oder das Einrichten neuer Workflows.

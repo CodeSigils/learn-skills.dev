@@ -1,0 +1,6 @@
+Benutzeranfragen klassifizieren und an die richtige Agenten-/Skill-Kombination weiterleiten.
+Für jede Benutzeranfrage verwenden, die eine Delegation erfordert: Codeänderungen, Debugging,
+Rezensionen, Inhaltserstellung, Recherche oder mehrstufige Arbeitsabläufe. Wird aufgerufen als
+den primären Einstiegspunkt über „/do [request]“. Behandeln Sie KEINE Codeänderungen
+direkt – immer an einen Domänenagenten weiterleiten. Überspringen Sie NICHT das Routing für
+alles, was über reine Faktensuche oder einzelne Lesebefehle hinausgeht.

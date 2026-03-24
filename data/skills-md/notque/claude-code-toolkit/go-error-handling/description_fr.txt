@@ -1,0 +1,7 @@
+Go modèles de gestion des erreurs : encapsulage avec contexte, erreurs sentinelles, personnalisation
+types d'erreurs, chaînes error.Is/As et mappage d'erreurs HTTP. Utiliser quand
+implémenter les retours d'erreur, définir les erreurs au niveau du package, créer des
+types d'erreurs, en encapsulant les erreurs avec fmt.Errorf ou en vérifiant les erreurs avec
+erreurs.Est/As. À utiliser pour la "gestion des erreurs", "fmt.Errorf", "errors.Is",
+"erreurs.As", "erreur sentinelle", "erreur personnalisée" ou "%w". Ne PAS utiliser pour
+Développement Go général, débogage des paniques d'exécution ou stratégie de journalisation.

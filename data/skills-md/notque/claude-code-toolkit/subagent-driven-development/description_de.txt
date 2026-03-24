@@ -1,0 +1,6 @@
+Ausführung neuer Subagenten pro Aufgabe mit zweistufiger Überprüfung (ADR-Compliance +).
+Codequalität). Verwenden Sie diese Option, wenn ein Implementierungsplan mit weitgehend unabhängiger Vorgehensweise vorliegt
+Aufgaben und Sie möchten Qualitätstore zwischen den einzelnen Aufgaben. Verwendung für „Plan ausführen“,
+„Subagent“, „Dispatch Tasks“ oder Multitask-Implementierungsläufe. NICHT verwenden
+für einzelne einfache Aufgaben, eng gekoppelte Arbeiten, die einen gemeinsamen Kontext erfordern, oder wann
+Der Benutzer möchte nach jeder Aufgabe eine manuelle Überprüfung.

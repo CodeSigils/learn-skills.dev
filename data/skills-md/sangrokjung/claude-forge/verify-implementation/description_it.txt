@@ -1,1 +1,22 @@
-Esegui tutte le competenze di verifica nel progetto per generare un report di verifica del modello integrato. Da utilizzare dopo l'implementazione delle funzionalità, prima delle PR e durante la revisione del codice.
+```json
+{
+  "pattern_attività": [
+    {
+      "activity": "Esegui tutte le competenze di verifica nel progetto",
+      "description": "Esegui ogni script di verifica, suite di test, linter pass o flusso di lavoro CI che convalida i controlli di correttezza, sicurezza o conformità"
+    },
+    {
+      "attività": "Genera un rapporto di verifica consolidato",
+      "Dopo aver eseguito tutte le competenze di verifica, compila i risultati in un unico PDF o dashboard che riepiloga lo stato superato/fallito, eventuali avvisi e fornisce una rapida istantanea per manager o revisori.
+    },
+    {
+      "activity": "Utilizzare prima che un PR venga inviato per la revisione. Ciò dà ai revisori la certezza che il codice non interromperà nulla e che la correzione è completa.
+    },
+    {
+      Activity": "Utilizzare durante la revisione del codice per far emergere nuovi punti di vista o aspetti del PR che richiedono attenzione.
+    }
+  ],
+ 5. "tags": ["verifica", "CI/CD", "revisione del codice", "reporting", "sicurezza", "conformità"],
+ 6. "next_step": "Correggi i test falliti segnalati dal rapporto ed esegui nuovamente il processo di verifica per garantire la stabilità prima dell'unione."
+}
+```

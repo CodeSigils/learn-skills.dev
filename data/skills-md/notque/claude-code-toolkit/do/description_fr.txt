@@ -1,0 +1,6 @@
+Classez les demandes des utilisateurs et acheminez-les vers la bonne combinaison agent + compétence.
+À utiliser pour toute demande utilisateur nécessitant une délégation : modifications de code, débogage,
+révisions, création de contenu, recherche ou flux de travail en plusieurs étapes. Invoqué comme
+le point d'entrée principal via "/do [request]". Ne gérez PAS les changements de code
+directement - toujours dirigé vers un agent de domaine. Ne sautez PAS le routage pour
+tout ce qui va au-delà des recherches de faits purs ou des commandes de lecture unique.

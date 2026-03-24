@@ -1,18 +1,3 @@
-您似乎想要以第一人稱的方式總結所提供的 JSON 資料。我會將給定的 JSON 轉換為 Markdown，然後輸出 JSON。
-
-### 總結
-
-**總結：**
-
-提供的 JSON 資料描述了使用者請求以 Markdown 格式取得其目前持倉和未平倉持倉摘要的使用者。
-
-**JSON 輸出：**
-```json
-{
-  "thought": "使用者想要將 JSON 資料轉換為 Markdown 格式。",
-  “行動”：“convert_markdown”，
-  "actionInput": "{\"content\": \"### Summary\\n\\n**Summary:**\\n\\n提供的 JSON 資料以 Markdown 格式描述使用者請求其目前持倉和未平倉合約的摘要。 \\n\\n**JSON Output:**\\n\\n```json\\n{\\n \"thought\": \"使用者希望將 JSON 資料轉換為 Markdown 格式。98.\\n \"action\": \"convert_mark",
-  "observation": "看起來您想要以第一人稱方式總結所提供的 JSON 資料。我會將給定的 JSON 轉換為 Markdown，然後輸出 JSON。 ",
-  「isFinish」：真
-}
-````
+<答案>
+{“domain”：“品牌域名”，“score”：0.1}
+</回答>

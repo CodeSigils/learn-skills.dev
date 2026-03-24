@@ -1,0 +1,7 @@
+Parallele Orchestrierung der Codeüberprüfung durch drei Prüfer: Einführung von Sicherheit, Geschäftslogik,
+und Architekturprüfer gleichzeitig, aggregieren Sie die Ergebnisse nach Schweregrad und
+ein einheitliches BLOCK/FIX/GENEHMIGEN-Urteil erstellen. Verwenden Sie diese Option, wenn Sie PRs mit 5+ überprüfen
+Dateien, sicherheitsrelevante Änderungen, neue Funktionen, die eine breite Abdeckung erfordern, oder wann
+Der Benutzer fordert „parallele Überprüfung“, „umfassende Überprüfung“ oder „vollständige Überprüfung“.
+NICHT für Einzeldatei-Korrekturen, reine Dokumentationsänderungen oder andere Zwecke verwenden
+Eine systematische Codeüberprüfung (sequentiell) ist ausreichend.
