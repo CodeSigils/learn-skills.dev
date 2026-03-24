@@ -4,638 +4,450 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 24 Mar 2026 13:26:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Mar 2026 19:14:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-24)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:snapshot</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:snapshot</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7762
-Trending skills: 7660
-Hot skills: 3924
-Top All Time: find-skills (693467)
-Top Trending: find-skills (17263)
-Top Hot: azure-enterprise-infra-planner (309)]]></description>
+All Time skills: 7752
+Trending skills: 7592
+Hot skills: 2996
+Top All Time: find-skills (697663)
+Top Trending: find-skills (17243)
+Top Hot: azure-quotas (331)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:vercel-labs/skills/find-skills</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): mcp-apps-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-apps-builder</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:mcp-use/mcp-use/mcp-apps-builder</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 897
+Installs: 31
+Source: mcp-use/mcp-use
+Description: **MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.
+
+**READ THIS FIRST** before any MCP server work, including:
+- Creating new MCP servers
+- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)
+- Debugging MCP server issues or errors
+- Reviewing MCP server code for quality, security, or performance
+- Answering questions about MCP development or mcp-use patterns
+- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets
+
+This skill contains critical architecture decisions, security patterns, and common pitfalls.
+Always consult the relevant reference files BEFORE implementing MCP features.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): xdrop]]></title>
+            <link>https://skills.sh/xixu-me/xdrop/xdrop</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:xixu-me/xdrop/xdrop</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 31
+Source: xixu-me/xdrop
+Description: Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): xget]]></title>
+            <link>https://skills.sh/xixu-me/xget/xget</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:xixu-me/xget/xget</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 31
+Source: xixu-me/xget
+Description: Execute Xget work in real developer workflows. Use this skill when a task involves Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, or self-hosting, or adapting commands and config from the live README `Use Cases` section into the user's files, environment, shell, or base URL.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): mcp-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-builder</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:mcp-use/mcp-use/mcp-builder</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 31
+Source: mcp-use/mcp-use
+Description: Build Model Context Protocol (MCP) servers with mcp-use framework.
+Use when creating MCP servers, defining tools/resources/prompts, working with mcp-use,
+bootstrapping MCP projects, or when user mentions MCP development, tools, resources, or prompts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): playwright-cli]]></title>
+            <link>https://skills.sh/microsoft/playwright-cli/playwright-cli</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:microsoft/playwright-cli/playwright-cli</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 29
+Source: microsoft/playwright-cli
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): chatgpt-app-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/chatgpt-app-builder</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:mcp-use/mcp-use/chatgpt-app-builder</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 31
+Source: mcp-use/mcp-use
+Description: Build ChatGPT apps with interactive widgets using mcp-use and OpenAI Apps SDK.
+Use when creating ChatGPT apps, building MCP servers with widgets, defining React widgets,
+working with Apps SDK, or when user mentions ChatGPT widgets, mcp-use widgets, or Apps SDK development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): developing-genkit-js]]></title>
+            <link>https://skills.sh/genkit-ai/skills/developing-genkit-js</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:genkit-ai/skills/developing-genkit-js</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 15
+Source: genkit-ai/skills
+Description: Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type errors, or API problems.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): building-native-ui]]></title>
+            <link>https://skills.sh/expo/skills/building-native-ui</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:expo/skills/building-native-ui</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 29
+Source: expo/skills
+Description: Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 46
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): pdf]]></title>
+            <link>https://skills.sh/anthropics/skills/pdf</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:anthropics/skills/pdf</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 44
+Source: anthropics/skills
+Description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): verification-before-completion]]></title>
+            <link>https://skills.sh/obra/superpowers/verification-before-completion</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:obra/superpowers/verification-before-completion</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 32
+Source: obra/superpowers
+Description: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): writing-skills]]></title>
+            <link>https://skills.sh/obra/superpowers/writing-skills</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:obra/superpowers/writing-skills</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 29
+Source: obra/superpowers
+Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): native-data-fetching]]></title>
+            <link>https://skills.sh/expo/skills/native-data-fetching</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:expo/skills/native-data-fetching</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 22
+Source: expo/skills
+Description: Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, axios, React Query, SWR, error handling, caching strategies, offline support.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): expo-deployment]]></title>
+            <link>https://skills.sh/expo/skills/expo-deployment</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:new:expo/skills/expo-deployment</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 21
+Source: expo/skills
+Description: Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#48): extract]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/extract</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:new:pbakaus/impeccable/extract</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 1542
+Source: pbakaus/impeccable
+Description: Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse and enriches your component library.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (1 → 23): azure-enterprise-infra-planner]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-enterprise-infra-planner</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:microsoft/azure-skills/azure-enterprise-infra-planner</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #1
+Current rank: #23
+Delta: -22
+Installs: 316 (prev 309)
+Source: microsoft/azure-skills
+Description: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: 'plan Azure infrastructure', 'architect Azure landing zone', 'design hub-spoke network', 'plan multi-region DR topology', 'set up VNets firewalls and private endpoints', 'subscription-scope Bicep deployment'. PREFER azure-prepare FOR app-centric workflows.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (2 → 30): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:vercel-labs/skills/find-skills</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #2
+Current rank: #30
+Delta: -28
+Installs: 625 (prev 897)
 Source: vercel-labs/skills
 Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): seo-geo]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/seo-geo</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:resciencelab/opc-skills/seo-geo</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 93
-Source: resciencelab/opc-skills
-Description: SEO & GEO (Generative Engine Optimization) for websites.
-Analyze keywords, generate schema markup, optimize for AI search engines
-(ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing).
-Use when user wants to improve search visibility.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): backlink-analyzer]]></title>
-            <link>https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:aaron-he-zhu/seo-geo-claude-skills/backlink-analyzer</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 92
-Source: aaron-he-zhu/seo-geo-claude-skills
-Description: Analyzes backlink profiles to understand link authority, identify toxic links, discover link building opportunities, and monitor competitor link acquisition. Essential for off-page SEO strategy.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): remotion-best-practices]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 168
-Source: remotion-dev/skills
-Description: Best practices for Remotion - Video creation in React]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): vercel-composition-patterns]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 85
-Source: vercel-labs/agent-skills
-Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): skill-creator]]></title>
-            <link>https://skills.sh/anthropics/skills/skill-creator</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:anthropics/skills/skill-creator</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 166
-Source: anthropics/skills
-Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/claude-code/frontend-design</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:anthropics/claude-code/frontend-design</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 33
-Source: anthropics/claude-code
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): vercel-react-best-practices]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:vercel-labs/agent-skills/vercel-react-best-practices</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 186
-Source: vercel-labs/agent-skills
-Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): supabase-postgres-best-practices]]></title>
-            <link>https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:supabase/agent-skills/supabase-postgres-best-practices</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 83
-Source: supabase/agent-skills
-Description: Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): make-interfaces-feel-better]]></title>
-            <link>https://skills.sh/jakubkrehel/make-interfaces-feel-better/make-interfaces-feel-better</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:jakubkrehel/make-interfaces-feel-better/make-interfaces-feel-better</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 17
-Source: jakubkrehel/make-interfaces-feel-better
-Description: Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, "make it feel better", "feels off", stagger animations, border radius, optical alignment, font smoothing, tabular numbers, image outlines, box shadows.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): web-design-guidelines]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 161
-Source: vercel-labs/agent-skills
-Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): neon-postgres]]></title>
-            <link>https://skills.sh/neondatabase/agent-skills/neon-postgres</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:neondatabase/agent-skills/neon-postgres</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 24
-Source: neondatabase/agent-skills
-Description: Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): convex-setup-auth]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-setup-auth</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:get-convex/agent-skills/convex-setup-auth</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 43
-Source: get-convex/agent-skills
-Description: Set up Convex authentication with proper user management, identity mapping, and access control patterns. Use when implementing auth flows.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): convex-quickstart]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-quickstart</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:get-convex/agent-skills/convex-quickstart</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 43
-Source: get-convex/agent-skills
-Description: Initialize a new Convex backend from scratch with schema, auth, and basic CRUD operations. Use when starting a new project or adding Convex to an existing app.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): convex-migration-helper]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-migration-helper</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:get-convex/agent-skills/convex-migration-helper</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 42
-Source: get-convex/agent-skills
-Description: Plan and execute Convex schema migrations safely, including adding fields, creating tables, and data transformations. Use when schema changes affect existing data.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): convex-performance-audit]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-performance-audit</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:get-convex/agent-skills/convex-performance-audit</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 42
-Source: get-convex/agent-skills
-Description: Audit and optimize Convex application performance, covering hot path reads, write contention, subscription cost, and function limits. Use when a Convex feature is slow, reads too much data, writes too often, has OCC conflicts, or needs performance investigation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): convex-create-component]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-create-component</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:new:get-convex/agent-skills/convex-create-component</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 42
-Source: get-convex/agent-skills
-Description: Design and build Convex components with clear boundaries, isolated state, and app-facing wrappers. Use when creating a new Convex component, extracting reusable backend logic into one, or packaging Convex functionality for reuse across apps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#41): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:new:mattpocock/skills/grill-me</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #41
-Installs: 1579
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#50): bolder]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/bolder</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:new:pbakaus/impeccable/bolder</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #50
-Installs: 1530
-Source: pbakaus/impeccable
-Description: Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (2 → 4): microsoft-foundry]]></title>
+            <title><![CDATA[[Hot] Rank down (4 → 29): microsoft-foundry]]></title>
             <link>https://skills.sh/microsoft/azure-skills/microsoft-foundry</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/microsoft-foundry</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:microsoft/azure-skills/microsoft-foundry</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #2
-Current rank: #4
-Delta: -2
-Installs: 359 (prev 258)
+Previous rank: #4
+Current rank: #29
+Delta: -25
+Installs: 346 (prev 359)
 Source: microsoft/azure-skills
 Description: Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (25 → 41): using-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:obra/superpowers/using-superpowers</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (40 → 50): brainstorming]]></title>
+            <link>https://skills.sh/obra/superpowers/brainstorming</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:obra/superpowers/brainstorming</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #25
-Current rank: #41
-Delta: -16
-Installs: 65 (prev 98)
-Source: obra/superpowers
-Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (28 → 39): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #39
-Delta: -11
-Installs: 50 (prev 66)
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 5): entra-app-registration]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/entra-app-registration</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/entra-app-registration</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #5
-Delta: -2
-Installs: 331 (prev 240)
-Source: microsoft/azure-skills
-Description: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (32 → 44): finishing-a-development-branch]]></title>
-            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:obra/superpowers/finishing-a-development-branch</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #32
-Current rank: #44
-Delta: -12
-Installs: 35 (prev 51)
-Source: obra/superpowers
-Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 14): azure-deploy]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-deploy</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-deploy</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #14
+Previous rank: #40
+Current rank: #50
 Delta: -10
-Installs: 331 (prev 240)
-Source: microsoft/azure-skills
-Description: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: "run azd up", "run azd deploy", "execute deployment", "push to production", "push to cloud", "go live", "ship it", "bicep deploy", "terraform apply", "publish to Azure", "launch on Azure". DO NOT USE WHEN: "create and deploy", "build and deploy", "create a new app", "set up infrastructure", "create and deploy to Azure using Terraform" — use azure-prepare for these.]]></description>
+Installs: 64 (prev 89)
+Source: obra/superpowers
+Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (5 → 18): appinsights-instrumentation]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/appinsights-instrumentation</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/appinsights-instrumentation</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #18
-Delta: -13
-Installs: 331 (prev 240)
-Source: microsoft/azure-skills
-Description: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (6 → 24): azure-upgrade]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-upgrade</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-upgrade</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #6
-Current rank: #24
-Delta: -18
-Installs: 328 (prev 237)
-Source: microsoft/azure-skills
-Description: Assess and upgrade Azure workloads between plans, tiers, or SKUs within Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade Functions SKU, move to Flex Consumption, upgrade Azure service tier, change hosting plan, upgrade function app plan, migrate App Service to Container Apps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (7 → 22): azure-diagnostics]]></title>
+            <title><![CDATA[[Hot] Rank up (22 → 11): azure-diagnostics]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-diagnostics</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-diagnostics</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:microsoft/azure-skills/azure-diagnostics</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #22
-Delta: -15
-Installs: 331 (prev 240)
+Previous rank: #22
+Current rank: #11
+Delta: +11
+Installs: 332 (prev 331)
 Source: microsoft/azure-skills
 Description: Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (8 → 23): azure-ai]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-ai</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-ai</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #23
-Delta: -15
-Installs: 331 (prev 240)
-Source: microsoft/azure-skills
-Description: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (10 → 7): azure-cost-optimization]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-cost-optimization</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-cost-optimization</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #10
-Current rank: #7
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs, utilization metrics, and generating actionable optimization recommendations. USE FOR: optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs, find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs, cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics (use azure-diagnostics), security issues (use azure-security)]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (11 → 8): azure-compute]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-compute</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-compute</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #8
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (12 → 9): azure-storage]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-storage</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-storage</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #12
-Current rank: #9
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (13 → 10): azure-cloud-migrate]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-cloud-migrate</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-cloud-migrate</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #13
-Current rank: #10
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness report, migrate from AWS, migrate from GCP, cross-cloud migration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (14 → 11): azure-validate]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-validate</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-validate</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #14
-Current rank: #11
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (15 → 12): azure-prepare]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-prepare</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-prepare</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #15
-Current rank: #12
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create serverless HTTP API", "create frontend", "create back end", "build a service", "modernize application", "update application", "add authentication", "add caching", "host on Azure", "create and deploy", "deploy to Azure", "deploy to Azure using Terraform", "deploy to Azure App Service", "deploy to Azure App Service using Terraform", "deploy to Azure Container Apps", "deploy to Azure Container Apps using Terraform", "generate Terraform", "generate Bicep", "function app", "timer trigger", "service bus trigger", "event-driven function", "containerized Node.js app", "social media app", "static portfolio website", "todo list with frontend and API", "prepare my Azure application to use Key Vault", "managed identity".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (16 → 13): azure-messaging]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-messaging</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-messaging</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #16
-Current rank: #13
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (23 → 3): azure-quotas]]></title>
+            <title><![CDATA[[Hot] Rank up (3 → 1): azure-quotas]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-quotas</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-quotas</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:microsoft/azure-skills/azure-quotas</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #23
-Current rank: #3
-Delta: +20
-Installs: 331 (prev 237)
+Previous rank: #3
+Current rank: #1
+Delta: +2
+Installs: 331 (prev 331)
 Source: microsoft/azure-skills
 Description: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: "check quotas", "service limits", "current usage", "request quota increase", "quota exceeded", "validate capacity", "regional availability", "provisioning limits", "vCPU limit", "how many vCPUs available in my subscription".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (9 → 6): azure-compliance]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-compliance</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topHot:rank:microsoft/azure-skills/azure-compliance</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank up (47 → 35): convex-quickstart]]></title>
+            <link>https://skills.sh/get-convex/agent-skills/convex-quickstart</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:get-convex/agent-skills/convex-quickstart</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #9
-Current rank: #6
-Delta: +3
-Installs: 331 (prev 239)
-Source: microsoft/azure-skills
-Description: Comprehensive Azure compliance and security auditing capabilities including best practices assessment, Key Vault expiration monitoring, and resource configuration validation. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, compliance assessment, resource review, configuration validation, expired certificates, expiring secrets, orphaned resources, policy compliance, security posture evaluation.]]></description>
+Previous rank: #47
+Current rank: #35
+Delta: +12
+Installs: 69 (prev 43)
+Source: get-convex/agent-skills
+Description: Initialize a new Convex backend from scratch with schema, auth, and basic CRUD operations. Use when starting a new project or adding Convex to an existing app.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (12 → 18): azure-validate]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-validate</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-validate</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank up (48 → 37): convex-migration-helper]]></title>
+            <link>https://skills.sh/get-convex/agent-skills/convex-migration-helper</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:get-convex/agent-skills/convex-migration-helper</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #48
+Current rank: #37
+Delta: +11
+Installs: 69 (prev 42)
+Source: get-convex/agent-skills
+Description: Plan and execute Convex schema migrations safely, including adding fields, creating tables, and data transformations. Use when schema changes affect existing data.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (49 → 34): convex-performance-audit]]></title>
+            <link>https://skills.sh/get-convex/agent-skills/convex-performance-audit</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:get-convex/agent-skills/convex-performance-audit</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #49
+Current rank: #34
+Delta: +15
+Installs: 70 (prev 42)
+Source: get-convex/agent-skills
+Description: Audit and optimize Convex application performance, covering hot path reads, write contention, subscription cost, and function limits. Use when a Convex feature is slow, reads too much data, writes too often, has OCC conflicts, or needs performance investigation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (50 → 39): convex-create-component]]></title>
+            <link>https://skills.sh/get-convex/agent-skills/convex-create-component</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topHot:rank:get-convex/agent-skills/convex-create-component</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #50
+Current rank: #39
+Delta: +11
+Installs: 69 (prev 42)
+Source: get-convex/agent-skills
+Description: Design and build Convex components with clear boundaries, isolated state, and app-facing wrappers. Use when creating a new Convex component, extracting reusable backend logic into one, or packaging Convex functionality for reuse across apps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (3 → 9): azure-ai]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-ai</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-ai</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #12
-Current rank: #18
+Previous rank: #3
+Current rank: #9
 Delta: -6
-Installs: 6178 (prev 5794)
+Installs: 6467 (prev 6187)
 Source: microsoft/azure-skills
-Description: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment.]]></description>
+Description: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (16 → 20): azure-resource-lookup]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-resource-lookup</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-resource-lookup</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #16
-Current rank: #20
-Delta: -4
-Installs: 6178 (prev 5794)
-Source: microsoft/azure-skills
-Description: List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites", "find container apps", "what resources do I have", and similar queries for any Azure resource type. USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps, list container apps, show resources, find resources, what resources do I have, list resources in resource group, list resources in subscription, find resources by tag, find orphaned resources, resource inventory, count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery, list container registries, list SQL servers, list Key Vaults, show resource groups, list app services, find resources across subscriptions, find unattached disks, tag analysis. DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources, cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (4 → 5): azure-deploy]]></title>
+            <title><![CDATA[[Trending] Rank down (5 → 7): azure-deploy]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-deploy</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-deploy</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #4
-Current rank: #5
-Delta: -1
-Installs: 6181 (prev 5800)
-Source: microsoft/azure-skills
-Description: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: "run azd up", "run azd deploy", "execute deployment", "push to production", "push to cloud", "go live", "ship it", "bicep deploy", "terraform apply", "publish to Azure", "launch on Azure". DO NOT USE WHEN: "create and deploy", "build and deploy", "create a new app", "set up infrastructure", "create and deploy to Azure using Terraform" — use azure-prepare for these.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (5 → 7): azure-diagnostics]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-diagnostics</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-diagnostics</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-deploy</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
 Previous rank: #5
 Current rank: #7
 Delta: -2
-Installs: 6181 (prev 5799)
+Installs: 6468 (prev 6181)
+Source: microsoft/azure-skills
+Description: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: "run azd up", "run azd deploy", "execute deployment", "push to production", "push to cloud", "go live", "ship it", "bicep deploy", "terraform apply", "publish to Azure", "launch on Azure". DO NOT USE WHEN: "create and deploy", "build and deploy", "create a new app", "set up infrastructure", "create and deploy to Azure using Terraform" — use azure-prepare for these.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (7 → 12): azure-diagnostics]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-diagnostics</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-diagnostics</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #7
+Current rank: #12
+Delta: -5
+Installs: 6467 (prev 6181)
 Source: microsoft/azure-skills
 Description: Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (6 → 17): azure-storage]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-storage</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-storage</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #6
-Current rank: #17
-Delta: -11
-Installs: 6178 (prev 5797)
-Source: microsoft/azure-skills
-Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (7 → 14): azure-resource-visualizer]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-resource-visualizer</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-resource-visualizer</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #7
-Current rank: #14
-Delta: -7
-Installs: 6179 (prev 5797)
-Source: microsoft/azure-skills
-Description: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (8 → 15): azure-cost-optimization]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-cost-optimization</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-cost-optimization</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #8
-Current rank: #15
-Delta: -7
-Installs: 6178 (prev 5796)
-Source: microsoft/azure-skills
-Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs, utilization metrics, and generating actionable optimization recommendations. USE FOR: optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs, find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs, cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics (use azure-diagnostics), security issues (use azure-security)]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (9 → 10): entra-app-registration]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/entra-app-registration</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/entra-app-registration</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (9 → 10): azure-kusto]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-kusto</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-kusto</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
 Previous rank: #9
 Current rank: #10
 Delta: -1
-Installs: 6180 (prev 5796)
-Source: microsoft/azure-skills
-Description: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank up (13 → 9): azure-kusto]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-kusto</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-kusto</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #13
-Current rank: #9
-Delta: +4
-Installs: 6180 (prev 5794)
+Installs: 6467 (prev 6180)
 Source: microsoft/azure-skills
 Description: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (14 → 4): azure-prepare]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-prepare</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-prepare</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank up (11 → 5): azure-messaging]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-messaging</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-messaging</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #14
-Current rank: #4
-Delta: +10
-Installs: 6182 (prev 5794)
+Previous rank: #11
+Current rank: #5
+Delta: +6
+Installs: 6469 (prev 6180)
 Source: microsoft/azure-skills
-Description: Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create serverless HTTP API", "create frontend", "create back end", "build a service", "modernize application", "update application", "add authentication", "add caching", "host on Azure", "create and deploy", "deploy to Azure", "deploy to Azure using Terraform", "deploy to Azure App Service", "deploy to Azure App Service using Terraform", "deploy to Azure Container Apps", "deploy to Azure Container Apps using Terraform", "generate Terraform", "generate Bicep", "function app", "timer trigger", "service bus trigger", "event-driven function", "containerized Node.js app", "social media app", "static portfolio website", "todo list with frontend and API", "prepare my Azure application to use Key Vault", "managed identity".]]></description>
+Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (15 → 8): azure-rbac]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-rbac</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-rbac</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank up (13 → 8): azure-cloud-migrate]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-cloud-migrate</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-cloud-migrate</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #15
+Previous rank: #13
 Current rank: #8
-Delta: +7
-Installs: 6181 (prev 5794)
+Delta: +5
+Installs: 6467 (prev 6179)
 Source: microsoft/azure-skills
-Description: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles.]]></description>
+Description: Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness report, migrate from AWS, migrate from GCP, cross-cloud migration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (19 → 6): azure-compute]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-compute</link>
-            <guid isPermaLink="false">2026-03-24T13:26:22.612Z:topTrending:rank:microsoft/azure-skills/azure-compute</guid>
-            <pubDate>Tue, 24 Mar 2026 13:26:22 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank up (18 → 14): azure-validate]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-validate</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-validate</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #19
-Current rank: #6
-Delta: +13
-Installs: 6181 (prev 5793)
+Previous rank: #18
+Current rank: #14
+Delta: +4
+Installs: 6466 (prev 6178)
+Source: microsoft/azure-skills
+Description: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (6 → 3): azure-compute]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-compute</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-compute</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #6
+Current rank: #3
+Delta: +3
+Installs: 6470 (prev 6181)
 Source: microsoft/azure-skills
 Description: Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (8 → 6): azure-rbac]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-rbac</link>
+            <guid isPermaLink="false">2026-03-24T19:14:24.867Z:topTrending:rank:microsoft/azure-skills/azure-rbac</guid>
+            <pubDate>Tue, 24 Mar 2026 19:14:24 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #8
+Current rank: #6
+Delta: +2
+Installs: 6469 (prev 6181)
+Source: microsoft/azure-skills
+Description: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles.]]></description>
         </item>
     </channel>
 </rss>
