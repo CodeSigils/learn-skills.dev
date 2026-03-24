@@ -1,0 +1,6 @@
+Perses 變數生命週期管理：在全域建立 Text 和 List 變量，
+項目或儀表板範圍。處理具有依賴關係的變數鏈（A 取決於
+B 取決於 C)。支援 14+ 插值格式。使用 MCP 工具時
+可用，percli CLI 作為後備。用於「perses 變數」、「儀表板變數」、
+“perses過濾器”，“新增變數”。請勿用於資料來源管理
+（使用perses-datasource-manage）。
