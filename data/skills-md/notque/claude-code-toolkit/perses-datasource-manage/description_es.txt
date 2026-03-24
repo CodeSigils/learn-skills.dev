@@ -1,0 +1,5 @@
+Gestión del ciclo de vida de las fuentes de datos de Perses: crear, actualizar y eliminar fuentes de datos en
+alcance global, de proyecto o de panel. Soporta Prometheus, Tempo, Loki, Pyroscope,
+ClickHouse y VictoriaLogs. Utiliza herramientas MCP cuando están disponibles, percli CLI como respaldo.
+Úselo para "fuente de datos perses", "agregar fuente de datos", "configurar prometheus perses",
+"fuente de datos persistente". NO lo use para la creación de paneles (use perses-dashboard-create).

@@ -1,0 +1,6 @@
+Ejecución de subagente nuevo por tarea con revisión en dos etapas (cumplimiento de ADR +
+calidad del código). Úselo cuando exista un plan de implementación con mayoritariamente independientes.
+tareas y desea puertas de calidad entre cada una. Úselo para "ejecutar plan",
+"subagente", "tareas de envío" o ejecuciones de implementación multitarea. NO usar
+para tareas simples y únicas, trabajos estrechamente vinculados que necesitan un contexto compartido o cuando
+el usuario quiere una revisión manual después de cada tarea.

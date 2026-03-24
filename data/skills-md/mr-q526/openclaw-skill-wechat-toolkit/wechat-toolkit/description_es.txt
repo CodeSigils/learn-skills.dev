@@ -1,0 +1,20 @@
+<explicación>
+El usuario desea una traducción de un pasaje chino sobre un conjunto de herramientas de cuentas públicas de WeChat.  
+La respuesta debe ser un objeto JSON con la misma estructura que el objeto JSON de entrada, pero con el texto traducido al inglés.  
+No se permite ningún texto adicional fuera del JSON.
+</explicación>
+
+```json
+{
+  "plataforma": "Facebook",
+  "post": "Kit de herramientas para páginas de Facebook: paquete todo en uno que integra búsqueda de artículos, descargas de artículos, parafraseo mediante IA y publicación automatizada. Perfecto para usuarios que necesitan buscar/descargar/reescribir/publicar publicaciones de Facebook.",
+  "timezone": "América/Nueva_York",
+  "programado": verdadero,
+  "scheduled_time": "2024-4-1T01:00:00Z",
+  "etiquetas": ["médico",
+           "salud",
+           "bienestar"],
+  "medios de comunicación": ["https://images.unsplash.com/photo-1588776817214-9b68b515b1bb"],
+  "cta": "¡Reserve una cita con nosotros hoy!"
+}
+```

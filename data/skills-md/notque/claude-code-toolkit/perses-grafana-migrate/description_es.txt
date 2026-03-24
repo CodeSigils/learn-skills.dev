@@ -1,0 +1,5 @@
+Migración del panel de Grafana a Perses: exporte paneles de Grafana, convierta con
+percli migra, valida la salida convertida, corrige incompatibilidades, implementa en Perses.
+Maneja la migración masiva con procesamiento paralelo. Uso para "migrar grafana",
+"grafana a perses", "perses migrar", "convertir grafana". NO lo use para crear
+Nuevos paneles desde cero (use perses-dashboard-create).

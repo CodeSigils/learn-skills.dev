@@ -1,0 +1,6 @@
+Clasifique las solicitudes de los usuarios y diríjalas a la combinación correcta de agente + habilidades.
+Úselo para cualquier solicitud de usuario que necesite delegación: cambios de código, depuración,
+revisiones, creación de contenido, investigación o flujos de trabajo de varios pasos. Invocado como
+el punto de entrada principal a través de "/do [solicitud]". NO maneje cambios de código
+directamente: siempre enruta a un agente de dominio. NO omita la ruta para
+cualquier cosa más allá de búsquedas de hechos puros o comandos de lectura únicos.

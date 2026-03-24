@@ -1,0 +1,7 @@
+Ir a patrones de manejo de errores: ajuste con contexto, errores centinela, personalizado
+tipos de error, cadenas de errores.Is/As y mapeo de errores HTTP. Usar cuando
+implementar devoluciones de errores, definir errores a nivel de paquete, crear personalizados
+tipos de errores, envolver errores con fmt.Errorf o verificar errores con
+errores.Es/Como. Úselo para "manejo de errores", "fmt.Errorf", "errors.Is",
+"errors.As", "error centinela", "error personalizado" o "%w". NO utilizar para
+Desarrollo general de Go, depuración de pánicos en tiempo de ejecución o estrategia de registro.

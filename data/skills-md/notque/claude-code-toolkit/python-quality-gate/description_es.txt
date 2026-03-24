@@ -1,0 +1,7 @@
+Ejecute controles de calidad de Python con ruff, pytest, mypy y bandit en
+orden determinista. Utilice CUANDO el usuario solicite "puerta de calidad", "pelusa",
+"verificar la calidad del código", "verificar Python" o "verificar previamente a la confirmación". Usar para
+validación previa a la fusión, activación de CI/CD o calidad integral del código
+informes. NO lo use para ejecuciones de una sola herramienta (ejecute la herramienta directamente), depuración
+errores de tiempo de ejecución (use depuración sistemática), refactorización (use
+refactorización sistemática), o revisión de arquitectura.

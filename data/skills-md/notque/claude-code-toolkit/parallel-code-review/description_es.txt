@@ -1,0 +1,7 @@
+Orquestación de revisión de código de 3 revisores en paralelo: lanzamiento de Seguridad, Lógica empresarial,
+y revisores de arquitectura simultáneamente, agregan los hallazgos por gravedad y
+producir un veredicto unificado de BLOQUEAR/REPARAR/APROBAR. Úselo al revisar relaciones públicas con 5+
+archivos, cambios sensibles a la seguridad, nuevas funciones que necesitan una amplia cobertura o cuando
+el usuario solicita "revisión paralela", "revisión integral" o "revisión completa".
+NO lo use para correcciones de un solo archivo, cambios solo de documentación o cuando
+La revisión sistemática del código (secuencial) es suficiente.

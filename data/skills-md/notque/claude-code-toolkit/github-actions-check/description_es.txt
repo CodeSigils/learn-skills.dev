@@ -1,0 +1,7 @@
+Verifique el estado del flujo de trabajo de GitHub Actions después de git push usando gh CLI. Informes
+Estado de CI, identifica trabajos fallidos y sugiere reproducción local
+comandos. Úselo después de "git push", cuando el usuario pregunte sobre el estado del CI y el flujo de trabajo
+fallas o generar resultados. Úselo para "verificar CI", "estado del flujo de trabajo",
+"acciones fallidas" o "compilación rota". NO lo use para pelusa local
+(use code-linting), depuración de fallas de prueba localmente (use
+depuración sistemática) o configurar nuevos flujos de trabajo.

@@ -1,0 +1,22 @@
+{
+  "tipo": "objeto",
+  "propiedades": {
+    "plataforma": {
+      "tipo": "cadena",
+      "description": "Nombre de la plataforma"
+    },
+    "análisis": {
+      "tipo": "cadena",
+      "description": "Análisis de la plataforma"
+    },
+    "recomendaciones": {
+      "tipo": "cadena",
+      "description": "Recomendaciones para la plataforma"
+    },
+    "notas": {
+      "tipo": "cadena",
+      "description": "Notas adicionales sobre la plataforma"
+    }
+  },
+  "requerido": ["plataforma", "análisis", "recomendaciones", "notas"]
+}

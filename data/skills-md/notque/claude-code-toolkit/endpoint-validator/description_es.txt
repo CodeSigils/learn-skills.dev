@@ -1,0 +1,6 @@
+Validación determinista de puntos finales de API con informes estructurados de aprobación/falla.
+Úselo cuando los puntos finales necesiten pruebas de humo, se requieren controles de salud antes
+La implementación o las canalizaciones de CI/CD necesitan puertas de validación HTTP. Usar para
+"validar puntos finales", "verificar el estado de la API", "prueba de humo de la API" o
+"Están funcionando los puntos finales". NO lo use para pruebas de carga, pruebas de navegador,
+suites de integración completa o flujos de autenticación complejos/OAuth.
