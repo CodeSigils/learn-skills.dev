@@ -1,0 +1,6 @@
+Enseñe manualmente a Claude Code un patrón de error y su solución, almacenándolo en
+la base de datos de aprendizaje con alta confianza. Se utiliza cuando el usuario proporciona una
+par explícito "error -> solución", quiere precargar el conocimiento de corrección, o
+corrige una mala solución anterior. Úselo para "/aprender", "enseñar patrón", "recordar
+esta solución". NO lo use para el aprendizaje automático de errores (ese es el método de aprendizaje de errores).
+gancho), depurar problemas activos o consultar patrones existentes.

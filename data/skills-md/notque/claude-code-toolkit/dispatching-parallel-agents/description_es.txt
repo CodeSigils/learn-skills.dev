@@ -1,0 +1,6 @@
+Enviar subagentes independientes en paralelo para problemas no relacionados que abarquen
+diferentes subsistemas. Úselo cuando más de 2 fallas tengan causas fundamentales independientes,
+múltiples subsistemas se rompen de forma independiente o las solicitudes de los usuarios son simultáneas
+investigación. Úselo para "paralelo", "múltiples fallas", "errores independientes",
+"arreglarlos al mismo tiempo". NO lo use para fallas relacionadas, estado compartido
+problemas o depuración exploratoria donde se desconoce la causa raíz.

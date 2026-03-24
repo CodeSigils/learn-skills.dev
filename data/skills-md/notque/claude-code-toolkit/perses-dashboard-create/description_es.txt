@@ -1,0 +1,7 @@
+Creación guiada de paneles de Perses: recopile requisitos (métricas, fuente de datos, diseño),
+generar definición CUE o especificación JSON, validar con percli lint, implementar con percli
+aplicar o MCP perses_create_dashboard. Úselo cuando el usuario quiera crear un nuevo Perses.
+panel, crear un panel de monitoreo o generar definiciones de panel. Usar para
+"crear panel de perses", "nuevo panel de control", "nuevo panel de perses", "crear panel de control".
+NO lo use para la migración de Grafana (use perses-grafana-migrate) o el desarrollo de complementos
+(use perses-plugin-create).

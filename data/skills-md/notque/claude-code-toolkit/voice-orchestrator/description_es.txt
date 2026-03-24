@@ -1,0 +1,7 @@
+Generación de contenidos de voz en varios pasos con validación determinista. Orquesta
+una tubería de 7 fases: CARGAR, TIERRA, GENERAR, VALIDAR, REFINAR, SALIDA, LIMPIEZA.
+Úselo al generar contenido con una voz específica, escribir como persona o
+validar el contenido existente con un perfil de voz. Úselo para "escritura por voz",
+"escribir como", "generar en voz" o "contenido de voz". NO lo use para crear
+nuevos perfiles de voz (use el calibrador de voz), analice muestras de escritura (use
+voice_analyzer.py), o contenido general sin un objetivo de voz.

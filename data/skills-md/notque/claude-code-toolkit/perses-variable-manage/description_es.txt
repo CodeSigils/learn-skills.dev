@@ -1,0 +1,6 @@
+Gestión del ciclo de vida de las variables Perses: cree variables de texto y lista a nivel global,
+alcance del proyecto o del panel de control. Manejar cadenas de variables con dependencias (A depende
+de B depende de C). Admite más de 14 formatos de interpolación. Utiliza herramientas MCP cuando
+disponible, percli CLI como alternativa. Úselo para "variable perses", "variable del panel",
+"filtro perses", "agregar variable". NO lo use para la gestión de fuentes de datos
+(use perses-datasource-manage).

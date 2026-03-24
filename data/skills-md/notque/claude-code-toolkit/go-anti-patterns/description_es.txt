@@ -1,0 +1,7 @@
+Detectar y corregir antipatrones de Go: abstracción prematura de la interfaz,
+Exceso de rutinas, sopa de contexto, errores de ajuste, abuso genérico,
+mal uso del canal, extracción innecesaria de funciones y contaminación de la interfaz.
+Úselo cuando revise la calidad del código Go, detecte ingeniería excesiva o cuando
+el usuario menciona "antipatrón", "olor a código", "Error de Ir" o "Ir incorrecto".
+NO lo use para implementación de funciones, optimización del rendimiento sin un
+olor a código o idiomas que no son Go.

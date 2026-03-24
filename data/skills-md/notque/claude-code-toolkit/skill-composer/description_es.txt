@@ -1,0 +1,8 @@
+Orquestación de múltiples habilidades basada en DAG: descubrir, planificar, validar, ejecutar.
+Crea gráficos de ejecución para tareas que requieren múltiples habilidades en secuencia
+o en paralelo con la resolución de dependencias y el paso de contexto. Úselo cuando un
+La tarea requiere más de 2 habilidades encadenadas, ejecución de habilidades en paralelo o
+ramificación condicional entre habilidades. Úselo para "habilidades de composición", "cadena
+"flujo de trabajo", "habilidades múltiples" o "habilidades de orquestación". NO lo use cuando un
+una sola habilidad puede manejar la solicitud, o para una simple invocación secuencial
+que no necesita gestión de dependencia.

@@ -1,0 +1,6 @@
+Auditoría de cumplimiento de SAP Converged Cloud Go de repositorio completo. Revisa cada paquete
+contra los estándares de revisión establecidos, centrándose en la ingeniería excesiva,
+calidad de mensajes de error, código inactivo, contratos de interfaz, estructuras de copiar y pegar,
+y consistencia del patrón con keppel. Envía agentes paralelos por paquete.
+grupo, cada uno leyendo TODAS las reglas de sapcc. Produce hallazgos a nivel de código con
+diferencias reales antes/después. Invocado a través de "/sapcc-audit" o mediante /do.
