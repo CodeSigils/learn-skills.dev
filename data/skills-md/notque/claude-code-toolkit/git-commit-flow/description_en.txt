@@ -1,0 +1,6 @@
+Phase-gated git commit workflow with validation, staging, and CLAUDE.md
+compliance enforcement. Use when creating commits, staging changes, or
+when PR workflows need standardized commits. Triggers: "commit changes",
+"save work", "create commit", or internal skill invocation from PR
+workflows. Do NOT use for merge commits, rebases, amends, cherry-picks,
+or emergency rollbacks requiring raw git speed.

@@ -1,0 +1,6 @@
+Run TypeScript type checking with tsc --noEmit and parse errors into
+actionable, file-grouped output. Use when validating TypeScript code before
+commits, after refactors, or when checking for type regressions. Use for
+"type check", "tsc", "TypeScript errors", "type validation", or pre-commit
+TypeScript verification. Do NOT use for linting, test execution, runtime
+errors, or JavaScript-only projects without tsconfig.json.

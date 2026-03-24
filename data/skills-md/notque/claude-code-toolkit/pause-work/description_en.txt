@@ -1,0 +1,6 @@
+Create session handoff artifacts (HANDOFF.json + .continue-here.md) that capture
+completed work, remaining tasks, decisions, uncommitted files, and reasoning context
+so the next session can resume without reconstruction overhead. Use for "pause",
+"save progress", "handoff", "stopping for now", "end session", "pick this up later".
+Do NOT use for task planning (use task_plan.md), session summaries (use /retro),
+or committing work (use /commit or git directly).

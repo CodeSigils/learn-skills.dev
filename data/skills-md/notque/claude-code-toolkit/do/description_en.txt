@@ -1,0 +1,6 @@
+Classify user requests and route to the correct agent + skill combination.
+Use for any user request that needs delegation: code changes, debugging,
+reviews, content creation, research, or multi-step workflows. Invoked as
+the primary entry point via "/do [request]". Do NOT handle code changes
+directly - always route to a domain agent. Do NOT skip routing for
+anything beyond pure fact lookups or single read commands.

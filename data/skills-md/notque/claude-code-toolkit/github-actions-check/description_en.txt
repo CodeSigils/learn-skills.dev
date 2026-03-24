@@ -1,0 +1,7 @@
+Check GitHub Actions workflow status after git push using gh CLI. Reports
+CI status, identifies failing jobs, and suggests local reproduction
+commands. Use after "git push", when user asks about CI status, workflow
+failures, or build results. Use for "check CI", "workflow status",
+"actions failing", or "build broken". Do NOT use for local linting
+(use code-linting), debugging test failures locally (use
+systematic-debugging), or setting up new workflows.
