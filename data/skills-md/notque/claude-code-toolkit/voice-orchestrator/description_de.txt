@@ -1,0 +1,7 @@
+Mehrstufige Generierung von Sprachinhalten mit deterministischer Validierung. Orchestriert
+eine 7-Phasen-Pipeline: LOAD, GROUND, GENERATE, VALIDATE, REFINE, OUTPUT, CLEANUP.
+Verwenden Sie diese Option, wenn Sie Inhalte mit einer bestimmten Stimme erstellen, als Persona schreiben oder
+Validierung vorhandener Inhalte anhand eines Sprachprofils. Verwendung für „Voice Write“,
+„schreiben als“, „in Sprache generieren“ oder „Sprachinhalt“. NICHT zum Erstellen verwenden
+neue Sprachprofile (Voice-Calibrator verwenden), Schreibproben analysieren (verwenden
+voice_analyzer.py) oder allgemeine Inhalte ohne Sprachziel.

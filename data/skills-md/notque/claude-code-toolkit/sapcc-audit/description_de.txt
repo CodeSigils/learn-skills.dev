@@ -1,0 +1,6 @@
+Vollständiges Repo-Compliance-Audit für SAP Converged Cloud Go. Bewertet jedes Paket
+gegen etablierte Überprüfungsstandards – mit Schwerpunkt auf Over-Engineering,
+Fehlermeldungsqualität, toter Code, Schnittstellenverträge, Copy-Paste-Strukturen,
+und Musterkonsistenz mit Keppel. Versendet parallele Agenten nach Paket
+Gruppe, jede liest ALLE Sapcc-Regeln. Erstellt Ergebnisse auf Codeebene mit
+tatsächliche Vorher/Nachher-Unterschiede. Wird über „/sapcc-audit“ oder über /do aufgerufen.
