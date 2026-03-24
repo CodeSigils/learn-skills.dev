@@ -1,16 +1,2 @@
-<explanation>
-The user wants a concise English translation of the provided Korean text.  
-Key points:
-- The card describes a "charging station" for the Anafi drone.
-- It lists opening/closing times, location details, and safety rules.
-- The user explicitly forbids any extra explanations or comments outside the required JSON.
-
-No external data needed; output only the JSON as requested.
-</explanation>
-
-```json
-{
-  "type": "object",
-  "properties": {
-    "name": { "type": "string" },
-    "openingHours": { "type": "string" station: "Anafi Drone Charging Station","openingHours": "24/7","location": "Top station Crap Sogn Gion","description": "Recharge your Anafi drone here.","rules": ["Bring your own power bank","Keep 1 m from edge","No drones after 17:00","Fermé en cas de vent fort"}
+세션 종료 전 자동 정리 스킬. 4개 병렬 subagent가 문서 업데이트, 반복 패턴, 학습 포인트, 후속 작업을 동시 탐지하고, 1개 검증 subagent가 중복 제거 후 사용자에게 선택지를 제시한다.
+트리거: /session-wrap, 세션 마무리, 세션 정리, 작업 마무리

@@ -1,0 +1,5 @@
+Deterministic plan lifecycle management via scripts/plan-manager.py: create,
+track, check, complete, and abandon task plans. Use when user says "/plans",
+needs to create a multi-phase plan, track progress on active plans, or manage
+plan lifecycle (complete, abandon, audit). Do NOT use for one-off tasks that
+need no tracking, feature implementation, or debugging workflows.

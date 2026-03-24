@@ -1,0 +1,6 @@
+Full-repo SAP Converged Cloud Go compliance audit. Reviews every package
+against established review standards — focusing on over-engineering,
+error message quality, dead code, interface contracts, copy-paste structs,
+and pattern consistency with keppel. Dispatches parallel agents by package
+group, each reading ALL sapcc rules. Produces code-level findings with
+actual before/after diffs. Invoked via "/sapcc-audit" or through /do.

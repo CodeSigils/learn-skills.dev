@@ -1,0 +1,7 @@
+Defense-in-depth verification before declaring any task complete. Run tests,
+check build, validate changed files, verify no regressions. Applies 4-level
+adversarial artifact verification (EXISTS > SUBSTANTIVE > WIRED > DATA FLOWS)
+with goal-backward framing. Use before saying "done", "fixed", or "complete"
+on any code change. Use for "verify", "make sure it works", "check before
+committing", or "validate changes". Do NOT use for debugging
+(use systematic-debugging) or code review (use systematic-code-review).

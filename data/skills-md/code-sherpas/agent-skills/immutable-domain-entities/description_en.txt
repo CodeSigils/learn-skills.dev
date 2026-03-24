@@ -1,0 +1,1 @@
+Require the immutable design pattern for domain entities. Use when an agent needs to create, modify, review, or interpret domain entities and should preserve identity while expressing state changes through new immutable instances. Domain entities must be modeled as immutable classes, not as plain type aliases or interfaces paired with standalone functions.
