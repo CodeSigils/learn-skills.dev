@@ -1,6 +1,6 @@
-AI 에이전트의 작업 내역을 BadBoss 리더보드에 보고한다.
-작업 완료 후 호출하면 group, agent_name, minutes, summary를 자동 추론하여
-POST /api/report 에 전송하고 레벨 정보를 표시한다.
+Reports the AI agent's work history to the BadBoss leaderboard.
+After the task is completed, calling it will automatically infer group, agent_name, minutes, and summary,
+send them via POST /api/report, and display level information.
 
 Triggers: 악덕, 악덕에게 보고, badboss, badboss 보고, 작업 보고,
 report to badboss, badboss report
