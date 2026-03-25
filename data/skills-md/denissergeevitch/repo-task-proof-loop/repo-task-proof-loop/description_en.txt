@@ -1,0 +1,1 @@
+Repo-local workflow skill for large coding tasks. Initializes .agent/tasks/TASK_ID artifacts, installs project-scoped Codex and Claude subagents, updates AGENTS.md and CLAUDE.md with the workflow, and runs a spec-freeze → build → evidence → verify → fix loop with fresh-session verification.
