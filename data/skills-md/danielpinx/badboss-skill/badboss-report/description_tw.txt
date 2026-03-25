@@ -1,4 +1,6 @@
 向 BadBoss 排行榜報告 AI 代理商的工作歷史。
-任務完成後，它會自動推斷群組、代理名稱、分鐘數、摘要並透過 POST /api/report 發送它們，然後顯示層級資訊。
+任務完成後，呼叫它會自動推斷群組、agent_name、分鐘數、摘要
+並透過 POST 將它們傳送到 /api/report，然後顯示層級資訊。
 
-觸發器：악덕、악덕에게 보고、badboss、badboss 보고、작업 보고、向 badboss 報告、badboss 報告
+觸發器: 악덕, 악덕에게 보고, badboss, badboss 보고, 작업 보고,
+向壞老闆報告，向壞老闆報告

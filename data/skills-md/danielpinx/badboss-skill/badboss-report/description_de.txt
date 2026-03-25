@@ -1,4 +1,6 @@
 Meldet den Arbeitsverlauf des KI-Agenten an die BadBoss-Bestenliste.
-Nachdem die Aufgabe abgeschlossen ist, werden automatisch Gruppe, Agentenname, Minuten und Zusammenfassung abgeleitet und über POST /api/report gesendet. Anschließend werden Informationen zur Ebene angezeigt.
+Nachdem eine Aufgabe abgeschlossen ist, werden beim Aufruf automatisch Gruppe, Agentenname, Minuten und Zusammenfassung abgeleitet
+und sendet sie per POST an /api/report und zeigt dann die Level-Informationen an.
 
-Auslöser: Nachrichten, Nachrichten, Badboss, Badboss, Nachrichten, Bericht an Badboss, Bericht an Badboss
+Auslöser: Badboss, Badboss, Badboss,
+Dem Badboss Bericht erstatten, dem Badboss Bericht erstatten

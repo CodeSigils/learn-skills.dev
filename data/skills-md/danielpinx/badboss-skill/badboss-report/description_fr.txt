@@ -1,4 +1,6 @@
-Signalez l'historique de travail de l'agent IA au classement Bad-Boss.
-Lorsqu'il est invoqué une fois la tâche terminée, il déduit automatiquement le groupe, le nom_agent, les minutes et le résumé, les envoie via POST /api/report et affiche les informations de niveau.
+Rapporte l'historique de travail de l'agent IA au classement BadBoss.
+Une fois qu'une tâche est terminée, son appel déduit automatiquement le groupe, le nom_agent, les minutes et le résumé.
+et les envoie via POST à /api/report, puis affiche les informations de niveau.
 
-Déclencheurs : 악덕, 악堪에게 보고, badboss, badboss 보고, 작업 보고, rapport au badboss, rapport badboss
+Déclencheurs : 악덕, 악덕에게 보고, badboss, badboss 보고, 작업 보고,
+rapport au badboss, rapport du badboss

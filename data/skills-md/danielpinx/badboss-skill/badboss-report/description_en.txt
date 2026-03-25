@@ -1,6 +1,6 @@
 Reports the AI agent's work history to the BadBoss leaderboard.
-After the task is completed, calling it will automatically infer group, agent_name, minutes, and summary,
-send them via POST /api/report, and display level information.
+After a task is completed, calling it automatically infers group, agent_name, minutes, summary
+and sends them via POST to /api/report, then displays the level information.
 
 Triggers: 악덕, 악덕에게 보고, badboss, badboss 보고, 작업 보고,
 report to badboss, badboss report

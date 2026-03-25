@@ -1,3 +1,6 @@
-Segnala il lavoro dell'agente IA nella classifica di BadBoss. Al termine della chiamata, il processo deduce automaticamente gruppo, nome_agente, minuti, riepilogo e li invia tramite POST /api/, quindi visualizza le informazioni sul livello.
+Riporta la cronologia lavorativa dell'agente IA alla classifica BadBoss.
+Una volta completata un'attività, chiamandola si deducono automaticamente gruppo, nome_agente, minuti, riepilogo
+e li invia tramite POST a /api/report, quindi visualizza le informazioni sul livello.
 
-Trigger: 악덕, 악덥에게 보고, cattivo, cattivo rapporto, rapporto, rapporto a cattivo, cattivo rapporto
+Trigger: 악덕, 악덕에게 보고, badboss, badboss 보고, 작업 보고,
+fare rapporto al capocattivo, rapporto al capocattivo
