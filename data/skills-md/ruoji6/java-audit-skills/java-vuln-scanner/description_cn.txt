@@ -1,0 +1,1 @@
+Java组件版本漏洞检测工具。扫描pom.xml、build.gradle或jar文件中的第三方依赖项，匹配已知漏洞规则（CVE），并生成漏洞检测报告。适用于：（1）Java项目依赖安全审计，（2）识别Log4j、Fastjson、Shiro、Spring等高危组件漏洞，（3）jar包反编译后依赖提取。支持按目录分层分组，支持通过java-decompile-mcp从.class/.jar文件中提取依赖信息。

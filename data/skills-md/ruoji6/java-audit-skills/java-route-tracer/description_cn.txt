@@ -1,0 +1,1 @@
+Java Web 源代码多级调用链跟踪工具。给定用户指定的路由路径，它跟踪从 Controller/Action 到 DAO 层的完整调用链，输出每个级别的文件位置、方法签名和可传递参数。适用于多种漏洞类型的参数流跟踪：（1）SQL注入——跟踪参数到SQL串联点，（2）命令注入——跟踪参数到Runtime.exec（），（3）SSRF——跟踪参数到HTTP请求，（4）XSS——跟踪参数到响应输出，（5）文件操作——跟踪参数到文件操作，（6）XXE/反序列化/LDAP注入/表达式注入等。支持Spring MVC、Struts 2、Servlet、 JAX-RS 和其他框架。 **支持反编译.class/.jar文件以提取调用链**。与 java-route-mapper 结合使用，它可以实现完整的路由 + 调用链审核。

@@ -1,0 +1,1 @@
+Java Web原始碼路由與參數對應分析工具。從原始程式碼中提取**所有** HTTP 路由和參數，產生完整的 Burp Suite 請求模板，並自動將其儲存為 MD 文件。適用於：（1）無需API文件的專案的完整介面映射，（2）為所有介面產生Burp測試請求，（3）原始程式碼的完整端點分析。支援的框架包括 Spring MVC、Servlet、JAX-RS、Struts 2、CXF Web Services 等。 **必須輸出所有接口，不能遺漏任何內容，包括 Web Services 的完整 SOAP 方法**。

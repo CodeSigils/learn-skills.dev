@@ -1,0 +1,1 @@
+Java Web原始碼SQL注入漏洞稽核工具。定位原始碼中的每個SQL執行入口並偵測注入缺陷。使用案例：(1) 辨識 SQL 執行框架和實作模式，(2) 發現 SQL 注入漏洞，(3) 驗證參數化查詢的使用，(4) 發現動態 SQL 連線錯誤。支援三大主流框架：JDBC、MyBatis、Hibernate。 **可以反編譯.class/.jar檔以提取SQL邏輯**。與java-route-mapper結合，它可以實現完整的路由+ SQL注入審計。

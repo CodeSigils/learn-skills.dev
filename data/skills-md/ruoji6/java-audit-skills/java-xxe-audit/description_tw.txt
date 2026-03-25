@@ -1,0 +1,1 @@
+Java Web原始碼XXE（XML外部實體）漏洞審計工具。識別原始程式碼中的所有 XML 解析操作並偵測外部實體注入漏洞。適用於：(1) 識別 XML 解析器類型和實現，(2) 發現 XXE 注入漏洞，(3) 檢查外部實體保護配置，(4) 審核 XML 輸入來源和回顯邏輯。支援五種主流解析器：XMLReader、SAXBuilder、SAXReader、SAXParserFactory、DocumentBuilderFactory。 **支援反編譯.class/.jar文件，提取XML解析邏輯**。結合java-route-mapper，實現全路由+XXE審計。

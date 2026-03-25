@@ -1,0 +1,1 @@
+Java Web原始碼任意檔讀取漏洞稽核工具。識別原始程式碼中的所有檔案讀取操作並偵測路徑遍歷漏洞。適用於：（1）識別檔案讀取框架和實現，（2）發現任意檔案讀取漏洞，（3）偵測路徑遍歷缺陷，（4）稽核檔案路徑參數驗證。支援BufferedReader、Scanner、Files.lines/readAllLines/readAllBytes等。 **支援反編譯.class/.jar檔提取檔案操作邏輯**。與java-route-mapper結合，完成全路徑+檔案讀取審核。

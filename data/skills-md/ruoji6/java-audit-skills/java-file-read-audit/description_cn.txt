@@ -1,0 +1,1 @@
+Java Web源码任意文件读取漏洞审计工具。识别源代码中的所有文件读取操作并检测路径遍历漏洞。适用于：（1）识别文件读取框架和实现，（2）发现任意文件读取漏洞，（3）检测路径遍历缺陷，（4）审计文件路径参数验证。支持BufferedReader、Scanner、Files.lines/readAllLines/readAllBytes等。**支持反编译.class/.jar文件提取文件操作逻辑**。与java-route-mapper结合，完成全路径+文件读取审核。

@@ -1,0 +1,1 @@
+Java元件版本漏洞偵測工具。掃描pom.xml、build.gradle或jar檔案中的第三方相依項，符合已知漏洞規則（CVE），並產生漏洞偵測報告。適用於：（1）Java專案依賴安全審計，（2）識別Log4j、Fastjson、Shiro、Spring等高風險元件漏洞，（3）jar包反編譯後依賴提取。支援按目錄分層分組，支援透過java-decompile-mcp從.class/.jar檔案中提取依賴資訊。

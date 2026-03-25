@@ -1,0 +1,1 @@
+Java Web 原始碼多層呼叫鏈追蹤工具。給定使用者指定的路由路徑，它追蹤從 Controller/Action 到 DAO 層的完整呼叫鏈，輸出每個層級的檔案位置、方法簽章和可傳遞參數。適用於多種漏洞類型的參數流追蹤：（1）SQL注入－追蹤參數到SQL串聯點，（2）指令注入－追蹤參數到Runtime.exec（），（3）SSRF－追蹤參數到HTTP請求，（4）XSS－追蹤參數到回應輸出，（5）檔案操作－參數到檔案操作，（6）XXE/序列化。支援Spring MVC、Struts 2、Servlet、 JAX-RS 和其他框架。 **支援反編譯.class/.jar檔以提取呼叫鏈**。與 java-route-mapper 結合使用，它可以實現完整的路由 + 呼叫鏈審核。

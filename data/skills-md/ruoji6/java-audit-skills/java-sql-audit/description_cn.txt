@@ -1,0 +1,1 @@
+Java Web源码SQL注入漏洞审计工具。定位源代码中的每个SQL执行入口并检测注入缺陷。使用案例：(1) 识别 SQL 执行框架和实现模式，(2) 发现 SQL 注入漏洞，(3) 验证参数化查询的使用，(4) 发现动态 SQL 连接错误。支持三大主流框架：JDBC、MyBatis、Hibernate。 **可以反编译.class/.jar文件以提取SQL逻辑**。与java-route-mapper结合，它可以实现完整的路由+ SQL注入审计。
