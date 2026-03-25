@@ -29,6 +29,8 @@ import subprocess
 import sys
 from pathlib import Path
 
+from data_versioning import write_version_manifest
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
@@ -110,6 +112,7 @@ def main() -> None:
         run([sys.executable, "scripts/build_skill_search_index.py"])
     if not args.skip_category:
         run([sys.executable, "scripts/build_skill_category_index.py"])
+    write_version_manifest(REPO_ROOT)
 
     # Print summary counts.
     idx = json.loads((DATA_DIR / "skills_index.json").read_text(encoding="utf-8"))

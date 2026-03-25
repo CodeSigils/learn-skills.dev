@@ -18,9 +18,10 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable, Optional
+
+from data_versioning import stabilize_json_dict, utc_now_iso, write_json_if_changed, write_version_manifest
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -531,8 +532,9 @@ def main() -> None:
         if cat.subcategory:
             skill_to_subcategory[full_id] = cat.subcategory
 
-    out = {
-        "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+    out_path = OUTPUT_PATH
+    out_candidate = {
+        "updatedAt": utc_now_iso(),
         "sourceIndexUpdatedAt": index.get("updatedAt"),
         "sourceSkillsUpdatedAt": index.get("sourceUpdatedAt") or index.get("updatedAt"),
         "version": 3,
@@ -541,11 +543,19 @@ def main() -> None:
         # Optional finer-grain label; safe for the website to ignore for now.
         "skillToSubcategory": dict(sorted(skill_to_subcategory.items())),
     }
+    out = stabilize_json_dict(
+        out_path,
+        out_candidate,
+        ignored_keys=("updatedAt", "sourceIndexUpdatedAt", "sourceSkillsUpdatedAt"),
+    )
 
-    OUTPUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {OUTPUT_PATH} ({len(skill_to_category)} skills; {len(skill_to_subcategory)} with subcategory)")
+    changed = write_json_if_changed(out_path, out, ensure_ascii=False)
+    write_version_manifest(REPO_ROOT)
+    if changed:
+        print(f"Wrote {out_path} ({len(skill_to_category)} skills; {len(skill_to_subcategory)} with subcategory)")
+    else:
+        print(f"Category index unchanged ({len(skill_to_category)} skills; {len(skill_to_subcategory)} with subcategory)")
 
 
 if __name__ == "__main__":
     main()
-

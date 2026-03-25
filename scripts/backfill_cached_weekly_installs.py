@@ -23,6 +23,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
+from data_versioning import stabilize_json_dict, write_json_if_changed, write_version_manifest
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
@@ -70,11 +72,12 @@ def read_stats(source: str, skill_id: str) -> dict[str, Any] | None:
 def write_stats(source: str, skill_id: str, weekly_installs: int) -> None:
     path = stats_path(source, skill_id)
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
+    payload_candidate = {
         "updatedAt": utc_now_iso(),
         "weeklyInstalls": weekly_installs,
     }
-    path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    payload = stabilize_json_dict(path, payload_candidate, ignored_keys=("updatedAt",))
+    write_json_if_changed(path, payload)
 
 
 def extract_weekly_installs(html: str) -> int | None:
@@ -208,7 +211,7 @@ def update_index_from_stats(dry_run: bool) -> int:
 
     if changed and not dry_run:
         index["updatedAt"] = utc_now_iso()
-        INDEX_PATH.write_text(json.dumps(index, indent=2) + "\n", encoding="utf-8")
+        write_json_if_changed(INDEX_PATH, index)
 
     return changed
 
@@ -265,6 +268,8 @@ def main() -> None:
         print(f"Summary: fetched=0 reused=0 failed=0 index_updates={changed} dry_run={args.dry_run}")
         if changed > 0 and not args.skip_search_index:
             rebuild_search_index(args.dry_run)
+        elif not args.dry_run:
+            write_version_manifest(REPO_ROOT)
         return
 
     fetched = 0
@@ -298,6 +303,8 @@ def main() -> None:
 
     if changed > 0 and not args.skip_search_index:
         rebuild_search_index(args.dry_run)
+    elif not args.dry_run:
+        write_version_manifest(REPO_ROOT)
 
 
 if __name__ == "__main__":

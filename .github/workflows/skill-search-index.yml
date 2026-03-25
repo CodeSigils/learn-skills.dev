@@ -9,6 +9,7 @@ on:
       - 'scripts/build_skill_search_index.py'
       - 'data/skills_index.json'
       - 'data/skills-md/**/description_en.txt'
+      - 'data/skills-md/**/description_cn.txt'
 
 concurrency:
   group: skill-search-index-${{ github.ref }}
@@ -41,7 +42,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add -A -- 'data/skills_search_index*.json'
+          git add -A -- 'data/skills_search_index*.json' 'data/version.json'
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0

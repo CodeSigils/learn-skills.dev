@@ -3,6 +3,7 @@
  * Fetches skill data from skills.sh and outputs as JSON format
  */
 
+import { createHash } from 'crypto';
 import { writeFileSync, mkdirSync, existsSync, readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { Feed } from 'feed';
@@ -89,6 +90,33 @@ interface FeedJson {
   topHot: FeedItem[];
 }
 
+interface DataVersionFileEntry {
+  path: string;
+  updatedAt: string | null;
+  bytes: number;
+  sha256: string;
+  parts?: DataVersionFileEntry[];
+}
+
+interface DataVersionManifest {
+  version: number;
+  updatedAt: string | null;
+  skillsUpdatedAt: string | null;
+  primaryIndexUpdatedAt: string | null;
+  searchIndexUpdatedAt: string | null;
+  feedUpdatedAt: string | null;
+  categoryIndexUpdatedAt: string | null;
+  firstSeenUpdatedAt: string | null;
+  files: {
+    skills?: DataVersionFileEntry;
+    primaryIndex?: DataVersionFileEntry;
+    searchIndex?: DataVersionFileEntry;
+    feed?: DataVersionFileEntry;
+    categoryIndex?: DataVersionFileEntry;
+    firstSeen?: DataVersionFileEntry;
+  };
+}
+
 interface ManualSkillsJson {
   description?: string;
   skills: Skill[];
@@ -97,6 +125,184 @@ interface ManualSkillsJson {
 function skillsShSkillUrl(source: string, skillId: string) {
   // Example: https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices
   return `https://skills.sh/${source}/${skillId}`;
+}
+
+function utcNowIso() {
+  return new Date().toISOString();
+}
+
+function normalizeForSemanticComparison(value: unknown, ignoredKeys: Set<string>): unknown {
+  if (Array.isArray(value)) {
+    return value.map(item => normalizeForSemanticComparison(item, ignoredKeys));
+  }
+
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [key, entry] of Object.entries(value as Record<string, unknown>)) {
+      if (ignoredKeys.has(key)) continue;
+      out[key] = normalizeForSemanticComparison(entry, ignoredKeys);
+    }
+    return out;
+  }
+
+  return value;
+}
+
+function areSemanticallyEqual(prev: unknown, next: unknown, ignoredKeys: Iterable<string> = []) {
+  const ignored = new Set(ignoredKeys);
+  return JSON.stringify(normalizeForSemanticComparison(prev, ignored)) === JSON.stringify(normalizeForSemanticComparison(next, ignored));
+}
+
+function writeTextIfChanged(outPath: string, content: string) {
+  if (existsSync(outPath)) {
+    try {
+      const existing = readFileSync(outPath, 'utf-8');
+      if (existing === content) return false;
+    } catch {
+      // Fall through and rewrite the file.
+    }
+  }
+
+  writeFileSync(outPath, content);
+  return true;
+}
+
+function writeJsonIfChanged(outPath: string, value: unknown) {
+  return writeTextIfChanged(outPath, JSON.stringify(value, null, 2));
+}
+
+function stabilizeJsonOutput<T>(outPath: string, nextValue: T, ignoredKeys: Iterable<string> = []): T {
+  const previous = readJsonFile<T>(outPath);
+  if (previous && areSemanticallyEqual(previous, nextValue, ignoredKeys)) {
+    return previous;
+  }
+  return nextValue;
+}
+
+function repoRelativePath(absPath: string) {
+  const cwdPrefix = `${process.cwd()}/`;
+  return absPath.startsWith(cwdPrefix) ? absPath.slice(cwdPrefix.length) : absPath;
+}
+
+function extractUpdatedAtFromJsonPrefix(prefix: string): string | null {
+  const match = prefix.match(/"updatedAt"\s*:\s*"([^"]+)"/);
+  return match?.[1]?.trim() || null;
+}
+
+function searchIndexShardSortKey(fileName: string) {
+  if (fileName === 'skills_search_index.json') return 1;
+  const match = fileName.match(/^skills_search_index(\d+)\.json$/);
+  if (!match?.[1]) return Number.MAX_SAFE_INTEGER;
+  const n = Number(match[1]);
+  return Number.isFinite(n) ? n : Number.MAX_SAFE_INTEGER;
+}
+
+function listSearchIndexShardPaths() {
+  const dataDir = join(process.cwd(), 'data');
+  if (!existsSync(dataDir)) return [];
+  return readdirSync(dataDir, { encoding: 'utf8' })
+    .filter(name => /^skills_search_index(\d+)?\.json$/.test(name))
+    .sort((a, b) => searchIndexShardSortKey(a) - searchIndexShardSortKey(b))
+    .map(name => join(dataDir, name));
+}
+
+function sha256Hex(bytes: Uint8Array) {
+  return createHash('sha256').update(bytes).digest('hex');
+}
+
+function collectVersionFileInfo(absPath: string): DataVersionFileEntry | null {
+  if (!existsSync(absPath)) return null;
+  const raw = readFileSync(absPath);
+  const prefix = raw.subarray(0, Math.min(raw.length, 8192)).toString('utf-8');
+  return {
+    path: repoRelativePath(absPath),
+    updatedAt: extractUpdatedAtFromJsonPrefix(prefix),
+    bytes: raw.byteLength,
+    sha256: sha256Hex(raw),
+  };
+}
+
+function latestUpdatedAt(values: Array<string | null | undefined>): string | null {
+  let latest: string | null = null;
+  let latestMs = -1;
+
+  for (const value of values) {
+    if (!value) continue;
+    const ms = Date.parse(value);
+    if (!Number.isFinite(ms) || ms < latestMs) continue;
+    latest = value;
+    latestMs = ms;
+  }
+
+  return latest;
+}
+
+function buildDataVersionManifest(): DataVersionManifest {
+  const dataDir = join(process.cwd(), 'data');
+
+  const skills = collectVersionFileInfo(join(dataDir, 'skills.json'));
+  const primaryIndex = collectVersionFileInfo(join(dataDir, 'skills_index.json'));
+  const feed = collectVersionFileInfo(join(dataDir, 'feed.json'));
+  const categoryIndex = collectVersionFileInfo(join(dataDir, 'skills_category_index.json'));
+  const firstSeen = collectVersionFileInfo(join(dataDir, 'skills_first_seen.json'));
+
+  const searchIndexParts = listSearchIndexShardPaths()
+    .map(collectVersionFileInfo)
+    .filter((entry): entry is DataVersionFileEntry => Boolean(entry));
+
+  let searchIndex: DataVersionFileEntry | undefined;
+  if (searchIndexParts.length > 0) {
+    const aggregate = createHash('sha256');
+    let totalBytes = 0;
+    for (const part of searchIndexParts) {
+      aggregate.update(part.path);
+      aggregate.update('\0');
+      aggregate.update(part.sha256);
+      aggregate.update('\0');
+      totalBytes += part.bytes;
+    }
+    searchIndex = {
+      path: searchIndexParts[0].path,
+      updatedAt: latestUpdatedAt(searchIndexParts.map(part => part.updatedAt)),
+      bytes: totalBytes,
+      sha256: aggregate.digest('hex'),
+      parts: searchIndexParts,
+    };
+  }
+
+  const manifest: DataVersionManifest = {
+    version: 1,
+    updatedAt: latestUpdatedAt([
+      primaryIndex?.updatedAt,
+      searchIndex?.updatedAt,
+      feed?.updatedAt,
+      categoryIndex?.updatedAt,
+      firstSeen?.updatedAt,
+      skills?.updatedAt,
+    ]),
+    skillsUpdatedAt: skills?.updatedAt ?? null,
+    primaryIndexUpdatedAt: primaryIndex?.updatedAt ?? null,
+    searchIndexUpdatedAt: searchIndex?.updatedAt ?? null,
+    feedUpdatedAt: feed?.updatedAt ?? null,
+    categoryIndexUpdatedAt: categoryIndex?.updatedAt ?? null,
+    firstSeenUpdatedAt: firstSeen?.updatedAt ?? null,
+    files: {},
+  };
+
+  if (skills) manifest.files.skills = skills;
+  if (primaryIndex) manifest.files.primaryIndex = primaryIndex;
+  if (searchIndex) manifest.files.searchIndex = searchIndex;
+  if (feed) manifest.files.feed = feed;
+  if (categoryIndex) manifest.files.categoryIndex = categoryIndex;
+  if (firstSeen) manifest.files.firstSeen = firstSeen;
+
+  return manifest;
+}
+
+function writeDataVersionManifest() {
+  const versionPath = join(process.cwd(), 'data', 'version.json');
+  const manifest = stabilizeJsonOutput(versionPath, buildDataVersionManifest());
+  writeJsonIfChanged(versionPath, manifest);
 }
 
 // Cache for repository redirects (old -> new)
@@ -648,7 +854,7 @@ function hasSkillMd(source: string, skillId: string): boolean {
 
 async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
   const providerId = data.providerId;
-  const nowIso = new Date().toISOString();
+  const nowIso = utcNowIso();
 
   // Maintain a stable first-seen timestamp mapping so the website can sort by
   // true "newest discovered" instead of the global skills_index.json updatedAt.
@@ -872,15 +1078,18 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
   // Persist the stable firstSeen mapping.
   // Keep entries for skills that disappeared from the latest crawl so history is stable.
   mkdirSync(join(process.cwd(), 'data'), { recursive: true });
-  const firstSeenOut: SkillsFirstSeenJson = {
+  const firstSeenPathValue = firstSeenPath();
+  const firstSeenOutCandidate: SkillsFirstSeenJson = {
     updatedAt: nowIso,
     items: Object.fromEntries(
       Array.from(firstSeenById.entries()).sort(([a], [b]) => a.localeCompare(b)),
     ),
   };
-  writeFileSync(firstSeenPath(), JSON.stringify(firstSeenOut, null, 2));
+  const firstSeenOut = stabilizeJsonOutput(firstSeenPathValue, firstSeenOutCandidate, ['updatedAt']);
+  writeJsonIfChanged(firstSeenPathValue, firstSeenOut);
 
-  const output = {
+  const outPath = join(process.cwd(), 'data', 'skills_index.json');
+  const outputCandidate = {
     // When the index was generated (cache-busting / debugging).
     updatedAt: nowIso,
     // When the upstream skills snapshot (data/skills.json) was updated.
@@ -889,9 +1098,8 @@ async function buildSkillsIndex(data: SkillsData, manualSkills: Skill[] = []) {
     count: items.length,
     items,
   };
-
-  const outPath = join(process.cwd(), 'data', 'skills_index.json');
-  writeFileSync(outPath, JSON.stringify(output, null, 2));
+  const output = stabilizeJsonOutput(outPath, outputCandidate, ['updatedAt']);
+  writeJsonIfChanged(outPath, output);
   console.log(`Skills index saved to: ${outPath} (${skillsWithMd.length} from skills.sh + ${manualSkillsWithMd.length} manual = ${items.length} total)`);
 }
 
@@ -1275,11 +1483,13 @@ function readSkillStatsCache(source: string, skillId: string): SkillStatsCache |
 function writeSkillStatsCache(source: string, skillId: string, weeklyInstalls: number) {
   const dir = join(process.cwd(), 'data', 'skills-md', source, skillId);
   mkdirSync(dir, { recursive: true });
+  const outPath = skillStatsAbsPath(source, skillId);
   const out: SkillStatsCache = {
-    updatedAt: new Date().toISOString(),
+    updatedAt: utcNowIso(),
     weeklyInstalls,
   };
-  writeFileSync(skillStatsAbsPath(source, skillId), JSON.stringify(out, null, 2));
+  const stable = stabilizeJsonOutput(outPath, out, ['updatedAt']);
+  writeJsonIfChanged(outPath, stable);
 }
 
 async function getCachedSkillWeeklyInstalls(
@@ -1486,6 +1696,7 @@ async function main() {
       await buildSkillsIndex(existing, manualSkills);
     }
 
+    writeDataVersionManifest();
     console.log('Index sync complete.');
     return;
   }
@@ -1534,23 +1745,22 @@ async function main() {
   }
 
   // Build output data (skills.sh only, manual skills handled separately)
-  const data: SkillsData = {
-    updatedAt: new Date().toISOString(),
+  const outputDir = join(process.cwd(), 'data');
+  if (!existsSync(outputDir)) {
+    mkdirSync(outputDir, { recursive: true });
+  }
+
+  const outputPath = join(outputDir, 'skills.json');
+  const dataCandidate: SkillsData = {
+    updatedAt: utcNowIso(),
     providerId: 'skills.sh',
     allTime,
     trending,
     hot,
   };
-  
-  // Ensure output directory exists
-  const outputDir = join(process.cwd(), 'data');
-  if (!existsSync(outputDir)) {
-    mkdirSync(outputDir, { recursive: true });
-  }
-  
-  // Write JSON file
-  const outputPath = join(outputDir, 'skills.json');
-  writeFileSync(outputPath, JSON.stringify(data, null, 2));
+
+  const data = stabilizeJsonOutput(outputPath, dataCandidate, ['updatedAt']);
+  writeJsonIfChanged(outputPath, data);
   console.log(`\nData saved to: ${outputPath}`);
 
   // Fetch SKILL.md for manual skills
@@ -1625,25 +1835,26 @@ async function main() {
   // Enrich with description fetched from GitHub SKILL.md (cached in data/skills-md/)
   await hydrateFeedDescriptions(feed);
 
-  writeFileSync(feedPath, JSON.stringify(feed, null, 2));
+  const stableFeed = stabilizeJsonOutput(feedPath, feed, ['updatedAt']);
+  writeJsonIfChanged(feedPath, stableFeed);
   console.log(`Feed saved to: ${feedPath}`);
 
   // Generate RSS feed (XML) based on changes vs previous feed.json
-  const rssItems = buildRssItemsFromDiff(previousFeed, feed);
+  const rssItems = buildRssItemsFromDiff(previousFeed, stableFeed);
 
   const rss = new Feed({
-    title: feed.title,
-    description: feed.description,
-    id: feed.link,
-    link: feed.link,
+    title: stableFeed.title,
+    description: stableFeed.description,
+    id: stableFeed.link,
+    link: stableFeed.link,
     language: 'en',
-    updated: new Date(feed.updatedAt),
+    updated: new Date(stableFeed.updatedAt),
   });
 
   // Always publish a daily snapshot item so the RSS never looks "broken" (empty),
   // even when there are no meaningful rank changes.
   // Use filtered counts (only skills with SKILL.md)
-  const snapshot = buildDailySnapshotRssItem(feed, {
+  const snapshot = buildDailySnapshotRssItem(stableFeed, {
     allTime: allTimeWithMd.length,
     trending: trendingWithMd.length,
     hot: hotWithMd.length,
@@ -1661,8 +1872,9 @@ async function main() {
   }
 
   const rssPath = join(outputDir, 'feed.xml');
-  writeFileSync(rssPath, rss.rss2());
+  writeTextIfChanged(rssPath, rss.rss2());
   console.log(`RSS saved to: ${rssPath}`);
+  writeDataVersionManifest();
 }
 
 main().catch(console.error);

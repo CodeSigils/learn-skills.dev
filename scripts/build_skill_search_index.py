@@ -22,10 +22,12 @@ Design goals:
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
+
+from data_versioning import utc_now_iso, write_version_manifest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
@@ -40,6 +42,17 @@ OUTPUT_STEM = "skills_search_index"
 OUTPUT_SUFFIX = ".json"
 OUTPUT_VERSION = 3
 SHARD_SUFFIX = "\n  }\n}\n"
+METADATA_NORMALIZATION_PATTERNS: list[tuple[re.Pattern[str], str]] = [
+    (re.compile(r'("updatedAt"\s*:\s*)"[^"]+"', re.IGNORECASE), r'\1"__STABLE_UPDATED_AT__"'),
+    (
+        re.compile(r'("sourceIndexUpdatedAt"\s*:\s*)"[^"]+"', re.IGNORECASE),
+        r'\1"__STABLE_SOURCE_INDEX_UPDATED_AT__"',
+    ),
+    (
+        re.compile(r'("sourceSkillsUpdatedAt"\s*:\s*)"[^"]+"', re.IGNORECASE),
+        r'\1"__STABLE_SOURCE_SKILLS_UPDATED_AT__"',
+    ),
+]
 
 
 @dataclass(frozen=True)
@@ -49,9 +62,11 @@ class SerializedEntry:
     size_bytes: int
 
 
-def _utc_now_iso() -> str:
-    # Keep diffs smaller and consistent with other generated JSON in this repo.
-    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+def _normalize_payload_for_compare(payload: bytes) -> bytes:
+    text = payload.decode("utf-8")
+    for pattern, replacement in METADATA_NORMALIZATION_PATTERNS:
+        text = pattern.sub(replacement, text, count=1)
+    return text.encode("utf-8")
 
 
 def _maybe_cn_path_from_en_path(repo_relative_path: Optional[str]) -> Optional[str]:
@@ -398,7 +413,7 @@ def main() -> None:
             "skillMdPath": it.get("skillMdPath"),
         }
 
-    updated_at = _utc_now_iso()
+    updated_at = utc_now_iso()
     source_index_updated_at = index.get("updatedAt")
     source_skills_updated_at = index.get("sourceUpdatedAt") or index.get("updatedAt")
     entries = [_serialize_entry(skill_id, item) for skill_id, item in sorted(by_id.items())]
@@ -410,6 +425,24 @@ def main() -> None:
     )
 
     expected_paths = {path for path, _, _ in payloads}
+    existing_paths = set(sorted(DATA_DIR.glob(f"{OUTPUT_STEM}*.json"), key=_search_index_sort_key))
+    if expected_paths == existing_paths:
+        unchanged = True
+        for path, payload, _ in payloads:
+            try:
+                existing_payload = path.read_bytes()
+            except FileNotFoundError:
+                unchanged = False
+                break
+            if _normalize_payload_for_compare(existing_payload) != _normalize_payload_for_compare(payload):
+                unchanged = False
+                break
+
+        if unchanged:
+            write_version_manifest(REPO_ROOT)
+            print(f"Search index unchanged ({len(payloads)} shard(s), {len(entries)} skills)")
+            return
+
     for path, payload, shard_count in payloads:
         path.write_bytes(payload)
         print(f"Wrote {path} ({shard_count} skills, {len(payload):,} bytes)")
@@ -419,6 +452,7 @@ def main() -> None:
             stale_path.unlink()
             print(f"Removed stale shard {stale_path}")
 
+    write_version_manifest(REPO_ROOT)
     print(f"Wrote {len(payloads)} search index shard(s) for {len(entries)} skills")
 
 
