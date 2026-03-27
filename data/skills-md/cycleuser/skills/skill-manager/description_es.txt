@@ -1,0 +1,16 @@
+Sistema central de registro y gestión de habilidades. Cargado automáticamente en cada sesión.
+
+**Se carga automáticamente al iniciar**: esta habilidad se carga automáticamente para proporcionar
+Capacidades de invocación y descubrimiento de habilidades.
+
+**Comandos:**
+- `/skills` - Lista todas las habilidades disponibles con descripciones
+- `/skill <nombre>` - Carga y activa una habilidad específica
+- `/skill reload` - Actualizar el registro de habilidades
+- `/skill help <nombre>` - Muestra ayuda detallada para una habilidad
+
+**Capacidades:**
+- Descubrimiento automático de todas las habilidades en el espacio de trabajo.
+- Invocación de habilidad unificada mediante el comando /skill
+- Registro de habilidades con metadatos y descripciones.
+- Seguimiento de versiones y gestión de dependencias.

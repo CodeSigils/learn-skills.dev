@@ -1,0 +1,4 @@
+Habilidad de extracción y agregación de noticias que utiliza un modelo paralelo de agente maestro + subagente para rastrear noticias de múltiples sitios.
+Utilice esta habilidad cuando los usuarios necesiten recopilar noticias por lotes, obtener el contenido más reciente de varios sitios web o agregar resúmenes de noticias.
+El agente maestro lee la configuración, genera un subagente para que cada sitio rastree en paralelo; los subagentes utilizan Playwright para acceder a los sitios y resumir las noticias (~50 caracteres chinos cada uno), luego el agente maestro consolida y genera los resultados.
+Invoque proactivamente esta habilidad para la recopilación de noticias, el monitoreo de contenido, la agregación de información y escenarios similares.

@@ -1,0 +1,1 @@
+Flujo de trabajo de un extremo a otro: revise los cambios, cree una confirmación japonesa por commit-jp, ejecute pnpm lint && pnpm test y luego envíe al origen por inserción. Úselo cuando el usuario quiera confirmar y publicar de una sola vez. No abre ni actualiza los PR; use create-pr-jp para eso.

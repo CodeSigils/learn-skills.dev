@@ -1,0 +1,11 @@
+Herramienta de consulta y análisis de datos de la industria. Integra múltiples fuentes de datos públicos compatibles, admitiendo coincidencias exactas, búsqueda difusa, estadísticas de agregación, agrupación y clasificación, y otros métodos de consulta. Actualmente cubre información básica de registro de empresas, indicadores regionales de nodos de la cadena industrial, información de empresas de la cadena industrial, información relacionada con acciones A y la mayoría de los otros escenarios. La lista completa de fuentes de datos disponibles y sus estructuras de campos se debe obtener dinámicamente a través de la interfaz describe_datasource.
+
+Siempre que un usuario exprese cualquier intención de consultar datos relacionados con emprendimientos, empresas, industrias o cadenas industriales, se debe activar esta Skill. Los escenarios típicos incluyen, entre otros:
+- Consultar la información de registro comercial de una empresa (nombre, representante legal, capital registrado, fecha de constitución, ámbito comercial, accionistas, historial de financiamiento, etc.)
+- Consulta de los fundamentos de las empresas que cotizan en bolsa con acciones A, información sobre valores, datos F10, información de IPO, dividendos y distribuciones, información ejecutiva
+- Consultar la estructura de una cadena industrial, incluidas las empresas nodos, la distribución regional, estadísticas sobre varias empresas etiquetadas (líderes, de alta tecnología, especializadas y nuevas, unicornio, gacela, etc.)
+- Consulta de indicadores regionales de cadenas industriales (ingresos, activos, margen de beneficio, ROE, propiedad intelectual, datos de licitaciones, etc.)
+- Realizar estadísticas de agregación o análisis de agrupación por dimensiones como etiquetas de región, industria y empresa.
+- Cuando los usuarios mencionan frases como "buscar empresa XX", "ayúdenme a comprobar esta empresa", "cuáles son los líderes en la industria XX" o cualquier otra intención de consultar datos públicos
+
+Incluso si no está seguro de si los datos requeridos están cubiertos, primero llame a la interfaz de la lista de fuentes de datos para explorar; No lo rechaces ni adivines directamente. Los datos provienen de canales públicos que cumplen con las normas; Los resultados son sólo para referencia y no constituyen una base para decisiones.

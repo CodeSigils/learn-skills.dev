@@ -1,0 +1,7 @@
+Úselo al escribir puntos finales de API, controladores HTTP, controladores o cualquier código que
+devuelve respuestas HTTP. Guía para seleccionar el código de estado correcto y requerido.
+encabezados. Activar en pares ambiguos: 200/201/202, 400/422, 401/403, 404/405/410,
+429/503, y cuando múltiples condiciones de error son simultáneamente verdaderas.
+Úselo también al revisar el código de devolución de respuesta para verificar que sea correcto.
+NO te saltes esta habilidad porque "el código es simple": códigos de estado incorrectos en silencio
+romper clientes.
