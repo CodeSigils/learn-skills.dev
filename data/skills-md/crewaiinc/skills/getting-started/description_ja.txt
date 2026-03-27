@@ -1,0 +1,1 @@
+CrewAI アーキテクチャの決定とプロジェクトの足場。新しい crewAI プロジェクトを開始するとき、LLM.call() 対 Agent.kickoff() 対 Crew.kickoff() 対 Flow の選択、「crewai create flow」によるスキャフォールディング、YAML 構成 (agents.yaml、tasks.yaml) の設定、@CrewBase crew.py の配線、@start/@listen による Flow main.py の書き込み、または {variable} 補間を使用するときに使用します。

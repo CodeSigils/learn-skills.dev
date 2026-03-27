@@ -1,0 +1,1 @@
+Quarkus の統合テストを作成または改善する必要がある場合に使用します。@QuarkusTest、自動コンテナ プロビジョニング用の Dev Services、QuarkusTestResourceLifecycleManager 経由のテストコンテナ、外部 HTTP スタブ用の WireMock、パッケージ化されたアーティファクトに対するブラック ボックス テスト用の @QuarkusIntegrationTest、REST Assured、データ分離戦略 (@TestTransaction 対 @BeforeEach クリーンアップ)、Maven などです。 Surefire/Failsafe の 3 層分割 (*テスト、*IT、*AT)。 Skills-for-Java プロジェクトの一部
