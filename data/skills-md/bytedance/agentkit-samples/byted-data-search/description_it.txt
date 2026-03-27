@@ -1,0 +1,11 @@
+Strumento di query e analisi dei dati di settore. Integra più origini dati pubbliche conformi, supportando corrispondenza esatta, ricerca fuzzy, statistiche aggregate, raggruppamento e ordinamento e altri metodi di query. Attualmente copre le informazioni di base delle imprese industriali e commerciali, gli indicatori regionali dei nodi della catena industriale, le informazioni sulle imprese della catena industriale, le informazioni relative alle azioni A e la maggior parte degli altri scenari. L'elenco completo delle origini dati disponibili e le relative strutture di campo devono essere ottenute dinamicamente tramite l'interfaccia descrive_datasource.
+
+Ogni volta che un utente esprime l'intenzione di interrogare dati su imprese, società, industrie o catene industriali, questa Abilità dovrebbe essere attivata. Gli scenari tipici includono ma non sono limitati a:
+- Interrogazione dei dati di registrazione industriale e commerciale di una società (denominazione, persona giuridica, capitale sociale, data di costituzione, ambito di attività, azionisti, storia finanziaria, ecc.)
+- Interrogazione sui fondamentali delle società quotate con azioni A, informazioni sui titoli, dati F10, informazioni sull'IPO, dividendi e distribuzioni, informazioni sui dirigenti
+- Interrogazione sulla struttura di una catena industriale, comprese le imprese nodo, distribuzione regionale, statistiche delle varie imprese contrassegnate (leader, high-tech, specializzate e nuove, unicorno, gazzella, ecc.)
+- Interrogazione degli indicatori regionali delle catene industriali (ricavi, asset, margine di profitto, ROE, proprietà intellettuale, dati sulle offerte, ecc.)
+- Esecuzione di statistiche aggregate o analisi di raggruppamento per dimensioni quali regione, settore e tag aziendali
+- Quando l'utente menziona frasi come "cerca l'azienda X", "aiutami a controllare questa azienda" o "chi sono i leader nel settore XX" o qualsiasi altro intento di interrogare dati pubblici
+
+Anche se non è sicuro se i dati richiesti siano coperti, è necessario richiamare prima l'interfaccia dell'elenco delle origini dati per esplorarli; non è consentito il rifiuto diretto o l'ipotesi. I dati provengono da canali pubblici conformi e i risultati sono solo di riferimento e non costituiscono una base per il processo decisionale.

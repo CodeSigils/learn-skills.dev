@@ -1,0 +1,16 @@
+Registro centrale delle competenze e sistema di gestione. Caricato automaticamente ad ogni sessione.
+
+**Caricamento automatico all'avvio**: questa competenza viene caricata automaticamente per fornire
+capacità di scoperta e invocazione delle competenze.
+
+**Comandi:**
+- `/skills` - Elenca tutte le competenze disponibili con le descrizioni
+- `/skill <nome>` - Carica e attiva un'abilità specifica
+- `/skill reload` - Aggiorna il registro delle competenze
+- `/skill help <name>` - Mostra la guida dettagliata per una competenza
+
+**Funzionalità:**
+- Rilevamento automatico di tutte le competenze nell'area di lavoro
+- Invocazione unificata delle abilità tramite il comando /skill
+- Registro delle competenze con metadati e descrizioni
+- Monitoraggio della versione e gestione delle dipendenze

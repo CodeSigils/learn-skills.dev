@@ -1,0 +1,4 @@
+Abilità di scraping e aggregazione di notizie: utilizza un modello parallelo master-agente più sub-agente per raccogliere notizie da più siti.
+Usalo quando gli utenti hanno bisogno di raccogliere notizie in batch, dei contenuti più recenti da diversi siti Web o di riepiloghi di notizie aggregati.
+L'agente principale legge la configurazione, genera un agente secondario per ciascun sito da analizzare in parallelo; sub-agents use Playwright to visit sites and summarize articles (~50 Chinese characters), then the master agent collates and outputs.
+Richiama in modo proattivo questa competenza per scenari di raccolta di notizie, monitoraggio dei contenuti e aggregazione di informazioni.

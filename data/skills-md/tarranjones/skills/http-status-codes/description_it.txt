@@ -1,0 +1,7 @@
+Da utilizzare durante la scrittura di endpoint API, gestori HTTP, controller o qualsiasi codice che
+restituisce risposte HTTP. Guida la selezione del codice di stato corretto e richiesto
+intestazioni. Trigger su coppie ambigue: 200/201/202, 400/422, 401/403, 404/405/410,
+429/503, e quando si verificano contemporaneamente più condizioni di errore.
+Da utilizzare anche quando si esamina la correttezza del codice di restituzione della risposta.
+NON saltare questa abilità perché "il codice è semplice": codici di stato errati silenziosamente
+rompere i clienti.
