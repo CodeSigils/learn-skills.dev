@@ -1,11 +1,11 @@
-Industry data query and analysis tool. Integrates multiple compliant public data sources, supporting exact matching, fuzzy search, aggregation statistics, grouping and sorting, and other query methods. Currently covers basic business registration data, industrial-chain node regional indicators, industrial-chain company information, A-share related data, and most other scenarios. The complete list of available data sources and their field structures must be obtained dynamically via the describe_datasource interface.
+Industry data query and analysis tool. Integrates multiple compliant public data sources, supporting exact match, fuzzy search, aggregate statistics, grouping and sorting, and other query methods. Currently covers basic information of industrial and commercial enterprises, regional indicators of industrial chain nodes, industrial chain enterprise information, A-share related information, and most other scenarios. The complete list of available data sources and their field structures must be dynamically obtained through the describe_datasource interface.
 
-Whenever a user expresses any intent to query data about enterprises, companies, industries, or industrial chains, this Skill should be triggered. Typical scenarios include but are not limited to:
-- Querying a company’s business registration information (name, legal person, registered capital, establishment date, business scope, shareholders, financing history, etc.)
-- Querying A-share listed companies’ fundamentals, securities information, F10 data, IPO information, dividends, and executive details
-- Querying the structure of an industrial chain, including node companies, regional distribution, and statistics on companies with various labels (leading, high-tech, specialized and new, unicorn, gazelle, etc.)
+Whenever a user expresses any data query intent involving companies, enterprises, industries, or industrial chains, this Skill should be triggered. Typical scenarios include but are not limited to:
+- Querying a company's industrial and commercial registration information (name, legal person, registered capital, establishment date, business scope, shareholders, financing history, etc.)
+- Querying A-share listed company fundamentals, securities information, F10 data, IPO information, dividends and distributions, executive information
+- Querying the structure of an industrial chain, including node enterprises, regional distribution, statistics of various labeled enterprises (leading, high-tech, specialized and new, unicorn, small giant, etc.)
 - Querying regional indicators of industrial chains (revenue, assets, profit margin, ROE, intellectual property, bidding data, etc.)
-- Performing aggregation statistics or grouping analysis by dimensions such as region, industry, or company labels
-- Any intent involving queries like “look up company X,” “help me check this enterprise,” or “who are the leaders in the XX industry”
+- Performing aggregate statistics or grouping analysis by dimensions such as region, industry, and enterprise labels
+- When users mention phrases like "look up a certain company," "help me check this enterprise," or "what are the leading companies in XX industry," and any other public data query intent
 
-Even if it is unclear whether the required data is covered, the data-source list interface should be called first; never refuse or guess directly. Data comes from compliant public channels; results are for reference only and do not constitute decision-making basis.
+Even if it is uncertain whether the required data is covered, the data source list interface should be called first to explore, and direct refusal or guesswork is not allowed. Data comes from compliant public channels, and the results are for reference only and do not constitute a basis for decision-making.

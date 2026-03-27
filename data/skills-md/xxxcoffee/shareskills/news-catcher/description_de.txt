@@ -1,4 +1,4 @@
-Fähigkeit zum Scraping und zur Aggregation von Nachrichten: Verwendet ein Master-Agent + Sub-Agent-Parallelmuster, um Nachrichten von mehreren Websites zu crawlen.  
-Setzen Sie es ein, wenn Benutzer Batch-News-Scraping, die neuesten Inhalte von vielen Websites oder aggregierte Nachrichten benötigen.  
-Der Master-Agent liest die Konfiguration und erzeugt einen Sub-Agenten für jede Site, die parallel gecrawlt werden soll. Unteragenten verwenden Playwright, um Websites zu besuchen und Artikel zusammenzufassen (ca. 50 chinesische Schriftzeichen), dann konsolidiert der Hauptagent die Inhalte und gibt sie aus.  
-Nutzen Sie diese Fähigkeit proaktiv für die Nachrichtensammlung, Inhaltsüberwachung und Informationsaggregation.
+Fähigkeit zum Scraping und zur Aggregation von Nachrichten, die einen Master-Agent- und Sub-Agent-Parallelmodus verwendet, um Nachrichten von mehreren Websites zu crawlen.  
+Verwenden Sie diese Fähigkeit, wenn Benutzer Nachrichten stapelweise sammeln, die neuesten Inhalte von mehreren Websites abrufen oder Nachrichtenzusammenfassungen zusammenfassen müssen.  
+Der Master-Agent liest die Konfiguration, generiert einen Sub-Agenten für jede Site, der parallel gecrawlt werden soll, und jeder Sub-Agent verwendet Playwright, um die Site zu besuchen und die Neuigkeiten zusammenzufassen (ca. 50 Zeichen); Schließlich konsolidiert der Master-Agent die Ergebnisse und gibt sie aus.  
+Nutzen Sie diese Fähigkeit proaktiv für Szenarien zur Nachrichtensammlung, Inhaltsüberwachung und Informationsaggregation.

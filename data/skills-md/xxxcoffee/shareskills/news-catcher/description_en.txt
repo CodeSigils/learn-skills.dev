@@ -1,4 +1,4 @@
-News scraping and aggregation skill: uses a master-agent + sub-agent parallel model to scrape news from multiple sites.  
-Use it when the user needs bulk news scraping, the latest content from many sites, or aggregated news.  
-The master agent reads the config, spawns a sub-agent for each site to scrape in parallel; sub-agents use Playwright to visit the site and summarize each article (~50 Chinese characters), then the master agent consolidates and outputs the results.  
-Proactively invoke this skill for news collection, content monitoring, and information aggregation.
+News scraping and aggregation skill that uses a master-agent + sub-agent parallel mode to crawl news from multiple sites.  
+Use this skill when users need to batch-scrape news, fetch the latest content from several websites, or aggregate news summaries.  
+The master agent reads the config, spawns a sub-agent for each site to crawl in parallel, and each sub-agent uses Playwright to visit the site and summarize the news (≈50 characters); finally the master agent consolidates and outputs the results.  
+Proactively invoke this skill for news collection, content monitoring, and information aggregation scenarios.

@@ -1,7 +1,7 @@
-Úselo al escribir puntos finales de API, controladores HTTP, controladores o cualquier código que
-devuelve respuestas HTTP. Guía para seleccionar el código de estado correcto y requerido.
-encabezados. Activar en pares ambiguos: 200/201/202, 400/422, 401/403, 404/405/410,
-429/503, y cuando múltiples condiciones de error son simultáneamente verdaderas.
-Úselo también al revisar el código de devolución de respuesta para verificar que sea correcto.
-NO te saltes esta habilidad porque "el código es simple": códigos de estado incorrectos en silencio
-romper clientes.
+Use when writing API endpoints, HTTP handlers, controllers, or any code that
+devuelve respuestas HTTP. Guides selection of the correct status code and required
+encabezados. Trigger on ambiguous pairs: 200/201/202, 400/422, 401/403, 404/405/410,
+429/503, and when multiple error conditions are simultaneously true.
+Also use when reviewing response-returning code for correctness.
+DO NOT skip this skill because "the code is simple" — wrong status codes silently
+break clients.
