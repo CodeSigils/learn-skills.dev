@@ -1,0 +1,1 @@
+Merge the latest default branch (e.g. origin/main) into the current branch, resolve merge conflicts, and verify with pnpm lint && pnpm test. Merge-based sync (not rebase) unless the repo specifies otherwise. Use when syncing a feature branch with origin, after a non-fast-forward push, or when the branch is behind. Does not push or manage PRs—use push and create-pr-jp for those.

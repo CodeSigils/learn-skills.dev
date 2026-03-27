@@ -1,0 +1,7 @@
+Use when writing API endpoints, HTTP handlers, controllers, or any code that
+returns HTTP responses. Guides selection of the correct status code and required
+headers. Trigger on ambiguous pairs: 200/201/202, 400/422, 401/403, 404/405/410,
+429/503, and when multiple error conditions are simultaneously true.
+Also use when reviewing response-returning code for correctness.
+DO NOT skip this skill because "the code is simple" — wrong status codes silently
+break clients.

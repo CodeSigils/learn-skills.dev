@@ -1,0 +1,1 @@
+Generates a delivery timeline from a completed milestones.yaml. Asks for a production deploy date, QA rounds, and days per QA session. Updates each milestone with estimated_days, produces timeline.yaml with a complete relative-day schedule, and appends a workback block mapping every item to a real calendar date working backwards from the production deploy date.

@@ -1,0 +1,16 @@
+Central skill registry and management system. Auto-loaded on every session.
+
+**Auto-loaded on startup** - This skill is automatically loaded to provide
+skill discovery and invocation capabilities.
+
+**Commands:**
+- `/skills` - List all available skills with descriptions
+- `/skill <name>` - Load and activate a specific skill
+- `/skill reload` - Refresh skill registry
+- `/skill help <name>` - Show detailed help for a skill
+
+**Capabilities:**
+- Auto-discovery of all skills in workspace
+- Unified skill invocation via /skill command
+- Skill registry with metadata and descriptions
+- Version tracking and dependency management
