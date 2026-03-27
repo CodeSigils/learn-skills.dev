@@ -1,0 +1,4 @@
+Compétence de récupération et d'agrégation d'actualités : utilise un modèle parallèle maître-agent + sous-agent pour extraire les actualités de plusieurs sites.
+Utilisez cette compétence lorsque les utilisateurs ont besoin d'extraire des actualités en masse, de récupérer le contenu le plus récent de plusieurs sites Web ou de résumer des actualités agrégées.
+L'agent maître lit la configuration, génère un sous-agent pour chaque site à gratter en parallèle ; chaque sous-agent accède au site avec Playwright et résume l'actualité (≈50 caractères), puis l'agent principal agrège et produit les résultats.
+Invoquez cette compétence de manière proactive pour la collecte d’actualités, la surveillance du contenu, l’agrégation d’informations et des scénarios similaires.

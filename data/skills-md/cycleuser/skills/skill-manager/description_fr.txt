@@ -1,0 +1,16 @@
+Registre central des compétences et système de gestion. Chargé automatiquement à chaque session.
+
+**Chargé automatiquement au démarrage** - Cette compétence est automatiquement chargée pour fournir
+capacités de découverte de compétences et d’invocation.
+
+**Commandes :**
+- `/skills` - Répertorie toutes les compétences disponibles avec des descriptions
+- `/skill <name>` - Charger et activer une compétence spécifique
+- `/skill reload` - Actualiser le registre des compétences
+- `/skill help <name>` - Afficher l'aide détaillée pour une compétence
+
+**Capacités :**
+- Découverte automatique de toutes les compétences dans l'espace de travail
+- Invocation de compétences unifiée via la commande /skill
+- Registre de compétences avec métadonnées et descriptions
+- Suivi des versions et gestion des dépendances
