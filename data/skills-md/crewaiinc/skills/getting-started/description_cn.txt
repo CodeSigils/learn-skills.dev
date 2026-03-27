@@ -1,0 +1,1 @@
+CrewAI 架构决策和项目脚手架。在启动新的crewAI项目时使用，在LLM.call()、Agent.kickoff()、Crew.kickoff()、Flow之间进行选择，使用“crewai create flow”搭建脚手架，设置YAML配置（agents.yaml，tasks.yaml），连接@CrewBase船员.py，使用@start/@listen编写Flow main.py，或使用{variable}插值。

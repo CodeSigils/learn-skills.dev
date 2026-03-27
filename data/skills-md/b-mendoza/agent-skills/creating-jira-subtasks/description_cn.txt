@@ -1,0 +1,1 @@
+根据之前生成的任务计划在 Jira 中创建子任务。从 docs/<TICKET_KEY>-tasks.md 读取计划，并在父票证下为每个任务创建一个 Jira 子任务。当用户说“创建子任务”、“将任务推送到 Jira”、“将计划同步到 Jira”、“创建 Jira 票证”、“为 PROJECT-1234 创建子任务”或任何有关将计划转变为 Jira 问题时使用。也由阶段 4 中的 Orchestrating-jira-workflow 技能触发。要求任务计划已存在（如果不存在，请先运行 Planning-jira-tasks）。即使用户在计划阶段后只是说“推送到 Jira”或“创建票证”，也可以使用此技能 - 这些是子任务创建请求。

@@ -1,11 +1,11 @@
-行业数据查询与分析工具。接入多种合规公开数据源，支持精确匹配、模糊搜索、聚合统计、分组排序等查询方式。当前已覆盖工商企业基本信息、产业链节点区域指标、产业链企业信息、A股相关信息以及其他等大部分场景。完整的可用数据源清单及其字段结构需通过 describe_datasource 接口动态获取。
+Industry data query and analysis tool. Integrates multiple compliant public data sources, supporting exact matching, fuzzy search, aggregation statistics, grouping and sorting, and other query methods. Currently covers basic business registration data, industrial-chain node regional indicators, industrial-chain company information, A-share related data, and most other scenarios. The complete list of available data sources and their field structures must be obtained dynamically via the describe_datasource interface.
 
-当用户提出任何涉及企业、公司、行业或产业链的数据查询意图时，都应触发此 Skill。典型场景包括但不限于：
-- 查询某家公司的工商注册信息（名称、法人、注册资本、成立日期、经营范围、股东、融资历史等）
-- 查询 A 股上市公司基本面、证券信息、F10 数据、IPO 信息、分红派息、高管信息
-- 查询某条产业链的结构，包括节点企业、区域分布、各类标签企业统计（龙头、高新、专精特新、独角兽、小巨人等）
-- 查询产业链区域指标（营收、资产、利润率、ROE、知识产权、招投标数据等）
-- 按地域、行业、企业标签等维度做聚合统计或分组分析
-- 用户提到"查一下某某公司"、"帮我看看这家企业"、"xx产业有哪些龙头"等任何公开数据查询意图
+Whenever a user expresses any intent to query data about enterprises, companies, industries, or industrial chains, this Skill should be triggered. Typical scenarios include but are not limited to:
+- Querying a company’s business registration information (name, legal person, registered capital, establishment date, business scope, shareholders, financing history, etc.)
+- Querying A-share listed companies’ fundamentals, securities information, F10 data, IPO information, dividends, and executive details
+- Querying the structure of an industrial chain, including node companies, regional distribution, and statistics on companies with various labels (leading, high-tech, specialized and new, unicorn, gazelle, etc.)
+- Querying regional indicators of industrial chains (revenue, assets, profit margin, ROE, intellectual property, bidding data, etc.)
+- Performing aggregation statistics or grouping analysis by dimensions such as region, industry, or company labels
+- Any intent involving queries like “look up company X,” “help me check this enterprise,” or “who are the leaders in the XX industry”
 
-即使无法确定所需数据是否已覆盖，也应先调用数据源列表接口探查，不可直接拒绝或猜测。数据来自合规公开渠道，结果仅供参考，不构成决策依据。
+Even if it is unclear whether the required data is covered, the data-source list interface should be called first; never refuse or guess directly. Data comes from compliant public channels; results are for reference only and do not constitute decision-making basis.

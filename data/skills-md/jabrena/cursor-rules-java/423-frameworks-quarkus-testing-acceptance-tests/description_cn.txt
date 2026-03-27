@@ -1,0 +1,1 @@
+当您需要从 Quarkus 应用程序的 Gherkin .feature 文件实现验收测试时使用 - 包括 @acceptance 场景、@QuarkusTest、用于 Testcontainers 和 WireMock 的 QuarkusTestResourceLifecycleManager 的 BaseAcceptanceTest、用于完整 HTTP 管道测试的 REST Assured、WireMock JSON 映射文件（类路径：wiremock/mappings/）、*AT 后缀命名和 Maven Surefire/Failsafe 三层拆分。需要上下文中的 .feature 文件。 java 技能项目的一部分
