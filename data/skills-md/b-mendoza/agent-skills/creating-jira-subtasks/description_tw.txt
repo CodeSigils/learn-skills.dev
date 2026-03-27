@@ -1,0 +1,1 @@
+根據先前產生的任務計劃在 Jira 中建立子任務。從 docs/<TICKET_KEY>-tasks.md 讀取計劃，並在父票證下為每個任務建立一個 Jira 子任務。當使用者說「建立子任務」、「將任務推送到 Jira」、「將計畫同步到 Jira」、「建立 Jira 票證」、「為 PROJECT-1234 建立子任務」或任何有關將計畫轉變為 Jira 問題時使用。也由階段 4 中的 Orchestrating-jira-workflow 技能觸發。要求任務計劃已存在（如果不存在，請先執行 Planning-jira-tasks）。即使用戶在計劃階段後只是說“推送到 Jira”或“創建票證”，也可以使用此技能 - 這些是子任務創建請求。
