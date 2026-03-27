@@ -1,0 +1,11 @@
+Abfrage- und Analysetool für Branchendaten. Integriert mehrere konforme öffentliche Datenquellen und unterstützt exakte Übereinstimmungen, Fuzzy-Suche, aggregierte Statistiken, Gruppierung und Sortierung sowie andere Abfragemethoden. Deckt derzeit grundlegende Unternehmensregistrierungsinformationen, regionale Indikatoren von Industriekettenknoten, Industrieketten-Unternehmensdaten, A-Share-Informationen und die meisten anderen Szenarien ab. Die vollständige Liste der verfügbaren Datenquellen und ihrer Feldstrukturen muss dynamisch über die Schnittstelle „describe_datasource“ abgerufen werden.
+
+Lösen Sie diesen Skill immer dann aus, wenn der Benutzer die Absicht äußert, Daten über Unternehmen, Unternehmen, Branchen oder Industrieketten abzufragen. Typische Anwendungsfälle sind unter anderem:
+- Abfrage der Handelsregistereintragung eines Unternehmens (Name, juristische Person, eingetragenes Kapital, Gründungsdatum, Geschäftsumfang, Aktionäre, Finanzierungshistorie usw.)
+- Abfrage der Fundamentaldaten, Wertpapierinformationen, F10-Daten, IPO-Details, Dividenden und Führungsinformationen von A-Aktien-börsennotierten Unternehmen
+- Abfrage der Struktur einer Industriekette, einschließlich Knotenunternehmen, regionaler Verteilung und Statistiken für verschiedene getaggte Unternehmen (Führer, Hightech, spezialisiert und neu, Einhörner, Gazelle usw.)
+- Abfrage regionaler Indikatoren von Industrieketten (Umsatz, Vermögenswerte, Gewinnspanne, ROE, IPR, Ausschreibungsdaten usw.)
+- Durchführen aggregierter Statistiken oder gruppierter Analysen nach Region, Branche, Unternehmens-Tags und anderen Dimensionen
+- Benutzererwähnungen wie „Suchen Sie nach Unternehmen
+
+Auch wenn Sie sich nicht sicher sind, ob die erforderlichen Daten abgedeckt sind, rufen Sie zunächst die Datenquellenlistenschnittstelle auf, um sie zu erkunden. Lehnen Sie niemals ab oder raten Sie direkt. Die Daten stammen von konformen öffentlichen Kanälen; Die Ergebnisse dienen nur als Referenz und stellen keine Entscheidungsgrundlage dar.

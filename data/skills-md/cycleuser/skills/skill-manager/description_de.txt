@@ -1,0 +1,16 @@
+Zentrales Qualifikationsregistrierungs- und Managementsystem. Wird bei jeder Sitzung automatisch geladen.
+
+**Beim Start automatisch geladen** – Dieser Skill wird automatisch geladen, um ihn bereitzustellen
+Fähigkeiten zur Erkennung und zum Aufrufen von Fähigkeiten.
+
+**Befehle:**
+- „/skills“ – Listet alle verfügbaren Fähigkeiten mit Beschreibungen auf
+- `/skill <name>` – Laden und aktivieren Sie einen bestimmten Skill
+- „/skill reload“ – Fertigkeitsregistrierung aktualisieren
+- `/skill help <name>` – Detaillierte Hilfe für einen Skill anzeigen
+
+**Fähigkeiten:**
+- Automatische Erkennung aller Fähigkeiten im Arbeitsbereich
+- Einheitlicher Skill-Aufruf über den Befehl /skill
+- Fertigkeitsregister mit Metadaten und Beschreibungen
+- Versionsverfolgung und Abhängigkeitsmanagement
