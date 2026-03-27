@@ -1,0 +1,1 @@
+@acceptance 시나리오, @QuarkusTest, Testcontainers 및 WireMock용 QuarkusTestResourceLifecycleManager를 사용한 BaseAcceptanceTest, 전체 HTTP 파이프라인 테스트를 위한 REST Assured, WireMock JSON 매핑 파일(classpath:wiremock/mappings/), *AT 접미사 이름 지정 및 Maven Surefire/Failsafe 3계층 분할을 포함하여 Quarkus 애플리케이션에 대해 Gherkin .feature 파일에서 승인 테스트를 구현해야 하는 경우 사용합니다. 컨텍스트에 따라 .feature 파일이 필요합니다. Skills-for-Java 프로젝트의 일부
