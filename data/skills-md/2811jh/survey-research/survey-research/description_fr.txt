@@ -1,5 +1,6 @@
-Analysez automatiquement les données brutes des questionnaires de bout en bout : statistiques de base (fréquence + données démographiques), tableaux croisés (comparaisons de groupes) et exploration de texte (thèmes ouverts).  
-Acceptez deux sources de données : téléchargez un CSV/Excel local ou récupérez par ID/nom depuis la plateforme d'enquête (avec nettoyage).  
-Résumé de sortie Markdown + rapport Word (par défaut), convertible en Excel/TXT.  
-Déclenchez des demandes d'analyse d'enquête, de génération de rapports, de comparaisons de groupes, d'exploration de texte ouvert ; couvre les commentaires des utilisateurs, la satisfaction, le NPS, etc.  
-Déclenchez également sur « télécharger et analyser », « nettoyer et rapporter », « extraire l'enquête 90450 », « récupérer les données d'enquête », etc.
+Analyse automatisée de bout en bout des données brutes d'enquête, couvrant les statistiques de base (distribution de fréquence + aperçu démographique), les tableaux croisés (comparaison des différences entre les groupes) et l'analyse de texte (codage thématique des réponses ouvertes).  
+Prend en charge deux sources de données : fichiers CSV/Excel locaux téléchargés par l'utilisateur ou téléchargement direct depuis la plateforme d'enquête par ID/nom d'enquête (avec nettoyage) avant analyse.  
+Produit un rapport de synthèse Markdown + un rapport d'analyse Word (par défaut), avec exportation facultative aux formats Excel/TXT.  
+Déclenché lorsque les utilisateurs demandent une analyse d'enquête, la génération de rapports de recherche d'enquête, des comparaisons de groupes ou une analyse de texte ouverte. S'active même sans le mot « enquête » pour l'analyse des données de recherche, l'analyse des commentaires des utilisateurs, l'analyse de la satisfaction, l'analyse NPS, etc.  
+Également déclenché par des commandes telles que « télécharger et analyser l'enquête », « nettoyer l'enquête puis générer le rapport », « télécharger l'enquête 90450 pour moi », « télécharger les données de l'enquête nationale », « extraire les données du système d'enquête », etc.  
+Utilisez toujours cette compétence pour des requêtes telles que « analyser cette enquête », « comparer les différences par sexe », « inclure une analyse de texte », « télécharger l'enquête 90450 puis analyser », « nettoyer et exporter l'enquête ».

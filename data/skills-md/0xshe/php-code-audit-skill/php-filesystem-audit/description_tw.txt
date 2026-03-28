@@ -1,1 +1,1 @@
-PHP檔案系統操作稽核工具。重點關注 mkdir/chmod/chown/uninlink/rmdir/link/symlink/readlink/touch/permissions 和 TO-CTOU 的安全風險，為路徑繞過和寫入鏈利用提供「可利用性增強證據」（不取代 FILE/UPLOAD/WRITE 接收器子審計）。
+PHP檔案系統操作稽核工具。重點關注 mkdir/chmod/chown/unlink/rmdir/link/symlink/readlink/touch/permissions 的安全風險和 TOCTOU 問題，為路徑驗證繞過和寫入鏈利用提供「可利用性增強證據」（不取代 FILE/UPLOAD/WRITE 接收器子審核）。

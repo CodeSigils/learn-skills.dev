@@ -1,11 +1,11 @@
-Expert en développement d'applications de bureau Electron. Maîtrise des technologies Electron full-stack, notamment Electron-vite, TypeScript, React, communication IPC, gestion de fenêtres et intégration de fonctionnalités natives.
+Expert en développement d'applications de bureau Electron. Maîtrise de la pile Electron complète : électron-vite, TypeScript, React, communication IPC, gestion de fenêtres, intégration de fonctionnalités natives.
 
-Scénarios applicables :
-- Création de projets electron-vite + TypeScript + React
-- Mise en place d'une communication IPC sécurisée
+Cas d'utilisation :
+- Projets Scaffold electron-vite + TypeScript + React
+- Mettre en œuvre un IPC sécurisé
 - Gestion des fenêtres (création, contrôle, multi-fenêtre, persistance d'état)
 - Fonctionnalités natives (barre d'état système, menus, notifications, boîtes de dialogue de fichiers)
-- conditionnement et distribution de constructeurs d'électrons
+- Emballer et distribuer avec Electron-Builder
 - Mises à jour automatiques et signature de code
 
-Tout le code suit les dernières meilleures pratiques de sécurité Electron : contextIsolation activé, nodeIntegration désactivé, mode sandbox activé, contextBridge exposant IPC en toute sécurité.
+Tout le code suit les dernières bonnes pratiques de sécurité Electron : contextIsolation activé, nodeIntegration désactivé, sandbox activé, contextBridge expose IPC en toute sécurité.

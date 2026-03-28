@@ -1,1 +1,1 @@
-Laravel 框架特定的安全性：針對常見 Laravel 功能（驗證、CS-RF、會話、批次分配和 Blade 範本）的靜態白盒審核器，將發現結果對應到現有的漏洞分類（AUTH/CSRF/LOGIC/XSS/CFG）。
+Laravel 框架功能安全審核工具。對常見的 Laravel 功能（如身份驗證、CSRF、會話、模型填充和 Blade 渲染）執行白盒靜態審計，將風險對應到現有的通用漏洞類型系統（AUTH/CSRF/LOGIC/XSS/CFG 等）。

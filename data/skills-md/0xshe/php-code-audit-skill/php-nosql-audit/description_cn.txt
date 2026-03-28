@@ -1,1 +1,1 @@
-PHP Web源码NoSQL注入审计工具。识别进入 MongoDB/DocumentDB 查询构造的用户输入，分析运算符注入（$gt/$ne/$where 等），输出分级、PoC 和修复建议（无遗漏）。
+PHP Web源码NoSQL注入审计工具。识别进入 MongoDB/DocumentDB 查询构造的用户输入，分析是否存在运算符注入（$gt/$ne/$where 等），输出严重级别、PoC 和修复建议（不允许遗漏）。

@@ -1,1 +1,1 @@
-PHP-Web-Quellcode-NoSQL-Injection-Audit-Tool. Identifiziert Benutzereingaben bei der MongoDB/DocumentDB-Abfragekonstruktion, analysiert die Operatorinjektion ($gt/$ne/$where usw.), gibt die Ausgabebewertung, den PoC und Korrekturempfehlungen aus (keine Auslassungen).
+PHP-Web-Quellcode-NoSQL-Injection-Audit-Tool. Identifiziert Benutzereingaben in die MongoDB/DocumentDB-Abfragekonstruktion, analysiert das Vorhandensein einer Operator-Injektion ($gt/$ne/$where usw.), gibt Schweregrade, PoC und Korrekturvorschläge aus (keine Auslassungen erlaubt).

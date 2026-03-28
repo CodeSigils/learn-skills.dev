@@ -1,1 +1,1 @@
-订单执行工具。严格规则：（1）所有订单必须通过nodescripts/exchange.mjs create_order下单；禁止自定义订单代码。 (2)create_order分两步：首先返回一个预览给用户展示；当用户说“confirm”后，使用confirmed=true再次运行。 (3) 禁止自动确认；禁止跳过预览。 (4) 平仓必须使用close_position；禁止使用 create_order 创建抵消订单。
+订单交易工具。严格规则：（1）所有订单必须通过nodescripts/exchange.mjs create_order执行；禁止自定义订单代码。 (2) create_order 分两步工作：第一个调用返回显示给用户确认的预览；只有在用户说“confirm”之后，才会进行第二次调用confirmed=true。 (3) 禁止自动确认；禁止跳过预览。 (4) 平仓，使用close_position；禁止使用 create_order 创建抵消订单。触发条件：‘买’、‘卖’、‘下单’、‘多’、‘空’、‘杠杆’、‘平仓’、‘买’、‘卖’、‘下单’、‘做多’、‘做空’、‘杠杆’、‘开仓’、‘平仓’、‘平掉’、‘关仓’。
