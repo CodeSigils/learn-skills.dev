@@ -1,4 +1,4 @@
-News scraping and aggregation skill that uses a master-agent + sub-agent parallel mode to crawl news from multiple sites.  
-Use this skill when users need to batch-scrape news, fetch the latest content from several websites, or aggregate news summaries.  
-The master agent reads the config, spawns a sub-agent for each site to crawl in parallel, and each sub-agent uses Playwright to visit the site and summarize the news (≈50 characters); finally the master agent consolidates and outputs the results.  
-Proactively invoke this skill for news collection, content monitoring, and information aggregation scenarios.
+新闻抓取聚合技能，使用主代理+子代理并行模式抓取多个网站新闻。
+当用户需要批量抓取新闻、获取多个网站的最新内容、新闻聚合汇总时使用此技能。
+主代理读取配置后，为每个网站创建子代理并行抓取，子代理使用 Playwright 访问网站并总结新闻内容（50字左右），最后主代理汇总输出。
+主动调用此技能进行新闻采集、内容监控、信息聚合等场景。

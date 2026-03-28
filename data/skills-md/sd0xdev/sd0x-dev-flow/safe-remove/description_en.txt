@@ -1,0 +1,1 @@
+Safely remove plugin assets (skill/command/agent/rule/script/hook) with dependency detection and reference cleanup. Use when: user says 'remove skill', 'delete command', 'deprecate', 'clean up unused', or /safe-remove. Not for: code refactoring (use /simplify), feature removal requiring architecture changes (manual).
