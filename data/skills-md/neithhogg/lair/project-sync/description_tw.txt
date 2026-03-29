@@ -1,0 +1,1 @@
+保持 PROJECT.md、JOURNAL.md、README.md 和 AI 上下文檔案（CLAUDE.md、AGENT.md、AGENTS.md）彼此準確且一致。自動讀取最近的 git 歷史記錄和文件更改，以確定已完成的內容和計劃的內容。 JOURNAL.md 是輕量級清單 - [x] 表示完成，[ ] 表示計畫。也對所有文件執行一致性傳遞以捕獲陳舊或衝突的內容。每當範圍、技術堆疊或方向改變時使用。使用 /project-sync 呼叫 — 絕不自動觸發。
