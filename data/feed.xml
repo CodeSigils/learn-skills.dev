@@ -4,579 +4,582 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 28 Mar 2026 01:55:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2026 02:07:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-28)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-03-29)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:snapshot</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:snapshot</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7779
-Trending skills: 7180
-Hot skills: 5449
-Top All Time: find-skills (751234)
-Top Trending: find-skills (15642)
-Top Hot: firebase-ai-logic (29)]]></description>
+All Time skills: 7786
+Trending skills: 7070
+Hot skills: 3038
+Top All Time: find-skills (763562)
+Top Trending: find-skills (12311)
+Top Hot: lark-shared (285)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): firebase-ai-logic]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-ai-logic</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-ai-logic</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): azure-resource-lookup]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-resource-lookup</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topAllTime:new:microsoft/azure-skills/azure-resource-lookup</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 105928
+Source: microsoft/azure-skills
+Description: List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites", "find container apps", "what resources do I have", and similar queries for any Azure resource type. USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps, list container apps, show resources, find resources, what resources do I have, list resources in resource group, list resources in subscription, find resources by tag, find orphaned resources, resource inventory, count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery, list container registries, list SQL servers, list Key Vaults, show resource groups, list app services, find resources across subscriptions, find unattached disks, tag analysis. DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources, cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): lark-shared]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-shared</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-shared</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 29
-Source: firebase/agent-skills
-Description: Official skill for integrating Firebase AI Logic (Gemini API) into web applications. Covers setup, multimodal inference, structured output, and security.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): adapt]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/adapt</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/adapt</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): lark-base]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-base</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-base</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 61
-Source: pbakaus/impeccable
-Description: Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures consistent experience across varied environments.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): firebase-hosting-basics]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-hosting-basics</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-hosting-basics</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): lark-mail]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-mail</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-mail</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 28
-Source: firebase/agent-skills
-Description: Skill for working with Firebase Hosting (Classic). Use this when you want to deploy static web apps, Single Page Apps (SPAs), or simple microservices. Do NOT use for Firebase App Hosting.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): firebase-app-hosting-basics]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-app-hosting-basics</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-app-hosting-basics</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): lark-minutes]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-minutes</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-minutes</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 28
-Source: firebase/agent-skills
-Description: Deploy and manage web apps with Firebase App Hosting. Use this skill when deploying Next.js/Angular apps with backends.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): critique]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/critique</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/critique</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): lark-whiteboard]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-whiteboard</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 61
-Source: pbakaus/impeccable
-Description: Evaluate design effectiveness from a UX perspective. Assesses visual hierarchy, information architecture, emotional resonance, and overall design quality with actionable feedback.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): extract]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/extract</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/extract</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): lark-skill-maker]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-skill-maker</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 284
+Source: larksuite/cli
+Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#15): lark-openapi-explorer]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-openapi-explorer</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 60
-Source: pbakaus/impeccable
-Description: Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse and enriches your component library.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): firebase-data-connect]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-data-connect</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-data-connect</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): lark-vc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-vc</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-vc</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 28
-Source: firebase/agent-skills
-Description: Build and deploy Firebase Data Connect backends with PostgreSQL. Use for schema design, GraphQL queries/mutations, authorization, and SDK generation for web, Android, iOS, and Flutter apps.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): normalize]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/normalize</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/normalize</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): lark-drive]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-drive</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-drive</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 284
+Source: larksuite/cli
+Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): lark-workflow-standup-report]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-standup-report</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-workflow-standup-report</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 59
-Source: pbakaus/impeccable
-Description: Normalize design to match your design system and ensure consistency]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): sql-optimization-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/sql-optimization-patterns</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:wshobson/agents/sql-optimization-patterns</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): lark-workflow-meeting-summary]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-meeting-summary</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-workflow-meeting-summary</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 12
-Source: wshobson/agents
-Description: Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): frontend-design]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/frontend-design</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/frontend-design</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): lark-im]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-im</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-im</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 65
-Source: pbakaus/impeccable
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): dotnet-backend-patterns]]></title>
-            <link>https://skills.sh/wshobson/agents/dotnet-backend-patterns</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:wshobson/agents/dotnet-backend-patterns</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): github-actions-docs]]></title>
+            <link>https://skills.sh/xixu-me/skills/github-actions-docs</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/github-actions-docs</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 12
-Source: wshobson/agents
-Description: Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures.]]></description>
+Installs: 247
+Source: xixu-me/skills
+Description: Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actions workflows, workflow syntax, triggers, matrices, runners, reusable workflows, artifacts, caching, secrets, OIDC, deployments, custom actions, or Actions Runner Controller, especially when they need official GitHub documentation, exact links, or docs-grounded YAML guidance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): nuget-manager]]></title>
-            <link>https://skills.sh/github/awesome-copilot/nuget-manager</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/nuget-manager</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): xget]]></title>
+            <link>https://skills.sh/xixu-me/skills/xget</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/xget</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 11
-Source: github/awesome-copilot
-Description: Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package versions. It enforces using `dotnet` CLI for package management and provides strict procedures for direct file edits only when updating versions.]]></description>
+Installs: 246
+Source: xixu-me/skills
+Description: Use when tasks involve Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, self-hosting, or adapting commands and config from the live README `Use Cases` section into files, environments, shells, or base URLs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): azure-deployment-preflight]]></title>
-            <link>https://skills.sh/github/awesome-copilot/azure-deployment-preflight</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/azure-deployment-preflight</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): secure-linux-web-hosting]]></title>
+            <link>https://skills.sh/xixu-me/skills/secure-linux-web-hosting</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/secure-linux-web-hosting</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 11
-Source: github/awesome-copilot
-Description: Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure to preview changes, identify potential issues, and ensure the deployment will succeed. Activate when users mention deploying to Azure, validating Bicep files, checking deployment permissions, previewing infrastructure changes, running what-if, or preparing for azd provision.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): azure-role-selector]]></title>
-            <link>https://skills.sh/github/awesome-copilot/azure-role-selector</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/azure-role-selector</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): use-my-browser]]></title>
+            <link>https://skills.sh/xixu-me/skills/use-my-browser</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/use-my-browser</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 11
-Source: github/awesome-copilot
-Description: When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when the user wants browser automation, page inspection, or web research and you need to choose between public-web tools, the live browser session, or a separate browser context, especially for signed-in, dynamic, social, or DevTools-driven pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): microsoft-code-reference]]></title>
-            <link>https://skills.sh/github/awesome-copilot/microsoft-code-reference</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/microsoft-code-reference</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): opensource-guide-coach]]></title>
+            <link>https://skills.sh/xixu-me/skills/opensource-guide-coach</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/opensource-guide-coach</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 11
-Source: github/awesome-copilot
-Description: Look up Microsoft API references, find working code samples, and verify SDK code is correct. Use when working with Azure SDKs, .NET libraries, or Microsoft APIs—to find the right method, check parameters, get working examples, or troubleshoot errors. Catches hallucinated methods, wrong signatures, and deprecated patterns by querying official docs.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): microsoft-docs]]></title>
-            <link>https://skills.sh/github/awesome-copilot/microsoft-docs</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/microsoft-docs</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): skills-cli]]></title>
+            <link>https://skills.sh/xixu-me/skills/skills-cli</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/skills-cli</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 11
-Source: github/awesome-copilot
-Description: Query official Microsoft documentation to understand concepts, find tutorials, and learn how services work. Use for Azure, .NET, Microsoft 365, Windows, Power Platform, and all Microsoft technologies. Get accurate, current information from learn.microsoft.com and other official Microsoft websites—architecture overviews, quickstarts, configuration guides, limits, and best practices.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when users ask to discover, install, list, check, update, remove, back up, restore, sync, or initialize Agent Skills, mention `bunx skills`, `npx skills`, `skills.sh`, or `skills-lock.json`, ask "find a skill for X", or want help extending agent capabilities with installable skills.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): csharp-concurrency-patterns]]></title>
-            <link>https://skills.sh/aaronontheweb/dotnet-skills/csharp-concurrency-patterns</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:aaronontheweb/dotnet-skills/csharp-concurrency-patterns</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): tzst]]></title>
+            <link>https://skills.sh/xixu-me/skills/tzst</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/tzst</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 9
-Source: aaronontheweb/dotnet-skills
-Description: Choosing the right concurrency abstraction in .NET - from async/await for I/O to Channels for producer/consumer to Akka.NET for stateful entity management. Avoid locks and manual synchronization unless absolutely necessary.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): dotnet-framework-4.8-expert]]></title>
-            <link>https://skills.sh/404kidwiz/claude-supercode-skills/dotnet-framework-4.8-expert</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:404kidwiz/claude-supercode-skills/dotnet-framework-4.8-expert</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): readme-i18n]]></title>
+            <link>https://skills.sh/xixu-me/skills/readme-i18n</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/readme-i18n</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 9
-Source: 404kidwiz/claude-supercode-skills
-Description: Legacy .NET Framework expert specializing in .NET Framework 4.8, WCF services, ASP.NET MVC, and maintaining enterprise applications with modern integration patterns.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): modern-csharp-coding-standards]]></title>
-            <link>https://skills.sh/aaronontheweb/dotnet-skills/modern-csharp-coding-standards</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:aaronontheweb/dotnet-skills/modern-csharp-coding-standards</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): openclaw-secure-linux-cloud]]></title>
+            <link>https://skills.sh/xixu-me/skills/openclaw-secure-linux-cloud</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/openclaw-secure-linux-cloud</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 9
-Source: aaronontheweb/dotnet-skills
-Description: Write modern, high-performance C# code using records, pattern matching, value objects, async/await, Span<T>/Memory<T>, and best-practice API design patterns. Emphasizes functional-style programming with C# 12+ features.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): efcore-patterns]]></title>
-            <link>https://skills.sh/aaronontheweb/dotnet-skills/efcore-patterns</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:aaronontheweb/dotnet-skills/efcore-patterns</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): running-claude-code-via-litellm-copilot]]></title>
+            <link>https://skills.sh/xixu-me/skills/running-claude-code-via-litellm-copilot</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/running-claude-code-via-litellm-copilot</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 9
-Source: aaronontheweb/dotnet-skills
-Description: Entity Framework Core best practices including NoTracking by default, query splitting for navigation collections, migration management, dedicated migration services, and common pitfalls to avoid.]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): firebase-local-env-setup]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-local-env-setup</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-local-env-setup</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): lark-doc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-doc</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-doc</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 29
-Source: firebase/agent-skills
-Description: Bare minimum setup for getting started with Firebase for the agent. This covers Node.js installation, Firebase CLI availability, login, and MCP server installation. Use this to ensure the local environment is fully prepared before using Firebase.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): appinsights-instrumentation]]></title>
-            <link>https://skills.sh/github/awesome-copilot/appinsights-instrumentation</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:github/awesome-copilot/appinsights-instrumentation</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): xdrop]]></title>
+            <link>https://skills.sh/xixu-me/skills/xdrop</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:xixu-me/skills/xdrop</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 10
-Source: github/awesome-copilot
-Description: Instrument a webapp to send useful telemetry data to Azure App Insights]]></description>
+Installs: 245
+Source: xixu-me/skills
+Description: Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): dotnet-10-csharp-14]]></title>
-            <link>https://skills.sh/mhagrelius/dotfiles/dotnet-10-csharp-14</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:mhagrelius/dotfiles/dotnet-10-csharp-14</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): extract-design-system]]></title>
+            <link>https://skills.sh/arvindrk/extract-design-system/extract-design-system</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:arvindrk/extract-design-system/extract-design-system</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 9
-Source: mhagrelius/dotfiles
-Description: Use when building .NET 10 or C# 14 applications; when using minimal APIs, modular monolith patterns, or feature folders; when implementing HTTP resilience, Options pattern, Channels, or validation; when seeing outdated patterns like old extension method syntax]]></description>
+Installs: 109
+Source: arvindrk/extract-design-system
+Description: Extract design primitives from a public website and generate starter token files for the current project.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): firecrawl-map]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-map</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-map</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): customer-research]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/customer-research</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:coreyhaines31/marketingskills/customer-research</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 21
+Source: coreyhaines31/marketingskills
+Description: When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer interviews," "survey analysis," "support ticket analysis," "voice of customer," "VOC," "build personas," "customer personas," "jobs to be done," "JTBD," "what do customers say," "what are customers struggling with," "Reddit mining," "G2 reviews," "review mining," "digital watering holes," "community research," "forum research," "competitor reviews," "customer sentiment," or "find out why customers churn/convert/buy." Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see page-cro.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): remotion-best-practices]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 120
+Source: remotion-dev/skills
+Description: Best practices for Remotion - Video creation in React]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): emil-design-eng]]></title>
+            <link>https://skills.sh/emilkowalski/skill/emil-design-eng</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:emilkowalski/skill/emil-design-eng</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 30
+Source: emilkowalski/skill
+Description: This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): next-best-practices]]></title>
+            <link>https://skills.sh/vercel-labs/next-skills/next-best-practices</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:vercel-labs/next-skills/next-best-practices</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 26
+Source: vercel-labs/next-skills
+Description: Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): dogfood]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/dogfood</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:vercel-labs/agent-browser/dogfood</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 14
+Source: vercel-labs/agent-browser
+Description: Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfood", "QA", "exploratory test", "find issues", "bug hunt", "test this app/site/platform", or review the quality of a web application. Produces a structured report with full reproduction evidence -- step-by-step screenshots, repro videos, and detailed repro steps for every issue -- so findings can be handed directly to the responsible teams.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): baoyu-infographic]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-infographic</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-infographic</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 25
-Source: firecrawl/cli
-Description: Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a specific page on a large site, list all URLs, see the site structure, find where something is on a domain, or says "map the site", "find the URL for", "what pages are on", or "list all pages". Essential when the user knows which site but not which exact page.]]></description>
+Installs: 14
+Source: jimliu/baoyu-skills
+Description: Generates professional infographics with 20 layout types and 17 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create "infographic", "信息图", "visual summary", or "可视化".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): firecrawl-download]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-download</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-download</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): xiaohongshu]]></title>
+            <link>https://skills.sh/zhjiang22/openclaw-xhs/xiaohongshu</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:zhjiang22/openclaw-xhs/xiaohongshu</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 25
-Source: firecrawl/cli
-Description: Download an entire website as local files — markdown, screenshots, or multiple formats per page. Use this skill when the user wants to save a site locally, download documentation for offline use, bulk-save pages as files, or says "download the site", "save as local files", "offline copy", "download all the docs", or "save for reference". Combines site mapping and scraping into organized local directories.]]></description>
+Installs: 7
+Source: zhjiang22/openclaw-xhs
+Description: 小红书内容工具。使用场景：
+- 搜索小红书内容
+- 获取首页推荐列表
+- 获取帖子详情（包括互动数据和评论）
+- 发表评论到帖子
+- 获取用户个人主页
+- "跟踪一下小红书上的XX热点"
+- "分析小红书上关于XX的讨论"
+- "小红书XX话题报告"
+- "生成XX的小红书舆情报告"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): antd]]></title>
-            <link>https://skills.sh/ant-design/ant-design-cli/antd</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:ant-design/ant-design-cli/antd</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): baoyu-xhs-images]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-xhs-images</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-xhs-images</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 8
-Source: ant-design/ant-design-cli
-Description: Use when the user's task involves Ant Design (antd) — writing antd components, debugging antd issues, querying antd APIs/props/tokens/demos, migrating between antd versions, or analyzing antd usage in a project. Triggers on antd-related code, imports from 'antd', or explicit antd questions.]]></description>
+Installs: 12
+Source: jimliu/baoyu-skills
+Description: Generates Xiaohongshu (Little Red Book) infographic series with 9 visual styles and 6 layouts. Breaks content into 1-10 cartoon-style images optimized for XHS engagement. Use when user mentions "小红书图片", "XHS images", "RedNote infographics", "小红书种草", or wants social media infographics for Chinese platforms.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): firebase-firestore-standard]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-firestore-standard</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-firestore-standard</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): lark-contact]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-contact</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-contact</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 29
-Source: firebase/agent-skills
-Description: Comprehensive guide for Firestore Standard Edition, including provisioning, security rules, and SDK usage. Use this skill when the user needs help setting up Firestore, writing security rules, or using the Firestore SDK in their application.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): memory-management]]></title>
-            <link>https://skills.sh/aaron-he-zhu/seo-geo-claude-skills/memory-management</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:aaron-he-zhu/seo-geo-claude-skills/memory-management</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): baoyu-markdown-to-html]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-markdown-to-html</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-markdown-to-html</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 7
-Source: aaron-he-zhu/seo-geo-claude-skills
-Description: This skill should be used when the user asks to "remember project context", "save SEO data", "track campaign progress", "store keyword data", "manage project memory", "remember this for next time", "save my keyword data", or "keep track of this campaign". Manages a two-layer memory system (hot cache + cold storage) for SEO/GEO project context, tracking keywords, competitors, metrics, and campaign status with intelligent promotion/demotion.]]></description>
+Installs: 11
+Source: jimliu/baoyu-skills
+Description: Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, and infographics. Use when user asks for "markdown to html", "convert md to html", "md转html", or needs styled HTML output from markdown.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): reference-design]]></title>
-            <link>https://skills.sh/diodeinc/pcb/reference-design</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:diodeinc/pcb/reference-design</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): baoyu-slide-deck]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-slide-deck</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-slide-deck</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 6
-Source: diodeinc/pcb
-Description: Create high-quality reference designs for electronic components in Zener. Use when building a typical application circuit, reusable subcircuit module, or reference design for an IC — including studying the datasheet, structuring the design, choosing passives, writing the README, and iterating to a working build.]]></description>
+Installs: 11
+Source: jimliu/baoyu-skills
+Description: Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to "create slides", "make a presentation", "generate deck", "slide deck", or "PPT".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): clarify]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/clarify</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/clarify</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): baoyu-translate]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-translate</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-translate</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 52
-Source: pbakaus/impeccable
-Description: Improve unclear UX copy, error messages, microcopy, labels, and instructions. Makes interfaces easier to understand and use.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to "translate", "翻译", "精翻", "translate article", "translate to Chinese/English", "改成中文", "改成英文", "convert to Chinese", "localize", "本地化", or needs any document translation. Also triggers for "refined translation", "精细翻译", "proofread translation", "快速翻译", "快翻", "这篇文章翻译一下", or when a URL or file is provided with translation intent.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): arrange]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/arrange</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/arrange</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): baoyu-post-to-weibo]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-weibo</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-post-to-weibo</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 52
-Source: pbakaus/impeccable
-Description: Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy to create intentional compositions.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to "post to Weibo", "发微博", "发布微博", "publish to Weibo", "share on Weibo", "写微博", or "微博头条文章".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): typeset]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/typeset</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/typeset</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): last30days]]></title>
+            <link>https://skills.sh/mvanhorn/last30days-skill/last30days</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:mvanhorn/last30days-skill/last30days</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 51
-Source: pbakaus/impeccable
-Description: Improve typography by fixing font choices, hierarchy, sizing, weight consistency, and readability. Makes text feel intentional and polished.]]></description>
+Installs: 7
+Source: mvanhorn/last30days-skill
+Description: Research a topic from the last 30 days on Reddit + X + Web, become an expert, and write copy-paste-ready prompts for the user's target tool.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): optimize]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/optimize</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:pbakaus/impeccable/optimize</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): baoyu-url-to-markdown]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-url-to-markdown</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-url-to-markdown</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 51
-Source: pbakaus/impeccable
-Description: Improve interface performance across loading speed, rendering, animations, images, and bundle size. Makes experiences faster and smoother.]]></description>
+Installs: 12
+Source: jimliu/baoyu-skills
+Description: Fetch any URL and convert to markdown using Chrome CDP. Supports two modes - auto-capture on page load, or wait for user signal (for pages requiring login). Use when user wants to save a webpage as markdown.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): firecrawl-scrape]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-scrape</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-scrape</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): baoyu-danger-x-to-markdown]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-danger-x-to-markdown</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-danger-x-to-markdown</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 25
-Source: firecrawl/cli
-Description: Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a URL and wants its content, says "scrape", "grab", "fetch", "pull", "get the page", "extract from this URL", or "read this webpage". Handles JS-rendered pages, multiple concurrent URLs, and returns LLM-optimized markdown. Use this instead of WebFetch for any webpage content extraction.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions "X to markdown", "tweet to markdown", "save tweet", or provides x.com/twitter.com URLs for conversion.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): firecrawl-crawl]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-crawl</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-crawl</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): baoyu-danger-gemini-web]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-danger-gemini-web</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-danger-gemini-web</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 25
-Source: firecrawl/cli
-Description: Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bulk extract", or needs content from many pages on the same site. Handles depth limits, path filtering, and concurrent extraction.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests "generate image with Gemini", "Gemini text generation", or needs vision-capable AI generation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): firecrawl-agent]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-agent</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-agent</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): baoyu-youtube-transcript]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-youtube-transcript</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-youtube-transcript</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 25
-Source: firecrawl/cli
-Description: AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the user wants structured data from websites, needs to extract pricing tiers, product listings, directory entries, or any data as JSON with a schema. Triggers on "extract structured data", "get all the products", "pull pricing info", "extract as JSON", or when the user provides a JSON schema for website data. More powerful than simple scraping for multi-page structured extraction.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to "get YouTube transcript", "download subtitles", "get captions", "YouTube字幕", "YouTube封面", "视频封面", "video thumbnail", "video cover image", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): firecrawl-browser]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-browser</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-browser</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): baoyu-compress-image]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-compress-image</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-compress-image</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 25
-Source: firecrawl/cli
-Description: Cloud browser automation for pages requiring interaction — clicks, form fills, login, pagination, infinite scroll. Use this skill when the user needs to interact with a webpage, log into a site, click buttons, fill forms, navigate multi-step flows, handle pagination, or when regular scraping fails because content requires JavaScript interaction. Triggers on "click", "fill out the form", "log in to", "paginated", "infinite scroll", "interact with the page", or "scrape failed". Provides remote Chromium sessions with persistent profiles.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to "compress image", "optimize image", "convert to webp", or reduce image file size.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): firebase-auth-basics]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-auth-basics</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-auth-basics</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): lark-wiki]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-wiki</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 29
-Source: firebase/agent-skills
-Description: Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): firecrawl-search]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-search</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firecrawl/cli/firecrawl-search</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): baoyu-comic]]></title>
+            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-comic</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:jimliu/baoyu-skills/baoyu-comic</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 25
-Source: firecrawl/cli
-Description: Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says "search for", "find me", "look up", "what are people saying about", or "find articles about". Returns real search results with optional full-page markdown — not just snippets. Provides capabilities beyond Claude's built-in WebSearch.]]></description>
+Installs: 10
+Source: jimliu/baoyu-skills
+Description: Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create "知识漫画", "教育漫画", "biography comic", "tutorial comic", or "Logicomix-style comic".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): firebase-basics]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-basics</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-basics</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): lark-task]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-task</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-task</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 29
-Source: firebase/agent-skills
-Description: Guide for setting up and using Firebase. Use this skill when the user is getting started with Firebase - setting up local environment, using Firebase for the first time, or adding Firebase to their app.]]></description>
+Installs: 285
+Source: larksuite/cli
+Description: 飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): firebase-firestore-enterprise-native-mode]]></title>
-            <link>https://skills.sh/firebase/agent-skills/firebase-firestore-enterprise-native-mode</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/firebase-firestore-enterprise-native-mode</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): lark-calendar]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-calendar</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 29
-Source: firebase/agent-skills
-Description: Comprehensive guide for Firestore enterprise native including provisioning, data model, security rules, and SDK usage. Use this skill when the user needs help setting up Firestore Enterprise with the Native mode, writing security rules, or using the Firestore SDK in their application.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): developing-genkit-dart]]></title>
-            <link>https://skills.sh/firebase/agent-skills/developing-genkit-dart</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/developing-genkit-dart</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): lark-sheets]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-sheets</link>
+            <guid isPermaLink="false">2026-03-29T02:07:12.417Z:topHot:new:larksuite/cli/lark-sheets</guid>
+            <pubDate>Sun, 29 Mar 2026 02:07:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 28
-Source: firebase/agent-skills
-Description: Generates code and provides documentation for the Genkit Dart SDK. Use when the user asks to build AI agents in Dart, use Genkit flows, or integrate LLMs into Dart/Flutter applications.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): developing-genkit-js]]></title>
-            <link>https://skills.sh/firebase/agent-skills/developing-genkit-js</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:new:firebase/agent-skills/developing-genkit-js</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 27
-Source: firebase/agent-skills
-Description: Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type errors, or API problems.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#43): teach-impeccable]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/teach-impeccable</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topTrending:new:pbakaus/impeccable/teach-impeccable</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #43
-Installs: 1444
-Source: pbakaus/impeccable
-Description: One-time setup that gathers design context for your project and saves it to your AI config file. Run once to establish persistent design guidelines.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#44): normalize]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/normalize</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topTrending:new:pbakaus/impeccable/normalize</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #44
-Installs: 1436
-Source: pbakaus/impeccable
-Description: Normalize design to match your design system and ensure consistency]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#45): extract]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/extract</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topTrending:new:pbakaus/impeccable/extract</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #45
-Installs: 1415
-Source: pbakaus/impeccable
-Description: Extract and consolidate reusable components, design tokens, and patterns into your design system. Identifies opportunities for systematic reuse and enriches your component library.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#50): colorize]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/colorize</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topTrending:new:pbakaus/impeccable/colorize</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #50
-Installs: 1366
-Source: pbakaus/impeccable
-Description: Add strategic color to features that are too monochromatic or lack visual interest. Makes interfaces more engaging and expressive.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (15 → 32): convex-migration-helper]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-migration-helper</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:rank:get-convex/agent-skills/convex-migration-helper</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #15
-Current rank: #32
-Delta: -17
-Installs: 31 (prev 43)
-Source: get-convex/agent-skills
-Description: Plan and execute Convex schema migrations safely, including adding fields, creating tables, and data transformations. Use when schema changes affect existing data.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (16 → 36): convex-performance-audit]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-performance-audit</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:rank:get-convex/agent-skills/convex-performance-audit</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #16
-Current rank: #36
-Delta: -20
-Installs: 31 (prev 43)
-Source: get-convex/agent-skills
-Description: Audit and optimize Convex application performance, covering hot path reads, write contention, subscription cost, and function limits. Use when a Convex feature is slow, reads too much data, writes too often, has OCC conflicts, or needs performance investigation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (17 → 34): convex-setup-auth]]></title>
-            <link>https://skills.sh/get-convex/agent-skills/convex-setup-auth</link>
-            <guid isPermaLink="false">2026-03-28T01:55:51.036Z:topHot:rank:get-convex/agent-skills/convex-setup-auth</guid>
-            <pubDate>Sat, 28 Mar 2026 01:55:51 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #17
-Current rank: #34
-Delta: -17
-Installs: 31 (prev 43)
-Source: get-convex/agent-skills
-Description: Set up Convex authentication with proper user management, identity mapping, and access control patterns. Use when implementing auth flows.]]></description>
+Installs: 284
+Source: larksuite/cli
+Description: 飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。]]></description>
         </item>
     </channel>
 </rss>
