@@ -1,0 +1,9 @@
+ASR (reconocimiento automático de voz): conversión de voz a texto mejorada basada en el modelo grande de Doubao, con preprocesamiento de audio, eliminación de ruido y capacidades de análisis ampliadas. API asíncrona.
+Elige esta habilidad cuando:
+- La entrada es un archivo de vídeo (mp4/mov/mkv): extrae automáticamente la pista de audio.
+- El audio necesita eliminación de ruido antes del reconocimiento.
+- El archivo supera los 512 MB o 5 horas (sin límite de tamaño)
+- La fuente de audio es una ruta interna de TOS (tos://bucket/key)
+- Necesita salida JSON estructurada con metadatos y expresiones con marca de tiempo
+- Necesita registro del hablante, detección de emociones/género, velocidad del habla o filtrado de palabras sensibles
+Admite 99 idiomas, múltiples formatos (wav/mp3/m4a/aac/flac/ogg/mp4/mov/mkv) y detección automática de idioma.

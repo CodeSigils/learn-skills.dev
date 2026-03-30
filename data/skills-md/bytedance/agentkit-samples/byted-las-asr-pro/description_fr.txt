@@ -1,0 +1,9 @@
+ASR (Automatic Speech Recognition) — synthèse vocale améliorée basée sur le grand modèle Doubao, avec des capacités de prétraitement audio, de débruitage et d'analyse étendues. API asynchrone.
+Choisissez cette compétence lorsque :
+- L'entrée est un fichier vidéo (mp4/mov/mkv) — extrait automatiquement la piste audio
+- L'audio doit être débruité avant la reconnaissance
+- Le fichier dépasse 512 Mo ou 5 heures (aucune limite de taille)
+- La source audio est un chemin interne du TOS (tos://bucket/key)
+- Besoin d'une sortie JSON structurée avec des énoncés et des métadonnées horodatés
+- Besoin d'une diarisation du locuteur, d'une détection d'émotion/genre, d'un débit de parole ou d'un filtrage de mots sensibles
+Prend en charge 99 langues, plusieurs formats (wav/mp3/m4a/aac/flac/ogg/mp4/mov/mkv) et la détection automatique de la langue.

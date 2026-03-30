@@ -1,0 +1,9 @@
+ASR (Automatic Speech Recognition) – verbesserte Spracherkennung basierend auf dem großen Doubao-Modell mit Audiovorverarbeitung, Rauschunterdrückung und erweiterten Analysefunktionen. Asynchrone API.
+Wählen Sie diese Fähigkeit, wenn:
+- Eingabe ist eine Videodatei (mp4/mov/mkv) – Audiospur wird automatisch extrahiert
+- Audio muss vor der Erkennung entrauscht werden
+- Datei überschreitet 512 MB oder 5 Stunden (keine Größenbeschränkung)
+- Audioquelle ist ein TOS-interner Pfad (tos://bucket/key)
+– Benötigen Sie eine strukturierte JSON-Ausgabe mit zeitgestempelten Äußerungen und Metadaten
+- Sie benötigen eine Sprecherdiagnose, Emotions-/Geschlechtserkennung, Sprachgeschwindigkeit oder Filterung sensibler Wörter
+Unterstützt 99 Sprachen, mehrere Formate (wav/mp3/m4a/aac/flac/ogg/mp4/mov/mkv) und automatische Spracherkennung.

@@ -1,0 +1,9 @@
+ASR (riconoscimento vocale automatico): sintesi vocale migliorata basata sul modello Doubao di grandi dimensioni, con preelaborazione audio, denoising e funzionalità di analisi estese. API asincrona.
+Scegli questa abilità quando:
+- L'input è un file video (mp4/mov/mkv): estrae automaticamente la traccia audio
+- L'audio necessita di rimozione del rumore prima del riconoscimento
+- Il file supera i 512 MB o 5 ore (nessun limite di dimensione)
+- La sorgente audio è un percorso interno TOS (tos://bucket/key)
+- È necessario un output JSON strutturato con espressioni e metadati con timestamp
+- È necessaria la diarizzazione degli oratori, il rilevamento di emozioni/genere, la velocità del parlato o il filtraggio delle parole sensibili
+Supporta 99 lingue, più formati (wav/mp3/m4a/aac/flac/ogg/mp4/mov/mkv) e rilevamento automatico della lingua.
