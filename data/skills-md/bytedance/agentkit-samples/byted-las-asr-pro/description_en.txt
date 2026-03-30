@@ -1,0 +1,9 @@
+ASR (Automatic Speech Recognition) — enhanced speech-to-text built on Doubao large model, with audio preprocessing, denoising, and extended analysis capabilities. Async API.
+Choose this skill when:
+- Input is a video file (mp4/mov/mkv) — auto-extracts audio track
+- Audio needs denoising before recognition
+- File exceeds 512MB or 5 hours (no size limit)
+- Audio source is a TOS internal path (tos://bucket/key)
+- Need structured JSON output with timestamped utterances and metadata
+- Need speaker diarization, emotion/gender detection, speech rate, or sensitive word filtering
+Supports 99 languages, multiple formats (wav/mp3/m4a/aac/flac/ogg/mp4/mov/mkv), and auto language detection.
