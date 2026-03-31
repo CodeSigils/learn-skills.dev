@@ -1,0 +1,6 @@
+Débogue et corrige systématiquement les erreurs dbt. À utiliser lorsque vous travaillez avec des erreurs dbt pour :
+(1) La tâche mentionne « correctif », « erreur », « cassé », « en échec », « débogage », « faux » ou « ne fonctionne pas ».
+(2) Une erreur de compilation, une erreur de base de données ou des échecs de test se produisent
+(3) Le modèle produit une sortie incorrecte ou des résultats inattendus
+(4) Besoin de déterminer pourquoi une commande dbt a échoué
+Lit l'erreur complète, vérifie d'abord en amont, exécute dbt build (pas seulement la compilation) pour vérifier le correctif.

@@ -1,0 +1,6 @@
+Debuggt und behebt DBT-Fehler systematisch. Verwenden Sie diese Option, wenn Sie mit dbt-Fehlern arbeiten für:
+(1) Die Aufgabe erwähnt „Fix“, „Fehler“, „kaputt“, „fehlgeschlagen“, „Debug“, „falsch“ oder „funktioniert nicht“.
+(2) Es treten Kompilierungsfehler, Datenbankfehler oder Testfehler auf
+(3) Das Modell erzeugt eine falsche Ausgabe oder unerwartete Ergebnisse
+(4) Es muss eine Fehlersuche durchgeführt werden, warum ein dbt-Befehl fehlgeschlagen ist
+Liest den vollständigen Fehler, überprüft zuerst den Upstream, führt den DBT-Build (nicht nur die Kompilierung) aus, um den Fix zu überprüfen.

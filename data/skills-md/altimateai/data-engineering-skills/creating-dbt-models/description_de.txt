@@ -1,0 +1,6 @@
+Erstellt DBT-Modelle gemäß Projektkonventionen. Verwendung bei der Arbeit mit dbt-Modellen für:
+(1) Neue Modelle erstellen (jede Ebene – erkennt zuerst die Namenskonventionen des Projekts)
+(2) Die Aufgabe erwähnt „erstellen“, „erstellen“, „hinzufügen“, „schreiben“, „neu“ oder „implementieren“ mit Modell, Tabelle oder SQL
+(3) Ändern vorhandener Modelllogik, Spalten, Verknüpfungen oder Transformationen
+(4) Implementieren eines Modells anhand der schema.yml-Spezifikationen oder der erwarteten Ausgabeanforderungen
+Erkennt Projektkonventionen vor dem Schreiben. Führt dbt build (nicht nur kompilieren) zur Überprüfung aus.

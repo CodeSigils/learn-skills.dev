@@ -1,0 +1,6 @@
+Développe et dépanne les modèles incrémentiels de DBT. À utiliser lorsque vous travaillez avec une matérialisation incrémentielle pour :
+(1) Création de nouveaux modèles incrémentiels (choix de stratégie, unique_key, partition)
+(2) La tâche mentionne "incrémental", "ajouter", "fusionner", "upsert" ou "données arrivant tardivement".
+(3) Dépannage des échecs incrémentiels (erreurs de fusion, élagage de partition, dérive de schéma)
+(4) Optimisation des performances incrémentielles ou table de décision par rapport à l'incrémentation
+Guide dans la sélection de la stratégie et gère les pièges incrémentiels courants.

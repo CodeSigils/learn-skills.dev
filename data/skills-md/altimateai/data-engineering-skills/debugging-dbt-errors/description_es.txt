@@ -1,0 +1,6 @@
+Depura y corrige errores dbt sistemáticamente. Úselo cuando trabaje con errores dbt para:
+(1) La tarea menciona "arreglar", "error", "roto", "fallando", "depurar", "incorrecto" o "no funciona"
+(2) Se producen errores de compilación, errores de base de datos o fallas de prueba
+(3) El modelo produce resultados incorrectos o resultados inesperados
+(4) Necesidad de solucionar el motivo por el que falló un comando dbt
+Lee el error completo, verifica primero el flujo ascendente, ejecuta dbt build (no solo compila) para verificar la corrección.

@@ -1,0 +1,9 @@
+CCDB-Tool zur Suche nach Kohlenstoffemissionsfaktoren. Basierend auf der Carbonstop CCDB-Datenbank werden Daten zu Kohlenstoffemissionsfaktoren über den ccdb-mcp-Server abgefragt.
+Unterstützt die Schlüsselwortsuche nach Kohlenstoffemissionsfaktoren, das Abrufen strukturierter JSON-Daten und den Vergleich mehrerer Schlüsselwörter.
+
+**Verwenden Sie diese Fähigkeit, wenn**:
+(1) Der Benutzer fragt Kohlenstoffemissionsfaktoren ab (z. B. „Stromemissionsfaktor“, „Zement-Kohlenstoffemission“, „Erdgasemissionskoeffizient“ usw.)
+(2) Der Benutzer muss Kohlenstoffemissionsberechnungen durchführen (er muss zuerst den Faktor abfragen und dann mit den Aktivitätsdaten multiplizieren).
+(3) Der Benutzer muss die Kohlenstoffemissionsfaktoren verschiedener Energiequellen/Materialien vergleichen
+(4) Der Benutzer erwähnt „CCDB“, „CO2-Emissionsfaktor“, „Emissionskoeffizient“, „CO2-Fußabdruck“, „LCA“ oder „Emissionsfaktor“.
+(5) Der Benutzer muss Daten zum CO2-Emissionsfaktor für ein bestimmtes Land/eine bestimmte Region oder ein bestimmtes Jahr abfragen

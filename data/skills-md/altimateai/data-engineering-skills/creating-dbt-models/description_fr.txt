@@ -1,0 +1,6 @@
+Crée des modèles DBT en suivant les conventions du projet. À utiliser lorsque vous travaillez avec des modèles dbt pour :
+(1) Création de nouveaux modèles (n'importe quelle couche - découvre d'abord les conventions de dénomination du projet)
+(2) La tâche mentionne "créer", "construire", "ajouter", "écrire", "nouveau" ou "implémenter" avec un modèle, une table ou SQL
+(3) Modification de la logique du modèle, des colonnes, des jointures ou des transformations existantes
+(4) Implémentation d'un modèle à partir des spécifications schema.yml ou des exigences de sortie attendues
+Découvre les conventions du projet avant d'écrire. Exécute dbt build (pas seulement la compilation) pour vérifier.

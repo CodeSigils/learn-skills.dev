@@ -1,0 +1,6 @@
+Refactoriza de forma segura modelos dbt con análisis de impacto posteriores. Úselo al reestructurar modelos DBT para:
+(1) La tarea menciona "refactorizar", "reestructurar", "extraer", "dividir", "irrumpir" o "reorganizar"
+(2) Extraer CTE a modelos intermedios o crear macros
+(3) Modificar la lógica del modelo que tiene consumidores intermedios
+(4) Cambiar el nombre de las columnas, cambiar los tipos o reorganizar las dependencias del modelo
+Analiza todas las dependencias posteriores ANTES de realizar cambios.

@@ -1,0 +1,6 @@
+Entwickelt und behebt inkrementelle DBT-Modelle. Verwendung beim Arbeiten mit inkrementeller Materialisierung für:
+(1) Erstellen neuer inkrementeller Modelle (Auswahl von Strategie, eindeutigem_Schlüssel, Partition)
+(2) Die Aufgabe erwähnt „inkrementell“, „anhängen“, „zusammenführen“, „upsert“ oder „verspätet eintreffende Daten“.
+(3) Fehlerbehebung bei inkrementellen Fehlern (Zusammenführungsfehler, Partitionsbereinigung, Schemadrift)
+(4) Optimierung der inkrementellen Leistung oder Entscheidung zwischen Tabelle und inkrementeller Leistung
+Führt durch die Strategieauswahl und behandelt häufige inkrementelle Fallstricke.

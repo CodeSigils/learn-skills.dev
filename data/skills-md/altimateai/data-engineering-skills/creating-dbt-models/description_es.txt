@@ -1,0 +1,6 @@
+Crea modelos dbt siguiendo las convenciones del proyecto. Úselo cuando trabaje con modelos dbt para:
+(1) Crear nuevos modelos (cualquier capa: primero descubre las convenciones de nomenclatura del proyecto)
+(2) La tarea menciona "crear", "compilar", "agregar", "escribir", "nuevo" o "implementar" con modelo, tabla o SQL
+(3) Modificar la lógica, las columnas, las uniones o las transformaciones del modelo existente
+(4) Implementar un modelo a partir de las especificaciones de Schema.yml o los requisitos de salida esperados
+Descubre las convenciones del proyecto antes de escribir. Ejecuta dbt build (no solo compila) para verificar.

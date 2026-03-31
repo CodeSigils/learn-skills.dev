@@ -1,0 +1,6 @@
+Konvertiert Legacy-SQL in modulare DBT-Modelle. Verwendung bei der Migration von SQL zu dbt für:
+(1) Konvertieren gespeicherter Prozeduren, Ansichten oder Roh-SQL-Dateien in DBT-Modelle
+(2) Die Aufgabe erwähnt „migrieren“, „konvertieren“, „Legacy-SQL“, „in DBT umwandeln“ oder „modernisieren“.
+(3) Monolithische Abfragen in modulare Schichten aufteilen (entdeckt zuerst Projektkonventionen)
+(4) Portierung bestehender Datenpipelines oder ETL auf DBT-Muster
+Prüft auf vorhandene Modelle/Quellen, erstellt und validiert Schicht für Schicht.

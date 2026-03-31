@@ -1,0 +1,1 @@
+當使用者想要部署和執行準備好的 AWS FIS 實驗時使用。在「執行FIS實驗」、「執行FIS實驗」、「啟動混沌實驗」、「部署FIS模板」、「啟動FIS實驗」、「運行混沌實驗」、「執行故障填充實驗」、「在[目錄]中部署並執行實驗」時觸發。需要一個準備好的實驗目錄（來自 aws-fis-experiment-prepare 或手動創建），其中包含實驗模板.json、iam-policy.json、cfn-template.yaml 和警報配置。透過CLI或CloudFormation部署資源，在嚴格的使用者確認下開始實驗，監控進度並產生結果報告。

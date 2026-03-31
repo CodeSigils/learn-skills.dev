@@ -1,0 +1,6 @@
+Ajoute des tests de schéma et une validation de la qualité des données aux modèles DBT. À utiliser lorsque vous travaillez avec des tests dbt pour :
+(1) Ajout ou modification de tests dans les fichiers schema.yml
+(2) La tâche mentionne "test", "valider", "qualité des données", "unique", "not_null" ou "accepted_values"
+(3) Assurer l'intégrité des données - clés primaires, clés étrangères, relations
+(4) Débogage des échecs des tests ou compréhension des raisons pour lesquelles le test dbt a échoué
+Fait correspondre les modèles de test du projet existants et le style YAML avant d'ajouter de nouveaux tests.

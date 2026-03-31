@@ -1,0 +1,6 @@
+Refaktorisiert DBT-Modelle sicher mit nachgelagerter Auswirkungsanalyse. Verwendung bei der Umstrukturierung von DBT-Modellen für:
+(1) Die Aufgabe erwähnt „Refactor“, „Restrukturierung“, „Extrahieren“, „Aufteilen“, „Einbrechen“ oder „Reorganisieren“.
+(2) CTEs in Zwischenmodelle extrahieren oder Makros erstellen
+(3) Modifizieren der Modelllogik, die nachgeschaltete Verbraucher hat
+(4) Spalten umbenennen, Typen ändern oder Modellabhängigkeiten neu organisieren
+Analysiert alle nachgelagerten Abhängigkeiten, BEVOR Änderungen vorgenommen werden.

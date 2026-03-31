@@ -1,0 +1,6 @@
+Convertit le SQL hérité en modèles DBT modulaires. À utiliser lors de la migration de SQL vers dbt pour :
+(1) Conversion de procédures stockées, de vues ou de fichiers SQL bruts en modèles DBT
+(2) La tâche mentionne « migrer », « convertir », « SQL hérité », « transformer en dbt » ou « moderniser »
+(3) Diviser les requêtes monolithiques en couches modulaires (découvre d'abord les conventions du projet)
+(4) Portage de pipelines de données existants ou ETL vers des modèles dbt
+Vérifie les modèles/sources existants, construit et valide couche par couche.
