@@ -1,0 +1,6 @@
+Debugs and fixes dbt errors systematically. Use when working with dbt errors for:
+(1) Task mentions "fix", "error", "broken", "failing", "debug", "wrong", or "not working"
+(2) Compilation Error, Database Error, or test failures occur
+(3) Model produces incorrect output or unexpected results
+(4) Need to troubleshoot why a dbt command failed
+Reads full error, checks upstream first, runs dbt build (not just compile) to verify fix.

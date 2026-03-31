@@ -1,0 +1,6 @@
+Adds schema tests and data quality validation to dbt models. Use when working with dbt tests for:
+(1) Adding or modifying tests in schema.yml files
+(2) Task mentions "test", "validate", "data quality", "unique", "not_null", or "accepted_values"
+(3) Ensuring data integrity - primary keys, foreign keys, relationships
+(4) Debugging test failures or understanding why dbt test failed
+Matches existing project test patterns and YAML style before adding new tests.

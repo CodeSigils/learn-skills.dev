@@ -1,0 +1,9 @@
+CCDB Carbon Emission Factor Search Tool. Based on the Carbonstop CCDB database, it queries carbon emission factor data via ccdb-mcp-server.
+Supports keyword search for carbon emission factors, retrieving structured JSON data, and multi-keyword comparisons.
+
+**Use this Skill when**:
+(1) The user queries carbon emission factors (e.g., "electricity emission factor", "cement carbon emission", "natural gas emission coefficient", etc.)
+(2) The user needs to perform carbon emission calculations (needs to query the factor first, then multiply by activity data)
+(3) The user needs to compare the carbon emission factors of different energy sources/materials
+(4) The user mentions "CCDB", "carbon emission factor", "emission coefficient", "carbon footprint", "LCA", or "emission factor"
+(5) The user needs to query carbon emission factor data for a specific country/region or a specific year
