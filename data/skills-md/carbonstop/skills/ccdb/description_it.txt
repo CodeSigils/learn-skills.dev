@@ -1,0 +1,9 @@
+Strumento di ricerca dei fattori di emissione di carbonio del CCDB. Basato sul database Carbonstop CCDB, interroga i dati sui fattori di emissione di carbonio tramite ccdb-mcp-server.
+Supporta la ricerca di parole chiave per fattori di emissione di carbonio, il recupero di dati JSON strutturati e confronti di più parole chiave.
+
+**Usa questa abilità quando**:
+(1) L'utente interroga i fattori di emissione di carbonio (ad esempio, "fattore di emissione di elettricità", "emissione di carbonio di cemento", "coefficiente di emissione di gas naturale", ecc.)
+(2) L'utente deve eseguire i calcoli delle emissioni di carbonio (deve prima interrogare il fattore, quindi moltiplicare per i dati dell'attività)
+(3) L'utente deve confrontare i fattori di emissione di carbonio di diverse fonti/materiali energetici
+(4) L'utente menziona "CCDB", "fattore di emissione di carbonio", "coefficiente di emissione", "impronta di carbonio", "LCA" o "fattore di emissione"
+(5) L'utente deve interrogare i dati sui fattori di emissione di carbonio per un paese/regione specifico o un anno specifico

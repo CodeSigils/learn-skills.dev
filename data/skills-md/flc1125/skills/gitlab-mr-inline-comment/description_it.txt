@@ -1,0 +1,1 @@
+Pubblica un singolo commento in linea su una richiesta di unione GitLab ancorandolo a una linea diff valida con `glab api`. Da utilizzare quando Codex deve inserire un commento di revisione su un file e una riga MR specifici, riutilizzando l'autenticazione `glab` esistente dell'utente e fermandosi su ancoraggi non validi invece di ricorrere a un commento generale.

@@ -1,0 +1,6 @@
+Effettua il refactoring sicuro dei modelli dbt con l'analisi dell'impatto downstream. Utilizzare durante la ristrutturazione dei modelli dbt per:
+(1) L'attività menziona "refactoring", "restructure", "extract", "split", "break into" o "reorganize"
+(2) Estrazione di CTE in modelli intermedi o creazione di macro
+(3) Modifica della logica del modello che ha consumatori a valle
+(4) Rinominare colonne, modificare tipi o riorganizzare le dipendenze del modello
+Analizza tutte le dipendenze a valle PRIMA di apportare modifiche.

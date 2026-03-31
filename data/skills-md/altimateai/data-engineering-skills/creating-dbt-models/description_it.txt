@@ -1,0 +1,6 @@
+Crea modelli dbt seguendo le convenzioni di progetto. Utilizzare quando si lavora con modelli dbt per:
+(1) Creazione di nuovi modelli (qualsiasi livello: scopre prima le convenzioni di denominazione del progetto)
+(2) L'attività menziona "crea", "build", "aggiungi", "scrivi", "nuovo" o "implementa" con modello, tabella o SQL
+(3) Modifica della logica, delle colonne, dei join o delle trasformazioni del modello esistente
+(4) Implementazione di un modello dalle specifiche schema.yml o dai requisiti di output previsti
+Scopre le convenzioni del progetto prima di scrivere. Esegue dbt build (non solo compilazione) per verificare.

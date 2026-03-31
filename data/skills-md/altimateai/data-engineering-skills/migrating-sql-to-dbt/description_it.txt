@@ -1,0 +1,6 @@
+Converte SQL legacy in modelli dbt modulari. Da utilizzare durante la migrazione da SQL a dbt per:
+(1) Conversione di procedure memorizzate, visualizzazioni o file SQL non elaborati in modelli dbt
+(2) L'attività menziona "migrazione", "conversione", "SQL legacy", "trasformazione in dbt" o "modernizzazione"
+(3) Suddivisione delle query monolitiche in livelli modulari (scopre prima le convenzioni del progetto)
+(4) Trasferimento di pipeline di dati esistenti o ETL su modelli dbt
+Verifica la presenza di modelli/fonti esistenti, crea e convalida livello per livello.

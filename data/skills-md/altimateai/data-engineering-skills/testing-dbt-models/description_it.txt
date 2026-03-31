@@ -1,0 +1,6 @@
+Aggiunge test dello schema e convalida della qualità dei dati ai modelli dbt. Utilizzare quando si lavora con test dbt per:
+(1) Aggiunta o modifica di test nei file schema.yml
+(2) L'attività menziona "test", "validate", "data qualità", "unique", "not_null" o "accepted_values"
+(3) Garantire l'integrità dei dati: chiavi primarie, chiavi esterne, relazioni
+(4) Eseguire il debug degli errori del test o comprendere il motivo per cui il test dbt non è riuscito
+Corrisponde ai modelli di test del progetto esistenti e allo stile YAML prima di aggiungere nuovi test.

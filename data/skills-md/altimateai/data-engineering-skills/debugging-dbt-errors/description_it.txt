@@ -1,0 +1,6 @@
+Esegue il debug e corregge sistematicamente gli errori dbt. Utilizzare quando si lavora con errori dbt per:
+(1) L'attività menziona "correzione", "errore", "rotto", "non riuscito", "debug", "sbagliato" o "non funzionante"
+(2) Si verificano errori di compilazione, errori del database o test non riusciti
+(3) Il modello produce output errati o risultati imprevisti
+(4) È necessario risolvere il motivo per cui un comando dbt non è riuscito
+Legge l'errore completo, controlla prima l'upstream, esegue la build dbt (non solo la compilazione) per verificare la correzione.
