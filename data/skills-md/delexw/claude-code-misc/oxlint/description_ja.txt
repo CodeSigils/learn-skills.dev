@@ -1,0 +1,1 @@
+oxc コンパイラ スタック上に構築された高性能 JavaScript/TypeScript リンターである oxlint を実行して構成します。 oxlint がインストールされているプロジェクトで作業する場合は常に、このスキルを使用してください (package.json devDependency または `.oxlintrc.json` / `oxlint.config.ts` 構成ファイル内の `oxlint` を確認してください)。これには、変更後のコードの lint 実行、lint エラーの修正、oxlint ルール/プラグインの設定、`.oxlintrc.json` の設定または変更、または ESLint からの移行が必要な場合が含まれます。
