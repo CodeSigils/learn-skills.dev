@@ -1,0 +1,1 @@
+UX/UI 团队交付Figma 屏幕后生成specs.md 和wps.md。读取最新的briefing-tech.vN.md，以交互方式收集简报中标识的每个屏幕一个 Figma URL，通过 Figma MCP 获取设计上下文，使用第 16 节（Figma 设计参考）和内联屏幕链接创建briefing-tech.v(N+1).md，然后生成specs.md（每个域的 SPEC-XX，每个域有 12 个部分和 Figma URL 内联）和 wps.md（带有依赖关系图的工作包）。一旦 UX/UI 团队共享 Figma 屏幕 URL，就在 /lf-new-feature 之后运行。接受可选功能文件夹名称作为参数。

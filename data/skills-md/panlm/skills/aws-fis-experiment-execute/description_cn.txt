@@ -1,0 +1,1 @@
+当用户想要部署和运行准备好的 AWS FIS 实验时使用。在“执行FIS实验”、“运行FIS实验”、“启动混沌实验”、“部署FIS模板”、“启动FIS实验”、“运行混沌实验”、“执行故障填充实验”、“在[目录]中部署并运行实验”时触发。需要一个准备好的实验目录（来自 aws-fis-experiment-prepare 或手动创建），其中包含实验模板.json、iam-policy.json、cfn-template.yaml 和警报配置。通过CLI或CloudFormation部署资源，在严格的用户确认下开始实验，监控进度并生成结果报告。
