@@ -1,0 +1,11 @@
+Iterative testing, verification, and improvement supervisor.
+
+Triggers when: User requests iterative testing and improvement, code quality review and assurance is needed, automated testing and feedback loops are required, or multiple rounds of refinement are specified.
+
+Commands:
+- /iterate <n> - Run n iterations of test-improve cycle
+- /iterate stop - Stop current iteration loop
+- /iterate status - Show current iteration status
+- /iterate report - Generate iteration report
+
+Capabilities: Automated test execution and result analysis, quality metrics tracking across iterations, improvement suggestion generation, convergence detection, and detailed iteration reports.
