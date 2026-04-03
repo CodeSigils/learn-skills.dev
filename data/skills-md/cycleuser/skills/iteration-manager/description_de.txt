@@ -1,0 +1,11 @@
+Leiter für iterative Tests, Verifizierung und Verbesserung.
+
+Wird ausgelöst, wenn: Der Benutzer iterative Tests und Verbesserungen anfordert, eine Überprüfung und Sicherung der Codequalität erforderlich ist, automatisierte Tests und Feedbackschleifen erforderlich sind oder mehrere Verfeinerungsrunden angegeben sind.
+
+Befehle:
+- /iterate <n> – n Iterationen des Test-Verbesserungszyklus ausführen
+- /iterate stop – Stoppt die aktuelle Iterationsschleife
+- /iterate status – Zeigt den aktuellen Iterationsstatus an
+- /iterate report – Iterationsbericht erstellen
+
+Funktionen: Automatisierte Testausführung und Ergebnisanalyse, Verfolgung von Qualitätsmetriken über Iterationen hinweg, Generierung von Verbesserungsvorschlägen, Konvergenzerkennung und detaillierte Iterationsberichte.

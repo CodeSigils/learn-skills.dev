@@ -1,0 +1,27 @@
+Sicherheitsüberprüfung der Fähigkeiten vor der Installation.
+
+Auslöser: Vor der Installation eines neuen Skills, regelmäßige Überprüfung der installierten Skills oder wenn der Verdacht besteht, dass ein Skill Sicherheitsprobleme aufweist.
+
+Sicherheitskontrollen:
+– Gefährliche Befehle: rm -rf, sudo, curl|bash usw.
+- Netzwerkanfragen: potenzielle Datenlecks
+- Dateischreibvorgänge: Schreiben an sensible Orte
+- Anmeldeinformationen: Risiko eines API-Schlüssel-/Passwortlecks
+- Ressourcenerschöpfung: Endlosschleifen
+- Privilege Escalation: Versuche, Privilegien zu eskalieren
+- Externe Abhängigkeiten: verdächtige Abhängigkeiten
+
+Befehle:
+– /security <Skill-Pfad> – Überprüfung der Skill-Sicherheit
+– /security scan <Pfad> – Tiefenscan
+- /security list – Risiken der installierten Fähigkeiten auflisten
+- /security fix <skill> – Sicherheitsprobleme beheben
+- /security <skill-path> – Englischer Befehl
+
+Aktionen:
+- Automatische Korrektur: Gefährlichen Code entfernen oder ersetzen
+- Deaktivieren: Gefährliche Funktionen deaktivieren
+- Benutzerbestätigung: Der Benutzer entscheidet, ob er fortfahren möchte
+- Blockieren: Blockieren Sie die Installation für schwere Risiken
+
+Fähigkeiten: statische Code-Analyse, Erkennung gefährlicher Muster, Risikobewertung, automatische Reparatur, benutzerinteraktive Entscheidungsfindung.
