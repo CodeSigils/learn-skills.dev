@@ -1,6 +1,6 @@
 Sicherheitsüberprüfung der Fähigkeiten vor der Installation.
 
-Auslöser: Vor der Installation eines neuen Skills, regelmäßige Überprüfung der installierten Skills oder wenn der Verdacht besteht, dass ein Skill Sicherheitsprobleme aufweist.
+Auslöser: Vor der Installation eines neuen Skills, regelmäßige Überprüfung der installierten Skills oder der Verdacht, dass ein Skill Sicherheitsprobleme aufweist.
 
 Sicherheitskontrollen:
 – Gefährliche Befehle: rm -rf, sudo, curl|bash usw.
@@ -22,6 +22,6 @@ Aktionen:
 - Automatische Korrektur: Gefährlichen Code entfernen oder ersetzen
 - Deaktivieren: Gefährliche Funktionen deaktivieren
 - Benutzerbestätigung: Der Benutzer entscheidet, ob er fortfahren möchte
-- Blockieren: Blockieren Sie die Installation für schwere Risiken
+- Blockieren: Blockieren Sie die Installation bei schwerwiegenden Risiken
 
 Fähigkeiten: statische Code-Analyse, Erkennung gefährlicher Muster, Risikobewertung, automatische Reparatur, benutzerinteraktive Entscheidungsfindung.

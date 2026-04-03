@@ -1,6 +1,6 @@
 Revisione della sicurezza per le competenze prima dell'installazione.
 
-Condizioni di attivazione: prima di installare una nuova competenza, rivedere periodicamente le competenze installate o quando si sospetta che una competenza presenti problemi di sicurezza.
+Trigger: prima di installare una nuova competenza, rivedere periodicamente le competenze installate o sospettare che una competenza presenti problemi di sicurezza.
 
 Controlli di sicurezza:
 - Comandi pericolosi: rm -rf, sudo, curl|bash, ecc.
@@ -20,8 +20,8 @@ Comandi:
 
 Azioni:
 - Correzione automatica: rimuovi o sostituisci il codice pericoloso
-- Disabilita: disabilita le funzionalità pericolose
+- Disabilita: disabilita le funzioni pericolose
 - Conferma utente: l'utente sceglie se procedere
 - Blocca: blocca l'impianto per rischi gravi
 
-Funzionalità: analisi del codice statico, riconoscimento di modelli pericolosi, valutazione del rischio, riparazione automatica, decisioni sull'interazione dell'utente.
+Funzionalità: analisi del codice statico, riconoscimento di modelli pericolosi, valutazione del rischio, riparazione automatica, processo decisionale interattivo con l'utente.

@@ -1,0 +1,5 @@
+CLI/GUI 工具的完整 Python 多项目开发规范。
+
+在以下情况下触发：创建具有 CLI 和 GUI 支持的新 Python 项目、使用 README 和 PyPI 发布设置 pyproject.toml、使用 ToolResult 模式实现统一 API、添加 OpenAI 函数调用工具集成或编写标准化测试和文档。
+
+功能：从单文件到包迁移的项目结构指导、CLI 统一标志（-V、-v、-o、--json、-q）、具有 ToolResult 数据类模式的 Python API、使用 TOOLS + 调度模式进行函数调用、具有自动屏幕截图的双语 README 文档以及具有统一测试结构的 pytest 测试。

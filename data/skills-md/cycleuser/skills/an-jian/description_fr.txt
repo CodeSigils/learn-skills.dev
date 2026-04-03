@@ -1,12 +1,12 @@
 Examen de sécurité des compétences avant l'installation.
 
-Déclencheurs : avant d'installer une nouvelle compétence, examen périodique des compétences installées ou lorsqu'une compétence est suspectée de présenter des problèmes de sécurité.
+Déclencheurs : avant d'installer une nouvelle compétence, examiner périodiquement les compétences installées ou soupçonner qu'une compétence présente des problèmes de sécurité.
 
 Contrôles de sécurité :
 - Commandes dangereuses : rm -rf, sudo, curl|bash, etc.
 - Requêtes réseau : fuite potentielle de données
 - File Writes : écriture dans des emplacements sensibles
-- Identifiants : risque d'exposition de la clé API/du mot de passe
+- Identifiants : risque de fuite de clé API/mot de passe
 - Épuisement des ressources : boucles infinies
 - Escalation de privilèges : tentatives d'élévation de privilèges
 - Dépendances externes : dépendances suspectes
@@ -20,8 +20,8 @@ Commandes :
 
 Actions :
 - Correction automatique : supprimez ou remplacez le code dangereux
-- Désactiver : désactiver les fonctionnalités dangereuses
+- Désactiver : désactiver les fonctions dangereuses
 - Confirmation de l'utilisateur : l'utilisateur choisit de continuer
-- Bloquer : bloquer l'installation pour les risques graves
+- Bloquer : bloquer l'installation en cas de risques graves
 
 Capacités : analyse de code statique, reconnaissance de formes dangereuses, évaluation des risques, réparation automatique, prise de décision interactive pour l'utilisateur.

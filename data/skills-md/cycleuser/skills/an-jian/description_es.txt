@@ -1,12 +1,12 @@
-Revisión de seguridad antes de la instalación.
+Revisión de seguridad para habilidades antes de la instalación.
 
-Desencadenantes: antes de instalar una nueva habilidad, revisar periódicamente las habilidades instaladas o sospechar un problema de seguridad con una habilidad.
+Desencadenantes: antes de instalar una nueva habilidad, revisar periódicamente las habilidades instaladas o sospechar que una habilidad tiene problemas de seguridad.
 
 Controles de seguridad:
 - Comandos peligrosos: rm -rf, sudo, curl|bash, etc.
 - Solicitudes de red: posible fuga de datos
 - Escritura de archivos: escritura en ubicaciones sensibles
-- Credenciales: riesgo de exposición de clave/contraseña API
+- Credenciales: riesgo de fuga de clave/contraseña API
 - Agotamiento de recursos: bucles infinitos
 - Escalada de privilegios: intentos de escalar privilegios
 - Dependencias Externas: dependencias sospechosas
@@ -22,6 +22,6 @@ Acciones:
 - Reparación automática: elimina o reemplaza código peligroso
 - Desactivar: desactivar funciones peligrosas
 - Confirmación del usuario: el usuario elige si desea continuar
-- Bloque: instalación de bloque para riesgos severos.
+- Bloque: instalación de bloque para riesgos graves.
 
-Capacidades: análisis de código estático, reconocimiento de patrones peligrosos, evaluación de riesgos, reparación automática, decisiones interactivas del usuario.
+Capacidades: análisis de código estático, reconocimiento de patrones peligrosos, evaluación de riesgos, reparación automática, toma de decisiones interactiva con el usuario.
