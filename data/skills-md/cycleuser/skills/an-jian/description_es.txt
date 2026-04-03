@@ -1,0 +1,27 @@
+Revisión de seguridad antes de la instalación.
+
+Desencadenantes: antes de instalar una nueva habilidad, revisar periódicamente las habilidades instaladas o sospechar un problema de seguridad con una habilidad.
+
+Controles de seguridad:
+- Comandos peligrosos: rm -rf, sudo, curl|bash, etc.
+- Solicitudes de red: posible fuga de datos
+- Escritura de archivos: escritura en ubicaciones sensibles
+- Credenciales: riesgo de exposición de clave/contraseña API
+- Agotamiento de recursos: bucles infinitos
+- Escalada de privilegios: intentos de escalar privilegios
+- Dependencias Externas: dependencias sospechosas
+
+Comandos:
+- /security <skill-path> - revisar la seguridad de las habilidades
+- /escaneo de seguridad <ruta> - escaneo profundo
+- /lista de seguridad - enumera los riesgos de las habilidades instaladas
+- /security fix <habilidad> - soluciona problemas de seguridad
+- /security <skill-path> - comando en inglés
+
+Acciones:
+- Reparación automática: elimina o reemplaza código peligroso
+- Desactivar: desactivar funciones peligrosas
+- Confirmación del usuario: el usuario elige si desea continuar
+- Bloque: instalación de bloque para riesgos severos.
+
+Capacidades: análisis de código estático, reconocimiento de patrones peligrosos, evaluación de riesgos, reparación automática, decisiones interactivas del usuario.
