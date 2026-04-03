@@ -1,0 +1,11 @@
+Superviseur des tests itératifs, de la vérification et de l’amélioration.
+
+Se déclenche lorsque : L'utilisateur demande des tests et des améliorations itératifs, une révision et une assurance de la qualité du code sont nécessaires, des tests automatisés et des boucles de rétroaction sont requis, ou plusieurs cycles de raffinement sont spécifiés.
+
+Commandes :
+- /iterate <n> - Exécuter n itérations du cycle test-amélioration
+- /iterate stop - Arrête la boucle d'itération actuelle
+- /iterate status - Afficher l'état actuel de l'itération
+- /iterate report - Générer un rapport d'itération
+
+Capacités : exécution automatisée des tests et analyse des résultats, suivi des mesures de qualité à travers les itérations, génération de suggestions d'amélioration, détection de convergence et rapports d'itération détaillés.
