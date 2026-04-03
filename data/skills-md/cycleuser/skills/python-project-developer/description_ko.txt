@@ -1,0 +1,5 @@
+CLI/GUI 도구를 위한 완전한 Python 다중 프로젝트 개발 사양입니다.
+
+트리거되는 경우: CLI 및 GUI 지원으로 새 Python 프로젝트 생성, README 및 PyPI 게시로 pyproject.toml 설정, ToolResult 패턴으로 통합 API 구현, OpenAI 함수 호출 도구 통합 추가 또는 표준화된 테스트 및 문서 작성.
+
+기능: 단일 파일에서 패키지 마이그레이션으로의 프로젝트 구조 안내, CLI 통합 플래그(-V, -v, -o, --json, -q), ToolResult 데이터 클래스 패턴이 있는 Python API, TOOLS + 디스패치 패턴을 사용한 함수 호출, 자동 스크린샷이 포함된 이중 언어 README 문서, 통합 테스트 구조를 사용한 pytest 테스트.
