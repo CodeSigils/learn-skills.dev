@@ -6,22 +6,22 @@ Security Checks:
 - Dangerous Commands: rm -rf, sudo, curl|bash, etc.
 - Network Requests: potential data leakage
 - File Writes: writing to sensitive locations
-- Credentials: risk of API key/password leakage
+- Credentials: risk of API key/password exposure
 - Resource Exhaustion: infinite loops
 - Privilege Escalation: attempts to escalate privileges
 - External Dependencies: suspicious dependencies
 
 Commands:
-- /security <skill-path> - review skill security
-- /security scan <path> - deep scan
-- /security list - list risks of installed skills
-- /security fix <skill> - fix security issues
+- /安检 <skill-path> - review skill security
+- /安检 scan <path> - deep scan
+- /安检 list - list risks of installed skills
+- /安检 fix <skill> - fix security issues
 - /security <skill-path> - English command
 
 Actions:
 - Auto-fix: remove or replace dangerous code
 - Disable: disable dangerous functions
 - User Confirm: user chooses whether to proceed
-- Block: block installation for serious risks
+- Block: block installation for severe risks
 
 Capabilities: static code analysis, dangerous pattern recognition, risk assessment, automatic repair, user-interactive decision making.
