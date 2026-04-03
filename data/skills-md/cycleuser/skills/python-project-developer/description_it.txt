@@ -1,0 +1,5 @@
+Specifiche complete di sviluppo multiprogetto Python per strumenti CLI/GUI.
+
+Si attiva quando: si crea un nuovo progetto Python con supporto CLI e GUI, si configura pyproject.toml con la pubblicazione README e PyPI, si implementa un'API unificata con il pattern ToolResult, si aggiunge l'integrazione degli strumenti di chiamata di funzioni OpenAI o si scrivono test e documentazione standardizzati.
+
+Funzionalità: guida alla struttura del progetto dalla migrazione di file singoli a pacchetti, flag unificati della CLI (-V, -v, -o, --json, -q), API Python con pattern di classi di dati ToolResult, chiamata di funzioni con TOOLS + pattern di invio, documentazione README bilingue con screenshot automatici e test pytest con struttura di test unificata.

@@ -1,0 +1,11 @@
+Supervisore di test iterativi, verifica e miglioramento.
+
+Si attiva quando: l'utente richiede test e miglioramenti iterativi, è necessaria la revisione e la garanzia della qualità del codice, sono necessari test automatizzati e cicli di feedback o vengono specificati più cicli di perfezionamento.
+
+Comandi:
+- /iterate <n> - Esegue n iterazioni del ciclo test-miglioramento
+- /iterate stop - Interrompe il ciclo di iterazione corrente
+- /iterate status - Mostra lo stato corrente dell'iterazione
+- /iterate report - Genera un report di iterazione
+
+Funzionalità: esecuzione automatizzata dei test e analisi dei risultati, monitoraggio delle metriche di qualità tra le iterazioni, generazione di suggerimenti per il miglioramento, rilevamento della convergenza e report dettagliati sulle iterazioni.

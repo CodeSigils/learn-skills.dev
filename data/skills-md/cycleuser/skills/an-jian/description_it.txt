@@ -1,0 +1,27 @@
+Revisione della sicurezza per le competenze prima dell'installazione.
+
+Condizioni di attivazione: prima di installare una nuova competenza, rivedere periodicamente le competenze installate o quando si sospetta che una competenza presenti problemi di sicurezza.
+
+Controlli di sicurezza:
+- Comandi pericolosi: rm -rf, sudo, curl|bash, ecc.
+- Richieste di rete: potenziale perdita di dati
+- Scritture di file: scrittura in posizioni sensibili
+- Credenziali: rischio di perdita di chiave API/password
+- Esaurimento delle risorse: cicli infiniti
+- Escalation dei privilegi: tenta di aumentare i privilegi
+- Dipendenze esterne: dipendenze sospette
+
+Comandi:
+- /security <skill-path> - esamina la sicurezza delle competenze
+- /security scan <percorso> - scansione approfondita
+- /security list - elenca i rischi delle competenze installate
+- /security fix <skill> - risolve i problemi di sicurezza
+- /security <percorso-skill> - comando inglese
+
+Azioni:
+- Correzione automatica: rimuovi o sostituisci il codice pericoloso
+- Disabilita: disabilita le funzionalità pericolose
+- Conferma utente: l'utente sceglie se procedere
+- Blocca: blocca l'impianto per rischi gravi
+
+Funzionalità: analisi del codice statico, riconoscimento di modelli pericolosi, valutazione del rischio, riparazione automatica, decisioni sull'interazione dell'utente.
