@@ -1370,7 +1370,7 @@ async function fetchSkillsApiPage<TSkill extends Skill>(
       : 50;
 
   // Simple retry with backoff for transient failures (429/5xx/network).
-  const maxAttempts = 4;
+  const maxAttempts = 8;
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       const response = await fetch(url, {
@@ -1386,7 +1386,20 @@ async function fetchSkillsApiPage<TSkill extends Skill>(
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        const st = response.status;
+        // Rate limit / overload: wait longer and retry without counting as hard failure yet.
+        if (st === 429 || st === 503) {
+          await response.text().catch(() => {});
+          const ra = response.headers.get('retry-after');
+          let waitMs = Math.min(120_000, 5000 * Math.pow(2, attempt - 1));
+          if (ra) {
+            const n = Number(ra);
+            if (!Number.isNaN(n)) waitMs = Math.max(waitMs, n * 1000);
+          }
+          await new Promise(r => setTimeout(r, waitMs));
+          continue;
+        }
+        throw new Error(`HTTP error! status: ${st}`);
       }
 
       const text = await response.text();
@@ -1446,7 +1459,15 @@ async function fetchSkillsApiAllPages<TSkill extends Skill>(
   const all: TSkill[] = [];
 
   for (let page = startPage; page < startPage + maxPages; page++) {
-    const res = await fetchSkillsApiPage<TSkill>(board, page);
+    let res: SkillsApiResponse<TSkill>;
+    try {
+      res = await fetchSkillsApiPage<TSkill>(board, page);
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      console.warn(`[${board}] stopping this board after error on page ${page}: ${msg}`);
+      break;
+    }
+
     const skills = Array.isArray(res.skills) ? res.skills : [];
 
     if (logEvery > 0 && page % logEvery === 0) {
@@ -1456,7 +1477,10 @@ async function fetchSkillsApiAllPages<TSkill extends Skill>(
     if (skills.length === 0) {
       // Terminal condition: API returns an empty page with hasMore=false.
       if (res.hasMore === false) break;
-      throw new Error(`[${board}] Unexpected empty page ${page} with hasMore=true`);
+      console.warn(
+        `[${board}] stopping this board: unexpected empty page ${page} with hasMore=true (keeping ${all.length} skills)`,
+      );
+      break;
     }
 
     all.push(...skills);
@@ -1707,9 +1731,27 @@ async function main() {
   console.log('Fetching: https://skills.sh/api/skills/<board>/<page>');
   console.log('Boards: all-time, trending, hot\n');
 
-  const allTime = await fetchSkillsApiAllPages<Skill>('all-time');
-  const trending = await fetchSkillsApiAllPages<Skill>('trending');
-  const hot = await fetchSkillsApiAllPages<HotSkill>('hot');
+  let allTime: Skill[] = [];
+  let trending: Skill[] = [];
+  let hot: HotSkill[] = [];
+  try {
+    allTime = await fetchSkillsApiAllPages<Skill>('all-time');
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[all-time] board failed (continuing): ${msg}`);
+  }
+  try {
+    trending = await fetchSkillsApiAllPages<Skill>('trending');
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[trending] board failed (continuing): ${msg}`);
+  }
+  try {
+    hot = await fetchSkillsApiAllPages<HotSkill>('hot');
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    console.warn(`[hot] board failed (continuing): ${msg}`);
+  }
   
   console.log(`\nCrawl completed:`);
   console.log(`- All Time: ${allTime.length} skills`);
