@@ -1,0 +1,8 @@
+Controllo remoto WeChat per Claude Code. Tre sottocomandi:
+- login: autentica l'account WeChat (scansiona il codice QR). Eseguire una volta prima del primo utilizzo
+          o dopo la scadenza della sessione.
+- allega: registra questa sessione di Claude Code come destinazione remota di WeChat.
+          Il demone del bridge viene avviato in background; controlla il file della sessione CC
+          e inoltra l'output dell'assistente a WeChat.
+- sincronizzazione: mostra la cronologia delle conversazioni di WeChat dall'ultimo allegato, per il contesto.
+Da utilizzare quando ci si allontana dal terminale e si passa a WeChat.
