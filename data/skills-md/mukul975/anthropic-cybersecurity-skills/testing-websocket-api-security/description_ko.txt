@@ -1,0 +1,1 @@
+WebSocket 업그레이드 시 인증 누락, CSWSH(Cross-Site WebSocket Hijacking), WebSocket 메시지를 통한 주입 공격, 불충분한 입력 유효성 검사, 메시지 플러딩을 통한 서비스 거부, WebSocket 프레임을 통한 정보 유출 등 보안 취약성에 대해 WebSocket API 구현을 테스트합니다. 테스터는 Burp Suite를 사용하여 WebSocket 핸드셰이크와 메시지를 가로채고, 악성 페이로드를 제작하고, WebSocket 채널에서 인증 우회를 테스트합니다. WebSocket 보안 테스트, WS 침투 테스트, CSWSH 공격 또는 실시간 API 보안 평가와 관련된 요청에 대해 활성화됩니다.
