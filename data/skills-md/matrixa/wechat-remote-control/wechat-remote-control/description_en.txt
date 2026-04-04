@@ -1,0 +1,8 @@
+WeChat Remote Control for Claude Code. Three sub-commands:
+- login:  Authenticate WeChat account (scan QR code). Run once before first use
+          or after session expiry.
+- attach: Register this Claude Code session as the WeChat remote target.
+          Bridge daemon starts in background; it watches the CC session file
+          and forwards assistant output to WeChat.
+- sync:   Show WeChat conversation history since last attach, for context.
+Use when stepping away from the terminal and handing off to WeChat.
