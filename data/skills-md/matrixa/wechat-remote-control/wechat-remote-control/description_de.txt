@@ -1,0 +1,8 @@
+WeChat-Fernbedienung für Claude Code. Drei Unterbefehle:
+- Login: WeChat-Konto authentifizieren (QR-Code scannen). Vor dem ersten Gebrauch einmal laufen lassen
+          oder nach Ablauf der Sitzung.
+- anhängen: Registrieren Sie diese Claude Code-Sitzung als WeChat-Remote-Ziel.
+          Der Bridge-Daemon startet im Hintergrund. Es überwacht die CC-Sitzungsdatei
+          und leitet die Assistentenausgabe an WeChat weiter.
+- Synchronisierung: Zeigt den WeChat-Konversationsverlauf seit dem letzten Anhang für den Kontext an.
+Verwenden Sie diese Option, wenn Sie sich vom Terminal entfernen und an WeChat übergeben.
