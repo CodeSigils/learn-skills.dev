@@ -1,0 +1,1 @@
+測試 WebSocket API 實現的安全漏洞，包括 WebSocket 升級時缺少身份驗證、跨站點 WebSocket 劫持 (CSWSH)、透過 WebSocket 訊息的注入攻擊、輸入驗證不足、透過訊息泛洪造成的拒絕服務以及透過 WebSocket 幀的資訊洩漏。測試人員使用 Burp Suite 攔截 WebSocket 握手和訊息，製作惡意負載，並測試 WebSocket 通道上的授權繞過。針對涉及 WebSocket 安全性測試、WS 滲透測試、CSWSH 攻擊或即時 API 安全評估的請求啟動。
