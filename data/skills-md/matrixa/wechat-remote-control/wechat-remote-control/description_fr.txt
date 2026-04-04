@@ -1,0 +1,8 @@
+Télécommande WeChat pour Claude Code. Trois sous-commandes :
+- connexion : Authentifier le compte WeChat (scanner le code QR). Exécuter une fois avant la première utilisation
+          ou après l'expiration de la session.
+- joindre : enregistrez cette session Claude Code en tant que cible distante WeChat.
+          Le démon Bridge démarre en arrière-plan ; il regarde le fichier de session CC
+          et transmet la sortie de l'assistant à WeChat.
+- synchronisation : afficher l'historique des conversations WeChat depuis la dernière connexion, pour le contexte.
+À utiliser lorsque vous vous éloignez du terminal et que vous le transmettez à WeChat.
