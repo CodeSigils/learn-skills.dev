@@ -1,1 +1,1 @@
-Address-book member query skill: retrieves members within the current user's visible scope, supports local filtering by name/alias. Returns userid, name, and alias. ⚠️ Only members the current user has permission to view are returned, not the full list.
+Contact member query skill: retrieves the members of the address book visible to the current user, supporting local filtering by name or alias. Returns userid, name, and alias. ⚠️ Only members the current user is authorized to view are returned; not the full list.
