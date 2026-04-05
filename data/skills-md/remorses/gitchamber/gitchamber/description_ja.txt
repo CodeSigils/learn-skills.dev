@@ -1,0 +1,1 @@
+CLI を使用して、npm パッケージ、PyPI パッケージ、クレート、または GitHub リポジトリのソース コードを分析のために node_modules/.gitchamber/ にダウンロードします。パッケージの内部動作、ドキュメント、サンプル、またはソース コードを読む必要がある場合に使用します。ゼロ設定の gitignore/vitest/tsc 互換性のために、node_modules/ に保存する opensrc の代替。フェッチした後、grep、read、その他のツールを使用してファイルを分析します。
