@@ -1,0 +1,1 @@
+用于将 npm 包、PyPI 包、板条箱或 GitHub 存储库源代码下载到 node_modules/.gitchamber/ 中进行分析的 CLI。当您需要阅读包的内部工作原理、文档、示例或源代码时使用。存储在 node_modules/ 中的 opensrc 的替代方案，以实现零配置 gitignore/vitest/tsc 兼容性。获取后，使用grep、read等工具分析文件。

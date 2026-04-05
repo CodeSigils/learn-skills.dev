@@ -1,0 +1,1 @@
+设置 Enonic XP 事件侦听器、Webhook 配置以及由内容生命周期事件触发的外部系统集成。涵盖 lib-event 监听器注册、节点事件过滤、通过 com.enonic.xp.webhooks.cfg 进行出站 Webhook 配置、用于入站 Webhook 的自定义 HTTP 服务控制器、使用 lib-task 进行基于任务的异步处理以及使用 lib-httpClient 进行出站 HTTP 调用。在侦听内容发布/创建/更新/删除事件、配置出站 Webhook、为入站 Webhook 构建 HTTP 服务端点或触发内容更改的异步处理时使用。请勿用于内容查询、前端组件开发、非 Enonic 事件系统或 GitHub Webhook 配置。
