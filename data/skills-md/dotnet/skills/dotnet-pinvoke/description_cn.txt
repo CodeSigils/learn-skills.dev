@@ -1,0 +1,1 @@
+使用 P/Invoke 和 LibraryImport 从 .NET 正确调用本机 (C/C++) 库。涵盖函数签名、字符串编组、内存生命周期、SafeHandle 和跨平台模式。用途：编写新的 P/Invoke 或 LibraryImport 声明、检查或调试现有本机互操作代码、包装 C 或 C++ 库以在 .NET 中使用、诊断托管/本机边界处的崩溃、内存泄漏或损坏。请勿用于：COM 互操作、C++/CLI 混合模式程序集或没有本机依赖项的纯托管代码。

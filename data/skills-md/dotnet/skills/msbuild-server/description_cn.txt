@@ -1,0 +1,1 @@
+使用 MSBuild Server 提高 CLI 构建性能的指南。仅在 MSBuild/.NET 构建上下文中激活。当开发人员从命令行报告增量构建缓慢，或者 CLI 构建明显慢于 IDE 构建时激活。涵盖用于基于服务器的持久缓存的 MSBUILDUSESERVER=1 环境变量。不要激活基于 IDE 的构建（Visual Studio 已使用长期进程）。

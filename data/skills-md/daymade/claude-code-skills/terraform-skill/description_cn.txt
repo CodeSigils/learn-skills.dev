@@ -1,0 +1,1 @@
+Terraform 配置者的操作陷阱、多环境隔离和零部署可靠性。涵盖配置程序计时竞赛、SSH 连接冲突、DNS 记录重复、卷权限、数据库引导间隙、快照交叉污染、Cloudflare 凭证格式错误、Caddyfiles/compose 中的硬编码域以及首次启动时仅初始化数据陷阱。在编写 null_resource 配置程序、创建多环境 Terraform 设置、调试 terraform 应用后重新启动/运行状况不佳的容器、使用 cloud-init 设置新实例或通过 SSH 连接到远程主机的任何 IaC 代码时激活。当用户提及 terraform 计划/应用错误、配置程序故障、基础设施漂移、TLS 证书错误或 Caddy/网关配置时也会激活。

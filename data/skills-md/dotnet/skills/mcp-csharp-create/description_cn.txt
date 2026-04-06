@@ -1,0 +1,1 @@
+使用 C# SDK 和 .NET 项目模板创建 MCP 服务器。涵盖 stdio 和 HTTP 的脚手架、工具/提示/资源实现以及传输配置。用途：创建新的 MCP 服务器项目、使用 dotnet new mcpserver 搭建脚手架、添加 MCP 工具/提示/资源、选择 stdio 与 HTTP 传输、在 Program.cs 中配置 MCP 托管、使用 MapMcp 设置 ASP.NET Core MCP 端点。请勿用于：调试或运行现有服务器（使用 mcp-csharp-debug）、编写测试（使用 mcp-csharp-test）、发布或部署（使用 mcp-csharp-publish）、构建 MCP 客户端、非 .NET MCP 服务器。

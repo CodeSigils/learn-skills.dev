@@ -1,0 +1,1 @@
+使用 Directory.Packages.props 将 .NET 项目和解决方案（.sln、.slnx）转换为 NuGet Central Package Management (CPM)。用途：转换为 CPM、跨多个项目集中或对齐 NuGet 包版本、将 MSBuild 版本属性从 Directory.Build.props 内联到 Directory.Packages.props、解决解决方案或存储库中的版本冲突或不匹配、跨项目更新、碰撞或同步包版本。当软件包不同步、漂移或不一致时，即使用户没有提及 CPM，也可以激活。提供基线构建捕获、版本冲突解决、通过二进制日志比较进行构建验证以及结构化的转换后报告。请勿用于：packages.config 项目（必须首先迁移到 PackageReference）或已完全启用 CPM 的存储库。

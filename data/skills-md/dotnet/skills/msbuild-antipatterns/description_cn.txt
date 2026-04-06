@@ -1,0 +1,1 @@
+包含检测规则和修复方法的 MSBuild 反模式目录。仅在 MSBuild/.NET 构建上下文中激活。用途：检查、审核或清理 .csproj、.vbproj、.fsproj、.props、.targets 或 .proj 文件。每个反模式都有一个症状、解释和具体的“坏”→“好”转换。涵盖 Exec-instead-of-built-in 任务、不带引号的条件、硬编码路径、重述 SDK 默认值、分散的包版本等。请勿用于：非 MSBuild 构建系统（npm、Maven、CMake 等）、项目迁移到 SDK 样式（使用 msbuild-modernization）。

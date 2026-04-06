@@ -1,0 +1,1 @@
+通过系统地解决 IL 修剪/AOT 分析器警告，使 .NET 项目与本机 AOT 和修剪兼容。用途：使项目与 AOT 兼容、修复修剪警告、解决 IL 警告（IL2026、IL2070、IL2067、IL2072、IL3050）、添加 DynamicallyAccessedMembers 注释、启用 IsAotCompatible。请勿用于：发布本机 AOT 二进制文件、优化二进制文件大小、用替代方案替换反射密集型库。调用：没有工具——纯粹的知识技能。
