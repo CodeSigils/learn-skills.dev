@@ -1,0 +1,1 @@
+useStaticEffectEvent hook in Supabase Studio — a userland polyfill for React's useEffectEvent. Use when you need to read latest state/props inside a useEffect without re-triggering it, or when stale closures in Effects are causing bugs.
