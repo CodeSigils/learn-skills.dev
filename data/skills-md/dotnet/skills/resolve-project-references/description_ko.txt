@@ -1,0 +1,1 @@
+MSBuild 성능 요약에서 ResolveProjectReferences 시간을 해석하기 위한 가이드입니다. MSBuild/.NET 빌드 컨텍스트에서만 활성화하세요. ResolveProjectReferences가 가장 비용이 많이 드는 대상으로 나타나고 개발자가 이를 직접 최적화하려고 할 때 활성화하십시오. 보고된 시간에는 종속 프로젝트 빌드에 대한 대기 시간이 포함되어 있으며 오해의 소지가 있다고 설명합니다. 대신 사용자가 작업 자체 시간에 집중하도록 안내합니다. 일반 빌드 성능을 위해 활성화하지 마세요. 대신 build-perf-diagnostics를 사용하세요.

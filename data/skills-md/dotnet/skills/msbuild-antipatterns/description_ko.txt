@@ -1,0 +1,1 @@
+검색 규칙 및 수정 레시피가 포함된 MSBuild 안티 패턴 카탈로그입니다. MSBuild/.NET 빌드 컨텍스트에서만 활성화하세요. 사용 대상: .csproj, .vbproj, .fsproj, .props, .targets 또는 .proj 파일 검토, 감사 또는 정리. 각 안티패턴에는 증상, 설명, 구체적인 BAD→GOOD 변환이 있습니다. 내장 작업 대신 실행, 인용되지 않은 조건, 하드코딩된 경로, SDK 기본값 재설정, 분산된 패키지 버전 등을 다룹니다. 사용하지 마십시오: MSBuild가 아닌 빌드 시스템(npm, Maven, CMake 등), SDK 스타일로의 프로젝트 마이그레이션(msbuild-modernization 사용)
