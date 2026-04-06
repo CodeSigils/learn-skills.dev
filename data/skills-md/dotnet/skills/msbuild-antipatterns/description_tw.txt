@@ -1,0 +1,1 @@
+包含偵測規則和修復方法的 MSBuild 反模式目錄。僅在 MSBuild/.NET 建置上下文中啟動。用途：檢查、審核或清理 .csproj、.vbproj、.fsproj、.props、.targets 或 .proj 檔案。每個反模式都有一個症狀、解釋和具體的「壞」→「好」轉換。涵蓋 Exec-instead-of-built-in 任務、不含引號的條件、硬編碼路徑、重述 SDK 預設值、分散的套件版本等。請勿用於：非 MSBuild 建置系統（npm、Maven、CMake 等）、專案遷移到 SDK 樣式（使用 msbuild-modernization）。

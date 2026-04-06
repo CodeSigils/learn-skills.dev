@@ -1,0 +1,1 @@
+使用 MSBuild Server 提高 CLI 建置效能的指南。僅在 MSBuild/.NET 建置上下文中啟動。當開發人員從命令列報告增量建置緩慢，或 CLI 建置明顯慢於 IDE 建置時啟動。涵蓋用於基於伺服器的持久性快取的 MSBUILDUSESERVER=1 環境變數。不要啟動基於 IDE 的建置（Visual Studio 已使用長期進程）。

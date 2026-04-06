@@ -1,0 +1,1 @@
+用於解釋 MSBuild 效能摘要中的 ResolveProjectReferences 時間的指南。僅在 MSBuild/.NET 建置上下文中啟動。當 ResolveProjectReferences 顯示為最昂貴的目標並且開發人員嘗試直接最佳化它時啟動。解釋報告的時間包括依賴項目建構的等待時間，並且具有誤導性。引導使用者將注意力集中在任務上。不要啟動一般建置效能－而是使用 build-perf-diagnostics。

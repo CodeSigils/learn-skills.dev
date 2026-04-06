@@ -1,0 +1,1 @@
+將 .NET 8 專案遷移到 .NET 9 並解決所有重大變更。用於：將 TargetFramework 從 net8.0 升級到 net9.0、修復更新 .NET 9 SDK 後的建置錯誤、解決 .NET 9 / C# 13 / ASP.NET Core 9 / EF Core 9 中的行為變更、取代 BinaryFormatter（現在總是重出）、解決 SYS 是編譯器變更、更新用於 SocketsHttpHandler 的 HttpClientFactory，並解決 EF Core 9 遷移/Cosmos DB 變更。請勿用於：.NET Framework 遷移、從 .NET 7 或更早版本升級、新建 .NET 9 專案或與升級無關的外觀現代化。

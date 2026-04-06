@@ -1,0 +1,1 @@
+使用 C# SDK 和 .NET 專案範本建立 MCP 伺服器。涵蓋 stdio 和 HTTP 的鷹架、工具/提示/資源實作以及傳輸配置。用途：建立新的 MCP 伺服器專案、使用 dotnet new mcpserver 搭建鷹架、新增 MCP 工具/提示/資源、選擇 stdio 與 HTTP 傳輸、在 Program.cs 中設定 MCP 託管、使用 MapMcp 設定 ASP.NET Core MCP 端點。請勿用於：偵錯或執行現有伺服器（使用 mcp-csharp-debug）、編寫測試（使用 mcp-csharp-test）、發布或部署（使用 mcp-csharp-publish）、建置 MCP 用戶端、非 .NET MCP 伺服器。
