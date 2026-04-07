@@ -4,576 +4,619 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Mon, 06 Apr 2026 02:14:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 02:11:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-04-06)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-04-07)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:snapshot</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:snapshot</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7834
-Trending skills: 6925
-Hot skills: 3283
-Top All Time: find-skills (774855)
-Top Trending: find-skills (10805)
-Top Hot: soultrace (453)]]></description>
+All Time skills: 7832
+Trending skills: 7687
+Hot skills: 4539
+Top All Time: find-skills (774858)
+Top Trending: find-skills (13897)
+Top Hot: find-skills (676)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): soultrace]]></title>
-            <link>https://skills.sh/soultrace-ai/soultrace-skill/soultrace</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:soultrace-ai/soultrace-skill/soultrace</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #1
-Installs: 453
-Source: soultrace-ai/soultrace-skill
-Description: Take a personality assessment via the SoulTrace API. Use when the user wants to take a personality test, discover their psychological archetype, understand their personality traits, or get a color-based personality profile. The API uses a 5-color psychological model (White=structure, Blue=understanding, Black=agency, Red=intensity, Green=connection) with Bayesian adaptive question selection to classify users into one of 25 archetypes. Triggers on: personality test, personality assessment, what's my personality, take a quiz, archetype test, color personality, soultrace.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#10): azure-compute]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-compute</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-compute</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): lark-drive]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-drive</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-drive</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 86
+Installs: 137
+Source: larksuite/cli
+Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#11): lark-sheets]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-sheets</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-sheets</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 136
+Source: larksuite/cli
+Description: 飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#12): lark-contact]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-contact</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-contact</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #12
+Installs: 136
+Source: larksuite/cli
+Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): lark-whiteboard]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-whiteboard</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 136
+Source: larksuite/cli
+Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): lark-skill-maker]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-skill-maker</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 136
+Source: larksuite/cli
+Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#15): lark-openapi-explorer]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-openapi-explorer</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #15
+Installs: 136
+Source: larksuite/cli
+Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): lark-approval]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-approval</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-approval</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 136
+Source: larksuite/cli
+Description: 飞书审批 API：审批实例、审批任务管理。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): lark-workflow-meeting-summary]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-meeting-summary</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-workflow-meeting-summary</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 136
+Source: larksuite/cli
+Description: 会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): lark-wiki]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-wiki</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 136
+Source: larksuite/cli
+Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): lark-vc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-vc</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-vc</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 136
+Source: larksuite/cli
+Description: 飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#2): lark-base]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-base</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-base</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #2
+Installs: 139
+Source: larksuite/cli
+Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): lark-event]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-event</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-event</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 135
+Source: larksuite/cli
+Description: 飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): lark-workflow-standup-report]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-workflow-standup-report</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-workflow-standup-report</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 135
+Source: larksuite/cli
+Description: 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): extract-design-system]]></title>
+            <link>https://skills.sh/arvindrk/extract-design-system/extract-design-system</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:arvindrk/extract-design-system/extract-design-system</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 110
+Source: arvindrk/extract-design-system
+Description: Extract design primitives from a public website and generate starter token files for the current project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): lark-im]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-im</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-im</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 138
+Source: larksuite/cli
+Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): lark-calendar]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-calendar</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 138
+Source: larksuite/cli
+Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): using-superpowers]]></title>
+            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:obra/superpowers/using-superpowers</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 89
+Source: obra/superpowers
+Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): caveman]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:juliusbrussee/caveman/caveman</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 77
+Source: juliusbrussee/caveman
+Description: Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#5): lark-task]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-task</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-task</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #5
+Installs: 138
+Source: larksuite/cli
+Description: 飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): brainstorming]]></title>
+            <link>https://skills.sh/obra/superpowers/brainstorming</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:obra/superpowers/brainstorming</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 94
+Source: obra/superpowers
+Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): lark-shared]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-shared</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-shared</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 137
+Source: larksuite/cli
+Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): lark-doc]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-doc</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-doc</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 137
+Source: larksuite/cli
+Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): lark-mail]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-mail</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-mail</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 137
+Source: larksuite/cli
+Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): lark-minutes]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-minutes</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:new:larksuite/cli/lark-minutes</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 137
+Source: larksuite/cli
+Description: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#33): azure-cost-optimization]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-cost-optimization</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:new:microsoft/azure-skills/azure-cost-optimization</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #33
+Installs: 1984
+Source: microsoft/azure-skills
+Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs, utilization metrics, and generating actionable optimization recommendations. USE FOR: optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs, find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs, cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics (use azure-diagnostics), security issues (use azure-security)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#36): value]]></title>
+            <link>https://skills.sh/hugmouse/skills/value</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:new:hugmouse/skills/value</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #36
+Installs: 1850
+Source: hugmouse/skills
+Description: skill does absolutely nothing, as well as the agent that uses it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#39): skill-creator]]></title>
+            <link>https://skills.sh/anthropics/skills/skill-creator</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:new:anthropics/skills/skill-creator</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #39
+Installs: 1746
+Source: anthropics/skills
+Description: Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (10 → 35): azure-compute]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-compute</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-compute</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #10
+Current rank: #35
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): azure-cloud-migrate]]></title>
+            <title><![CDATA[[Hot] Rank down (11 → 36): azure-cloud-migrate]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-cloud-migrate</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-cloud-migrate</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #11
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-cloud-migrate</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #11
+Current rank: #36
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness report, migrate from AWS, migrate from GCP, cross-cloud migration.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): azure-diagnostics]]></title>
+            <title><![CDATA[[Hot] Rank down (12 → 37): azure-diagnostics]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-diagnostics</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-diagnostics</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #12
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-diagnostics</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #12
+Current rank: #37
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): azure-validate]]></title>
+            <title><![CDATA[[Hot] Rank down (13 → 38): azure-validate]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-validate</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-validate</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-validate</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #13
+Current rank: #38
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): azure-messaging]]></title>
+            <title><![CDATA[[Hot] Rank down (14 → 39): azure-messaging]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-messaging</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-messaging</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-messaging</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #14
+Current rank: #39
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): azure-deploy]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-deploy</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-deploy</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #15
-Installs: 86
-Source: microsoft/azure-skills
-Description: Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: "run azd up", "run azd deploy", "execute deployment", "push to production", "push to cloud", "go live", "ship it", "bicep deploy", "terraform apply", "publish to Azure", "launch on Azure". DO NOT USE WHEN: "create and deploy", "build and deploy", "create a new app", "set up infrastructure", "create and deploy to Azure using Terraform" — use azure-prepare for these.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#16): azure-hosted-copilot-sdk]]></title>
+            <title><![CDATA[[Hot] Rank down (16 → 40): azure-hosted-copilot-sdk]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-hosted-copilot-sdk</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #16
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-hosted-copilot-sdk</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #16
+Current rank: #40
+Delta: -24
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Build and deploy GitHub Copilot SDK apps to Azure. WHEN: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): azure-resource-visualizer]]></title>
+            <title><![CDATA[[Hot] Rank down (17 → 41): azure-resource-visualizer]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-resource-visualizer</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-resource-visualizer</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-resource-visualizer</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #17
+Current rank: #41
+Delta: -24
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): azure-rbac]]></title>
+            <title><![CDATA[[Hot] Rank down (18 → 42): azure-rbac]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-rbac</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-rbac</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-rbac</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #18
+Current rank: #42
+Delta: -24
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): azure-resource-lookup]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-resource-lookup</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-resource-lookup</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 86
-Source: microsoft/azure-skills
-Description: List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites", "find container apps", "what resources do I have", and similar queries for any Azure resource type. USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps, list container apps, show resources, find resources, what resources do I have, list resources in resource group, list resources in subscription, find resources by tag, find orphaned resources, resource inventory, count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery, list container registries, list SQL servers, list Key Vaults, show resource groups, list app services, find resources across subscriptions, find unattached disks, tag analysis. DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources, cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/skills/find-skills</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 421
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): supabase-postgres-best-practices]]></title>
-            <link>https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:supabase/agent-skills/supabase-postgres-best-practices</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 96
-Source: supabase/agent-skills
-Description: Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): entra-app-registration]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/entra-app-registration</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/entra-app-registration</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 85
-Source: microsoft/azure-skills
-Description: Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): azure-storage]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-storage</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-storage</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 85
-Source: microsoft/azure-skills
-Description: Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): azure-upgrade]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-upgrade</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-upgrade</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 85
-Source: microsoft/azure-skills
-Description: Assess and upgrade Azure workloads between plans, tiers, or SKUs within Azure. Generates assessment reports and automates upgrade steps. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure Functions plan, migrate hosting plan, upgrade Functions SKU, move to Flex Consumption, upgrade Azure service tier, change hosting plan, upgrade function app plan, migrate App Service to Container Apps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): azure-aigateway]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-aigateway</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-aigateway</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 85
-Source: microsoft/azure-skills
-Description: Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): appinsights-instrumentation]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/appinsights-instrumentation</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/appinsights-instrumentation</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 85
-Source: microsoft/azure-skills
-Description: Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): azure-enterprise-infra-planner]]></title>
+            <title><![CDATA[[Hot] Rank down (26 → 45): azure-enterprise-infra-planner]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-enterprise-infra-planner</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-enterprise-infra-planner</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 85
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-enterprise-infra-planner</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #26
+Current rank: #45
+Delta: -19
+Installs: 160 (prev 85)
 Source: microsoft/azure-skills
 Description: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: 'plan Azure infrastructure', 'architect Azure landing zone', 'design hub-spoke network', 'plan multi-region DR topology', 'set up VNets firewalls and private endpoints', 'subscription-scope Bicep deployment'. PREFER azure-prepare FOR app-centric workflows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): azure-quotas]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-quotas</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-quotas</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 85
-Source: microsoft/azure-skills
-Description: Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: "check quotas", "service limits", "current usage", "request quota increase", "quota exceeded", "validate capacity", "regional availability", "provisioning limits", "vCPU limit", "how many vCPUs available in my subscription".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): azure-ai]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-ai</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-ai</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 85
-Source: microsoft/azure-skills
-Description: Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): azure-kusto]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-kusto</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-kusto</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 84
-Source: microsoft/azure-skills
-Description: Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): agent-browser]]></title>
+            <title><![CDATA[[Hot] Rank down (3 → 49): agent-browser]]></title>
             <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 112
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #49
+Delta: -46
+Installs: 163 (prev 112)
 Source: vercel-labs/agent-browser
 Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/skills/frontend-design</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:anthropics/skills/frontend-design</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 130
-Source: anthropics/skills
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): azure-kubernetes]]></title>
+            <title><![CDATA[[Hot] Rank down (31 → 44): azure-kubernetes]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-kubernetes</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-kubernetes</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 83
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-kubernetes</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #31
+Current rank: #44
+Delta: -13
+Installs: 159 (prev 83)
 Source: microsoft/azure-skills
 Description: Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost analysis). WHEN: create AKS environment, provision AKS environment, enable AKS observability, design AKS networking, choose AKS SKU, secure AKS.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): azure-cost]]></title>
+            <title><![CDATA[[Hot] Rank down (32 → 46): azure-cost]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-cost</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-cost</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 81
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-cost</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #32
+Current rank: #46
+Delta: -14
+Installs: 153 (prev 81)
 Source: microsoft/azure-skills
 Description: Unified Azure cost management: query historical costs, forecast future spending, and optimize to reduce waste. WHEN: "Azure costs", "Azure spending", "Azure bill", "cost breakdown", "cost by service", "cost by resource", "how much am I spending", "show my bill", "monthly cost summary", "cost trends", "top cost drivers", "actual cost", "amortized cost", "forecast spending", "projected costs", "estimate bill", "future costs", "budget forecast", "end of month costs", "how much will I spend", "optimize costs", "reduce spending", "find cost savings", "orphaned resources", "rightsize VMs", "cost analysis", "reduce waste", "unused resources", "optimize Redis costs", "cost by tag", "cost by resource group", "AKS cost analysis add-on", "namespace cost", "cost spike", "anomaly", "budget alert", "AKS cost visibility". DO NOT USE FOR: deploying resources, provisioning infrastructure, diagnostics, security audits, or estimating costs for new resources not yet deployed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): frontend-design]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/frontend-design</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/frontend-design</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 51
-Source: pbakaus/impeccable
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): shadcn]]></title>
-            <link>https://skills.sh/shadcn/ui/shadcn</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:shadcn/ui/shadcn</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 69
-Source: shadcn/ui
-Description: Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for "shadcn init", "create an app with --preset", or "switch to --preset".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): huashu-nuwa]]></title>
-            <link>https://skills.sh/alchaincyf/nuwa-skill/huashu-nuwa</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:alchaincyf/nuwa-skill/huashu-nuwa</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 27
-Source: alchaincyf/nuwa-skill
-Description: 女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。
-两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。
-触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。
-模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): polish]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/polish</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/polish</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 48
-Source: pbakaus/impeccable
-Description: Final quality pass before shipping. Fixes alignment, spacing, consistency, and detail issues that separate good from great.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): web-design-guidelines]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 85
-Source: vercel-labs/agent-skills
-Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): next-best-practices]]></title>
-            <link>https://skills.sh/vercel-labs/next-skills/next-best-practices</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/next-skills/next-best-practices</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 43
-Source: vercel-labs/next-skills
-Description: Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): normalize]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/normalize</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/normalize</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 44
-Source: pbakaus/impeccable
-Description: Normalize design to match your design system and ensure consistency]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): supabase]]></title>
-            <link>https://skills.sh/supabase/agent-skills/supabase</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:supabase/agent-skills/supabase</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 51
-Source: supabase/agent-skills
-Description: Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): clarify]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/clarify</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/clarify</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 43
-Source: pbakaus/impeccable
-Description: Improve unclear UX copy, error messages, microcopy, labels, and instructions. Makes interfaces easier to understand and use.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): quieter]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/quieter</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/quieter</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 42
-Source: pbakaus/impeccable
-Description: Tone down overly bold or visually aggressive designs. Reduces intensity while maintaining design quality and impact.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): audit]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/audit</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/audit</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 42
-Source: pbakaus/impeccable
-Description: Perform comprehensive audit of interface quality across accessibility, performance, theming, and responsive design. Generates detailed report of issues with severity ratings and recommendations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): delight]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/delight</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/delight</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 42
-Source: pbakaus/impeccable
-Description: Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): critique]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/critique</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/critique</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 44
-Source: pbakaus/impeccable
-Description: Evaluate design effectiveness from a UX perspective. Assesses visual hierarchy, information architecture, emotional resonance, and overall design quality with actionable feedback.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): arrange]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/arrange</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/arrange</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 42
-Source: pbakaus/impeccable
-Description: Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy to create intentional compositions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): adapt]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/adapt</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/adapt</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 41
-Source: pbakaus/impeccable
-Description: Adapt designs to work across different screen sizes, devices, contexts, or platforms. Ensures consistent experience across varied environments.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): bolder]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/bolder</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/bolder</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 41
-Source: pbakaus/impeccable
-Description: Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): harden]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/harden</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/harden</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 41
-Source: pbakaus/impeccable
-Description: Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management. Makes interfaces robust and production-ready.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): vercel-react-best-practices]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/agent-skills/vercel-react-best-practices</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 131
-Source: vercel-labs/agent-skills
-Description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): distill]]></title>
-            <link>https://skills.sh/pbakaus/impeccable/distill</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:pbakaus/impeccable/distill</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 41
-Source: pbakaus/impeccable
-Description: Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): vercel-composition-patterns]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 78
-Source: vercel-labs/agent-skills
-Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): microsoft-foundry]]></title>
+            <title><![CDATA[[Hot] Rank down (7 → 25): microsoft-foundry]]></title>
             <link>https://skills.sh/microsoft/azure-skills/microsoft-foundry</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/microsoft-foundry</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 90
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/microsoft-foundry</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #7
+Current rank: #25
+Delta: -18
+Installs: 169 (prev 90)
 Source: microsoft/azure-skills
 Description: Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): azure-prepare]]></title>
+            <title><![CDATA[[Hot] Rank down (8 → 43): azure-prepare]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-prepare</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-prepare</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 87
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-prepare</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #8
+Current rank: #43
+Delta: -35
+Installs: 164 (prev 87)
 Source: microsoft/azure-skills
 Description: Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: "create app", "build web app", "create API", "create serverless HTTP API", "create frontend", "create back end", "build a service", "modernize application", "update application", "add authentication", "add caching", "host on Azure", "create and deploy", "deploy to Azure", "deploy to Azure using Terraform", "deploy to Azure App Service", "deploy to Azure App Service using Terraform", "deploy to Azure Container Apps", "deploy to Azure Container Apps using Terraform", "generate Terraform", "generate Bicep", "function app", "timer trigger", "service bus trigger", "event-driven function", "containerized Node.js app", "social media app", "static portfolio website", "todo list with frontend and API", "prepare my Azure application to use Key Vault", "managed identity".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): azure-compliance]]></title>
+            <title><![CDATA[[Hot] Rank down (9 → 34): azure-compliance]]></title>
             <link>https://skills.sh/microsoft/azure-skills/azure-compliance</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topHot:new:microsoft/azure-skills/azure-compliance</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 86
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:microsoft/azure-skills/azure-compliance</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #9
+Current rank: #34
+Delta: -25
+Installs: 164 (prev 86)
 Source: microsoft/azure-skills
 Description: Comprehensive Azure compliance and security auditing capabilities including best practices assessment, Key Vault expiration monitoring, and resource configuration validation. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, compliance assessment, resource review, configuration validation, expired certificates, expiring secrets, orphaned resources, policy compliance, security posture evaluation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#50): ui-ux-pro-max]]></title>
-            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
-            <guid isPermaLink="false">2026-04-06T02:14:12.574Z:topTrending:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
-            <pubDate>Mon, 06 Apr 2026 02:14:12 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #50
-Installs: 1403
-Source: nextlevelbuilder/ui-ux-pro-max-skill
-Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
+            <title><![CDATA[[Hot] Rank up (2 → 1): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topHot:rank:vercel-labs/skills/find-skills</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #2
+Current rank: #1
+Delta: +1
+Installs: 676 (prev 421)
+Source: vercel-labs/skills
+Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (10 → 45): running-claude-code-via-litellm-copilot]]></title>
+            <link>https://skills.sh/xixu-me/skills/running-claude-code-via-litellm-copilot</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:xixu-me/skills/running-claude-code-via-litellm-copilot</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #10
+Current rank: #45
+Delta: -35
+Installs: 1728 (prev 3171)
+Source: xixu-me/skills
+Description: Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (11 → 46): opensource-guide-coach]]></title>
+            <link>https://skills.sh/xixu-me/skills/opensource-guide-coach</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:xixu-me/skills/opensource-guide-coach</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #11
+Current rank: #46
+Delta: -35
+Installs: 1725 (prev 3169)
+Source: xixu-me/skills
+Description: Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (12 → 43): secure-linux-web-hosting]]></title>
+            <link>https://skills.sh/xixu-me/skills/secure-linux-web-hosting</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:xixu-me/skills/secure-linux-web-hosting</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #12
+Current rank: #43
+Delta: -31
+Installs: 1730 (prev 3168)
+Source: xixu-me/skills
+Description: Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (13 → 48): tzst]]></title>
+            <link>https://skills.sh/xixu-me/skills/tzst</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:xixu-me/skills/tzst</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #13
+Current rank: #48
+Delta: -35
+Installs: 1724 (prev 3168)
+Source: xixu-me/skills
+Description: Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (14 → 47): xdrop]]></title>
+            <link>https://skills.sh/xixu-me/skills/xdrop</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:xixu-me/skills/xdrop</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #14
+Current rank: #47
+Delta: -33
+Installs: 1724 (prev 3167)
+Source: xixu-me/skills
+Description: Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (15 → 49): env-and-assets-bootstrap]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #15
+Current rank: #49
+Delta: -34
+Installs: 1717 (prev 3159)
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Sub-skill for environment and asset preparation in README-first AI repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (16 → 50): paper-context-resolver]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/paper-context-resolver</link>
+            <guid isPermaLink="false">2026-04-07T02:11:08.471Z:topTrending:rank:lllllllama/ai-paper-reproduction-skill/paper-context-resolver</guid>
+            <pubDate>Tue, 07 Apr 2026 02:11:08 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #16
+Current rank: #50
+Delta: -34
+Installs: 1716 (prev 3159)
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Optional sub-skill for README-first AI repo reproduction. Use only when README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
         </item>
     </channel>
 </rss>

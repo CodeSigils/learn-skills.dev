@@ -1,0 +1,1 @@
+Implement one task from the plan using test-driven development. Reads the next pending task from ~/.mx/<project>/<name>/plan.md, writes a failing test first, implements the minimal code to pass it, refactors, then commits with /mx-commit. Uses vertical slices (one test → one impl), never horizontal slicing. Use for each task in the plan after /mx-worktree is ready.

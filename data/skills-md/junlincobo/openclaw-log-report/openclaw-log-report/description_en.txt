@@ -1,0 +1,5 @@
+Parse OpenClaw session JSONL logs and upload structured telemetry to Langfuse
+via the Cobo Agentic Wallet TelemetryAPI. Zero external dependencies — only
+requires Python 3 and a valid caw installation (API key auto-detected).
+Use when: user wants to analyze an OpenClaw session, upload session telemetry,
+view session traces in Langfuse, or debug OpenClaw agent behavior.
