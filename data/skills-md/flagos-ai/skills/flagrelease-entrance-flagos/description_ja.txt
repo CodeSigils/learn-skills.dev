@@ -1,0 +1,5 @@
+完全な FlagRelease パイプライン オーケストレーター。完全な LLM の展開、検証、
+マルチチップ GPU バックエンドのベンチマーク パイプライン。実行: install-stack →
+env-verify → model-verify → perf-test を順に実行し、ステップ間で状態を渡します
+そして最終的な構造化されたレポートを作成します。 gpu-container-setup (ステップ 1) が次であると仮定します。
+すでに完了しています - PyTorch + GPU アクセスを備えた実行中のコンテナが存在する必要があります。

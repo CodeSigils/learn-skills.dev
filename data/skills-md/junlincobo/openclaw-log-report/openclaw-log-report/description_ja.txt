@@ -1,0 +1,5 @@
+OpenClaw セッションの JSONL ログを解析し、構造化テレメトリを Langfuse にアップロードします
+Cobo Agentic Wallet TelemetryAPI 経由。外部依存関係なし - のみ
+Python 3 と有効な CAW インストールが必要です (API キーは自動検出されます)。
+次の場合に使用します: ユーザーが OpenClaw セッションを分析したい場合、セッション テレメトリをアップロードしたい場合、
+Langfuse でセッション トレースを表示したり、OpenClaw エージェントの動作をデバッグしたりできます。

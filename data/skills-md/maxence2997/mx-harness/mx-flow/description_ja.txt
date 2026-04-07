@@ -1,0 +1,1 @@
+完全な開発ワークフロー オーケストレーター。 mx-brainstorm → mx-plan → mx-worktree → 収束ループ (mx-tdd → mx-commit → mx-team-review → mx-review-triage) → mx-verify を実行します。人間の決断の門で立ち止まる。デフォルト: 1 つのハード ゲート (仕様承認)、その他はすべて自動処理。ゲート モード (--gated): 完全な制御のための 4 つのヒューマン ゲート。新しい機能や大幅な変更を最初から開始する場合に使用します。
