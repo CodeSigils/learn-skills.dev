@@ -1,0 +1,9 @@
+Costruisce atlanti di codici completi e viventi da cui derivano documenti di architettura multistrato
+verità del codice. Le impostazioni predefinite sono sia Graphviz DOT che Sirena. L'utente può passare al formato singolo.
+Indipendente dal linguaggio (Go, TypeScript, Python, .NET, Rust, Java). Problemi con i file
+etichetta 'code-atlas-bughunt'. Tratta la costruzione dell'atlante come un viaggio di caccia ai bug con più agenti:
+il ragionamento in forma di grafico espone bug strutturali, discrepanze di percorso/DTO, variabili di ambiente orfane,
+percorsi di codice morti e documentazione obsoleta che non viene rilevata dalla revisione lineare. Caccia agli insetti in tre passaggi
+con verdetti PASS/FAIL/NEEDS_ATTENTION per viaggio.
+Da utilizzare quando: si crea documentazione sull'architettura, si studiano basi di codice non familiari,
+ricerca di bug strutturali, impostazione dell'aggiornamento del diagramma CI/CD o pubblicazione su GitHub Pages/mkdocs.

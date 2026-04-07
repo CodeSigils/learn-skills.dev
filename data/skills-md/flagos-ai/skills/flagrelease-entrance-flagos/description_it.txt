@@ -1,0 +1,5 @@
+Orchestratore pipeline completo di FlagRelease. Esegue la distribuzione LLM completa, la verifica,
+e pipeline di benchmarking per backend GPU multi-chip. Esegue: install-stack →
+env-verify → model-verify → perf-test in sequenza, passando lo stato tra i passaggi
+e produrre un rapporto strutturato finale. Presuppone che gpu-container-setup (passaggio 1) lo sia
+già fatto: deve esistere un contenitore in esecuzione con accesso PyTorch + GPU.
