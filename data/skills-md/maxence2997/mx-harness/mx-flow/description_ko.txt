@@ -1,0 +1,1 @@
+전체 개발 워크플로 조정자. mx-brainstorm → mx-plan → mx-worktree → 수렴 루프(mx-tdd → mx-commit → mx-team-review → mx-review-triage) → mx-verify를 실행합니다. 인간의 결정 관문에서 잠시 멈춥니다. 기본값: 하드 게이트 1개(사양 승인), 나머지는 모두 자동 진행됩니다. 게이트 모드(--gated): 전체 제어를 위한 4개의 휴먼 게이트. 새로운 기능을 시작하거나 처음부터 중요한 변경을 시작할 때 사용합니다.

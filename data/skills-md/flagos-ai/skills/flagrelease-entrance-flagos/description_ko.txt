@@ -1,0 +1,5 @@
+전체 FlagRelease 파이프라인 오케스트레이터. 전체 LLM 배포, 검증,
+멀티 칩 GPU 백엔드를 위한 벤치마킹 파이프라인. 실행: install-stack →
+env-verify → model-verify → perf-test를 순서대로 진행하여 단계 간 상태를 전달합니다.
+최종적으로 구조화된 보고서를 작성합니다. gpu-container-setup(1단계)이 다음과 같다고 가정합니다.
+이미 완료되었습니다. PyTorch + GPU 액세스가 가능한 실행 중인 컨테이너가 있어야 합니다.
