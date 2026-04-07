@@ -1,0 +1,5 @@
+Analyser les journaux JSONL de la session OpenClaw et télécharger la télémétrie structurée sur Langfuse
+via l'API de télémétrie du portefeuille agent Cobo. Zéro dépendance externe – uniquement
+nécessite Python 3 et une installation Caw valide (clé API détectée automatiquement).
+À utiliser lorsque : l'utilisateur souhaite analyser une session OpenClaw, télécharger la télémétrie de session,
+afficher les traces de session dans Langfuse ou déboguer le comportement de l'agent OpenClaw.

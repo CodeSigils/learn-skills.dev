@@ -1,0 +1,9 @@
+Convertit n'importe quel référentiel de compétences Claude Code en un marché de plugins officiel.
+Analyse les compétences existantes, génère .claude-plugin/marketplace.json conforme à
+la spécification Anthropic, valide avec `claude plugin validate`, teste l'installation réelle,
+et crée un PR pour le dépôt en amont. Encode les anti-modèles durement gagnés à partir du réel
+développement d'une place de marché (pièges de schéma, sémantique des versions, pièges de description).
+À utiliser lorsque l'utilisateur mentionne : place de marché, prise en charge des plugins, installation en un clic,
+Marketplace.json, distribution de plugins, mise à jour automatique ou souhait d'un dépôt de compétences
+installable via `claude plugin install`. Se déclenche également lorsque l'utilisateur possède une compétence
+repo et pose des questions sur l'emballage, la distribution ou la manière de le rendre installable.
