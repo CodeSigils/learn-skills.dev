@@ -1,0 +1,5 @@
+Analizar registros JSONL de sesión de OpenClaw y cargar telemetría estructurada en Langfuse
+a través de la API de telemetría de Cobo Agentic Wallet. Cero dependencias externas, solo
+Requiere Python 3 y una instalación válida de caw (la clave API se detecta automáticamente).
+Úselo cuando: el usuario quiera analizar una sesión de OpenClaw, cargar telemetría de sesión,
+ver seguimientos de sesiones en Langfuse o depurar el comportamiento del agente OpenClaw.

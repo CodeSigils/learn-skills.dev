@@ -1,0 +1,5 @@
+Orquestador de canalización completo de FlagRelease. Ejecuta la implementación completa de LLM, verificación,
+y proceso de evaluación comparativa para backends de GPU de múltiples chips. Ejecuta: instalar-pila →
+env-verify → model-verify → perf-test en secuencia, pasando el estado entre pasos
+y producir un informe final estructurado. Se supone que gpu-container-setup (Paso 1) está
+ya hecho: debe existir un contenedor en ejecución con acceso a PyTorch + GPU.

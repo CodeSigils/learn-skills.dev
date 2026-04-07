@@ -1,0 +1,9 @@
+Crea atlas de código completos y vivos como documentos de arquitectura multicapa derivados de
+verdad del código primero. El valor predeterminado es Graphviz DOT y Mermaid. El usuario puede anular el formato único.
+Independiente del lenguaje (Go, TypeScript, Python, .NET, Rust, Java). Problemas con archivos
+Etiqueta 'code-atlas-bughunt'. Trata la creación de atlas como un viaje de búsqueda de errores con múltiples agentes:
+El razonamiento en forma de gráfico expone errores estructurales, discrepancias de ruta/DTO, variables de entorno huérfanas,
+rutas de código inactivas y documentación obsoleta que la revisión lineal pasa por alto. Búsqueda de errores en tres pasos
+con veredictos de PASA/FALLA/NEEDS_ATTENTION por viaje.
+Úselo cuando: crear documentación de arquitectura, investigar bases de código desconocidas,
+buscar errores estructurales, configurar la actualización del diagrama CI/CD o publicar en GitHub Pages/mkdocs.
