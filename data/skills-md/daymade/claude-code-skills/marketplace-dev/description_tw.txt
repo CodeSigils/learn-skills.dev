@@ -1,0 +1,9 @@
+將任何 Claude Code 技能儲存庫轉換為官方插件市場。
+分析現有技能，產生符合的.claude-plugin/marketplace.json
+Anthropic 規範，使用「claude plugin validate」進行驗證，測試實際安裝，
+並建立一個到上游倉庫的 PR。對真實的來之不易的反模式進行編碼
+市場開發（模式陷阱、版本語意、描述陷阱）。
+當用戶提到：市場、插件支援、一鍵安裝、
+Marketplace.json、外掛程式分發、自動更新或想要技能儲存庫
+可透過「claude plugin install」安裝。當使用者擁有技能時也會觸發
+儲存庫並詢問有關打包、分發或使其可安裝的問題。

@@ -1,0 +1,5 @@
+解析 OpenClaw 會話 JSONL 日誌並將結構化遙測資料上傳到 Langfuse
+透過 Cobo Agentic Wallet TelemetryAPI。零外部依賴—僅
+需要 Python 3 和有效的 caw 安裝（自動偵測 API 金鑰）。
+使用時機：使用者想要分析 OpenClaw 會話、上傳會話遙測資料、
+在 Langfuse 中查看會話跟踪，或調試 OpenClaw 代理行為。

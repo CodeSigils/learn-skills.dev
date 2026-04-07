@@ -1,0 +1,1 @@
+指導自訂 dotnet 新範本的建立和驗證。從現有專案產生範本並驗證 template.json 的創作問題。用途：從現有專案建立可重複使用的 dotnet 新模板，驗證 template.json 檔案的架構合規性和參數問題，使用正確的標識、短名稱、參數和後操作引導 .template.config/template.json，將模板打包為 NuGet 套件以進行分發。請勿用於：尋找或使用現有範本（使用範本發現和範本實例化）、與範本創作無關的 MSBuild 專案文件問題、NuGet 套件發佈（僅限範本打包結構）。

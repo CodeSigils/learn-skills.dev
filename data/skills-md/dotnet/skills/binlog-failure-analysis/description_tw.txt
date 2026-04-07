@@ -1,0 +1,1 @@
+分析 MSBuild 二進位日誌，透過將二進位日誌重播為可搜尋的文字日誌來診斷建置失敗。僅在 MSBuild/.NET 建置上下文中啟動。用途：控制台輸出中不清楚的建置錯誤、診斷多專案建置中的級聯故障、追蹤 MSBuild 目標執行順序、調查常見錯誤，如 CS0246（未找到類型）、MSB4019（未找到匯入專案）、NU1605（套件降級）、MSB3277（版本衝突）和 ReferencesProjectReferences 故障。需要現有的 .binlog 檔案。請勿用於：產生二進位日誌（使用 binlog- Generation）、建置效能分析（使用 build-perf-diagnostics）、非 MSBuild 建置系統。呼叫：dotnet msbuild binlog replay、grep、cat、head、tail 用於日誌分析。

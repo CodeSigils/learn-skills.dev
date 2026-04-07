@@ -1,0 +1,1 @@
+配置、部署和管理 Senpi Trading Runtime（OpenClaw 外掛程式 @senpi-ai/runtime），以實現具有 DSL 追蹤停損保護的自動鏈上位置追蹤。當使用者需要建立或修改執行時間 YAML 檔案、配置 DSL（動態停損）退出引擎參數（階段、圖層、基於時間的削減）、設定position_tracker 掃描器以監控 Hyperliquid 上的錢包倉位、透過 CLI 安裝/列出/刪除執行階段或檢查 DSL 追蹤倉位時使用。執行時間不會建立策略錢包；先透過 Senpi MCP 建立/取得策略錢包，然後在執行時間 YAML 中連結該現有錢包。在提及 senpi、Senpi 運行時、DSL 退出、停損層、倉位追蹤器、追蹤停損、openclaw senpi、dsl_preset 或策略 YAML 配置時觸發。 」

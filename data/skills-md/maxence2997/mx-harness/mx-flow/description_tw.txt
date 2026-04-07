@@ -1,0 +1,1 @@
+完整的開發工作流程協調器。運行 mx-brainstorm → mx-plan → mx-worktree → 收斂循環 (mx-tdd → mx-commit → mx-team-review → mx-review-triage) → mx-verify。在人類決策門口暫停。預設：1 個硬門（規範批准），所有其他自動繼續。門控模式（--gate）：4 個人性門，用於完全控制。從頭開始新功能或重大變更時使用。
