@@ -1,0 +1,9 @@
+Konvertiert jedes Claude Code-Skills-Repository in einen offiziellen Plugin-Marktplatz.
+Analysiert vorhandene Fähigkeiten und generiert .claude-plugin/marketplace.json entsprechend
+die Anthropic-Spezifikation, validiert mit „claudepluginvalidate“, testet die reale Installation,
+und erstellt eine PR für das Upstream-Repo. Kodiert hart erkämpfte Anti-Muster aus der Realität
+Marktplatzentwicklung (Schema-Traps, Versionssemantik, Beschreibungsfallen).
+Verwenden Sie es, wenn der Benutzer Folgendes erwähnt: Marktplatz, Plugin-Unterstützung, Ein-Klick-Installation,
+marketplace.json, Plugin-Verteilung, automatische Aktualisierung oder möchte ein Skills-Repo
+installierbar über „Claude Plugin Install“. Wird auch ausgelöst, wenn der Benutzer über Fähigkeiten verfügt
+repo und fragt nach der Verpackung, Verteilung oder Installationsfähigkeit.
