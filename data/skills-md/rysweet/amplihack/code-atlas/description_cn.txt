@@ -1,0 +1,9 @@
+构建全面的、动态的代码图集作为源自以下内容的多层架构文档
+代码优先的真理。默认为 Graphviz DOT 和 Mermaid。用户可以覆盖为单一格式。
+与语言无关（Go、TypeScript、Python、.NET、Rust、Java）。文件问题
+“代码图集-bughunt”标签。将图集构建视为多智能体错误搜寻之旅：
+图形形式推理暴露了结构错误、路由/DTO 不匹配、孤立的环境变量、
+线性审查会遗漏的死代码路径和陈旧文档。三遍错误搜寻
+每个旅程的 PASS/FAIL/NEEDS_ATTENTION 判决。
+使用场合：创建架构文档、调查不熟悉的代码库、
+寻找结构错误、设置 CI/CD 图表刷新或发布到 GitHub Pages/mkdocs。

@@ -1,0 +1,5 @@
+完整的 FlagRelease 管道编排器。运行完整的LLM部署、验证、
+以及多芯片 GPU 后端的基准测试管道。执行：安装堆栈→
+env-verify → model-verify → perf-test 按顺序，在步骤之间传递状态
+并生成最终的结构化报告。假设 gpu-container-setup（步骤 1）是
+已经完成 - 必须存在具有 PyTorch + GPU 访问权限的正在运行的容器。

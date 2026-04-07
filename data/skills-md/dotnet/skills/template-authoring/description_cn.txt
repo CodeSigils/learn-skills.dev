@@ -1,0 +1,1 @@
+指导自定义 dotnet 新模板的创建和验证。从现有项目生成模板并验证 template.json 的创作问题。用途：从现有项目创建可重用的 dotnet 新模板，验证 template.json 文件的架构合规性和参数问题，使用正确的标识、短名称、参数和后操作引导 .template.config/template.json，将模板打包为 NuGet 包以进行分发。请勿用于：查找或使用现有模板（使用模板发现和模板实例化）、与模板创作无关的 MSBuild 项目文件问题、NuGet 包发布（仅限模板打包结构）。
