@@ -1,7 +1,13 @@
-A specialized skill for generating high-quality figures for academic papers, supporting two output formats:
-(1) LaTeX/TikZ code: ideal for structured diagrams such as system architectures, data-flow graphs, and geometric sketches; ready to embed in papers;
-(2) draw.io XML: ideal for decorative figures like technology roadmaps, research presentations, and academic slides; supports gradients, shadows, free layout, and can be opened/edited at app.diagrams.net.
-
-Both formats follow a unified workflow: analyze input (text/image/paper) → drawing instructions → code generation → compile & verify → perfect delivery.
-Automatically identifies the paper’s field and designs figures as a domain expert.
-Use when the user asks to: draw paper figures, draw architecture diagrams, draw flowcharts, draw schematics, LaTeX drawing, TikZ drawing, paper illustrations, generate drawing instructions, replicate images, drawing code, academic paper figures, draw system architecture, draw protocol flows, paper inserts, tikz diagram, latex figure, draw from paper, draw a figure, help me draw, generate tikz, paper tikz, draw from text, copy this image, replicate this figure, technology roadmap, research architecture diagram, academic presentation figure, drawio, draw.io, roadmap, research framework diagram, technical proposal diagram.
+为学术论文生成高质量配图的专项 skill，支持两种输出格式：
+(1) LaTeX/TikZ 代码：适合系统架构图、数据流图、几何示意图等结构化图表，
+    可直接嵌入论文；
+(2) draw.io XML：适合技术路线图、科研展示图、学术汇报配图等装饰性强的
+    图表，支持渐变色、阴影、自由布局，可在 app.diagrams.net 打开编辑。
+支持两种输出格式，统一工作流程：分析输入（文案/图片/论文）→ 画图指令 → 代码生成 → 编译验证 → 满分交付。
+自动识别论文所属领域并以该领域专家身份进行配图设计。
+Use when the user asks to: 画论文图、画架构图、画流程图、画示意图、
+LaTeX画图、TikZ画图、论文配图、生成画图指令、复刻图片、
+画图代码、学术论文图、画系统架构、画协议流程、论文插图、tikz diagram、
+latex figure、根据论文画图、画个图、帮我画图、生成tikz、论文tikz、
+根据文案画图、照着图片画、复刻这张图、技术路线图、科研架构图、
+学术汇报图、drawio、draw.io、路线图、研究框架图、技术方案图。
