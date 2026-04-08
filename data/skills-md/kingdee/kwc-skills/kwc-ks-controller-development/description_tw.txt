@@ -1,0 +1,1 @@
+【KWC KS Controller 開發階段技能】由 kwc-orchestrator 在 Controller 程式碼實現階段調度，僅當 app/ks/controller/ 目錄存在時啟動。此技能重點在於 KingScript 腳本控制器的 XML 配置編寫和 TypeScript/KingScript 程式碼實作；它不處理專案建立、建置或部署（由 kwc-project-scaffold 處理），也不處理 UI/UX 設計（由 kwc-design 處理）。當涉及KingScript語言規範和SDK使用時，請參考kingscript-code-generator技能包。如果任務涉及 kd CLI、建置或部署，您必須通知 kwc-orchestrator 切換到 kwc-project-scaffold。
