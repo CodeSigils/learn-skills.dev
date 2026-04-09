@@ -1,0 +1,1 @@
+使用 codaio CLI 與 Coda 文件、表格、行、頁面和公式互動。每當使用者提到 Coda、coda.io、Coda 文件、Coda 表或想要從 Coda 讀取/寫入/匯出資料時，請使用此技能 - 即使他們沒有明確地說「codaio」。不要直接使用curl或fetch呼叫Coda REST API； codaio 自動處理身份驗證、分頁、速率限制和錯誤格式化。使用此技能可以：從 Coda 表中讀取行、寫入或更新插入資料、將頁面匯出到 markdown、列出文件、發現表模式以及任何其他與 Coda 相關的資料任務。

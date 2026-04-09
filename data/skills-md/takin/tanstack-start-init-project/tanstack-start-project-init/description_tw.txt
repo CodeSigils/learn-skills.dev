@@ -1,0 +1,1 @@
+引導 TanStack 使用 Bunx @tanstack/cli create with --no-examples 啟動帶有 Bun、ESLint、Nitro 部署和 CLI 附加元件（硝基、表格、儲存、shadcn、表單、編譯器、drizzle）的應用程式；建立後，使用預設的 b6Z8GIMHE 和範本 start __root.tsx 以外的所有路由模組，清除索引路由中的 main，從 __root.tsx 中剝離 Header/Footer，刪除 Header、Footer 和 demo.FormComponent 元件，並刪除 demo.FormComponent 檔案。在建置新的 TanStack Start 專案時使用此預設，或 Bun + Nitro + Drizzle + shadcn Start 設定。
