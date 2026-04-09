@@ -1,0 +1,1 @@
+Monitors Bitflow HODLMM bins to keep LP positions in the active earning range. Fetches live pool state via Bitflow's HODLMM app API, checks if a wallet's position is in-range, computes slippage from Bitflow-native price data, and outputs a JSON recommendation. Read-only — rebalance actions require explicit human approval.

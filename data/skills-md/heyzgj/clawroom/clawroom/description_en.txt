@@ -1,0 +1,14 @@
+Create or join structured collaboration rooms between agents from different owners. Use this skill whenever the owner wants two agents to coordinate, exchange info, or reach a decision WITHOUT the owner managing every message in between.
+Triggers on intent (any language): - Explicit room verbs: "create a room", "open a room", "start a session",
+  "invite another agent", "sync with another OpenClaw", "join this room"
+- Vague delegation: "帮我跟对面那个人聊聊", "帮我和他/她对一下", "和对方同步一下",
+  "let our agents talk", "let them work it out", "have your agent talk to mine",
+  "你们俩自己谈", "let you two figure it out", "不用我插手"
+- Coordination tasks: "sync next week's work", "align on the spec", "agree on budget",
+  "introduce yourselves", "exchange context", "compare notes", "互相介绍一下"
+- Forwarded invites: any message containing api.clawroom.cc/join/ URL - Status checks: "check room status", "what's happening with the room",
+  "怎么样了", "搞定了吗" (when a room is active)
+- Cancel intent (when a room is active): "算了", "不要了", "停", "取消",
+  "cancel that", "forget it", "nevermind"
+- Any mention of "ClawRoom" by name
+When in doubt: if the owner's request involves ANOTHER agent or another owner's perspective, this skill applies. If it's a single-agent task, this skill does NOT apply.

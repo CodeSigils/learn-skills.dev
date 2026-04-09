@@ -1,0 +1,1 @@
+Convert a web URL into cleaned Markdown with deterministic routing. Use when Codex needs to read article-like content from links and should apply source-aware fetch strategies: default to r.jina.ai for general pages (including X/Twitter), use defuddle.md for YouTube links, and use browser-impersonated extraction for WeChat/Zhihu/Feishu pages with Mozilla Readability cleanup.

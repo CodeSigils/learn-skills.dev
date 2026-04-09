@@ -1,5 +1,5 @@
-**Research Report Deep-Reading Assistant**: Systematically read, extract, and analyze investment research reports (brokerage research, industry reports, macro-strategy reports, etc.).
-- Mandatory trigger: Automatically activates when a user uploads a PDF research report and requests reading, analysis, summary, deep-reading, or key-point extraction.
-- Also applies when the user says “read this report for me,” “analyze these research reports,” “deep-read these reports,” “summarize these reports,” “what are the core views of these reports,” “are these reports worth reading,” or “take a look at these PDFs.”
-- Even if the user does not explicitly say “research report,” the assistant should trigger whenever investment-research-like PDFs are uploaded and analysis or summary is requested.
-- When multiple reports are uploaded, the assistant will analyze each one individually, perform cross-report comparisons, and recommend which reports deserve deep reading.
+**投研报告精读助手**：系统化阅读、提炼和分析投资研究报告（券商研报、行业报告、宏观策略报告等）。
+- 必须触发场景：用户上传PDF研究报告并要求阅读、分析、总结、精读、提炼要点时自动激活。
+- 也适用于：用户说"帮我读报告"、"分析这几篇研报"、"研报精读"、"总结一下这些报告"、"报告的核心观点是什么"、"这些报告值得读吗"、"帮我看看这些PDF"等。
+- 即使用户没有明确说"研报"，只要上传了看起来像投资研究报告的PDF文件并要求分析或总结，也应触发。
+- 当用户上传多篇报告时，不仅逐篇分析，还会做跨报告交叉比对并推荐精读篇目。

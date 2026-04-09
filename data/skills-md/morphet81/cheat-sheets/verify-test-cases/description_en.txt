@@ -1,0 +1,1 @@
+Verify test cases in all test files modified since branching out from base branch. Checks that test cases make sense, have no duplications, and provide meaningful coverage. Spawns parallel agents for multi-file analysis. After the user confirms test-case changes, runs coverage (npm test:coverage or Jest/Vitest fallback) and fixes tests until coverage passes.
