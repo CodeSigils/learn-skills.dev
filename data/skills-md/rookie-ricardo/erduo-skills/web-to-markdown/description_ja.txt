@@ -1,0 +1,1 @@
+決定論的なルーティングを使用して、Web URL をクリーンな Markdown に変換します。 Codex がリンクから記事のようなコンテンツを読み取る必要があり、ソースを意識したフェッチ戦略を適用する必要がある場合に使用します。一般的なページ (X/Twitter を含む) にはデフォルトで r.jina.ai を使用し、YouTube リンクには defuddle.md を使用し、Mozilla Readability クリーンアップを使用して WeChat/Zhihu/Feishu ページにはブラウザー偽装抽出を使用します。
