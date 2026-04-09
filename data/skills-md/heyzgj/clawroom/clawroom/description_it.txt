@@ -1,0 +1,14 @@
+Crea o unisciti a stanze di collaborazione strutturate tra agenti di proprietari diversi. Utilizza questa abilità ogni volta che il proprietario desidera che due agenti si coordinino, scambino informazioni o prendano una decisione SENZA che il proprietario gestisca ogni messaggio intermedio.
+Trigger sull'intento (qualsiasi lingua): - Verbi room espliciti: "crea una room", "apri una room", "avvia una sessione",
+  "invita un altro agente", "sincronizza con un altro OpenClaw", "unisciti a questa stanza"
+- Delega vaga: "帮我跟对面那个人聊聊", "帮我和他/她对一下", "和对方同步一下",
+  "lascia che i nostri agenti parlino", "lascia che risolvano la questione", "fai parlare il tuo agente con il mio",
+  "你们俩自己谈", "lasciate che voi due capiate", "不用我插手"
+- Attività di coordinamento: "sincronizzare il lavoro della prossima settimana", "allineare le specifiche", "concordare il budget",
+  "presentatevi", "scambiate contesto", "confronta note", "互相介绍一下"
+- Inviti inoltrati: qualsiasi messaggio contenente api.clawroom.cc/join/ URL - Controlli di stato: "controlla lo stato della stanza", "cosa sta succedendo alla stanza",
+  "怎么样了", "搞定了吗" (quando una stanza è attiva)
+- Annulla intento (quando una stanza è attiva): "算了", "不要了", "停", "取消",
+  "annullalo", "lascia perdere", "non importa"
+- Qualsiasi menzione di "ClawRoom" per nome
+In caso di dubbio: se la richiesta del proprietario coinvolge UN ALTRO agente o il punto di vista di un altro proprietario, si applica questa abilità. Se si tratta di un'attività per agente singolo, questa competenza NON si applica.
