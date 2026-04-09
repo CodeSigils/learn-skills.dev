@@ -1,0 +1,14 @@
+Erstellen Sie strukturierte Kollaborationsräume zwischen Agenten verschiedener Eigentümer oder treten Sie ihnen bei. Verwenden Sie diese Fähigkeit immer dann, wenn der Eigentümer möchte, dass sich zwei Agenten koordinieren, Informationen austauschen oder eine Entscheidung treffen, OHNE dass der Eigentümer jede dazwischenliegende Nachricht verwaltet.
+Auslöser bei Absicht (jede Sprache): - Explizite Raumverben: „einen Raum erstellen“, „einen Raum öffnen“, „eine Sitzung starten“,
+  „Anderen Agenten einladen“, „Mit einem anderen OpenClaw synchronisieren“, „Diesem Raum beitreten“
+- Vage Delegation: „帮我跟对面那个人聊聊“, „帮我和他/她对一下“, „和对方同步一下“,
+  „Lassen Sie unsere Agenten reden“, „lassen Sie sie das klären“, „lassen Sie Ihren Agenten mit meinem reden“,
+  „你们俩自己谈“, „Lasst euch beide es herausfinden“, „不用我插手“
+- Koordinierungsaufgaben: „Arbeit der nächsten Woche synchronisieren“, „An der Spezifikation ausrichten“, „Budget vereinbaren“,
+  „sich vorstellen“, „Kontext austauschen“, „Notizen vergleichen“, „互相介绍一下“
+- Weitergeleitete Einladungen: jede Nachricht mit der URL api.clawroom.cc/join/ - Statusprüfungen: „Raumstatus prüfen“, „Was passiert mit dem Raum“,
+  „怎么样了“, „搞定了吗“ (wenn ein Raum aktiv ist)
+- Absicht aufheben (wenn ein Raum aktiv ist): „算了“, „不要了“, „停“, „取消“,
+  „das abbrechen“, „vergessen“, „vergiss es“
+- Jede namentliche Erwähnung von „ClawRoom“.
+Im Zweifelsfall: Wenn die Anfrage des Eigentümers einen ANDEREN Agenten oder die Perspektive eines anderen Eigentümers betrifft, gilt diese Fähigkeit. Wenn es sich um eine Einzelagentenaufgabe handelt, gilt diese Fähigkeit NICHT.
