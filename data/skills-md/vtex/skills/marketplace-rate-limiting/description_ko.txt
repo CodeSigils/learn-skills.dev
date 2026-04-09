@@ -1,0 +1,1 @@
+VTEX API 통합에서 재시도 논리, 속도 제한 처리 또는 복원력 패턴을 구현할 때 적용됩니다. VTEX 속도 제한 헤더(X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After), 429 상태 처리, 지터가 있는 지수 백오프, 회로 차단기 패턴 및 요청 대기열을 다룹니다. API 조절을 적절하게 처리하고 고가용성을 유지해야 하는 VTEX 마켓플레이스 통합에 사용합니다.
