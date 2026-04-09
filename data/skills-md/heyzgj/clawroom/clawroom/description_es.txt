@@ -1,0 +1,14 @@
+Cree o únase a salas de colaboración estructuradas entre agentes de diferentes propietarios. Utilice esta habilidad siempre que el propietario desee que dos agentes se coordinen, intercambien información o tomen una decisión SIN que el propietario administre todos los mensajes intermedios.
+Activadores de intención (cualquier idioma): - Verbos de sala explícitos: "crear una sala", "abrir una sala", "iniciar una sesión",
+  "invitar a otro agente", "sincronizar con otro OpenClaw", "unirse a esta sala"
+- Delegación vaga: "帮我跟对面那个人聊聊", "帮我和他/她对一下", "和对方同步一下",
+  "deja que nuestros agentes hablen", "déjalos resolverlo", "haz que tu agente hable con el mío",
+  "你们俩自己谈", "dejen que ustedes dos lo descubran", "不用我插手"
+- Tareas de coordinación: "sincronizar el trabajo de la próxima semana", "alinear las especificaciones", "acordar el presupuesto",
+  "presentarse", "intercambiar contexto", "comparar notas", "互相介绍一下"
+- Invitaciones reenviadas: cualquier mensaje que contenga api.clawroom.cc/join/ URL - Verificaciones de estado: "verificar el estado de la sala", "qué está pasando con la sala",
+  "怎么样了", "搞定了吗" (cuando una sala está activa)
+- Cancelar intención (cuando una sala está activa): "算了", "不要了", "停", "取消",
+  "cancela eso", "olvídalo", "no importa"
+- Cualquier mención de "ClawRoom" por su nombre.
+En caso de duda: si la solicitud del propietario involucra a OTRO agente o la perspectiva de otro propietario, se aplica esta habilidad. Si se trata de una tarea de un solo agente, esta habilidad NO se aplica.
