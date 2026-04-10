@@ -1,0 +1,1 @@
+為三個不安全的類別組件生命週期方法（componentWillMount、componentWillReceiveProps 和 componentWillUpdate）提供準確的遷移前/遷移後模式——針對 React 18.3.1。每當類別元件需要遷移其生命週期方法時、在 getDerivedStateFromProps 與 componentDidUpdate 之間做出決定時、新增 getSnapshotBeforeUpdate 時或修復 React 18 UNSAFE_ 生命週期警告時，請使用此技能。在編寫任何生命週期遷移程式碼之前始終使用此技能 - 不要憑記憶猜測模式，這裡的決策樹可以防止最常見的遷移錯誤。

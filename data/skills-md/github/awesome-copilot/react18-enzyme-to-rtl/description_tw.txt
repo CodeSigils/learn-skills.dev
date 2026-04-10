@@ -1,0 +1,1 @@
+為 React 18 升級提供準確的 Enzyme → React 測試函式庫遷移模式。每當需要重寫 Enzyme 測試時，請使用此技能 - 淺層、安裝、wrapper.find()、wrapper.simulate()、wrapper.prop()、wrapper.state()、wrapper.instance()、Enzyme 配置/適配器呼叫或從 enzyme 匯入的任何測試檔案。這項技能涵蓋了完整的 API 映射以及從實作測試到行為測試的理念轉變。在重寫 Enzyme 測試之前，請務必閱讀此技能 - 不要按 1:1 翻譯 Enzyme API，這會產生脆弱的 RTL 測試。

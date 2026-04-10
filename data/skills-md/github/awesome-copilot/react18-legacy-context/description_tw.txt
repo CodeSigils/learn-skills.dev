@@ -1,0 +1,1 @@
+提供從 React 舊版上下文 API（contextTypes、childContextTypes、getChildContext）到現代 createContext API 的完整遷移模式。每當遷移類別元件中的遺留上下文時，請使用此技能 - 這始終是跨文件遷移，需要提供者和所有使用者一起更新。在接觸任何 contextTypes 或 childContextTypes 程式碼之前使用它，因為僅遷移提供者而不遷移用戶（反之亦然）將導致運行時失敗。在編寫任何上下文遷移之前，請務必閱讀此技能 - 此處的跨文件協調步驟可以防止最常見的上下文遷移錯誤。

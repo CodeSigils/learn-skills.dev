@@ -1,0 +1,1 @@
+Claude Code + Codex 並行管道，用於引導 Trellis 編碼規範。 CC 使用 GitNexus（知識圖）+ ABCoder (AST) 分析儲存庫，建立具有完整架構上下文和 MCP 工具指令的 Trellis 任務 PRD，然後 Codex 代理程式並行執行這些任務以填入規範檔案。使用場合：引導編碼指南、設定 Trellis 規範、「codex 引導規範」、「建立規範任務」、「CC + Codex 規範管道」、「使用代碼智慧初始化編碼指南」。當使用者想要設定 GitNexus 或 ABCoder MCP 來產生多代理規範時也會觸發。

@@ -1,0 +1,1 @@
+任意寫入 RCE playbook。當您有任意寫入原語（來自堆疊、格式字串或 OOB 寫入）並且需要透過定位 GOT、hooks、_IO_FILE vtable、exit_funcs、TLS_dtor_list、modprobe_path、.fini_array 或 C++ vtable 將其轉換為程式碼執行時使用。
