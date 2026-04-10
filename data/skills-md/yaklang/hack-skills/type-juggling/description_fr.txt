@@ -1,0 +1,1 @@
+Jonglerie de types PHP et contournement de comparaison faible (`==`). À utiliser lorsque l'authentification, les vérifications HMAC/signature ou la validation de jeton utilisent une égalité lâche, une coercition numérique ou des comparaisons de hachage sans types stricts – ce qui est courant dans les anciens chemins de code de style PHP et CTF.

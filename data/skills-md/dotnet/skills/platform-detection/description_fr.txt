@@ -1,0 +1,1 @@
+Données de référence pour détecter la plateforme de test (VSTest vs Microsoft.Testing.Platform) et le framework de test (MSTest, xUnit, NUnit, TUnit) à partir des fichiers de projet. NE PAS UTILISER directement - chargé par run-tests, mtp-hot-reload et migrate-vstest-to-mtp lorsqu'ils ont besoin d'une logique de détection.

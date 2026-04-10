@@ -1,0 +1,1 @@
+Tests de contrebande et de désynchronisation des requêtes HTTP. À utiliser lorsque les proxys frontaux, les CDN ou les équilibreurs de charge ne sont pas d'accord avec l'origine du cadrage du message (Content-Length vs Transfer-Encoding), de la traduction HTTP/2 → HTTP/1 ou lors de l'exploration de la désynchronisation côté client via des pipelines de récupération du navigateur.

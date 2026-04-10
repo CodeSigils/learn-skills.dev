@@ -1,0 +1,1 @@
+Pollution des paramètres HTTP (HPP) : clés de requête/corps en double analysées différemment par les serveurs, les proxys, les WAF et les frameworks d'applications. À utiliser lorsque les filtres et les couches d'application ne sont pas d'accord sur la valeur qui l'emporte, permettant le contournement, la deuxième URL SSRF, l'abus de logique ou la confusion des jetons CSRF.

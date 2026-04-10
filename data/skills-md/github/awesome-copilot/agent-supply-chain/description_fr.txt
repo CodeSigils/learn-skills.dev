@@ -1,0 +1,7 @@
+Vérifiez l’intégrité de la chaîne d’approvisionnement pour les plug-ins, les outils et les dépendances des agents IA. Utilisez cette compétence lorsque :
+- Génération de manifestes d'intégrité SHA-256 pour les plugins d'agent ou les packages d'outils
+- Vérifier que les plugins installés correspondent à leurs manifestes publiés
+- Détection des fichiers falsifiés, modifiés ou non suivis dans les répertoires des outils de l'agent
+- Audit de l'épinglage des dépendances et des politiques de version pour les composants de l'agent
+- Construction de chaînes de provenance pour la promotion des plugins d'agent (dev → staging → production)
+- Toute demande telle que « vérifier l'intégrité du plugin », « générer un manifeste », « vérifier la chaîne d'approvisionnement » ou « signer ce plugin »

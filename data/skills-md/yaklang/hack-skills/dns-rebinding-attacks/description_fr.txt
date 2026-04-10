@@ -1,0 +1,1 @@
+Playbook d’attaque de rereliure DNS. À utiliser lors du test d'applications qui font confiance à la résolution DNS pour les vérifications d'origine, interagissent avec les services internes à partir du contexte du navigateur ou lorsque SSRF n'est pas possible côté serveur mais que la cible dispose d'une récupération/XHR côté client vers des domaines contrôlés par l'attaquant.

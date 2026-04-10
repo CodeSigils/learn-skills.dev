@@ -1,0 +1,1 @@
+Playbook de désérialisation non sécurisé. À utiliser lorsque des applications Java, PHP ou Python désérialisent des données non fiables via ObjectInputStream, désérialisent, pickle ou des mécanismes similaires pouvant conduire à un RCE, à un accès aux fichiers ou à une élévation de privilèges.
