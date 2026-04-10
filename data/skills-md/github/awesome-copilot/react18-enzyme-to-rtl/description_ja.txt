@@ -1,0 +1,1 @@
+React 18 アップグレード用の正確な Enzyme → React Testing Library 移行パターンを提供します。このスキルは、酵素テスト (shallow、mount、wrapper.find()、wrapper.simulate()、wrapper.prop()、wrapper.state()、wrapper.instance()、Enzyme configure/Adapter 呼び出し、または酵素からインポートするテスト ファイル) を書き直す必要がある場合に使用します。このスキルは、完全な API マッピングと、実装テストから動作テストへの哲学の移行をカバーします。酵素テストを書き直す前に必ずこのスキルをお読みください。脆弱な RTL テストを生成する酵素 API を 1:1 に変換しないでください。

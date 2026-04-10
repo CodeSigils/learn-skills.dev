@@ -1,0 +1,1 @@
+RCE プレイブックへの任意の書き込み。任意の書き込みプリミティブ (ヒープ活用、フォーマット文字列、または OOB 書き込み) があり、GOT、フック、_IO_FILE vtable、exit_funcs、TLS_dtor_list、modprobe_path、.fini_array、または C++ vtable をターゲットにしてそれをコード実行に変換する必要がある場合に使用します。

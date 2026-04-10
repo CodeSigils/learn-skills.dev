@@ -1,0 +1,1 @@
+組み込みの Markstream ノード レンダラーをオーバーライドし、信頼できるカスタム タグを追加します。 Codex が `setCustomComponents` を適用する必要がある場合、オーバーライドを `customId` でスコープ設定する必要がある場合、`image`、`code_block`、`mermaid`、または `link` などのオーバーライド キーをマップする必要がある場合、または `customHtmlTags` と ` Thinking` などのタグのネストされたレンダラーを接続する必要がある場合に使用します。
