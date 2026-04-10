@@ -1,0 +1,1 @@
+Escritura arbitraria en el libro de jugadas de RCE. Úselo cuando tenga una primitiva de escritura arbitraria (de explotación de montón, cadena de formato o escritura OOB) y necesite convertirla en ejecución de código apuntando a GOT, ganchos, _IO_FILE vtable, exit_funcs, TLS_dtor_list, modprobe_path, .fini_array o C++ vtables.

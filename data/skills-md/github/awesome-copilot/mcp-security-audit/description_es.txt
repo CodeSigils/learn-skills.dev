@@ -1,0 +1,9 @@
+Audite las configuraciones del servidor MCP (Protocolo de contexto modelo) para detectar problemas de seguridad. Utilice esta habilidad cuando:
+- Revisión de archivos .mcp.json para detectar riesgos de seguridad
+- Comprobación de argumentos del servidor MCP en busca de secretos codificados o patrones de inyección de shell
+- Validar que los servidores MCP utilicen versiones fijadas (no @latest)
+- Detección de dependencias no fijadas en configuraciones del servidor MCP
+- Auditar qué servidores MCP registra un proyecto y si están en una lista aprobada
+- Comprobación del uso de variables de entorno frente a credenciales codificadas en configuraciones de MCP
+- Cualquier solicitud como "¿es segura mi configuración de MCP?", "auditar mis servidores MCP" o "verificar .mcp.json"
+palabras clave: [mcp, seguridad, auditoría, secretos, inyección de shell, cadena de suministro, gobernanza]

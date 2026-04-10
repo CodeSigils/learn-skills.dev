@@ -1,0 +1,1 @@
+Manual de estrategias de deserialización insegura. Úselo cuando las aplicaciones Java, PHP o Python deserializan datos que no son de confianza a través de ObjectInputStream, deserializa, pickle o mecanismos similares que pueden conducir a RCE, acceso a archivos o escalada de privilegios.

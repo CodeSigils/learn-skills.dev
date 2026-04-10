@@ -1,0 +1,1 @@
+Manual de estrategias de inyección JNDI. Úselo cuando las aplicaciones Java realicen búsquedas JNDI con nombres controlados por el atacante, especialmente a través de Log4j2, Spring o cualquier ruta de código que llegue a InitialContext.lookup().

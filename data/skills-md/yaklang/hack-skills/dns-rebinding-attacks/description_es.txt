@@ -1,0 +1,1 @@
+Manual de estrategias de ataque de revinculación de DNS. Úselo cuando pruebe aplicaciones que confían en la resolución DNS para verificaciones de origen, interactúe con servicios internos desde el contexto del navegador o cuando SSRF no sea posible en el lado del servidor pero el objetivo tiene recuperación/XHR del lado del cliente para dominios controlados por el atacante.
