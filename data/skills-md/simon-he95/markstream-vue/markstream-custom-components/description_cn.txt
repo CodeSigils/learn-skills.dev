@@ -1,0 +1,1 @@
+覆盖内置的 Markstream 节点渲染器并添加可信的自定义标签。当 Codex 需要应用“setCustomComponents”时使用，保持覆盖范围为“customId”，映射覆盖键（如“image”、“code_block”、“mermaid”或“link”），或连接“customHtmlTags”和嵌套渲染器以获取“thinking”等标签。

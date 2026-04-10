@@ -1,0 +1,1 @@
+生成 MSBuild 二进制日志 (binlog) 以进行构建诊断和分析。仅在 MSBuild/.NET 构建上下文中激活。用途：将 /bl:{} 添加到任何 dotnet 构建、测试、打包、发布或恢复命令中，以捕获完整的构建执行跟踪，这是 binlog-failure-analysis 和 build-perf-diagnostics 技能的先决条件，从而能够对错误或性能进行构建后调查。 {} 占位符需要 MSBuild 17.8+ / .NET 8 SDK+； PowerShell 需要 -bl:{{}}。请勿用于：非 MSBuild 构建系统（npm、Maven、CMake）、分析现有 binlog（改为使用 binlog-failure-analysis）。调用：shell 命令 (dotnet build /bl:{})。

@@ -1,0 +1,1 @@
+用于从项目文件中检测测试平台（VSTest 与 Microsoft.Testing.Platform）和测试框架（MSTest、xUnit、NUnit、TUnit）的参考数据。不要直接使用 — 当需要检测逻辑时，由 run-tests、mtp-hot-reload 和 migrate-vstest-to-mtp 加载。

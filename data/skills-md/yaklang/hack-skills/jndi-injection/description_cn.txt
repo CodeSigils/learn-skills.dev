@@ -1,0 +1,1 @@
+JNDI 注入手册。当 Java 应用程序使用攻击者控制的名称执行 JNDI 查找时使用，特别是通过 Log4j2、Spring 或任何到达 InitialContext.lookup() 的代码路径。
