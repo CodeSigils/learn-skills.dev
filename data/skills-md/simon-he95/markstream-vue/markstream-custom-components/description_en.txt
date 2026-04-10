@@ -1,0 +1,1 @@
+Override built-in Markstream node renderers and add trusted custom tags. Use when Codex needs to apply `setCustomComponents`, keep overrides scoped with `customId`, map override keys like `image`, `code_block`, `mermaid`, or `link`, or wire `customHtmlTags` and nested renderers for tags such as `thinking`.
