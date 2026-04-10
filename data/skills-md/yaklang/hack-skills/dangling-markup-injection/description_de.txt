@@ -1,0 +1,1 @@
+Dangling-Markup-Injection-Playbook. Verwenden Sie diese Option, wenn die HTML-Injektion möglich ist, aber die JavaScript-Ausführung blockiert ist (CSP, Sanitizer entfernt Ereignishandler, WAF blockiert Skript-Tags) – filtern Sie CSRF-Tokens, Sitzungsdaten und Seiteninhalte heraus, indem Sie nicht geschlossene HTML-Tags einfügen, die nachfolgende Seiteninhalte erfassen.

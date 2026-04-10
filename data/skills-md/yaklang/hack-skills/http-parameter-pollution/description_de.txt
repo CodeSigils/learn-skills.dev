@@ -1,0 +1,1 @@
+HTTP Parameter Pollution (HPP): doppelte Abfrage-/Körperschlüssel, die von Servern, Proxys, WAFs und App-Frameworks unterschiedlich analysiert werden. Wird verwendet, wenn sich Filter und Anwendungsebenen darüber nicht einig sind, welcher Wert gewinnt, z. B. durch Umgehung, SSRF-Zweit-URL, Logikmissbrauch oder CSRF-Token-Verwirrung.

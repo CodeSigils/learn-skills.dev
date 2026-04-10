@@ -1,0 +1,9 @@
+Überwachen Sie MCP-Serverkonfigurationen (Model Context Protocol) auf Sicherheitsprobleme. Verwenden Sie diese Fähigkeit, wenn:
+– Überprüfung von .mcp.json-Dateien auf Sicherheitsrisiken
+– Überprüfung der MCP-Serverargumente auf hartcodierte Geheimnisse oder Shell-Injection-Muster
+– Validierung, dass MCP-Server angeheftete Versionen verwenden (nicht @latest)
+– Erkennen nicht angehefteter Abhängigkeiten in MCP-Serverkonfigurationen
+- Prüfung, welche MCP-Server ein Projekt registriert und ob sie auf einer genehmigten Liste stehen
+– Überprüfung der Verwendung von Umgebungsvariablen im Vergleich zu fest codierten Anmeldeinformationen in MCP-Konfigurationen
+– Jede Anfrage wie „Ist meine MCP-Konfiguration sicher?“, „Meine MCP-Server prüfen“ oder „.mcp.json prüfen“
+Schlüsselwörter: [MCP, Sicherheit, Audit, Geheimnisse, Shell-Injection, Lieferkette, Governance]

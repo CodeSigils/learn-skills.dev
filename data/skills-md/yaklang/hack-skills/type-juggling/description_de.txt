@@ -1,0 +1,1 @@
+PHP-Typ-Jonglage und schwacher Vergleich (`==`) werden umgangen. Wird verwendet, wenn bei der Authentifizierung, bei HMAC-/Signaturprüfungen oder bei der Tokenvalidierung lose Gleichheit, numerischer Zwang oder Hash-Vergleiche ohne strenge Typen verwendet werden – häufig in alten Codepfaden im PHP- und CTF-Stil.
