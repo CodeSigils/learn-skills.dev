@@ -1,0 +1,1 @@
+React 18 업그레이드를 위한 정확한 효소 → React 테스트 라이브러리 마이그레이션 패턴을 제공합니다. Shallow, mount,wrapper.find(),wrapper.simulate(),wrapper.prop(),wrapper.state(),wrapper.instance(),효소 구성/어댑터 호출 또는 효소에서 가져오는 모든 테스트 파일 등 효소 테스트를 다시 작성해야 할 때마다 이 기술을 사용하세요. 이 기술은 전체 API 매핑과 구현 테스트에서 동작 테스트로의 철학 전환을 다룹니다. 효소 테스트를 다시 작성하기 전에 항상 이 기술을 읽으십시오. 깨지기 쉬운 RTL 테스트를 생성하는 효소 API를 1:1로 번역하지 마십시오.
