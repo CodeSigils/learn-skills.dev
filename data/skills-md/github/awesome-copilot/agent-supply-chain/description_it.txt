@@ -1,0 +1,7 @@
+Verifica l'integrità della catena di fornitura per plug-in, strumenti e dipendenze dell'agente AI. Usa questa abilità quando:
+- Generazione di manifesti di integrità SHA-256 per plug-in di agenti o pacchetti di strumenti
+- Verifica che i plug-in installati corrispondano ai manifest pubblicati
+- Rilevamento di file manomessi, modificati o non tracciati nelle directory degli strumenti dell'agente
+- Controllo del blocco delle dipendenze e delle policy di versione per i componenti dell'agente
+- Costruire catene di provenienza per la promozione dei plugin degli agenti (sviluppo → staging → produzione)
+- Qualsiasi richiesta come "verifica l'integrità del plugin", "genera manifest", "controlla la catena di fornitura" o "firma questo plugin"

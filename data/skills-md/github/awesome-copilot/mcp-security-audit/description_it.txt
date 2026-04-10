@@ -1,0 +1,9 @@
+Controlla le configurazioni del server MCP (Model Context Protocol) per problemi di sicurezza. Usa questa abilità quando:
+- Revisione dei file .mcp.json per rischi per la sicurezza
+- Controllo degli argomenti del server MCP per segreti hardcoded o modelli di shell injection
+- Convalida che i server MCP utilizzino versioni aggiunte (non @latest)
+- Rilevamento delle dipendenze non bloccate nelle configurazioni del server MCP
+- Controllo di quali server MCP vengono registrati da un progetto e se sono presenti in un elenco approvato
+- Verifica dell'utilizzo delle variabili di ambiente rispetto alle credenziali hardcoded nelle configurazioni MCP
+- Qualsiasi richiesta come "la mia configurazione MCP è sicura?", "controlla i miei server MCP" o "controlla .mcp.json"
+parole chiave: [MCP, sicurezza, audit, segreti, shell-injection, catena di fornitura, governance]

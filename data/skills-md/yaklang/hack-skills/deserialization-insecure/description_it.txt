@@ -1,0 +1,1 @@
+Playbook di deserializzazione non sicuro. Da utilizzare quando le applicazioni Java, PHP o Python deserializzano dati non attendibili tramite ObjectInputStream, annullano la serializzazione, effettuano pickle o meccanismi simili che possono portare a RCE, accesso ai file o escalation dei privilegi.

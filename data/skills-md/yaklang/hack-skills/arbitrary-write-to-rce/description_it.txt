@@ -1,0 +1,1 @@
+Scrittura arbitraria nel playbook RCE. Da utilizzare quando si dispone di una primitiva di scrittura arbitraria (da sfruttamento heap, stringa di formato o scrittura OOB) ed è necessario convertirla in esecuzione di codice prendendo di mira GOT, hook, _IO_FILE vtable, exit_funcs, TLS_dtor_list, modprobe_path, .fini_array o C++ vtables.

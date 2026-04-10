@@ -1,0 +1,1 @@
+Playbook penzolante per l'iniezione di markup. Da utilizzare quando è possibile l'iniezione HTML ma l'esecuzione JavaScript è bloccata (CSP, gestori eventi sanitizer strips, tag script blocchi WAF): esfiltra token CSRF, dati di sessione e contenuto della pagina iniettando tag HTML non chiusi che acquisiscono il contenuto successivo della pagina.

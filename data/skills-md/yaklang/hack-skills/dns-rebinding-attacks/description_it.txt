@@ -1,0 +1,1 @@
+Manuale di attacco per il rebinding DNS. Da utilizzare durante il test di applicazioni che si affidano alla risoluzione DNS per i controlli dell'origine, interagiscono con i servizi interni dal contesto del browser o quando SSRF non è possibile sul lato server ma la destinazione ha fetch/XHR sul lato client per domini controllati dall'aggressore.
