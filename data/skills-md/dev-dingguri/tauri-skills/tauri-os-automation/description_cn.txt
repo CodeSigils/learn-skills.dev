@@ -1,0 +1,1 @@
+Tauri v2 L4 测试的 Windows 操作系统级自动化约束 — 系统托盘、注册表、全局键挂钩、窗口轮询。定义什么可以通过 pywinauto / UIA / winreg 自动化，什么必须保持手动。由 tauri-test-setup（L4 部分）和 tauri-test-generator（L4 常见错误）调用。触发器：“L4测试”、“pywinauto”、“系统托盘测试”、“托盘菜单自动化”、“全局键挂钩测试”、“LLKHF_INJECTED”、“UIA COM崩溃0x80040155”、“Windows 11托盘图标”、“TrayIconBuilder工具提示”。

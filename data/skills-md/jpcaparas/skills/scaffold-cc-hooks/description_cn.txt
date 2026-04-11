@@ -1,0 +1,1 @@
+Scaffold Claude Code 在详细审核项目结构后挂钩到真实项目。当用户需要 Claude Code 挂钩设置、挂钩重构、完整的挂钩事件脚手架或对现有 .claude 挂钩的托管更新时使用。该技能首先验证实时官方 Claude Code 挂钩文档，审核目标存储库，然后生成一个 bash-first 挂钩支架，其中包含挂钩自述文件、可重复合并行为以及每个当前挂钩事件的覆盖范围。触发：Claude Code 挂钩、脚手架挂钩、挂钩事件、更新挂钩、挂钩架构、.claude/settings.json。请勿用于通用 Git 挂钩、仅限 Husky 的设置或非 Claude 代理。

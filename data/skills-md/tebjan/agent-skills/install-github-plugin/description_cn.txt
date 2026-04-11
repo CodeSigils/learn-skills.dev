@@ -1,0 +1,1 @@
+从缺少市场清单的 GitHub 存储库安装 Claude Code 插件。每当“claude 插件安装”由于 SSH 密钥错误、缺少“.claude-plugin/marketplace.json”或未设计为 Claude 插件市场的 GitHub 存储库而失败时，请使用此技能。当用户说“从 GitHub 安装插件”、“从存储库添加技能”或“插件安装失败”时也可使用。处理完整的工作流程：通过 gh CLI 克隆、检查存储库结构、生成市场清单并运行安装。
