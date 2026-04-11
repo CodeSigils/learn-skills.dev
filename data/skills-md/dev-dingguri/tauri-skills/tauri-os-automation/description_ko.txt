@@ -1,0 +1,1 @@
+Tauri v2 L4 테스트를 위한 Windows OS 수준 자동화 제약 조건 — 시스템 트레이, 레지스트리, 전역 키 후크, 창 폴링. pywinauto / UIA / winreg를 통해 자동화할 수 있는 것과 수동으로 유지해야 하는 것을 정의합니다. tauri-test-setup(L4 섹션) 및 tauri-test-generator(L4 일반적인 실수)에 의해 호출됩니다. 트리거: "L4 테스트", "pywinauto", "시스템 트레이 테스트", "트레이 메뉴 자동화", "전역 키 후크 테스트", "LLKHF_INJECTED", "UIA COM crash 0x80040155", "Windows 11 트레이 아이콘", "TrayIconBuilder 도구 설명".
