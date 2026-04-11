@@ -1,0 +1,1 @@
+從缺少市場清單的 GitHub 儲存庫安裝 Claude Code 外掛程式。每當「claude 插件安裝」因 SSH 金鑰錯誤、缺少「.claude-plugin/marketplace.json」或未設計為 Claude 插件市場的 GitHub 儲存庫而失敗時，請使用此技能。當使用者說「從 GitHub 安裝插件」、「從儲存庫新增技能」或「插件安裝失敗」時也可使用。處理完整的工作流程：透過 gh CLI 複製、檢查儲存庫結構、產生市場清單並執行安裝。

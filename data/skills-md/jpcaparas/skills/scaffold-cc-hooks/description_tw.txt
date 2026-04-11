@@ -1,0 +1,1 @@
+Scaffold Claude Code 在詳細審查專案結構後掛鉤到真實專案。當使用者需要 Claude Code 掛鉤設定、掛鉤重構、完整的掛鉤事件鷹架或現有 .claude 掛鉤的託管更新時使用。此技能首先驗證即時官方 Claude Code 掛鉤文檔，審核目標儲存庫，然後產生一個 bash-first 掛鉤支架，其中包含掛鉤自述文件、可重複合併行為以及每個當前掛鉤事件的覆蓋範圍。觸發：Claude Code 掛鉤、鷹架掛鉤、掛鉤事件、更新掛鉤、掛鉤架構、.claude/settings.json。請勿用於通用 Git 掛鉤、僅限 Husky 的設定或非 Claude 代理。

@@ -1,0 +1,1 @@
+Tauri v2 L4 測試的 Windows 作業系統層級自動化限制 — 系統匣、登錄、全域鍵掛鉤、視窗輪詢。定義什麼可以透過 pywinauto / UIA / winreg 自動化，什麼必須保持手動。由 tauri-test-setup（L4 部分）和 tauri-test-generator（L4 常見錯誤）呼叫。觸發器：「L4測試」、「pywinauto」、「系統托盤測試」、「托盤選單自動化」、「全域鍵掛鉤測試」、「LLKHF_INJECTED」、「UIA COM崩潰0x80040155」、「Windows 11托盤圖示」、「TrayIconBuilder工具提示」。
