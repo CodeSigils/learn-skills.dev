@@ -1,0 +1,5 @@
+Convert a local AGENT.md into a Claude Code optimized agent. Audits one agent against Claude Code
+runtime behavior, creates a per-agent DAG rewrite plan with source-backed guardrails, and optionally
+rewrites the frontmatter and system-prompt body so the agent is thinner, more role-specific, and
+better aligned with Claude's agent runtime. Use when the user says "convert this agent to Claude",
+"normalize this AGENT.md", "thin this agent", or "rewrite this persona for Claude Code".

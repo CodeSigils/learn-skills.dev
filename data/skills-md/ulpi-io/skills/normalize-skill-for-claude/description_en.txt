@@ -1,0 +1,5 @@
+Convert a local skill into a Claude Code optimized shape. Audits one skill folder or SKILL.md
+against Claude Code runtime behavior, creates a per-skill DAG rewrite plan with source-backed
+guardrails, and optionally rewrites frontmatter, body, and references for better routing,
+smaller prompt footprint, and safer execution. Use when the user says "convert this skill to Claude",
+"normalize this SKILL.md", "make this skill Claude-native", or "rewrite this skill for Claude Code".
