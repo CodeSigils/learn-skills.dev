@@ -1,0 +1,1 @@
+비동기 작업 처리를 위한 전문가 Django Celery 지침입니다. 백그라운드 작업을 설계하고, Celery 작업자를 구성하고, 작업 재시도 및 오류를 처리하고, Celery 성능을 최적화하고, Celery Beat를 사용하여 정기적인 작업을 구현하거나, Celery에 대한 프로덕션 모니터링을 설정할 때 사용합니다. Celery, Celery가 아닌 작업 시스템(Django Q, Huey, RQ), ML/데이터 파이프라인 오케스트레이션(Airflow, Prefect) 또는 프런트엔드 및 API 전용 문제와 관련 없는 일반적인 Django 질문에는 사용하지 마세요. Vinta의 Django Celery 모범 사례를 따릅니다.
