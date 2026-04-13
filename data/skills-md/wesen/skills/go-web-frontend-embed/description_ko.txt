@@ -1,0 +1,1 @@
+2-프로세스 개발 루프(Vite 개발 서버 + Go에 대한 프록시) 및 프로덕션 단일 바이너리 빌드(go 생성 빌드/프런트엔드 자산 복사 + go:embed 패키지)를 사용하여 기존 Go 백엔드에 웹 프런트엔드(React/Vite SPA)를 추가합니다. Go on/api 및 선택적 /ws를 사용하여 SPA를 제공하고, Makefile 대상을 연결하고, CI(GitHub Actions)가 UI를 안정적으로 빌드/임베딩하도록 해야 할 때 사용합니다.
