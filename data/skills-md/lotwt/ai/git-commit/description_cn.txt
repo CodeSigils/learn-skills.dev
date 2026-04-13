@@ -1,0 +1,1 @@
+分析Git暂存区变化，首先读取repo中的commitlint配置，并根据项目规则生成commit消息；如果不存在这样的配置，则回退到内置的 commitlint (Angular) 约定。当用户说“help me commit”、“generate commit”、“write a commit message”、“confirm commit”、“commit this message”、“commit: <message>”时触发；如果在最后一轮中已经显示了单个候选者消息，则任何明确表明同意承诺的简短回复也应该继续进行。

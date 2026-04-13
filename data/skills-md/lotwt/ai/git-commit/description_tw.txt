@@ -1,1 +1,1 @@
-分析Git暫存區變化，首先讀取repo中的commitlint配置，並根據專案規則產生commit訊息；如果不存在這樣的配置，則回退到內建的 commitlint (Angular) 約定。當使用者說「help me commit」、「generate commit」、「write a commit message」、「confirm commit」、「commit this message」、「commit: <message>」時觸發；如果上一回合僅顯示一個候選訊息，則任何明確表明候選人同意的簡短回應也應繼續進行。
+分析Git暫存區變化，首先讀取repo中的commitlint配置，並根據專案規則產生commit訊息；如果不存在這樣的配置，則回退到內建的 commitlint (Angular) 約定。當使用者說「help me commit」、「generate commit」、「write a commit message」、「confirm commit」、「commit this message」、「commit: <message>」時觸發；如果在最後一輪中已經顯示了單一候選者訊息，則任何明確表示同意同意的簡短回覆也應該繼續進行。

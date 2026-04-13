@@ -1,4 +1,3 @@
-当用户说「填入数据」「补数据」「同步数据」「更新统计表」「数据填一下」，或直接粘贴一组平台数字（点赞/收藏/观看/涨粉/完播率）时，使用本 skill。
-核心动作是**数据录入**：将平台真实数字写入 03-数据统计/数据统计表.md，并自动计算收/赞比和爆款等级。
-不应触发：分析规律/复盘/爆款分析（用 li-analyzer）、记录新选题（用 li-recorder）。
-Use when the user wants to "fill in stats", "sync platform data", or pastes raw numbers (likes/saves/views) that need to be written into the stats table.
+When the user says "fill in data," "supplement data," "sync data," "update the stats table," or "enter the data," or directly pastes a set of platform numbers (likes/collects/views/follower increase/completion rate), use this skill.  
+The core action is **data entry**: write the real platform numbers into `03-数据统计/数据统计表.md` and auto-calculate the save/like ratio and hit level.  
+Do **not** trigger: pattern analysis/review/hit analysis (use li-analyzer), or log new topics (use li-recorder).
