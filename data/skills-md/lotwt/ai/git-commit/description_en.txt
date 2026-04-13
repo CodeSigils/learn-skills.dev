@@ -1,0 +1,1 @@
+分析 git 暂存区变更，优先读取仓库里的 commitlint 配置并按项目规则生成 commit message；如果仓库没有相关配置，则回退到内置的 commitlint（Angular）规范。用户说"帮我提交"、"生成 commit"、"写个 commit message"、"确认提交"、"提交这个 message"、"提交：<message>"时触发；如果上一轮已经展示唯一候选 message，任何明确表示同意提交的短回复也应继续执行。
