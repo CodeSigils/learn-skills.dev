@@ -1,0 +1,1 @@
+使用雙進程開發循環（Vite 開發伺服器 + Go 代理程式）和生產單二進位建置（go 產生建置/複製前端資產 + go:embed 打包它們），將 Web 前端 (React/Vite SPA) 新增至現有 Go 後端。當您需要使用 /api 和可選 /ws 從 Go 上提供 SPA、連接 Makefile 目標以及使 CI (GitHub Actions) 可靠地建置/嵌入 UI 時使用。
