@@ -1,2 +1,8 @@
-通过HTTP API控制ScreenClaw实现桌面软件自动化操作。
-当符合以下场景时使用此技能： - 用户需要操作没有API的桌面Windows软件（如点击按钮、输入文字、滚动页面） - 需要截图并让AI分析界面元素位置 - 需要程序化控制桌面应用程序 - 用户提到"点击某个软件的按钮"、"在XX软件中输入"、"帮我操作XX软件"等操作 任何涉及桌面软件GUI操作的请求，都应优先考虑使用此技能。
+Use ScreenClaw via its HTTP API to automate desktop-software operations.  
+Employ this skill when:  
+- The user needs to interact with Windows desktop apps that lack an API (e.g., click buttons, enter text, scroll pages)  
+- Screenshots are required so AI can analyze UI element locations  
+- Programmatic control of desktop applications is needed  
+- The user says things like “click a button in some app,” “type in XX software,” or “operate XX software for me”  
+
+For any request involving desktop GUI operations, prioritize this skill.

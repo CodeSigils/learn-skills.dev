@@ -1,0 +1,12 @@
+文本转图像工具 – 使用阿里云 DashScope API 生成图像。支持Qwen-Image和Wan系列型号。
+
+**在以下情况下始终触发此技能：**
+- 用户说“生成图像”、“为我画画”、“文本转图像”、“使用 AI 画画”
+- 用户提到AI绘画、图像生成、文字转图片
+- 用户描述一个场景并希望看到相应的图像
+- 用户使用/tgi命令
+- 用户需要创建任何类型的图像（头像、风景、插图、写实照片等）
+
+**支持的型号：**
+- Qwen系列：qwen-image-2.0-pro、qwen-image-2.0-max、qwen-image-2.0、qwen-image-max、qwen-image-plus
+- wan系列：wan2.7-image-pro、wan2.7-image、wan2.6-image、wan2.6-t2i、wan2.5-t2i-preview

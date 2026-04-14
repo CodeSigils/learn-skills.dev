@@ -1,12 +1,12 @@
-多数据库 CLI 工具 - 支持 MySQL 和达梦(Dameng)数据库的 SQL 导入、导出和执行操作。
+Multi-database CLI tool – supports SQL import, export, and execution for MySQL and Dameng databases.
 
-**务必主动触发此 Skill 的场景：**
-- 用户提到数据库操作、SQL 查询、数据导入导出
-- 用户需要备份数据库、迁移数据、执行批量 SQL
-- 用户询问 MySQL 或达梦数据库相关操作
-- 用户说"查一下数据库"、"执行 SQL"、"导出数据"、"导入数据"
-- 用户使用 /db-cli 命令
-- 任何需要连接数据库进行操作的情况
+**Scenes where this Skill must be actively triggered:**
+- User mentions database operations, SQL queries, data import/export
+- User needs to back up databases, migrate data, execute batch SQL
+- User asks about MySQL or Dameng database operations
+- User says "check the database", "execute SQL", "export data", "import data"
+- User uses the /db-cli command
+- Any situation requiring database connection for operations
 
-**支持的数据库：** MySQL, 达梦数据库
-**支持的操作：** import (导入), export (导出), exec (执行 SQL)
+**Supported databases:** MySQL, Dameng Database
+**Supported operations:** import, export, exec
