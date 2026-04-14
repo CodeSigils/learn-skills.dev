@@ -1,7 +1,7 @@
-Verwenden Sie die HTTP-API, um ScreenClaw zur Automatisierung von Desktop-Softwarevorgängen zu steuern.  
-Verwenden Sie diese Fähigkeit, wenn:  
-- Der Benutzer muss eine Desktop-Windows-Anwendung bedienen, die über keine API verfügt (z. B. Klicken auf Schaltflächen, Texteingabe, Scrollen von Seiten).  
-- Für die KI-Analyse der Positionen von UI-Elementen sind Screenshots erforderlich  
-- Programmatische Steuerung von Desktop-Anwendungen ist erforderlich  
-- Der Benutzer erwähnt „in einer Software auf eine Schaltfläche klicken“, „in XX-Software Text eingeben“, „mir bei der Bedienung von XX-Software helfen“ usw.  
-Für alle Anfragen, die GUI-Operationen von Desktop-Software betreffen, sollte diese Fähigkeit die erste Wahl sein.
+Steuern Sie ScreenClaw über die HTTP-API, um Desktop-Softwarevorgänge zu automatisieren.
+Verwenden Sie diese Fähigkeit, wenn:
+- Benutzer müssen Desktop-Windows-Software ohne API bedienen (z. B. Klicken auf Schaltflächen, Texteingabe, Scrollen von Seiten).
+- Für die KI sind Screenshots erforderlich, um die Positionen von UI-Elementen zu analysieren
+- Eine programmgesteuerte Steuerung von Desktop-Anwendungen ist erforderlich
+- Benutzer erwähnen Sätze wie „Klicken Sie auf eine Schaltfläche in einer Software“, „Geben Sie Text in eine XX-Software ein“, „Helfen Sie mir, die XX-Software zu bedienen“ usw.
+Bei allen Anfragen, die GUI-Operationen für Desktop-Software betreffen, sollten Sie diesem Skill Vorrang einräumen.

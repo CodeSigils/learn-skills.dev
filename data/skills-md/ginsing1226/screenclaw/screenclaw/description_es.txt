@@ -1,7 +1,7 @@
 Controle ScreenClaw a través de HTTP API para automatizar las operaciones del software de escritorio.
-Utilice esta habilidad en los siguientes escenarios:
-- El usuario necesita operar una aplicación de escritorio de Windows que no tiene API (por ejemplo, hacer clic en botones, ingresar texto, desplazarse por páginas)
+Utilice esta habilidad cuando:
+- Los usuarios necesitan operar el software de escritorio de Windows sin una API (por ejemplo, hacer clic en botones, ingresar texto, desplazarse por páginas)
 - Se requieren capturas de pantalla para que la IA analice las posiciones de los elementos de la interfaz de usuario.
-- Las aplicaciones de escritorio deben controlarse mediante programación.
-- El usuario menciona "haga clic en un botón en un determinado software", "ingrese texto en el software XX", "ayúdeme a operar el software XX", etc.
+- Se necesita control programático de las aplicaciones de escritorio.
+- Los usuarios mencionan frases como "haga clic en un botón en algún software", "ingrese texto en el software XX", "ayúdeme a operar el software XX", etc.
 Para cualquier solicitud que involucre operaciones de GUI de software de escritorio, priorice el uso de esta habilidad.

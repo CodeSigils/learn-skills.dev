@@ -1,8 +1,7 @@
-Use ScreenClaw via its HTTP API to automate desktop-software operations.  
-Employ this skill when:  
-- The user needs to interact with Windows desktop apps that lack an API (e.g., click buttons, enter text, scroll pages)  
-- Screenshots are required so AI can analyze UI element locations  
-- Programmatic control of desktop applications is needed  
-- The user says things like “click a button in some app,” “type in XX software,” or “operate XX software for me”  
-
-For any request involving desktop GUI operations, prioritize this skill.
+Control ScreenClaw via HTTP API to automate desktop software operations.
+Use this skill when:
+- Users need to operate desktop Windows software without an API (e.g., clicking buttons, entering text, scrolling pages)
+- Screenshots are required for AI to analyze UI element positions
+- Programmatic control of desktop applications is needed
+- Users mention phrases like "click a button in some software", "enter text in XX software", "help me operate XX software", etc.
+For any request involving desktop software GUI operations, prioritize using this skill.
