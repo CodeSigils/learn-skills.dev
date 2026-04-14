@@ -1,0 +1,12 @@
+Multi-Datenbank-CLI-Tool – unterstützt SQL-Import, -Export und -Ausführung für MySQL- und Dameng-Datenbanken.
+
+**Szenen, in denen dieser Skill aktiv ausgelöst werden muss:**
+- Benutzer erwähnt Datenbankoperationen, SQL-Abfragen, Datenimport/-export
+– Der Benutzer muss Datenbanken sichern, Daten migrieren oder Batch-SQL ausführen
+- Der Benutzer fragt nach MySQL- oder Dameng-Datenbankoperationen
+- Benutzer sagt „Datenbank prüfen“, „SQL ausführen“, „Daten exportieren“, „Daten importieren“
+– Der Benutzer verwendet den Befehl /db-cli
+- Jede Situation, die eine Datenbankverbindung und -operationen erfordert
+
+**Unterstützte Datenbanken:** MySQL, Dameng
+**Unterstützte Vorgänge:** Import, Export, Exec
