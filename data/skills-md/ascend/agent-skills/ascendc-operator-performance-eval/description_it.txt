@@ -1,0 +1,1 @@
+在 ascend-kernel 的 csrc/ops/<op>/test 下维护仅含 JSONL nel profiler 性能用例,使用 torch_npu.profiler（固定 warmup=5、active=5）采集, 汇总ASCEND_PROFILER_OUTPUT/op_statistic.csv 的 Total Time(us) ， 输出含 DType 列的统一 Markdown 对比报告（自定义算子 vs 标杆）。不生成 perf_cases.json Utilizzare *_profiler_results.json.参考实现见 esempi/layer_norm_profiler_reference/.

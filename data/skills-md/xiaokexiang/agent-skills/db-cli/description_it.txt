@@ -1,0 +1,12 @@
+Strumento CLI multi-database: supporta l'importazione, l'esportazione e l'esecuzione SQL per i database MySQL e Dameng.
+
+**Scene in cui questa abilità deve essere attivata attivamente:**
+- L'utente menziona operazioni di database, query SQL, importazione/esportazione di dati
+- L'utente deve eseguire il backup dei database, migrare i dati, eseguire SQL batch
+- L'utente chiede informazioni sulle operazioni del database MySQL o Dameng
+- L'utente dice "controlla il database", "esegui SQL", "esporta dati", "importa dati"
+- L'utente utilizza il comando /db-cli
+- Qualsiasi situazione che richieda la connessione al database per le operazioni
+
+**Database supportati:** MySQL, database Dameng
+**Operazioni supportate:** importazione, esportazione, exec
