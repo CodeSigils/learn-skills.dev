@@ -1,0 +1,1 @@
+상승 커널에서 csrc/ops/<op>/test 下维护仅含 JSONL의 프로파일러 性能用例,使用 torch_npu.profiler(固定warmup=5、active=5)采集，汇总 ASCEND_PROFILER_OUTPUT/op_statistic.csv 의 Total Time(us)은 DType의 Markdown을 对比报告(사용자 정의 vs 标杆)으로 표시합니다. perf_cases.json은 *_profiler_results.json을 사용하지 않습니다.

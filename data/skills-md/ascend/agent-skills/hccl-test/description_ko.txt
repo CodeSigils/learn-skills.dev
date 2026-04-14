@@ -1,0 +1,1 @@
+Ascend NPU 클러스터에 대한 HCCL(Huawei Collective Communication Library) 성능 테스트. 분산 통신 대역폭을 테스트하고, HCCL 기능을 확인하고, AllReduce, AllGather와 같은 집단 작업을 벤치마킹하는 데 사용합니다. MPI 설치, 다중 노드 실행 전 검사(SSH/CANN 버전/NPU 상태) 및 생산 테스트 워크플로를 다룹니다.

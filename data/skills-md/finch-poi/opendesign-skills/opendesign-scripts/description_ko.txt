@@ -1,0 +1,1 @@
+OpenDesign 빌드 스크립트 도구 사용 가이드. 아이콘 생성, SVG 정리, 구성 요소 구축, 스타일 컴파일 및 디자인 토큰 생성을 위해 @opensig/open-scripts CLI 도구를 사용해야 할 때 이 기술을 사용하세요. 5가지 명령을 지원합니다: gen:icon(SVG에서 Vue 아이콘 구성 요소로), clean:svg(SVG 정리 및 최적화), build:comComponent(Vue 구성 요소 라이브러리 빌드), build:style(SCSS 스타일 컴파일), gen:token(디자인 토큰 CSS 변수 생성). 사용 사례: (1) 빌드 스크립트 구성 및 실행, (2) 아이콘/토큰 구성 파일 작성, (3) 빌드 프로세스 및 명령 사용법 이해
