@@ -1,0 +1,1 @@
+ascend-kernel の csrc/ops/<op>/test の下にある JSONL を含むプロファイラーのパフォーマンスの例で、 torch_npu.profiler (固定 Warmup=5、active=5) を使用して取得、ASCEND_PROFILER_OUTPUT/op_statistic.csv の合計時間 (us)、出力に含まれる DType perf_cases.json と *_profiler_results.json は生成されません。examples/layer_norm_profiler_reference/ を参照してください。
