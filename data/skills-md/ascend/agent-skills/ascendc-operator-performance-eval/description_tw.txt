@@ -1,0 +1,1 @@
+在 ascend-kernel 的 csrc/ops/<op>/test 下維護僅含 JSONL 的 profiler 性能範例，使用 torch_npu.profiler（固定 Warmup=5、active=5）採集，匯總 ASCEND_PROFILER_OUTPUT/op_statistic.csv 的總值（S連接配置）對照的標列對比函數。不產生 perf_cases.json 與*_profiler_results.json。參考實作見examples/layer_norm_profiler_reference/。
