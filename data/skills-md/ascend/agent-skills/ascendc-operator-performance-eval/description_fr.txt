@@ -1,0 +1,1 @@
+Ascend-kernel utilise csrc/ops/<op>/test pour JSONL et le profileur ainsi que torch_npu.profiler（固定 warmup=5、active=5）采集，汇总ASCEND_PROFILER_OUTPUT/op_statistic.csv Temps total (us)，输出含 DType et Markdown par rapport à perf_cases.json Voir *_profiler_results.json。参考实现见 examples/layer_norm_profiler_reference/。

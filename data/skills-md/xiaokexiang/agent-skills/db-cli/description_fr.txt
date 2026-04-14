@@ -1,0 +1,12 @@
+Outil CLI multi-bases de données – prend en charge l’importation, l’exportation et l’exécution de bases de données SQL pour MySQL et Dameng.
+
+**Scènes où cette compétence doit être activement déclenchée :**
+- L'utilisateur mentionne les opérations de base de données, les requêtes SQL, l'importation/exportation de données
+- L'utilisateur doit sauvegarder les bases de données, migrer les données, exécuter du SQL par lots
+- L'utilisateur pose des questions sur les opérations de base de données MySQL ou Dameng
+- L'utilisateur dit "vérifier la base de données", "exécuter SQL", "exporter les données", "importer les données".
+- L'utilisateur utilise la commande /db-cli
+- Toute situation nécessitant une connexion à la base de données pour les opérations
+
+**Bases de données prises en charge :** MySQL, base de données Dameng  
+**Opérations prises en charge :** importation, exportation, exécution
