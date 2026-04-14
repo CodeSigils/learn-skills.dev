@@ -1,0 +1,12 @@
+Herramienta de conversión de texto a imagen: genere imágenes utilizando la API Alibaba Cloud DashScope. Admite los modelos de las series Qwen-Image y Wan.
+
+**Siempre activa esta habilidad cuando:**
+- El usuario dice "generar una imagen", "dibujar para mí", "texto a imagen" o "dibujar con IA".
+- El usuario menciona la pintura con IA, la generación de imágenes o la conversión de texto a imagen.
+- El usuario describe una escena y quiere ver la imagen correspondiente.
+- El usuario utiliza el comando /tgi
+- El usuario necesita crear cualquier tipo de imagen (avatar, paisaje, ilustración, fotografía realista, etc.)
+
+**Modelos compatibles:**
+- Serie Qwen: qwen-image-2.0-pro, qwen-image-2.0-max, qwen-image-2.0, qwen-image-max, qwen-image-plus
+- Serie Wan: wan2.7-image-pro, wan2.7-image, wan2.6-image, wan2.6-t2i, wan2.5-t2i-preview
