@@ -1,0 +1,15 @@
+Asistente de redacción de documentos oficiales para documentos del gobierno chino. Basado en el estándar GB/T 9704-2012.
+
+Se activa cuando: redactar documentos oficiales chinos (公文), formatear documentos de acuerdo con los estándares nacionales, revisar el cumplimiento de los documentos o crear avisos, informes, solicitudes, respuestas, cartas o actas.
+
+Comandos:
+- /gongwen aviso <tema> - Escribir un aviso (通知)
+- /informe gongwen <tema> - Escribir un informe (报告)
+- /gongwen solicitud <tema> - Escribir una solicitud (请示)
+- /gongwen respuesta <tema> - Escribe una respuesta (批复)
+- /gongwen carta <tema> - Escribe una carta (函)
+- /gongwen minutas <tema> - Escribir minutas de reuniones (纪要)
+- /gongwen check <documento> - Verificar el cumplimiento del documento
+- formato /gongwen - Mostrar reglas de formato
+
+Capacidades: compatibilidad con 15 tipos de documentos, cumplimiento de GB/T 9704-2012, reglas de numeración jerárquica, especificaciones de fuente y diseño, y plantillas de estructura de documentos.

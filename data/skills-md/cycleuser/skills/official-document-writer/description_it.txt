@@ -1,0 +1,15 @@
+Assistente ufficiale alla scrittura di documenti del governo cinese. Basato sullo standard GB/T 9704-2012.
+
+Si attiva quando: si scrivono documenti ufficiali cinesi (公文), si formattano documenti secondo gli standard nazionali, si verifica la conformità dei documenti o si creano avvisi, rapporti, richieste, risposte, lettere o verbali.
+
+Comandi:
+- /gongwen Notice <topic> - Scrivi un avviso (通知)
+- /gongwen report <argomento> - Scrivi un rapporto (报告)
+- /gongwen request <topic> - Scrivi una richiesta (请示)
+- /gongwen rispondi <argomento> - Scrivi una risposta (批复)
+- /gongwen letter <argomento> - Scrivi una lettera (函)
+- /gongwen verbali <argomento> - Scrivi i verbali della riunione (纪要)
+- /gongwen check <document> - Controlla la conformità del documento
+- Formato /gongwen: mostra le regole di formattazione
+
+Funzionalità: supporto per 15 tipi di documenti, conformità GB/T 9704-2012, regole di numerazione gerarchica, specifiche di carattere e layout e modelli di struttura del documento.
