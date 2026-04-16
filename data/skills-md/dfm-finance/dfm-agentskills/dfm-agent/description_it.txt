@@ -1,0 +1,4 @@
+Gestione del vault DTF completamente autonoma su Solana. L'agente ricerca in modo indipendente i mercati,
+decide i nomi/simboli/allocazioni/politiche del deposito e lo distribuisce sulla catena in un flusso in due fasi:
+non è richiesta alcuna conferma umana. Il motore politico è il guardrail, non una fase di approvazione umana.
+Da utilizzare quando l'utente chiede di avviare un deposito, ribilanciare, verificare la policy o distribuire commissioni.
