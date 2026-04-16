@@ -1,0 +1,1 @@
+Rust 프로그램에 대한 Kani 경계 모델 검사기 증명을 작성합니다. 보존, 격리, 산술 안전성 및 액세스 제어 속성을 입증합니다. 사용자가 Kani 증명, 제한된 모델 검사 또는 철저한 형식 검증을 요청하는 경우 또는 코드에 kani::, #[kani::proof] 또는 #[kani::unwind]가 포함된 경우에 사용하세요. 퍼징(proptest, Quickcheck, Cargo-fuzz), 속성 테스트 또는 Miri에는 사용하지 마십시오.
