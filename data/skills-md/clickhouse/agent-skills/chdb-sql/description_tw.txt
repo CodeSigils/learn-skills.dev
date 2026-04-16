@@ -1,0 +1,1 @@
+適用於 Python 的進程內 ClickHouse SQL 引擎 — 直接在本機檔案、遠端資料庫和雲端儲存上執行 ClickHouse SQL 查詢，無需伺服器。當使用者想要針對 Parquet/CSV/JSON 檔案編寫 SQL 查詢、使用 ClickHouse 表函數（mysql()、s3()、postgresql()、iceberg()、deltaLake() 等）、使用 Session 建立有狀態分析管道、使用參數化查詢、視窗函數或其他進階 ClickHouse SQL 功能時使用。當使用者明確提及 chdb.query()、ClickHouse SQL 語法或想要跨來源 SQL 連線時也可使用。不要用於 pandas 風格的 DataFrame 操作 - 請改用 chdb-datastore。

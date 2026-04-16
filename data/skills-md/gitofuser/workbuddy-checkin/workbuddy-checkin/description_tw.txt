@@ -1,0 +1,1 @@
+當使用者想要在 WorkBuddy 上完成每日簽到（以賺取簽到積分）時，請使用此技能。如果 WorkBuddy 未執行，它將自動啟動。 Playwright用於透過CSS選擇器定位DOM元素並點擊它們：先點擊左下角的使用者選單（class="user-menu"），等待2秒，然後點擊「Claim Now →」按鈕（class="daily-checkin-banner-action"）完成簽到。觸發關鍵字包括「簽到」、「WorkBuddy簽到」、「每日簽到」、「打卡點」。

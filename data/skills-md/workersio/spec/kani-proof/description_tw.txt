@@ -1,0 +1,1 @@
+為 Rust 程式編寫 Kani 有界模型檢查器證明。證明守恆、隔離、算術安全和存取控制屬性。當使用者要求 Kani 證明、有界模型檢查或詳盡的形式驗證時，或當程式碼包含 kani::、#[kani::proof] 或 #[kani::unwind] 時使用。請勿用於模糊測試（proptest、quickcheck、cargo-fuzz）、屬性測試或 Miri。
