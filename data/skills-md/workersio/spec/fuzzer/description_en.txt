@@ -1,0 +1,1 @@
+Coverage-guided fuzzing workflow for C/C++, Rust, and Go targets. Runs audit-context-building to find suspicious code, writes a targeted harness, builds with sanitizers, runs the fuzzer, and reports crashes.

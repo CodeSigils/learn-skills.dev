@@ -1,0 +1,1 @@
+Triage a daily msverl regression run by reading the baseline comparison log, stopping on success, extracting the most relevant training failure evidence from the daily training log when needed, collecting recent commits from verl main and MindSpeed master, and ranking the most likely culprit commits with concise fix-direction guidance.
