@@ -1,0 +1,1 @@
+PMA 관리 백엔드 및 전체 스택 단일 저장소에 대한 Bun 구현 가이드입니다. `apps/*` 및 `packages/*`가 포함된 Bun 작업 영역, `src/modules` 아래의 API 모듈, ESLint + @antfu/eslint-config를 사용한 엄격한 Linting, SQLite 우선 저장소에 대한 Drizzle, `Bun.serve()` 위에 OpenAPIHono, 검증된 환경 구성, Vite 개발 통합, 내장된 자산 및 마이그레이션이 포함된 독립 실행형 바이너리 컴파일, CI 품질 게이트를 다룹니다.

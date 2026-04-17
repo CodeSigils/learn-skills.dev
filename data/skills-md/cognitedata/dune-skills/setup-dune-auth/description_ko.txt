@@ -1,0 +1,1 @@
+기존 React 앱을 Dune으로 마이그레이션할 때 또는 DuneAuthProvider가 앱에서 누락된 경우 반드시 사용해야 합니다. 이 기술은 @cognite/dune 패키지를 설치하고, DuneAuthProvider에서 앱을 래핑하고, Vite 플러그인을 구성하고, useDune 후크를 설정합니다. 트리거: Dune으로 마이그레이션, Dune 인증 추가, DuneAuthProvider, useDune, Dune 설정, 인증 설정, 인증 공급자 누락, CDF 인증, Fusion iframe 인증.

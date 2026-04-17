@@ -1,0 +1,1 @@
+FPS, 그리기 호출 또는 GPU 메모리용 PixiJS v8 앱을 프로파일링하거나 최적화할 때 이 기술을 사용하세요. 삭제 패턴(cacheAsTexture(false), releaseGlobalResources), GCSystem 및 TextureGCSystem, prepareSystem, 객체 풀링, 일괄 처리 규칙, 동적 텍스트용 BitmapText, 컬링(Culler, CullerPlugin, cullable, cullArea), 해상도/안티앨리어싱 트레이드오프를 다룹니다. 트리거 대상: FPS, 버벅거림, 그리기 호출, 일괄 처리, 개체 풀, GCSystem, prepareSystem, Culler, 캐시AsTexture, 메모리 누수, 패턴 삭제.

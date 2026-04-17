@@ -1,0 +1,1 @@
+표준 브라우저(Web Workers, OffscreenCanvas, Node/SSR 또는 CSP 제한 컨텍스트) 외부에서 PixiJS v8을 실행할 때 이 기술을 사용하세요. 엄격한 CSP를 위한 DOMAdapter.set, BrowserAdapter, WebWorkerAdapter, 사용자 정의 어댑터 인터페이스, pixi.js/unsafe-eval을 포함합니다. 트리거 대상: DOMAdapter, BrowserAdapter, WebWorkerAdapter, Web Worker, OffscreenCanvas, Node, headless, SSR, CSP, unsafe-eval, Adapter.

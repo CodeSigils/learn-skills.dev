@@ -1,0 +1,1 @@
+프레임별 로직을 실행하거나 PixiJS v8 렌더링 루프를 제어할 때 이 기술을 사용하세요. Ticker.add/addOnce/remove, deltaTime 대 deltaMS 대 elapsedMS, UPDATE_PRIORITY 순서 지정, maxFPS/minFPS 제한, 속도 조정, Ticker.shared 대 새 인스턴스, 개체별 onRender 후크, 수동 렌더링을 다룹니다. 트리거 대상: Ticker, UPDATE_PRIORITY, deltaTime, deltaMS, elapsedMS, onRender, app.ticker, maxFPS, minFPS, Ticker.shared.

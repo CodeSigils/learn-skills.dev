@@ -1,0 +1,1 @@
+코드를 파생된 상태, 이벤트 핸들러, 메모 처리, '키' 기반 재설정, 'useSyncExternalStore' 및 프레임워크 또는 쿼리 라이브러리 데이터 API로 조정하여 불필요한 React 'useEffect' 사용을 방지합니다. React/Next.js 구성요소를 작성 또는 검토할 때, 효과가 많은 코드를 리팩토링할 때, 또는 변경으로 인해 `useEffect`, `useLayoutEffect` 또는 종속성 배열 이탈이 발생할 때 사용합니다. 트리거: "useEffect 방지", "useEffect 제거", "효과가 필요하지 않을 수 있음", "효과 종속성", "파생 상태", "부작용 반응".
