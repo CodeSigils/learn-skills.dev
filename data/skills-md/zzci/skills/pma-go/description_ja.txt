@@ -1,0 +1,1 @@
+PMA 管理サービスおよび CLI プロジェクトの Go 実装ガイド。プロジェクト レイアウト (cmd/内部)、golangci-lint v2 による厳密な lint、データベース アクセス (sqlc + pgx または GORM)、HTTP パターン (stdlib + Chi または Jin)、koanf による階層化構成、slog による構造化ログ、OpenTelemetry の可観測性、および CI 品質ゲートをカバーします。

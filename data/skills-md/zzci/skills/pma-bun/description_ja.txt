@@ -1,0 +1,1 @@
+PMA 管理のバックエンドおよびフルスタック モノリポジトリの Bun 実装ガイド。 `apps/*` および `packages/*` を使用した Bun ワークスペース、`src/modules` の下の API モジュール、ESLint + @antfu/eslint-config を使用した厳密な lint 機能、SQLite ファースト ストレージ上の Drizzle、`Bun.serve()` 上の OpenAPIHono、検証された環境設定、Vite 開発統合、埋め込みアセットと移行によるスタンドアロン バイナリ コンパイル、および CI 品質ゲートをカバーします。

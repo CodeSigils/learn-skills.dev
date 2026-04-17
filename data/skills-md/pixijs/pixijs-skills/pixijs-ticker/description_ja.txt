@@ -1,0 +1,1 @@
+このスキルは、フレームごとのロジックを実行する場合、または PixiJS v8 レンダリング ループを制御する場合に使用します。 Ticker.add/addOnce/remove、deltaTime と deltaMS と elapsedMS、UPDATE_PRIORITY の順序、maxFPS/minFPS のキャッピング、速度スケーリング、Ticker.shared と新しいインスタンス、オブジェクトごとの onRender フック、手動レンダリングについて説明します。トリガー条件: Ticker、UPDATE_PRIORITY、deltaTime、deltaMS、elapsedMS、onRender、app.ticker、maxFPS、minFPS、Ticker.shared。

@@ -1,0 +1,8 @@
+データのフェッチ、キャッシュ、
+React でのサーバー状態管理。次の場合に使用します: (1) useQuery を記述する、
+useMutation または useInfiniteQuery フック、(2) QueryClient のセットアップ
+および queryOptions、(3) オプティミスティックな更新またはキャッシュの実装
+無効化、(4) Next.js App Router を使用した SSR/ハイドレーションの構成
+または Pages Router、(5) React Query フックのテスト、(6) の操作
+TypeScript タイプ、サスペンス、または依存関係などの高度なパターン
+クエリと無限スクロール。
