@@ -1,0 +1,1 @@
+從 v7 升級到 PixiJS v8 或在升級後診斷損壞的 v7 代碼時，請使用此技能。涵蓋非同步 app.init、單一 pixi.js 套件（已棄用 @pixi/* 子包）、圖形形狀然後填充、BaseTexture→TextureSource、著色器/均勻返工、ParticleContainer+Particle、建構函數選項物件、DisplayObject 刪除、設定/utils 刪除、Ticker 簽章、事件重寫。觸發條件：遷移 v7、v8 重大變更、@pixi/ import、DisplayObject、beginFill、endFill、cacheAsBitmap、BaseTexture、已棄用。

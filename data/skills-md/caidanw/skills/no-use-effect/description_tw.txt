@@ -1,0 +1,1 @@
+透過將程式碼轉向派生狀態、事件處理程序、記憶化、基於「key」的重置、「useSyncExternalStore」以及框架或查詢庫資料 API，防止不必要的 React「useEffect」使用。在編寫或檢視 React/Next.js 元件、重構效果重的程式碼時，或在變更引入 `useEffect`、`useLayoutEffect` 或相依性陣列變更時使用。觸發條件：「避免 useEffect」、「刪除 useEffect」、「您可能不需要效果」、「效果依賴性」、「派生狀態」、「React 副作用」。

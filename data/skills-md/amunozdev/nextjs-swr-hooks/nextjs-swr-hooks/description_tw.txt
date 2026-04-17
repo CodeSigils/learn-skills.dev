@@ -1,0 +1,1 @@
+使用 SWR (stale-while-revalidate) 強制執行 Next.js 專案的鉤子開發約定：檔案結構、取得器模式、關鍵工廠、SSR 回退、類型和反模式預防。在 Next.js 專案中使用 SWR 建立、修改或檢查自訂 React hook 時，或當使用者提及「swr」、「useSWR」、「重新驗證時陳舊」、「swr hook」、「swrmutation」、「useSWRMutation」、「swrwrInfinity」、「swrmiddleware」時使用。請勿用於 TanStack 查詢項目 — 請改用 nextjs-tanstack-hooks。不要用於非 Next.js 專案 - 請改用react-swr-hooks。請勿用於客戶端狀態管理（Zustand、Redux、Recoil、Jotai）。
