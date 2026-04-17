@@ -1,1 +1,1 @@
-Handle the DeepScan login and authorization process. Supports QR-code scanning login or direct API key login. Triggered when the user needs to log in, provides an API key, authorization is required before entering the code-scanning page, the token has expired, or on first use.
+Handle DeepScan login authorization process. Supports scanning QR code login or direct API Key login. Triggered when user needs to log in, provides API Key, needs authorization before entering scan code mode, token expires, or first-time use.
