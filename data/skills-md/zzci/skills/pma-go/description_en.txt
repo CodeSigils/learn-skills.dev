@@ -1,0 +1,1 @@
+Go implementation guide for PMA-managed service and CLI projects. Covers project layout (cmd/internal), strict linting with golangci-lint v2, database access (sqlc + pgx or GORM), HTTP patterns (stdlib + Chi or Gin), layered config with koanf, structured logging with slog, OpenTelemetry observability, and CI quality gates.
