@@ -1,0 +1,8 @@
+用于数据获取、缓存的 TanStack Query v5 (React Query) 参考
+以及 React 中的服务器状态管理。使用时：（1）编写useQuery，
+useMutation 或 useInfiniteQuery 挂钩，(2) 设置 QueryClient
+和queryOptions，（3）实现乐观更新或缓存
+失效，(4) 使用 Next.js App Router 配置 SSR/Hydration
+或 Pages Router，(5) 测试 React Query hooks，(6) 使用
+TypeScript 类型、Suspense 或高级模式（如依赖）
+查询和无限滚动。

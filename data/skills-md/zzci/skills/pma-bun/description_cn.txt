@@ -1,0 +1,1 @@
+PMA 管理的后端和全栈 monorepos 的 Bun 实施指南。涵盖包含 `apps/*` 和 `packages/*` 的 Bun 工作区、`src/modules` 下的 API 模块、使用 ESLint + @antfu/eslint-config 进行严格的 linting、Drizzle over SQLite-first 存储、位于 `Bun.serve()` 之上的 OpenAPIHono、经过验证的环境配置、Vite 开发集成、带有嵌入式资产和迁移的独立二进制编译以及 CI 质量门。

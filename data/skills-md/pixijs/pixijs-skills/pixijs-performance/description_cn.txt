@@ -1,0 +1,1 @@
+在分析或优化 PixiJS v8 应用程序的 FPS、绘图调用或 GPU 内存时，请使用此技能。涵盖销毁模式（cacheAsTexture（false），releaseGlobalResources），GCSystem和TextureGCSystem，PrepareSystem，对象池，批处理规则，动态文本的BitmapText，剔除（Culler，CullerPlugin，cullable，cullArea），分辨率/抗锯齿权衡。触发条件：FPS、卡顿、绘制调用、批处理、对象池、GCSystem、PrepareSystem、Culler、cacheAsTexture、内存泄漏、销毁模式。
