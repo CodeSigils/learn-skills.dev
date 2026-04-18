@@ -4,573 +4,592 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 17 Apr 2026 02:19:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 02:09:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-04-17)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-04-18)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:snapshot</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:snapshot</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7819
-Trending skills: 7547
-Hot skills: 5670
-Top All Time: find-skills (1068360)
-Top Trending: find-skills (18003)
-Top Hot: ai-video-generation (363)]]></description>
+All Time skills: 7804
+Trending skills: 7381
+Hot skills: 4405
+Top All Time: find-skills (1085218)
+Top Trending: soultrace (47857)
+Top Hot: convex (22)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): azure-enterprise-infra-planner]]></title>
-            <link>https://skills.sh/microsoft/azure-skills/azure-enterprise-infra-planner</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topAllTime:new:microsoft/azure-skills/azure-enterprise-infra-planner</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #50
-Installs: 118430
-Source: microsoft/azure-skills
-Description: Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: 'plan Azure infrastructure', 'architect Azure landing zone', 'design hub-spoke network', 'plan multi-region DR topology', 'set up VNets firewalls and private endpoints', 'subscription-scope Bicep deployment'. PREFER azure-prepare FOR app-centric workflows.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#1): ai-video-generation]]></title>
-            <link>https://skills.sh/skillssh/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/ai-video-generation</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): convex]]></title>
+            <link>https://skills.sh/get-convex/agent-skills/convex</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:get-convex/agent-skills/convex</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 363
-Source: skillssh/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
+Installs: 22
+Source: get-convex/agent-skills
+Description: Routing skill for Convex work in this repo. Use when the user explicitly invokes the `convex` skill, asks which Convex workflow or skill to use, or says they are working on a Convex app without naming a specific task yet. Do not prefer this skill when the request is clearly about setting up Convex, authentication, components, migrations, or performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:vercel-labs/skills/find-skills</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): okx-cex-trade]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-trade</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-trade</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 726
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+Installs: 13
+Source: okx/agent-skills
+Description: This skill should be used when the user asks to 'buy BTC', 'sell ETH', 'place a limit order', 'place a market order', 'cancel my order', 'amend my order', 'long BTC perp', 'short ETH swap', 'open a position', 'close a position', 'set take profit', 'set stop loss', 'add a trailing stop', 'set leverage', 'check my orders', 'order status', 'fill history', 'trade history', 'buy a call', 'sell a put', 'buy call option', 'sell put option', 'option chain', 'implied volatility', 'IV', 'option Greeks', 'delta', 'gamma', 'theta', 'vega', 'delta hedge', 'option order', 'option position', 'option fills', or any request to place/cancel/amend spot, perpetual swap, delivery futures, or options orders on OKX CEX. Covers spot trading, swap/perpetual contracts, delivery futures, options (calls/puts, Greeks, IV), and conditional (TP/SL/trailing) algo orders. Requires API credentials. Do NOT use for market data (use okx-cex-market), account balance/positions (use okx-cex-portfolio), or grid/DCA bots (use okx-cex-bot).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/skills/frontend-design</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:anthropics/skills/frontend-design</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): okx-cex-bot]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-bot</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-bot</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 197
-Source: anthropics/skills
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
+Installs: 13
+Source: okx/agent-skills
+Description: This skill should be used when the user asks to 'start a grid bot', 'create a grid bot', 'stop the grid bot', 'show my grid bots', 'grid bot status', 'grid bot P&L', 'create a DCA bot', 'start a DCA bot', 'dollar cost average into BTC', 'set up a martingale bot', 'show my DCA bots', 'stop the DCA bot', 'DCA P&L', or any request involving creating, stopping, querying, or monitoring grid or DCA (Dollar Cost Averaging / Martingale) bots on OKX CEX. Grid and DCA each cover both spot and contract variants. Requires API credentials. Do NOT use for regular spot/swap/futures orders (use okx-cex-trade), market data (use okx-cex-market), or account balance/portfolio (use okx-cex-portfolio).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): agent-browser]]></title>
-            <link>https://skills.sh/skillssh/skills/agent-browser</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/agent-browser</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): to-prd]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-prd</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:mattpocock/skills/to-prd</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 34
+Installs: 11
+Source: mattpocock/skills
+Description: Turn the current conversation context into a PRD and submit it as a GitHub issue. Use when user wants to create a PRD from the current context.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): soultrace]]></title>
+            <link>https://skills.sh/soultrace-ai/soultrace-skill/soultrace</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:soultrace-ai/soultrace-skill/soultrace</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 17
+Source: soultrace-ai/soultrace-skill
+Description: Take a personality assessment via the SoulTrace API. Use when the user wants to take a personality test, discover their psychological archetype, understand their personality traits, or get a color-based personality profile. The API uses a 5-color psychological model (White=structure, Blue=understanding, Black=agency, Red=intensity, Green=connection) with Bayesian adaptive question selection to classify users into one of 25 archetypes. Triggers on: personality test, personality assessment, what's my personality, take a quiz, archetype test, color personality, soultrace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): pua]]></title>
+            <link>https://skills.sh/tanweai/pua/pua</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:tanweai/pua/pua</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 16
+Source: tanweai/pua
+Description: Forces exhaustive problem-solving using corporate PUA rhetoric and structured debugging methodology. MUST trigger when: (1) any task has failed 2+ times or you're stuck in a loop tweaking the same approach; (2) you're about to say 'I cannot', suggest the user do something manually, or blame the environment without verifying; (3) you catch yourself being passive — not searching, not reading source, not verifying, just waiting for instructions; (4) user expresses frustration in ANY form: 'try harder', 'stop giving up', 'figure it out', 'why isn't this working', 'again???', '换个方法', '为什么还不行', '你再试试', '加油', '你怎么又失败了', or any similar sentiment even if phrased differently. Also trigger when facing complex multi-step debugging, environment issues, config problems, or deployment failures where giving up early is tempting. Applies to ALL task types: code, config, research, writing, deployment, infrastructure, API integration. Do NOT trigger on first-attempt failures or when a known fix is already executing successfully.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#15): okx-cex-market]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-market</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-market</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #15
+Installs: 12
+Source: okx/agent-skills
+Description: This skill should be used when the user asks for 'price of BTC', 'ETH ticker', 'show me the orderbook', 'market depth', 'BTC candles', 'OHLCV chart data', 'funding rate', 'open interest', 'mark price', 'index price', 'recent trades', 'price limit', 'list instruments', 'what instruments are available', or any request to query public market data on OKX CEX. All commands are read-only and do NOT require API credentials. Do NOT use for account balance/positions (use okx-cex-portfolio), placing/cancelling orders (use okx-cex-trade), or grid/DCA bots (use okx-cex-bot).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): okx-cex-earn]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-earn</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-earn</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 12
+Source: okx/agent-skills
+Description: Manages OKX Simple Earn (flexible savings/lending), On-chain Earn (staking/DeFi), and Dual Investment (DCD/双币赢) via the okx CLI. Use this skill whenever the user wants to check earn balances, subscribe or redeem earn products, view or set lending rates, monitor on-chain staking orders, or interact with dual investment structured products — even if phrased casually as 活期赚币, 赚币, 申购, 赎回, 链上赚币, 质押, 理财, 双币赢, 双币理财, 双币申购, 高卖, 低买, dual investment, DCD, buy low, sell high structured product, earn with target price, or 目标价. Also use when the user asks about idle funds and whether to earn on them.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): okx-cex-skill-mp]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-skill-mp</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-skill-mp</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 12
+Source: okx/agent-skills
+Description: Use this skill when the user asks to: 'find a trading skill', 'search for skills', 'install a skill', 'add a skill', 'download a skill', 'browse skill marketplace', 'what skills are available', 'update a skill', 'check for skill updates', 'remove a skill', 'uninstall a skill', 'list installed skills', 'show my skills', 'skill categories', or any request to discover, install, update, or manage AI trading skills from the OKX Skills Marketplace. This skill covers searching, browsing categories, installing via CLI, downloading zip packages, checking for updates, and removing installed skills. Requires API credentials for marketplace API access. Do NOT use for placing orders (use okx-cex-trade), market data (use okx-cex-market), or bot management (use okx-cex-bot).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): okx-cex-portfolio]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-portfolio</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:okx/agent-skills/okx-cex-portfolio</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 12
+Source: okx/agent-skills
+Description: This skill should be used when the user asks about 'account balance', 'how much USDT do I have', 'my funding account', 'show my positions', 'open positions', 'position P&L', 'unrealized PnL', 'closed positions', 'position history', 'realized PnL', 'account bills', 'transaction history', 'trading fees', 'fee tier', 'account config', 'max order size', 'how much can I buy', 'withdrawable amount', 'transfer funds', 'move USDT to trading account', or 'switch position mode'. Requires API credentials. Do NOT use for market prices (use okx-cex-market), placing/cancelling orders (use okx-cex-trade), or grid/DCA bots (use okx-cex-bot).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): solana-dev]]></title>
+            <link>https://skills.sh/solana-foundation/solana-dev-skill/solana-dev</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:solana-foundation/solana-dev-skill/solana-dev</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 100
+Source: solana-foundation/solana-dev-skill
+Description: End-to-end Solana development playbook (Jan 2026). Prefer Solana Foundation framework-kit (@solana/client + @solana/react-hooks) for React/Next.js UI. Prefer @solana/kit for all new client/RPC/transaction code. When legacy dependencies require web3.js, isolate it behind @solana/web3-compat (or @solana/web3.js as a true legacy fallback). Covers wallet-standard-first connection (incl. ConnectorKit), Anchor/Pinocchio programs, Codama-based client generation, LiteSVM/Mollusk/Surfpool testing, and security checklists.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#2): wechat-article-search]]></title>
+            <link>https://skills.sh/wuchubuzai2018/expert-skills-hub/wechat-article-search</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:wuchubuzai2018/expert-skills-hub/wechat-article-search</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #2
+Installs: 13
+Source: wuchubuzai2018/expert-skills-hub
+Description: 搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): supabase]]></title>
+            <link>https://skills.sh/supabase/agent-skills/supabase</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:supabase/agent-skills/supabase</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 66
+Source: supabase/agent-skills
+Description: Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): code-review-expert]]></title>
+            <link>https://skills.sh/sanyuan0704/code-review-expert/code-review-expert</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:sanyuan0704/code-review-expert/code-review-expert</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 12
+Source: sanyuan0704/code-review-expert
+Description: Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable improvements.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): pretty-mermaid]]></title>
+            <link>https://skills.sh/imxv/pretty-mermaid-skills/pretty-mermaid</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:imxv/pretty-mermaid-skills/pretty-mermaid</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 12
+Source: imxv/pretty-mermaid-skills
+Description: Render beautiful Mermaid diagrams as SVG or ASCII art using the beautiful-mermaid library.
+Supports 15+ themes, 5 diagram types (flowchart, sequence, state, class, ER), and ultra-fast rendering.
+
+Use this skill when:
+1. User asks to "render a mermaid diagram" or provides .mmd files
+2. User requests "create a flowchart/sequence diagram/state diagram"
+3. User wants to "apply a theme" or "beautify a diagram"
+4. User needs to "batch process multiple diagrams"
+5. User mentions "ASCII diagram" or "terminal-friendly diagram"
+6. User wants to visualize architecture, workflows, or data models]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): to-issues]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-issues</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:mattpocock/skills/to-issues</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
+Installs: 8
+Source: mattpocock/skills
+Description: Break a plan, spec, or PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): value]]></title>
+            <link>https://skills.sh/hugmouse/skills/value</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:hugmouse/skills/value</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 17
+Source: hugmouse/skills
+Description: skill does absolutely nothing, as well as the agent that uses it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): autocli]]></title>
+            <link>https://skills.sh/nashsu/autocli-skill/autocli</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:nashsu/autocli-skill/autocli</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 11
+Source: nashsu/autocli-skill
+Description: Use autocli CLI to interact with social/content websites (HackerNews, DevTo, Lobsters, StackOverflow, Steam, Linux-do, Arxiv, Wikipedia, Apple-Podcasts, Xiaoyuzhou, BBC, Hugging Face, SinaFinance, Google, V2EX, Bloomberg, Twitter/X, Bilibili, Reddit, Zhihu, Xiaohongshu, Xueqiu, Weibo, Douban, WeRead, YouTube, Medium, Substack, SinaBlog, BOSS直聘, Jike, Facebook, Instagram, TikTok, Yollomi, Yahoo-Finance, Barchart, LinkedIn, Reuters, SMZDM, Ctrip, Coupang, Grok, Jimeng, Chaoxing, Weixin, Doubao, Cursor, Codex, ChatWise, ChatGPT, Doubao-App, Notion, Discord, Antigravity etc.) via the user's Chrome login session. ALWAYS prefer autocli over playwright/browser automation for these supported sites. Triggers: user asks to browse, search, or fetch hot/trending content from internet, post, or read messages on any web site;]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): xyq-nest-skill]]></title>
+            <link>https://skills.sh/pippit-dev/pippit-skills/xyq-nest-skill</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:pippit-dev/pippit-skills/xyq-nest-skill</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 7
+Source: pippit-dev/pippit-skills
+Description: 通过小云雀的 AI 能力进行综合创作，支持生成和编辑图片/视频。覆盖场景包括：生成（文生图、文生视频、图生视频、做动画、画一个xxx、来段xxx）、编辑修改（把xxx换成yyy、去掉xxx、加上xxx、改成xxx、调整xxx、局部修改、改镜头）、风格转换（风格迁移、转绘、换风格）、视频续写延长、复刻视频/TVC/宣传片、短剧/短漫剧生成、音乐MV生成、产品广告/展示片制作、分镜/故事板设计、教育视频/短视频制作。当用户提到小云雀、xyq、上传参考图/视频、查看生成进度时也应触发。关键判断：只要用户的请求涉及 AI 视频的创作、生成、编辑、修改，无论措辞如何（如"画只猫"、"做个海报"、"做个视频"、"这个视频帮我改一下"、"帮我复刻这段视频"、"用这首歌做个MV"、"一句话生成短剧"），都必须触发此技能。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): character-design-sheet]]></title>
+            <link>https://skills.sh/skillssh/skills/character-design-sheet</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:skillssh/skills/character-design-sheet</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 27
+Source: skillssh/skills
+Description: Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): web-content-fetcher]]></title>
+            <link>https://skills.sh/shirenchuang/web-content-fetcher/web-content-fetcher</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:shirenchuang/web-content-fetcher/web-content-fetcher</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 12
+Source: shirenchuang/web-content-fetcher
+Description: 网页正文内容提取。支持 Jina Reader / Scrapling+html2text / web_fetch 三级降级策略， 自动返回干净的 Markdown 格式正文，保留标题、链接、图片 URL、列表结构。 能读取微信公众号文章（Jina 做不到的场景）。 触发条件：用户要抓取某个 URL 的正文内容、读取某篇文章、提取网页内容等。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): app-store-screenshots]]></title>
+            <link>https://skills.sh/skillssh/skills/app-store-screenshots</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:skillssh/skills/app-store-screenshots</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 27
+Source: skillssh/skills
+Description: App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): youtube-thumbnail-design]]></title>
+            <link>https://skills.sh/skillssh/skills/youtube-thumbnail-design</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:skillssh/skills/youtube-thumbnail-design</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 27
+Source: skillssh/skills
+Description: YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): autonomous]]></title>
+            <link>https://skills.sh/camacho/ai-skills/autonomous</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/autonomous</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 6
+Source: camacho/ai-skills
+Description: Exit copilot mode — return to autonomous mode with full worktree enforcement.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): policy-algebra]]></title>
+            <link>https://skills.sh/camacho/ai-skills/policy-algebra</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/policy-algebra</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 6
+Source: camacho/ai-skills
+Description: Use when a skill, plan, or rule file needs a frozen Starlark governance rule block generated, or an existing frozen block drift-checked against a candidate. Invoke explicitly — not for general rule discussion.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): capture]]></title>
+            <link>https://skills.sh/camacho/ai-skills/capture</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/capture</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 6
+Source: camacho/ai-skills
+Description: Creates a draft GitHub Issue with triage label from natural language description.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): bail]]></title>
+            <link>https://skills.sh/camacho/ai-skills/bail</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/bail</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 6
+Source: camacho/ai-skills
+Description: Reflects, updates GitHub Issue, closes PR if open, cleans up worktree/branch.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): assemble-panel]]></title>
+            <link>https://skills.sh/camacho/ai-skills/assemble-panel</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/assemble-panel</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 6
+Source: camacho/ai-skills
+Description: Use when another skill or agent needs a review panel assembled, retained, or converged — invoked by /review-loop, /plan-review, and code-reviewer, not directly by users.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): blueprinter]]></title>
+            <link>https://skills.sh/yofine/skills/blueprinter</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:yofine/skills/blueprinter</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 12
+Source: yofine/skills
+Description: Generate technical diagrams using HTML/CSS in Flat Engineering Blueprint style. Use when the user wants to create architecture diagrams, system diagrams, flowcharts, or technical specification sheets that look like engineering blueprints. Triggers on requests for flat diagrams, blueprint-style visualizations, or technical drawings.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): build-skill]]></title>
+            <link>https://skills.sh/camacho/ai-skills/build-skill</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/build-skill</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 6
+Source: camacho/ai-skills
+Description: Use when creating a new skill with maximum quality, workflow-conformant. Runs 3 competing parallel approaches (skill-creator, superpowers writing-skills, and manual), compares results on 5 dimensions, then synthesizes the best elements into a final skill. Triggers on "build a skill", "create a skill", "new skill".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): plan-review]]></title>
+            <link>https://skills.sh/camacho/ai-skills/plan-review</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/plan-review</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 6
+Source: camacho/ai-skills
+Description: Auto-assembles review panel using deterministic rules, dispatches agents against plan file, collects verdicts.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): review-loop]]></title>
+            <link>https://skills.sh/camacho/ai-skills/review-loop</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/review-loop</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 6
+Source: camacho/ai-skills
+Description: Use when iterative review-fix cycles are needed on a plan or implementation — bounded loop with severity gating, automatic fixes, and finding disposition.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): catchup]]></title>
+            <link>https://skills.sh/camacho/ai-skills/catchup</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/catchup</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 6
+Source: camacho/ai-skills
+Description: Use after /clear, /compact, session resume, or context loss. Use when branch context is stale or unknown. Use when starting work in an existing worktree.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): orient]]></title>
+            <link>https://skills.sh/camacho/ai-skills/orient</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/orient</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 6
+Source: camacho/ai-skills
+Description: Fetches issue context, auto-detects task type, maps to branch prefix, presents brief.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): copilot]]></title>
+            <link>https://skills.sh/camacho/ai-skills/copilot</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/copilot</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 6
+Source: camacho/ai-skills
+Description: Enter copilot mode — human drives, Claude assists. Relaxes worktree enforcement, allows main commits.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): validate]]></title>
+            <link>https://skills.sh/camacho/ai-skills/validate</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/validate</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 6
+Source: camacho/ai-skills
+Description: Run full project validation (typecheck + lint + format + test + build (optional))]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): reflect]]></title>
+            <link>https://skills.sh/camacho/ai-skills/reflect</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/reflect</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 6
+Source: camacho/ai-skills
+Description: Post-task review. Extract learnings, classify, write to memory layers, and reconcile GitHub issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): wrap]]></title>
+            <link>https://skills.sh/camacho/ai-skills/wrap</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/wrap</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 6
+Source: camacho/ai-skills
+Description: Use when ending a session, wrapping up work, saying goodbye, or transitioning to a new task context after completing a development cycle]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): status]]></title>
+            <link>https://skills.sh/camacho/ai-skills/status</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/status</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 6
+Source: camacho/ai-skills
+Description: Project status dashboard — open issues, recent commits, active branches/worktrees, memory state, and scratchpad. Use when the user asks for a status report, project overview, "what's going on", "where are we", or wants to catch up on project state without the full /catchup reconstruction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): session-start-hook]]></title>
+            <link>https://skills.sh/camacho/ai-skills/session-start-hook</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:new:camacho/ai-skills/session-start-hook</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 6
+Source: camacho/ai-skills
+Description: Creating and developing startup hooks for Claude Code. Use when the user wants to set up a repository for Claude Code, create a SessionStart hook to ensure their project can run tests and linters during sessions (CLI, web, or API).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#37): extract-design-system]]></title>
+            <link>https://skills.sh/arvindrk/extract-design-system/extract-design-system</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topTrending:new:arvindrk/extract-design-system/extract-design-system</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #37
+Installs: 2639
+Source: arvindrk/extract-design-system
+Description: Extract design primitives from a public website and generate starter token files for the current project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#47): delight]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/delight</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topTrending:new:pbakaus/impeccable/delight</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #47
+Installs: 2552
+Source: pbakaus/impeccable
+Description: Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#48): bolder]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/bolder</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topTrending:new:pbakaus/impeccable/bolder</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 2549
+Source: pbakaus/impeccable
+Description: Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#49): distill]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/distill</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topTrending:new:pbakaus/impeccable/distill</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #49
+Installs: 2539
+Source: pbakaus/impeccable
+Description: Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): quieter]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/quieter</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topTrending:new:pbakaus/impeccable/quieter</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 2527
+Source: pbakaus/impeccable
+Description: Tone down overly bold or visually aggressive designs. Reduces intensity while maintaining design quality and impact.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank up (48 → 26): soultrace]]></title>
+            <link>https://skills.sh/soultrace-ai/soultrace-skill/soultrace</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topAllTime:rank:soultrace-ai/soultrace-skill/soultrace</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #48
+Current rank: #26
+Delta: +22
+Installs: 180111 (prev 133376)
+Source: soultrace-ai/soultrace-skill
+Description: Take a personality assessment via the SoulTrace API. Use when the user wants to take a personality test, discover their psychological archetype, understand their personality traits, or get a color-based personality profile. The API uses a 5-color psychological model (White=structure, Blue=understanding, Black=agency, Red=intensity, Green=connection) with Bayesian adaptive question selection to classify users into one of 25 archetypes. Triggers on: personality test, personality assessment, what's my personality, take a quiz, archetype test, color personality, soultrace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (12 → 5): agent-browser]]></title>
+            <link>https://skills.sh/skillssh/skills/agent-browser</link>
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:rank:skillssh/skills/agent-browser</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #12
+Current rank: #5
+Delta: +7
+Installs: 47 (prev 34)
 Source: skillssh/skills
 Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): python-executor]]></title>
+            <title><![CDATA[[Hot] Rank up (13 → 6): python-executor]]></title>
             <link>https://skills.sh/skillssh/skills/python-executor</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/python-executor</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 34
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:rank:skillssh/skills/python-executor</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #13
+Current rank: #6
+Delta: +7
+Installs: 47 (prev 34)
 Source: skillssh/skills
 Description: Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): web-search]]></title>
+            <title><![CDATA[[Hot] Rank up (14 → 7): web-search]]></title>
             <link>https://skills.sh/skillssh/skills/web-search</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/web-search</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 34
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:rank:skillssh/skills/web-search</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #14
+Current rank: #7
+Delta: +7
+Installs: 47 (prev 34)
 Source: skillssh/skills
 Description: Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): remotion-render]]></title>
+            <title><![CDATA[[Hot] Rank up (15 → 8): remotion-render]]></title>
             <link>https://skills.sh/skillssh/skills/remotion-render</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/remotion-render</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #15
-Installs: 34
+            <guid isPermaLink="false">2026-04-18T02:09:15.184Z:topHot:rank:skillssh/skills/remotion-render</guid>
+            <pubDate>Sat, 18 Apr 2026 02:09:15 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #15
+Current rank: #8
+Delta: +7
+Installs: 47 (prev 34)
 Source: skillssh/skills
 Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#16): nextjs]]></title>
-            <link>https://skills.sh/vercel/vercel-plugin/nextjs</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:vercel/vercel-plugin/nextjs</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #16
-Installs: 34
-Source: vercel/vercel-plugin
-Description: Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#17): twitter-automation]]></title>
-            <link>https://skills.sh/skillssh/skills/twitter-automation</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/twitter-automation</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 34
-Source: skillssh/skills
-Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#18): ai-sdk]]></title>
-            <link>https://skills.sh/vercel/vercel-plugin/ai-sdk</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:vercel/vercel-plugin/ai-sdk</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 33
-Source: vercel/vercel-plugin
-Description: Vercel AI SDK expert guidance. Use when building AI-powered features — chat interfaces, text generation, structured output, tool calling, agents, MCP integration, streaming, embeddings, reranking, image generation, or working with any LLM provider.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#19): using-superpowers]]></title>
-            <link>https://skills.sh/obra/superpowers/using-superpowers</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:obra/superpowers/using-superpowers</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 81
-Source: obra/superpowers
-Description: Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): ai-image-generation]]></title>
-            <link>https://skills.sh/skillssh/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/ai-image-generation</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 362
-Source: skillssh/skills
-Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): brainstorming]]></title>
-            <link>https://skills.sh/obra/superpowers/brainstorming</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:obra/superpowers/brainstorming</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 107
-Source: obra/superpowers
-Description: You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): emblem-token-swap]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-token-swap</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-token-swap</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 20
-Source: emblemcompany/agent-skills
-Description: Execute token swaps across 6 blockchains via EmblemAI. Automatic route optimization and cross-chain bridging via ChangeNow. Use when the user wants to swap tokens, exchange crypto, convert between currencies, or bridge assets cross-chain.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): emblem-portfolio-tracker]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-portfolio-tracker</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-portfolio-tracker</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 20
-Source: emblemcompany/agent-skills
-Description: Track crypto portfolio across 7 blockchains via EmblemAI. Aggregated balances with USD values, conditional trade P&L, and DeFi position tracking via Nansen. Use when the user wants to check their portfolio, see balances across chains, or review trade positions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): emblem-memecoin-scout]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-memecoin-scout</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-memecoin-scout</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 20
-Source: emblemcompany/agent-skills
-Description: Memecoin discovery and risk assessment via EmblemAI. Trending memecoins on Solana, Base, and Hedera. Pump.fun and LaunchLab new token alerts, Clanker discovery, rug-pull detection, holder analysis, and smart money tracking. Use when the user wants to find new memecoins, check if a token is a rug pull, or scout trending low-cap tokens.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): emblem-market-research]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-market-research</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-market-research</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 20
-Source: emblemcompany/agent-skills
-Description: Crypto market intelligence via EmblemAI. Trending tokens, on-chain analytics, derivatives data, and smart money tracking from CoinGecko, CoinGlass, Birdeye, and Nansen. Use when the user wants market data, trending tokens, derivatives analytics, or on-chain intelligence.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): ui-ux-pro-max]]></title>
-            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 84
-Source: nextlevelbuilder/ui-ux-pro-max-skill
-Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): emil-design-eng]]></title>
-            <link>https://skills.sh/emilkowalski/skill/emil-design-eng</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emilkowalski/skill/emil-design-eng</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 39
-Source: emilkowalski/skill
-Description: This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#27): emblem-ai-agent-wallet]]></title>
-            <link>https://skills.sh/emblemcompany/emblemai-agentwallet/emblem-ai-agent-wallet</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/emblemai-agentwallet/emblem-ai-agent-wallet</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 19
-Source: emblemcompany/emblemai-agentwallet
-Description: Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin. Use when the user wants to trade crypto, check balances, swap tokens, interact with blockchain wallets, or create and use profile-scoped agent wallets.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): emblem-defi-yield]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-defi-yield</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-defi-yield</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: DeFi yield research and liquid staking via EmblemAI. Discover yield opportunities, compare protocols, check DeFi positions with Nansen, and enter liquid staking via token swaps. Use when the user wants to research yields, find staking options, or review DeFi positions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): emblem-ai-prompt-examples]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-prompt-examples</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-ai-prompt-examples</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Curated prompt and usage examples for research, portfolio review, quote requests, approval-gated drafts, NFT discovery, prediction-market analysis, and assistant workflows. Emphasis is review-first, trust-boundary-aware use of external data, and explicit confirmation before any value-moving action. Use when the user wants example prompts, phrasing guidance, or sample requests for end-user EmblemAI tasks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): infsh-cli]]></title>
-            <link>https://skills.sh/skillssh/skills/infsh-cli</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/infsh-cli</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 357
-Source: skillssh/skills
-Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): emblem-ai-agent-wallet]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-agent-wallet</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-ai-agent-wallet</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin. Use when the user wants to check balances, review portfolio data, prepare wallet actions, and explicitly confirm blockchain operations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): emblem-ai-react]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-react</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-ai-react</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: React integration skill for EmblemAI's one-shot user management. Use when the user wants to add website authentication plus wallet-enabled users to a React app with EmblemAuthProvider, ConnectButton, social/email/wallet login, chat components, React auth hooks, React composition patterns, or Migrate.fun React hooks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): systematic-debugging]]></title>
-            <link>https://skills.sh/obra/superpowers/systematic-debugging</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:obra/superpowers/systematic-debugging</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 74
-Source: obra/superpowers
-Description: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): gws-sheets-read]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-sheets-read</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-sheets-read</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 22
-Source: googleworkspace/cli
-Description: Google Sheets: Read values from a spreadsheet.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): opentui]]></title>
-            <link>https://skills.sh/msmps/opentui-skill/opentui</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:msmps/opentui-skill/opentui</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 18
-Source: msmps/opentui-skill
-Description: Comprehensive OpenTUI skill for building terminal user interfaces. Covers the core imperative API, React reconciler, and Solid reconciler. Use for any TUI development task including components, layout, keyboard handling, animations, and testing.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): gws-gmail]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-gmail</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-gmail</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 24
-Source: googleworkspace/cli
-Description: Gmail: Send, read, and manage email.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): gws-sheets-append]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-sheets-append</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-sheets-append</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 21
-Source: googleworkspace/cli
-Description: Google Sheets: Append a row to a spreadsheet.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): gws-forms]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-forms</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-forms</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 20
-Source: googleworkspace/cli
-Description: Read and write Google Forms.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): emblem-ai]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:emblemcompany/agent-skills/emblem-ai</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 17
-Source: emblemcompany/agent-skills
-Description: One-shot user management for apps, multi-chain wallet authentication, an AI-powered assistant, and AI app introspection. Use when the user wants to let website users sign in with wallets, email/password, or social login and give each user a wallet-enabled account, then embed EmblemAI chat surfaces, connect plugins, or add Reflexive observability. Provides React components, TypeScript SDKs, session-based authentication, and pointers to the React and agent-wallet skills for specialized workflows.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): agent-tools]]></title>
-            <link>https://skills.sh/skillssh/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/agent-tools</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 357
-Source: skillssh/skills
-Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): video-ad-specs]]></title>
-            <link>https://skills.sh/skillssh/skills/video-ad-specs</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/video-ad-specs</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 17
-Source: skillssh/skills
-Description: Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): gws-sheets]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-sheets</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-sheets</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 22
-Source: googleworkspace/cli
-Description: Google Sheets: Read and write spreadsheets.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): gws-gmail-triage]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-gmail-triage</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-gmail-triage</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 21
-Source: googleworkspace/cli
-Description: Gmail: Show unread inbox summary (sender, subject, date).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): gws-keep]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-keep</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:googleworkspace/cli/gws-keep</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 19
-Source: googleworkspace/cli
-Description: Manage Google Keep notes.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): product-hunt-launch]]></title>
-            <link>https://skills.sh/skillssh/skills/product-hunt-launch</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/product-hunt-launch</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 16
-Source: skillssh/skills
-Description: Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): product-photography]]></title>
-            <link>https://skills.sh/skillssh/skills/product-photography</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/product-photography</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 16
-Source: skillssh/skills
-Description: AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): competitor-teardown]]></title>
-            <link>https://skills.sh/skillssh/skills/competitor-teardown</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/competitor-teardown</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 16
-Source: skillssh/skills
-Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): storyboard-creation]]></title>
-            <link>https://skills.sh/skillssh/skills/storyboard-creation</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/storyboard-creation</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 16
-Source: skillssh/skills
-Description: Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): landing-page-design]]></title>
-            <link>https://skills.sh/skillssh/skills/landing-page-design</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/landing-page-design</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 16
-Source: skillssh/skills
-Description: Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): hyperframes]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 85
-Source: heygen-com/hyperframes
-Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): image-to-video]]></title>
-            <link>https://skills.sh/skillssh/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:skillssh/skills/image-to-video</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 16
-Source: skillssh/skills
-Description: Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): hyperframes-cli]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:heygen-com/hyperframes/hyperframes-cli</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 83
-Source: heygen-com/hyperframes
-Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): gsap]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/gsap</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:heygen-com/hyperframes/gsap</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 83
-Source: heygen-com/hyperframes
-Description: Official GSAP skill — the complete animation library reference. Covers gsap.to(), from(), fromTo(), easing, stagger, defaults, gsap.matchMedia(), timelines (gsap.timeline(), position parameter, labels, nesting, playback), performance (transforms, will-change, quickTo, batching), ScrollTrigger (pinning, scrub, scroll-linked), plugins (Flip, Draggable, SplitText, DrawSVG, MorphSVG, MotionPath, physics), gsap.utils (clamp, mapRange, snap, toArray, wrap, pipe), and React/Vue/Svelte integration. Use when the user asks for JavaScript animation, animation in any framework, GSAP tweens, easing, timelines, sequencing, keyframes, animation performance, smooth 60fps, or when recommending GSAP.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): website-to-hyperframes]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/website-to-hyperframes</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:heygen-com/hyperframes/website-to-hyperframes</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 81
-Source: heygen-com/hyperframes
-Description: Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says "capture this site", "turn this into a video", "make a promo from my site", (3) the user wants a social ad, product tour, or any video based on an existing website, (4) the user shares a link and asks for any kind of video content. Even if the user just pastes a URL — this is the skill to use.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): hyperframes-registry]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 77
-Source: heygen-com/hyperframes
-Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#2): ai-image-generation]]></title>
-            <link>https://skills.sh/skillssh/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-04-17T02:19:26.399Z:topTrending:new:skillssh/skills/ai-image-generation</guid>
-            <pubDate>Fri, 17 Apr 2026 02:19:26 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #2
-Installs: 14531
-Source: skillssh/skills
-Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
         </item>
     </channel>
 </rss>

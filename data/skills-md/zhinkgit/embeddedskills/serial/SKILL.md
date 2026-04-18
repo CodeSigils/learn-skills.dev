@@ -1,0 +1,146 @@
+---
+name: serial
+description: >-
+  嵌入式串口调试工具，用于扫描串口、实时监控、发送数据、记录日志和 Hex 查看。
+  当用户提到串口、COM 口、UART、AT 命令调试、波特率、Hex 串流、串口抓日志、
+  串口监控、查看 MCU 输出、二进制协议联调时自动触发，也兼容 /serial 显式调用。
+  即使用户只是说"看看串口输出"、"发个 AT 命令"或"抓一下日志"，只要上下文涉及
+  串口通信就应触发此 skill。
+argument-hint: "[scan|monitor|send|hex|log] ..."
+---
+
+# Serial — 嵌入式串口调试工具
+
+统一封装端口发现、实时监控、数据发送、日志记录和 Hex 查看能力。
+
+## 配置
+
+### 环境级配置 (`skill/config.json`)
+
+serial skill 的环境级配置目前为空对象 `{}`，因为串口参数属于工程级配置，统一在工作区的 `.embeddedskills/config.json` 中管理。
+
+### 工程级配置 (`.embeddedskills/config.json`)
+
+工作区下的 `.embeddedskills/config.json` 存放工程级串口配置：
+
+```json
+{
+  "serial": {
+    "port": "",
+    "baudrate": 115200,
+    "bytesize": 8,
+    "parity": "none",
+    "stopbits": 1,
+    "encoding": "utf-8",
+    "timeout_sec": 1.0,
+    "log_dir": ".embeddedskills/logs/serial"
+  }
+}
+```
+
+| 字段 | 说明 | 默认值 |
+|------|------|--------|
+| `port` | 串口号，如 `COM3` | `""` |
+| `baudrate` | 波特率 | `115200` |
+| `bytesize` | 数据位 | `8` |
+| `parity` | 校验位：none/even/odd/mark/space | `none` |
+| `stopbits` | 停止位：1/1.5/2 | `1` |
+| `encoding` | 文本编码 | `utf-8` |
+| `timeout_sec` | 读写超时（秒） | `1.0` |
+| `log_dir` | 日志输出目录 | `.embeddedskills/logs/serial` |
+
+### 参数解析优先级
+
+1. **CLI 参数** (`--port`, `--baudrate` 等) - 最高优先级
+2. **工程级配置** (`.embeddedskills/config.json` 中的 `serial` 部分)
+3. **状态文件** (`.embeddedskills/state.json` 中的历史记录)
+4. **默认值** - 最低优先级
+
+### 自动扫描行为
+
+当未指定 `port` 时，脚本会自动扫描系统串口：
+- 若只找到一个串口，自动使用该端口并写入工程配置
+- 若找到多个串口，返回候选列表让用户选择（通过 `--port` 指定）
+- 若未找到串口，提示错误
+
+## 子命令
+
+| 子命令 | 用途 | 风险 |
+|--------|------|------|
+| `scan` | 扫描可用串口 | 低 |
+| `monitor` | 实时查看文本输出 | 低 |
+| `send` | 发送文本或 Hex 数据 | 中 |
+| `hex` | 实时查看二进制流 | 低 |
+| `log` | 保存串口日志到文件 | 低 |
+
+## 执行流程
+
+1. 检查 `pyserial` 是否可用，未安装时提示 `pip install pyserial`
+2. 按优先级解析参数：CLI > 工程级配置 > 状态文件 > 默认值
+3. 无子命令时默认执行 `scan`
+4. `monitor / send / hex / log` 使用解析后的连接参数
+5. 若未指定 `port`，自动扫描系统串口：
+   - 唯一候选：自动使用并写入工程配置
+   - 多候选：返回列表让用户选择
+6. 成功执行后，将确认的参数写回工程配置
+7. 运行对应脚本并输出结构化结果
+8. 失败时优先反馈端口占用、驱动、波特率和编码问题
+
+## 脚本调用
+
+所有脚本位于 skill 目录的 `scripts/` 下，通过 `python` 直接调用。
+脚本会按优先级从 CLI 参数、工程级配置、状态文件中读取参数。
+
+```bash
+# 扫描串口
+python scripts/serial_scan.py [--filter <关键词>] [--json]
+
+# 实时监控
+python scripts/serial_monitor.py [--port <串口>] [--baudrate <波特率>] [--timestamp] [--filter <regex>] [--timeout <秒>] [--json]
+
+# 发送数据
+python scripts/serial_send.py [--port <串口>] [--baudrate <波特率>] <data> [--hex] [--crlf] [--repeat <次>] [--wait-response] [--json]
+
+# Hex 查看
+python scripts/serial_hex.py [--port <串口>] [--baudrate <波特率>] [--width <列>] [--timeout <秒>] [--json]
+
+# 日志记录
+python scripts/serial_log.py [--port <串口>] [--baudrate <波特率>] [--output <文件>] [--duration <秒>] [--format text|csv|json] [--json]
+```
+
+## 输出格式
+
+单次命令返回标准 JSON：
+```json
+{
+  "status": "ok",
+  "action": "scan",
+  "summary": "发现 2 个串口",
+  "details": { ... }
+}
+```
+
+持续命令（monitor --json、hex --json）输出 JSON Lines，结束摘要写入 stderr。
+
+错误输出：
+```json
+{
+  "status": "error",
+  "action": "monitor",
+  "error": { "code": "port_busy", "message": "串口被其他程序占用" }
+}
+```
+
+## 核心规则
+
+- 不自动猜测端口和波特率，发现多个候选串口时不自动选择
+- 参数解析优先级：CLI > 工程级配置 > 状态文件 > 默认值
+- 未指定 `port` 时自动扫描，唯一候选自动写入配置，多候选需用户选择
+- 成功执行后，确认的参数自动写回 `.embeddedskills/config.json`
+- 未明确说明用途时不主动发送任何串口数据
+- `--json` 输出的持续流使用 JSON Lines，摘要写 stderr 不污染数据流
+- 正则过滤失败不应导致监控退出
+
+## 参考
+
+- `references/common_devices.json`：常见 USB 转串口芯片 VID/PID 映射

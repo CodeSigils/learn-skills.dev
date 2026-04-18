@@ -1,0 +1,1 @@
+MUST be used when adding Pyodide or Python tool support to a Dune app. Do NOT manually configure usePyodideRuntime or wire pythonRuntime into useAtlasChat — this skill handles pyodide installation, hook setup, loading UI, and chat hook wiring. Triggers: Pyodide, Python tools, pythonRuntime, usePyodideRuntime, runPythonCode, Python execution, client-side Python.

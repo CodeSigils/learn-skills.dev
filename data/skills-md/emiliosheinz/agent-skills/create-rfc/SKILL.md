@@ -1,0 +1,263 @@
+---
+name: create-rfc
+description: >
+  Creates structured Request for Comments (RFC) documents for proposing and
+  deciding on significant changes. Use when asked to create or write an RFC,
+  draft a proposal, align stakeholders, or propose a change before a decision.
+---
+
+# RFC Creator
+
+You are an expert in creating Request for Comments (RFC) documents that clearly communicate proposals, capture alternatives considered, and drive structured decision-making across teams.
+
+## Routing
+
+- Decision already made, need to record it → `/create-adr`
+- Define product requirements → `/create-prd`
+- Document architecture → `/create-technical-design`
+- Plan execution → `/create-implementation-plan`
+
+## Process
+
+### Step 1: Gather Context
+
+If the user provides no context, use **AskUserQuestion** to collect basic information:
+
+```json
+{
+  "questions": [
+    {
+      "question": "What is the topic or change you want to propose?",
+      "type": "text"
+    },
+    {
+      "question": "What is the estimated impact of this change?",
+      "type": "single_choice",
+      "options": [
+        "HIGH — affects multiple teams, systems, or users",
+        "MEDIUM — affects one team or system",
+        "LOW — limited scope, easily reversible"
+      ]
+    },
+    {
+      "question": "Is there a due date or urgency?",
+      "type": "single_choice",
+      "options": [
+        "Yes, we need a decision soon",
+        "Part of planned roadmap",
+        "No fixed deadline"
+      ]
+    },
+    {
+      "question": "Do you have options/alternatives in mind?",
+      "type": "single_choice",
+      "options": [
+        "Yes, I have 2+ options to compare",
+        "I have a preferred option, need to document alternatives",
+        "No, need help structuring options"
+      ]
+    }
+  ]
+}
+```
+
+### Step 2: Validate Mandatory Fields
+
+**MANDATORY fields — ask if missing**:
+
+- RFC title: clear, action-oriented
+- Background/context: what is the current state and why this matters
+- Driver: who is proposing/responsible for the decision
+- Approver(s): who needs to approve
+- Impact level: HIGH/MEDIUM/LOW
+- At least 1 explicit assumption with confidence level
+- At least 2 decision criteria, with weights, stated before options
+- At least 2 options considered including "do nothing" when relevant
+- Recommended option with rationale tied back to the decision criteria
+
+If any required fields are missing, request them using "AskUserQuestion" before generating the document.
+
+### Step 3: Detect RFC Type and Tailor Sections
+
+| RFC Type | Additional Focus Areas |
+|----------|----------------------|
+| **Technical/Architecture** | System impact, migration path, technical risks |
+| **Process/Workflow** | Team impact, adoption plan, rollback if process fails |
+| **Product/Feature** | User impact, metrics, go/no-go criteria |
+| **Vendor/Tool Selection** | Cost comparison, lock-in risk, evaluation criteria |
+| **Policy/Compliance** | Regulatory requirements, audit trail, enforcement |
+
+### Step 4: Generate RFC Document
+
+**File location:** Scan the project for an existing RFC directory (`docs/rfcs/`, `docs/rfc/`, `rfcs/`, `.rfcs/`). Find the highest existing number (e.g., if `RFC-001` and `RFC-003` exist, the highest is 003) and assign the next number. If no directory exists, start at RFC-001 and suggest creating the directory. Suggested path: `docs/rfcs/{NNN}-{kebab-case-title}.md`. Confirm location with the user before writing.
+
+Generate the RFC in Markdown following the templates below.
+
+### Step 5: Offer Next Steps
+
+After generating, offer:
+
+```
+RFC Created: "RFC-{NNN}: [Title]"
+File: docs/rfcs/{NNN}-{kebab-case-title}.md
+
+Sections included:
+- Mandatory: Header & Metadata, Background, Assumptions, Decision Criteria, Options Considered, Action Items, Outcome
+- Recommended: Relevant Data, Pros/Cons comparison, Cost estimate, Resources
+
+Suggested next steps:
+- Share with Contributors for feedback
+- Set a decision deadline
+- Schedule a review meeting with Approvers
+- Link related Jira/Linear tickets
+
+Would you like me to:
+1. Add more options to compare?
+2. Create a follow-up technical design for architecture, or an implementation plan for execution phases?
+3. Publish this to Confluence?
+```
+
+## Document Structure
+
+### Mandatory Sections
+
+1. **Header & Metadata**
+2. **Background**
+3. **Assumptions**
+4. **Decision Criteria**
+5. **Options Considered** (minimum 2)
+6. **Action Items**
+7. **Outcome**
+
+### Recommended Sections
+
+8. **Relevant Data** — metrics, research, evidence
+9. **Pros and Cons** (per option)
+10. **Estimated Cost** (effort/complexity/monetary)
+11. **Resources** — links, references, prior art
+
+## Section Templates
+
+Generate each section using the structure described in **Document Structure** above. For each of the 11 sections (7 mandatory + 4 recommended), write the section heading, populate all fields from the gathered context, and use placeholder text in italics (e.g. *To be filled after decision*) for fields that will be completed later.
+
+## RFC Quality Checklist
+
+Before finalizing, verify:
+
+- [ ] **Title**: Clear, action-oriented, specific (not "RFC about the database")
+- [ ] **Impact**: Assessed as HIGH / MEDIUM / LOW with justification
+- [ ] **Background**: Current state + problem + why now + cost of inaction
+- [ ] **Assumptions**: Explicit, with confidence levels and invalidation triggers
+- [ ] **Decision Criteria**: Defined *before* options, with weights; Must-haves identified
+- [ ] **Data**: At least some evidence supporting the need for change
+- [ ] **Options**: Minimum 2 options (including "do nothing" for significant changes)
+- [ ] **Options evaluated against criteria**: Not just pros/cons in isolation
+- [ ] **Pros/Cons**: Honest assessment, not just selling one option
+- [ ] **Cost**: Effort estimate for each option (even if rough)
+- [ ] **RACI**: Driver, Approver(s), Contributors, Informed all identified
+- [ ] **Action Items**: Concrete next steps after the decision
+- [ ] **Outcome**: Left as placeholder to be filled when decision is made
+
+## Common Anti-Patterns to Avoid
+
+### Predetermined Conclusion Disguised as RFC
+
+**BAD**:
+```
+We should use Kubernetes. Here are some reasons. Option 2 is to not use Kubernetes (obviously wrong).
+```
+
+**GOOD**:
+```
+Option 1: Adopt Kubernetes — [genuine pros and cons]
+Option 2: Stick with Docker Compose — [genuine pros and cons]
+Option 3: Move to managed container platform (ECS/Cloud Run) — [genuine pros and cons]
+```
+
+### Vague Background
+
+**BAD**:
+```
+Our current deployment process has some issues.
+```
+
+**GOOD**:
+```
+Our current deployment process requires 45 minutes of manual steps and has caused 3 production incidents in the past quarter due to human error. The team spends ~8 hours/week on deployment-related tasks.
+```
+
+### Missing "Do Nothing" Option
+
+Always include the status quo as an option for significant changes — it forces honest evaluation of whether action is truly needed.
+
+### No Decision Criteria or criteria defined after options
+
+**BAD**: Presenting options first, then listing criteria — which looks like the criteria were chosen to justify a preferred option.
+
+**GOOD**: Define criteria with weights *before* listing options. Then evaluate each option against them explicitly. The recommendation section should reference which criteria drove the decision.
+
+### Hidden or Unstated Assumptions
+
+**BAD**:
+```
+We'll migrate to the new system over 6 months.
+```
+
+**GOOD**:
+```
+Assumption: The team has 2 engineers available for migration work in Q3.
+Confidence: Medium. Invalidated if Q3 headcount changes.
+```
+
+Unstated assumptions become invisible time bombs. When the RFC outcome stops working six months later, no one can tell whether the decision was wrong or whether a hidden assumption was invalidated.
+
+## Output Summary Format
+
+After generating the RFC:
+
+```
+RFC Created: "RFC-{NNN}: [Title]"
+File: docs/rfcs/{NNN}-{kebab-case-title}.md
+
+Impact: HIGH / MEDIUM / LOW
+Status: NOT STARTED
+
+Sections included:
+- Header & Metadata (Driver, Approver, Due Date)
+- Background (current state, problem, why now)
+- N options compared with pros/cons and cost estimates
+- Action Items (M tasks identified)
+- Outcome (placeholder — to be filled after decision)
+
+Suggested next steps:
+- Share with Contributors listed for feedback
+- Set the decision meeting for [Due Date]
+- Update Status to IN PROGRESS
+
+Would you like me to add anything else?
+```
+
+---
+
+## Important Notes
+
+- **RFC is for decisions, not implementation** — once the RFC is decided, create a technical design for architecture and an implementation plan for execution
+- **Honest options are critical** — a one-sided RFC undermines trust and produces bad decisions
+- **"Do nothing" is always an option** — helps assess whether change is truly worth it
+- **Outcome section is filled after the fact** — leave as placeholder during drafting
+- **Language adaptation** — always write in the user's language
+- **Respect user's context** — if the user provides rich context, use it; don't ask for what's already given
+- **Be concise in options** — focus on the decision factors, not implementation details
+- **RFCs age** — date everything; decisions made without context become confusing later
+
+## Example Prompts that Trigger This Skill
+
+- "Write an RFC for migrating our database from MySQL to PostgreSQL"
+- "I need an RFC to propose moving from monolith to microservices"
+- "Create a request for comments on our on-call rotation policy"
+- "Draft an RFC comparing self-hosted vs managed Kafka"
+- "I need to get approval to adopt a new design system"
+
+## Attribution
+
+Based on [create-rfc](https://github.com/tech-leads-club/agent-skills/blob/main/packages/skills-catalog/skills/(creation)/create-rfc/SKILL.md) by [Tech Leads Club](https://github.com/tech-leads-club), licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Changes have been made to the original.

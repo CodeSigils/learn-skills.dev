@@ -1,0 +1,1 @@
+Persistent, budgeted, DAG-ordered runner for parallel `claude -p` or `codex exec` workers in tmux. Use ONLY when you need persistence across sessions, per-worker budget caps, dependency ordering, or mixed models/providers per worker. For ad-hoc parallel sub-agents inside a live conversation, use Claude Code's built-in Agent tool instead.

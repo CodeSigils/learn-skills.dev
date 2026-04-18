@@ -1,0 +1,1 @@
+Independence-validated parallel fleet that runs each worker (claude -p or codex exec) in its own git worktree. Use when tasks touch non-overlapping files and you need merge-safe isolation (each worker on its own branch). For DAG-ordered one-shot workers with budgets, use dag-fleet. For headless iteration with a reviewer loop, use iterative-fleet.
