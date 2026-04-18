@@ -1,0 +1,1 @@
+CDF 数据建模 API 最佳实践的参考技能。涵盖并发限制（避免 429）、instances.list 和instances.query 的分页模式、批处理写入操作、搜索与过滤指南以及用于控制并发请求的 QueuedTaskRunner (Semaphore) 实用程序。触发器：DMS 限制、429 错误、速率限制、分页、游标、nextCursor、批处理、信号量、QueuedTaskRunner、cdfTaskRunner、instances.search、instances.list、instances.query、instances.upsert、并发、死锁。

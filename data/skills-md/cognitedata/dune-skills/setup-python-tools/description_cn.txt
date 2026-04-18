@@ -1,0 +1,1 @@
+向 Dune 应用程序添加 Pyodide 或 Python 工具支持时必须使用。不要手动配置 usePyodideRuntime 或将 pythonRuntime 连接到 useAtlasChat — 此技能处理 pyodide 安装、钩子设置、加载 UI 和聊天钩子连接。触发器：Pyodide、Python 工具、pythonRuntime、usePyodideRuntime、runPythonCode、Python 执行、客户端 Python。

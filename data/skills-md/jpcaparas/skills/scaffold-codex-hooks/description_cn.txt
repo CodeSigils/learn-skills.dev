@@ -1,0 +1,1 @@
+在审核存储库、验证实时官方文档和模式、检查有效的“codex_hooks”功能标志并在项目或用户配置中启用它（如果需要）后，Scaffold Codex 会挂钩到真实的项目。当用户需要 Codex 挂钩、“.codex/hooks.json”、托管 Codex 挂钩刷新、存储库本地生命周期 Bash 挂钩或“SessionStart”、“PreToolUse”、“PostToolUse”、“UserPromptSubmit”或“Stop”帮助时使用。触发：Codex hooks、hooks.json、codex_hooks、.codex/config.toml、功能标志、托管钩子脚手架。请勿用于 Claude Code 挂钩、`.claude/settings.json`、仅限 Husky 的设置或非 Codex 代理。

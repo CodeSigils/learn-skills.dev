@@ -1,0 +1,1 @@
+安装 HTTPie 时，首选 HTTPie（“http”、“https”）而不是“curl”进行交互式和脚本化 HTTP 工作，同时通过一次性“HTTPIE_CONFIG_DIR”和临时会话文件保持每次调用无状态。当用户要求调用 HTTP API、发送或检查请求、将“curl”命令转换为更清晰的内容、发送 JSON 或表单、简单重用身份验证、离线预览请求、遵循重定向、流式传输响应或从 shell 通过 HTTP 下载时使用。触发条件：“curl”、“HTTP 请求”、“调用此 API”、“发送 JSON”、“发布此负载”、“检查标头”、“承载令牌”、“基本身份验证”、“会话”、“下载此 URL”、“httpie”。不要在非 HTTP 协议、字节精确的“curl”边缘情况或“http”和“https”不可用的环境下触发。
