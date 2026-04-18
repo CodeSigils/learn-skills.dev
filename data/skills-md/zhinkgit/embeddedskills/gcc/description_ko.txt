@@ -1,0 +1,1 @@
+CMake 기반 임베디드 프로젝트 스캔, 사전 설정 나열, 구성, 빌드, 재구축, 정리 및 ELF 크기 분석을 위한 GCC 임베디드 프로젝트 빌드 도구(CMake + arm-none-eabi-gcc). 사용자가 GCC, arm-none-eabi, CMake 임베디드 컴파일, Ninja 빌드, ELF 크기 분석, arm-gcc, 크로스 컴파일, cmake --build, cmake --preset을 언급하면 ​​자동으로 트리거되며 /gcc를 통한 명시적 호출도 지원합니다. 사용자가 단순히 "컴파일해" 또는 "펌웨어 크기를 확인하세요"라고 말하더라도 컨텍스트에 CMake 임베디드 GCC 프로젝트가 포함되어 있는 한 이 기술은 활성화되어야 합니다.
