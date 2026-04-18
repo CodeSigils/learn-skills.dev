@@ -1,0 +1,1 @@
+CDF 資料建模 API 最佳實踐的參考技能。涵蓋並發限制（避免 429）、instances.list 和instances.query 的分頁模式、批次寫入操作、搜尋與過濾指南以及用於控制並發請求的 QueuedTaskRunner (Semaphore) 實用程式。觸發器：DMS 限制、429 錯誤、速率限制、分頁、遊標、nextCursor、批次、信號量、QueuedTaskRunner、cdfTaskRunner、instances.search、instances.list、instances.query、instances.upsert、並發、死鎖。

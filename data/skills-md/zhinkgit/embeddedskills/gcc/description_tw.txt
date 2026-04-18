@@ -1,0 +1,1 @@
+GCC 嵌入式專案建置工具 (CMake + arm-none-eabi-gcc)，用於掃描基於 CMake 的嵌入式專案、列出預設、配置、建置、重建、清理和分析 ELF 大小。當使用者提到GCC、arm-none-eabi、CMake嵌入式編譯、Ninja建置、ELF大小分析、arm-gcc、交叉編譯、cmake --build、cmake --preset時自動觸發，也支援透過/gcc明確呼叫。即使用戶只是簡單地說“編譯它”或“檢查韌體有多大”，只要上下文涉及 CMake 嵌入式 GCC 項目，就應該啟動此技能。
