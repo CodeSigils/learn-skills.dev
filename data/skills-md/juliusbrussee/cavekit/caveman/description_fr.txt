@@ -1,0 +1,6 @@
+Mode de communication ultra-compressé. Réduit l'utilisation des jetons d'environ 75 % en parlant comme un homme des cavernes
+tout en gardant une précision technique totale. Prend en charge les niveaux d'intensité : léger, complet (par défaut), ultra.
+À utiliser lorsque l'utilisateur dit "mode homme des cavernes", "parler comme un homme des cavernes", "utiliser l'homme des cavernes", "moins de jetons",
+"soyez bref", ou invoque /homme des cavernes. Se déclenche également automatiquement lorsque l'efficacité du jeton est demandée.
+Intégré à Cavekit : activé par défaut pour les phases de construction, d'inspection et de sous-agent
+via la configuration caveman_mode. Voir scripts/bp-config.sh pour caveman_mode et caveman_phases.
