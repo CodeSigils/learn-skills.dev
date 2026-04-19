@@ -1,0 +1,6 @@
+Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman
+while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra.
+Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens",
+"be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.
+Integrated into Cavekit: enabled by default for build, inspect, and subagent phases
+via caveman_mode config. See scripts/bp-config.sh for caveman_mode and caveman_phases.

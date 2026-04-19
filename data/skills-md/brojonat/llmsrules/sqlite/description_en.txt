@@ -1,0 +1,1 @@
+Extend SQLite with application-defined functions and loadable extensions in Python. Use when you need custom SQL logic (transforms, scoring, aggregations) in-process, or need to load/build C extensions for reusable SQLite plugins. Assumes Python stdlib sqlite3. Go equivalents exist (zombiezen/go-sqlite, mattn/go-sqlite3) — look up their APIs at runtime.
