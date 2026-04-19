@@ -1,0 +1,1 @@
+实施并维护本机上使用的 OpenClaw 环境设置。当要求设置、调试或解释环境变量和机密如何适用于 OpenClaw、shell 和依赖于令牌的 CLI 时使用。涵盖规范的“.env.tpl”到“.env”同步流程、1Password 秘密引用、将打包的“env-sync.sh”脚本安装到“/root/.openclaw/env-sync.sh”中，以及从“/root/.profile”加载“/root/.openclaw/.env”，以便普通 shell 和 OpenClaw 生成的 CLI 进程默认继承 env。在调试为什么令牌位于“.env”中但不可用于命令时，或者在另一台计算机上重新实现此 env 解决方案时，也可使用。

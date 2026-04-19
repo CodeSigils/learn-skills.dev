@@ -1,0 +1,1 @@
+使用应用程序定义的函数和 Python 中的可加载扩展来扩展 SQLite。当您需要在进程中自定义 SQL 逻辑（转换、评分、聚合）或需要加载/构建可重用 SQLite 插件的 C 扩展时使用。假设Python stdlib sqlite3。 Go 等效项存在（zombiezen/go-sqlite、mattn/go-sqlite3）——在运行时查找它们的 API。
