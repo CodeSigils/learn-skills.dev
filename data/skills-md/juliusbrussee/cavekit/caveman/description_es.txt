@@ -1,0 +1,6 @@
+Modo de comunicación ultracomprimido. Reduce el uso de tokens ~75 % al hablar como un cavernícola
+manteniendo total precisión técnica. Admite niveles de intensidad: lite, full (predeterminado), ultra.
+Úselo cuando el usuario diga "modo cavernícola", "hablar como cavernícola", "usar cavernícola", "menos tokens",
+"sé breve", o invoca /cavernícola. También se activa automáticamente cuando se solicita la eficiencia del token.
+Integrado en Cavekit: habilitado de forma predeterminada para las fases de construcción, inspección y subagente
+a través de la configuración caveman_mode. Consulte scripts/bp-config.sh para caveman_mode y caveman_phases.
