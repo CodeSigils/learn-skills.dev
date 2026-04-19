@@ -1,0 +1,1 @@
+Python에서 애플리케이션 정의 함수와 로드 가능한 확장 기능을 사용하여 SQLite를 확장하세요. 처리 중인 사용자 지정 SQL 논리(변환, 채점, 집계)가 필요하거나 재사용 가능한 SQLite 플러그인을 위한 C 확장을 로드/빌드해야 하는 경우에 사용하세요. Python stdlib sqlite3을 가정합니다. Go에 상응하는 기능이 존재합니다(zombiezen/go-sqlite, mattn/go-sqlite3). 런타임에 해당 API를 검색하세요.
