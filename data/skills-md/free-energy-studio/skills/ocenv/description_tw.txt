@@ -1,0 +1,1 @@
+實施並維護本機上使用的 OpenClaw 環境設定。當要求設定、調試或解釋環境變數和機密如何適用於 OpenClaw、shell 和依賴令牌的 CLI 時使用。涵蓋規範的「.env.tpl」到「.env」同步流程、1Password 秘密引用、將打包的「env-sync.sh」腳本安裝到「/root/.openclaw/env-sync.sh」中，以及從「/root/.profile」載入「/root/.openclaw/.env」中，以便使用普通 shell 和 Openven 的進程。在偵錯為何令牌位於「.env」中但不可用於指令時，或在另一台電腦上重新實作此 env 解決方案時，也可使用。

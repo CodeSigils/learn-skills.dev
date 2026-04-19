@@ -1,0 +1,1 @@
+使用應用程式定義的函數和 Python 中的可載入擴充功能來擴充 SQLite。當您需要在進程中自訂 SQL 邏輯（轉換、評分、聚合）或需要載入/建立可重複使用 SQLite 外掛程式的 C 擴充功能時使用。假設Python stdlib sqlite3。 Go 等效項存在（zombiezen/go-sqlite、mattn/go-sqlite3）－在執行時會尋找它們的 API。

@@ -1,0 +1,1 @@
+每當在 Dune 應用程式中使用 Atlas 代理程式建立聊天 UI 時，都必須使用它。不要手動編寫 useAtlasChat 整合程式碼 - 此技能處理安裝、組件結構和掛鉤連接。觸發器：useAtlasChat、atlas 聊天、串流聊天、代理聊天、聊天介面、聊天元件、聊天 UI。對於完整的聊天應用程序，請按順序運行技能：（1）integrate-atlas-chat，（2）create-client-tool（每個工具），（3）setup-python-tools（如果需要Python工具）。
