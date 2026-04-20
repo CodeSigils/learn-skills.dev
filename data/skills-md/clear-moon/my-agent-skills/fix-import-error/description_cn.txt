@@ -1,0 +1,9 @@
+解决Python项目根目录模块导入问题。当用户遇到 ModuleNotFoundError、需要配置可编辑安装模式或想要设置 pip install -e 时触发此技能。
+
+触发场景：
+- 用户报告ModuleNotFoundError或ImportError
+- 用户询问“如何使项目根目录可导入”
+- 用户想要配置 pip install -e 。 （可编辑安装模式）
+- 用户询问“如何在 pyproject.toml 中配置包”
+
+注意：此技能重点关注项目结构导致的导入问题，而不是缺少第三方包。

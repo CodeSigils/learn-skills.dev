@@ -1,0 +1,9 @@
+Résolvez les problèmes d’importation du module de répertoire racine du projet Python. Déclenchez cette compétence lorsque les utilisateurs rencontrent ModuleNotFoundError, doivent configurer le mode d'installation modifiable ou souhaitent configurer pip install -e .
+
+Scénarios de déclenchement :
+- L'utilisateur signale ModuleNotFoundError ou ImportError
+- L'utilisateur demande "comment rendre le répertoire racine du projet importable"
+- L'utilisateur souhaite configurer pip install -e . (mode d'installation modifiable)
+- L'utilisateur demande "comment configurer les packages dans pyproject.toml"
+
+Remarque : Cette compétence se concentre sur les problèmes d'importation causés par la structure du projet, et non sur les packages tiers manquants.

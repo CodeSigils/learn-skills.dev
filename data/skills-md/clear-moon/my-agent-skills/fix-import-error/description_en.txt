@@ -1,9 +1,9 @@
-解决 Python 项目根目录模块导入问题。当用户遇到 ModuleNotFoundError、需要配置可编辑安装模式、或想要设置 pip install -e . 时触发此技能。
+Solve Python project root directory module import issues. Trigger this skill when users encounter ModuleNotFoundError, need to configure editable install mode, or want to set up pip install -e .
 
-触发场景：
-- 用户报告 ModuleNotFoundError 或 ImportError
-- 用户问"如何让项目根目录可导入"
-- 用户想要配置 pip install -e .（可编辑安装模式）
-- 用户问"pyproject.toml 怎么配置包"
+Trigger scenarios:
+- User reports ModuleNotFoundError or ImportError
+- User asks "how to make project root directory importable"
+- User wants to configure pip install -e . (editable install mode)
+- User asks "how to configure packages in pyproject.toml"
 
-注意：此技能专注于项目结构导致的导入问题，不处理缺少第三方包的情况。
+Note: This skill focuses on import issues caused by project structure, not missing third-party packages.

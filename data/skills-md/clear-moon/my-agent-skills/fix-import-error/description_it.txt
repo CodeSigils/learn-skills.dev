@@ -1,0 +1,9 @@
+Risolvi i problemi di importazione del modulo della directory root del progetto Python. Attiva questa abilità quando gli utenti riscontrano ModuleNotFoundError, devono configurare la modalità di installazione modificabile o desiderano configurare pip install -e .
+
+Scenari scatenanti:
+- L'utente segnala ModuleNotFoundError o ImportError
+- L'utente chiede "come rendere importabile la directory root del progetto"
+- L'utente desidera configurare pip install -e . (modalità di installazione modificabile)
+- L'utente chiede "come configurare i pacchetti in pyproject.toml"
+
+Nota: questa competenza si concentra sui problemi di importazione causati dalla struttura del progetto, non sui pacchetti di terze parti mancanti.

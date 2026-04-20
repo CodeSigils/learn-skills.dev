@@ -1,0 +1,9 @@
+解決Python專案根目錄模組導入問題。當使用者遇到 ModuleNotFoundError、需要設定可編輯安裝模式或想要設定 pip install -e 時觸發此技能。
+
+觸發場景：
+- 使用者回報ModuleNotFoundError或ImportError
+- 使用者詢問“如何使專案根目錄可導入”
+- 使用者想要設定 pip install -e 。 （可編輯安裝模式）
+- 使用者詢問“如何在 pyproject.toml 中配置套件”
+
+注意：此技能重點在於專案結構導致的導入問題，而不是缺少第三方包。

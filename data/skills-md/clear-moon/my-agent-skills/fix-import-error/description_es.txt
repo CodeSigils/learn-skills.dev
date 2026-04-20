@@ -1,0 +1,9 @@
+Resuelva los problemas de importación del módulo del directorio raíz del proyecto Python. Active esta habilidad cuando los usuarios encuentren ModuleNotFoundError, necesiten configurar el modo de instalación editable o quieran configurar pip install -e.
+
+Escenarios desencadenantes:
+- El usuario informa ModuleNotFoundError o ImportError
+- El usuario pregunta "cómo hacer que el directorio raíz del proyecto sea importable"
+- El usuario quiere configurar pip install -e. (modo de instalación editable)
+- El usuario pregunta "cómo configurar paquetes en pyproject.toml"
+
+Nota: Esta habilidad se centra en los problemas de importación causados por la estructura del proyecto, no en la falta de paquetes de terceros.
