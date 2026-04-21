@@ -1,0 +1,8 @@
+Ejecute una verificación del estado de la arquitectura; elija uno de tres:  
+1. Verificar si un diseño único es internamente consistente (sin conflictos entre términos, contratos y pasos de implementación).  
+2. Compruebe si el diseño y el código coinciden (lo prometido se implementa realmente).  
+3. Verifique si varios documentos de arquitectura en `easysdd/architecture/` son consistentes entre sí (sin conflictos en términos, límites de módulos o referencias entre documentos).  
+
+Esta habilidad solo produce una lista de problemas y sugerencias de solución; no hace cambios. Cada ejecución se dirige exactamente a un elemento; Los controles “mientras estoy en ello” están prohibidos.  
+
+Frases de activación: el usuario dice "ejecutar verificación de arquitectura", "el diseño es internamente consistente", "el diseño coincide con el código", "los documentos en la carpeta de arquitectura entran en conflicto" o quiere una verificación de estado antes de continuar con la implementación/aceptación.
