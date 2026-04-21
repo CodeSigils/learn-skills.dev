@@ -1,0 +1,1 @@
+Global orchestrator for the headless Ghidra YAML-first decompilation pipeline. Reads artifacts/<target>/pipeline-state.yaml, dispatches P0–P6 phase skills, executes programmatic gate checks, and manages user interaction. Performs zero analysis work itself.
