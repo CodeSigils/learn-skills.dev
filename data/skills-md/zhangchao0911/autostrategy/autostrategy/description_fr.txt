@@ -1,8 +1,8 @@
-Outil de génération automatique de stratégie de trading quantitatif. Exigences de la stratégie de saisie (explicites ou vagues) → Analyse approfondie → Générer un code de stratégie exécutable + validation backtest → Auto-optimisation.
-Innovation fondamentale : STRATEGY_DESIGN.md sert de « plan de construction de système », l'IA traduisant strictement plutôt que d'improviser librement lors de la génération du code.
-Quatre points d'entrée : (1) Exigences stratégiques explicites → Analyse directe (2) Exigences vagues → Recommandation de diagnostic → Réanalyse (3) Stratégie existante → Itération d'optimisation (4) Influenceur/blogueur → Recherche Internet → Extraction de stratégie.
-Mots déclencheurs : "量化策略", "制定策略", "写个策略", "回测", "autostrategy", "策略生成", "量化XX", "XX投资策略", "XX的投资逻辑".
-Déclencheurs du scénario : "帮我设计一个均线交叉策略", "我想做一个A股量化策略", "这个策略回测一下", "优化这个策略的回测结果".
-Marchés applicables : actions A / actions de Hong Kong / actions américaines (futures et options non encore prises en charge, à ajouter dans les versions ultérieures).
-Les stratégies de style de personnalité déclenchent également : "写一个巴菲特投资策略", "段永平的投资逻辑量化一下", "帮我用索罗斯的反身性做个策略".
-Déclencheurs de stratégie Blogger : "根据XX博主的投资观点做个策略", "按XX大V的思路写个策略", "帮我量化XX的炒股方法", "XX博主的投资逻辑做策略".
+Outil de génération automatique de stratégies de trading quantitatives. Exigences de la stratégie de saisie (claires ou vagues) → analyse approfondie → générer un code de stratégie exécutable + validation du backtest → optimisation automatique.  
+Innovation de base : STRATEGY_DESIGN.md fait office de « modèle de système » ; L'IA génère du code par traduction stricte et non par improvisation libre.  
+Quatre points d'entrée : (1) exigence claire → analyse directe ; (2) exigence vague → diagnostic et recommandation → analyse ; (3) stratégie existante → optimiser et itérer ; (4) influenceur/blogueur → recherche sur le Web → stratégie de distillation.  
+Phrases déclencheurs : « stratégie quantitative », « concevoir une stratégie », « rédiger une stratégie », « backtest », « autostratégie », « génération de stratégie », « quant XX », « stratégie d'investissement XX », « logique d'investissement XX ».  
+Déclencheurs de scénario : « Aidez-moi à concevoir une stratégie de croisement de moyenne mobile », « Je veux une stratégie quantitative d'actions A », « Backtestez cette stratégie », « Optimisez ces résultats de backtest ».  
+Marchés couverts : actions A / actions de Hong Kong / actions américaines (futures et options non encore prises en charge, à venir plus tard).  
+Les stratégies de style célébrité déclenchent également : « Écrire une stratégie d’investissement Buffett », « Quantifier la logique de Duan Yongping », « Construire une stratégie de réflexivité Soros ».  
+Déclencheur des stratégies de blogueur : « Élaborer une stratégie du point de vue du blogueur XX », « Coder une stratégie selon l'idée du big-V XX », « Quantifier la méthode de sélection de titres de XX », « Transformer la logique du blogueur XX en stratégie ».
