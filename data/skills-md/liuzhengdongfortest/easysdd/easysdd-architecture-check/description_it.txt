@@ -1,0 +1,8 @@
+Esegui un controllo dello stato dell'architettura: scegli uno dei tre:  
+1. Verificare se un singolo progetto è internamente coerente (nessun conflitto tra termini, contratti e fasi di implementazione);  
+2. Controllare se il design e il codice corrispondono (tutto ciò che è stato promesso viene effettivamente implementato);  
+3. Controlla se più documenti di architettura in `easysdd/architecture/` sono coerenti tra loro (nessun conflitto in termini, limiti dei moduli o riferimenti incrociati tra documenti).  
+
+Questa abilità produce solo un elenco di problemi e suggerimenti per la riparazione; non modifica mai nulla in sé. Ogni esecuzione prende di mira esattamente un elemento; I controlli “già che ci sono” sono vietati.  
+
+Frasi trigger: l'utente dice "esegui controllo dell'architettura", "la progettazione è internamente coerente", "la progettazione corrisponde al codice", "i documenti nella cartella dell'architettura si contraddicono a vicenda" o quando inserisce implementazione/accettazione e desidera un controllo prima di procedere.
