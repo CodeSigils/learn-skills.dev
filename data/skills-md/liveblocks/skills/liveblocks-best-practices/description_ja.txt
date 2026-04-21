@@ -1,0 +1,5 @@
+このスキルは、Liveblock を構築、デバッグするとき、または Liveblock に関する質問に答えるときに使用します。 Liveblocks は、アプリ内で人々と AI が連携できるようにするためのビルディング ブロックとインフラストラクチャを提供し、リアルタイム コラボレーションを強化します。
+Liveblock の機能には、コラボレーション、ルーム、組織、ワークスペース、コメント、コンポーザー、スレッド、通知、マルチプレイヤー、競合解決、リアルタイム プレゼンス、アバター スタック、AI コラボレーター、AI エージェント、テキスト エディター、Tiptap、BlockNote、Lexical、React Flow、Chat SDK が含まれます。
+共通コンポーネントには、AiChat、Thread、InboxNotification、Composer、ツールバー (語彙ヒントタップ用)、FloatingToolbar、FloatingComposer、FloatingThreads、AnchoredThreads が含まれます。
+一般的なフックには、useThreads、useStorage、useMutation、useOthers、useInboxNotifications、useAiChats などがあります。
+一般的な問題は、認証 (ID トークンとアクセス トークン)、権限、部屋の制限、接続エラー、ユーザー情報に関連しています。
