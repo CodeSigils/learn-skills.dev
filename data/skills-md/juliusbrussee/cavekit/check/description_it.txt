@@ -1,0 +1,6 @@
+Rilevatore di deriva di sola lettura. Differenze SPEC.md rispetto al codice e ai report attuali
+violazioni raggruppate per gravità. Non scrive nulla: suggerisce rimedi tramite
+le specifiche o le abilità di costruzione ma non le invoca mai. Si attiva quando l'utente
+chiede di controllare la deriva, controllare le specifiche, verificare gli invarianti o chiedere se
+il codice corrisponde ancora alle specifiche. Frasi: "controlla la deriva", "controlla le specifiche",
+"il codice corrisponde ancora a §V", "controlla gli invarianti", "spec vs codice".
