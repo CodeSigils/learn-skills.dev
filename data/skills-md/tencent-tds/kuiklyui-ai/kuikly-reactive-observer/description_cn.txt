@@ -1,0 +1,1 @@
+Kuikly 响应式更新和指令系统开发助手（Kuikly DSL）。指导如何使用observable、observableList、observableSet实现UI响应式更新，以及vfor、vforIndex、vforLazy、vif、velseif、velse、vbind等指令的正确使用。当用户在 Kuikly 中需要以下场景时可以使用此功能：（1）声明响应式字段并将其绑定到 UI 属性（2）列表渲染（vfor/vforIndex/vforLazy）（3）条件渲染（vif/velseif/velse）（4）值绑定渲染（vbind）（5）高效列表更新（diffUpdate）（6）解决响应式数据不生效或 UI 不更新的问题（7）添加、删除和修改操作对于observableList/observableSet（八）复杂对象的响应式更新策略

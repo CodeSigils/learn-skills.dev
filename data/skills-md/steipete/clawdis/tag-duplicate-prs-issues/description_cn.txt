@@ -1,0 +1,1 @@
+维护者工作流程，用于确定 OpenClaw 拉取请求或问题是否重复，使用 ghreplica 和 pr-search-cli 收集证据，将相关工作分组到 prtags 中，并通过 prtags 将重复分组同步回 GitHub。当 Codex 需要搜索重复的 PR 或问题、创建或重用重复组、强制每个目标一组规则、在 prtags 中保存重复判断或准备组状态以进行评论同步时使用。
