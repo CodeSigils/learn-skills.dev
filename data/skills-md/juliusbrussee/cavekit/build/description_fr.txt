@@ -1,0 +1,7 @@
+Planifiez puis exécutez l’implémentation sur SPEC.md. Fil unique natif
+boucle, pas de sous-agents. En cas d'échec du test ou de la construction, invoque automatiquement le backprop
+compétence avant de réessayer - une vérification échouée considère toujours si
+un nouvel invariant §V empêcherait la récidive. Se déclenche lorsque l'utilisateur le demande
+pour construire, implémenter, exécuter la spécification ou s'attaquer à une tâche §T spécifique
+(`build §T.3`, `build --next`, `implémenter la tâche suivante`, `exécuter la construction`).
+S'attend à ce que SPEC.md existe ; sinon, s'en remet à la compétence de spécification.
