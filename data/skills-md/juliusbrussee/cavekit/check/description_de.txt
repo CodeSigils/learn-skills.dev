@@ -1,0 +1,6 @@
+Nur-Lese-Driftdetektor. Vergleicht SPEC.md mit aktuellem Code und aktuellen Berichten
+Verstöße gruppiert nach Schweregrad. Schreibt nichts – schlägt Abhilfemaßnahmen vor über
+die Spezifikations- oder Build-Fähigkeiten, ruft sie jedoch niemals auf. Wird ausgelöst, wenn der Benutzer
+fordert dazu auf, die Drift zu überprüfen, die Spezifikation zu prüfen, Invarianten zu überprüfen oder zu fragen, ob
+Code entspricht immer noch der Spezifikation. Formulierungen: „Drift prüfen“, „Spezifikation prüfen“,
+„Entspricht der Code noch §V“, „Invarianten prüfen“, „Spezifikation vs. Code“.
