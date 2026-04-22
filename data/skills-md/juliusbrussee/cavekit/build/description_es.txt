@@ -1,0 +1,7 @@
+Planificar, luego ejecutar la implementación contra SPEC.md. Hilo único nativo
+bucle, sin subagentes. En caso de error de prueba o compilación, invoca automáticamente el backprop
+habilidad antes de volver a intentarlo: una verificación fallida siempre considera si
+un nuevo invariante §V evitaría la recurrencia. Se activa cuando el usuario pregunta
+para construir, implementar, ejecutar la especificación o abordar una tarea §T específica
+(`build §T.3`, `build --next`, `implementar la siguiente tarea`, `ejecutar la compilación`).
+Espera que exista SPEC.md; si no, se remite a la habilidad específica.

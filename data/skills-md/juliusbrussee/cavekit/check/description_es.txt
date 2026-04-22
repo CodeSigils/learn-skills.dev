@@ -1,0 +1,6 @@
+Detector de deriva de sólo lectura. Compara SPEC.md con el código y los informes actuales
+violaciones agrupadas por gravedad. No escribe nada; sugiere soluciones a través de
+la especificación o las habilidades de construcción, pero nunca las invoca. Se activa cuando el usuario
+solicita verificar la deriva, auditar la especificación, verificar invariantes o preguntar si
+El código todavía coincide con las especificaciones. Frases: "verificar deriva", "auditar las especificaciones",
+"el código todavía coincide con §V", "verificar invariantes", "especificación vs código".
