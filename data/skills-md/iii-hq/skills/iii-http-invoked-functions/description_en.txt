@@ -1,0 +1,1 @@
+Registers external HTTP endpoints as iii functions using registerFunction(meta, HttpInvocationConfig). Use when adapting legacy APIs, third-party webhooks, or immutable services into triggerable iii functions, especially when prompts ask for endpoint maps like { path, id } iterated into registerFunction calls.
