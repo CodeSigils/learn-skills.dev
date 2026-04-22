@@ -1,0 +1,1 @@
+使用 registerFunction(meta, HttpInitationConfig) 將外部 HTTP 端點註冊為 iii 個函數。在將舊版 API、第三方 Webhooks 或不可變服務改編為可觸發的 iii 函數時使用，特別是當提示要求將 { path, id } 等端點映射迭代到 registerFunction 呼叫時。

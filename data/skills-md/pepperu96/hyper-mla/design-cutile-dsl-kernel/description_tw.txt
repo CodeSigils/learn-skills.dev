@@ -1,0 +1,1 @@
+cuTile Python DSL 核心實作模式、CtKernel 執行時期包裝器、適用性閘以及 cuTile 特定的陷阱。在以下情況下使用：(1) 建立或修改 cuTile Python DSL 核心版本，(2) 實作仍然適合 cuTile 公開控制介面的最佳化，(3) 確定 cuTile 是否仍然是正確的 DSL，(4) 檢查特定於 cuTile 的執行時間模式。始終還載入 /design-kernel 以共享命名、版本控制和工作流程。
