@@ -1,0 +1,1 @@
+Migrates databases between providers (Postgres, MySQL, Supabase, PlanetScale, MongoDB). Reads source schema, generates migration scripts, handles data type mapping, foreign keys, indexes, triggers, stored procedures. Validates migration with row counts and checksums. Generates migration-plan.md with step-by-step execution guide, rollback procedures, estimated downtime.

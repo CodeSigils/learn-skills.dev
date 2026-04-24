@@ -1,0 +1,10 @@
+Analyze the user's task and propose the optimal orchestration pattern, then execute it.
+4 patterns: Sequential Pipeline, Parallel Subagent, Team Mode, Ralph Loop.
+Situation-aware pattern selection with user confirmation before execution.
+Use when: "/agent-orchestrate", "agent-orchestrate", "오케스트레이션", "어떤 패턴으로",
+"병렬로 할까", "순차로 할까", "팀 모드", "에이전트 패턴", "작업 방식 제안",
+"how should we run this", "pick a pattern".
+Also trigger when the user describes a complex multi-step task that would clearly
+benefit from agent coordination — e.g., "A사 B사 C사 분석해줘", "설계하고 구현하고
+리뷰까지", "이거 순서대로 해줘", "3개 동시에 돌려", or any task with 3+ subtasks
+where choosing the right execution pattern matters for efficiency.

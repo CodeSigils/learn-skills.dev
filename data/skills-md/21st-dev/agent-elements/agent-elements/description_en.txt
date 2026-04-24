@@ -1,0 +1,9 @@
+Use whenever the user wants to build or modify a chat, agent, or tool-calling
+UI in a React 19 + Tailwind v4 project — especially if the code imports from
+`@/components/agent-elements/*` or the project has that folder on disk.
+Triggers: "agent chat", "tool call UI", "streaming chat", "plan approval",
+"AgentChat", "InputBar", "tool renderer", mentions of Agent Elements, or
+requests to add a new agent surface with shadcn.
+
+Do NOT use for plain chat UIs that don't need tool/plan/approval cards, or
+for projects already committed to a different agent UI kit.

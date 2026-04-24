@@ -1,0 +1,9 @@
+Use this skill when the user wants to audit the memory and documents Claude
+Code loads into context — CLAUDE.md (user global + project + nested),
+MEMORY.md, @imports, .claude/skills, .claude/agents, .claude/commands,
+installed plugins — and detect three kinds of issues: outdated claims,
+mutually contradictory statements, and risky-or-ambiguous wording. Produces
+a prioritized improvement list at `.drift-reports/`. Zero config.
+Trigger phrases: "doc drift", "memory drift", "memory audit", "context drift",
+"docs audit", "문서 점검", "문서 감사", "메모리 감사", "메모리 점검",
+"outdated 문서", "문서 충돌".
