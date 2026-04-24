@@ -1,0 +1,1 @@
+ctf-sandbox-orchestrator 的内部下游技能。用于 Android APK 挂钩、Frida 跟踪、请求签名恢复、SSL 固定绕过、JNI 边界检查和应用程序信任边界分析的 CTF 沙箱工作流程。当用户要求挂钩 APK、检查签名者逻辑、跟踪 Java 或本机边界、绕过固定或根检查、检查共享首选项或应用程序数据库或重放已接受的移动请求时使用。仅在“$ctf-sandbox-orchestrator”已建立沙箱假设并路由至此处后使用。

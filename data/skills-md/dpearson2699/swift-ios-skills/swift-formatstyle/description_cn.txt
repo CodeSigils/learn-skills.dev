@@ -1,0 +1,1 @@
+使用 FormatStyle 协议及其具体类型设置显示值的格式。在格式化数字（整数、浮点数、小数）、货币、百分比、日期、日期范围、相对日期、持续时间（Duration.TimeFormatStyle、Duration.UnitsFormatStyle）、测量值、人名（PersonNameComponents.FormatStyle）、字节计数（ByteCountFormatStyle）、列表（ListFormatStyle）和 URL（URL.FormatStyle）时使用。还包括创建自定义 FormatStyle 一致性和替换旧的 Formatter 子类。 FormatStyle 适用于 iOS 15+；持续时间样式需要 iOS 16+。

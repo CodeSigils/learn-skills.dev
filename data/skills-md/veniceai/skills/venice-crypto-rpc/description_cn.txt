@@ -1,0 +1,1 @@
+使用 Venice 作为 20 多个 EVM 和 Starknet 网络的按次付费 JSON-RPC 代理。涵盖 GET /crypto/rpc/networks、POST /crypto/rpc/{network}、1×/2×/4× 方法层定价模型、每分钟 + 24 小时信用率限制、安全重试的幂等密钥、单个请求与批量请求以及不支持的有状态/WebSocket 方法（eth_subscribe、eth_newFilter 等）。

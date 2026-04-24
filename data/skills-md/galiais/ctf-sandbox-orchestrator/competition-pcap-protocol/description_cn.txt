@@ -1,0 +1,1 @@
+ctf-sandbox-orchestrator 的内部下游技能。用于数据包捕获分析、会话重建、应用程序协议解码、流重组、信标定时和数据包到进程关联的 CTF 沙箱工作流程。当用户要求分析 PCAP、重建 TCP 或 UDP 会话、解码 HTTP、WebSocket、DNS、自定义 C2 或二进制协议、提取传输的工件或将数据包序列与主机或恶意软件行为联系起来时使用。仅在“$ctf-sandbox-orchestrator”已建立沙箱假设并路由至此处后使用。

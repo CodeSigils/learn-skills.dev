@@ -1,0 +1,1 @@
+通过在您的应用程序通过 Trade API 进行的交易中收取构建者定义的费用，通过“platformFeeBps”收取固定百分比（现货 + PM），或通过“platformFeeScale”收取概率加权动态费用（仅限 PM 结果代币），从而使 DFlow 集成货币化。当用户询问“我如何从交易中提成？”、“添加构建者费用”、“将我的交换 UI 货币化”、“收取平台费用”、“platformFeeBps / platformFeeScale 如何工作？”或“我的费用在哪里支付？”时使用。请勿用于运行交易本身（使用“dflow-spot-trading”或“dflow-kalshi-trading”——两者都包含优先费用和赞助/无gas流量）。
