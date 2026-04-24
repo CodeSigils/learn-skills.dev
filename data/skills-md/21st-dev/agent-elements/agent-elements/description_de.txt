@@ -1,0 +1,9 @@
+Verwenden Sie es immer dann, wenn der Benutzer einen Chat, einen Agenten oder einen Tool-Aufruf erstellen oder ändern möchte
+Benutzeroberfläche in einem React 19 + Tailwind v4-Projekt – insbesondere, wenn der Code aus importiert wird
+`@/components/agent-elements/*` oder das Projekt hat diesen Ordner auf der Festplatte.
+Auslöser: „Agenten-Chat“, „Tool-Anruf-UI“, „Streaming-Chat“, „Plangenehmigung“,
+„AgentChat“, „InputBar“, „Tool Renderer“, Erwähnungen von Agent Elements oder
+fordert das Hinzufügen einer neuen Agentenoberfläche mit shadcn an.
+
+NICHT für einfache Chat-Benutzeroberflächen verwenden, die keine Tool-/Plan-/Genehmigungskarten benötigen
+für Projekte, die bereits einem anderen Agenten-UI-Kit zugewiesen wurden.

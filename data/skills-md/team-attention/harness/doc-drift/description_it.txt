@@ -1,0 +1,9 @@
+Utilizza questa abilità quando l'utente desidera controllare la memoria e i documenti di Claude
+Il codice viene caricato nel contesto: CLAUDE.md (utente globale + progetto + nidificato),
+MEMORY.md, @imports, .claude/skills, .claude/agents, .claude/commands,
+plug-in installati e rileva tre tipi di problemi: affermazioni obsolete,
+dichiarazioni reciprocamente contraddittorie e formulazioni rischiose o ambigue. Produce
+un elenco di miglioramenti prioritari su `.drift-reports/`. Configurazione zero.
+Frasi trigger: "deriva del documento", "deriva della memoria", "controllo della memoria", "deriva del contesto",
+"controllo documenti", "문서 점검", "문서 감사", "메모리 감사", "메모리 점검",
+"문서 obsoleto", "문서 충돌".

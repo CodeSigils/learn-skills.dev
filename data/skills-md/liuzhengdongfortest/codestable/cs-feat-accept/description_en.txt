@@ -1,1 +1,10 @@
-Feature process phase 3—complete the acceptance loop. Four tasks: first, layer-by-layer verification against {slug}-design.md to check if implementation deviated, fix deviations on the spot rather than "noting them down" in a report; second, merge this feature into the project's overall architecture documentation; third, if this feature changed the user story or boundaries of the corresponding requirement, update the requirement doc accordingly; fourth, if this feature originated from a roadmap item, mark the corresponding entry in roadmap items.yaml as done and sync with the main document. Finally produce a {slug}-acceptance.md as the closing credential for the entire process. Prerequisite: cs-feat-impl completed. Trigger scenarios: user says "feature is done, please accept," "do final check," "ready to merge," or "produce acceptance report."
+Feature process stage 3 – complete acceptance loop. Four tasks:  
+1. Check each layer against {slug}-design.md to verify the implementation hasn’t drifted; fix any deviation on the spot, don’t “note” it in a report.  
+2. Merge this feature into the project’s overall architecture document.  
+3. If the feature altered the user story or boundary of its requirement, update the requirement doc accordingly.  
+4. If the feature started from a roadmap entry, mark that item “done” in roadmap-items.yaml and sync the main document.  
+
+Final deliverable: {slug}-acceptance.md as proof of the closed loop.  
+
+Prerequisite: cs-feat-impl completed.  
+Trigger phrases: “The feature is done, let’s accept it,” “Do the final check,” “Ready to merge,” “Generate acceptance report.”

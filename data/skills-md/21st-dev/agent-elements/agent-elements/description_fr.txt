@@ -1,0 +1,9 @@
+À utiliser chaque fois que l'utilisateur souhaite créer ou modifier un chat, un agent ou un appel d'outil
+Interface utilisateur dans un projet React 19 + Tailwind v4 – surtout si le code est importé depuis
+`@/components/agent-elements/*` ou le projet a ce dossier sur le disque.
+Déclencheurs : "chat d'agent", "interface utilisateur d'appel d'outil", "chat en streaming", "approbation du plan",
+"AgentChat", "InputBar", "tool renderer", mentions d'éléments d'agent ou
+demande d'ajouter une nouvelle surface d'agent avec shadcn.
+
+Ne PAS utiliser pour les interfaces utilisateur de chat simples qui ne nécessitent pas de cartes d'outils/plans/approbations, ou
+pour les projets déjà engagés dans un kit d’interface utilisateur d’agent différent.

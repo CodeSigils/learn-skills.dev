@@ -1,0 +1,9 @@
+Utilisez cette compétence lorsque l'utilisateur souhaite auditer la mémoire et les documents Claude
+Le code se charge dans le contexte — CLAUDE.md (utilisateur global + projet + imbriqué),
+MEMORY.md, @imports, .claude/skills, .claude/agents, .claude/commands,
+plugins installés - et détecte trois types de problèmes : les réclamations obsolètes,
+des déclarations mutuellement contradictoires et des formulations risquées ou ambiguës. Produit
+une liste d'améliorations prioritaires dans `.drift-reports/`. Zéro configuration.
+Phrases déclencheurs : "doc drift", "memory drift", "memory audit", "context drift",
+"audit de documents", "문서 점검", "문서 감사", "메모리 감사", "메모리 점검",
+"dépassé 문서", "문서 충돌".

@@ -1,0 +1,9 @@
+Úselo siempre que el usuario quiera crear o modificar un chat, un agente o una herramienta de llamada.
+UI en un proyecto React 19 + Tailwind v4, especialmente si el código se importa desde
+`@/components/agent-elements/*` o el proyecto tiene esa carpeta en el disco.
+Activadores: "chat de agente", "IU de llamada de herramienta", "chat de transmisión", "aprobación del plan",
+"AgentChat", "InputBar", "representador de herramientas", menciones de Agent Elements o
+Solicita agregar una nueva superficie de agente con shadcn.
+
+NO lo use para UI de chat simples que no necesitan tarjetas de herramientas/plan/aprobación, o
+para proyectos que ya están comprometidos con un kit de interfaz de usuario de agente diferente.

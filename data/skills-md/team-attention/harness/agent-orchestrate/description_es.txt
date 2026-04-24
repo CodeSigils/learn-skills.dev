@@ -1,0 +1,10 @@
+Analice la tarea del usuario y proponga el patrón de orquestación óptimo, luego ejecútelo.
+4 patrones: canalización secuencial, subagente paralelo, modo equipo, Ralph Loop.
+Selección de patrones consciente de la situación con confirmación del usuario antes de la ejecución.
+Usar cuando: "/agent-orchestrate", "agent-orchestrate", "오케스트레이션", "어떤 패턴으로",
+"병렬로 할까", "순차로 할까", "팀 모드", "에이전트 패턴", "작업 방식 제안",
+"cómo deberíamos ejecutar esto", "elegir un patrón".
+También se activa cuando el usuario describe una tarea compleja de varios pasos que claramente
+beneficiarse de la coordinación de agentes; por ejemplo, "A사 B사 C사 분석해줘", "설계하고 구현하고
+리뷰까지", "이거 순서대로 해줘", "3개 동시에 돌려", o cualquier tarea con más de 3 subtareas
+donde elegir el patrón de ejecución correcto es importante para la eficiencia.

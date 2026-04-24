@@ -1,0 +1,10 @@
+Testa sistematicamente qualsiasi applicazione: app Web, app macOS native, app Electron, strumenti CLI,
+REPL interattivi o qualsiasi cosa sullo schermo. Tre modalità: browser (browser agente/drammaturgo, veloce, livello DOM),
+computer (uso del computer MCP, screenshot + clic pixel, qualsiasi app) e cli (tmux, tasti di invio +
+riquadro di acquisizione per terminali interattivi). Seleziona automaticamente la modalità o accetta l'override --browser / --computer / --cli.
+Utilizzare quando viene richiesto "qa", "QA", "testare questo sito", "testare questa app", "trovare bug",
+"test e correzione", "correzione di ciò che non funziona", "versione sperimentale", "test esplorativo", "ricerca di bug",
+"QA di questa app", "사이트 테스트", "앱 테스트", "브라우저 QA", "화면 보고 테스트해줘",
+"네이티브 앱 테스트", "test dello schermo".
+Tre livelli: Rapido (solo critico/alto), Standard (+ medio), Esauriente (+ cosmetico).
+Produce punteggi sanitari prima/dopo, correzioni di prove e un riepilogo della disponibilità della nave.

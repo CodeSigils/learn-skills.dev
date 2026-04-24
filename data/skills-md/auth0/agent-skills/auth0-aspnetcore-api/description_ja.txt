@@ -1,0 +1,1 @@
+JWT ベアラー トークン検証、スコープ/権限チェック、またはステートレス認証を使用して ASP.NET Core Web API エンドポイントをセキュリティで保護する場合に使用します。フロントエンドまたはモバイル アプリからアクセス トークンを受信する REST API 用に Auth0.AspNetCore.Authentication.Api を統合します。 DPoP 所有証明トークン バインディングも処理します。トリガー: AddAuth0ApiAuthentication、.NET Web API 認証、JWT 検証、UseAuthentication、UseAuthorization。

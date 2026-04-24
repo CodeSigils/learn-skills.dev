@@ -1,0 +1,10 @@
+Analysez la tâche de l'utilisateur et proposez le modèle d'orchestration optimal, puis exécutez-le.
+4 modèles : pipeline séquentiel, sous-agent parallèle, mode équipe, boucle Ralph.
+Sélection de modèles tenant compte de la situation avec confirmation de l'utilisateur avant l'exécution.
+À utiliser lorsque : "/agent-orchestrate", "agent-orchestrate", "오케스트레이션", "어떤 패턴으로",
+"병렬로 할까", "순차로 할까", "팀 모드", "에이전트 패턴", "작업 방식 제안",
+"comment devrions-nous exécuter cela", "choisir un modèle".
+Se déclenche également lorsque l'utilisateur décrit une tâche complexe en plusieurs étapes qui serait clairement
+bénéficier de la coordination des agents — par exemple, "A사 B사 C사 분석해줘", "설계하고 구현하고
+리뷰까지", "이거 순서대로 해줘", "3개 동시에 돌려", ou toute tâche comportant plus de 3 sous-tâches
+où le choix du bon modèle d’exécution est important pour l’efficacité.

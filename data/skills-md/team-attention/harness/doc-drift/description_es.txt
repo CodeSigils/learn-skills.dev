@@ -1,0 +1,9 @@
+Utilice esta habilidad cuando el usuario quiera auditar la memoria y los documentos Claude
+El código se carga en contexto: CLAUDE.md (usuario global + proyecto + anidado),
+MEMORIA.md, @imports, .claude/skills, .claude/agents, .claude/commands,
+complementos instalados y detectar tres tipos de problemas: afirmaciones obsoletas,
+declaraciones mutuamente contradictorias y redacción arriesgada o ambigua. produce
+una lista de mejoras priorizadas en `.drift-reports/`. Configuración cero.
+Frases desencadenantes: "derivación de documentos", "derivación de memoria", "auditoría de memoria", "derivación de contexto",
+"auditoría de documentos", "문서 점검", "문서 감사", "메모리 감사", "메모리 점검",
+"anticuado 문서", "문서 충돌".

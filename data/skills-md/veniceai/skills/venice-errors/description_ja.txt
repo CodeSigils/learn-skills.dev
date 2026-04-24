@@ -1,0 +1,1 @@
+Venice API エラーを正しく処理します。 StandardError / DetailedError / ContentViolationError / X402InferencePaymentRequired のボディ形状、すべての意味のあるステータス コード (400、401、402、403、415、422、429、500、503、504)、x402 推論で使用される 402 PAYMENT-REQUIRED ヘッダー、422 コンテンツ ポリシーをカバーします。 ugged_prompt 再試行パターン、429 レート制限ヘッダー、冪等性を備えた指数バックオフ再試行戦略。

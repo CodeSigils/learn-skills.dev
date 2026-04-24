@@ -1,0 +1,1 @@
+Venice を 20 以上の EVM および Starknet ネットワークへのペイパーコール JSON-RPC プロキシとして使用します。 GET /crypto/rpc/networks、POST /crypto/rpc/{network}、1x/2x/4x メソッド層の価格モデル、分単位 + 24 時間のクレジット レート制限、安全な再試行のための冪等性キー、単一リクエストとバッチ リクエスト、およびサポートされていないステートフル/WebSocket メソッド (eth_subscribe、eth_newFilter など) をカバーします。

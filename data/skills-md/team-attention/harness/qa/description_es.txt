@@ -1,0 +1,10 @@
+Pruebe sistemáticamente el control de calidad de cualquier aplicación: aplicaciones web, aplicaciones nativas de macOS, aplicaciones de Electron, herramientas CLI,
+REPL interactivos o cualquier cosa en la pantalla. Tres modos: navegador (navegador de agente/Dramaturgo, rápido, nivel DOM),
+computadora (uso de computadora MCP, captura de pantalla + clics en píxeles, cualquier aplicación) y cli (tmux, enviar claves +
+panel de captura para terminales interactivos). Selecciona automáticamente el modo o acepta la anulación de --browser/-computer/-cli.
+Úselo cuando se le solicite "control de calidad", "control de calidad", "probar este sitio", "probar esta aplicación", "encontrar errores",
+"probar y arreglar", "arreglar lo que está roto", "prueba de prueba", "prueba exploratoria", "búsqueda de errores",
+"Control de calidad de esta aplicación", "사이트 테스트", "앱 테스트", "브라우저 Control de calidad", "화면 보고 테스트해줘",
+"네이티브 앱 테스트", "prueba de pantalla".
+Tres niveles: Rápido (solo crítico/alto), Estándar (+ medio), Exhaustivo (+ cosmético).
+Produce puntuaciones de salud antes y después, evidencia de reparación y un resumen de preparación del barco.

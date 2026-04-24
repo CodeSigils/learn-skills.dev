@@ -1,0 +1,9 @@
+Verwenden Sie diese Fähigkeit, wenn der Benutzer den Speicher und die Dokumente von Claude prüfen möchte
+Code wird in den Kontext geladen – CLAUDE.md (Benutzer global + Projekt + verschachtelt),
+MEMORY.md, @imports, .claude/skills, .claude/agents, .claude/commands,
+installierte Plugins – und erkennen drei Arten von Problemen: veraltete Ansprüche,
+widersprüchliche Aussagen und riskante oder mehrdeutige Formulierungen. Produziert
+eine priorisierte Verbesserungsliste unter `.drift-reports/`. Keine Konfiguration.
+Auslöserphrasen: „Doc Drift“, „Memory Drift“, „Memory Audit“, „Context Drift“,
+„docs audit“, „문서 점검“, „문서 감사“, „메모리 감사“, „메모리 점사“,
+„veraltetes 문서“, „문서 충돌“.

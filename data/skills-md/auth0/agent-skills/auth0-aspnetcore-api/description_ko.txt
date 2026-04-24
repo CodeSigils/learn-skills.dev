@@ -1,0 +1,1 @@
+JWT Bearer 토큰 유효성 검사, 범위/권한 확인 또는 상태 비저장 인증을 통해 ASP.NET Core 웹 API 엔드포인트를 보호할 때 사용합니다. 프런트엔드 또는 모바일 앱에서 액세스 토큰을 수신하는 REST API용 Auth0.AspNetCore.Authentication.Api를 통합합니다. 또한 DPoP 소유 증명 토큰 바인딩을 처리합니다. 트리거 대상: AddAuth0ApiAuthentication, .NET Web API 인증, JWT 유효성 검사, UseAuthentication, UseAuthorization.

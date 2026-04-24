@@ -1,0 +1,10 @@
+Testez systématiquement n'importe quelle application : applications Web, applications macOS natives, applications Electron, outils CLI,
+REPL interactifs, ou quoi que ce soit à l'écran. Trois modes : navigateur (agent-navigateur/Playwright, rapide, niveau DOM),
+ordinateur (utilisation de l'ordinateur MCP, capture d'écran + clics de pixels, n'importe quelle application) et cli (tmux, clés d'envoi +
+volet de capture pour bornes interactives). Sélectionne automatiquement le mode ou accepte le remplacement de --browser / --computer / --cli.
+À utiliser lorsqu'on vous demande de "qa", "QA", "tester ce site", "tester cette application", "trouver des bugs",
+"tester et réparer", "réparer ce qui est cassé", "dogfood", "test exploratoire", "chasse aux bugs",
+"QA this app", "사이트 테스트", "앱 테스트", "브라우저 QA", "화면 보고 테스트해줘",
+"네이티브 앱 테스트", "test d'écran".
+Trois niveaux : Rapide (critique/élevé uniquement), Standard (+ moyen), exhaustif (+ cosmétique).
+Produit des scores de santé avant/après, des preuves de correction et un résumé de l'état de préparation du navire.

@@ -1,0 +1,10 @@
+Systematische QA-Tests aller Anwendungen – Web-Apps, native macOS-Apps, Electron-Apps, CLI-Tools,
+interaktive REPLs oder irgendetwas auf dem Bildschirm. Drei Modi: Browser (Agent-Browser/Playwright, schnell, DOM-Ebene),
+Computer (MCP-Computernutzung, Screenshot + Pixelklicks, jede App) und CLI (tmux, Sendetasten +
+Capture-Bereich für interaktive Terminals). Wählt den Modus automatisch aus oder akzeptiert die Überschreibung durch --browser / --computer / --cli.
+Wird verwendet, wenn Sie nach „QA“, „QA“, „Diese Website testen“, „Diese App testen“, „Fehler finden“ gefragt werden.
+„Testen und reparieren“, „Reparieren, was kaputt ist“, „Dogfood“, „Erkundungstest“, „Fehlersuche“,
+„QA dieser App“, „사이트 테스트“, „앱 테스트“, „브라우저 QA“, „화면 보고 테스트해줘“,
+„네이티브 앱 테스트“, „Bildschirmtest“.
+Drei Stufen: Schnell (nur kritisch/hoch), Standard (+ mittel), Erschöpfend (+ kosmetisch).
+Erstellt Vorher-/Nachher-Gesundheitswerte, Reparaturnachweise und eine Zusammenfassung der Schiffsbereitschaft.

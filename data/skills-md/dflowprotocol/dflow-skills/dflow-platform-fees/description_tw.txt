@@ -1,0 +1,1 @@
+透過在您的應用程式透過 Trade API 進行的交易中收取建構者定義的費用，透過「platformFeeBps」收取固定百分比（現貨 + PM），或透過「platformFeeScale」收取機率加權動態費用（僅限 PM 結果代幣），從而使 DFlow 整合貨幣化。當使用者詢問「我如何從交易中提成？」、「新增建構者費用」、「將我的交換 UI 貨幣化」、「收取平台費用」、「platformFeeBps / platformFeeScale 如何運作？」或「我的費用在哪裡支付？」時使用。請勿用於運行交易本身（使用“dflow-spot-trading”或“dflow-kalshi-trading”——兩者都包含優先費用和贊助/無gas流量）。
