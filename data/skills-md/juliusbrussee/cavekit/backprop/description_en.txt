@@ -1,0 +1,4 @@
+Bug → spec protocol. When a bug is found or a test fails, trace the cause,
+decide whether a new §V invariant would catch recurrence, append to §B.
+This is the one non-obvious thing SDD does that plan-then-execute doesn't.
+Triggers on test failure, bug report, post-mortem, or explicit user ask.

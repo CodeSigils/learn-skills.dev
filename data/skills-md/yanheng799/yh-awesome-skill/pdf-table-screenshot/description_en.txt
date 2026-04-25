@@ -1,0 +1,18 @@
+从PDF文档的指定章节、页面范围中检测表格，并将每个表格裁剪保存为PNG图片。
+Extract and crop table screenshots from specified chapters, sections, or page ranges in a PDF document.
+Use this skill when the user asks to:
+- "截取PDF中第3章的表格" or "Extract tables from Chapter 3"
+- "把这个PDF第2章的表格截图保存下来"
+- "截图PDF中10-20页的所有表格"
+- "提取PDF表格为图片" or "Save PDF tables as images"
+- "把这个PDF中3.2节的表格截出来"
+- Any request involving PDF table extraction, table screenshot, table cropping, or table image capture
+Features:
+- Chapter/section detection via bookmarks, TOC, or text pattern matching
+- Direct page range specification as fallback
+- Automatic table detection using pdfplumber
+- High-quality table image cropping via PyMuPDF (no Poppler needed)
+- Supports Chinese and English chapter patterns
+- Configurable DPI for output image quality
+- Automatic detection of single/dual-column page layouts
+- Merging of split tables in dual-column PDFs
