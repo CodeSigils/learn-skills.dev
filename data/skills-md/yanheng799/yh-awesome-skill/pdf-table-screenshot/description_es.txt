@@ -1,0 +1,18 @@
+从PDF文档的指定章节、页面范围中检测表格，并将每个表格裁剪保存为PNG图片。
+Extraiga y recorte capturas de pantalla de tablas de capítulos, secciones o rangos de páginas específicos en un documento PDF.
+Utilice esta habilidad cuando el usuario le solicite:
+- "截取PDF中第3章的表格" o "Extraer tablas del Capítulo 3"
+- "把这个PDF第2章的表格截图保存下来"
+- "截图PDF中10-20页的所有表格"
+- "提取PDF表格为图片" o "Guardar tablas PDF como imágenes"
+- "把这个PDF中3.2节的表格截出来"
+- Cualquier solicitud que implique extracción de tablas PDF, captura de pantalla de tablas, recorte de tablas o captura de imágenes de tablas
+Características:
+- Detección de capítulo/sección mediante marcadores, TOC o coincidencia de patrones de texto
+- Especificación directa del rango de páginas como alternativa
+- Detección automática de tablas usando pdfplomber
+- Recorte de imágenes de tablas de alta calidad mediante PyMuPDF (no se necesita Poppler)
+- Admite patrones de capítulos en chino e inglés
+- DPI configurable para la calidad de la imagen de salida
+- Detección automática de diseños de página de una o dos columnas
+- Fusión de tablas divididas en archivos PDF de dos columnas
