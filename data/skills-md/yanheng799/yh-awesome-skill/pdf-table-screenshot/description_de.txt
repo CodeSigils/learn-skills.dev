@@ -1,0 +1,18 @@
+从PDF文档的指定章节、页面范围中检测表格,并将每个表格裁剪保存为PNG图片.
+Extrahieren und beschneiden Sie Tabellen-Screenshots aus bestimmten Kapiteln, Abschnitten oder Seitenbereichen in einem PDF-Dokument.
+Verwenden Sie diese Fähigkeit, wenn der Benutzer Folgendes verlangt:
+- „截取PDF中第3章的表格“ oder „Tabellen aus Kapitel 3 extrahieren“
+- „把这个PDF第2章的表格截图保存下来“
+- „截图PDF中10-20页的所有表格“
+- „提取PDF表格为图片“ oder „PDF-Tabellen als Bilder speichern“
+- „把这个PDF中3.2节的表格截出来“
+- Jede Anfrage, die die Extraktion von PDF-Tabellen, Tabellen-Screenshots, das Zuschneiden von Tabellen oder die Erfassung von Tabellenbildern umfasst
+Eigenschaften:
+- Kapitel-/Abschnittserkennung über Lesezeichen, Inhaltsverzeichnis oder Textmustervergleich
+- Direkte Seitenbereichsangabe als Fallback
+- Automatische Tabellenerkennung mit pdfplumber
+- Hochwertiges Zuschneiden von Tabellenbildern über PyMuPDF (kein Poppler erforderlich)
+- Unterstützt chinesische und englische Kapitelmuster
+- Konfigurierbare DPI für Ausgabebildqualität
+- Automatische Erkennung von ein-/zweispaltigen Seitenlayouts
+- Zusammenführung geteilter Tabellen in zweispaltigen PDFs
