@@ -1,0 +1,1 @@
+使用 Supabase 編寫伺服器端程式碼時使用 - Edge Functions、Hono 應用程式、webhook 處理程序或任何需要 Supabase 驗證和用戶端建立的後端。每當使用者從「@supabase/server」匯入、提及「supabase/server」、Supabase Edge Functions 或需要使用 Supabase 進行伺服器端驗證（JWT 驗證、API 金鑰驗證、CORS 處理）時觸發。當您在現有程式碼中看到舊模式時也會觸發 - `Deno.serve`、`createClient(Deno.env.get('SUPABASE_URL'))`、從 `esm.sh/@supabase`、`deno.land/std` 服務導入或使用 `SUPABAP.這些指示應遷移到此套件的程式碼。
