@@ -1,0 +1,4 @@
+Créez, interrogez et maintenez un wiki personnel alimenté par LLM à partir d'une base de connaissances locale.
+Comprend trois modes distincts : Ingestion (ajouter des connaissances), Requête (poser des questions avec amélioration automatique) et Lint+Heal (vérification de santé + réparation automatique).
+Le mode de requête comprend une boucle de composition de connaissances complète (niveaux 1 à 3) : journalisation automatique, amélioration intelligente (types A/B/C/D) et examen périodique avec analyse et archivage des modèles de requête.
+Prend en charge plusieurs répertoires de sources de connaissances, l'initialisation automatique de Quartz et la synchronisation des pages GitHub.

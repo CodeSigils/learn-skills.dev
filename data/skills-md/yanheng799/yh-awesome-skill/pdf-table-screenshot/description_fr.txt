@@ -1,0 +1,18 @@
+Le fichier PDF est disponible en PNG.
+Extrayez et recadrez les captures d'écran du tableau des chapitres, sections ou plages de pages spécifiés dans un document PDF.
+Utilisez cette compétence lorsque l'utilisateur demande :
+- "截取PDF中第3章的表格" ou "Extraire les tableaux du chapitre 3"
+- "PDF 第2章的表格截图保存下来"
+- "PDF PDF 10-20"
+- "提取PDF表格为图片" ou "Enregistrer les tableaux PDF sous forme d'images"
+- "PDF 3.2节的表格截出来"
+- Toute demande impliquant l'extraction d'un tableau PDF, une capture d'écran d'un tableau, un recadrage d'un tableau ou une capture d'image d'un tableau
+Caractéristiques :
+- Détection de chapitre/section via des signets, une table des matières ou une correspondance de modèles de texte
+- Spécification directe de la plage de pages comme solution de secours
+- Détection automatique des tables à l'aide de pdfplumber
+- Recadrage d'image de tableau de haute qualité via PyMuPDF (aucun Poppler nécessaire)
+- Prend en charge les modèles de chapitres chinois et anglais
+- DPI configurable pour la qualité de l'image de sortie
+- Détection automatique des mises en page à une ou deux colonnes
+- Fusion de tableaux fractionnés dans des PDF à deux colonnes
