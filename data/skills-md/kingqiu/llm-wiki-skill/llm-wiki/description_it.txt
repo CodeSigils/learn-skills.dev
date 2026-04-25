@@ -1,0 +1,4 @@
+Costruisci, interroga e gestisci un wiki personale basato su LLM da una knowledge base locale.
+Presenta tre modalità distinte: Ingest (aggiungi conoscenza), Query (fai domande con miglioramento automatico) e Lint+Heal (controllo dello stato + riparazione automatica).
+La modalità query include un ciclo completo di composizione della conoscenza (Livello 1-3): registrazione automatica, miglioramento intelligente (tipi A/B/C/D) e revisione periodica con analisi e archiviazione dei modelli di query.
+Supporta più directory di fonti di conoscenza, l'inizializzazione automatica di Quartz e la sincronizzazione delle pagine GitHub.

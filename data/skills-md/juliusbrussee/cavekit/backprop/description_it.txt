@@ -1,0 +1,4 @@
+Bug → protocollo specifico. Quando viene trovato un bug o un test fallisce, traccia la causa,
+decidere se un nuovo invariante §V catturerebbe la ricorrenza, aggiungere a §B.
+Questa è l'unica cosa non ovvia che l'SDD fa e che la pianificazione e l'esecuzione non fanno.
+Si attiva in caso di fallimento del test, segnalazione di bug, post mortem o richiesta esplicita dell'utente.

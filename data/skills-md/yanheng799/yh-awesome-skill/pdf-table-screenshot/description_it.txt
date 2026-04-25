@@ -1,0 +1,18 @@
+Per visualizzare il PDF in formato PDF, è possibile utilizzare le immagini PNG per il download.
+Estrai e ritaglia schermate di tabelle da capitoli, sezioni o intervalli di pagine specificati in un documento PDF.
+Utilizza questa abilità quando l'utente chiede di:
+- "截取PDF中第3章的表格" o "Estrai tabelle dal capitolo 3"
+- "把这个PDF第2章的表格截图保存下来"
+- "PDF in formato 10-20"
+- "提取PDF表格为图片" o "Salva tabelle PDF come immagini"
+- "Leggi PDF in formato 3.2"
+- Qualsiasi richiesta che coinvolga l'estrazione di tabelle PDF, screenshot di tabelle, ritaglio di tabelle o acquisizione di immagini di tabelle
+Caratteristiche:
+- Rilevamento di capitoli/sezioni tramite segnalibri, sommario o corrispondenza di modelli di testo
+- Specifica diretta dell'intervallo di pagine come fallback
+- Rilevamento automatico della tabella utilizzando pdfplumber
+- Ritaglio di immagini di tabelle di alta qualità tramite PyMuPDF (non è necessario Poppler)
+- Supporta modelli di capitoli cinesi e inglesi
+- DPI configurabile per la qualità dell'immagine in uscita
+- Rilevamento automatico dei layout di pagina a colonna singola/doppia
+- Unione di tabelle divise in PDF a doppia colonna
