@@ -1,0 +1,1 @@
+图像生成技能——当用户需要创建图像、视觉信息图表或编辑/修改/调整现有图像时使用此技能。基于 APIyi 平台 (https://api.apiyi.com/) 的 ChatGPT Image 2 模型 (gpt-image-2) 的官方图像生成服务。该模型支持精确的尺寸/质量控制（包括4K），并按代币计费。与 gpt-image-2-all（非官方反向版本）的主要区别：使用 /v1/images/ Generations 和 /v1/images/edits 端点；有明确的尺寸参数；有质量参数；通过代币计费；通过 multipart/form-data 上传参考图像； b64_json是纯base64，没有前缀。

@@ -1,0 +1,1 @@
+通过 JavaScript 的 DevTools 协议驱动 Chrome。通过“browser-harness-js” CLI 运行 JS 片段 - 它会自动生成一个长期存在的 Bun HTTP 服务器，保存一个完全类型化的 CDP“Session”，并且每个调用（“browser-harness-js 'await session.Page.navigate(...)'”）都会针对相同的持久连接执行。会话、活动目标和全局变量在调用中仍然存在。当用户想要通过 CDP 自动化、编写脚本或检查 Chrome 浏览器时使用 - 单选项卡或多选项卡，附加到现有 Chrome 或使用 --remote-debugging-port 启动的新浏览器。
