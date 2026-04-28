@@ -1,0 +1,33 @@
+学術論文検索、引用分析、メタデータ抽出の専用スキル。
+
+[自動トリガー条件 - 次のシグナルのいずれかが表示された場合、ユーザーの明示的な指示なしに、このスキルをただちにロードします]
+
+インテントシグナル (中国語):
+- 論文検索 / 論文検索 / 論文検索 / 研究論文 / 文献検索 / 文献レビュー / アンケート
+- トップカンファレンス / トップジャーナル / CCF / NeurIPS / ICML / ICLR / ACL / EMNLP / CVPR / KDD / SIGIR / WWW
+- 引用数 / 被引用者 / 引用関係 / 引用量
+- BibTeX / 参考フォーマット / 引用のエクスポート
+- 著者の出版物リスト / 誰かの論文 / 誰かがどこで何を出版したか
+- arXiv / Semantic Scholar / Google Scholar / PubMed / ACM DL / IEEE
+- CNKI / 中国国家知識基盤 / CNKI / 論文 / 修士論文 / 博士論文 / 中国文学 / 中国雑誌
+- PDFリンク / 論文PDF / オープンアクセス
+- 要約/メタデータ
+
+インテントシグナル (英語):
+- 論文検索 / 論文検索 / 論文検索 / 文献レビュー / 調査
+- 引用数 / 引用グラフ / 引用 / 引用者
+- BibTeX / 参考資料のエクスポート
+- トップカンファレンス / トップジャーナル / 会場ランキング
+- 著者の出版物リスト / X による論文
+
+URL シグナル (次のドメインのリンクが表示されると自動トリガー):
+- arxiv.org / ar5iv.org
+- semanticscholar.org
+- 学者.google.com
+- dl.acm.org
+- ieeexplore.ieee.org
+- pubmed.ncbi.nlm.nih.gov
+-paperswithcode.com
+- cnki.net / kns.cnki.net
+
+対象プラットフォーム: arXiv、Semantic Scholar、Google Scholar、ACM DL、IEEE Xplore、PubMed、Papers with Code、CNKI (中国国家知識基盤)

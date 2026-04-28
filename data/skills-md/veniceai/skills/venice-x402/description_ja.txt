@@ -1,0 +1,1 @@
+Venice x402 ウォレット クレジットを管理します。 POST /x402/top-up (支払い検出 + 署名済み USDC 決済)、GET /x402/balance/{walletAddress}、GET /x402/transactions/{walletAddress}、Base 上の USDC (チェーン 8453)、最低 $5 のトップアップ、トランザクション タイプ TOP_UP/CHARGE/REFUND、およびすべての推論によって返される x402 v2 PAYMENT-REQUIRED 応答形状をカバーします。エンドポイント。

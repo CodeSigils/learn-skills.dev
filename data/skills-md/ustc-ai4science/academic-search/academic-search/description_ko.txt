@@ -1,0 +1,33 @@
+학술 논문 검색, 인용 분석, 메타데이터 추출을 위한 전용 기술입니다.
+
+[자동 발동 조건 - 명시적인 사용자 지시 없이 다음 신호 중 하나가 나타나면 즉시 이 스킬을 로드]
+
+의도 신호(중국어):
+- 논문 검색 / 논문 찾기 / 논문 조회 / 연구 논문 / 문헌 검색 / 문헌 검토 / 설문조사
+- 최고 컨퍼런스 / 최고 저널 / CCF / NeurIPS / ICML / ICLR / ACL / EMNLP / CVPR / KDD / SIGIR / WWW
+- 인용횟수 / 인용자 / 인용관계 / 인용량
+- BibTeX / 참고형식 / 인용문 내보내기
+- 저자 출판 목록 / 누군가의 논문 / 누가 무엇을 출판했는지
+- arXiv / Semantic Scholar / Google Scholar / PubMed / ACM DL / IEEE
+- CNKI / 중국국가지식인프라 / CNKI / 학위논문 / 석사논문 / 박사논문 / 중국문학 / 중국저널
+- PDF 링크 / 종이 PDF / 오픈 액세스
+- 초록/메타데이터
+
+의도 신호(영어):
+- 논문 검색 / 논문 찾기 / 논문 조회 / 문헌 검토 / 설문 조사
+- 인용횟수 / 인용그래프 / 인용 / 인용
+- BibTeX / 참조 내보내기
+- 상위 컨퍼런스 / 상위 저널 / 장소 순위
+- X의 저자 출판 목록 / 논문
+
+URL 신호(다음 도메인이 포함된 링크가 나타날 때 자동 트리거):
+-arxiv.org / ar5iv.org
+- semanticscholar.org
+- 학자.google.com
+- dl.acm.org
+-ieeexplore.ieee.org
+- pubmed.ncbi.nlm.nih.gov
+-paperswithcode.com
+- cnki.net / kns.cnki.net
+
+대상 플랫폼: arXiv, Semantic Scholar, Google Scholar, ACM DL, IEEE Xplore, PubMed, Papers with Code, CNKI(중국 국가 지식 인프라)

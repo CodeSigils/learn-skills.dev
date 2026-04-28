@@ -1,0 +1,1 @@
+開發後回顧包裝。使用時機：AI/Codex 剛完成一項功能的實現，使用者想要一個包含範圍檢測 + 文件產生 + 後續問答的指導演練。不適用於：僅產生文件（使用 /recap-doc）、對現有概述進行問答（使用 /recap-ask）、技術分享（使用 /tech-brief）、現有文件的第一原理推理（使用 /fp-brief）、一般程式碼追蹤（使用 /code-explore）。輸出：ScopeReport→briefing-recap-<date>.md→互動式問答環節。

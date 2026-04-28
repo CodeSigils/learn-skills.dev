@@ -1,0 +1,1 @@
+开发后回顾包装。使用时机：AI/Codex 刚刚完成一项功能的实现，用户想要一个包含范围检测 + 文档生成 + 后续问答的指导演练。不适用于：仅生成文档（使用 /recap-doc）、对现有概述进行问答（使用 /recap-ask）、技术分享（使用 /tech-brief）、现有文档的第一原理推理（使用 /fp-brief）、一般代码跟踪（使用 /code-explore）。输出：ScopeReport→briefing-recap-<date>.md→交互式问答环节。

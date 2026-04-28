@@ -1,0 +1,33 @@
+Habilidad dedicada a la búsqueda de artículos académicos, análisis de citas y extracción de metadatos.
+
+[Condiciones de activación automática: cargue esta habilidad inmediatamente cuando aparezca cualquiera de las siguientes señales, sin instrucciones explícitas del usuario]
+
+Señales de intención (chino):
+- Buscar artículo / Buscar artículo / Buscar artículo / Artículo de investigación / Recuperar literatura / Revisión de literatura / Encuesta
+- Conferencia principal / Revista principal / CCF / NeurIPS / ICML / ICLR / ACL / EMNLP / CVPR / KDD / SIGIR / WWW
+- Recuento de citas / Citado por / Relaciones de citas / Volumen de citas
+- BibTeX / Formato de referencia / Exportar cita
+- Lista de publicaciones del autor / Artículos de alguien / Dónde alguien publicó lo que
+- arXiv / Semantic Scholar / Google Scholar / PubMed / ACM DL / IEEE
+- CNKI / Infraestructura Nacional del Conocimiento de China / CNKI / Disertación / Tesis de maestría / Tesis doctoral / Literatura china / Revista china
+- Enlace PDF / PDF en papel / Acceso abierto
+- Resumen / metadatos
+
+Señales de intención (inglés):
+- buscar artículo / buscar artículo / buscar artículo / revisión de literatura / encuesta
+- recuento de citas / gráfico de citas / citas / citado por
+- BibTeX / exportación de referencia
+- clasificación de la mejor conferencia/mejor revista/lugar de celebración
+- lista de publicaciones del autor / artículos de X
+
+Señales de URL (se activa automáticamente cuando aparecen enlaces con los siguientes dominios):
+-arxiv.org/ar5iv.org
+-semanticscholar.org
+- academico.google.com
+- dl.acm.org
+-ieeexplore.ieee.org
+- pubmed.ncbi.nlm.nih.gov
+- paperswithcode.com
+- cnki.net / kns.cnki.net
+
+Plataformas cubiertas: arXiv, Semantic Scholar, Google Scholar, ACM DL, IEEE Xplore, PubMed, Papers with Code, CNKI (Infraestructura Nacional de Conocimiento de China)

@@ -1,0 +1,33 @@
+学术论文搜索、引文分析和元数据提取的专用技能。
+
+[自动触发条件——出现以下任一信号时立即加载该技能，无需用户明确指示]
+
+意图信号（中文）：
+- 检索论文/查找论文/查阅论文/研究论文/检索文献/文献综述/调查
+- 顶级会议/顶级期刊/CCF/NeurIPS/ICML/ICLR/ACL/EMNLP/CVPR/KDD/SIGIR/WWW
+- 引用次数/引用者/引用关系/引用量
+- BibTeX / 参考格式 / 导出引文
+- 作者出版物列表/某人的论文/某人在哪里发表了什么
+- arXiv / 语义学者 / 谷歌学术 / PubMed / ACM DL / IEEE
+- CNKI / 中国国家知识基础设施 / CNKI / 学位论文 / 硕士论文 / 博士论文 / 中国文学 / 中文期刊
+- PDF链接/纸质PDF/开放获取
+- 摘要/元数据
+
+意图信号（英文）：
+- 检索论文/查找论文/查阅论文/文献综述/调查
+- 引用计数/引用图表/引用/引用者
+- BibTeX / 参考文献导出
+- 顶级会议/顶级期刊/场地排名
+- X 的作者出版物列表/论文
+
+URL 信号（当出现具有以下域的链接时自动触发）：
+- arxiv.org / ar5iv.org
+- 语义学者.org
+- 学者.google.com
+- dl.acm.org
+- ieeexplore.ieee.org
+- pubmed.ncbi.nlm.nih.gov
+- paperwithcode.com
+- 中国知网 / kns.cnki.net
+
+覆盖平台：arXiv、Semantic Scholar、Google Scholar、ACM DL、IEEE Xplore、PubMed、Papers with Code、CNKI（中国国家知识基础设施）

@@ -1,0 +1,1 @@
+개발 후 요약 래퍼. 사용 시기: AI/Codex가 기능 구현을 막 마쳤고 사용자가 범위 감지, 문서 생성, 후속 Q&A가 포함된 안내식 연습을 원합니다. 해당되지 않는 용도: 문서 생성(/recap-doc 사용), 기존 요약에 대한 Q&A(/recap-ask 사용), 기술 공유(/tech-brief 사용), 기존 문서의 첫 번째 원칙 추론(/fp-brief 사용), 일반 코드 추적(/code-explore 사용). 출력: ScopeReport → Briefing-recap-<date>.md → 대화형 Q&A 세션.

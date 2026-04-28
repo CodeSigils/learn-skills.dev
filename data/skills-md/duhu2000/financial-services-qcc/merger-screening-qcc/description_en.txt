@@ -1,4 +1,12 @@
-并购筛查Skill - 企查查MCP增强版。 针对并购交易(M&A)的标的企业筛查与匹配度分析，快速识别潜在并购标的。
-核心功能： - 标的筛查：基于行业、规模、区域、风险等级的潜在标的筛选 - 匹配度分析：收购方与标的的业务协同、文化兼容性 - 估值参考：基于工商数据的初步估值区间 - 整合风险评估：并购后整合的关键风险点 - 交易可行性：股权结构、债务负担、审批障碍
-适用场景：战略投资并购、产业整合、上市公司并购、PE/VC并购投资。
-使用方式：/merger-screening-qcc 收购方企业 [--industry 目标行业] [--scale 规模区间] [--region 区域]
+Merger Screening Skill - Qichacha MCP Enhanced Edition. Screening and compatibility analysis of target enterprises for M&A transactions, quickly identifying potential acquisition targets.
+
+Core Functions:
+- Target Screening: Filter potential targets based on industry, scale, region, and risk level
+- Compatibility Analysis: Business synergy and cultural compatibility between acquirer and target
+- Valuation Reference: Preliminary valuation range based on industrial and commercial data
+- Integration Risk Assessment: Key risk points for post-merger integration
+- Transaction Feasibility: Equity structure, debt burden, regulatory obstacles
+
+Applicable Scenarios: Strategic investment M&A, industrial consolidation, listed company M&A, PE/VC M&A investment.
+
+Usage: /merger-screening-qcc Acquirer Company [--industry Target Industry] [--scale Scale Range] [--region Region]
