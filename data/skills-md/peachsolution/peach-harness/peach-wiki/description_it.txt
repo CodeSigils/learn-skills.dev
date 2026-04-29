@@ -1,4 +1,5 @@
-Abilità di gestione della conoscenza basata su modelli Karpathy LLM Wiki. Supporta sia progetti di codice che note di Obsidian.  
-Legge i sorgenti grezzi (codice, documenti) e crea/mantiene una base di conoscenza incrementale in docs/wiki/.  
-Attivato dalle parole chiave: "wiki", "위키", "ingest", "인제스트", "wiki check", "wiki lint", "wiki update", "documentalo", "spiega l'architettura", "come funziona?".  
-Integrato con lo strumento di ricerca qmd per il risparmio di token e un'elevata precisione di ricerca.
+Abilità di gestione della conoscenza basata su modelli Karpathy LLM Wiki. Supporta sia progetti di codice che note di Obsidian.
+Legge i sorgenti grezzi (codice/documenti) per creare e mantenere una base di conoscenza cumulativa in docs/wiki/.
+Attivato dalle parole chiave: "wiki", "위키", "ingest", "인제스트", "wiki check", "wiki lint", "wiki update",
+"documentatemelo", "spiegate l'architettura", "come funziona?"
+Si integra con lo strumento di ricerca qmd per risparmiare token + elevata precisione di ricerca.

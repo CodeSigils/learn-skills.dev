@@ -1,12 +1,1 @@
-Wind MCP Data Bridge-Skill (v1.1.0, 6 Server / 19 Tools). Geroutet von „server_type“:  
-(1) „Kurs“-Marktdaten (A-Aktien/Hongkong-Aktien-Snapshots, tägliche/wöchentliche/monatliche K-Linien, Minutenbalken);  
-(2) „fund_data“-Fondsinformationen (Profile/Finanzdaten/Bestände/Leistung/Aktionäre/Unternehmen);  
-(3) „stock_data“ Deep Equity (Profile/Fundamentaldaten/Kapitalstruktur/Ereignisse/Technik/Risiko);  
-(4) „financial_docs“-Dokument RAG (Ankündigungen/Finanznachrichten);  
-(5) „economic_data“ EDB-Makro- und Branchenindikatoren;  
-(6) „analytics_data“ generische NL → Winddaten.  
-
-Erfordert WIND_API_KEY (erhalten Sie im aimarket.wind.com.cn Developer Center).  
-Auslöseszenarien: A-Aktien / HK-Ticker / K-Linien / Minutenbalken, jede Fondsdimension, Aktiengewinne / -bewertung, Einreichungen / Nachrichten börsennotierter Unternehmen, Makrodaten, Vergleiche zwischen Vermögenswerten.  
-
-**Ausgeschlossen**: US-/EU-/JP-Aktien, FX-/Futures-Orderbuch, Krypto, nichtfinanzielle Daten.
+Wind WanDe MCP Data Bridge-Skill (v1.1.0, 6 Server / 19 Tools). Routen nach „Servertyp“: (1) „Kurs“-Marktdaten (A-Aktien-/HK-Aktien-Snapshots, tägliche/wöchentliche/monatliche K-Linien, Minutendaten); (2) Fondsdaten „fund_data“ (Profil/Finanzen/Bestände/Leistung/Aktionäre/Unternehmen); (3) „stock_data“-Bestandstiefe (Profil/finanzielle Grundlagen/Kapitalstruktur/Ereignisse/technische Indikatoren/Risiko); (4) „financial_docs“-Dokument RAG (Ankündigungen/Finanznachrichten); (5) „economic_data“ EDB-Makro- und Branchen-Wirtschaftsindikatoren; (6) `analytics_data` allgemeine NL → Winddaten. Erfordert WIND_API_KEY (im Entwicklercenter unter aimarket.wind.com.cn erhältlich). Auslöseszenarien: A-Aktien/HK-Aktiencodes/K-Linien/Minutendaten, jede Fondsdimension, Aktienfinanzberichte/-bewertung, börsennotierte Unternehmensankündigungen/Finanznachrichten, makroökonomische Daten, Cross-Ticker-Vergleich. **Ausgeschlossen**: US-amerikanische/europäische/japanische Aktien, Devisen-/Futures-Orderbuch, Kryptowährung, nichtfinanzielle Daten.

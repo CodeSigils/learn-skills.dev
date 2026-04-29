@@ -1,4 +1,5 @@
-Compétence de gestion des connaissances basée sur des modèles Karpathy LLM Wiki. Prend en charge les projets de code et les notes Obsidian.  
-Lit les sources brutes (code/docs) et construit/maintient une base de connaissances incrémentielle dans docs/wiki/.  
-Déclenché par des mots-clés : "wiki", "위키", "ingest", "인제스트", "wiki check", "wiki lint", "wiki update", "document it for me", "explain the architecture", "comment ça marche ?".  
-S'intègre aux outils de recherche qmd pour enregistrer les jetons et offrir une précision de recherche élevée.
+Compétence de gestion des connaissances basée sur des modèles Karpathy LLM Wiki. Prend en charge les projets de code et les notes Obsidian.
+Lit les sources brutes (code/docs) pour créer et maintenir une base de connaissances cumulative dans docs/wiki/.
+Déclenché par des mots-clés : "wiki", "위키", "ingest", "인제스트", "wiki check", "wiki lint", "wiki update",
+"documentez-le moi", "expliquez l'architecture", "comment ça marche ?"
+S'intègre à l'outil de recherche qmd pour des économies de jetons + une précision de recherche élevée.

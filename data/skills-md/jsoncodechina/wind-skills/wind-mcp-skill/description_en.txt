@@ -1,12 +1,1 @@
-Wind MCP Data Bridge skill (v1.1.0, 6 servers / 19 tools). Routed by `server_type`:  
-(1) `quote` market data (A-shares / HK snapshots, daily / weekly / monthly K-lines, minute bars);  
-(2) `fund_data` fund info (profiles / financials / holdings / performance / shareholders / companies);  
-(3) `stock_data` deep equity (profiles / fundamentals / capital structure / events / technical indicators / risk);  
-(4) `financial_docs` document RAG (announcements / financial news);  
-(5) `economic_data` EDB macro + sector indicators;  
-(6) `analytics_data` generic NL → Wind data.  
-
-Requires WIND_API_KEY (get it at aimarket.wind.com.cn dev center).  
-Use cases: A/H share codes / K-lines / minute bars, any fund dimension, stock reports / valuation, listed-company filings / news, macro data, cross-asset comparison.  
-
-**Excludes**: US / EU / JP stocks, FX / futures order book, crypto, non-financial data.
+Wind WanDe MCP Data Bridge skill (v1.1.0, 6 servers / 19 tools). Routes by `server_type`: (1) `quote` market data (A-share/HK stock snapshots, daily/weekly/monthly K-lines, minute data); (2) `fund_data` fund data (profile/financials/holdings/performance/shareholders/company); (3) `stock_data` stock depth (profile/financial fundamentals/capital structure/events/technical indicators/risk); (4) `financial_docs` document RAG (announcements/financial news); (5) `economic_data` EDB macro + industry economic indicators; (6) `analytics_data` general NL → Wind data. Requires WIND_API_KEY (obtain from developer center at aimarket.wind.com.cn). Trigger scenarios: A-share/HK stock codes/K-lines/minute data, any fund dimension, stock financial reports/valuation, listed company announcements/financial news, macroeconomic data, cross-ticker comparison. **Excludes**: US/European/Japanese stocks, FX/futures order book, cryptocurrency, non-financial data.
