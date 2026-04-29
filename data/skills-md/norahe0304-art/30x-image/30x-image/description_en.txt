@@ -1,0 +1,10 @@
+Generate on-brand marketing images via Codex's built-in image_generation tool.
+Trigger when user asks to: (a) create marketing assets (ad / logo / slide /
+product-mockup / scene / lighting-transform / LinkedIn-or-social carousel)
+for a specific brand, (b) extract
+or build a brand profile (DESIGN.md) from URL / Tailwind config / tokens.json /
+Figma Variables / CSS custom props / description / existing brand asset, (c)
+maintain on-brand consistency across multiple image jobs for the same brand.
+Do NOT trigger for: UI code generation, frontend reference imagery (use
+imagegen-frontend-web instead), video generation, or general image editing
+without brand context.

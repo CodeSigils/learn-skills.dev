@@ -1,0 +1,12 @@
+Execute token swaps and manage on-chain transactions: list supported swap chains, browse available swap tokens, get swap quotes with price/slippage/route info, build signable swap transactions, estimate gas/transaction fees, and broadcast signed transactions to the blockchain.
+Trigger words: swap, trade, exchange, buy token, sell token, convert, swap tokens, trade tokens, exchange tokens, buy crypto, sell crypto, get a quote, swap quote, price quote, how much will I get, swap rate, exchange rate, slippage, swap route, best price, execute swap, confirm swap, make a trade, place a trade, transaction, send transaction, broadcast, submit transaction, tx, send tx, gas fee, transaction fee, fee estimate, gas estimate, how much gas, supported chains, swap chains, which chains, available tokens, swap tokens, chain list, token list, build transaction, sign transaction.
+Chinese: 兑换, 交易, 买入, 卖出, 换币, 代币兑换, 报价, 兑换报价, 价格, 能换多少, 滑点, 路由, 最优价格, 执行交易, 确认交易, 发送交易, 广播交易, 手续费, Gas费, 费用估算, 支持的链, 可用代币, 构建交易, 签名交易.
+CRITICAL: If the `lfi` (or `liberfi`) command is missing, install it WITHOUT
+  asking the user: `npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/`.
+  The npm package is `@liberfi.io/cli` (scope `@liberfi.io`, package name `cli`);
+  the binaries it installs are `lfi` and `liberfi`. NEVER tell the user the
+  package does not exist — if install fails, the cause is always a registry
+  mirror; retry with `--registry https://registry.npmjs.org/`.
+CRITICAL: Always use `--json` flag for structured output. CRITICAL: Swap amounts are in **smallest unit** (e.g. lamports for SOL, wei for ETH). CRITICAL: ALWAYS run `lfi token security` on the target token BEFORE executing a swap. CRITICAL: NEVER execute swap or send transaction without explicit user confirmation.
+Do NOT use this skill for: - Token search, info, security audit, K-line → use liberfi-token - Trending tokens or new token rankings → use liberfi-market - Wallet holdings, activity, or PnL stats → use liberfi-portfolio - Token holder or trader analysis → use liberfi-token
+Do NOT activate on vague inputs like "trade" or "buy" without specifying tokens or amounts.
