@@ -1,0 +1,1 @@
+透過 OpenAI GPT Image 2 (`gpt-image-2`) 進行通用影像產生和參考影像編輯。包裝 OpenAI 手冊中的兩個官方端點 - 用於文字到圖像的“/v1/images/ Generations”和用於參考圖像編輯（包括 alpha 通道蒙版）的“/v1/images/edits”。當代理程式或使用者需要 (a) 根據文字提示產生圖像、(b) 使用參考圖像重新設計或轉換圖像、(c) 組合多個參考圖像、(d) 使用 PNG 蒙版修復區域或 (e) 渲染密集的版式/中文文本時，請使用。從環境中讀取“OPENAI_API_KEY”；將 PNG/JPEG/WebP 寫入磁碟。 「references/」下的可選比例參考，用於完整的提示圖庫圖集、橫切提示流程和官方 OpenAI 參數指南。
