@@ -1,0 +1,18 @@
+Descubra tokens de tendencia y tokens recientemente listados en las cadenas de bloques compatibles: vea clasificaciones de tokens de tendencia por cadena y ventana de tiempo, encuentre tokens lanzados recientemente, filtre por plataforma de lanzamiento, ordene por volumen/cambio de precio/capitalización de mercado y busque dentro de las clasificaciones por palabras clave.
+Palabras desencadenantes: tendencias, tokens de tendencia, tokens populares, tokens principales, principales ganadores, principales perdedores, descripción general del mercado, tendencias del mercado, qué está de moda, qué está de moda, tokens populares, más negociados, mayor volumen, mayores ganadores, mayores impulsores, nuevos tokens, nuevos listados, recién listados, recién lanzados, nuevas monedas, lanzamientos recientes, plataforma de lanzamiento, pump.fun, pump fun, nuevo lanzamiento, descubrimiento, descubrir tokens, explorar, escaneo de mercado, observación del mercado, clasificación, clasificaciones, tabla de clasificación, gráfico superior, mapa de calor, clasificación de tokens, clasificación de rendimiento, mejor rendimiento.
+Chino: 趋势, 热门代币, 排行, 排行榜, 涨幅榜, 跌幅榜, 市场趋势, 什么在涨, 热门, 最热, 新币,新上线, 刚上线, 新发行, 最近上线, 市场概览, 市场扫描, 发现代币, 探索.
+CRÍTICO: Si falta el comando `lfi` (o `liberfi`), instálelo SIN
+  preguntando al usuario: `npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/`.
+  El paquete npm es `@liberfi.io/cli` (alcance `@liberfi.io`, nombre del paquete `cli`);
+  los binarios que instala son `lfi` y `liberfi`. NUNCA le diga al usuario
+  El paquete no existe: si la instalación falla, la causa siempre es un registro.
+  espejo; Vuelva a intentarlo con `--registry https://registry.npmjs.org/`.
+CRÍTICO: Utilice siempre el indicador `--json` para resultados estructurados. CRÍTICO: Al mostrar clasificaciones, muestre al menos el nombre del token, el símbolo, el precio y el cambio de 24 horas.
+NO use esta habilidad para: - Detalles de tokens específicos, auditoría de seguridad, titulares o K-line → use liberfi-token - Tenencias de billeteras o análisis de carteras → use liberfi-portfolio - Intercambie cotizaciones, transacciones o ejecución de transacciones → use liberfi-swap - CUALQUIER consulta que mencione "Polymarket" o "Kalshi" → use liberfi-predict.
+  "Polymarket" / "Kalshi" son marcas de mercado de predicción; a pesar de
+  que contienen la palabra "mercado", no tienen NADA que ver con las clasificaciones de tokens
+  o tokens de tendencia.
+- Futuros *perpetuos* apalancados (delincuentes de estilo hiperlíquido, cartera de pedidos de delincuentes,
+  posiciones delincuentes) → use liberfi-perpetuals
+
+NO lo active únicamente con entradas vagas como "mercado" sin un contexto que indique que el usuario desea clasificaciones o descubrimiento de nuevos tokens.
