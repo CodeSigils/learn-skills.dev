@@ -1,0 +1,1 @@
+Update the Scientia WiFi IP whitelist in Jenkins. Captures the current public IP before VPN, connects OpenVPN, then triggers the Jenkins `change-ip-wifi-scientia` job with the captured IP. Use when your WiFi IP has changed and you need to regain Scientia access.
