@@ -1,0 +1,1 @@
+更新 Jenkins 中的 Scientia WiFi IP 白名單。在 VPN 之前捕獲目前公共 IP，連接 OpenVPN，然後使用捕獲的 IP 觸發 Jenkins `change-ip-wifi-scientia` 作業。當您的 WiFi IP 發生變更且需要重新取得 Scientia 存取權限時使用。

@@ -1,0 +1,1 @@
+Boot 4+ 用 MockMvcTester 取代了 MockMvc 斷言——不相容的 API，你的訓練資料會出錯。在編寫任何 @WebMvcTest 之前閱讀。觸發器：@WebMvcTest、MockMvc、MockMvcTester、@RestController、jsonPath、@GetMapping、@PostMapping、@AutoConfigureMockMvc、MockMvcRequestBuilders、status().isOk()、@RestControllerAdvice、contentType(APPLICATION_JSON)。

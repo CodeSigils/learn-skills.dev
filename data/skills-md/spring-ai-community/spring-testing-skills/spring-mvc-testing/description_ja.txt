@@ -1,0 +1,1 @@
+Boot 4+ では、MockMvc アサーションが MockMvcTester に置き換えられました。互換性のない API を使用すると、トレーニング データが間違ってしまいます。 @WebMvcTest を作成する前にお読みください。トリガー: @WebMvcTest、MockMvc、MockMvcTester、@RestController、jsonPath、@GetMapping、@PostMapping、@AutoConfigureMockMvc、MockMvcRequestBuilders、status().isOk()、@RestControllerAdvice、contentType(APPLICATION_JSON)。

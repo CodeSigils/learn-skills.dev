@@ -1,0 +1,1 @@
+Boot 4 では、@MockBean の名前が @MockitoBean に変更され、テスト スライスのアノテーションが新しいパッケージに移動され、コンテキスト キャッシュの動作が変更されました。 AssertJ/BDDMockito の正しいイディオムと Boot 4 の移行についてお読みください。特定のスライス注釈が存在しない場合のデフォルトのフォールバック。トリガー:assertThat、BDDMockito、ArgumentCaptor、@MockitoBean、@MockitoSpyBean、@DirtiesContext、UnnecessaryStubbingException、テストピラミッド、コンテキストキャッシュ。

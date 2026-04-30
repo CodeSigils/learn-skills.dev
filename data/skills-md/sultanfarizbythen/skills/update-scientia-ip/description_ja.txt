@@ -1,0 +1,1 @@
+Jenkins で Scientia WiFi IP ホワイトリストを更新します。 VPN の前に現在のパブリック IP を取得し、OpenVPN に接続し、取得した IP を使用して Jenkins の「change-ip-wifi-scientia」ジョブをトリガーします。 WiFi IP が変更され、Scientia へのアクセスを取り戻す必要がある場合に使用します。

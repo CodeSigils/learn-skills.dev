@@ -1,0 +1,17 @@
+Erstellen Sie einen dauerhaften HeyGen-Avatar – eine wiederverwendbare Gesichts- und Sprachidentität für den Agenten.
+der Benutzer oder ein beliebiger benannter Charakter – unterstützt durch die HeyGen Avatar V-Technologie.
+Standardmäßig auf Eingabeaufforderungen basierende Erstellung (Beschreibung → HeyGen erstellt es); Foto-Upload ist
+optional für digitale Zwillinge realer Personen.
+Verwenden Sie es, wenn: (1) dem Agenten ein Gesicht und eine Stimme gegeben werden, damit er Videos präsentieren kann
+(„Erwecke dich zum Leben“, „Erstelle deinen Avatar“, „Gib dir einen Avatar“,
+„Entwerfen Sie einen Moderator“, „richten Sie einen Avatar ein“, „Lassen Sie uns einen Avatar erstellen“),
+(2) Der Nutzer möchte in Videos als er selbst erscheinen („Meinen Avatar erstellen“,
+„Ich möchte mein Gesicht in einem Video“, „Digitaler Zwilling von mir“, „Baue mir einen Avatar“),
+(3) Erstellen eines benannten Charakterpräsentators („Erstelle einen Avatar namens Cleo“,
+„Entwerfen Sie einen Charakter namens X“), (4) Etablierung der HeyGen-Identität vor dem Erstellen von Videos –
+der richtige ERSTE Schritt, wenn noch kein Avatar existiert.
+Kettensignal: Wenn der Benutzer gleichzeitig eine Identitäts-/Avatar-Aktion UND eine Video-Aktion ausführt
+Anfrage („einen Avatar erstellen UND ein Video erstellen“, „Identität einrichten und dann ein Video erstellen“,
+„Entwerfen Sie einen Moderator UND nehmen Sie sofort auf“), führen Sie zuerst heygen-avatar und dann heygen-video aus.
+Gibt avatar_id + voice_id zurück – direkt an heygen-video übergeben, um HeyGen-Videos zu erstellen.
+NICHT für: das Generieren von Videos (verwenden Sie heygen-video), das Übersetzen von Videos oder reine TTS-Aufgaben.

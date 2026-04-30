@@ -1,0 +1,1 @@
+В Boot 4+ утверждения MockMvc заменены на MockMvcTester — несовместимый API, ваши данные обучения ошибочны. Прочтите, прежде чем писать @WebMvcTest. Триггеры: @WebMvcTest, MockMvc, MockMvcTester, @RestController, jsonPath, @GetMapping, @PostMapping, @AutoConfigureMockMvc, MockMvcRequestBuilders, status().isOk(), @RestControllerAdvice, contentType(APPLICATION_JSON).

@@ -1,0 +1,1 @@
+부팅 4에서는 @MockBean을 @MockitoBean으로 이름을 바꾸고 테스트 슬라이스 주석을 새 패키지로 이동했으며 컨텍스트 캐싱 동작을 변경했습니다. 올바른 AssertJ/BDDMockito 관용구 및 Boot 4 마이그레이션을 읽어보세요. 특정 슬라이스 주석이 없을 때의 기본 대체입니다. 트리거:assertThat, BDDMockito, ArgumentCaptor, @MockitoBean, @MockitoSpyBean, @DirtiesContext, UnnecessaryStubbingException, 테스트 피라미드, 컨텍스트 캐시.

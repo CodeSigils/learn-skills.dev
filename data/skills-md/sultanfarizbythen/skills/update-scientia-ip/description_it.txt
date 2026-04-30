@@ -1,0 +1,1 @@
+Aggiorna la whitelist degli IP WiFi Scientia in Jenkins. Cattura l'IP pubblico corrente prima della VPN, connette OpenVPN, quindi attiva il processo "change-ip-wifi-scientia" di Jenkins con l'IP catturato. Da utilizzare quando il tuo IP WiFi è cambiato e devi riottenere l'accesso a Scientia.

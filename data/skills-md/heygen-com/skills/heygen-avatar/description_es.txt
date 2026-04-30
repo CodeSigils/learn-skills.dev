@@ -1,0 +1,17 @@
+Cree un avatar HeyGen persistente: una identidad facial y de voz reutilizable para el agente.
+el usuario, o cualquier personaje con nombre, impulsado por la tecnología HeyGen Avatar V.
+Creación basada en mensajes de forma predeterminada (descripción → HeyGen lo construye); la carga de fotos es
+Opcional para gemelos digitales reales.
+Úselo cuando: (1) le dé al agente una cara + voz para que pueda presentar videos
+("date vida", "crea tu avatar", "date un avatar",
+"diseñar un presentador", "configurar un avatar", "hagamos un avatar"),
+(2) el usuario quiere aparecer en vídeos como él mismo ("crear mi avatar",
+"Quiero mi cara en un vídeo", "gemelo digital mío", "constrúyeme un avatar"),
+(3) crear un personaje presentador con nombre ("crea un avatar llamado Cleo",
+"diseñar un personaje llamado X"), (4) establecer la identidad de HeyGen antes de hacer videos -
+el PRIMER paso correcto cuando aún no existe ningún avatar.
+Señal en cadena: cuando el usuario dice una acción de identidad/avatar Y una acción de video en la misma
+solicitud ("crea un avatar Y haz un video", "configura la identidad LUEGO crea un video",
+"diseñar un presentador Y grabar inmediatamente"), ejecute primero heygen-avatar y luego heygen-video.
+Devuelve avatar_id + voice_id: pasa directamente a heygen-video para crear videos de HeyGen.
+NO para: generar videos (use heygen-video), traducir videos o tareas solo TTS.

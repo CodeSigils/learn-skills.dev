@@ -1,0 +1,1 @@
+@DataJpaTest는 어설션 전에 TestEntityManager + 플러시()/clear()가 필요합니다. 이것이 없으면 테스트는 Hibernate L1 캐시에서 읽고 거짓으로 통과합니다. JPA 테스트를 작성하기 전에 읽어보세요. 트리거: @DataJpaTest, JpaRepository, TestEntityManager, @ServiceConnection, Testcontainers, @Modifying, Hibernate 6/7, @AutoConfigureTestDatabase, 테스트에서 플러시 및 지우기, 테스트에서 @Transactional, jakarta.persistence.EntityManager.

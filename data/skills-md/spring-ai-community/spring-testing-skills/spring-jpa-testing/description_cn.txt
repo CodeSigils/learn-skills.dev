@@ -1,0 +1,1 @@
+@DataJpaTest 需要 TestEntityManager +lush()/clear() 在断言之前 - 如果没有这个，测试会从 Hibernate L1 缓存读取并错误地通过。在编写任何 JPA 测试之前请先阅读。触发器：@DataJpaTest、JpaRepository、TestEntityManager、@ServiceConnection、Testcontainers、@Modifying、Hibernate 6/7、@AutoConfigureTestDatabase、测试中的刷新和清除、测试中的@Transactional、jakarta.persistence.EntityManager。

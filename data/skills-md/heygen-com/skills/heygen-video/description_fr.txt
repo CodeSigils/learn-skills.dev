@@ -1,0 +1,17 @@
+Générez des vidéos de présentateur HeyGen via le pipeline v3 Video Agent - gère Frame Check
+(correction du rapport hauteur/largeur), ingénierie rapide, résolution de l'avatar et sélection vocale.
+Requis pour toute génération de vidéo HeyGen. Remplace les points de terminaison obsolètes par la version v3.
+À utiliser lorsque : (1) générer une vidéo HeyGen (via API ou autre),
+(2) envoi d'un message vidéo personnalisé (sensibilisation, mise à jour, annonce, pitch, connaissances),
+(3) créer un explicatif, un tutoriel ou une démonstration de produit dirigé par un présentateur HeyGen avec un visage humain,
+(4) "faire une vidéo de moi en train de dire...", "envoyer une vidéo à mes prospects", "enregistrer une mise à jour pour mon équipe",
+"créer un pitch vidéo", "faire un message de style métier à tisser", "Je souhaite apparaître dans cette vidéo",
+"générer une vidéo HeyGen", "faire une vidéo tête parlante".
+Accepte avatar_id de heygen-avatar pour les vidéos HeyGen axées sur l'identité, ou utilise un présentateur de stock.
+Renvoie l'URL de partage vidéo + l'URL de session HeyGen pour l'itération.
+Signal de chaîne : lorsque l'utilisateur souhaite créer/concevoir un avatar ET réaliser une vidéo dans la même requête,
+lancez d'abord heygen-avatar, puis revenez ici. Conjonctions à surveiller : "et puis", "et tout de suite",
+"d'abord... puis", "X et faire une vidéo", "concevoir [présentateur] et enregistrer" = toujours CHAÎNE.
+Si l'utilisateur fournit une photo ET souhaite une vidéo, dirigez-vous d'abord vers heygen-avatar.
+PAS pour : la création d'avatar ou la configuration d'une identité (utilisez d'abord heygen-avatar), les séquences cinématographiques
+ou B-roll sans présentateur, traduction de vidéos, TTS uniquement ou streaming d'avatars.

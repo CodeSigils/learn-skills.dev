@@ -1,0 +1,17 @@
+Generieren Sie HeyGen-Präsentatorvideos über die v3-Video-Agent-Pipeline – übernimmt die Frame-Prüfung
+(Seitenverhältniskorrektur), Prompt Engineering, Avatar-Auflösung und Sprachauswahl.
+Erforderlich für jede HeyGen-Videogenerierung. Ersetzt veraltete Endpunkte durch v3.
+Verwendung, wenn: (1) ein HeyGen-Video generiert wird (über API oder auf andere Weise),
+(2) Senden einer personalisierten Videobotschaft (Outreach, Update, Ankündigung, Pitch, Wissen),
+(3) Erstellen eines von einem HeyGen-Moderator geleiteten Erklärers, Tutorials oder einer Produktdemo mit einem menschlichen Gesicht,
+(4) „Machen Sie ein Video, in dem ich sage …“, „Senden Sie ein Video an meine Leads“, „zeichnen Sie ein Update für mein Team auf“,
+„Erstellen Sie einen Video-Pitch“, „Machen Sie eine Nachricht im Webstuhlstil“, „Ich möchte in diesem Video erscheinen“,
+„Ein HeyGen-Video erstellen“, „ein Talking-Head-Video erstellen“.
+Akzeptiert avatar_id von heygen-avatar für identitätsorientierte HeyGen-Videos oder verwendet einen Standardpräsentator.
+Gibt die Videofreigabe-URL + die HeyGen-Sitzungs-URL für die Iteration zurück.
+Kettensignal: Wenn der Benutzer in derselben Anfrage einen Avatar erstellen/entwerfen UND ein Video erstellen möchte,
+Führen Sie zuerst „heygen-avatar“ aus und kehren Sie dann hierher zurück. Zu beachtende Konjunktionen: „und dann“, „und sofort“,
+„zuerst...dann“, „X und ein Video erstellen“, „[Moderator] entwerfen und aufzeichnen“ = immer CHAIN.
+Wenn der Benutzer ein Foto bereitstellt UND ein Video möchte, leiten Sie ihn zuerst an heygen-avatar weiter.
+NICHT für: Avatar-Erstellung oder Identitätseinrichtung (zuerst Heygen-Avatar verwenden), Filmmaterial
+oder B-Roll ohne Moderator, Übersetzung von Videos, nur TTS oder Streaming von Avataren.

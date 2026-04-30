@@ -1,0 +1,1 @@
+Boot 4 将 @MockBean 重命名为 @MockitoBean，将测试切片注释移至新包，并更改了上下文缓存行为。阅读正确的 AssertJ/BDDMockito 习惯用法和 Boot 4 迁移。当不存在特定切片注释时的默认回退。触发器：assertThat、BDDMockito、ArgumentCaptor、@MockitoBean、@MockitoSpyBean、@DirtiesContext、UnnecessaryStubbingException、测试金字塔、上下文缓存。
