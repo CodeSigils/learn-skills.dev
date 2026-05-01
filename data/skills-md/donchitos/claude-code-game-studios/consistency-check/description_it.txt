@@ -1,0 +1,1 @@
+Esegui la scansione di tutti i GDD rispetto al registro delle entità per rilevare incoerenze tra documenti: stessa entità con statistiche diverse, stesso elemento con valori diversi, stessa formula con variabili diverse. Approccio Grep-first: legge il registro, quindi prende di mira solo le sezioni GDD in conflitto anziché le letture complete del documento.

@@ -1,0 +1,1 @@
+通过 `tau Push` 推送 Taubyte 项目更改 — `tau Push project [--config-only|--code-only]`、`tau Push website <name>` 和 `tau Push Library <name>` — 规则是，当设置 `--defaults` 时需要 `--message`，以及资源相关更改的 Push-config-before-code 排序。还解释了“tau pull”“已经是最新的”非零退出怪癖。通过“tau”（而不是原始的“git Push”）将本地更改推送到 GitHub 时，或者在编辑后触发远程云 Webhooks/Dream 注入时使用。
