@@ -1,0 +1,4 @@
+GPU ベンダーを自動的に検出し、適切な PyTorch コンテナー イメージを見つけます。
+正しいマウントで起動し、GPU 機能を検証します。 NVIDIAをサポート、
+Ascend、Metax、Iluvatar、AMD/ROCm。ユーザーが「コンテナのセットアップ」と言うときに使用します。
+「pytorch コンテナを開始」、または /gpu-container-setup を呼び出します。
