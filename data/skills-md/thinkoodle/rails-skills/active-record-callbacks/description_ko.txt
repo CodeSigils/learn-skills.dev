@@ -1,0 +1,1 @@
+Active Record 콜백에 대한 전문가 지침 - 수명 주기 후크, 순서 지정, 조건부 실행, 트랜잭션 콜백 및 중지. 콜백을 사용하지 말아야 할 경우에 대해 매우 의견이 높습니다. 콜백, before_save, after_create, after_commit, 수명 주기 후크, before_validation, around_save, after_update, before_destroy로 작업할 때 또는 로직이 콜백과 서비스 객체에 속하는지 여부를 결정할 때 사용합니다.

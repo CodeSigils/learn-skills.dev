@@ -1,0 +1,1 @@
+특정 작업을 구현해야 하는 CLI 작업자(Claude, OpenCode 또는 Gemini)를 결정합니다. 작업 유형별 경로 — 대규모 컨텍스트는 Gemini로, 기계적은 OpenCode로, 판단은 Claude로. 선택한 작업자와 간단한 근거를 반환합니다. 호출자는 오케스트레이터의 Invoke-worker.sh 초크포인트를 통해 작업자를 호출합니다.
