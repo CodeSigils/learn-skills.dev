@@ -1,0 +1,1 @@
+決定哪個 CLI 工作執行緒（Claude、OpenCode 或 Gemini）應該執行給定的任務。按任務類型劃分的路線 — Gemini 的大上下文、OpenCode 的機械、Claude 的判斷。返回所選工人和簡短的理由；呼叫者透過協調器的invoke-worker.sh 阻塞點呼叫worker。

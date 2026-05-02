@@ -1,0 +1,8 @@
+執行「gbrain Skillpack-check」以產生代理可讀的 JSON 運行狀況報告
+用於 gbrain 安裝。包裝 `gbrain doctor` + `gbrain apply-migrations
+--list` 所以一個主機代理程式（你的 OpenClaw 的早晨簡報，任何 OpenClaw cron）
+一眼就能看出技能包是否需要注意。
+
+當使用者詢問「gbrain 健康嗎？」時使用，當 cron 早上觸發時使用
+檢查，或在出現問題時主動檢查（作業未運作、大腦
+不更新，自動駕駛儀靜音）。

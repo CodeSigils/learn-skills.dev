@@ -1,0 +1,1 @@
+OpenFinance 後端的身份驗證檢查 — 在任何其他 OpenFinance 技能運行之前確認 API 金鑰可用。每當使用者要呼叫任何 /agent/* 路線（Polymarket、Hyperliquid、Relay）、撥打 401/412 或尚未在此會話中進行交易時，請使用 FIRST。在「如何開始」、「需要 API 金鑰」、「無效 API 金鑰」、「來自 /agent/* 的 401/412」、「設定 OpenFinance」或任何首次呼叫交易技能時觸發。解析來自「OPENFINANCE_API_KEY」（或等效的 env / 使用者提供的值）的金鑰，確認格式（「open_…」），透過 GET /agent/wallets 進行驗證，否則將使用者指向 https://openfinance.tech 來頒發金鑰。

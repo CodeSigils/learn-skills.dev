@@ -1,0 +1,4 @@
+自動偵測GPU供應商，找到合適的PyTorch容器鏡像，
+使用正確的安裝啟動，並驗證 GPU 功能。支持英偉達，
+Ascend、Metax、Iluvatar 和 AMD/ROCm。當使用者說「設定容器」時使用，
+“啟動 pytorch 容器”，或呼叫 /gpu-container-setup。

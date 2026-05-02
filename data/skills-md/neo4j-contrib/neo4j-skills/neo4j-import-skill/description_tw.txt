@@ -1,0 +1,1 @@
+將結構化資料匯入 Neo4j — 載入 CSV、呼叫交易、neo4j-admin 資料庫完整匯入（離線批次）、apoc.load.csv/json、apoc.periodic.iterate、驅動程式批次寫入。涵蓋方法選擇、頭檔格式、類型強制、空處理、ON ERROR 模式、並發事務、匯入前約束設定和匯入後驗證。在匯入 CSV/JSON/Parquet 檔案、將關聯式資料移轉到圖表或批次載入大型資料集時使用。不處理非結構化文件/PDF/向量分塊管道 - 使用 neo4j-document-import-skill。不處理即時應用程式寫入模式（合併/創建）－使用 neo4j-cypher-skill。不處理 neo4j-admin 備份/恢復/設定 — 使用 neo4j-cli-tools-skill。

@@ -1,0 +1,1 @@
+涵蓋 Neo4j Go 驅動程式 v6 — 驅動程式生命週期、ExecuteQuery、託管和明確交易、會話配置、錯誤處理、資料類型對應和連線調整。在編寫連接到 Neo4j 的 Go 程式碼、設定 NewDriver 或 ExecuteQuery、偵錯會話/交易/結果處理或使用 neo4j-go-driver v5→v6 遷移時使用。在 NewDriver、ExecuteQuery、SessionConfig、ManagedTransaction、neo4j-go-driver 上觸發。不處理 Cypher 查詢創作 - 使用 neo4j-cypher-skill。不涵蓋驅動程式版本遷移步驟 - 使用 neo4j-migration-skill。

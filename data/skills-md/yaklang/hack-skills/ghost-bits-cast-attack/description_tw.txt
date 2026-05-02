@@ -1,0 +1,1 @@
+Java「Ghost Bits」/Cast Attack 劇本（Black Hat Asia 2026）。在攻擊 Java 服務時使用，其中 16 位元字元被靜默縮小為 8 位元位元組，以繞過 WAF/IDS 進行 SQL 注入、反序列化 RCE、檔案上傳 (Webshel​​l)、路徑遍歷、CRLF 注入、請求走私和 SMTP 注入。影響 Tomcat、Spring、Jetty、Undertow、Vert.x、Jackson、Fastjson、Apache Commons BCEL、Apache HttpClient、Angus Mail、JDK HttpServer、Lettuce、Jodd、XMLWriter，並透過 WAF 重新啟用許多「修補」CVE。
