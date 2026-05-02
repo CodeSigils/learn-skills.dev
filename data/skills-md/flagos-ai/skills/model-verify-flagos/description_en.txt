@@ -1,0 +1,3 @@
+Verify the serving stack with a user-specified target model. Runs twice: first with
+FlagGems/FlagCX disabled (isolate model-specific errors), then with full multi-chip
+stack enabled. Diffs the two runs to pinpoint which layer caused any failure.

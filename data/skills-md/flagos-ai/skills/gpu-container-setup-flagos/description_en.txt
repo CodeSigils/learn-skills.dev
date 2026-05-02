@@ -1,0 +1,4 @@
+Automatically detect GPU vendor, find appropriate PyTorch container image,
+launch with correct mounts, and validate GPU functionality. Supports NVIDIA,
+Ascend, Metax, Iluvatar, and AMD/ROCm. Use when user says "setup container",
+"start pytorch container", or invokes /gpu-container-setup.

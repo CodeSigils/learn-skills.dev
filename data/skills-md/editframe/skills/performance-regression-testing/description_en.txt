@@ -1,0 +1,1 @@
+Guard serialization and canvas-render pipeline performance against regressions. Use when modifying serializeTimelineDirect.ts or any hot path in the foreignObject/native render pipeline to ensure changes don't increase p95 frame-capture time.

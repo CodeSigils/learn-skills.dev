@@ -1,0 +1,4 @@
+Validate and auto-repair YAML frontmatter on brain pages. Catches malformed
+pages before they enter the brain (missing closing ---, nested quotes, slug
+mismatches, null bytes, empty frontmatter, YAML parse failures). Wraps the
+`gbrain frontmatter` CLI for agent-driven workflows.

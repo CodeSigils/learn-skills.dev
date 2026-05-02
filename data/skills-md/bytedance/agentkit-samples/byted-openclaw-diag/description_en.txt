@@ -1,0 +1,1 @@
+OpenClaw 系统诊断和性能分析工具。分析 agent 推理耗时、Token 用量、工具调用统计、 Run 时间线、Gateway 重启历史。支持多种模式：批量分析（默认）、实时跟踪（-f）、 摘要统计（-s）、高级诊断（--advanced）。支持多 Agent 过滤。 使用场景：当用户询问 OpenClaw 运行状态、性能瓶颈、推理延迟、Token 消耗、 工具执行统计、错误排查、agent 活动分析时触发。 触发词：诊断、diagnostics、性能分析、推理耗时、token统计、运行状态、 agent分析、工具调用统计、Run详情、Gateway重启。 指令触发：/diag — 直接执行诊断，支持参数透传。

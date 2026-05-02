@@ -1,0 +1,1 @@
+Drive the Codex review cycle on an open PR. Polls Codex comments, classifies severity (P0/P1 blocking, P2/nit ignored), applies fixes via subagent or escalates to a different worker on round 3, labels needs-human and stops on round 4. In Phase 1 stops at "ready to merge"; Phase 2 will auto-merge.

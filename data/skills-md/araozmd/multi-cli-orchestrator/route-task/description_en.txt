@@ -1,0 +1,1 @@
+Decide which CLI worker (Claude, OpenCode, or Gemini) should implement a given task. Routes by task type — large-context to Gemini, mechanical to OpenCode, judgment to Claude. Returns the chosen worker and a short rationale; the caller invokes the worker via the orchestrator's invoke-worker.sh chokepoint.

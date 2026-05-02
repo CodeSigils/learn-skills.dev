@@ -1,0 +1,1 @@
+Keil MDK 工程构建工具，用于扫描 .uvprojx/.uvmpw 工程、枚举 Target、执行 build/rebuild/clean 并解析构建日志，返回可供 jlink/openocd 复用的产物路径。 flash 子命令仅作为兼容入口保留。当用户提到 Keil、MDK、uVision、UV4、 Target 枚举、编译、重建、清理、烧录、下载固件、flash 时自动触发，也兼容 /keil 显式调用。 即使用户只是说"编译一下"或"烧录到板子上"，只要上下文涉及嵌入式 Keil 工程就应触发此 skill。
