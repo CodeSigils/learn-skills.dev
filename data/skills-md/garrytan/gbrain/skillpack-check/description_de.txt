@@ -1,0 +1,8 @@
+Führen Sie „gbrain skillspack-check“ aus, um einen für Agenten lesbaren JSON-Zustandsbericht zu erstellen
+für die GBrain-Installation. Umschließt „gbrain doctor“ + „gbrain apply-migrations“.
+--list` also ein Host-Agent (Ihr OpenClaw-Morgenbriefing, ein beliebiger OpenClaw-Cron)
+Sie können auf einen Blick erkennen, ob das Skillpack Aufmerksamkeit benötigt.
+
+Wird verwendet, wenn der Benutzer fragt „Ist das Gehirn gesund?“, wenn ein Cron einen Morgen auslöst
+Überprüfen oder proaktiv, wenn etwas nicht in Ordnung zu sein scheint (Jobs laufen nicht, Gehirn).
+nicht aktualisiert, Autopilot stumm).

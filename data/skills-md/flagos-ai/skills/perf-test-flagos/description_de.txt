@@ -1,0 +1,4 @@
+Run accuracy benchmarks (FlagEval, when available) and performance benchmarks
+(vllm Bankaufschlag) gegen ein bedientes Modell. Deckt 5 Workload-Profile ab: kurz/lang
+x kurze/lange Dekodierung + hohe Parallelität vorfüllen. Erfasst Durchsatz, Latenz,
+TTFT, TPOT metrics.

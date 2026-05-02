@@ -1,0 +1,1 @@
+Entscheiden Sie, welcher CLI-Worker (Claude, OpenCode oder Gemini) eine bestimmte Aufgabe implementieren soll. Routen nach Aufgabentyp – großer Kontext zu Gemini, mechanisch zu OpenCode, Beurteilung zu Claude. Gibt den ausgewählten Arbeiter und eine kurze Begründung zurück; Der Aufrufer ruft den Worker über den Chokepoint invoke-worker.sh des Orchestrators auf.
