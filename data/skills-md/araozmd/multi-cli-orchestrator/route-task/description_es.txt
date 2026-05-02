@@ -1,0 +1,1 @@
+Decida qué trabajador de CLI (Claude, OpenCode o Gemini) debe implementar una tarea determinada. Rutas por tipo de tarea: contexto grande para Gemini, mecánica para OpenCode, juicio para Claude. Devuelve el trabajador elegido y una breve justificación; la persona que llama invoca al trabajador a través del punto de bloqueo invoke-worker.sh del orquestador.

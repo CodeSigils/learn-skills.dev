@@ -1,0 +1,4 @@
+Ejecute pruebas comparativas de precisión (FlagEval, cuando esté disponible) y pruebas comparativas de rendimiento.
+(servicio de banco vllm) contra un modelo servido. Cubre 5 perfiles de carga de trabajo: corto/largo
+prerrelleno x decodificación corta/larga + alta concurrencia. Recopila rendimiento, latencia,
+Métricas TTFT, TPOT.

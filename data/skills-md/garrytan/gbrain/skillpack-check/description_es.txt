@@ -1,0 +1,8 @@
+Ejecute `gbrain skillspack-check` para producir un informe de estado JSON legible por el agente
+para la instalación de gbrain. Incluye `gbrain doctor` + `gbrain apply-migrations
+--list` para que sea un agente anfitrión (la sesión informativa matutina de OpenClaw, cualquier cron de OpenClaw)
+Puede ver de un vistazo si el paquete de habilidades necesita atención.
+
+Úselo cuando el usuario pregunte "¿gbrain está saludable?", cuando un cron se activa por la mañana
+comprobar, o de forma proactiva cuando algo parece estar mal (trabajos que no se ejecutan, cerebro
+no actualizando, piloto automático silencioso).

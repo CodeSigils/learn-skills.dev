@@ -1,0 +1,1 @@
+Proteja el rendimiento de la canalización de serialización y renderizado de lienzo contra regresiones. Úselo al modificar serializeTimelineDirect.ts o cualquier ruta activa en la canalización de renderizado ForeignObject/native para garantizar que los cambios no aumenten el tiempo de captura de fotogramas de p95.
