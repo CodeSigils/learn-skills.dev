@@ -1,0 +1,1 @@
+Décidez quel travailleur CLI (Claude, OpenCode ou Gemini) doit implémenter une tâche donnée. Itinéraires par type de tâche — grand contexte vers Gemini, mécanique vers OpenCode, jugement vers Claude. Renvoie le travailleur choisi et une brève justification ; l'appelant appelle le travailleur via le point d'étranglement Invoke-worker.sh de l'orchestrateur.

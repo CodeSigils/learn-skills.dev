@@ -1,0 +1,1 @@
+Pilotez le cycle de révision du Codex sur un PR ouvert. Sonde les commentaires du Codex, classe la gravité (blocage P0/P1, P2/nit ignoré), applique des correctifs via un sous-agent ou les transmet à un autre travailleur au tour 3, étiquette les besoins humains et s'arrête au tour 4. Dans la phase 1, s'arrête à « prêt à fusionner » ; La phase 2 fusionnera automatiquement.

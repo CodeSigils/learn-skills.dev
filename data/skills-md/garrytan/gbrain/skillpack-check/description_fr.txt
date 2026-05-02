@@ -1,0 +1,8 @@
+Exécutez `gbrain skillspack-check` pour produire un rapport de santé JSON lisible par l'agent
+for the gbrain install. Enveloppe `gbrain doctor` + `gbrain apply-migrations
+--list` donc un agent hôte (le briefing du matin de votre OpenClaw, n'importe quel cron OpenClaw)
+peut voir en un coup d'œil si le pack de compétences nécessite une attention particulière.
+
+À utiliser lorsque l'utilisateur demande « est-ce que votre cerveau est en bonne santé ? », lorsqu'un cron se déclenche un matin
+vérifier, ou de manière proactive lorsque quelque chose ne semble pas fonctionner (tâches non exécutées, cerveau
+pas de mise à jour, pilote automatique silencieux).

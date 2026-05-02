@@ -1,0 +1,4 @@
+Détecter automatiquement le fournisseur de GPU, trouver l'image du conteneur PyTorch appropriée,
+lancez avec les montages corrects et validez la fonctionnalité GPU. Prend en charge NVIDIA,
+Ascend, Metax, Iluvatar et AMD/ROCm. À utiliser lorsque l'utilisateur dit "conteneur d'installation",
+"démarrez le conteneur pytorch", ou invoque /gpu-container-setup.

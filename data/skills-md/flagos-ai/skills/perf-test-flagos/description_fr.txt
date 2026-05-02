@@ -1,0 +1,4 @@
+Exécuter des tests de précision (FlagEval, si disponible) et des tests de performances
+(service sur banc vllm) contre un modèle servi. Couvre 5 profils de charge de travail : court/long
+pré-remplissage x décodage court/long + simultanéité élevée. Collecte le débit, la latence,
+Métriques TTFT, TPOT.
