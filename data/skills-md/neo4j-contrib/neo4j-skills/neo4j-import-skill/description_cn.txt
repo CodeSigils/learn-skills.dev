@@ -1,0 +1,1 @@
+将结构化数据导入 Neo4j — 加载 CSV、调用事务、neo4j-admin 数据库完整导入（离线批量）、apoc.load.csv/json、apoc.periodic.iterate、驱动程序批量写入。涵盖方法选择、头文件格式、类型强制、空处理、ON ERROR 模式、并发事务、导入前约束设置和导入后验证。在导入 CSV/JSON/Parquet 文件、将关系数据迁移到图表或批量加载大型数据集时使用。不处理非结构化文档/PDF/矢量分块管道 - 使用 neo4j-document-import-skill。不处理实时应用程序写入模式（合并/创建）——使用 neo4j-cypher-skill。不处理 neo4j-admin 备份/恢复/配置 — 使用 neo4j-cli-tools-skill。

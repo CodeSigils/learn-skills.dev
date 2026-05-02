@@ -1,0 +1,1 @@
+当用户提到创建支付链接、支付 paymentId / a2a_... 链接或检查 a2a 支付状态时，请使用此技能。包装“onchainos payment a2a-pay”代理间支付协议：卖方“create”，买方通过 EIP-3009 + TEE 签名“pay”，以及“status”查询。买方方的信任被委托给上游——无论服务器上的挑战声明什么，技能都会签名。请勿用于外部 HTTP 402 资源 — 使用 okx-x402- payment。请勿用于钱包余额/转账/登录 - 使用 okx-agentic-wallet。

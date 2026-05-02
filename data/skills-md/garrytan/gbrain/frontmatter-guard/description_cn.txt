@@ -1,0 +1,4 @@
+验证并自动修复 Brain 页面上的 YAML frontmatter。捕捉到畸形的东西
+进入大脑之前的页面（缺少结束语 ---、嵌套引号、slug
+不匹配、空字节、空 frontmatter、YAML 解析失败）。包裹着
+用于代理驱动工作流程的“gbrain frontmatter” CLI。

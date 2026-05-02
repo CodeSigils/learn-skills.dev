@@ -1,0 +1,1 @@
+在安装、配置官方 Neo4j MCP 服务器 (neo4j/mcp) 或对其进行故障排除时使用：通过 stdio 或 HTTP 传输将 Claude Code、Claude Desktop、Cursor、Windsurf、VS Code、Kiro 或其他 MCP 兼容编辑器连接到 Neo4j 数据库。涵盖四种 MCP 工具（get-schema、read-cypher、write-cypher、list-gds-procedures）、只读模式和多数据库配置。不包括通过这些工具编写 Cypher 查询 - 使用 neo4j-cypher-skill。不覆盖代理内存 — 使用 neo4j-agent-memory-skill。不涵盖 Aura 实例配置 — 使用 neo4j-aura-provisioning-skill。

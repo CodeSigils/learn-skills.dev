@@ -1,0 +1,1 @@
+保护序列化和画布渲染管道性能免受回归影响。在修改serializeTimelineDirect.ts或foreignObject/native渲染管道中的任何热路径时使用，以确保更改不会增加p95帧捕获时间。
