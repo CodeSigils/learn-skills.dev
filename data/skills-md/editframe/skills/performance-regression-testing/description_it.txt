@@ -1,0 +1,1 @@
+Proteggi la serializzazione e le prestazioni della pipeline di rendering canvas dalle regressioni. Da utilizzare quando si modifica serializeTimelineDirect.ts o qualsiasi percorso attivo nella pipeline di rendering foreignObject/native per garantire che le modifiche non aumentino il tempo di acquisizione del frame p95.

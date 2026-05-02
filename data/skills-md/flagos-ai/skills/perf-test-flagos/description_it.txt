@@ -1,0 +1,4 @@
+Esegui benchmark di precisione (FlagEval, quando disponibile) e benchmark di prestazioni
+(vllm servizio alla panca) contro un modello servito. Copre 5 profili di carico di lavoro: breve/lungo
+precompilazione x decodifica breve/lunga + elevata concorrenza. Raccoglie throughput, latenza,
+Metriche TTFT, TPOT.

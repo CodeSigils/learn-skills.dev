@@ -1,0 +1,1 @@
+Decidi quale operatore CLI (Claude, OpenCode o Gemini) deve implementare una determinata attività. Percorsi per tipo di attività: contesto ampio per Gemini, meccanico per OpenCode, giudizio per Claude. Restituisce il lavoratore scelto e una breve motivazione; il chiamante richiama il lavoratore tramite il chokepoint invoke-worker.sh dell'orchestratore.
