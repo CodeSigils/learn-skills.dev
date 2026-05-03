@@ -1,0 +1,1 @@
+设计、审查和重构 Neo4j 图形数据模型。在选择节点标签、关系类型和属性、将关系/文档模式迁移到图形、检测反模式（通用标签、超级节点、缺少约束）、为 n 元关系设计中间节点、使用约束和索引强制模式或根据图形建模最佳实践评估现有模型时使用。不处理 Cypher 查询创作 - 使用 neo4j-cypher-skill。不处理 Spring Data Neo4j 实体映射 - 使用 neo4j-spring-data-skill。不处理 GraphQL 类型定义——使用 neo4j-graphql-skill。不处理数据导入——使用 neo4j-import-skill。

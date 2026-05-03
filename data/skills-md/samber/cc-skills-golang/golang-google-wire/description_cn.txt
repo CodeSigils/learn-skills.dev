@@ -1,0 +1,1 @@
+使用 google/wire 在 Golang 中进行编译时依赖注入 —wire.NewSet、wire.Build、wire.Bind（接口→具体）、wire.Struct、wire.Value、wire.InterfaceValue、wire.FieldsOf、清理函数、//go:buildwireinject 注入器文件，并生成wire_gen.go。在使用或采用 google/wire 时、在代码库导入 `github.com/google/wire` 时、或者在编译时通过 `wire.Build` 连接应用程序图时应用。对于带有反射的运行时 DI，请参阅 samber/cc-skills-golang@golang-uber-dig 技能。

@@ -1,0 +1,3 @@
+适用于 20 个受支持的第三方 DeFi 协议（Polymarket、Aave、Hyperliquid、PancakeSwap、Morpho、Raydium、Curve、Compound、Pendle、Lido、ether.fi、GMX、Kamino、Orca、Meteora、Clanker、pump.fun、Uniswap）及其协议原生代币（HYPE、HLP、eETH、weETH、stETH、wstETH、LDO、GHO、 CAKE、CRV、COMP、RAY、ETHFI、GLP、kToken、PT-* / YT-*、$CLANKER）。将指定的 DApp/代币解析为正确的插件，安装它，并转发用户的提示——该插件拥有实际的交易/投注/转账。
+
+触发：(1) 命名 DApp + 动作动词（交换/存款/质押/做多/借/买/卖/狙击/农场/索赔，EN 或 ZH 买//换/存/质押/借/做多/做空/狙击）； (2) 比较两个或多个受支持的 DApp 并进行选择（“Aave 与 Compound for stables”、“Lido 与 ether.fi”）； （3）Polymarket UpDown 意图（`<COIN> 5min updown`、`<COIN> 5 分钟涨跌`、`预测市场`、`在 Polymarket 下注`）； (4) 协议原生代币与动作动词（“将 USDC 存入 HLP”、“Pendle 上的 PT-stETH”）； (5) Pump.fun 写动词（买/卖/狙击/猿/交换或买/卖/狙击/梭哈/帮我买）。请参阅正文了解反触发/消歧规则。
