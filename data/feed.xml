@@ -4,582 +4,603 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 02 May 2026 02:33:49 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 03 May 2026 02:43:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-05-02)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-05-03)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:snapshot</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:snapshot</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 7962
-Trending skills: 7478
-Hot skills: 2991
-Top All Time: find-skills (1299167)
-Top Trending: ai-image-generation (27669)
-Top Hot: gpt-image-2 (205)]]></description>
+All Time skills: 7950
+Trending skills: 7594
+Hot skills: 3235
+Top All Time: find-skills (1311480)
+Top Trending: find-skills (12032)
+Top Hot: agent-tools (259)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): momentic-result-classification]]></title>
-            <link>https://skills.sh/momentic-ai/skills/momentic-result-classification</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:momentic-ai/skills/momentic-result-classification</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#46): azure-resource-lookup]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-resource-lookup</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topAllTime:new:microsoft/github-copilot-for-azure/azure-resource-lookup</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #46
+Installs: 153637
+Source: microsoft/github-copilot-for-azure
+Description: List, find, and show Azure resources. Answers "list my VMs", "show my storage accounts", "list websites",
+"find container apps", "what resources do I have", and similar queries for any Azure resource type.
+USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps,
+list container apps, show resources, find resources, what resources do I have, list resources in resource group,
+list resources in subscription, find resources by tag, find orphaned resources, resource inventory,
+count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery,
+list container registries, list SQL servers, list Key Vaults, show resource groups, list app services,
+find resources across subscriptions, find unattached disks, tag analysis.
+DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources,
+cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#47): azure-cost-optimization]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/azure-cost-optimization</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topAllTime:new:microsoft/github-copilot-for-azure/azure-cost-optimization</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #47
+Installs: 147977
+Source: microsoft/github-copilot-for-azure
+Description: Identify and quantify cost savings across Azure subscriptions by analyzing actual costs,
+utilization metrics, and generating actionable optimization recommendations. USE FOR:
+optimize Azure costs, reduce Azure spending, reduce Azure expenses, analyze Azure costs,
+find cost savings, generate cost optimization report, find orphaned resources, rightsize VMs,
+cost analysis, reduce waste, Azure spending analysis, find unused resources, optimize Redis
+costs. DO NOT USE FOR: deploying resources (use azure-deploy), general Azure diagnostics
+(use azure-diagnostics), security issues (use azure-security)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#48): microsoft-foundry]]></title>
+            <link>https://skills.sh/microsoft/github-copilot-for-azure/microsoft-foundry</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topAllTime:new:microsoft/github-copilot-for-azure/microsoft-foundry</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #48
+Installs: 145278
+Source: microsoft/github-copilot-for-azure
+Description: Use this skill to work with Microsoft Foundry (Azure AI Foundry): deploy AI models from catalog, build RAG applications with knowledge indexes, create and evaluate AI agents, manage RBAC permissions and role assignments, manage quotas and capacity, create Foundry resources.
+USE FOR: Microsoft Foundry, AI Foundry, deploy model, model catalog, RAG, knowledge index, create agent, evaluate agent, agent monitoring, create Foundry project, new Foundry project, set up Foundry, onboard to Foundry, provision Foundry infrastructure, create Foundry resource, create AI Services, multi-service resource, AIServices kind, register resource provider, enable Cognitive Services, setup AI Services account, create resource group for Foundry, RBAC, role assignment, managed identity, service principal, permissions, quota, capacity, TPM, deployment failure, QuotaExceeded.
+DO NOT USE FOR: Azure Functions (use azure-functions), App Service (use azure-create-app), generic Azure resource creation (use azure-create-app).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#49): azure-cost]]></title>
+            <link>https://skills.sh/microsoft/azure-skills/azure-cost</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topAllTime:new:microsoft/azure-skills/azure-cost</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #49
+Installs: 144148
+Source: microsoft/azure-skills
+Description: Unified Azure cost management: query historical costs, forecast future spending, and optimize to reduce waste. WHEN: "Azure costs", "Azure spending", "Azure bill", "cost breakdown", "cost by service", "cost by resource", "how much am I spending", "show my bill", "monthly cost summary", "cost trends", "top cost drivers", "actual cost", "amortized cost", "forecast spending", "projected costs", "estimate bill", "future costs", "budget forecast", "end of month costs", "how much will I spend", "optimize costs", "reduce spending", "find cost savings", "orphaned resources", "rightsize VMs", "cost analysis", "reduce waste", "unused resources", "optimize Redis costs", "cost by tag", "cost by resource group", "AKS cost analysis add-on", "namespace cost", "cost spike", "anomaly", "budget alert", "AKS cost visibility". DO NOT USE FOR: deploying resources, provisioning infrastructure, diagnostics, security audits, or estimating costs for new resources not yet deployed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#50): ui-ux-pro-max]]></title>
+            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topAllTime:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 143300
+Source: nextlevelbuilder/ui-ux-pro-max-skill
+Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): agent-tools]]></title>
+            <link>https://skills.sh/inference-skills/skills/agent-tools</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:inference-skills/skills/agent-tools</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #1
+Installs: 259
+Source: inference-skills/skills
+Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#10): vercel-react-native-skills]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-react-native-skills</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:vercel-labs/agent-skills/vercel-react-native-skills</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #10
+Installs: 28
+Source: vercel-labs/agent-skills
+Description: React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#11): better-auth-best-practices]]></title>
+            <link>https://skills.sh/better-auth/skills/better-auth-best-practices</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:better-auth/skills/better-auth-best-practices</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 28
+Source: better-auth/skills
+Description: Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): caveman]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 43
-Source: momentic-ai/skills
-Description: Classify or explain Momentic test run results using Momentic MCP tools. Use when the user asks to categorize a failure, understand why a run failed, triage test results, or compare run results to past run results.]]></description>
+Installs: 75
+Source: juliusbrussee/caveman
+Description: Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): momentic-test]]></title>
-            <link>https://skills.sh/momentic-ai/skills/momentic-test</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:momentic-ai/skills/momentic-test</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): remotion-best-practices]]></title>
+            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 43
-Source: momentic-ai/skills
-Description: Create and maintain Momentic browser E2E tests via the Momentic MCP tools. Use when a user asks to create a new test, scaffold a smoke test, or add/modify/delete steps in an existing test. Do not use for editing Momentic YAML directly.]]></description>
+Installs: 67
+Source: remotion-dev/skills
+Description: Best practices for Remotion - Video creation in React]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): emblem-ai]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-ai</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): caveman-compress]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman-compress</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman-compress</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: One-shot user management for apps, multi-chain wallet authentication, an AI-powered assistant, and AI app introspection. Use when the user wants to let website users sign in with wallets, email/password, or social login and give each user a wallet-enabled account, then embed EmblemAI chat surfaces, connect plugins, or add Reflexive observability. Provides React components, TypeScript SDKs, session-based authentication, and pointers to the React and agent-wallet skills for specialized workflows.]]></description>
+Installs: 47
+Source: juliusbrussee/caveman
+Description: Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md. Trigger: /caveman-compress <filepath> or "compress memory file"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): emblem-ai-agent-wallet]]></title>
-            <link>https://skills.sh/emblemcompany/emblemai-agentwallet/emblem-ai-agent-wallet</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/emblemai-agentwallet/emblem-ai-agent-wallet</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #17
-Installs: 19
-Source: emblemcompany/emblemai-agentwallet
-Description: Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin. Use when the user wants to trade crypto, check balances, swap tokens, interact with blockchain wallets, or create and use profile-scoped agent wallets.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#18): emblem-defi-yield]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-defi-yield</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-defi-yield</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: DeFi yield research and liquid staking via EmblemAI. Discover yield opportunities, compare protocols, check DeFi positions with Nansen, and enter liquid staking via token swaps. Use when the user wants to research yields, find staking options, or review DeFi positions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#19): emblem-token-swap]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-token-swap</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-token-swap</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Execute token swaps across 6 blockchains via EmblemAI. Automatic route optimization and cross-chain bridging via ChangeNow. Use when the user wants to swap tokens, exchange crypto, convert between currencies, or bridge assets cross-chain.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): ai-image-generation]]></title>
-            <link>https://skills.sh/infsh-skills/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:infsh-skills/skills/ai-image-generation</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 319
-Source: infsh-skills/skills
-Description: Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): emblem-ai-prompt-examples]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-prompt-examples</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-ai-prompt-examples</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Curated prompt and usage examples for research, portfolio review, quote requests, approval-gated drafts, NFT discovery, prediction-market analysis, and assistant workflows. Emphasis is review-first, trust-boundary-aware use of external data, and explicit confirmation before any value-moving action. Use when the user wants example prompts, phrasing guidance, or sample requests for end-user EmblemAI tasks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): emblem-portfolio-tracker]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-portfolio-tracker</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-portfolio-tracker</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Track crypto portfolio across 7 blockchains via EmblemAI. Aggregated balances with USD values, conditional trade P&L, and DeFi position tracking via Nansen. Use when the user wants to check their portfolio, see balances across chains, or review trade positions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): emblem-ai-agent-wallet]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-agent-wallet</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-ai-agent-wallet</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Connect to EmblemVault and manage crypto wallets via Emblem AI - Agent Hustle. Supports Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin. Use when the user wants to check balances, review portfolio data, prepare wallet actions, and explicitly confirm blockchain operations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): emblem-ai-react]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-ai-react</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-ai-react</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: React integration skill for EmblemAI's one-shot user management. Use when the user wants to add website authentication plus wallet-enabled users to a React app with EmblemAuthProvider, ConnectButton, social/email/wallet login, chat components, React auth hooks, React composition patterns, or Migrate.fun React hooks.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): emblem-memecoin-scout]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-memecoin-scout</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-memecoin-scout</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Memecoin discovery and risk assessment via EmblemAI. Trending memecoins on Solana, Base, and Hedera. Pump.fun and LaunchLab new token alerts, Clanker discovery, rug-pull detection, holder analysis, and smart money tracking. Use when the user wants to find new memecoins, check if a token is a rug pull, or scout trending low-cap tokens.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): emblem-market-research]]></title>
-            <link>https://skills.sh/emblemcompany/agent-skills/emblem-market-research</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:emblemcompany/agent-skills/emblem-market-research</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 19
-Source: emblemcompany/agent-skills
-Description: Crypto market intelligence via EmblemAI. Trending tokens, on-chain analytics, derivatives data, and smart money tracking from CoinGecko, CoinGlass, Birdeye, and Nansen. Use when the user wants market data, trending tokens, derivatives analytics, or on-chain intelligence.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): verified-agent-identity]]></title>
-            <link>https://skills.sh/billionsnetwork/verified-agent-identity/verified-agent-identity</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:billionsnetwork/verified-agent-identity/verified-agent-identity</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 51
-Source: billionsnetwork/verified-agent-identity
-Description: Billions/Iden3 authentication and identity management tools for agents. Link, proof, sign, and verify.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): marketing-ideas]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/marketing-ideas</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/marketing-ideas</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 18
-Source: coreyhaines31/marketingskills
-Description: When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' or 'ideas to grow.' This skill provides 139 proven marketing approaches organized by category.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): pricing-strategy]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/pricing-strategy</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/pricing-strategy</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 15
-Source: coreyhaines31/marketingskills
-Description: When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): infsh-cli]]></title>
-            <link>https://skills.sh/infsh-skills/skills/infsh-cli</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:infsh-skills/skills/infsh-cli</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 313
-Source: infsh-skills/skills
-Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): opencli-usage]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-usage</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jackwener/opencli/opencli-usage</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 10
-Source: jackwener/opencli
-Description: Use when running OpenCLI commands to interact with websites (Bilibili, Twitter, Reddit, Xiaohongshu, etc.), desktop apps (Cursor, Notion), or public APIs (HackerNews, arXiv). Covers installation, command reference, and output formats for 73+ adapters.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): opencli-browser]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-browser</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jackwener/opencli/opencli-browser</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 9
-Source: jackwener/opencli
-Description: Make websites accessible for AI agents. Navigate, click, type, extract, wait — using Chrome with existing login sessions. No LLM API key needed.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): tailwind-design-system]]></title>
-            <link>https://skills.sh/wshobson/agents/tailwind-design-system</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:wshobson/agents/tailwind-design-system</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 7
-Source: wshobson/agents
-Description: Build scalable design systems with Tailwind CSS, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): mintlify]]></title>
-            <link>https://skills.sh/mintlify/docs/mintlify</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:mintlify/docs/mintlify</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 6
-Source: mintlify/docs
-Description: Build and maintain documentation sites with Mintlify. Use when creating docs pages, configuring navigation, adding components, or setting up API references.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): dbs-report]]></title>
-            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-report</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:dontbesilent2025/dbskill/dbs-report</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 6
-Source: dontbesilent2025/dbskill
-Description: 把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。
-触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」
-Generate a deliverable diagnosis report by merging all dbs-save snapshots.
-Trigger: /dbs-report, "package this up", "make me a report"]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): dbs-restore]]></title>
-            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-restore</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:dontbesilent2025/dbskill/dbs-restore</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 6
-Source: dontbesilent2025/dbskill
-Description: 把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。
-触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」
-Restore the most recent diagnosis snapshot saved by dbs-save.
-Trigger: /dbs-restore, "continue from last time", "where did we leave off"]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): content-strategy]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/content-strategy</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/content-strategy</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 17
-Source: coreyhaines31/marketingskills
-Description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): page-cro]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/page-cro</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/page-cro</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 13
-Source: coreyhaines31/marketingskills
-Description: When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature pages, or blog posts. Also use when the user says "CRO," "conversion rate optimization," "this page isn't converting," "improve conversions," or "why isn't this page working." For signup/registration flows, see signup-flow-cro. For post-signup activation, see onboarding-cro. For forms outside of signup, see form-cro. For popups/modals, see popup-cro.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): opencli-adapter-author]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-adapter-author</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jackwener/opencli/opencli-adapter-author</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 8
-Source: jackwener/opencli
-Description: Use when writing an OpenCLI adapter for a new site or adding a new command to an existing site. Guides end-to-end from first recon through field decoding, adapter coding, and verify. Replaces opencli-oneshot / opencli-explorer. For ad-hoc browser driving (no adapter), see opencli-browser instead; for a top-level orientation to opencli, see opencli-usage.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): smart-search]]></title>
-            <link>https://skills.sh/jackwener/opencli/smart-search</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jackwener/opencli/smart-search</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 8
-Source: jackwener/opencli
-Description: 基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资料、新闻、购物、旅游、求职、金融或中文内容时，务必使用此 skill]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): opencli-autofix]]></title>
-            <link>https://skills.sh/jackwener/opencli/opencli-autofix</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jackwener/opencli/opencli-autofix</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 8
-Source: jackwener/opencli
-Description: Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli command fails — it guides you through diagnosing the failure via OPENCLI_DIAGNOSTIC, patching the adapter, and retrying. Works with any AI agent.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): seo-geo]]></title>
-            <link>https://skills.sh/resciencelab/opc-skills/seo-geo</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:resciencelab/opc-skills/seo-geo</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 8
-Source: resciencelab/opc-skills
-Description: SEO & GEO (Generative Engine Optimization) for websites.
-Analyze keywords, generate schema markup, optimize for AI search engines
-(ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing).
-Use when user wants to improve search visibility.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): write-a-skill]]></title>
-            <link>https://skills.sh/mattpocock/skills/write-a-skill</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:mattpocock/skills/write-a-skill</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 114
-Source: mattpocock/skills
-Description: Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/skills/frontend-design</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:anthropics/skills/frontend-design</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 107
-Source: anthropics/skills
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): email-sequence]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/email-sequence</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/email-sequence</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 15
-Source: coreyhaines31/marketingskills
-Description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," or "lifecycle emails." For in-app onboarding, see onboarding-cro.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): product-marketing-context]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/product-marketing-context</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/product-marketing-context</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 14
-Source: coreyhaines31/marketingskills
-Description: When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): launch-strategy]]></title>
-            <link>https://skills.sh/coreyhaines31/marketingskills/launch-strategy</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:coreyhaines31/marketingskills/launch-strategy</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 13
-Source: coreyhaines31/marketingskills
-Description: When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): swiftui-expert-skill]]></title>
-            <link>https://skills.sh/avdlee/swiftui-agent-skill/swiftui-expert-skill</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:avdlee/swiftui-agent-skill/swiftui-expert-skill</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 8
-Source: avdlee/swiftui-agent-skill
-Description: Write, review, or improve SwiftUI code following best practices for state management, view composition, performance, modern APIs, Swift concurrency, and iOS 26+ Liquid Glass adoption. Use when building new SwiftUI features, refactoring existing views, reviewing code quality, or adopting modern SwiftUI patterns.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): baoyu-post-to-wechat]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-post-to-wechat</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jimliu/baoyu-skills/baoyu-post-to-wechat</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 8
-Source: jimliu/baoyu-skills
-Description: Posts content to WeChat Official Account (微信公众号) via Chrome CDP automation. Supports article posting (文章) with full markdown formatting and image-text posting (图文) with multiple images. Use when user mentions "发布公众号", "post to wechat", "微信公众号", or "图文/文章".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): baoyu-article-illustrator]]></title>
-            <link>https://skills.sh/jimliu/baoyu-skills/baoyu-article-illustrator</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:jimliu/baoyu-skills/baoyu-article-illustrator</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 7
-Source: jimliu/baoyu-skills
-Description: Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style two-dimension approach. Use when user asks to "illustrate article", "add images", "generate images for article", or "为文章配图".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): agent-tools]]></title>
-            <link>https://skills.sh/infsh-skills/skills/agent-tools</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:infsh-skills/skills/agent-tools</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 313
-Source: infsh-skills/skills
-Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): stitch-loop]]></title>
-            <link>https://skills.sh/google-labs-code/stitch-skills/stitch-loop</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:google-labs-code/stitch-skills/stitch-loop</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 7
-Source: google-labs-code/stitch-skills
-Description: Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): ai-video-generation]]></title>
-            <link>https://skills.sh/infsh-skills/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:infsh-skills/skills/ai-video-generation</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 313
-Source: infsh-skills/skills
-Description: Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): notion-api]]></title>
-            <link>https://skills.sh/intellectronica/agent-skills/notion-api</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topHot:new:intellectronica/agent-skills/notion-api</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 48
-Source: intellectronica/agent-skills
-Description: This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact with Notion, including reading, creating, updating, or deleting pages, databases, blocks, comments, or any other Notion content. The skill covers authentication, all available endpoints, pagination, error handling, and best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#13): image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-edit</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/image-edit</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #13
-Installs: 4358
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#14): gpt-image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-edit</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/gpt-image-edit</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #14
-Installs: 4341
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#16): flux-kontext]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-kontext</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/flux-kontext</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #16
-Installs: 4330
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on "flux kontext", "flux-kontext", "flux 1 kontext", "kontext", "BFL kontext", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#17): nano-banana-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-edit</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/nano-banana-edit</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #17
-Installs: 4316
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#18): flux-2-klein]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-2-klein</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/flux-2-klein</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #18
-Installs: 4308
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#19): video-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-edit</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/video-edit</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #19
-Installs: 4305
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#20): seedance-v2]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/seedance-v2</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/seedance-v2</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #20
-Installs: 4302
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on "seedance", "seedance 2", "seedance v2", "seedance pro", "bytedance video", or any explicit ask to generate video with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#21): nano-banana-2]]></title>
+            <title><![CDATA[[Hot] New entry (#17): nano-banana-2]]></title>
             <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-2</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/nano-banana-2</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #21
-Installs: 4290
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-2</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 185
 Source: agentspace-so/runcomfy-agent-skills
 Description: Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on "nano banana", "nano-banana-2", "nano banana 2", "google image gen", "gemini image", or any explicit ask to generate with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#22): wan-2-7]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/wan-2-7</link>
-            <guid isPermaLink="false">2026-05-02T02:33:49.734Z:topTrending:new:agentspace-so/runcomfy-agent-skills/wan-2-7</guid>
-            <pubDate>Sat, 02 May 2026 02:33:49 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
+            <title><![CDATA[[Hot] New entry (#18): copywriting]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/copywriting</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/copywriting</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 32
+Source: coreyhaines31/marketingskills
+Description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): impeccable]]></title>
+            <link>https://skills.sh/pbakaus/impeccable/impeccable</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:pbakaus/impeccable/impeccable</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 70
+Source: pbakaus/impeccable
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics. Use when the user asks to build web components, pages, artifacts, posters, or applications, or when any design skill requires project context. Call with 'craft' to run the full shape-then-build flow, or 'teach' for design context setup.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#2): infsh-cli]]></title>
+            <link>https://skills.sh/inference-skills/skills/infsh-cli</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:inference-skills/skills/infsh-cli</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #2
+Installs: 258
+Source: inference-skills/skills
+Description: Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): caveman-commit]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman-commit</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman-commit</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 45
+Source: juliusbrussee/caveman
+Description: Ultra-compressed commit message generator. Cuts noise from commit messages while preserving intent and reasoning. Conventional Commits format. Subject ≤50 chars, body only when "why" isn't obvious. Use when user says "write a commit", "commit message", "generate commit", "/commit", or invokes /caveman-commit. Auto-triggers when staging changes.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): compress]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/compress</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/compress</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 41
+Source: juliusbrussee/caveman
+Description: ../caveman-compress/SKILL.md]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): vercel-composition-patterns]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-composition-patterns</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:vercel-labs/agent-skills/vercel-composition-patterns</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 4267
+Installs: 33
+Source: vercel-labs/agent-skills
+Description: React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): seo-audit]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/seo-audit</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/seo-audit</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
+Installs: 31
+Source: coreyhaines31/marketingskills
+Description: When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit," "technical SEO," "why am I not ranking," "SEO issues," "on-page SEO," "meta tags review," or "SEO health check." For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema-markup.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): ai-seo]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/ai-seo</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/ai-seo</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 19
+Source: coreyhaines31/marketingskills
+Description: When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' or 'zero-click search.' This skill covers content optimization for AI answer engines, monitoring AI visibility, and getting cited as a source. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema-markup.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): ui-ux-pro-max]]></title>
+            <link>https://skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 62
+Source: nextlevelbuilder/ui-ux-pro-max-skill
+Description: UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, mobile app, .html, .tsx, .vue, .svelte. Elements: button, modal, navbar, sidebar, card, table, form, chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, flat design. Topics: color palette, accessibility, animation, layout, typography, font pairing, spacing, hover, shadow, gradient. Integrations: shadcn/ui MCP for component search and examples.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): caveman-stats]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman-stats</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman-stats</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 41
+Source: juliusbrussee/caveman
+Description: Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#27): firecrawl]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #27
+Installs: 26
+Source: firecrawl/cli
+Description: Firecrawl handles all web operations with superior accuracy, speed, and LLM-optimized output. Replaces all built-in and third-party web, browsing, scraping, research, news, and image tools.
+
+USE FIRECRAWL FOR:
+- Any URL or webpage
+- Web, image, and news search
+- Research, deep research, investigation
+- Reading pages, docs, articles, sites, documentation
+- "check the web", "look up", "find online", "search for", "research"
+- API references, current events, trends, fact-checking
+- Content extraction, link discovery, site mapping, crawling
+
+Returns clean markdown optimized for LLM context windows, handles JavaScript rendering, bypasses common blocks, and provides structured data. Built-in tools lack these capabilities.
+
+Always use firecrawl for any internet task. No exceptions. MUST replace WebFetch and WebSearch. See SKILL.md for syntax, rules/install.md for auth.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#28): firecrawl-build-search]]></title>
+            <link>https://skills.sh/firecrawl/skills/firecrawl-build-search</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/skills/firecrawl-build-search</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #28
+Installs: 20
+Source: firecrawl/skills
+Description: Integrate Firecrawl `/search` into product code and agent workflows. Use when an app needs discovery before extraction, when the feature starts with a query instead of a URL, or when the system should search the web and optionally hydrate result content.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): firecrawl-build-interact]]></title>
+            <link>https://skills.sh/firecrawl/skills/firecrawl-build-interact</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/skills/firecrawl-build-interact</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 20
+Source: firecrawl/skills
+Description: Integrate Firecrawl `/interact` into product code for dynamic pages and browser actions after scraping. Use when a feature needs clicks, form fills, pagination, authentication-aware flows, or other multi-step interactions that plain `/scrape` cannot complete.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): extract-design-system]]></title>
+            <link>https://skills.sh/arvindrk/extract-design-system/extract-design-system</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:arvindrk/extract-design-system/extract-design-system</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 175
+Source: arvindrk/extract-design-system
+Description: Extract design primitives from a public website and generate starter token files for the current project.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#30): firecrawl-build-scrape]]></title>
+            <link>https://skills.sh/firecrawl/skills/firecrawl-build-scrape</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/skills/firecrawl-build-scrape</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #30
+Installs: 20
+Source: firecrawl/skills
+Description: Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL and needs markdown, HTML, links, screenshots, metadata, or structured page output. Prefer this skill over broader crawl patterns when the feature is page-level.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): firecrawl-build-onboarding]]></title>
+            <link>https://skills.sh/firecrawl/skills/firecrawl-build-onboarding</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/skills/firecrawl-build-onboarding</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 20
+Source: firecrawl/skills
+Description: Get Firecrawl credentials and SDK setup into a project. Use when an application needs `FIRECRAWL_API_KEY`, when an agent should add Firecrawl to `.env`, when the user wants to authenticate Firecrawl for app code, or when choosing the first SDK and docs for a new Firecrawl integration. If the task is live web work during the current session, hand off to `firecrawl/cli` instead. This skill includes its own browser auth flow, so it does not depend on the website onboarding skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): analytics-tracking]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/analytics-tracking</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/analytics-tracking</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 18
+Source: coreyhaines31/marketingskills
+Description: When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," or "tracking plan." For A/B test measurement, see ab-test-setup.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): flux-2-klein]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-2-klein</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:agentspace-so/runcomfy-agent-skills/flux-2-klein</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 185
 Source: agentspace-so/runcomfy-agent-skills
-Description: Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on "wan", "wan 2.7", "wan-2-7", "wan video", or any explicit ask to generate video with this model.]]></description>
+Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): nano-banana-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-edit</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-edit</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 183
+Source: agentspace-so/runcomfy-agent-skills
+Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): cavecrew]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/cavecrew</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/cavecrew</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #35
+Installs: 42
+Source: juliusbrussee/caveman
+Description: Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subagent output is caveman-compressed so the tool-result injected back into main context is ~60% smaller — main context lasts longer across long sessions. Trigger: "delegate to subagent", "use cavecrew", "spawn investigator/builder/reviewer", "save context", "compressed agent output".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): caveman-review]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman-review</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman-review</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 41
+Source: juliusbrussee/caveman
+Description: Ultra-compressed code review comments. Cuts noise from PR feedback while preserving the actionable signal. Each comment is one line: location, problem, fix. Use when user says "review this PR", "code review", "review the diff", "/review", or invokes /caveman-review. Auto-triggers when reviewing pull requests.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): caveman-help]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman-help</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:juliusbrussee/caveman/caveman-help</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 41
+Source: juliusbrussee/caveman
+Description: Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, "caveman help", "what caveman commands", "how do I use caveman".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): firecrawl-crawl]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-crawl</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl-crawl</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 23
+Source: firecrawl/cli
+Description: Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says "crawl", "get all the pages", "extract everything under /docs", "bulk extract", or needs content from many pages on the same site. Handles depth limits, path filtering, and concurrent extraction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): firecrawl-agent]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-agent</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl-agent</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 23
+Source: firecrawl/cli
+Description: AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the user wants structured data from websites, needs to extract pricing tiers, product listings, directory entries, or any data as JSON with a schema. Triggers on "extract structured data", "get all the products", "pull pricing info", "extract as JSON", or when the user provides a JSON schema for website data. More powerful than simple scraping for multi-page structured extraction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 79
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): firecrawl-map]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-map</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl-map</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 23
+Source: firecrawl/cli
+Description: Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a specific page on a large site, list all URLs, see the site structure, find where something is on a domain, or says "map the site", "find the URL for", "what pages are on", or "list all pages". Essential when the user knows which site but not which exact page.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): firecrawl-search]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-search</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl-search</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 23
+Source: firecrawl/cli
+Description: Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says "search for", "find me", "look up", "what are people saying about", or "find articles about". Returns real search results with optional full-page markdown — not just snippets. Provides capabilities beyond Claude's built-in WebSearch.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): paid-ads]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/paid-ads</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/paid-ads</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 16
+Source: coreyhaines31/marketingskills
+Description: When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): cold-email]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/cold-email</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/cold-email</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 15
+Source: coreyhaines31/marketingskills
+Description: Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): image]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/image</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:coreyhaines31/marketingskills/image</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 15
+Source: coreyhaines31/marketingskills
+Description: When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'Ideogram,' 'Gemini image,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): browser-use]]></title>
+            <link>https://skills.sh/browser-use/browser-use/browser-use</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:browser-use/browser-use/browser-use</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 15
+Source: browser-use/browser-use
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): vercel-cli-with-tokens]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/vercel-cli-with-tokens</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:vercel-labs/agent-skills/vercel-cli-with-tokens</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 13
+Source: vercel-labs/agent-skills
+Description: Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. "deploy to vercel", "set up vercel", "add environment variables to vercel".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): gpt-image-2]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-2</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:agentspace-so/runcomfy-agent-skills/gpt-image-2</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 11
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT Images 2", "image 2", or any explicit ask to generate or edit with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): supabase-postgres-best-practices]]></title>
+            <link>https://skills.sh/supabase/agent-skills/supabase-postgres-best-practices</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:supabase/agent-skills/supabase-postgres-best-practices</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 66
+Source: supabase/agent-skills
+Description: Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): pdf]]></title>
+            <link>https://skills.sh/anthropics/skills/pdf</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:anthropics/skills/pdf</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 37
+Source: anthropics/skills
+Description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): firecrawl-scrape]]></title>
+            <link>https://skills.sh/firecrawl/cli/firecrawl-scrape</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:firecrawl/cli/firecrawl-scrape</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 23
+Source: firecrawl/cli
+Description: Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a URL and wants its content, says "scrape", "grab", "fetch", "pull", "get the page", "extract from this URL", or "read this webpage". Handles JS-rendered pages, multiple concurrent URLs, and returns LLM-optimized markdown. Use this instead of WebFetch for any webpage content extraction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): audit-website]]></title>
+            <link>https://skills.sh/squirrelscan/skills/audit-website</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:squirrelscan/skills/audit-website</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 23
+Source: squirrelscan/skills
+Description: Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 150+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): gpt-image-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-edit</link>
+            <guid isPermaLink="false">2026-05-03T02:43:25.419Z:topHot:new:agentspace-so/runcomfy-agent-skills/gpt-image-edit</guid>
+            <pubDate>Sun, 03 May 2026 02:43:25 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 188
+Source: agentspace-so/runcomfy-agent-skills
+Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
         </item>
     </channel>
 </rss>
