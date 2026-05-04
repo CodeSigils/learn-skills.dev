@@ -1,0 +1,17 @@
+Metodología de desarrollo basada en el diseño. El directorio design/ es el único 
+fuente de verdad arquitectónica: léala antes de codificar, manténgase dentro de su 
+límites, y cuando la forma del sistema necesita cambiar, actualizar el diseño 
+primero.
+
+Utilice esta habilidad siempre que inicie cualquier trabajo de desarrollo en este proyecto. también 
+utilizar cuando el usuario solicita: crear o actualizar documentos de arquitectura, agregar un nuevo 
+módulo o característica que podría cruzar los límites existentes, refactorizar el sistema 
+estructurar o comprender la arquitectura base del código. Activa frases como 
+"diseñar primero", "actualizar el diseño", "esto cambia la arquitectura", 
+"escribir un diseño para", "cuál es el diseño actual" o al incorporarse a 
+comprender la forma de una base de código.
+
+Admite argumentos: `/design-driven init` para configurar un proyecto para 
+desarrollo impulsado por diseño, `/ bootstrap impulsado por diseño` para generar diseño 
+desde una base de código existente, `/auditoría basada en diseño` para conciliar un código existente 
+diseño/contra el código actual.

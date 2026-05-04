@@ -1,0 +1,1 @@
+為 AI 代理工具（Claude Code、GitHub Copilot CLI、VS Code 中的 GitHub Copilot、Cursor、OpenAI Codex CLI）設定 Fiddler Everywhere MCP 伺服器連線。當 Fiddler MCP 工具不可用、看不到 Fiddler 工具、連接到 Fiddler 時出現身份驗證錯誤、需要首次配置 Fiddler MCP 或在嘗試使用其他 Fiddler 技能時聽到“工具未找到”錯誤時，請始終使用此技能。呼叫 Fiddler 的本機 API 端點以自動取得或產生 MCP API 金鑰，為偵測到的代理程式寫入正確的設定文件，gitignores 它，並驗證端對端連線。唯一的先決條件是 Fiddler Everywhere 正在運行。

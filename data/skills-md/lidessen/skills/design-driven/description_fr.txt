@@ -1,0 +1,17 @@
+Méthodologie de développement axée sur le design. Le répertoire design/ est le seul 
+source de vérité architecturale - lisez-la avant de coder, restez dans ses limites 
+limites, et lorsque la forme du système doit changer, mettre à jour la conception 
+d'abord.
+
+Utilisez cette compétence chaque fois que vous démarrez un travail de développement sur ce projet. Aussi 
+à utiliser lorsque l'utilisateur demande à : créer ou mettre à jour des documents d'architecture, ajouter un nouveau 
+module ou fonctionnalité susceptible de franchir les frontières existantes, refactoriser le système 
+structure, ou comprendre l’architecture de la base de code. Déclenchez des phrases comme 
+"le design d'abord", "mettre à jour le design", "cela change-t-il l'architecture", 
+"écrire une conception pour", "quelle est la conception actuelle" ou lors de l'intégration à 
+comprendre la forme d'une base de code.
+
+Prend en charge les arguments : `/design-driven init` pour configurer un projet pour 
+développement axé sur la conception, `/design-driven bootstrap` pour générer la conception 
+à partir d'une base de code existante, `/design-driven audit` pour réconcilier un 
+conception/par rapport au code actuel.

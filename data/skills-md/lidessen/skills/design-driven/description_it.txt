@@ -1,0 +1,17 @@
+Metodologia di sviluppo basata sulla progettazione. Il design/ directory è il singolo 
+fonte di verità architettonica: leggila prima di codificare, rimani dentro di essa 
+confini e, quando la forma del sistema deve cambiare, aggiornare il progetto 
+prima.
+
+Utilizza questa competenza ogni volta che inizi un lavoro di sviluppo su questo progetto. Inoltre 
+utilizzare quando l'utente chiede di: creare o aggiornare documenti di architettura, aggiungerne uno nuovo 
+modulo o funzionalità che potrebbe oltrepassare i limiti esistenti, sistema di refactoring 
+struttura o comprendere l'architettura della base di codice. Trigger su frasi come 
+"progetta prima", "aggiorna il design", "questo cambia l'architettura", 
+"scrivi un progetto per", "qual è il progetto attuale" o durante l'onboarding 
+comprendere la forma di una base di codice.
+
+Supporta argomenti: `/design-driven init` per configurare un progetto 
+sviluppo basato sul design, `/design-driven bootstrap` per generare il design 
+da una base di codice esistente, "/design-driven audit" per riconciliare un codice esistente 
+progettazione/contro il codice attuale.
