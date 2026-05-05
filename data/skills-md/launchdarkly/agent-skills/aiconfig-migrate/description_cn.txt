@@ -1,0 +1,1 @@
+分五个阶段将具有硬编码 LLM 提示的应用程序迁移到完整的 LaunchDarkly AI Configs 实施：审核代码、包装调用、移动工具、添加跟踪、附加评估器。当用户想要外部化模型/提示配置、从直接提供程序调用（OpenAI、Anthropic、Bedrock、Gemini、Strands）转移到托管 AI 配置或进行完整的硬编码到 LaunchDarkly 迁移时使用。

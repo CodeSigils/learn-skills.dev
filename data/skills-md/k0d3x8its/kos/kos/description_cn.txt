@@ -1,0 +1,1 @@
+当用户想要从头开始设置新的 Kodex OS Layer 1 库（LLM Wiki 层）时，请使用此技能。触发器包括“设置 kos”、“创建新的 kos 保管库”、“初始化我的 Kodex Wiki”等短语或任何首次设置请求。该技能引导用户完成命名库、选择位置、构建目录结构（raw/ 具有 FL/FR/FS 备忘录约定、wiki/ 具有所有六个子目录、output/）、安装 SCHEMA.md 以及连接 AI 代理。如果保管库已存在，请勿使用此技能 - 请改用 kos-ingest、kos-query 或 kos-lint。请勿用于第 0 层（字段注释）、第 2 层（概念）、第 3 层（存档）或第 4 层（Trello）设置。

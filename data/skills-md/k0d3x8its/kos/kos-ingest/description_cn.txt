@@ -1,0 +1,1 @@
+当用户想要将原始源处理到其 Kodex OS Layer 1 LLM Wiki 中时，请使用此技能。触发器包括“摄取”、“处理我的原始笔记”、“更新 wiki”、“将其添加到 kos”或将新文件放入 Vault 的 raw/ 文件夹中（扫描的现场笔记页面、转录的备忘录页面、剪辑的文章、论文、成绩单）。该技能从 raw/ 读取，将结构化页面写入 wiki/，创建 wiki 链接和交叉引用，扩展内联 bit.ly slugs，并更新 wiki/index.md 和 wiki/log.md。永远不要修改 raw/ 中的内容——根据 KOS 模式，该子层是不可变的。请勿使用此技能来回答有关现有 wiki 内容的问题（使用 kos-query）或检查 wiki 运行状况（使用 kos-lint）。

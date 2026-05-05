@@ -1,8 +1,1 @@
-Spec과 ui-proto 기반으로 E2E 환경 세팅 + 단위 시나리오 자동 분할 + 통합 suite 생성 + 실행 + 부합 검증을 한 번에 처리하는 통합 팀 스킬.
-"e2e 검증해줘", "통합 검증", "전체 흐름 테스트", "팀 e2e", "스펙대로 동작하는지 확인",
-"ui-proto와 다른지 확인", "최종 검증", "릴리스 전 검증" 키워드로 트리거.
-peach-e2e-setup + peach-e2e-scenario + peach-e2e-suite 3개 스킬의 패턴을 공유하고,
-검증 기준을 ui-proto 화면 + Spec 비즈니스 규칙으로 외부화한다.
-peach-team-dev와 함께 하나의 개발-검증 납품 흐름을 이루되, 구현 컨텍스트와 검증 컨텍스트는 분리한다.
-Claude Code 팀 기능이 있으면 team mode로, Codex/skills.sh 일반 환경에서는 generic mode로 실행한다.
-단순 코드 동작 검증을 넘어, 기획 의도와 부합하는지 자동 검증하는 게 핵심 차별점.
+An integrated team skill that handles E2E environment setup based on Spec and ui-proto + automatic unit scenario splitting + integrated suite creation + execution + compliance validation all at once. Triggered by keywords: "e2e verify", "integration verify", "full flow test", "team e2e", "check if it works per spec", "check against ui-proto", "final validation", "pre-release verify". Shares the patterns of three skills—peach-e2e-setup + peach-e2e-scenario + peach-e2e-suite—and externalizes validation criteria as ui-proto screens + Spec business rules. Forms a single dev-validation delivery flow with peach-team-dev, but keeps implementation context and validation context separate. Runs in team mode if Claude Code team features are available, or generic mode in Codex/skills.sh environments. The key differentiator is automatic validation not just of code behavior, but of alignment with design intent.
