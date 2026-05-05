@@ -1,0 +1,1 @@
+Strumenta una codebase esistente con il monitoraggio LaunchDarkly AI Config. Percorre la scala a quattro livelli (corridore gestito → pacchetto fornitore → estrattore personalizzato + trackMetricsOf → manuale grezzo) e sceglie l'opzione della cerimonia più bassa che cattura comunque durata, token e successo/errore.
