@@ -1,0 +1,1 @@
+Browse 대법원경매정보(courtauction.go.kr) 부동산 매각공고 by 매각기일·법원·기일/기간 입찰, expand each notice into 사건번호·용도·주소·감정평가액·최저매각가, and look up a case directly by 법원+사건번호. Read-only, slow-by-design (~2s/call) to avoid IP blocks. Use when the user asks "오늘 어디서 부동산 경매가 열려?" "이 사건번호 정보 알려줘" or wants 매각공고 데이터를 에이전트가 다룰 수 있는 JSON으로.
