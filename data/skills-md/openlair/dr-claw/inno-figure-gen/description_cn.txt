@@ -1,0 +1,1 @@
+默认情况下使用 OpenAI gpt-image-2 生成/编辑图像，当未设置 OPENAI_API_KEY 时，回退到 Gemini (gemini-3.1-flash-image-preview)。支持文字转图像+图像转图像； 1K/2K/4K；使用 --input-image 进行编辑，--provider 强制提供程序，--model 覆盖模型。

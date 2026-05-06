@@ -1,20 +1,21 @@
-Habilidad de análisis de trayectoria de desarrollo y evolución histórica corporativa: generador de informes narrativos 3D KYB impulsado por Qichacha MCP.  
-Genera automáticamente un informe de evolución histórica KYB de 11 capítulos + apéndice utilizando las 146 herramientas de Qichacha MCP.  
+Habilidad de análisis de desarrollo y evolución histórica corporativa: generador de informes narrativos 3-D KYB impulsado por Qichacha MCP.  
+Produce automáticamente un informe de evolución histórica KYB de 11 capítulos + apéndice a través de las 146 herramientas de Qichacha MCP.  
+
 Características principales de V1.2 (basadas en esquemas · antifabricación):  
-- **Dígito de control de USCC**: algoritmo de dígito de control GB 32100-2015; Se bloquean los Códigos Unificados de Crédito Social fabricados  
-- **recuento ≡ filas**: para listas de accionistas/accionistas anteriores/directores-supervisores-seniors/inversiones salientes, los recuentos declarados deben ser iguales a los recuentos de filas reales  
-- **ancla de evidencia**: cada campo lleva una procedencia de 4 tuplas (nombre_herramienta, ruta_json, instantánea_ts, valor_bruto)  
-- **consistencia entre capítulos**: el estado de penalización prohíbe palabras como "resuelto/cerrado" a menos que MCP las devuelva explícitamente; la distribución anual de patentes debe sumar el total; autocontrol de la racionalidad temporal  
-- **manifest.json**: cada informe genera una cadena de procedencia a nivel de campo para la trazabilidad de la auditoría.  
+- **Dígito de control de USCC**: algoritmo GB 32100-2015; Se bloquean códigos de crédito social unificados inventados.  
+- **recuento ≡ filas**: accionista / ex accionista / directores-supervisores-seniors / listas de inversiones salientes: el recuento declarado debe ser igual al recuento real de filas  
+- **ancla de evidencia**: cada campo rastreable mediante 4 tuplas (nombre_herramienta, ruta_json, instantánea_ts, valor_bruto)  
+- **coherencia entre capítulos**: el estado de la penalización prohíbe la autodeclaración "resuelta/cerrada" a menos que MCP la devuelva explícitamente; los totales anuales de patentes deben sumar correctamente; autocomprobación de cordura temporal  
+- **manifest.json**: cadena de procedencia a nivel de campo por informe para reproducción de auditoría  
 
 Funciones principales:  
-- Estructura de 11 capítulos: §1 Perfil de la empresa / §2 Hitos de desarrollo / §3 Capital registrado / §4 Cambios de nombre / §5 Evolución del capital / §6 Seguimiento comercial / §7 Cambios de dirección / §8 Resumen / §9 Descripción general del desarrollo / §10 Apéndice / §11 Archivo de auditoría  
-- Narrativa 3D: matriz de calificación de licencia, diseño de IP, expansión comercial y plantilla, posición en la industria y honores  
-- adaptación automática de niveles: niveles micro (¥4,5) / financiados (¥13) / listados (¥18) detectados automáticamente con llamadas diferenciadas  
-- estilo visual: punto+línea de tiempo vertical + barras de capítulos azules de kyb-opus + tablas con rayas de cebra, salida directa en PDF  
+- Estructura de 11 capítulos: §1 Perfil de la empresa / §2 Hitos / §3 Capital registrado / §4 Cambios de nombre / §5 Evolución del capital / §6 Seguimiento comercial / §7 Migración de direcciones / §8 Resumen / §9 Descripción general del desarrollo / §10 Apéndice / §11 Archivo de auditoría  
+- Narrativa 3-D: matriz de calificación de licencia, diseño de propiedad intelectual, expansión comercial y plantilla, prestigio y honores en la industria  
+- Adaptación automática de niveles: niveles micro (¥4,5)/financiados (¥13)/listados (¥18) detectados automáticamente con llamadas diferenciadas  
+- Estilo visual: punto+línea de tiempo vertical + barras de capítulos azules de kyb-opus + tablas de cebra, directo a PDF  
 
-Casos de uso: debida diligencia de preinversión (PE/VC), generación de adjuntos de IC Memo, KYB de crédito bancario, verificación de antecedentes de proveedores, antecedentes de gestión y verificación de trayectoria de desarrollo.  
+Casos de uso: DD de preinversión (PE/VC), adjunto de memorando IC, crédito bancario KYB, verificación de antecedentes de proveedores, verificación del historial de gestión.  
 
-Uso: /history-evolution-qcc nombre de la empresa [Código de Crédito Social Unificado]  
+Uso: `/history-evolution-qcc nombre_compañía [código_crédito_social_unificado]`  
 
 Experiencia del cliente: comando de una frase → Generación automática de MD + PDF + manifest.json en 60 segundos, cero intervención, cero fabricación.

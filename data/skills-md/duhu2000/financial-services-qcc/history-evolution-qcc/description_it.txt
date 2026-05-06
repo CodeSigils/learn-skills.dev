@@ -1,0 +1,21 @@
+Abilità di analisi dell'evoluzione storica e dello sviluppo aziendale: generatore di report narrativi KYB 3-D basato su Qichacha MCP.  
+Produce automaticamente un rapporto sull'evoluzione storica KYB di 11 capitoli + appendice tramite i 146 strumenti di Qichacha MCP.  
+
+Funzionalità principali della V1.2 (guidata da schema · anti-fabbricazione):  
+- **Cifra di controllo USCC**: algoritmo GB 32100-2015; i codici di credito sociale unificati fabbricati vengono bloccati  
+- **conteggio ≡ righe**: azionista/ex azionista/direttori-supervisori-senior/elenchi di investimenti in uscita: il conteggio dichiarato deve corrispondere al conteggio effettivo delle righe  
+- **ancoraggio dell'evidenza**: ogni campo tracciabile tramite 4-tuple (tool_name, json_path, snapshot_ts, raw_value)  
+- **Coerenza tra capitoli**: lo stato della penalità vieta di autodichiararsi “risolto/chiuso” a meno che MCP non lo restituisca esplicitamente; i totali annuali dei brevetti devono sommarsi correttamente; autocontrollo della sanità temporale  
+- **manifest.json**: catena di provenienza a livello di campo per report per la riproduzione dell'audit  
+
+Funzioni principali:  
+- Struttura in 11 capitoli: §1 Profilo aziendale / §2 Traguardi / §3 Capitale sociale / §4 Cambiamenti di nome / §5 Evoluzione del capitale / §6 Percorso aziendale / §7 Migrazione degli indirizzi / §8 Riepilogo / §9 Panoramica dello sviluppo / §10 Appendice / §11 Archivio di audit  
+- Narrazione 3-D: matrice di qualificazione della licenza, layout IP, espansione aziendale e numero di dipendenti, posizione nel settore e riconoscimenti  
+- Adattamento automatico del livello: livelli micro (¥ 4,5) / finanziato (¥ 13) / quotato (¥ 18) rilevati automaticamente con chiamate differenziate  
+- Stile visivo: punto+linea temporale verticale + barre dei capitoli blu kyb-opus + tabelle zebrate, direttamente in PDF  
+
+Casi d'uso: DD pre-investimento (PE/VC), allegato nota IC, KYB credito bancario, controllo dei precedenti dei fornitori, verifica della cronologia gestionale.  
+
+Utilizzo: `/history-evolution-qcc nome_azienda [codice_credito_sociale_unificato]`  
+
+Esperienza del cliente: comando di una frase → generazione automatica di MD + PDF + manifest.json in 60 secondi, zero interventi, zero fabbricazione.

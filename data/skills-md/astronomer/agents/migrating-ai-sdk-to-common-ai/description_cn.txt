@@ -1,0 +1,1 @@
+将 Airflow 项目从 airflow-ai-sdk 迁移到 apache-airflow-providers-common-ai 0.1.0+。当用户想要用官方 Airflow AI 提供程序替换 airflow-ai-sdk、迁移 LLM 装饰器（@task.llm、@task.agent、@task.llm_branch、@task.embed）、从模型字符串/对象切换到基于连接的 LLM 配置或更新从 airflow_ai_sdk 的导入到新提供程序时，请使用此技能。当用户提到 common-ai 提供商、AIP-99、pydanticai 连接或从 airflow-ai-sdk 迁移时也会触发。

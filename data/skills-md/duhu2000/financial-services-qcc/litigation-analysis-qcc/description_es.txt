@@ -1,0 +1,13 @@
+HABILIDAD en evaluación de riesgos de litigios · Qichacha MCP V2.0 Edición mejorada.  
+Realiza un análisis panorámico de litigios de tres capas de la empresa objetivo (“estado actual + registro histórico + personal clave”) y genera un informe de evaluación de riesgos judiciales listo para presentar decisiones, decisiones crediticias y decisiones de inversión.  
+
+Capacidades principales:  
+- Panorama de litigios en tres niveles: estado actual de la empresa (17 herramientas de riesgo de qcc) + historial de la empresa (14 herramientas de historial de qcc) + personal clave (18 herramientas ejecutivas de qcc)  
+- Tendencias de series temporales: análisis de tendencias reales de 5 a 10 años basado en juicios históricos, presentaciones de casos y anuncios de audiencias  
+- Diagnóstico de capacidad de aplicación de la ley: estados forzados / deshonestos / de alto consumo restringido / cierre de casos × actual × histórico, identificando “entidades rehabilitadas” versus “entidades crónicamente deshonestas”  
+- Perfiles clave de litigios de personal: panorama completo de litigios personales del representante legal, contralor real, presidente y gerente general  
+- Cálculo de la exposición al riesgo: posibles pagos de casos pendientes, importes a ejecutar, relación con el capital social  
+
+Escenarios aplicables: verificación de contraparte previa al litigio / debida diligencia crediticia / debida diligencia de inversión / incorporación de proveedores / evaluación crediticia del cliente / alerta temprana de quiebra.  
+
+Uso: /litigation-analysis-qcc Nombre de la empresa [--period últimos años] [--tipo disputa contractual|disputa laboral|IP|...] [--persona-scan si se deben escanear perfiles de litigios de personal clave]

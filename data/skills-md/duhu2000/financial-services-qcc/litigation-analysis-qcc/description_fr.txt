@@ -1,9 +1,13 @@
-COMPÉTENCES d'évaluation des risques de litige · Qichacha MCP V2.0 Enhanced Edition. Performs a three-layer litigation panorama scan of the target company—“current status + historical record + key personnel”—and outputs a judicial risk assessment report ready for filing, credit, or investment decisions.  
+COMPÉTENCES d'évaluation des risques de litige · Qichacha MCP V2.0 Enhanced Edition.  
+Effectue une analyse panoramique des litiges à trois niveaux de l'entreprise cible : « état actuel + historique + personnel clé » - et génère un rapport d'évaluation des risques judiciaires prêt pour les décisions de dépôt, les décisions de crédit et les décisions d'investissement.  
+
 Capacités de base :  
-- Three-layer litigation panorama: current company status (17 qcc-risk tools) + company history (14 qcc-history tools) + key personnel (18 qcc-executive tools)  
-- Tendances des séries chronologiques : analyse des tendances réelles sur 5 à 10 ans basée sur des jugements, des dossiers et des annonces d'audience historiques.  
-- Enforcement capacity diagnosis: enforced / dishonest / high-consumption restricted / case-closed-without-recovery × current × historical, identifying “repair-type” vs “chronically dishonest” entities  
-- Profils des personnes clés en matière de litige : image complète des litiges du représentant légal, du contrôleur effectif, du président et du directeur général  
-- Calcul de l'exposition au risque : paiement potentiel des affaires en cours, montants d'exécution impayés, ratio sur le capital social  
-Use cases: pre-litigation opponent check / credit due diligence / investment DD / supplier onboarding / customer credit review / bankruptcy early warning  
-Usage: /litigation-analysis-qcc CompanyName [--period lastNyears] [--type contract dispute|labor dispute|IP|...] [--person-scan whether to scan key personnel]
+- Panorama des litiges à trois niveaux : statut actuel de l'entreprise (17 outils qcc-risque) + historique de l'entreprise (14 outils qcc-historique) + personnel clé (18 outils qcc-exécutifs)  
+- Tendances des séries chronologiques : analyse des tendances réelles sur 5 à 10 ans basée sur les jugements historiques, les dossiers déposés et les annonces d'audiences  
+- Diagnostic des capacités de mise en application : statuts appliqués / malhonnêtes / restreints à forte consommation / clôture des dossiers × actuels × historiques, identifiant les « entités réhabilitées » par rapport aux « entités chroniquement malhonnêtes »  
+- Profils contentieux du personnel clé : paysage contentieux personnel complet du représentant légal, du contrôleur effectif, du président et du directeur général  
+- Calcul de l'exposition au risque : paiements potentiels des affaires en cours, montants à exécuter, ratio au capital social  
+
+Scénarios applicables : contrôle de contrepartie pré-contentieux / diligence raisonnable en matière de crédit / diligence raisonnable en matière d'investissement / intégration des fournisseurs / évaluation du crédit client / alerte précoce en cas de faillite.  
+
+Utilisation : /litigation-analysis-qcc Nom de l'entreprise [--période lastNyears] [--type conflit contractuel|conflit de travail|IP|...] [--person-scan s'il faut analyser les profils de litige du personnel clé]

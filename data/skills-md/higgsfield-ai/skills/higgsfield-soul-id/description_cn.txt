@@ -1,0 +1,10 @@
+训练灵魂人物——一个人脸上的个性化模型
+Higgsfield 用于生成忠实于身份的图像和视频。
+使用时间：“创造我的灵魂”、“训练我的脸”、“制作我的数字孪生”、
+“为我建立一个头像”，“学习我的外表”，“创造一个我的角色”，
+“为视频设置身份”，“我希望我的脸出现在生成的图像中”。
+链：训练灵魂（一次性，返回reference_id）→用于
+higgsfield-generate 通过 `--soul-id <id>` 模型如下
+`text2image_soul_v2` 或 `soul_cinema_studio`。
+不适用于：一次性面部交换（使用 higgsfield-generate 和 --image），
+命名字符/非照片头像（使用 higgsfield-generate 并提示）。

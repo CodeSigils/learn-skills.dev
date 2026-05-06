@@ -1,4 +1,13 @@
-供应链风险评估Skill - 企查查MCP增强版。 针对制造业、零售业企业的供应链风险全维度评估，覆盖供应商风险、客户集中度、物流风险。
-核心功能： - 供应商风险评估：上游关键供应商的工商、风险、经营健康度 - 客户集中度分析：下游大客户的依赖度与稳定性 - 招投标活跃度：通过招投标数据评估供应链活力 - 行业地位评估：企业在供应链中的议价能力与替代性 - 风险传导预警：识别可能传导至企业的供应链风险
-适用场景：制造业供应链风控、零售业供应商管理、供应链金融、采购决策支持。
-使用方式：/supply-chain-risk-qcc 企业名称 [--tier 评估层级] [--depth 穿透深度]
+Supply Chain Risk Assessment Skill – Qichacha MCP Enhanced Edition  
+Comprehensive supply-chain risk evaluation for manufacturing and retail enterprises, covering supplier risk, customer concentration, and logistics risk.  
+
+Core functions:  
+- Supplier risk assessment: business registration, risk profile, and operational health of key upstream suppliers  
+- Customer concentration analysis: dependency on and stability of major downstream customers  
+- Bidding activity: supply-chain vitality gauged through tender data  
+- Industry position assessment: enterprise bargaining power and substitutability within the supply chain  
+- Risk transmission early warning: identification of supply-chain risks likely to propagate to the enterprise  
+
+Applicable scenarios: manufacturing supply-chain risk control, retail supplier management, supply-chain finance, procurement decision support.  
+
+Usage: /supply-chain-risk-qcc CompanyName [--tier assessment_level] [--depth penetration_depth]

@@ -1,0 +1,3 @@
+Guida le transizioni di stato dell'esperimento: avvio, pausa, ripresa, fine, varianti di spedizione, archiviazione, ripristino e duplicazione. Copre le precondizioni, le implicazioni per l'assegnazione e l'analisi delle varianti e il quadro decisionale su quando utilizzare ciascuna azione.
+SI ATTIVA quando: l'utente chiede di avviare, mettere in pausa, riprendere, terminare, spedire, archiviare, reimpostare o duplicare un esperimento.
+NON SI ATTIVA quando: l'utente sta creando un esperimento (usa la creazione-esperimenti), configura l'implementazione (usa la configurazione-esperimento-rollout) o imposta le metriche (usa la configurazione-esperimento-analitica).

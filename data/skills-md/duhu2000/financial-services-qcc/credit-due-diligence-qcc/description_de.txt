@@ -1,12 +1,11 @@
-Kredit-Due-Diligence-Bericht SKILL · Qichacha MCP V2.0 Enhanced Edition.  
-Ein umfassendes Corporate-Due-Diligence-Tool vor der Kreditgenehmigung und -auszahlung. Nach Eingabe des vollständigen Namens des Zielunternehmens wird automatisch das fünf-in-eins-Kreditrisikoprofil vervollständigt: Überprüfung der Unternehmensregistrierung, reale Finanzlage, gerichtlicher Risikoscan, Rückverfolgbarkeit von Kreditreparaturen und persönliches Risiko des obersten Verantwortlichen. Anschließend wird ein archivierbarer Kreditentscheidungsentwurf ausgegeben.
+Kredit-Due-Diligence-Bericht SKILL · Qichacha MCP V2.0 Enhanced Edition. Ein umfassendes Corporate-Due-Diligence-Tool für die Kreditgenehmigung vor Kreditaufnahme. Nach der Eingabe des vollständigen Namens des Zielunternehmens wird automatisch ein Fünf-in-Eins-Kreditrisikoprofil erstellt, das die Überprüfung der Unternehmensregistrierung, die tatsächlichen finanziellen Rahmenbedingungen, die gerichtliche Risikoprüfung, die Rückverfolgbarkeit von Kreditreparaturen und das persönliche Risiko des ultimativen Controllers umfasst, und gibt dann einen Kreditentscheidungsentwurf aus, der direkt eingereicht werden kann.  
 
 Kernkompetenzen:  
-- Echtes finanzielles Chassis: „get_financial_data“ kommt erstmals in Kreditszenarien zum Einsatz und liefert vollständige 3-Jahres-Finanzberichte (Asset-Liability-Ratio/Quick-Ratio/Eigenkapital/Betriebs-Cashflow) und beendet die alte Abhängigkeit von Ereignissignalen zur Ableitung der Zahlungsfähigkeit.  
-- Rückverfolgbarkeit von Kreditreparaturen: qcc-history 14 historische Risikotools unterscheiden zwischen „Reparaturunternehmen und aufeinanderfolgenden Zahlungsausfällen“, die für das Rating entscheidend sind.  
-- Ultimative persönliche Backstop-Bewertung des Controllers × des gesetzlichen Vertreters: Der Quick-Scan des QCC-Executive-Core-Tools identifiziert versteckte Risiken eines „sauberen Unternehmens, riskanter Controller“.  
-- Bonitätsbeurteilung × vorgeschlagenes Kreditlimit × Risikominderungsklauseln: Gibt Entscheidungsmaterial bereit für den Kreditausschuss.
+- Real Financial Chassis: „get_financial_data“ wird erstmals in Kreditszenarien eingeführt und liefert vollständige 3-Jahres-Finanzberichte (Verhältnis von Schulden zu Eigenkapital / Quick Ratio / Eigenkapital / operativer Cashflow) und beendet die alte Praxis, die Zahlungsfähigkeit ausschließlich aus Ereignissignalen abzuleiten.  
+- Rückverfolgbarkeit von Kreditreparaturen: qcc-history 14 historische Risikotools unterscheiden zwischen „Reparaturtyp“- und „Serienverletzungs“-Entitäten, die für die Bewertung entscheidend sind.  
+- Ultimate Controller × Legal Rep Personal Backstop Assessment: Das qcc-executive-Kerntool scannt schnell versteckte Risiken von „sauberem Unternehmen, Controller in Not“.  
+- Bonitätsbewertung × Vorgeschlagenes Kreditlimit × Risikominderungsklauseln: Gibt Entscheidungsmaterialien für den Kreditausschuss aus.  
 
-Anwendbare Szenarien: Genehmigung von Unternehmenskrediten / Supply-Chain-Finanzierungskredit / Finanzierungsleasing-Risikokontrolle / Factoring-Zulassung / Betriebskapital × Projekt × M&A-Darlehensvorprüfung.
+Anwendbare Szenarien: Genehmigung von Unternehmenskrediten / Supply-Chain-Finanzierungskredit / Finanzierungsleasing-Risikokontrolle / Factoring-Zulassung / Betriebskapital × Projekt × M&A-Darlehensvorprüfung.  
 
-Verwendung: /credit-due-diligence Firmenname [--amount Kreditbetrag] [--tenor Kreditlaufzeit] [--type Working-Capital|Projekt|M&A] [--format md|docx|pptx]
+Verwendung: /credit-due-diligence CompanyName [--amountcreditAmount] [--tenor tenor] [--typeworking|project|M&A] [--format md|docx|pptx]

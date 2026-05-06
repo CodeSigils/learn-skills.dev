@@ -1,0 +1,1 @@
+Controlla periodicamente le metriche WandB durante l'addestramento per individuare tempestivamente i problemi (NaN, divergenza delle perdite, GPU inattive). Evita di sprecare ore GPU in caso di esecuzioni interrotte. Utilizzalo quando è in corso la formazione e desideri controlli sanitari automatizzati.

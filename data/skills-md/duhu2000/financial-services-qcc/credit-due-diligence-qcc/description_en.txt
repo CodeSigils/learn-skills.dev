@@ -1,4 +1,11 @@
-授信尽调报告 SKILL · 企查查 MCP V2.0 增强版。 信贷审批放款前的全维度企业尽调工具。输入目标企业全称后，自动完成工商核验、真实财务底盘、司法风险扫描、信用修复追溯、实控人个人风险五位一体的授信风险画像，输出可直接归档的授信决策底稿。
-核心能力： - 真实财务底盘：`get_financial_data` 首次引入授信场景，直接返回 3 年完整财报（资产负债率 / 速动比率 / 所有者权益 / 经营现金流），告别旧版仅靠事件信号推断偿债 - 信用修复追溯：qcc-history 14 个历史风险工具识别"修复型主体 vs 连年失信型"，对评级起决定性作用 - 实控人 × 法代个人兜底能力评估：qcc-executive 核心工具快扫，识别"企业清洁、实控人出险"的隐性风险 - 授信评级 × 建议授信额度 × 风险缓释条款：输出可直接进入信贷审批委员会的决策材料
-适用场景：银行对公贷款审批 / 供应链金融授信 / 融资租赁风控 / 保理业务准入 / 流贷 × 项目贷 × 并购贷预审。
-使用方式：/credit-due-diligence 企业名称 [--amount 授信金额] [--tenor 授信期限] [--type 流贷|项目贷|并购贷] [--format md|docx|pptx]
+Credit Due Diligence Report SKILL · Qichacha MCP V2.0 Enhanced Edition. A full-dimensional corporate due-diligence tool for pre-loan credit approval. After entering the target company’s full name, it automatically completes a five-in-one credit-risk profile covering business-registration verification, real financial chassis, judicial-risk scan, credit-repair traceability, and ultimate controller personal risk, then outputs a credit-decision draft ready for direct filing.  
+
+Core capabilities:  
+- Real Financial Chassis: `get_financial_data` debuts in credit scenarios, returning complete 3-year financial statements (debt-to-equity ratio / quick ratio / owners’ equity / operating cash flow), ending the old practice of inferring solvency solely from event signals.  
+- Credit-Repair Traceability: qcc-history 14 historical-risk tools distinguish “repair-type” from “serial-breach” entities, decisive for rating.  
+- Ultimate Controller × Legal Rep Personal Backstop Assessment: qcc-executive core tool quick-scans hidden risks of “clean company, controller in distress.”  
+- Credit Rating × Proposed Credit Limit × Risk-Mitigation Clauses: outputs decision materials ready for the credit committee.  
+
+Applicable scenarios: corporate loan approval / supply-chain finance credit / financial-leasing risk control / factoring admission / working-capital × project × M&A loan pre-screening.  
+
+Usage: /credit-due-diligence CompanyName [--amount creditAmount] [--tenor tenor] [--type working|project|M&A] [--format md|docx|pptx]

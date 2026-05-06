@@ -1,0 +1,10 @@
+Train a Soul Character: un modello personalizzato sul volto di una persona
+Higgsfield utilizza per la generazione di immagini e video fedeli all'identità.
+Utilizzare quando: "crea la mia anima", "allena la mia faccia", "crea il mio gemello digitale",
+"costruiscimi un avatar", "impara il mio aspetto", "crea un mio personaggio",
+"imposta identità per video", "Voglio il mio viso nelle immagini generate".
+Catena: addestra Soul (una volta, restituisce reference_id) → utilizza in
+generazione di higgsfield tramite `--soul-id <id>` con modelli come
+`text2image_soul_v2` o `soul_cinema_studio`.
+NON per: scambi di volti one-shot (usa higgsfield-generate con --image),
+avatar con personaggi con nome/senza foto (utilizzare higgsfield-generate con prompt).

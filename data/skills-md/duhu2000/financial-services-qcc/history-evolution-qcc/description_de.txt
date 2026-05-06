@@ -1,20 +1,21 @@
-Fähigkeit zur Analyse der historischen Entwicklung und Entwicklung des Unternehmens – Qichacha MCP-basierter KYB 3D Narrative Report Generator.  
-Erstellt mithilfe von 146 Qichacha MCP-Tools automatisch einen historischen KYB-Entwicklungsbericht mit 11 Kapiteln und Anhängen.  
+Fähigkeit zur Analyse der historischen Entwicklung und Entwicklung des Unternehmens – Qichacha MCP-gestützter KYB 3-D Narrative Report Generator.  
+Erstellt mithilfe der 146 Tools von Qichacha MCP automatisch einen historischen KYB-Entwicklungsbericht mit 11 Kapiteln und Anhängen.  
+
 Kernfunktionen von V1.2 (schemagesteuert · Anti-Fabrikation):  
-- **USCC-Prüfziffer**: Prüfzifferalgorithmus GB 32100-2015; erfundene einheitliche Sozialkreditcodes werden blockiert  
-- **Anzahl ≡ Zeilen**: Für Listen mit Anteilseignern/historischen Anteilseignern/Direktoren, Vorgesetzten, leitenden Angestellten/externen Investitionen müssen die angegebenen Anzahlen mit den tatsächlichen Zeilenanzahlen übereinstimmen  
-- **Beweisanker**: Jedes Feld trägt eine 4-Tupel-Herkunft (tool_name, json_path, snapshot_ts, raw_value)  
-- **Kapitelübergreifende Konsistenz**: Der Strafstatus verbietet Wörter wie „gelöst/geschlossen“, sofern sie nicht ausdrücklich von MCP zurückgegeben werden; Die jährliche Patentverteilungssumme muss der Gesamtsumme entsprechen. Selbstüberprüfung der zeitlichen Rationalität  
-- **manifest.json**: Jeder Bericht gibt eine Herkunftskette auf Feldebene zur Nachverfolgbarkeit bei Audits aus  
+- **USCC-Prüfziffer**: GB 32100-2015-Algorithmus; erfundene einheitliche Sozialkreditcodes werden blockiert  
+- **Anzahl ≡ Zeilen**: Aktionärs-/ehemaliger Aktionärs-/Direktoren-Vorgesetzte-Senioren-/Outbound-Investitionslisten – die deklarierte Anzahl muss der tatsächlichen Zeilenanzahl entsprechen  
+- **Beweisanker**: jedes Feld über 4-Tupel nachverfolgbar (tool_name, json_path, snapshot_ts, raw_value)  
+- **Kapitelübergreifende Konsistenz**: Der Strafstatus verbietet die Selbsterklärung „gelöst/geschlossen“, es sei denn, MCP gibt dies ausdrücklich zurück; Die jährlichen Gesamtsummen der Patente müssen korrekt summiert sein. Selbstüberprüfung der zeitlichen Gesundheit  
+- **manifest.json**: Pro-Bericht-Herkunftskette auf Feldebene für die Audit-Wiedergabe  
 
 Kernfunktionen:  
-- 11-Kapitel-Struktur: §1 Unternehmensübersicht / §2 Entwicklungsmeilensteine / §3 Eingetragenes Kapital / §4 Namensänderungen / §5 Eigenkapitalentwicklung / §6 Geschäftsverlauf / §7 Adressänderungen / §8 Zusammenfassung / §9 Entwicklungsübersicht / §10 Anhang / §11 Prüfungsarchiv  
-- 3D-Erzählung: Lizenz-Qualifikationsmatrix, IP-Layout, Geschäftsausweitung und Mitarbeiterzahl, Branchenposition und Auszeichnungen  
-- Stufenanpassung: Mikrostufen (4,5 ¥), finanzierte Stufen (13 ¥)/gelistete Stufen (18 ¥) werden automatisch mit differenzierten Anrufen erkannt  
-- Visueller Stil: Punkt + vertikale Zeitleiste + blaue Kyb-Opus-Kapitelbalken + Tabellen mit Zebrastreifen, direkte PDF-Ausgabe  
+- 11-Kapitel-Struktur: §1 Firmenprofil / §2 Meilensteine / §3 Eingetragenes Kapital / §4 Namensänderungen / §5 Eigenkapitalentwicklung / §6 Geschäftsverlauf / §7 Adressmigration / §8 Zusammenfassung / §9 Entwicklungsübersicht / §10 Anhang / §11 Prüfungsarchiv  
+- 3-D-Erzählung: Lizenz-Qualifikationsmatrix, IP-Layout, Geschäftsausweitung und Mitarbeiterzahl, Branchenstatus und Auszeichnungen  
+- Automatische Tieranpassung: Mikro- (4,5 Yen) / finanzierte (13 Yen) / gelistete (18 Yen) Tiers werden automatisch mit differenzierten Anrufen erkannt  
+- Visueller Stil: Punkt + vertikale Zeitleiste + blaue Kyb-Opus-Kapitelbalken + Zebra-Tabellen, Direkt-zu-PDF  
 
-Anwendbare Szenarien: Due Diligence vor der Investition (PE/VC), Erstellung von IC-Memo-Anhängen, Bankkredit-KYB, Hintergrundüberprüfungen von Lieferanten, Überprüfung des Managementhintergrunds und der Entwicklungshistorie.  
+Anwendungsfälle: DD vor der Investition (PE/VC), IC-Memo-Anhang, Bankkredit-KYB, Lieferanten-Hintergrundüberprüfung, Überprüfung der Managementhistorie.  
 
-Verwendung: /history-evolution-qcc Firmenname [Einheitlicher Sozialkreditcode]  
+Verwendung: `/history-evolution-qcc Firmenname [unified_social_credit_code]`  
 
 Kundenerfahrung: Ein-Satz-Befehl → 60-sekündige automatische Generierung von MD + PDF + manifest.json, kein Eingriff, keine Fabrikation.

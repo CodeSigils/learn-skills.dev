@@ -1,0 +1,11 @@
+Rapporto sulla due diligence del credito SKILL · Qichacha MCP V2.0 Enhanced Edition. Uno strumento completo di due diligence aziendale per l’approvazione del credito pre-finanziamento. Dopo aver inserito il nome completo della società target, completa automaticamente un profilo di rischio di credito cinque in uno che copre la verifica della registrazione aziendale, il telaio finanziario reale, la scansione del rischio giudiziario, la tracciabilità della riparazione del credito e il rischio personale del controllore finale, quindi produce una bozza di decisione sul credito pronta per l'archiviazione diretta.  
+
+Funzionalità principali:  
+- Real Financial Chassis: `get_financial_data` debutta negli scenari di credito, restituendo rendiconti finanziari triennali completi (rapporto debito/capitale netto / rapporto rapido / patrimonio netto dei proprietari / flusso di cassa operativo), ponendo fine alla vecchia pratica di dedurre la solvibilità esclusivamente dai segnali degli eventi.  
+- Tracciabilità del Credit-Repair: qcc-history 14 strumenti di rischio storico distinguono le entità “repair-type” da quelle “serial-breach”, determinanti per il rating.  
+- Valutazione del backstop personale del controller finale x del rappresentante legale: lo strumento principale qcc-executive analizza rapidamente i rischi nascosti di "azienda pulita, controller in difficoltà".  
+- Rating del credito × Limite di credito proposto × Clausole di attenuazione del rischio: materiali decisionali in uscita pronti per il comitato del credito.  
+
+Scenari applicabili: approvazione del prestito aziendale/credito finanziario della catena di fornitura/controllo del rischio di leasing finanziario/ammissione al factoring/capitale circolante × progetto × pre-screening del prestito M&A.  
+
+Utilizzo: /credit-due-diligence CompanyName [--amount creditAmount] [--tenor tenor] [--type working|project|M&A] [--format md|docx|pptx]

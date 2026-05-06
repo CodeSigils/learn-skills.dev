@@ -1,0 +1,13 @@
+Valutazione del rischio di contenzioso SKILL · Qichacha MCP V2.0 Enhanced Edition.  
+Esegue una scansione panoramica del contenzioso a tre livelli della società target - "stato attuale + record storico + personale chiave" - ​​e produce un rapporto di valutazione del rischio giudiziario pronto per decisioni di deposito, decisioni di credito e decisioni di investimento.  
+
+Funzionalità principali:  
+- Panorama del contenzioso a tre livelli: stato attuale dell'azienda (17 strumenti qcc-rischio) + storia aziendale (14 strumenti qcc-storia) + personale chiave (18 strumenti qcc-esecutivi)  
+- Tendenze delle serie temporali: analisi delle tendenze reali su 5-10 anni basata su giudizi storici, documenti depositati su casi e annunci di udienze  
+- Diagnosi della capacità di applicazione: stati imposti / disonesti / limitati ad alto consumo / chiusura dei casi × attuale × storico, identificando "entità riabilitate" rispetto a "entità cronicamente disoneste"  
+- Profili contenziosi del personale chiave: panorama completo del contenzioso personale del rappresentante legale, del controller effettivo, del presidente e del direttore generale  
+- Calcolo dell'esposizione al rischio: pagamenti potenziali da cause pendenti, importi da eseguire, rapporto con il capitale sociale  
+
+Scenari applicabili: verifica pre-contenzioso della controparte/due diligence del credito/due diligence degli investimenti/onboarding dei fornitori/valutazione del credito del cliente/allarme tempestivo di fallimento.  
+
+Utilizzo: /litigation-analysis-qcc Nome azienda [--period lastNyears] [--tipo controversia contrattuale|disputa di lavoro|IP|...] [--person-scansione se scansionare i profili di controversie del personale chiave]

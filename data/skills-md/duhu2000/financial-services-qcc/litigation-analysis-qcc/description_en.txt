@@ -1,4 +1,13 @@
-诉讼风险评估 SKILL · 企查查 MCP V2.0 增强版。 对目标企业执行"企业现状 + 企业历史 + 核心人员"三层诉讼全景扫描，输出可直接用于立案决策、授信决策、投资决策的司法风险评估报告。
-核心能力： - 三层诉讼全景：企业现状（17 个 qcc-risk 工具） + 企业历史（14 个 qcc-history 工具） + 核心人员（18 个 qcc-executive 工具） - 时间序列趋势：基于历史裁判文书 / 立案 / 开庭公告做近 5-10 年真实趋势分析 - 执行能力诊断：被执行 / 失信 / 限高 / 终本 × 现状 × 历史双层，识别"修复型主体"与"连年失信型主体" - 核心人员诉讼档案：法代 + 实控人 + 董事长 + 总经理的个人涉诉全景 - 风险敞口精算：未结案件潜在赔付、执行案件待履行金额、占注册资本比例
-适用场景：立案前对手方核查 / 授信尽调 / 投资尽调 / 供应商准入 / 客户信用评估 / 破产预警。
-使用方式：/litigation-analysis-qcc 企业名称 [--period 近N年] [--type 合同纠纷|劳动争议|知识产权|...] [--person-scan 是否对核心人员做诉讼档案]
+Litigation Risk Assessment SKILL · Qichacha MCP V2.0 Enhanced Edition.  
+Performs a three-layer litigation panorama scan of the target company—“current status + historical record + key personnel”—and outputs a judicial risk assessment report ready for filing decisions, credit decisions, and investment decisions.  
+
+Core capabilities:  
+- Three-layer litigation panorama: current company status (17 qcc-risk tools) + company history (14 qcc-history tools) + key personnel (18 qcc-executive tools)  
+- Time-series trends: real 5–10-year trend analysis based on historical judgments, case filings, and hearing announcements  
+- Enforcement capability diagnosis: enforced / dishonest / high-consumption restricted / case-closure statuses × current × historical, identifying “rehabilitated entities” vs. “chronically dishonest entities”  
+- Key personnel litigation profiles: full personal litigation landscape of legal representative, actual controller, chairman, and general manager  
+- Risk exposure calculation: potential payouts from pending cases, amounts to be enforced, ratio to registered capital  
+
+Applicable scenarios: pre-litigation counterparty check / credit due diligence / investment due diligence / supplier onboarding / customer credit evaluation / bankruptcy early warning.  
+
+Usage: /litigation-analysis-qcc Company Name [--period lastNyears] [--type contract dispute|labor dispute|IP|...] [--person-scan whether to scan key personnel litigation profiles]

@@ -1,0 +1,3 @@
+Guida gli agenti attraverso il flusso di creazione dell'esperimento in 3 fasi: definizione dell'ipotesi, configurazione dell'implementazione e impostazione dell'analisi. Delega le decisioni di implementazione alla configurazione dell'implementazione dell'esperimento e l'impostazione della metrica alla configurazione dell'analisi dell'esperimento.
+ATTIVA quando: l'utente chiede di creare un nuovo esperimento o un test A/B, OPPURE quando stai per chiamare sperimentale-crea.
+NON SI ATTIVA quando: l'utente sta aggiornando un esperimento esistente, gestendo il ciclo di vita o solo esplorando gli esperimenti.
