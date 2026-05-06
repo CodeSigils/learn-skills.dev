@@ -1,0 +1,3 @@
+Führt Agenten durch den dreistufigen Prozess zur Experimenterstellung: Definieren der Hypothese, Konfigurieren des Rollouts und Einrichten von Analysen. Delegiert Rollout-Entscheidungen an „Configuring-Experiment-Rollout“ und die Einrichtung von Metriken an „Configuring-Experiment-Analytics“.
+TRIGGER, wenn: Der Benutzer fragt, ob er ein neues Experiment oder einen A/B-Test erstellen möchte, ODER wenn Sie experiment-create aufrufen möchten.
+NICHT AUSLÖSEN, wenn: Der Benutzer ein vorhandenes Experiment aktualisiert, den Lebenszyklus verwaltet oder nur Experimente durchsucht.

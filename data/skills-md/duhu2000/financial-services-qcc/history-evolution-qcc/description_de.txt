@@ -1,0 +1,20 @@
+Fähigkeit zur Analyse der historischen Entwicklung und Entwicklung des Unternehmens – Qichacha MCP-basierter KYB 3D Narrative Report Generator.  
+Erstellt mithilfe von 146 Qichacha MCP-Tools automatisch einen historischen KYB-Entwicklungsbericht mit 11 Kapiteln und Anhängen.  
+Kernfunktionen von V1.2 (schemagesteuert · Anti-Fabrikation):  
+- **USCC-Prüfziffer**: Prüfzifferalgorithmus GB 32100-2015; erfundene einheitliche Sozialkreditcodes werden blockiert  
+- **Anzahl ≡ Zeilen**: Für Listen mit Anteilseignern/historischen Anteilseignern/Direktoren, Vorgesetzten, leitenden Angestellten/externen Investitionen müssen die angegebenen Anzahlen mit den tatsächlichen Zeilenanzahlen übereinstimmen  
+- **Beweisanker**: Jedes Feld trägt eine 4-Tupel-Herkunft (tool_name, json_path, snapshot_ts, raw_value)  
+- **Kapitelübergreifende Konsistenz**: Der Strafstatus verbietet Wörter wie „gelöst/geschlossen“, sofern sie nicht ausdrücklich von MCP zurückgegeben werden; Die jährliche Patentverteilungssumme muss der Gesamtsumme entsprechen. Selbstüberprüfung der zeitlichen Rationalität  
+- **manifest.json**: Jeder Bericht gibt eine Herkunftskette auf Feldebene zur Nachverfolgbarkeit bei Audits aus  
+
+Kernfunktionen:  
+- 11-Kapitel-Struktur: §1 Unternehmensübersicht / §2 Entwicklungsmeilensteine / §3 Eingetragenes Kapital / §4 Namensänderungen / §5 Eigenkapitalentwicklung / §6 Geschäftsverlauf / §7 Adressänderungen / §8 Zusammenfassung / §9 Entwicklungsübersicht / §10 Anhang / §11 Prüfungsarchiv  
+- 3D-Erzählung: Lizenz-Qualifikationsmatrix, IP-Layout, Geschäftsausweitung und Mitarbeiterzahl, Branchenposition und Auszeichnungen  
+- Stufenanpassung: Mikrostufen (4,5 ¥), finanzierte Stufen (13 ¥)/gelistete Stufen (18 ¥) werden automatisch mit differenzierten Anrufen erkannt  
+- Visueller Stil: Punkt + vertikale Zeitleiste + blaue Kyb-Opus-Kapitelbalken + Tabellen mit Zebrastreifen, direkte PDF-Ausgabe  
+
+Anwendbare Szenarien: Due Diligence vor der Investition (PE/VC), Erstellung von IC-Memo-Anhängen, Bankkredit-KYB, Hintergrundüberprüfungen von Lieferanten, Überprüfung des Managementhintergrunds und der Entwicklungshistorie.  
+
+Verwendung: /history-evolution-qcc Firmenname [Einheitlicher Sozialkreditcode]  
+
+Kundenerfahrung: Ein-Satz-Befehl → 60-sekündige automatische Generierung von MD + PDF + manifest.json, kein Eingriff, keine Fabrikation.

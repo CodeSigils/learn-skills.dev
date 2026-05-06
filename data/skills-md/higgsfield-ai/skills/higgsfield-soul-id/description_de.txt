@@ -1,0 +1,10 @@
+Trainiere einen Seelencharakter – ein personalisiertes Modell auf dem Gesicht einer Person
+Higgsfield dient zur identitätsgetreuen Bild- und Videogenerierung.
+Verwenden Sie, wenn: „meine Seele erschaffen“, „mein Gesicht trainieren“, „meinen digitalen Zwilling erstellen“,
+„Baue mir einen Avatar“, „lerne mein Aussehen“, „erstelle einen Charakter von mir“,
+„Identität für Video einrichten“, „Ich möchte mein Gesicht in generierten Bildern haben“.
+Kette: Seele trainieren (einmalig, gibt reference_id zurück) → verwenden in
+Higgsfield-Generierung über „--soul-id <id>“ mit Modellen wie
+„text2image_soul_v2“ oder „soul_cinema_studio“.
+NICHT für: One-Shot-Gesichtswechsel (higgsfield-generate mit --image verwenden),
+Avatare mit benannten Charakteren / Nicht-Foto-Avatare (higgsfield-generate mit Eingabeaufforderung verwenden).
