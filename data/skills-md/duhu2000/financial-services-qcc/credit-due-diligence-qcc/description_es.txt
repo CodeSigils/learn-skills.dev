@@ -1,0 +1,12 @@
+Informe de debida diligencia crediticia HABILIDAD · Qichacha MCP V2.0 Edición mejorada.  
+Una herramienta de debida diligencia corporativa completa para la aprobación de créditos previos al préstamo. Después de ingresar el nombre legal completo de la empresa objetivo, crea automáticamente un perfil de riesgo crediticio cinco en uno que cubre la verificación del registro comercial, el chasis financiero real, el análisis del riesgo de litigios, la trazabilidad de la reparación de crédito y el riesgo personal del controlador final, y luego genera un borrador de decisión crediticia archivable.  
+
+Capacidades principales:  
+- Chasis financiero real: `get_financial_data` debuta en escenarios crediticios, devolviendo estados financieros completos de 3 años (deuda a capital / relación rápida / patrimonio de los propietarios / flujo de caja operativo), poniendo fin a la antigua dependencia de las señales de eventos para inferir la solvencia.  
+- Trazabilidad de la reparación de crédito: las 14 herramientas de riesgo histórico de qcc-history distinguen las entidades de "tipo de reparación" de las de "incumplimiento en serie", lo que es decisivo para la calificación.  
+- Evaluación definitiva del respaldo personal del controlador × representante legal: la herramienta central qcc-executive detecta rápidamente el riesgo oculto de "empresa limpia, controlador riesgoso".  
+- Calificación crediticia × límite propuesto × cláusulas de mitigación de riesgos: resultados materiales de decisión listos para la junta.  
+
+Casos de uso: aprobación de préstamos corporativos / financiación de la cadena de suministro / control de riesgos de arrendamiento / admisión de factoring / capital de trabajo × proyecto × preselección de préstamos para fusiones y adquisiciones.  
+
+Uso: /crédito-debida-diligencia nombre_compañía [--límite de monto] [--plazo de plazo] [--tipo de trabajo|proyecto|adquisición] [--formato md|docx|pptx]

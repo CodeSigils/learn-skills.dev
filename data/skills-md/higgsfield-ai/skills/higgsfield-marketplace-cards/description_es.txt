@@ -1,0 +1,10 @@
+Genere tarjetas de imagen de productos de mercado a través de Higgsfield: compatible
+imagen principal, imágenes secundarias de productos y módulos de contenido de estilo A+. Usar cuando
+el usuario solicita imágenes de listados del mercado, tarjetas de detalles del producto,
+imágenes de productos secundarios, infografías de productos, fotografías de listados de estilos de vida,
+Contenido de estilo A+, conjuntos de imágenes de mercado o imágenes de productos listos para la venta.
+Backend posee referencias de cumplimiento del mercado y plantillas de avisos; esta habilidad
+solo enruta la intención del usuario a la CLI.
+NO para fotografías de productos de marcas genéricas sin contexto de mercado/lista
+(use higgsfield-product-photoshoot), generación de videos o anuncios UGC (use
+higgsfield-generate), o entrenamiento del carácter del alma (use higgsfield-soul-id).

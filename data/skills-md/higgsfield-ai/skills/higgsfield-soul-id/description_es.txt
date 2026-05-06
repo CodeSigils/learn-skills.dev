@@ -1,0 +1,10 @@
+Entrena un personaje del alma: un modelo personalizado en el rostro de una persona que
+Higgsfield utiliza para la generación de imágenes y vídeos fieles a la identidad.
+Úselo cuando: "crear mi alma", "entrenar mi rostro", "hacer mi gemelo digital",
+"constrúyeme un avatar", "aprende mi apariencia", "crea un personaje mío",
+"configurar identidad para vídeo", "Quiero mi cara en las imágenes generadas".
+Cadena: entrenar alma (una sola vez, devuelve reference_id) → usar en
+higgsfield-generate vía `--soul-id <id>` con modelos como
+`text2image_soul_v2` o `soul_cinema_studio`.
+NO para: intercambios de caras de una sola vez (use higgsfield-generate con --image),
+avatares de personajes con nombre/sin foto (use higgsfield-generate con el aviso).

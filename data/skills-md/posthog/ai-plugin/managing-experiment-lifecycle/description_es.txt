@@ -1,0 +1,3 @@
+Las guías experimentan transiciones de estado: iniciar, pausar, reanudar, finalizar, enviar variantes, archivar, restablecer y duplicar. Cubre las condiciones previas, las implicaciones para la asignación y el análisis de variantes y el marco de decisión sobre cuándo utilizar cada acción.
+DISPARAR cuando: el usuario solicita iniciar, pausar, reanudar, finalizar, enviar, archivar, restablecer o duplicar un experimento.
+NO DISPARAR cuando: el usuario está creando un experimento (use creación de experimentos), configurando la implementación (use configuración-experimento-despliegue) o configurando métricas (use configuración-experimento-análisis).

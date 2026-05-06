@@ -1,0 +1,10 @@
+Análisis de penetración de estructuras accionarias HABILIDAD · Qichacha MCP V2.0 Edición mejorada. Una herramienta de verificación de derechos de control antes de decisiones de inversión. Análisis dual de penetración de capital multicapa + cambio histórico de propiedad, identificando controladores reales, partes de conciertos y afiliaciones ocultas, ayudando a los equipos de inversión a aclarar rápidamente la estructura de control real de las empresas objetivo durante la DD, y detectar posibles riesgos de transacciones con partes relacionadas y controlar los riesgos de disputas. Capacidades principales:  
+- Penetración de capital en múltiples capas: seguimiento desde accionistas directos hasta UBO de personas físicas, hasta 10 capas de profundidad  
+- Generación de gráficos de estructura de capital: salida estructurada de ratios de participación y trayectorias en cada capa.  
+- **Nueva capacidad V2.0: cambios históricos de propiedad** (qcc-history): identifique cuándo “entran/salen” los accionistas y los puntos de inflexión de la valoración  
+- Identificación de parte concertada: bloquear partes concertadas ocultas a través de relaciones de coinversión, mismo controlador real, empresas afiliadas  
+- Detección de riesgos de transacciones con partes relacionadas: análisis de la red de UBO × inversiones salientes × participaciones cruzadas  
+
+Escenarios aplicables: DD de proyectos de PE/VC, debida diligencia de fusiones y adquisiciones de bancos de inversión, aprobaciones de cambios de control, verificaciones de antecedentes de demandas derivadas de accionistas, revisiones de acuerdos de concertación.  
+
+Uso: /equity-structure Nombre de la empresa [--profundidad superficial|completo] [--historical si se incluyen cambios históricos] [--format md|docx|pptx]

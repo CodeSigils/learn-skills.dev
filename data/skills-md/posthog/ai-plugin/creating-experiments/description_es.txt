@@ -1,0 +1,3 @@
+Guía a los agentes a través del flujo de creación de experimentos de 3 pasos: definir la hipótesis, configurar la implementación y configurar el análisis. Delega las decisiones de implementación a la configuración del lanzamiento del experimento y la configuración de métricas a la configuración del análisis del experimento.
+DISPARAR cuando: el usuario solicita crear un nuevo experimento o prueba A/B, O cuando está a punto de llamar a crear un experimento.
+NO ACTIVAR cuando: el usuario esté actualizando un experimento existente, administrando el ciclo de vida o solo explorando experimentos.
