@@ -1,11 +1,8 @@
-Credit Due Diligence Report SKILL · Qichacha MCP V2.0 Enhanced Edition. A full-dimensional corporate due-diligence tool for pre-loan credit approval. After entering the target company’s full name, it automatically completes a five-in-one credit-risk profile covering business-registration verification, real financial chassis, judicial-risk scan, credit-repair traceability, and ultimate controller personal risk, then outputs a credit-decision draft ready for direct filing.  
-
+Credit Due Diligence Report SKILL · Qichacha MCP V2.0 Enhanced Edition. A full-dimensional corporate due-diligence tool before credit approval and disbursement. After entering the target company’s full legal name, it automatically completes a five-in-one credit-risk profile covering business-registration verification, real financial chassis, judicial-risk scan, credit-repair traceability, and ultimate controller’s personal risk, then outputs a credit-decision draft ready for archiving.  
 Core capabilities:  
-- Real Financial Chassis: `get_financial_data` debuts in credit scenarios, returning complete 3-year financial statements (debt-to-equity ratio / quick ratio / owners’ equity / operating cash flow), ending the old practice of inferring solvency solely from event signals.  
-- Credit-Repair Traceability: qcc-history 14 historical-risk tools distinguish “repair-type” from “serial-breach” entities, decisive for rating.  
-- Ultimate Controller × Legal Rep Personal Backstop Assessment: qcc-executive core tool quick-scans hidden risks of “clean company, controller in distress.”  
-- Credit Rating × Proposed Credit Limit × Risk-Mitigation Clauses: outputs decision materials ready for the credit committee.  
-
+- Real financial chassis: `get_financial_data` debuts in credit scenarios, returning complete 3-year financial statements (asset-liability ratio / quick ratio / owners’ equity / operating cash flow), ending the old reliance on event signals to infer solvency.  
+- Credit-repair traceability: qcc-history’s 14 historical-risk tools distinguish “repair-type entities vs. consecutive defaulters”, decisive for rating.  
+- Ultimate controller × legal representative personal backstop assessment: qcc-executive’s core tool quickly flags hidden risks of “clean company, risky controller”.  
+- Credit rating × proposed credit limit × risk-mitigation clauses: outputs decision materials ready for the credit committee.  
 Applicable scenarios: corporate loan approval / supply-chain finance credit / financial-leasing risk control / factoring admission / working-capital × project × M&A loan pre-screening.  
-
-Usage: /credit-due-diligence CompanyName [--amount creditAmount] [--tenor tenor] [--type working|project|M&A] [--format md|docx|pptx]
+Usage: /credit-due-diligence company_name [--amount credit_amount] [--tenor tenor] [--type working|project|M&A] [--format md|docx|pptx]

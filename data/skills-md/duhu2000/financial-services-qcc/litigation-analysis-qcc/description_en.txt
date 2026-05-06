@@ -1,13 +1,13 @@
 Litigation Risk Assessment SKILL · Qichacha MCP V2.0 Enhanced Edition.  
-Performs a three-layer litigation panorama scan of the target company—“current status + historical record + key personnel”—and outputs a judicial risk assessment report ready for filing decisions, credit decisions, and investment decisions.  
+Performs a three-layer litigation panorama scan on the target company—“current status + historical record + key personnel”—and delivers a judicial-risk assessment report ready for filing, credit-granting, or investment decisions.  
 
 Core capabilities:  
-- Three-layer litigation panorama: current company status (17 qcc-risk tools) + company history (14 qcc-history tools) + key personnel (18 qcc-executive tools)  
+- Three-layer panorama: current status (17 qcc-risk tools) + historical record (14 qcc-history tools) + key personnel (18 qcc-executive tools)  
 - Time-series trends: real 5–10-year trend analysis based on historical judgments, case filings, and hearing announcements  
-- Enforcement capability diagnosis: enforced / dishonest / high-consumption restricted / case-closure statuses × current × historical, identifying “rehabilitated entities” vs. “chronically dishonest entities”  
-- Key personnel litigation profiles: full personal litigation landscape of legal representative, actual controller, chairman, and general manager  
-- Risk exposure calculation: potential payouts from pending cases, amounts to be enforced, ratio to registered capital  
+- Enforcement diagnosis: double-layer scan of enforcement, dishonesty, high-spending restrictions, and case closure × current × historical, distinguishing “rehabilitated” from “chronically dishonest” entities  
+- Key-person litigation profiles: full litigation landscape of legal representative, actual controller, chairman, and general manager  
+- Risk-exposure calculation: potential payout of pending cases, outstanding enforcement amounts, ratio to registered capital  
 
-Applicable scenarios: pre-litigation counterparty check / credit due diligence / investment due diligence / supplier onboarding / customer credit evaluation / bankruptcy early warning.  
+Use cases: pre-litigation counterparty check, credit due diligence, investment due diligence, supplier onboarding, customer credit evaluation, bankruptcy early warning.  
 
-Usage: /litigation-analysis-qcc Company Name [--period lastNyears] [--type contract dispute|labor dispute|IP|...] [--person-scan whether to scan key personnel litigation profiles]
+Usage: /litigation-analysis-qcc CompanyName [--period lastNyears] [--type contract dispute|labor dispute|IP|...] [--person-scan whether to scan key personnel]

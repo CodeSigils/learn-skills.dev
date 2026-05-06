@@ -1,21 +1,20 @@
-Corporate Historical Evolution & Development Analysis Skill — Qichacha MCP-powered KYB 3-D Narrative Report Generator.  
-Automatically produces an 11-chapter + appendix KYB historical-evolution report via Qichacha MCP’s 146 tools.  
-
+Corporate Historical Evolution and Development Trajectory Analysis Skill — Qichacha MCP-powered KYB 3D Narrative Report Generator.  
+Automatically produces an 11-chapter + appendix KYB historical-evolution report via 146 Qichacha MCP tools.  
 V1.2 core features (schema-driven · anti-fabrication):  
-- **USCC check-digit**: GB 32100-2015 algorithm; fabricated unified social credit codes are blocked  
-- **count ≡ rows**: shareholder / past shareholder / directors-supervisors-seniors / outbound investment lists—declared count must equal actual row count  
-- **evidence anchor**: every field traceable via 4-tuple (tool_name, json_path, snapshot_ts, raw_value)  
-- **cross-chapter consistency**: penalty status forbids self-declared “resolved/closed” unless MCP explicitly returns such; patent annual totals must sum correctly; temporal sanity self-check  
+- **USCC check-digit**: GB 32100-2015 algorithm; fabricated unified social-credit codes are blocked  
+- **count ≡ rows**: for shareholder / past shareholder / directors-supervisors-seniors / external-investment lists, declared count must equal actual row count  
+- **evidence anchor**: every field traceable via 4-tuple `(tool_name, json_path, snapshot_ts, raw_value)`  
+- **cross-chapter consistency**: penalty status cannot say “resolved/closed” unless MCP explicitly returns such; patent annual totals must sum to overall count; temporal sanity self-check  
 - **manifest.json**: per-report field-level provenance chain for audit replay  
 
 Core functions:  
-- 11-chapter structure: §1 Company Profile / §2 Milestones / §3 Registered Capital / §4 Name Changes / §5 Equity Evolution / §6 Business Track / §7 Address Migration / §8 Summary / §9 Development Overview / §10 Appendix / §11 Audit Archive  
-- 3-D narrative: license-qualification matrix, IP layout, business expansion & headcount, industry standing & honors  
-- Tier auto-adapt: micro (¥4.5) / funded (¥13) / listed (¥18) tiers auto-detected with differentiated calls  
-- Visual style: dot+vertical timeline + kyb-opus blue chapter bars + zebra tables, direct-to-PDF  
+- 11-chapter structure: §1 Company Profile / §2 Development Milestones / §3 Registered Capital / §4 Name Changes / §5 Equity Evolution / §6 Business Track / §7 Address Migration / §8 Summary / §9 Development Overview / §10 Appendix / §11 Audit Archive  
+- 3D narrative: license-qualification matrix, IP layout, business expansion & headcount, industry standing & honors  
+- Tier auto-adapt: micro (¥4.5) / funded (¥13) / listed (¥18) tiers auto-detected and differentially invoked  
+- Visual style: dot+vertical timeline + kyb-opus blue chapter bars + zebra tables, direct PDF output  
 
-Use cases: pre-investment DD (PE/VC), IC memo attachment, bank credit KYB, supplier background check, management history verification.  
+Use cases: pre-investment DD (PE/VC), IC memo attachment generation, bank-credit KYB, supplier background check, management history verification.  
 
-Usage: `/history-evolution-qcc company_name [unified_social_credit_code]`  
+Usage: `/history-evolution-qcc CompanyName [UnifiedSocialCreditCode]`  
 
 Customer experience: one-sentence command → 60-second auto-generation of MD + PDF + manifest.json, zero intervention, zero fabrication.

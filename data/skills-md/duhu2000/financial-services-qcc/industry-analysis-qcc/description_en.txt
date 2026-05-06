@@ -1,9 +1,10 @@
-Industry Analysis Assistant Skill – Qichacha MCP Enhanced Edition. Leveraging multi-dimensional data such as tendering records, qualification distribution, and enterprise counts to support industry analysis report generation. Core functions:  
-- Industry size estimation: based on tender amounts and registered capital distribution  
+Industry Analysis Assistant Skill – Qichacha MCP Enhanced Edition. Leveraging multi-dimensional data such as bidding records, qualification distribution, and enterprise counts, it helps generate industry analysis reports.  
+Core functions:  
+- Industry size estimation: based on bidding amounts and registered capital distribution  
 - Competitive landscape scan: number of firms and concentration of top players  
-- Qualification threshold analysis: key industry license requirements and certified company distribution  
-- Regional heat map: geographic distribution of firms and identification of industrial clusters  
-- Trend assessment: industry prosperity based on tendering data  
+- Qualification threshold analysis: key industry license requirements and certified companies  
+- Regional heat map: geographic distribution and cluster identification  
+- Trend judgment: industry prosperity based on bidding data  
 
-Applicable scenarios: industry research at securities institutes, consulting firm sector analysis, investment firm track selection, corporate strategy department market analysis.  
+Use cases: industry research at brokerages, consulting firms’ sector analysis, investment institutions’ track selection, corporate strategy market analysis.  
 Usage: /industry-analysis-qcc [industry name] [--region region] [--focus sub-sector]
