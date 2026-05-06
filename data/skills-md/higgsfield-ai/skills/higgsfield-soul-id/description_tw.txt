@@ -1,0 +1,10 @@
+訓練靈魂人物－一個人臉上的個人化模型
+Higgsfield 用於產生忠實於身份的圖像和影片。
+使用時間：「創造我的靈魂」、「訓練我的臉」、「製作我的數位孿生」、
+“為我建立一個頭像”，“學習我的外表”，“創造一個我的角色”，
+“為視訊設定身份”，“我希望我的臉出現在生成的圖像中”。
+鏈：訓練靈魂（一次性，返回reference_id）→用於
+higgsfield-generate 透過 `--soul-id <id>` 模型如下
+`text2image_soul_v2` 或 `soul_cinema_studio`。
+不適用於：一次性臉部交換（使用 higgsfield-generate 和 --image），
+命名字元/非照片頭像（使用 higgsfield-generate 並提示）。
