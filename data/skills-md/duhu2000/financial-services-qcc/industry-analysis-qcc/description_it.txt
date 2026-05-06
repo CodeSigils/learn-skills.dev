@@ -1,9 +1,10 @@
-Abilità di assistente all'analisi di settore – Qichacha MCP Enhanced Edition. Sfruttare dati multidimensionali come registri di gare d'appalto, distribuzione delle qualifiche e conteggi aziendali per supportare la generazione di report di analisi del settore. Funzioni principali:  
-- Stima della dimensione del settore: basata sugli importi delle gare d'appalto e sulla distribuzione del capitale sociale  
+Abilità di assistente all'analisi di settore – Qichacha MCP Enhanced Edition. Sfruttare dati multidimensionali come informazioni sulle offerte, distribuzione delle qualifiche e conteggi aziendali per generare report di analisi del settore.  
+Funzioni principali:  
+- Stima della dimensione del settore: basata sugli importi delle offerte e sulla distribuzione del capitale sociale  
 - Scansione del panorama competitivo: numero di imprese e concentrazione dei top player  
-- Analisi delle soglie di qualificazione: principali requisiti di licenza del settore e distribuzione aziendale certificata  
-- Mappa termica regionale: distribuzione geografica delle imprese e individuazione dei cluster industriali  
-- Valutazione delle tendenze: prosperità del settore sulla base dei dati relativi alle gare d'appalto  
+- Analisi delle soglie di qualificazione: principali requisiti di licenza del settore e aziende certificate  
+- Mappa termica regionale: distribuzione geografica e identificazione dei cluster  
+- Valutazione delle tendenze: prosperità del settore basata sui dati delle offerte  
 
-Scenari applicabili: ricerca di settore presso istituti di valori mobiliari, analisi del settore delle società di consulenza, selezione del percorso delle società di investimento, analisi di mercato del dipartimento di strategia aziendale.  
-Utilizzo: /industry-analysis-qcc [nome del settore] [--regione] [--sottosettore focus]
+Casi d’uso: ricerca di settore presso istituti di valori mobiliari, analisi di settore di società di consulenza, selezione di percorsi di istituti di investimento, analisi di mercato di dipartimenti di strategia aziendale.  
+Utilizzo: /industry-analysis-qcc [Nome settore] [--region Regione] [--focus Sottosettore]
