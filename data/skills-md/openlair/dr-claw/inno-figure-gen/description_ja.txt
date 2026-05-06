@@ -1,0 +1,1 @@
+デフォルトでは OpenAI gpt-image-2 を使用してイメージを生成/編集し、OPENAI_API_KEY が設定されていない場合は Gemini (gemini-3.1-flash-image-preview) にフォールバックします。テキストから画像への変換と画像から画像への変換をサポートします。 1K/2K/4K;編集には --input-image を使用し、プロバイダーを強制するには --provider を使用し、モデルをオーバーライドするには --model を使用します。
