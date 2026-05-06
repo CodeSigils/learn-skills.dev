@@ -1,0 +1,1 @@
+기본적으로 OpenAI gpt-image-2를 사용하여 이미지를 생성/편집하고, OPENAI_API_KEY가 설정되지 않은 경우 Gemini(gemini-3.1-flash-image-preview)로 대체됩니다. 텍스트 대 이미지 + 이미지 대 이미지를 지원합니다. 1K/2K/4K; 편집하려면 --input-image를 사용하고, 공급자를 강제하려면 --provider를 사용하고, 모델을 재정의하려면 --model을 사용하세요.
