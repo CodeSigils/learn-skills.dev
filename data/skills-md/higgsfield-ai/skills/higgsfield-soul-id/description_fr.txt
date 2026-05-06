@@ -1,0 +1,10 @@
+Former un personnage d'âme - un modèle personnalisé sur le visage d'une personne qui
+Higgsfield l'utilise pour la génération d'images et de vidéos fidèles à son identité.
+À utiliser lorsque : "créer mon âme", "entraîner mon visage", "créer mon jumeau numérique",
+"Construisez-moi un avatar", "Apprenez mon apparence", "Créez-moi un personnage",
+"Configurer l'identité pour la vidéo", "Je veux mon visage dans les images générées".
+Chaîne : entraîner Soul (une fois, renvoie reference_id) → utiliser dans
+higgsfield-generate via `--soul-id <id>` avec des modèles comme
+`text2image_soul_v2` ou `soul_cinema_studio`.
+PAS pour : les échanges de visages en une seule fois (utilisez higgsfield-generate avec --image),
+avatars avec personnage nommé / sans photo (utilisez higgsfield-generate avec l'invite).

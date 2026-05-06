@@ -1,0 +1,3 @@
+Guide les transitions d’état des expériences : lancement, pause, reprise, fin, expédition des variantes, archivage, réinitialisation et duplication. Couvre les conditions préalables, les implications pour l'affectation et l'analyse des variantes, ainsi que le cadre de décision pour savoir quand utiliser chaque action.
+DÉCLENCHEMENT lorsque : l'utilisateur demande de lancer, mettre en pause, reprendre, terminer, expédier, archiver, réinitialiser ou dupliquer une expérience.
+NE PAS DÉCLENCHER lorsque : l'utilisateur crée une expérience (utilisez create-experiments), configure le déploiement (utilisez configuring-experiment-rollout) ou configure des métriques (utilisez configuring-experiment-analytics).

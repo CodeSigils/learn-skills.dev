@@ -1,0 +1,12 @@
+Rapport de diligence raisonnable en matière de crédit COMPÉTENCE · Qichacha MCP V2.0 Édition améliorée.  
+Un outil complet de diligence raisonnable d’entreprise avant l’approbation et le décaissement du crédit. Après avoir saisi le nom légal complet de l’entreprise cible, il complète automatiquement un profil de risque de crédit cinq en un couvrant la vérification de l’enregistrement de l’entreprise, le châssis financier réel, l’analyse des risques judiciaires, la traçabilité de la réparation du crédit et le risque personnel du contrôleur final, puis génère un projet de décision de crédit archivable.
+
+Capacités de base  
+- Véritable châssis financier : `get_financial_data` fait ses débuts dans les scénarios de crédit, renvoyant des états financiers complets sur 3 ans (ratio d'endettement / ratio de liquidité rapide / capitaux propres / flux de trésorerie d'exploitation), mettant fin à l'ancienne pratique consistant à déduire la solvabilité uniquement à partir de signaux d'événements.  
+- Traçabilité des réparations de crédit : les 14 outils de risque historique de qcc-history distinguent les entités « type réparation » des entités « violation en série », déterminantes pour la notation.  
+- Évaluation du dispositif de sécurité personnel du contrôleur ultime × représentant légal : l'analyse rapide de l'exécutif qcc signale les risques cachés lorsque "l'entreprise semble propre mais le contrôleur est en péril".  
+- Notation de crédit × limite de crédit proposée × clauses d'atténuation des risques : fournit des documents de décision prêts pour le comité de crédit.
+
+Scénarios applicables : approbation de prêts aux entreprises / crédit de financement de la chaîne d'approvisionnement / contrôle des risques de crédit-bail / admission à l'affacturage / présélection du fonds de roulement, des projets et des prêts M&A.
+
+Utilisation : /credit-due-diligence CompanyName [--amount creditAmount] [--tenor tenor] [--type working|project|ma] [--format md|docx|pptx]

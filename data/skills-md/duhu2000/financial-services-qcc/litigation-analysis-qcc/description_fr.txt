@@ -1,0 +1,9 @@
+COMPÉTENCES d'évaluation des risques de litige · Qichacha MCP V2.0 Enhanced Edition. Performs a three-layer litigation panorama scan of the target company—“current status + historical record + key personnel”—and outputs a judicial risk assessment report ready for filing, credit, or investment decisions.  
+Capacités de base :  
+- Three-layer litigation panorama: current company status (17 qcc-risk tools) + company history (14 qcc-history tools) + key personnel (18 qcc-executive tools)  
+- Tendances des séries chronologiques : analyse des tendances réelles sur 5 à 10 ans basée sur des jugements, des dossiers et des annonces d'audience historiques.  
+- Enforcement capacity diagnosis: enforced / dishonest / high-consumption restricted / case-closed-without-recovery × current × historical, identifying “repair-type” vs “chronically dishonest” entities  
+- Profils des personnes clés en matière de litige : image complète des litiges du représentant légal, du contrôleur effectif, du président et du directeur général  
+- Calcul de l'exposition au risque : paiement potentiel des affaires en cours, montants d'exécution impayés, ratio sur le capital social  
+Use cases: pre-litigation opponent check / credit due diligence / investment DD / supplier onboarding / customer credit review / bankruptcy early warning  
+Usage: /litigation-analysis-qcc CompanyName [--period lastNyears] [--type contract dispute|labor dispute|IP|...] [--person-scan whether to scan key personnel]

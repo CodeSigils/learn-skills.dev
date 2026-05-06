@@ -1,0 +1,20 @@
+Compétence en analyse de l'évolution historique et du développement de l'entreprise — Générateur de rapports narratifs KYB 3D alimenté par Qichacha MCP.  
+Génère automatiquement un rapport d'évolution historique KYB de 11 chapitres + annexes via les 146 outils MCP de Qichacha.  
+Caractéristiques principales de la V1.2 (basées sur un schéma · anti-fabrication) :  
+- **Chiffre de contrôle USCC** : algorithme de chiffre de contrôle GB 32100-2015 ; les codes de crédit social unifiés fabriqués sont bloqués  
+- **nombre ≡ lignes** : pour les listes d'actionnaires/anciens actionnaires/administrateurs-superviseurs-dirigeants/investissements sortants, le nombre déclaré doit être égal au nombre réel de lignes  
+- **ancre de preuve** : chaque champ porte une provenance à 4 tuples (tool_name, json_path, snapshot_ts, raw_value)  
+- **cohérence entre chapitres** : le statut de pénalité interdit les mots comme « résolu/fermé » à moins qu'ils ne soient explicitement renvoyés par MCP ; le nombre annuel de brevets doit correspondre au total ; auto-vérification de la santé mentale temporelle  
+- **manifest.json** : chaque rapport génère une chaîne de provenance au niveau du champ pour la traçabilité des audits  
+
+Fonctions principales :  
+- Structure en 11 chapitres : §1 Profil de l'entreprise / §2 Étapes de développement / §3 Capital social / §4 Changements de nom / §5 Évolution des capitaux propres / §6 Piste commerciale / §7 Changements d'adresse / §8 Résumé / §9 Aperçu du développement / §10 Annexe / §11 Archives d'audit  
+- Récit 3D : matrice de qualification de licence, disposition IP, expansion de l'entreprise et effectifs, position dans l'industrie et distinctions  
+- Adaptation des niveaux : niveaux micro (4,5 ¥) / financement (13 ¥) / niveaux répertoriés (18 ¥) détectés automatiquement et invoqués de manière différentielle  
+- Style visuel : point + chronologie verticale + barres de chapitre bleues kyb-opus + tableaux à rayures zébrées, sortie PDF directe  
+
+Cas d'utilisation : diligence raisonnable avant investissement (PE/VC), génération de pièces jointes IC Memo, KYB de crédit bancaire, vérification des antécédents des fournisseurs, vérification des antécédents en matière de gestion et de développement.  
+
+Utilisation : /history-evolution-qcc CompanyName [UnifiedSocialCreditCode]  
+
+Expérience client : commande en une phrase → génération automatique de MD + PDF + manifest.json en 60 secondes, zéro intervention, zéro fabrication.

@@ -1,0 +1,3 @@
+Guide les agents tout au long du flux de création d'expériences en 3 étapes : définition de l'hypothèse, configuration du déploiement et configuration des analyses. Délégue les décisions de déploiement à la configuration du déploiement de l'expérience et la configuration des métriques à la configuration de l'analyse de l'expérience.
+DÉCLENCHEUR lorsque : l'utilisateur demande à créer une nouvelle expérience ou un nouveau test A/B, OU lorsque vous êtes sur le point d'appeler experience-create.
+NE PAS DÉCLENCHER lorsque : l'utilisateur met à jour une expérience existante, gère le cycle de vie ou parcourt uniquement les expériences.
