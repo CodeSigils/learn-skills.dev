@@ -1,0 +1,1 @@
+当用户对美股提出综合性问题、需要多维度数据（同时涉及行情+K线+基本面+技术指标）， 或提到"美股""纳斯达克""纽交所"但未明确指定具体数据类型时，必须调用此 skill 作为编排入口。 它会自动路由到 us-realtime-quote, us-kline, us-fundamental, cross-market-indicators 等子 skill。 常见触发语："全面分析一下NVDA""美股市场概况""帮我看看苹果整体情况""纳斯达克今天怎么样"。

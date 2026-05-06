@@ -1,1 +1,5 @@
-A gate skill that receives and categorizes PeachSolution development requests or PRDs before implementation, determining the necessary next skill path. Triggered by the keywords "Which skill to start with", "Request analysis", "PRD analysis", "Development path determination", "Spec/DB/proto necessity check", "Work scope assessment", "intake". It does not perform code implementation, migration generation, ui-proto creation, or E2E execution; instead, it decides which flow to follow among peach-gen-spec, peach-gen-db, peach-team-ui-proto, peach-team-dev, and peach-team-e2e.
+PeachSolution 개발 요청이나 PRD를 구현 전에 접수·분류하여 필요한 다음 스킬 경로를 판정하는 게이트 스킬.
+"어떤 스킬로 시작할까", "요청 분석", "PRD 분석", "개발 경로 판단", "Spec/DB/proto 필요 여부 판단",
+"작업 규모 판단", "intake" 키워드로 트리거.
+코드 구현, 마이그레이션 생성, ui-proto 생성, E2E 실행은 하지 않고 peach-gen-spec, peach-gen-db,
+peach-team-ui-proto, peach-team-dev, peach-team-e2e 중 어떤 흐름을 탈지 결정한다.

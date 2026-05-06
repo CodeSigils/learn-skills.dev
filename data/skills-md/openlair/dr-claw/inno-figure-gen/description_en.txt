@@ -1,0 +1,1 @@
+Generate/edit images with OpenAI gpt-image-2 by default, falling back to Gemini (gemini-3.1-flash-image-preview) when OPENAI_API_KEY is unset. Supports text-to-image + image-to-image; 1K/2K/4K; use --input-image for editing, --provider to force a provider, --model to override the model.

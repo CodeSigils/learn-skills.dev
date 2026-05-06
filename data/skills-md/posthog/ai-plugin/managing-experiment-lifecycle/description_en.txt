@@ -1,0 +1,3 @@
+Guides experiment state transitions: launching, pausing, resuming, ending, shipping variants, archiving, resetting, and duplicating. Covers preconditions, implications for variant assignment and analysis, and the decision framework for when to use each action.
+TRIGGER when: user asks to launch, pause, resume, end, ship, archive, reset, or duplicate an experiment.
+DO NOT TRIGGER when: user is creating an experiment (use creating-experiments), configuring rollout (use configuring-experiment-rollout), or setting up metrics (use configuring-experiment-analytics).
