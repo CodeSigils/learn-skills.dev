@@ -1,20 +1,9 @@
-Corporate Historical Evolution and Development Trajectory Analysis Skill — Qichacha MCP-powered KYB 3D Narrative Report Generator.  
-Automatically produces an 11-chapter + appendix KYB historical-evolution report via 146 Qichacha MCP tools.  
-V1.2 core features (schema-driven · anti-fabrication):  
-- **USCC check-digit**: GB 32100-2015 algorithm; fabricated unified social-credit codes are blocked  
-- **count ≡ rows**: for shareholder / past shareholder / directors-supervisors-seniors / external-investment lists, declared count must equal actual row count  
-- **evidence anchor**: every field traceable via 4-tuple `(tool_name, json_path, snapshot_ts, raw_value)`  
-- **cross-chapter consistency**: penalty status cannot say “resolved/closed” unless MCP explicitly returns such; patent annual totals must sum to overall count; temporal sanity self-check  
-- **manifest.json**: per-report field-level provenance chain for audit replay  
-
-Core functions:  
-- 11-chapter structure: §1 Company Profile / §2 Development Milestones / §3 Registered Capital / §4 Name Changes / §5 Equity Evolution / §6 Business Track / §7 Address Migration / §8 Summary / §9 Development Overview / §10 Appendix / §11 Audit Archive  
-- 3D narrative: license-qualification matrix, IP layout, business expansion & headcount, industry standing & honors  
-- Tier auto-adapt: micro (¥4.5) / funded (¥13) / listed (¥18) tiers auto-detected and differentially invoked  
-- Visual style: dot+vertical timeline + kyb-opus blue chapter bars + zebra tables, direct PDF output  
-
-Use cases: pre-investment DD (PE/VC), IC memo attachment generation, bank-credit KYB, supplier background check, management history verification.  
-
-Usage: `/history-evolution-qcc CompanyName [UnifiedSocialCreditCode]`  
-
-Customer experience: one-sentence command → 60-second auto-generation of MD + PDF + manifest.json, zero intervention, zero fabrication.
+企业历史沿革与发展历程分析 Skill — 企查查MCP驱动的KYB立体叙事报告生成器。 基于企查查 MCP 146 个工具自动生成 11 章 + 附录的 KYB 历史沿革报告。
+V1.2 核心特性（schema-driven · 防编造）： - **USCC 校验位**：GB 32100-2015 校验位算法，编造的统一社会信用代码会被拦截 - **count ≡ rows**：股东/历史股东/董监高/对外投资等列表，声明数量必须等于实际行数 - **evidence 锚点**：每个字段都有 `(tool_name, json_path, snapshot_ts, raw_value)` 四元组溯源 - **跨章节一致性**：处罚状态禁止"已处置/已闭环"等需 MCP 显式返回的状态词；
+  专利年度分布加和必等于总数；时间合理性自检
+- **manifest.json**：每份报告产出字段级溯源链，可用于审计回溯
+核心功能： - 11 章结构：§1 公司概况 / §2 发展里程碑 / §3 注册资本 / §4 名称变更 / §5 股权演变
+  / §6 经营轨迹 / §7 地址变迁 / §8 总结 / §9 发展综览 / §10 附录 / §11 审计留档
+- 立体叙事：许可资质矩阵、知识产权布局、业务扩张与员工规模、行业地位与荣誉 - 档位自适应：小微（¥4.5）/ 融资（¥13）/ 上市（¥18）三档自动识别并差异化调用 - 视觉风格：圆点+竖线时间轴 + kyb-opus 风格蓝色章节条 + 斑马纹表格，直接出 PDF
+适用场景：投前尽调（PE/VC）、IC Memo 附件生成、银行授信 KYB、供应商主体背调、 管理层背景与发展历程核查。
+使用方式：/history-evolution-qcc 企业名称 [统一社会信用代码] 客户体验：一句话指令 → 60 秒自动生成 MD + PDF + manifest.json，零干预、零编造。

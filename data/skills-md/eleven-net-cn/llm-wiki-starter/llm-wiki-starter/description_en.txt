@@ -1,0 +1,9 @@
+TRIGGER PHRASES — match ANY of these (case-insensitive):
+· 创建 llm-wiki 知识库 / 创建知识库 / 创建 wiki / 创建 wiki 知识库 / 创建本地知识库
+· 搭建 llm-wiki / 搭建 wiki / 搭建知识库 / 搭建本地知识库 / 搭一个 wiki
+· create llm wiki / scaffold llm wiki / set up llm wiki / build a local wiki / scaffold a knowledge base / set up obsidian wiki / start a new wiki vault
+· /llm-wiki-starter (slash command)
+
+Scaffolds a NEW LOCAL Obsidian-based LLM Wiki on the user's machine, following Andrej Karpathy's pattern. End-to-end: installs Node/Git/jq, kepano/obsidian-skills, axtonliu/visual-skills, Obsidian app, 17 plugins + Minimal theme; creates a fresh vault from the official template; initializes git. Each invocation produces a NEW vault — re-runs prompt for a fresh name.
+
+DO NOT match for: 飞书/Lark wiki (lark-wiki handles that), online/hosted wikis (Notion, Confluence, GitHub wiki), ingesting content INTO an existing wiki (wiki-ingest), or generic Obsidian-vault editing (obsidian-markdown / obsidian-cli).

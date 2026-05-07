@@ -1,10 +1,4 @@
-Industry Analysis Assistant Skill – Qichacha MCP Enhanced Edition. Leveraging multi-dimensional data such as bidding records, qualification distribution, and enterprise counts, it helps generate industry analysis reports.  
-Core functions:  
-- Industry size estimation: based on bidding amounts and registered capital distribution  
-- Competitive landscape scan: number of firms and concentration of top players  
-- Qualification threshold analysis: key industry license requirements and certified companies  
-- Regional heat map: geographic distribution and cluster identification  
-- Trend judgment: industry prosperity based on bidding data  
-
-Use cases: industry research at brokerages, consulting firms’ sector analysis, investment institutions’ track selection, corporate strategy market analysis.  
-Usage: /industry-analysis-qcc [industry name] [--region region] [--focus sub-sector]
+行业分析辅助Skill - 企查查MCP增强版。 基于招投标数据、资质分布、企业数量等多维度数据，辅助生成行业分析报告。
+核心功能： - 行业规模估算：基于招投标金额、企业注册资本分布 - 竞争格局扫描：行业内企业数量、头部企业集中度 - 资质门槛分析：行业核心资质要求与持证企业分布 - 区域分布热力：企业地理分布与产业集群识别 - 趋势判断：基于招投标数据的行业景气度
+适用场景：券商研究所行业研究、咨询公司行业分析、投资机构赛道选择、企业战略部门市场分析。
+使用方式：/industry-analysis-qcc [行业名称] [--region 地区] [--focus 细分赛道]
