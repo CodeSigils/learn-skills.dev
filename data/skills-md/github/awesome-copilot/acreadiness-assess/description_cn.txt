@@ -1,0 +1,1 @@
+在当前存储库上运行 AgentRC 准备情况评估，并在 reports/index.html 中生成静态 HTML 仪表板。包装 `npx github:microsoft/agentrc readiness` 并将渲染交给 @ai-readiness-reporter 自定义代理。支持组织特定评分的策略 (--policy)。当要求对存储库的 AI 准备情况进行评估、审核或评分时使用。

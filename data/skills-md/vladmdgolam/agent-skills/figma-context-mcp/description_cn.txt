@@ -1,0 +1,1 @@
+有效使用 Figma Context MCP (Framelink) 同时避免 429 速率限制错误的专家指南。在以下情况下激活：(1) 使用 Framelink Figma MCP 工具（get_figma_data、download_figma_images），(2) 获取 Figma 设计用于代码生成，(3) 用户从 Figma API 达到 429 速率限制，(4) 从 Figma 提取设计令牌或组件数据，(5) 下载 Figma 资产/图像，(6) 任何涉及 Figma URL 的设计到代码工作流程。涵盖元数据优先获取、深度限制节点树、批量图像下载、速率限制诊断和计划层感知。

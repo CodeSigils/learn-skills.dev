@@ -1,0 +1,1 @@
+透過 review-fixes/ 接收修復任務（例如：review-fixes/fix-R01-critico-senha.md），執行相應的操作，並取得一系列測試和狀態資訊。使用 quando do-execute-review 來修復任務或使用特定問題的解決方案。請勿使用 para correções em lote — invoque uma vez por arquivo。請勿使用 QA、修正 QA 錯誤（使用 do-execute-qa-bugfix）或實作新功能。

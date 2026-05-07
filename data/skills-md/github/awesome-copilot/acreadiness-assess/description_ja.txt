@@ -1,0 +1,1 @@
+現在のリポジトリで AgentRC 準備状況評価を実行し、reports/index.html に静的 HTML ダッシュボードを作成します。 「npx github:microsoft/agentrc readiness」をラップし、レンダリングを @ai-readiness-reporter カスタム エージェントに渡します。組織固有のスコアリングのポリシー (--policy) をサポートします。リポジトリの AI 対応状況を評価、監査、またはスコアリングするように求められた場合に使用します。

@@ -1,0 +1,9 @@
+トリガー フレーズ — 次のいずれかに一致します (大文字と小文字は区別されません)。
+· 创建 llm-wiki 知识库 / 创建知识库 / 创建 wiki / 创建 wiki 知识库 / 创建本地知识库
+· 浮島建 llm-wiki / 浮島建 wiki / 浮島建知识库 / 浮島建本地知识库 / 浮島一个 wiki
+· llm wiki を作成する / llm wiki を足場にする / llm wiki をセットアップする / ローカル wiki を構築する / 知識ベースを足場にする / Obsidian wiki をセットアップする / 新しい Wiki Vault を開始する
+· /llm-wiki-starter (スラッシュコマンド)
+
+Andrej Karpathy のパターンに従って、ユーザーのマシン上に新しいローカルの Obsidian ベースの LLM Wiki を足場にします。エンドツーエンド: Node/Git/jq、kepano/obsidian-skills、axtonliu/visual-skills、Obsidian アプリ、17 個のプラグイン + 最小限のテーマをインストールします。公式テンプレートから新しいボールトを作成します。 gitを初期化します。呼び出しごとに新しいボールトが作成され、新しい名前のプロンプトが再実行されます。
+
+以下には一致しないでください: 飞书/Lark wiki (lark-wiki が処理します)、オンライン/ホスト型 wiki (Notion、Confluence、GitHub wiki)、既存の wiki へのコンテンツの取り込み (wiki-ingest)、または一般的な Obsidian-vault 編集 (obsidian-markdown / obsidian-cli)。

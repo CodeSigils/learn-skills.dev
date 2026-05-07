@@ -1,0 +1,9 @@
+FRASES DE ACTIVACIÓN: coincida con CUALQUIERA de estas (no distingue entre mayúsculas y minúsculas):
+· 创建 llm-wiki 知识库 / 创建知识库 / 创建 wiki / 创建 wiki 知识库 / 创建本地知识库
+· 搭建 llm-wiki / 搭建 wiki / 搭建知识库 / 搭建本地知识库 / 搭一个 wiki
+· crear llm wiki / scaffold llm wiki / configurar llm wiki / construir un wiki local / scaffolding una base de conocimientos / configurar wiki de obsidiana / iniciar una nueva bóveda wiki
+· /llm-wiki-starter (comando de barra diagonal)
+
+Crea un NUEVO LLM Wiki LOCAL basado en Obsidian en la máquina del usuario, siguiendo el patrón de Andrej Karpathy. De principio a fin: instala Node/Git/jq, kepano/obsidian-skills, axtonliu/visual-skills, aplicación Obsidian, 17 complementos + tema mínimo; crea una bóveda nueva a partir de la plantilla oficial; inicializa git. Cada invocación produce una NUEVA bóveda: vuelve a ejecutar la solicitud para obtener un nombre nuevo.
+
+NO coincida con: 飞书/Lark wiki (lark-wiki maneja eso), wikis en línea/alojados (Notion, Confluence, GitHub wiki), ingerir contenido EN un wiki existente (wiki-ingest) o edición genérica de Obsidian-vault (obsidian-markdown / obsidian-cli).

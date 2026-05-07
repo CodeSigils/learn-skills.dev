@@ -1,0 +1,9 @@
+PHRASES DE DÉCLENCHEMENT — correspondent à N'IMPORTE QUELLE de celles-ci (insensible à la casse) :
+· 创建 llm-wiki 知识库 / 创建知识库 / 创建 wiki / 创建 wiki 知识库 / 创建本地知识库
+· 搭建 llm-wiki / 搭建 wiki / 搭建知识库 / 搭建本地知识库 / 搭一个 wiki
+· créer un wiki llm / échafauder un wiki llm / configurer un wiki llm / construire un wiki local / échafauder une base de connaissances / mettre en place un wiki obsidienne / démarrer un nouveau coffre-fort wiki
+· /llm-wiki-starter (commande barre oblique)
+
+Élabore un NOUVEAU wiki LLM LOCAL basé sur Obsidian sur la machine de l'utilisateur, suivant le modèle d'Andrej Karpathy. De bout en bout : installe Node/Git/jq, kepano/obsidian-skills, axtonliu/visual-skills, application Obsidian, 17 plugins + thème Minimal ; crée un nouveau coffre-fort à partir du modèle officiel ; initialise git. Chaque appel produit un NOUVEAU coffre-fort — réexécute l'invite pour un nouveau nom.
+
+NE correspond PAS à : 飞书/Lark wiki (lark-wiki gère cela), les wikis en ligne/hébergés (Notion, Confluence, GitHub wiki), l'ingestion de contenu DANS un wiki existant (wiki-ingest) ou l'édition générique d'Obsidian-vault (obsidian-markdown / obsidian-cli).

@@ -1,0 +1,1 @@
+Neo4j 中的编程安全管理 — RBAC/ABAC、用户生命周期（CREATE/ALTER/DROP USER）、角色生命周期（CREATE/GRANT ROLE/DROP ROLE）、权限授予和拒绝（图形、数据库、DBMS 上的 GRANT/DENY/REVOKE）、属性级访问控制、子图访问控制、SHOW PRIVILEGES 检查和身份验证提供程序配置引用（LDAP、OIDC/SSO）。当代理需要通过系统数据库上的 Cypher 以编程方式管理用户、角色或权限时使用。不处理 Cypher 查询写入 — 使用 neo4j-cypher-skill。不处理集群操作或备份 - 使用 neo4j-cli-tools-skill。财产级安全性和 ABAC 需要企业版。

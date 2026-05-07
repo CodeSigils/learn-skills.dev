@@ -1,0 +1,1 @@
+为项目引导一个 nao 代理 - 在一轮中收集仓库 + 范围 + 额外上下文信息，从 nao 文档中查找特定于仓库的配置，编写 nao_config.yaml，运行 nao init + naosync，设置 LLM 密钥，并生成第一个 RULES.md。当用户刚刚决定在新项目上使用 nao 时使用。仅适用于首次设置；要编辑规则、生成测试或查看现有上下文，请使用 write-context-rules / create-context-tests /audit-context。

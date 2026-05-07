@@ -1,0 +1,1 @@
+为工作流 SDK 启动一个无端口 + tmux 开发会话，为 Next.js 工作台和可观察性 UI 提供每个 git 工作树隔离的“<branch>.<name>.localhost” URL，以及显示这些 URL 的 Claude 状态行。仅当用户请求“无端口开发会话”、“工作流的 tmux 开发布局”、“工作树隔离的开发 URL”或想要将工作流开发 URL 连接到 Claude 状态行时才使用。不要激活通用“启动开发服务器”/“运行 pnpm dev”任务。

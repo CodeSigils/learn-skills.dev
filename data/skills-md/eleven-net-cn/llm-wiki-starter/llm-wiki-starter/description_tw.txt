@@ -1,0 +1,9 @@
+觸發短語 — 匹配其中任何一個（不區分大小寫）：
+· 建立 llm-wiki 知識庫 / 建立知識庫 / 建立 wiki / 建立 wiki 知識庫 / 建立本機知識庫
+· 建立 llm-wiki / 建構 wiki / 建構知識庫 / 建構本地知識庫 / 搭一個 wiki
+· 建立 llm wiki / 建置 llm wiki / 設定 llm wiki / 建置本機 wiki / 建置知識庫 / 設定 Obsidian wiki / 啟動新的 wiki 函式庫
+· /llm-wiki-starter（斜杠指令）
+
+遵循 Andrej Karpathy 的模式，在使用者的電腦上建立一個新的本地基於黑曜石的 LLM Wiki。端到端：安裝 Node/Git/jq、kepano/obsidian-skills、axtonliu/visual-skills、Obsidian 應用程式、17 個外掛程式 + Minimal 主題；從官方範本建立一個新的保險庫；初始化 git。每次呼叫都會產生一個新的保管庫 - 重新運行提示以輸入新名稱。
+
+請勿配對：飛書/Lark wiki（lark-wiki 處理該問題）、線上/託管 wiki（Notion、Confluence、GitHub wiki）、將內容提取到現有 wiki (wiki-ingest) 或通用 Obsidian-vault 編輯 (obsidian-markdown / obsidian-cli)。

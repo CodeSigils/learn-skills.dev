@@ -1,0 +1,9 @@
+트리거 문구 — 다음 중 하나와 일치합니다(대소문자 구분):
+· 创建 llm-wiki 知识库 / 创建知识库 / 创建 wiki / 创建 wiki 知识库 / 创建本地知识库
+· 搭建 llm-wiki / 搭建 wiki / 搭建知识库 / 搭建本地知识库 / 搭一个 wiki
+· LLM 위키 생성 / LLM 위키 발판 / LLM 위키 설정 / 로컬 위키 구축 / 지식 기반 발판 / 흑요석 위키 설정 / 새 위키 볼트 시작
+· /llm-wiki-starter(슬래시 명령)
+
+Andrej Karpathy의 패턴에 따라 사용자 컴퓨터에서 새로운 로컬 Obsidian 기반 LLM Wiki를 스캐폴드합니다. 엔드 투 엔드: Node/Git/jq, kepano/obsidian-skills, axtonliu/visual-skills, Obsidian 앱, 17개 플러그인 + 최소 테마를 설치합니다. 공식 템플릿에서 새로운 볼트를 생성합니다. 자식을 초기화합니다. 호출할 때마다 새로운 저장소가 생성됩니다. 새로운 이름을 묻는 메시지가 다시 실행됩니다.
+
+다음과 일치하지 마십시오: 飞书/Lark 위키(lark-wiki에서 처리), 온라인/호스팅 위키(Notion, Confluence, GitHub wiki), 기존 위키로 콘텐츠 수집(wiki-ingest) 또는 일반 Obsidian-vault 편집(obsidian-markdown / obsidian-cli).

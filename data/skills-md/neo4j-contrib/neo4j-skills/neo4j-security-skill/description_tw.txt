@@ -1,0 +1,1 @@
+Neo4j 中的程式安全管理 — RBAC/ABAC、使用者生命週期（CREATE/ALTER/DROP USER）、角色生命週期（CREATE/GRANT ROLE/DROP ROLE）、權限授予和拒絕（圖形、資料庫、DBMS 上的 GRANT/DENY/REVOKE）、屬性級存取控製、子圖存取控制、OW PRIVEGS1）。當代理程式需要透過系統資料庫上的 Cypher 以程式設計方式管理使用者、角色或權限時使用。不處理 Cypher 查詢寫入 — 使用 neo4j-cypher-skill。不處理叢集操作或備份 - 使用 neo4j-cli-tools-skill。财产级安全性和 ABAC 需要企业版。
