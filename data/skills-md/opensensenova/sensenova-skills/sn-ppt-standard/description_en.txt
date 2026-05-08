@@ -1,0 +1,3 @@
+Standard-mode PPT pipeline. All LLM / VLM / T2I calls are wrapped in a
+single CLI entry (scripts/run_stage.py). The main agent's job is simple:
+emit ONE shell command per stage, never write loops, never write prompts.

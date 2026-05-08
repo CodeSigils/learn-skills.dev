@@ -1,0 +1,3 @@
+Environment diagnostic for the PPT family. Validates sn-image-base, API keys,
+Node runtime, and optional deps; interactively writes .env for required vars.
+Runs before sn-ppt-entry; does not modify sn-image-* skills.

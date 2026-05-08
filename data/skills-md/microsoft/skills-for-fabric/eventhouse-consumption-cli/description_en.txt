@@ -1,0 +1,7 @@
+Run KQL queries against Fabric Eventhouse for real-time intelligence and time-series analytics using `az rest` against the Kusto REST API. Covers KQL operators (where, summarize, join, render), Eventhouse schema discovery (.show tables), time-series patterns with bin(), and ingestion monitoring. Use when the user wants to:
+  1. Run read-only KQL queries against an Eventhouse or KQL Database
+  2. Discover Eventhouse table schema and metadata
+  3. Analyse real-time or time-series data with KQL operators
+  4. Monitor ingestion health and active KQL queries
+  5. Export KQL results to JSON
+Triggers: "kql query", "kusto query", "eventhouse query", "kql database", "real-time intelligence", "time-series kql", "query eventhouse", "explore eventhouse", "show tables kql"

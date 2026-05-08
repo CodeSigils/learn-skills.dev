@@ -1,0 +1,9 @@
+把自然语言描述生成为简洁的技术图（架构图 / 流程图 / 时序图 / 状态机
+/ 数据流 / ER / 概念图 等）。**不让 LLM 画 SVG**——LLM 只输出 JSON
+描述节点和边，确定性 Python 渲染器算 Manhattan 走线、避撞、标签放置，
+保证 layout 100% 干净。默认 Ledger 风格（暖白底 + teal accent + 深灰描边）。
+通过 `rsvg-convert` 同时产出 PNG。
+
+TRIGGER when user asks to: 画图, 画一张, 帮我画, 画个, 出图, 生成图,
+做个图, 架构图, 流程图, 时序图, 状态机图, ER 图, 可视化一下, draw,
+diagram, visualize, chart it.
