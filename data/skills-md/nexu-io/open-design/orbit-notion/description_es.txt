@@ -1,0 +1,8 @@
+Habilidad de información de Open Orbit: seleccionada por el canal Orbit cuando
+Notion es el único conector conectado del usuario, o cuando el usuario
+limita explícitamente su resumen diario a Notion. Tira los últimos 24
+horas de ediciones de documentos, comentarios, menciones y cambios de filas de bases de datos
+desde la conexión de Notion autenticada del usuario y muestra el
+digerir como una página nativa de Notion (llamada/alternar/tabla de base de datos
+primitivos). Esta habilidad no debe activarse manualmente; es
+invocado por el programador de resumen diario de Orbit contra datos de Notion en vivo.

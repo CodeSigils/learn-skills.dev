@@ -1,0 +1,9 @@
+Habilidad de información de Open Orbit: seleccionada por el canal Orbit cuando
+Gmail es el único conector conectado del usuario, o cuando el usuario
+limita explícitamente su resumen diario a Gmail. Tira los últimos 24
+horas de actividad en la bandeja de entrada (respuestas esperadas, menciones, cc, auto-
+categorizado en masa) desde la conexión de Gmail autenticada del usuario
+y presenta el resumen cuando se abre el correo electrónico de Orbit Daily Digest
+dentro de la vista de lectura de Gmail. Esta habilidad no debe activarse
+manualmente: lo invoca el programador de resumen diario de Orbit contra
+datos en vivo de Gmail.

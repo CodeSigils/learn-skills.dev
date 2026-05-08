@@ -1,0 +1,26 @@
+Metodología basada en evidencia para la capa de ejecución: cada reclamo de
+El progreso requiere una observación falsable que lo respalde. Estado
+actualizaciones, comprobaciones de verificación, ejecuciones de pruebas y cualquier afirmación de "esto ya está hecho"
+debe llevar pruebas concretas; "Me parece correcto" se rechaza.
+
+Utilice esta habilidad cuando trabaje en código de producción, propenso a la regresión
+sistemas, o cualquier tarea donde la disciplina del tiempo de construcción afecte materialmente
+calidad del resultado. Active frases como "configurar TDD", "construir
+disciplina", "no hay progreso sin evidencia", "prueba primero",
+"verificar rigurosamente", "flujo de trabajo del código de producción".
+
+NO active prototipos, picos exploratorios, guiones desechables,
+cambios solo de documentación, o trabajos donde el costo de una disciplina
+La superposición compensa el costo de errores ocasionales.
+
+Se combina con el diseño. Impulsado por el diseño define qué verificar (el
+sección Verificar del plano); basado en evidencia define cómo verificar
+con disciplina (ciclo TDD, falsabilidad, recolección de evidencia).
+Cada uno funciona solo: hacen referencias cruzadas pero no dependen de cada uno
+otro.
+
+Admite argumentos: `/init basado en evidencia` para conectar las configuraciones del agente
+y ganchos de precompromiso opcionales. Sin comando de auditoría periódica - evidencia-
+impulsado es una superposición siempre activa, no una habilidad limitada por fases; revisando
+La calidad de la evidencia es un subpaso natural de la auditoría basada en el diseño cuando
+Ambos están instalados.

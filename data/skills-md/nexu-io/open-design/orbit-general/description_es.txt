@@ -1,0 +1,11 @@
+Habilidad de sesión informativa de Open Orbit: seleccionada por el canal Orbit cuando el
+El usuario tiene dos o más conectores conectados. Extrae las últimas 24 horas de
+actividad de cada conector autenticado (GitHub, Linear, Notion,
+Slack, Google, Calendar, Gmail, Drive, Sentry, Vercel,…) y genera un
+Panel de control único de rejilla bento adaptable en la parte superior de "我的设计". cada uno
+El módulo conector elige su propia forma de interfaz de usuario (lista, pila de avatar, estado
+anillo, mapa de calor, cuadrícula de archivos, tarjeta de alerta,…) en función de la forma de los datos.
+regresa, por lo que el diseño escala a medida que crece el ecosistema de conectores de Orbit.
+Esta habilidad no debe activarse manualmente: la invoca
+El programador de resumen diario de Orbit contra el conector en vivo del usuario
+datos.

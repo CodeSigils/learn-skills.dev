@@ -1,0 +1,3 @@
+Canalización PPT en modo estándar. Todas las llamadas LLM / VLM / T2I están envueltas en un
+entrada CLI única (scripts/run_stage.py). El trabajo del agente principal es simple:
+emita UN comando de shell por etapa, nunca escriba bucles, nunca escriba mensajes.

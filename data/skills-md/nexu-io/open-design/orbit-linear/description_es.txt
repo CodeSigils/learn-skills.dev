@@ -1,0 +1,8 @@
+Habilidad de información de Open Orbit: seleccionada por el canal Orbit cuando
+Lineal es el único conector conectado del usuario, o cuando el usuario
+limita explícitamente su resumen diario a Lineal. Tira los últimos 24
+Horas de movimiento de emisiones, cambios de estado, asignaciones y ciclo.
+progreso desde la conexión lineal autenticada del usuario y renderiza
+el resumen en la bandeja de entrada nativa de Linear + lenguaje visual de progreso del ciclo.
+Esta habilidad no debe activarse manualmente: la invoca
+Programador de resumen diario de Orbit con datos lineales en vivo.
