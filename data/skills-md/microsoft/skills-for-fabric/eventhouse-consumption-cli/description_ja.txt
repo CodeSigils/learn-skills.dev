@@ -1,0 +1,7 @@
+Kusto REST API に対して `azrest` を使用して、リアルタイム インテリジェンスと時系列分析のために Fabric Eventhouse に対して KQL クエリを実行します。 KQL 演算子 (where、summary、join、render)、Eventhouse スキーマ検出 (.show tables)、bin() による時系列パターン、および取り込み監視について説明します。ユーザーが次のことを行う場合に使用します。
+  1. Eventhouse または KQL データベースに対して読み取り専用 KQL クエリを実行します。
+  2. Eventhouse テーブルのスキーマとメタデータを検出する
+  3. KQL 演算子を使用してリアルタイムまたは時系列データを分析する
+  4. 取り込みの健全性とアクティブな KQL クエリを監視する
+  5. KQL 結果を JSON にエクスポートする
+トリガー: 「kql クエリ」、「kusto クエリ」、「イベントハウス クエリ」、「kql データベース」、「リアルタイム インテリジェンス」、「時系列 kql」、「クエリ イベントハウス」、「explore イベントハウス」、「show tables kql」

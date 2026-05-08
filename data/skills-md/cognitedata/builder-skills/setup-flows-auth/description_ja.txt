@@ -1,0 +1,1 @@
+既存の React アプリを Flows に移行するとき、または Flows 認証が接続されていないときに使用する必要があります。 「app.json」「infra」フィールドからクラシック API フローと Apps API フローを検出し、適切なパッケージをインストールし、エントリ ファイルを接続します。有効な認証設定がすでに設定されている場合は何も行いません。トリガー: Flows への移行、Flows 認証の追加、DuneAuthProvider、AppSdkAuthProvider、connectToHostApp、useDune、Flows セットアップ、セットアップ認証、欠落している認証プロバイダー、CDF 認証、Fusion iframe 認証。
