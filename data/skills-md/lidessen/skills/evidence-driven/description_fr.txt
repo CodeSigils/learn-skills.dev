@@ -1,0 +1,26 @@
+Méthodologie fondée sur des preuves pour la couche d'exécution - chaque affirmation de
+le progrès nécessite une observation falsifiable à l’appui. État
+mises à jour, vérifications, exécutions de tests et toute assertion « ceci est fait »
+doit être muni de preuves concrètes ; "cela me semble bien" est rejeté.
+
+Utilisez cette compétence lorsque vous travaillez sur du code de production, sujet à la régression
+systèmes, ou toute tâche où la discipline du temps de construction affecte matériellement
+qualité des résultats. Déclenchez des expressions telles que « configurer TDD », « construire
+discipline", "pas de progrès sans preuves", "le test d'abord",
+"vérifier rigoureusement", "workflow du code de production".
+
+Ne déclenchez PAS les prototypes, les pics d'exploration, les scripts jetables,
+des changements de documentation uniquement, ou des travaux où le coût d'une discipline
+la superposition dépasse le coût des bugs occasionnels.
+
+Se marie avec le design. Le design-driven définit ce qu'il faut vérifier (le
+section Vérifier du plan) ; fondé sur des preuves définit comment vérifier
+avec discipline (cycle TDD, falsifiabilité, collecte de preuves).
+Chacun fonctionne seul – ils se croisent mais ne dépendent pas de chacun
+autre.
+
+Prend en charge les arguments : `/evidence-driven init` pour câbler les configurations d'agent
+et des crochets de pré-validation facultatifs. Pas de commande d'audit périodique - preuves-
+Driven est une superposition permanente, et non une compétence limitée par phases ; réviser
+la qualité des preuves est une étape secondaire naturelle de l'audit axé sur la conception lorsque
+les deux sont installés.

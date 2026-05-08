@@ -1,0 +1,9 @@
+Compétence de briefing Open Orbit — sélectionnée par le pipeline Orbit lorsque
+Gmail est le seul connecteur connecté de l'utilisateur, ou lorsque l'utilisateur
+étend explicitement leur résumé quotidien à Gmail. Tire les 24 dernières années
+heures d'activité de la boîte de réception (réponses attendues, mentions, cc, auto-
+en vrac catégorisé) à partir de la connexion Gmail authentifiée de l'utilisateur
+et restitue le résumé à l'ouverture de l'e-mail Orbit Daily Digest
+dans la vue de lecture de Gmail. Cette compétence ne doit pas être déclenchée
+manuellement - il est invoqué par le planificateur de résumé quotidien d'Orbit contre
+données Gmail en direct.

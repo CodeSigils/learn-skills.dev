@@ -1,0 +1,11 @@
+Compétence de briefing Open Orbit — sélectionnée par le pipeline Orbit lorsque le
+l'utilisateur dispose de deux connecteurs ou plus connectés. Extrait les dernières 24 heures de
+activité de chaque connecteur authentifié (GitHub, Linear, Notion,
+Slack, Google, Calendar, Gmail, Drive, Sentry, Vercel, …) et restitue un
+tableau de bord à grille bento adaptative unique en haut de « 我的设计 ». Chacun
+le module de connecteur choisit son propre formulaire d'interface utilisateur (liste, pile d'avatars, statut)
+anneau, heatmap, grille de fichiers, carte d'alerte, …) en fonction des données qui le façonnent
+revient, de sorte que la mise en page évolue à mesure que l'écosystème de connecteurs d'Orbit se développe.
+Cette compétence ne doit pas être déclenchée manuellement : elle est invoquée par
+Planificateur de résumé quotidien d'Orbit par rapport au connecteur en direct de l'utilisateur
+données.
