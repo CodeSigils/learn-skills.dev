@@ -1,7 +1,7 @@
-使用「az rest」針對 Kusto REST API 對 Fabric Eventhouse 執行 KQL 查詢，以實現即時智慧和時間序列分析。涵蓋 KQL 運算子（where、summary、join、render）、Eventhouse 模式發現（.show 表）、bin() 的時間序列模式以及攝取監控。當使用者想要執行以下操作時使用：
+使用「az rest」針對 Kusto REST API 對 Fabric Eventhouse 執行 KQL 查詢，以實現即時智慧和時間序列分析。涵盖 KQL 运算符（where、summary、join、render）、Eventhouse 模式发现（.show 表）、bin() 的时间序列模式以及摄取监控。當使用者想要執行以下操作時使用：
   1. 針對 Eventhouse 或 KQL 資料庫執行唯讀 KQL 查詢
   2. 發現 Eventhouse 表架構和元數據
   3. 使用KQL運算子分析即時或時間序列數據
   4. 監控攝取運作狀況和活動 KQL 查詢
   5. 將KQL結果導出為JSON
-觸發器：「kql 查詢」、「kusto 查詢」、「eventhouse 查詢」、「kql 資料庫」、「即時智慧」、「時間序列 kql」、「查詢 eventhouse」、「探索 eventhouse」、「顯示表 kql」
+触发器：“kql 查询”、“kusto 查询”、“eventhouse 查询”、“kql 数据库”、“实时智能”、“时间序列 kql”、“查询 eventhouse”、“探索 eventhouse”、“显示表 kql”
