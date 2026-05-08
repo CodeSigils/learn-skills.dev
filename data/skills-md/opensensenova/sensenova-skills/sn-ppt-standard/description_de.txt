@@ -1,0 +1,3 @@
+PPT-Pipeline im Standardmodus. Alle LLM-/VLM-/T2I-Anrufe werden in einem verpackt
+einzelner CLI-Eintrag (scripts/run_stage.py). Die Aufgabe des Hauptagenten ist einfach:
+Pro Stufe EINEN Shell-Befehl ausgeben, niemals Schleifen schreiben, niemals Eingabeaufforderungen schreiben.

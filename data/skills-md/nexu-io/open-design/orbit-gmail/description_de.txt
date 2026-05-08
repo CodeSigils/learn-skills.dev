@@ -1,0 +1,9 @@
+Offene Orbit-Briefing-Fähigkeit – wird von der Orbit-Pipeline ausgewählt, wenn
+Gmail ist der einzige verbundene Connector des Benutzers, oder wenn der Benutzer
+beschränkt ihren täglichen Digest explizit auf Gmail. Zieht die letzten 24
+Stunden Posteingangsaktivität (erwartete Antworten, Erwähnungen, CC, automatische
+kategorisierter Massenzugriff) aus der authentifizierten Gmail-Verbindung des Benutzers
+und stellt den Digest dar, während die Orbit Daily Digest-E-Mail geöffnet wird
+in der Leseansicht von Gmail. Diese Fertigkeit sollte nicht ausgelöst werden
+manuell – es wird vom täglichen Digest-Planer von Orbit aufgerufen
+Live-Gmail-Daten.

@@ -1,0 +1,11 @@
+Offene Orbit-Briefing-Fähigkeit – wird von der Orbit-Pipeline ausgewählt, wenn die
+Der Benutzer hat zwei oder mehr Anschlüsse angeschlossen. Zieht die letzten 24 Stunden ab
+Aktivität von jedem authentifizierten Connector (GitHub, Linear, Notion,
+Slack, Kalender, Kalender, Gmail, Drive, Sentry, Vercel, …) und rendert a
+Einzelnes adaptives Bento-Grid-Dashboard oben in „我的设计“. Jeder
+Das Connector-Modul wählt sein eigenes UI-Formular (Liste, Avatar-Stack, Status).
+Ring, Heatmap, Dateiraster, Warnkarte usw.) basierend auf den Daten, die es formen
+kehrt zurück, sodass das Layout mit dem Wachstum des Connector-Ökosystems von Orbit skaliert werden kann.
+Dieser Skill sollte nicht manuell ausgelöst werden – er wird von aufgerufen
+Orbits täglicher Digest-Planer für den Live-Connector des Benutzers
+Daten.

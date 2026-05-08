@@ -1,0 +1,26 @@
+Evidenzbasierte Methodik für die Ausführungsebene – jeder Anspruch von
+Fortschritt erfordert eine falsifizierbare Beobachtung, die ihn unterstützt. Staat
+Aktualisierungen, Verifizierungsprüfungen, Testläufe und alle „Dies ist erledigt“-Behauptungen
+muss konkrete Beweise mit sich führen; „Sieht für mich richtig aus“ wird abgelehnt.
+
+Verwenden Sie diese Fähigkeit, wenn Sie an regressionsanfälligem Produktionscode arbeiten
+Systeme oder jede Aufgabe, bei der sich die Disziplin bei der Erstellungszeit wesentlich auswirkt
+Ergebnisqualität. Triggern Sie auf Phrasen wie „set up TDD“, „build“.
+Disziplin“, „Kein Fortschritt ohne Beweise“, „Test zuerst“,
+„streng überprüfen“, „Produktionscode-Workflow“.
+
+Lösen Sie NICHT für Prototypen, explorative Spikes, Wegwerfskripte usw. aus.
+Nur dokumentarische Änderungen oder Arbeiten, bei denen die Kosten einer Disziplin anfallen
+Overlay überwiegt die Kosten für gelegentliche Fehler.
+
+Passt zu designorientiertem Design. Designgesteuert definiert, was überprüft werden soll (die
+Abschnitt „Überprüfen“ des Blueprints); „evidence-driven“ definiert, wie überprüft werden soll
+mit Disziplin (TDD-Zyklus, Falsifizierbarkeit, Beweiserhebung).
+Jeder funktioniert für sich – sie weisen Querverweise auf, sind aber nicht voneinander abhängig
+andere.
+
+Unterstützt Argumente: „/evidence-driven init“ zum Verknüpfen von Agentenkonfigurationen
+und optionale Pre-Commit-Hooks. Kein Befehl zur regelmäßigen Prüfung – Beweise-
+„Driven“ ist ein ständig aktives Overlay und keine phasengebundene Fertigkeit. Überprüfung
+Die Beweisqualität ist ein natürlicher Unterschritt der designorientierten Prüfung, wenn
+beide sind installiert.
