@@ -1,0 +1,3 @@
+标准模式 PPT 管道。所有 LLM / VLM / T2I 调用都包含在
+单个 CLI 条目 (scripts/run_stage.py)。主要代理的工作很简单：
+每个阶段发出一个 shell 命令，从不编写循环，从不编写提示。

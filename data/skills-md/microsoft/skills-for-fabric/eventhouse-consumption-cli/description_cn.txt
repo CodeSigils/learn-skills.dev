@@ -1,0 +1,7 @@
+使用“az rest”针对 Kusto REST API 对 Fabric Eventhouse 运行 KQL 查询，以实现实时智能和时间序列分析。涵盖 KQL 运算符（where、summary、join、render）、Eventhouse 模式发现（.show 表）、bin() 的时间序列模式以及摄取监控。当用户想要执行以下操作时使用：
+  1. 针对 Eventhouse 或 KQL 数据库运行只读 KQL 查询
+  2. 发现 Eventhouse 表架构和元数据
+  3. 使用KQL运算符分析实时或时间序列数据
+  4. 监控摄取运行状况和活动 KQL 查询
+  5. 将KQL结果导出为JSON
+触发器：“kql 查询”、“kusto 查询”、“eventhouse 查询”、“kql 数据库”、“实时智能”、“时间序列 kql”、“查询 eventhouse”、“探索 eventhouse”、“显示表 kql”
