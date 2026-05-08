@@ -1,0 +1,9 @@
+Abilità di briefing su Open Orbit: selezionata dalla pipeline Orbit quando
+Gmail è l'unico connettore connesso dell'utente o quando l'utente
+indirizza esplicitamente il digest giornaliero a Gmail. Tira gli ultimi 24
+ore di attività della posta in arrivo (risposte attese, menzioni, cc, auto-
+in blocco categorizzato) dalla connessione Gmail autenticata dell'utente
+e visualizza il riassunto quando viene aperta l'e-mail di Orbit Daily Digest
+all'interno della visualizzazione di lettura di Gmail. Questa abilità non dovrebbe essere attivata
+manualmente: viene richiamato dallo scheduler giornaliero di Orbit contro
+dati Gmail in tempo reale.

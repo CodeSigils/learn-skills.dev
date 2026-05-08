@@ -1,0 +1,7 @@
+Esegui query KQL su Fabric Eventhouse per intelligence in tempo reale e analisi di serie temporali utilizzando "az rest" sull'API REST Kusto. Copre gli operatori KQL (where, summary, join, render), il rilevamento dello schema Eventhouse (tabelle .show), i modelli di serie temporali con bin() e il monitoraggio dell'inserimento. Utilizzare quando l'utente desidera:
+  1. Esegui query KQL di sola lettura su un Eventhouse o un database KQL
+  2. Scopri lo schema e i metadati della tabella Eventhouse
+  3. Analizzare dati in tempo reale o di serie temporali con operatori KQL
+  4. Monitorare l'integrità dell'acquisizione e le query KQL attive
+  5. Esporta i risultati KQL in JSON
+Trigger: "kql query", "kusto query", "eventhouse query", "database kql", "intelligence in tempo reale", "time-series kql", "query eventhouse", "esplora eventhouse", "mostra tabelle kql"

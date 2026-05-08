@@ -1,0 +1,8 @@
+Abilità di briefing su Open Orbit: selezionata dalla pipeline Orbit quando
+Lineare è l'unico connettore connesso dell'utente o quando l'utente
+adatta esplicitamente l'ambito del digest giornaliero a Linear. Tira gli ultimi 24
+ore di movimento dei problemi, cambiamenti di stato, assegnazioni e ciclo
+progresso dalla connessione lineare autenticata dell'utente e dal rendering
+il digest nella casella di posta nativa di Linear + il linguaggio visivo dell'avanzamento del ciclo.
+Questa abilità non deve essere attivata manualmente: viene invocata da
+Lo scheduler giornaliero di Orbit rispetto ai dati lineari in tempo reale.

@@ -1,0 +1,11 @@
+Abilità di briefing su Open Orbit: selezionata dalla pipeline Orbit quando
+l'utente ha due o più connettori collegati. Tira le ultime 24 ore di
+attività da ogni connettore autenticato (GitHub, Linear, Notion,
+Slack, 飞书, Calendar, Gmail, Drive, Sentry, Vercel, …) e visualizza un
+singola dashboard adattiva Bento-Grid nella parte superiore di "我的设计". Ciascuno
+il modulo connettore sceglie il proprio modulo dell'interfaccia utente (elenco, stack avatar, stato
+anello, mappa termica, griglia di file, scheda di avviso, ...) in base ai dati lo modellano
+ritorna, quindi il layout si ridimensiona man mano che l'ecosistema dei connettori di Orbit cresce.
+Questa abilità non deve essere attivata manualmente: viene invocata da
+Lo scheduler giornaliero di Orbit rispetto al connettore live dell'utente
+dati.

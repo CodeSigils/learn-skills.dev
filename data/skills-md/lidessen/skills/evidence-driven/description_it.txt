@@ -1,0 +1,26 @@
+Metodologia basata sull'evidenza per il livello di esecuzione: ogni affermazione di
+il progresso richiede un’osservazione falsificabile che lo supporti. Stato
+aggiornamenti, controlli di verifica, esecuzioni di test e qualsiasi affermazione "questo è stato fatto".
+deve portare prove concrete; "mi sembra giusto" viene rifiutato.
+
+Utilizzare questa abilità quando si lavora su codice di produzione, soggetto a regressione
+sistemi o qualsiasi attività in cui la disciplina del tempo di costruzione influisce materialmente
+qualità del risultato. Attiva frasi come "imposta TDD", "build
+disciplina", "nessun progresso senza prove", "prima il test",
+"verifica rigorosamente", "flusso di lavoro del codice di produzione".
+
+NON attivare prototipi, picchi esplorativi, script usa e getta,
+modifiche di sola documentazione o lavoro in cui il costo di una disciplina
+la sovrapposizione supera il costo di bug occasionali.
+
+Si abbina al design-driven. Design-driven definisce cosa verificare (il
+sezione Verifica del progetto); basato sull'evidenza definisce come verificare
+con disciplina (ciclo TDD, falsificabilità, raccolta delle prove).
+Ognuno funziona da solo: fanno riferimenti incrociati ma non dipendono da ciascuno
+altro.
+
+Supporta argomenti: "/evidence-driven init" per collegare le configurazioni dell'agente
+e ganci pre-commit opzionali. Nessun comando di audit periodico – evidenza-
+guidato è un overlay sempre attivo, non un'abilità limitata in fasi; revisione
+la qualità dell'evidenza è un naturale passaggio secondario dell'audit design-driven quando
+entrambi sono installati.

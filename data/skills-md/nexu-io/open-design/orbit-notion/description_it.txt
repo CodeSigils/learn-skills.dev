@@ -1,0 +1,8 @@
+Abilità di briefing su Open Orbit: selezionata dalla pipeline Orbit quando
+Notion è l'unico connettore connesso dell'utente o quando l'utente
+indirizza esplicitamente il loro digest giornaliero a Notion. Tira gli ultimi 24
+ore di modifiche ai documenti, commenti, menzioni e modifiche alle righe del database
+dalla connessione Notion autenticata dell'utente ed esegue il rendering del file
+digest come pagina nativa di Notion (callout/toggle/tabella del database
+primitivi). Questa abilità non dovrebbe essere attivata manualmente: lo è
+richiamato dallo scheduler giornaliero di Orbit rispetto ai dati Notion in tempo reale.

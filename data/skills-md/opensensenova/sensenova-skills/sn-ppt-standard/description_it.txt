@@ -1,0 +1,3 @@
+Pipeline PPT in modalità standard. Tutte le chiamate LLM/VLM/T2I sono racchiuse in un file
+singola voce CLI (scripts/run_stage.py). Il lavoro dell'agente principale è semplice:
+emettere UN comando shell per fase, non scrivere mai loop, non scrivere mai prompt.
