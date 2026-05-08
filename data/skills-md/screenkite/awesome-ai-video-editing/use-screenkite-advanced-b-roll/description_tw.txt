@@ -1,0 +1,1 @@
+使用進階 DSL 場景佈局將簡短的動畫 B 卷疊加添加到 ScreenKite 螢幕錄製的端對端管道。使用 ElevenLabs Scribe 轉錄麥克風音頻，透過網路搜尋校對產品名稱，規劃簡短的角畫中畫視覺時刻，透過並行子代理程式使用 Hyperframes (HTML + GSAP) 產生每個視覺效果，渲染為 MP4，並透過 ScreenKite 的 setSceneLayout 和 magicMove 過渡進行合成。在以下情況下使用：(1) 使用者開啟或引用 .skbundle ScreenKite 錄製文件，並希望在螢幕 + 攝影機頂部添加動畫 B 卷重音，(2) 用戶說“添加 B 卷”、“高級佈局”、“覆蓋視覺效果”、“為此錄製規劃視覺效果”、“ScreenKite DSL”，(3) 用戶的是視覺效果的短暫規劃。

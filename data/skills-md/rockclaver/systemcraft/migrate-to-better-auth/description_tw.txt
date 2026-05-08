@@ -1,0 +1,1 @@
+將任何現有的身份驗證系統（NextAuth、Passport、Lucia、Clerk、自訂 JWT、基於會話）移轉到 better-auth。偵測目前的身份驗證設置，提示使用者選擇更好的身份驗證功能/插件，生成分階段遷移計劃，重寫身份驗證配置和路由，並重構種子資料。當使用者想要切換到更好的身份驗證、取代現有驗證庫或提及 NextAuth 遷移、Lucia、Passport、Clerk 或自訂身份驗證重構時使用。
