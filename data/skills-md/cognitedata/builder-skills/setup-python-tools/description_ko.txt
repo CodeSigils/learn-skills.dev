@@ -1,0 +1,1 @@
+Flows 앱에 Pyodide 또는 Python 도구 지원을 추가할 때 반드시 사용해야 합니다. usePyodideRuntime을 수동으로 구성하거나 pythonRuntime을 useAtlasChat에 연결하지 마세요. 이 기술은 pyodide 설치, 후크 설정, UI 로드 및 채팅 후크 연결을 처리합니다. 전제 조건: 통합-아틀라스-채팅(공급업체의 src/atlas-agent + 아틀라스 채팅 연결). 트리거: Pyodide, Python 도구, pythonRuntime, usePyodideRuntime, runPythonCode, Python 실행, 클라이언트 측 Python.
