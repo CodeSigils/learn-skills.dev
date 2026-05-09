@@ -1,0 +1,1 @@
+將 SaaS 資料（HubSpot、Stripe、Salesforce、GitHub、Slack 等）連接到 Wren Engine 進行 SQL 分析。引導使用者完成整個流程：安裝 dlt、選擇 SaaS 來源、設定憑證、將資料管道運行到 DuckDB 中，然後從載入的資料自動產生 Wren 語意專案。每當使用者提到：連接 SaaS 資料、從 API 匯入資料、dlt 管道、載入 HubSpot/Stripe/Salesforce/GitHub/Slack 資料、使用 SQL 查詢 SaaS 資料或從 REST API 設定新資料來源時，請使用此技能。當使用者已經擁有 dlt 產生的 DuckDB 檔案並希望從中建立 Wren 專案時也會觸發。

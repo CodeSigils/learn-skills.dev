@@ -1,0 +1,1 @@
+在 Flows 應用程式新增 Pyodide 或 Python 工具支援時必須使用。不要手動設定 usePyodideRuntime 或將 pythonRuntime 連接到 useAtlasChat — 此技能處理 pyodide 安裝、鉤子設定、載入 UI 和聊天鉤子連接。先決條件：integrate-atlas-chat（供應的 src/atlas-agent + atlas 聊天接線）。觸發器：Pyodide、Python 工具、pythonRuntime、usePyodideRuntime、runPythonCode、Python 執行、客戶端 Python。

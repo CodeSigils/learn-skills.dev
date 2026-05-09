@@ -1,0 +1,1 @@
+為指定公司產生 Dynatrace Gen 3 **KPI 儀表板**（15-20 個業務 KPI、所需的地圖圖塊、品牌部分分隔符）和匹配的 30 分鐘 BizEvents 注入器，然後透過「dtctl」部署。僅在使用者明確要求 Dynatrace KPI 儀表板、業務事件 KPI 演示、BizEvents 注入器或“<company> 的 KPI 儀表板”時才使用此技能 - 不要用於通用 Dynatrace 儀表板（SRE、infra、k8s、服務、RUM）或編輯現有的非 KPI 儀表板。觸發器包括「產生 KPI 儀表板」、「為 <公司> 建立 BizEvents 演示」、「啟動 KPI 儀表板 + 注入器」、「/generate-kpi-dashboard」等短語。需要對 Dynatrace Gen 3 租戶進行身份驗證的「dtctl」。

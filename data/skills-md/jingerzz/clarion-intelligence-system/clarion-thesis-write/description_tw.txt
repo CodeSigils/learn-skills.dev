@@ -1,0 +1,1 @@
+以規範的 Clarion 論文格式為股票代碼搭建新的論文文件。預先填入 YAML 元資料區塊，使用開啟的條目開啟歷史記錄，並（在對文件編制索引時）用來自巴菲特鏡頭搜尋的草稿引文播種「為什麼我相信它」證據部分。使用者填寫實際的散文。在 ~/clarion/theses/{TICKER}.md 處輸出 markdown 檔案。當使用者說「在 <TICKER> 上寫一篇論文」、「為 <TICKER> 建立論文支架」、「為 <TICKER> 起草論文」時，或在 clarion-single-stock-eval 返回 Add 判決並且用戶想要正式確定職位後使用。需要運行 clarion-setup。
