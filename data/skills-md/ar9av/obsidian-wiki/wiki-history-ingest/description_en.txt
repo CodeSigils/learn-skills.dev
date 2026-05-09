@@ -1,0 +1,1 @@
+Unified wiki-history-ingest entrypoint for conversation/session sources. Use this when the user says "/wiki-history-ingest claude", "/wiki-history-ingest copilot", "/wiki-history-ingest codex", or asks to ingest agent history without naming the underlying skill. This router dispatches to the specialized history skill.
