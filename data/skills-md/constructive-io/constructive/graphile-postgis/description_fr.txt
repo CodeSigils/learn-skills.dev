@@ -1,0 +1,1 @@
+Comment exposer des requêtes PostGIS multi-tables à la couche ORM/GraphQL sans envoyer GeoJSON au client. Couvre la balise intelligente @spatialRelation (8 opérateurs, distance paramétrique), le nœud de plan RelationSpatial et la forme ORM `where:` consommée par le client généré.

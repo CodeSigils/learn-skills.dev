@@ -1,0 +1,8 @@
+Compétence de briefing Open Orbit — sélectionnée par le pipeline Orbit lorsque
+GitHub est le seul connecteur connecté de l'utilisateur, ou lorsque l'utilisateur
+étend explicitement leur résumé quotidien à GitHub. Tire les 24 dernières années
+heures de PR, demandes de révision, problèmes, exécutions de CI et fusions à partir du
+connexion GitHub authentifiée de l'utilisateur et les restitue dans une mise en page
+qui reflète le langage visuel natif Notifications + PR-diff de GitHub.
+Cette compétence ne doit pas être déclenchée manuellement : elle est invoquée par
+Le planificateur de résumé quotidien d'Orbit par rapport aux données GitHub en direct.
