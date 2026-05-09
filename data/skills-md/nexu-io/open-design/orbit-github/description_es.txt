@@ -1,0 +1,8 @@
+Habilidad de información de Open Orbit: seleccionada por el canal Orbit cuando
+GitHub es el único conector conectado del usuario, o cuando el usuario
+limita explícitamente su resumen diario a GitHub. Tira los últimos 24
+horas de relaciones públicas, solicitudes de revisión, problemas, ejecuciones de CI y fusiones desde el
+conexión GitHub autenticada del usuario y la representa en un diseño
+que refleja el lenguaje visual nativo Notificaciones + PR-diff de GitHub.
+Esta habilidad no debe activarse manualmente: la invoca
+Programador de resumen diario de Orbit con datos en vivo de GitHub.
