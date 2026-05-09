@@ -1,0 +1,8 @@
+Abilità di briefing su Open Orbit: selezionata dalla pipeline Orbit quando
+GitHub è l'unico connettore connesso dell'utente o quando l'utente
+indirizza esplicitamente il loro digest giornaliero a GitHub. Tira gli ultimi 24
+ore di PR, richieste di revisione, problemi, esecuzioni di CI e fusioni da
+connessione GitHub autenticata dell'utente e ne esegue il rendering in un layout
+che rispecchia le notifiche native di GitHub + il linguaggio visivo PR-diff.
+Questa abilità non deve essere attivata manualmente: viene invocata da
+Lo scheduler giornaliero di Orbit rispetto ai dati GitHub in tempo reale.
