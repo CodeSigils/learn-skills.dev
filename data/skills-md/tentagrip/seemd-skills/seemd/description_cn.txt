@@ -1,0 +1,1 @@
+当用户请求本地 Markdown 文件的可共享 Web URL 时使用。触发诸如“共享此 Markdown”、“共享此文档”、“给我一个链接”、“将其作为 URL 发送”、“发布此”、“为此创建一个公共页面”以及韩语等效词，如“공유해줘”、“ Been README 공유”、“링크로 보내줘”。特别是当用户将“.md”文件路径与这些短语之一一起命名时。运行 `npx @tentagrip/seemd <path>`，返回 https://seemd.xyz 上的 slug URL。链接的“.md”文件一起上传，跨文档链接重写为 slug URL。文档将在 3 天后自动过期。

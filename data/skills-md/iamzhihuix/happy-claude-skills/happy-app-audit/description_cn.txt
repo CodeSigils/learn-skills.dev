@@ -1,0 +1,1 @@
+仅使用静态分析来审核本地 macOS 应用程序的遥测/报告行为。对 .app 包进行逆向工程，以识别嵌入式 SDK（AppLog/TEA、Parfait、TTNet、mars、MMKV、Sentry、Firebase、Bugly、Umeng 等）、映射的上传端点、本地磁盘队列和隐私相关字段 - 无需数据包捕获、网络请求、调试器附加或 DRM 旁路。当用户要求调查、审核或逆向工程 macOS 应用程序以进行遥测、报告、数据上传、隐私或 SDK 指纹识别时使用。目标 /Applications、~/Applications、/Library/InputMethods、/Library/PrivilegedHelperTools 和类似的本地安装路径。
