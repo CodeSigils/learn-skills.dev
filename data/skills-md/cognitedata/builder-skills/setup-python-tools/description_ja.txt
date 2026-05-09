@@ -1,0 +1,1 @@
+Pyodide または Python ツールのサポートを Flows アプリに追加する場合は、必ず使用する必要があります。 usePyodideRuntime を手動で設定したり、pythonRuntime を useAtlasChat に接続したりしないでください。このスキルは、pyodide のインストール、フックのセットアップ、UI の読み込み、およびチャット フックの配線を処理します。前提条件:integrate-atlas-chat (ベンダー提供の src/atlas-agent + atlas チャット配線)。トリガー: Pyodide、Python ツール、pythonRuntime、usePyodideRuntime、runPythonCode、Python 実行、クライアント側 Python。
