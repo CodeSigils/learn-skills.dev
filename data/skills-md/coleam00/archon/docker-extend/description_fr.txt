@@ -1,8 +1,8 @@
 À utiliser lorsque : l'utilisateur souhaite étendre Docker avec des outils personnalisés, personnaliser l'environnement Docker,
-ou configurez la personnalisation Docker spécifique à l'utilisateur.
+or set up user-specific Docker customization.
 Déclencheurs : "étendre le docker", "docker-extend", "ajouter des outils au docker", "personnaliser le docker",
           'ajouter mes outils au conteneur', 'personnaliser la configuration du docker', 'configuration utilisateur du docker',
-          'installer les outils dans Docker'.
+          'install tools in docker'.
 Fait : configure de manière interactive Dockerfile.user et docker-compose.override.yml afin que les utilisateurs puissent
 ajouter des outils personnels à leur environnement Docker sans affecter les fichiers du responsable ou
-valider la configuration spécifique à l'utilisateur dans git.
+committing user-specific config to git.

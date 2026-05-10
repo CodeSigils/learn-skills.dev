@@ -7,14 +7,14 @@ Archon 项目的主要开发工作流程（远程编码代理）。
 调查 —“我们应该使用 Drizzle 还是 Prisma？”、“添加 WebSocket 的最佳方式是什么？”、
               “我们可以迁移到 Turso 吗？”、“其他项目如何处理速率限制？”
 PRD —“为深色模式编写 PRD”，“指定通知功能”，
-              “webhook 重试的产品要求”
+              "product requirements for webhook retry"
 PLAN —“计划身份验证重构”、“设计缓存层”、
-              “为 #42 制定实施计划”
+              "create an implementation plan for #42"
 实施 —“实施计划”，“执行 .claude/archon/plans/auth.plan.md”，
               “根据计划构建功能”，“编写代码”
 审查 —“审查 PR #123”、“审查我的更改”、“代码审查差异”
 DEBUG —“调试失败的测试”，“为什么流媒体损坏？”，
-              《超时问题根本原因分析》
+              "root cause analysis on the timeout issue"
 COMMIT —“提交这些更改”、“提交身份验证重构”
 PR —“创建 PR”、“为此分支打开拉取请求”
 ISSUE —“向 gh 报告此问题”、“创建 gh 问题”、“将其记录在 github 中”、

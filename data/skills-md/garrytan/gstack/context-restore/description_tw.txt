@@ -1,7 +1,7 @@
-恢复之前由 /context-save 保存的工作上下文。加载最新的
-保存的状态（默认情况下跨所有分支），以便您可以从您的位置开始
-停止——甚至跨越 Conductor 工作空间交接。
-当被要求“恢复”、“恢复上下文”、“我在哪里”或
-“从我停下来的地方继续”。與 /context-save 配對。
-以前的 /checkpointresume — 重命名是因为 Claude Code 对待 /checkpoint
+恢復先前由 /context-save 儲存的工作上下文。加載最新的
+儲存的狀態（預設跨所有分支），以便您可以從您的位置開始
+停止－甚至跨越 Conductor 工作空間交接。
+當被要求「恢復」、「恢復上下文」、「我在哪裡」或
+「從我停下來的地方繼續」。與 /context-save 配對。
+以前的 /checkpointresume — 重新命名是因為 Claude Code 對待 /checkpoint
 作為目前環境中的本機倒帶別名。 （gstack）
