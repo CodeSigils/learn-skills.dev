@@ -1,0 +1,8 @@
+使用時機：使用者想要使用自訂工具擴充 Docker、個人化 Docker 環境、
+或設定使用者特定的 Docker 自訂。
+觸發器：「擴充 docker」、「docker-extend」、「向 docker 新增工具」、「自訂 docker」、
+          '將我的工具加入容器'、'個人化 docker 設定'、'docker 使用者設定'、
+          「在docker中安裝工具」。
+作用：互動設定 Dockerfile.user 和 docker-compose.override.yml，以便使用者可以
+將個人工具新增到他們的 Docker 環境中，而不影響維護者檔案或
+將使用者特定的配置提交到 git。
