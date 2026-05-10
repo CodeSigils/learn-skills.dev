@@ -1,0 +1,7 @@
+Restaurez le contexte de travail enregistré précédemment par /context-save. Charge le plus récent
+état enregistré (dans toutes les branches par défaut) afin que vous puissiez reprendre là où vous
+interrompu, même lors des transferts d'espace de travail Conductor.
+À utiliser lorsqu'on vous demande de "reprendre", "restaurer le contexte", "où étais-je" ou
+"reprendre là où je m'étais arrêté". Associez-le à /context-save.
+Anciennement /checkpoint CV — renommé car Claude Code traite /checkpoint
+en tant qu'alias de rembobinage natif dans les environnements actuels. (gstack)

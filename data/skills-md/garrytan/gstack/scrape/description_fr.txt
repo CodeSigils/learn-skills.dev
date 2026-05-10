@@ -1,0 +1,6 @@
+Extrayez des données d’une page Web. Le premier appel à une nouvelle intention prototype le flux
+via les primitives $B et renvoie JSON. Appels ultérieurs sur une intention correspondante
+route vers une compétence de navigateur codifiée et retour dans environ 200 ms. Lecture seule — pour
+flux en mutation (remplissages de formulaires, clics, soumissions), utilisez /automate.
+À utiliser lorsqu'on vous demande de "gratter", "obtenir des données de", "extraire", "extraire de" ou
+"quoi de neuf" sur une page. (gstack)

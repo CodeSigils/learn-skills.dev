@@ -1,0 +1,7 @@
+Benchmark multi-modèles pour les compétences Gstack. Exécute la même invite via Claude,
+GPT (via Codex CLI) et Gemini côte à côte : compare la latence, les jetons, le coût,
+et éventuellement qualité via le juge LLM. Réponses "quel modèle est réellement le meilleur
+pour cette compétence ? » avec des données au lieu de vibrations. Séparé de /benchmark, qui
+mesure les performances des pages Web. À utiliser lorsque : "modèles de référence", "comparer les modèles",
+"quel modèle est le meilleur pour X", "comparaison entre modèles", "shootout de modèles". (gstack)
+Déclencheurs vocaux (alias parole-texte) : "comparer les modèles", "shootout de modèles", "quel modèle est le meilleur".

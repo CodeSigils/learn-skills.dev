@@ -1,0 +1,25 @@
+Le workflow de développement PRIMAIRE pour le projet Archon (remote-coding-agent).
+Utilisez cette compétence au lieu de toute compétence PRP lorsque vous travaillez sur le code Archon.
+Itinéraires vers 10 livres de recettes spécialisés en fonction de ce que l'utilisateur essaie de faire :
+
+RECHERCHE — "comment fonctionne l'orchestrateur ?", "où est défini l'état de la session ?",
+              "retracer le flux d'exécution du workflow", "qu'est-ce que IWorkflowStore ?"
+ENQUÊTE — "devrions-nous utiliser Drizzle ou Prisma ?", "quelle est la meilleure façon d'ajouter des WebSockets ?",
+              "Pouvons-nous migrer vers Turso ?", "Comment les autres projets gèrent-ils la limitation de débit ?"
+PRD - "écrire un PRD pour le mode sombre", "spécifier la fonction de notification",
+              "exigences du produit pour la nouvelle tentative de webhook"
+PLAN - "planifier le refactor d'authentification", "concevoir la couche de mise en cache",
+              "créer un plan de mise en œuvre pour le #42"
+IMPLEMENT — "mettre en œuvre le plan", "exécuter .claude/archon/plans/auth.plan.md",
+              "créer la fonctionnalité à partir du plan", "coder ceci"
+REVUE — « réviser le PR #123 », « réviser mes modifications », « code réviser la différence »
+DEBUG — "déboguer le test qui a échoué", "pourquoi le streaming est-il interrompu ?",
+              "Analyse des causes profondes du problème de délai d'attente"
+COMMIT — "valider ces modifications", "valider le refactor d'authentification"
+PR — "créer un PR", "ouvrir une pull request pour cette branche"
+PROBLÈME – "signaler ceci à gh", "créer un problème gh", "enregistrer-le dans github",
+              "signalez un bug pour cela", "créez une demande de fonctionnalité"
+
+Cette compétence se déclenche sur TOUTE tâche de développement : rechercher, enquêter,
+planification, création, révision, débogage, validation ou expédition du code.
+PAS pour : exécuter des workflows Archon CLI dans des arbres de travail (utilisez /archon à la place).

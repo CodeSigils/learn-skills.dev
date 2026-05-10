@@ -1,0 +1,9 @@
+Vérifiez qu'un binaire Archon publié fonctionne de bout en bout via un chemin d'installation spécifique.
+À utiliser lorsque : couper une nouvelle version, reproduire un rapport de bug utilisateur sur la version publiée
+version, ou valider qu'un binaire de correctif fonctionne réellement après une nouvelle balise.
+Déclencheurs : "tester la version", "tester la 0.3.1 via Brew", "vérifier l'installation de curl",
+          "testez le binaire", "la version binaire a-t-elle fonctionné",
+          "run /test-release", "vérifier la version".
+PAS pour : tester le travail de développement (utiliser directement le lien bun), tester les modifications inédites
+(construisez localement via scripts/build-binaries.sh d'abord), ou exécutez le programme complet
+valider la suite (bun run validate est séparé).
