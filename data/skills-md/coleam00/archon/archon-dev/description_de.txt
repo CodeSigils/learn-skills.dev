@@ -1,0 +1,25 @@
+Der PRIMARY-Entwicklungsworkflow für das Archon-Projekt (Remote-Coding-Agent).
+Verwenden Sie diese Fertigkeit anstelle von PRP-Fertigkeiten, wenn Sie an Archon-Code arbeiten.
+Leitet zu 10 speziellen Kochbüchern weiter, je nachdem, was der Benutzer versucht:
+
+FORSCHUNG – „Wie funktioniert der Orchestrator?“, „Wo ist der Sitzungsstatus definiert?“,
+              „Verfolgen Sie den Workflow-Ausführungsfluss“, „Was ist IWorkflowStore?“
+UNTERSUCHUNG – „Sollten wir Drizzle oder Prisma verwenden?“, „Wie fügt man WebSockets am besten hinzu?“,
+              „Können wir auf Turso migrieren?“, „Wie gehen andere Projekte mit der Ratenbegrenzung um?“
+PRD – „schreibe ein PRD für den Dunkelmodus“, „lege die Benachrichtigungsfunktion fest“,
+              „Produktanforderungen für Webhook-Wiederholung“
+PLAN – „Planen Sie den Authentifizierungs-Refactor“, „Entwerfen Sie die Caching-Ebene“,
+              „Erstellen Sie einen Implementierungsplan für #42“
+IMPLEMENT – „den Plan umsetzen“, „.claude/archon/plans/auth.plan.md ausführen“,
+              „Bauen Sie die Funktion anhand des Plans auf“, „kodieren Sie dies“
+REVIEW – „PR #123 überprüfen“, „Meine Änderungen überprüfen“, „Code den Diff überprüfen“
+DEBUG – „den fehlgeschlagenen Test debuggen“, „Warum ist das Streaming unterbrochen?“,
+              „Ursachenanalyse zum Timeout-Problem“
+COMMIT – „diese Änderungen festschreiben“, „den Authentifizierungs-Refactor festschreiben“
+PR – „PR erstellen“, „Pull-Anfrage für diesen Zweig öffnen“
+PROBLEM – „Melde dies an gh“, „erstelle ein GH-Problem“, „melde es in Github“,
+              „einen Fehler melden“, „eine Funktionsanfrage erstellen“
+
+Diese Fähigkeit wird bei JEDER Entwicklungsaufgabe ausgelöst: Recherchieren, Untersuchen,
+Planen, Erstellen, Überprüfen, Debuggen, Festschreiben oder Versenden von Code.
+NICHT für: Ausführen von Archon-CLI-Workflows in Arbeitsbäumen (verwenden Sie stattdessen /archon).

@@ -1,0 +1,9 @@
+Replizieren und validieren Sie ein GitHub-Problem, indem Sie Archon starten, das Problem analysieren und
+und systematisches Testen aller beschriebenen Symptome mithilfe der Browser-Automatisierung.
+Verwenden Sie diese Option, wenn: Der Benutzer einen Fehler reproduzieren, ein GitHub-Problem validieren, ein gemeldetes Problem bestätigen möchte.
+oder untersuchen Sie, ob ein Problem real ist, bevor Sie an einer Lösung arbeiten.
+Auslöser: „Problem replizieren“, „Problem reproduzieren“, „Problem validieren“, „Fehler bestätigen“,
+          „Problem testen“, „Können Sie reproduzieren“, „Replikation versuchen“, „Fehler überprüfen“.
+Fähigkeit: Checkt die Hauptversion aus, ruft die neueste Version ab, startet Archon, liest die GitHub-Ausgabe,
+Anschließend testet es mithilfe des Agent-Browsers systematisch jedes Symptom und erstellt einen Ergebnisbericht.
+NICHT für: Beheben von Problemen (verwenden Sie /archon oder /exp-piv-loop:fix-issue), allgemeine UI-Tests (verwenden Sie /validate-ui).
