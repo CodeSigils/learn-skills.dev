@@ -1,0 +1,9 @@
+Verificare che un binario Archon rilasciato funzioni end-to-end tramite un percorso di installazione specifico.
+Utilizzare quando: tagliare una nuova versione, riprodurre una segnalazione di bug dell'utente sulla versione rilasciata
+versione o verificare che un hotfix binario funzioni effettivamente dopo una nuova codifica.
+Trigger: "testare la versione", "testare 0.3.1 tramite brew", "verificare l'installazione di curl",
+          "smoke test del binario", "il rilascio del binario ha funzionato",
+          "esegui /test-release", "verifica la versione".
+NON per: testare il lavoro di sviluppo (utilizzare direttamente il collegamento bun), testare modifiche non rilasciate
+(crea prima localmente tramite scripts/build-binaries.sh) o eseguendo il file completo
+validate suite (la convalida dell'esecuzione del bun è separata).

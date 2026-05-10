@@ -1,0 +1,7 @@
+Ripristina il contesto di lavoro salvato in precedenza da /context-save. Carica il più recente
+stato salvato (in tutti i rami per impostazione predefinita) in modo da poter riprendere da dove vuoi
+interrotto, anche durante i trasferimenti dell'area di lavoro di Conductor.
+Utilizzare quando viene chiesto di "riprendere", "ripristinare il contesto", "dov'ero" o
+"riprendere da dove avevo interrotto". Accoppia con /context-save.
+Precedentemente /checkpoint curriculum - rinominato perché Claude Code tratta /checkpoint
+come alias di riavvolgimento nativo negli ambienti attuali. (stack g)

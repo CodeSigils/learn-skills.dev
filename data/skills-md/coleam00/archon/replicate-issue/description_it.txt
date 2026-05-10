@@ -1,0 +1,9 @@
+Replica e convalida un problema di GitHub avviando Archon, analizzando il problema,
+e testare sistematicamente tutti i sintomi descritti utilizzando l'automazione del browser.
+Da utilizzare quando: l'utente desidera riprodurre un bug, convalidare un problema GitHub, confermare un problema segnalato,
+o verificare se un problema è reale prima di lavorare su una soluzione.
+Trigger: "replica problema", "riproduci problema", "convalida problema", "conferma bug",
+          "prova il problema", "puoi riprodurlo", "prova a replicare", "verifica il bug".
+Funzionalità: controlla il main, estrae l'ultimo, avvia Archon, legge il problema di GitHub,
+quindi utilizza il browser dell'agente per testare sistematicamente ogni sintomo e produrre un rapporto sui risultati.
+NON per: risoluzione di problemi (usare /archon o /exp-piv-loop:fix-issue), test generali dell'interfaccia utente (usare /validate-ui).

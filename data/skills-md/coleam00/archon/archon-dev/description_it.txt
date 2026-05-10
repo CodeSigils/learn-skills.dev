@@ -1,0 +1,25 @@
+Il flusso di lavoro di sviluppo PRIMARIO per il progetto Archon (agente di codifica remota).
+Usa questa abilità invece di qualsiasi abilità PRP quando lavori sul codice Archon.
+Percorsi verso 10 libri di cucina specializzati in base a ciò che l'utente sta cercando di fare:
+
+RICERCA — "come funziona l'orchestratore?", "dove viene definito lo stato della sessione?",
+              "traccia il flusso di esecuzione del flusso di lavoro", "cos'è IWorkflowStore?"
+INDAGARE — "dovremmo usare Drizzle o Prisma?", "qual è il modo migliore per aggiungere WebSocket?",
+              "possiamo migrare a Turso?", "come gestiscono la limitazione della velocità gli altri progetti?"
+PRD — "scrivi un PRD per la modalità oscura", "specifica la funzione di notifica",
+              "requisiti del prodotto per il nuovo tentativo del webhook"
+PIANIFICAZIONE: "pianifica il refactoring di autenticazione", "progetta il livello di memorizzazione nella cache",
+              "creare un piano di implementazione per #42"
+IMPLEMENTA — "implementa il piano", "esegui .claude/archon/plans/auth.plan.md",
+              "crea la funzionalità dal piano", "codificalo"
+REVISIONE: "rivedi PR n. 123", "rivedi le mie modifiche", "rivedi il codice per le differenze"
+DEBUG — "esegui il debug del test fallito", "perché lo streaming non funziona?",
+              "analisi della causa principale del problema del timeout"
+COMMIT — "impogna queste modifiche", "impegna il refactoring di autenticazione"
+PR — "crea un PR", "apri una richiesta pull per questo ramo"
+PROBLEMA — "segnala a gh", "crea un problema con gh", "registralo in github",
+              "segnala un bug per questo", "crea una richiesta di funzionalità"
+
+Questa abilità si attiva in QUALSIASI attività di sviluppo: ricerca, investigazione,
+pianificazione, creazione, revisione, debug, commit o spedizione del codice.
+NON per: eseguire flussi di lavoro CLI di Archon negli alberi di lavoro (utilizzare invece /archon).

@@ -1,0 +1,8 @@
+Da utilizzare quando: l'utente desidera estendere Docker con strumenti personalizzati, personalizzare l'ambiente Docker,
+o impostare la personalizzazione Docker specifica per l'utente.
+Trigger: 'extend docker', 'docker-extend', 'aggiungi strumenti alla finestra mobile', 'personalizza finestra mobile',
+          'aggiungi i miei strumenti al contenitore', 'personalizza la configurazione della finestra mobile', 'configurazione dell'utente finestra mobile',
+          'installa strumenti nella finestra mobile'.
+Fa: configura in modo interattivo Dockerfile.user e docker-compose.override.yml in modo che gli utenti possano farlo
+aggiungere strumenti personali al proprio ambiente Docker senza influire sui file del manutentore o
+impegnando la configurazione specifica dell'utente su git.
