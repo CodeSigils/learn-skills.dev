@@ -1,0 +1,1 @@
+Docker コンテナ内の Tailscale 接続と DNS 障害を診断します。ユーザー空間とカーネル モード、DNS リゾルバーの競合、TUN インターフェイスの問題、およびマルチテールネットの不一致を検出します。 Tailscale ピアが IP で接続しているが MagicDNS 名が失敗する場合、またはコンテナが予期せずユーザースペース ネットワークにフォールバックする場合に使用します。お客様が Docker または Podman に Tailscale をデプロイし、DNS が機能しないと報告した場合、または docker run から docker compose に移行すると TUN 機能が壊れる場合にも使用します。

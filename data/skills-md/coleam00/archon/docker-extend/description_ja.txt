@@ -1,0 +1,8 @@
+使用する場合: ユーザーがカスタム ツールで Docker を拡張したい場合、Docker 環境をパーソナライズしたい場合、
+または、ユーザー固有の Docker カスタマイズをセットアップします。
+トリガー: 'extend docker'、'docker-extend'、'add tools to docker'、'customize docker'、
+          'コンテナにツールを追加する'、'Docker セットアップをカスタマイズする'、'Docker ユーザー セットアップ'、
+          「Docker にツールをインストール」。
+実行: Dockerfile.user と docker-compose.override.yml を対話的に設定して、ユーザーが次のことを実行できるようにします。
+メンテナ ファイルや
+ユーザー固有の設定を git にコミットします。
