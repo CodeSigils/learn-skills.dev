@@ -1,0 +1,9 @@
+Verifique que un binario Archon publicado funcione de un extremo a otro a través de una ruta de instalación específica.
+Úselo cuando: editar una nueva versión, reproducir un informe de error del usuario sobre la versión
+versión, o validar que un binario de revisión realmente funcione después de volver a etiquetarlo.
+Activadores: "probar la versión", "probar 0.3.1 mediante cerveza", "verificar la instalación de curl",
+          "prueba de humo del binario", "funcionó el binario de liberación",
+          "ejecutar /test-release", "verificar la versión".
+NO para: probar el trabajo de desarrollo (use el enlace bun directamente), probar cambios no publicados
+(compile localmente a través de scripts/build-binaries.sh primero), o ejecute el completo
+Validar suite (la validación de ejecución de bun es independiente).

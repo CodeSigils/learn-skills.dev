@@ -1,0 +1,8 @@
+Úselo cuando: El usuario quiera ampliar Docker con herramientas personalizadas, personalizar el entorno de Docker,
+o configurar la personalización de Docker específica del usuario.
+Activadores: 'extender la ventana acoplable', 'extender la ventana acoplable', 'agregar herramientas a la ventana acoplable', 'personalizar la ventana acoplable',
+          'agregar mis herramientas al contenedor', 'personalizar la configuración de la ventana acoplable', 'configuración del usuario de la ventana acoplable',
+          'instalar herramientas en la ventana acoplable'.
+Sí: configura interactivamente Dockerfile.user y docker-compose.override.yml para que los usuarios puedan
+agregar herramientas personales a su entorno Docker sin afectar los archivos del mantenedor o
+comprometer la configuración específica del usuario en git.

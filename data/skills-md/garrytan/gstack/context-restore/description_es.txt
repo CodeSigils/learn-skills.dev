@@ -1,0 +1,7 @@
+Restaure el contexto de trabajo guardado anteriormente con /context-save. Carga el más reciente
+estado guardado (en todas las ramas de forma predeterminada) para que pueda continuar donde quiera
+dejado de lado, incluso en las transferencias del espacio de trabajo de Conductor.
+Úselo cuando se le solicite "reanudar", "restaurar el contexto", "dónde estaba" o
+"Continuar donde lo dejé". Emparejar con /context-save.
+Anteriormente /checkpoint resume: se le cambió el nombre porque Claude Code trata /checkpoint
+como alias de rebobinado nativo en los entornos actuales. (pila)

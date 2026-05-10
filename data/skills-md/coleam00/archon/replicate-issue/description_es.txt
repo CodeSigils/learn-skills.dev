@@ -1,0 +1,9 @@
+Replicar y validar un problema de GitHub activando Archon, analizando el problema,
+y probar sistemáticamente todos los síntomas descritos utilizando la automatización del navegador.
+Úselo cuando: el usuario desee reproducir un error, validar un problema de GitHub, confirmar un problema informado,
+o investigar si un problema es real antes de trabajar en solucionarlo.
+Activadores: "replicar problema", "reproducir problema", "validar problema", "confirmar error",
+          "problema de prueba", "puedes reproducir", "intentar replicar", "verificar el error".
+Capacidad: revisa el archivo principal, extrae lo último, inicia Archon, lee el número de GitHub,
+luego utiliza el agente-navegador para probar sistemáticamente cada síntoma y producir un informe de hallazgos.
+NO para: solucionar problemas (use /archon o /exp-piv-loop:fix-issue), pruebas generales de interfaz de usuario (use /validate-ui).

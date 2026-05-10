@@ -1,0 +1,25 @@
+El flujo de trabajo de desarrollo PRIMARIO para el proyecto Archon (agente de codificación remota).
+Utilice esta habilidad en lugar de cualquier habilidad PRP cuando trabaje en el código Archon.
+Rutas a 10 libros de cocina especializados en función de lo que el usuario intenta hacer:
+
+INVESTIGACIÓN: "¿cómo funciona el orquestador?", "¿dónde se define el estado de la sesión?",
+              "rastrear el flujo de ejecución del flujo de trabajo", "¿qué es IWorkflowStore?"
+INVESTIGAR: "¿deberíamos usar Drizzle o Prisma?", "¿cuál es la mejor manera de agregar WebSockets?",
+              "¿Podemos migrar a Turso?", "¿Cómo manejan otros proyectos la limitación de tarifas?"
+PRD: "escribir un PRD para el modo oscuro", "especificar la función de notificación",
+              "Requisitos del producto para el reintento del webhook"
+PLANIFICAR: "planificar la refactorización de autenticación", "diseñar la capa de almacenamiento en caché",
+              "crear un plan de implementación para el n.° 42"
+IMPLEMENTAR — "implementar el plan", "ejecutar .claude/archon/plans/auth.plan.md",
+              "construir la función a partir del plan", "codificar esto"
+REVISIÓN: "revisar PR #123", "revisar mis cambios", "revisar el código de diferencias"
+DEBUG - "depurar la prueba fallida", "¿por qué se interrumpe la transmisión?",
+              "Análisis de la causa raíz del problema del tiempo de espera"
+COMMIT: "confirmar estos cambios", "confirmar la refactorización de autenticación"
+PR: "crear un PR", "abrir una solicitud de extracción para esta rama"
+PROBLEMA: "informar de esto a gh", "crear un problema de gh", "iniciar sesión en github",
+              "presentar un error para esto", "crear una solicitud de función"
+
+Esta habilidad se activa en CUALQUIER tarea de desarrollo: investigar, investigar,
+planificación, construcción, revisión, depuración, confirmación o envío de código.
+NO para: Ejecutar flujos de trabajo CLI de Archon en árboles de trabajo (use /archon en su lugar).
