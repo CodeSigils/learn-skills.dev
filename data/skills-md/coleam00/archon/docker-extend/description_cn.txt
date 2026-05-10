@@ -1,0 +1,8 @@
+使用时机：用户想要使用自定义工具扩展 Docker、个性化 Docker 环境、
+或设置用户特定的 Docker 定制。
+触发器：“扩展 docker”、“docker-extend”、“向 docker 添加工具”、“自定义 docker”、
+          '将我的工具添加到容器'、'个性化 docker 设置'、'docker 用户设置'、
+          “在docker中安装工具”。
+作用：交互设置 Dockerfile.user 和 docker-compose.override.yml，以便用户可以
+将个人工具添加到他们的 Docker 环境中，而不影响维护者文件或
+将用户特定的配置提交到 git。

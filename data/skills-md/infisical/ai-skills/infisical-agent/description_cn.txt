@@ -1,0 +1,1 @@
+配置 Infisical Agent 的指南 - 一个客户端守护进程，用于管理令牌生命周期并通过 Go 模板呈现机密，而无需修改应用程序代码。涵盖完整的 YAML 配置格式、所有 6 种身份验证方法（通用身份验证、Kubernetes、AWS IAM、Azure、GCP ID 令牌、GCP IAM）、接收器、模板函数（listSecrets、listSecretsByProjectSlug、getSecretByName、dynamicSecret）、轮询、更改命令和缓存。当有人询问以下问题时，请使用此技能：Infisical Agent、代理配置文件、代理模板、将机密渲染到文件、sidecar 机密注入、令牌更新、infisical 代理命令或“如何使用 Infisical Agent 注入机密”。

@@ -1,0 +1,1 @@
+诊断 Docker 容器内的 Tailscale 连接和 DNS 故障。检测用户空间与内核模式、DNS 解析器冲突、TUN 接口问题和多尾网不匹配。当 Tailscale 对等点通过 IP 连接但 MagicDNS 名称失败时，或者当容器意外回退到用户空间网络时使用。当客户在 Docker 或 Podman 中部署 Tailscale 并报告 DNS 不工作时，或者从 docker run 迁移到 docker compose 破坏 TUN 功能时，也可使用。

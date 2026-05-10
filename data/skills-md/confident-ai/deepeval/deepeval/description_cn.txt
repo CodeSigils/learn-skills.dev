@@ -1,0 +1,1 @@
+适用于 AI 代理和 LLM 应用程序的 DeepEval 评估工作流程。当用户想要评估或改进 AI 代理、工具使用工作流程、多回合聊天机器人、RAG 管道或 LLM 应用程序时触发；添加评估；生成数据集或黄金数据；使用 deepeval 生成；使用 deepeval 测试运行；添加跟踪或@observe；将结果发送给 Confident AI；监控生产；运行在线评估；检查痕迹；或迭代评估失败中的提示、工具、检索或代理行为。人工智能代理是主要用例。涵盖 Python SDK、pytest 评估套件、CLI 生成、跟踪、Confident AI 报告和代理驱动的改进循环。除非用户要求比较或迁移到 DeepEval，否则请勿触发不相关的通用 pytest、非 AI 测试设置或非 DeepEval 可观测性工作。
