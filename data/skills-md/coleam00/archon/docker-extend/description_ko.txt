@@ -1,0 +1,8 @@
+사용 시기: 사용자가 사용자 지정 도구를 사용하여 Docker를 확장하고 Docker 환경을 개인화하고 싶어하며,
+또는 사용자별 Docker 사용자 정의를 설정하세요.
+트리거: 'docker 확장', 'docker-extend', 'docker에 도구 추가', 'docker 사용자 정의',
+          '컨테이너에 내 도구 추가', 'Docker 설정 개인화', 'Docker 사용자 설정',
+          'Docker에 도구 설치'.
+수행하는 작업: 사용자가 다음을 수행할 수 있도록 Dockerfile.user 및 docker-compose.override.yml을 대화형으로 설정합니다.
+관리자 파일에 영향을 주지 않고 Docker 환경에 개인 도구를 추가하거나
+사용자별 구성을 git에 커밋합니다.
