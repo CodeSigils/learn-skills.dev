@@ -1,0 +1,9 @@
+Verify a released archon binary works end-to-end via a specific install path.
+Use when: cutting a new release, reproducing a user bug report on the released
+version, or validating that a hotfix binary actually works after a re-tag.
+Triggers: "test the release", "test 0.3.1 via brew", "verify the curl install",
+          "smoke test the binary", "did the release binary work",
+          "run /test-release", "verify the release".
+NOT for: testing dev work (use bun link directly), testing unreleased changes
+(build locally via scripts/build-binaries.sh first), or running the full
+validate suite (bun run validate is separate).

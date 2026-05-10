@@ -1,0 +1,1 @@
+Validate Dockerfiles against best practices for syntax errors, image tagging, package pinning, and shell script issues in RUN commands. Auto-detects hadolint binary or Docker image fallback. Checks project config or falls back to sensible defaults. Use when creating or modifying Dockerfiles, reviewing container images, or catching Dockerfile anti-patterns before building.

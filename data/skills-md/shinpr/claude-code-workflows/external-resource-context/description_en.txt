@@ -1,0 +1,1 @@
+Captures and persists access methods for resources outside the repository (design source, design system, API schema, IaC source, secret store) so downstream work can reach them deterministically. Use when work depends on external resources, or when the user mentions design source, design system, API schema, IaC source, secret store, or canonical source.

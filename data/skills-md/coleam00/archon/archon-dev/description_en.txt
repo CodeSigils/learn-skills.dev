@@ -1,0 +1,25 @@
+The PRIMARY development workflow for the Archon project (remote-coding-agent).
+Use this skill instead of any PRP skills when working on Archon code.
+Routes to 10 specialized cookbooks based on what the user is trying to do:
+
+RESEARCH    — "how does the orchestrator work?", "where is session state defined?",
+              "trace the workflow execution flow", "what is IWorkflowStore?"
+INVESTIGATE — "should we use Drizzle or Prisma?", "what's the best way to add WebSockets?",
+              "can we migrate to Turso?", "how do other projects handle rate limiting?"
+PRD         — "write a PRD for dark mode", "spec out the notification feature",
+              "product requirements for webhook retry"
+PLAN        — "plan the auth refactor", "design the caching layer",
+              "create an implementation plan for #42"
+IMPLEMENT   — "implement the plan", "execute .claude/archon/plans/auth.plan.md",
+              "build the feature from the plan", "code this up"
+REVIEW      — "review PR #123", "review my changes", "code review the diff"
+DEBUG       — "debug the failing test", "why is streaming broken?",
+              "root cause analysis on the timeout issue"
+COMMIT      — "commit these changes", "commit the auth refactor"
+PR          — "create a PR", "open a pull request for this branch"
+ISSUE       — "report this to gh", "create a gh issue", "log it in github",
+              "file a bug for this", "create a feature request"
+
+This skill triggers on ANY development task: researching, investigating,
+planning, building, reviewing, debugging, committing, or shipping code.
+NOT for: Running Archon CLI workflows in worktrees (use /archon instead).

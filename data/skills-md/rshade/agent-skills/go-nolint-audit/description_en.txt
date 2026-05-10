@@ -1,0 +1,1 @@
+Audit Go nolint directives for staleness and lazy justifications. Mechanically verifies each suppression with golangci-lint, then runs adversarial Red/Blue/White debates on the top candidates for removal. Use when inheriting a Go codebase, during periodic cleanup, or when nolint count is growing unchecked.

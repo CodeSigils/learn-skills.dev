@@ -1,0 +1,3 @@
+Autonomous rule adherence checker. Scans the codebase for rule violations,
+fixes the highest-impact ones in an isolated worktree, runs full validation,
+creates a PR. Uses memory to track progress across runs.
