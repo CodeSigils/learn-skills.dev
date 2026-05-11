@@ -1,0 +1,5 @@
+PPT生成的入口点。收集角色/观众/场景/page_count/
+ppt_mode（创意或标准），解析上传的 pdf/docx/md/txt 文件，
+在新的 Deck_dir 中生成 task_pack.json + info_pack.json，然后调度
+到 sn-ppt-creative 或 sn-ppt-standard。当用户要求制作 PPT /
+演示/演示/PPT。

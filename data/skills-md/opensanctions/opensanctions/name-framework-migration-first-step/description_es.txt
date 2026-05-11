@@ -1,0 +1,1 @@
+Migre la limpieza de nombres ad hoc en un rastreador a h.review_names (Paso 1 de la migración del marco de nombres). Úselo cuando un crawler.py contiene divisiones de delimitadores, sustituciones de expresiones regulares, eliminación de corchetes o lógica condicional aplicada a cadenas de nombres antes de agregar o aplicar el nombre.

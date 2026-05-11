@@ -1,0 +1,1 @@
+透過 v2beta1 REST API 管理 Neo4j Aura 代理程式 — 建立、列出、取得、更新、刪除和呼叫由 AuraDB 實例支援的 Aura 代理程式。在配置 Aura 代理程式工具（CypherTemplate、SimilaritySearch、Text2Cypher）、設定係統提示、將代理部署到 REST 或 MCP 端點或使用自然語言查詢呼叫代理時使用。涵蓋 OAuth2 身份驗證、組織/專案範圍、工具參數架構和 InvokeAgentResponse 格式。不涵蓋 AuraDB 實例配置 — 使用 neo4j-aura-provisioning-skill。不包括向量索引建立 - 使用 neo4j-vector-index-skill。

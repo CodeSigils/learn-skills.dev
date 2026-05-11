@@ -1,0 +1,1 @@
+当用户想要检查其 Kodex OS Layer 1 LLM Wiki 的结构问题时，请使用此技能。触发器包括“lint kos”、“检查我的 wiki”、“审核 wiki”、“查找损坏的链接”或任何对 wiki 完整性报告的明确请求。该技能验证保管库是否符合其 SCHEMA.md，每个 raw/ 源都有一个相应的 wiki/sources/ 条目，每个备忘录文件夹都有一个 wiki/books/ 条目，wikilinks 解析，frontmatter 有效，并且 bit.ly slugs 已解析。报告按严重程度分组的结果。除非用户明确批准每个修复，否则不会进行更改。请勿将此技能用于常规摄取（使用 kos-ingest）或内容问题（使用 kos-query）。

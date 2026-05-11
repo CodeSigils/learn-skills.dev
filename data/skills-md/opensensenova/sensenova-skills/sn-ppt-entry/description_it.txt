@@ -1,0 +1,5 @@
+Punto di ingresso per la generazione di PPT. Raccoglie ruolo/pubblico/scena/conteggio_pagine/
+ppt_mode (creativo o standard), analizza i file pdf/docx/md/txt caricati,
+produce task_pack.json + info_pack.json in un nuovo deck_dir, quindi invia
+a sn-ppt-creative o sn-ppt-standard. Utilizzare quando l'utente chiede di creare un PPT/
+presentazione / 演示 / PPT.
