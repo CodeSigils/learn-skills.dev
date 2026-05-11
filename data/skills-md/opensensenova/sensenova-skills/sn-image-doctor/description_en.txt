@@ -1,0 +1,4 @@
+Environment diagnostic skill for SenseNova-Skills project.
+Checks that sn-image-base is properly installed and configured, validates dependencies
+and environment variables. Prompts user to configure missing required variables and saves
+them to .env file. After configuration, reloads environment and suggests agent restart if needed.

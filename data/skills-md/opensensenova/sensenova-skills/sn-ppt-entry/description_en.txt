@@ -1,0 +1,5 @@
+Entry point for PPT generation. Collects role / audience / scene / page_count /
+ppt_mode (creative or standard), parses uploaded pdf/docx/md/txt files,
+produces task_pack.json + info_pack.json in a new deck_dir, then dispatches
+to sn-ppt-creative or sn-ppt-standard. Use when the user asks to make a PPT /
+presentation / 演示 / PPT.
