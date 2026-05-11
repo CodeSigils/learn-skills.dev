@@ -1,0 +1,1 @@
+모든 코드 블록, URL, 경로, 명령 및 제목을 정확하게 유지하면서 AI-ism을 제거하고 버스트를 추가하여 자연어 메모리 파일(CLAUDE.md, todos, 기본 설정, 문서)을 인간화합니다. 두 가지 모드: --deterministic(빠른, 정규식 기반, API 없음) 및 LLM(기본값, 재작성을 위해 Claude 호출). 인간화 버전은 원본 파일을 덮어씁니다. FILE.original.md로 저장된 일반 백업입니다. 트리거: /unslop-file <filepath> 또는 "humanize memory file"
