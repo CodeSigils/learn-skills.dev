@@ -1,0 +1,1 @@
+審核和整理 .agents/ 工件樹 - 對每個文件進行分類（KEEP/STALE/ORPHAN/LEGACY/EPHEMERAL），顯示引用和風險，並（在 --apply 模式下）將候選者移到 .agents/skill-artifacts/.archive/[date]/ 後面明確的每個類別確認。從不刪除。當 .agents/ 已成為垃圾抽屜、發布之前或工件感覺陳舊時使用。不適用於清理程式碼（使用程式碼清理）或機器狀態（使用機器清理）。
