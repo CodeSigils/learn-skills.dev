@@ -1,0 +1,15 @@
+Audits any project for security, test coverage, and Claude Code automation.
+46 checks across 6 layers: secrets, CLAUDE.md, hooks, skills, agents, rules, MCP, CI, memory.
+Adaptive scoring — auto-detects project maturity (Starter/Growing/Mature/Pro).
+Diagnoses gaps, prescribes project-specific fixes, applies them.
+
+Usage:
+  /doctor              — full audit (all 6 layers)
+  /doctor quick        — TOP-3 priorities + score (30 seconds)
+  /doctor scan         — diagnose only (no changes)
+  /doctor fix          — prescribe + apply fixes
+  /doctor layer <N>    — audit specific layer (0-5)
+  /doctor verify       — health check
+
+Triggers: "/doctor", "audit", "setup automation", "configure Claude Code",
+"project health", "what's missing", "security check", "аудит", "проверь проект"

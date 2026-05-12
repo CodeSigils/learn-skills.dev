@@ -1,0 +1,1 @@
+(fslzrr) Detects and runs project lint tooling on staged changes — check-only first, auto-fix on failure, re-stage fixed files, hard-stop when lint cannot be resolved. Notifies user and skips when no tooling found. Called by /implement between /tdd and /review. TRIGGER when: called by /implement after each SUBTASK, or user says 'run lint', 'lint the code', 'check lint'.
