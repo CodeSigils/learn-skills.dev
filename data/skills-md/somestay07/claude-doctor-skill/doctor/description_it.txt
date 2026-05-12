@@ -1,0 +1,15 @@
+Controlla qualsiasi progetto per quanto riguarda la sicurezza, la copertura dei test e l'automazione del codice Claude.
+46 controlli su 6 livelli: segreti, CLAUDE.md, hook, abilità, agenti, regole, MCP, CI, memoria.
+Punteggio adattivo: rileva automaticamente la maturità del progetto (Starter/Growing/Mature/Pro).
+Diagnostica le lacune, prescrive soluzioni specifiche per il progetto, le applica.
+
+Utilizzo:
+  /doctor — audit completo (tutti i 6 livelli)
+  /doctor quick — Priorità TOP-3 + punteggio (30 secondi)
+  /doctor scan: solo diagnosi (nessuna modifica)
+  /doctor fix — prescrive + applica le correzioni
+  /livello medico <N>: livello specifico dell'audit (0-5)
+  /verifica medico: controllo sanitario
+
+Trigger: "/doctor", "audit", "setup automation", "configure Claude Code",
+"stato del progetto", "cosa manca", "controllo di sicurezza", "аудит", "проверь проект"
