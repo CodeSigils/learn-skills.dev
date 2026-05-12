@@ -1,0 +1,15 @@
+Audite tout projet pour la sécurité, la couverture des tests et l’automatisation de Claude Code.
+46 contrôles sur 6 couches : secrets, CLAUDE.md, hooks, compétences, agents, règles, MCP, CI, mémoire.
+Scoring adaptatif : détecte automatiquement la maturité du projet (Starter/Growing/Mature/Pro).
+Diagnostique les lacunes, prescrit des correctifs spécifiques au projet et les applique.
+
+Utilisation :
+  /doctor — audit complet (les 6 niveaux)
+  /doctor quick — TOP-3 priorités + score (30 secondes)
+  /doctor scan – diagnostiquer uniquement (aucun changement)
+  /doctor fix – prescrire + appliquer des correctifs
+  /doctor layer <N> — couche spécifique à l'audit (0-5)
+  /doctor verify — bilan de santé
+
+Déclencheurs : "/doctor", "audit", "installation automatisée", "configurer Claude Code",
+« santé du projet », « ce qui manque », « contrôle de sécurité », « аудит », « проверь проект »
