@@ -1,0 +1,1 @@
+.agents/ 아티팩트 트리를 감사 및 정리합니다. 모든 파일(KEEP/STALE/ORPHAN/LEGACY/EPHEMERAL)을 분류하고 참조 및 위험을 표시하며 (--apply 모드에서) 명시적인 카테고리별 확인 뒤에 후보를 .agents/skill-artifacts/.archive/[date]/로 이동합니다. 절대 삭제하지 않습니다. .agents/가 정크 서랍으로 갔을 때, 릴리스 전, 또는 아티팩트가 오래되었다고 느낄 때 사용하세요. 정리 코드(code-cleanup 사용) 또는 기계 상태(machine-cleanup 사용)에는 적합하지 않습니다.
