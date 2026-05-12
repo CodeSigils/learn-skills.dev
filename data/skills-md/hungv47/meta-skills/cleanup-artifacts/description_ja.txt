@@ -1,0 +1,1 @@
+.agents/ アーティファクト ツリーを監査およびグルーミングします。すべてのファイル (KEEP/STALE/ORPHAN/LEGACY/EPHEMERAL) を分類し、参照とリスクを表面化し、(--apply モードで) 明示的なカテゴリごとの確認の背後で候補を .agents/skill-artifacts/.archive/[date]/ に移動します。決して削除しません。 .agents/ がジャンク引き出しになった場合、リリース前、またはアーティファクトが古く感じられる場合に使用します。コードのクリーニング (code-cleanup を使用) やマシン状態 (machine-cleanup を使用) のためではありません。
