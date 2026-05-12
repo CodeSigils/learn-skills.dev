@@ -1,0 +1,15 @@
+Überprüft jedes Projekt auf Sicherheit, Testabdeckung und Claude-Code-Automatisierung.
+46 Prüfungen auf 6 Ebenen: Geheimnisse, CLAUDE.md, Hooks, Fähigkeiten, Agenten, Regeln, MCP, CI, Speicher.
+Adaptives Scoring – erkennt automatisch den Projektreifegrad (Starter/Wachsend/Mature/Pro).
+Diagnostiziert Lücken, schreibt projektspezifische Korrekturen vor und wendet sie an.
+
+Verwendung:
+  /doctor – vollständiges Audit (alle 6 Ebenen)
+  /doctor quick – TOP-3-Prioritäten + Punktestand (30 Sekunden)
+  /doctor scan – nur diagnostizieren (keine Änderungen)
+  /doctor fix – Korrekturen verschreiben und anwenden
+  /doctor-Schicht <N> – prüfungsspezifische Schicht (0-5)
+  /doctor verify – Gesundheitscheck
+
+Auslöser: „/doctor“, „audit“, „automatisierung einrichten“, „Claude Code konfigurieren“,
+„Projektzustand“, „Was fehlt“, „Sicherheitsüberprüfung“, „Audit“, „Projekt testen“
