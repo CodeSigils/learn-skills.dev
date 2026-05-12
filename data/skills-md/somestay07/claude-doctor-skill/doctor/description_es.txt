@@ -1,0 +1,15 @@
+Audita cualquier proyecto en materia de seguridad, cobertura de pruebas y automatización del Código Claude.
+46 comprobaciones en 6 capas: secretos, CLAUDE.md, ganchos, habilidades, agentes, reglas, MCP, CI, memoria.
+Puntuación adaptativa: detecta automáticamente la madurez del proyecto (principiante/en crecimiento/maduro/profesional).
+Diagnostica brechas, prescribe soluciones específicas para el proyecto y las aplica.
+
+Uso:
+  /doctor — auditoría completa (las 6 capas)
+  /doctor rápido — PRINCIPALES 3 prioridades + puntuación (30 segundos)
+  /doctor scan: solo diagnóstico (sin cambios)
+  /doctor fix — prescribir + aplicar correcciones
+  /capa doctor <N> — capa específica de auditoría (0-5)
+  /doctor verificar - control de salud
+
+Activadores: "/doctor", "auditoría", "configuración de automatización", "configuración de Claude Code",
+"salud del proyecto", "lo que falta", "control de seguridad", "аудит", "проверь проект"
