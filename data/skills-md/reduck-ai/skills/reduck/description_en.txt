@@ -1,0 +1,10 @@
+Run web tasks through the Reduck CLI: scrape a site, extract structured
+records, search LinkedIn/Reddit/Google, log in and pull messages, fetch
+SPA/JS-gated pages, paginate site-search. Use when the user says
+"scrape", "get data from <site>", "search <site> for X", "pull my latest
+messages on <platform>", "look up reviews/posts/listings", "extract
+<field> from <URL>", or asks for any data that lives behind a webpage
+rather than a public API. Treat Reduck as a function: discover the
+method, call it, read the records. NOT for: writing browser automation
+from scratch, headed Playwright/Puppeteer scripts, or tasks where a
+first-party API already exists.
