@@ -1,0 +1,1 @@
+registerFunction(id, HttpInvocationConfig) を使用して、外部 HTTP エンドポイントを iii 関数として登録します。レガシー API、サードパーティ Webhook、または不変サービスをトリガー可能な iii 関数に適応させる場合、特にプロンプ​​トで registerFunction 呼び出しに反復される { path, id } などのエンドポイント マップを要求する場合に使用します。
