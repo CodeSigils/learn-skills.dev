@@ -1,0 +1,1 @@
+建置並驗證 POST /v1/query 的 HelixDB 動態內聯查詢請求。當任務涉及動態查詢、內聯查詢 JSON、內聯 AST（步驟、謂詞、表達式、投影）、parameter_types、DateTime 強制、查詢預熱或調試直接發送到 Helix 網關的請求正文時使用。請參閱 REFERENCE.md 以了解每個 AST 變體，並參閱 Examples.md 以了解可複製貼上的有效負載。

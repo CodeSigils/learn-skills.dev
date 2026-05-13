@@ -1,0 +1,1 @@
+為 TDD 工作流程建立原子常規提交。將包含實現和測試變更的工作樹拆分為每個功能的兩次提交 - 首先是實現，然後是測試 - 因此 git 歷史讀起來就像一個乾淨的、可平分的 TDD 故事。每當使用者要求提交、說「提交此」、「提交變更」、「進行提交」、「完成提交」時，或每當暫存/未暫存的 diff 包含配對的來源檔案和測試檔案（foo.ts + foo.test.ts、foo.py + test_foo.py、foo.go + foo_test.test.ts、foo.py + test_foo.py、foo.go + foo_test.gooo、Foo_test.gooo.poo.即使用戶沒有明確表示“原子”或“常規提交”。當實作和測試文件一起出現在 diff 中時，優先使用此技能而不是普通提交。
