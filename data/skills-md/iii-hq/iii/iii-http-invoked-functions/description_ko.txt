@@ -1,0 +1,1 @@
+RegisterFunction(id, HttpInvocationConfig)을 사용하여 외부 HTTP 끝점을 iii 함수로 등록합니다. 레거시 API, 타사 웹후크 또는 불변 서비스를 트리거 가능한 iii 함수에 적용할 때, 특히 프롬프트에서 RegisterFunction 호출로 반복되는 { path, id }와 같은 엔드포인트 맵을 요청할 때 사용합니다.
