@@ -1,0 +1,1 @@
+Podman 和 Podman Compose 的容器引擎参考。每当编写 Dockerfile、Containerfile、docker-compose.yml、compose.yaml、容器命令或构建/运行容器的 Makefile 目标时，请调用此技能。当用户提到 podman、容器、无根容器或从 Docker 迁移时也会调用。此技能可确保命令针对 Podman（而不是 Docker）并处理无根陷阱、网络和组合差异。

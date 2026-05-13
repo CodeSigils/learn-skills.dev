@@ -1,0 +1,1 @@
+运行和配置 oxfmt — 构建在 Oxc 编译器堆栈上的高性能 JavaScript/TypeScript 格式化程序，比 Prettier 快约 30 倍。每当在安装了 oxfmt 的项目中工作时，请使用此技能（检查 package.json devDependency 中的 `oxfmt` 或 `.oxfmtrc.json` / `.oxfmtrc.jsonc` 配置文件）。这包括当您需要在更改后格式化代码、在新项目中设置 oxfmt、从 Prettier 迁移、配置格式化规则、设置编辑器集成（VS Code、Neovim、Zed、JetBrains）或向 CI/CD 管道添加格式化检查时。当用户提到“oxfmt”、“oxc formatter”、“format with oxc”或询问具有更好性能的 Prettier 替代方案时也可使用。

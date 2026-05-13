@@ -1,0 +1,1 @@
+在使用 @Composable 中的裸本地变量编写或审查 Jetpack Compose 代码时使用，请记住 { mutableStateOf(...) }、mutableStateListOf/mutableStateMapOf 或 @ReadOnlyComposable。

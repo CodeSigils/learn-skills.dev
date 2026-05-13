@@ -1,0 +1,1 @@
+构建并验证 POST /v1/query 的 HelixDB 动态内联查询请求。当任务涉及动态查询、内联查询 JSON、内联 AST（步骤、谓词、表达式、投影）、parameter_types、DateTime 强制、查询预热或调试直接发送到 Helix 网关的请求正文时使用。请参阅 REFERENCE.md 了解每个 AST 变体，并参阅 Examples.md 了解可复制粘贴的有效负载。

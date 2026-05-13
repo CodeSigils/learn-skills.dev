@@ -1,0 +1,1 @@
+使用 registerFunction(id, HttpInitationConfig) 将外部 HTTP 端点注册为 iii 个函数。在将旧版 API、第三方 Webhooks 或不可变服务改编为可触发的 iii 函数时使用，特别是当提示要求将 { path, id } 等端点映射迭代到 registerFunction 调用时。
