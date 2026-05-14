@@ -1,0 +1,1 @@
+在设计或审查 API 表面时使用：资源/操作、请求和响应模式、状态代码、分页、过滤、幂等性、版本控制、身份验证边界和错误信封。请勿用于非 HTTP 系统合约（使用“system-interface-contracts”）、异步事件合约（使用“event-contract-design”）、数据库设计（使用“data-modeling”）或入站提供商 Webhook 机制（使用“webhook-integration”）。

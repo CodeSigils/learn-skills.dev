@@ -1,0 +1,1 @@
+使用 TinyFish CLI 从公共网络源构建与 Obsidian 兼容的知识库。当用户想要有关技术主题的构建器级 Markdown 知识库、需要结构化研究库或想要将实时公共资源编译为相互链接的 Markdown 文件的主题时，请使用此技能。支持两种输入模式：仅主题或主题加起始 URL。支持首次构建和更新工作流程。始终生成index.md、sources.md、audit.md 和manifest.json。仅当证据支持时才创建其他文件。输出必须将主题综合成可用的心理模型，而不仅仅是摘要页面。仅使用显式的tinyfish代理运行命令和公共网络源。可选的“--trace”模式将原始 TinyFish 输出保存在“_trace/”下以进行调试。

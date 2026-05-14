@@ -1,0 +1,1 @@
+指导贡献者在“packages/core/src/templates/<name>/”（或平台）下添加新发布的 AgentForge 模板。引导用户完成范围检查、代理设置、提示、模式、“template.json”元数据、自述文件和测试，然后发出准备用于 PR 的完整模板目录。当用户要求“添加新模板”、“为 X 提供模板”、“贡献模板”、“为 Y 工作流程创建启动器”，或者想要发布其他 AgentForge 用户可以通过 `agentforge init --template <name>` 构建的可重用管道形状时触发。不要触发最终用户“.agentforge/”项目（对这些项目使用“agentforge-workflow”）。

@@ -1,0 +1,1 @@
+将任何 Pulumi 提供程序升级到更新版本并协调生成的差异。当用户想要升级或更新提供程序（包括编辑 package.json、requirements.txt、pyproject.toml、go.mod 或 Pulumi.yaml 以更改提供程序 SDK）、在升级之前或升级期间检查重大更改、修复提供程序升级后损坏的资源或解决升级后预览中意外的替换、创建或删除时使用。适用于所有提供商（aws、azure-native、gcp、kubernetes、aws-native、cloudflare、datadog 等），而不仅仅是第 1 层。请勿用于查询哪些堆栈使用哪些软件包版本；使用技能“包使用”进行跨堆栈审计。请勿用于一般基础设施任务。
