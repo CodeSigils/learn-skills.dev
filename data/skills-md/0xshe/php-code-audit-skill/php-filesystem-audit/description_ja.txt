@@ -1,1 +1,1 @@
-PHPファイルシステム動作監査ツール。 mkdir/chmod/chown/unlink/rmdir/link/symlink/readlink/touch/permissions および TOCTOU の問題のセキュリティ リスクに焦点を当て、パス検証バイパスと書き込みチェーン悪用の「悪用可能性を高める証拠」を提供します (FILE/UPLOAD/WRITE シンクのサブ監査に代わるものではありません)。
+PHPファイルシステム動作監査ツール。これは、mkdir、chmod、chown、unlink、rmdir、link、symlink、readlink、touch、権限、TOCTOU などの操作のセキュリティ リスクに焦点を当てており、パス検証バイパスと書き込みチェーン悪用に対する「強化された悪用可能性の証拠」を提供します (FILE/UPLOAD/WRITE シンクのサブ監査に代わるものではありません)。

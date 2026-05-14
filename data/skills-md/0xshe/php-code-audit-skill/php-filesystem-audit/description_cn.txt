@@ -1,1 +1,1 @@
-PHP文件系统操作审计工具。重点关注 mkdir/chmod/chown/unlink/rmdir/link/symlink/readlink/touch/permissions 的安全风险和 TOCTOU 问题，为路径验证绕过和写链利用提供“可利用性增强证据”（不取代 FILE/UPLOAD/WRITE 接收器子审核）。
+PHP文件系统操作审计工具。它重点关注 mkdir、chmod、chown、unlink、rmdir、link、symlink、readlink、touch、permissions 和 TOCTOU 等操作的安全风险，为路径验证绕过和写链利用提供“增强的可利用性证据”（不会取代 FILE/UPLOAD/WRITE 接收器的子审核）。
