@@ -1,0 +1,8 @@
+Comprehensive end-to-end validation of the Archon Web UI using browser automation and codebase review.
+Use when: User wants to validate, test, or audit the Archon web interface, find UI/UX bugs,
+test workflow management, verify parallel agent orchestration, or run comprehensive browser-based E2E tests.
+Triggers: "validate ui", "test the ui", "e2e test", "browser test", "validate archon",
+          "test archon ui", "ui audit", "ux review", "comprehensive test", "validate everything".
+Capability: Starts Archon, runs exhaustive browser automation tests via agent-browser CLI,
+performs codebase review, and produces a detailed bug/UX report.
+NOT for: Unit tests (use `bun test`), CLI-only validation (use /validation:validate-simple).

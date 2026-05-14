@@ -4,613 +4,606 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Thu, 14 May 2026 02:56:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 May 2026 09:13:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
             <title><![CDATA[[Daily] Skills.sh snapshot (2026-05-14)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:snapshot</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:snapshot</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8045
-Trending skills: 7625
-Hot skills: 5134
-Top All Time: find-skills (1496899)
-Top Trending: find-skills (19347)
-Top Hot: ai-video-generation (247)]]></description>
+All Time skills: 8063
+Trending skills: 7349
+Hot skills: 6087
+Top All Time: find-skills (1502122)
+Top Trending: find-skills (19089)
+Top Hot: lipsync (270)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#44): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topAllTime:new:mattpocock/skills/grill-me</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
+            <title><![CDATA[[Hot] New entry (#1): lipsync]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/lipsync</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/lipsync</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #1
+Installs: 270
+Source: agentspace-so/runcomfy-agent-skills
+Description: Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on "lip sync", "lipsync", "make this video speak", "match audio to mouth", "dub video", "sync lips to voice", "Sync Labs", "voiceover sync", or any explicit ask to drive a face's mouth from an audio track.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#10): env-and-assets-bootstrap]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:lllllllama/ai-paper-reproduction-skill/env-and-assets-bootstrap</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #10
+Installs: 251
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Sub-skill for environment and asset preparation in README-first AI repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#11): opensource-guide-coach]]></title>
+            <link>https://skills.sh/xixu-me/skills/opensource-guide-coach</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/opensource-guide-coach</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 251
+Source: xixu-me/skills
+Description: Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#12): skills-cli]]></title>
+            <link>https://skills.sh/xixu-me/skills/skills-cli</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/skills-cli</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #12
+Installs: 251
+Source: xixu-me/skills
+Description: Use when users ask to discover, install, list, check, update, remove, back up, restore, sync, or initialize Agent Skills, mention `bunx skills`, `npx skills`, `skills.sh`, or `skills-lock.json`, ask "find a skill for X", or want help extending agent capabilities with installable skills.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#13): minimal-run-and-audit]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:lllllllama/ai-paper-reproduction-skill/minimal-run-and-audit</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 251
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Sub-skill for the execution-evidence and reporting phase of README-first AI repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files including patch notes when repository files changed. Do not use for initial repo intake, generic environment setup, paper lookup, target selection, or end-to-end orchestration by itself.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): secure-linux-web-hosting]]></title>
+            <link>https://skills.sh/xixu-me/skills/secure-linux-web-hosting</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/secure-linux-web-hosting</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 251
+Source: xixu-me/skills
+Description: Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#15): xdrop]]></title>
+            <link>https://skills.sh/xixu-me/skills/xdrop</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/xdrop</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #15
+Installs: 251
+Source: xixu-me/skills
+Description: Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): develop-userscripts]]></title>
+            <link>https://skills.sh/xixu-me/skills/develop-userscripts</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/develop-userscripts</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 251
+Source: xixu-me/skills
+Description: Use when building, debugging, packaging, or publishing browser userscripts for Tampermonkey or ScriptCat, including GM APIs, metadata blocks, permission issues, @match/@grant/@connect setup, ScriptCat background or scheduled scripts, UserConfig blocks, or subscription workflows.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): xget]]></title>
+            <link>https://skills.sh/xixu-me/skills/xget</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/xget</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 251
+Source: xixu-me/skills
+Description: Use when tasks involve Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, self-hosting, or adapting commands and config from the live README `Use Cases` section into files, environments, shells, or base URLs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): openclaw-secure-linux-cloud]]></title>
+            <link>https://skills.sh/xixu-me/skills/openclaw-secure-linux-cloud</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/openclaw-secure-linux-cloud</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 251
+Source: xixu-me/skills
+Description: Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): tzst]]></title>
+            <link>https://skills.sh/xixu-me/skills/tzst</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/tzst</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 251
+Source: xixu-me/skills
+Description: Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): repo-intake-and-plan]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:lllllllama/ai-paper-reproduction-skill/repo-intake-and-plan</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 251
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Sub-skill for the intake phase of README-first AI repo reproduction. Use when the task is specifically to scan a repository, read README and common project files, extract documented commands, classify inference or evaluation or training candidates, and return a minimum trustworthy plan to the main skill. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): running-claude-code-via-litellm-copilot]]></title>
+            <link>https://skills.sh/xixu-me/skills/running-claude-code-via-litellm-copilot</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/running-claude-code-via-litellm-copilot</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 251
+Source: xixu-me/skills
+Description: Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): paper-context-resolver]]></title>
+            <link>https://skills.sh/lllllllama/ai-paper-reproduction-skill/paper-context-resolver</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:lllllllama/ai-paper-reproduction-skill/paper-context-resolver</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 251
+Source: lllllllama/ai-paper-reproduction-skill
+Description: Optional sub-skill for README-first AI repo reproduction. Use only when README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): relight]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/relight</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/relight</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
+Installs: 173
+Source: agentspace-so/runcomfy-agent-skills
+Description: Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on "relight", "relighting", "change the lighting", "make it golden hour", "studio lighting", "rim light", "blue hour", "soft window light", "change light direction", "color temperature", or any explicit ask to alter how a still is lit.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): video-extend]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-extend</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/video-extend</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 162
+Source: agentspace-so/runcomfy-agent-skills
+Description: Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on "extend video", "continue video", "longer video", "video extend", "make this clip longer", "Veo extend", "chain video shots", "video continuation", or any explicit ask to take an existing video and add more frames after it.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): video-outpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-outpainting</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/video-outpainting</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 160
+Source: agentspace-so/runcomfy-agent-skills
+Description: Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on "video outpaint", "video outpainting", "extend video canvas", "expand video frame", "uncrop video", "aspect ratio change", "vertical to horizontal video", "16:9 from 9:16", "TikTok to YouTube", or any explicit ask to extend a video spatially beyond its original frame.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#28): elevenlabs-music-generation]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/elevenlabs-music-generation</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #28
+Installs: 159
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "ElevenLabs Music", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", or any explicit ask to generate music or a song from a text description.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): image-outpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-outpainting</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/image-outpainting</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 158
+Source: agentspace-so/runcomfy-agent-skills
+Description: Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on "outpaint", "outpainting", "extend image canvas", "expand the image", "fill in around the photo", "uncrop", "change aspect ratio", "extend frame", "wide-screen from square", or any explicit ask to add canvas around an existing still.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#3): controlnet-pose]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/controlnet-pose</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/controlnet-pose</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #3
+Installs: 268
+Source: agentspace-so/runcomfy-agent-skills
+Description: Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on "controlnet", "control net", "pose control", "openpose", "DWPose", "transfer pose", "motion control", "pose driven", "character pose", "depth control", "canny edge", "use this pose", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): mcp-apps-builder]]></title>
+            <link>https://skills.sh/mcp-use/mcp-use/mcp-apps-builder</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mcp-use/mcp-use/mcp-apps-builder</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 117
+Source: mcp-use/mcp-use
+Description: **MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.
+
+**READ THIS FIRST** before any MCP server work, including:
+- Creating new MCP servers
+- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)
+- Debugging MCP server issues or errors
+- Reviewing MCP server code for quality, security, or performance
+- Answering questions about MCP development or mcp-use patterns
+- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets
+
+This skill contains critical architecture decisions, security patterns, and common pitfalls.
+Always consult the relevant reference files BEFORE implementing MCP features.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): grill-with-docs]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/grill-with-docs</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 450
+Source: mattpocock/skills
+Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): wonda-cli]]></title>
+            <link>https://skills.sh/degausai/wonda/wonda-cli</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:degausai/wonda/wonda-cli</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 382
+Source: degausai/wonda
+Description: Using the Wonda CLI to generate images, videos, music, and audio from the terminal — plus LinkedIn, Reddit, and X/Twitter research and automation]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/triage</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 356
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): turborepo]]></title>
+            <link>https://skills.sh/vercel/turborepo/turborepo</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:vercel/turborepo/turborepo</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 55
+Source: vercel/turborepo
+Description: Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,
+dependsOn, caching, remote cache, the "turbo" CLI, --filter, --affected, CI optimization, environment
+variables, internal packages, monorepo structure/best practices, and boundaries.
+
+Use when user: configures tasks/workflows/pipelines, creates packages, sets up
+monorepo, shares code between apps, runs changed/affected packages, debugs cache,
+or has apps/packages directories.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): to-issues]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-issues</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/to-issues</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 132662
+Installs: 376
+Source: mattpocock/skills
+Description: Break a plan, spec, or PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): ai-sdk]]></title>
+            <link>https://skills.sh/vercel/ai/ai-sdk</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:vercel/ai/ai-sdk</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 52
+Source: vercel/ai
+Description: Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: "AI SDK", "Vercel AI SDK", "generateText", "streamText", "add AI to my app", "build an agent", "tool calling", "structured output", "useChat".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): social]]></title>
+            <link>https://skills.sh/coreyhaines31/marketingskills/social</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:coreyhaines31/marketingskills/social</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 30
+Source: coreyhaines31/marketingskills
+Description: When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' or 'create a reel.' Use this for social media content creation, repurposing, scheduling, and short-form video scripting. For broader content strategy, see content-strategy. For paid video ads, see ad-creative.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): grill-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-me</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/grill-me</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 479
 Source: mattpocock/skills
 Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): ai-video-generation]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-video-generation</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #1
-Installs: 247
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): runcomfy-cli]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/runcomfy-cli</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/runcomfy-cli</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 243
-Source: agentspace-so/runcomfy-agent-skills
-Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): face-swap]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/face-swap</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/face-swap</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 165
-Source: agentspace-so/runcomfy-agent-skills
-Description: Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on "face swap", "swap face", "deepfake", "face replacement", "character swap", "head swap", "put X's face on Y", "make this video star X", "replace the actor in this video", "swap the character in the photo", "deepfake video", "ReActor alternative", or any explicit ask to substitute one identity for another.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): replicas-agent]]></title>
-            <link>https://skills.sh/replicas-group/skill/replicas-agent</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:replicas-group/skill/replicas-agent</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 160
-Source: replicas-group/skill
-Description: Guide for background coding agents running inside Replicas cloud workspaces]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): flux-kontext]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-kontext</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/flux-kontext</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 254
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on "flux kontext", "flux-kontext", "flux 1 kontext", "kontext", "BFL kontext", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): nano-banana-2]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-2</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-2</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 255
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on "nano banana", "nano-banana-2", "nano banana 2", "google image gen", "gemini image", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): gpt-image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/gpt-image-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 250
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#38): emil-design-eng]]></title>
-            <link>https://skills.sh/emilkowalski/skill/emil-design-eng</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:emilkowalski/skill/emil-design-eng</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 158
-Source: emilkowalski/skill
-Description: This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#39): codex-pet]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/codex-pet</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/codex-pet</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 247
-Source: agentspace-so/runcomfy-agent-skills
-Description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet", "create codex pet", "make codex pet", "hatch codex pet", "/hatch image", "desktop pet codex", "codex pets", "spritesheet.webp", or any explicit ask to build a custom pet for OpenAI Codex.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#4): ai-image-generation]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-image-generation</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 159
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): flux-2-klein]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-2-klein</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/flux-2-klein</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 247
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/image-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 236
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): agentspace]]></title>
-            <link>https://skills.sh/agentspace-so/skills/agentspace</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/skills/agentspace</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 229
-Source: agentspace-so/skills
-Description: Use this skill when the user wants to share a local folder, file, generated artifacts, logs, screenshots, or a project workspace with a human or another agent via a link. Trigger on requests like "share this folder", "upload these files", "send me the artifacts", "give me a link", or "handoff this workspace".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): nano-banana-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 239
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): gws-slides]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-slides</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/gws-slides</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 47
-Source: googleworkspace/cli
-Description: Google Slides: Read and write presentations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): gws-workflow-meeting-prep]]></title>
-            <link>https://skills.sh/googleworkspace/cli/gws-workflow-meeting-prep</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/gws-workflow-meeting-prep</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 46
-Source: googleworkspace/cli
-Description: Google Workflow: Prepare for your next meeting: agenda, attendees, and linked docs.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): recipe-draft-email-from-doc]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-draft-email-from-doc</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/recipe-draft-email-from-doc</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 46
-Source: googleworkspace/cli
-Description: Read content from a Google Doc and use it as the body of a Gmail message.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): recipe-organize-drive-folder]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-organize-drive-folder</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/recipe-organize-drive-folder</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 46
-Source: googleworkspace/cli
-Description: Create a Google Drive folder structure and move files into the right locations.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): recipe-create-presentation]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-create-presentation</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/recipe-create-presentation</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): prototype]]></title>
+            <link>https://skills.sh/mattpocock/skills/prototype</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/prototype</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 46
-Source: googleworkspace/cli
-Description: Create a new Google Slides presentation and add initial slides.]]></description>
+Installs: 364
+Source: mattpocock/skills
+Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): recipe-sync-contacts-to-sheet]]></title>
-            <link>https://skills.sh/googleworkspace/cli/recipe-sync-contacts-to-sheet</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/recipe-sync-contacts-to-sheet</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): to-prd]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-prd</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:mattpocock/skills/to-prd</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 45
-Source: googleworkspace/cli
-Description: Export Google Contacts directory to a Google Sheets spreadsheet.]]></description>
+Installs: 388
+Source: mattpocock/skills
+Description: Turn the current conversation context into a PRD and submit it as a GitHub issue. Use when user wants to create a PRD from the current context.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): ai-avatar-video]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-avatar-video</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): image-inpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-inpainting</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/image-inpainting</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 157
+Installs: 260
 Source: agentspace-so/runcomfy-agent-skills
-Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
+Description: Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on "inpaint", "inpainting", "image inpaint", "remove from image", "fill region", "mask-driven edit", "remove watermark", "remove object", "patch the photo", "fill the hole", or any explicit ask to edit a specific masked region of a still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): persona-event-coordinator]]></title>
-            <link>https://skills.sh/googleworkspace/cli/persona-event-coordinator</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:new:googleworkspace/cli/persona-event-coordinator</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): notion-api]]></title>
+            <link>https://skills.sh/intellectronica/agent-skills/notion-api</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:intellectronica/agent-skills/notion-api</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 45
-Source: googleworkspace/cli
-Description: Plan and manage events — scheduling, invitations, and logistics.]]></description>
+Installs: 32
+Source: intellectronica/agent-skills
+Description: This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact with Notion, including reading, creating, updating, or deleting pages, databases, blocks, comments, or any other Notion content. The skill covers authentication, all available endpoints, pagination, error handling, and best practices.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#24): flux-kontext]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-kontext</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/flux-kontext</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #24
-Installs: 4873
+            <title><![CDATA[[Hot] New entry (#6): github-actions-docs]]></title>
+            <link>https://skills.sh/xixu-me/skills/github-actions-docs</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/github-actions-docs</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 259
+Source: xixu-me/skills
+Description: Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actions workflows, workflow syntax, triggers, matrices, runners, reusable workflows, artifacts, caching, secrets, OIDC, deployments, custom actions, or Actions Runner Controller, especially when they need official GitHub documentation, exact links, or docs-grounded YAML guidance.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): readme-i18n]]></title>
+            <link>https://skills.sh/xixu-me/skills/readme-i18n</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/readme-i18n</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 254
+Source: xixu-me/skills
+Description: Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): use-my-browser]]></title>
+            <link>https://skills.sh/xixu-me/skills/use-my-browser</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:xixu-me/skills/use-my-browser</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 255
+Source: xixu-me/skills
+Description: Use when the user wants browser automation, page inspection, or web research and you need to choose between public-web tools, the live browser session, or a separate browser context, especially for signed-in, dynamic, social, or DevTools-driven pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): video-inpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-inpainting</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:new:agentspace-so/runcomfy-agent-skills/video-inpainting</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 252
 Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on "flux kontext", "flux-kontext", "flux 1 kontext", "kontext", "BFL kontext", or any explicit ask to edit with this model.]]></description>
+Description: Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many frames, clean up wires or watermarks, replace a region with matching motion. Routes across Wan 2-7 edit-video (default, prompt-driven region edits with spatial language), Lucy Edit Restyle (identity-stable region-aware restyle), and Seedream 4-0 edit-sequential (when treating the clip as a frame stack). Picks the right route based on whether the change is prose-driven, identity-locked, or needs frame-by-frame still inpaint chained into a video. Triggers on "video inpaint", "video inpainting", "remove from video", "mask region in video", "clean up video", "remove object from clip", "video patch", "frame-by-frame edit", "remove watermark from video", "remove passing person", or any explicit ask to edit a region across video frames.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#26): nano-banana-2]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-2</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/nano-banana-2</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #26
-Installs: 4837
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on "nano banana", "nano-banana-2", "nano banana 2", "google image gen", "gemini image", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#28): nano-banana-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/nano-banana-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #28
-Installs: 4834
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#29): flux-2-klein]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-2-klein</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/flux-2-klein</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #29
-Installs: 4832
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#32): image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/image-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #32
-Installs: 4823
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#35): codex-pet]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/codex-pet</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/codex-pet</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #35
-Installs: 4814
-Source: agentspace-so/runcomfy-agent-skills
-Description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet", "create codex pet", "make codex pet", "hatch codex pet", "/hatch image", "desktop pet codex", "codex pets", "spritesheet.webp", or any explicit ask to build a custom pet for OpenAI Codex.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#36): gpt-image-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-edit</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topTrending:new:agentspace-so/runcomfy-agent-skills/gpt-image-edit</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #36
-Installs: 4809
-Source: agentspace-so/runcomfy-agent-skills
-Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (10 → 20): lark-skill-maker]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-skill-maker</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #10
-Current rank: #20
-Delta: -10
-Installs: 547 (prev 403)
-Source: larksuite/cli
-Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (11 → 25): lark-openapi-explorer]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-openapi-explorer</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #25
-Delta: -14
-Installs: 546 (prev 403)
-Source: larksuite/cli
-Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (12 → 16): lark-slides]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-slides</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-slides</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #12
-Current rank: #16
-Delta: -4
-Installs: 548 (prev 403)
-Source: larksuite/cli
-Description: 飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (13 → 24): lark-workflow-standup-report]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-workflow-standup-report</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-workflow-standup-report</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #13
-Current rank: #24
-Delta: -11
-Installs: 546 (prev 403)
-Source: larksuite/cli
-Description: 日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 27): lark-base]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-base</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-base</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #27
-Delta: -24
-Installs: 551 (prev 409)
-Source: larksuite/cli
-Description: 当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 31): lark-whiteboard]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-whiteboard</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #31
-Delta: -27
-Installs: 547 (prev 407)
-Source: larksuite/cli
-Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 21): lark-vc-agent]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-vc-agent</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-vc-agent</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #21
-Delta: -16
-Installs: 547 (prev 403)
-Source: larksuite/cli
-Description: 飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (7 → 11): lark-mail]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-mail</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-mail</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #11
-Delta: -4
-Installs: 549 (prev 404)
-Source: larksuite/cli
-Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (8 → 15): lark-markdown]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-markdown</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-markdown</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #15
-Delta: -7
-Installs: 548 (prev 403)
-Source: larksuite/cli
-Description: 飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (9 → 29): lark-okr]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-okr</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-okr</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #9
-Current rank: #29
-Delta: -20
-Installs: 546 (prev 403)
-Source: larksuite/cli
-Description: 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (19 → 7): lark-shared]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-shared</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-shared</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #19
-Current rank: #7
-Delta: +12
-Installs: 553 (prev 403)
-Source: larksuite/cli
-Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (20 → 17): lark-wiki]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-wiki</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #20
-Current rank: #17
-Delta: +3
-Installs: 548 (prev 403)
-Source: larksuite/cli
-Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (21 → 10): lark-event]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-event</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-event</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #21
-Current rank: #10
-Delta: +11
-Installs: 549 (prev 403)
-Source: larksuite/cli
-Description: 飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (22 → 18): lark-minutes]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-minutes</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-minutes</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #22
-Current rank: #18
-Delta: +4
-Installs: 548 (prev 403)
-Source: larksuite/cli
-Description: 飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (23 → 19): lark-approval]]></title>
+            <title><![CDATA[[Trending] New entry (#42): lark-approval]]></title>
             <link>https://skills.sh/larksuite/cli/lark-approval</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-approval</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #23
-Current rank: #19
-Delta: +4
-Installs: 547 (prev 403)
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:new:larksuite/cli/lark-approval</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #42
+Installs: 5295
 Source: larksuite/cli
 Description: 飞书审批 API：审批实例、审批任务管理。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (27 → 14): lark-calendar]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-calendar</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-calendar</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #27
-Current rank: #14
-Delta: +13
-Installs: 548 (prev 403)
+            <title><![CDATA[[Trending] New entry (#43): lark-skill-maker]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:new:larksuite/cli/lark-skill-maker</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #43
+Installs: 5293
 Source: larksuite/cli
-Description: 飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。]]></description>
+Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (28 → 8): lark-doc]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-doc</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-doc</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #8
-Delta: +20
-Installs: 551 (prev 403)
+            <title><![CDATA[[Trending] New entry (#44): lark-vc-agent]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-vc-agent</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:new:larksuite/cli/lark-vc-agent</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #44
+Installs: 5290
 Source: larksuite/cli
-Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
+Description: 飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (29 → 9): lark-contact]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-contact</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-contact</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #29
-Current rank: #9
-Delta: +20
-Installs: 550 (prev 403)
+            <title><![CDATA[[Trending] New entry (#45): lark-attendance]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-attendance</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:new:larksuite/cli/lark-attendance</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #45
+Installs: 5289
 Source: larksuite/cli
-Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
+Description: 飞书考勤打卡：查询自己的考勤打卡记录]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (32 → 6): lark-im]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-im</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-im</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #32
-Current rank: #6
-Delta: +26
-Installs: 555 (prev 405)
+            <title><![CDATA[[Trending] New entry (#46): lark-okr]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-okr</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:new:larksuite/cli/lark-okr</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #46
+Installs: 5289
 Source: larksuite/cli
-Description: 飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。]]></description>
+Description: 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (33 → 12): lark-drive]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-drive</link>
-            <guid isPermaLink="false">2026-05-14T02:56:32.225Z:topHot:rank:larksuite/cli/lark-drive</guid>
-            <pubDate>Thu, 14 May 2026 02:56:32 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (1 → 2): ai-video-generation]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/ai-video-generation</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #33
-Current rank: #12
-Delta: +21
-Installs: 551 (prev 404)
-Source: larksuite/cli
-Description: 飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。]]></description>
+Previous rank: #1
+Current rank: #2
+Delta: -1
+Installs: 268 (prev 247)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (2 → 4): runcomfy-cli]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/runcomfy-cli</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/runcomfy-cli</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #2
+Current rank: #4
+Delta: -2
+Installs: 267 (prev 243)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (3 → 30): face-swap]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/face-swap</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/face-swap</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #30
+Delta: -27
+Installs: 152 (prev 165)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on "face swap", "swap face", "deepfake", "face replacement", "character swap", "head swap", "put X's face on Y", "make this video star X", "replace the actor in this video", "swap the character in the photo", "deepfake video", "ReActor alternative", or any explicit ask to substitute one identity for another.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (4 → 24): ai-image-generation]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/ai-image-generation</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #4
+Current rank: #24
+Delta: -20
+Installs: 164 (prev 159)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (5 → 27): ai-avatar-video]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/ai-avatar-video</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #5
+Current rank: #27
+Delta: -22
+Installs: 160 (prev 157)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (41 → 31): image-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-edit</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topHot:rank:agentspace-so/runcomfy-agent-skills/image-edit</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #41
+Current rank: #31
+Delta: +10
+Installs: 273 (prev 236)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (22 → 47): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:rank:mattpocock/skills/triage</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #22
+Current rank: #47
+Delta: -25
+Installs: 5285 (prev 5394)
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (23 → 48): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-05-14T09:13:48.589Z:topTrending:rank:anthropics/skills/frontend-design</guid>
+            <pubDate>Thu, 14 May 2026 09:13:48 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #23
+Current rank: #48
+Delta: -25
+Installs: 4947 (prev 4940)
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
         </item>
     </channel>
 </rss>

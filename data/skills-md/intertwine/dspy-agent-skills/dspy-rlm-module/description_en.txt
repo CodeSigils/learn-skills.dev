@@ -1,0 +1,1 @@
+Use dspy.RLM (Recursive Language Model) for reasoning over contexts too large to fit in an LLM's working window — entire codebases, long logs, massive documents, or multi-step data exploration that needs a sandboxed Python REPL. Use when the input is >100k tokens, needs recursive chunking, or benefits from the LLM writing and running code to probe data.
