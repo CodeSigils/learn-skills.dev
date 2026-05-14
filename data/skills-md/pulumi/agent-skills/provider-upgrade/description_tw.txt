@@ -1,0 +1,1 @@
+將任何 Pulumi 提供者升級到更新版本並協調產生的差異。當使用者想要升級或更新提供者（包括編輯 package.json、requirements.txt、pyproject.toml、go.mod 或 Pulumi.yaml 以更改提供者 SDK）、在升級之前或升級期間檢查重大更改、修復提供者升級後損壞的資源或解決升級後預覽中意外的替換、創建或刪除期間使用。適用於所有提供者（aws、azure-native、gcp、kubernetes、aws-native、cloudflare、datadog 等），而不僅僅是第 1 層。請勿用於查詢哪些堆疊使用哪些軟體包版本；使用技能「包使用」進行跨堆疊審計。請勿用於一般基礎設施任務。

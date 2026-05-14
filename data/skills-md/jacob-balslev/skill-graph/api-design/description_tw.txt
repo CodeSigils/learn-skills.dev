@@ -1,0 +1,1 @@
+在設計或審查 API 表面時使用：資源/操作、請求和回應模式、狀態代碼、分頁、過濾、冪等性、版本控制、身份驗證邊界和錯誤信封。請勿用於非 HTTP 系統合約（使用「system-interface-contracts」）、非同步事件合約（使用「event-contract-design」）、資料庫設計（使用「data-modeling」）或入站提供者 Webhook 機制（使用「webhook-integration」）。

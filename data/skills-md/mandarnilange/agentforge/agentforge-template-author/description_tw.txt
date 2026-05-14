@@ -1,0 +1,1 @@
+指導貢獻者在「packages/core/src/templates/<name>/」（或平台）下新增發布的 AgentForge 範本。引導使用者完成範圍檢查、代理設定、提示、模式、「template.json」元資料、自述文件和測試，然後發出準備用於 PR 的完整模板目錄。當使用者要求“新增範本”、“為 X 提供範本”、“貢獻範本”、“為 Y 工作流程建立啟動器”，或想要發佈其他 AgentForge 使用者可以透過 `agentforge init --template <name>` 建置的可重複使用管道形狀時觸發。不要觸發最終使用者“.agentforge/”項目（對這些項目使用“agentforge-workflow”）。
