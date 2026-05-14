@@ -1,0 +1,13 @@
+Gérez les abonnements auto-renouvelables à l'aide de l'outil CLI `asc`.
+Utilisez cette compétence lorsque :
+(1) Groupes d'abonnement : "liste des groupes d'abonnement asc | créer | mettre à jour | supprimer"
+(2) Localisations des groupes d'abonnement (nom d'application personnalisé par paramètres régionaux) : "asc souscription-group-localizations list|create|update|delete"
+(3) Abonnements : "liste d'abonnements asc | créer | mettre à jour | supprimer | soumettre | annuler la soumission"
+(4) Tarification des abonnements : "liste des prix des abonnements asc", "tarifs des abonnements asc fixés" (par territoire, avec recettesAnnée2)
+(5) Localisations d'abonnement : "liste de localisations d'abonnement asc | créer | mettre à jour | supprimer"
+(6) Offres de lancement : "liste d'offres d'abonnement asc | créer | supprimer" (FREE_TRIAL, PAY_AS_YOU_GO, PAY_UP_FRONT)
+(7) Offres promotionnelles (in-app, avec tarification par territoire) : "liste des offres promotionnelles d'abonnement asc | créer | supprimer", "liste de prix des offres promotionnelles d'abonnement asc"
+(8) Offres de reconquête (abonnés périmés) : "liste des offres de reconquête asc | créer | mettre à jour | supprimer", "liste de prix des offres de reconquête asc"
+(9) Codes d'offre (3 niveaux) : "liste/création/mise à jour des codes d'offre d'abonnement asc", "liste de prix des codes d'offre d'abonnement asc", codes personnalisés, codes à usage unique (y compris les "valeurs" pour le CSV de rachat)
+(10) Capture d'écran de l'examen de l'abonnement : "asc souscription-review-screenshot get|upload|delete"
+(11) L'utilisateur indique "groupe d'abonnement", "niveau d'abonnement", "offre promotionnelle", "offre de reconquête", "abonné périmé", "code d'offre d'abonnement", "code personnalisé", "codes à usage unique", "essai gratuit", "code promotionnel", "capture d'écran de révision", "Nom d'application personnalisé"

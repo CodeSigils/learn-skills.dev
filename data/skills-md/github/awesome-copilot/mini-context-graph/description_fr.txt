@@ -1,0 +1,5 @@
+Une base de connaissances persistante et complexe combinant le modèle LLM Wiki de Karpathy
+avec un graphe de connaissances structuré. Ingérer les documents une fois — le LLM écrit le wiki
+pages, extrait les entités/relations dans le graphique et stocke le contenu brut pour
+récupération de preuves. Les connaissances s'accumulent et se croisent ; ce n'est jamais
+re-dérivé de zéro.
