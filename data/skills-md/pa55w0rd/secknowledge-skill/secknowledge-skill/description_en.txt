@@ -1,12 +1,10 @@
-Web+AI Security Testing Knowledge Base. Integrates WooYun's 88,636 cases + Prophet L1‑L4 methodology + GAARM's 150 risks + OWASP Top 10 (LLM/ASI/WSTG).
-
-**TRIGGER** when the task is practical security testing: penetration testing, vulnerability discovery/exploitation, red‑team offense/defense, security auditing (SAST/DAST), CTF, AI/LLM security testing (prompt injection/jailbreak/MCP/Agent/sandbox escape). The user explicitly provides a testing target (URL/code/model/Agent architecture) and the intent is “test/audit/discover vulnerabilities/exploit”.
-
-**DO NOT trigger**:
-- Security concept discussion (“What is XSS”, “What is the principle of SQL injection”) → ordinary Q&A  
-- Non‑security‑related code review / debugging / performance optimization → code‑audit‑skill or other  
+Web+AI security testing knowledge base. Integrates WooYun 88,636 cases + Prophet L1‑L4 methodology + GAARM 150 risks + OWASP Top 10 (LLM/ASI/WSTG).  
+TRIGGER when the task is practical security testing: penetration testing, vulnerability discovery/exploitation, red‑team offense/defense, security auditing (SAST/DAST), CTF, AI/LLM security testing (prompt injection/jailbreak/MCP/Agent/sandbox escape). The user explicitly provides a testing target (URL/code/model/Agent architecture) and the intent is “test/audit/find vulnerabilities/exploit”.  
+DO NOT trigger:  
+- Security concept discussion (“what is XSS”, “what is the principle of SQL injection”) → ordinary Q&A  
+- Non‑security code review/debug/performance optimization → code‑audit‑skill or other  
 - Fixing syntax errors / business‑logic bugs → ordinary programming assistance  
-- Pure web white‑box code audit (deep Java/JS audit) → code‑audit‑skill  
+- Pure web white‑box code audit (deep audit of Java/JS) → code‑audit‑skill  
 - Only referencing a CVE number to look up documentation → WebSearch  
 
 Please always respond in the user’s language.

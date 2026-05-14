@@ -1,12 +1,12 @@
-WeChat パブリック アカウント記事取得ツール。Playwright に基づいて、WeChat のクロール防止メカニズムをバイパスし、完全な記事コンテンツを取得します。
+WeChat パブリック アカウント記事スクレイピング ツール。Playwright に基づいて、WeChat のクロール防止メカニズムをバイパスし、記事のコンテンツ全体を取得します。
 
 次の場合に使用します。
-- WeChatパブリックアカウントの記事コンテンツを取得します
-- WeChatパブリックアカウント記事のバッチ取得
-- WeChat パブリック アカウントのコンテンツをアーカイブする
-- 記事の素材を収集する
-- WeChat のクロール防止をバイパスします
-- WeChatの記事をMarkdownに変換します
+- WeChat パブリック アカウントの記事コンテンツをスクレイピングして WeChat の記事コンテンツを取得します
+- パブリックアカウント記事の一括取得 WeChat記事の一括取得
+- パブリックアカウントコンテンツのアーカイブ WeChatコンテンツのアーカイブ
+- 記事資料を収集する 記事資料集
+- WeChat アンチクロールをバイパス WeChat アンチクロールをバイパス
+- WeChat の記事を Markdown に変換 WeChat を Markdown に変換
 
 相互参照: content-extractor、document-hub、pdf、md-to-wechat、long-form-writer
 

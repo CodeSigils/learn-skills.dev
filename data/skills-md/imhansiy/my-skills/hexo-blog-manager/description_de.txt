@@ -1,16 +1,16 @@
 Hexo-Blog-Ein-Klick-Verwaltungstool, Konfigurationsdatei unter ~/.config/hexo/config.yaml.
 
 Kernfunktionen:
-1. Blog-Erstellung mit einem Klick: Automatisch ein Cover generieren → auf OSS hochladen → Markdown erstellen → an GitHub senden  
-2. AI-Cover-Generierung: Rufen Sie eine benutzerdefinierte API auf (Standard gpt-image-2), unterstützt 16:9-Cover  
-3. Image-Hosting: Hochladen in das GitHub_Oss-Repository, Generieren eines jsDelivr-CDN-Links  
-4. Duale Authentifizierung: unterstützt gh CLI (Standard) oder GitHub Personal Access Token  
-5. Konfigurationsmanagement: einheitliche Handhabung von API-Schlüssel, GitHub-Token, Repository-Pfad usw.
+1. Blog-Erstellung mit einem Klick: Cover automatisch generieren → auf OSS hochladen → Markdown erstellen → an GitHub senden
+2. AI-Cover-Generierung: Ruft die benutzerdefinierte API auf (Standard gpt-image-2), unterstützt 16:9-Cover
+3. Image-Hosting: Hochladen in das GitHub_Oss-Repository, Generieren eines jsDelivr-CDN-Links
+4. Duale Authentifizierung: unterstützt gh CLI (Standard) oder GitHub Personal Access Token
+5. Konfigurationsverwaltung: einheitliche Verwaltung von API-Schlüssel, GitHub-Token, Repository-Pfad usw.
 
-Skriptbeschreibung:
-- **hexo_config.py**: Konfiguration lesen/schreiben (init/show/check/set‑api‑key/set‑github‑token)  
-- **generate_cover.py**: Cover-Generierung (--title/--style/--model)  
-- **upload_prep.py**: OSS-Upload-Vorbereitung (Base64-Kodierung)  
-- **create_post.py**: Blog-Erstellung mit einem Klick (integriert alle oben genannten Schritte)
+Skriptbeschreibungen:
+- hexo_config.py: Konfiguration lesen/schreiben (init/show/check/set-api-key/set-github-token)
+- generic_cover.py: Cover-Generierung (--title/--style/--model)
+- upload_prep.py: OSS-Upload-Vorbereitung (Base64-Kodierung)
+- create_post.py: Blog-Erstellung mit einem Klick (integriert alle oben genannten Schritte)
 
-Auslöser-Szenario: Wird verwendet, wenn der Benutzer die Erstellung eines Blogs, die Veröffentlichung eines Artikels, die Erstellung eines Covers, das Hochladen von Bildern, die Hexo-Konfiguration, die Blog-Verwaltung, das Hosting von Bildern oder die GitHub-Authentifizierung erwähnt.
+Auslöser-Szenarien: Wird verwendet, wenn der Benutzer die Erstellung eines Blogs, die Veröffentlichung eines Artikels, die Erstellung eines Covers, das Hochladen von Bildern, die Hexo-Konfiguration, die Blog-Verwaltung, das Hosting von Bildern und die GitHub-Authentifizierung erwähnt.

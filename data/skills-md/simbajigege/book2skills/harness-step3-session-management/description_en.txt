@@ -1,5 +1,6 @@
-Harness Engineering Phase 2: Establish cross‑session state management to solve the problem of the agent forgetting after each conversation. Create three files: tasks.json (task list), progress.md (progress record), init.sh (environment initialization script).
+Harness Engineering Phase Two: Establish cross‑session state management to solve the problem of the agent forgetting what happened in previous conversations.  
+Create three files: tasks.json (task list), progress.md (progress record), init.sh (environment initialization script).
 
-When the user says “establish task management”, “let the agent remember progress”, “create tasks.json”, “maintain state across sessions”, “the agent never remembers what it did last time”, “create progress file”, “initialize state management”, immediately use this skill.
+When the user says “establish task management”, “let the agent remember progress”, “create tasks.json”, “maintain state across sessions”, “the agent never remembers what was done last time”, “create progress file”, or “initialize state management”, invoke this skill immediately.
 
-Prerequisite: harness‑step1 and harness‑step2 have been completed (the project has AGENTS.md and a docs/ knowledge base).
+Prerequisite: harness‑step1 and harness‑step2 have been completed (the project includes AGENTS.md and a docs/ knowledge base).

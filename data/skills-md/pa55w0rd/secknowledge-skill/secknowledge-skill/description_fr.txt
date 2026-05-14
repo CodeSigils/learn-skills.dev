@@ -1,12 +1,10 @@
-Base de connaissances sur les tests de sécurité Web+AI. Intègre WooYun 88 636 cas + méthodologie Prophet L1‑L4 + GAARM 150 risques + OWASP Top10 (LLM/ASI/WSTG).  
-
-** DÉCLENCHEUR ** lorsque la tâche consiste en des tests de sécurité pratiques : tests d'intrusion, découverte/exploitation de vulnérabilités, attaque/défense de l'équipe rouge, audit de sécurité (SAST/DAST), CTF, tests de sécurité AI/LLM (injection rapide/jailbreak/MCP/Agent/évasion sandbox). L'utilisateur fournit explicitement une cible de test (URL/code/modèle/architecture de l'agent) et l'intention est « tester/auditer/découvrir les vulnérabilités/exploiter ».  
-
-**NE PAS déclencher :**  
-- Discussion sur le concept de sécurité (« Qu'est-ce que XSS », « Quel est le principe de l'injection SQL ») → Questions et réponses générales  
-- Révision / débogage / optimisation des performances du code non lié à la sécurité → compétence d'audit de code ou autre  
-- Correction d'erreurs de syntaxe / bugs de logique métier → aide générale à la programmation  
-- Audit de code en boîte blanche du Web pur (audit Java/JS approfondi) → compétence d'audit de code  
+Base de connaissances sur les tests de sécurité Web+IA. Intègre WooYun 88 636 cas + méthodologie Prophet L1‑L4 + GAARM 150 risques + OWASP Top10 (LLM/ASI/WSTG).  
+DÉCLENCHEMENT lorsque la tâche consiste en des tests de sécurité pratiques : tests d'intrusion, découverte/exploitation de vulnérabilités, attaque/défense de l'équipe rouge, audit de sécurité (SAST/DAST), CTF, tests de sécurité AI/LLM (injection rapide/jailbreak/MCP/Agent/évasion sandbox). L'utilisateur fournit explicitement une cible de test (URL/code/modèle/architecture de l'agent) et l'intention est « tester/auditer/trouver des vulnérabilités/exploiter ».  
+NE PAS déclencher :  
+- Discussion sur le concept de sécurité (« qu'est-ce que XSS », « quel est le principe de l'injection SQL ») → questions-réponses ordinaires  
+- Révision/débogage/optimisation des performances du code non lié à la sécurité → compétence d'audit de code ou autre  
+- Correction d'erreurs de syntaxe / bugs de logique métier → aide à la programmation ordinaire  
+- Audit de code en boîte blanche pure web (audit approfondi de Java/JS) → compétence d'audit de code  
 - Référencer uniquement un numéro CVE pour rechercher de la documentation → WebSearch  
 
 Veuillez toujours répondre dans la langue de l’utilisateur.

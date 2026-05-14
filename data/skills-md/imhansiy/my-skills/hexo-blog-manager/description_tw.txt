@@ -2,10 +2,10 @@ Hexo部落格一鍵管理工具，設定檔位於~/.config/hexo/config.yaml。
 
 核心特點：
 1.一鍵建立部落格：自動產生封面→上傳OSS→建立Markdown→提交到GitHub
-2. AI封面產生：呼叫自訂API（defaultgpt-image-2），支援16:9封面
-3.圖片託管：上傳到GitHub_Oss倉庫，產生jsDelivr CDN鏈接
+2. AI封面產生：呼叫自訂API（預設gpt-image-2），支援16:9封面
+3. 圖片託管：上傳至GitHub_Oss倉庫，產生jsDelivr CDN鏈接
 4.雙重身分驗證：支援gh CLI（預設）或GitHub個人存取權杖
-5.設定管理：統一處理API Key、GitHub Token、倉庫路徑等。
+5.設定管理：統一管理API Key、GitHub Token、倉庫路徑等。
 
 腳本說明：
 - hexo_config.py：設定讀/寫（init/show/check/set-api-key/set-github-token）
@@ -13,4 +13,4 @@ Hexo部落格一鍵管理工具，設定檔位於~/.config/hexo/config.yaml。
 - upload_prep.py：OSS上傳準備（Base64編碼）
 - create_post.py：一鍵建立部落格（整合了以上所有步驟）
 
-觸發場景：當使用者提到建立部落格、發布文章、產生封面、上傳圖片、Hexo配置、部落格管理、圖片託管或GitHub認證時使用。
+觸發場景：當使用者提到建立部落格、發布文章、產生封面、上傳圖片、Hexo配置、部落格管理、圖片託管、GitHub認證時使用。

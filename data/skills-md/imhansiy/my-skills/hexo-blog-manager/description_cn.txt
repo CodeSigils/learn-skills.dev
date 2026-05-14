@@ -2,7 +2,7 @@ Hexo博客一键管理工具，配置文件位于~/.config/hexo/config.yaml。
 
 核心特点：
 1.一键创建博客：自动生成封面→上传OSS→创建Markdown→提交到GitHub
-2. AI封面生成：调用自定义API（defaultgpt-image-2），支持16:9封面
+2. AI封面生成：调用自定义API（默认gpt-image-2），支持16:9封面
 3. 图片托管：上传至GitHub_Oss仓库，生成jsDelivr CDN链接
 4.双重身份验证：支持gh CLI（默认）或GitHub个人访问令牌
 5.配置管理：统一管理API Key、GitHub Token、仓库路径等。
