@@ -1,0 +1,8 @@
+Convalida end-to-end completa dell'interfaccia utente Web di Archon utilizzando l'automazione del browser e la revisione della base di codice.
+Utilizzare quando: l'utente desidera convalidare, testare o controllare l'interfaccia web di Archon, trovare bug UI/UX,
+testare la gestione del flusso di lavoro, verificare l'orchestrazione degli agenti paralleli o eseguire test E2E completi basati su browser.
+Trigger: "convalida ui", "testa l'interfaccia utente", "e2e test", "test del browser", "convalida arconte",
+          "test archon ui", "ui audit", "ux review", "comprehensive test", "convalida tutto".
+Funzionalità: avvia Archon, esegue test esaustivi di automazione del browser tramite CLI dell'agente-browser,
+esegue la revisione della base di codice e produce un rapporto dettagliato su bug/UX.
+NON per: test unitari (utilizzare `bun test`), convalida solo CLI (utilizzare /validation:validate-simple).
