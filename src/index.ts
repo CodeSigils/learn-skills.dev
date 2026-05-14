@@ -500,9 +500,20 @@ async function fetchText(url: string): Promise<string | null> {
   }
 }
 
+/**
+ * Parse install count from a skills.sh skill detail HTML page.
+ * skills.sh has used "Weekly Installs" (legacy), cumulative "Installs" in the
+ * sidebar, and JSON-LD (`InstallAction` / `userInteractionCount`). Order matches
+ * `scripts/backfill_cached_weekly_installs.py` so daily crawl and weekly backfill agree.
+ * Returned value is still stored under `weeklyInstalls` in stats.json for compatibility.
+ */
 function extractWeeklyInstallsFromSkillPage(html: string): number | null {
   const normalized = html.replace(/\s+/g, ' ');
-  const patterns = [
+  const patterns: RegExp[] = [
+    /"interactionType"\s*:\s*"https:\/\/schema\.org\/InstallAction"\s*,\s*"userInteractionCount"\s*:\s*(\d+)/i,
+    /"userInteractionCount"\s*:\s*(\d+)\s*,\s*"interactionType"\s*:\s*"https:\/\/schema\.org\/InstallAction"/i,
+    /Installs<\/span>\s*<\/div>\s*<div[^>]*>([\d,]+)<\/div>/i,
+    /Installs<\/[^>]+>\s*<div[^>]*>([\d,]+)<\/div>/i,
     /Weekly Installs<\/span>\s*<\/div>\s*<div[^>]*>([\d,]+)<\/div>/i,
     /Weekly Installs<\/[^>]+>\s*<div[^>]*>([\d,]+)<\/div>/i,
   ];
