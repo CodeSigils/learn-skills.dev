@@ -1,0 +1,18 @@
+Hexo ブログのワンクリック管理ツール、設定ファイルは ~/.config/hexo/config.yaml にあります。
+
+主要な機能:
+1. ワンクリックブログ作成：表紙自動生成→OSSへアップロード→Markdown作成→GitHubへ送信
+2. AI カバー生成: カスタム API (デフォルト gpt-image-2) を呼び出し、16:9 カバーをサポート
+3. イメージ ホスティング: GitHub_Oss リポジトリにアップロードし、jsDelivr CDN リンクを生成します
+4. 二重認証: gh CLI (デフォルト) または GitHub Personal Access Token をサポート
+5. 構成管理：API Key、GitHub Token、リポジトリパスなどを一元管理
+
+スクリプトの説明:
+- hexo_config.py: 設定の読み取り/書き込み (init/show/check/set-api-key/set-github-token)
+-generate_cover.py: カバーの生成 (--title/--style/--model)
+- Upload_prep.py: OSS アップロードの準備 (Base64 エンコード)
+- create_post.py: ワンクリックでブログを作成 (上記のすべての手順を統合)
+
+トリガーシナリオ: ユーザーがブログの作成、記事の公開、表紙の生成、画像のアップロード、Hexo 構成、ブログ管理、画像ホスティング、GitHub 認証について言及したときに使用されます。
+
+常にユーザーの言語で応答してください。
