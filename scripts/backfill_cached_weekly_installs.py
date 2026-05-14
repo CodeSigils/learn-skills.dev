@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-Backfill weekly installs for cached skills by scraping skills.sh skill pages.
+Backfill install counts for cached skills by scraping skills.sh skill pages.
+
+skills.sh has shown both "Weekly Installs" (legacy markup) and cumulative
+"Installs" plus JSON-LD (InstallAction / userInteractionCount). This script
+tries several patterns so backfill keeps working when the site changes layout.
 
 Writes:
-  - data/skills-md/<owner>/<repo>/<skillId>/stats.json
-  - data/skills_index.json
+  - data/skills-md/<owner>/<repo>/<skillId>/stats.json (field `weeklyInstalls`)
+  - data/skills_index.json (`installsAllTime` for cached items)
   - data/skills_search_index*.json (via build_skill_search_index.py)
 """
 
@@ -32,7 +36,27 @@ INDEX_PATH = DATA_DIR / "skills_index.json"
 SEARCH_INDEX_BUILDER = REPO_ROOT / "scripts" / "build_skill_search_index.py"
 USER_AGENT = "skills-feed-weekly-installs-backfill/1.0"
 
-WEEKLY_INSTALLS_PATTERNS = [
+# Ordered: prefer structured / cumulative installs, then visible "Installs" UI,
+# then legacy "Weekly Installs" label. First successful parse wins.
+INSTALL_COUNT_PATTERNS: list[re.Pattern[str]] = [
+    # JSON-LD (script tag): InstallAction interaction counter
+    re.compile(
+        r'"interactionType"\s*:\s*"https://schema\.org/InstallAction"\s*,\s*"userInteractionCount"\s*:\s*(\d+)',
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r'"userInteractionCount"\s*:\s*(\d+)\s*,\s*"interactionType"\s*:\s*"https://schema\.org/InstallAction"',
+        re.IGNORECASE,
+    ),
+    # Next.js flight / RSC payloads escape quotes; same semantics as JSON-LD
+    re.compile(
+        r"https://schema\.org/InstallAction\\\",\\\"userInteractionCount\\\":(\d+)",
+        re.IGNORECASE,
+    ),
+    # Current skills.sh sidebar: "Installs" heading + numeric cell
+    re.compile(r"Installs</span>\s*</div>\s*<div[^>]*>([\d,]+)</div>", re.IGNORECASE),
+    re.compile(r"Installs</[^>]+>\s*<div[^>]*>([\d,]+)</div>", re.IGNORECASE),
+    # Legacy layout
     re.compile(r"Weekly Installs</span>\s*</div>\s*<div[^>]*>([\d,]+)</div>", re.IGNORECASE),
     re.compile(r"Weekly Installs</[^>]+>\s*<div[^>]*>([\d,]+)</div>", re.IGNORECASE),
 ]
@@ -80,9 +104,10 @@ def write_stats(source: str, skill_id: str, weekly_installs: int) -> None:
     write_json_if_changed(path, payload)
 
 
-def extract_weekly_installs(html: str) -> int | None:
+def extract_install_count_from_skills_sh_html(html: str) -> int | None:
+    """Return install count from skills.sh HTML, or None if no pattern matches."""
     normalized = re.sub(r"\s+", " ", html)
-    for pattern in WEEKLY_INSTALLS_PATTERNS:
+    for pattern in INSTALL_COUNT_PATTERNS:
         match = pattern.search(normalized)
         if not match:
             continue
@@ -168,13 +193,13 @@ def backfill_one(source: str, skill_id: str, timeout: int, dry_run: bool) -> tup
     if not html:
         return source, skill_id, None, "fetch_failed"
 
-    weekly_installs = extract_weekly_installs(html)
-    if weekly_installs is None:
+    install_count = extract_install_count_from_skills_sh_html(html)
+    if install_count is None:
         return source, skill_id, None, "parse_failed"
 
     if not dry_run:
-        write_stats(source, skill_id, weekly_installs)
-    return source, skill_id, weekly_installs, "fetched"
+        write_stats(source, skill_id, install_count)
+    return source, skill_id, install_count, "fetched"
 
 
 def update_index_from_stats(dry_run: bool) -> int:
