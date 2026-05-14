@@ -1,1 +1,1 @@
-現セッションのリアルトークン使用量と推定削減量を表示。Claude Code セッションログから直接読込 — AI 推定なし。 `/genshijin-stats` で起動。出力は mode-tracker フックが注入し、モデル自身は数値計算しない。
+Displays the real token usage and estimated reduction amount for the current session. Reads directly from the Claude Code session log — no AI estimation. Launched with `/genshijin-stats`. The output is injected by a mode‑tracker hook, and the model itself does not perform numeric calculations.
