@@ -1,0 +1,1 @@
+计划——而非执行——TypeScript 项目质量关卡：Husky hooks、lint-staged、commitlint、linter/formatter（ESLint+Prettier 或 Biome）、Vitest 和 Knip 死代码检测。将可恢复计划写入`<cwd>/.plans/setup-ts-project-config/plan.md`；重新运行与实时状态协调。触发“计划预提交设置”、“计划 husky 和 ​​lint-staged”、“计划 eslint/prettier/biome 配置”、“添加 Knip”、“设置代码质量门”、“配置预提交挂钩”或 /setup-ts-project-config。

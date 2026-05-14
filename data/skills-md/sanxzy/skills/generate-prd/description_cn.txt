@@ -1,0 +1,1 @@
+编写产品需求文档 - 诸如“编写 PRD”、“将我的讨论变成 PRD”、“记录我的讨论中的决策”或规划新功能等触发器。根据“.plans/discussion/<topic>/FINAL.md”（首选）中的最终讨论摘要生成“<cwd>/.plans/<feature>/prd.md”，或者在不存在时生成内联访谈。仅本地文件（无 GitHub 问题）。可通过“prd-draft.md”检查点轻松恢复。如果不存在 FINAL.md，建议首先进行设计讨论。

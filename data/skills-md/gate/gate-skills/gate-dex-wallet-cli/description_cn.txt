@@ -1,0 +1,1 @@
+Gate DEX CLI钱包技能（纯REST）。通过 OAuth、余额、钱包/帐户地址、代币列表、交易历史记录、转账和签名进行身份验证。 GV 签入内置于签名命令中。每当用户想要通过 gateway-dex CLI 登录、检查余额/地址、查看交易历史记录、转移代币或签署消息时，请使用此技能。触发短语包括登录、注销、余额、地址、代币、交易历史记录、转账、发送、sign-msg、sign-tx。对于互换，请使用 gateway-dex-trade-cli；对于市场数据，请使用 gateway-dex-market-cli。

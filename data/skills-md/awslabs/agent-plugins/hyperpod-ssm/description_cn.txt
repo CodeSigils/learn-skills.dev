@@ -1,0 +1,1 @@
+通过 AWS Systems Manager (SSM) 在 SageMaker HyperPod 集群节点上远程执行命令和文件传输。这是访问 HyperPod 节点的主要接口 - 直接 SSH 不可用。当任何技能、工作流或用户请求需要在集群节点上执行命令、将文件上传到节点、从节点读取/下载文件、运行诊断、安装包或执行任何需要对 HyperPod 实例进行 shell 访问的操作时使用。其他 HyperPod 技能依赖于该技能来进行所有节点级操作。

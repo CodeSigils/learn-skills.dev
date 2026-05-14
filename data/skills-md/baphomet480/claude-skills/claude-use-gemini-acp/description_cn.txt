@@ -1,0 +1,1 @@
+通过代理客户端协议 (ACP) 将子任务委托给 Gemini CLI。 Use this skill whenever you want to hand off work to Gemini — large-context summarization, Google Search grounding, tasks that exceed Claude's context window, or anything where Gemini's 1M-token window or real-time search gives an advantage.当用户要求您“询问 Gemini”、“与 Gemini 核实”或“通过 Gemini 运行此操作”时也会调用。该脚本处理子流程生命周期和 ACP 会话设置；您只需提供提示并读取标准输出即可。

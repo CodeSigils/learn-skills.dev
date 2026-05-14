@@ -1,0 +1,1 @@
+NCU 驱动的 CUDA/CUTLASS/Triton/CuTe DSL 内核迭代优化工作流程。强制：每次优化都必须从NCU profiling开始，然后进行多维度分析，然后针对性修改代码，然后重新profiling进行验证。支持屋顶线、内存层次结构、扭曲停顿、指令混合、占用、发散分析。提供特定于实现的代码修改：本机 CUDA（启动配置、内存模式、异步复制、Tensor Core）、CUTLASS（ThreadblockShape、阶段、尾声、调度策略、对齐）、Triton（自动调整参数、编译器提示、tl.* API 模式）、CuTe DSL（threads_per_cta、elems_per_thread、tiled_copy、复制原子、共享内存、warp/cta reduce）。在优化任何 CUDA 内核性能时使用。

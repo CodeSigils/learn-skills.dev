@@ -1,0 +1,1 @@
+实施自由格式的用户指令作为验收标准 (AC)，每个 AC 一次原子提交 - 无需计划文件或设计规则手册。触发器：“实现<事物>”、“端到端构建<功能>”、“仅实现<描述>”、“端到端交付<X>”。对于“<cwd>/.plans/<feature>/plan.md”中现有计划的阶段，不要触发。在 `<cwd>/.plans/<slug>/implementations/with-instructions/{feat,fix,refactor}/run.md` 中编写报告，并开放后续行动。 FP优先；可选 TDD 模式。

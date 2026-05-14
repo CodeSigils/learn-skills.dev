@@ -1,0 +1,1 @@
+生成 Material 3 设计文档 — 诸如“生成 DESIGN.md”、“创建设计系统”、“支架 M3 设计令牌”、“编写 Material 3 设计文档”等触发器。读取 `<cwd>/.plans/<feature>/prd.md`（必需 — 如果没有则硬停止），运行 7 个问题访谈（情绪、原色、浅色/深色、字体、密度、形状、高度），通过捆绑的 Node 脚本导出完整的 M3 调色板，写入 `<cwd>/.plans/DESIGN.md`。每个项目一个。可通过“design-draft.md”检查点轻松恢复。

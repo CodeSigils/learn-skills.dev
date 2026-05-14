@@ -1,0 +1,13 @@
+使用“asc”CLI 工具管理自动续订订阅。
+在以下情况下使用此技能：
+(1)订阅组：“asc subscription-groups list|create|update|delete”
+(2) 订阅组本地化（每个区域设置的自定义应用程序名称）：“asc subscription-group-localizations list|create|update|delete”
+(3)订阅：“asc订阅列表|创建|更新|删除|提交|取消提交”
+(4) 订阅定价：“asc订阅价格点列表”、“asc订阅价格设置”（按地区，收益年份2）
+(5) 订阅本地化：“asc subscription-localizations list|create|update|delete”
+(6) 介绍性优惠：“asc订阅优惠列表|创建|删除”（FREE_TRIAL、PAY_AS_YOU_GO、PAY_UP_FRONT）
+(7) 促销优惠（应用内，按地区定价）：“asc 订阅促销优惠列表|创建|删除”、“asc 订阅促销优惠价格列表”
+(8) 赢回优惠（已失效订阅者）：“asc 赢回优惠列表|创建|更新|删除”、“asc 赢回优惠价格列表”
+(9) 优惠代码（3 级）：“asc 订阅优惠代码列表/创建/更新”、“asc 订阅优惠代码价格列表”、自定义代码、一次性代码（包括兑换 CSV 的“值”）
+(10)订阅审核截图：“asc订阅-审核-截图获取|上传|删除”
+(11) 用户说“订阅组”、“订阅等级”、“促销优惠”、“赢回优惠”、“失效订阅者”、“订阅优惠代码”、“自定义代码”、“一次性代码”、“免费试用”、“促销代码”、“评论屏幕截图”、“自定义应用名称”
