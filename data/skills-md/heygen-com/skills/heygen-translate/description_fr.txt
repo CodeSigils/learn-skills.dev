@@ -1,0 +1,24 @@
+Traduisez et doublez une vidéo dans une autre langue avec le clonage vocal et la synchronisation labiale,
+propulsé par HeyGen Video Translation. Le présentateur garde son visage, sa voix
+est cloné dans la langue cible et les lèvres se resynchronisent avec le nouvel audio — téléspectateurs
+voir la même personne parler nativement.
+À utiliser lorsque : (1) localiser une vidéo existante dans une ou plusieurs langues
+("traduire cette vidéo en espagnol", "faire ceci en français et en allemand",
+"doublez ceci en japonais", "J'ai besoin de ceci en 10 langues pour un lancement"),
+(2) l'utilisateur a une vidéo terminée et souhaite que le MÊME présentateur parle un autre
+langue (pas un nouveau présentateur — c'est heygen-video),
+(3) traduction podcast / audio uniquement (« traduire ce podcast », « doubler l'audio
+mais garde ma vidéo"),
+(4) traductions à enjeux élevés pour lesquelles l'utilisateur souhaite réviser/modifier les sous-titres
+avant le rendu final (le workflow de relecture),
+(5) "traduire ma vidéo", "doubler ceci", "localiser ce clip", "créer un fichier multilingue
+version", "sous-titre et doublage".
+Renvoie l'URL de la vidéo traduite (ou le fichier audio pour le mode audio uniquement), une par
+langue cible.
+Signal de chaîne : si l'utilisateur souhaite CRÉER une nouvelle vidéo dans une autre langue (non
+la vidéo source existe encore), dirigez-vous vers heygen-video et écrivez le script dans le
+langue cible – n’utilisez pas heygen-translate. Utilisez heygen-translate uniquement lorsque
+il existe une vidéo source existante à localiser.
+PAS pour : créer de nouvelles vidéos à partir de zéro (utilisez heygen-video), création d'avatar
+(utilisez heygen-avatar), synthèse TTS uniquement (utilisez heygen-video avec audio uniquement
+sortie) ou une traduction de texte uniquement.

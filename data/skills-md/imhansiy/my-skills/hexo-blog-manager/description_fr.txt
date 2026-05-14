@@ -1,0 +1,16 @@
+Outil de gestion en un clic du blog Hexo, fichier de configuration situé à ~/.config/hexo/config.yaml.
+
+Fonctionnalités principales :
+1. Création de blog en un clic : générer automatiquement une couverture → télécharger sur OSS → créer du Markdown → soumettre à GitHub
+2. Génération de couverture AI : appelez une API personnalisée (gpt-image-2 par défaut), prend en charge la couverture 16:9
+3. Hébergement d'images : télécharger sur le référentiel GitHub_Oss, générer le lien jsDelivr CDN
+4. Double authentification : prend en charge gh CLI (par défaut) ou le jeton d'accès personnel GitHub
+5. Gestion de la configuration : gestion unifiée de la clé API, du jeton GitHub, du chemin du référentiel, etc.
+
+Description du scénario :
+- hexo_config.py : configuration lecture/écriture (init/show/check/set-api-key/set-github-token)
+- generate_cover.py : génération de couverture (--title/--style/--model)
+- upload_prep.py : préparation du téléchargement OSS (encodage Base64)
+- create_post.py : création de blog en un clic (intègre toutes les étapes ci-dessus)
+
+Scénario déclencheur : utilisé lorsque l'utilisateur mentionne la création d'un blog, la publication d'un article, la génération d'une couverture, le téléchargement d'une image, la configuration Hexo, la gestion du blog, l'hébergement d'images, l'authentification GitHub.

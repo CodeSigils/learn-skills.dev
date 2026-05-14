@@ -1,0 +1,6 @@
+[Assistant de publication de compte public] Formate les notes WPS et les exporte au format HTML de compte public WeChat.  
+À utiliser lorsque l'utilisateur dit « publier un compte public », « formater le compte public », « exporter vers un compte public », « je suis prêt à publier », « formater l'article », « l'envoyer » ou « formater cet article ».  
+Il s'agit de la dernière étape du workflow de création : le contenu est terminé et doit être formaté et publié sur le compte public.  
+Capacités de base : 1) appliquer automatiquement des modèles de formatage 2) convertir les balises d'espace réservé en styles 3) générer du HTML qui peut être collé directement.  
+Entrée : ID de note WPS (une note dont le contenu est complété). Sortie : fichier HTML avec des styles en ligne.  
+Ne pas utiliser pour la création de contenu, uniquement pour publier du contenu déjà formaté.
