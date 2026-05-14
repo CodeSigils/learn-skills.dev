@@ -1,0 +1,16 @@
+Hexo 블로그 원클릭 관리 도구, 구성 파일은 ~/.config/hexo/config.yaml에 있습니다.
+
+핵심 기능:
+1. 원클릭 블로그 생성: 표지 자동 생성 → OSS에 업로드 → 마크다운 생성 → GitHub에 제출
+2. AI 표지 생성: 맞춤형 API 호출(기본 gpt-image-2), 16:9 표지 지원
+3. 이미지 호스팅: GitHub_Oss 저장소에 업로드, jsDelivr CDN 링크 생성
+4. 이중 인증: gh CLI(기본값) 또는 GitHub 개인 액세스 토큰 지원
+5. 구성 관리: API Key, GitHub Token, 저장소 경로 등을 통합 관리합니다.
+
+스크립트 설명:
+- hexo_config.py: 구성 읽기/쓰기(init/show/check/set-api-key/set-github-token)
+- generate_cover.py: 표지 생성(--title/--style/--model)
+- upload_prep.py: OSS 업로드 준비(Base64 인코딩)
+- create_post.py: 원클릭 블로그 생성(위의 모든 단계 통합)
+
+트리거 시나리오: 사용자가 블로그 만들기, 기사 게시, 표지 생성, 이미지 업로드, Hexo 구성, 블로그 관리, 이미지 호스팅, GitHub 인증을 언급할 때 사용됩니다.
