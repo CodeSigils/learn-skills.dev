@@ -1,0 +1,5 @@
+Convertire le descrizioni in linguaggio naturale in diagrammi tecnici concisi (diagramma dell'architettura/diagramma di flusso/diagramma di sequenza/macchina a stati/flusso di dati/ER/diagramma concettuale, ecc.). **Non lasciare che LLM disegni SVG**: LLM restituisce solo JSON che descrive nodi e bordi; un renderer Python deterministico calcola il routing di Manhattan, l'evitamento delle collisioni e il posizionamento delle etichette, garantendo un layout pulito al 100%. Stile Ledger predefinito (sfondo bianco caldo+accento verde acqua+tratto grigio scuro). Genera PNG simultaneamente tramite `rsvg-convert`.
+
+TRIGGER quando l'utente chiede di: disegnare un diagramma, disegnarne uno, aiutami a disegnare, disegnare un, produrre un diagramma, generare un diagramma, creare un diagramma, diagramma dell'architettura, diagramma di flusso, diagramma di sequenza, diagramma della macchina a stati, diagramma ER, visualizzare, disegnare, diagramma, visualizzare, graficarlo.
+
+Si prega di rispondere sempre nella lingua dell'utente.

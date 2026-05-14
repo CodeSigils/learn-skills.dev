@@ -1,0 +1,13 @@
+Gestisci gli abbonamenti con rinnovo automatico utilizzando lo strumento CLI "asc".
+Usa questa abilità quando:
+(1) Gruppi di sottoscrizione: "elenco gruppi di sottoscrizione asc|crea|aggiorna|elimina"
+(2) Localizzazioni dei gruppi di abbonamento (nome app personalizzato per impostazione locale): "elenco localizzazioni gruppo-abbonamento-asc|crea|aggiorna|elimina"
+(3) Sottoscrizioni: "elenco abbonamenti asc|crea|aggiorna|elimina|invia|annulla invio"
+(4) Prezzi degli abbonamenti: "listino prezzi abbonamenti asc", "set prezzi abbonamenti asc" (per territorio, con proventiAnno2)
+(5) Localizzazioni degli abbonamenti: "elenco delle localizzazioni degli abbonamenti asc|crea|aggiorna|elimina"
+(6) Offerte di lancio: "elenco offerte-abbonamento asc|crea|elimina" (FREE_TRIAL, PAY_AS_YOU_GO, PAY_UP_FRONT)
+(7) Offerte promozionali (in-app, con prezzi per territorio): "listino offerte-abbonamento-promozionali-asc|crea|elimina", "listino prezzi offerte-abbonamento-promozionali-asc"
+(8) Offerte win-back (abbonati decaduti): "lista offerte asc win-back|crea|aggiorna|cancella", "listino prezzi offerte asc win-back"
+(9) Codici offerta (3 livelli): "elenco/crea/aggiornamento codici offerta-abbonamento asc", "listino prezzi codici offerta-abbonamento asc", codici personalizzati, codici monouso (incl. "valori" per CSV di riscatto)
+(10) Screenshot della revisione dell'abbonamento: "asc membership-review-screenshot get|upload|delete"
+(11) L'utente dice "gruppo di abbonamento", "livello di abbonamento", "offerta promozionale", "offerta di recupero", "abbonato scaduto", "codice offerta di abbonamento", "codice personalizzato", "codici monouso", "prova gratuita", "codice promozionale", "screenshot di revisione", "Nome app personalizzato"
