@@ -1,0 +1,13 @@
+Verwalten Sie automatisch erneuerbare Abonnements mit dem CLI-Tool „asc“.
+Verwenden Sie diese Fähigkeit, wenn:
+(1) Abonnementgruppen: „asc subscription-groups list|create|update|delete“
+(2) Abonnementgruppenlokalisierungen (benutzerdefinierter App-Name pro Gebietsschema): „asc subscription-group-localizations list|create|update|delete“
+(3) Abonnements: „asc subscriptions list|create|update|delete|submit|unsubmit“
+(4) Abonnementpreise: „Liste der Preispunkte für ASC-Abonnements“, „Festgelegte Preise für ASC-Abonnements“ (pro Gebiet, mit Erlösen für Jahr2)
+(5) Abonnementlokalisierungen: „asc subscription-localizations list|create|update|delete“
+(6) Einführungsangebote: „asc subscription-offers list|create|delete“ (FREE_TRIAL, PAY_AS_YOU_GO, PAY_UP_FRONT)
+(7) Werbeangebote (in-App, mit Preisen pro Gebiet): „asc subscription-promotional-offers list|create|delete“, „asc subscription-promotional-offersprices list“
+(8) Rückgewinnungsangebote (abgelaufene Abonnenten): „asc win-back-offers list|create|update|delete“, „asc win-back-offersprices list“
+(9) Angebotscodes (3 Ebenen): „asc subscription-offer-codes list/create/update“, „asc subscription-offer-codesprices list“, benutzerdefinierte Codes, einmalige Codes (inkl. „Werte“ für Einlösungs-CSV)
+(10) Screenshot der Abonnementüberprüfung: „asc subscription-review-screenshot get|upload|delete“
+(11) Der Benutzer sagt „Abonnementgruppe“, „Abonnementstufe“, „Werbeangebot“, „Rückgewinnungsangebot“, „abgelaufener Abonnent“, „Abonnementangebotscode“, „benutzerdefinierter Code“, „einmalige Codes“, „kostenlose Testversion“, „Promocode“, „Screenshot überprüfen“, „benutzerdefinierter App-Name“.
