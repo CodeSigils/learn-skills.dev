@@ -1,0 +1,13 @@
+'asc' CLI 도구를 사용하여 자동 갱신 구독을 관리하세요.
+다음과 같은 경우에 이 기술을 사용하십시오.
+(1) 구독 그룹: "asc 구독 그룹 목록|생성|업데이트|삭제"
+(2) 구독 그룹 현지화(로케일별 맞춤형 앱 이름): "asc subscribe-group-localizations list|create|update|delete"
+(3) 구독: "asc 구독 목록|생성|업데이트|삭제|제출|제출 취소"
+(4) 구독 가격: "asc 구독 가격대 목록", "asc 구독 가격 세트"(지역별, ProwardsYear2 포함)
+(5) 구독 현지화: "asc subscribe-localizations list|create|update|delete"
+(6) 소개 제안: "asc 구독 제안 목록|생성|삭제"(FREE_TRIAL, PAY_AS_YOU_GO, PAY_UP_FRONT)
+(7) 프로모션 제안(인앱, 지역별 가격 책정): "asc 구독-프로모션-제공 목록|생성|삭제", "asc 구독-프로모션-제공 가격 목록"
+(8) Win-back 제안(실효된 가입자): "asc win-back-offers 목록|생성|업데이트|삭제", "asc win-back-offers 가격 목록"
+(9) 혜택 코드(3단계): "asc 구독 혜택 코드 목록/생성/업데이트", "asc 구독 혜택 코드 가격 목록", 맞춤 코드, 일회성 코드(교환 CSV용 '값' 포함)
+(10) 구독 검토 스크린샷: "asc subscribe-review-screenshot get|upload|delete"
+(11) 사용자가 "구독 그룹", "구독 계층", "프로모션 제안", "되돌리기 제안", "실패한 구독자", "구독 제안 코드", "맞춤 코드", "일회성 코드", "무료 평가판", "프로모션 코드", "스크린샷 검토", "맞춤 앱 이름"이라고 말합니다.
