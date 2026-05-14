@@ -1,0 +1,13 @@
+「asc」 CLI ツールを使用して自動更新可能なサブスクリプションを管理します。
+このスキルは次の場合に使用します。
+(1) サブスクリプション グループ: "asc subscription-groups list|create|update|delete"
+(2) サブスクリプション グループのローカリゼーション (ロケールごとのカスタム アプリ名): "asc subscription-group-localizations list|create|update|delete"
+(3) サブスクリプション: "asc サブスクリプション リスト|作成|更新|削除|送信|送信解除"
+(4) サブスクリプション価格: 「asc サブスクリプション価格ポイント リスト」、「asc サブスクリプション価格セット」 (地域ごと、収益年 2 付き)
+(5) サブスクリプションのローカリゼーション: "asc subscription-localizations list|create|update|delete"
+(6) 紹介オファー: 「asc subscription-offers list|create|delete」(FREE_TRIAL、PAY_AS_YOU_GO、PAY_UP_FRONT)
+(7) プロモーション オファー (アプリ内、地域ごとの価格設定): "asc subscription-promotional-offers list|create|delete"、"asc subscription-promotional-offersprice list"
+(8) ウィンバック オファー (失効した加入者): "asc win-back-offers list|create|update|delete"、"asc win-back-offersprice list"
+(9) オファー コード (3 レベル): 「asc サブスクリプション オファー コード リスト/作成/更新」、「asc サブスクリプション オファー コード価格リスト」、カスタム コード、ワンタイム コード (引き換え CSV の「値」を含む)
+(10) サブスクリプション レビューのスクリーンショット: 「asc subscription-review-screenshot get|upload|delete」
+(11) ユーザーが「サブスクリプション グループ」、「サブスクリプション層」、「プロモーション オファー」、「ウィンバック オファー」、「失効したサブスクリプション ユーザー」、「サブスクリプション オファー コード」、「カスタム コード」、「ワンタイム コード」、「無料トライアル」、「プロモーション コード」、「レビュー スクリーンショット」、「カスタム アプリ名」と言う

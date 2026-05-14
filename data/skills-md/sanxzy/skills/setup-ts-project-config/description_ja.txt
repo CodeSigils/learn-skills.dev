@@ -1,0 +1,1 @@
+計画する — 実行しない — TypeScript プロジェクトの品質ゲート: Husky フック、lint ステージング、commitlint、リンター/フォーマッタ (ESLint+Prettier または Biome)、Vitest、および Knip デッドコード検出。再開可能なプランを `<cwd>/.plans/setup-ts-project-config/plan.md` に書き込みます。再実行はライブ状態と照合します。 「プリコミット セットアップの計画」、「ハスキーおよび lint ステージングの計画」、「eslint/prettier/biome 構成の計画」、「Knip の追加」、「コード品質ゲートのセットアップ」、「コミット前フックの構成」、または /setup-ts-project-config でトリガーします。

@@ -1,0 +1,1 @@
+自由形式のユーザー指示を受け入れ基準 (AC) として実装し、AC ごとに 1 つのアトミック コミットを実行します。計画ファイルや設計ルールブックは必要ありません。トリガー: 「<thing> を実装する」、「<feature> をエンドツーエンドで構築する」、「<description> を実装するだけ」、「<X> をエンドツーエンドで出荷する」。 `<cwd>/.plans/<feature>/plan.md` にある既存のプランのフェーズについては、起動しません。 `<cwd>/.plans/<slug>/implementations/with-instructions/{feat,fix,refactor}/run.md` にレポートを作成し、フォローアップをオープンします。 FPファースト。オプションの TDD モード。

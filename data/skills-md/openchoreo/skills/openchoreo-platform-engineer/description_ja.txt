@@ -1,0 +1,1 @@
+プラットフォームレベルの OpenChoreo は、コントロールプレーン MCP サーバー (さらに `kubectl` と Helm) を介して動作します。つまり、ComponentTypes / Traits / Workflows の作成、Environment と DeploymentPipelines の作成、Plane の登録、シークレット ストアと認可の設定を行います。ユーザーが「新しい環境をセットアップする」、「デプロイメントパイプラインを作成する」、「ComponentType を追加する」、「データプレーンを登録する」、「認証を構成する」、または「OpenChoreo をインストールする」と言うときに使用します。
