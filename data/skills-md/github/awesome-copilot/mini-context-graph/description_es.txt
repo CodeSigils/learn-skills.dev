@@ -1,0 +1,5 @@
+Una base de conocimientos persistente y compuesta que combina el patrón LLM Wiki de Karpathy
+con un gráfico de conocimiento estructurado. Ingerir documentos una vez: el LLM escribe wiki
+páginas, extrae entidades/relaciones en el gráfico y almacena contenido sin procesar para
+recuperación de evidencia. El conocimiento se acumula y se cruza; nunca lo es
+re-derivado desde cero.

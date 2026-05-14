@@ -1,0 +1,11 @@
+Habilidades de operación CLI para Google Workspace (Calendar / Drive / Docs / Meet).  
+Condición de activación: cuando el contexto contiene cualquiera de “Drive”, “ドライブ”, “My Drive”, “GDrive”, “Docs”, “Meet”, “Calendar” o “Workspace” y coincide con cualquiera de los siguientes. Expresiones conversacionales, abreviadas, katakana/mixtas en inglés (arriba / DL / アップ / 落として / 投げて / 放り込んで / 置いて / あげて / 保存して) son todas incluido.  
+
+- Cargar archivos locales a MyDrive (por ejemplo, "Subir a Drive", "Guardar en MyDrive", "Subir PDF", "Subir a Drive por mí", "Lanzar el entregable a Drive")  
+- Guardar los resultados generados por el agente (propuestas, PPTX, PDF, Markdown de las actas de la reunión, etc.) en Drive  
+- Descarga desde Drive a local (por ejemplo, "Descargar desde Drive", "DL PPTX", "Guardar documento como docx", "Reemplazar con la última versión")  
+- Recuperar datos de origen de transcripción/minuto de reunión de Meet  
+- Extracción de enlaces de Drive de archivos adjuntos de eventos de Calendario o campos de descripción  
+- Buscar eventos del calendario por rango de fechas o palabra clave y enumerar los eventos de mi calendario  
+- Obtener el contenido de texto de un documento de Google Docs  
+- Obtener datos de origen como paso previo para resumir o analizar el contenido de la reunión de Meet.

@@ -1,0 +1,5 @@
+Genere diagramas técnicos concisos (diagrama de arquitectura/diagrama de flujo/diagrama de secuencia/máquina de estados/flujo de datos/ER/diagrama de conceptos, etc.) a partir de descripciones en lenguaje natural. **No permita que el LLM dibuje SVG**: el LLM solo genera JSON que describe nodos y bordes; un renderizador determinista de Python calcula el enrutamiento de Manhattan, la prevención de colisiones y la colocación de etiquetas, lo que garantiza un diseño 100 % limpio. El valor predeterminado es el estilo Ledger (fondo blanco cálido + acento verde azulado + trazo gris oscuro). Produzca PNG también a través de `rsvg-convert`.
+
+DISPARAR cuando el usuario pide: dibujar un diagrama, dibujar uno, ayudarme a dibujar, dibujar un, generar un diagrama, generar un diagrama, hacer un diagrama, diagrama de arquitectura, diagrama de flujo, diagrama de secuencia, diagrama de máquina de estado, diagrama ER, visualizarlo, dibujarlo, diagramarlo, visualizarlo, graficarlo.
+
+Por favor responda siempre en el idioma del usuario.
