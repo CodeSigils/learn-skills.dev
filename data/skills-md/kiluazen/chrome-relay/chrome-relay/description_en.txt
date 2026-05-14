@@ -1,0 +1,1 @@
+Use when an agent needs to operate the user's real Chrome session — listing tabs, reading interactive elements, clicking, filling, typing into rich editors, pressing keys, evaluating JS, and capturing screenshots. All actions go through CDP and run on backgrounded tabs without stealing focus.

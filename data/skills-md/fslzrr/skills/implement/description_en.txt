@@ -1,0 +1,1 @@
+(fslzrr) Orchestrates the full TDD implementation loop for an ai-ready TASK — maps acceptance criteria to SUBTASKs, runs /tdd, /lint, and /review per SUBTASK, commits atomically, runs the full suite, then opens a PR after human approval. TRIGGER when: user says 'implement task #N', 'start implementing', 'work on this task' or 'implement this'.

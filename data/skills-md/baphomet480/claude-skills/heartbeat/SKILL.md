@@ -1,0 +1,53 @@
+---
+name: heartbeat
+version: 1.1.1
+description: "Agentic OS Orchestrator. Process and execute tasks from the shared .agent/state/tasks.json queue. Use when the user asks to 'check the queue', 'process tasks', or run the heartbeat."
+---
+
+# Heartbeat Orchestrator
+
+The Heartbeat skill acts as the background processor for the Agentic OS. It reads the `.agent/state/tasks.json` queue, identifies pending tasks, routes them to the appropriate skills, and updates the task status upon completion.
+
+## How it works
+
+Use the `heartbeat.py` script included in this skill's `scripts/` directory to manage the queue:
+
+1. **Pop Task**: Run `python3 ~/.gemini/skills/heartbeat/scripts/heartbeat.py pop` (for Gemini/Antigravity) or `python3 ~/.claude/skills/heartbeat/scripts/heartbeat.py pop` (for Claude) to get the highest priority pending task and move it to `in_progress`.
+2. **Execute**: Read the task details and use the appropriate skill (e.g., `osint`, `deep-research`) to fulfill the task.
+3. **Resilience & Retry**: If a task fails unexpectedly, autonomous agents MUST attempt to retry the task logic up to **two** times before formally failing.
+4. **Complete/Fail**: Run `python3 ~/.gemini/skills/heartbeat/scripts/heartbeat.py complete <task_id> --outcome '{"result": "..."}' --trace-id <id> --decision-log "..."` or `python3 ~/.gemini/skills/heartbeat/scripts/heartbeat.py fail <task_id> --reason "..." --trace-id <id>` (adjust path for Claude) to update the task status. Failing a task automatically logs the failure to `.agent/state/errors.json` so the Command Center can track unresolved issues.
+
+## Task Format
+
+The `tasks.json` should contain an object with status arrays:
+
+```json
+{
+  "pending": [
+    {
+      "id": "task-123",
+      "priority": "high",
+      "description": "Deep research the current state of local LLM orchestration.",
+      "assigned_skill": "deep-research",
+      "project_id": "claude-skills",
+      "agent_id": "antigravity",
+      "user_id": "matthias",
+      "created_at": "2026-04-25T12:00:00Z",
+      "completed_at": null
+    }
+  ],
+  "in_progress": [],
+  "completed": [],
+  "failed": []
+}
+```
+
+Statuses correspond to the array the task resides in.
+
+## Execution
+
+When invoked (or automatically on agent startup), the Heartbeat should process one task at a time to maintain stability and context length, unless explicitly asked to drain the queue.
+
+## Agentic OS Integration
+
+As a core OS component, this skill MUST log its own execution to `.agent/state/last-run.json`, noting which task was processed and what the outcome was.
