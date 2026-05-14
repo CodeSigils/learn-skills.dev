@@ -237,7 +237,7 @@ def translate_with_llm(text: str, target_lang: str) -> str:
             "Content-Type": "application/json",
         },
         json={
-            "model": "moonshotai/kimi-k2-latest",
+            "model": "openai/gpt-oss-120b",
             "messages": [{"role": "user", "content": prompt}],
         },
         timeout=timeout_s,
