@@ -1,0 +1,6 @@
+[Veröffentlichungsassistent für öffentliche Konten] Formatiert WPS-Notizen und exportiert sie als HTML für öffentliche WeChat-Konten.  
+Wird verwendet, wenn der Benutzer „Öffentliches Konto veröffentlichen“, „Öffentliches Konto formatieren“, „In öffentliches Konto exportieren“, „Ich bin bereit zur Veröffentlichung“, „Artikel formatieren“, „Senden“ oder „Diesen Artikel formatieren“ sagt.  
+Dies ist der letzte Schritt des Erstellungsworkflows: Der Inhalt ist fertiggestellt und muss formatiert und im öffentlichen Konto veröffentlicht werden.  
+Kernfunktionen: 1) Formatierungsvorlagen automatisch anwenden, 2) Platzhalter-Tags in Stile konvertieren, 3) HTML generieren, das direkt eingefügt werden kann.  
+Eingabe: WPS-Notiz-ID (eine Notiz, deren Inhalt abgeschlossen ist). Ausgabe: HTML-Datei mit Inline-Stilen.  
+Nicht zur Inhaltserstellung verwenden, sondern nur zum Veröffentlichen bereits formatierter Inhalte.

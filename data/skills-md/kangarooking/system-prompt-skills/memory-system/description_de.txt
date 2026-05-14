@@ -1,0 +1,5 @@
+Wenn Sie Speicher-, Abruf-, Anwendungs- und Aktualisierungsmechanismen für KI entwerfen müssen, nutzen Sie diese Fähigkeit. Typische Szenarien umfassen: Entwerfen persistenter Speicherarchitekturen (Benutzerpräferenzen, historischer Kontext, Projektwissen), Definieren des Lebenszyklus zum Erstellen/Lesen/Aktualisieren/Löschen von Erinnerungen, Implementieren einer stillen Speichernutzung (Speicherinhalte werden in Antworten nicht preisgegeben) und Verwalten der Grenzen sensibler Erinnerungen.  
+
+Gilt nicht für: Definition von Werkzeugschnittstellen (Werkzeugspezifikation), Definition von Sicherheitsregeln (Sicherheitsleitplanken), Definition von Persönlichkeitsstilen (Persönlichkeitssystem).  
+
+Wichtige Auslösesignale: KI muss sich Benutzerinformationen über Sitzungen hinweg merken, Speicherinhalte können sensibel sein, Speicher muss implizit in Antworten angewendet werden, anstatt explizit darauf verwiesen zu werden, Benutzeranfragen „merken sich dies.“

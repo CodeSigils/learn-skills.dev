@@ -1,0 +1,24 @@
+Übersetzen und synchronisieren Sie ein Video in eine andere Sprache mit Voice-Cloning und Lippensynchronisation.
+Unterstützt durch HeyGen Video Translation. Der Moderator behält sein Gesicht, seine Stimme
+wird in die Zielsprache geklont und die Lippen werden erneut mit dem neuen Audio synchronisiert – Zuschauer
+Sehen Sie, dass dieselbe Person muttersprachlich spricht.
+Verwenden Sie es, wenn: (1) ein vorhandenes Video in eine oder mehrere Sprachen lokalisiert wird
+(„übersetze dieses Video ins Spanische“, „mache dies auf Französisch und Deutsch“,
+„Das ins Japanische synchronisieren“, „Ich brauche das für eine Veröffentlichung in 10 Sprachen“),
+(2) Der Benutzer hat ein fertiges Video und möchte, dass der GLEICHE Moderator ein anderes vorträgt
+Sprache (kein neuer Moderator – das ist heygen-video),
+(3) Podcast-/Nur-Audio-Übersetzung („Diesen Podcast übersetzen“, „Audio überspielen“.
+aber behalte mein Video"),
+(4) anspruchsvolle Übersetzungen, bei denen der Benutzer Untertitel überprüfen/bearbeiten möchte
+vor dem endgültigen Rendern (der Korrekturlese-Workflow),
+(5) „Mein Video übersetzen“, „dieses überspielen“, „diesen Clip lokalisieren“, „mehrsprachig machen“.
+Version“, „Untertitel und Synchronisation“.
+Gibt die übersetzte Video-URL (oder Audiodatei für den Nur-Audio-Modus) zurück, eine pro
+Zielsprache.
+Kettensignal: Wenn der Benutzer ein neues Video in einer anderen Sprache ERSTELLEN möchte (Nr
+Quellvideo existiert noch), routen Sie zu heygen-video und schreiben Sie das Skript in das
+Zielsprache – verwenden Sie nicht heygen-translate. Verwenden Sie heygen-translate nur, wenn
+Es gibt ein vorhandenes Quellvideo zur Lokalisierung.
+NICHT für: Erstellen neuer Videos von Grund auf (verwenden Sie heygen-video), Avatar-Erstellung
+(heygen-avatar verwenden), TTS-only-Synthese (heygen-video nur mit Audio verwenden).
+Ausgabe) oder reine Textübersetzung.
