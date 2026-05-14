@@ -1,0 +1,8 @@
+Validación integral de extremo a extremo de la interfaz de usuario web de Archon mediante la automatización del navegador y la revisión de la base de código.
+Úselo cuando: El usuario quiera validar, probar o auditar la interfaz web de Archon, encontrar errores de UI/UX,
+pruebe la gestión del flujo de trabajo, verifique la orquestación de agentes paralelos o ejecute pruebas E2E integrales basadas en navegador.
+Activadores: "validar ui", "probar la ui", "prueba e2e", "prueba del navegador", "validar archon",
+          "prueba archon ui", "auditoría de interfaz de usuario", "revisión de ux", "prueba completa", "validar todo".
+Capacidad: inicia Archon, ejecuta pruebas exhaustivas de automatización del navegador a través de la CLI del agente-navegador,
+realiza una revisión de la base de código y produce un informe detallado de errores/UX.
+NO para: pruebas unitarias (use `bun test`), validación solo CLI (use /validation:validate-simple).

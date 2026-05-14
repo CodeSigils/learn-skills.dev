@@ -1,0 +1,16 @@
+Herramienta de administración con un solo clic del blog Hexo, archivo de configuración ubicado en ~/.config/hexo/config.yaml.
+
+Características principales:
+1. Creación de blog con un clic: generar portada automáticamente → subir a OSS → crear Markdown → enviar a GitHub
+2. Generación de portadas de IA: llama a API personalizada (gpt-image-2 predeterminada), admite portadas 16:9
+3. Alojamiento de imágenes: cárguelo en el repositorio GitHub_Oss, genere el enlace CDN jsDelivr
+4. Autenticación dual: admite gh CLI (predeterminado) o GitHub Personal Access Token
+5. Gestión de la configuración: gestión unificada de clave API, token de GitHub, ruta del repositorio, etc.
+
+Descripción del guión:
+- hexo_config.py: configuración de lectura/escritura (init/show/check/set-api-key/set-github-token)
+- generate_cover.py: generación de portada (--título/--estilo/--modelo)
+- upload_prep.py: preparación de carga OSS (codificación Base64)
+- create_post.py: creación de blog con un solo clic (integra todos los pasos anteriores)
+
+Escenario de activación: se utiliza cuando el usuario menciona la creación de un blog, la publicación de un artículo, la generación de una portada, la carga de imágenes, la configuración de Hexo, la gestión de blogs, el alojamiento de imágenes o la autenticación de GitHub.
