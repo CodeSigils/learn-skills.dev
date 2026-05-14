@@ -1,0 +1,1 @@
+每當使用者提到 LLM 提示/前綴快取未命中、cached_tokens=0、cache_read_input_tokens/cache_creation_input_tokens、prompt_cache_key、cache_control/cachePoint 放置、穩定前綴、工具/模式穩定性、TTFT/預填充延遲、B重複使用或重複長時間的 LLM 成本/速度回歸時使用提示。在查看 LLM 請求形狀變更時使用：提示文字、訊息順序、請求建構器、工具、架構、回應格式、提供者 API 表面、模型/路由器設定、代理循環結構、上下文壓縮或推理部署。僅當提示快取穩定性、TTFT 或快取成本是核心時才用於加速代理。請勿用於通用提示寫作、通用 RAG 設計、令牌計數或非 LLM 表演。

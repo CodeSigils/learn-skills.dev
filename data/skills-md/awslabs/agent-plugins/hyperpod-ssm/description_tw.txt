@@ -1,0 +1,1 @@
+透過 AWS Systems Manager (SSM) 在 SageMaker HyperPod 叢集節點上遠端執行指令和檔案傳輸。這是存取 HyperPod 節點的主要介面 - 直接 SSH 不可用。當任何技能、工作流程或使用者要求需要在叢集節點上執行命令、將檔案上傳到節點、從節點讀取/下載檔案、執行診斷、安裝套件或執行任何需要對 HyperPod 執行個體進行 shell 存取的操作時使用。其他 HyperPod 技能則依賴該技能來進行所有節點級操作。

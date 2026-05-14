@@ -1,0 +1,1 @@
+當項目包含 uiBundles/*/src/ 目錄且任務涉及上傳、附加或刪除檔案時，必須啟動。在 UI 捆綁應用程式新增檔案上傳功能時，請使用此技能。提供進度追蹤和 Salesforce ContentVersion 整合。此功能僅提供程式設計 API — 使用 upload() API 建立自訂 UI。始終使用它，而不是使用 FormData 或 XHR 從頭開始建立檔案上傳。

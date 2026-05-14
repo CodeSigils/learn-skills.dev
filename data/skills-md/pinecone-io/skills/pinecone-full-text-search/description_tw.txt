@@ -1,0 +1,1 @@
+使用預覽版 API（2026-01.alpha，公開預覽版）建立、擷取和查詢 Pinecone 全文搜尋 (FTS) 索引。當使用者或代理程式要求在 Pinecone 上建立文字搜尋索引、新增密集或稀疏向量欄位、擷取文件、建立 Score_by 子句（文字/查詢字串/密集向量/稀疏向量）或使用文字比對過濾器進行組合（$match_phrase/$match_all/$match_any）時使用。傳送 `scripts/ingest.py` 以進行安全批次攝取（batch_upsert + 錯誤檢查 + 就緒輪詢）；查詢構造在此技能中內聯記錄 - 直接編寫“documents.search(...)”調用，並針對“pc.preview.indexes.describe(...)”輸出進行驗證。

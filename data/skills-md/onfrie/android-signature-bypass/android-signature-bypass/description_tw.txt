@@ -1,0 +1,1 @@
+無需平台金鑰即可繞過 Android sharedUserId 平台簽章驗證。當使用者報告 INSTALL_FAILED_SHARED_USER_INCOMPATIBLE、需要在 root/userdebug 模擬器/裝置上安裝帶有 android:sharedUserId="android.uid.system" 的 APK，或需要在平台金鑰不可用的 Android Automotive 模擬器上呼叫系統 API（android.car.jar 等）時使用金鑰。涵蓋 services.jar 的 smali 修補、透過 dex2oat 重新產生 OAT、使用 SELinux 上下文修復進行綁定安裝以及透過disable-verity 設定永久可寫入系統。僅適用於 userdebug/eng 版本。

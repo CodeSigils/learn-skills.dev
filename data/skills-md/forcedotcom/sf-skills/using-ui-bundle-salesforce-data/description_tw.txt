@@ -1,0 +1,1 @@
+當項目包含 uiBundles/*/src/ 目錄且任務涉及任何 Salesforce 記錄操作（讀取、建立、更新或刪除）時，必須啟動。在建立提交至 Salesforce 的表單、顯示 Salesforce 記錄的頁面或涉及 Salesforce 物件或自訂物件的任何程式碼時，請使用此技能。當 uiBundles/*/src/ 下的檔案從 @salesforce/sdk-data 匯入時激活，或當 *.graphql 檔案或 codegen.yml 存在時啟動。此技能擁有 UI 捆綁包中的所有 Salesforce 資料存取模式。不適用於身份驗證/OAuth 設定、架構變更、批次/工具/元資料 API 或聲明性自動化。

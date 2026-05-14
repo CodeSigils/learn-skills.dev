@@ -1,0 +1,1 @@
+透過 SSH 連接到主機“h100_sglang”，進入 Docker 容器“sglang_bbuf”，在“/data/bbuf/repos/sglang”中工作，並使用準備好的 H100 遠端環境進行 SGLang **diffusion** 開發和驗證。當任務需要擴散模型冒煙測試、Triton/CUDA 核心驗證、torch.compile 擴散檢查或用於擴散特定 SGLang 變更的安全遠端副本時使用。

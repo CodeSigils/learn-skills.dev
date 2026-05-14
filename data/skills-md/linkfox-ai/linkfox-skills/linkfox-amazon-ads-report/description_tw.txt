@@ -1,0 +1,1 @@
+Amazon Ads 一站式報告檢索能力，涵蓋商品推廣 (SP) 和品牌推廣 (SB) 的所有報告類型。此腳本自動處理報告創建、等待、下載和提取，直接返回可讀的結構化資料。可用報告類型和每種類型的欄位 list/groupBy/filters 的明確來源是「references/report-types/<adProduct-dir>/<reportTypeId>.md」。當用戶提到提取亞馬遜廣告報告、下載亞馬遜廣告報告或獲取任何報告（例如 SP/SB 行銷活動/關鍵字/搜尋字詞/廣告產品/購買的產品/廣告群組/流量異常/提示擴展等）時，會觸發該技能。此技能取決於 linkfox-amazon-ads-auth。尚不支援展示​​型推廣 (SD)、電視推廣 (ST) 和 Amazon DSP。

@@ -1,0 +1,1 @@
+產生 Material 3 設計文件 — 諸如「產生 DESIGN.md」、「建立設計系統」、「支架 M3 設計令牌」、「編寫 Material 3 設計文件」等觸發器。讀取 `<cwd>/.plans/<feature>/prd.md`（必要 — 如果沒有則硬停止），執行 7 個問題訪談（情緒、原色、淺色/深色、字體、密度、形狀、高度），透過捆綁的 Node 腳本匯出完整的 M3 調色板，寫入 `<cwd>IGN.plans/DES.每個項目一個。可透過「design-draft.md」檢查點輕鬆恢復。

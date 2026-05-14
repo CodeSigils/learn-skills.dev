@@ -1,0 +1,1 @@
+實施自由格式的使用者指令作為驗收標準 (AC)，每個 AC 一次原子提交 - 無需計劃文件或設計規則手冊。觸發器：「實作<事物>」、「端對端建置<功能>」、「僅實現<描述>」、「端對端交付<X>」。對於「<cwd>/.plans/<feature>/plan.md」中現有計畫的階段，不要觸發。在 `<cwd>/.plans/<slug>/implementations/with-instructions/{feat,fix,refactor}/run.md` 中撰寫報告，並開放後續行動。 FP優先；可選 TDD 模式。
