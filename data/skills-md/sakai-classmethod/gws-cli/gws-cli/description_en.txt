@@ -1,13 +1,10 @@
-Google Workspace (Calendar / Drive / Docs / Meet) CLI operation skills.  
-Trigger condition: When the context contains any of “Drive”, “ドライブ”, “My Drive”, “GDrive”, “Docs”, “Meet”, “Calendar”, or “Workspace”, and any of the following applies. Conversational, abbreviated, or Katakana/English‑mixed terms (up / DL / アップ / 落として / 投げて / 放り込んで / 置いて / あげて / 保存して) are all included.  
-
-- Uploading a local file to My Drive (e.g., “Upload to Drive”, “Save to My Drive”, “Upload PDF”, “Do an up to Drive”, “Throw the deliverable to Drive”)  
-- Saving Agent‑generated outputs (proposals, PPTX, PDF, meeting‑minutes Markdown, etc.) to Drive  
-- Downloading from Drive to local (e.g., “Download from Drive”, “DL PPTX”, “Save Doc as docx”, “Replace with the latest version”)  
-- Retrieving Meet transcription / source data for meeting minutes  
-- Extracting Drive links from Calendar event attachments or description fields  
-- Searching Calendar events by date range or keyword, listing one’s own calendar events  
-- Getting the text content of a Google Docs document  
-- Acquiring the raw data as a preliminary step for summarizing or analyzing Meet meeting content  
-
-Please always respond in the user’s language.
+Google Workspace（Calendar / Drive / Docs / Meet）の CLI 操作スキル。
+発火条件: 文脈に「Drive」「ドライブ」「マイドライブ」「GDrive」「Docs」「Meet」「Calendar」「Workspace」のいずれかが含まれ、以下のいずれかに該当するとき。口語・短縮・カタカナ／英語混在（up / DL / アップ / 落として / 投げて / 放り込んで / 置いて / あげて / 保存して）も全て対象。
+- マイドライブへのローカルファイルアップロード（例:「Drive に上げて」「マイドライブに保存」「PDF をアップ」「Drive に up しといて」「成果物を Drive に投げて」）
+- Agent 生成物（提案書・PPTX・PDF・議事録 Markdown 等）の Drive 保存
+- Drive からローカルへのダウンロード（例:「Drive から落として」「PPTX を DL」「Doc を docx で保存」「最新版に差し替え」）
+- Meet 文字起こし／議事録元データの取得
+- Calendar イベント添付ファイル／説明欄の Drive リンク抽出
+- 期間・キーワードによる Calendar イベント検索、自分のカレンダー一覧
+- Google Docs 本文のテキスト取得
+- Meet 会議内容の要約・分析の前段階としての元データ取得

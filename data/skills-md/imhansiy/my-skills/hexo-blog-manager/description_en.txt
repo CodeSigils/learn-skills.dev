@@ -1,16 +1,17 @@
-Hexo blog one-click management tool, configuration file located at ~/.config/hexo/config.yaml.
+Hexo 博客一键管理工具，配置文件位于 ~/.config/hexo/config.yaml。
 
-Core features:
-1. One-click blog creation: automatically generate cover → upload to OSS → create Markdown → submit to GitHub
-2. AI cover generation: calls custom API (default gpt-image-2), supports 16:9 covers
-3. Image hosting: upload to GitHub_Oss repository, generate jsDelivr CDN link
-4. Dual authentication: supports gh CLI (default) or GitHub Personal Access Token
-5. Configuration management: unified management of API Key, GitHub Token, repository path, etc.
+核心功能：
+1. 一键创建博客：自动生成封面 → 上传 OSS → 创建 Markdown → 提交 GitHub
+2. AI 封面生成：调用自定义 API（默认 gpt-image-2），支持 16:9 封面
+3. 图片托管：上传到 GitHub_Oss 仓库，生成 jsDelivr CDN 链接
+4. 双重认证：支持 gh CLI（默认）或 GitHub Personal Access Token
+5. 配置管理：统一管理 API Key、GitHub Token、仓库路径等
 
-Script descriptions:
-- hexo_config.py: configuration read/write (init/show/check/set-api-key/set-github-token)
-- generate_cover.py: cover generation (--title/--style/--model)
-- upload_prep.py: OSS upload preparation (Base64 encoding)
-- create_post.py: one-click blog creation (integrates all the above steps)
+脚本说明：
+- hexo_config.py：配置读写（init/show/check/set-api-key/set-github-token）
+- generate_cover.py：封面生成（--title/--style/--model）
+- upload_prep.py：OSS 上传准备（Base64 编码）
+- create_post.py：一键创建博客（整合以上所有步骤）
 
-Trigger scenarios: used when the user mentions creating a blog, publishing an article, generating a cover, uploading images, Hexo configuration, blog management, image hosting, GitHub authentication.
+触发场景：用户提到创建博客、发布文章、生成封面、上传图片、Hexo 配置、
+博客管理、图片托管、GitHub 认证时使用。

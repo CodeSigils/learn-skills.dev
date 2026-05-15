@@ -1,7 +1,9 @@
-Skill to search code in a GitHub repository and retrieve the implementation of relevant code. Used when the code context from another repository is needed. Used in the following situations:
-- When you want to check the implementation of an API endpoint
-- When you want to find type definitions for request/response
-- When you want to search for related backend code
-- When you want to verify the implementation of a frontend component
-- When you want to search for test code
-It can also be invoked with terms such as “backend search,” “frontend search,” “API implementation check,” “code search,” “gh search,” etc.
+GitHub リポジトリからコードを検索し、関連するコードの実装を取得するスキル。
+別リポジトリのコードコンテキストが必要な場合に使用。
+以下の場面で使用:
+- APIエンドポイントの実装を確認したい時
+- リクエスト/レスポンスの型定義を探したい時
+- 関連するバックエンドコードを検索したい時
+- フロントエンドのコンポーネント実装を確認したい時
+- テストコードを検索したい時
+「バックエンド検索」「フロントエンド検索」「API実装確認」「コード検索」「gh search」などでも呼び出し可能。

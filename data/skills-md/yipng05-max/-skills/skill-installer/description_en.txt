@@ -1,1 +1,7 @@
-Skill Installer. Install Claude Code skills from various sources, with a built‑in security review process that automatically runs the skill‑vetter protocol before installation. Supports: GitHub repository paths (owner/repo/skill-name), raw file URLs, local file paths, and directly pasting SKILL.md content. This skill is triggered when the user says "install this skill", "install skill", "help me install this", "install skill from GitHub", "install this skill", or "install owner/repo/skill-name". Note: All installations must pass a security review before any files are written; any source that cannot be accessed will be refused for installation.
+Skill 安装工具（Skill Installer）。从多种来源安装 Claude Code skill，
+内置安全审查流程，安装前自动执行 skill-vetter 协议。
+支持：GitHub 仓库路径（owner/repo/skill-name）、原始文件 URL、
+本地文件路径、直接粘贴 SKILL.md 内容。
+当用户说"安装这个skill""install skill""帮我装这个""从GitHub安装skill"
+"把这个skill装上""安装 owner/repo/skill-name"时触发此 skill。
+注意：所有安装在写入文件前必须经过安全审查，无法获取内容的来源一律拒绝安装。
