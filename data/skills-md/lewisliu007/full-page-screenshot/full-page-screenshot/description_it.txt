@@ -1,0 +1,4 @@
+Acquisisci uno screenshot a figura intera di una pagina Web nel browser (screenshot a pagina intera), generando un'unica immagine PNG che contiene tutto il contenuto della pagina.
+Scenari di attivazione: l'utente richiede uno screenshot lungo, uno screenshot a pagina intera, uno screenshot completo, uno "screenshot lungo", una "acquisizione di una pagina intera" o chiede di acquisire una pagina web/articolo/report come un'unica immagine completa. Supporta la scheda attualmente aperta o un URL specificato.
+Gestisce automaticamente i contenitori a scorrimento interno nelle SPA, le immagini caricate in modo lento e l'unione di pagine molto lunghe.
+Nessuna dipendenza esterna; si collega direttamente al protocollo Chrome DevTools per eseguire tutte le operazioni.

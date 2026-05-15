@@ -1,5 +1,4 @@
-在浏览器中对网页做完整长截图（full-page screenshot），生成一张包含页面所有内容的 PNG 长图。
-触发场景：用户要求对网页截长图、全页截图、完整截图、long screenshot、full page capture，
-或要求把网页/文章/报告截成一张完整的图片。支持用户已打开的 tab 或指定 URL。
-自动处理 SPA 内部滚动容器、懒加载图片、超长页面分片拼接。
-无外部依赖，直连 Chrome DevTools 协议完成所有操作。
+Take a full-length screenshot of a webpage in the browser (full-page screenshot), generating a single PNG image that contains all the page’s content.
+Trigger scenarios: the user requests a long screenshot, full-page screenshot, complete screenshot, “long screenshot”, “full page capture”, or asks to capture a webpage/article/report as one complete image. Supports the currently opened tab or a specified URL.
+Automatically handles internal scrolling containers in SPAs, lazy-loaded images, and stitching together very long pages.
+No external dependencies; connects directly to the Chrome DevTools protocol to perform all operations.

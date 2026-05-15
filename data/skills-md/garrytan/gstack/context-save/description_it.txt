@@ -1,0 +1,7 @@
+Salva il contesto di lavoro. Cattura lo stato git, le decisioni prese e il lavoro rimanente
+in modo che qualsiasi sessione futura possa riprendere senza perdere un colpo.
+Utilizzare quando viene richiesto di "salvare l'avanzamento", "salvare stato", "salvare contesto" o
+"salva il mio lavoro". Accoppia con /context-restore per riprendere più tardi.
+Precedentemente /checkpoint: rinominato perché Claude Code tratta /checkpoint come un file
+alias di riavvolgimento nativo negli ambienti attuali, che stava oscurando questa abilità.
+(stack g)

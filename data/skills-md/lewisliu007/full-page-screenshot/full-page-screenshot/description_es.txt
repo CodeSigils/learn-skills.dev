@@ -1,0 +1,4 @@
+Tome una captura de pantalla completa de una página web en el navegador (captura de pantalla de página completa), generando una única imagen PNG que contiene todo el contenido de la página.
+Escenarios desencadenantes: el usuario solicita una captura de pantalla larga, una captura de pantalla de página completa, una captura de pantalla completa, una “captura de pantalla larga”, una “captura de página completa” o solicita capturar una página web/artículo/informe como una imagen completa. Admite la pestaña abierta actualmente o una URL especificada.
+Maneja automáticamente contenedores de desplazamiento interno en SPA, imágenes cargadas de forma diferida y une páginas muy largas.
+Sin dependencias externas; se conecta directamente al protocolo Chrome DevTools para realizar todas las operaciones.

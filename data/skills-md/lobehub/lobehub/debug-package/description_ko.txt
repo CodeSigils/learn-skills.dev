@@ -1,0 +1,1 @@
+`debug` npm 패키지 및 LobeHub 로그 네임스페이스(lobe-server:*, lobe-desktop:*, lobe-client:*, lobe-*-router:*)에 대한 가이드입니다. `debug(...)` 로거를 추가할 때마다, 새 서버/데스크탑/클라이언트/라우터 코드에 대한 네임스페이스 선택, DEBUG=lobe-* 로그가 표시되지 않는 이유 문제 해결, 사용자가 '로깅 추가', '로거 추가', '이것을 계측', '이 호출 추적', '내 로그 인쇄가 아닌 이유'를 요청하거나 `debug(`, `DEBUG=`, `localStorage.debug` 또는 LobeHub 코드베이스의 %O / %o / %s / %d와 같은 로그 형식 지정자.

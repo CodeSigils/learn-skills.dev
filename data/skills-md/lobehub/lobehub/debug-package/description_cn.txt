@@ -1,0 +1,1 @@
+`debug` npm 包和 LobeHub 日志命名空间的指南（lobe-server:*、lobe-desktop:*、lobe-client:*、lobe-*-router:*）。每当添加 `debug(...)` 记录器、为新服务器/桌面/客户端/路由器代码选择命名空间、排除 DEBUG=lobe-* 日志不显示的原因、或者当用户要求“添加日志记录”、“添加记录器”、“检测此”、“跟踪此调用”、“为什么不是我的日志打印”或提及“debug(”、“DEBUG=”、 `localStorage.debug`，或 LobeHub 代码库中的日志格式说明符，例如 %O / %o / %s / %d。
