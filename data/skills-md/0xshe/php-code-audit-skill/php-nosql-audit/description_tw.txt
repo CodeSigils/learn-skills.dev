@@ -1,1 +1,1 @@
-一個PHP Web原始碼NoSQL注入審計工具。它識別進入 MongoDB/DocumentDB 查詢建構的使用者輸入，分析是否存在算子注入（$gt/$ne/$where 等），並輸出嚴重性評級、PoC 和修復建議（無遺漏）。
+PHP Web 原始碼 NoSQL 注入審核工具。它識別進入 MongoDB/DocumentDB 查詢建構的使用者輸入，分析是否存在運算子注入（$gt、$ne、$where 等），並輸出嚴重性評級、PoC 和修復建議（不允許省略）。

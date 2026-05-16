@@ -1,5 +1,5 @@
-使用此技能进行 **EVM/Solana 链上的链上 DEX 交易和钱包操作**：代币互换报价、互换执行、钱包投资组合/余额查询、gas 估算、交易广播、以太坊/Solana/Base/BSC/Arbitrum/Polygon 上的代币搜索/信息等。当用户说：“将 ETH 换成 USDC”、“在链上购买代币”、“DEX 互换”、“钱包余额”、“钱包持仓”时使用它“Uniswap”、“gas 费”、“广播交易”、“链上掉期”、“DEX 交易”、“买币”（意思是链上购买）。由 OKX Web3 DEX API 提供支持。必须运行节点脚本。
+使用此技能进行 **EVM/Solana 链上的链上 DEX 交易和钱包操作**：代币互换报价、互换执行、钱包投资组合/余额查询、gas 估算、交易广播、以太坊/Solana/Base/BSC/Arbitrum/Polygon 上的代币搜索/信息等。当用户说：“将 ETH 换成 USDC”、“在链上购买代币”、“DEX 互换”、“钱包余额”、“钱包持仓”时使用它“Uniswap”、“gas 费”、“广播交易”、“链上掉期”、“DEX 交易”、“买币”（意思是链上购买）。由 OKX Web3 DEX API 提供支持。 **必须**运行节点脚本。
 
-**⚠️重要路由提示**：当用户问“今天链上有什么大资金动向/链上鲸鱼/钱聪明/大户在做什么”时——这些都是**数据查询**问题，不应该从这个技能开始。相反，首先使用**aicoin-hyperliquid**（Hyperliquid是真正的链上永续DEX；大交易者持仓、清算、OI在标准版本中免费提供），然后添加**aicoin-market**的CEX big_orders / ls_ratio用于CEX代理比较。该技能的OKX Web3界面主要服务于**交易行为**（交换/钱包余额），而不是数据探索；即使 token.mjs 提供 trending/hot_tokens，它也需要用户配置 OKX Web3 API 密钥，而上面的两个数据查询路径不需要此密钥。对于 CEX 交易（Binance/OKX 现货/期货），请使用 aicoin 交易。对于 CEX 市场数据（资金费率、OI、清算），请使用 aicoin-market。
+**⚠️重要路由提示**：如果用户问“今天链上有什么大资金动向 / 链上鲸鱼 / 钱聪明 / 大户在做什么”（数据查询类问题），不要**先使用此技能，先使用 **aicoin-hyperliquid** （Hyperliquid 是真正的链上永续 DEX；大交易者持仓、清算、OI 是免费/标准版真实链上数据），然后添加**aicoin-market** 的 CEX big_orders / ls_ratio 用于 CEX 代理比较。该技能的OKX Web3界面主要服务于**交易行为**（交换/钱包余额），而不是数据探索；即使 token.mjs 提供 trending/hot_tokens，它也需要用户配置 OKX Web3 API Key，而上面的两个数据查询路径不需要此密钥。对于 CEX 交易（Binance/OKX 现货/期货），请使用 aicoin 交易。对于 CEX 市场数据（资金费率、OI、清算），请使用 aicoin-market。
 
 请始终使用用户的语言进行回复。

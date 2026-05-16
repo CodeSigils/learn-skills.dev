@@ -1,1 +1,1 @@
-PHP Web原始碼LDAP注入稽核工具。識別進入 LDAP 過濾器/DN 建構並由 ldap_search/ldap_read 執行的使用者可控數據，並輸出可利用性評級、PoC 和修復建議（無遺漏）。
+PHP Web原始碼LDAP注入稽核工具。識別進入由 ldap_search/ldap_read 執行的 LDAP 過濾器/DN 建構的使用者可控數據，並輸出可利用性評級、PoC 和修復建議（禁止省略）。

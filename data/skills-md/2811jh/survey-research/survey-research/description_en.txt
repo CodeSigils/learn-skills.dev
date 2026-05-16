@@ -1,11 +1,1 @@
-对问卷原始数据进行全流程自动化分析，包括基础统计（频率分布 + 人口学概览）、
-交叉分析（不同人群差异对比）和文本分析（开放题主题归纳）。
-支持两种数据来源：用户提供本地 CSV/Excel 文件，或通过问卷 ID/名称从问卷系统直接下载（支持清洗）后分析。
-输出 Markdown 摘要报告 + Word 分析报告（默认），支持转换为 Excel/TXT 格式。
-当用户要求分析问卷数据、生成问卷调研报告、对比不同人群差异、
-分析开放题文本内容时触发。即使用户没有明确说"问卷"，只要涉及
-调研数据分析、用户反馈分析、满意度分析、NPS 分析等场景也应触发此 skill。
-当用户说"下载并分析问卷"、"清洗问卷然后出报告"、"帮我下载问卷90450"、
-"下载国内问卷数据"、"从问卷系统拉数据"等涉及下载+分析的场景时，也应触发。
-确保在用户说"帮我分析这份问卷"、"分析一下不同性别的差异"、
-"请结合文本题分析"、"下载问卷90450然后分析"、"清洗并导出问卷"等类似表达时使用。
+Perform end-to-end automated analysis of raw questionnaire data, including basic statistics (frequency distribution + demographic overview), cross-analysis (comparisons of differences among different groups), and text analysis (summarizing themes of open-ended questions). Support two data sources: user‑provided local CSV/Excel files, or direct download from the questionnaire system via questionnaire ID/name (with cleaning) for analysis. Output a Markdown summary report + Word analysis report (default), and support conversion to Excel/TXT formats. Trigger when the user requests questionnaire data analysis, generation of questionnaire research reports, comparison of differences among different groups, or analysis of open-ended text content. Even if the user does not explicitly mention “questionnaire,” any scenario involving research data analysis, user feedback analysis, satisfaction analysis, NPS analysis, etc., should activate this skill. When the user says “download and analyze questionnaire,” “clean questionnaire then produce report,” “help me download questionnaire 90450,” “download domestic questionnaire data,” “pull data from questionnaire system,” or other download‑plus‑analysis scenarios, it should also trigger. Ensure to use this when the user expresses phrases like “help me analyze this questionnaire,” “analyze differences by gender,” “please include text question analysis,” “download questionnaire 90450 then analyze,” “clean and export questionnaire,” etc.

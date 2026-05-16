@@ -1,1 +1,1 @@
-PHP 파일 시스템 작업 감사 도구. 이는 mkdir, chmod, chown, unlink, rmdir, link, Symlink, readlink, touch,Permissions 및 TOCTOU와 같은 작업의 보안 위험에 중점을 두고 경로 검증 우회 및 쓰기 체인 악용에 대한 "향상된 악용 가능성 증거"를 제공합니다(FILE/UPLOAD/WRITE 싱크에 대한 하위 감사를 대체하지 않음).
+PHP 파일 시스템 작업 감사 도구. 이는 mkdir, chmod, chown, unlink, rmdir, link, 심볼릭 링크, readlink, touch, 권한 및 TOCTOU와 같은 작업의 보안 위험에 중점을 두고 경로 검증 우회 및 쓰기 체인 공격에 대한 "향상된 공격 가능성 증거"를 제공합니다(FILE/UPLOAD/WRITE 싱크의 하위 감사를 대체하지 않음).

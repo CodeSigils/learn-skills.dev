@@ -1,1 +1,1 @@
-PHP Web 源码 NoSQL 注入审计工具。识别用户输入进入 MongoDB/DocumentDB 查询构造，分析是否存在 operator 注入（$gt/$ne/$where 等），输出分级、PoC 与修复建议（禁止省略）。
+A PHP web source‑code NoSQL injection auditing tool. It identifies user input that enters MongoDB/DocumentDB query construction, analyzes whether operator injection ($gt, $ne, $where, etc.) is present, and outputs a severity rating, PoC, and remediation recommendations (omissions not allowed).

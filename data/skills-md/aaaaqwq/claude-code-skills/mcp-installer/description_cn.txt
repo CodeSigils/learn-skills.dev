@@ -1,1 +1,1 @@
-搜索GitHub并自动安装并配置MCP（模型上下文协议）服务器工具到Claude配置文件中。当用户需要安装MCP工具时触发该技能。工作流程：在 GitHub 上搜索 MCP 项目 → 提取 npx 配置 → 添加到 ~/.claude.json → 处理 API 密钥（如果有）。
+搜索GitHub并自动安装并配置MCP（模型上下文协议）服务器工具到Claude配置文件中。当用户需要安装MCP工具时，会触发该技能。工作流程：在 GitHub 上搜索 MCP 项目 → 提取 npx 配置 → 将其添加到 ~/.claude.json → 处理 API 密钥（如果有）。

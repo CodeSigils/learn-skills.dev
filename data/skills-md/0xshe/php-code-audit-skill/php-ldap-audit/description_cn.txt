@@ -1,1 +1,1 @@
-PHP Web源代码LDAP注入审计工具。识别进入 LDAP 过滤器/DN 构造并由 ldap_search/ldap_read 执行的用户可控数据，并输出可利用性评级、PoC 和修复建议（无遗漏）。
+PHP Web源代码LDAP注入审计工具。识别进入由 ldap_search/ldap_read 执行的 LDAP 过滤器/DN 构造的用户可控数据，并输出可利用性评级、PoC 和修复建议（禁止省略）。

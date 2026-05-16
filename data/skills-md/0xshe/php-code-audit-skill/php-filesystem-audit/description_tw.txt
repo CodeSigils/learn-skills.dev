@@ -1,1 +1,1 @@
-PHP檔案系統操作稽核工具。它重點關注 mkdir、chmod、chown、unlink、rmdir、link、symlink、readlink、touch、permissions 和 TOCTOU 等操作的安全風險，為路徑驗證繞過和寫入鏈利用提供「增強的可利用性證據」（不會取代 FILE/UPLOAD/WRITE 接收器的子審核）。
+PHP檔案系統操作稽核工具。它重點關注 mkdir、chmod、chown、unlink、rmdir、link、symlink、readlink、touch、permissions 和 TOCTOU 等操作的安全風險，為路徑驗證繞過和寫入鏈漏洞提供「增強的可利用性證據」（不能替代 FILE/UPLOAD/WRITE 接收器的子審核）。
