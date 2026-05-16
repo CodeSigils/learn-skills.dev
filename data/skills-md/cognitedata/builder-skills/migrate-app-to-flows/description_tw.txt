@@ -1,0 +1,1 @@
+將舊版 Dune 應用程式遷移到新的 Flows 應用程式託管基礎架構時必須使用。協調完整遷移：審核目前狀態，將 app.json 更新至 appsApi 基礎設施，將身分驗證連線委託給 setup-flows-auth，建立或更新 manifest.json 網路權限，並將部署腳本更新至 @cognite/cli。每當用戶說「遷移到 Flows」、「遷移到新基礎設施」、「從沙丘移動到 Flows」、「遷移舊應用程式」或想要將其現有應用程式移至新的 Flows 應用程式託管時，請使用此功能。
