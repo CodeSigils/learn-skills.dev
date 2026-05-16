@@ -1,0 +1,1 @@
+使用目标驱动的 TDD 管道将 Mem0 集成到现有存储库中。自动检测存储库的语言，并要求用户在 Mem0 平台（托管）和 Mem0 开源（自托管）之间进行选择。在任何实施之前编写失败的测试。生成本地功能分支以及配对验证技能消耗的“.mem0-integration/”工件。当以下情况触发：用户说“集成 mem0”、“将 mem0 添加到此存储库”、“将 mem0 连接到 <repo>”，或询问如何将内存添加到现有项目。在以下情况下请勿触发：用户想要常规 SDK 使用（使用 Skill：mem0）、CLI 使用（使用 Skill：mem0-cli）或 Vercel AI SDK（使用 Skill：mem0-vercel-ai-sdk）。成功后，调用 Skill:mem0-test-integration 在同一工作空间中进行验证（松散耦合）。

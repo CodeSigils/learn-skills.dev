@@ -1,0 +1,1 @@
+Svelte 5 的心智模型重置。在编写或审查 Svelte 组件时使用，从“它有效”转变为“在 Svelte 中思考”。触发 Svelte 代码审查、“这是惯用的吗”、“Svelte 方式”、Svelte 5 迁移或从 React/Vue/Svelte 4 继承的气味 — 效果分配状态、复制到 $state、默认全局存储、$bindable 无处不在、可点击 div、createEventDispatcher、导出 let、on:click、槽型 API、生命周期驱动代码、命令式 DOM 接线、不可变更新仪式、上下文值替换或组件隐藏所有权的 API。这是 Svelte 组件审查的通用入口点；委托 sveltekit 了解路由/负载/操作/服务器问题，并委托重点参考了解详细信息。

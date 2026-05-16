@@ -1,0 +1,1 @@
+Salesforce 数据云检索阶段。当用户运行 Data Cloud SQL、异步查询、矢量搜索、搜索索引工作流或 Data Cloud 对象的元数据自省时，请使用此技能。触发时间：用户运行 Data Cloud SQL、描述、异步查询、向量搜索、搜索索引工作流或 Data Cloud 对象的元数据自省。不要在以下情况下触发：任务是标准 CRM SOQL（使用 querying-soql）、分段创建或计算洞察设计（使用分段-datacloud）或 STDM/会话跟踪/镶木地板分析（使用观察-agentforce）。
