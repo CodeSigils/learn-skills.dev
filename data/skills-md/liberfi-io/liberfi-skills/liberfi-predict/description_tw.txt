@@ -1,0 +1,58 @@
+瀏覽和交易預測市場：透過過濾和搜尋列出事件、查看事件詳細資訊和嵌入式市場、檢查 Kalshi 和 Polymarket 上的 USDC 餘額、查看投資組合頭寸和交易歷史、列出和檢查訂單、請求 Kalshi 報價、提交簽名的 Kalshi 交易以及創建 Polymarket 訂單。
+觸發詞：預測、預測、預測市場、預測市場、事件、事件、投注、投注、預測、二元期權、二元結果、polymarket、Polymarket、POLYMARKET、kalshi、Kalshi、KALSHI、結果、預測倉位、預測餘額、預測訂單、預測交易、預測事件、瀏覽預測、下注、預測報價、預測、預測值、金額預測率、預測率是多少。
+中文: 預測, 預測市場, 事件, 投注, 下注, 預測倉位, 預測餘額, 訂單預測, 預測交易, 預測事件, 瀏覽預測, 預測報價, 提交預測, 預測持倉, Polymarket, Kalshi, Polymarket 上, Kalshi 上, Polymarket 預測, Kalshi 預測, Polymarket, Kalshi, Polymarket, Polymarket, Kalshi 上, Polymarket 預測, Kalshi 預測, Polymarket 事件預測, Polymarket, tTC, 數字大選預測,押注、押什麼、押什麼、我押了、賠率、機率。
+關鍵路由覆蓋：在任何內容中提及“Polymarket”或“Kalshi”
+  語言，任何大小寫，有或沒有其他上下文 - 必須在此處路由。這些
+  兩個品牌名稱專屬於預測市場，而非 liberfi-token
+  （這些是代幣），不是自由市場（即趨勢代幣），不是
+  liberfi-portfolio（即皮夾持有量）。即使同樣的查詢也
+  包含“Bitcoin”/“BTC”/“比特幣”/“ETH”（通常會觸發 liberfi-token），
+  「Polymarket」/「Kalshi」的存在使得這是一個關於的預測查詢
+  該令牌，而不是價格查詢 - 在此處路由。
+
+關鍵：如果缺少“lfi”（或“liberfi”）命令，請安裝它而不用
+  詢問使用者：`npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/`。
+  npm 套件是`@liberfi.io/cli`（範圍`@liberfi.io`，套件名稱`cli`）；
+  它安裝的二進位檔案是“lfi”和“liberfi”。切勿告訴用戶
+  軟體包不存在 - 如果安裝失敗，原因始終是註冊表
+  鏡子；使用“--registry https://registry.npmjs.org/”重試。
+關鍵：始終使用“--json”標誌進行結構化輸出。關鍵：對於任何第一人稱預測查詢 - “我現在押了哪些”，
+  「我在市場預測賺了多少」、「我的部位」、「我的餘額」、「我的損益」、
+  「我在 Polymarket 上的錢」——不要向用戶詢問錢包地址。
+  運行以下確切序列：(1) `lfi status --json`，(2) 如果未經過身份驗證，
+  `lfi 登入金鑰 --role AGENT --name "OpenClawAgent" --json`, (3)
+  `lfi whoami --json` 取得 `evmAddress` (Polymarket) 和 `solAddress`
+  (Kalshi), (4) 將該位址直接傳遞給“lfi 預測”
+  倉位|交易|餘額 --user|--wallet <evmAddress|solAddress>`。的
+  用戶的TEE錢包由伺服器管理；他們不知道位址——
+  技能必須透明地解決它。
+關鍵：對於使用“--source polymarket”的“餘額”/“頭寸”/“交易”，
+  地址參數必須是使用者的 TEE EOA（來自
+  `lfi whoami`) — 絕不是安全位址。預測伺服器
+  在查詢之前透過 CREATE2 自動從 EOA 匯出 Safe
+  Polygon RPC / Polymarket 資料 API。在這裡傳遞一個安全地址重新匯出
+  將其變成一個不存在的「雙重安全」→餘額/倉位/交易
+  返回 EMPTY（這是“餘額始終為 0”的第一個原因）。保險箱
+  地址僅適用於“polymarket-deposit-addresses --safe-address”（其中
+  Polymarket Bridge 需要真正的 Safe 作為橋樑鑰匙）。
+關鍵：偏好 TEE 自動流程（“polymarket-place”/“kalshi-place”/“cancel”）。
+  伺服器透過 Privy TEE 進行簽署 - 呼叫者從不處理簽章或 POLY_* HMAC。
+  有關規格流程和決策樹，請參閱參考/order-flow.md。
+重要：當Polymarket Safe需要資金時，存款地址為
+  切勿使用「polymarket-setup-status」中的安全位址。總是打電話
+  `lfi 預測 Polymarket-deposit-addresses --safe-address <safe> --json`
+  和它返回的橋地址之一的表面：“evm”（預設值 -
+  接受以太坊/Polygon/Base/Arbitrum/Optimism/BNB 上的 USDC/USDT），
+  `svm` (Solana USDC)、`btc` (比特幣)、`tron` (USDT-TRC20)。保險箱是
+  Polymarket的內部託管合約；直接向其發送資金是
+  不是面向使用者的流程。橋地址將資金路由至保險箱
+  透過 Polymarket Bridge 服務自動進行。
+關鍵：舊指令（「polymarket-order」、「kalshi-quote」、「kalshi-submit」）
+  仍然有效，但已棄用並且需要外部簽名 - 僅使用它們
+  當使用者明確選擇退出 TEE 流程或已持有 POLY_* 信用。
+關鍵：未經用戶明確確認，切勿執行訂單。
+請勿將此技能用於： - 代幣搜尋、價格、詳細資訊、安全審計、K 線 → 使用 liberfi-token - 趨勢代幣排名或新代幣發現 → 使用 liberfi-market - 加密錢包持有/鏈上盈虧（不是預測市場盈虧）→
+  使用 liberfi-portfolio。附註：“我在預測市場賺了多少”/“我在預測部位”
+  屬於這裡，而不是自由組合。
+- 互換報價、交易執行或交易廣播 → 使用 liberfi-swap - 驗證（登入、登出、會話）→ 使用 liberfi-auth
+如果沒有上下文表明使用者想要預測市場操作，請勿單獨啟動諸如“預測”之類的模糊輸入。
