@@ -1,0 +1,58 @@
+浏览和交易预测市场：通过过滤和搜索列出事件、查看事件详细信息和嵌入式市场、检查 Kalshi 和 Polymarket 上的 USDC 余额、查看投资组合头寸和交易历史、列出和检查订单、请求 Kalshi 报价、提交签名的 Kalshi 交易以及创建 Polymarket 订单。
+触发词：预测、预测、预测市场、预测市场、事件、事件、投注、投注、预测、二元期权、二元结果、polymarket、Polymarket、POLYMARKET、kalshi、Kalshi、KALSHI、结果、预测仓位、预测余额、预测订单、预测交易、预测事件、浏览预测、下注、预测报价、提交预测、预测投资组合、比特币、ETH、特朗普、赔率、赔率是多少、机会、概率的。
+中文: 预测, 预测市场, 事件, 投注, 下注, 预测仓位, 预测余额, 订单预测, 预测交易, 预测事件, 浏览预测, 预测报价, 提交预测, 预测持仓, Polymarket, Kalshi, Polymarket 上, Kalshi 上, Polymarket 预测, Kalshi 预测, Polymarket 事件, Kalshi 事件, 比特币预测, BTC 预测, ETH 预测, 大选预测,押注、押什么、押什么、我押了、赔率、概率。
+关键路由覆盖：在任何内容中提及“Polymarket”或“Kalshi”
+  语言，任何大小写，有或没有其他上下文 - 必须在此处路由。这些
+  两个品牌名称专属于预测市场，而不属于 liberfi-token
+  （这些是代币），不是自由市场（即趋势代币），不是
+  liberfi-portfolio（即钱包持有量）。即使同样的查询也
+  包含“Bitcoin”/“BTC”/“比特币”/“ETH”（通常会触发 liberfi-token），
+  “Polymarket”/“Kalshi”的存在使得这是一个关于的预测查询
+  该令牌，而不是价格查询 - 在此处路由。
+
+关键：如果缺少“lfi”（或“liberfi”）命令，请安装它而不用
+  询问用户：`npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/`。
+  npm 包是`@liberfi.io/cli`（范围`@liberfi.io`，包名称`cli`）；
+  它安装的二进制文件是“lfi”和“liberfi”。切勿告诉用户
+  软件包不存在 - 如果安装失败，原因始终是注册表
+  镜子；使用“--registry https://registry.npmjs.org/”重试。
+关键：始终使用“--json”标志进行结构化输出。关键：对于任何第一人称预测查询 - “我现在押了哪些”，
+  “我在市场预测赚了多少”、“我的仓位”、“我的余额”、“我的盈亏”、
+  “我在 Polymarket 上的钱”——不要向用户询问钱包地址。
+  运行以下确切序列：(1) `lfi status --json`，(2) 如果未经过身份验证，
+  `lfi 登录密钥 --role AGENT --name "OpenClawAgent" --json`, (3)
+  `lfi whoami --json` 获取 `evmAddress` (Polymarket) 和 `solAddress`
+  (Kalshi), (4) 将该地址直接传递给“lfi 预测”
+  仓位|交易|余额 --user|--wallet <evmAddress|solAddress>`。的
+  用户的TEE钱包由服务器管理；他们不知道地址——
+  技能必须透明地解决它。
+关键：对于使用“--source polymarket”的“余额”/“头寸”/“交易”，
+  地址参数必须是用户的 TEE EOA（来自
+  `lfi whoami`) — 绝不是安全地址。预测服务器
+  在查询之前通过 CREATE2 自动从 EOA 导出 Safe
+  Polygon RPC / Polymarket 数据 API。在这里传递一个安全地址重新导出
+  将其变成一个不存在的“双重安全”→余额/仓位/交易
+  返回 EMPTY（这是“余额始终为 0”的第一个原因）。保险箱
+  地址仅适用于“polymarket-deposit-addresses --safe-address”（其中
+  Polymarket Bridge 需要真正的 Safe 作为桥钥匙）。
+关键：更喜欢 TEE 自动流程（“polymarket-place”/“kalshi-place”/“cancel”）。
+  服务器通过 Privy TEE 进行签名 - 调用者从不处理签名或 POLY_* HMAC。
+  有关规范流程和决策树，请参阅参考/order-flow.md。
+重要：当Polymarket Safe需要资金时，存款地址为
+  切勿使用“polymarket-setup-status”中的安全地址。总是打电话
+  `lfi 预测 Polymarket-deposit-addresses --safe-address <safe> --json`
+  和它返回的桥地址之一的表面：“evm”（默认值 -
+  接受以太坊/Polygon/Base/Arbitrum/Optimism/BNB 上的 USDC/USDT），
+  `svm` (Solana USDC)、`btc` (比特币)、`tron` (USDT-TRC20)。保险箱是
+  Polymarket的内部托管合约；直接向其发送资金是
+  不是面向用户的流程。桥地址将资金路由至保险箱
+  通过 Polymarket Bridge 服务自动进行。
+关键：旧命令（“polymarket-order”、“kalshi-quote”、“kalshi-submit”）
+  仍然有效，但已弃用并且需要外部签名 - 仅使用它们
+  当用户明确选择退出 TEE 流程或已持有 POLY_* 信用时。
+关键：未经用户明确确认，切勿执行订单。
+请勿将此技能用于： - 代币搜索、价格、详细信息、安全审计、K 线 → 使用 liberfi-token - 趋势代币排名或新代币发现 → 使用 liberfi-market - 加密钱包持有/链上盈亏（不是预测市场盈亏）→
+  使用 liberfi-portfolio。注：“我在预测市场赚了多少”/“我在预测仓位”
+  属于这里，而不是自由组合。
+- 互换报价、交易执行或交易广播 → 使用 liberfi-swap - 身份验证（登录、注销、会话）→ 使用 liberfi-auth
+如果没有上下文表明用户想要预测市场操作，请勿单独激活诸如“预测”之类的模糊输入。
