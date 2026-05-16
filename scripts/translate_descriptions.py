@@ -42,6 +42,45 @@ BASE_DIR = Path(__file__).parent.parent / "data" / "skills-md"
 
 _translator_cache: dict[tuple[str, str], object] = {}
 
+MAX_CHUNK_CHARS = 4500
+
+
+def _chunk_text(text: str, max_chars: int = MAX_CHUNK_CHARS) -> list[str]:
+    """Split *text* into chunks of at most *max_chars* on paragraph boundaries.
+
+    Falls back to hard splitting if a single paragraph exceeds the limit.
+    """
+    if len(text) <= max_chars:
+        return [text]
+
+    paragraphs = text.split("\n\n")
+    chunks: list[str] = []
+    current: list[str] = []
+    current_len = 0
+
+    for para in paragraphs:
+        sep_len = 2 if current else 0  # "\n\n" separator
+        if current_len + sep_len + len(para) > max_chars and current:
+            chunks.append("\n\n".join(current))
+            current = []
+            current_len = 0
+
+        if len(para) > max_chars:
+            if current:
+                chunks.append("\n\n".join(current))
+                current = []
+                current_len = 0
+            for i in range(0, len(para), max_chars):
+                chunks.append(para[i : i + max_chars])
+        else:
+            current.append(para)
+            current_len += (2 if current_len else 0) + len(para)
+
+    if current:
+        chunks.append("\n\n".join(current))
+
+    return chunks
+
 
 def output_filename_for_target(target: str) -> str:
     """
@@ -78,14 +117,14 @@ def find_all_en_files() -> list[Path]:
     return sorted(en_files)
 
 
-def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
-    """Translate using Google Translate (free)"""
+def _translate_single_chunk_google(text: str, source_lang: str, target_lang: str) -> str:
+    """Translate a single chunk (must be <= MAX_CHUNK_CHARS) via Google, with MyMemory fallback."""
     try:
         from deep_translator import GoogleTranslator
     except ImportError:
         print("Please install deep-translator: pip install deep-translator")
         sys.exit(1)
-    
+
     key = (source_lang, target_lang)
     translator = _translator_cache.get(key)
     if translator is None:
@@ -93,8 +132,6 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
         _translator_cache[key] = translator
 
     def _reset_translator() -> None:
-        # In practice, Google Translate can temporarily block or return None.
-        # Recreating the translator instance sometimes helps.
         _translator_cache.pop(key, None)
         _translator_cache[key] = GoogleTranslator(source=source_lang, target=target_lang)
 
@@ -109,13 +146,11 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
     old_handler = signal.getsignal(signal.SIGALRM)
     signal.signal(signal.SIGALRM, _alarm_handler)
 
-    # Add retry logic
     last_error: Exception | None = None
     for attempt in range(3):
         try:
             signal.alarm(int(timeout_s))
             result = translator.translate(text)  # type: ignore[attr-defined]
-            # deep-translator can occasionally return None on transient failures.
             if result is None:
                 _reset_translator()
                 raise RuntimeError("GoogleTranslator returned None")
@@ -124,15 +159,12 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
             last_error = e
             if attempt < 2:
                 _reset_translator()
-                # Exponential-ish backoff. Allow overriding via env for local runs.
                 base = float(os.getenv("TRANSLATE_RETRY_SLEEP_SECONDS", "3"))
                 time.sleep(base * (attempt + 1))
-            else:
-                pass
         finally:
             signal.alarm(0)
 
-    # Fallback: MyMemory (often works when Google blocks).
+    # Fallback: MyMemory
     try:
         from deep_translator import MyMemoryTranslator
 
@@ -163,13 +195,21 @@ def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
             raise RuntimeError("MyMemoryTranslator returned None")
         return str(res)
     except Exception as e:
-        # Re-raise the last Google error if available; otherwise raise MyMemory error.
         if last_error is not None:
             raise last_error
         raise e
     finally:
         signal.alarm(0)
         signal.signal(signal.SIGALRM, old_handler)
+
+
+def translate_with_google(text: str, source_lang: str, target_lang: str) -> str:
+    """Translate using Google Translate (free), with automatic chunking for long texts."""
+    chunks = _chunk_text(text)
+    translated_chunks = []
+    for chunk in chunks:
+        translated_chunks.append(_translate_single_chunk_google(chunk, source_lang, target_lang))
+    return "\n\n".join(translated_chunks) if len(chunks) > 1 else translated_chunks[0]
 
 
 def is_english_text(text: str, threshold: float = 0.8) -> bool:
@@ -371,6 +411,23 @@ def translate_file(
         return en_file, True, out_text[:50] + "..." if len(out_text) > 50 else out_text
         
     except Exception as e:
+        # LLM fallback: if Google + MyMemory both failed, try LLM as last resort.
+        # Guard against UnboundLocalError if the exception was raised before
+        # en_text / out_file were assigned.
+        api_key = os.getenv("NEVERSIGHT_API_KEY", "").strip()
+        if api_key:
+            try:
+                if en_text and out_file is not None:
+                    llm_result = translate_with_llm(en_text, target_lang)
+                    if llm_result:
+                        if not dry_run:
+                            out_file.write_text(str(llm_result) + "\n", encoding="utf-8")
+                        preview = str(llm_result)[:50]
+                        return en_file, True, f"(LLM fallback) {preview}..."
+            except NameError:
+                pass
+            except Exception as llm_err:
+                return en_file, False, f"Google: {e} | LLM: {llm_err}"
         return en_file, False, str(e)
 
 
