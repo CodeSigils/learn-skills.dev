@@ -1,0 +1,1 @@
+透過「_ehunt_etsyCategorySearch」（MCP 顯示名稱「Etsy 類別搜尋」）從已同步到 MCP 庫的 EHunt Etsy 類別資料中擷取類別名稱、ID 和父 ID，以取得用於產品/商店篩選的類別 ID。當使用者提及 EHunt Etsy 類別、Etsy 類別 ID、Etsy 類別樹、`_ehunt_etsyCategorySearch`、Etsy 類別搜尋、syncEtsyCategory / `_ehunt_syncEtsyCategory`（Etsy 類別同步）然後查找操作類別時，會觸發操作類別。即使使用者不寫“EHunt”，只要在本地同步的Etsy分類庫中透過關鍵字搜尋某個分類ID，也應該會觸發該技能。

@@ -1,0 +1,1 @@
+在 dotnet/runtime 中编写和修改 Microsoft.Extensions.* 和 System.IO.Compression 代码的指南。涵盖 DI 生命周期管理、配置绑定、选项验证、日志记录提供程序模式、缓存语义、压缩格式合规性和主机生命周期。对于完整的代码审查，请委托给 @extensions-reviewer 代理。触发词：Microsoft.Extensions、IServiceCollection、IConfiguration、ILogger、IHost、IMemoryCache、IOptions、ZipArchive、HttpClientFactory、IFileProvider、IChangeToken。

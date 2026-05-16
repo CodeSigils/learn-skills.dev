@@ -1,0 +1,1 @@
+更新 Helix 队列定义中的操作系统版本引用以添加新版本、替换 EOL 版本或根据支持的操作系统矩阵审核覆盖范围。用途：向 Helix 队列添加新的操作系统版本、替换 EOL 操作系统版本、升级“最旧”或“最新”版本引用、审核 Helix 覆盖范围。请勿用于：创建新的容器映像（即 dotnet-buildtools-prereqs-docker）、更新supported-os.json（即 dotnet/core 中的 update-supported-os 技能）。

@@ -1,0 +1,1 @@
+更新 Helix 佇列定義中的作業系統版本參考以新增版本、取代 EOL 版本或根據支援的作業系統矩陣審核覆蓋範圍。用途：為 Helix 佇列新增新的作業系統版本、取代 EOL 作業系統版本、升級「最舊」或「最新」版本引用、審核 Helix 覆蓋範圍。請勿用於：建立新的容器映像（即 dotnet-buildtools-prereqs-docker）、更新supported-os.json（即 dotnet/core 中的 update-supported-os 技能）。

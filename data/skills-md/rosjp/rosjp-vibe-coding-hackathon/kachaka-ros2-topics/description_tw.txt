@@ -1,0 +1,1 @@
+kachaka の ROS 2 トピック一覧・読み取り・QoS の扱い。當使用者想要讀取 kachaka 主題（電池、里程計、雷射雷達、imu、相機、地圖、tf、位置）時使用，發現 `ros2 topic echo` 不產生輸出，命中 QoS 不匹配（kachaka 主題是 BEST_EFFORT），需要`--qos-reliability best_effort` 主題是 BEST_EFFORT），需要`--qos-reliability best_effort` 標誌，或看到錯誤。 關鍵字：ros2 主題、迴聲、清單、QoS、BEST_EFFORT、SensorDataQoS、電池狀態、里程計、雷射雷達/掃描、手動控制。

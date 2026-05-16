@@ -1,0 +1,4 @@
+Implemente una estrategia permanente de caché primero: verifique el caché antes de acceder a la base de datos,
+escribir en el caché en la primera lectura, invalidar solo cuando cambian los datos. Sin tiempos de espera TTL.
+Modelado según el modelo de caché de Play Framework. Úselo cuando se le solicite "agregar almacenamiento en caché",
+"implementar estrategia de caché", "almacenar en caché los resultados de la base de datos" o "reducir la carga de la base de datos".

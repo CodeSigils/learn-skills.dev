@@ -1,0 +1,1 @@
+kachaka を ROS 2 から動かす (teleop, cmd_vel, goal_pose, rviz2) と、自前コンテナから接続する際の実行方法。ユーザーがテレオプ経由でカチャカを駆動する場合、`/kachaka/manual_control/cmd_vel` を送信する場合、自律ナビゲーションのために `/kachaka/goal_pose` に公開する場合、rviz2 で視覚化する場合、または経由で複数のカチャカを分離する場合に使用します。 「ROS_DOMAIN_ID」。 キーワード: テレオペ, cmd_vel, goal_pose, rviz2, ROS_LOCALHOST_ONLY, ROS_DOMAIN_ID, マルチロボット

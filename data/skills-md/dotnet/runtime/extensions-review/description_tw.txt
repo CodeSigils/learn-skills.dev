@@ -1,0 +1,1 @@
+在 dotnet/runtime 中撰寫和修改 Microsoft.Extensions.* 和 System.IO.Compression 程式碼的指南。涵蓋 DI 生命週期管理、設定綁定、選項驗證、日誌記錄提供者模式、快取語意、壓縮格式合規性和主機生命週期。對於完整的程式碼審查，請委託給 @extensions-reviewer 代理程式。觸發詞：Microsoft.Extensions、IServiceCollection、IConfiguration、ILogger、IHost、IMemoryCache、IOptions、ZipArchive、HttpClientFactory、IFileProvider、IChangeToken。

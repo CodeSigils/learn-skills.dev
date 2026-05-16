@@ -1,0 +1,4 @@
+Implementieren Sie eine permanente Cache-First-Strategie: Überprüfen Sie den Cache, bevor Sie auf die Datenbank zugreifen.
+Beim ersten Lesen in den Cache schreiben, nur ungültig machen, wenn sich Daten ändern. Keine TTL-Timeouts.
+Basierend auf dem Cache-Modell von Play Framework. Verwenden Sie diese Option, wenn Sie aufgefordert werden, „Caching hinzuzufügen“.
+„Cache-Strategie implementieren“, „DB-Ergebnisse zwischenspeichern“ oder „DB-Last reduzieren“.

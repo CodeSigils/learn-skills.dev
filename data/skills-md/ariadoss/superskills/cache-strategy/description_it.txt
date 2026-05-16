@@ -1,0 +1,4 @@
+Implementare una strategia cache-first permanente: controllare la cache prima di accedere al DB,
+scrive nella cache alla prima lettura, invalida solo quando i dati cambiano. Nessun timeout TTL.
+Modellato sul modello cache di Play Framework. Utilizzare quando viene chiesto di "aggiungere la memorizzazione nella cache",
+"implementare la strategia della cache", "memorizzare nella cache i risultati del DB" o "ridurre il carico del DB".

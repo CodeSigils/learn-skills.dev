@@ -1,0 +1,1 @@
+dotnet/runtime에서 Microsoft.Extensions.* 및 System.IO.Compression 코드를 작성하고 수정하기 위한 지침입니다. DI 수명 관리, 구성 바인딩, 옵션 유효성 검사, 로깅 공급자 패턴, 캐싱 의미 체계, 압축 형식 준수 및 호스트 수명 주기를 다룹니다. 전체 코드 검토를 위해 @extensions-reviewer 에이전트에 위임하세요. 트리거 단어: Microsoft.Extensions, IServiceCollection, IConfiguration, ILogger, IHost, IMemoryCache, IOptions, ZipArchive, HttpClientFactory, IFileProvider, IChangeToken.

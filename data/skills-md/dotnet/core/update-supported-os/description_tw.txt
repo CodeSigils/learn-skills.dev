@@ -1,0 +1,1 @@
+審核並更新supported-os.json/md 檔案以反映目前作業系統版本支援。使用發行說明工具對上游生命週期資料和 Markdown 重新產生進行自動驗證。用途：新增新的作業系統版本、將 EOL 版本移至不支援的版本、定期支援矩陣審核。不要用於：os-packages.json 變更（使用 update-os-packages 技能），直接編輯supported-os.md（它是從 JSON 產生的）。

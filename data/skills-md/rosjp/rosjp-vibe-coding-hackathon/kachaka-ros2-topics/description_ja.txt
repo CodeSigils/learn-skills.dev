@@ -1,0 +1,1 @@
+kachaka の ROS 2 トピック一覧・読み取り・QoS の扱い。ユーザーが kachaka トピック (バッテリー、オドメトリ、lidar、imu、カメラ、マップ、tf、場所) を読みたい場合、`ros2 topic echo` が出力を生成しないことを見つけた場合、QoS 不一致にヒットした場合 (kachaka トピックは BEST_EFFORT)、`--qos-reliability best_effort` フラグが必要な場合、またはエラー「ログ ディレクトリの作成に失敗しました: //.ros/log」。 キーワード: ros2 トピック、エコー、リスト、QoS、BEST_EFFORT、SensorDataQoS、バッテリー状態、走行距離、LIDAR/スキャン、manual_control。

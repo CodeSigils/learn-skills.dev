@@ -1,0 +1,1 @@
+使用 files-sdk 透過跨 S3、R2、GCS、Azure、Vercel Blob、本機檔案系統和約 40 個其他提供者的統一 API 將檔案儲存新增至 TypeScript/JavaScript 應用程式。當使用者想要上傳/下載/列出/刪除檔案、產生預簽名 URL、交換儲存提供者、向 AI 代理程式（Vercel AI SDK、OpenAI Responses/Agents、Claude Agent SDK）公開存儲，或詢問「files-sdk」、「Files SDK」、「new Files(...)」、「files.upload」、「files.url」、「files.signedUploadUrl」或任何內容時觸發`files-sdk/<adapter>` 子路徑導入。

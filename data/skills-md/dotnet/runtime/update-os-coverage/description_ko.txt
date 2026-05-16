@@ -1,0 +1,1 @@
+Helix 대기열 정의에서 OS 버전 참조를 업데이트하여 새 버전을 추가하거나, EOL 버전을 바꾸거나, 지원되는 OS 매트릭스에 대한 감사 적용 범위를 확인하세요. 사용 대상: Helix 대기열에 새 OS 버전 추가, EOL OS 버전 교체, "가장 오래된" 또는 "최신" 버전 참조 업그레이드, Helix 적용 범위 감사. 사용하지 마세요: 새 컨테이너 이미지 생성(dotnet-buildtools-prereqs-docker), support-os.json 업데이트(dotnet/core의 update-supported-os 기술).

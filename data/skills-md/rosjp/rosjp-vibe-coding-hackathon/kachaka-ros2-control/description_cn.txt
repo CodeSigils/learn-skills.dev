@@ -1,0 +1,1 @@
+kachaka を ROS 2 から动かす (teleop, cmd_vel, goal_pose, rviz2) と、自前コンテナから 接続する际の実行方法。当用户想通过 teleop 驱动 kachaka 时使用，发送 `/kachaka/manual_control/cmd_vel`,发布到“/kachaka/goal_pose”进行自主导航，在 rviz2 中可视化，或通过“ROS_DOMAIN_ID”分隔多个 kachaka。 关键词：teleop、cmd_vel、goal_pose、rviz2、ROS_LOCALHOST_ONLY、ROS_DOMAIN_ID、marucharobotto。

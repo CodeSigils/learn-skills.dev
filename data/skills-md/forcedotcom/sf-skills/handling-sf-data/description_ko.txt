@@ -1,0 +1,1 @@
+130점 채점을 통한 Salesforce 데이터 운영. 이 기술을 사용하면 SF CLI 및 익명 Apex를 사용하여 생성, 업데이트, 삭제, 대량 가져오기/내보내기, 테스트 데이터 생성 및 조직 기록 정리가 가능합니다. TRIGGER 시기: 사용자가 테스트 데이터 생성, 대량 가져오기/내보내기 수행, SF 데이터 CLI 명령 사용, Apex 테스트를 위한 데이터 팩터리 패턴 필요 또는 Salesforce 조직에서 레코드 시드/정리 필요. SOQL 쿼리 쓰기만(querying-soql 사용), Apex 테스트 실행(running-apex-tests 사용) 또는 메타데이터 배포(deploying-metadata 사용)인 경우에는 트리거하지 마십시오.

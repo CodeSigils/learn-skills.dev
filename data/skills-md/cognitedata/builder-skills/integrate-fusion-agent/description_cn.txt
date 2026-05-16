@@ -1,0 +1,1 @@
+使用 @cognite/app-sdk 将 Flows/Dune 应用程序与 Fusion 内置 PAIA 代理面板集成。每当开发人员想要执行以下操作时，请使用此技能：从应用程序中打开代理面板、向代理发送上下文消息、让代理读取应用程序状态（资源）或让代理在应用程序中调用操作。触发器：“fusion Agent”、“PAIA”、“代理面板”、“sendAgentMessage”、“sendAgentLayoutMode”、“代理服务器”、“registerAgentServer”、“connectToHostApp”、“代理集成”、“代理侧边栏”、“app-sdk 代理”。始终使用此技能，而不是手动编写代理集成代码 - 它设置正确的生命周期、优雅的回退和推荐的文件结构。

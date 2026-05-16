@@ -1,0 +1,4 @@
+Implémentez une stratégie permanente de priorité au cache : vérifiez le cache avant d'accéder à la base de données,
+écrire dans le cache lors de la première lecture, invalider uniquement lorsque les données changent. Aucun délai d'attente TTL.
+Calqué sur le modèle de cache de Play Framework. À utiliser lorsqu'on vous demande "d'ajouter une mise en cache",
+"implémenter une stratégie de cache", "mettre en cache les résultats de la base de données" ou "réduire la charge de la base de données".

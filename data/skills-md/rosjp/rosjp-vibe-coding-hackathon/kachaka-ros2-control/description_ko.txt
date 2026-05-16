@@ -1,0 +1,1 @@
+kachaka を ROS 2 Крарукс (teleop, cmd_vel, goal_pose, rviz2) と、自前contennakara 接続 su 際の実行方法。 사용자가 teleop을 통해 kachaka를 구동하고 싶을 때 사용하고 `/kachaka/manual_control/cmd_vel`을 보내고 자율 탐색을 위해 `/kachaka/goal_pose`에 게시하고 시각화합니다. rviz2에서 또는 `ROS_DOMAIN_ID`를 통해 여러 kachaka를 분리합니다. 키워드: teleop, cmd_vel, goal_pose, rviz2, ROS_LOCALHOST_ONLY, ROS_DOMAIN_ID, 마르치로봇.
