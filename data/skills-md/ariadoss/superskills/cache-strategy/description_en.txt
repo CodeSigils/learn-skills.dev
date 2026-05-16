@@ -1,0 +1,4 @@
+Implement a permanent cache-first strategy: check cache before hitting the DB,
+write to cache on first read, invalidate only when data changes. No TTL timeouts.
+Modeled on Play Framework's cache model. Use when asked to "add caching",
+"implement cache strategy", "cache DB results", or "reduce DB load".
