@@ -1,0 +1,1 @@
+Use to assemble user-facing release notes from a list of merged PRs (CSV/JSON) or by reading `git log` between two refs. Groups changes into Features / Improvements / Fixes / Breaking, drops internal-only items, links each line back to its PR, and produces both a public Markdown and a Slack-ready short version. Vendor-neutral.

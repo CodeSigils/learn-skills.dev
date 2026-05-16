@@ -1,0 +1,1 @@
+Extract CSV and XLSX source tables for Rye-tracked imports. Use when a user needs to inspect tabular source files, emit row-level NDJSON with lineage, map source fields into destination records, group many source rows into parent records with source_set lineage, stage extracted data, or build a domain-specific intake skill on top of generic tabular primitives.

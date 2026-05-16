@@ -1,0 +1,1 @@
+Use to triage dependency vulnerability scanner output (npm audit, pip-audit, OSV, GitHub advisories) and produce a ranked, deduplicated action list. Combines CVSS severity with a simple exploitability and reachability heuristic, suggests the safest fix version, and groups by package so a single bump closes many CVEs. Vendor-neutral — works on any JSON SBOM-like input.

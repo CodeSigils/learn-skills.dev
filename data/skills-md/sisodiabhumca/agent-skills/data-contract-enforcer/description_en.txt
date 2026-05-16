@@ -1,0 +1,1 @@
+Use to validate dbt models or warehouse tables against a data contract YAML. Checks columns, types, nullability, freshness, row-count bounds, and uniqueness. Emits a CI-friendly report and exits non-zero on violations.

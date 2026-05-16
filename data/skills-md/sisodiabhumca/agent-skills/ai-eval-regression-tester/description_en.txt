@@ -1,0 +1,1 @@
+Use to run a regression eval suite over an LLM application — fixed test cases with deterministic graders (exact match, JSON schema, regex, embedding similarity, LLM-as-judge). Compares the candidate model/prompt against a baseline and gates a release on pass rate + per-tag thresholds.
