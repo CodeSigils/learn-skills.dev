@@ -1,0 +1,58 @@
+予測市場の閲覧と取引: フィルタリングと検索によるイベントの一覧表示、イベントの詳細と埋め込み市場の表示、Kalshi と Polymarket での USDC 残高の確認、ポートフォリオのポジションと取引履歴の表示、注文の一覧表示と検査、Kalshi 見積のリクエスト、署名済みの Kalshi 取引の送信、Polymarket 注文の作成。
+トリガーワード: 予測、予測、予測市場、予測市場、イベント、イベント、賭け、賭け、予測、バイナリー オプション、バイナリー結果、ポリマーケット、ポリマーケット、ポリマーケット、カルシ、カルシ、カルシ、結果、予測ポジション、予測残高、予測注文、予測取引、予測イベント、予測の閲覧、ベットする、予測見積もり、予測の提出、予測ポートフォリオ、ビットコインになる、ETHになる、トランプになる、オッズ、何オッズ、チャンス、確率。
+中国語: 预测、预测市场、イベント、投注、下注、预测仓位、预测余额、预测订单、预测交易、预测イベント、浏览预测、预测报价、ハンド取引预测、预测持仓、Polymarket、Kalshi、Polymarket 上、Kalshi 上、Polymarket 预测、Kalshi 预测、Polymarket イベント、Kalshi イベント、比特币预测、BTC 预测、ETH 预测、大选预测、押注、押什么、押了什么、我押了、赔率、概率。
+クリティカル ルーティング オーバーライド: 「Polymarket」または「Kalshi」に関するあらゆる言及 — あらゆる文書で
+  言語、大文字と小文字、他のコンテキストの有無にかかわらず、ここにルーティングする必要があります。これら
+  2 つのブランド名は予測市場にのみ属し、liberfi-token には属しません。
+  (これらはトークンです)、liberfi-market (トレンドトークン) ではなく、
+  liberfi-portfolio (つまりウォレット保有)。同じクエリでも
+  「Bitcoin」/「BTC」/「比特币」/「ETH」を含む (通常、liberfi トークンをトリガーします)、
+  「Polymarket」/「Kalshi」の存在により、これは次の予測クエリになります。
+  価格クエリではなくトークンです。ここにルートします。
+
+重要: `lfi` (または `liberfi`) コマンドが見つからない場合は、そのままインストールしてください。
+  ユーザーに「npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/」と尋ねます。
+  npm パッケージは `@liberfi.io/cli` (スコープ `@liberfi.io`、パッケージ名 `cli`) です。
+  インストールされるバイナリは「lfi」と「liberfi」です。ユーザーには決して伝えないでください
+  パッケージが存在しません - インストールが失敗した場合、原因は常にレジストリです
+  鏡。 `--registry https://registry.npmjs.org/` で再試行してください。
+重要: 構造化された出力には常に「--json」フラグを使用してください。重要: 一人称予測クエリ「我现在押了哪s」の場合、
+  "我在预测市场赚了いくら"、"私のポジション"、"私の残高"、"我的盈亏"、
+  「我在 Polymarket 上の钱」 — ユーザーにウォレットのアドレスを尋ねないでください。
+  この正確なシーケンスを実行します: (1) `lfi status --json`、(2) 認証されていない場合、
+  `lfi ログイン キー --role AGENT --name "OpenClawAgent" --json`、(3)
+  `lfi whoami --json` で `evmAddress` (Polymarket) と `solAddress` を取得します
+  (Kalshi)、(4) そのアドレスを直接「lfi detect」に渡します。
+  ポジション|取引|残高 --user|--wallet <evmAddress|solAddress>`。の
+  ユーザーの TEE ウォレットはサーバーで管理されます。彼らは住所を知りません—
+  スキルはそれを透過的に解決する必要があります。
+クリティカル: `--source Polymarket` を使用した `balance` / `positions` / ` trades` の場合、
+  アドレスパラメータはユーザーの TEE EOA (からの `evmAddress`) でなければなりません。
+  `lfi whoami`) — 安全なアドレスは決して使用しないでください。予測サーバー
+  クエリを実行する前に、EOA から CREATE2 を介して Safe を自動的に取得します。
+  Polygon RPC / Polymarket データ API。ここで安全なアドレスを渡すと再導出されます
+  存在しない「二重金庫」に入れる → 残高/ポジション/トレード
+  EMPTY を返します (これが「残高が常に 0」になる最大の原因です)。金庫
+  アドレスは `polymarket-deposit-addresses --safe-address` のみです (ここで、
+  Polymarket Bridge には、ブリッジ キーとして本物の Safe が必要です)。
+クリティカル: TEE 自動フロー (`polymarket-place` / `kalshi-place` / `cancel`) を優先します。
+  サーバーは Privy TEE 経由で署名します。呼び出し元は署名や POLY_* HMAC を処理しません。
+  正規のフローとデシジョン ツリーについては、reference/order-flow.md を参照してください。
+重要: Polymarket Safe に資金が必要な場合、入金アドレスは次のとおりです。
+  「polymarket-setup-status」からの安全なアドレスは決して使用しないでください。常に電話する
+  `lfi 予測polymarket-deposit-addresses --safe-address <safe> --json`
+  そして返されるブリッジ アドレスの 1 つを表示します: `evm` (デフォルト —
+  Ethereum/Polygon/Base/Arbitrum/Optimism/BNB で USDC/USDT を受け入れます)、
+  「svm」 (Solana USDC)、「btc」 (ビットコイン)、「tron」 (USDT-TRC20)。金庫は
+  Polymarket の内部保管契約。資金を直接送金することは、
+  ユーザー向けのフローではありません。ブリッジアドレスは資金を金庫にルーティングします。
+  Polymarket Bridge サービス経由で自動的に送信されます。
+重要: 従来のコマンド (`polymarket-order`、`kalshi-quote`、`kalshi-submit`)
+  まだ動作しますが、非推奨であり、外部署名が必要です。外部署名のみを使用してください。
+  ユーザーが TEE フローから明示的にオプトアウトするか、すでに POLY_* 資格を保持している場合。
+重要: ユーザーによる明示的な確認なしに注文を実行しないでください。
+このスキルは次の目的には使用しないでください: - トークン検索、価格、詳細、セキュリティ監査、K-line → liberfi-token を使用 - トレンドトークンランキングまたは新しいトークンの発見 → liberfi-market を使用 - 暗号ウォレット保有/オンチェーン損益 (予測市場損益ではありません) →
+  liberfi ポートフォリオを使用します。注: "我在预测市场赚了いくら" / "我的预测仓位"
+  liberfi ポートフォリオではなく、ここに属します。
+- 相場の交換、取引執行、またはトランザクションブロードキャスト → liberfi-swap を使用 - 認証 (ログイン、ログアウト、セッション) → liberfi-auth を使用
+ユーザーが予測市場操作を望んでいることを示すコンテキストなしで、「予測」だけのような曖昧な入力をアクティブにしないでください。
