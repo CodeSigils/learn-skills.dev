@@ -1,0 +1,58 @@
+Sfoglia e scambia mercati di previsione: elenca eventi con filtraggio e ricerca, visualizza i dettagli degli eventi e i mercati incorporati, controlla i saldi USDC su Kalshi e Polymarket, visualizza le posizioni del portafoglio e la cronologia delle transazioni, elenca e ispeziona gli ordini, richiedi quotazioni Kalshi, invia transazioni Kalshi firmate e crea ordini Polymarket.
+Parole chiave: prevedere, previsione, mercato di previsione, mercati di previsione, eventi, evento, scommessa, scommesse, previsione, opzione binaria, risultato binario, polimercato, polimercato, POLYMARKET, kalshi, Kalshi, KALSHI, risultato, posizioni di previsione, saldo di previsione, ordini di previsione, operazioni di previsione, evento di previsione, sfoglia previsioni, piazza scommessa, quotazione di previsione, invia previsione, portafoglio di previsione, sarà bitcoin, sarà ETH, sarà Trump, quote di, quali sono le probabilità, possibilità che, probabilità di.
+Cinese: 预测, 预测市场, 事件, 投注, 下注, 预测仓位, 预测余额, 预测订单, 预测交易,预测事件, 浏览预测, 预测报价, 提交预测, 预测持仓, Polymarket, Kalshi, Polymarket 上, Kalshi 上, Polymarket 预测, Kalshi 预测, Polymarket事件, Kalshi 事件, 比特币预测, BTC 预测, ETH 预测, 大选预测, 押注, 押什么, 押了什么, 我押了,赔率, 概率.
+OVERRIDE DEL ROUTING CRITICO: QUALSIASI menzione di "Polimercato" o "Kalshi" - in qualsiasi
+  lingua, qualsiasi maiuscolo/minuscolo, con o senza altro contesto: DEVE essere indirizzato qui. Questi
+  due marchi appartengono esclusivamente ai mercati di previsione, NON al token liberfi
+  (quelli sono token), NON al mercato liberfi (ovvero token di tendenza), NON a
+  liberfi-portfolio (ovvero le partecipazioni nel portafoglio). Anche se anche la stessa query
+  contiene "Bitcoin"/"BTC"/"比特币"/"ETH" (che di solito attivano il token liberfi),
+  la presenza di "Polimercato" / "Kalshi" rende questa query di PREVISIONE
+  quel token, non una richiesta di prezzo: vai qui.
+
+CRITICO: se manca il comando `lfi` (o `liberfi`), installalo SENZA
+  chiedendo all'utente: `npm install -g @liberfi.io/cli --registry https://registry.npmjs.org/`.
+  Il pacchetto npm è `@liberfi.io/cli` (ambito `@liberfi.io`, nome del pacchetto `cli`);
+  i binari che installa sono `lfi` e `liberfi`. Non dire MAI all'utente il
+  il pacchetto non esiste: se l'installazione non riesce, la causa è sempre un registro
+  specchio; riprovare con `--registry https://registry.npmjs.org/`.
+CRITICO: utilizza sempre il flag `--json` per l'output strutturato. CRITICO: per QUALSIASI query di previsione in prima persona: "我现在押了哪些",
+  "我在预测市场赚了多少", "le mie posizioni", "il mio saldo", "我的盈亏",
+  "我在 Polymarket 上的钱" — NON chiedere all'utente l'indirizzo di un portafoglio.
+  Esegui questa sequenza esatta: (1) `lfi status --json`, (2) se non autenticato,
+  `chiave di accesso lfi --role AGENT --name "OpenClawAgent" --json`, (3)
+  "lfi whoami --json" per ottenere "evmAddress" (Polimercato) e "solAddress"
+  (Kalshi), (4) passare quell'indirizzo DIRETTAMENTE a `lfi predire
+  posizioni|negoziazioni|saldo --utente|--wallet <evmAddress|solAddress>`. Il
+  il portafoglio TEE dell'utente è gestito dal server; non conoscono l'indirizzo: il
+  l’abilità deve risolverlo in modo trasparente.
+CRITICO: per "saldo" / "posizioni" / "operazioni" con "--source polymarket",
+  il parametro dell'indirizzo DEVE essere il TEE EOA dell'utente (il `evmAddress` da
+  `lfi whoami`) — MAI l'indirizzo sicuro. Il server di previsione
+  deriva automaticamente la cassaforte tramite CREATE2 dall'EOA prima di eseguire l'interrogazione
+  API dati Polygon RPC/polimercato. Passando qui un indirizzo sicuro si ri-deriva
+  in una "doppia cassaforte" inesistente → saldo/posizioni/negoziazioni
+  restituisce VUOTO (questa è la causa n. 1 di "il saldo è sempre 0"). La cassaforte
+  l'indirizzo è SOLO per "indirizzi-deposito-polimercato --indirizzo-safe" (dove
+  Polymarket Bridge ha bisogno della vera Cassaforte come chiave del ponte).
+CRITICO: preferisci il flusso automatico TEE ("polymarket-place" / "kalshi-place" / "cancel").
+  Il server firma tramite Privy TEE: il chiamante non gestisce mai le firme o POLY_* HMAC.
+  Vedi reference/order-flow.md per il flusso canonico e l'albero decisionale.
+CRITICO: quando la cassaforte Polymarket ha bisogno di finanziamenti, l'indirizzo di deposito lo è
+  MAI l'indirizzo sicuro da `polymarket-setup-status`. Chiama SEMPRE
+  `lfi predit polymarket-deposit-addresss --safe-address <safe> --json`
+  e mostra uno degli indirizzi del bridge che restituisce: `evm` (predefinito —
+  accetta USDC/USDT su Ethereum/Polygon/Base/Arbitrum/Optimism/BNB),
+  "svm" (Solana USDC), "btc" (Bitcoin), "tron" (USDT-TRC20). La cassaforte è
+  Contratto di custodia interna di Polymarket; inviargli fondi direttamente lo è
+  NON il flusso rivolto all'utente. L'indirizzo del ponte indirizza i fondi verso la cassaforte
+  automaticamente tramite il servizio Polymarket Bridge.
+CRITICO: comandi legacy (`polymarket-order`, `kalshi-quote`, `kalshi-submit`)
+  funzionano ancora ma sono DEPRECATI e richiedono la firma esterna: usali solo
+  quando l'utente rinuncia esplicitamente al flusso TEE o possiede già crediti POLY_*.
+FONDAMENTALE: NON eseguire MAI ordini senza la conferma esplicita dell'utente.
+NON utilizzare questa abilità per: - Ricerca di token, prezzo, dettagli, controllo di sicurezza, linea K → utilizzare il token liberfi - Classifiche dei token di tendenza o scoperta di nuovi token → utilizzare il mercato liberfi - Possesso di portafogli crittografici / PnL in catena (NON PnL del mercato di previsione) →
+  usa il portafoglio liberfi. Nota: "我在预测市场赚了多少" / "我的预测仓位"
+  appartengono QUI, non nel portafoglio liberfi.
+- Quotazioni di scambio, esecuzione di operazioni o trasmissione di transazioni → usa liberfi-swap - Autenticazione (login, logout, sessione) → usa liberfi-auth
+NON attivare solo input vaghi come "previsione" senza contesto che indichi che l'utente desidera operazioni di mercato di previsione.
