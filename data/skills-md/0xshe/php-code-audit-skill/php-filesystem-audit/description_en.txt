@@ -1,1 +1,1 @@
-PHP filesystem operation auditing tool. It focuses on security risks of operations such as mkdir, chmod, chown, unlink, rmdir, link, symlink, readlink, touch, permissions, and TOCTOU, providing “enhanced exploitability evidence” for path‑validation bypasses and write‑chain exploits (not a replacement for sub‑audits of FILE/UPLOAD/WRITE sinks).
+PHP 文件系统操作审计工具。聚焦 mkdir/chmod/chown/unlink/rmdir/link/symlink/readlink/touch/权限与 TOCTOU 等操作的安全风险，为路径校验绕过与写入链利用提供“可利用性增强证据”（不替代 FILE/UPLOAD/WRITE 等 sink 子审计）。

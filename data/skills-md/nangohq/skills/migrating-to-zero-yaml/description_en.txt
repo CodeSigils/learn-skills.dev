@@ -1,0 +1,1 @@
+Manually migrates legacy `nango.yaml` Nango projects to Zero YAML TypeScript by generating `models.ts`, `index.ts`, package/tsconfig scaffolding, and wrapping legacy scripts in `createSync()`, `createAction()`, or `createOnEvent()`. Use when a Nango repo still has `nango.yaml` and needs manual Zero YAML migration.
