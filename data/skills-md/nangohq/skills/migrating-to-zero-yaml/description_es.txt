@@ -1,0 +1,1 @@
+Migra manualmente proyectos heredados `nango.yaml` Nango a Zero YAML TypeScript generando `models.ts`, `index.ts`, andamiaje package/tsconfig y envolviendo scripts heredados en `createSync()`, `createAction()` o `createOnEvent()`. Úselo cuando un repositorio de Nango todavía tenga `nango.yaml` y necesite una migración manual Zero YAML.
