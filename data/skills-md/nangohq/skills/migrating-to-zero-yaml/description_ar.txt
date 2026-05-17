@@ -1,0 +1,1 @@
+ترحيل مشاريع Nango القديمة `nango.yaml` إلى Zero YAML TypeScript يدويًا عن طريق إنشاء `models.ts` أو `index.ts` أو سقالات الحزمة/tsconfig وتغليف البرامج النصية القديمة في `createSync()` أو `createAction()` أو `createOnEvent()`. يُستخدم عندما لا يزال مستودع Nango يحتوي على "nango.yaml" ويحتاج إلى ترحيل يدوي لـ Zero YAML.
