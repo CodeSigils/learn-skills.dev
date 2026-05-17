@@ -1,0 +1,1 @@
+Вручную переносит устаревшие проекты Nango `nango.yaml` в нулевой YAML TypeScript, создавая `models.ts`, `index.ts`, каркас package/tsconfig и обертывая устаревшие скрипты в `createSync()`, `createAction()` или `createOnEvent()`. Используйте, если в репозитории Nango все еще есть файл nango.yaml и требуется ручная миграция нулевого YAML.
