@@ -1,1 +1,1 @@
-Triggered when the code involves multi-tenant isolation (TenantContext, tenantId, tenant interceptors/filters, X‑Tenant‑Code). It prevents security issues such as tenant over‑privileged access and cross‑tenant data leakage.
+It is triggered when the code involves multi‑tenant isolation (TenantContext, tenantId, tenant interceptors/filters, X‑Tenant‑Code). This prevents security issues such as tenants accessing beyond their authority and data being mixed across tenants.

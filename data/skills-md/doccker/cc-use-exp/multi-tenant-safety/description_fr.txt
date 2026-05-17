@@ -1,0 +1,1 @@
+Il est déclenché lorsque le code implique une isolation multi-tenant (TenantContext, tenantId, intercepteurs/filtres de locataire, X-Tenant-Code). Cela évite les problèmes de sécurité tels que l'accès des locataires au-delà de leur autorité et le mélange des données entre les locataires.

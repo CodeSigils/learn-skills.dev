@@ -1,0 +1,1 @@
+編排完整的實作後循環：推送 PR → 等待 CI → 修復故障 → 重複直到 CI 通過或終止規則觸發暫停。當使用者說「ship it」、「finalize pr」、「push and fix CI」、「push pr and wait for CI」或呼叫「codagent:finalize-pr」時，應該使用此技能。

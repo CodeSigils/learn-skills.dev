@@ -1,0 +1,1 @@
+전체 구현 후 루프를 조정합니다. PR 푸시 → CI 대기 → 실패 수정 → CI 통과 또는 종료 규칙이 일시 중지를 트리거할 때까지 반복합니다. 이 기술은 사용자가 "ship it", "pr finalize pr", "CI push and fix", "pr push and wait for CI"라고 말하거나 "codagent:finalize-pr"을 호출할 때 사용해야 합니다.

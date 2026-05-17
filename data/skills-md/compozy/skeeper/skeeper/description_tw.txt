@@ -1,0 +1,1 @@
+解釋如何使用 skeeper 將規範工件（SPEC.md、ADR、RFC、計劃/PRD/TechSpec markdown、自訂 glob）保留在它們描述的程式碼旁邊，而不會污染主儲存庫歷史記錄。涵蓋嚴格的掛鉤、追蹤的 skeeper.lock 檔案、命名空間、類似 Git 的狀態/拉/推/同步/恢復工作流程、追蹤/取消追蹤、修復、SKEEPER_SKIP 和 GitHub Action。在設定 skeeper、設定 sidecar、同步或檢查鎖定檔案、恢復漂移或失敗的同步、審核旁路或連接 CI 時使用。請勿用於一般 Git 掛鉤問題、沒有 .skeeper.yml 並且無意添加 .skeeper 內部結構的儲存庫。

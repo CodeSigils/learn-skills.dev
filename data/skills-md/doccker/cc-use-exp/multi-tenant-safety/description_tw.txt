@@ -1,0 +1,1 @@
+當程式碼涉及多租戶隔離（TenantContext、tenantId、租戶攔截器/過濾器、X-Tenant-Code）時會觸發它。這樣可以防止租戶越權存取、跨租戶資料混合等安全問題。

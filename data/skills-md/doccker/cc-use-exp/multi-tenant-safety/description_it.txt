@@ -1,1 +1,1 @@
-Si attiva quando il codice prevede l'isolamento multi-tenant (TenantContext, tenantId, intercettore/filtro tenant, X‑Tenant‑Code). Previene problemi di sicurezza come l'accesso con privilegi eccessivi da parte dei tenant e la perdita di dati tra tenant.
+Viene attivato quando il codice prevede l'isolamento multi-tenant (TenantContext, tenantId, intercettori/filtri tenant, X‑Tenant‑Code). Ciò impedisce problemi di sicurezza come l'accesso da parte dei tenant al di fuori della propria autorizzazione e la confusione dei dati tra tenant.

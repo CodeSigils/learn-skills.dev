@@ -1,0 +1,1 @@
+Migriert manuell ältere „nango.yaml“-Nango-Projekte zu Zero YAML TypeScript, indem „models.ts“, „index.ts“, package/tsconfig-Gerüste generiert werden und ältere Skripte in „createSync()“, „createAction()“ oder „createOnEvent()“ eingeschlossen werden. Verwenden Sie diese Option, wenn ein Nango-Repo noch über „nango.yaml“ verfügt und eine manuelle Zero-YAML-Migration erfordert.

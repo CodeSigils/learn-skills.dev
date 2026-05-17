@@ -1,1 +1,1 @@
-Se activa cuando el código implica aislamiento multiinquilino (TenantContext, tenantId, interceptor/filtro de inquilinos, X-Tenant-Code). Esto evita problemas de seguridad como el acceso con privilegios excesivos de los inquilinos y la fuga de datos entre inquilinos.
+Se activa cuando el código implica aislamiento multiinquilino (TenantContext, tenantId, interceptores/filtros de inquilinos, X-Tenant-Code). Esto evita problemas de seguridad, como que los inquilinos accedan más allá de su autoridad y que los datos se mezclen entre inquilinos.

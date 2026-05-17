@@ -1,0 +1,1 @@
+Es wird ausgelöst, wenn der Code die Isolation mehrerer Mandanten beinhaltet (TenantContext, TenantId, Mandanten-Interceptoren/Filter, X-Tenant-Code). Dies verhindert Sicherheitsprobleme wie den Zugriff von Mietern außerhalb ihrer Befugnisse und die Vermischung von Daten zwischen Mietern.

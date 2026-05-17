@@ -1,1 +1,1 @@
-Active Directory域环境攻击全链。当目标主机处于域环境中（systeminfo 显示域不是 WORKGROUP）、发现端口 88/389/636 或获取域用户凭据时使用。涵盖域信息收集、用户枚举、Kerberoasting、AS-REP Roasting、委派攻击、ACL 滥用、DCSync 和金/银票证攻击。
+Active Directory域环境攻击全链。当目标主机处于域环境中（systeminfo 显示除 WORKGROUP 之外的域）、检测到端口 88/389/636 或获取域用户凭据时使用。它涵盖域信息收集、用户枚举、Kerberoasting、AS-REP Roasting、委派攻击、ACL 滥用、DCSync 和金/银票证攻击。

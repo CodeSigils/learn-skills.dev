@@ -1,0 +1,1 @@
+Orchestriert die gesamte Nachimplementierungsschleife: PR drücken → auf CI warten → Fehler beheben → wiederholen, bis CI erfolgreich ist oder Beendigungsregeln eine Pause auslösen. Diese Fähigkeit sollte verwendet werden, wenn der Benutzer „Versenden“, „PR abschließen“, „CI pushen und reparieren“, „PR pushen und auf CI warten“ sagt oder „codagent:finalize-pr“ aufruft.

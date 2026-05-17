@@ -1,0 +1,1 @@
+用於盲 9 維評分的內部子代理程式。 **不是使用者導向的技能 - 請勿從主對話中呼叫。 ** 透過 cheat-score / cheat-predict / cheat-bump 透過任務工具調用，以取得腳本上的上下文隔離分數。僅接收 script_path + rubric_notes_path；拒絕任何其他輸入。輸出嚴格的 JSON：9 個維度 × {分數 0-5，置信度枚舉，單行原因}。 **硬拒絕閱讀** .cheat-state.json、predictions/*、retro 段或任何可能洩漏發布後資料的內容。這是 3 通道校準模型中的通道 B（A=主通道，B=盲通道，C=跨通道模型）。
