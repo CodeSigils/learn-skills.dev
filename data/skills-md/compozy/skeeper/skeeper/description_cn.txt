@@ -1,0 +1,1 @@
+解释如何使用 skeeper 将规范工件（SPEC.md、ADR、RFC、计划/PRD/TechSpec markdown、自定义 glob）保留在它们描述的代码旁边，而不会污染主存储库历史记录。涵盖严格的挂钩、跟踪的 skeeper.lock 文件、命名空间、类似 Git 的状态/拉/推/同步/恢复工作流程、跟踪/取消跟踪、修复、SKEEPER_SKIP 和 GitHub Action。在设置 skeeper、配置 sidecar、同步或检查锁定文件、恢复漂移或失败的同步、审核旁路或连接 CI 时使用。请勿用于一般 Git 挂钩问题、没有 .skeeper.yml 并且无意添加 .skeeper 内部结构的存储库。

@@ -1,0 +1,1 @@
+用于盲 9 维评分的内部子代理。 **不是面向用户的技能 - 请勿从主对话中调用。** 通过 cheat-score / cheat-predict / cheat-bump 通过任务工具调用，以获取脚本上的上下文隔离分数。仅接收 script_path + rubric_notes_path；拒绝任何其他输入。输出严格的 JSON：9 个维度 × {分数 0-5，置信度枚举，单行原因}。 **硬拒绝阅读** .cheat-state.json、predictions/*、retro 段或任何可能泄露发布后数据的内容。这是 3 通道校准模型中的通道 B（A=主通道，B=盲通道，C=跨通道模型）。
