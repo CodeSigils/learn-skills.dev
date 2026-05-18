@@ -1,0 +1,1 @@
+Use when training has engineering failures — NaN/gradient issues, GPU OOM, slow data loading, wrong metrics, reproducibility failures. Not for checking job queue/status (use run-status-monitor). Not for valid-but-surprising scientific results (use result-diagnosis). Not for confound or claim audit before writing (use research-results-auditor).

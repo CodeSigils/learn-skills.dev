@@ -1,0 +1,1 @@
+Use when probing the status of an existing job — queued, stuck, running, or finished — across local, SLURM, RunAI, or SSH. Not for launching new jobs (use run-experiment). Not for debugging NaN/OOM/engineering failures (use experiment-debugger). Not for interpreting valid but surprising results (use result-diagnosis).

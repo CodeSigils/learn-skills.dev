@@ -1,0 +1,1 @@
+WebSocket tests require @SpringBootTest(RANDOM_PORT) and async message handling — @WebMvcTest won't work. Timeout and session leak traps are common. Read before testing STOMP or WebSocket. Triggers: WebSocketStompClient, StompSession, @MessageMapping, @SendToUser, BlockingQueue, /topic/, /queue/, CountDownLatch, session.subscribe, session.send.

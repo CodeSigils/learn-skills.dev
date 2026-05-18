@@ -1,0 +1,1 @@
+Adding or changing routes in `apps/api`. One source of truth (`defineApiEndpoint` + a Zod schema) becomes an HTTP endpoint, an OpenAPI operation, an MCP tool, and a TS SDK method — descriptions and contracts must be written with all four readers in mind.
