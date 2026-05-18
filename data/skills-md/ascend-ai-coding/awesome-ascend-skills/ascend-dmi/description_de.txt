@@ -1,0 +1,24 @@
+Wenn ein Benutzer Verwaltung, Tests oder Diagnosen auf Hardwareebene auf einer Huawei Ascend NPU durchführen muss, verwenden Sie diese Fähigkeit. Typische Szenarien:
+
+- Zeigen Sie den Status, die Temperatur und die Auslastung der NPU-Karte an
+- Speicherbandbreite testen (h2d/d2h/d2d/p2p)
+- Führen Sie Rechen-/Leistungs-Benchmark-Tests durch (TFLOPS, TOPS)
+- Diagnostizieren Sie NPU-Hardwarefehler oder führen Sie Gesundheitsprüfungen durch
+- Führen Sie Stresstests auf NPU-Karten durch (Aicore, Speicher).
+- Setzen Sie eine festsitzende oder abnormale NPU-Karte zurück bzw. stellen Sie sie wieder her
+
+Typische Benutzeranfragen (sollten auch ohne Erwähnung von „ascendend-dmi“ ausgelöst werden):
+– „Helfen Sie mir, die Rechenleistung und Bandbreite dieses Servers zu messen.“
+- „Überprüfen Sie die Temperatur und Auslastung der NPU unter 192.168.1.50.“
+- „Führen Sie einen fp16-Rechentest durch und sehen Sie, wie hoch die TFLOPS sind.“
+- „Entspricht die D2D-Bandbreite den Spezifikationen?“
+- „Card3 scheint ein Problem zu haben, helfen Sie mir bei der Diagnose.“
+- „Die NPU-Karte steckt fest, setzen Sie sie zurück.“
+- „Machen Sie einen Stresstest mit 8 Karten.“
+- „Führen Sie einen Stromverbrauchstest durch, EDP-Modus.“
+
+Verwenden Sie diese Fähigkeit immer dann, wenn der Benutzer Ascend-NPU-Hardware direkt messen, diagnostizieren oder verwalten möchte – einschließlich der Überprüfung der Server-NPU-Leistung (Rechenleistung/Bandbreite/Leistung), der Diagnose von Hardwarefehlern oder dem Zurücksetzen von NPU-Karten. Wird auch dann ausgelöst, wenn der Benutzer nur „Server“ + „Compute/Bandbreite/NPU-Status“ erwähnt, ohne „ascend-dmi“ zu sagen.
+
+NICHT verwenden für: das Schreiben von NPU-Code, die Installation von Frameworks, das Debuggen von Trainingsproblemen oder die Docker-Konfiguration.
+
+Bitte antworten Sie immer in der Sprache des Benutzers.

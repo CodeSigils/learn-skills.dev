@@ -1,0 +1,21 @@
+Installieren Sie den Entwicklungsworkflow SDD Workflow v1.0.3 im Projekt. Lösen Sie den Installationspfad des Skills automatisch auf, generieren Sie **AGENTS.md** (Kernregeln + integrierter Pfad), generieren Sie gleichzeitig **CLAUDE.md** (Symlink → AGENTS.md, Claude Code liest automatisch), behalten Sie Bühnenregeldateien (rules/) im Skill-Verzeichnis zum Lesen bei Bedarf bei und synchronisieren Sie optional mit anderen KI-Tools.
+
+**Architektur**: Globale Regeln der G-Serie + §1~§4-Stufennummern + Flow-Deklarations-Header-Mechanismus (einschließlich **Vier-Werte-Blockierung** wahr/falsch/gated/audit-erforderlich) + dynamisches Laden + **Unified Execution Self-Audit-Mechanismus** (Cross-Dialog-Kickoff + zwei Triggerpunkte pro Abschnitt innerhalb einer einzelnen Sitzung) + **context.md „produziertes“ Feld** (Artefaktpfad + Anker + erste 8 Zeichen von SHA-256, obligatorisch nur in den Kapiteln §2.4, §3.6, §3.7) + **Checkliste für den Audit-Kickoff** (bei Eingabe von §3.6, ≥3 Verdachtspunkte + Verifizierung) + **Reinjektion von Artefakten aus dem vorherigen Abschnitt** (bei Eingabe von §2.5 / §3.7 / §3.8, vorheriges Artefakt + Hash-Verifizierung) + 13 Slash-Befehle, kompatibel mit mehreren KI-Tools.
+
+**Muss in den folgenden Szenarien ausgelöst werden:**  
+- Der Benutzer sagt „SDD installieren“, „AGENTS installieren“, „KI-Workflow installieren“ oder „Entwicklungsstandards konfigurieren“.  
+– Der Benutzer führt den Befehl „/sdd-init“ aus.  
+- Der Benutzer sagt „Workflow starten“ oder „Entwicklung beginnen“ **und im Stammverzeichnis des Projekts fehlt „AGENTS.md“** (Fallback: Wenn SDD nicht installiert ist, installieren Sie es zuerst für den Benutzer; nach der Installation **fahren Sie automatisch mit der Initialisierung des G0-Dialogs fort**, sodass der Benutzer „Workflow starten“ nicht erneut auslösen muss).  
+- Wenn für ein neues Projekt eine Workflow-Spezifikation für die KI-Codierung erstellt werden muss.  
+- Der Benutzer sagt „Workflow aktualisieren“ oder „SDD aktualisieren“.
+
+**Hinweis:**  
+- Der in Claude Code integrierte Befehl „/init“ (der eine eigenständige CLAUDE.md generiert) überschreibt den von diesem Workflow erstellten CLAUDE.md-Symlink. Mischen Sie sie nicht.  
+- Wenn der Benutzer „Workflow starten“ sagt oder „/sdd-start“ ausführt: standardmäßig **tritt er in den Projektentwicklungsprozess ein** (G0-Dialoginitialisierung). Es greift nur dann auf diesen Skill zurück, um die Infrastrukturinstallation durchzuführen, wenn „AGENTS.md“ nicht vorhanden ist; **Die durch den natürlichsprachlichen „Workflow starten“ ausgelöste Fallback-Installation wird nach Abschluss automatisch mit dem ersten G0-Pfad fortgesetzt** (siehe Step0-Eintragstyperkennung + Step7-Routing-Zweig), sodass der Benutzer sie nicht erneut auslösen muss; Nur eine explizite „/sdd-init“-Installation behält das zweistufige Design „Installieren und dann zur Benutzerüberprüfung anhalten“ bei.  
+
+**Ausgaben:**  
+① „AGENTS.md“ im Projektstammverzeichnis ({SKILL_DIR} durch den tatsächlichen Pfad ersetzt)  
+② „CLAUDE.md“ (symlink → „AGENTS.md“, mit Kopierfallback unter Windows)  
+③ Symlinks zu Befehlsdateien für jedes KI-Tool  
+④ Slash Commands-Installation (wählen Sie eine Option: Benutzerebene / Projektebene / Überspringen)  
+⑤ Initialisierungsstatusbericht

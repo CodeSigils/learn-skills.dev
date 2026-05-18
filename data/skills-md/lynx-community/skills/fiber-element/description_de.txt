@@ -1,0 +1,6 @@
+Verwenden Sie diesen Skill, wenn Sie Lynx-Anwendungen direkt mit FiberElement-/Element-PAPI-APIs von @lynx-js/type-element-api erstellen, ohne ReactLynx JSX. Es umfasst die Projekteinrichtung, die Rspeedy-Vorlagen-Webpack-Bundle-Assemblierung, die Erstellung des Haupt-Thread-UI-Baums, den Versand von Hintergrund-Thread-Ereignissen, die CSS-Verpackung und allgemeine Element-API-Muster.
+
+Auslöseszenarien:
+– Der Benutzer möchte eine Lynx-App ohne ReactLynx, JSX oder ein Framework erstellen
+– Der Benutzer bittet darum, @lynx-js/type-element-api, Element PAPI, FiberElement oder APIs wie __CreatePage, __CreateView, __CreateText, __AppendElement, __SetAttribute oder __FlushElementTree zu verwenden
+– Der Benutzer benötigt ein Lynx-Bundle im Template-Webpack-Stil mit expliziten Hintergrund-, Haupt-Thread- und CSS-Assets
