@@ -1,0 +1,1 @@
+通过 pm-skill-auditor 子代理运行存储库范围内的跨领域治理审计。使用 pm-skills 插件在 Claude Code 上本地调度（调用 @agent-pm-skill-auditor）；在非 Claude 客户端（Codex CLI、Cursor、Windsurf、Copilot、Gemini CLI）上读取 subagents/pm-skill-auditor.md 并内联执行系统提示符。返回分层审计报告（完整调查结果 + 状态摘要散文 + 每个总体规划 D26 的状态 YAML 信封），其中包含分级为 P0/P1/P2/P3 的跨领域调查结果以及聚合计数器审计和验证器结果表。

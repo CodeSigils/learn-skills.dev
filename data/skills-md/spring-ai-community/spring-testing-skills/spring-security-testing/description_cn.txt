@@ -1,0 +1,1 @@
+Spring Security 7 更改了方法安全默认值和 CSRF 处理 - 使用 hasRole() 或 csrf() 的测试可能需要更新。请在测试身份验证、授权或安全端点之前阅读。触发器：@WithMockUser、csrf()、jwt()、oauth2Login()、SecurityFilterChain、@PreAuthorize、AccessDeniedException、@WithUserDetails、@WithSecurityContext、hasRole、hasAuthority、SCOPE_、JwtAuthenticationToken。

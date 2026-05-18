@@ -1,0 +1,1 @@
+通过 PyTorch torch.distributed 接口测试升腾 NPU 通信算子性能。支持指定任何张量形状、dtype，使用 torchrun 启动，贴近真实训练场景的通信算子测试与性能分析。用于通过 Ascend NPU 上的 torch.distributed 测试具有特定张量形状的集体通信算子（AllReduce、AllGather、ReduceScatter 等）。
