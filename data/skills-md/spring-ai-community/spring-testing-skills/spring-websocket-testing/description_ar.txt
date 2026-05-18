@@ -1,0 +1,1 @@
+تتطلب اختبارات WebSocket @SpringBootTest(RANDOM_PORT) ومعالجة الرسائل غير المتزامنة - لن يعمل @WebMvcTest. تعد مصائد المهلة وتسرب الجلسة شائعة. اقرأ قبل اختبار STOMP أو WebSocket. المشغلات: WebSocketStompClient، StompSession، @MessageMapping، @SendToUser، BlockingQueue، /topic/، /queue/، CountDownLatch، session.subscribe، session.send.

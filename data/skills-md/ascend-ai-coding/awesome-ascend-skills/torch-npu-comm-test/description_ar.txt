@@ -1,0 +1,1 @@
+يتم استخدام PyTorch torch.distributed 接口测试昇腾 NPU، NPU، torchrun. يستخدم لاختبار مشغلي الاتصالات الجماعية (AllReduce، AllGather، ReduceScatter، وما إلى ذلك) مع أشكال موتر محددة عبر torch.distributed على Ascend NPU.

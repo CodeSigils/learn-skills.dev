@@ -1,0 +1,1 @@
+يتطلب اختبار WebFlux وجود StepVerifier للتدفقات التفاعلية — حيث تمر التأكيدات القياسية بصمت على Flux الفارغ. يختلف WebTestClient API عن MockMvc. اقرأ قبل اختبار نقاط النهاية التفاعلية. المشغلات: @WebFluxTest، وWebTestClient، وStepVerifier، وMono، وFlux، وmockUser()، وmockJwt()، وmuateWith، وvereverComplete، وexpectBody، وexpectStatus، وAutoConfigureWebTestClient.
