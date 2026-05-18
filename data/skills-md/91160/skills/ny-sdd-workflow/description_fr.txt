@@ -1,0 +1,21 @@
+Installez le workflow de développement SDD Workflow v1.0.3 dans le projet. Résolvez automatiquement le chemin d'installation des compétences, générez **AGENTS.md** (règles de base + chemin intégré), générez simultanément **CLAUDE.md** (lien symbolique → AGENTS.md, Claude Code lit automatiquement), conservez les fichiers de règles d'étape (rules/) dans le répertoire de compétences pour une lecture à la demande et éventuellement synchronisez-les avec d'autres outils d'IA.
+
+**Architecture** : règles globales de la série G + numéros d'étape §1~§4 + mécanisme d'en-tête de déclaration de flux (y compris **blocage à quatre valeurs** vrai/faux/gated/audit requis) + chargement dynamique + **Mécanisme d'auto-audit d'exécution unifié** (lancement du dialogue croisé + deux points de déclenchement par section au sein d'une seule session) + **champ « produit » contextuel.md** (chemin de l'artefact + ancre + 8 premiers caractères de SHA-256, obligatoire uniquement dans les chapitres §2.4, §3.6, §3.7) + **Liste de contrôle de lancement de l'audit** (lors de la saisie du §3.6, ≥3 points de suspicion + vérification) + **Réinjection d'artefacts de la section précédente** (lors de la saisie du §2.5 / §3.7 / §3.8, cat artefact précédent + vérification du hachage) + 13 commandes Slash, compatibles avec plusieurs outils d'IA.
+
+**Doit être déclenché dans les scénarios suivants :**  
+- L'utilisateur dit « installer SDD », « installer AGENTS », « installer le workflow AI » ou « configurer les normes de développement ».  
+- L'utilisateur exécute la commande `/sdd-init`.  
+- L'utilisateur dit « démarrer le workflow » ou « commencer le développement » **et le répertoire racine du projet ne contient pas « AGENTS.md »** (solution de secours : si SDD n'est pas installé, installez-le d'abord pour l'utilisateur ; après l'installation, **continuez automatiquement l'initialisation du dialogue G0**, afin que l'utilisateur n'ait pas besoin de déclencher à nouveau « démarrer le workflow »).  
+- Lorsqu'un nouveau projet doit établir une spécification de workflow de codage IA.  
+- L'utilisateur dit « mettre à jour le workflow » ou « mettre à jour le SDD ».
+
+**Remarque :**  
+- La commande `/init` intégrée dans Claude Code (qui génère un CLAUDE.md autonome) écrasera le lien symbolique CLAUDE.md créé par ce workflow ; ne les mélangez pas.  
+- Lorsque l'utilisateur dit « démarrer le workflow » ou exécute `/sdd-start` : par défaut, il **entre dans le processus de développement du projet** (initialisation du dialogue G0). Il revient à cette compétence d'effectuer l'installation de l'infrastructure uniquement si « AGENTS.md » n'existe pas ; **l'installation de secours déclenchée par le « workflow de démarrage » en langage naturel se poursuit automatiquement avec le premier chemin G0 une fois terminé** (voir Détection du type d'entrée Step0 + branche de routage Step7), de sorte que l'utilisateur n'a pas besoin de la déclencher à nouveau ; seule une installation explicite de `/sdd-init` conserve la conception en deux étapes de « installer puis mettre en pause pour la vérification de l'utilisateur ».  
+
+**Sorties :**  
+① `AGENTS.md` dans le répertoire racine du projet ({SKILL_DIR} remplacé par le chemin réel)  
+② `CLAUDE.md` (lien symbolique → `AGENTS.md`, avec copie de secours sous Windows)  
+③ Liens symboliques vers les fichiers de commandes pour chaque outil d'IA  
+④ Installation des commandes Slash (choisissez-en une : niveau utilisateur / niveau projet / ignorer)  
+⑤ Rapport sur l'état d'initialisation

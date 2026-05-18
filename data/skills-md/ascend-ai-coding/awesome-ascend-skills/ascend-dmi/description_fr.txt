@@ -1,0 +1,24 @@
+Lorsqu'un utilisateur doit effectuer une gestion, des tests ou des diagnostics au niveau matériel sur un NPU Huawei Ascend, utilisez cette compétence. Scénarios typiques :
+
+- Afficher l'état, la température et l'utilisation de la carte NPU
+- Tester la bande passante mémoire (h2d/d2h/d2d/p2p)
+- Exécuter des tests de référence de calcul/puissance (TFLOPS, TOPS)
+- Diagnostiquer les pannes matérielles du NPU ou effectuer des contrôles de santé
+- Réaliser des stress tests sur les cartes NPU (aicore, mémoire)
+- Réinitialiser/récupérer une carte NPU bloquée ou anormale
+
+Requêtes d'utilisateurs typiques (devraient se déclencher même sans mentionner ascend-dmi) :
+- "Aidez-moi à mesurer les performances de calcul et la bande passante de ce serveur."
+- "Vérifiez la température et l'utilisation du NPU au 192.168.1.50."
+- "Exécutez un test de calcul fp16 et voyez ce que sont les TFLOPS."
+- « La bande passante du d2d est-elle conforme aux spécifications ? »
+- "La carte 3 semble avoir un problème, aidez-moi à le diagnostiquer."
+- "La carte NPU est bloquée, réinitialisez-la."
+- "Faites un stress test sur 8 cartes."
+- "Exécuter un test de consommation électrique, mode EDP."
+
+Utilisez cette compétence chaque fois que l'utilisateur souhaite mesurer, diagnostiquer ou gérer directement le matériel Ascend NPU, notamment en vérifiant les performances du serveur NPU (calcul/bande passante/alimentation), en diagnostiquant les pannes matérielles ou en réinitialisant les cartes NPU. Déclenchez même lorsque l'utilisateur mentionne uniquement « serveur » + « état calcul/bande passante/NPU » sans dire « ascend-dmi ».
+
+Ne PAS utiliser pour : l'écriture de code NPU, l'installation de frameworks, le débogage de problèmes de formation ou la configuration de Docker.
+
+Veuillez toujours répondre dans la langue de l’utilisateur.
