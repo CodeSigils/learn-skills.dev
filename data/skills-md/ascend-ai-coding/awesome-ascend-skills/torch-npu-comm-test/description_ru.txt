@@ -1,0 +1,1 @@
+通过 PyTorch torch.distributed 接口测试昇腾 NPU 通信算子性能。支持指定任意 tensor shape、dtype，使用 torchrun Используйте для тестирования операторов коллективной связи (AllReduce, AllGather, уменьшитьScatter и т. д.) с определенными формами тензоров через torch. Распространяется на Ascend NPU.
