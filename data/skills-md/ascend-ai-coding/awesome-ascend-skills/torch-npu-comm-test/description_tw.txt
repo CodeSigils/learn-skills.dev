@@ -1,0 +1,1 @@
+透過 PyTorch torch.distributed 介面測試升騰 NPU 通訊算子效能。支援指定任何張量形狀、dtype，使用 torchrun 啟動，貼近真實訓練場景的通訊算子測試與效能分析。用於透過 Ascend NPU 上的 torch.distributed 測試具有特定張量形狀的集體通訊算子（AllReduce、AllGather、ReduceScatter 等）。

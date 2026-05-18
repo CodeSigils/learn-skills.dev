@@ -1,0 +1,1 @@
+用於指導完成後將 Ascend C (CANN / xpu_kernel) 算子開發整合到 PyTorch 中：與 torch_npu 介面、主機端註冊和建置、Python 暴露和冒煙測試。涵蓋算子項目內輕量整合、必要時引用op-plugin、與Pybind快速聯調、複用圖算子封裝等。適用於Ascend C、算子整合、torch_npu、NPU自訂算子、op-plugin、xpu_kernel、cpp_extension、自訂算子等情境。

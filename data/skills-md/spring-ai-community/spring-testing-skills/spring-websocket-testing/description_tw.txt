@@ -1,0 +1,1 @@
+WebSocket 測試需要 @SpringBootTest(RANDOM_PORT) 和非同步訊息處理 — @WebMvcTest 不起作用。超時和會話洩漏陷阱很常見。在測試 STOMP 或 WebSocket 之前請先閱讀。觸發器：WebSocketStompClient、StompSession、@MessageMapping、@SendToUser、BlockingQueue、/topic/、/queue/、CountDownLatch、session.subscribe、session.send。

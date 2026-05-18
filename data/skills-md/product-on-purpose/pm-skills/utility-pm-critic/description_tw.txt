@@ -1,0 +1,1 @@
+透過 pm-critic 子代理程式對 PM 工件運行對抗性審查。使用 pm-skills 插件在 Claude Code 上本地調度（呼叫 @agent-pm-critic）；在非 Claude 用戶端（Codex CLI、Cursor、Windsurf、Copilot、Gemini CLI）上讀取 subagents/pm-critic.md 並內聯執行系統提示字元。傳回分級為 P0/P1/P2/P3 的結果，並包含每個結果的具體修復建議，以及每個總體規劃 D26 的分層狀態摘要部分和機器可讀的狀態 YAML 區塊。

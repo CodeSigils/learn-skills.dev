@@ -1,0 +1,1 @@
+將 GPU/CUDA Triton 算子遷移到 Triton-Ascend，或將 Python/PyTorch 算子重寫為可在 Ascend NPU 上執行的 Triton-Ascend 實現，當發現明確的最佳化機會時，直接輸出最佳化程式碼、最小驗證腳本和故障排除說明。每當使用者提到 Ascend、NPU、triton-ascend、Triton 算子遷移、PyTorch 算子重寫、coreDim、UB 溢位、一維網格、實體核心綁定、block_ptr、stride、記憶體存取對齊、遮罩效能、dtype降級、算子優化，或直接詢問「如何使用此技能」、「如何從命令列運行它」或「如何在容器中執行遷移/驗證」時，就應該使用此技能優選地，即使用戶沒有明確地說「寫入技能」或「執行遷移」。

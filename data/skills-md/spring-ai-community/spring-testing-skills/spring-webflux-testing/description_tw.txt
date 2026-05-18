@@ -1,0 +1,1 @@
+WebFlux 檢定需要 StepVerifier 用來反應流 - 標準斷言默默地傳遞空 Flux。 WebTestClient API 與 MockMvc 不同。在測試反應性端點之前請閱讀。觸發器：@WebFluxTest、WebTestClient、StepVerifier、Mono、Flux、mockUser()、mockJwt()、mutateWith、verifyComplete、expectBody、expectStatus、@AutoConfigureWebTestClient。
