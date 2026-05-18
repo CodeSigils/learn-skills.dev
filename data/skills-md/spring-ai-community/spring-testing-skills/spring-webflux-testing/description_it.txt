@@ -1,0 +1,1 @@
+Il test WebFlux richiede StepVerifier per i flussi reattivi: le asserzioni standard passano silenziosamente su Flux vuoto. L'API WebTestClient è diversa da MockMvc. Leggere prima di testare gli endpoint reattivi. Trigger: @WebFluxTest, WebTestClient, StepVerifier, Mono, Flux, mockUser(), mockJwt(), mutateWith, verifyComplete, waitBody, waitStatus, @AutoConfigureWebTestClient.

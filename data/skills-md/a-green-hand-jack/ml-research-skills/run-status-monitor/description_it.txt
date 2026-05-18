@@ -1,0 +1,1 @@
+Da utilizzare quando si verifica lo stato di un lavoro esistente (in coda, bloccato, in esecuzione o terminato) su locale, SLURM, RunAI o SSH. Non per avviare nuovi lavori (usa run-experiment). Non per il debug di errori NaN/OOM/di progettazione (utilizzare sperimentale-debugger). Non per interpretare risultati validi ma sorprendenti (utilizzare la diagnosi dei risultati).

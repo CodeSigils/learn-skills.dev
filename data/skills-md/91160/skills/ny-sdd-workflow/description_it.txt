@@ -1,0 +1,21 @@
+Installa il flusso di lavoro di sviluppo SDD Workflow v1.0.3 nel progetto. Risolvi automaticamente il percorso di installazione delle competenze, genera **AGENTS.md** (regole principali + percorso integrato), genera contemporaneamente **CLAUDE.md** (link simbolico → AGENTS.md, Claude Code si legge automaticamente), conserva i file delle regole di fase (rules/) nella directory delle competenze per la lettura su richiesta e, facoltativamente, sincronizza con altri strumenti AI.
+
+**Architettura**: regole globali della serie G + numeri di fase §1~§4 + meccanismo di intestazione della dichiarazione di flusso (incluso **blocco di quattro valori** vero/falso/gate/audit richiesto) + caricamento dinamico + **meccanismo di autoaudit dell'esecuzione unificata** (kickoff del dialogo incrociato + due punti di attivazione per sezione all'interno di una singola sessione) + **campo "prodotto" contesto.md** (percorso dell'artefatto + ancoraggio + primi 8 caratteri di SHA‑256, obbligatorio solo in capitoli §2.4, §3.6, §3.7) + **Lista di controllo kickoff dell'audit** (quando si inserisce §3.6, ≥3 punti sospetti + verifica) + **Reiniezione artefatto della sezione precedente** (quando si inserisce §2.5 / §3.7 / §3.8, cat artefatto precedente + verifica hash) + 13 comandi barra, compatibili con più strumenti AI.
+
+**Deve essere attivato nei seguenti scenari:**  
+- L'utente dice "installa SDD", "installa AGENTS", "installa flusso di lavoro AI" o "configura standard di sviluppo".  
+- L'utente esegue il comando `/sdd-init`.  
+- L'utente dice "avvia flusso di lavoro" o "inizia sviluppo" **e nella directory root del progetto manca `AGENTS.md`** (fallback: se SDD non è installato, installalo prima per l'utente; dopo l'installazione, **continua automaticamente con l'inizializzazione del dialogo G0**, in modo che l'utente non debba attivare nuovamente "avvia flusso di lavoro").  
+- Quando un nuovo progetto deve stabilire una specifica del flusso di lavoro di codifica AI.  
+- L'utente dice "aggiorna flusso di lavoro" o "aggiorna SDD".
+
+**Nota:**  
+- Il comando `/init` integrato in Claude Code (che genera un CLAUDE.md autonomo) sovrascriverà il collegamento simbolico CLAUDE.md creato da questo flusso di lavoro; non mescolarli.  
+- Quando l'utente dice "avvia flusso di lavoro" o esegue `/sdd-start`: per impostazione predefinita **entra nel processo di sviluppo del progetto** (inizializzazione del dialogo G0). Rientra in questa competenza eseguire l'installazione dell'infrastruttura solo se "AGENTS.md" non esiste; **l'installazione di fallback attivata dal "flusso di lavoro di avvio" in linguaggio naturale continua automaticamente con il primo percorso G0 dopo il completamento** (vedere Rilevamento del tipo di voce Step0 + ramo di routing Step7), quindi l'utente non deve attivarla nuovamente; solo un'installazione esplicita di `/sdd-init` mantiene la struttura in due fasi di "installa e poi metti in pausa per la verifica dell'utente".  
+
+**Uscite:**  
+① `AGENTS.md` nella directory root del progetto ({SKILL_DIR} sostituito con il percorso effettivo)  
+② `CLAUDE.md` (link simbolico → `AGENTS.md`, con copia fallback su Windows)  
+③ Collegamenti simbolici ai file di comando per ciascuno strumento AI  
+④ Installazione dei comandi barra (sceglierne uno: livello utente/livello progetto/salta)  
+⑤ Rapporto sullo stato dell'inizializzazione
