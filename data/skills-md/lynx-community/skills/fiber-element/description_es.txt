@@ -1,0 +1,6 @@
+Utilice esta habilidad cuando cree aplicaciones Lynx directamente con las API FiberElement/Element PAPI de @lynx-js/type-element-api, sin ReactLynx JSX. Cubre la configuración del proyecto, el ensamblaje del paquete web-plantilla Rspeedy, la creación del árbol de la interfaz de usuario del subproceso principal, el envío de eventos del subproceso en segundo plano, el empaquetado CSS y los patrones comunes de Element API.
+
+Escenarios desencadenantes:
+- User wants to build a Lynx app without ReactLynx, JSX, or a framework
+- El usuario solicita usar @lynx-js/type-element-api, Element PAPI, FiberElement o API como __CreatePage, __CreateView, __CreateText, __AppendElement, __SetAttribute o __FlushElementTree.
+- User needs a template-webpack style Lynx bundle with explicit background, main-thread, and CSS assets

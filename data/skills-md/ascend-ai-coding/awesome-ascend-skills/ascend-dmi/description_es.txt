@@ -1,0 +1,24 @@
+Cuando un usuario necesite realizar gestión, pruebas o diagnósticos a nivel de hardware en una NPU Huawei Ascend, utilice esta habilidad. Escenarios típicos:
+
+- Ver el estado, la temperatura y la utilización de la tarjeta NPU
+- Prueba de ancho de banda de memoria (h2d/d2h/d2d/p2p)
+- Ejecutar pruebas comparativas de computación/potencia (TFLOPS, TOPS)
+- Diagnosticar fallas de hardware de NPU o realizar controles de estado
+- Realizar pruebas de estrés en tarjetas NPU (aicore, memoria)
+- Restablecer/recuperar una tarjeta NPU atascada o anormal
+
+Consultas típicas de usuarios (deberían activarse incluso sin mencionar ascend-dmi):
+- "Ayúdame a medir el rendimiento informático y el ancho de banda de este servidor".
+- “Verificar la temperatura y utilización de la NPU en 192.168.1.50.”
+- "Ejecute una prueba de cálculo fp16 y vea cuáles son los TFLOPS".
+- "¿El ancho de banda de d2d cumple con las especificaciones?"
+- “Parece que Card3 tiene un problema, ayúdame a diagnosticarlo”.
+- “La tarjeta NPU está atascada, reiníciala”.
+- “Haz una prueba de estrés con 8 cartas”.
+- “Ejecutar una prueba de consumo de energía, modo EDP”.
+
+Utilice esta habilidad siempre que el usuario quiera medir, diagnosticar o administrar el hardware Ascend NPU directamente, incluida la verificación del rendimiento de la NPU del servidor (cómputo/ancho de banda/potencia), el diagnóstico de fallas de hardware o el restablecimiento de las tarjetas NPU. Se activa incluso cuando el usuario solo menciona "servidor"+"computación/ancho de banda/estado de NPU" sin decir "ascend-dmi".
+
+NO lo use para: escribir código NPU, instalar marcos, depurar problemas de capacitación o configurar Docker.
+
+Por favor responda siempre en el idioma del usuario.
