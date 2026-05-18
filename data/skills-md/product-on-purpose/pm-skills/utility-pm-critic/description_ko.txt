@@ -1,0 +1,1 @@
+pm-critic 하위 에이전트를 통해 PM 아티팩트에 대한 적대적 검토를 실행합니다. pm-skills 플러그인(@agent-pm-critic 호출)을 사용하여 Claude Code에서 기본적으로 디스패치합니다. Claude가 아닌 클라이언트(Codex CLI, Cursor, Windsurf, Copilot, Gemini CLI)에서는 subagents/pm-critic.md를 읽고 시스템 프롬프트 인라인을 실행합니다. 결과당 구체적인 수정 제안과 함께 계층화된 상태 요약 섹션 및 마스터 플랜 D26당 기계가 읽을 수 있는 상태 YAML 블록과 함께 P0/P1/P2/P3 등급의 결과를 반환합니다.

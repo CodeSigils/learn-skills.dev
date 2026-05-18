@@ -1,0 +1,1 @@
+WebFlux 테스트에는 반응 스트림을 위한 StepVerifier가 필요합니다. 표준 어설션은 빈 Flux를 자동으로 전달합니다. WebTestClient API는 MockMvc와 다릅니다. 반응 엔드포인트를 테스트하기 전에 읽어보세요. 트리거: @WebFluxTest, WebTestClient, StepVerifier, Mono, Flux, mockUser(), mockJwt(), mutateWith, verifyComplete, ExpectBody, ExpectStatus, @AutoConfigureWebTestClient.

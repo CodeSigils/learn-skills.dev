@@ -1,0 +1,1 @@
+pm-skill-auditor 하위 에이전트를 통해 저장소 전체 교차 거버넌스 감사를 실행합니다. pm-skills 플러그인(@agent-pm-skill-auditor 호출)을 사용하여 Claude Code에서 기본적으로 디스패치합니다. Claude가 아닌 클라이언트(Codex CLI, Cursor, Windsurf, Copilot, Gemini CLI)에서는 subagents/pm-skill-auditor.md를 읽고 시스템 프롬프트 인라인을 실행합니다. P0/P1/P2/P3 등급의 교차 조사 결과와 집계 카운터 감사 및 검증자 결과 테이블이 포함된 계층화된 감사 보고서(전체 조사 결과 + 상태 요약 산문 + 마스터 계획 D26당 상태 YAML 봉투)를 반환합니다.

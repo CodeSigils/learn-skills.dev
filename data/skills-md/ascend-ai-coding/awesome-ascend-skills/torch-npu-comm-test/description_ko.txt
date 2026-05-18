@@ -1,0 +1,1 @@
+PyTorch torch.distributed 接口测试昇腾 NPU 통信算子性能.支持指定任意 텐서 모양, dtype, 使用 torchrun Ascend NPU에 배포된 토치를 통해 특정 텐서 모양을 사용하여 집단 통신 연산자(AllReduce, AllGather, ReduceScatter 등)를 테스트하는 데 사용됩니다.

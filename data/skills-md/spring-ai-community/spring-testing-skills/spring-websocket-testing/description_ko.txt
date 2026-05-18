@@ -1,0 +1,1 @@
+WebSocket 테스트에는 @SpringBootTest(RANDOM_PORT)가 필요하며 비동기 메시지 처리가 필요합니다. @WebMvcTest는 작동하지 않습니다. 시간 초과 및 세션 누출 트랩은 일반적입니다. STOMP 또는 WebSocket을 테스트하기 전에 읽어보세요. 트리거: WebSocketStompClient, StompSession, @MessageMapping, @SendToUser, BlockingQueue, /topic/, /queue/, CountDownLatch, session.subscribe, session.send.
