@@ -1,0 +1,1 @@
+PyTorch torch.distributed インターフェイスを介して NPU 通信演算子のパフォーマンスをテストします。任意のテンソル形状、dtype を指定し、torchrun を使用して、近距離での真の現場の通信演算子テストと性能分析をサポートします。集団通信演算子 (AllReduce、AllGather、ReduceScatter など) のテストに使用します。 Ascend NPU で torch.distributed 経由で特定のテンソル形状を使用します。

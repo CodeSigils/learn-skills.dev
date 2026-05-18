@@ -1,0 +1,1 @@
+WebFlux テストには、リアクティブ ストリーム用の StepVerifier が必要です。標準アサーションは空の Flux をサイレントに渡します。 WebTestClient API は MockMvc とは異なります。リアクティブ エンドポイントをテストする前にお読みください。トリガー: @WebFluxTest、WebTestClient、StepVerifier、Mono、Flux、mockUser()、mockJwt()、mutateWith、verifyComplete、expectBody、expectStatus、@AutoConfigureWebTestClient。

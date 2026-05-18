@@ -1,0 +1,1 @@
+WebSocket テストには @SpringBootTest(RANDOM_PORT) と非同期メッセージ処理が必要です。@WebMvcTest は機能しません。タイムアウト トラップとセッション リーク トラップが一般的です。 STOMP または WebSocket をテストする前にお読みください。トリガー: WebSocketStompClient、StompSession、@MessageMapping、@SendToUser、BlockingQueue、/topic/、/queue/、CountDownLatch、session.subscribe、session.send。

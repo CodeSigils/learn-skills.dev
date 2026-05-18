@@ -1,0 +1,1 @@
+Spring Security 7 では、メソッドのセキュリティのデフォルトと CSRF の処理が変更されました。hasRole() または csrf() を使用したテストは更新が必要になる場合があります。認証、認可、または保護されたエンドポイントをテストする前にお読みください。トリガー: @WithMockUser、csrf()、jwt()、oauth2Login()、SecurityFilterChain、@PreAuthorize、AccessDeniedException、@WithUserDetails、@WithSecurityContext、hasRole、hasAuthority、SCOPE_、JwtAuthenticationToken。
