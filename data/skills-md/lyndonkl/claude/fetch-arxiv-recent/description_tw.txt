@@ -1,0 +1,1 @@
+取得在給定日期視窗內提交的與關鍵字集相符的 arXiv 論文，可選擇限制一個或多個 arXiv 類別（例如 cs.LG、cs.CL、cs.CV、stat.ML、math.ST、q-bio.QM）。包裝公共「export.arxiv.org/api/query」端點，解析 Atom XML，處理分頁，並將記錄規範化為與「fetch-preprint-recent」和「fetch-pubmed-recent」相同的規範形狀，以便呼叫代理可以跨來源進行重複資料刪除。領域中立－可用於跨電腦科學、機器學習、統計學、數學、物理或定量生物學的任何文獻掃描。當使用者提到 arXiv、cs.LG、ML 論文、NeurIPS 相鄰預印本、每週 arXiv 掃描時使用，或當文獻掃描代理需要 arXiv 記錄以及 bioRxiv / medRxiv / PubMed 時使用。

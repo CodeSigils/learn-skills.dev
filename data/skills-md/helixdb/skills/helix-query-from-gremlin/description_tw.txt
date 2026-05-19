@@ -1,0 +1,1 @@
+將 Gremlin 和 TinkerPop 式的遍歷轉換為 HelixDB Rust DSL 儲存查詢。當輸入包含 Gremlin、TinkerPop、g.V、g.E、hasLabel、has、out、in、both、outE、inE、repeat、emit、dedup、valueMap、count、range 或 limit 且目標是產生等效的 Helix Rust 查詢時使用。

@@ -1,4 +1,4 @@
-用于评估单个 sklearn 兼容学习器的方法（特别是由“build-ml-pipeline”生成的“SkrubLearner”）。拥有：调用哪个入口点（首先调用“skore.evaluate”，需要时显式报告类），从 scikit-learn 的目录中选择哪个交叉验证器，如何使用在构建时通过“.skb.mark_as_X(split_kwargs=...)”附加的结构元数据（“groups”、“times”等）。停在“报告怎么说”。默认值（指标、图表）来自 skore；仅覆盖明确的用户请求。
+用于评估单个 sklearn 兼容学习器的方法（特别是由“build-ml-pipeline”生成的“SkrubLearner”）。拥有：要调用哪个入口点（首先调用“skore.evaluate”，需要时显式报告类），从 scikit-learn 的目录中选择哪个交叉验证器，如何使用在构建时通过“.skb.mark_as_X(split_kwargs=...)”附加的结构元数据（“groups”、“times”等）。停在“报告怎么说”。默认值（指标、图表）来自 skore；仅覆盖明确的用户请求。
 触发条件：代码调用 `cross_val_score`、`cross_validate`、`classification_report` 或任何手写度量打印 (`print(mean_squared_error(...))`)；代码调用 `.skb.cross_validate(...)` （通过 skore 路由以获得更丰富的输出）；用户询问如何对单个学习者进行评分、评估或比较；用户询问如何选择交叉验证器；用户想要查看适合学习者的报告/指标/诊断图。
 跳过以下情况：声明管道（使用“build-ml-pipeline”）；超参数/模型搜索（单独技能）；拟合、保留或服务最终模型；随着时间的推移跟踪或比较多次运行的实验（单独的技能）。
 如何使用：在任何评估调用之前调用。 **首先，阅读正文顶部的“停止条件”块，并在响应中将飞行前检查表作为可见文本发出 - 在编写任何评估代码之前，两者都是必需的。** 有关数据的结构事实（组键、时间顺序）应该已经通过 `split_kwargs` 在 X 标记处进行编码 — 如果没有，并且您无法从数据中辨别，请返回到 `build-ml-pipeline` 并询问用户。对于符号级查找，请遵循“python-api”（skore 符号）和“python-api”（拆分器）；不要凭记忆猜测名字。

@@ -1,0 +1,11 @@
+Busque la API pública de un paquete de Python con la *versión instalada* y almacene en caché lo que valga la pena conservar. Cuatro formas por tipo de pregunta: (0) acierto en caché en `scratch/api/<lib>/<versión>/`; (1) `inspect.signature` + `pydoc.render_doc` para un símbolo; (2) `dir`/`pkgutil.iter_modules` para la superficie de un módulo; (3) WebSearch + WebFetch de documentos versionados para narrativa ("cómo", "cuál", "qué devuelve X cuando Y"). Nunca escriba un símbolo desde la memoria de datos de entrenamiento: el reconocimiento no es una búsqueda.
+DISPARADOR: cualquiera de: - A punto de nombrar un símbolo (función/clase/método/arg) en el código. - El usuario pregunta "¿cuál es la firma de X?", "¿qué hay en el módulo Y?",
+  "¿Cómo llamo a X?", "¿Cuál de A/B debo usar?".
+- El usuario pregunta "¿qué devuelve X cuando <condición>?" (Forma 3 - ver
+  tabla de decisiones).
+- Otra habilidad de flujo de trabajo (`build-ml-pipeline`,
+  `evaluar-ml-pipeline`, `iterar-desde-skore`,
+  `smoke-test-ml-pipeline`) dice "consulte la habilidad API".
+- A punto de buscar de memoria el patrón "obvio" de una biblioteca.
+SALTAR cuando: la firma sea obvia en un sitio de llamadas que acaba de leer en este turno; el trabajo es solo sistema de archivos/shell (sin símbolos de Python); un archivo de caché `scratch/api/<lib>/<versión>/<topic>.md` ya responde a la pregunta (sigue siendo una consulta de Forma 0, simplemente no se recupera).
+CÓMO UTILIZAR: primero resuelva la versión del paquete a través de un archivo borrador (`scratch/<ts>_version_<pkg>.py` con `import <pkg>; print(<pkg>.__version__)` — ejecute con `pixi run python scratch/<ts>_version_<pkg>.py`). Luego, enumere `scratch/api/<lib>/<versión>/`. Luego elige la forma de "¿Qué tipo de pregunta?" mesa. Los hallazgos narrativos se almacenan en caché. **Toda la ejecución de Python pasa por archivos `scratch/<ts>_*.py`; `python -c` en línea está prohibido independientemente de la longitud.** La orientación específica de la pila se encuentra en `references/stack_orientation.md`: se carga bajo demanda.

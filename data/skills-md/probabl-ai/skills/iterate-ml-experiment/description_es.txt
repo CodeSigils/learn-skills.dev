@@ -1,0 +1,12 @@
+Posee el bucle de iteración en la parte superior de un espacio de trabajo de ML: el índice `journal/JOURNAL.md` y las notas de diseño por experimento `journal/NN_short_name.md` que deben ser redactadas y aprobadas por el usuario **antes** de crear `experiments/NN_short_name.py`. Impulsa el ciclo proponer → iterar → aprobar → implementar → registrar; se envía a `iterate-from-skore` / `iterate-from-user` para su abastecimiento.
+DISPARADOR: cualquiera de: - Se abre una sesión en un espacio de trabajo de ML (ya sea `diario/` o no).
+  todavía existe: falta/marcador de posición → modo de arranque).
+- El usuario dice "qué sigue", "reanudar", "dónde estábamos", "vamos"
+  iterar", "proponer el siguiente", "primera línea de base".
+- A punto de crear un nuevo `experiments/NN_*.py` (el archivo correspondiente
+  `journal/NN_*.md` debe existir y aprobarse primero).
+- El usuario desea registrar el resultado de una ejecución finalizada. - El usuario solicita comparar experimentos anteriores o revisar lo que ha sido
+  probado ("comparar X e Y", "¿dónde estamos?").
+
+SALTAR cuando: todavía no hay `diario/` Y no hay andamio del espacio de trabajo (ruta a `organize-ml-workspace`); el trabajo es mecánico dentro de `pipeline.py`/`evaluate.py`/`data.py` sin implicaciones a nivel de diario (propiedad de `build-ml-pipeline`/`evaluate-ml-pipeline`); el usuario solicita una búsqueda de símbolos (`python-api`); el usuario está diagnosticando un único informe de skore sin un marco de "qué sigue" (`evaluate-ml-pipeline`).
+CÓMO UTILIZAR: lea `journal/JOURNAL.md` primero, clasifique el turno mediante el **Selector de modo** (tabla cerca de la parte superior), luego lea solo la sección correspondiente. Las habilidades de los hermanos se abren *justo a tiempo* cuando un paso las requiere; no lea previamente las nueve al inicio de la sesión. Las notas de diseño son el único artefacto que escribe esta habilidad; Los modos de lectura, comparación y descripción general no escriben.

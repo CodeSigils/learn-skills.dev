@@ -1,0 +1,12 @@
+Besitzt die Iterationsschleife über einem ML-Arbeitsbereich: den Index „journal/JOURNAL.md“ und die Designnotizen „journal/NN_short_name.md“ pro Experiment, die vom Benutzer erstellt und genehmigt werden müssen, **bevor** „experimente/NN_short_name.py“ erstellt wird. Treibt die Schleife „Vorschlagen → Iterieren → Genehmigen → Implementieren → Aufzeichnen“ an; Sendet zur Beschaffung an „iterate-from-skore“ / „iterate-from-user“.
+TRIGGER – einer von: - Eine Sitzung wird in einem ML-Arbeitsbereich geöffnet (unabhängig davon, ob es sich um „Journal/“ handelt oder nicht).
+  existiert noch – fehlt/Platzhalter → Bootstrap-Modus).
+- Der Benutzer sagt „Was kommt als nächstes“, „Lebenslauf“, „Wo waren wir“, „Lass uns.“
+  iterieren“, „nächstes vorschlagen“, „erste Baseline“.
+– Ich bin dabei, ein neues „experiments/NN_*.py“ zu erstellen (das Matching
+  „journal/NN_*.md“ muss vorhanden sein und zuerst genehmigt werden).
+– Der Benutzer möchte das Ergebnis eines abgeschlossenen Laufs aufzeichnen. - Der Benutzer bittet darum, frühere Experimente zu vergleichen oder die Ergebnisse zu überprüfen
+  versucht („Vergleiche X und Y“, „Wo sind wir?“).
+
+ÜBERSPRINGEN, wenn: noch kein „Journal/“ UND kein Arbeitsbereichsgerüst (Route zu „organize-ml-workspace“); Die Arbeit erfolgt mechanisch innerhalb von „pipeline.py“ / „evaluate.py“ / „data.py“ ohne Auswirkungen auf Journalebene (im Besitz von „build-ml-pipeline“ / „evaluate-ml-pipeline“); der Benutzer fragt nach einer Symbolsuche („python-api“); Der Benutzer diagnostiziert einen einzelnen Skore-Bericht ohne „Was kommt als Nächstes“-Framing („evaluate-ml-pipeline“).
+ANWENDUNG: Lesen Sie zuerst „journal/JOURNAL.md“, klassifizieren Sie die Wendung über die **Modusauswahl** (Tabelle oben) und lesen Sie dann nur den passenden Abschnitt. Geschwisterfähigkeiten werden *just-in-time* geöffnet, wenn ein Schritt sie erfordert – lesen Sie nicht alle neun zu Beginn der Sitzung vor. Designnotizen sind das einzige Artefakt, das diese Fertigkeit schreibt. Die Modi „Lesen“, „Vergleichen“ und „Übersicht“ schreiben nicht.

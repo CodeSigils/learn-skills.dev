@@ -1,0 +1,12 @@
+Possède la boucle d'itération au-dessus d'un espace de travail ML : l'index `journal/JOURNAL.md` et les notes de conception par expérience `journal/NN_short_name.md` qui doivent être rédigées et approuvées par l'utilisateur **avant** que `experiments/NN_short_name.py` soit créé. Pilote la boucle proposer → itérer → approuver → implémenter → enregistrer ; expédié vers « iterate-from-skore » / « iterate-from-user » pour le sourcing.
+TRIGGER — l'un des : - Une session s'ouvre dans un espace de travail ML (qu'il soit ou non `journal/`
+  existe encore — manquant/espace réservé → mode bootstrap).
+- L'utilisateur dit "quelle est la prochaine étape", "reprendre", "où en étions-nous", "allons
+  itérer", "proposer ensuite", "première ligne de base".
+- Sur le point de créer un nouveau `experiments/NN_*.py` (le correspondant
+  `journal/NN_*.md` doit exister et être approuvé en premier).
+- L'utilisateur souhaite enregistrer le résultat d'une exécution terminée. - L'utilisateur demande à comparer les expériences passées ou à revoir ce qui a été
+  essayé (« comparer X et Y », « où en sommes-nous ? »).
+
+SAUTER quand : pas encore de `journal/` ET pas d'échafaudage d'espace de travail (route vers `organize-ml-workspace`) ; le travail est mécanique à l'intérieur de `pipeline.py` / `evaluate.py` / `data.py` sans implication au niveau du journal (propriété de `build-ml-pipeline` / `evaluate-ml-pipeline`) ; l'utilisateur demande une recherche de symbole (`python-api`) ; l'utilisateur diagnostique un seul rapport skore sans cadrage « et ensuite » (`evaluate-ml-pipeline`).
+COMMENT UTILISER : lisez d'abord `journal/JOURNAL.md`, classez le virage via le **Sélecteur de mode** (tableau près du haut), puis lisez uniquement la section correspondante. Les compétences fraternelle s'ouvrent *juste à temps* lorsqu'une étape les nécessite – ne lisez pas toutes les neuf au début de la session. Les notes de conception sont le seul artefact écrit par cette compétence ; Les modes de lecture, de comparaison et de présentation n'écrivent pas.

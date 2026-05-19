@@ -1,0 +1,12 @@
+擁有 ML 工作區頂部的迭代循環：「journal/JOURNAL.md」索引和每個實驗「journal/NN_short_name.md」設計說明，必須在建立「experiments/NN_short_name.py」之前由使用者起草和批准。驅動提議→迭代→批准→實施→記錄循環；分派到“iterate-from-skore”/“iterate-from-user”進行採購。
+觸發 — 以下任一項： - 在 ML 工作區中開啟會話（無論是否為「journal/」）
+  尚存在 - 缺失/佔位符 → 引導模式）。
+- 用戶說「下一步是什麼」、「繼續」、「我們在哪裡」、「讓我們
+  迭代」、「提出下一個」、「第一個基線」。
+- 即將建立一個新的`experiments/NN_*.py`（符合的
+  `journal/NN_*.md` 必須存在並首先獲得批准）。
+- 使用者想要記錄完成運行的結果。 - 使用者要求比較過去的實驗或回顧過去的實驗
+  嘗試過（“比較 X 和 Y”，“我們在哪裡？”）。
+
+跳過以下情況：還沒有“journal/”並且沒有工作區腳手架（路由到“organize-ml-workspace”）；這項工作在 `pipeline.py` / `evaluate.py` / `data.py` 中是機械的，沒有日誌級別的含義（由 `build-ml-pevaline /所有）；使用者請求符號查找（`python-api`）；使用者正在診斷單一分數報告，而沒有「下一步」框架（`evaluate-ml-pipeline`）。
+使用方法：首先閱讀“journal/JOURNAL.md”，透過**模式選擇器**（靠近頂部的表格）對轉彎進行分類，然後只閱讀匹配的部分。當某個步驟需要時，兄弟姐妹技能會「及時」開放——不要在課程開始時預先閱讀所有九個技能。設計筆記是該技能編寫的唯一工件；閱讀、比較和概述模式不進行寫入。

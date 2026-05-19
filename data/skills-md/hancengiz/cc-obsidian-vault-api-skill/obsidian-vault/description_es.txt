@@ -1,0 +1,18 @@
+Integre con las bóvedas de Obsidian a través del complemento API REST local.
+
+Utilice esta habilidad cuando el usuario quiera:
+- Buscar notas en su bóveda de obsidiana.
+- Leer notas específicas
+- Crear nuevas notas
+- Modificar notas existentes
+- Gestionar notas diarias/periódicas
+- Ejecutar consultas de vista de datos.
+
+IMPORTANTE: Esta habilidad realiza operaciones destructivas (crear, modificar, eliminar).
+Siga siempre las reglas de seguridad y los requisitos de confirmación.
+
+Se activa cuando el usuario menciona:
+- "Obsidiana", "mi bóveda", "mis notas"
+- "nota diaria", "entrada de diario"
+- "buscar en mis notas", "encontrar en Obsidiana"
+- Crear, actualizar o eliminar notas

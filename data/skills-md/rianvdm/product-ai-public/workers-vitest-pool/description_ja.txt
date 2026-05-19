@@ -1,0 +1,1 @@
+@cloudflare/vitest-pool-workers を使用して、Cloudflare Workers の vitest テストをセットアップまたはアップグレードします。新しいワーカーでテストをスキャフォールディングする場合、既存のワーカーが pool-workers <0.13 (vitest 2/3) 上にありアップグレードする必要がある場合、またはテスト スイートで「分離ストレージに失敗しました」/「期待された .sqlite、取得した .sqlite-shm」エラーが発生した場合に使用します。最新のスタック (vitest 4 + pool-workers ≥0.15 + Node 22) を固定し、v2→v4 移行レシピを文書化します。

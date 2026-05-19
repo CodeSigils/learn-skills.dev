@@ -1,0 +1,4 @@
+Orquestador de revisión de relaciones públicas de múltiples agentes. Primero descubre los estándares de calidad del código base (lint, formato, compilación,
+CI), luego genera agentes especializados en paralelo para sacar a la luz problemas reales en git diff.
+Los agentes solo informan sobre los hallazgos, sin correcciones. Cada hallazgo es VERIFICADO o etiquetado como [SUPUESTA].
+Úselo cuando: "revisar este PR", "revisión de código", "verificar mi diferencia", "/revisar"

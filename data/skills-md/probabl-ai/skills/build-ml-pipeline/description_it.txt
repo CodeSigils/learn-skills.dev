@@ -1,0 +1,20 @@
+Dichiara la pipeline dall'origine dati al predittore come un **grafico skrub DataOps** (non come un semplice `sklearn.Pipeline`). Ogni passaggio è una funzione Python pura (senza stato) collegata tramite `.skb.apply_func` o uno stimatore compatibile con sklearn (con stato) collegato tramite `.skb.apply`. Si ferma all'oggetto dichiarato: nessun adattamento, suddivisione, messa a punto, persistenza o valutazione.
+TRIGGER — uno qualsiasi tra: - Scrittura o modifica del codice che dichiara qualsiasi collegamento nella catena
+  *fonte dati → predittore*: caricatori, preelaborazione, codificatori /
+  imputatori/scaler, passaggi di funzionalità, oggetti di composizione
+  (`Pipeline`, `ColumnTransformer`, skrub `tabular_pipeline`,
+  `nn.Module`), ovvero lo stimatore finale.
+- Una funzione di elaborazione dati in puro Python destinata a
+  percorso della pipeline (pulisce/deriva/rimodella) — se avvolto
+  tramite `FunctionTransformer`, `skrub.@deferred` / `skrub.var`,
+  una sottoclasse personalizzata "BaseEstimator" o semplicemente richiamata nel file
+  percorso formativo prima del stimatore.
+- Un passaggio viene aggiunto, rimosso, scambiato o riordinato all'interno di un file
+  dichiarazione di gasdotto esistente.
+- Viene utilizzato un semplice `sklearn.Pipeline` / `make_pipeline` come
+  il livello più alto: attiva per reindirizzare in un grafico skrub DataOps.
+- L'utente chiede di costruire/dichiarare/impostare una pipeline/
+  classificatore/regressore per X.
+
+SALTA quando: chiamate `.fit(...)` / cicli di allenamento / `Trainer.fit` / cicli epoch; suddivisione del training/test o suddivisione della convalida incrociata; ricerca di iperparametri; persistenza (`joblib.dump`, checkpoint); valutazione/metriche/punteggio; inferenza su un modello pre-addestrato; EDA puro; domande sulla scelta della biblioteca senza alcuna dichiarazione concreta in gioco.
+COME USARE: consultare prima della prima riga dichiarativa e su ogni modifica strutturale (passaggio aggiunto/scambiato, colonne di input modificate, famiglia di stima modificata). Non riconsultare per modifiche estetiche. **Per prima cosa, leggi le condizioni di arresto ed emetti la lista di controllo pre-volo come testo visibile prima di qualsiasi codice.** Richiama sempre `python-api` per confermare i nomi dei simboli e le firme di skrub / sklearn prima di digitare: non indovinare dalla memoria.

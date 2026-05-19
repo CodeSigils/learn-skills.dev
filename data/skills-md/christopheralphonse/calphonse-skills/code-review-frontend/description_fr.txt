@@ -1,0 +1,4 @@
+Orchestrateur de revues de relations publiques multi-agents. Découvre d'abord les normes de qualité de la base de code (lint, format, build,
+CI), génère ensuite des agents spécialisés en parallèle pour faire apparaître de vrais problèmes dans le git diff.
+Les agents rapportent uniquement les résultats – aucun correctif. Chaque découverte est VÉRIFIÉE ou étiquetée [ASSUMPTION].
+À utiliser lorsque : "examiner ce PR", "révision du code", "vérifier ma différence", "/review"

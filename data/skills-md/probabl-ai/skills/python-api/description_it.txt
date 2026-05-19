@@ -1,0 +1,11 @@
+Cerca l'API pubblica di un pacchetto Python rispetto alla *versione installata* e memorizza nella cache ciò che vale la pena conservare. Quattro forme per tipo di domanda: (0) cache hit in `scratch/api/<lib>/<version>/`; (1) `inspect.signature` + `pydoc.render_doc` per un simbolo; (2) `dir` / `pkgutil.iter_modules` per la superficie di un modulo; (3) WebSearch + WebFetch di documenti con versione per la narrativa ("come", "quale", "cosa restituisce X quando Y"). Non scrivere mai un simbolo dalla memoria dei dati di addestramento: il riconoscimento non è una ricerca.
+TRIGGER — uno qualsiasi tra: - Per nominare un simbolo (funzione/classe/metodo/arg) nel codice. - L'utente chiede "qual è la firma di X?", "cosa c'è nel modulo Y?",
+  "come faccio a chiamare X?", "quale tra A/B dovrei usare?".
+- L'utente chiede "cosa restituisce X quando <condizione>?" (Forma 3 – vedi
+  tabella decisionale).
+- Un'altra competenza nel flusso di lavoro ("build-ml-pipeline`,
+  `evaluate-ml-pipeline`, `iterate-from-skore`,
+  `smoke-test-ml-pipeline`) dice "consulta la competenza API".
+- Sto per recuperare il modello "ovvio" di una libreria dalla memoria.
+SALTA quando: la firma è evidente da un sito di chiamata che hai appena letto in questo turno; il lavoro è solo filesystem/shell (nessun simbolo Python); un file di cache `scratch/api/<lib>/<version>/<topic>.md` risponde già alla domanda (ancora una consultazione Shape 0: semplicemente non riesci a recuperare).
+COME USARE: risolvere prima la versione del pacchetto tramite un file scratch (`scratch/<ts>_version_<pkg>.py` con `import <pkg>; print(<pkg>.__version__)` — eseguito con `pixi run python scratch/<ts>_version_<pkg>.py`). Quindi elenca `scratch/api/<lib>/<version>/`. Quindi scegli la forma dalla casella "Che tipo di domanda?" tavolo. I risultati narrativi vengono memorizzati nella cache. **Tutta l'esecuzione di Python passa attraverso file `scratch/<ts>_*.py` — `python -c` in linea è proibito indipendentemente dalla lunghezza.** L'orientamento specifico dello stack risiede in `references/stack_orientation.md` — carica su richiesta.

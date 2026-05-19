@@ -1,0 +1,1 @@
+計算所有 10 個評分類別（R、HR、RBI、SB、OBP、K、ERA、WHIP、QS、SV）的 Yahoo H2H 類別比賽的每週類別狀態。從雅虎取得當前總計，根據名冊+時間表建立每隻貓的剩餘週預測，然後將比賽/每隻貓的獲勝機率數學委託給「比賽獲勝機率模擬」。使用 sim 的“per_cat_win_probability”和“matchup_win_probability”來匯出 cat_position、cat_Pressure、cat_reachability 和 cat_punt_score，並發出“push 6，punt N”計劃來驅動棄權、串流媒體和陣容決策。當用戶詢問「類別狀態」、「我在哪裡獲勝」、「我應該棄踢」、「比賽得分」、「貓壓力」、每週類別計劃或推哪些貓或讓哪些貓時使用。

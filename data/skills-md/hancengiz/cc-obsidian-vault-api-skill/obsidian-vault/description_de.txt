@@ -1,0 +1,18 @@
+Integrieren Sie Obsidian-Tresore über das Local REST API-Plugin.
+
+Use this skill when the user wants to:
+- Search notes in their Obsidian vault
+- Lesen Sie spezifische Hinweise
+- Erstellen Sie neue Notizen
+- Ändern Sie vorhandene Notizen
+- Manage daily/periodic notes
+- Execute Dataview queries
+
+WICHTIG: Diese Fähigkeit führt destruktive Operationen aus (Erstellen, Ändern, Löschen).
+Befolgen Sie stets die Sicherheitsregeln und Bestätigungsanforderungen.
+
+Activates when user mentions:
+- "Obsidian", "my vault", "my notes"
+- "daily note", "journal entry"
+- "search my notes", "find in Obsidian"
+- Creating, updating, or deleting notes

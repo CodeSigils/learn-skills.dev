@@ -1,0 +1,11 @@
+Vergleichen Sie die öffentliche API eines Python-Pakets mit der *installierten Version* und speichern Sie, was es wert ist, behalten zu werden. Vier Formen nach Fragetyp: (0) Cache-Treffer unter „scratch/api/<lib>/<version>/“; (1) „inspect.signature“ + „pydoc.render_doc“ für ein Symbol; (2) „dir“ / „pkgutil.iter_modules“ für eine Moduloberfläche; (3) WebSearch + WebFetch versionierter Dokumente für die Erzählung („wie“, „welches“, „was gibt X zurück, wenn Y“). Schreiben Sie niemals ein Symbol aus dem Trainingsdatenspeicher – Erkennung ist kein Nachschlagen.
+TRIGGER – einer von: – Benennen eines Symbols (Funktion/Klasse/Methode/Argument) im Code. – Der Benutzer fragt: „Was ist die Signatur von X?“, „Was ist in Modul Y?“,
+  „Wie rufe ich X auf?“, „Welches von A/B soll ich verwenden?“.
+– Benutzer fragt: „Was gibt X zurück, wenn <Bedingung>?“ (Form 3 – siehe
+  Entscheidungstabelle).
+- Eine weitere Workflow-Fähigkeit („build-ml-pipeline“,
+  „evaluate-ml-pipeline“, „iterate-from-score“,
+  `smoke-test-ml-pipeline`) sagt „Konsultieren Sie den API-Skill“.
+- Ich bin dabei, nach dem „offensichtlichen“ Muster einer Bibliothek aus dem Gedächtnis zu greifen.
+ÜBERSPRINGEN, wenn: die Signatur von einer Anrufseite, die Sie gerade in diesem Zug gelesen haben, offensichtlich ist; die Arbeit ist nur Dateisystem/Shell (keine Python-Symbole); Eine „scratch/api/<lib>/<version>/<topic>.md“-Cache-Datei beantwortet die Frage bereits (immer noch eine Shape 0-Beratung – Sie holen sie einfach nicht ab).
+ANWENDUNG: Lösen Sie zuerst die Paketversion über eine Scratch-Datei („scratch/<ts>_version_<pkg>.py“ mit „import <pkg>; print(<pkg>.__version__)“ auf – ausführen Sie mit „pixi run python scratch/<ts>_version_<pkg>.py“. Dann listen Sie „scratch/api/<lib>/<version>/“ auf. Wählen Sie dann die Form aus der Liste „Was für eine Frage?“ aus. Tisch. Narrative Erkenntnisse werden zurückgespeichert. **Die gesamte Python-Ausführung erfolgt über „scratch/<ts>_*.py“-Dateien – Inline-„python -c“ ist unabhängig von der Länge verboten.** Stack-spezifische Ausrichtung befindet sich in „references/stack_orientation.md“ – wird bei Bedarf geladen.

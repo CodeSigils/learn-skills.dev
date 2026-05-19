@@ -1,0 +1,1 @@
+使用 @cloudflare/vitest-pool-workers 設定或升級 Cloudflare Workers 的 vitest 測試。當在新 Worker 中進行鷹架測試、現有 Worker 位於 pool-workers <0.13 (vitest 2/3) 並需要升級時，或者當測試套件遇到“隔離存儲失敗”/“預期 .sqlite，得到 .sqlite-shm”錯誤時使用。固定現代堆疊（vitest 4 + pool-workers ≥0.15 + Node 22）並記錄 v2→v4 遷移配方。

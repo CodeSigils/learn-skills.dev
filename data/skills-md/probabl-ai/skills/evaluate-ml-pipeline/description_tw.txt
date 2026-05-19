@@ -1,0 +1,4 @@
+用於評估單一 sklearn 相容學習器的方法（特別是由“build-ml-pipeline”產生的“SkrubLearner”）。擁有：要呼叫哪個入口點（首先呼叫“skore.evaluate”，需要時明確報告類別），從 scikit-learn 的目錄中選擇哪個交叉驗證器，如何使用在建置時透過“.skb.mark_as_X(split_kwargs=...)”附加的結構元資料（“groups”、“times”等）。停在「報告怎麼說」。預設值（指標、圖表）來自 skore；僅覆寫明確的使用者請求。
+觸發條件：程式碼呼叫 `cross_val_score`、`cross_validate`、`classification_report` 或任何手寫度量列印 (`print(mean_squared_error(...))`)；程式碼呼叫 `.skb.cross_validate(...)` (透過 skore路由以獲得更豐富的輸出）；使用者詢問如何對單一學習者進行評分、評估或比較；使用者詢問如何選擇交叉驗證器；使用者想要查看適合學習者的報告/指標/診斷圖。
+跳過以下情況：聲明管道（使用「build-ml-pipeline」）；超參數/模型搜尋（單獨技能）；擬合、保留或服務最終模型；隨著時間的推移追蹤或比較多次運行的實驗（單獨的技能）。
+如何使用：在任何評估調用之前調用。 **首先，閱讀正文頂部的「停止條件」區塊，並在回應中將飛行前檢查表作為可見文字發出 - 在編寫任何評估程式碼之前，兩者都是必需的。 ** 有關資料的結構事實（組鍵、時間順序）應該已經透過 `split_kwargs` 在 X 標記處進行編碼 — 如果沒有，並且您無法從資料中辨別，請返回 `build-ml-pipeline` 並詢問使用者。對於符號級查找，請遵循“python-api”（skore 符號）和“python-api”（拆分器）；不要憑記憶猜測名字。

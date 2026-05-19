@@ -1,0 +1,11 @@
+根據「已安裝版本」尋找 Python 套件的公共 API，並快取值得保留的內容。以問題類型劃分的四個形狀：(0) `scratch/api/<lib>/<version>/` 下的快取命中； (1) 符號的 `inspect.signature` + `pydoc.render_doc`; (2) `dir` / `pkgutil.iter_modules` 敘事化用於表面版本 (33) 的文檔化； WebFetch（「如何」、「哪個」、「當 Y 時 X 回傳什麼」）。切勿從訓練資料記憶體中寫入符號－識別不是查找。
+TRIGGER — 任意： - 將在程式碼中命名符號（函數/類別/方法/arg）。 - 使用者詢問「X 的簽名是什麼？」、「模組 Y 中有什麼？」、
+  “我如何呼叫X？”，“我應該使用A/B中的哪一個？”。
+- 使用者詢問「當<條件>X回傳什麼？」（形狀 3 — 參見
+  決策表）。
+- 另一個工作流程技能（`build-ml-pipeline`，
+  `評估 ml-pipeline`、`iterate-from-skore`、
+  `smoke-test-ml-pipeline`) 表示「查閱 API 技能」。
+- 即將從記憶中找出圖書館的「明顯」模式。
+跳過以下情況：從您本輪剛讀到的呼叫站點中可以明顯看出簽名；工作僅限於文件系統/shell（無Python符號）； `scratch/api/<lib>/<version>/<topic>.md` 快取檔案已經回答了問題（仍然是 Shape 0 諮詢 - 你只是不獲取）。
+使用方法：首先透過暫存檔案解析套件版本（`scratch/<ts>_version_<pkg>.py` 和 `import <pkg>; print(<pkg>.__version__)` — 使用 `pixi run python scrap/<ts>_version_<pkg>.py` 運行）。然後列出 `scratch/api/<lib>/<version>/`。然後從「什麼樣的問題？」中選擇形狀。桌子。敘述結果會被快取回來。 **所有 Python 執行都透過 `scratch/<ts>_*.py` 檔案 — 無論長度如何，都禁止內聯 `python -c`。 ** 堆疊特定方向位於 `references/stack_orientation.md` — 按需載入。

@@ -1,0 +1,20 @@
+Declare la canalización desde la fuente de datos hasta el predictor como un **gráfico de Skrub DataOps** (no como un `sklearn.Pipeline` simple). Cada paso es una función pura de Python (sin estado) adjunta a través de `.skb.apply_func`, o un estimador compatible con sklearn (con estado) adjunto a través de `.skb.apply`. Se detiene en el objeto declarado: sin ajuste, división, ajuste, persistencia ni evaluación.
+DISPARADOR: cualquiera de: - Escribir o editar código que declare cualquier eslabón de la cadena.
+  *fuente de datos → predictor*: cargadores, preprocesamiento, codificadores /
+  imputadores/escaladores, pasos de características, objetos de composición
+  (`Pipeline`, `ColumnTransformer`, skrub `tabular_pipeline`,
+  `nn.Module`), o el estimador final.
+- Una función de procesamiento de datos puramente Python destinada al
+  ruta de la tubería (limpia/deriva/reforma): ya sea envuelta
+  a través de `FunctionTransformer`, `skrub.@deferred` / `skrub.var`,
+  una subclase personalizada `BaseEstimator`, o simplemente llamada en el
+  ruta de entrenamiento antes del estimador.
+- Un paso se agrega, elimina, intercambia o reordena dentro de un
+  declaración de oleoducto existente.
+- Se está utilizando un simple `sklearn.Pipeline`/`make_pipeline` como
+  el nivel superior: dispare para redirigir a un gráfico de skrub DataOps.
+- El usuario solicita construir/declarar/configurar una canalización/
+  clasificador/regresor para X.
+
+SALTAR cuando: `.fit(...)` llama/bucles de entrenamiento/`Trainer.fit`/bucles de época; división de entrenamiento/prueba o división de validación cruzada; búsqueda de hiperparámetros; persistencia (`joblib.dump`, puntos de control); evaluación/métricas/puntuación; inferencia sobre un modelo previamente entrenado; EDA pura; preguntas de elección de biblioteca sin ninguna declaración concreta en juego.
+CÓMO UTILIZAR: consulte antes de la primera línea declarativa y en cada edición estructural (paso agregado/intercambiado, columnas de entrada modificadas, familia de estimadores modificada). No vuelvas a consultar por ediciones cosméticas. **Primero, lea las condiciones de detención y emita la lista de verificación previa al vuelo como texto visible antes de cualquier código.** Invoque siempre `python-api` para confirmar los nombres y firmas de los símbolos skrub/sklearn antes de escribir; no adivine de memoria.

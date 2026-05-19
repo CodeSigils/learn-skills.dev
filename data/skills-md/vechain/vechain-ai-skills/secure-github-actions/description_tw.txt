@@ -1,0 +1,1 @@
+確保 GitHub Actions 工作流程免受供應鏈、特權和 shell 注入風險的影響。在建立、搭建、編輯或檢視 .github/workflows/*.yml、可重複使用工作流程、action.yml 或 GitHub Actions 的 Dependabot 配置時使用。也可用於完整的儲存庫安全審核（「審核我的工作流程」、「強化此儲存庫」、「安全掃描」、「將操作鎖定到 SHA」）、使用 gitleaks 和 trufflehog 進行秘密掃描以及公開發布前的安全審查。強制執行完整的 40 個字元提交 SHA 固定，避免對不受信任的程式碼使用“pull_request_target”，透過“env:”將 GitHub 上下文傳遞到“run:”步驟，並設定最低權限。

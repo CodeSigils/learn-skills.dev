@@ -1,0 +1,11 @@
+*설치된 버전*과 비교하여 Python 패키지의 공개 API를 찾아 보관할 가치가 있는 항목을 캐시하세요. 질문 유형별 네 가지 형태: (0) `scratch/api/<lib>/<version>/`에서 캐시 적중; (1) 기호의 경우 `inspect.signature` + `pydoc.render_doc`; (2) 모듈 표면의 경우 `dir` / `pkgutil.iter_modules`; (3) 설명을 위한 버전이 지정된 문서의 WebSearch + WebFetch("어떻게", "어느", "Y일 때 X가 무엇을 반환합니까?") 훈련 데이터 메모리에서 기호를 쓰지 마십시오. 인식은 조회가 아닙니다.
+TRIGGER — 다음 중 하나: - 코드에서 기호(함수/클래스/메서드/인수)의 이름을 지정합니다. - 사용자가 "X의 서명은 무엇입니까?", "모듈 Y에는 무엇입니까?"라고 묻습니다.
+  "X를 어떻게 호출하나요?", "A/B 중 어떤 것을 사용해야 하나요?"
+- 사용자가 "<조건>일 때 X는 무엇을 반환합니까?"라고 묻습니다. (모양 3 — 참조
+  결정 테이블).
+- 또 다른 워크플로 기술(`build-ml-pipeline`,
+  `evaluate-ml-pipeline`, `iterate-from-skore`,
+  `smoke-test-ml-pipeline`)은 'API 기술을 참조하세요'라고 말합니다.
+- 기억에서 도서관의 "명백한" 패턴에 도달하려고 합니다.
+건너뛰기: 이번 차례에 방금 읽은 호출 사이트에서 서명이 분명할 때; 작업은 파일 시스템/셸 전용입니다(Python 기호 없음). `scratch/api/<lib>/<version>/<topic>.md` 캐시 파일이 이미 질문에 대한 답변을 제공합니다(여전히 Shape 0 상담 — 가져오지 않음).
+사용 방법: 먼저 스크래치 파일(`import <pkg>; print(<pkg>.__version__)`이 포함된 `scratch/<ts>_version_<pkg>.py` - `pixi run python scrap/<ts>_version_<pkg>.py`로 실행)을 통해 패키지 버전을 확인하세요. 그런 다음 `scratch/api/<lib>/<version>/`을 나열합니다. 그런 다음 "어떤 질문인가요?"에서 모양을 선택하세요. 테이블. 서술적 발견 항목은 다시 캐시됩니다. **모든 Python 실행은 `scratch/<ts>_*.py` 파일을 통해 이루어집니다. 인라인 `python -c`는 길이에 관계없이 금지됩니다.** 스택별 방향은 `references/stack_orientation.md`에 있습니다. 요청 시 로드됩니다.

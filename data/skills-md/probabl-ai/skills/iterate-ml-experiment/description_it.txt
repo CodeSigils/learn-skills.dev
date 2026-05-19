@@ -1,0 +1,12 @@
+Possiede il ciclo di iterazione sopra un'area di lavoro ML: l'indice `journal/JOURNAL.md` e le note di progettazione `journal/NN_short_name.md` per esperimento che devono essere redatte e approvate dall'utente **prima** della creazione di `experiments/NN_short_name.py`. Guida il ciclo proposta → iterazione → approvazione → implementazione → registrazione; invia a `iterate-from-skore` / `iterate-from-user` per l'approvvigionamento.
+TRIGGER: uno qualsiasi tra: - Una sessione si apre in un'area di lavoro ML (indipendentemente dal fatto che sia "journal/"
+  esiste ancora: mancante/segnaposto → modalità bootstrap).
+- L'utente dice "cosa c'è dopo", "riprendi", "dove eravamo", "andiamo
+  iterare", "proporre successivo", "prima linea di base".
+- Sto per creare un nuovo `experiments/NN_*.py` (il file corrispondente
+  `journal/NN_*.md` deve esistere ed essere approvato per primo).
+- L'utente desidera registrare un risultato da una corsa terminata. - L'utente chiede di confrontare gli esperimenti passati o di rivedere ciò che è stato
+  provato ("confronta X e Y", "dove siamo?").
+
+SALTA quando: ancora nessun `journal/` E nessuna impalcatura dello spazio di lavoro (indirizzamento a `organize-ml-workspace`); il lavoro è meccanico all'interno di `pipeline.py` / `evaluate.py` / `data.py` senza implicazioni a livello di journal (di proprietà di `build-ml-pipeline` / `evaluate-ml-pipeline`); l'utente richiede una ricerca di simboli (`python-api`); l'utente sta diagnosticando un singolo rapporto sul punteggio senza un'inquadratura "cosa succederà dopo" ("evaluate-ml-pipeline`).
+COME USARE: leggi prima `journal/JOURNAL.md`, classifica il turno tramite il **Selettore modalità** (tabella in alto), quindi leggi solo la sezione corrispondente. Le abilità dei fratelli si aprono *just-in-time* quando un passaggio le richiede: non leggerle tutte e nove all'inizio della sessione. Le note di progettazione sono l'unico artefatto scritto da questa abilità; le modalità di lettura, confronto e panoramica non scrivono.

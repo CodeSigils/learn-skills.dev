@@ -1,0 +1,20 @@
+Deklarieren Sie die Pipeline von der Datenquelle zum Prädiktor als **skrub DataOps-Diagramm** (nicht als bloße „sklearn.Pipeline“). Jeder Schritt ist entweder eine reine Python-Funktion (zustandslos), die über „.skb.apply_func“ angehängt wird, oder ein sklearn-kompatibler Schätzer (zustandsbehaftet), der über „.skb.apply“ angehängt wird. Stoppt beim deklarierten Objekt – keine Anpassung, Aufteilung, Optimierung, Persistenz oder Auswertung.
+TRIGGER – einer von: - Code schreiben oder bearbeiten, der ein beliebiges Glied in der Kette deklariert
+  *Datenquelle → Prädiktor*: Lader, Vorverarbeitung, Encoder /
+  Imputer/Skalierer, Feature-Schritte, Kompositionsobjekte
+  (`Pipeline`, `ColumnTransformer`, skrub `tabular_pipeline`,
+  `nn.Module`) oder der endgültige Schätzer.
+– Eine reine Python-Datenverarbeitungsfunktion für
+  Pipeline-Pfad (bereinigt/ableitet/umformt) – ob umwickelt
+  über `FunctionTransformer`, `skrub.@deferred` / `skrub.var`,
+  eine benutzerdefinierte „BaseEstimator“-Unterklasse oder einfach in der aufgerufen
+  Trainingspfad vor dem Schätzer.
+- Ein Schritt wird innerhalb eines hinzugefügt, entfernt, ausgetauscht oder neu angeordnet
+  vorhandene Pipeline-Deklaration.
+- Eine bloße „sklearn.Pipeline“ / „make_pipeline“ wird verwendet als
+  die oberste Ebene – Auslösen, um in ein Skrub-DataOps-Diagramm umzuleiten.
+- Der Benutzer bittet darum, eine Pipeline zu erstellen / zu deklarieren / einzurichten /
+  Klassifikator / Regressor für X.
+
+ÜBERSPRINGEN, wenn: `.fit(...)`-Aufrufe / Trainingsschleifen / `Trainer.fit` / Epoch-Schleifen; Zug-/Testaufteilung oder Kreuzvalidierungsaufteilung; Hyperparametersuche; Persistenz („joblib.dump“, Checkpointing); Bewertung/Metriken/Scoring; Rückschluss auf ein vorab trainiertes Modell; reines EDA; Fragen zur Bibliotheksauswahl ohne konkrete Erklärung im Spiel.
+ANWENDUNG: Konsultieren Sie vor der ersten deklarativen Zeile und bei jeder strukturellen Änderung (hinzugefügter/getauschter Schritt, geänderte Eingabespalten, geänderte Schätzerfamilie). Wenden Sie sich wegen kosmetischer Änderungen nicht erneut an den Arzt. **Lesen Sie zunächst die Stoppbedingungen und geben Sie die Preflight-Checkliste als sichtbaren Text vor jedem Code aus.** Rufen Sie immer „python-api“ auf, um Skrub-/Sklearn-Symbolnamen und -Signaturen zu bestätigen, bevor Sie etwas eingeben – raten Sie nicht aus dem Gedächtnis.

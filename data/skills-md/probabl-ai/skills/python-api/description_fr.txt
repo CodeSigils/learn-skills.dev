@@ -1,0 +1,11 @@
+Recherchez l'API publique d'un package Python par rapport à la *version installée* et mettez en cache ce qui vaut la peine d'être conservé. Quatre formes par type de question : (0) accès au cache sous `scratch/api/<lib>/<version>/` ; (1) `inspect.signature` + `pydoc.render_doc` pour un symbole ; (2) `dir` / `pkgutil.iter_modules` pour une surface de module ; (3) WebSearch + WebFetch de documents versionnés pour la narration ("comment", "qui", "que renvoie X quand Y"). N'écrivez jamais un symbole à partir de la mémoire de données d'entraînement - la reconnaissance n'est pas une recherche.
+TRIGGER — l'un des éléments suivants : - Sur le point de nommer un symbole (fonction/classe/méthode/argument) dans le code. - L'utilisateur demande "quelle est la signature de X ?", "qu'est-ce qu'il y a dans le module Y ?",
+  "comment appeler X ?", "lequel A/B dois-je utiliser ?".
+- L'utilisateur demande : « Que renvoie X lorsque <condition> ? » (Forme 3 — voir
+  table de décision).
+- Une autre compétence de workflow (`build-ml-pipeline`,
+  `évaluer-ml-pipeline`, `itérer-à partir de-skore`,
+  `smoke-test-ml-pipeline`) dit "consulter la compétence API".
+- Sur le point d'extraire de mémoire le modèle "évident" d'une bibliothèque.
+SAUTER lorsque : la signature est évidente sur un site d'appel que vous venez de lire à ce tour ; le travail concerne uniquement le système de fichiers/shell (pas de symboles Python) ; un fichier cache `scratch/api/<lib>/<version>/<topic>.md` répond déjà à la question (toujours une consultation Shape 0 — vous ne récupérez tout simplement pas).
+COMMENT UTILISER : résolvez d'abord la version du package via un fichier scratch (`scratch/<ts>_version_<pkg>.py` avec `import <pkg>; print(<pkg>.__version__)` — exécuté avec `pixi run python scratch/<ts>_version_<pkg>.py`). Ensuite, listez `scratch/api/<lib>/<version>/`. Choisissez ensuite la forme dans la liste « Quel genre de question ? » tableau. Les découvertes narratives sont mises en cache. **Toute l'exécution de Python passe par les fichiers `scratch/<ts>_*.py` — `python -c` en ligne est interdit quelle que soit la longueur.** L'orientation spécifique à la pile se trouve dans `references/stack_orientation.md` — chargement à la demande.

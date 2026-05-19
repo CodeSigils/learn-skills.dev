@@ -1,0 +1,20 @@
+Déclarez le pipeline de la source de données au prédicteur en tant que **graphique skrub DataOps** (et non en tant que simple `sklearn.Pipeline`). Chaque étape est soit une fonction Python pure (sans état) attachée via `.skb.apply_func`, soit un estimateur compatible sklearn (avec état) attaché via `.skb.apply`. S'arrête à l'objet déclaré - pas d'ajustement, de division, de réglage, de persistance ou d'évaluation.
+TRIGGER — l'un des éléments suivants : - Écriture ou édition de code qui déclare n'importe quel maillon de la chaîne
+  *source de données → prédicteur* : chargeurs, prétraitement, encodeurs /
+  imputers/scalers, étapes de fonctionnalités, objets de composition
+  (`Pipeline`, `ColumnTransformer`, skrub `tabular_pipeline`,
+  `nn.Module`), ou l'estimateur final.
+- Une fonction informatique pur Python destinée au
+  chemin du pipeline (nettoie / dérive / remodèle) - qu'il soit enveloppé
+  via `FunctionTransformer`, `skrub.@deferred` / `skrub.var`,
+  une sous-classe `BaseEstimator` personnalisée, ou simplement appelée dans le
+  parcours de formation avant l’estimateur.
+- Une étape est ajoutée, supprimée, échangée ou réorganisée dans un
+  déclaration de pipeline existante.
+- Un simple `sklearn.Pipeline` / `make_pipeline` est utilisé comme
+  le niveau supérieur - déclenchez pour rediriger vers un graphique skrub DataOps.
+- L'utilisateur demande de construire/déclarer/mettre en place un pipeline/
+  classificateur/régresseur pour X.
+
+SAUTER lorsque : appels `.fit(...)` / boucles d'entraînement / `Trainer.fit` / boucles d'époque ; répartition train/test ou répartition par validation croisée ; recherche d'hyperparamètres ; persistance (`joblib.dump`, points de contrôle) ; évaluation/métriques/notation ; inférence sur un modèle pré-entraîné ; EDA pur; questions de choix de bibliothèque sans déclaration concrète en jeu.
+COMMENT UTILISER : consulter avant la première ligne déclarative et à chaque modification structurelle (étape ajoutée/permutée, colonnes de saisie modifiées, famille d'estimateurs modifiée). Ne consultez pas à nouveau pour des modifications cosmétiques. **Tout d'abord, lisez les conditions d'arrêt et émettez la liste de contrôle avant vol sous forme de texte visible avant tout code.** Invoquez toujours `python-api` pour confirmer les noms et signatures des symboles skrub/sklearn avant de taper — ne devinez pas de mémoire.

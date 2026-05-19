@@ -1,0 +1,4 @@
+Multi-Agent-PR-Rezensions-Orchestrator. Ermittelt zuerst die Qualitätsstandards der Codebasis (Lint, Format, Build,
+CI) bringt dann parallel spezialisierte Agenten hervor, um echte Probleme im Git-Diff aufzudecken.
+Agenten melden nur Ergebnisse – keine Korrekturen. Jeder Befund ist VERIFIZIERT oder mit [ANNAHME] gekennzeichnet.
+Verwenden Sie, wenn: „diese PR überprüfen“, „Code überprüfen“, „meinen Unterschied prüfen“, „/review“

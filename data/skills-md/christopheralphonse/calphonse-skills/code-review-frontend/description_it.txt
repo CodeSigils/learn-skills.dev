@@ -1,0 +1,4 @@
+Orchestratore di revisioni PR multi-agente. Scopre prima gli standard di qualità della base di codice (lint, formato, build,
+CI), quindi genera agenti specializzati in parallelo per far emergere problemi reali in git diff.
+Gli agenti segnalano solo i risultati, nessuna correzione. Ogni risultato è VERIFICATO o contrassegnato con [ASSUNZIONE].
+Utilizzare quando: "rivedi questo PR", "revisione del codice", "controlla il mio diff", "/review"

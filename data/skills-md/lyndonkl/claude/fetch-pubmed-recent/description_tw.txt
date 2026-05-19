@@ -1,0 +1,1 @@
+取得在給定日期視窗中發布的與關鍵字集相符的 PubMed 文章，傳回標準化記錄（PMID、標題、作者、摘要、期刊、日期、DOI、URL）。透過 WebFetch 使用 NCBI 電子實用程式（“esearch”+“esummary”+“efetch”）以實現可移植性，但在連接時更喜歡 PubMed MCP 伺服器的“search_articles”+“get_article_metadata”工具（更快、分頁、解析）。使用可選的 MeSH 擴充功能建置日期限制的查詢。領域中立 - 可用於任何 PubMed 掃描，而不僅僅是一個項目。當使用者提及 PubMed、NCBI、最近 N 天的 PubMed、每週 PubMed 掃描、MeSH 搜尋時使用，或文獻掃描代理需要結構化 PubMed 記錄時使用。
