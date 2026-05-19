@@ -1,0 +1,4 @@
+Multi-agent PR review orchestrator. Discovers codebase quality standards first (lint, format, build,
+CI), then spawns specialized agents in parallel to surface real issues in the git diff.
+Agents report findings only — no fixes. Every finding is VERIFIED or tagged [ASSUMPTION].
+Use when: "review this PR", "code review", "check my diff", "/review"

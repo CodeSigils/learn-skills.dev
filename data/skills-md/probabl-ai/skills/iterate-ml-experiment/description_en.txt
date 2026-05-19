@@ -1,0 +1,12 @@
+Owns the iteration loop on top of an ML workspace: the `journal/JOURNAL.md` index and the per-experiment `journal/NN_short_name.md` design notes that must be drafted and approved by the user **before** `experiments/NN_short_name.py` is created. Drives the propose → iterate → approve → implement → record loop; dispatches to `iterate-from-skore` / `iterate-from-user` for sourcing.
+TRIGGER — any of: - A session opens in an ML workspace (whether or not `journal/`
+  exists yet — missing/placeholder → bootstrap mode).
+- User says "what's next", "resume", "where were we", "let's
+  iterate", "propose next", "first baseline".
+- About to create a new `experiments/NN_*.py` (the matching
+  `journal/NN_*.md` must exist and be approved first).
+- User wants to record an outcome from a finished run. - User asks to compare past experiments or review what's been
+  tried ("compare X and Y", "where are we?").
+
+SKIP when: no `journal/` yet AND no workspace scaffold (route to `organize-ml-workspace`); the work is mechanical inside `pipeline.py` / `evaluate.py` / `data.py` with no journal-level implication (owned by `build-ml-pipeline` / `evaluate-ml-pipeline`); the user asks for a symbol lookup (`python-api`); the user is diagnosing a single skore report without a "what next" framing (`evaluate-ml-pipeline`).
+HOW TO USE: read `journal/JOURNAL.md` first, classify the turn via the **Mode picker** (table near the top), then read only the matching section. Sibling skills open *just-in-time* when a step requires them — do not pre-read all nine at session start. Design notes are the only artifact this skill writes; read, compare, and overview modes don't write.

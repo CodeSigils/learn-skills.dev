@@ -1,0 +1,20 @@
+Declare the pipeline from data source to predictor as a **skrub DataOps graph** (not as a bare `sklearn.Pipeline`). Every step is either a pure-Python function (stateless) attached via `.skb.apply_func`, or a sklearn-compatible estimator (stateful) attached via `.skb.apply`. Stops at the declared object — no fit, split, tuning, persistence, or evaluation.
+TRIGGER — any of: - Writing or editing code that declares any link in the chain
+  *data source → predictor*: loaders, preprocessing, encoders /
+  imputers / scalers, feature steps, composition objects
+  (`Pipeline`, `ColumnTransformer`, skrub `tabular_pipeline`,
+  `nn.Module`), or the final estimator.
+- A pure-Python data-processing function destined for the
+  pipeline path (cleans / derives / reshapes) — whether wrapped
+  via `FunctionTransformer`, `skrub.@deferred` / `skrub.var`,
+  a custom `BaseEstimator` subclass, or just called in the
+  training path before the estimator.
+- A step is added, removed, swapped, or reordered inside an
+  existing pipeline declaration.
+- A bare `sklearn.Pipeline` / `make_pipeline` is being used as
+  the top-level — fire to redirect into a skrub DataOps graph.
+- The user asks to build / declare / set up a pipeline /
+  classifier / regressor for X.
+
+SKIP when: `.fit(...)` calls / training loops / `Trainer.fit` / epoch loops; train/test split or cross-validation splitting; hyperparameter search; persistence (`joblib.dump`, checkpointing); evaluation / metrics / scoring; inference over a pre-trained model; pure EDA; library-choice questions with no concrete declaration in play.
+HOW TO USE: consult before the first declarative line and on every structural edit (added/swapped step, changed input columns, changed estimator family). Don't re-consult for cosmetic edits. **First, read the Stop conditions and emit the Pre-flight checklist as visible text before any code.** Always invoke `python-api` to confirm skrub / sklearn symbol names and signatures before typing — don't guess from memory.

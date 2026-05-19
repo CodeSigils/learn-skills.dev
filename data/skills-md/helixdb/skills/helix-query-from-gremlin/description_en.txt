@@ -1,0 +1,1 @@
+Translate Gremlin and TinkerPop-style traversals into HelixDB Rust DSL stored queries. Use when the input contains Gremlin, TinkerPop, g.V, g.E, hasLabel, has, out, in, both, outE, inE, repeat, emit, dedup, valueMap, count, range, or limit and the goal is to produce an equivalent Helix Rust query.

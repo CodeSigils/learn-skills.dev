@@ -1,0 +1,11 @@
+Look up the public API of a Python package against the *installed version* and cache what's worth keeping. Four shapes by question type: (0) cache hit under `scratch/api/<lib>/<version>/`; (1) `inspect.signature` + `pydoc.render_doc` for a symbol; (2) `dir` / `pkgutil.iter_modules` for a module surface; (3) WebSearch + WebFetch of versioned docs for narrative ("how", "which", "what does X return when Y"). Never write a symbol from training-data memory — recognition is not a lookup.
+TRIGGER — any of: - About to name a symbol (function / class / method / arg) in code. - User asks "what's the signature of X?", "what's in module Y?",
+  "how do I call X?", "which of A/B should I use?".
+- User asks "what does X return when <condition>?" (Shape 3 — see
+  decision table).
+- Another workflow skill (`build-ml-pipeline`,
+  `evaluate-ml-pipeline`, `iterate-from-skore`,
+  `smoke-test-ml-pipeline`) says "consult the API skill".
+- About to reach for a library's "obvious" pattern from memory.
+SKIP when: the signature is obvious from a call site you just read in this turn; the work is filesystem / shell only (no Python symbols); a `scratch/api/<lib>/<version>/<topic>.md` cache file already answers the question (still a Shape 0 consultation — you just don't fetch).
+HOW TO USE: resolve the package version first via a scratch file (`scratch/<ts>_version_<pkg>.py` with `import <pkg>; print(<pkg>.__version__)` — run with `pixi run python scratch/<ts>_version_<pkg>.py`). Then list `scratch/api/<lib>/<version>/`. Then pick the shape from the "What kind of question?" table. Narrative findings get cached back. **All Python execution goes through `scratch/<ts>_*.py` files — inline `python -c` is forbidden regardless of length.** Stack-specific orientation lives in `references/stack_orientation.md` — load on demand.
