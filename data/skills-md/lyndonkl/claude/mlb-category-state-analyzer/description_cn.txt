@@ -1,0 +1,1 @@
+计算所有 10 个评分类别（R、HR、RBI、SB、OBP、K、ERA、WHIP、QS、SV）的 Yahoo H2H 类别比赛的每周类别状态。从雅虎获取当前总计，根据名册+时间表构建每只猫的剩余周预测，然后将比赛/每只猫的获胜概率数学委托给“比赛获胜概率模拟”。使用 sim 的“per_cat_win_probability”和“matchup_win_probability”来导出 cat_position、cat_Pressure、cat_reachability 和 cat_punt_score，并发出“push 6，punt N”计划来驱动弃权、流媒体和阵容决策。当用户询问“类别状态”、“我在哪里获胜”、“我应该弃踢”、“比赛得分”、“猫压力”、每周类别计划或推哪些猫或让哪些猫时使用。

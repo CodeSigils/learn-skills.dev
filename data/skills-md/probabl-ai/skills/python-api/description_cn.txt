@@ -1,0 +1,11 @@
+根据“已安装版本”查找 Python 包的公共 API，并缓存值得保留的内容。按问题类型划分的四种形状：(0) `scratch/api/<lib>/<version>/` 下的缓存命中； (1) 符号的 `inspect.signature` + `pydoc.render_doc`； (2) `dir` / `pkgutil.iter_modules` 用于模块表面； (3) 用于叙述的版本化文档的 WebSearch + WebFetch（“如何”、“哪个”、“当 Y 时 X 返回什么”）。切勿从训练数据存储器中写入符号——识别不是查找。
+TRIGGER — 任意： - 将在代码中命名符号（函数/类/方法/arg）。 - 用户询问“X 的签名是什么？”、“模块 Y 中有什么？”、
+  “我如何调用X？”，“我应该使用A/B中的哪一个？”。
+- 用户询问“当<条件>时X返回什么？” （形状 3 — 参见
+  决策表）。
+- 另一项工作流程技能（`build-ml-pipeline`，
+  `评估 ml-pipeline`、`iterate-from-skore`、
+  `smoke-test-ml-pipeline`) 表示“查阅 API 技能”。
+- 即将从记忆中找出图书馆的“明显”模式。
+跳过以下情况：从您本轮刚读到的调用站点中可以明显看出签名；工作仅限于文件系统/shell（无Python符号）； `scratch/api/<lib>/<version>/<topic>.md` 缓存文件已经回答了问题（仍然是 Shape 0 咨询 - 你只是不获取）。
+如何使用：首先通过临时文件解析包版本（`scratch/<ts>_version_<pkg>.py` 和 `import <pkg>; print(<pkg>.__version__)` — 使用 `pixi run python scrap/<ts>_version_<pkg>.py` 运行）。然后列出 `scratch/api/<lib>/<version>/`。然后从“什么样的问题？”中选择形状。桌子。叙述结果会被缓存回来。 **所有 Python 执行都通过 `scratch/<ts>_*.py` 文件 — 无论长度如何，都禁止内联 `python -c`。** 堆栈特定方向位于 `references/stack_orientation.md` — 按需加载。

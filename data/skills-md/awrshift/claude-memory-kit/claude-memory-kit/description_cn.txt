@@ -1,0 +1,1 @@
+具有代理审计仪式架构的 Claude Code 代理的持久内存。用户只说话；代理捕获、审核、提出晋升建议并撰写。四层——每日日志、热缓存（MEMORY.md）、基于角色的参考技能（Anthropic-native、用户可调用：false）、规范规则。 /close-day 在一天结束时运行审核仪式。通过projects/<name>/进行多项目隔离。零外部依赖。

@@ -1,0 +1,1 @@
+获取在给定日期窗口中发布的与关键字集匹配的 PubMed 文章，返回标准化记录（PMID、标题、作者、摘要、期刊、日期、DOI、URL）。通过 WebFetch 使用 NCBI 电子实用程序（“esearch”+“esummary”+“efetch”）以实现可移植性，但在连接时更喜欢 PubMed MCP 服务器的“search_articles”+“get_article_metadata”工具（更快、分页、解析）。使用可选的 MeSH 扩展构建日期限制的查询。领域中立 - 可用于任何 PubMed 扫描，而不仅仅是一个项目。当用户提及 PubMed、NCBI、最近 N 天的 PubMed、每周 PubMed 扫描、MeSH 搜索时使用，或者当文献扫描代理需要结构化 PubMed 记录时使用。

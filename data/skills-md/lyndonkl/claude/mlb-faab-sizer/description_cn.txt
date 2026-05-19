@@ -1,0 +1,1 @@
+计算 FAAB（自由球员收购预算）对雅虎梦幻棒球豁免目标的建议出价和最高出价。实现 faab-bid-framework 的棒球特定分层（positional_need_fit、role_certainty、urgency、season_pace、league-inflation Calibration），并将博弈论原语（第一价格着色和获胜者诅咒理发）委托给同级技能“拍卖第一价格着色”和“拍卖获胜者诅咒理发”。产生建议的出价、硬性上限、完整授权链的基本原理以及护栏标志。当用户询问“我应该对 X 出价多少”、提及 FAAB 出价、放弃出价金额、盲目出价、雅虎放弃索赔规模时，或者当 mlb-waiver-analyst 需要针对已识别目标的出价金额时使用。
