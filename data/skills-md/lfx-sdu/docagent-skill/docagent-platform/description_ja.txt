@@ -1,0 +1,1 @@
+DocuAgent の作業をユーザーの意図に応じてルーティングします。製品 UI (NestJS /execution/* + MSAL) とエージェント OpenAPI (/agents/v1) です。適用するスキル、認証 (ConfigAgent の X-API キーのみ)、非同期ジョブのポーリング、またはエンドポイントを優先するかどうかを選択するときに使用します。 [結果] タブ、フィルター、および NestJS 対 SDU パスについては、docagent-results を使用します。
