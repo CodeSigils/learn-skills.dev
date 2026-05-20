@@ -1,0 +1,1 @@
+使用Figma Desktop MCP（get_metadata、get_variable_defs、create_design_system_rules、get_design_context、get_screenshot）从Figma 生成Android Jetpack Compose UI。自动检测 Figma 中的图标/矢量节点，获取可用的 SVG/路径数据，并使用 Android MCP Toolkit 将图标转换为 Android VectorDrawable XML (convert-svg-to-android-drawable)。当用户共享 Figma 链接/节点 ID 并要求在 Figma 中实现 Compose UI 时使用。

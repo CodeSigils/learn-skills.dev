@@ -1,1 +1,1 @@
-当代码出现 LocalDate.now() / LocalDateTime.now() / Instant.now() / new Date() / Date.now() / time.Now() 等"当前时间"调用，或涉及周/月/日起点、跨时区比较、数据库时间字段时触发。防止生产环境时区漂移导致的统计错乱。
+When the code contains calls such as LocalDate.now() / LocalDateTime.now() / Instant.now() / new Date() / Date.now() / time.Now() that retrieve the “current time,” or involves week/month/day start points, cross‑timezone comparisons, or database time fields, it should be triggered. This prevents statistical errors caused by time‑zone drift in the production environment.

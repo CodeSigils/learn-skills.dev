@@ -1,1 +1,1 @@
-当代码涉及循环内查询、批量 ID 查询、IN 子句、BFS/递归遍历、嵌套 service 调用时触发。防止 N+1 查询、IN 子句过长、递归内存炸裂等性能陷阱。
+Triggered when the code involves queries inside loops, batch ID queries, IN clauses, BFS/recursive traversals, or nested service calls. It aims to prevent performance pitfalls such as N+1 queries, excessively long IN clauses, and recursive memory blowouts.

@@ -1,0 +1,14 @@
+现代 Web 开发最佳实践的搜索工具。强制：首先对所有 HTML/CSS 和客户端 JS 任务执行。不要跳过——Web API 发展迅速，训练权重包含过时的模式。
+
+立即触发：
+- UI/布局：模态、对话框、弹出窗口、Glassmorphism/背景过滤器、锚点定位、容器查询、`:has()`、`:user-valid`。
+- 滚动/运动：视图转换、滚动驱动的动画、滚动视差/显示。
+- 性能：CWV（LCP、INP）、内容可见性、获取优先级、图像优化。
+- 系统/API：本地文件系统访问、WebUSB、WebSockets 同步、WebAssembly 小部件。
+- 框架：调整 React、Vue、Angular 中的布局/样式。
+- 通用前端：表单、自动填充、高级输入、自定义滚动条、现代组件状态等。
+
+不要触发：
+- 后端：数据库 SQL、ORM、Express API 路由。
+- 管道：CI/CD 部署、Docker、操作。
+- 通用：本地脚本（Python/Go 工具）、ESLint、Git。

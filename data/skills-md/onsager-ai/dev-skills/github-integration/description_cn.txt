@@ -1,0 +1,1 @@
+在 Claude Code 云会话和 GitHub Copilot 编码代理环境中启用 GitHub CLI (`gh`)。在以下情况下使用此技能：(1) 设置项目，以便云 AI 代理可以使用“gh”进行 PR、问题和发布，(2) 为“gh”安装配置设置脚本或 SessionStart 挂钩，(3) 为 GitHub Copilot 代理添加“copilot-setup-steps.yml”，(4) 对云会话中的“gh”身份验证故障进行故障排除，或 (5) 为无头环境配置“GH_TOKEN”。触发条件：“启用 gh”、“github 集成”、“Claude Code 云设置”、“copilot 设置步骤”、“云中的 gh 身份验证”、“gh 不在云中工作”、“设置脚本”或任何涉及从基于云的 AI 编码代理访问 GitHub CLI 的请求。
