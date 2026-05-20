@@ -1,0 +1,1 @@
+사용자 의도에 따라 DocuAgent 작업을 라우팅합니다(제품 UI(NestJS /execution/* + MSAL) 및 에이전트 OpenAPI(/agents/v1)). 적용할 기술, 인증(ConfigAgent 전용 X-API-Key), 비동기 작업 폴링 또는 엔드포인트 우선 유지를 선택할 때 사용합니다. 결과 탭, 필터, NestJS 및 SDU 경로의 경우 docagent-results를 사용하세요.
