@@ -1,0 +1,1 @@
+当代码出现 LocalDate.now() / LocalDateTime.now() / Instant.now() / new Date() / Date.now() / time.Now() 等"当前时间"调用，或涉及周/月/日起点、跨时区比较、数据库时间字段时触发。防止生产环境时区漂移导致的统计错乱。

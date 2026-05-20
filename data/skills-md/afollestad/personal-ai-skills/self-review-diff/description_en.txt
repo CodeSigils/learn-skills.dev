@@ -1,0 +1,8 @@
+Self-review, self review, self-reviewing, audit, check, or fix the current
+uncommitted Git diff or other uncommitted local Git changes before a commit or
+pull request. Use when the user asks for a repo-aware quality audit,
+pre-commit review, review of their diff, another pass,
+or another pass over local changes, or when asked to inspect local diffs,
+staged changes, unstaged changes, or untracked files for bugs, regressions,
+missing tests, lint, accessibility, stale code, or similar issues. The workflow
+loops after automatic or confirmed fixes until a clean pass remains.
