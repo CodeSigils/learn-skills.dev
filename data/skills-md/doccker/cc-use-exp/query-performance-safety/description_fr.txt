@@ -1,0 +1,1 @@
+Déclenché lorsque le code implique des requêtes dans des boucles, des requêtes d'ID de lot, des clauses IN, des traversées BFS/récursives ou des appels de service imbriqués. Il vise à éviter les problèmes de performances tels que les requêtes N+1, les clauses IN trop longues et les explosions de mémoire récursives.
