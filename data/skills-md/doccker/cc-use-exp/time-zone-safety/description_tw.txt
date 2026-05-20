@@ -1,0 +1,1 @@
+當程式碼包含檢索「目前時間」的 LocalDate.now() / LocalDateTime.now() / Instant.now() / new Date() / Date.now() / time.Now() 等呼叫時，或涉及週/月/日開始點、跨時區比較或資料庫時間欄位時觸發。這樣可以防止生產環境中時區漂移所導致的統計錯誤。
