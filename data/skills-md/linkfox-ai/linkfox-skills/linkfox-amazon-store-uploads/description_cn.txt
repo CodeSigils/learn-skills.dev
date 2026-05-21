@@ -1,0 +1,1 @@
+亚马逊商店文件上传（相当于linkfox-amazon-store-auth系列）是通过/spApi/developerProxy调用Uploads API v2020-11-01的createUploadDestinationForResource来执行的，然后将文件上传到返回的URL以供A+ Content和Messaging等API使用。当用户提及上传文件、createUploadDestinationForResource、上传目的地、contentMD5、预签名上传、SP-API 上传、A+ 图片上传或消息附件上传时会触发该事件。

@@ -1,0 +1,10 @@
+通过本地 Claude 代码的“gh” CLI 进行 GitHub PR 审查工作流程。用户选择
+来自“gh pr list”的 PR，然后是评论风格（一般/安全/多角度
+/第二意见/简化/子模块SHA验证）。获取和
+分析差异，返回结构化结果，并可选择发布评论
+回到公关。无 Anthropic API 成本 — 保留在 Claude Code 订阅范围内。
+
+使用时机：审查现有 PR（“审查此 PR”、“查看 PR #N”）、
+列出/检查最近的 PR，通过以下方式将结果发布回 GitHub
+`gh pr comment`/`gh api`，验证碰撞子模块的父仓库 PR
+SHA，或者当存储库/PR 不明确并且必须首先列出候选者时。

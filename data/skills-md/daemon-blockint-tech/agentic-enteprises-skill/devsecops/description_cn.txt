@@ -1,0 +1,10 @@
+指导将安全性嵌入到软件交付中的 DevSecOps 实践——左移扫描、
+CI/CD 安全门、供应链完整性、云/容器运行时控制、威胁建模、
+以及带有审计证据的漏洞管理。
+在设计或强化交付管道、添加 SAST/SCA/secrets/IaC/容器扫描时使用，
+实施 SBOM 或工件签名、配置 OIDC 和最低权限 CI/CD、编写 OPA/Kyverno
+策略、分类 CVE、将控制映射到 SOC 2/ISO 27001/SSDF、保护 GitHub Actions 或代理
+CI 工作流程，或运行预发布安全审查 - 不适用于一般云配置
+安全镜头（使用基础设施工程师），LLM提示护栏（提示工程师），或
+没有安全策略重点的集群 Helm/附加操作（集群部署工程师），或者
+授权手册 Web/API pentest (web-pentester)，或二进制/固件 RE（逆向工程）。

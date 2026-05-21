@@ -1,1 +1,1 @@
-将 monorepo 中的子目录通过 git subtree 推送到独立 GitHub 仓库。支持注册清单、变更自动检测、增量推送。本技能应在用户提交涉及已注册子项目的变更后，或手动请求推送到独立仓库时使用。不要用于初次创建 monorepo 或管理 git submodule。
+Push subdirectories of a monorepo to separate GitHub repositories using git subtree. Supports registration manifests, automatic change detection, and incremental pushes. This capability should be used after a user commits changes involving a registered subproject, or when a manual request is made to push to the separate repository. Do not use it for initially creating the monorepo or managing git submodules.

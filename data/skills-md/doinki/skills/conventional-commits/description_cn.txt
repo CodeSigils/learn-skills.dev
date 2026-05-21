@@ -1,0 +1,1 @@
+Generate a git commit message compliant with Conventional Commits 1.0.0 (and the de facto @commitlint/config-conventional rules) from currently staged changes.默认情况下输出韩语，如果用户明确请求则输出其他语言。当用户请求提交消息时触发 - 例如“/conventional-commits”、“写入提交消息”或任何等效内容。范围仅限于生成消息文本；执行 `git commit` 不属于该技能的职责范围。

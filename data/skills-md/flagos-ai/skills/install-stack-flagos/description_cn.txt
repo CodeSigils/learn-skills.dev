@@ -1,0 +1,4 @@
+安装 5 包多芯片软件堆栈（vLLM、FlagTree、FlagGems、FlagCX、
+vllm-plugin-FL) 在 GPU 容器内。处理网络镜像检测、依赖性
+订购、车轮选择和按包装验证。在 gpu-container-setup 之后使用
+已经生成了一个具有 PyTorch + GPU 访问权限的运行容器。
