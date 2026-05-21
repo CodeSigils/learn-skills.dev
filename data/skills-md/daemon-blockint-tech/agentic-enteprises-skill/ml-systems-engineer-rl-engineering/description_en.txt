@@ -1,0 +1,8 @@
+Guides ML systems engineering for reinforcement learning—distributed training platforms, rollout
+workers and vectorized environments, replay buffers, policy/critic serving for train loops,
+checkpointing and experiment tracking, sim-to-real hooks, and RL training reliability.
+Use when building RL training infrastructure, scaling PPO/SAC-style jobs, debugging unstable
+distributed rollouts, designing env APIs, or exporting policies for inference—not for supervised
+ML product modeling (data-scientist), LLM RAG/agents (ai-engineer), safeguard classifiers
+(ml-research-engineer-safeguards, ml-infrastructure-engineer-safeguards), general GPU serving
+without RL (ml-infrastructure-engineer-safeguards), or app latency profiling (performance-engineer).

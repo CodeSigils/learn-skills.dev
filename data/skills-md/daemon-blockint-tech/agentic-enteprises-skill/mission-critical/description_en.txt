@@ -1,0 +1,11 @@
+Guides mission-critical system framing—tiering (mission-critical vs business-critical vs important),
+availability/integrity/continuity objectives, dependency and blast-radius mapping, architecture
+patterns (active-active, geo-redundancy, deterministic behavior), change/release governance,
+monitoring and escalation by criticality, and generic regulatory/contractual drivers (finance,
+healthcare, public safety, defense industrial base). Use when classifying criticality, setting
+RTO/RPO/MTPD and integrity targets, designing redundant architectures, mapping failure domains,
+governing Tier 0/1 releases, or ops escalation—not SRE error budgets only
+(site-reliability-engineer), HRO/prevention culture only (zero-tolerance-for-failure), incident
+command (incident-responder), recovery engineering only (cyber-resilience-engineer), enterprise
+security architecture only (enterprise-security-architect), ADRs without tiering
+(senior-system-architecture), or classified ATO only (classified-cyber-security-senior-manager).

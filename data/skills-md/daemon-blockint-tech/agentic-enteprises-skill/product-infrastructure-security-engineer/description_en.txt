@@ -1,0 +1,11 @@
+Guides product infrastructure security—securing the runtime, data plane, and control plane that
+ships with the product: multi-tenant isolation, service-to-service auth, customer data boundaries,
+secure defaults in APIs and workers, abuse-resistant rate limits, product-scoped secrets and encryption,
+and security design reviews for product infra changes.
+Use when threat-modeling product features, designing tenant isolation, hardening service mesh or
+internal APIs, reviewing product IaC/modules for data leaks, defining secure baselines for
+microservices the product team owns, or partnering on incidents affecting customer workloads—not
+for corporate IdP/SIEM (information-security-engineer), CI pipeline gates only (devsecops), SOC
+operations (defensive-security-analyst), authorized pentest execution (offensive-security-analyst),
+general IDP golden paths (platform-engineer), company-wide GRC (cybersecurity), or applied AI
+solution architecture for LLM features (applied-ai-architect-commercial-enterprise).

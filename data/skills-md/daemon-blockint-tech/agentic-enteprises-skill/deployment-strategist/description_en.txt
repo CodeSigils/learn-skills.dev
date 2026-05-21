@@ -1,0 +1,11 @@
+Guides deployment and release strategy—choosing rollout patterns (rolling, blue-green, canary,
+feature flags), environment topology, promotion paths, blast-radius control, rollback design,
+change windows, and cross-team rollout plans for web, API, data, and ML workloads.
+Use when planning a production release, comparing deployment approaches, writing a rollout or
+cutover plan, designing multi-region or zero-downtime migrations, coordinating schema changes with
+deploys, or preparing executive/stakeholder release briefs (for launch messaging and customer
+comms copy, use communication-lead)—not for multi-team program tracking
+(technical-program-manager), implementing CI YAML (devops),
+Terraform/VPC design (infrastructure-engineer), security scan gates (devsecops), or upfront
+multi-service architecture and ADRs (senior-system-architecture). For Helm/Kustomize apply,
+cluster upgrades, and in-cluster rollout status, use cluster-deployment-engineer.

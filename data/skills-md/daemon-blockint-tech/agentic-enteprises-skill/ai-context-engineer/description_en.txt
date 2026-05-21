@@ -1,0 +1,11 @@
+Guides context engineering for LLM systems—assembling prompts, budgeting tokens, prioritizing
+sources, compressing history, caching, structured context blocks, and debugging context-related
+failures (lost instructions, overflow, distraction).
+Use when designing what enters the model context each turn, optimizing cost/latency via context
+strategy, building context pipelines for agents, implementing summarization or compaction, or
+fixing "model ignored X" issues—not for persistent memory store design (ai-memory-developer),
+full RAG index pipelines (ai-engineer), or AI org operations (ai-lead-ops). For a structured
+token/cost improvement roadmap with phased initiatives and KPIs, use
+ai-token-improvement-plan-engineer. For commercial/enterprise AI solution architecture (RAG, copilots,
+platform selection), use applied-ai-architect-commercial-enterprise. Token research and
+compression ablations: research-engineer-scientist-tokens.

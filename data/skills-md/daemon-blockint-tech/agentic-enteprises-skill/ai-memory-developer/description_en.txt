@@ -1,0 +1,8 @@
+Guides design and implementation of AI agent and application memory—short-term conversation state,
+long-term user/tenant memory, episodic vs semantic stores, consolidation, retrieval, forgetting,
+privacy retention, and eval of memory quality.
+Use when building persistent memory for copilots, designing memory APIs, choosing vector or graph
+stores, implementing memory write/read policies, debugging wrong or stale memories, or tuning
+what the model should remember across sessions—not for general RAG document search (ai-engineer),
+context window packing and token budgets (ai-context-engineer), AI team operations cadence
+(ai-lead-ops), or org-wide token cost improvement roadmaps (ai-token-improvement-plan-engineer).

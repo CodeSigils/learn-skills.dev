@@ -1,0 +1,9 @@
+Guides secure coding and security-focused code review across languages and infrastructure—OWASP-oriented
+vulnerability patterns (injection, XSS, auth, crypto, deserialization, SSRF, XXE), secrets handling,
+and IaC security (Terraform, Kubernetes, Docker, GitHub Actions).
+Use when writing or reviewing code that handles user input, authentication, files, databases,
+network requests, cryptography, or infrastructure config—or when the user asks to check for SQL
+injection, XSS, SSRF, hardcoded secrets, OWASP issues, Terraform security, or GitHub Actions security.
+Not for authorized penetration test engagements (ai-redteam, cybersecurity), compliance program
+mapping (compliance-engineer), YARA/malware rules (yara-rule-authoring), or CI pipeline setup only
+(devsecops).

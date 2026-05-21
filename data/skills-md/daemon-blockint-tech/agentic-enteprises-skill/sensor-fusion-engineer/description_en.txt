@@ -1,0 +1,11 @@
+Guides multi-sensor perception fusion for autonomous and robotic systems—sensor models and noise;
+extrinsic/intrinsic calibration; time synchronization; coordinate frames and transforms; data
+association and gating; Kalman-family filters (EKF/UKF) and factor graphs at high level; track
+management (MOT); LiDAR–camera–radar–IMU–GNSS integration patterns; uncertainty representation;
+evaluation metrics (NEES, RMSE, track continuity); simulation and bag replay. Use when designing
+or debugging fusion stacks, calibration/sync, state estimation, multi-object tracking, sensor
+fusion architecture, fusion metrics, or rosbag/sim replay—not full autonomy behavior and mission
+rules (tactical-ai-autonomy-developer), MCU drivers/RTOS only (embedded-real-time-software-engineer),
+plant PLC/DCS control applications (control-software-developer), HIL security bench testing
+(hardware-in-the-loop-security-tester), or adversarial ML on models unless fusion-robustness focus
+(ai-adversarial-robustness-engineer).

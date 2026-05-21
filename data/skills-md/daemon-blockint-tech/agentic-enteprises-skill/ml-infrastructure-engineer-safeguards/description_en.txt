@@ -1,0 +1,10 @@
+Guides ML infrastructure for safeguards—inference gateways, model serving (GPU/CPU), guardrail and
+moderation pipelines in the request path, policy enforcement hooks, safety observability, rollout
+of filter/model versions, and reliability of the protected inference plane.
+Use when designing or operating safeguard layers on LLM/ML endpoints, deploying classifiers or
+moderation services, wiring pre/post-filters, scaling safety microservices, or debugging
+block-rate/latency regressions on the safety path—not for corporate AI policy (ai-risk-governance),
+building RAG/agents (ai-engineer), adversarial test campaigns (ai-redteam), general CI/CD
+(devops), app perf profiling (performance-engineer), or DC facility compute programs
+(data-center-compute-supply-efficiency). Safeguard R&D: ml-research-engineer-safeguards;
+privacy research: privacy-research-engineer-safeguards.
