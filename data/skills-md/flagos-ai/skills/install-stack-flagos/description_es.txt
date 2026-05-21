@@ -1,0 +1,4 @@
+Instale la pila de software multichip de 5 paquetes (vLLM, FlagTree, FlagGems, FlagCX,
+vllm-plugin-FL) dentro de un contenedor de GPU. Maneja la detección de espejos de red y la dependencia.
+pedidos, selección de ruedas y validación por paquete. Usar después de la configuración del contenedor gpu
+ha producido un contenedor en ejecución con acceso a PyTorch + GPU.

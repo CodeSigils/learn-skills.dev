@@ -1,0 +1,11 @@
+Guía la seguridad de la infraestructura del producto: asegura el tiempo de ejecución, el plano de datos y el plano de control que
+Se envía con el producto: aislamiento multiinquilino, autenticación de servicio a servicio, límites de datos del cliente,
+valores predeterminados seguros en API y trabajadores, límites de velocidad resistentes al abuso, secretos y cifrado específicos del producto,
+y revisiones de diseño de seguridad para cambios en la infraestructura del producto.
+Úselo cuando modele amenazas características del producto, diseñe aislamiento de inquilinos, refuerce la malla de servicios o
+API internas, revisión de IaC/módulos del producto para detectar fugas de datos, definición de líneas de base seguras para
+microservicios que posee el equipo de producto, o asociarse en incidentes que afectan las cargas de trabajo de los clientes, no
+para IdP/SIEM (ingeniero de seguridad de la información) corporativo, solo puertas de canalización de CI (devsecops), SOC
+operaciones (analista-de-seguridad-defensiva), ejecución autorizada de pentest (analista-de-seguridad-ofensiva),
+Rutas doradas generales de IDP (ingeniero de plataforma), GRC (ciberseguridad) para toda la empresa o IA aplicada
+Arquitectura de solución para funciones LLM (applied-ai-architect-commercial-enterprise).

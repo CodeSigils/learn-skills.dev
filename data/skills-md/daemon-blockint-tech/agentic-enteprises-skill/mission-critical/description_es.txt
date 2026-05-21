@@ -1,0 +1,11 @@
+Guía el marco del sistema de misión crítica: niveles (crítico para la misión versus crítico para el negocio versus importante),
+objetivos de disponibilidad/integridad/continuidad, dependencia y mapeo de radio de explosión, arquitectura
+patrones (activo-activo, redundancia geográfica, comportamiento determinista), gobernanza de cambios/liberaciones,
+monitoreo y escalamiento por criticidad, y factores regulatorios/contractuales genéricos (finanzas,
+atención sanitaria, seguridad pública, base industrial de defensa). Úselo al clasificar la criticidad, establecer
+RTO/RPO/MTPD y objetivos de integridad, diseño de arquitecturas redundantes, mapeo de dominios de falla,
+que rigen las versiones de nivel 0/1 o el escalamiento de operaciones, no solo los presupuestos de errores de SRE
+(ingeniero de confiabilidad del sitio), HRO/cultura de prevención únicamente (tolerancia cero ante fallas), incidente
+comando (respondedor a incidentes), solo ingeniería de recuperación (ingeniero de ciberresiliencia), empresa
+solo arquitectura de seguridad (enterprise-security-architect), ADR sin niveles
+(arquitectura-de-sistema-senior), o ATO clasificado únicamente (gerente-senior-de-seguridad-cibernética-clasificado).

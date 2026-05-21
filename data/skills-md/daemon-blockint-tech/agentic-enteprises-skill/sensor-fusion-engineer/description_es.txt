@@ -1,0 +1,11 @@
+Guía la fusión de percepción multisensor para sistemas autónomos y robóticos: modelos de sensores y ruido;
+calibración extrínseca/intrínseca; sincronización horaria; coordinar marcos y transformaciones; datos
+asociación y puerta; Filtros de la familia Kalman (EKF/UKF) y gráficos de factores de alto nivel; pista
+gestión (MOT); Patrones de integración LiDAR-cámara-radar-IMU-GNSS; representación de la incertidumbre;
+métricas de evaluación (NEES, RMSE, continuidad de seguimiento); simulación y repetición de bolsa. Usar al diseñar
+o depuración de pilas de fusión, calibración/sincronización, estimación de estado, seguimiento de múltiples objetos, sensor
+arquitectura de fusión, métricas de fusión o reproducción de rosbag/sim, no comportamiento y misión de autonomía total
+reglas (desarrollador-de-autonomía-ai-táctica), controladores MCU/RTOS únicamente (ingeniero-de-software-integrado-en-tiempo-real),
+aplicaciones de control PLC/DCS de planta (control-software-desarrollador), pruebas en banco de seguridad HIL
+(probador de seguridad de hardware en el bucle) o ML adversario en modelos a menos que se centre en la solidez de la fusión
+(ai-adversario-ingeniero-de-robustez).

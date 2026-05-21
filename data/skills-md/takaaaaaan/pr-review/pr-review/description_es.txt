@@ -1,0 +1,10 @@
+Flujo de trabajo de revisión de relaciones públicas de GitHub a través de la CLI `gh` desde Claude Code local. Elecciones de usuario
+un PR de `gh pr list`, luego un estilo de revisión (general / seguridad / multiángulo
+/ segunda opinión / simplificación / verificación SHA del submódulo). busca y
+analiza la diferencia, devuelve resultados estructurados y, opcionalmente, publica comentarios
+De vuelta al PR. Sin costo de Anthropic API: permanece dentro de la suscripción de Claude Code.
+
+Úselo cuando: revisar un PR existente ("revisar este PR", "ver PR #N"),
+enumerar/inspeccionar relaciones públicas recientes, publicar los hallazgos en GitHub a través de
+`gh pr comment`/`gh api`, validando un PR de repositorio principal que ataca un submódulo
+SHA, o cuando el repositorio/PR es ambiguo y los candidatos deben enumerarse primero.
