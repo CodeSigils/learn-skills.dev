@@ -1,0 +1,10 @@
+Flusso di lavoro di revisione GitHub PR tramite la CLI `gh` dal codice Claude locale. Scelte dell'utente
+un PR da `gh pr list`, quindi uno stile di revisione (generale/sicurezza/multi-angolo
+/secondo parere/semplificazione/verifica SHA del sottomodulo). Recuperi e
+analizza la differenza, restituisce risultati strutturati e facoltativamente pubblica commenti
+torniamo al PR. Nessun costo per l'API Anthropic: rimane nell'ambito dell'abbonamento a Claude Code.
+
+Da utilizzare quando: si rivede un PR esistente ("rivedi questo PR", "guarda il PR #N"),
+elencando/controllando i PR recenti, pubblicando i risultati su GitHub tramite
+`gh pr comment`/`gh api`, convalida di un PR del repository principale che esegue il bumping di un sottomodulo
+SHA, o quando il repo/PR è ambiguo e i candidati devono essere elencati per primi.

@@ -1,0 +1,9 @@
+Guida al firmware in tempo reale incorporato: compromessi MCU, bare metal vs RTOS (modelli FreeRTOS/Zephyr),
+priorità/scadenze/jitter delle attività, lavoro differito ISR, policy stack/heap, WCET/analisi delle tempistiche,
+inversione di concorrenza e priorità, driver/HAL, JTAG/SWD/traccia, modalità di alimentazione, consapevolezza MISRA C,
+modelli automobilistici/medici/industriali attenti alla sicurezza senza pretese di certificazione.
+Utilizzare per firmware incorporato, pianificazione RTOS, driver/HAL, progettazione IRQ, policy di memoria, WCET, Bring-up,
+applicazioni backend a basso consumo: non sicurezza HIL (hardware-in-the-loop-security-tester).
+(ingegnere software senior), SCADA/OT (specialista in sicurezza informatica scada-ics), server perf
+(performance-engineer), solo RTL senza firmware, porte CI (build-validator), solo tiering
+(mission-critical).

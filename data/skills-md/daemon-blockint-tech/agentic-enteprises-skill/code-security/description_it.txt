@@ -1,0 +1,9 @@
+Guida la codifica sicura e la revisione del codice incentrata sulla sicurezza attraverso linguaggi e infrastrutture, orientato a OWASP
+modelli di vulnerabilità (iniezione, XSS, autenticazione, crittografia, deserializzazione, SSRF, XXE), gestione dei segreti,
+e sicurezza IaC (Terraform, Kubernetes, Docker, GitHub Actions).
+Da utilizzare durante la scrittura o la revisione del codice che gestisce l'input dell'utente, l'autenticazione, i file, i database,
+richieste di rete, crittografia o configurazione dell'infrastruttura o quando l'utente chiede di verificare la presenza di SQL
+injection, XSS, SSRF, segreti hardcoded, problemi OWASP, sicurezza Terraform o sicurezza GitHub Actions.
+Non per incarichi autorizzati di penetration test (ai-redteam, sicurezza informatica), programma di conformità
+mappatura (compliance-engineer), regole YARA/malware (yara-rule-authoring) o solo configurazione della pipeline CI
+(devsecop).

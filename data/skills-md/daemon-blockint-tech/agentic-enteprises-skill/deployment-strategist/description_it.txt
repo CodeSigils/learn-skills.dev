@@ -1,0 +1,11 @@
+Guida la strategia di distribuzione e rilascio: scegliendo i modelli di distribuzione (a rotazione, blu-verde, canarino,
+flag di funzionalità), topologia dell'ambiente, percorsi di promozione, controllo del raggio di esplosione, progettazione di rollback,
+modificare le finestre e piani di implementazione tra team per carichi di lavoro Web, API, dati e ML.
+Da utilizzare quando si pianifica una versione di produzione, si confrontano gli approcci di distribuzione, si scrive un'implementazione o
+piano di transizione, progettazione di migrazioni multiregione o con tempi di inattività pari a zero, coordinamento delle modifiche allo schema con
+distribuisce o prepara i brief di rilascio dei dirigenti/stakeholder (per la messaggistica di lancio e il customer
+copia delle comunicazioni, utilizzare responsabile della comunicazione), non per il monitoraggio del programma multi-team
+(responsabile tecnico-programma), implementando CI YAML (devops),
+Progettazione Terraform/VPC (ingegnere dell'infrastruttura), gate di scansione di sicurezza (devsecops) o upfront
+architettura multiservizio e ADR (architettura di sistema senior). Per Helm/Kustomize applicare,
+aggiornamenti del cluster e stato di implementazione nel cluster, utilizzare cluster-deployment-engineer.

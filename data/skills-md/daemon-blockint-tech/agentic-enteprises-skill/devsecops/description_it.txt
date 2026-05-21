@@ -1,0 +1,10 @@
+Guida le pratiche DevSecOps che integrano la sicurezza nella distribuzione del software: scansione con spostamento a sinistra,
+Gate di sicurezza CI/CD, integrità della catena di fornitura, controlli di runtime di cloud/container, modellazione delle minacce,
+e gestione delle vulnerabilità con prove di audit.
+Da utilizzare durante la progettazione o il rafforzamento delle pipeline di consegna, l'aggiunta di scansioni SAST/SCA/segreti/IaC/container,
+implementare SBOM o firma di artefatti, configurare OIDC e CI/CD con privilegi minimi, scrivere OPA/Kyverno
+politiche, valutazione dei CVE, mappatura dei controlli su SOC 2/ISO 27001/SSDF, protezione delle azioni GitHub o degli agenti
+Flussi di lavoro CI o esecuzione di revisioni della sicurezza prima del rilascio, senza il provisioning generale del cloud
+una lente di sicurezza (utilizzare l'ingegnere dell'infrastruttura), guardrail LLM (prompt-ingegnere) o
+operazioni di Helm/add-on del cluster senza focus sui criteri di sicurezza (cluster-deployment-engineer), oppure
+pentest web/API manuale autorizzato (web-pentester) o RE binario/firmware (reverse-engineering).

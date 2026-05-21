@@ -1,0 +1,11 @@
+Guida l'inquadramento del sistema mission-critical: il tiering (mission-critical vs business-critical vs importante),
+obiettivi di disponibilità/integrità/continuità, mappatura delle dipendenze e del raggio di esplosione, architettura
+modelli (attivo-attivo, ridondanza geografica, comportamento deterministico), governance di cambiamento/rilascio,
+monitoraggio ed escalation per criticità e driver normativi/contrattuali generici (finanza,
+sanità, pubblica sicurezza, base industriale della difesa). Utilizzare quando si classifica la criticità, l'impostazione
+Obiettivi RTO/RPO/MTPD e integrità, progettazione di architetture ridondanti, mappatura dei domini di errore,
+che regolano i rilasci di livello 0/1 o l'escalation delle operazioni, non solo i budget di errore SRE
+(ingegnere dell'affidabilità del sito), solo cultura HRO/prevenzione (tolleranza zero per i guasti), incidente
+comando (risponditore all'incidente), solo ingegneria del ripristino (ingegnere della resilienza informatica), impresa
+solo architettura di sicurezza (enterprise-security-architect), ADR senza tiering
+(architettura di sistema senior) o solo classificato ATO (manager senior della sicurezza informatica classificata).

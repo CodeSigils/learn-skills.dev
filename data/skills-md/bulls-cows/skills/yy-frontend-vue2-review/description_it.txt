@@ -1,0 +1,14 @@
+**L'abilità specializzata di revisione del codice front-end Vue2 deve essere utilizzata immediatamente ogni volta che l'utente menziona uno dei seguenti elementi:**  
+- Revisione del codice, Revisione del codice, CR  
+- Controllo pre-invio, revisione pre-unione, revisione PR  
+- Controllo qualità del codice, controllo dello stile del codice  
+- Audit del codice Vue2, revisione del codice front-end  
+- Git ha modificato la revisione del codice, il controllo del codice dell'area di staging  
+
+**Caratteristiche principali:**  
+- Limitare rigorosamente la revisione alla directory `src`, non oltrepassarla mai  
+- Copre 9 principali dimensioni di revisione: stile del codice, best practice, specifiche dei componenti, denominazione, richieste di rete, errori computazionali, logici, sicurezza, elementi assolutamente proibiti  
+- Classificazione della gravità su tre livelli: 🔴 Grave / 🟡 Medio / 🟢 Minore  
+- Genera una lista di controllo di revisione, presentando i risultati dimensione per dimensione  
+- **Non modificare mai il codice** (solo revisione; le correzioni richiedono una richiesta esplicita dell'utente)  
+- I progetti Vue3/React vengono automaticamente riconosciuti e rifiutati per l'elaborazione

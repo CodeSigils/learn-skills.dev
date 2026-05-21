@@ -1,0 +1,11 @@
+Guida la fusione della percezione multisensore per sistemi autonomi e robotici: modelli di sensori e rumore;
+calibrazione estrinseca/intrinseca; sincronizzazione dell'ora; coordinare frame e trasformazioni; dati
+associazione e gating; Filtri della famiglia di Kalman (EKF/UKF) e grafici fattoriali di alto livello; traccia
+gestione (MOT); Modelli di integrazione LiDAR-fotocamera-radar-IMU-GNSS; rappresentazione dell'incertezza;
+metriche di valutazione (NEES, RMSE, continuità del binario); simulazione e riproduzione della borsa. Utilizzare durante la progettazione
+o debug di stack di fusione, calibrazione/sincronizzazione, stima dello stato, tracciamento di più oggetti, sensore
+architettura di fusione, metriche di fusione o replay rosbag/sim, comportamento e missione non completamente autonomi
+regole (tactical-ai-autonomy-developer), solo driver MCU/RTOS (embedded-real-time-software-engineer),
+applicazioni di controllo PLC/DCS di impianto (sviluppatore-software di controllo), banco di prova di sicurezza HIL
+(hardware-in-the-loop-security-tester) o ML contraddittorio sui modelli a meno che non si concentri sulla robustezza della fusione
+(ai-adversarial-robustness-engineer).
