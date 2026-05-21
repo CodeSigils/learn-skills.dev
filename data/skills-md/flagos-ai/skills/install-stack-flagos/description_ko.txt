@@ -1,0 +1,4 @@
+5개 패키지 멀티 칩 소프트웨어 스택(vLLM, FlagTree, FlagGems, FlagCX,
+vllm-plugin-FL)이 GPU 컨테이너 내부에 있습니다. 네트워크 미러 감지, 종속성 처리
+주문, 휠 선택 및 패키지 별 검증. GPU-컨테이너-설정 후 사용
+PyTorch + GPU 액세스로 실행 중인 컨테이너를 생성했습니다.

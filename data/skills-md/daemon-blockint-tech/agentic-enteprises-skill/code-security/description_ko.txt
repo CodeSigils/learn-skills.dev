@@ -1,0 +1,9 @@
+OWASP 중심의 언어 및 인프라 전반에 걸쳐 보안 코딩 및 보안 중심 코드 검토를 안내합니다.
+취약점 패턴(주입, XSS, 인증, 암호화, 역직렬화, SSRF, XXE), 비밀 처리,
+및 IaC 보안(Terraform, Kubernetes, Docker, GitHub Actions).
+사용자 입력, 인증, 파일, 데이터베이스 등을 처리하는 코드를 작성하거나 검토할 때 사용합니다.
+네트워크 요청, 암호화 또는 인프라 구성 또는 사용자가 SQL 확인을 요청하는 경우
+주입, XSS, SSRF, 하드코딩된 비밀, OWASP 문제, Terraform 보안 또는 GitHub Actions 보안.
+승인된 침투 테스트 참여(ai-redteam, 사이버 보안), 규정 준수 프로그램에는 적합하지 않음
+매핑(compliance-engineer), YARA/맬웨어 규칙(yara-rule-authoring) 또는 CI 파이프라인 설정 전용
+(devsecops).

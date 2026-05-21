@@ -1,0 +1,1 @@
+에이전트 실행을 관찰하고 가로채기 위한 에이전트 런타임 수명 주기 후크입니다. 에이전트 작업, 모의 도구 호출, 단계 이벤트 로깅, 사용자 개입 처리, 하위 에이전트 호출, 컨텍스트 압축 또는 평가/추적 통합 구축에 후크를 추가할 때 사용합니다. 'hooks', 'beforeToolCall', 'afterToolCall', 'beforeStep', 'afterStep', 'onComplete', 'onError', 'tool mock', 'agent lifecycle', '사람 개입', 'callAgent', 'compact'에서 트리거됩니다.
