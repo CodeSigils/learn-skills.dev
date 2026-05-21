@@ -1,0 +1,1 @@
+Amazon ストア ファイルのアップロード (linkfox-amazon-store-auth シリーズと同等) は、/spApi/developerProxy 経由で Uploads API v2020-11-01 の createUploadDestinationForResource を呼び出し、返された URL にファイルをアップロードして、A+ Content や Messaging などの API で使用することによって実行されます。これは、ユーザーがファイルのアップロード、createUploadDestinationForResource、アップロード先、contentMD5、署名付きアップロード、SP-API アップロード、A+ 画像アップロード、またはメッセージング添付ファイルのアップロードに言及したときにトリガーされます。
