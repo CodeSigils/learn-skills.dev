@@ -1,0 +1,10 @@
+GitHub PR-Review-Workflow über die „gh“-CLI von lokalem Claude Code. Benutzerauswahl
+eine PR aus „gh pr list“, dann ein Bewertungsstil (allgemein / Sicherheit / mehrere Blickwinkel).
+/ Zweitmeinung / Vereinfachung / Submodul-SHA-Verifizierung). Holt und
+Analysiert den Unterschied, gibt strukturierte Ergebnisse zurück und veröffentlicht optional Kommentare
+zurück zur PR. Keine Anthropic-API-Kosten – bleibt im Rahmen des Claude Code-Abonnements.
+
+Verwenden Sie diese Option, wenn Sie eine vorhandene PR überprüfen („diese PR überprüfen“, „PR #N ansehen“),
+Auflistung/Untersuchung aktueller PRs, Veröffentlichung der Ergebnisse zurück auf GitHub über
+`gh pr comment`/`gh api`, validiert einen Eltern-Repo-PR, der ein Submodul anstößt
+SHA, oder wenn das Repo/PR nicht eindeutig ist und Kandidaten zuerst aufgelistet werden müssen.
