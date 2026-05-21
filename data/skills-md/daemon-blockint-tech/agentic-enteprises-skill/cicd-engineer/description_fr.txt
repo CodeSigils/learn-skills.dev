@@ -1,0 +1,10 @@
+Guide CI/CD pour les référentiels de compétences d'agent et les packages de compétences : conception de pipeline (construction, test,
+valider, package), actions GitHub pour les contrôles de relations publiques et la promotion des versions, les portes d'environnement,
+hygiène des secrets (pas de secrets dans le repo), intégration du créateur de compétences (quick_validate.py,
+package_skill.py), stratégie d'artefact .skill, restauration et runbooks opérationnels pour les versions de compétences.
+À utiliser lorsque l'utilisateur mentionne CI/CD, ingénieur CI/CD, conception de pipeline, actions GitHub, CI de validation des compétences,
+compétences de package, pipeline de versions, compétences de déploiement, contrôles PR, intégration continue ou libération de compétences
+workflow : pas de CI d'application uniquement sans package de compétences (devops), plan de pré-vol go/no-go
+(validateur de build), IDP ou Golden Paths (ingénieur de plate-forme), programmes SLO et budget d'erreur à l'échelle de l'organisation
+sans propriété de pipeline (ingénieur-fiabilité du site), ni gouvernance du catalogue de portefeuille sans
+pipeline YAML (ai-skill-manager).

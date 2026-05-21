@@ -1,0 +1,11 @@
+Guide la fusion de perceptions multicapteurs pour les systèmes autonomes et robotiques : modèles de capteurs et bruit ;
+étalonnage extrinsèque/intrinsèque ; synchronisation de l'heure ; coordonner les images et les transformations ; données
+association et gate; Filtres de la famille de Kalman (EKF/UKF) et graphiques factoriels de haut niveau ; piste
+gestion (MOT); Modèles d'intégration LiDAR-caméra-radar-IMU-GNSS ; représentation de l'incertitude ;
+métriques d'évaluation (NEES, RMSE, continuité de piste) ; simulation et relecture du sac. Utiliser lors de la conception
+ou débogage de piles de fusion, calibrage/synchronisation, estimation d'état, suivi multi-objets, capteur
+architecture de fusion, métriques de fusion ou replay rosbag/sim – pas de comportement et de mission en autonomie totale
+règles (développeur-d'autonomie-tactique-ai), pilotes MCU/RTOS uniquement (ingénieur-logiciel-en temps réel intégré),
+applications de contrôle PLC/DCS d'usine (contrôle-logiciel-développeur), tests sur banc de sécurité HIL
+(hardware-in-the-loop-security-tester) ou ML contradictoire sur les modèles, à moins que la robustesse de la fusion ne soit axée sur la fusion
+(IA-adversarial-robustesse-ingénieur).

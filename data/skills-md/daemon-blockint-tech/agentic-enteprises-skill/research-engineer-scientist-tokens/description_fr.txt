@@ -1,0 +1,9 @@
+Guide l'ingénierie de recherche et la science sur les jetons LLM : hypothèses sur l'utilisation du contexte, la tokenisation,
+compression et efficacité d'inférence ; des benchmarks rigoureux (jetons par tâche, qualité-coût Pareto) ;
+conception d'ablation ; instrumentation et journaux reproductibles ; et des mémos de recherche qui informent sur le produit
+décisions.
+À utiliser lors de la conception d'expériences d'efficacité des jetons, de la mesure de l'utilisation du contexte, de la comparaison
+méthodes de compression ou de routage, analyser les effets du tokenizer ou rédiger des rapports techniques sur
+compromis entre jetons et coûts – pas pour les feuilles de route et les propriétaires de coûts progressifs (ai-token-improvement-plan-engineer),
+implémentation du pipeline de contexte de production (ai-context-engineer), modifications à invite unique
+(ingénieur d'invite), recherche générale sur l'IA sans jeton (ai-researcher) ou fonctionnalités d'expédition (ai-ingénieur).

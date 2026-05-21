@@ -1,0 +1,11 @@
+Guide l'ingénierie contextuelle pour les systèmes LLM : assemblage d'invites, jetons de budgétisation, priorisation
+sources, compression de l'historique, mise en cache, blocs de contexte structurés et débogage lié au contexte
+échecs (instructions perdues, débordement, distraction).
+À utiliser lors de la conception de ce qui entre dans le contexte du modèle à chaque tour, en optimisant le coût/la latence via le contexte
+stratégie, création de pipelines de contexte pour les agents, mise en œuvre de la synthèse ou du compactage, ou
+résolution des problèmes de "modèle X ignoré" - pas pour la conception de magasin de mémoire persistante (ai-memory-developer),
+pipelines d’index RAG complets (ai-engineer) ou opérations organisationnelles IA (ai-lead-ops). Pour une structure
+feuille de route d'amélioration des jetons/des coûts avec des initiatives par étapes et des KPI, utiliser
+ingénieur-plan-d'amélioration-de-jeton-ai. Pour l'architecture de solution d'IA commerciale/d'entreprise (RAG, copilotes,
+sélection de la plateforme), utilisez Applied-AI-Architect-Commercial-Enterprise. Recherche de jetons et
+ablations par compression : jetons d'ingénieur-chercheur-scientifique.

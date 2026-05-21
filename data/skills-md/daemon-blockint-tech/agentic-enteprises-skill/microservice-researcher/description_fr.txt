@@ -1,0 +1,11 @@
+Guide la recherche et l'analyse pour les décisions d'architecture de microservices : décomposition de domaine,
+contextes limités, options et compromis de limites de service, modèles d'intégration synchronisés et asynchrones,
+propriété et cohérence des données (cohérence éventuelle, sagas au niveau de la recherche), API et contrat
+évolution, alignement des topologies d'équipe, construction vs achat vs services gérés, étrangleur monolithique
+migration, impact NFR (latence, fiabilité, opérabilité) et enregistrements de décisions avec options et
+recommandations. Utilisation pour la recherche de microservices, les limites des services, le contexte limité, l'étrangleur
+fig, monolithe vers microservices, saga vs commit en deux phases, décomposition de domaine, microservices
+compromis, topologies d'équipe, recherche de cohérence éventuelle, stratégie de versionnage d'API - sans évaluation
+un parc existant (analyste-microservices), un code de service de production (ingénieur-logiciel senior,
+ingénieur de plate-forme), opérations de cluster Kubernetes uniquement (ingénieur cloud), conception de réseau pure
+(architecte de réseau principal) ou implémentation EDA lors de la construction sans recherche

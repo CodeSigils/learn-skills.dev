@@ -1,0 +1,10 @@
+Workflow de révision GitHub PR via la CLI `gh` à partir du code Claude local. Choix des utilisateurs
+un PR de `gh pr list`, puis un style de révision (général / sécurité / multi-angle
+/ deuxième avis / simplification / sous-module vérification SHA). Récupère et
+analyse la différence, renvoie des résultats structurés et publie éventuellement des commentaires
+revenons au PR. Aucun coût d’API Anthropic – reste dans l’abonnement Claude Code.
+
+À utiliser lorsque : réviser un PR existant ("réviser ce PR", "regarder le PR #N"),
+répertorier/inspecter les PR récents, publier les résultats sur GitHub via
+`gh pr comment`/`gh api`, validant un PR du dépôt parent qui supprime un sous-module
+SHA, ou lorsque le repo/PR est ambigu et que les candidats doivent être répertoriés en premier.

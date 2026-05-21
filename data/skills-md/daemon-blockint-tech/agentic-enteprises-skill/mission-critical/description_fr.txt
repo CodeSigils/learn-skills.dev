@@ -1,0 +1,11 @@
+Guide le cadrage du système critique pour la mission – la hiérarchisation (critique pour la mission, critique pour l'entreprise ou important),
+objectifs de disponibilité/intégrité/continuité, cartographie des dépendances et du rayon de souffle, architecture
+modèles (actif-actif, géo-redondance, comportement déterministe), gouvernance du changement/libération,
+surveillance et escalade par criticité et facteurs réglementaires/contractuels génériques (finance,
+soins de santé, sécurité publique, base industrielle de défense). À utiliser lors de la classification de la criticité, du réglage
+RTO/RPO/MTPD et cibles d'intégrité, conception d'architectures redondantes, cartographie des domaines de défaillance,
+régissant les versions de niveau 0/1 ou l'escalade des opérations, et pas uniquement les budgets d'erreur SRE
+(ingénieur-fiabilité-site), HRO/culture de prévention uniquement (tolérance zéro en cas d'échec), incident
+commandement (intervenant-incident), ingénierie de récupération uniquement (ingénieur-cyber-résilience), entreprise
+architecture de sécurité uniquement (enterprise-security-architect), ADR sans hiérarchisation
+(architecture-système-senior) ou ATO classé uniquement (gestionnaire-senior-cyber-sécurité-classifié).

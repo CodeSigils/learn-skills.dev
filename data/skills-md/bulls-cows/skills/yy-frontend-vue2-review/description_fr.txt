@@ -1,0 +1,14 @@
+**La compétence spécialisée Vue2 Front-End Code Review doit être utilisée immédiatement chaque fois que l'utilisateur mentionne l'un des éléments suivants :**  
+- Revue de code, Revue de code, CR  
+- Vérification préalable à la soumission, examen préalable à la fusion, examen des relations publiques  
+- Contrôle de la qualité du code, contrôle du style du code  
+- Audit du code Vue2, revue du code front-end  
+- Révision du code modifié par Git, vérification du code de la zone de préparation  
+
+**Caractéristiques principales :**  
+- Limitez strictement la révision au répertoire `src`, ne dépassez jamais celui-ci  
+- Couvre 9 dimensions majeures de révision : style de code, meilleures pratiques, spécifications des composants, dénomination, requêtes réseau, erreurs calculées et logiques, sécurité, éléments absolument interdits.  
+- Classement de gravité à trois niveaux : 🔴 Sévère / 🟡 Moyen / 🟢 Mineur  
+- Génère une liste de contrôle de révision, présentant les résultats dimension par dimension  
+- **Ne modifiez jamais le code** (uniquement révision ; les correctifs nécessitent une demande explicite de l'utilisateur)  
+- Les projets Vue3/React sont automatiquement reconnus et rejetés pour traitement

@@ -1,0 +1,12 @@
+Guide le déploiement et les opérations du cluster Kubernetes : démarrage et mises à niveau du cluster, pools de nœuds,
+modules complémentaires (ingress, CNI, cert-manager), livraison de charge de travail avec Helm/Kustomize/operators, espace de noms
+quotas et RBAC, synchronisation GitOps avec les clusters, modèles multi-clusters et dépannage de production
+(planification, mise en réseau, boucles de crash).
+À utiliser lors du déploiement ou de la mise à niveau des clusters K8s, de l'installation de modules complémentaires de plateforme, du déploiement de manifestes
+ou les versions Helm, corrigeant les pannes au niveau du cluster ou concevant un espace de noms et un cluster multi-locataires
+mise en page : pas pour la fondation VPC/IaC (ingénieur d'infrastructure), le pipeline CI YAML (devops), l'application
+stratégie de déploiement canari/bleu-vert (stratège en déploiement), chemins d'or IDP (ingénieur de plateforme),
+ou la conception de programmes de politique d'admission (devsecops). Conception des installations DC : conception-exécution-responsable du centre de données.
+Alimentation/efficacité du calcul DC : efficacité de l'approvisionnement en calcul du centre de données. Livraison prête à l'emploi :
+responsable principal de la fourniture de capacités de centres de données. Tâches de formation RL sur le cluster :
+ml-systems-ingénieur-rl-ingénierie.

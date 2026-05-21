@@ -1,0 +1,10 @@
+Guide les pratiques DevSecOps qui intègrent la sécurité dans la livraison de logiciels : analyse avec décalage vers la gauche,
+Portes de sécurité CI/CD, intégrité de la chaîne d'approvisionnement, contrôles d'exécution du cloud/conteneur, modélisation des menaces,
+et gestion des vulnérabilités avec des éléments probants.
+À utiliser lors de la conception ou du renforcement des pipelines de livraison, en ajoutant des analyses SAST/SCA/secrets/IaC/conteneur,
+implémenter des SBOM ou la signature d'artefacts, configurer OIDC et CI/CD de moindre privilège, écrire OPA/Kyverno
+politiques, tri des CVE, mappage des contrôles vers SOC 2/ISO 27001/SSDF, sécurisation des actions GitHub ou agentic
+Workflows CI ou exécution d'examens de sécurité avant la publication – pas pour le provisionnement général du cloud sans
+une lentille de sécurité (utiliser un ingénieur d'infrastructure), des garde-corps d'invite LLM (ingénieur d'invite) ou
+opérations Helm/modules complémentaires du cluster sans se concentrer sur la politique de sécurité (ingénieur de déploiement de cluster), ou
+pentest web/API manuel autorisé (web-pentester), ou binaire/firmware RE (reverse-engineer).
