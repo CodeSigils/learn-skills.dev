@@ -1,0 +1,1 @@
+亞馬遜商店檔案上傳（相當於linkfox-amazon-store-auth系列）是透過/spApi/developerProxy呼叫Uploads API v2020-11-01的createUploadDestinationForResource來執行的，然後將檔案上傳到傳回的URL以供A+ Content和Messaging等API使用。當使用者提及上傳檔案、createUploadDestinationForResource、上傳目的地、contentMD5、預先簽署上傳、SP-API 上傳、A+ 圖片上傳或訊息附件上傳時會觸發該事件。

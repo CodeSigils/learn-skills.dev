@@ -1,0 +1,10 @@
+透過本地 Claude 程式碼的「gh」 CLI 進行 GitHub PR 審查工作流程。使用者選擇
+來自“gh pr list”的 PR，然後是評論風格（一般/安全/多角度
+/第二意見/簡化/子模組SHA驗證）。獲取和
+分析差異，返回結構化結果，並可選擇發布評論
+回到公關。無 Anthropic API 成本 — 保留在 Claude Code 訂閱範圍內。
+
+使用時機：審查現有 PR（「審查此 PR」、「查看 PR #N」）、
+列出/檢查最近的 PR，透過以下方式將結果發布回 GitHub
+`gh pr comment`/`gh api`，驗證碰撞子模組的父倉庫 PR
+SHA，或當儲存庫/PR 不明確且必須先列出候選者時。

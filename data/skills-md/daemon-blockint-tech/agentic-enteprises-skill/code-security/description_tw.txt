@@ -1,0 +1,9 @@
+跨語言和基礎設施指導安全編碼和以安全為中心的代碼審查——面向 OWASP
+漏洞模式（注入、XSS、驗證、加密、反序列化、SSRF、XXE）、秘密處理、
+和 IaC 安全性（Terraform、Kubernetes、Docker、GitHub Actions）。
+在編寫或審查處理使用者輸入、身份驗證、文件、資料庫、
+網路請求、加密或基礎設施配置，或當使用者要求檢查 SQL 時
+注入、XSS、SSRF、硬編碼機密、OWASP 問題、Terraform 安全性或 GitHub Actions 安全性。
+不適用於授權的滲透測試活動（ai-redteam、網路安全）、合規計劃
+僅映射（合規工程師）、YARA/惡意軟體規則（yara-rule-authoring）或 CI 管道設置
+（devsecops）。

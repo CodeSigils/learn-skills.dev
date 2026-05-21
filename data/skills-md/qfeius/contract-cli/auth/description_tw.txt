@@ -1,0 +1,1 @@
+Contract-cli登入和身份切換技巧：初始化開發配置文件，執行用戶OAuth登錄，輸入機器人的app_id / app_secret並立即交換tenant_access_token，查看狀態，切換預設身份，並解決本地配置/秘密持久性問題。當使用者需要「contract-cli config add」、「contract-cli auth login --as user|bot」、「contract-cli auth status/logout/use」或正在排除登入異常時觸發。
