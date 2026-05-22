@@ -1,0 +1,1 @@
+[Beta] 使用 gh-aw 的僅 CI 評估回歸運行器（GitHub Agentic Workflows）。按計劃或按 PR 運行 .evals/ 中的所有評估案例，報告通過/失敗結果，並可以阻止回歸合併。也根據 Learning-aggregator-ci 標記的升級模式建立新的評估案例。使用時機：您需要對 CI/無頭管道中的升級規則進行自動回歸測試。對於互動式 eval 建立和運行，請使用 eval-creator。

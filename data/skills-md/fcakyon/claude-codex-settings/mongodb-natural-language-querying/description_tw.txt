@@ -1,0 +1,1 @@
+使用自然語言以及集合架構上下文和範例文件產生只讀 MongoDB 查詢（查找）或聚合管道。每當使用者要求撰寫、建立或產生 MongoDB 查詢、想要過濾/查詢/聚合 MongoDB 中的資料、詢問「我如何查詢...」、需要查詢語法方面的幫助或討論查找/過濾/分組 MongoDB 文件時，請使用此技能。也用於將類似 SQL 的請求轉換為 MongoDB 語法。不處理 Atlas 搜尋（$search 運算子）、向量/語意搜尋（$vectorSearch 運算子）、模糊比對、自動完成索引或相關性評分 - 對這些使用 search-and-ai。不分析或最佳化現有查詢 - 為此使用 mongodb-query-optimizer。不處理涉及寫入操作的聚合管道。需要 MongoDB MCP 伺服器。

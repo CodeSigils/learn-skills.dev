@@ -1,0 +1,1 @@
+Android 崩潰日誌和 ANR 堆疊追蹤分析器。解析崩潰堆疊跟踪，識別崩潰類型（NPE、OOM、ANR、SecurityException）、提取關鍵幀、查找根本原因、生成修復建議。當使用者貼上崩潰日誌、logcat 錯誤、ANR 追蹤、邏輯刪除檔案、OutOfMemoryError、NullPointerException、ClassNotFoundException、致命訊號、SIGSEGV、本機崩潰、StrictMode 違規時使用。支援 Java/Kotlin 異常、本機崩潰、ANR 追蹤。零外部依賴——純Python標準函式庫。

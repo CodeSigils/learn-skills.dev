@@ -1,0 +1,1 @@
+透過事件來源中毒、惡意層注入、執行時間命令執行以及透過函數修改進行 IAM 權限升級，偵測並防止針對無伺服器函數（AWS Lambda、Azure Functions、Google Cloud Functions）的程式碼注入攻擊。分析師結合了函數程式碼的靜態分析、CloudTrail 事件關聯、執行時期行為監控和 IAM 策略審核，以識別擴展的無伺服器攻擊面（包括 API 閘道、S3、SQS、DynamoDB Streams 和 CloudWatch 事件觸發器）中的注入向量。針對涉及 Lambda 安全評估、無伺服器注入偵測、函數事件中毒分析或無伺服器權限升級調查的請求啟動。

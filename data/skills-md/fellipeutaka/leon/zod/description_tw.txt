@@ -1,0 +1,5 @@
+Zod 4 — 使用靜態型別推斷進行 TypeScript 優先模式驗證。在編寫 Zod 模式、驗證資料、使用 Zod 定義類型、解析輸入時使用，
+建立表單驗證模式，定義 API 請求/回應模式，使用 z.object、z.string、z.number、z.enum、z.array、z.union、z.discriminatedUnion、
+z.file、z.jwt、z.email、z.uuid、z.url、z.codec、z.toJSONSchema、z.fromJSONSchema、z.int、z.stringbool、z.templateLiteral、z.record、z.partialRecord、
+或任何其他 Zod API。從 Zod 3 遷移到 Zod 4 時，或使用者的 package.json 顯示 zod@^4 時也可使用。
+關鍵：始終使用 Zod 4 API。除非使用者明確要求 Zod 3 相容性，否則切勿使用已棄用的 Zod 3 模式。
