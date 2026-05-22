@@ -1,0 +1,5 @@
+Zod 4 — TypeScript-first schema validation with static type inference. Use when writing Zod schemas, validating data, defining types with Zod, parsing input,
+creating form validation schemas, defining API request/response schemas, working with z.object, z.string, z.number, z.enum, z.array, z.union, z.discriminatedUnion,
+z.file, z.jwt, z.email, z.uuid, z.url, z.codec, z.toJSONSchema, z.fromJSONSchema, z.int, z.stringbool, z.templateLiteral, z.record, z.partialRecord,
+or any other Zod API. Also use when migrating from Zod 3 to Zod 4, or when the user's package.json shows zod@^4.
+CRITICAL: Always use Zod 4 APIs. Never use deprecated Zod 3 patterns unless user explicitly requests Zod 3 compatibility.
