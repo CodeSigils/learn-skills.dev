@@ -1,0 +1,5 @@
+Zod 4: convalida dello schema TypeScript con inferenza di tipo statico. Utilizzare durante la scrittura di schemi Zod, la convalida dei dati, la definizione dei tipi con Zod, l'analisi dell'input,
+creazione di schemi di convalida dei moduli, definizione di schemi di richiesta/risposta API, utilizzo di z.object, z.string, z.number, z.enum, z.array, z.union, z.discriminatedUnion,
+z.file, z.jwt, z.email, z.uuid, z.url, z.codec, z.toJSONSchema, z.fromJSONSchema, z.int, z.stringbool, z.templateLiteral, z.record, z.partialRecord,
+o qualsiasi altra API Zod. Da utilizzare anche durante la migrazione da Zod 3 a Zod 4 o quando il package.json dell'utente mostra zod@^4.
+CRITICO: utilizzare sempre le API Zod 4. Non utilizzare mai modelli Zod 3 deprecati a meno che l'utente non richieda esplicitamente la compatibilità con Zod 3.
