@@ -1,0 +1,5 @@
+Zod 4 — проверка схемы на основе TypeScript со статическим выводом типа. Используйте при написании схем Zod, проверке данных, определении типов с помощью Zod, синтаксическом анализе входных данных,
+создание схем проверки формы, определение схем запросов/ответов API, работа с z.object, z.string, z.number, z.enum, z.array, z.union, z.discriminationUnion,
+z.file, z.jwt, z.email, z.uuid, z.url, z.codec, z.toJSONSchema, z.fromJSONSchema, z.int, z.stringbool, z.templateLiteral, z.record, z.partialRecord,
+или любой другой API Zod. Также используйте при переходе с Zod 3 на Zod 4 или когда в package.json пользователя отображается zod@^4.
+ВАЖНО: Всегда используйте API Zod 4. Никогда не используйте устаревшие шаблоны Zod 3, если пользователь явно не запрашивает совместимость Zod 3.

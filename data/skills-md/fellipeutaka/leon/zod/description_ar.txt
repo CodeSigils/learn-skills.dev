@@ -1,0 +1,5 @@
+Zod 4 — التحقق من صحة مخطط TypeScript أولاً مع استنتاج النوع الثابت. يُستخدم عند كتابة مخططات Zod، والتحقق من صحة البيانات، وتحديد الأنواع باستخدام Zod، وتحليل الإدخال،
+إنشاء مخططات التحقق من صحة النموذج، وتحديد مخططات طلب/استجابة API، والعمل مع z.object، z.string، z.number، z.enum، z.array، z.union، z.discriminatedUnion،
+z.file، z.jwt، z.email، z.uuid، z.url، z.codec، z.toJSONSchema، z.fromJSONSchema، z.int، z.stringbool، z.templateLiteral، z.record، z.partialRecord،
+أو أي Zod API آخر. استخدمه أيضًا عند الترحيل من Zod 3 إلى Zod 4، أو عندما يعرض package.json الخاص بالمستخدم zod@^4.
+هام: استخدم Zod 4 APIs دائمًا. لا تستخدم أبدًا أنماط Zod 3 المهملة ما لم يطلب المستخدم صراحةً التوافق مع Zod 3.

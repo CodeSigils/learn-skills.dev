@@ -1,0 +1,1 @@
+在写入或读取 GenVarLoader (gvl) 数据集时使用 - 使用 bcftools/plink2 准备 VCF/PGEN/SVAR 变体源，调用 gvl.write，为单倍型/参考/注释/变体输出模式配置 gvl.Dataset，附加 BigWig 或 Table 轨道，从 GTF 设置拼接单倍型，为 indels 选择轨道插入填充策略，或按等位基因频率过滤变体。

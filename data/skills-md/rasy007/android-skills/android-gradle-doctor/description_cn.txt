@@ -1,0 +1,1 @@
+Android Gradle构建问题诊断和优化工具。分析依赖冲突、检测版本不匹配、扫描 build.gradle 问题、生成优化建议以加快构建速度。当构建失败、依赖冲突、版本不匹配、构建缓慢、Gradle 同步错误、重复类、不兼容的库版本、无法解析、配置缓存、构建缓存、并行执行时使用。支持 build.gradle (Groovy) 和 build.gradle.kts (Kotlin DSL)。分析 ./gradlew 依赖项输出，检查常见的错误配置。零外部依赖——纯Python标准库。

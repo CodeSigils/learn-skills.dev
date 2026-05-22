@@ -1,9 +1,10 @@
-基于 Braun & Clarke 反思性主题分析框架的质性研究辅助工具。
-支持两种输入模式：
-（1）直接提供原始访谈文本 → skill 逐份完成 TA 初始编码，汇总后进入主题识别；
-（2）提供已有初始编码池 → 直接进入聚类、审查、命名建议流程。
-输出结构化候选主题表，明确标注边界模糊编码与待研究者裁定的命名建议。
-当用户提到"主题分析"“主题编码”"帮我聚类编码""从编码提炼主题""Braun Clarke""候选主题"
-"这些编码怎么归主题""帮我看看主题结构""对访谈做主题分析"时触发此 skill。
-注意与 grounded-coding 的区别：grounded-coding 面向程序化扎根理论的类属建构与理论关系；
-thematic-analysis 面向 Braun & Clarke 路线的语义主题识别，输出主题结构而非理论命题。
+A qualitative research assistance tool based on Braun & Clarke’s reflexive thematic analysis framework.  
+Supports two input modes:  
+1. Directly provide raw interview text → the skill performs TA initial coding piece by piece, then aggregates for theme identification.  
+2. Provide an existing pool of initial codes → directly proceeds to clustering, review, and naming‑suggestion workflow.  
+
+Outputs a structured candidate‑theme table, clearly marking ambiguously bounded codes and naming suggestions pending the researcher’s adjudication.  
+
+The skill is triggered when the user mentions “theme analysis”, “theme coding”, “help me cluster codes”, “derive themes from codes”, “Braun Clarke”, “candidate themes”, “how to assign these codes to themes”, “help me look at the theme structure”, “perform thematic analysis on the interview”, etc.  
+
+Note the distinction from grounded‑coding: grounded‑coding is aimed at procedural grounded‑theory class construction and theoretical relations; thematic‑analysis follows the Braun & Clarke route for semantic theme identification, outputting a theme structure rather than theoretical propositions.

@@ -1,0 +1,1 @@
+使用 `sendEmailToMailingList()` 帮助器或来自 `@schemavaults/send-email` 的 `schemavaults-send-email send-to-mailing-list` CLI，通过 SchemaVaults 邮件服务器 `/api/send` 路由将电子邮件发送到邮件列表。当任何服务器端 TypeScript/JavaScript 代码需要向邮件列表受众发送通知时使用 - **或者当 Claude Code 本身想要在任务结束时发送一次性通知时**（首选 - 通过 `bunx schemavaults-send-email send-to-mailing-list …` 调用 CLI；回退 - 将一个简短的脚本写入 `/tmp/` 并使用 `bun` 运行它）。

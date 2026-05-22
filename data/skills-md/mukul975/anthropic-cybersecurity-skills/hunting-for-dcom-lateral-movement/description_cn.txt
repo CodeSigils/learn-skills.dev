@@ -1,0 +1,1 @@
+通过 Sysmon 事件 ID 1（进程创建）和事件 ID 3（网络连接）关联、WMI 事件分析、端口 135 上的 RPC 端点映射器流量以及特定于 DCOM 的父子进程关系来检测 MMC20.Application、ShellBrowserWindow 和 ShellWindows COM 对象的滥用，从而寻找基于 DCOM 的横向移动。
