@@ -1,0 +1,1 @@
+Android 충돌 로그 및 ANR 스택 추적 분석기. 충돌 스택 추적을 구문 분석하고, 충돌 유형(NPE, OOM, ANR, SecurityException)을 식별하고, 키 프레임을 추출하고, 근본 원인을 찾고, 수정 제안을 생성합니다. 사용자가 충돌 로그, logcat 오류, ANR 추적, 삭제 표시 파일, OutOfMemoryError, NullPointerException, ClassNotFoundException, 치명적인 신호, SIGSEGV, 기본 충돌, StrictMode 위반을 붙여넣을 때 사용합니다. Java/Kotlin 예외, 기본 충돌, ANR 추적을 지원합니다. 외부 종속성 제로 — 순수 Python 표준 라이브러리.

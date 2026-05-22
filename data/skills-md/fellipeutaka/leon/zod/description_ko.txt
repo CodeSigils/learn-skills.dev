@@ -1,0 +1,5 @@
+Zod 4 — 정적 유형 추론을 통한 TypeScript 우선 스키마 검증. Zod 스키마 작성, 데이터 유효성 검사, Zod로 유형 정의, 입력 구문 분석,
+양식 유효성 검사 스키마 생성, API 요청/응답 스키마 정의, z.object, z.string, z.number, z.enum, z.array, z.union, z.discriminatedUnion,
+z.file, z.jwt, z.email, z.uuid, z.url, z.codec, z.toJSONSchema, z.fromJSONSchema, z.int, z.stringbool, z.templateLiteral, z.record, z.partialRecord,
+또는 다른 Zod API. 또한 Zod 3에서 Zod 4로 마이그레이션할 때나 사용자의 package.json에 zod@^4가 표시되는 경우에도 사용합니다.
+중요: 항상 Zod 4 API를 사용하세요. 사용자가 Zod 3 호환성을 명시적으로 요청하지 않는 한 더 이상 사용되지 않는 Zod 3 패턴을 사용하지 마십시오.

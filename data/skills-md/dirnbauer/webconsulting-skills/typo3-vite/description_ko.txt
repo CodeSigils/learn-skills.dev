@@ -1,0 +1,1 @@
+TYPO3 v13/v14 LTS 프로젝트용 Vite 7 구성, Bootstrap 5.3 테마로 SCSS 아키텍처 설정, 콘텐츠 요소당 진입점 생성, SVG 최적화, PostCSS(autoprefixer, cssnano) 구성, 로컬 글꼴 로드 또는 Bootstrap 변수 사용자 정의 시 사용합니다. v14에서 핵심 자산 연결/압축 제거(#108055) - 이제 외부 빌드 도구가 필수입니다. 또한 vite-asset-collector, 자산 해싱, Gzip/Brotli 압축, SCSS 가져오기 체인, 선택적 부트스트랩 가져오기, CSP 규정 준수, v14 이후 프런트엔드 빌드 파이프라인에 대해 트리거됩니다.
