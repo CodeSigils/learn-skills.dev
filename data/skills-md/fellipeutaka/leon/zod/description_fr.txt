@@ -1,0 +1,5 @@
+Zod 4 — Validation de schéma TypeScript d'abord avec inférence de type statique. À utiliser lors de l'écriture de schémas Zod, de la validation des données, de la définition de types avec Zod, de l'analyse des entrées,
+créer des schémas de validation de formulaire, définir des schémas de requête/réponse API, travailler avec z.object, z.string, z.number, z.enum, z.array, z.union, z.discriminatedUnion,
+z.file, z.jwt, z.email, z.uuid, z.url, z.codec, z.toJSONSchema, z.fromJSONSchema, z.int, z.stringbool, z.templateLiteral, z.record, z.partialRecord,
+ou toute autre API Zod. À utiliser également lors de la migration de Zod 3 vers Zod 4, ou lorsque le package.json de l'utilisateur affiche zod@^4.
+CRITIQUE : utilisez toujours les API Zod 4. N'utilisez jamais de modèles Zod 3 obsolètes à moins que l'utilisateur ne demande explicitement la compatibilité Zod 3.
