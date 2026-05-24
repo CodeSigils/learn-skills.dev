@@ -1,0 +1,1 @@
+超越核心 CLI/API 的進階 ArgoCD 操作 — 多叢集應用程式集產生器、自動映像更新、新叢集引導以及透過模板化應用程式集載入工作負載。在使用 ApplicationSet CRD（清單、叢集、git、矩陣、合併、SCM、拉取請求、外掛程式產生器）、設定 ArgoCD 映像更新程式（semver/digest/newest-buildOps + git 回寫）、將新的 Kubernetes 叢集程式引導至多重儲存庫 GitOps 設定 git 為 AppliSet 集區當範本加入新工作負載或對其中任何問題進行故障排除時使用。對於常規應用程式同步/狀態/差異工作，請使用核心“argocd”技能。

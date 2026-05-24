@@ -1,0 +1,1 @@
+在 Active Directory 中部署基于欺骗的 honeytoken，包括 AdminCount=1 的虚假特权帐户、用于 Kerberoasting 检测 (honeyroasting) 的虚假 SPN、带有 cpassword 陷阱的诱骗 GPO 以及虚假 BloodHound 路径。监视 Honeytoken 交互的 Windows 安全事件 ID 4769、4625、4662、5136。在实施 AD 欺骗防御以检测横向移动、凭证盗窃和侦察时使用。

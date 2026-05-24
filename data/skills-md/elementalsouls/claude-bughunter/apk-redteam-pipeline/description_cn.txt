@@ -1,0 +1,1 @@
+端到端 Android APK 红队管道 — 自动 APK 获取（Play Store + apkpure + apkmirror 后备）、jadx 反编译、secret/URL/JWT/Firebase grep、固定证书提取、导出组件枚举、Frida 运行时检测模板、意图注入探针。由授权的外部红队参与构建，其中手动提取了 7 个 APK，截断了 4 次下载尝试，并从其中一个应用程序恢复了硬编码的 JWT + 30 个内部 API 端点。当目标具有移动应用程序目录（Play 商店开发者页面）、当您找到托管在 Web 服务器上的 APK URL 或当侦察后在范围内提到“移动应用程序”时使用。

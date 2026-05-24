@@ -1,0 +1,1 @@
+用于端到端视频本地化管道的瘦编排器。通往四个重点子技能的路线 - /wjs-transcribing-audio、/wjs-translated-subtitles、/wjs-dubbing-video、/wjs-burning-subtitles。当用户要求一次性完全本地化时使用（“帮我把这个丛林视频开头中文字幕+配音”、“翻译并配音这个视频”、“做完整的本地化”）。对于任何单个步骤（仅转录、仅翻译、仅配音、仅刻录），直接调用子技能 - 速度更快且边界更清晰。

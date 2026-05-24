@@ -1,0 +1,1 @@
+根據 Alan 的品質欄檢查 TypeScript 差異：在邊界處從不拋出 Result/ResultAsync、對擁有的聯合進行 ts 模式詳盡性、IO 處的 Zod、也許是預期缺席、沒有任何/沒有拋出/沒有 Promise<Result>。每個發現一行（位置、問題、修復）。當使用者說「review this」、「alanstack review」、「/alanstack-review」、在 Bun + TypeScript 儲存庫中查看 PR 或暫存差異或要求審核程式碼風格時使用。

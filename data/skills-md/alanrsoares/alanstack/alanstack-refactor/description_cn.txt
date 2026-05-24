@@ -1,0 +1,1 @@
+应用 Alan 的规范 TypeScript 重构：Promise<Result> → ResultAsync、switch/if 链覆盖自有联合 → ts-pattern .exhaustive()、重复空检查 → Maybe + match、抛出 → 边界包装结果、非类型化 IO → Zod、内联对象类型 → 命名类型、IIFE → 命名帮助程序。当用户说“重构这个”、“加强这个”、“alanstack-ify”、“/alanstack-refactor”时，或者当评论 (alanstack-review) 推荐特定的重构动作时使用。

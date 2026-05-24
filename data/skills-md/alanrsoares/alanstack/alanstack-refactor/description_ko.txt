@@ -1,0 +1,1 @@
+Alan의 표준 TypeScript 리팩터링 적용: Promise<Result> → ResultAsync, 소유한 공용체에 대한 스위치/if 체인 → ts-pattern .exhaustive(), 반복된 null 검사 → Maybe + match, throws → 경계 래핑 결과, 형식화되지 않은 IO → Zod, 인라인 개체 유형 → 명명된 유형, IIFE → 명명된 도우미. 사용자가 '이것을 리팩터링', '이것을 강화', 'alanstack-ify', '/alanstack-refactor'라고 말하거나 검토(alanstack-review)에서 특정 리팩터링 이동을 권장할 때 사용합니다.

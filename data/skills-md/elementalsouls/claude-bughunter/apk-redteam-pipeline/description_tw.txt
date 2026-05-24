@@ -1,0 +1,1 @@
+端對端 Android APK 紅隊管線 — 自動 APK 取得（Play Store + apkpure + apkmirror 後備）、jadx 反編譯、secret/URL/JWT/Firebase grep、固定憑證擷取、匯出元件列舉、Frida 執行時間偵測範本、意圖注入探針。由授權的外部紅隊參與構建，其中手動提取了 7 個 APK，截斷了 4 次下載嘗試，並從其中一個應用程式恢復了硬編碼的 JWT + 30 個內部 API 端點。當目標具有行動應用程式目錄（Play 商店開發者頁面）、當您找到託管在 Web 伺服器上的 APK URL 或當偵察後在範圍內提到「行動應用程式」時使用。

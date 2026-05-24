@@ -1,0 +1,1 @@
+将一个或多个视频上传到 YouTube。当用户想要“上传到YouTube”、“发YouTube”、“批量上传”、“上传到YouTube”、“将视频发布到YouTube”或发布完成的MP4的“final/”目录时使用。从同级“UPLOAD_META.md”文件（用户的标准 Markdown 格式）或命令行标志中读取每个视频的元数据（标题/描述/标签）。通过直接使用“requests”进行可恢复上传，在 SOCKS/HTTP 代理后面生存（库存“google-api-python-client”MediaFileUpload 在此用户的代理设置下停止）。

@@ -1,0 +1,1 @@
+PHP 品質守護者和 PR 保姆，在 Pull 請求上執行 Ratchet (catraca) 原則。運行完整的 PHP 工具鏈（composeraudit、Pint/CS-Fixer、PHPStan/Psalm、PHPUnit/Pest、jscpd/phpcpd、phpmetrics），將結果與 benchmark.json 進行比較，並在升級之前迭代修復故障（最多 5 個循環）。報告帶有文件/行詳細資訊的重複程式碼，並輸出優先權操作列表。當使用者要求看護、保護、審查或檢查 PHP PR 的品質時，或在 Laravel/PHP 專案上執行品質關卡時使用。

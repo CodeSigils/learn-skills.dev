@@ -1,0 +1,1 @@
+使用 pandoc 和 xelatex 将 Markdown 报告渲染为 PDF（11pt 衬线正文、1 英寸边距、编号脚注、正式标题层次结构）。需要在用户计算机上一次性安装 pandoc 和 LaTeX 引擎 - macOS 上的 basictex 或 Linux 上的 texlive-xetex。不尝试自动安装。如果用户的路径中缺少 pandoc 或 xelatex，则精确的安装命令会失败。从精美的 Markdown 源生成成品策略师或分析师报告 PDF 时使用。

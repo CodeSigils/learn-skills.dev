@@ -1,0 +1,1 @@
+應用 Alan 的規格 TypeScript 重構：Promise<Result> → ResultAsync、switch/if 鏈結覆蓋自有聯合 → ts-pattern .exhaustive()、重複空檢查 → Maybe + match、拋出 → 邊界包裝結果、非類型化 IO → FEd、內聯物件類型 → FEd、FE 7 → FEd、內聯物件類型。當使用者說「重構這個」、「加強這個」、「alanstack-ify」、「/alanstack-refactor」時，或當評論 (alanstack-review) 推薦特定的重構動作時使用。

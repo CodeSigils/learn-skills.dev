@@ -1,0 +1,1 @@
+Patchright(감지되지 않은 Playwright 포크)를 사용한 브라우저 자동화 감지 방지. Akamai/Cloudflare로 보호되는 사이트와 같이 일반 Playwright/Chrome DevTools를 차단하는 웹사이트와 상호작용해야 할 때 사용하세요. playwright-cli와 동일한 명령 인터페이스를 제공하지만 봇 감지를 우회합니다. 사용자가 브라우저 자동화, 웹사이트 스크랩, 양식 작성, 사이트 로그인, 스크린샷 찍기 또는 Chrome 자동화와 관련된 모든 작업을 요청할 때마다 이 기술을 사용하세요. 특히 대상 사이트에 Cloudflare 또는 Akamai와 같은 봇 보호 기능이 있는 경우 더욱 그렇습니다.

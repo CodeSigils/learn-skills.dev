@@ -1,0 +1,1 @@
+Okta-as-IdP 紅隊攻擊鏈 — 租戶發現、用戶枚舉（多個向量）、身份驗證流分析（因素枚舉、推播通知疲勞、短信繞過）、具有鎖定規則的密碼噴射、Okta 特定的網絡釣魚原語（套件、FastPass 濫用、OIDC redirect_uri 篡改）、MFA 枚舉、洩漏 API 表面。許多企業組織使用 Okta 代替（或與）Entra ID 一起使用。不同的終點、不同的速率限制、不同的要素流。當 recon 顯示「<tenant>.okta.com」、「<tenant>.okta-emea.com」、「<tenant>.oktapreview.com」或指向 Okta IdP 的自動發現樣式記錄時使用。
