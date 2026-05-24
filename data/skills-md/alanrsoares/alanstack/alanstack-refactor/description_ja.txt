@@ -1,0 +1,1 @@
+Alan の正規の TypeScript リファクタリングを適用します。 Promise<Result> → ResultAsync、所有されているユニオン上の switch/if チェーン → ts-pattern .exhaustive()、繰り返しの null チェック → might + match、throws → 境界ラップされた Result、型なし IO → Zod、インライン オブジェクト型 → 名前付き型、IIFE → 名前付きヘルパー。ユーザーが「これをリファクタリングする」、「これを強化する」、「alanstack-ify」、「/alanstack-refactor」と言う場合、またはレビュー (alanstack-review) が特定のリファクタリングの移動を推奨する場合に使用します。

@@ -1,0 +1,1 @@
+Alan の品質バーとの TypeScript の差分を確認します。境界での Result/ResultAsync の非スロー、所有されているユニオンに対する ts パターンの網羅性、IO での Zod、おそらく予期される不在のため、any / no throws / no Promise<Result> です。発見事項 (場所、問題、修正) ごとに 1 行。ユーザーが「これをレビューしてください」、「alanstack review」、「/alanstack-review」と言う場合、Bun + TypeScript リポジトリで PR またはステージングされた diff をレビューする場合、またはコード スタイルの監査を要求する場合に使用します。
