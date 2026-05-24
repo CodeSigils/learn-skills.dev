@@ -1,0 +1,1 @@
+Verify a change against the repo's own scripts: lint + typecheck + smallest relevant tests, broadened when touching shared behavior. Reads package.json scripts, fans out filtered in Bun workspaces, reports what ran and what changed. Use when user says 'verify', 'qa this', 'run check', 'test it', '/alanstack-qa', or after coding work needs proof of correctness before commit/PR.
