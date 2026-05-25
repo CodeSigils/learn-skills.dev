@@ -1,0 +1,1 @@
+飞书OpenAPI方法本地浏览+通用API透调用。模式“service.resource.method”提供了路径、参数和范围的三部分查找（不需要互联网）； `feishu-cli api <method> <path>` 直接调用任何端点（v1.29+，覆盖2,500+未包装的API）。当用户询问“飞书有XXAPI吗？”、“XAPI的参数是什么？”、“Xmethod需要什么范围？”、“浏览OpenAPI方法”、“看看SDK如何调用”、“调用未封装的飞书API”时使用。不适用于查看最新的在线schema（请使用OpenAPI Explorer；本地元数据可能会落后于飞书开放平台）。

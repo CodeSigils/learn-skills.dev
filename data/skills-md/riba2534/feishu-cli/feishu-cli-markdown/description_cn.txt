@@ -1,0 +1,1 @@
+飞书云盘原生Markdown文件操作（作为文档导入/导出的补充）。 markdown create 上传新的.md到云盘； markdown fetch 将其下载为本地 .md； markdown overwrite 使用本地 .md 替换云驱动器上的现有文件（保持 file_token 不变，共享链接保持持久）。当 doc 文档不适合时（图像托管、密集代码块、版本控制），请使用本机 .md 文件路径。驱动upload_all + 定制的FormData multipart（SDK不公开file_token字段）。当用户请求“上传markdown”、“下载md”或“覆盖云盘md”时使用。

@@ -1,0 +1,1 @@
+Hono v4+ 后端的生产模式，包括 Bun、Drizzle ORM、Better Auth、Stoker、hono-openapi + Zod + Scalar 以及带有 Bun 测试运行程序的 TDD。在模块化整体 Hono 项目中构建功能、编写测试、审查代码或设置 auth/RBAC 时使用。每当您在此堆栈中看到 Hono 路由定义、createRouter()、describeRoute()、Better Auth 配置、Stoker 导入或 Bun 测试文件时应用。还可以在添加新模块、编写 OpenAPI 规范或调试身份验证中间件问题时使用。

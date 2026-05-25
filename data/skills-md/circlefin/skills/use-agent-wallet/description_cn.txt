@@ -1,0 +1,1 @@
+通过“circle” CLI 设置和管理 Circle 代理钱包。代理钱包是 Circle 面向 AI 代理的程序化 USDC 钱包，用于验证、持有 USDC 以及支付 x402 服务费用。该技能涵盖 CLI 安装验证、使用条款接受、电子邮件 + OTP 登录、钱包创建、会话状态检查和余额检查。每当用户想要设置、登录或检查其 Circle 代理钱包的状态时，或者每当下游技能（例如支付 x402 服务或为钱包提供资金）需要首先引导钱包时，请使用。触发条件：Circle CLI、代理钱包、Circle 钱包状态、Circle 钱包登录、Circle 钱包创建、Circle 钱包列表、Circle 钱包余额、设置 Circle、登录 Circle、x402 设置、Circle 代理钱包、代理 USDC、条款接受、安装 Circle CLI。
