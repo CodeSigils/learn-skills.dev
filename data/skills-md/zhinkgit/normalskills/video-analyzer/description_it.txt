@@ -1,0 +1,9 @@
+La capacità estrae fotogrammi consecutivi da un video e quindi utilizza l'analisi visiva fotogramma per fotogramma del contenuto dell'immagine, progettata specificamente per il debugging dello sviluppo di software incorporato. Viene utilizzato quando l'utente ha la necessità di analizzare le registrazioni del dispositivo e individuare anomalie logiche sul display (come salti di valore, anomalie di stato, errori di interfaccia, ecc.).
+
+Scenari di attivazione (la capacità si attiva se viene soddisfatto uno qualsiasi di questi; non aspettare che l'utente dica "usa capacità di analisi video"):
+- L'utente fornisce un percorso video e richiede analisi, identificazione del problema o rilevamento di anomalie.
+- L'utente menziona fenomeni nel video come "salto di valore", "numero saltato", "report non continuo", "anomalia di stato", "sbalzi errati di dati", ecc.
+- L'utente desidera individuare il momento in cui si verifica un problema specifico nella registrazione.
+- L'utente descrive un'anomalia sul display o sull'interfaccia utente del dispositivo incorporato e include un video.
+
+Nota: questa abilità non si basa su regole preimpostate: il rilevamento delle anomalie viene eseguito interamente dall'analisi visiva di Claude, giudicata ogni volta in base ai fenomeni specifici descritti dall'utente.
