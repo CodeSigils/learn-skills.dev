@@ -1,0 +1,1 @@
+飞书审批操作（查询 + 写入）。读：definition detail / instance get / task query。 写：instance {create,cancel,cc} + task {approve,reject,transfer}。 instance get、task query、instance cancel/cc、task approve/reject/transfer 需要 User Token； instance create 使用 tenant_access_token。 当用户请求"提交审批"、"审批通过/拒绝"、"撤回审批"、"转交审批"、"抄送"、"审批查询"时使用。
