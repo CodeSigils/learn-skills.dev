@@ -1,0 +1,1 @@
+執行 Salesforce Code Analyzer 來掃描程式碼的安全性、效能、最佳實務和程式碼風格違規情況。支援所有引擎（PMD、ESLint、CPD、RetireJS、Flow、SFGE、ApexGuru）、目標（檔案、資料夾、git diff）、類別和嚴重性。觸發條件：使用者說「掃描我的程式碼」、「檢查安全性問題」、「執行 PMD/ESLint」、「尋找重複項」、「分析流程」、「檢查易受攻擊的函式庫」、「AppExchange 審核」、「檢查我的 LWC」、「靜態分析」、「程式碼品質」或提及引擎/檔案類型（.cls、.trigger.m.cls.）。不要在以下情況下觸發：使用者想要在不掃描的情況下修復程式碼，或詢問安裝/設定。
