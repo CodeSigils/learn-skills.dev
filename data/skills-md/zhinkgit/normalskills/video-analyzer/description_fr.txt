@@ -1,0 +1,9 @@
+La compétence extrait des images consécutives d’une vidéo, puis utilise une analyse visuelle image par image du contenu, conçue spécifiquement pour le débogage du développement de logiciels embarqués. Il est utilisé lorsque les utilisateurs doivent analyser les enregistrements de l'appareil et localiser des anomalies logiques sur l'écran (telles que des sauts de valeur, des anomalies d'état, des erreurs d'interface, etc.).
+
+Scénarios de déclenchement (la compétence est activée si l'un de ces éléments s'applique ; n'attendez pas que l'utilisateur dise « utiliser la compétence d'analyse vidéo ») :
+- L'utilisateur fournit un chemin vidéo et demande une analyse, une détection de problèmes ou de voir où des anomalies existent.
+- L'utilisateur mentionne des phénomènes dans la vidéo tels que des « sauts de valeurs », des « chiffres manquants », des « rapports non continus », des « anomalies d'état », des « sauts erratiques de données », etc.
+- L'utilisateur souhaite identifier l'heure exacte à laquelle un problème spécifique survient dans l'enregistrement.
+- L'utilisateur décrit une anomalie sur l'écran ou l'interface utilisateur de l'appareil intégré et inclut une vidéo.
+
+Remarque : Cette compétence ne repose pas sur des règles prédéfinies : la détection des anomalies est entièrement effectuée par l'analyse visuelle de Claude, jugeant chaque cas en fonction des symptômes spécifiques décrits par l'utilisateur.
