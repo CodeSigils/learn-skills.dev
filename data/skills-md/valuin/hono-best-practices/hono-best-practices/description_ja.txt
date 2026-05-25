@@ -1,0 +1,1 @@
+Bun、Drizzle ORM、Better Auth、Stoker、hono-openapi + Zod + Scalar、および Bun テスト ランナーを使用した TDD を使用した Hono v4+ バックエンドのプロダクション パターン。機能の構築、テストの作成、コードのレビュー、またはモジュール式モノリス Hono プロジェクトでの認証/RBAC の設定を行うときに使用します。このスタック内に Hono ルート定義、createRouter()、describeRoute()、Better Auth config、Stoker imports、または Bun テスト ファイルが表示されるたびに適用してください。新しいモジュールを追加するとき、OpenAPI 仕様を作成するとき、または認証ミドルウェアの問題をデバッグするときにも使用します。

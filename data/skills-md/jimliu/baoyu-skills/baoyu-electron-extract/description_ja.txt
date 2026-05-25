@@ -1,0 +1,1 @@
+インストールされている Electron アプリ (`.asar` バンドル) からリソースと JavaScript を抽出し、利用可能な場合は `.js.map` ファイルから元のソースを復元するか、そうでない場合は Prettier で縮小コードをフォーマットします。ユーザーが「Electron アプリを抽出する」、「Electron を逆コンパイルする」、「<app> のソース コードを取得する」、「app.asar を検査する」、「看 Electron 应用源码」、「提取 .asar」を希望する場合、またはデスクトップ Electron アプリがどのように構築されているかを尋ねる場合に使用します。 「node_modules」をスキップし、macOS と Windows の両方をサポートします。
