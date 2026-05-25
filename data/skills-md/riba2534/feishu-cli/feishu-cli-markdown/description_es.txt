@@ -1,0 +1,10 @@
+Operaciones de archivos Markdown nativos de Feishu Cloud Drive (complementarias para la importación/exportación de documentos).  
+- creación de rebajas: cargue un nuevo .md en la unidad de la nube.  
+- recuperación de rebajas: descargar como .md local.  
+- sobrescritura de rebajas: use un .md local para sobrescribir un archivo existente en la unidad de la nube (mantenga file_token sin cambios, el enlace compartido persiste).  
+
+Cuando los documentos doc no sean adecuados (alojamiento de imágenes, bloques de código densos, gestión de versiones), utilice la ruta de archivo nativa .md.  
+
+Conduzca upload_all + construya manualmente FormData en varias partes (el SDK no expone el campo file_token).  
+
+Se utiliza cuando el usuario solicita "cargar descuento", "descargar md" o "sobrescribir md de unidad en la nube".

@@ -1,0 +1,10 @@
+La habilidad extrae cuadros consecutivos de un video y luego analiza el contenido visual cuadro por cuadro, diseñado específicamente para la depuración del desarrollo de software integrado.  
+Se utiliza cuando el usuario necesita analizar registros del dispositivo e identificar anomalías lógicas en la pantalla (saltos de valores, anomalías de estado, errores de interfaz, etc.).
+
+Escenarios desencadenantes (la habilidad se activa si se cumple alguna de estas condiciones, sin esperar a que el usuario diga “usar habilidad de análisis de video”):  
+- El usuario proporciona una ruta de vídeo y solicita análisis, diagnóstico del problema o ver dónde está la anomalía.  
+- El usuario menciona fenómenos en el vídeo como "valores saltantes", "números omitidos", "informes discontinuos", "anomalía de estado", "fluctuación de datos", etc.  
+- El usuario desea señalar el momento en que ocurrió un problema específico en la grabación.  
+- El usuario describe una anomalía en la pantalla o la interfaz de usuario del dispositivo integrado y proporciona un vídeo.
+
+Nota: esta habilidad no depende de reglas preestablecidas: la detección de anomalías se realiza completamente mediante el análisis visual de Claude, juzgando cada caso en función de los fenómenos específicos descritos por el usuario.
