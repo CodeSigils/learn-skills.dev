@@ -1,11 +1,10 @@
-Skill to extract consecutive frames from a video and then perform visual, frame‑by‑frame analysis of the image content, specifically designed for embedded software development debugging.
+从视频中提取连续帧、然后用视觉逐帧分析画面内容的技能，专为嵌入式软件开发调试设计。
+当用户需要分析装置录像、找出显示屏中的逻辑异常（数值跳位、状态异常、界面错误等）时使用此技能。
 
-When a user needs to analyze device recordings and identify logical anomalies on the display (such as value jumps, state anomalies, interface errors, etc.), this skill is used.
+触发场景（符合其中一条即触发，不要等用户说"用视频分析技能"）：
+- 用户提供了视频路径，要求分析、查问题、看哪里有异常
+- 用户说视频里有"跳位""跳号""报告不连续""状态异常""数据乱跳"等现象
+- 用户想从录像中找出某个具体问题发生的时间点
+- 用户描述了嵌入式装置的显示屏或操作界面出现了异常，附有录像
 
-Trigger scenarios (activate if any one of these is met; do not wait for the user to say “use video analysis skill”):
-- The user provides a video path and requests analysis, problem detection, or locating anomalies.
-- The user mentions phenomena in the video such as “value jump,” “number jump,” “report discontinuity,” “state anomaly,” “data erratic jump,” etc.
-- The user wants to find the exact time point at which a specific problem occurred from the recording.
-- The user describes an abnormality on the embedded device’s display or UI and attaches a video.
-
-Note: This skill does not rely on preset rules—abnormality detection is performed entirely by Claude’s visual analysis, judged each time based on the specific phenomena described by the user.
+注意：此技能不依赖预设规则——异常判断完全由 Claude 视觉分析完成，每次根据用户描述的具体现象来判断。
