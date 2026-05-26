@@ -1,0 +1,15 @@
+Utilice One CLI ("one") para interactuar con más de 250 plataformas de terceros (Gmail, Slack, Shopify, HubSpot, Stripe, GitHub, Notion, Salesforce y más) a través de sus API. Uno maneja la autenticación, la creación de solicitudes y la ejecución a través de una única interfaz unificada.
+
+DISPARAR cuando el usuario quiera:
+- Interactuar con CUALQUIER plataforma de terceros o servicio externo (por ejemplo, "enviar un correo electrónico", "crear un pedido de Shopify", "buscar un contacto de HubSpot", "publicar en Slack")
+- Enumere sus plataformas conectadas o verifique qué integraciones están disponibles
+- Buscar qué pueden hacer en una plataforma (por ejemplo, "¿qué puedo hacer con Gmail")
+- Ejecutar cualquier llamada API contra una plataforma conectada
+- Configurar automatizaciones basadas en webhooks entre plataformas (por ejemplo, "cuando llegue un pago de Stripe, notifique a Slack")
+- Cree flujos de trabajo de varios pasos que encadenen acciones entre plataformas (por ejemplo, "busque clientes de Stripe y envíe un correo electrónico a cada uno")
+- Cualquier cosa que involucre API, integraciones o aplicaciones conectadas de terceros, incluso si no mencionan "Uno" por su nombre.
+
+NO DISPARAR para:
+- Configurar One o instalar MCP (eso es "one init")
+- Agregar nuevas conexiones (eso es `one add <platform>`)
+- Configurar el control de acceso (eso es "una configuración")

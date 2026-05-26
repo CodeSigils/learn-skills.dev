@@ -1,0 +1,15 @@
+Utilisez One CLI (« one ») pour interagir avec plus de 250 plates-formes tierces — Gmail, Slack, Shopify, HubSpot, Stripe, GitHub, Notion, Salesforce, etc. — via leurs API. L’un gère l’authentification, la création de requêtes et l’exécution via une seule interface unifiée.
+
+DÉCLENCHEUR lorsque l'utilisateur souhaite :
+- Interagissez avec TOUTE plateforme tierce ou service externe (par exemple, « envoyer un e-mail », « créer une commande Shopify », « rechercher un contact HubSpot », « publier sur Slack »)
+- Répertoriez leurs plateformes connectées ou vérifiez quelles intégrations sont disponibles
+- Recherchez ce qu'ils peuvent faire sur une plateforme (par exemple, "que puis-je faire avec Gmail")
+- Exécuter n'importe quel appel API sur une plateforme connectée
+- Mettre en place des automatisations basées sur des webhooks entre les plateformes (par exemple, « lorsqu'un paiement Stripe arrive, informez Slack »)
+- Créez des flux de travail en plusieurs étapes qui enchaînent les actions sur plusieurs plates-formes (par exemple, "récupérer les clients Stripe et envoyer un e-mail à chacun d'entre eux")
+- Tout ce qui implique des API, des intégrations ou des applications connectées tierces, même si elles ne mentionnent pas « One » par leur nom.
+
+NE PAS DÉCLENCHER pour :
+- Configurer One ou installer MCP (c'est `one init`)
+- Ajout de nouvelles connexions (c'est `one add <platform>`)
+- Configuration du contrôle d'accès (c'est `one config`)

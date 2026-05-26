@@ -1,0 +1,1 @@
+在 Claude Code 或 Codex 中全面手动测试 Circuit 插件面向用户的界面。每当用户要求“手动测试 Circuit”、“QA Circuit 插件”、“练习 Circuit 表面”、“运行 Circuit 检查表”、“冒烟测试 Circuit”、“查找 Circuit 中的回归”、“测试 Claude Circuit 插件”、“测试 Codex Circuit 插件”时，或者在准备 Circuit 版本以供市场发布时，请使用此技能。参数是要测试的主机包 - `claude` 或 `codex`。生成 Markdown 报告，其中包含每个命令的通过/失败、按严重性排名的探索性发现、运行文件夹证据链接以及简明的终端摘要。即使用户没有说出“测试”一词，也应该使用“检查每个电路命令”或“确保电路仍然端到端工作”之类的短语。
