@@ -1,0 +1,14 @@
+Ideazione divergente parallela per agenti codificanti. Genera N rami isolati in diversi frame cognitivi (regolatore, biologia, speedrunner, bambino di 10 anni, budget $ 0), punteggi, sfronda trappole e approfondisce i migliori sopravvissuti. I rami paralleli isolati e le fasi generatore/critiche separate sono portanti. Costa circa 10 chiamate LLM/agente per esecuzione (da 5 a 10 volte una singola risposta), quindi l'invocazione è controllata.
+TRIGGER INCONDIZIONATO. Quando l'utente digita "/adhd" o richiede esplicitamente "modalità ADHD", "usa l'abilità adhd" o "esegui ADHD su questo", richiama il ciclo completo senza ulteriori giudizi. Salta il controllo pre-volo.
+TRIGGER CONDIZIONATO. Per tutto il resto, autogiudicatevi prima di invocare. Procedere solo quando TUTTI questi elementi sono validi: (a) lo spazio delle risposte è APERTO (più risposte possibili, nessuna singola
+    quello canonico corretto),
+(b) il costo di una risposta ovvia sbagliata è alto (architettura
+    decisione, bug fuzzy senza causa principale nota, superficie API o SDK
+    design, denominazione di un prodotto pubblico, strategia, posizionamento, schema
+    progettazione, pianificazione della migrazione) e
+(c) l'utente NON ha utilizzato parole con frasi chiuse come "veloce", "veloce",
+    "standard", "canonico", "libro di testo", "solo", "una riga", "mostrami come
+    to", "a cosa serve la sintassi".
+
+NON INVOCARE per: ricerche fattuali, aiuto sulla sintassi, bug con una causa principale nota, qualsiasi cosa in cui la risposta giusta sia a una query di ricerca di distanza o domande formulate come chiuse con un'unica risposta chiara.
+In caso di dubbi, NON eseguire l'invocazione automatica. Preferisci rispondere direttamente e offri all'utente "/adhd <problem>" come opzione esplicita se ritieni che la ricerca ampia possa essere d'aiuto.

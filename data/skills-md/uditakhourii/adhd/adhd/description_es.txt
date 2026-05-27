@@ -1,0 +1,14 @@
+Ideación divergente paralela para agentes codificadores. Genera N ramas aisladas bajo diferentes marcos cognitivos (regulador, biología, corredor de velocidad, niño de 10 años, presupuesto de $0), puntúa, poda trampas y profundiza a los principales supervivientes. Las ramas paralelas aisladas y las fases críticas/generador separadas soportan carga. Cuesta alrededor de 10 llamadas de LLM/Agente por ejecución (de 5 a 10 veces una sola respuesta), por lo que la invocación está cerrada.
+GATILLO INCONDICIONAL. Cuando el usuario escribe "/adhd" o solicita explícitamente "modo ADHD", "usa la habilidad adhd" o "ejecuta ADHD en esto", invoca el ciclo completo sin más juicio. Sáltate el control previo al vuelo.
+DISPARADOR CONDICIONAL. Por todo lo demás, autojuzga antes de invocar. Sólo proceda cuando TODAS estas se cumplan: (a) el espacio de respuesta sea ABIERTO (múltiples respuestas viables, ninguna
+    canónicamente correcta),
+(b) el costo de que la respuesta obvia sea incorrecta es alto (arquitectura
+    decisión, error difuso sin causa raíz conocida, superficie API o SDK
+    diseño, naming para un producto público, estrategia, posicionamiento, esquema
+    diseño, planificación de la migración), y
+(c) el usuario NO ha utilizado palabras con frases cerradas como "rápido", "rápido",
+    "estándar", "canónico", "libro de texto", "solo", "una línea", "muéstrame cómo
+    a", "para qué es la sintaxis".
+
+NO INVOQUE para: búsquedas objetivas, ayuda de sintaxis, errores con una causa raíz conocida, cualquier cosa donde la respuesta correcta esté a una consulta de búsqueda o preguntas redactadas como cerradas con una única respuesta clara.
+En caso de duda, NO realice la autoinvocación. Prefiere responder directamente y ofrecer al usuario "/adhd <problema>" como una opción explícita si cree que la búsqueda amplia sería útil.

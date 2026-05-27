@@ -1,0 +1,1 @@
+將 `.agents/skills/<name>/` 下的每個技能鏡像到 `.claude/skills/<name>` 相對符號連結中，以便 Claude Code 的工具自動發現它 - 但僅限於還沒有正確連結的技能。冪等且非破壞性 - 現有的正確符號連結會通過，錯誤的符號連結會被標記為衝突（或用 --force 替換），並且真實的檔案/目錄永遠不會被破壞。使用零依賴本機腳本（Node .mjs 或 Python 3）。當 .agents/skills/ 下的 SKILL.md 對線束不可見、批量加入採用「.agents/」約定的儲存庫時，或將新技能拉入「.agents/skills/」後，請使用。

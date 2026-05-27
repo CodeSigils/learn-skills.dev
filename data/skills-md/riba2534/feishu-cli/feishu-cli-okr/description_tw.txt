@@ -1,0 +1,1 @@
+飛書OKR查詢和進度報告。 「okr 週期清單」列出了租用戶層級的 OKR 週期； 「okr進度清單/建立」查詢或建立進度記錄。注意：API 中的source_url 欄位為必填字段，預設佔位符為 https://www.feishu.cn/okr/progress，可以更改。將 SDK Okr.ProgressRecord 與 v1/periods 一起使用以進行直接 HTTP 呼叫（v2/cycles 不存在）。當使用者要求「查詢 OKR 週期」、「報表 OKR 進度」或「OKR 更新」時使用。

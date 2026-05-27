@@ -1,0 +1,1 @@
+Feishu OKR クエリと進捗レポート。 「okr サイクル リスト」には、テナント レベルの OKR サイクルがリストされます。 「okr progress list/create」はクエリを実行するか、進行状況レコードを作成します。注: API ではsource_url フィールドは必須であり、デフォルトのプレースホルダーは https://www.feishu.cn/okr/progress であり、変更可能です。直接 HTTP 呼び出しには、SDK Okr.ProgressRecord を v1/periods とともに使用します (v2/cycles は存在しません)。これは、ユーザーが「OKR サイクルのクエリ」、「OKR の進捗状況のレポート」、または「OKR の更新」を要求するときに使用されます。

@@ -1,0 +1,1 @@
+Feishu OKR 쿼리 및 진행 상황 보고. "okr 주기 목록"은 테넌트 수준 OKR 주기를 나열합니다. "okr 진행 목록/생성"은 진행 기록을 쿼리하거나 생성합니다. 참고: API에서 source_url 필드는 필수이며, 기본 자리 표시자는 https://www.feishu.cn/okr/progress이며 변경할 수 있습니다. 직접 HTTP 호출을 위해 SDK Okr.ProgressRecord를 v1/기간과 함께 사용하세요(v2/cycles는 존재하지 않음). 이는 사용자가 "OKR 주기 쿼리", "OKR 진행 상황 보고" 또는 "OKR 업데이트"를 요청할 때 사용됩니다.

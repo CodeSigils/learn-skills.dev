@@ -1,0 +1,1 @@
+Eingabevorlagenkonfiguration für Elastic-Integrationen. Deckt Agent-Stream-Vorlagen (agent/stream/*.yml.hbs) für alle Nicht-CEL-Eingabetypen ab: HTTPJSON, AWS S3, CloudWatch, Azure Blob, Azure EventHub, GCS, GCP Pub/Sub, TCP, UDP, HTTP Endpoint, Filestream, Logfile, Journald, Winlog und WebSocket. Verwenden Sie für CEL-Eingabeprogramme stattdessen den Skill „Cel-Programme“.

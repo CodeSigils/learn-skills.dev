@@ -1,0 +1,14 @@
+Parallele divergente Idee für Codierungsagenten. Erzeugt N isolierte Zweige unter verschiedenen kognitiven Rahmenbedingungen (Regulator, Biologie, Speedrunner, 10-Jähriger, 0-Dollar-Budget), bewertet, beschneidet Fallen und vertieft die Top-Überlebenden. Die isolierten Parallelzweige und die getrennten Generator-/kritischen Phasen sind tragend. Kostet etwa 10 LLM-/Agentenanrufe pro Lauf (5 bis 10x eine einzelne Antwort), daher ist der Aufruf begrenzt.
+UNBEDINGTER AUSLÖSER. Wenn der Benutzer „/adhd“ eingibt oder explizit nach „ADHS-Modus“, „Adhd-Skill verwenden“ oder „ADHS darauf ausführen“ fragt, wird ohne weitere Beurteilung die vollständige Schleife aufgerufen. Überspringen Sie den Check vor dem Flug.
+BEDINGTER AUSLÖSER. Beurteilen Sie bei allem anderen selbst, bevor Sie sich berufen. Fahren Sie nur fort, wenn ALLEs zutrifft: (a) Der Antwortraum ist OFFEN (mehrere mögliche Antworten, keine einzelne).
+    kanonisch korrekt),
+(b) Die Kosten dafür, dass die offensichtliche Antwort falsch ist, sind hoch (Architektur).
+    Entscheidung, Fuzzy-Bug ohne bekannte Grundursache, API oder SDK-Oberfläche
+    Design, Benennung für ein öffentliches Produkt, Strategie, Positionierung, Schema
+    Design, Migrationsplanung) und
+(c) der Benutzer KEINE geschlossenen Formulierungen wie „schnell“, „schnell“,
+    „Standard“, „kanonisch“, „Lehrbuch“, „nur“, „einzeilig“, „zeig mir wie
+    to“, „wofür ist die Syntax?“.
+
+NICHT ANRUFEN für: sachliche Nachschlagewerke, Syntaxhilfe, Fehler mit bekannter Grundursache, alles, bei dem die richtige Antwort nur eine Suchanfrage entfernt ist, oder als abgeschlossen formulierte Fragen mit einer eindeutigen Einzelantwort.
+Führen Sie im Zweifelsfall KEINEN automatischen Aufruf durch. Antworten Sie lieber direkt und bieten Sie dem Benutzer „/adhd <problem>“ als explizite Option an, wenn Sie glauben, dass die umfassende Suche hilfreich sein würde.

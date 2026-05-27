@@ -1,0 +1,1 @@
+Elastic 統合用の入力テンプレート構成。 CEL 以外のすべての入力タイプ (HTTPJSON、AWS S3、CloudWatch、Azure Blob、Azure EventHub、GCS、GCP Pub/Sub、TCP、UDP、HTTP エンドポイント、Filestream、Logfile、Journald、Winlog、および WebSocket) のエージェント ストリーム テンプレート (agent/stream/*.yml.hbs) をカバーします。 CEL 入力プログラムの場合は、代わりに cel-programs スキルを使用してください。

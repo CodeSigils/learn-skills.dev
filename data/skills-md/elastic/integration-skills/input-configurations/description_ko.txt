@@ -1,0 +1,1 @@
+Elastic 통합을 위한 입력 템플릿 구성입니다. CEL이 아닌 모든 입력 유형(HTTPJSON, AWS S3, CloudWatch, Azure Blob, Azure EventHub, GCS, GCP Pub/Sub, TCP, UDP, HTTP 엔드포인트, Filestream, Logfile, Journald, Winlog 및 WebSocket)에 대한 에이전트 스트림 템플릿(agent/stream/*.yml.hbs)을 다룹니다. CEL 입력 프로그램의 경우 대신 cel-programs 기술을 사용하십시오.

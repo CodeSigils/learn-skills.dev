@@ -1,0 +1,1 @@
+Feishu 슬라이드 프레젠테이션. `slides create`는 XML 템플릿(POST/open-apis/slides_ai/v1/xml_presentations)에서 프레젠테이션을 만듭니다. `slides media‑upload`는 미디어를 업로드합니다(driveupload_all+parent_type=slide_file, 단일 파일≤20MB, 청크 지원 없음). 사용자가 "Feishu PPT 만들기", "슬라이드 업로드", "프레젠테이션" 또는 "슬라이드"를 요청할 때 사용합니다. 해당 없음: 복잡한 슬라이드 편집(복잡한 의미로 블록 삽입/교체)이 아직 구현되지 않았습니다. 종달새 슬라이드를 사용하세요.

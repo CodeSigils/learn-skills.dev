@@ -1,0 +1,14 @@
+Idéation divergente parallèle pour les agents de codage. Génère N branches isolées sous différents cadres cognitifs (régulateur, biologie, speedrunner, 10 ans, budget 0 $), marque, élague les pièges et approfondit les meilleurs survivants. Les branches parallèles isolées et les phases générateur/critique séparées sont porteuses. Coûte environ 10 appels LLM/Agent par exécution (5 à 10 fois une seule réponse), l'invocation est donc fermée.
+DÉCLENCHEMENT INCONDITIONNEL. Lorsque l'utilisateur tape "/adhd" ou demande explicitement le "mode ADHD", "utiliser la compétence adhd" ou "exécuter ADHD sur ceci", invoquez la boucle complète sans autre jugement. Évitez la vérification avant vol.
+DÉCLENCHEUR CONDITIONNEL. Pour tout le reste, jugez-vous avant d’invoquer. Ne procédez que lorsque TOUTES ces conditions sont remplies : (a) l'espace de réponse est OUVERT (plusieurs réponses viables, aucune réponse unique).
+    canonique correct),
+(b) le coût d’une réponse évidente fausse est élevé (architecture
+    décision, bug flou sans cause profonde connue, surface API ou SDK
+    conception, naming pour un produit public, stratégie, positionnement, schéma
+    conception, planification de la migration), et
+(c) l'utilisateur n'a PAS utilisé de mots fermés tels que "rapide", "rapide",
+    "standard", "canonique", "manuel", "juste", "une ligne", "montre-moi comment
+    à", "à quoi sert la syntaxe".
+
+NE PAS INVOQUER pour : les recherches factuelles, l'aide sur la syntaxe, les bogues avec une cause profonde connue, tout ce pour quoi la bonne réponse est à une requête de recherche, ou les questions formulées comme fermées avec une réponse unique et claire.
+En cas de doute, n’invoquez PAS automatiquement. Préférez répondre directement et proposez à l'utilisateur "/adhd <problem>" comme option explicite si vous pensez qu'une recherche large serait utile.

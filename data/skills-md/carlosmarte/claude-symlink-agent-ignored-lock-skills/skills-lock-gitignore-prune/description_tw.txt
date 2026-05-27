@@ -1,0 +1,1 @@
+透過刪除檔案被 git 忽略的所有技能條目，將 Skills-lock.json 與 .gitignore 重新同步。透過將忽略解析委託給“git check-ignore”，修復了鎖定文件“重影”（添加忽略規則後留下的過時條目），因此像“agent-skill-kit-*”、“.git/info/exclude”文件和全局 exceptsFile 這樣的 glob 都受到尊重。也捕獲異常情況，即追蹤技能的“.agents/skills/<name>”來源，但忽略其鏡像的“.claude/skills/<name>”副本（反之亦然）。具有 --dry-run 預覽的零依賴節點腳本。當 Skills-lock.json 列出不再追蹤的技能、添加供應商技能的忽略規則或審核鎖定檔案/忽略漂移時使用。

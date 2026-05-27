@@ -1,0 +1,1 @@
+飛書幻燈片簡報。 `slides create` 從 XML 模板建立簡報 (POST/open-apis/slides_ai/v1/xl_presentations)；`slides media-upload` 上傳媒體（driveupload_all+parent_type=slide_file，單一檔案≤20MB，無分塊支援）。當使用者要求「建立飛書 PPT」、「上傳幻燈片」、「簡報」或「幻燈片」時使用。不適用：尚未實現複雜的幻燈片編輯（具有複雜語義的區塊插入/替換）；使用lark幻燈片。
