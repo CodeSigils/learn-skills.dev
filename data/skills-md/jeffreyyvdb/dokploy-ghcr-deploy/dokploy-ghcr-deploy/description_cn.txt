@@ -1,0 +1,1 @@
+使用 GitHub Actions、GitHub 容器注册表 (GHCR) 和 Dokploy MCP 设置自动构建 + 将 Docker 化存储库部署到自托管 Dokploy 实例。当用户想要将存储库自动部署到 Dokploy、设置针对 Dokploy 的 CI/CD、将容器发送到自己的 Dokploy 服务器、从现有存储库在 Dokploy 上配置新应用程序或连接 GitHub Actions 以推送图像并触发 Dokploy 重新部署时使用 - 即使它们没有明确提及“GHCR”或“GitHub Actions”。触发诸如“将其部署到 dokploy”、“为此存储库设置 dokploy”、“在我的服务器上自动构建和部署”、“将此应用程序发送到我的 dokploy”、“我希望 CI/CD 到我的自托管 Dokploy”等措辞。

@@ -1,0 +1,1 @@
+生成或刷新技能存储库的 README.md - 该存储库在 `.agents/skills/<name>/SKILL.md` 下供应agentskills.io 技能。扫描每个技能的 frontmatter，构建技能表，并编写安装说明（每个技能的“npx Skills add”加上“curl | bash”一次性）和布局部分。当用户要求创建、更新、生成或刷新技能存储库的自述文件时，当存储库的自述文件是裸存根时，或者在“.agents/skills/”下添加/删除技能后使用。

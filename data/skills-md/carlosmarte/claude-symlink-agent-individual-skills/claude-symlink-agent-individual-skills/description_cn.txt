@@ -1,0 +1,1 @@
+将 `.agents/skills/<name>/` 下的每个技能镜像到 `.claude/skills/<name>` 相对符号链接中，以便 Claude Code 的工具自动发现它 - 但仅限于还没有正确链接的技能。幂等且非破坏性 - 现有的正确符号链接会通过，错误的符号链接会被标记为冲突（或用 --force 替换），并且真实的文件/目录永远不会被破坏。使用零依赖本机脚本（Node .mjs 或 Python 3）。当 .agents/skills/ 下的 SKILL.md 对线束不可见、批量加入采用“.agents/”约定的存储库时，或者将新技能拉入“.agents/skills/”后，请使用。

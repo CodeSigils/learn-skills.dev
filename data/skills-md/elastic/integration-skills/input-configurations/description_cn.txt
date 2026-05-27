@@ -1,0 +1,1 @@
+Elastic 集成的输入模板配置。涵盖所有非 CEL 输入类型的代理流模板 (agent/stream/*.yml.hbs)：HTTPJSON、AWS S3、CloudWatch、Azure Blob、Azure EventHub、GCS、GCP Pub/Sub、TCP、UDP、HTTP 端点、Filestream、Logfile、Journald、Winlog 和 WebSocket。对于 CEL 输入程序，请使用 cel-programs 技能。
