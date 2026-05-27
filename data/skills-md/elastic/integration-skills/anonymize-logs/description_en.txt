@@ -1,0 +1,1 @@
+Anonymize and sanitize customer-provided log files before they are committed as pipeline test fixtures or sample events. Performs a line-by-line review and replaces all sensitive values inline, preserving log structure and format exactly — never reformats, re-indents, or restructures content. Invoke manually with /anonymize-logs.

@@ -1,0 +1,1 @@
+飞书 OKR 查询与进度上报。okr cycle list 列租户级 OKR 周期； okr progress list/create 查/创建进度记录。 注意：source_url 字段 API 强制必填，默认占位 https://www.feishu.cn/okr/progress 可改。 使用 SDK Okr.ProgressRecord + v1/periods HTTP 直调（v2/cycles 不存在）。 当用户请求"查 OKR 周期"、"上报 OKR 进度"、"OKR 更新"时使用。

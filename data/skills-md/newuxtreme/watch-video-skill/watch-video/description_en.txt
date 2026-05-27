@@ -1,0 +1,1 @@
+SLASH-COMMAND-ONLY. Invoke ONLY when the user explicitly types the literal `/watch-video` slash command. Never auto-trigger on phrases like "watch this video," "summarize this video," "take notes on this video," or on a bare YouTube URL. For ad-hoc YouTube questions, fetch the transcript directly (YouTube page or yt-dlp) and skim — do not run this heavyweight pipeline.

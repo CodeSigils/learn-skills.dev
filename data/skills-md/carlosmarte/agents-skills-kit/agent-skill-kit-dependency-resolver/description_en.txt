@@ -1,0 +1,1 @@
+Resolve and topologically sort skill dependencies, enforce the spec §3.3 inversion rule (project→app→team→org), warn on unpinned versions, and fail-closed on incompatible range conflicts. Use when the user asks to check skill dependencies, sort skills by build order, detect cycles, or audit skill version pinning.

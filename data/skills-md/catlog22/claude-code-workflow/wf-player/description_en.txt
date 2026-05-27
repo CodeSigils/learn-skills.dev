@@ -1,0 +1,1 @@
+Workflow template player — load a JSON template produced by wf-composer, bind context variables, execute nodes in DAG order (serial/parallel), persist state at checkpoints, support resume from any checkpoint. Uses ccw-coordinator serial-blocking for CLI nodes and team-coordinate worker pattern for parallel agent nodes. Triggers on "wf-player " or "/wf-player".

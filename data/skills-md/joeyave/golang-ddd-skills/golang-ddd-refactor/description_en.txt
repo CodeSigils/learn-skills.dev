@@ -1,0 +1,1 @@
+Refactor existing Go code toward a behavior-first, invariant-protecting domain model. Use when business rules live in handlers or repositories, shared structs couple DB and API models, entities expose setters or mutable public fields, or a service needs domain methods, constructors, private state, repository update closures, and focused domain tests.

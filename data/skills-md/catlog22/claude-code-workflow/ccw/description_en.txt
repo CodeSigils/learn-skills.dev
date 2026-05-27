@@ -1,0 +1,1 @@
+Intelligent coordinator — classify intent via structured extraction (action × object × style), map to skill chain, execute wave-by-wave via spawn_agents_on_csv. Barrier skills trigger coordinator-side artifact analysis between waves to dynamically assemble subsequent skill_call args. Each wave can be 1 or N parallel tasks.
