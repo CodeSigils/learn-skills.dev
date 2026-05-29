@@ -1,0 +1,1 @@
+Redis 矢量搜索指南涵盖 HNSW 与 FLAT 算法选择、矢量索引配置（维度、距离度量、数据类型）、将矢量相似性与 TAG 或 NUMERIC 过滤器相结合的过滤混合搜索，以及使用 RedisVL 的 RAG 检索模式。在 FT.CREATE 中定义 VECTOR 字段、集成嵌入（OpenAI、Cohere、句子转换器）、调整 HNSW 参数（M、EF_CONSTRUCTION、EF_RUNTIME）、构建检索增强生成管道或按属性过滤向量结果时使用。

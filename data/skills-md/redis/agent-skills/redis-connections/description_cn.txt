@@ -1,0 +1,1 @@
+Redis 客户端和连接指南，涵盖连接池、多路复用、管道、使用 RESP3 进行客户端缓存、避免慢速命令（KEYS、SMEMBERS、HGETALL）以及调整套接字超时。在配置 Redis 客户端（redis-py、Jedis、Lettuce、NRedisStack）、批处理命令以提高吞吐量、消除每个请求连接创建、使用 SCAN 迭代大型键空间、为读取繁重的工作负载启用客户端缓存或设置连接和读取超时时使用。

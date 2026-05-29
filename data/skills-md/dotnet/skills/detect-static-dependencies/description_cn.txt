@@ -1,0 +1,1 @@
+扫描 C# 源文件以查找难以测试的静态依赖项 — DateTime.Now/UtcNow、File.*、Directory.*、Environment.*、HttpClient、Console.*、Process.* 和其他不可测试的静态项。按频率生成静态调用站点的排名报告。用途：查找不可测试的静态、扫描静态依赖项、可测试性审计、识别难以模拟的代码、查找 DateTime.Now 用法、检测静态耦合、可测试性报告、可测试性静态分析。请勿用于：生成包装器（使用generate-testability-wrappers）、迁移代码（使用migrate-static-to-wrapper）、一般代码审查或查找已经位于抽象背后的静态信息。

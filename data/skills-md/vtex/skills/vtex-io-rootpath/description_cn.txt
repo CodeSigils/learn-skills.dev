@@ -1,0 +1,1 @@
+在构建必须在绑定使用路径前缀（例如 store.com/us/、store.com/br/）的多绑定存储中正常工作的 VTEX IO 应用程序时应用。涵盖从 x-vtex-root-path 标头中提取 rootPath、React 中的 useRuntime().rootPath、后端中的 URL 构造、链接生成、资产路径和 API 路由注意事项。当应用程序在跨境或多绑定设置中中断或生成错误的 URL 时使用。

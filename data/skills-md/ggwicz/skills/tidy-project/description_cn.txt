@@ -1,0 +1,1 @@
+当用户显式调用 /tidy-project 时使用。对项目结构运行只读的三阶段审核，以便更轻松地进行单独开发维护。识别死代码、重复、过早抽象、过度嵌套、过度耦合、残余框架脚手架、过时标记和文档/代码漂移。在“docs/YYYY-MM-DD-tidy-project-plan.md”（如果没有“docs/”，则在存储库根目录）生成单个综合执行计划 - 不修改源文件。跳过以“.”开头的每个目录（例如“.git”、“.venv”、“.rdf”、“.agents”、“.claude”、“.github”、IDE/CI/agent 脚手架）以及通常的“node_modules”、“vendor”、“dist”、“build”、“coverage”、“target”。

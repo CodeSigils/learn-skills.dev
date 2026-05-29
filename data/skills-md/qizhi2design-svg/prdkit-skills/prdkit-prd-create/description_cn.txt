@@ -1,0 +1,1 @@
+当用户要求编写PRD、启动PRD、生成需求文档、组织产品计划、补充产品文档或输出高/中/低复杂度的需求文档时，就会用到此技能。该技能遵循两个阶段的流程：第一阶段检查prdkit项目状态，扫描上下文，完成产品定型和复杂性评估，通过结构化提问填写缺失信息，并将计划草案写入draft/reference/<title>-prd-plan.md；第二阶段，用户确认计划草案后，调用`prdkit prd create --from-plan`生成正式的PRD初稿underworkspace/prds，然后根据复杂程度和产品类型完成正式内容。

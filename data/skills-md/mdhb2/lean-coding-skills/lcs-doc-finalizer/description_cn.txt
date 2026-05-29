@@ -1,0 +1,1 @@
+每当用户要求将已完成的工作最终确定为规范文档时，请使用此技能。触发“最终确定文档”、“准备最终文档”、“lcs-doc-finalizer”、“selesaikan dokumentasi”。确保所有任务都标记为完成，在 .lcs/docs/<timestamp>-<slug-work-item>/ 下生成 map.md 和 doc.md，建议 git commit 和 PR 描述，将 .lcs/work-items/<timestamp>-<slug-work-item>/ 下的源工件移动到 .lcs/archive/<timestamp>-<slug-work-item>/ 并删除源文件夹。

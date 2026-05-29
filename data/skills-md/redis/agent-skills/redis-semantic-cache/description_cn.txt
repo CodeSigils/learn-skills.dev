@@ -1,0 +1,1 @@
+Redis LangCache 在 Redis Cloud 上对 LLM 响应进行语义缓存的指南 — 通过 SDK 或 REST API 调用搜索/设置、调整相似性阈值、按任务类型分离缓存以及使用自定义属性进行过滤。在缓存 LLM 完成或 RAG 答案时使用，以降低 API 成本和延迟，在 OpenAI / Anthropic 等前面构建缓存侧层，调整命中率与精度，或将一个应用程序的 LLM 工作负载拆分为多个 LangCache 缓存。

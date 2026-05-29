@@ -1,0 +1,1 @@
+CDK 部署工作流程具有环境感知规划和部署后资产同步。当用户要求部署 CDK 堆栈时触发。对于 uat/prod 环境，需要在部署前制定 ClickUp 计划并获得批准。成功部署后，将所有 AWS 资源 ARN 和安全详细信息记录到 ClickUp Asset Management 中。

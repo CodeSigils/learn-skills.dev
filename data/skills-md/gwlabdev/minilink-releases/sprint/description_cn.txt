@@ -1,0 +1,1 @@
+看板到工作树的自动化。通过 CLI 读取卡，创建分支 + 工作树，将卡移动到 IN PROGRESS，并在当前 Minilink 窗格中内联启动代理。代理以计划模式（一个批准门）启动，然后自主运行其余工作流程：实施→测试→提交→推送→PR→板更新。适用于任何具有 docs/kanban/config.json 的项目。用法：/sprint CARD-ID 或 /sprint P1

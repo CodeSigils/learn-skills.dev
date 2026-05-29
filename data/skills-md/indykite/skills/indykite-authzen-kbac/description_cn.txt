@@ -1,0 +1,1 @@
+编写 IndyKite KBAC（基于知识的访问控制）授权策略 - 主题、操作、资源和 IKG 上的 Cypher 条件 - 然后通过 AuthZEN REST API 对其进行评估（`POST /access/v1/evaluation`）。在决定主体是否可以对资源执行操作、运行批量决策或搜索允许主体对资源执行的操作时使用。不适用于读取、返回或修改图形数据 - KBAC 仅做出是/否决定。

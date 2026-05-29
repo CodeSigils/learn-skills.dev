@@ -1,0 +1,1 @@
+提供有关 .NET 11 中引入的新 System.Text.Json API 的指南。它涵盖通过 JsonSerializerOptions 上的 GetTypeInfo<T> 和 TryGetTypeInfo<T> 进行类型化 JsonTypeInfo 访问，以及新的 JsonNamingPolicy.PascalCase 静态属性。在 .NET 11 应用程序中序列化或反序列化 JSON 并需要类型化元数据访问或 PascalCase 属性命名时使用。

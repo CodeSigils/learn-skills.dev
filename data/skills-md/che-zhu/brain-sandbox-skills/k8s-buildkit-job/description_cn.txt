@@ -1,0 +1,1 @@
+在活动的 Kubernetes 沙箱命名空间中运行临时 BuildKit 守护进程，然后使用 sandbox-local buildctl 发送本地构建上下文并推送 GHCR 映像。在 Brain-github-deploy 写入 .sealos/build-request.json 之后，或者在创建、调试或检查基于 moby/buildkit buildkitd 和 buildctl 的沙箱 BuildKit 构建时使用。

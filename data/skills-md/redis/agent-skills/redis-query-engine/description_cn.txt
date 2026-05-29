@@ -1,0 +1,1 @@
+Redis 查询引擎 (RQE) 指南涵盖 FT.CREATE 架构设计、字段类型选择（TEXT、TAG、NUMERIC、GEO、GEOSHAPE、VECTOR）、DIALECT 2 查询语法、高效 FT.SEARCH 和 FT.AGGREGATE 查询、通过别名进行零停机索引更新以及 SKIPINITIALSCAN 选项。在 Hash 或 JSON 文档上定义搜索索引、在 TEXT 和 TAG 之间进行选择以进行过滤、使用过滤器和 SORTBY 编写 FT.SEARCH 查询、管理或交换生产中的索引，或者使用 FT.PROFILE 对缓慢搜索进行故障排除时使用。
