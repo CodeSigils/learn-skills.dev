@@ -1,0 +1,1 @@
+قم بتشغيل برنامج BuildKit الخفي المؤقت في مساحة اسم وضع الحماية Kubernetes النشطة، ثم استخدم buildctl وضع الحماية المحلي لإرسال سياق البناء المحلي ودفع صورة GHCR. يُستخدم بعد أن يقوم Brain-github-deploy بكتابة .sealos/build-request.json، أو عند إنشاء إنشاءات BuildKit لصندوق الحماية أو تصحيحها أو فحصها استنادًا إلى moby/buildkit buildkitd وbuildctl.
