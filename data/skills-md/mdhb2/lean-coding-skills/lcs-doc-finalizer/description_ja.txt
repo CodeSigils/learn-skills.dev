@@ -1,0 +1,1 @@
+ユーザーが完了した作業を正規のドキュメントに仕上げる必要がある場合は常に、このスキルを使用します。 「ドキュメントのファイナライズ」、「ファイナルドキュメントの準備」、「lcs-doc-finalizer」、「selesaikan dokumentasi」をトリガーします。すべてのタスクが完了としてマークされていることを確認し、map.md と doc.md を .lcs/docs/<timestamp>-<slug-work-item>/ に生成し、git commit と PR の説明を推奨し、ソース アーティファクトを .lcs/work-items/<timestamp>-<slug-work-item>/ に移動して .lcs/archive/<timestamp>-<slug-work-item>/ に移動し、ソース フォルダーを削除します。

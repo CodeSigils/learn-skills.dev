@@ -1,0 +1,1 @@
+アクティブな Kubernetes サンドボックス名前空間で一時的な BuildKit デーモンを実行し、次に Sandbox-local buildctl を使用してローカル ビルド コンテキストを送信し、GHCR イメージをプッシュします。 Brain-github-deploy が .sealos/build-request.json を書き込んだ後、または moby/buildkit buildkitd および buildctl に基づいてサンドボックス BuildKit ビルドを作成、デバッグ、または検査するときに使用します。
