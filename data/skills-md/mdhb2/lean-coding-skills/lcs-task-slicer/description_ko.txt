@@ -1,0 +1,1 @@
+사용자가 검토된 PRD를 실행 가능한 작업으로 분할하도록 요청할 때마다 이 기술을 사용하세요. "slice prd", "break down prd", "create task" 등을 트리거합니다. 작은 종속성을 인식하는 추적기 글머리 기호 수직 조각을 생성합니다. 작업을 AFK(자율) 또는 HITL(사람의 입력 필요)로 분류합니다. 작업을 작성하기 전에 피드백을 위해 사용자에게 제안된 분석을 제시합니다. 각 작업을 .lcs/work-items/<timestamp>-<slug-work-item>/task/ 아래의 자체 파일 task-###.md에 작성합니다.

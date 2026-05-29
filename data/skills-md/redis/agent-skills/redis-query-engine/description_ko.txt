@@ -1,0 +1,1 @@
+FT.CREATE 스키마 디자인, 필드 유형 선택(TEXT, TAG, NUMERIC, GEO, GEOSHAPE, VECTOR), DIALECT 2 쿼리 구문, 효율적인 FT.SEARCH 및 FT.AGGREGATE 쿼리, 별칭을 통한 가동 중지 시간 없는 인덱스 업데이트, SKIPINITIALSCAN 옵션을 다루는 Redis 쿼리 엔진(RQE) 지침입니다. 해시 또는 JSON 문서에서 검색 색인을 정의하고, 필터링을 위해 TEXT와 TAG 중에서 선택하고, 필터와 SORTBY를 사용하여 FT.SEARCH 쿼리를 작성하고, 프로덕션에서 색인을 관리 또는 교환하거나, FT.PROFILE을 사용하여 느린 검색 문제를 해결할 때 사용합니다.

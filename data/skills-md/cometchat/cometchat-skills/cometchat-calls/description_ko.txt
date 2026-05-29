@@ -1,0 +1,1 @@
+React, React Native, Angular, 기본 Android, 기본 iOS 또는 Flutter 프로젝트에 CometChat 음성 및 영상 통화를 추가하기 위한 진입점입니다. 프레임워크를 감지하고 독립형(통화 전용) 모드와 추가(기존 채팅에 대한 통화) 모드를 선택하고 가족별 통화 기술로 라우팅합니다. `product === "voice-video"` 또는 `chat-messaging+voice-video`일 때 최상위 `cometchat` 디스패처에 의해 호출되고 사용자가 명시적으로 전화를 요청할 때 직접 호출됩니다.

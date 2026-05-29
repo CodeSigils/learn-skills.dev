@@ -1,0 +1,1 @@
+Redis 관찰 가능성 지침 - 모니터링할 측정항목(메모리, 연결, 적중률, ops/sec, 거부된 연결), 사고 분류 중에 접근할 기본 명령(SLOWLOG, INFO, MEMORY DOCTOR, CLIENT LIST, FT.PROFILE) 및 Redis Insight GUI를 언제 사용해야 하는지입니다. Redis 인스턴스에 대한 모니터링 또는 경고를 설정하고, 성능 회귀를 진단하고, 느린 FT.SEARCH 쿼리를 프로파일링하거나, Redis 지표를 Prometheus, Datadog 등에 연결할 때 사용합니다.

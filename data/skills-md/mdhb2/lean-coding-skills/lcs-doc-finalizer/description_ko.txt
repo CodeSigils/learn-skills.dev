@@ -1,0 +1,1 @@
+사용자가 완료된 작업을 표준 문서로 마무리하도록 요청할 때마다 이 기술을 사용하십시오. "문서 마무리", "최종 문서 준비", "lcs-doc-finalizer", "selesaikan dokumentasi"를 트리거합니다. 모든 작업이 완료로 표시되었는지 확인하고, .lcs/docs/<timestamp>-<slug-work-item>/ 아래에 map.md 및 doc.md를 생성하고, git 커밋 및 PR 설명을 권장하고, .lcs/work-items/<timestamp>-<slug-work-item>/ 아래의 소스 아티팩트를 .lcs/archive/<timestamp>-<slug-work-item>/으로 이동하고 소스 폴더를 삭제하세요.

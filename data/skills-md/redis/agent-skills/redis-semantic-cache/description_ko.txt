@@ -1,0 +1,1 @@
+Redis Cloud에서 LLM 응답의 의미론적 캐싱을 위한 Redis LangCache 지침 — SDK 또는 REST API를 통해 검색/설정 호출, 유사성 임계값 조정, 작업 유형별 캐시 분리, 사용자 정의 속성으로 필터링. LLM 완료 또는 RAG 답변을 캐싱하여 API 비용 및 대기 시간을 줄이고, OpenAI/Anthropic 등 앞에 캐시 제외 레이어를 구축하고, 적중률과 정밀도를 조정하거나, 한 앱의 LLM 워크로드를 여러 LangCache 캐시로 분할할 때 사용하세요.
