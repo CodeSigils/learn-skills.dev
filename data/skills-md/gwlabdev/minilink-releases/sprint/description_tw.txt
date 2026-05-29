@@ -1,0 +1,1 @@
+看板到工作樹的自動化。透過 CLI 讀取卡，建立分支 + 工作樹，將卡片移至 IN PROGRESS，並在目前 Minilink 窗格中內嵌啟動代理程式。代理程式以計畫模式（一個核准門）啟動，然後自主執行其餘工作流程：實作→測試→提交→推送→PR→板更新。適用於任何具有 docs/kanban/config.json 的項目。用法：/sprint CARD-ID 或 /sprint P1

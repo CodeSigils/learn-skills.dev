@@ -1,0 +1,1 @@
+掃描 C# 原始檔案以尋找難以測試的靜態相依性 — DateTime.Now/UtcNow、File.*、Directory.*、Environment.*、HttpClient、Console.*、Process.* 和其他不可測試的靜態項目。按頻率產生靜態呼叫站點的排名報告。用途：尋找不可測試的靜態、掃描靜態相依性、可測試性稽核、識別難以模擬的程式碼、尋找 DateTime.Now 用法、偵測靜態耦合、可測試性報告、可測試性靜態分析。請勿用於：產生包裝器（使用generate-testability-wrappers）、遷移程式碼（使用migrate-static-to-wrapper）、一般程式碼審查或尋找已位於抽象背後的靜態資訊。

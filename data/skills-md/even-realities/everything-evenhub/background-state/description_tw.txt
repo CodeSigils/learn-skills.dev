@@ -1,0 +1,1 @@
+為 Even Hub G2 插件實現後台狀態持久性 - 自動分析現有插件程式碼，識別需要在後台/前台轉換中生存的狀態，並插入 setBackgroundState + onBackgroundRestore 呼叫。當手機進入後台並返回後插件遺失狀態時使用。

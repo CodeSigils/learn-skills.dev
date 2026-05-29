@@ -1,0 +1,1 @@
+Redis 用戶端與連線指南，涵蓋連線池、多路復用、管道、使用 RESP3 進行用戶端快取、避免慢速指令（KEYS、SMEMBERS、HGETALL）以及調整套接字逾時。在設定 Redis 用戶端（redis-py、Jedis、Lettuce、NRedisStack）、批次指令以提高吞吐量、消除每個請求連線建立、使用 SCAN 迭代大型鍵空間、為讀取繁重的工作負載啟用用戶端快取或設定連線和讀取逾時時使用。

@@ -1,0 +1,1 @@
+Redis 向量搜尋指南涵蓋 HNSW 與 FLAT 演算法選擇、向量索引配置（維度、距離度量、資料類型）、將向量相似性與 TAG 或 NUMERIC 過濾器相結合的過濾混合搜索，以及使用 RedisVL 的 RAG 檢索模式。在 FT.CREATE 中定義 VECTOR 欄位、整合嵌入（OpenAI、Cohere、句子轉換器）、調整 HNSW 參數（M、EF_CONSTRUCTION、EF_RUNTIME）、建立檢索增強生成管道或按屬性過濾向量結果時使用。

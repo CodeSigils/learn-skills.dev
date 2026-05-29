@@ -1,0 +1,1 @@
+當使用者明確呼叫 /tidy-project 時使用。對專案結構運行唯讀的三階段審核，以便更輕鬆地進行單獨開發維護。識別死程式碼、重複、過早抽象、過度嵌套、過度耦合、殘餘框架腳手架、過時標記和文件/程式碼漂移。在“docs/YYYY-MM-DD-tidy-project-plan.md”（如果沒有“docs/”，則在儲存庫根目錄）產生單一綜合執行計劃 - 不會修改原始檔案。跳過以「.」開頭的每個目錄（例如「.git」、「.venv」、「.rdf」、「.agents」、「.claude」、「.github」、IDE/CI/agent 腳手架）以及通常的「node_modules」、「vendor」、「dist」、「build」、「coverage」。

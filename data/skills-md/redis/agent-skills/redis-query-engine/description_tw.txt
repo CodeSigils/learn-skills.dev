@@ -1,0 +1,1 @@
+Redis 查詢引擎 (RQE) 指南涵蓋 FT.CREATE 架構設計、欄位類型選擇（TEXT、TAG、NUMERIC、GEO、GEOSHAPE、VECTOR）、DIALECT 2 查詢語法、高效 FT.SEARCH 和 FT.AGGREGATE 查詢、透過別名進行零停機索引以及 SKIPITIALSCAN 選項。在 Hash 或 JSON 文件上定義搜尋索引、在 TEXT 和 TAG 之間進行選擇以進行過濾、使用過濾器和 SORTBY 編寫 FT.SEARCH 查詢、管理或交換生產中的索引，或使用 FT.PROFILE 對緩慢搜尋進行故障排除時使用。

@@ -1,0 +1,1 @@
+Redis LangCache 在 Redis Cloud 上對 LLM 回應進行語義快取的指南 — 透過 SDK 或 REST API 呼叫搜尋/設定、調整相似性閾值、按任務類型分離快取以及使用自訂屬性進行篩選。在快取 LLM 完成或 RAG 答案時使用，以降低 API 成本和延遲，在 OpenAI / Anthropic 等前面建立快取側層，調整命中率與精度，或將一個應用程式的 LLM 工作負載拆分為多個 LangCache 快取。
