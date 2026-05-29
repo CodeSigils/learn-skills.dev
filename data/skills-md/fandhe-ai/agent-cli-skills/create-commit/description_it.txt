@@ -1,0 +1,1 @@
+Crea commit git nel formato Commit convenzionali. Deduci il tipo/ambito dalle differenze in fasi e rileva modifiche sostanziali e fughe di informazioni segrete (ad esempio file .env). L'hook pre-commit deve essere sempre passato (l'uso di `--no-verify` non è consentito). Utilizzato con comandi come "commit", "git commit", "record change" e simili.
