@@ -1,0 +1,1 @@
+Implémentez la persistance de l'état d'arrière-plan pour les plugins Even Hub G2 - analyse automatiquement le code du plugin existant, identifie l'état qui doit survivre aux transitions arrière-plan/premier plan et insère les appels setBackgroundState + onBackgroundRestore. À utiliser lorsqu'un plugin perd son état après que le téléphone passe en arrière-plan et revienne.
