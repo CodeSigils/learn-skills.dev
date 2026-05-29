@@ -1,0 +1,1 @@
+Implement background state persistence for Even Hub G2 plugins — automatically analyzes existing plugin code, identifies state that needs to survive background/foreground transitions, and inserts setBackgroundState + onBackgroundRestore calls. Use when a plugin loses state after the phone goes to the background and returns.

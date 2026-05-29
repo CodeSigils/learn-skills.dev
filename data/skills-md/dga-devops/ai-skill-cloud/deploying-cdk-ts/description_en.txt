@@ -1,0 +1,1 @@
+CDK deploy workflow with environment-aware planning and post-deploy asset sync. Triggers when user asks to deploy CDK stacks. For uat/prod environments, requires a ClickUp plan and approval before deploying. After successful deploy, records all AWS resource ARNs and security details into ClickUp Asset Management.
