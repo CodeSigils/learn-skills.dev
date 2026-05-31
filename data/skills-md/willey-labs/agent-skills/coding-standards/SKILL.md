@@ -1,0 +1,444 @@
+---
+name: coding-standards
+description: >
+  Coding standards for writing, editing, and reviewing code. Routes to language/framework-specific
+  rules (Next.js, NestJS, Laravel, vanilla JS/TS, NativeScript, React Native/Expo, C#/.NET,
+  Node Express/Fastify, Cocos Creator, Vue/Nuxt, Spring Boot, Django, FastAPI, Flask, Go HTTP)
+  PLUS universal clean-code rules (functions, naming, objects/data, formatting, error handling,
+  SOLID/KISS/DRY, universal structural rules) that apply to every language. Consult before any
+  code change. Use when the user says "write a component", "add an endpoint", "refactor this",
+  "review this diff/PR", or "is this clean?". Make sure to consult this skill for ANY code
+  authoring or review task, even when the user does not explicitly ask for "standards" — every
+  write/edit/review must comply.
+license: MIT
+metadata:
+  author: willey-labs
+  version: "4.4.0"
+---
+
+# Coding Standards
+
+Every line of code you write, edit, or review must comply with these rules.
+
+The rules are split in two:
+
+- **Universal rules** in `references/common/` — clean-code principles that apply regardless of language. They govern the *inside* of every function, class, and module.
+- **Per-framework rules** in `references/<framework>/` — folder layout, file organization, and framework-specific patterns. They govern the *outside* — where files live and what folders mean.
+
+You apply **common + one framework** on every task. Never apply two frameworks at once.
+
+---
+
+## Skill location
+
+All paths in this document are **relative to this SKILL.md file**. `references/common/functions.md` means the file under the `references/common/` subdirectory next to this SKILL.md. This works regardless of where the skill is installed.
+
+---
+
+## Step 0 — Bootstrap the enforcement hooks (only when needed)
+
+**Check first; install only if the machine isn't ready.** Don't re-bootstrap an already-wired machine. Run the fast read-only check — a single command, absolute path, no `cd`/`&&`/`||` (so it matches the pre-approved permission rule and doesn't prompt):
+
+```bash
+python3 <skill-dir>/bootstrap.py --verify
+```
+
+- **Exit 0** (`already set up …`) → hooks are wired and Python is fine. **Skip the rest of Step 0**; proceed to Step 1. Do NOT run `--auto-install`.
+- **Non-zero** → not ready (deps missing, not wired, or first run). Run the full install (single clean command, no `cd`/operators):
+
+  ```bash
+  python3 <skill-dir>/bootstrap.py --auto-install
+  ```
+
+(Use `python` if `python3` isn't on PATH. The install self-detects project vs global scope, **auto-installs the skill's required packages**, seeds a commented `.coding-standards-ignore` template at the repo root, and is idempotent. **Global installs get a dedicated `coding-standards` venv** — created if missing, reused if present — so the hooks don't depend on whatever `python3` is first on PATH; **project installs use the portable `python3` name** so the committed `settings.json` works across teammates. A managed venv is also the fallback on a PEP 668 host.) Run Step 0 at most once per session.
+
+**The skill's required packages are mandatory.** They're declared in one registry (`REQUIRED_PACKAGES` in `_bootstrap/dependencies.py`) and bootstrap checks, announces, and installs them all — there is no special-casing per library. Today that set is the tree-sitter grammars backing the FN-001 length, FN-005 arg-count, and OD-004 hybrid-class checks on TS/JS, which need **Python 3.10+**. If any required package can't be loaded after the install attempts, bootstrap reports a blocking issue and does **not** wire the hooks — there is no silent degraded-mode fallback.
+
+**After it runs:**
+- `Wired` / `Updated` / `Install OK` → tell the user to **restart the agent session** so the hooks activate.
+- `Blocking issues:` (Python below 3.10, or a required package couldn't be installed) → surface it verbatim and **stop** until the user resolves it. The skill is not ready until readiness passes.
+- `cannot determine install scope` → the skill is outside a `.claude/skills/` tree; point at `README.md`'s install command and skip Step 0 (the rules still apply, just without write-time blocking).
+
+Flags, interactive invocation, the readiness-check breakdown, and the scope-detection contract live in `references/bootstrap.md` — read it only if bootstrap misbehaves.
+
+---
+
+## Step 0.4 — Exclusion check (always)
+
+Before applying any rule to a file, check whether it's **excluded**. Excluded files are owned by third-party tooling, not by the user — modifying them defeats the upgrade path or churns generated code. Skip them silently.
+
+A file is excluded if **any** of:
+
+1. **Its path matches a built-in default pattern.** Common cases:
+   - `**/node_modules/**`, `**/vendor/**`, `**/bower_components/**` — installed deps
+   - `**/components/ui/**` (and monorepo variants like `packages/components/ui/**`, `apps/web/src/components/ui/**`) — shadcn/ui generated components, owned by the shadcn CLI
+   - `**/prisma/migrations/**`, `**/drizzle/migrations/**`, `**/alembic/versions/**`, `**/migrations/[0-9][0-9][0-9][0-9]_*.py` (Django) — ORM-generated migrations
+   - `**/generated/**`, `**/__generated__/**`, `**/*.gen.ts`, `**/*.generated.tsx`, `**/zz_generated.*`, `**/*_pb.go`, `**/*_grpc.pb.go` — codegen output
+   - `**/dist/**`, `**/build/**`, `**/.next/**`, `**/.nuxt/**`, `**/.svelte-kit/**`, `**/target/**`, `**/bin/**`, `**/obj/**` — build outputs
+   - `**/package-lock.json`, `**/yarn.lock`, `**/pnpm-lock.yaml`, `**/composer.lock`, `**/Cargo.lock`, `**/go.sum`, `**/poetry.lock`, `**/uv.lock` — lock files
+   - `**/.coding-standards/**` — the skill's own generated review reports (never review a past review)
+   - Full list in `hooks/_exclusions.py` → `DEFAULT_EXCLUSIONS`
+2. **The file content has a generation marker** in the first 10 lines: `@generated`, `DO NOT EDIT`, `automatically generated`, `Code generated by`, `@autogenerated`, `@codegen`, `@nocheck`.
+3. **The project's `.coding-standards-ignore` file** has a matching gitignore-style pattern. Step 0 (bootstrap) **seeds a commented template** of this file at the repo root so it's discoverable — users edit it to add project-specific exclusions; the defaults above already cover the usual cases. It lives flat at the repo root, alongside `.coding-standards-structure` — neither moves into the `.coding-standards/` artifacts directory.
+
+The hooks already check this — they exit 0 silently on excluded files. **You** (the agent/orchestrator/workers) must do the same: when asked to write or review code, check the target path against `hooks/_exclusions.py`'s `is_excluded_path()` (or apply the same rules) and refuse to modify excluded files. If the user explicitly asks to modify an excluded file, **ask once for confirmation** — explain that the file is normally owned by the tool that generated it, and modification will be lost on re-generation. Proceed only after explicit consent.
+
+For the orchestrator pipeline: filter the target file list through `is_excluded_path()` BEFORE dispatching to Worker 1. Excluded files never reach the workers.
+
+---
+
+## Step 0.5 — Pick a mode if the user didn't (contextless activation only)
+
+**Skip this step** if the user's message already names a concrete task — "write X", "refactor Y", "review this PR/diff", "is this clean?", "audit Z", "what does FN-005 mean?". Those phrases ARE the mode; proceed to Step 1.
+
+**Trigger this step** only when the skill activated without a clear task in the same turn:
+- User typed `/coding-standards` with no arguments (see `commands/coding-standards.md`),
+- User said "what does this skill do?" / "tell me about coding standards",
+- User's message is too generic to infer mode ("help me with my code", "check my project").
+
+When triggered, invoke the `AskUserQuestion` tool with this payload. The **labels and header are a verbatim routing contract** — reproduce them exactly (the agent matches the user's answer against the label text). The descriptions may carry extra framework/rule detail — the `/coding-standards` slash command shows a richer variant (see `commands/coding-standards.md`) — but must stay faithful to the meaning below:
+
+```
+question:    "What do you want to do with the coding-standards skill?"
+header:      "Mode"
+multiSelect: false
+options:
+  - label:       "Write code that follows these rules"
+    description: "I'll detect the framework from your project, load the matching
+                  references, and apply the rules as I write. Hard violations get
+                  blocked at write time by the installed hooks."
+
+  - label:       "Check existing code against these rules"
+    description: "Point me at a file, folder, or diff and I'll report violations.
+                  PASS / FAIL / SKIPPED per applicable rule with file:line citations,
+                  grouped by must-fix / should-fix / consider."
+
+  - label:       "Show me the rules"
+    description: "Guided tour of the rule families (FN-*, NM-*, OD-*, ST-*, EH-*,
+                  FMT-*, DP-*) plus the detected framework. Cite rule codes with
+                  worked examples from the reference files."
+```
+
+After the answer:
+- **Write code…** → confirm/await the task → Step 1 (detect framework) → **Step 1.4 — resolve structure (ask the structure question first if custom)** → **Step 1.5 — ask the "Run mode" question (multiple agents vs single)** → Step 2 / Step 2.O → Write mode.
+- **Check existing code…** → ask the user *what* to check (file, folder, diff command, PR number) → Step 1 (per-file) → **Step 1.4 — resolve structure (ask the structure question first if custom)** → **Step 1.5 — ask the "Run mode" question** → Step 2 / Step 2.O → Review mode (use the strict PASS/FAIL walkthrough from this SKILL.md's Review section).
+- **Show me the rules** → Step 1 (detect framework once) → Step 1.4 (resolve structure, no question needed — nothing is written) → Step 2 (load all refs) → present a one-screen index of rule codes and wait for follow-up questions. (No "Run mode" question — nothing is written or reviewed.)
+- **Fix existing code from a review** (user says "fix the findings" / "apply the
+  review") → this is **Fix mode**: skip the Write/Review picker, go to Step 1 (detect
+  framework per file in the finding set) → Step 1.4 (resolve structure) → run the
+  `MODE: fix` orchestrator pipeline (`references/orchestrator-pipeline.md`). Fix mode
+  does not ask the Step 1.5 run-mode question — it is always the pipeline.
+
+**Invariants:**
+- Never invoke this step twice in a session — once mode is set, it stays set.
+- Never invoke it when the user has named a task — that's an annoying false ask.
+- The three option **labels** ("Write code that follows these rules", "Check existing code against these rules", "Show me the rules") and the **header** ("Mode") are the contract: the slash command and skill activation MUST produce identical labels and header. The option **descriptions** may differ in detail between the two entry points (the slash command carries a richer variant) — only the labels and header must match.
+
+---
+
+## Step 1 — Detect the framework
+
+Look at the file you're about to write/edit/review. Determine which framework folder applies using the signals below. **Stop at the first match.**
+
+| Framework key | Detection signals (any of these) |
+|---|---|
+| `nextjs` | `next.config.{js,ts,mjs}` at repo root **or** `next` in `package.json` dependencies **or** the file lives under `app/` or `pages/` next to that config |
+| `react-native` | `expo`, `react-native`, or `@expo/*` in `package.json` **or** `app.json` with `"expo"` key **or** `metro.config.js` |
+| `nativescript` | `nativescript.config.{js,ts}` or `nativescript` in `package.json` **or** a `.xml` file paired with a `.ts` page |
+| `cocos-creator` | `assets/` + `settings/` + (`library/` or `temp/` in `.gitignore`) at repo root **or** `cc` / `cocos-creator` import in a `.ts` file **or** `.scene` / `.prefab` files in the project |
+| `vue-nuxt` | `vue` or `nuxt` in `package.json` **or** `nuxt.config.{ts,js}` at repo root **or** `.vue` files in the project |
+| `nestjs` | `@nestjs/*` in `package.json` **or** the file matches `*.module.ts`, `*.controller.ts`, `*.service.ts` with NestJS decorator imports |
+| `node-express` | `express` or `fastify` in `package.json` **and** no NestJS — backend Node without a framework on top |
+| `laravel` | `composer.json` with `laravel/framework` **or** an `artisan` file at the repo root **or** the file is `.php` under `app/` |
+| `csharp` | `*.csproj`, `*.sln`, `*.cs` files |
+| `spring-boot` | `pom.xml` with `spring-boot-starter-*` **or** `build.gradle{,.kts}` with `org.springframework.boot` plugin **or** `@SpringBootApplication` in a `.java`/`.kt` file |
+| `django` | `manage.py` at repo root **plus** a settings module (`settings.py`, or a `config/settings/` or `<project>/settings/` package) **or** `django` in `pyproject.toml` / `requirements.txt` |
+| `fastapi` | `fastapi` in `pyproject.toml` / `requirements.txt` **or** `from fastapi import FastAPI` in a `.py` file |
+| `flask` | `flask` in `pyproject.toml` / `requirements.txt` **or** `from flask import Flask` **and** not Django/FastAPI |
+| `go-http` | `go.mod` at repo root **and** any of `gin-gonic/gin`, `labstack/echo`, `gofiber/fiber`, `go-chi/chi`, `gorilla/mux` in the module graph — or net/http with handler-based routing |
+| `vanilla-js` | Plain `.ts` / `.js` files that fit none of the above (libraries, CLIs, scripts, browser projects without a framework) |
+
+**If two could apply** (rare), pick the more specific one. A `.ts` file inside a NestJS project is `nestjs`, not `vanilla-js`. A `.tsx` file inside a Next.js project is `nextjs`, not `react-native`, even if the file imports React. A `.vue` file inside a Nuxt project is `vue-nuxt`.
+
+**Monorepos with multiple frameworks** (frontend Next.js + backend NestJS + mobile React Native in one repo) are common and supported. **Pick the framework by the file you're editing, not the repo as a whole.** Editing `apps/web/src/checkout/...` → `nextjs`. Editing `apps/api/src/orders/...` in the same repo → `nestjs`. Editing a `.tsx` file under `apps/mobile/` → `react-native`. The detection signals above all apply per-file or per-subtree; walk up from the file until one matches.
+
+**Generic libraries with no framework signals** (a utility npm package, a CLI tool, a small Python script not tied to any web framework) default to the corresponding "no-framework" entry: `vanilla-js` for JS/TS, or — if Python — the closest fit (`flask`/`fastapi`/`django`) doesn't apply, so fall back to the universal rules in `common/` only. The Python framework files do **not** cover plain library code.
+
+**If you cannot tell**, ask the user once — don't guess across frameworks.
+
+---
+
+## Step 1.4 — Resolve the project structure
+
+Step 1 gave you the **framework** (the language + line-level rules). This step resolves the **folder layout** the project follows.
+
+Each framework offers a **catalog** of ready-made structures under `references/<framework>/structures/`. A project either follows one of those, or keeps its **own custom layout** — and **only a custom layout is ever written to a `.coding-standards-structure` file** at the repo root. A project on a standard never gets a file and is never asked.
+
+> Catalog status: **Next.js** has a `structures/` catalog (`route-colocated`, `feature-first`, `screaming-architecture`, `feature-sliced-design`). Other frameworks still fall back to their single `references/<framework>/structure.md` until a catalog is added.
+
+**This step is mandatory and must be announced — it is NOT advisory.** Run it every time the skill activates, in order, and complete it **before the Step 1.5 run-mode question and before any worker dispatch or hook lint**. It is the *first* interactive decision. Stop at the first match. Announce the outcome in one line — e.g. `Structure → CUSTOM layout, asking which standard to follow` or `Structure → matches route-colocated (standard), no question needed`. Doing any Write or Review work without resolving structure first violates this skill.
+
+**Exception — "Show me the rules" / pure rule Q&A:** resolve the structure *silently* to know which `structure.md` to display, but **do not pop the question or write a file** even when the layout is custom — there's nothing to write or review, so there's nothing to decide. The question (case 3 below) fires only on Write and Review tasks.
+
+### 1. Is there a `.coding-standards-structure` file at the repo root?
+
+**Yes** → it describes the project's custom layout. Read it, follow it. **Done — no question.**
+
+### 2. No file → look at the folders. Do they match a catalog structure?
+
+**Yes** (the layout already follows e.g. `route-colocated`) → use that structure's bundled reference. **Done — no question, no file.** It is re-recognised from the folders on every run, so nothing needs saving.
+
+### 3. No file, and the layout is **custom** (matches none of the catalog) → ask the user **once**
+
+Use `AskUserQuestion`. The question text **names the detected framework and states the finding**; every option carries a folder-tree `preview`. Order: **recommended first, "keep current" last** (per `AskUserQuestion` convention — the recommended option leads and is tagged `(Recommended)`).
+
+> Detected **{framework}**. Your folder layout doesn't match a standard {framework} pattern. Switch to a recommended structure, or keep your current one?
+
+1. **Original (Recommended)** — `structures/screaming-architecture.md`.
+2. **…other catalog variants** — `route-colocated`, `feature-first`, `feature-sliced-design` (show the two most relevant).
+3. **Keep current** — keep the project's own custom layout (learned and written to `.coding-standards-structure`).
+
+(`AskUserQuestion` allows at most 4 options + an auto "Other". Show *Original (Recommended)*, the two most relevant variants, and *Keep current* last; route the rest through "Other". Each `preview` is the **Layout** tree from that variant's file.)
+
+Then:
+
+- **Keep current** → scan → draft the layout → the user confirms → **write `.coding-standards-structure`** (the learned custom layout). Include a `hooks:` block so write-time enforcement matches this project's reality — e.g. `junk-drawer: off` if it already uses `utils.ts`, `deep-import: off` if it has no barrels, `god-file: off` to silence the ST-008 advisory entirely, `god-file-max-lines: 600` to raise the line threshold (default 400), `god-file-max-decls: 15` to raise the declaration threshold (default 10) (the hooks read these via `hooks/_structure.py`; a missing toggle stays **on**). Next run, step 1 finds the file — never asks again.
+- **Pick a standard** → use that structure's bundled reference. **No file written** — the project now follows a known standard, re-recognised from its folders next run.
+
+**The question returns only when the layout is custom AND no file has been saved.** A standard project: never asked, no file. A custom project: asked once, then remembered by the file.
+
+This resolved structure replaces `references/<framework>/structure.md` in Step 2's load list. The seven `common/` files (line-level rules) always load and apply **unchanged**, whatever structure is chosen. **In the orchestrator pipeline it is also passed to Worker 1 as its `STRUCTURE` input** (see `orchestrator-pipeline.md`) — Worker 1 checks placement against the *resolved* layout, never a default it picked on its own.
+
+**Messy / custom project, first run.** When the layout is messy and the user keeps it ("Keep current"), the drafted `.coding-standards-structure` may be silent on where a *new* artifact belongs. In that case the new file falls back to `common/structure.md` (ST-*) + the framework default — **for the new file only**, with the placement noted. Worker 1 never reorganizes existing misplaced files on a Write task (no scope creep); it places the task's new files cleanly and the orchestrator offers a separate migration pass. On a Review task, existing misplacement *is* reported — but only for files in the review scope, never the whole repo.
+
+---
+
+## Step 1.5 — Pick execution shape: orchestrator pipeline vs inline
+
+You have two execution shapes for Write and Review modes. Pick deterministically:
+
+| Trigger | Execution shape |
+|---|---|
+| Task scope = single file edit (≤30 lines change), OR single function refactor, OR Q&A about a rule | **Inline.** You (the main agent) do the work yourself. Skip Step 2.O; do **Step 1.6 (seed the task list)** → Step 2 (load all references) → Step 3 (apply rules). |
+| Task scope = 2+ files, OR a new feature/use case, OR a diff/PR review, OR explicit `--thorough` flag, OR explicit `/coding-standards` slash command | **Orchestrator pipeline.** You become the orchestrator and dispatch to workers. Continue with Step 2.O (orchestrator). |
+| `Agent` tool is NOT available in this host (e.g. Cursor, Codex, OpenCode) | Fall back to **inline** regardless of scope — and say so in your announcement. |
+| Task = apply review findings ("fix the findings" / "apply the review") | **Orchestrator pipeline, `MODE: fix`, always.** Per-file fan-out; no run-mode question. Falls back to sequential batches if `Agent` is unavailable. |
+
+**This choice is mandatory and must be announced — it is NOT advisory.** It is made one of two ways:
+
+**Step 1.4 (structure resolution) must already be complete before this step.** The structure question is always the *first* interactive question; the run-mode question below is second. Never ask run-mode before structure is resolved.
+
+**A) Invoked via `/coding-standards` or the Step 0.5 picker → ASK the user.**
+Once the task is known and it's a Write or Review task (skip for "Show me the rules"), and the `Agent` tool is available in this host, invoke `AskUserQuestion` with EXACTLY this payload:
+
+```
+question:    "How should I run this?"
+header:      "Run mode"
+multiSelect: false
+options:
+  - label:       "Multiple agents (thorough)"
+    description: "I spawn three specialist sub-agents in sequence — Worker 1
+                  Structure → Worker 2 Code quality → Worker 3 Failure handling —
+                  then write the final result. Best for a new feature, multi-file
+                  work, or a full review."
+  - label:       "Single agent (fast)"
+    description: "I do the whole task myself in one pass. Best for a single file,
+                  a small refactor, or a quick change."
+```
+   - **"Multiple agents"** → run the orchestrator pipeline (Step 2.O): you, the main agent, dispatch Worker 1 → Worker 2 → Worker 3 via the `Agent` tool, then write the result.
+   - **"Single agent"** → run inline (Step 1.6 → Step 2 → Step 3): you do it yourself.
+   - If the `Agent` tool is unavailable, **don't ask** — go inline and say so (sub-agents can't run in this host).
+   - Ask this **at most once per session**; reuse the user's choice for later tasks unless they say otherwise.
+
+**B) Plain message (no command, e.g. "fix this" / "review this PR") → you decide from the table above, then announce it in one line**, naming the trigger that matched:
+   - `Execution shape → ORCHESTRATOR PIPELINE (trigger: 2+ files). Dispatching Worker 1 → Worker 2 → Worker 3.`
+   - `Execution shape → INLINE (trigger: single-file refactor). Handling it myself.`
+   If a row-2 trigger matches, use the pipeline; inline is only for row 1 or when the `Agent` tool is unavailable.
+
+Doing any work without either asking (A) or announcing (B) violates this skill.
+
+---
+
+## Step 1.6 — Track the run with a task list (every code task)
+
+**Whenever this skill does real work — writing, editing, or refactoring code, or reviewing it — open a task list.** Do it as one of your first actions, as soon as you know the mode (Write/Review) and the framework, *before* the substantive work. The list is what makes the skill visible: it shows the user the standards are actually being applied, stage by stage, instead of happening invisibly. Ticking it as you go is the difference between "the skill ran" and "I can see what the skill did." Seed it on **every** such task — inline single-file edits included — not just the orchestrator or review paths.
+
+**Use whatever task-list tool your host provides.** In Claude Code that tool is `TodoWrite`; some hosts expose the same capability under another name (`TaskCreate` / `TaskUpdate` / `TaskList`, etc.) — use whichever exists and treat it as this skill's task list. Do **not** skip just because the tool isn't literally named `TodoWrite`. Skip the list only if the host has **no** task-list tool of any kind (then proceed without it — the rules still apply).
+
+**The one exception:** pure rule Q&A — "what does FN-005 mean?", "show me the rules" — has no multi-step work to track, so no list there.
+
+Track the **work the user cares about**, not internal step numbers. Keep exactly one item `in_progress` at a time and complete it before the next, so the list reads like progress rather than a table of contents. Adapt the wording to the real task — fold in the actual file or feature names. The shape follows the path picked in Step 1.5:
+
+**Write / refactor — inline (single agent):**
+1. Detect framework + resolve structure
+2. Load rules (common + framework)
+3. Apply rules + write the code
+4. Run hooks / verify
+
+**Write — orchestrator pipeline:**
+1. Detect framework + resolve structure
+2. Worker 1 — Structure & architecture
+3. Worker 2 — Code quality
+4. Worker 3 — Failure handling
+5. Write files + run hooks
+
+**Review — inline (single agent):**
+1. Scope + detect framework + resolve structure + load references
+2. Judgement pass (the rules regex/AST can't catch — FN-001, OD-003, EH-002, `structure.md`)
+3. Run hooks linter (`review-files.py`) — deterministic pass, runs last
+4. Merge linter + judgement findings
+5. Write report file + summarize by severity
+
+**Review — orchestrator pipeline:**
+1. Scope + detect framework per file + resolve structure
+2. Worker 1 — Structure findings
+3. Worker 2 — Code-quality findings
+4. Worker 3 — Failure-handling findings
+5. Run hooks linter (`review-files.py`) — deterministic pass, runs last
+6. Merge linter + all worker findings
+7. Write report file + present
+
+**Fix — orchestrator pipeline (apply review findings):**
+1. Load findings + build the completeness ledger
+2. Partition: structural (cross-file) vs file-local
+3. Phase A — structural fixes (barrels, deep imports, ST-008 splits)
+4. Phase B — fan out one fix-agent per file (parallel)
+5. Verify (re-run review-files.py) + report against the ledger
+
+---
+
+## Step 2.O — Orchestrator pipeline (when picked above)
+
+You (the main agent) are now the **orchestrator**: you coordinate three sequential workers and do the final Write yourself, so the hooks fire exactly once on the complete code. You do not apply rules yourself.
+
+**Before dispatching anything, read `references/orchestrator-pipeline.md` and follow it.** That file is the full protocol — worker roster and owned rules, the Write and Review pipeline shapes, the dispatch loop, output validation, the retry/fallback rules, the post-run summary, and how the TodoWrite list (Step 1.6) is ticked along the way. It lives in a reference rather than here because it only applies on this path; loading 100+ lines of worker-dispatch protocol into every inline edit or rule lookup would tax the common case.
+
+These three invariants are load-bearing — internalize them even before you open the reference:
+
+- **Workers never call `Write`/`Edit`.** They emit code/findings as JSON; only you, the orchestrator, write to disk. That is why the hooks fire once, on the final code.
+- **Sequential, not parallel.** Worker 1 (Structure) → Worker 2 (Quality) → Worker 3 (Failure); Worker N's output is Worker N+1's input. Never dispatch out of order.
+- **No retries past 2.** If a worker fails validation or returns unparseable JSON twice, fall back to inline — load the references yourself and do the work.
+
+---
+
+## Step 2 — Load the references
+
+Before writing or reviewing **any** code, read these files in this order:
+
+1. **All seven common files** (always):
+   - `references/common/functions.md`
+   - `references/common/naming.md`
+   - `references/common/objects-and-data.md`
+   - `references/common/formatting.md`
+   - `references/common/error-handling.md`
+   - `references/common/code-principles.md`
+   - `references/common/structure.md` — the universal structural rules (folder-as-module, no deep imports, Rule of Three, no junk-drawer files, no god-files (ST-008)). Every framework file builds on this one. Note: `warn-god-file.py` is advisory — it warns at write time but never blocks (a raw size count has too high a false-positive rate to gate on).
+
+2. **The architecture file for the detected framework:**
+   - `references/<framework>/structure.md`
+
+These are short, focused documents. Read them fully — the summaries in this SKILL.md are intentionally not exhaustive. The reference files contain the worked examples, anti-patterns, and review checklists you need to apply each rule correctly.
+
+---
+
+## Step 3 — Apply the right rule for the right scope
+
+The two rule sets answer different questions:
+
+| Question | Where the answer lives |
+|---|---|
+| *How should this function look inside?* (size, args, side effects, names, error handling) | `common/` |
+| *What should the names of files and folders be? What's the public API of this folder?* | `<framework>/structure.md` |
+| *Where does a new use case go? Where does a shared helper go?* | `<framework>/structure.md` |
+| *Should this class expose getters or behavior? Object or data structure?* | `common/objects-and-data.md` |
+| *What goes in `shared/`? When?* | `<framework>/structure.md` (Rule of Three) |
+| *SOLID, KISS, DRY?* | `common/code-principles.md` |
+
+When the two would conflict (rare), **common rules win for the inside of code; framework rules win for the outside.** Example: `common/` says a function must be ≤ 20 lines. `nextjs/` says routes (`app/.../page.tsx`) should be thin. Both apply — the page file is short *and* its `export default function Page()` is itself short.
+
+---
+
+## Mode: Write, Review, or Fix
+
+### Write mode
+
+When you're authoring or editing code, apply the rules **proactively** — write compliant code the first time. If you catch a violation in code you just wrote, fix it before moving on. Don't ship a violation and a "TODO: fix this" comment.
+
+### Review mode
+
+When you're reviewing a diff, a PR, or a file, walk through the rules systematically — don't freelance.
+
+If `TodoWrite` is available, seed the review task list from Step 1.6 first and tick each step as you finish it — a review is exactly the multi-pass walkthrough a checklist is for. The numbered steps below map onto that list directly.
+
+1. **Scope + resolve structure.** List each file in the diff. For each, determine the framework using Step 1, then resolve the project structure (Step 1.4) — the structure decision gates the structure findings below.
+2. **Load references.** For each framework that appears in the diff, read the resolved structure (Step 1.4) for that framework. Always read all seven `common/` files (they apply to every file).
+3. **Check each file against each applicable rule** (the judgement pass — the rules regex/AST cannot catch: FN-001 length nuance, FN-009 CQS, OD-003 Demeter, EH-002 boundaries, the resolved `structure.md` rules). For each rule, either:
+   - Report `PASS` (rule applies, no violations found), or
+   - Report a finding as `file.tsx:42 — <which rule> — <what's wrong>`, or
+   - Report `SKIPPED — <reason>` (rule does not apply to this file; explain why).
+4. **Run the hooks as a linter (deterministic pass, runs LAST — DO NOT skip).** The `block-*.py` hooks fire only on `Write`/`Edit`, so during a review they never run on their own. After the judgement pass, run them over the reviewed files yourself with the bundled driver:
+   ```bash
+   python3 <skill-dir>/hooks/review-files.py <file> [<file> ...]
+   # or feed a diff:   git diff --name-only | python3 <skill-dir>/hooks/review-files.py --stdin
+   # or, in the orchestrator pipeline, add --json and parse the result per file
+   ```
+   It feeds each file's current content to every hook (the same write-time contract) and reports exactly what the hooks would block: `any`/`Any`/`dynamic`/`mixed`, Hungarian notation, 4+ argument functions, junk-drawer paths, deep imports, and the TS/Python AST checks. Excluded files (node_modules, generated, lock files, ...) are skipped automatically. **Every finding it returns is a must-fix** — it's deterministic, so it can never be missed or re-litigated.
+5. **Merge, write the report, summarize.** Combine the judgement-pass findings with the deterministic linter findings and group by severity. Distinguish *must-fix* (the linter findings, plus correctness, security, broken contracts) from *should-fix* (clean-code rule, would be cleaner) from *consider* (judgement call, design tradeoff). **Then persist the merged result to a report file per `references/review-report.md`** (`.coding-standards/reviews/<timestamp>.md`, gitignored) and tell the user the path — every review writes one, inline included.
+6. **Never silently skip a rule.** If you didn't check it, say so. A review with hidden gaps is worse than a review that admits its scope.
+
+### Fix mode
+
+When the user says **"fix the findings"**, **"apply the review"**, **"fix everything
+from the review"**, or asks for fixes right after a Review, you are in **Fix mode** —
+apply an existing review's findings across the affected files.
+
+Fix mode **always runs as the orchestrator pipeline** (`MODE: fix`) because it is
+inherently multi-file: it fans out one fix-agent per file, tracked by a completeness
+ledger so nothing is silently half-fixed. **Do not** offer a "single agent" option
+for Fix. If the `Agent` tool is unavailable in this host, run the documented
+sequential-batch fallback and say so.
+
+The full Fix pipeline — ledger, structural-vs-file-local partition, per-file fan-out,
+verify, and ledger-based report — is in `references/orchestrator-pipeline.md` under
+"Fix mode (`MODE: fix`)". Read it before dispatching. The input is the most recent
+`.coding-standards/reviews/<ts>.md` report; if none exists, run Review first.
+
+---
+
+## How to find a rule when you need one
+
+The rules are organized by **what kind of question you're asking** (functions, naming, objects/data, formatting, error handling, principles, structure), not by language. The full question→file index is in **`references/rule-index.md`** — consult it for "what does FN-005 mean?" / "show me the rules" lookups, or when you're unsure which reference owns a concern. Step 2 already loads every `common/` file plus the framework structure on any write/review task, so during real work you rarely need the index — it's for targeted lookups.
+
+---
+
+## On conflict — KISS wins
+
+When two rules pull in different directions, **DP-006 (KISS)** is the tiebreaker. A simpler design that mildly bends another principle beats a complex design that satisfies them all. If you find yourself adding patterns (Strategy, Visitor, Observer, a fifth layer of indirection) to satisfy a rule, stop and ask whether the simpler version is actually wrong — usually it isn't.
+
+---
+
+## What this skill explicitly does NOT cover
+
+- **Performance tuning.** Use a dedicated profiler/tool when needed. Clean code is faster *enough* by default; the rules above don't optimize hot paths.
+- **Security review.** Use a dedicated security skill or auditor (e.g. the `security-review` skill, where available). A clean-code review can catch some classes of bugs (injection from string-built SQL, unvalidated input, broken authorization) but it is not a security audit.
+- **Test design.** Tests are subject to the same clean-code rules (small functions, intent-revealing names) — but specific testing strategies (TDD, BDD, mutation testing) are out of scope.
+- **UI/UX visual review.** That's a separate domain (typography, color, motion). The frameworks here cover *code* organization, not visual design. The `web-design-guidelines` or `design-taste-frontend` skill covers visual review when available.
+
+If the user asks for any of the above, say so and point them at a more specific tool.
+
+---
+
+## Quick start for the four most common tasks
+
+1. **"Write a component / endpoint / service."**
+   Step 1 → detect framework. Step 2 → read `common/` + the framework's `structure.md`. Write the file inside the right folder, with the right name, exporting the right surface through `index.ts` (where applicable). Apply `common/functions.md` and `common/naming.md` to the code inside.
+
+2. **"Refactor this file."**
+   Read the file. Identify violations against `common/` (function too long, hidden side effect, magic number, hybrid class) and against the framework's `structure.md` (wrong folder, deep import, generic name). Apply fixes — smallest first. If a fix requires moving the file, do that explicitly and mention it.
+
+3. **"Review this diff / PR."**
+   Follow Review mode above. Don't speed-skim — most issues hide in places that look fine.
+
+4. **"Is this clean?"**
+   Read the file. Walk through `common/` rule by rule. If all pass: "yes, here's why." If any fail: list them with file:line citations and severity. Be concrete; "feels off" is not a review.
+
