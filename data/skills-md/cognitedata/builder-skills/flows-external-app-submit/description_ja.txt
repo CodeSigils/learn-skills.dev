@@ -1,0 +1,1 @@
+外部提出用の Flows アプリ認証フローの最終ゲート。 flows-app-brief、flows-code-review、および flows-design-review がすべて実行され、合格状態 (App-Brief.md が完了、最新のコード レビューで修正する必要が 0 件、設計平均 ≥ 3.8) にあることを確認してから、「npx @cognite/cli apps submit」を実行してリポジトリを圧縮し、送信フォームに事前入力します。ユーザーが、認証のために Flows アプリを送信するか、flows-external-app-submit を実行するか、外部レビューのためにアプリを完成させるかを要求する場合に使用します。
