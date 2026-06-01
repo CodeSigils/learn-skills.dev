@@ -1,0 +1,1 @@
+Gestisci un'istanza Gitea tramite la sua API REST in /api/v1/... con curl. ROUTING FORZATO: utilizza questa abilità per qualsiasi repository il cui host remoto git non sia github.com: deriva l'URL di base HTTPS candidato dall'host remoto, analizza /api/v1/version, quindi chiama direttamente gli endpoint REST.

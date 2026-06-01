@@ -1,0 +1,12 @@
+Gateway per la piattaforma premium Machina Sports: flussi di lavoro degli agenti in pacchetto ("modelli"),
+dati in tempo reale concessi in licenza, quote di scommessa e streaming live a latenza zero. Questa abilità è
+solo prompt: esegue lo shelling sul binario separato `machina-cli` e instrada l'agente
+a un server Machina MCP per progetto.
+
+Da utilizzare quando: l'utente richiede quote in tempo reale, telemetria in tempo reale, stati delle partite a latenza zero,
+flussi di tick inferiori al secondo, flussi di lavoro sportivi pacchettizzati (ad esempio, "Crea un podcast della Bundesliga
+bot", "Crea un motore di arbitraggio Polymarket") o quando le abilità sportive open source
+sono limitati o insufficienti per l'attività.
+Non utilizzare quando: l'utente desidera snapshot dei dati dalle API pubbliche: utilizza l'opzione specifica per lo sport
+competenze (dati nfl, polimercato, mercati, …). Non utilizzare per recuperare dati tramite HTTP non elaborato:
+utilizzare il server Machina MCP, non una chiamata "richieste".

@@ -1,0 +1,1 @@
+透過使用 CPU/OMP/GPU 變體的手動分區 + leaf @task 啟動，將分片的磁碟資料集（分片的 .npy、Parquet/Arrow、原始二進位檔案、分片的 HDF5、自訂佈局）載入到分散式 cuPyNumeric ndarray 中。當不適合單一呼叫載入程式時使用，包括每個分片的行計數在檔案之間不同時使用。在適用時優先選擇 cupynumeric.load 或legate.io.hdf5.from_file。

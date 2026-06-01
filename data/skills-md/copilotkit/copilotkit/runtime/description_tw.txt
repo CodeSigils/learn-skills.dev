@@ -1,0 +1,1 @@
+@copilotkit/runtime — 在任何 JS 伺服器上安裝 fetch-native CopilotRuntime，連接中間件，選擇 AgentRunner，實例化builtInAgent（預設使用 TanStack AI 的工廠模式）或插入 12 個外部代理框架中的任何一個（Mastra、LangGraph、CrewAIWS、Prewno、Prew、P. Agent Framework、AG2、 A2A），為持久線程+ websocket啟用智慧模式，透過defineTool註冊伺服器端工具，並進行有線語音轉錄。使用基于获取的 createCopilotRuntimeHandler 原语 - 不鼓励使用 Express/Hono 适配器。載入與您的任務相符的引用/下的參考。

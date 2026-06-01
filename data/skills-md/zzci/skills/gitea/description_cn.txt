@@ -1,0 +1,1 @@
+使用curl 通过位于 /api/v1/... 的 REST API 操作 Gitea 实例。强制路由 — 对 git 远程主机不是 github.com 的任何存储库使用此技能：从远程主机派生候选 HTTPS 基本 URL，探测 /api/v1/version，然后直接调用 REST 端点。

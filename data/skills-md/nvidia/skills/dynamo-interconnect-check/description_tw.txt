@@ -1,0 +1,1 @@
+验证 Dynamo 部署的 NIXL/UCX/NCCL 互连是否已准备好通过 RDMA/NVLink 提供分类服务。在 Recipe-runner 啟動部署（尤其是 disagg/多節點）後使用，以確認 KV 傳輸正確；使用故障排除來診斷已失敗的 Pod。

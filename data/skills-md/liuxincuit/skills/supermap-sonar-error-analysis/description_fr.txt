@@ -1,1 +1,19 @@
 Analysez les raisons des échecs du contrôle de qualité SonarQube et proposez des suggestions d'amélioration.
+
+Utilisez cette compétence lorsque :
+- L'utilisateur fournit une URL Sonar ou une clé de projet et pose des questions sur l'état du portail de qualité.
+- Nécessité de dépanner les raisons des défaillances du portail de qualité du sonar
+- Besoin d'analyser les métriques de qualité du code (couverture, duplication, problèmes, etc.)
+- La vérification du sonar pour une Pull Request a échoué
+
+La compétence :
+1. Vérifiez la variable d'environnement SUPERMAP_SONAR_TOKEN
+2. Analysez l'URL du Sonar, extrayez la clé du projet et le numéro PR (le cas échéant)
+3. Appelez l'API Sonar pour interroger l'état du portail de qualité
+4. Si le portail de qualité passe : renvoie un message de réussite concis (y compris la couverture, la duplication)
+5. Si le contrôle qualité échoue : récupérez des mesures d'échec spécifiques, une liste de problèmes, analysez et proposez des suggestions d'amélioration.
+
+Nécessite : curl, variable d'environnement SUPERMAP_SONAR_TOKEN
+Compatible avec Windows, macOS et Linux.
+
+Veuillez toujours répondre dans la langue de l'utilisateur.

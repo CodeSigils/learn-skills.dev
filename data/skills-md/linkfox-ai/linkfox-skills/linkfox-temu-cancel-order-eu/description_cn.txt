@@ -1,0 +1,1 @@
+Temu 欧洲站订单取消 API（买家+卖家组合），通过 LinkFox 网关转发至合作伙伴 EU：买家售后取消 (bg.aftersales.cancel.*)、卖家申诉/缺货取消 (temu.order.cancel.*) 等。当用户提到 Temu EU 订单取消、欧洲站买家取消、卖家缺货取消、afterSalesStatusGroup、applySn、site=eu 订单发货时触发。使用 linkfox-temu-order-eu 进行订单；对于美国网站，请使用 linkfox-temu-cancel-order-us；对全球站点使用 linkfox-temu-cancel-order-global。

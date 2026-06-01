@@ -1,0 +1,3 @@
+Indicizzare un file o una directory locale nella knowledge base FTS5 persistente della modalità contesto
+quindi le future chiamate ctx_search possono recuperare snippet mirati senza rileggere i file non elaborati.
+Trigger: /context-mode:ctx-index

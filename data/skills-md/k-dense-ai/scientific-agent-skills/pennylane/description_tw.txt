@@ -1,0 +1,1 @@
+具有自動微分功能的與硬體無關的量子機器學習框架。當透過梯度訓練量子電路、建構混合量子經典模型或需要跨 IBM/Google/Rigetti/IonQ 的設備可移植性時使用。最適合變分演算法（VQE、QAOA）、量子神經網路以及與 PyTorch/JAX/TensorFlow 的整合。對於特定於硬體的最佳化，請使用 qiskit (IBM) 或 cirq (Google)；對於開放量子系統，請使用 qutip。

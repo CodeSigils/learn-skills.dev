@@ -1,0 +1,19 @@
+Analice los motivos de las fallas en el control de calidad de SonarQube y brinde sugerencias de mejora.
+
+Utilice esta habilidad cuando:
+- El usuario proporciona una URL de Sonar o clave de proyecto y pregunta sobre el estado de la puerta de calidad.
+- Necesidad de solucionar los motivos de las fallas en la puerta de calidad del sonar.
+- Necesidad de analizar métricas de calidad del código (cobertura, duplicación, problemas, etc.)
+- La verificación de sonda para una solicitud de extracción falló.
+
+La habilidad:
+1. Verifique la variable de entorno SUPERMAP_SONAR_TOKEN
+2. Analice la URL de Sonar, extraiga la clave del proyecto y el número PR (si corresponde)
+3. Llame a la API de Sonar para consultar el estado del control de calidad.
+4. Si se supera el control de calidad: envíe un mensaje de éxito conciso (que incluya cobertura y duplicación)
+5. Si el control de calidad falla: recupere métricas defectuosas específicas, enumere los problemas, analice y proporcione sugerencias de mejora.
+
+Requiere: curl, variable de entorno SUPERMAP_SONAR_TOKEN
+Compatible con Windows, macOS y Linux.
+
+Por favor responda siempre en el idioma del usuario.

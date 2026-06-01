@@ -1,0 +1,1 @@
+Temu 全球站點（非美國/歐盟）產品管理「管理產品」API 透過 LinkFox 閘道轉送至 24 個 bg.local/temu.local 端點，預設網站設定為全域。當使用者提及 Temu Global Manage Product、全球網站產品、site=global 產品清單/下架、庫存變更或 bg.local.goods 時會觸發該事件。美國網站使用linkfox-temu-manage-product-us，歐洲網站使用linkfox-temu-manage-product-eu，其他領域如產品發布、定價、促銷、廣告、訂單等，在設定site=global時使用相應的技能。

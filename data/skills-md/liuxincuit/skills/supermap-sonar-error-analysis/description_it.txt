@@ -1,0 +1,19 @@
+Analizzare le ragioni dei guasti ai controlli di qualità SonarQube e fornire suggerimenti di miglioramento.
+
+Usa questa abilità quando:
+- L'utente fornisce un URL Sonar o una chiave di progetto e chiede informazioni sullo stato del cancello di qualità
+- Necessità di risolvere i motivi dei guasti al gate di qualità del sonar
+- Necessità di analizzare le metriche di qualità del codice (copertura, duplicazione, problemi, ecc.)
+- Il controllo del sonar per una richiesta di pull non è riuscito
+
+L'abilità:
+1. Controlla la variabile d'ambiente SUPERMAP_SONAR_TOKEN
+2. Analizza l'URL del sonar, estrai la chiave del progetto e il numero PR (se presente)
+3. Chiamare l'API Sonar per interrogare lo stato del controllo qualità
+4. Se il controllo qualità supera: restituire un messaggio conciso di successo (inclusa copertura, duplicazione)
+5. Se il controllo della qualità fallisce: recuperare parametri specifici di fallimento, elenco di problemi, analizzare e fornire suggerimenti di miglioramento
+
+Richiede: curl, variabile d'ambiente SUPERMAP_SONAR_TOKEN
+Compatibile con Windows, macOS e Linux.
+
+Si prega di rispondere sempre nella lingua dell'utente.

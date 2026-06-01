@@ -1,0 +1,1 @@
+Temu歐洲站訂單管理API，由LinkFox閘道轉送至合作夥伴歐盟訂單介面：訂單清單/明細/送貨地址/金額/組合運費/客製化/SN認證上傳（bg.order.*、tem u.local.order.verification.upload）等。當用戶提及Temu EU訂單、Temu歐洲站訂單、上傳SN、IMEI、驗證上傳、客製化產品、組合運費、parentOrderSn、site=eu時觸發訂單運輸。產品管理使用linkfox-temu-manage-product-eu；定價使用 linkfox-temu-price-eu；履行/運輸使用 linkfox-temu-fulfillment-eu；退貨/退款使用 linkfox-temu-returns-refunds-eu；取消使用 linkfox-temu-cancel-order-eu。

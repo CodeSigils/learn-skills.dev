@@ -1,0 +1,1 @@
+Temu全球站（非美歐）訂單管理API，透過LinkFox網關轉送9個bg.order.* / temu.order.* / temu.local.order.*接口，預設site=global、tokenPurpose=order-shipping。當使用者填寫Temu全球訂單、全球訂單清單、parentOrderSn、訂單金額V2、temu.order.amount.v2.query、訂單出貨、SN鑑真、驗證上傳時觸發。美國站用linkfox-temu-order-us；歐洲站用linkfox-temu-order-eu；商品用linkfox-temu-manage-product-global；價格用linkfox-temu-price-global。

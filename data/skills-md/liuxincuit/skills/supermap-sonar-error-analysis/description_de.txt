@@ -1,1 +1,19 @@
 Analysieren Sie die Gründe für Ausfälle von SonarQube-Qualitätstoren und machen Sie Verbesserungsvorschläge.
+
+Verwenden Sie diese Fähigkeit, wenn:
+- Der Benutzer gibt eine Sonar-URL oder einen Projektschlüssel an und fragt nach dem Quality-Gate-Status
+- Die Gründe für Ausfälle von Sonar-Qualitätstoren müssen behoben werden
+- Notwendigkeit, Codequalitätsmetriken zu analysieren (Abdeckung, Duplizierung, Probleme usw.)
+- Die Sonarprüfung für eine Pull-Anfrage ist fehlgeschlagen
+
+Die Fähigkeit wird:
+1. Überprüfen Sie die Umgebungsvariable SUPERMAP_SONAR_TOKEN
+2. Analysieren Sie die Sonar-URL, extrahieren Sie den Projektschlüssel und die PR-Nummer (falls vorhanden).
+3. Rufen Sie die Sonar-API auf, um den Quality-Gate-Status abzufragen
+4. Wenn das Qualitätstor bestanden wird: Geben Sie eine prägnante Erfolgsmeldung zurück (einschließlich Berichterstattung, Duplikat).
+5. Wenn das Qualitätstor fehlschlägt: Rufen Sie bestimmte fehlgeschlagene Kennzahlen ab, listen Sie die Probleme auf, analysieren Sie und machen Sie Verbesserungsvorschläge
+
+Erfordert: Curl, Umgebungsvariable SUPERMAP_SONAR_TOKEN
+Kompatibel mit Windows, macOS und Linux.
+
+Bitte antworten Sie immer in der Sprache des Benutzers.

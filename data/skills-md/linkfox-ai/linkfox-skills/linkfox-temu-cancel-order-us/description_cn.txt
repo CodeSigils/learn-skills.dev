@@ -1,0 +1,1 @@
+Temu US 网站订单取消 API（买家和卖家合并），由 LinkFox 网关转发给美国合作伙伴：买家售后取消列表/同意书（bg.aftersales.cancel.*）、卖家上诉/缺货取消（temu.order.cancel.appeal/outofstock.*）等。当用户提及 Temu US 订单取消、买家取消、卖家取消、缺货取消、afterSalesStatusGroup 时触发， applySn，订单运输。使用 linkfox-temu-order-us 进行订单； linkfox-temu-cancel-order-eu 用于欧洲网站； linkfox-temu-cancel-order-global 用于全球站点。

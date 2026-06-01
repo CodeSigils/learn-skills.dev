@@ -1,0 +1,12 @@
+Puerta de entrada a la plataforma premium de Machina Sports: flujos de trabajo de agentes empaquetados ("plantillas"),
+datos en tiempo real con licencia, probabilidades de apuestas y transmisiones en vivo con latencia cero. Esta habilidad es
+solo aviso: desembolsa el binario `machina-cli` separado y enruta el agente
+a un servidor Machina MCP por proyecto.
+
+Úselo cuando: el usuario solicite probabilidades en vivo, telemetría en tiempo real, estados de coincidencia de latencia cero,
+flujos de ticks de menos de un segundo, flujos de trabajo deportivos empaquetados (por ejemplo, "Crear un podcast de la Bundesliga
+bot", "Crear un motor de arbitraje Polymarket"), o cuando las habilidades deportivas de código abierto
+tienen una velocidad limitada o son insuficientes para la tarea.
+No lo use cuando: el usuario quiera datos instantáneos de API públicas; use el específico del deporte
+habilidad (nfl-data, polimercado, mercados,…). No lo utilice para recuperar datos a través de HTTP sin formato.
+utilice el servidor Machina MCP, no una llamada de "solicitudes".

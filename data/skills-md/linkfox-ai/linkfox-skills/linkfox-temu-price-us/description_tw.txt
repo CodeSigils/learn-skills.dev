@@ -1,0 +1,1 @@
+Temu美國站產品價格管理API，透過LinkFox閘道轉送至合作夥伴美國價格介面：價格訂單清單查詢（bg.local.goods.priceorder.query）、大量修改SKU基礎價格（bg.local.goods.priceorder.change.sku.price）、推薦供貨價格/基礎價格估算等。當使用者提及Temu美國價格、價格訂單、priceorder查詢、priceAuditList、修改供貨價格、大量更改價格、priceorder更改sku價格時， Recommendedprice查詢，baseprice推薦，觸發。使用linkfox-temu-manage-product-us進行產品管理； linkfox-temu-order-us 用於訂單； linkfox-temu-add-product-us 用於產品發布。

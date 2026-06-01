@@ -1,0 +1,1 @@
+用于外部提交的 Flows 应用程序认证流程的最终入口。验证flows-app-brief、flows-code-review 和flows-design-review 均已运行且处于通过状态（App-Brief.md 已完成，最新代码审查中必须修复0 个，设计平均值≥ 3.8），然后运行“npx @cognite/cli apps Submit”以压缩存储库并预填充提交表单。当用户要求提交 Flows 应用程序进行认证、运行 Flows-external-app-submit 或最终确定应用程序以供外部审核时使用。

@@ -1,0 +1,1 @@
+Temu歐洲站產品定價管理API，透過LinkFox閘道轉送至合作夥伴EU定價介面：價格訂單清單查詢（bg.local.goods.priceorder.query）、大量更改SKU底價（bg.local.goods.priceorder.change.sku.price）、推薦供貨價/基價估算等。當使用者提及Temu EU價格、Temu歐洲站價格訂單、priceorder查詢、priceAuditList、更改供應價格、批量更改價格時觸發， site=歐盟價格變化、推薦價格查詢或基本價格推薦。產品管理使用linkfox-temu-manage-product-eu；訂單、出貨和其他網域可以使用 US 技能以及 site=eu。

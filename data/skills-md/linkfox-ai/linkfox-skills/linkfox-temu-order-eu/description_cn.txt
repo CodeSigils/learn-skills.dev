@@ -1,0 +1,1 @@
+Temu欧洲站订单管理API，由LinkFox网关转发到合作伙伴欧盟订单接口：订单列表/明细/送货地址/金额/组合运费/定制/SN认证上传（bg.order.*、tem u.local.order.verification.upload）等。当用户提及Temu EU订单、Temu欧洲站订单、上传SN、IMEI、验证上传、定制产品、组合运费、parentOrderSn、site=eu时触发订单运输。产品管理使用linkfox-temu-manage-product-eu；定价使用 linkfox-temu-price-eu；履行/运输使用 linkfox-temu-fulfillment-eu；退货/退款使用 linkfox-temu-returns-refunds-eu；取消使用 linkfox-temu-cancel-order-eu。

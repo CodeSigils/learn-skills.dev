@@ -1,0 +1,1 @@
+Valide que la interconexión NIXL/UCX/NCCL de una implementación de Dynamo esté lista para el servicio desagregado a través de RDMA/NVLink. Úselo después de que el ejecutor de recetas active una implementación (especialmente desagg/multinodo) para confirmar que el transporte KV es correcto; utilice la solución de problemas para diagnosticar pods que ya han fallado.

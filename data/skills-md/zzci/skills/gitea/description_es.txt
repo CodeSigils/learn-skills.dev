@@ -1,0 +1,1 @@
+Opere una instancia de Gitea a través de su API REST en /api/v1/... con curl. ENRUTAMIENTO FORZADO: use esta habilidad para cualquier repositorio cuyo host remoto git no sea github.com: derive la URL base HTTPS candidata del host remoto, pruebe /api/v1/version y luego llame a los puntos finales REST directamente.
