@@ -1,0 +1,1 @@
+Comment lancer des tâches de formation Megatron-LM distribuées sur un cluster SLURM. Couvre un squelette de lots minimal, une configuration de variable d'environnement pour torch.distributed.run, les règles CUDA_DEVICE_MAX_CONNECTIONS pour les modes matériel et parallélisme, les conventions de conteneur, la surveillance et le diagnostic de défaillance par rang.

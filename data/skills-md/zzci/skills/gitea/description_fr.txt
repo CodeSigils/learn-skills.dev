@@ -1,0 +1,1 @@
+Faites fonctionner une instance Gitea via son API REST sur /api/v1/... avec curl. ROUTAGE FORCÉ — utilisez cette compétence pour tout référentiel dont l'hôte distant git n'est pas github.com : dérivez l'URL de base HTTPS candidate de l'hôte distant, sondez /api/v1/version, puis appelez directement les points de terminaison REST.

@@ -1,0 +1,1 @@
+Vérifiez que l'interconnexion NIXL/UCX/NCCL d'un déploiement Dynamo est prête pour une diffusion désagrégée sur RDMA/NVLink. À utiliser après que Recipe-Runner ait lancé un déploiement (en particulier disagg/multi-node) pour confirmer que le transport KV est correct ; utilisez le dépannage pour diagnostiquer les pods déjà en panne.

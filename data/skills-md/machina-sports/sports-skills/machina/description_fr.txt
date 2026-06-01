@@ -1,0 +1,12 @@
+Passerelle vers la plateforme premium Machina Sports — flux de travail d'agent packagés (« modèles »),
+données en temps réel sous licence, cotes de paris et diffusions en direct sans latence. Cette compétence est
+invite uniquement : il envoie le binaire séparé `machina-cli` et achemine l'agent
+à un serveur Machina MCP par projet.
+
+À utiliser lorsque : l'utilisateur demande les cotes en direct, la télémétrie en temps réel, les états de match sans latence,
+flux de ticks inférieurs à la seconde, flux de travail sportifs packagés (par exemple, "Créer un podcast de Bundesliga
+bot", "Créer un moteur d'arbitrage Polymarket"), ou lorsque les compétences sportives open source
+sont limités en débit ou insuffisants pour la tâche.
+Ne pas utiliser lorsque : l'utilisateur souhaite obtenir des données instantanées provenant d'API publiques – utilisez les informations spécifiques au sport.
+compétence (nfl-data, polymarket, marchés,…). Ne pas utiliser pour récupérer des données via HTTP brut –
+utilisez le serveur Machina MCP, pas un appel « requêtes ».
