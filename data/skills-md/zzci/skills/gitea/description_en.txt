@@ -1,0 +1,1 @@
+Operate a Gitea instance via its REST API at /api/v1/... with curl. FORCED ROUTING — use this skill for any repository whose git remote host is not github.com: derive the candidate HTTPS base URL from the remote host, probe /api/v1/version, then call the REST endpoints directly.

@@ -1,0 +1,12 @@
+Gateway to the Machina Sports premium platform — packaged agent workflows ("templates"),
+licensed real-time data, betting odds, and zero-latency live streams. This skill is
+prompt-only: it shells out to the separate `machina-cli` binary and routes the agent
+to a per-project Machina MCP server.
+
+Use when: the user asks for live odds, real-time telemetry, zero-latency match states,
+sub-second tick streams, packaged sports workflows (e.g., "Build a Bundesliga podcast
+bot", "Create a Polymarket arbitrage engine"), or when the open-source sports-skills
+are rate-limited or insufficient for the task.
+Don't use when: the user wants snapshot data from public APIs — use the sport-specific
+skill (nfl-data, polymarket, markets, …). Don't use to fetch data through raw HTTP —
+use the Machina MCP server, not a `requests` call.
