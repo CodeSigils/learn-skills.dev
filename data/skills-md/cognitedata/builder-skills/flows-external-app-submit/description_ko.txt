@@ -1,0 +1,1 @@
+외부 제출을 위한 Flows 앱 인증 흐름의 최종 게이트입니다. flow-app-brief, flow-code-review 및 flow-design-review가 모두 실행되었고 통과 상태(App-Brief.md 완료, 0 최신 코드 검토에서 수정해야 함, 디자인 평균 ≥ 3.8)인지 확인한 다음 'npx @cognite/cli apps submit'을 실행하여 저장소를 압축하고 제출 양식을 미리 채웁니다. 사용자가 인증을 위해 Flows 앱 제출을 요청하거나, flow-external-app-submit을 실행하거나, 외부 검토를 위해 앱을 마무리할 때 사용합니다.
