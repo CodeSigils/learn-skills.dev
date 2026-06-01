@@ -1,1 +1,1 @@
-用于外部提交的 Flows 应用程序认证流程的最终入口。驗證flows-app-brief、flows-code-review 和flows-design-review 均已運行且處於通過狀態（App-Brief.md 已完成，最新程式碼審查中必須修復0 個，設計平均值≥ 3.8），然後執行「npx @cognite/cli apps Submit」以壓縮儲存庫並預先填充提交表單。當使用者要求提交 Flows 應用程式進行認證、執行 Flows-external-app-submit 或最終確定應用程式以供外部審核時使用。
+用於外部提交的 Flows 應用程式認證流程的最終入口。驗證flows-app-brief、flows-code-review 和flows-design-review 均已運行且處於通過狀態（App-Brief.md 已完成，最新程式碼審查中必須修復0 個，設計平均值≥ 3.8），然後執行「npx @cognite/cli apps Submit」以壓縮儲存庫並預先填充提交表單。當使用者要求提交 Flows 應用程式進行認證、執行 Flows-external-app-submit 或最終確定應用程式以供外部審核時使用。

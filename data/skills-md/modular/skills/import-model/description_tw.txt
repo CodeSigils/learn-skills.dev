@@ -1,1 +1,1 @@
-將新模型架構從 Hugging Face 模型 ID 匯入 MAX 時使用。觸發條件：「將模型匯入 MAX」、「將模型加入 MAX」、「在 MAX 中調出 <HF 模型>」。工作流程：檢查 Hugging Face 配置和建模程式碼、類似 MAX 架構的鷹架、實作每個圖形層以匹配 HF、服務，然後針對 Hugging Face 參考進行調試，直到輸出匹配。
+将新模型架构从 Hugging Face 模型 ID 导入 MAX 时使用。触发条件：“将模型导入 MAX”、“将模型添加到 MAX”、“在 MAX 中调出 <HF 模型>”。工作流程：檢查 Hugging Face 配置和建模程式碼、類似 MAX 架構的支架、實作每個圖形層以符合 HF、服務，然後針對 Hugging Face 參考進行偵錯，直到輸出匹配。
