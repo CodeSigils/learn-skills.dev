@@ -1,0 +1,1 @@
+Überprüfen Sie, ob die NIXL/UCX/NCCL-Verbindung einer Dynamo-Bereitstellung für die disaggregierte Bereitstellung über RDMA/NVLink bereit ist. Wird verwendet, nachdem der Recipe-Runner eine Bereitstellung startet (insbesondere disagg/multi-node), um zu bestätigen, dass der KV-Transport korrekt ist; Verwenden Sie die Fehlerbehebung zur Diagnose bereits ausgefallener Pods.

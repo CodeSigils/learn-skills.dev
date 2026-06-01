@@ -1,0 +1,12 @@
+Gateway zur Machina Sports Premium-Plattform – verpackte Agenten-Workflows („Vorlagen“),
+lizenzierte Echtzeitdaten, Wettquoten und Live-Streams ohne Latenz. Diese Fähigkeit ist
+Nur Eingabeaufforderung: Es sendet eine Shell an die separate „machina-cli“-Binärdatei und leitet den Agenten weiter
+an einen projektspezifischen Machina MCP-Server.
+
+Verwenden Sie diese Option, wenn: der Benutzer nach Live-Quoten, Echtzeit-Telemetrie, Spielstatus ohne Latenz fragt,
+Tick-Streams in Sekundenschnelle, verpackte Sport-Workflows (z. B. „Erstellen Sie einen Bundesliga-Podcast“)
+bot“, „Erstellen Sie eine Polymarket-Arbitrage-Engine“) oder wenn die Open-Source-Sportskills
+sind geschwindigkeitsbegrenzt oder für die Aufgabe nicht ausreichend.
+Nicht verwenden, wenn: Der Benutzer möchte Snapshot-Daten von öffentlichen APIs – verwenden Sie die sportspezifischen
+Fähigkeiten (NFL-Daten, Polymarket, Märkte, …). Nicht zum Abrufen von Daten über rohes HTTP verwenden –
+Verwenden Sie den Machina MCP-Server, keinen „Requests“-Aufruf.
