@@ -1,0 +1,5 @@
+إنشاء والتحقق من صحة سقالة مشروع Spring Boot. استخدم هذه المهارة عندما يطلب المستخدم إنشاء مشروع Spring Boot، وسقالات Spring Boot، و"스프링부트 프로젝트 생성"، و"스프링부트 스캐폴딩"، و"새 스프링부트 앱". 만들기"، أو يستدعي /springboot-scaffold.
+يتم إنشاء السقالة ميكانيكيًا من خلال scripts/scaffold.py ثم يتم التحقق منها باستخدام القواعد الحتمية لتخطيط الحزمة وتبعيات Gradle والملفات الشخصية وسلوك .gitkeep ورمز المجال النموذجي الاختياري.
+
+الاستخدام:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

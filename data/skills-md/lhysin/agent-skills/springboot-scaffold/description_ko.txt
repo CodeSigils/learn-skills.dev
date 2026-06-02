@@ -1,0 +1,5 @@
+Spring Boot 프로젝트 스캐폴드를 생성하고 검증합니다. 사용자가 Spring Boot 프로젝트 생성, Spring Boot 스캐폴딩, "스프링부트 프로젝트 생성", "스프링부트 스캐폴딩", "새봄부트 앱 생성"을 요청하거나 /springboot-scaffold를 호출할 때 이 스킬을 사용하세요.
+스캐폴드는 scripts/scaffold.py를 통해 기계적으로 생성된 다음 패키지 레이아웃, Gradle 종속성, 프로필, .gitkeep 동작 및 선택적 샘플 도메인 코드에 대한 결정적 규칙으로 검사됩니다.
+
+사용법:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

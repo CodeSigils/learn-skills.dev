@@ -1,0 +1,5 @@
+Spring Boot プロジェクトのスキャフォールドを生成して検証します。このスキルは、ユーザーが Spring Boot プロジェクトの作成、Spring Boot スキャフォールディング、「스프링부트 프로젝트 생성」、「스프링부트 스캐폴딩」、「새 스프링부트 앱」を要求するときに使用します。 만들기」、または /springboot-scaffold を呼び出します。
+スキャフォールドは scripts/scaffold.py を通じて機械的に生成され、パッケージ レイアウト、Gradle の依存関係、プロファイル、.gitkeep の動作、およびオプションのサンプル ドメイン コードの決定的ルールでチェックされます。
+
+使用法:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

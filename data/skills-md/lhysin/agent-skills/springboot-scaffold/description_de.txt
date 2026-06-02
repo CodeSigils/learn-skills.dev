@@ -1,0 +1,5 @@
+Generieren und validieren Sie ein Spring Boot-Projektgerüst. Verwenden Sie diesen Skill, wenn der Benutzer nach der Erstellung eines Spring Boot-Projekts, Spring Boot-Gerüstbau, „Erstellung eines Projekts“, „Erstellung eines Projekts“, „Erstellung eines Projekts“ fragt 만들기“, oder ruft /springboot-scaffold auf.
+Das Gerüst wird mechanisch über scripts/scaffold.py generiert und dann mit deterministischen Regeln für Paketlayout, Gradle-Abhängigkeiten, Profile, .gitkeep-Verhalten und optionalem Beispieldomänencode überprüft.
+
+Verwendung:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

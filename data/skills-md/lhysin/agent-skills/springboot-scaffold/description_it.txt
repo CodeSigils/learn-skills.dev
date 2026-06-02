@@ -1,0 +1,5 @@
+Genera e convalida un'impalcatura del progetto Spring Boot. Utilizzare questa competenza quando l'utente richiede la creazione del progetto Spring Boot, l'impalcatura Spring Boot, "스프링부트 프로젝트 생성", "스프링부트 스캐폴딩", "새 스프링부트 앱 만들기", o invoca /springboot-scaffold.
+Lo scaffold viene generato meccanicamente tramite scripts/scaffold.py e quindi controllato con regole deterministiche per layout del pacchetto, dipendenze Gradle, profili, comportamento .gitkeep e codice di dominio di esempio opzionale.
+
+Utilizzo:
+  /springboot-scaffold --root GRUPPO_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

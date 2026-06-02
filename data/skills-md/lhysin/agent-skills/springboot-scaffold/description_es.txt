@@ -1,0 +1,5 @@
+Generar y validar un andamio de proyecto Spring Boot. Utilice esta habilidad cuando el usuario solicite la creación del proyecto Spring Boot, el andamiaje Spring Boot, "스프링부트 프로젝트 생성", "스프링부트 스캐폴딩", "새 스프링부트 앱 만들기", o invoca /springboot-scaffold.
+El andamio se genera mecánicamente a través de scripts/scaffold.py y luego se verifica con reglas deterministas para el diseño del paquete, las dependencias de Gradle, los perfiles, el comportamiento de .gitkeep y el código de dominio de muestra opcional.
+
+Uso:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

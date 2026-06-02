@@ -1,0 +1,5 @@
+Générez et validez un échafaudage de projet Spring Boot. Utilisez cette compétence lorsque l'utilisateur demande la création d'un projet Spring Boot, un échafaudage Spring Boot, "스프링부트 프로젝트 생성", "스프링부트 스캐폴딩", "새 스프링부트 앱 만들기", ou invoque /springboot-scaffold.
+L'échafaudage est généré mécaniquement via scripts/scaffold.py, puis vérifié avec des règles déterministes pour la disposition des packages, les dépendances Gradle, les profils, le comportement .gitkeep et un exemple de code de domaine facultatif.
+
+Utilisation :
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

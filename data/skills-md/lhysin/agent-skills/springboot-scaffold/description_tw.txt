@@ -1,0 +1,5 @@
+產生並驗證 Spring Boot 專案腳手架。當使用者要求創建Spring Boot專案、Spring Boot腳手架、「스프링부트 프로젝트 생성」、「스프링부트 스캐結果. 앱”時使用此技巧만들기”，或呼叫 /springboot-scaffold。
+腳手架是透過 script/scaffold.py 機械生成的，然後使用套件佈局、Gradle 依賴項、設定檔、.gitkeep 行為和可選範例域程式碼的確定性規則進行檢查。
+
+用途：
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--sculpture on|off] [--target PATH] [--help]
