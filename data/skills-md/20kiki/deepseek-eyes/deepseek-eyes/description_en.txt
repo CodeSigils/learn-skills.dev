@@ -1,0 +1,1 @@
+Use when the user shares an image that Claude can't natively see, or when the user asks to analyze/describe/understand an image. Route every image through this skill — send the image path to eyes.py, which calls a vision model (default qwen3-vl-plus) via 百炼 DashScope and returns a Chinese text description. Then answer the user's question based on that description.

@@ -1,0 +1,1 @@
+Pre-deploy security audit for vibe-coded apps. Catches the basic mistakes AI coding agents (and humans) routinely ship to production - unauthenticated admin APIs, missing RLS, leaked service keys, exposed debug routes, hardcoded secrets, permissive CORS. Stack-aware - detects Next.js, Supabase, etc. from package.json and runs the relevant checklist.

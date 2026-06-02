@@ -1,0 +1,5 @@
+Generate and validate a Spring Boot project scaffold. Use this skill when the user asks for Spring Boot project creation, Spring Boot scaffolding, "스프링부트 프로젝트 생성", "스프링부트 스캐폴딩", "새 스프링부트 앱 만들기", or invokes /springboot-scaffold.
+The scaffold is generated mechanically through scripts/scaffold.py and then checked with deterministic rules for package layout, Gradle dependencies, profiles, .gitkeep behavior, and optional sample domain code.
+
+Usage:
+  /springboot-scaffold --root GROUP_ID --appname APP_NAME [--java-version 25] [--skeleton on|off] [--target PATH] [--help]

@@ -1,1 +1,1 @@
-Basic data for customer editing scenarios (dropdown options). Used when a user needs to retrieve the selectable ID lists for customer status, tags, region, and industry to modify customer information; via `lfy-cli base get_options`, the property includes only these four categories; the `cli` parameter can be omitted on the API (default is false); the Agent example still recommends setting `cli=true`.
+客户编辑场景基础数据（下拉选项）。当用户需要获取客户状态、标签、区域、行业的可选 id 列表用于修改客户信息时使用；通过 lfy-cli base get_options，property 仅四类；API 上 cli 可省略（默认 false）；Agent 示例仍推荐 cli=true。

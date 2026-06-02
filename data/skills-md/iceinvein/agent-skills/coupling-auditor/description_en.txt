@@ -1,0 +1,1 @@
+Use when reviewing how modules communicate, when one module change breaks others unexpectedly, when passing large objects between functions, or when shared state exists between modules. Trigger on "why did this break?", "these modules are too tangled", or when tracing unexpected side effects across boundaries. NOT for coupling within a single module's internals.

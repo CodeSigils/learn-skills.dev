@@ -1,19 +1,17 @@
-Analyze the reasons for SonarQube quality gate failures and provide improvement suggestions.
+分析 SonarQube 质量门失败原因并提供改进建议。
 
 Use this skill when:
-- The user provides a Sonar URL or project key and asks about the quality gate status
-- Need to troubleshoot the reasons for Sonar quality gate failures
-- Need to analyze code quality metrics (coverage, duplication, issues, etc.)
-- Sonar check for a Pull Request has failed
+- 用户提供 Sonar URL 或项目 key 并询问质量门状态
+- 需要排查 Sonar 质量门失败原因
+- 需要分析代码质量指标（覆盖率、重复率、问题等）
+- Pull Request 的 Sonar 检查未通过
 
 The skill will:
-1. Check the environment variable SUPERMAP_SONAR_TOKEN
-2. Parse the Sonar URL, extract the project key and PR number (if any)
-3. Call the Sonar API to query the quality gate status
-4. If the quality gate passes: return a concise success message (including coverage, duplication)
-5. If the quality gate fails: retrieve specific failing metrics, list of issues, analyze and provide improvement suggestions
+1. 检查环境变量 SUPERMAP_SONAR_TOKEN
+2. 解析 Sonar URL，提取项目 key 和 PR 号（如有）
+3. 调用 Sonar API 查询质量门状态
+4. 质量门通过：返回简洁成功信息（含覆盖率、重复率）
+5. 质量门失败：获取具体失败指标、问题列表，分析并提供改进建议
 
 Requires: curl, SUPERMAP_SONAR_TOKEN environment variable
 Compatible with Windows, macOS, and Linux.
-
-Please always respond in the user's language.
