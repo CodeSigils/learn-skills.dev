@@ -1,0 +1,6 @@
+逆向防御方实现 → 红队针对性绕过。把 EDR / Defender / AV 的 Hook 表、ETW Provider、AMSI 实现先逆向出来,
+再写针对性的 unhook / 间接 syscall / ETW patch / call stack spoof。对照 MITRE ATT&CK T1562 防御规避。
+触发关键词:EDR 绕过、AV-Bypass、免杀、unhook、direct syscall、indirect syscall、Hell's Gate、Halo's Gate、
+Tartarus Gate, ETW-Patch, AMSI-Patch, Call-Stack-Spoofing, Hardware-Breakpoint Blindside, MITRE T1562,
+ntdll unhook、kernel callback、CrowdStrike 、 Defender 、 Sentinel One 、 Elastic Defend 、
+Sysmon-Fehler, PPID-Spoof, Schlafmaske, Process Hollowing, Reflective DLL.
