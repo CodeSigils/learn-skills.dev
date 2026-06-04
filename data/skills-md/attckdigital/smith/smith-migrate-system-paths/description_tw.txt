@@ -1,0 +1,1 @@
+一次性遷移，將 `paths:` YAML frontmatter 加入現有的 `.specify/systems/<id>/spec.md` 檔案中。掃描散文中類似路徑的引用（services/<X>/、backend/<X>/、frontend/<X>/ 等），提出每個系統的列表，並將接受的 frontmatter 寫入現有正文之上。當項目將系統規格成長為散文並且您希望 Smith 清單 v2 路徑解析器第 1 層正確儲存檔案時使用。

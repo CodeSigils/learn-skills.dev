@@ -1,0 +1,1 @@
+當代理程式需要從另一個代理環境（例如 Claude Code、OpenClaw 或類似環境）將任務委託給 OpenAI Codex CLI 時使用。涵蓋檢查是否安裝了 Codex CLI、使用“codex exec”運行一次性 Codex 提示、恢復會話、收集輸出、使用“-i”/stdin 附加圖像或文件作為輸入，以及處理 Codex 圖像生成（包括查找和報告生成的圖像文件路徑）。

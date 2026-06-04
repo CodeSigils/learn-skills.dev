@@ -1,0 +1,1 @@
+分析 Figma COMPONENT_SET 作為程式碼產生的狀態機 — 提取變體軸（狀態/大小等），將狀態變體對應到 CSS 偽類（hover→:hover、focus→:focus-visible、disabled→:disabled、error→[aria-invalid]），並計算每個變體的視覺差異（僅計算每個狀態的差異）。從Figma變體集生成交互式組件時使用 - 觸發器：“分析此組件集”，“將這些變體轉換為CSS狀態”，“從Figma變體生成按鈕/輸入/複選框”，“懸停和默認狀態之間的變化”，“將Figma變體映射到道具”，“提取此組件的狀態機”。將綁定變數解析為標記名稱。原生 MCP 的 get_design_context/get_metadata 未涵蓋，它們不會提供您變體軸→CSS 狀態機。

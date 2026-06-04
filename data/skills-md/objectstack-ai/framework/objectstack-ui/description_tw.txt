@@ -1,0 +1,1 @@
+建立 ObjectStack UI 元資料 - 檢視（清單/表單/看板/日曆/甘特圖）、應用程式（導覽）、頁面、儀表板、報表、圖表、操作。當使用者加入 `*.view.ts` / `*.app.ts` / `*.dashboard.ts` / `*.action.ts` 檔案或設計 Studio 渲染的 UI 介面時使用。請勿用於：資料模式（請參閱 objectstack-data）、互動式螢幕流/精靈（這些是帶有 `type: 'screen'` 的 `*.flow.ts` — 請參閱 objectstack-automation）、React 渲染器實作（位於 `packages/client-react` 中，而不是在元資料中的 UI 一起管理）。可見性/條件規則中的 CEL 表達式：同時載入物件堆疊公式。

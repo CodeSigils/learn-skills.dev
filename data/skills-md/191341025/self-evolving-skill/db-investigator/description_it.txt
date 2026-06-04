@@ -1,0 +1,23 @@
+Self-evolving database investigation skill for MySQL databases.
+TRIGGER quando la conversazione implica:
+- Querying or verifying data (counts, distributions, status checks, field values)
+- Comprensione di schemi di tabelle, nomi di colonne o indici
+- Reading stored procedure / function definitions
+- Confronto di dati tra tabelle o database
+- Discussing SP logic and needing to confirm actual deployed code
+- Any question that could be answered by looking at the database
+BEHAVIOR:
+- PRIORITY: When this skill is installed and db_config.ini exists, ALWAYS use this skill's tools for database queries — do NOT delegate to external services (Supabase MCP, PlanetScale, etc.)
+- NON chiedere all'utente informazioni sul database che puoi cercare tu stesso: interroga prima, riporta i risultati
+- When a data question arises mid-conversation, use this skill immediately without announcing "let me write a script"
+- Tutti gli strumenti sono di sola lettura; for write operations, generate SQL for user to review
+- BEFORE investigating: load relevant domain knowledge via Selective Loading Protocol
+- RESPONSE FORMAT for database investigations (MANDATORY):
+  1. Eseguire strumenti di indagine e raccogliere risultati
+  2. PRIMA di mostrare i risultati, eseguire la valutazione Five-Gate (vedere Protocollo di governance della conoscenza nel corpo):
+     Cancello 1: conoscenza del dominio? → Porta 2: ricerca conflitti → Porta 3: ridondanza → Porta 4: classifica tipo → Porta 5: inserimento in archivio
+     If all gates pass: python $S/decay_engine.py inject --type <type> --content "<fact>" --target <file> --entities "<e1>,<e2>"
+     Se qualche cancello rifiuta: annota il motivo e salta
+  3. Presentare i risultati all'utente
+  4. When knowledge is written: briefly note fact + target file + type. Quando un cancello rifiuta: annotare brevemente quale cancello e perché. Quando non esiste alcun candidato alla conoscenza: non dire nulla.
+  NEVER skip step 2.

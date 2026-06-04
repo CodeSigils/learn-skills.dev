@@ -1,0 +1,23 @@
+Sich selbst weiterentwickelnde Fähigkeiten zur Datenbankuntersuchung für MySQL-Datenbanken.
+TRIGGER, wenn das Gespräch Folgendes beinhaltet:
+- Abfragen oder Überprüfen von Daten (Zählungen, Verteilungen, Statusprüfungen, Feldwerte)
+- Tabellenschemata, Spaltennamen oder Indizes verstehen
+- Lesen gespeicherter Prozedur-/Funktionsdefinitionen
+- Vergleichen von Daten zwischen Tabellen oder Datenbanken
+- Besprechen der SP-Logik und die Notwendigkeit, den tatsächlich bereitgestellten Code zu bestätigen
+- Jede Frage, die durch einen Blick in die Datenbank beantwortet werden könnte
+VERHALTEN:
+- PRIORITÄT: Wenn dieser Skill installiert ist und db_config.ini vorhanden ist, verwenden Sie IMMER die Tools dieses Skills für Datenbankabfragen – delegieren Sie NICHT an externe Dienste (Supabase MCP, PlanetScale usw.).
+- Fragen Sie den Benutzer NICHT nach Datenbankinformationen, die Sie selbst nachschlagen können – fragen Sie zuerst ab und melden Sie dann die Ergebnisse
+- Wenn mitten im Gespräch eine Datenfrage auftaucht, nutzen Sie diese Fähigkeit sofort, ohne anzukündigen: „Lass mich ein Skript schreiben.“
+- Alle Tools sind schreibgeschützt; Generieren Sie für Schreibvorgänge SQL, damit der Benutzer es überprüfen kann
+- VOR der Untersuchung: Laden Sie relevantes Domänenwissen über das Selective Loading Protocol
+- ANTWORTFORMAT für Datenbankrecherchen (PFLICHT):
+  1. Führen Sie Untersuchungstools aus und sammeln Sie Ergebnisse
+  2. Führen Sie eine Fünf-Gate-Bewertung durch, BEVOR Sie die Ergebnisse anzeigen (siehe Knowledge Governance Protocol im Hauptteil):
+     Tor 1: Domänenwissen? → Tor 2: Konflikte suchen → Tor 3: Redundanz → Tor 4: Typ klassifizieren → Tor 5: In Datei ablegen
+     Wenn alle Tore passieren: python $S/decay_engine.py inject --type <type> --content "<fact>" --target <file> --entities "<e1>,<e2>"
+     Wenn ein Tor ablehnt: Notieren Sie den Grund und überspringen Sie
+  3. Präsentieren Sie die Ergebnisse dem Benutzer
+  4. Wenn Wissen geschrieben wird: Sachverhalt + Zieldatei + Typ kurz notieren. Wenn ein Tor ablehnt: Notieren Sie kurz, welches Tor und warum. Wenn kein Wissenskandidat vorhanden ist: Sagen Sie nichts.
+  Überspringen Sie NIEMALS Schritt 2.

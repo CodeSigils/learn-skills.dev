@@ -1,0 +1,1 @@
+AppotaPay 認証 JWT (X-APPOTAPAY-AUTH ヘッダー) を構築し、リクエスト パラメーターに署名します。 AppotaPay を統合し、API 呼び出しの認証、JWT トークンの作成/更新、HS256 JWT クレーム (iss、jti、api_key、exp) の理解、または PARTNER_CODE / API_KEY / SECRET_KEY からの HMAC-SHA256 リクエスト署名の計算が必要な場合に使用します。他のすべての AppotaPay API 呼び出しで必要です。

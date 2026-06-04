@@ -1,0 +1,1 @@
+在 COMPONENT 或 COMPONENT_SET 上新增、編輯和刪除 Figma 元件屬性（TEXT、BOOLEAN、INSTANCE_SWAP、VARIANT），並實例化元件，然後設定其實例屬性。在 Figma 中創作或連接組件的 API 時使用 - 觸發器：「新增組件屬性」、「向此元件新增布林屬性」、「將此文字設為元件屬性」、「新增實例交換槽」、「建立變體屬性」、「重新命名/刪除元件屬性」、「放置此元件的實例」、「實例化此元件並設定其標籤/實例屬性必須加到父 COMPONENT_SET，而不是單一變體。本機 MCP 的唯讀 get_design_context/get_metadata 未涵蓋。

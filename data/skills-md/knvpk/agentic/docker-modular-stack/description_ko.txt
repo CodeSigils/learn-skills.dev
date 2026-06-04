@@ -1,0 +1,1 @@
+모든 프로젝트에 대한 Docker 서비스를 정의하고, 스캐폴드하고, 린트하세요. 세 가지 모드: (1) 스캐폴드 — 선별된 템플릿(postgres, valkey, grafana, langfuse, litellm, 30개 이상)을 생성된 docker-compose.yaml, .env 및 Taskfile이 있는 새 프로젝트에 복사합니다. (2) 추가 - 도구의 문서가 제공되면 처음부터 호환 service.yaml을 파생시킵니다. (3) Lint — 프로젝트 규칙에 따라 서비스 정의를 검증합니다. Docker 스택을 설정하거나, 문서에서 새 Docker 서비스를 추가하거나, 서비스 정의가 올바른지 확인할 때 사용하세요.

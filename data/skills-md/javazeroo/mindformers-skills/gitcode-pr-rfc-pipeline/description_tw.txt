@@ -1,0 +1,1 @@
+透過 GitCode REST API 驅動完整的 GitCode 貢獻工作流程：從儲存庫範本起草 PR/RFC 正文、開啟或更新拉取請求、開啟 RFC 問題、連結 PR 和 RFC、觸發/重新測試、輪詢 CI 標籤以及透過捆綁的 gitcode_pr_gate_log.py 工具無頭閘來取得失敗的 MindBore-Bot。當使用者要求在 gitcode.com 儲存庫（例如 Mindspore/mindformers）上提及 PR、提 RFC、關聯 PR 和 RFC、觸發同步、/retest、看模擬過沒過、看門禁日誌、為什麼 CI 掛了或拉取失敗階段日誌時使用。需要 GITCODE_TOKEN 才能執行向外的 GitCode API 操作。

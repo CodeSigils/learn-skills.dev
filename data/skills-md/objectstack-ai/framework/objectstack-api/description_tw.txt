@@ -1,0 +1,1 @@
+设计 ObjectStack 运行时公开的服务器端 API 表面 — REST/GraphQL 端点、身份验证提供程序、实时通道、错误信封、批处理/版本控制合约。當使用者新增 `*.endpoint.ts`、設定驗證提供者、定義自訂路由或擴充 REST/GraphQL 生成器時使用。请勿用于： 从客户端使用 ObjectStack API（这只是标准 HTTP — 无需技能）；自动生成的 CRUD 端点（来自 objectstack-data 的端点）；请求端查询语法（请参阅 objectstack-query）。路由保護或驗證謂詞中的 CEL 表達式：同時載入 objectstack-formula。

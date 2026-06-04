@@ -1,0 +1,1 @@
+COMPASS에 새 로봇 플랫폼 온보딩: 로봇 ArticulationCfg + 구현별 env_cfg 생성, ImplementEnvCfgMap에 등록, --num_envs 1을 사용하여 스폰 연기 테스트. 사용자가 새 로봇을 추가하거나 구현을 등록하거나 플랫폼으로 COMPASS를 확장하려고 할 때마다 사용합니다. 내장된 실시예 간 전환(--embodiment 사용) 또는 새 장면 추가('나침반' 스킬은 SAGE → 레지스터를 다룹니다)에는 적합하지 않습니다.

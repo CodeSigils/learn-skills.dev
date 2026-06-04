@@ -1,0 +1,1 @@
+Ascend NPU 플랫폼 vLLM 대규모 모델 추론 서비스 원클릭 배포. 트리거: 사용자가 "deploy model_name", "NPU 배포 모델", "vllm Serve"라고 말합니다. 프로세스: SSH 확인 → NPU 확인 → 구성 검색(확인 필요) → 사용자 확인 → 배포 → cron 모니터링 → 확인. 제약 조건: (1) 구성은 공식 문서에서 검증되어야 하며 추측은 금지됩니다. (2) 백그라운드 실행은 cron으로 모니터링해야 하며 수동 폴링은 금지됩니다. Qwen/Qwen3.5, GLM, DeepSeek, Kimi를 지원합니다.

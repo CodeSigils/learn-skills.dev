@@ -1,0 +1,23 @@
+Habilidad de investigación de bases de datos de evolución automática para bases de datos MySQL.
+GATILLO cuando la conversación involucra:
+- Consultar o verificar datos (recuentos, distribuciones, comprobaciones de estado, valores de campo)
+- Comprender esquemas de tablas, nombres de columnas o índices
+- Lectura de definiciones de funciones/procedimientos almacenados
+- Comparar datos entre tablas o bases de datos.
+- Discutir la lógica del SP y la necesidad de confirmar el código implementado real
+- Cualquier pregunta que pueda responderse consultando la base de datos.
+COMPORTAMIENTO:
+- PRIORIDAD: cuando esta habilidad está instalada y db_config.ini existe, SIEMPRE use las herramientas de esta habilidad para consultas de bases de datos; NO delega en servicios externos (Supabase MCP, PlanetScale, etc.)
+- NO pida al usuario información de la base de datos que pueda buscar usted mismo: consulte primero, informe los resultados
+- Cuando surja una pregunta sobre datos en medio de una conversación, utilice esta habilidad inmediatamente sin anunciar "déjame escribir un guión".
+- Todas las herramientas son de sólo lectura; para operaciones de escritura, genere SQL para que el usuario lo revise
+- ANTES de investigar: cargue conocimientos de dominio relevantes mediante el protocolo de carga selectiva
+- FORMATO DE RESPUESTA para investigaciones de bases de datos (OBLIGATORIO):
+  1. Ejecute herramientas de investigación y recopile resultados.
+  2. ANTES de mostrar los resultados, ejecute la evaluación Five-Gate (consulte el Protocolo de gobernanza del conocimiento en el cuerpo):
+     Puerta 1: ¿conocimiento del dominio? → Puerta 2: buscar conflictos → Puerta 3: redundancia → Puerta 4: clasificar tipo → Puerta 5: colocar en archivo
+     Si todas las puertas pasan: python $S/decay_engine.py inject --type <tipo> --content "<fact>" --target <file> --entities "<e1>,<e2>"
+     Si alguna puerta se rechaza: anote el motivo y omita
+  3. Presentar los hallazgos al usuario.
+  4. Cuando se escribe el conocimiento: anote brevemente el hecho + el archivo de destino + el tipo. Cuando una puerta rechaza: anote brevemente qué puerta y por qué. Cuando no existe ningún candidato con conocimiento: no digas nada.
+  NUNCA omita el paso 2.

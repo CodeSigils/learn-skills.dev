@@ -1,0 +1,1 @@
+將新的機器人平台裝載到 COMPASS：生成機器人 ArticulationCfg + 每個實施例 env_cfg，在 ImplementingEnvCfgMap 中註冊，使用 --num_envs 對生成進行冒煙測試 1. 每當用戶想要添加新機器人、註冊實施例或使用其平台擴展 COMPASS 時使用。不適用於在內建實施例之間切換（使用 --embodiment）或新增場景（「compass」技能涵蓋 SAGE → 暫存器）。

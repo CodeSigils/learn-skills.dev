@@ -1,0 +1,1 @@
+AppotaPay 표준 결제 흐름 통합: 결제 주문 생성, 고객을 호스팅된 결제로 리디렉션, IPN/리디렉션 콜백 수신 및 확인, 거래 상태 확인, 환불 처리. 사용자가 AppotaPay(ATM/Visa/Master/JCB/e-wallet/QR)를 통해 온라인 결제를 수락하고, AppotaPay 체크아웃을 구축하고, AppotaPay 결제 알림/콜백을 처리하고, 결제 결과를 확인하고, 거래 상태를 폴링하거나, AppotaPay 거래를 환불하려는 경우에 사용하세요. JWT에는 appotapay-auth가 필요합니다.

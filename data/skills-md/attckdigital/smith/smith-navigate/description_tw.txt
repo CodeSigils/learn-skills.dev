@@ -1,0 +1,1 @@
+清單導航器。透過讀取 .smith/index/ 傳回給定任務描述的必須讀取/應該讀取/參考檔案清單。設計為由 context-loader.sh 鉤子呼叫並直接由使用者呼叫（`/smith-navigate "where is auth?"`）。作為 Haiku 4.5 子代理程式運行，預算為 3 秒。

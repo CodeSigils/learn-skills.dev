@@ -1,0 +1,23 @@
+Compétence d'investigation de bases de données à évolution automatique pour les bases de données MySQL.
+DÉCLENCHEMENT lorsque la conversation implique :
+- Interroger ou vérifier des données (comptes, distributions, contrôles de statut, valeurs de champs)
+- Comprendre les schémas de table, les noms de colonnes ou les index
+- Lecture des définitions de procédures stockées/fonctions
+- Comparaison de données entre tables ou bases de données
+- Discussion de la logique SP et nécessité de confirmer le code réellement déployé
+- Toute question à laquelle on pourrait répondre en consultant la base de données
+COMPORTEMENT :
+- PRIORITÉ : lorsque cette compétence est installée et que db_config.ini existe, utilisez TOUJOURS les outils de cette compétence pour les requêtes de base de données — ne déléguez PAS à des services externes (Supabase MCP, PlanetScale, etc.)
+- NE demandez PAS à l'utilisateur des informations sur la base de données que vous pouvez rechercher vous-même : interrogez d'abord, rapportez les résultats.
+- Lorsqu'une question relative aux données se pose au milieu d'une conversation, utilisez cette compétence immédiatement sans annoncer « laissez-moi écrire un script »
+- Tous les outils sont en lecture seule ; pour les opérations d'écriture, générer du SQL que l'utilisateur pourra examiner
+- AVANT d'enquêter : chargez les connaissances du domaine pertinent via le protocole de chargement sélectif
+- FORMAT DE RÉPONSE pour les investigations de bases de données (OBLIGATOIRE) :
+  1. Exécutez des outils d’enquête et collectez les résultats
+  2. AVANT d'afficher les résultats, effectuez une évaluation à cinq portes (voir le protocole de gouvernance des connaissances dans le corps) :
+     Porte 1 : connaissance du domaine ? → Porte 2 : recherche de conflits → Porte 3 : redondance → Porte 4 : classer le type → Porte 5 : placer dans le fichier
+     Si toutes les portes réussissent : python $S/decay_engine.py inject --type <type> --content "<fact>" --target <file> --entities "<e1>,<e2>"
+     Si une porte rejette : notez pourquoi et ignorez
+  3. Présenter les résultats à l'utilisateur
+  4. Lorsque les connaissances sont écrites : notez brièvement le fait + le fichier cible + le type. Lorsqu'une porte rejette : notez brièvement quelle porte et pourquoi. Lorsqu’aucun candidat à la connaissance n’existe : ne dites rien.
+  Ne sautez JAMAIS l’étape 2.

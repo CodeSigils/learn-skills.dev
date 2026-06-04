@@ -1,0 +1,1 @@
+AppotaPay 인증 JWT(X-APPOTAPAY-AUTH 헤더)를 빌드하고 요청 매개변수에 서명합니다. AppotaPay를 통합할 때 사용하고 API 호출을 인증하고, JWT 토큰을 생성/새로 고치고, HS256 JWT 클레임(iss, jti, api_key, exp)을 이해하거나 PARTNER_CODE / API_KEY / SECRET_KEY에서 HMAC-SHA256 요청 서명을 계산해야 합니다. 다른 모든 AppotaPay API 호출에 필요합니다.

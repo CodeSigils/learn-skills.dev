@@ -1,0 +1,1 @@
+AppotaPay 支払いゲートウェイ (ベトナムのフィンテック、docs.appotapay.com) を統合するためのルーター スキル。ユーザーが AppotaPay の統合、AppotaPay を介したオンライン支払いの受け入れ、AppotaPay チェックアウト/リダイレクト フローの構築、AppotaPay IPN / 支払いコールバックの処理、X-APPOTAPAY-AUTH JWT トークンの構築、リクエストの署名、トランザクション ステータスの確認、返金の発行を行う場合に使用します。このスキルは全体的なフローを説明し、正しいサブスキル (appotapay-auth、appotapay-payment) に導きます。

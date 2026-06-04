@@ -1,0 +1,1 @@
+透過對版本歷史記錄進行二分搜尋（~log2(N) API 呼叫而不是 N）來尋找哪個 Figma 版本引入了特定變更（元件屬性或子節點）。回答「誰添加的以及何時添加的」。當使用者想要 Figma 設計的 git-blame-style 歸因時使用 - 觸發：「何時新增此元件屬性」、「哪個版本引入了此變體」、「誰新增了此節點」、「指控此 Figma 元素」、「尋找何時建立此元素」、「Figma 的 gitblame」、「此屬性何時首次出現」。使用 Figma REST API + 個人存取令牌，因為無法透過插件 API / use_figma / 本機 Figma MCP 存取版本歷史記錄。要了解兩個版本之間的完整差異，請使用Figma-version-history；對於散文發行說明，請使用Figma-generate-changelog。

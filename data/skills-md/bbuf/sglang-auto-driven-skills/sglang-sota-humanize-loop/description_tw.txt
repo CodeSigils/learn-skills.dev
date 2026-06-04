@@ -1,0 +1,1 @@
+為一個 LLM 模型執行一個由 Humanize 管理的自主 SGLang SOTA 效能循環：首先執行固定的公平 SGLang/vLLM/TensorRT-LLM 部署搜尋和基準測試，然後啟動一個 RLCR 循環，該循環反覆確定差距、分析當前瓶頸、運行層/核心管道分析、修補 SGLGL匹配或擊敗相同工作負載下觀察到的最佳框架SLA。

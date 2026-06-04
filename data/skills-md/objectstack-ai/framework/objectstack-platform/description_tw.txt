@@ -1,0 +1,1 @@
+引導、配置、擴充和操作 ObjectStack 運行時。涵蓋專案設定（「defineStack」、驅動程式、適配器、鷹架）、外掛程式和服務開發（PluginContext、DI、核心掛鉤，如「kernel:ready」和「data:*」）以及操作（CLI 命令、遷移、部署、透過 LiteKernel 的測試工具）。當使用者編寫「objectstack.config.ts」、建置外掛程式或驅動程式、連線框架適配器、執行「os」 CLI 指令或規劃部署時使用。不要用於資料模式設計（請參閱 objectstack-data）或查詢模式（請參閱 objectstack-query）；資料生命週期掛鉤（beforeInsert / afterUpdate）屬於 objectstack-data — 只有核心/服務級事件位於此處。

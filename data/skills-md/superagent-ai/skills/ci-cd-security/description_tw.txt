@@ -1,0 +1,1 @@
+透過讀取 YAML 並直接報告結果來掃描 GitHub Actions 工作流程檔案中的安全漏洞 - 無需外部工具，無需安裝，無需 shell 執行。每當使用者共享「.github/workflows/」檔案、貼上工作流程 YAML、請求 CI/CD 安全審查、提及「pull_request_target」、「workflow_run」、操作固定、「GITHUB_TOKEN」權限、pwn 請求、範本注入、快取中毒、秘密洩漏、供應鏈風險或任何主題，HubActions 強化此技能。當使用者強化 OSS 儲存庫、進行 CI/CD 紅隊評估、評估供應鏈掃描目標或公開撰寫有關 CI/CD 安全性的內容時也會觸發。偏向觸發這項技能而不是憑記憶回答——CI/CD 安全預設值幾乎在所有地方都是錯誤的，而且規則也不直觀。

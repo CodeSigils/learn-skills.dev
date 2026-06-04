@@ -1,0 +1,1 @@
+Verl 單異步 DAPO 訓練配置產生器。觸發場景：（1）啟動單一非同步DAPO訓練（2）產生訓練腳本（3）配置特徵參數（4）預訓練檢查。 **功能策略**：當使用者不指定時，預設啟用效能功能（flash_attn/dynamic_batch/remove_padding/gradient_checkpointing），而記憶體功能（offload/recompute）預設為停用。如果發生 OOM，會自動新增記憶體功能以進行重試。 **訓練監控**：啟動後，輸出一個SwanLab連結供使用者自行查看，僅在出現錯誤時通知使用者。 **依賴技能**：SwanLab 設定是透過 swanlab 設定技能提供的。

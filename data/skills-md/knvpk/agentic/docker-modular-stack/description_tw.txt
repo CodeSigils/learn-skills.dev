@@ -1,0 +1,1 @@
+為任何專案定義、建置和檢查 Docker 服務。三種模式：(1) Scaffold — 將精選模板（postgres、valkey、grafana、langfuse、litellm 等 30 多個）複製到生成的 docker-compose.yaml、.env 和 Taskfile 的新專案中； (2) 新增－給定任何工具的文檔，從頭開始一個相容的約定 Lint 定義項目；在設定 docker 堆疊、從文件新增新的 docker 服務或檢查服務定義是否正確時使用。

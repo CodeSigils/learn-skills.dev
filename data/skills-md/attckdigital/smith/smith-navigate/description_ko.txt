@@ -1,0 +1,1 @@
+매니페스트 탐색기. .smith/index/를 읽어 주어진 작업 설명에 대해 반드시 읽어야 할 / 읽어야 함 / 참조 파일 목록을 반환합니다. context-loader.sh 후크에 의해 그리고 사용자가 직접 호출하도록 설계되었습니다(`/smith-navigate "where is auth?"`). 3초 예산으로 Haiku 4.5 하위 에이전트로 실행됩니다.
