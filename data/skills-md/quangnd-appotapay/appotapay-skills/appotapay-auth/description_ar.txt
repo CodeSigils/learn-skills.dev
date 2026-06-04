@@ -1,0 +1,1 @@
+قم ببناء مصادقة AppotaPay JWT (رأس X-APPOTAPAY-AUTH) وتوقيع معلمات الطلب. استخدمه عند دمج AppotaPay وتحتاج إلى مصادقة مكالمات API، أو إنشاء/تحديث رمز JWT، أو فهم مطالبات HS256 JWT (iss، أو jti، أو api_key، أو exp)، أو حساب توقيع طلب HMAC-SHA256 من PARTNER_CODE / API_KEY / SECRET_KEY. مطلوب من قبل كل استدعاء AppotaPay API آخر.
