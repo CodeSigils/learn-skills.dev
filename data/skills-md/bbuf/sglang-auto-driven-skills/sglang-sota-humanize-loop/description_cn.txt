@@ -1,0 +1,1 @@
+为一个 LLM 模型运行一个由 Humanize 管理的自主 SGLang SOTA 性能循环：首先执行固定的公平 SGLang/vLLM/TensorRT-LLM 部署搜索和基准测试，然后启动一个 RLCR 循环，该循环反复确定差距、分析当前瓶颈、运行层/内核管道分析、修补 SGLang 代码、可选择使用 ncu-report-skill 获取内核证据，并重新验证，直到 SGLang 匹配或击败相同工作负载下观察到的最佳框架SLA。

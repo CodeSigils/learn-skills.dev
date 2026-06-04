@@ -1,0 +1,1 @@
+通过 GitCode REST API 驱动完整的 GitCode 贡献工作流程：从存储库模板起草 PR/RFC 正文、打开或更新拉取请求、打开 RFC 问题、链接 PR 和 RFC、触发/重新测试、轮询 CI 标签以及通过捆绑的 gitcode_pr_gate_log.py 工具无头获取失败的 MindSpore-Bot OpenLiBing 门日志。当用户要求在 gitcode.com 存储库（例如 Mindspore/mindformers）上提 PR、提 RFC、关联 PR 和 RFC、触发同步、/retest、看模拟过没过、看门禁日志、为什么 CI 挂了或拉取失败阶段日志时使用。需要 GITCODE_TOKEN 才能执行向外的 GitCode API 操作。

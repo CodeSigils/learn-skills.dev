@@ -1,0 +1,1 @@
+将新的机器人平台装载到 COMPASS：生成机器人 ArticulationCfg + 每个实施例 env_cfg，在 ImplementingEnvCfgMap 中注册，使用 --num_envs 对生成进行冒烟测试 1. 每当用户想要添加新机器人、注册实施例或使用其平台扩展 COMPASS 时使用。不适用于在内置实施例之间切换（使用 --embodiment）或添加新场景（“compass”技能涵盖 SAGE → 寄存器）。

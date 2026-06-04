@@ -1,0 +1,1 @@
+在 COMPONENT 或 COMPONENT_SET 上添加、编辑和删除 Figma 组件属性（TEXT、BOOLEAN、INSTANCE_SWAP、VARIANT），并实例化组件，然后设置其实例属性。在 Figma 中创作或连接组件的 API 时使用 - 触发器：“添加组件属性”、“向此组件添加布尔属性”、“将此文本设为组件属性”、“添加实例交换槽”、“创建变体属性”、“重命名/删除组件属性”、“放置此组件的实例”、“实例化此组件并设置其标签/状态”、“在此实例上设置属性”。属性必须添加到父 COMPONENT_SET，而不是单个变体。本机 MCP 的只读 get_design_context/get_metadata 未涵盖。

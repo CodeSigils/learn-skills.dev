@@ -1,0 +1,1 @@
+构建 AppotaPay 身份验证 JWT（X-APPOTAPAY-AUTH 标头）并签署请求参数。在集成 AppotaPay 并且您需要验证 API 调用、创建/刷新 JWT 令牌、了解 HS256 JWT 声明（iss、jti、api_key、exp）或根据 PARTNER_CODE / API_KEY / SECRET_KEY 计算 HMAC-SHA256 请求签名时使用。每个其他 AppotaPay API 调用都需要。

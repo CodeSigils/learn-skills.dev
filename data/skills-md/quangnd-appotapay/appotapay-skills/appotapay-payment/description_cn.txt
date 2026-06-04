@@ -1,0 +1,1 @@
+集成 AppotaPay 标准支付流程：创建支付订单、将客户重定向到托管结账、接收并验证 IPN/重定向回调、检查交易状态并发放退款。当用户想要通过 AppotaPay（ATM/Visa/Master/JCB/电子钱包/QR）接受在线支付、构建 AppotaPay 结账、处理 AppotaPay 付款通知/回调、验证付款结果、轮询交易状态或退款 AppotaPay 交易时使用。 JWT 需要 appotapay-auth。

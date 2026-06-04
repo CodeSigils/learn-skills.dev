@@ -1,0 +1,1 @@
+通过 pm-workflow-orchestrator 子代理针对一个输入运行一系列有序的 pm-skills，暂停执行/不执行并在失败或空步骤时停止。使用 pm-skills 插件在 Claude Code 上本地调度（调用 @agent-pm-skills:pm-workflow-orchestrator，它通过 Skill 工具委托每个步骤）；在非 Claude 客户端（Codex CLI、Cursor、Windsurf、Copilot、Gemini CLI）上读取agents/pm-workflow-orchestrator.md，并在工具功能预检后内联执行循环。仅显式调用；从不主动开火。在所有非 Claude 客户端和本机路径上进行实验，直到进行冒烟测试；首先运行——干运行。

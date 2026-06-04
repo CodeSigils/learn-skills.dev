@@ -1,0 +1,1 @@
+清单导航器。通过读取 .smith/index/ 返回给定任务描述的必须读取/应该读取/参考文件列表。设计为由 context-loader.sh 钩子调用并直接由用户调用（`/smith-navigate "where is auth?"`）。作为 Haiku 4.5 子代理运行，预算为 3 秒。

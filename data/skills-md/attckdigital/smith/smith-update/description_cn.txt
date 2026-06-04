@@ -1,0 +1,1 @@
+将 Smith 更新到最新的上游版本。将已安装的提交 SHA 与 https://github.com/ATTCKDigital/smith main 进行比较，如果落后则提示更新，并刷新全局安装（~/.claude/skills、~/.claude/hooks、~/.smith）以及每个项目工件（.specify/scripts、.claude/commands/smith.*、CLAUDE.md/construction.md 通过迁移模板、可选清单 sidecar bootstrap）。符合工作流程门。

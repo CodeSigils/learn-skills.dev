@@ -1,0 +1,1 @@
+升腾NPU平台vLLM大模型推理服务一键部署。触发器：用户说“deploy<modelname>”、“NPUdeploymodel”或“vllmserve”。流程：SSH检查→NPU检查→配置发现（必须经过验证）→用户确认→部署→cron监控→验证。限制：（1）配置必须通过官方文档验证；禁止猜测。 (2)后台启动必须用cron监控；禁止手动轮询。支持Qwen/Qwen3.5、GLM、DeepSeek、Kimi。
