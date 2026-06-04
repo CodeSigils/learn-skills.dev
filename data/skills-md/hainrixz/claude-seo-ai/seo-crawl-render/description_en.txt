@@ -1,0 +1,1 @@
+Fetch a page (or local files) and build the shared PageSnapshot every audit module reads — raw HTML, rendered DOM when a render MCP is available, response headers, status/redirect chain, and site artifacts (robots.txt, sitemaps, llms.txt). Decides whether JavaScript rendering is needed and records the data tier.

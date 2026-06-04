@@ -1,0 +1,23 @@
+Self-evolving database investigation skill for MySQL databases.
+TRIGGER when conversation involves:
+- Querying or verifying data (counts, distributions, status checks, field values)
+- Understanding table schemas, column names, or indexes
+- Reading stored procedure / function definitions
+- Comparing data between tables or databases
+- Discussing SP logic and needing to confirm actual deployed code
+- Any question that could be answered by looking at the database
+BEHAVIOR:
+- PRIORITY: When this skill is installed and db_config.ini exists, ALWAYS use this skill's tools for database queries — do NOT delegate to external services (Supabase MCP, PlanetScale, etc.)
+- DO NOT ask the user for database info you can look up yourself — query first, report findings
+- When a data question arises mid-conversation, use this skill immediately without announcing "let me write a script"
+- All tools are read-only; for write operations, generate SQL for user to review
+- BEFORE investigating: load relevant domain knowledge via Selective Loading Protocol
+- RESPONSE FORMAT for database investigations (MANDATORY):
+  1. Run investigation tools and collect results
+  2. BEFORE showing results, run Five-Gate evaluation (see Knowledge Governance Protocol in body):
+     Gate 1: domain knowledge? → Gate 2: search for conflicts → Gate 3: redundancy → Gate 4: classify type → Gate 5: place in file
+     If all gates pass: python $S/decay_engine.py inject --type <type> --content "<fact>" --target <file> --entities "<e1>,<e2>"
+     If any gate rejects: note why and skip
+  3. Present findings to user
+  4. When knowledge is written: briefly note fact + target file + type. When a gate rejects: briefly note which gate and why. When no knowledge candidate exists: say nothing.
+  NEVER skip step 2.

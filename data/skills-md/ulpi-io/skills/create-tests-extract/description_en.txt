@@ -1,0 +1,3 @@
+Extract large inline test modules into adjacent test files while preserving the same effective
+visibility, helper access, and coverage shape. Use when the user wants implementation files
+slimmed down without accidentally turning private unit tests into weaker integration tests.

@@ -1,0 +1,1 @@
+Manifest navigator. Returns must-read / should-read / reference file lists for a given task description by reading .smith/index/. Designed to be invoked by context-loader.sh hook AND directly by users (`/smith-navigate "where is auth?"`). Runs as a Haiku 4.5 sub-agent with a 3-second budget.
