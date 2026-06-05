@@ -1,0 +1,8 @@
+Multi-source real-time market data via the Dataline API. Covers:
+crypto spot & perpetual prices (BTC, ETH, SOL, …), funding rates, and
+exchange announcements plus prediction market odds & events (Polymarket, Kalshi).
+Trigger on: "price of", "how much is", "funding rate", "perp rate",
+"exchange announcement", "listing announcement", "delisting", "maintenance notice",
+"market odds", "prediction market", "what are the odds", "BTC/ETH price",
+"election odds", "polymarket", "kalshi".
+Driven by a bundled OpenAPI spec — endpoints stay in sync with the shipped skill.
