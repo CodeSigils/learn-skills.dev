@@ -1,0 +1,1 @@
+순수 Dart 또는 공유 로직에서 flowr_dart API를 올바르게 사용하세요. FlowR/FlowB 상태 클래스, 업데이트/Put 동작, FlowR 로깅(`logger`, `logF/logI/logW/logE`, `putError`), `runCatching`/`skpIf`/`skpNull`, debounce/throttle/mutex 예약, autoDispose/dispose 동작, 스트림 도우미, 불변 상태 방출 규칙 또는 공유 코어를 포함한 flowr_dart 주요 변경 후 마이그레이션을 작성하거나 검토할 때 사용합니다. 프로젝트에 자체 파일 레이아웃이 있는 경우에도 `flowr`에 의존하는 프로젝트에서 상속된 의미입니다.

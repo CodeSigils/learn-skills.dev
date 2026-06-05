@@ -1,0 +1,6 @@
+PPT-Pipeline im Kreativmodus. Ein ganzseitiges 16:9-PNG pro Folie.
+LLM-/VLM-Aufrufe laufen über sn-ppt-standard/lib/model_client.py (shared Thin
+Kunde). Text-zu-Bild (das eigentliche PNG-Rendering) wird durchgeführt
+sn-image-base/scripts/sn_agent_runner.py. Greift auf die Web-Bildersuche zurück
+wenn die T2I-Generierung fehlschlägt. Erwartet bereits task_pack.json + info_pack.json
+geschrieben von sn-ppt-entry.

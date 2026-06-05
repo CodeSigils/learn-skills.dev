@@ -1,0 +1,6 @@
+クリエイティブ モード PPT パイプライン。スライドごとに 1 つのフルページ 16:9 PNG が 1 つあります。
+LLM / VLM 呼び出しは sn-ppt-standard/lib/model_client.py (共有シン
+クライアント）。テキストから画像への変換 (実際の PNG レンダリング)
+sn-image-base/scripts/sn_agent_runner.py。 Web 画像検索にフォールバックします
+T2I 生成が失敗した場合。すでに task_pack.json + info_pack.json が必要です
+sn-ppt-entry によって書かれました。

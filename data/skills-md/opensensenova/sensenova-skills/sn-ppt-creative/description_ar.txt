@@ -1,0 +1,6 @@
+خط أنابيب PPT للوضع الإبداعي. صفحة واحدة كاملة بصيغة PNG 16:9 لكل شريحة.
+تمر مكالمات LLM / VLM عبر sn-ppt-standard/lib/model_client.py (مشترك رفيع
+العميل). تتم عملية تحويل النص إلى صورة (عرض png الفعلي).
+sn-image-base/scripts/sn_agent_runner.py. يعود مرة أخرى إلى البحث عن الصور على شبكة الإنترنت
+عندما يفشل توليد T2I. يتوقع Task_pack.json + info_pack.json بالفعل
+كتبها sn-ppt-entry.

@@ -1,0 +1,1 @@
+純粋な Dart または共有ロジックで flowr_dart API を正しく使用してください。 FlowR/FlowB 状態クラス、更新/put 動作、FlowR ログ (`logger`、`logF/logI/logW/logE`、`putError`)、`runCatching`/`skpIf`/`skpNull`、デバウンス/スロットル/ミューテックス スケジューリング、autoDispose/dispose 動作、ストリーム ヘルパー、不変状態発行ルール、または移行後の移行を作成またはレビューするときに使用します。プロジェクトに独自のファイル レイアウトがある場合でも、「flowr」に依存するプロジェクトによって継承される共有コア セマンティクスを含む、flowr_dart の重大な変更。

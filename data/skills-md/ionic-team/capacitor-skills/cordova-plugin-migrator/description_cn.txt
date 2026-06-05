@@ -1,0 +1,1 @@
+端到端 Cordova 到 Capacitor 迁移协调器。分析 Cordova 插件（plugin.xml、原生 iOS/Android 源、JS 桥接器、钩子、第三方依赖项），以符合电容器插件生成器输入契约的 YAML 形式生成结构化迁移计划，在用户检查点以结构化模式调用生成器技能，然后将中间注释合并到单个 MIGRATION.md 中。当用户说“迁移此 cordova 插件”、“将 cordova 转换为电容器”、“评估迁移可行性”、“阻碍此迁移的因素”、“将此 cordova 插件移植到电容器”或“估计迁移工作量”时使用。请勿用于从头开始生成新的 Capacitor 插件（改为使用 Capacitor-plugin-generator）、调试已迁移插件中的运行时问题或迁移整个 Cordova 应用程序；范围仅限于插件级别。

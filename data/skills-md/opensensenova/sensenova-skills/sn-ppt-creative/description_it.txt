@@ -1,0 +1,6 @@
+Pipeline PPT in modalità creativa. Un PNG 16:9 a pagina intera per diapositiva.
+Le chiamate LLM/VLM passano attraverso sn-ppt-standard/lib/model_client.py (thin condiviso
+cliente). La conversione da testo a immagine (il rendering PNG effettivo) viene eseguita
+sn-image-base/scripts/sn_agent_runner.py. Ritorna alla ricerca di immagini sul Web
+quando la generazione T2I fallisce. Si aspetta già task_pack.json + info_pack.json
+scritto da sn-ppt-entry.

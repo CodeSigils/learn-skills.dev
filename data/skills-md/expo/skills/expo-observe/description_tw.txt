@@ -1,0 +1,1 @@
+用於與 EAS Observe 相關的任何內容 — 將 `expo-observe` 新增至 Expo 專案（AppMetricsRoot/ObserveRoot HOC、markInteractive、useObserve 掛鉤以及針對每個路由指標的 Expo Router / React Navigation 整合），透過 EAS CLI進行查詢（`easobserve:metrics-summary`、`observe:metrics`、`observe:routes`、`observe:events`、 `observe:versions`)，或解釋結果指標（冷/熱啟動、TTR、TTI、導航冷/熱 TTR、下載以及用於緩慢幀啟動的 TTI 幀參數）。

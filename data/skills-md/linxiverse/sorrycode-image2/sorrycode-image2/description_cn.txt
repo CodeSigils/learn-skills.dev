@@ -1,0 +1,1 @@
+通过统一的SorryCode Images API生成或编辑和保存图像。当用户要求生成封面、海报、插图、产品视觉效果、文章图像、头像、游戏精灵时使用，或使用 Sametime 图像模型（例如 gpt-image-2 或 Gemini 图像模型）编辑/重新设计现有图像。该技能必须在发出请求之前检查SorryCode API 密钥，指导用户创建或设置密钥（如果丢失），调用 /v1/images/ Generations 或 /v1/images/edits，并将输出保存到本地文件夹中并进行提示和响应诊断。

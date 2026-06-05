@@ -1,0 +1,6 @@
+크리에이티브 모드 PPT 파이프라인. 슬라이드당 전체 페이지 16:9 PNG 1개.
+LLM/VLM 호출은 sn-ppt-standard/lib/model_client.py(공유 씬)을 통과합니다.
+클라이언트). 텍스트 대 이미지(실제 png 렌더링)가 진행됩니다.
+sn-이미지-베이스/스크립트/sn_agent_runner.py. 웹 이미지 검색으로 돌아갑니다.
+T2I 생성이 실패하는 경우. task_pack.json + info_pack.json이 이미 필요합니다.
+sn-ppt-entry로 작성되었습니다.

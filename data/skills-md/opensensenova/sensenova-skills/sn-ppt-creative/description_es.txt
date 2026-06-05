@@ -1,0 +1,6 @@
+Canalización PPT en modo creativo. Un PNG de página completa 16:9 por diapositiva.
+Las llamadas LLM / VLM pasan por sn-ppt-standard/lib/model_client.py (compartido
+cliente). La conversión de texto a imagen (la representación png real) pasa
+sn-image-base/scripts/sn_agent_runner.py. Vuelve a la búsqueda de imágenes web
+cuando falla la generación T2I. Ya se espera task_pack.json + info_pack.json
+escrito por entrada sn-ppt.

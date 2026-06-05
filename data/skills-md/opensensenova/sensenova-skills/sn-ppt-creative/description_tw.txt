@@ -1,0 +1,6 @@
+創意模式 PPT 管道。每張投影片一張整頁 16:9 PNG。
+LLM / VLM 呼叫透過 sn-ppt-standard/lib/model_client.py （共享瘦
+客戶）。文字到圖像（實際的 png 渲染）經過
+sn-image-base/scripts/sn_agent_runner.py。退回網路影像搜尋
+當T2I生成失敗時。預計已經有task_pack.json + info_pack.json
+由 sn-ppt-entry 撰寫。

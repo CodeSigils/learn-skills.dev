@@ -1,0 +1,1 @@
+在纯 Dart 或共享逻辑中正确使用 flow_dart API。在编写或审查 FlowR/FlowB 状态类、更新/放置行为、FlowR 日志记录（`logger`、`logF/logI/logW/logE`、`putError`）、`runCatching`/`skpIf`/`skpNull`、debounce/throttle/mutex 调度、autoDispose/dispose 行为、流助手、不可变状态发射规则或 flowr_dart 重大更改后的迁移（包括项目继承的共享核心语义）时使用依赖于“flower”，即使项目有自己的文件布局。

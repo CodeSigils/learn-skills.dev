@@ -1,0 +1,6 @@
+创意模式 PPT 管道。每张幻灯片一张整页 16:9 PNG。
+LLM / VLM 调用通过 sn-ppt-standard/lib/model_client.py （共享瘦
+客户）。文本到图像（实际的 png 渲染）经过
+sn-image-base/scripts/sn_agent_runner.py。退回到网络图像搜索
+当T2I生成失败时。预计已经有task_pack.json + info_pack.json
+由 sn-ppt-entry 编写。

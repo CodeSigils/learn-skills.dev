@@ -1,0 +1,1 @@
+在直接呼叫 Atlassian Cloud REST API 時使用 - Confluence Cloud v2（頁面、空間、搜尋）或 Jira Cloud v3（問題、JQL 搜尋、評論） - 以程式設計方式執行操作，包括建立 Confluence 頁等寫入操作。使用curl（無SDK，無pip）呼叫REST，使用每個帳戶記錄中的雲端電子郵件+ API 令牌進行身份驗證。透過端點索引 + $ref-resolver，從捆綁的 OpenAPI 規範建構任何 800 多個端點，並使用每個 API 模式（基本 URL、分頁、錯誤、速率限制）和明確處理的 ADF/儲存富文本格式。在工作區或項目範圍內從 .service-accounts.yaml 記錄 + .env 令牌讀取憑證；令牌值只能由curl 讀取，從不列印。
