@@ -1,1 +1,4 @@
-2D character skill distiller. Input a character name + work title, locally retrieve core data → cross-validate → behavior distillation → generate a runnable, traceable, updatable character skill. Trigger phrases: "generate XX's skill", "distill XX", "make a XX character", "turn XX into skill", "create a XX", "/csp". Vague requests also trigger: "want to talk about a tsundere character", "any yandere recommendations", "help me make a character from XX work". Depends on Python; the core site prefers local scripts, while web search skill / MCP / WebFetch is used only as reinforcement and fallback.
+二次元角色技能蒸馏器。输入角色名+作品名，本地检索核心资料→交叉验证→行为蒸馏→生成可运行、可追溯、可更新的角色Skill。
+触发词：「生成XX的skill」「蒸馏XX」「做一个XX角色」「把XX变成skill」「造一个XX」「/csp」。
+模糊需求也触发：「想聊一个傲娇角色」「有没有病娇推荐」「帮我做一个XX作品里的角色」。
+依赖 Python；核心站点优先走本地脚本，网页搜索 skill / MCP / WebFetch 只作为补强和失败兜底。

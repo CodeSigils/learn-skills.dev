@@ -4,573 +4,615 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 05 Jun 2026 03:32:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Jun 2026 02:55:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-06-05)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-06-06)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:snapshot</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:snapshot</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8071
-Trending skills: 7779
-Hot skills: 2998
-Top All Time: find-skills (1858160)
-Top Trending: ai-video-generation (21614)
-Top Hot: find-skills (268)]]></description>
+All Time skills: 8106
+Trending skills: 7933
+Hot skills: 4601
+Top All Time: find-skills (1874338)
+Top Trending: ai-video-generation (21435)
+Top Hot: find-skills (499)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#50): lark-mail]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-mail</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topAllTime:new:larksuite/cli/lark-mail</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#50): lark-task]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-task</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topAllTime:new:larksuite/cli/lark-task</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #50
-Installs: 197121
+Installs: 200421
 Source: larksuite/cli
-Description: 飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread.]]></description>
+Description: 飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): video-edit]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/video-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/video-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): ai-video-generation]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-video-generation</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #10
-Installs: 96
-Source: runcomfy-com/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#11): gpt-image-2]]></title>
-            <link>https://skills.sh/agentspace-so/agent-skills/gpt-image-2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/agent-skills/gpt-image-2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #11
-Installs: 96
-Source: agentspace-so/agent-skills
-Description: Generate images with GPT Image 2 (ChatGPT Images 2.0) inside Claude Code, using your existing ChatGPT Plus or Pro subscription — no separate OpenAI access, no per-image billing. Supports text-to-image, image-to-image editing, style transfer, and multi-reference composition via the local Codex CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT Images 2.0", "image 2", or any explicit ask to generate or edit an image through the user's ChatGPT plan.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#12): ai-music]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-music</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-music</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #12
-Installs: 96
+Rank: #21
+Installs: 230
 Source: agentspace-so/runcomfy-agent-skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): image-inpainting]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/image-inpainting</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/image-inpainting</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): nano-banana-2]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-2</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-2</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 95
-Source: runcomfy-com/skills
-Description: Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on "inpaint", "inpainting", "image inpaint", "remove from image", "fill region", "mask-driven edit", "remove watermark", "remove object", "patch the photo", "fill the hole", or any explicit ask to edit a specific masked region of a still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#14): ai-music]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/ai-music</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/ai-music</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 95
-Source: runcomfy-com/skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#18): nano-banana-2]]></title>
-            <link>https://skills.sh/doany-ai/skills/nano-banana-2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/nano-banana-2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #18
-Installs: 94
-Source: doany-ai/skills
+Rank: #30
+Installs: 223
+Source: agentspace-so/runcomfy-agent-skills
 Description: Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on "nano banana", "nano-banana-2", "nano banana 2", "google image gen", "gemini image", or any explicit ask to generate with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): seedance-v2]]></title>
-            <link>https://skills.sh/doany-ai/skills/seedance-v2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/seedance-v2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): controlnet-pose]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/controlnet-pose</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/controlnet-pose</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #19
-Installs: 94
-Source: doany-ai/skills
-Description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on "seedance", "seedance 2", "seedance v2", "seedance pro", "bytedance video", or any explicit ask to generate video with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): agent-pulse]]></title>
-            <link>https://skills.sh/jane-o-o-o-o/agent-pulse-skills/agent-pulse</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:jane-o-o-o-o/agent-pulse-skills/agent-pulse</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 206
-Source: jane-o-o-o-o/agent-pulse-skills
-Description: Use Agent Pulse to inspect local AI-agent activity across Hermes, Claude Code, Codex, DeepSeek, OpenClaw, Copilot, Aider, Qwen, OpenCode, Goose, Cursor, Antigravity, and Amp logs. Use when the user asks about AI-agent sessions, tokens, tool/search calls, model usage, estimated cost, budgets, forecasts, health checks, reports, setup diagnosis, web/API/metrics exports, or MCP integration.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): video-extend]]></title>
-            <link>https://skills.sh/doany-ai/skills/video-extend</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/video-extend</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 94
-Source: doany-ai/skills
-Description: Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on "extend video", "continue video", "longer video", "video extend", "make this clip longer", "Veo extend", "chain video shots", "video continuation", or any explicit ask to take an existing video and add more frames after it.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): ai-image-generation]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-image-generation</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 94
+Rank: #33
+Installs: 222
 Source: agentspace-so/runcomfy-agent-skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): opentui]]></title>
-            <link>https://skills.sh/msmps/opentui-skill/opentui</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:msmps/opentui-skill/opentui</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 93
-Source: msmps/opentui-skill
-Description: Comprehensive OpenTUI skill for building terminal user interfaces. Covers the core imperative API, React reconciler, and Solid reconciler. Use for any TUI development task including components, layout, keyboard handling, animations, and testing.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): ai-avatar-video]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/ai-avatar-video</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 93
-Source: runcomfy-com/skills
-Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): image-to-video]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/image-to-video</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 93
-Source: runcomfy-com/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): elevenlabs-music-generation]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/elevenlabs-music-generation</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/elevenlabs-music-generation</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 93
-Source: runcomfy-com/skills
-Description: Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "ElevenLabs Music", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", or any explicit ask to generate music or a song from a text description.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): controlnet-pose]]></title>
-            <link>https://skills.sh/doany-ai/skills/controlnet-pose</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/controlnet-pose</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 93
-Source: doany-ai/skills
 Description: Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on "controlnet", "control net", "pose control", "openpose", "DWPose", "transfer pose", "motion control", "pose driven", "character pose", "depth control", "canny edge", "use this pose", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): ai-avatar-video]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/ai-avatar-video</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 93
-Source: agentspace-so/runcomfy-agent-skills
-Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): nia]]></title>
-            <link>https://skills.sh/nozomio-labs/nia-skill/nia</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:nozomio-labs/nia-skill/nia</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 92
-Source: nozomio-labs/nia-skill
-Description: Index and search code repositories, documentation, research papers, and HuggingFace datasets with Nia AI.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): lipsync]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/lipsync</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/lipsync</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 92
-Source: runcomfy-com/skills
-Description: Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on "lip sync", "lipsync", "make this video speak", "match audio to mouth", "dub video", "sync lips to voice", "Sync Labs", "voiceover sync", or any explicit ask to drive a face's mouth from an audio track.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): seedance-v2]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/seedance-v2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/seedance-v2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 104
-Source: agentspace-so/runcomfy-agent-skills
-Description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on "seedance", "seedance 2", "seedance v2", "seedance pro", "bytedance video", or any explicit ask to generate video with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): relight]]></title>
-            <link>https://skills.sh/doany-ai/skills/relight</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/relight</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 92
-Source: doany-ai/skills
-Description: Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on "relight", "relighting", "change the lighting", "make it golden hour", "studio lighting", "rim light", "blue hour", "soft window light", "change light direction", "color temperature", or any explicit ask to alter how a still is lit.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): gpt-image-2]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/gpt-image-2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/gpt-image-2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 92
-Source: runcomfy-com/skills
-Description: Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT Images 2", "image 2", or any explicit ask to generate or edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): face-swap]]></title>
-            <link>https://skills.sh/doany-ai/skills/face-swap</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/face-swap</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 92
-Source: doany-ai/skills
-Description: Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on "face swap", "swap face", "deepfake", "face replacement", "character swap", "head swap", "put X's face on Y", "make this video star X", "replace the actor in this video", "swap the character in the photo", "deepfake video", "ReActor alternative", or any explicit ask to substitute one identity for another.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): codex-pet]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/codex-pet</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/codex-pet</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 91
-Source: runcomfy-com/skills
-Description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet", "create codex pet", "make codex pet", "hatch codex pet", "/hatch image", "desktop pet codex", "codex pets", "spritesheet.webp", or any explicit ask to build a custom pet for OpenAI Codex.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): video-edit]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/video-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): nano-banana-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/nano-banana-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/nano-banana-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 91
+Installs: 219
 Source: agentspace-so/runcomfy-agent-skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#36): flux-2-klein]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/flux-2-klein</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/flux-2-klein</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
-Installs: 90
-Source: runcomfy-com/skills
-Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#37): nano-banana-edit]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/nano-banana-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/nano-banana-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #37
-Installs: 90
-Source: runcomfy-com/skills
 Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): runcomfy-cli]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/runcomfy-cli</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/runcomfy-cli</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): ace-step]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ace-step</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/ace-step</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 89
-Source: runcomfy-com/skills
-Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
+Rank: #35
+Installs: 218
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on "ace step", "ace-step", "acestep", "ACE music", "open music model", "cheap AI music", "inpaint audio", "audio inpaint", "extend music", "audio outpaint", "lengthen track", "music with tags", or any explicit ask to generate or edit music with ACE Step.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): ai-avatar-video]]></title>
-            <link>https://skills.sh/doany-ai/skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/ai-avatar-video</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): lipsync]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/lipsync</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/lipsync</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 89
-Source: doany-ai/skills
-Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
+Rank: #36
+Installs: 217
+Source: agentspace-so/runcomfy-agent-skills
+Description: Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on "lip sync", "lipsync", "make this video speak", "match audio to mouth", "dub video", "sync lips to voice", "Sync Labs", "voiceover sync", or any explicit ask to drive a face's mouth from an audio track.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): kling-3-0]]></title>
-            <link>https://skills.sh/doany-ai/skills/kling-3-0</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/kling-3-0</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): flux-kontext]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-kontext</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/flux-kontext</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #4
-Installs: 100
-Source: doany-ai/skills
-Description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on "kling", "kling 3.0", "kling v3", "kling pro", "kling 4k", "kling text to video", "kling image to video", or any explicit ask to generate or animate with Kling 3.0.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): ai-music]]></title>
-            <link>https://skills.sh/doany-ai/skills/ai-music</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/ai-music</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 89
-Source: doany-ai/skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): flux-kontext]]></title>
-            <link>https://skills.sh/doany-ai/skills/flux-kontext</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/flux-kontext</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 89
-Source: doany-ai/skills
+Rank: #37
+Installs: 216
+Source: agentspace-so/runcomfy-agent-skills
 Description: Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on "flux kontext", "flux-kontext", "flux 1 kontext", "kontext", "BFL kontext", or any explicit ask to edit with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): wan-2-7]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/wan-2-7</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/wan-2-7</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): image-inpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-inpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/image-inpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 89
-Source: runcomfy-com/skills
-Description: Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on "wan", "wan 2.7", "wan-2-7", "wan video", or any explicit ask to generate video with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): gpt-image-edit]]></title>
-            <link>https://skills.sh/doany-ai/skills/gpt-image-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/gpt-image-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 88
-Source: doany-ai/skills
-Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): video-outpainting]]></title>
-            <link>https://skills.sh/doany-ai/skills/video-outpainting</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/video-outpainting</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 88
-Source: doany-ai/skills
-Description: Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on "video outpaint", "video outpainting", "extend video canvas", "expand video frame", "uncrop video", "aspect ratio change", "vertical to horizontal video", "16:9 from 9:16", "TikTok to YouTube", or any explicit ask to extend a video spatially beyond its original frame.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): image-edit]]></title>
-            <link>https://skills.sh/doany-ai/skills/image-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/image-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 87
-Source: doany-ai/skills
-Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): happyhorse-1-0]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/happyhorse-1-0</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/happyhorse-1-0</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 87
-Source: runcomfy-com/skills
-Description: Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / resolution schema, and when to route to Wan 2.7 / Seedance 2 / LTX 2 instead. Calls `runcomfy run happyhorse/happyhorse-1-0/text-to-video` through the local RunComfy CLI. Triggers on "happyhorse", "happy horse", "happyhorse 1.0", "happyhorse video", or any explicit ask to generate video with this model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): image-outpainting]]></title>
-            <link>https://skills.sh/doany-ai/skills/image-outpainting</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:doany-ai/skills/image-outpainting</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 98
-Source: doany-ai/skills
-Description: Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on "outpaint", "outpainting", "extend image canvas", "expand the image", "fill in around the photo", "uncrop", "change aspect ratio", "extend frame", "wide-screen from square", or any explicit ask to add canvas around an existing still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): lark-slides]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-slides</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:larksuite/cli/lark-slides</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 82
-Source: larksuite/cli
-Description: 飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): kling-3-0]]></title>
-            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/kling-3-0</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:agentspace-so/runcomfy-agent-skills/kling-3-0</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 98
+Rank: #38
+Installs: 216
 Source: agentspace-so/runcomfy-agent-skills
-Description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on "kling", "kling 3.0", "kling v3", "kling pro", "kling 4k", "kling text to video", "kling image to video", or any explicit ask to generate or animate with Kling 3.0.]]></description>
+Description: Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on "inpaint", "inpainting", "image inpaint", "remove from image", "fill region", "mask-driven edit", "remove watermark", "remove object", "patch the photo", "fill the hole", or any explicit ask to edit a specific masked region of a still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): video-inpainting]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/video-inpainting</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topHot:new:runcomfy-com/skills/video-inpainting</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): video-inpainting]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/video-inpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/video-inpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 96
-Source: runcomfy-com/skills
+Rank: #39
+Installs: 216
+Source: agentspace-so/runcomfy-agent-skills
 Description: Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many frames, clean up wires or watermarks, replace a region with matching motion. Routes across Wan 2-7 edit-video (default, prompt-driven region edits with spatial language), Lucy Edit Restyle (identity-stable region-aware restyle), and Seedream 4-0 edit-sequential (when treating the clip as a frame stack). Picks the right route based on whether the change is prose-driven, identity-locked, or needs frame-by-frame still inpaint chained into a video. Triggers on "video inpaint", "video inpainting", "remove from video", "mask region in video", "clean up video", "remove object from clip", "video patch", "frame-by-frame edit", "remove watermark from video", "remove passing person", or any explicit ask to edit a region across video frames.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#1): ai-video-generation]]></title>
-            <link>https://skills.sh/qu-skills/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:qu-skills/skills/ai-video-generation</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #1
-Installs: 21614
-Source: qu-skills/skills
-Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+            <title><![CDATA[[Hot] New entry (#40): flux-2-klein]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/flux-2-klein</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/flux-2-klein</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 214
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#2): remotion-render]]></title>
-            <link>https://skills.sh/qu-skills/skills/remotion-render</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:qu-skills/skills/remotion-render</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #2
-Installs: 21595
-Source: qu-skills/skills
-Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
+            <title><![CDATA[[Hot] New entry (#42): gpt-image-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/gpt-image-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/gpt-image-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 212
+Source: agentspace-so/runcomfy-agent-skills
+Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#3): twitter-automation]]></title>
-            <link>https://skills.sh/qu-skills/skills/twitter-automation</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:qu-skills/skills/twitter-automation</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #3
-Installs: 21592
-Source: qu-skills/skills
-Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+            <title><![CDATA[[Hot] New entry (#43): runcomfy-cli]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/runcomfy-cli</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/runcomfy-cli</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #43
+Installs: 212
+Source: agentspace-so/runcomfy-agent-skills
+Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#37): video-edit]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/video-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:runcomfy-com/skills/video-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): codex-pet]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/codex-pet</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/codex-pet</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 209
+Source: agentspace-so/runcomfy-agent-skills
+Description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet", "create codex pet", "make codex pet", "hatch codex pet", "/hatch image", "desktop pet codex", "codex pets", "spritesheet.webp", or any explicit ask to build a custom pet for OpenAI Codex.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): image-edit]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/image-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:new:agentspace-so/runcomfy-agent-skills/image-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 208
+Source: agentspace-so/runcomfy-agent-skills
+Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#36): seedance-v2]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/seedance-v2</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/seedance-v2</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #36
+Installs: 5621
+Source: runcomfy-com/skills
+Description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on "seedance", "seedance 2", "seedance v2", "seedance pro", "bytedance video", or any explicit ask to generate video with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#37): image-outpainting]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/image-outpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/image-outpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #37
-Installs: 5650
+Installs: 5619
 Source: runcomfy-com/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+Description: Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on "outpaint", "outpainting", "extend image canvas", "expand the image", "fill in around the photo", "uncrop", "change aspect ratio", "extend frame", "wide-screen from square", or any explicit ask to add canvas around an existing still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#38): image-edit]]></title>
-            <link>https://skills.sh/doany-ai/skills/image-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:doany-ai/skills/image-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#38): image-inpainting]]></title>
+            <link>https://skills.sh/doany-ai/skills/image-inpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:doany-ai/skills/image-inpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #38
 Installs: 5612
 Source: doany-ai/skills
-Description: Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on "image edit", "edit image", "image-to-image", "i2i", "swap background", "remove object", "rewrite headline", or any explicit ask to edit a single or batch of images.]]></description>
+Description: Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on "inpaint", "inpainting", "image inpaint", "remove from image", "fill region", "mask-driven edit", "remove watermark", "remove object", "patch the photo", "fill the hole", or any explicit ask to edit a specific masked region of a still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#39): gpt-image-2]]></title>
-            <link>https://skills.sh/agentspace-so/agent-skills/gpt-image-2</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:agentspace-so/agent-skills/gpt-image-2</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#39): ace-step]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/ace-step</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/ace-step</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #39
-Installs: 5589
-Source: agentspace-so/agent-skills
-Description: Generate images with GPT Image 2 (ChatGPT Images 2.0) inside Claude Code, using your existing ChatGPT Plus or Pro subscription — no separate OpenAI access, no per-image billing. Supports text-to-image, image-to-image editing, style transfer, and multi-reference composition via the local Codex CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT Images 2.0", "image 2", or any explicit ask to generate or edit an image through the user's ChatGPT plan.]]></description>
+Installs: 5610
+Source: runcomfy-com/skills
+Description: Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on "ace step", "ace-step", "acestep", "ACE music", "open music model", "cheap AI music", "inpaint audio", "audio inpaint", "extend music", "audio outpaint", "lengthen track", "music with tags", or any explicit ask to generate or edit music with ACE Step.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#4): ai-avatar-video]]></title>
-            <link>https://skills.sh/qu-skills/skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:qu-skills/skills/ai-avatar-video</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #4
-Installs: 21591
-Source: qu-skills/skills
-Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#40): image-inpainting]]></title>
-            <link>https://skills.sh/runcomfy-com/skills/image-inpainting</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:runcomfy-com/skills/image-inpainting</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#40): lipsync]]></title>
+            <link>https://skills.sh/doany-ai/skills/lipsync</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:doany-ai/skills/lipsync</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #40
+Installs: 5599
+Source: doany-ai/skills
+Description: Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on "lip sync", "lipsync", "make this video speak", "match audio to mouth", "dub video", "sync lips to voice", "Sync Labs", "voiceover sync", or any explicit ask to drive a face's mouth from an audio track.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#41): relight]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/relight</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/relight</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #41
+Installs: 5593
+Source: runcomfy-com/skills
+Description: Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on "relight", "relighting", "change the lighting", "make it golden hour", "studio lighting", "rim light", "blue hour", "soft window light", "change light direction", "color temperature", or any explicit ask to alter how a still is lit.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#42): agentspace]]></title>
+            <link>https://skills.sh/agentspace-so/skills/agentspace</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:agentspace-so/skills/agentspace</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #42
 Installs: 5587
+Source: agentspace-so/skills
+Description: Use this skill when the user wants to share a local folder, file, generated artifacts, logs, screenshots, or a project workspace with a human or another agent via a link. Trigger on requests like "share this folder", "upload these files", "send me the artifacts", "give me a link", or "handoff this workspace".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#43): ai-video-generation]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/ai-video-generation</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #43
+Installs: 5586
+Source: runcomfy-com/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#44): nano-banana-edit]]></title>
+            <link>https://skills.sh/doany-ai/skills/nano-banana-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:doany-ai/skills/nano-banana-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #44
+Installs: 5582
+Source: doany-ai/skills
+Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#45): nano-banana-2]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/nano-banana-2</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/nano-banana-2</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #45
+Installs: 5578
+Source: runcomfy-com/skills
+Description: Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on "nano banana", "nano-banana-2", "nano banana 2", "google image gen", "gemini image", or any explicit ask to generate with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#46): video-outpainting]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/video-outpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/video-outpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #46
+Installs: 5577
+Source: runcomfy-com/skills
+Description: Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on "video outpaint", "video outpainting", "extend video canvas", "expand video frame", "uncrop video", "aspect ratio change", "vertical to horizontal video", "16:9 from 9:16", "TikTok to YouTube", or any explicit ask to extend a video spatially beyond its original frame.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#47): kling-3-0]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/kling-3-0</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/kling-3-0</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #47
+Installs: 5556
+Source: runcomfy-com/skills
+Description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on "kling", "kling 3.0", "kling v3", "kling pro", "kling 4k", "kling text to video", "kling image to video", or any explicit ask to generate or animate with Kling 3.0.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#48): runcomfy-cli]]></title>
+            <link>https://skills.sh/doany-ai/skills/runcomfy-cli</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:doany-ai/skills/runcomfy-cli</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 5555
+Source: doany-ai/skills
+Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#49): ai-image-generation]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topTrending:new:runcomfy-com/skills/ai-image-generation</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #49
+Installs: 5553
+Source: runcomfy-com/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (10 → 29): video-edit]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/video-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/video-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #10
+Current rank: #29
+Delta: -19
+Installs: 225 (prev 96)
+Source: runcomfy-com/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (12 → 41): ai-music]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/ai-music</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:agentspace-so/runcomfy-agent-skills/ai-music</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #12
+Current rank: #41
+Delta: -29
+Installs: 213 (prev 96)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (13 → 27): image-inpainting]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/image-inpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/image-inpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #13
+Current rank: #27
+Delta: -14
+Installs: 227 (prev 95)
 Source: runcomfy-com/skills
 Description: Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on "inpaint", "inpainting", "image inpaint", "remove from image", "fill region", "mask-driven edit", "remove watermark", "remove object", "patch the photo", "fill the hole", or any explicit ask to edit a specific masked region of a still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#41): gpt-image-edit]]></title>
-            <link>https://skills.sh/doany-ai/skills/gpt-image-edit</link>
-            <guid isPermaLink="false">2026-06-05T03:32:53.951Z:topTrending:new:doany-ai/skills/gpt-image-edit</guid>
-            <pubDate>Fri, 05 Jun 2026 03:32:53 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #41
-Installs: 5581
+            <title><![CDATA[[Hot] Rank down (15 → 44): wan-2-7]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/wan-2-7</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:agentspace-so/runcomfy-agent-skills/wan-2-7</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #15
+Current rank: #44
+Delta: -29
+Installs: 212 (prev 95)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on "wan", "wan 2.7", "wan-2-7", "wan video", or any explicit ask to generate video with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (3 → 50): seedance-v2]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/seedance-v2</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:agentspace-so/runcomfy-agent-skills/seedance-v2</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #50
+Delta: -47
+Installs: 205 (prev 104)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on "seedance", "seedance 2", "seedance v2", "seedance pro", "bytedance video", or any explicit ask to generate video with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (35 → 49): relight]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/relight</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:agentspace-so/runcomfy-agent-skills/relight</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #35
+Current rank: #49
+Delta: -14
+Installs: 207 (prev 91)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on "relight", "relighting", "change the lighting", "make it golden hour", "studio lighting", "rim light", "blue hour", "soft window light", "change light direction", "color temperature", or any explicit ask to alter how a still is lit.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (4 → 15): kling-3-0]]></title>
+            <link>https://skills.sh/doany-ai/skills/kling-3-0</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/kling-3-0</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #4
+Current rank: #15
+Delta: -11
+Installs: 231 (prev 100)
 Source: doany-ai/skills
-Description: Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on "gpt image edit", "gpt-image-edit", "chatgpt image edit", "edit with gpt image 2", or any explicit ask to edit with this model.]]></description>
+Description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on "kling", "kling 3.0", "kling v3", "kling pro", "kling 4k", "kling text to video", "kling image to video", or any explicit ask to generate or animate with Kling 3.0.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (5 → 16): image-outpainting]]></title>
+            <link>https://skills.sh/doany-ai/skills/image-outpainting</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/image-outpainting</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #5
+Current rank: #16
+Delta: -11
+Installs: 231 (prev 98)
+Source: doany-ai/skills
+Description: Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on "outpaint", "outpainting", "extend image canvas", "expand the image", "fill in around the photo", "uncrop", "change aspect ratio", "extend frame", "wide-screen from square", or any explicit ask to add canvas around an existing still.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (6 → 45): kling-3-0]]></title>
+            <link>https://skills.sh/agentspace-so/runcomfy-agent-skills/kling-3-0</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:agentspace-so/runcomfy-agent-skills/kling-3-0</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #6
+Current rank: #45
+Delta: -39
+Installs: 210 (prev 98)
+Source: agentspace-so/runcomfy-agent-skills
+Description: Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on "kling", "kling 3.0", "kling v3", "kling pro", "kling 4k", "kling text to video", "kling image to video", or any explicit ask to generate or animate with Kling 3.0.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (14 → 7): ai-music]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/ai-music</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/ai-music</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #14
+Current rank: #7
+Delta: +7
+Installs: 239 (prev 95)
+Source: runcomfy-com/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (23 → 17): ai-avatar-video]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/ai-avatar-video</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #23
+Current rank: #17
+Delta: +6
+Installs: 230 (prev 93)
+Source: runcomfy-com/skills
+Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (24 → 4): image-to-video]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/image-to-video</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #24
+Current rank: #4
+Delta: +20
+Installs: 241 (prev 93)
+Source: runcomfy-com/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (26 → 11): controlnet-pose]]></title>
+            <link>https://skills.sh/doany-ai/skills/controlnet-pose</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/controlnet-pose</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #26
+Current rank: #11
+Delta: +15
+Installs: 234 (prev 93)
+Source: doany-ai/skills
+Description: Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on "controlnet", "control net", "pose control", "openpose", "DWPose", "transfer pose", "motion control", "pose driven", "character pose", "depth control", "canny edge", "use this pose", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (31 → 13): gpt-image-2]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/gpt-image-2</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/gpt-image-2</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #31
+Current rank: #13
+Delta: +18
+Installs: 234 (prev 92)
+Source: runcomfy-com/skills
+Description: Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on "gpt image 2", "gpt-image-2", "ChatGPT Images 2", "image 2", or any explicit ask to generate or edit with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (32 → 2): face-swap]]></title>
+            <link>https://skills.sh/doany-ai/skills/face-swap</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/face-swap</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #32
+Current rank: #2
+Delta: +30
+Installs: 244 (prev 92)
+Source: doany-ai/skills
+Description: Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on "face swap", "swap face", "deepfake", "face replacement", "character swap", "head swap", "put X's face on Y", "make this video star X", "replace the actor in this video", "swap the character in the photo", "deepfake video", "ReActor alternative", or any explicit ask to substitute one identity for another.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (33 → 6): codex-pet]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/codex-pet</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/codex-pet</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #33
+Current rank: #6
+Delta: +27
+Installs: 239 (prev 91)
+Source: runcomfy-com/skills
+Description: Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on "codex pet", "create codex pet", "make codex pet", "hatch codex pet", "/hatch image", "desktop pet codex", "codex pets", "spritesheet.webp", or any explicit ask to build a custom pet for OpenAI Codex.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (36 → 5): flux-2-klein]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/flux-2-klein</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/flux-2-klein</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #36
+Current rank: #5
+Delta: +31
+Installs: 240 (prev 90)
+Source: runcomfy-com/skills
+Description: Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on "flux 2 klein", "flux-2-klein", "flux klein", "BFL flux 2", or any explicit ask to generate with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (37 → 14): nano-banana-edit]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/nano-banana-edit</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/nano-banana-edit</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #37
+Current rank: #14
+Delta: +23
+Installs: 231 (prev 90)
+Source: runcomfy-com/skills
+Description: Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on "nano banana edit", "edit with nano banana", "image edit nano banana", or any explicit ask to edit with this model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (38 → 3): runcomfy-cli]]></title>
+            <link>https://skills.sh/runcomfy-com/skills/runcomfy-cli</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:runcomfy-com/skills/runcomfy-cli</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #38
+Current rank: #3
+Delta: +35
+Installs: 241 (prev 89)
+Source: runcomfy-com/skills
+Description: Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on "runcomfy cli", "install runcomfy", "runcomfy login", "runcomfy run", "runcomfy whoami", "runcomfy api", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (39 → 25): ai-avatar-video]]></title>
+            <link>https://skills.sh/doany-ai/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/ai-avatar-video</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #39
+Current rank: #25
+Delta: +14
+Installs: 227 (prev 89)
+Source: doany-ai/skills
+Description: Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "talking head", "lip sync", "avatar video", "make X speak", "audio to video", "audio driven avatar", "virtual presenter", "AI spokesperson", "dubbed video", "UGC avatar", "HeyGen alternative", "Synthesia alternative", "digital human", "make this portrait talk", "video from voiceover", or any explicit ask to put words in a face.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (40 → 12): ai-music]]></title>
+            <link>https://skills.sh/doany-ai/skills/ai-music</link>
+            <guid isPermaLink="false">2026-06-06T02:55:30.618Z:topHot:rank:doany-ai/skills/ai-music</guid>
+            <pubDate>Sat, 06 Jun 2026 02:55:30 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #40
+Current rank: #12
+Delta: +28
+Installs: 234 (prev 89)
+Source: doany-ai/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
     </channel>
 </rss>
