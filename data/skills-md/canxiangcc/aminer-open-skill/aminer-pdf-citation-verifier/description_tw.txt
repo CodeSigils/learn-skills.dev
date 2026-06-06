@@ -1,0 +1,1 @@
+[啟動] 當使用者提供紙本 PDF（文件路徑或上傳）並要求驗證、審核或事實檢查其參考文獻/引文/參考書目時，請使用此技能 - 例如「檢查此 PDF 中的參考文獻是否為幻覺」、「尋找虛假引文」、「驗證參考書目」。 [功能] 將 PDF 上傳至 AMiner pdf-引用驗證程式服務，輪詢非同步作業，並傳回每個引用的分類 (REAL / LIKELY_REAL / NEEDS_REVIEW / LIKELY_FAKE / FAKE) 以及整體幻覺摘要。 [路由] 請勿用於一般論文搜尋、學者查找、引文意圖分析或建立引文圖 - 請改用 aminer-academic-search、aminer-free-academic 或 paper-source-trace。此技能僅驗證引用是否確實存在。

@@ -1,0 +1,1 @@
+Stellar 上的代理支付和机器对机器支付。涵盖收费模式（按请求 Soroban SAC）和通道模式（链下提交、高频）的 x402（通过 OZ 通道服务商、收费客户提供的 HTTP 402 付费 API）和 MPP（机器支付协议）。在 `stellar:testnet`/`stellar:pubnet` (CAIP-2) 上默认为 USDC (SEP-41 SAC)。在向 AI 代理销售付费 API、构建 x402 客户端或为高频代理流量设计支付通道架构时使用。

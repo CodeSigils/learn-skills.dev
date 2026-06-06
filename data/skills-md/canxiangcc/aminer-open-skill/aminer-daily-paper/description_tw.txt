@@ -1,0 +1,1 @@
+透過 AMiner rec5 API 進行個人化學術論文推薦。每當用戶要求論文推薦時，無論是由 /aminer-dp、/skill aminer-dp 觸發，還是任何自然語言請求（例如「推薦我有關多模式代理的論文」），都啟動此技能。呼叫時：自己從輸入中提取主題/學者訊號，使用結構化欄位呼叫handle_trigger.py，然後將「reply_text」中的Markdown呈現給使用者。

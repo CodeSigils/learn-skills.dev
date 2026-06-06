@@ -1,0 +1,1 @@
+用于通过内联或子代理驱动的驱动程序（--inline/--subagent，智能默认）将批准的 woostack 计划作为一系列 PR 大小的堆叠增量来执行 - 使用 TDD 实现每个增量，勾选计划的复选框，通过 woostack-commit 在其自己的 Graphite 分支上提交，审查每个增量（woostack-review --fast inline；子代理模式下的每个任务规范+质量子代理循环，每个都路由到适合层级的模型），提取持久的经验教训，然后继续。这是 woostack 构建循环的执行阶段（woostack-build 步骤 8）；也可以通过 /woostack-execute <plan-path> [--inline|--subagent] 独立使用。每个规范一个计划，每个计划多个 PR。永远不会合并。

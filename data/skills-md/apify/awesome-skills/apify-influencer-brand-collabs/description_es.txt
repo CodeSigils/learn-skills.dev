@@ -1,0 +1,13 @@
+Descubra las asociaciones entre marcas y creadores de Instagram encadenando actores de Apify. Usar cuando el usuario lo solicite
+quién colabora con una marca, para qué marcas un creador ha realizado publicaciones pagas, quiere auditar una
+el historial de contenido de marca del influencer o quiere ampliar la lista de patrocinio de una marca.
+
+**Desencadenantes:**
+- "¿Quién colabora con [marca] en Instagram?"
+- "¿Para qué marcas [el creador] ha realizado publicaciones patrocinadas?"
+- "buscar asociaciones pagas/contenido de marca para [identificador]"
+- "auditar los acuerdos de marca de [influencer]"
+- "muéstrame la lista de influencers de [marca]"
+
+Funciona en cualquier dirección (marca → creadores o creador → marcas) y detecta la dirección desde el
+datos, así que no le pida al usuario que los declare. Requiere herramientas Apify MCP.
