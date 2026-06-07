@@ -1,0 +1,1 @@
+為 createAction() 和 createSync() 建立 Nango Function 實作模式，而無需選擇本機 CLI 或遠端 API 工作流程。僅當使用者要求建立或更新 Nango 操作或同步且不清楚該工作是否應透過 CLI 還是透過 Nango 遠端 API 在簽出專案中進行時才使用。當building-nango-functions-locally或building-nango-functions-remotely應用時不要載入；這些技能與此內容重疊，並添加特定於工作流程的驗證和部署詳細資訊。
