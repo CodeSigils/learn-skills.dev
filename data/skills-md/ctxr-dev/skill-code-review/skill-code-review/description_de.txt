@@ -1,0 +1,4 @@
+FSM-gesteuerte, deterministische, manifesterzeugende Codeüberprüfungspipeline.
+Unterstützt von ctxr-fsm. Der LLM ist der Orchestrator; ctxr-fsm läuft
+serverseitige Inline-Statushandler; Es werden nur Unteragenten entsendet
+für Arbeiterstaaten.
