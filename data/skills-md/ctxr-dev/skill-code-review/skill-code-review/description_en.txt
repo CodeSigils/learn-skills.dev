@@ -1,0 +1,4 @@
+FSM-driven, deterministic, manifest-producing code-review pipeline.
+Powered by ctxr-fsm. The LLM is the orchestrator; ctxr-fsm runs
+inline state handlers server-side; sub-agents are dispatched only
+for worker states.

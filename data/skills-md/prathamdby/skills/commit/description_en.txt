@@ -1,0 +1,1 @@
+Generate commit messages from the git diff only and commit changes to git. Ignores session context such as reviews or discussion. Use when the user types /commit, asks to commit changes, save work to git, create a commit, or write a commit message. Supports flags --staged/--unstaged for diff scope and --conventional/--simple for message style.
