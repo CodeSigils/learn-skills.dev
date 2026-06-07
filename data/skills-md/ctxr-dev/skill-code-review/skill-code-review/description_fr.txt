@@ -1,0 +1,4 @@
+Pipeline de révision de code, piloté par FSM, déterministe et produisant des manifestes.
+Propulsé par ctxr-fsm. Le LLM est l'orchestrateur ; ctxr-fsm s'exécute
+gestionnaires d'état en ligne côté serveur ; les sous-agents sont envoyés uniquement
+pour les États travailleurs.
