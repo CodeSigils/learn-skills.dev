@@ -1,0 +1,4 @@
+Canal de revisión de código que produce manifiestos, determinista y impulsado por FSM.
+Desarrollado por ctxr-fsm. El LLM es el orquestador; ctxr-fsm se ejecuta
+controladores de estado en línea del lado del servidor; los subagentes se envían únicamente
+para los estados trabajadores.
