@@ -1,0 +1,1 @@
+승인된 woostack 사양에 대한 구현 계획을 작성하는 데 사용됩니다. PR 크기 증분으로 구성된 포괄적이고 작은 크기의 TDD 계획으로, 서문 없이 .woostack/plans/<spec-basename>.md에 저장되고, 사양에 1:1로 결합하는 `**Source:**` 줄로 열리고, 사양 상태: 계획을 설정합니다. 이는 woostack 빌드 루프의 계획 단계입니다(woostack-build 4단계). /woostack-plan <spec-path>를 통해 독립형으로도 사용할 수 있습니다. 사양당 하나의 계획 계획을 작성하고 돌려줍니다. 절대 실행, 커밋 또는 병합하지 않습니다.
