@@ -1,0 +1,1 @@
+AWS Bedrock 模型 ID 和跨区域推理配置文件。每当代码引用 AWS Bedrock 模型 ID (modelId)、跨区域推理或模型选择时，请使用此技能。触发条件：amazon.nova-*、anthropic.claude-*、cohere.*、deepseek.*、meta.llama*、mistral.*、qwen.*、任何 Bedrock InvokeModel/Converse 调用、BedrockRuntimeClient 或有关在 Bedrock 上使用哪个模型的问题。切勿猜测或发明模型 ID — 它们在不同的提供商之间不一致（有些有日期，有些没有，有些有 :0 后缀，有些没有）。一定要先检查这个技能。

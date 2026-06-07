@@ -1,1 +1,1 @@
-用於為已批准的 woostack 規範編寫實施計劃 - 一個全面的、小型的 TDD 計劃，其結構為 PR 大小的增量，保存為 .woostack/plans/<spec-basename>.md，以“**Source:**”行開頭，將其與規範 1:1 連接，並設置規範的狀態：規劃。這是 woostack 建置循環的排程階段（woostack-build 步驟 4）；也可以透過 /woostack-plan <spec-path> 獨立使用。每個規格一個方案。寫下計劃並交回——從不執行、提交或合併。
+用於為已批准的 woostack 規範編寫實施計劃 - 一個全面的、小型的 TDD 計劃，其結構為 PR 大小的增量，保存為 .woostack/plans/<spec-basename>.md，以“**Source:**”行開頭，將其與規範 1:1 連接，並設置規範的狀態：規劃。这是 woostack 构建循环的计划阶段（woostack-build 步骤 4）；也可以通过 /woostack-plan <spec-path> 独立使用。每个规格一个计划。写下计划并交回——从不执行、提交或合并。

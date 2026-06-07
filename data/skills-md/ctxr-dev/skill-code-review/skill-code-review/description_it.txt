@@ -1,0 +1,4 @@
+Pipeline di revisione del codice basata su FSM, deterministica e che produce manifest.
+Alimentato da ctxr-fsm. Il LLM è l'orchestratore; viene eseguito ctxr-fsm
+gestori di stati in linea lato server; vengono inviati solo i sub-agenti
+per gli Stati lavoratori.
