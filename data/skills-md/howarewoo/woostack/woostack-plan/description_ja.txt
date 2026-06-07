@@ -1,0 +1,1 @@
+承認された Woostack 仕様の実装計画を作成するために使用します。これは、PR サイズの増分として構造化された包括的な一口サイズの TDD 計画で、frontmatter-free で .woostack/plans/<spec-basename>.md に保存され、仕様と 1:1 で結合する `**Source:**` 行で開き、仕様のステータス (計画中) を設定します。これは、woostack ビルド ループの計画段階です (woostack-build ステップ 4)。 /woostack-plan <spec-path> 経由でスタンドアロンでも使用できます。スペックごとに 1 つのプラン。計画を書いて返却します。決して実行、コミット、マージしません。
