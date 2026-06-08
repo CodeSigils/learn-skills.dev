@@ -1,0 +1,1 @@
+将 Sparkle 自动更新支持添加到本机 macOS 应用程序。每当用户想要添加自动更新、实施 Sparkle、设置 appcast feed、向其应用添加“检查更新”或集成自动更新检查时，请使用此技能。当用户提及 Sparkle、appcast、SUFeedURL、EdDSA 签名或更新通知时也会触发。这涵盖了完整的设置：添加 Sparkle SPM 依赖项、创建 UpdaterManager 单例、将其连接到应用程序委托和 UI、配置 Info.plist 以及生成初始 appcast.xml。

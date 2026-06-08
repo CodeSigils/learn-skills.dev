@@ -1,0 +1,18 @@
+Informazioni premium su mercato e partite della Coppa del Mondo FIFA 2026: ospitate e di sola lettura
+strato che fonde la verità ufficiale della partita (calendario, classifiche, squadre, infortuni,
+prestazioni dei giocatori) con mercati di pronostici dal vivo (Kalshi + Polymarket: prezzi,
+registri degli ordini, cronologia dei prezzi, mover, bordi tra sedi) e contesto basato sull'intelligenza artificiale
+(brief pre-partita, spiegazioni sulle mosse, impulso dei tifosi/social). Ogni entità porta con sé a
+canonical machina URN attraversato api-football, sportradar, opta, entain
+ed ESPN, quindi un mercato si risolve in un incontro che si risolve in due squadre.
+
+Questa abilità è immediata e premium: indirizza l'agente alla Coppa del Mondo ospitata
+Progetto di intelligence (un server Machina MCP per progetto) tramite "machina-cli". Funziona
+nessun codice localmente e non fornisce chiavi API.
+
+Da utilizzare quando: l'utente vuole le quote della Coppa del Mondo 2026 + il contesto della partita insieme, chiede "cosa
+commosso e perché", vuole un resoconto di mercato fondato o il sentimento dei fan letto su un incontro,
+o ha bisogno di un ID stabile che unisca mercati ↔ incontri ↔ team di tutti i fornitori.
+Non utilizzare quando: l'utente desidera dati snapshot gratuiti dalle API pubbliche (utilizzare il file
+competenze "dati calcistici", "kalshi", "polimercato" o "mercati") o desidera inserire un
+scommessa/scambio: questo livello è di sola lettura e non esegue mai ordini.

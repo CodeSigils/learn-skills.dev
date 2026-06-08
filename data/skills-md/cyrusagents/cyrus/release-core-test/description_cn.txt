@@ -1,0 +1,1 @@
+在开发测试跨越 CYPACK（edgeworker + CLI）和 CYHOST（Vercel 托管 GUI）的 Cyrus 更改时调用，并且托管 GUI 需要指向此存储库中未发布的“cyrus-core”。在 npm `test` dist-tag 下将 `cyrus-core` （和​​ `claude-runner` 如果需要）发布为 `-test.N` 预发行版，以便 CYHOST 可以通过 `cyrus-core@test` 安装它，而不会影响 `latest` dist-tag 或发布真正的版本。

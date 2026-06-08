@@ -1,0 +1,1 @@
+标准化Java项目编码和注释约定（SLF4J+Lombok日志记录，Bean Lombok注释选择，使用Objects/Optional进行空检查，工具库优先级：Spring→Apache Commons→Hutool→Guava，对复杂逻辑使用设计模式/不拆分简单逻辑，在Controller/Service/ServiceImpl/Mapper之间保持一致的注释）。当您需要“根据 Java 标准重构/审查、完整注释、统一日志记录、统一工具类使用、完整 JavaDoc”时使用。

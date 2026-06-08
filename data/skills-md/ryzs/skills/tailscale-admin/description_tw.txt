@@ -1,0 +1,1 @@
+當使用者想要透過管理 API 管理其 Tailscale tailnet 時使用 - 列出裝置、重新標記或刪除節點、管理驗證金鑰、讀取 ACL 或審核 tailnet 中是否有陳舊設備和未使用的金鑰。使用 TAILSCALE_API_TOKEN 环境变量调用 api.tailscale.com 上的 Tailscale 管理 API。針對使用者的尾網執行即時寫入。对于本地节点 CLI 操作（tailscale up/down/serve/funnel），请参阅 majiayu000/claude-skill-registry 的 tailscale 技能。

@@ -1,0 +1,1 @@
+透過EHunt Temu品類搜尋（網關路由`ehunt/temu/temuCategorySearch`），在已同步至本地資料庫的EHunt Temu品類資料中關鍵字搜尋品類的中文名稱、英文名稱、品類ID，取得產品/商店過濾時所使用的品類ID。當使用者提及 EHunt Temu 類別、Temu 類別 ID、Temu 類別樹、Temu 後端類別、Temu 類別、syncTemuCategory（Temu 類別同步）並隨後進行類別查找或 Temu 類別搜尋時，會觸發此操作。即使使用者不寫“EHunt”，只要在本地同步的Temu類目資料庫中透過關鍵字搜尋到某個類目ID，就應該觸發該技能。

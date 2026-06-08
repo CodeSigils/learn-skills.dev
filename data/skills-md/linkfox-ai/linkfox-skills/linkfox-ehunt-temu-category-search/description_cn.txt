@@ -1,0 +1,1 @@
+通过EHunt Temu品类搜索（网关路由`ehunt/temu/temuCategorySearch`），在已同步到本地数据库的EHunt Temu品类数据中关键字搜索品类的中文名、英文名、品类ID，获取产品/店铺过滤时使用的品类ID。当用户提及 EHunt Temu 类别、Temu 类别 ID、Temu 类别树、Temu 后端类别、Temu 类别、syncTemuCategory（Temu 类别同步）并随后进行类别查找或 Temu 类别搜索时，会触发此操作。即使用户不写“EHunt”，只要在本地同步的Temu类目数据库中通过关键词搜索到某个类目ID，就应该触发该技能。

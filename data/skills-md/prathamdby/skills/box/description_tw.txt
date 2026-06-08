@@ -1,0 +1,1 @@
+透過將所有儲存庫工作委託給子代理，在本地克隆、更新和搜尋 git 儲存庫。主線程只是一個協調器。當使用者傳遞 VCS URL（GitHub、GitLab、Bitbucket 等）或提及先前複製的儲存庫名稱時使用。支援 --persist 在工作目錄的 AGENTS.md 中儲存引用， --update 強制拉取，以及 --list 顯示複製的儲存庫。

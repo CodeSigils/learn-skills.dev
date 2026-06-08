@@ -1,0 +1,1 @@
+사용자가 장치 나열, 노드 태그 재지정 또는 제거, 인증 키 관리, ACL 읽기, 오래된 장치 및 사용되지 않은 키에 대한 tailnet 감사 등 Admin API를 통해 Tailscale tailnet을 관리하려는 경우에 사용합니다. TAILSCALE_API_TOKEN 환경 변수를 사용하여 api.tailscale.com에서 Tailscale Admin API를 호출합니다. 사용자의 tailnet에 대해 실시간 쓰기를 수행합니다. 로컬 노드 CLI 작업(tailscale up/down/serve/funnel)의 경우 대신 majiayu000/claude-skill-registry의 tailscale 스킬을 참조하세요.

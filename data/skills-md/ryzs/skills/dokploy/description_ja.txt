@@ -1,0 +1,1 @@
+ユーザーが Dokploy セルフホスト型 PaaS と対話する場合、つまりアプリのデプロイ、環境変数の更新、サービスの再デプロイ、デプロイ ステータスの確認、Dokploy 対応 Dockerfile のスキャフォールディングを行う場合に使用します。 DOKPLOY_URL および DOKPLOY_API_TOKEN 環境変数を使用して、Dokploy の REST API を直接呼び出します。ユーザーの Dokploy サーバーに対してライブ書き込みを実行します。

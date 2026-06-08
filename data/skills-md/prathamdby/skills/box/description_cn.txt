@@ -1,0 +1,1 @@
+通过将所有存储库工作委托给子代理，在本地克隆、更新和搜索 git 存储库。主线程只是一个协调器。当用户传递 VCS URL（GitHub、GitLab、Bitbucket 等）或提及之前克隆的存储库名称时使用。支持 --persist 在工作目录的 AGENTS.md 中保存引用， --update 强制拉取，以及 --list 显示克隆的存储库。

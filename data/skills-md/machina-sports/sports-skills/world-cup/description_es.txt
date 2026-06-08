@@ -1,0 +1,18 @@
+Inteligencia premium de partidos y mercados de la Copa Mundial de la FIFA 2026: una plataforma alojada de solo lectura
+capa que fusiona la verdad oficial del partido (calendarios, clasificaciones, plantillas, lesiones,
+rendimiento del jugador) con mercados de predicción en vivo (Kalshi + Polymarket: precios,
+carteras de pedidos, historial de precios, movimientos, ventajas entre lugares) y contexto basado en la IA
+(resúmenes previos al partido, explicaciones de movimientos, pulso social/fanático). Cada entidad lleva un
+La machina canónica URN cruzó a través de api-football, sportradar, opta, entain
+y ESPN, por lo que un mercado se resuelve en un encuentro se resuelve en dos equipos.
+
+Esta habilidad es inmediata y premium: dirige al agente a la Copa Mundial organizada.
+Proyecto de inteligencia (un servidor Machina MCP por proyecto) a través de `machina-cli`. corre
+sin código local y sin claves API.
+
+Úselo cuando: el usuario quiere las probabilidades de la Copa Mundial 2026 + el contexto del partido juntos, pregunta "¿qué
+movido y por qué", quiere un resumen fundamentado del mercado o una lectura del sentimiento de los fanáticos en un partido,
+o necesita una identificación estable que una los mercados ↔ partidos ↔ equipos de todos los proveedores.
+No lo use cuando: el usuario quiera datos instantáneos gratuitos de API públicas (use el
+`football-data`, `kalshi`, `polymarket` o `markets` skills), o quiere colocar un
+apuesta/comercio: esta capa es inteligencia de solo lectura y nunca ejecuta órdenes.

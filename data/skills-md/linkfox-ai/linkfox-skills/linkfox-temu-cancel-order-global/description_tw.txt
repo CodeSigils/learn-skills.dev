@@ -1,0 +1,1 @@
+Temu Global站點（非美國/歐盟）訂單取消API（買家+賣家組合），透過LinkFox網關轉寄至六個介面：買家售後取消（bg.aftersales.cancel.*）、賣家申訴/缺貨取消（temu.order.cancel.*）等，預設site=global，tokenPurpose==-shipping。當用戶提到 Temu Global 訂單取消、全球站點買家取消、賣家缺貨取消、afterSalesStatusGroup 或 applySn 時會觸發該事件。對於美國站點，請使用 linkfox-temu-cancel-order-us；對於歐盟站點，請使用 linkfox-temu-cancel-order-eu；對於訂單，請使用 linkfox-temu-order-global。
