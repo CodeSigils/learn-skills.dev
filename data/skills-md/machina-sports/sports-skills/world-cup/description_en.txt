@@ -1,0 +1,18 @@
+Premium FIFA World Cup 2026 market & match intelligence — a hosted, read-only
+layer that fuses official match truth (fixtures, standings, squads, injuries,
+player performance) with live prediction markets (Kalshi + Polymarket: prices,
+order books, price history, movers, cross-venue edges) and AI-grounded context
+(prematch briefs, move explanations, fan/social pulse). Every entity carries a
+canonical machina URN cross-walked across api-football, sportradar, opta, entain
+and ESPN, so a market resolves to a fixture resolves to two teams.
+
+This skill is prompt-only and premium: it routes the agent to the hosted World Cup
+Intelligence project (a per-project Machina MCP server) via `machina-cli`. It runs
+no code locally and ships no API keys.
+
+Use when: the user wants World Cup 2026 odds + match context together, asks "what
+moved and why", wants a grounded market brief or fan-sentiment read on a fixture,
+or needs one stable id that joins markets ↔ fixtures ↔ teams across providers.
+Don't use when: the user wants free snapshot data from public APIs (use the
+`football-data`, `kalshi`, `polymarket`, or `markets` skills), or wants to place a
+bet/trade — this layer is read-only intelligence and never executes orders.

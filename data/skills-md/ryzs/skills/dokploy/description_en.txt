@@ -1,0 +1,1 @@
+Use when the user wants to interact with a Dokploy self-hosted PaaS — deploying apps, updating env vars, redeploying services, checking deployment status, or scaffolding Dokploy-ready Dockerfiles. Calls Dokploy's REST API directly using DOKPLOY_URL and DOKPLOY_API_TOKEN env vars. Performs live writes against the user's Dokploy server.

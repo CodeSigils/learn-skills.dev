@@ -1,0 +1,1 @@
+Clone, update, and search git repositories locally by delegating all repo work to subagents. The main thread is a coordinator only. Use when the user passes a VCS URL (GitHub, GitLab, Bitbucket, etc.) or mentions a previously cloned repo name. Supports --persist to save a reference in the working directory's AGENTS.md, --update to force-pull, and --list to show cloned repos.
