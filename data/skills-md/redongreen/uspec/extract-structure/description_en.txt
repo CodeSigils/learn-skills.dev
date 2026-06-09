@@ -1,0 +1,1 @@
+Interpret a component's structure spec (variant axes, dimensions, sub-components, slot contents, cross-variant diffs) from the `_base.json` produced by the uSpec Extract Figma plugin, and write the normalized JSON to disk. Read-only interpretation — no Figma calls except an optional tiny delta script. Use as a sub-skill of create-component-md.
