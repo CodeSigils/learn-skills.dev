@@ -1,0 +1,1 @@
+在 NGC PyTorch 容器內的本地 NVIDIA GPU 上微調任何 HuggingFace CV / VLM / LLM 模型。當使用者想要微調 HuggingFace 模型（完整或 LoRA）、端到端訓練視覺/VLM/LLM 模型、產生可重複的 HF 訓練管道、在放大之前在本地對 HuggingFace 模型進行冒煙測試、使用模型卡將微調後的模型推送到 HF Hub 或為現有 HuggingFace 微調使用時發出獨立的重新運行。支援影像分類、物件偵測、語義/實例/全景分割、深度估計、影像-文字-文字 VLM (SFT/LoRA) 和 LLM SFT/DPO/GRPO。六步驟工作流程：檢查和鑑定、硬體和 NGC 影像、研究、生成和煙霧、訓練 + 評估 + 推斷、推送和發出重新運行技能。

@@ -1,0 +1,1 @@
+为 NVIDIA TAO VisualChangeNet / ChangeNet PCB 检测模型运行完整的 DEFT AOI 改进循环：基线评估、RCA、摄取客户提供的预生成的 AnomalyGen 图像、k-NN 挖掘、再训练和部署门控，直到满足 FAR/召回 KPI 目标。 EA 变体 — 不内联运行 AnomalyGen；客户在带外预先生成合成 NG/OK 对，然后循环摄取它们。用于诸如“运行 DEFT 循环”、“微调直至召回率 = 100% 时远低于 0.1%”或“使用 RCA 和预生成的合成缺陷改进我的 AOI ChangeNet 模型”等提示；请勿用于独立 TAO 训练、一次性推理、一般异常生成或纯 RCA 分析。
