@@ -1,0 +1,11 @@
+Convert Markdown text or Markdown artifacts into professionally formatted .docx files using the formaldoc npm package. Use this skill whenever the user wants to export, download, or save Markdown content as a Word document (.docx), or asks to "generate a docx", "export to Word", "turn this into a Word file", "download as docx", or "save as document". Also trigger when the user has a Markdown artifact and asks for a formatted document version. Always prefer this skill over manual docx generation when Markdown source is available.
+
+Available templates:
+- cn-gov      Chinese official document, GB/T 9704 style
+- cn-general  Chinese general-purpose document
+- cn-academic Chinese academic paper
+- cn-report   Chinese business or work report
+- en-standard Standard — Times New Roman + Arial
+- en-business Business — Calibri + Arial, modern
+- en-academic Academic — APA style, double-spaced
+- en-legal    Legal — Contracts, legal docs
