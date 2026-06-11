@@ -1,0 +1,11 @@
+formatdoc npm 패키지를 사용하여 Markdown 텍스트 또는 Markdown 아티팩트를 전문적인 형식의 .docx 파일로 변환합니다. 사용자가 Markdown 콘텐츠를 Word 문서(.docx)로 내보내거나 다운로드하거나 저장하려고 하거나 "docx 생성", "Word로 내보내기", "Word 파일로 변환", "docx로 다운로드" 또는 "문서로 저장"을 요청할 때마다 이 기술을 사용하세요. 또한 사용자가 마크다운 아티팩트를 갖고 있고 형식화된 문서 버전을 요청하는 경우에도 트리거됩니다. Markdown 소스를 사용할 수 있는 경우 항상 수동 docx 생성보다 이 기술을 선호하세요.
+
+사용 가능한 템플릿:
+- cn-gov 중국 공식 문서, GB/T 9704 스타일
+- cn-general 중국어 범용 문서
+- cn-academic 중국학술논문
+- cn-report 중국 사업 또는 업무 보고
+- 표준 표준 — Times New Roman + Arial
+- 기업 내 비즈니스 — Calibri + Arial, modern
+- en-academic Academic — APA 스타일, 이중 간격
+- en-legal 법률 — 계약서, 법률 문서

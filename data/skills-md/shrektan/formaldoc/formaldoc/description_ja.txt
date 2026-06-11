@@ -1,0 +1,11 @@
+マークダウン テキストまたはマークダウン アーティファクトを、formaldoc npm パッケージを使用して専門的にフォーマットされた .docx ファイルに変換します。ユーザーが Markdown コンテンツを Word ドキュメント (.docx) としてエクスポート、ダウンロード、または保存したい場合、または「docx を生成」、「Word にエクスポート」、「これを Word ファイルに変換」、「docx としてダウンロード」、または「ドキュメントとして保存」を要求する場合は、このスキルを使用します。また、ユーザーが Markdown アーティファクトを持っていて、フォーマットされたドキュメントのバージョンを要求したときにもトリガーされます。 Markdown ソースが利用可能な場合は、手動による docx 生成よりも常にこのスキルを優先します。
+
+利用可能なテンプレート:
+- cn-gov 中国の公式文書、GB/T 9704 スタイル
+- cn-general 中国語の汎用ドキュメント
+- cn-academic 中国の学術論文
+- cn-report 中国のビジネスまたは仕事のレポート
+- en-standard Standard — Times New Roman + Arial
+- en-business ビジネス — Calibri + Arial、モダン
+- en-academic Academic — APA スタイル、ダブルスペース
+- en-legal 法的 — 契約書、法的文書

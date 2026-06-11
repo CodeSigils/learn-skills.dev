@@ -1,0 +1,1 @@
+指导代理使用 Dart 的 Native Assets 钩子系统（通过 hook/build.dart 和 hook/link.dart，利用 package:hooks 和 package:native_toolchain_c）将 C/C++ 源代码编译并打包到动态或静态库（代码资产）中。当用户要求：“设置原生资产”、“编译 C/C++ 源代码”、“捆绑动态库”、“构建原生 C 代码”、“链接原生资产”、“实现 build.dart 或 link.dart 挂钩”或“在 Dart/Flutter 中集成 C/C++ 互操作”时使用。帮助代理避免手动工具链编排，并使用 package:record_use 映射配置安全的哈希验证二进制下载或高级链接器树摇动。
