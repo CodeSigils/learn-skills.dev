@@ -1,0 +1,1 @@
+既存の GitHub Issue ツリーを棚卸し・更新するスキル。「ツリーを棚卸しして」「イシューツリーを更新して」「トラッキング issue を整理して」で使用。 ルートのトラッキング issue 番号を受け取り、sub_issues API でツリー全体を再帰取得 → closed 親下の残置 open issue 付け替え・孤児の再配置・新 Phase 親の新設・phase ラベル同期 → ルート issue 本文の Phase 別表・棚卸しセクションを再生成して更新する。 ツリー新規作成は create-issue-tree、実装消化は implement-issue-tree を参照。
