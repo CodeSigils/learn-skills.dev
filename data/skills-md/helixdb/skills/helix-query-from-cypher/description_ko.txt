@@ -1,0 +1,1 @@
+Cypher 및 Neo4j 스타일 쿼리를 HelixDB Rust DSL 쿼리로 변환합니다. 입력에 Cypher, Neo4j, MATCH, OPTIONAL MATCH, WHERE, RETURN, ORDER BY, LIMIT, DISTINCT, MERGE, CASE, UNWIND, FOREACH, DETACH DELETE, IS NULL 또는 가변 길이 경로 패턴이 포함되어 있고 목표가 동등한 Helix Rust 쿼리를 생성하는 것일 때 사용합니다.

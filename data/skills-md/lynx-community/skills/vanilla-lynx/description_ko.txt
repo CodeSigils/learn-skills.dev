@@ -1,0 +1,6 @@
+ReactLynx JSX 없이 @lynx-js/type-element-api의 바닐라 Lynx Element PAPI API를 사용하여 Lynx 애플리케이션을 직접 구축할 때 이 기술을 사용하세요. 프로젝트 설정, Rspeedy 템플릿-webpack 번들 어셈블리, 메인 스레드 UI 트리 생성, 백그라운드 스레드 이벤트 디스패치, CSS 패키징 및 공통 요소 API 패턴을 다룹니다.
+
+트리거 시나리오:
+- 사용자가 ReactLynx, JSX 또는 프레임워크 없이 Lynx 앱을 구축하려고 합니다.
+- 사용자가 @lynx-js/type-element-api, Element PAPI, 바닐라 Lynx 또는 __CreatePage, __CreateView, __CreateText, __AppendElement, __SetAttribute 또는 __FlushElementTree와 같은 API를 사용하도록 요청합니다.
+- 사용자에게는 명시적인 배경, 메인 스레드 및 CSS 자산이 포함된 템플릿 웹팩 스타일 Lynx 번들이 필요합니다.

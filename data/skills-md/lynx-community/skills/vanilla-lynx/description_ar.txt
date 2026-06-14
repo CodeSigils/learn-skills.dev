@@ -1,0 +1,6 @@
+استخدم هذه المهارة عند إنشاء تطبيقات Lynx مباشرةً باستخدام واجهات برمجة التطبيقات Vanilla Lynx Element PAPI API من @lynx-js/type-element-api، بدون ReactLynx JSX. وهو يغطي إعداد المشروع، وتجميع حزمة قالب Rspeedy-webpack، وإنشاء شجرة واجهة المستخدم للخيط الرئيسي، وإرسال حدث خيط الخلفية، وتغليف CSS، وأنماط Element API الشائعة.
+
+سيناريوهات التشغيل:
+- يريد المستخدم إنشاء تطبيق Lynx بدون ReactLynx أو JSX أو إطار عمل
+- يطلب المستخدم استخدام @lynx-js/type-element-api أو Element PAPI أو Vanilla Lynx أو واجهات برمجة التطبيقات مثل __CreatePage أو __CreateView أو __CreateText أو __AppendElement أو __SetAttribute أو __FlushElementTree
+- يحتاج المستخدم إلى حزمة Lynx بنمط حزمة الويب ذات الخلفية الواضحة والخيط الرئيسي وأصول CSS

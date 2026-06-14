@@ -1,0 +1,1 @@
+Python SDK(helix-db, helixdb로 가져옴)를 사용하여 HelixDB 쿼리를 작성하고 수정합니다. read_batch, write_batch, g(), 순회 빌더, 프로젝션, 매개변수, 쿼리 번들, 벡터/BM25 검색 및 종속성 없는 클라이언트를 사용하여 Python에서 동적 Helix 쿼리를 빌드할 때 사용합니다. Pythonic snake_case API; Rust, TypeScript 및 Go SDK와 동일한 동적 POST /v1/query JSON AST를 내보냅니다.

@@ -1,0 +1,1 @@
+使用 Python SDK（helix-db，导入为 helixdb）编写和修改 HelixDB 查询。在 Python 中使用 read_batch、write_batch、g()、遍历构建器、投影、参数、查询包、向量/BM25 搜索和无依赖客户端构建动态 Helix 查询时使用。 Pythonic的snake_case API；发出与 Rust、TypeScript 和 Go SDK 相同的动态 POST /v1/query JSON AST。

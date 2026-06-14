@@ -1,0 +1,6 @@
+在直接使用 @lynx-js/type-element-api 中的普通 Lynx Element PAPI API（无需 ReactLynx JSX）构建 Lynx 应用程序时，请使用此技能。它涵盖了项目设置、Rspeedy 模板-webpack 捆绑包组装、主线程 UI 树创建、后台线程事件调度、CSS 打包和常见 Element API 模式。
+
+触发场景：
+- 用户想要构建一个没有 ReactLynx、JSX 或框架的 Lynx 应用程序
+- 用户要求使用 @lynx-js/type-element-api、Element PAPI、vanilla Lynx 或 __CreatePage、__CreateView、__CreateText、__AppendElement、__SetAttribute 或 __FlushElementTree 等 API
+- 用户需要一个模板 webpack 风格的 Lynx 包，具有明确的背景、主线程和 CSS 资源

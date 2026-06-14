@@ -1,0 +1,6 @@
+このスキルは、ReactLynx JSX を使用せず、@lynx-js/type-element-api のバニラ Lynx Element PAPI API を使用して Lynx アプリケーションを直接構築するときに使用します。プロジェクトのセットアップ、Rspeedy テンプレートと Webpack バンドルのアセンブリ、メインスレッド UI ツリーの作成、バックグラウンド スレッド イベントのディスパッチ、CSS パッケージ化、一般的な Element API パターンについて説明します。
+
+トリガーシナリオ:
+- ユーザーは ReactLynx、JSX、またはフレームワークを使用せずに Lynx アプリを構築したいと考えています
+- ユーザーは、@lynx-js/type-element-api、Element PAPI、バニラ Lynx、または __CreatePage、__CreateView、__CreateText、__AppendElement、__SetAttribute、__FlushElementTree などの API の使用を要求します。
+- ユーザーには、明示的なバックグラウンド、メインスレッド、および CSS アセットを含むテンプレート Webpack スタイルの Lynx バンドルが必要です

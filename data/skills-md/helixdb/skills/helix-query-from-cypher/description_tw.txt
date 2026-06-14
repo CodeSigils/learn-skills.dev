@@ -1,0 +1,1 @@
+將 Cypher 和 Neo4j 風格的查詢轉換為 HelixDB Rust DSL 查詢。當輸入包含 Cypher、Neo4j、MATCH、OPTIONAL MATCH、WHERE、RETURN、ORDER BY、LIMIT、DISTINCT、MERGE、CASE、UNWIND、FOREACH、DETACH DELETE、IS NULL 或可變長度路徑模式且目標是產生等效的 Helix Rust 查詢時使用。

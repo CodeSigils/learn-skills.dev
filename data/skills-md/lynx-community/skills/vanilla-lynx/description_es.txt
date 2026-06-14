@@ -1,0 +1,6 @@
+Utilice esta habilidad cuando cree aplicaciones Lynx directamente con las API PAPI Vanilla Lynx Element de @lynx-js/type-element-api, sin ReactLynx JSX. Cubre la configuración del proyecto, el ensamblaje del paquete web-plantilla Rspeedy, la creación del árbol de la interfaz de usuario del subproceso principal, el envío de eventos del subproceso en segundo plano, el empaquetado CSS y los patrones comunes de Element API.
+
+Escenarios desencadenantes:
+- El usuario quiere crear una aplicación Lynx sin ReactLynx, JSX o un marco.
+- El usuario solicita usar @lynx-js/type-element-api, Element PAPI, Vanilla Lynx o API como __CreatePage, __CreateView, __CreateText, __AppendElement, __SetAttribute o __FlushElementTree.
+- El usuario necesita un paquete Lynx estilo plantilla-paquete web con fondo explícito, hilo principal y recursos CSS
