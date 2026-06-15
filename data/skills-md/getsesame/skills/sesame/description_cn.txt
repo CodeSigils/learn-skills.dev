@@ -1,0 +1,1 @@
+当用户请求调用经过身份验证的 HTTP API（例如“调用 GitHub/OpenAI/Slack API”、“点击需要承载令牌的端点”）并且此设备上已安装“sesame”CLI 时，请使用此技能。代理调用“sesame request”，该请求通过用户自己的代理转发 HTTP 调用，并在服务器端附加 auth 标头。该技能不安装软件，不从环境中读取凭据，并且仅在固定的“sesame”子命令界面（“request”、“status”、“hostnames”、“login”、“refresh”、“switch”、“police”、“help”、“secret”、“agents”、“deploy”）中运行 shell。跳过未经身份验证的公共端点、本地主机服务，或者当用户已在环境中导出令牌以供直接使用时。

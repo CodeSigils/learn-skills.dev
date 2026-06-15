@@ -1,0 +1,1 @@
+Flussi di lavoro del thread di revisione con revisione slop su un ramo di funzionalità git. TRIGGER solo quando l'utente nomina esplicitamente "slop-review" / "slop review" o fa riferimento ai suoi artefatti (`<repo>/.reviews/`, `thread_*.json`). SALTA i prompt generici di revisione del codice che non nominano slop-review.
