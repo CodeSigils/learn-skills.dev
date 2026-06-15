@@ -1,0 +1,1 @@
+Slop-review review-thread workflows on a git feature branch. TRIGGER only when the user explicitly names "slop-review" / "slop review" or references its artifacts (`<repo>/.reviews/`, `thread_*.json`). SKIP generic code-review prompts that don't name slop-review.
