@@ -1,0 +1,1 @@
+Documents the `npx skills` CLI for installing and updating agent skills, plus the project-level `skills-lock.json` lockfile. On start, detects a `skills-lock.json` without installed skills under `.claude/skills/` and proposes restoring them via `npx skills add … --copy -y` per the source recorded in the lockfile.

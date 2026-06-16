@@ -1,0 +1,1 @@
+Generates a PR description by reading docs/pull_request_template.md and filling it with bulleted points derived from the git diff, commit log, and changed files on the current branch. ALWAYS use this skill whenever the user asks to create a PR, push a PR, open a pull request, or make a PR — in any form. This skill MUST run before `gh pr create` is called, every single time.

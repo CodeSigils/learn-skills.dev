@@ -1,0 +1,1 @@
+Detect flaky Playwright tests — runs each spec N times, flags any that pass-then-fail-then-pass, ranks by flakiness rate, suggests root causes (timing, network, parallelism, state leak). Use when the user says "flaky tests", "intermittent failure", "CI flaky", "test passes locally fails in CI".

@@ -1,0 +1,1 @@
+Mutation testing for PHP via Infection — measures TEST quality (not code quality). Mutates each line of code (e.g. `<` → `<=`, `&&` → `||`) and runs the test suite. If tests still pass, the mutation "survived" = the test missed the bug. Higher kill rate = better tests. Use when the user says "mutation testing", "Infection PHP", "test quality", "are my tests good".

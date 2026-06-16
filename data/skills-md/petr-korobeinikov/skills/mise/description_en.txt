@@ -1,0 +1,1 @@
+Configures mise as the sole runtime and CLI tool manager for a project. Every mise.toml carries [settings] disable_backends = ["ubi", "asdf"] and lockfile = true, pins every version fully, commits mise.lock, routes Python CLIs through pipx and Node CLIs through npm, and rejects competing managers (brew/nvm/asdf/volta/fnm/pyenv/ubi).

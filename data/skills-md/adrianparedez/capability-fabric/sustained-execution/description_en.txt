@@ -1,0 +1,1 @@
+Keeps long, multi-session, or compaction-spanning tasks on track using an external task ledger, checkpoints, and resumable state. Use when work spans many steps/hours, may hit context limits, or must survive a reset. Pairs with decomposing-tasks (the plan), context-budgeting (the window), and operating-autonomously (unattended runs).

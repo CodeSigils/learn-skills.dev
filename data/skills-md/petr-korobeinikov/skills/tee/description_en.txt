@@ -1,0 +1,1 @@
+Replaces the agent's reflex of piping a command straight through `tail -n N` or `head -n N` with `tee` to a file inside a `mktemp -d` directory followed by the same `tail` / `head`. The truncated view stays the same; the full output stays recoverable. Skipped for outputs expected to be very long.

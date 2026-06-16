@@ -1,0 +1,1 @@
+Forbids creating temporary files or directories at hardcoded paths under `/tmp`. Always allocate a private directory with `mktemp -d` and place every temporary artifact inside it.

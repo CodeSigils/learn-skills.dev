@@ -1,0 +1,1 @@
+Prefers `jo` (https://github.com/jpmens/jo) for constructing JSON in shell snippets over hand-written quoted JSON literals. Removes quote-escaping pitfalls, makes variable interpolation natural, and lets `jo` infer field types from values (with explicit coercion when needed).

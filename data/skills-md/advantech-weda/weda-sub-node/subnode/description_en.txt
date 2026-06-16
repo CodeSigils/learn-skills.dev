@@ -1,0 +1,10 @@
+SubNode project scaffolding tool for the Weda IoT edge computing framework. Uses `dotnet new` templates to create projects, then guides users through edge connection (simulator or real device), cloud connection (mock or real WedaNode), sensor configuration, and end-to-end verification.
+
+TRIGGER THIS SKILL when users:
+- Ask to create a new SubNode project or IoT device project
+- Want to scaffold a Modbus TCP device or custom protocol device
+- Mention "subnode", "weda", "edge device", "IoT project", or similar
+- Need to set up device communication (Modbus TCP, serial, DAQ)
+- Want to add a new device to the SubNode framework
+
+Even if the user doesn't explicitly say "subnode", trigger this skill if they're working in the edge_subnode repository and want to create a new device or project.

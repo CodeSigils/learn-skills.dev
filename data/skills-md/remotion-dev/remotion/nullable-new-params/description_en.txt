@@ -1,0 +1,1 @@
+Fix newly added optional parameters, optional React props, and optional type/interface members in Remotion monorepo diffs by converting internal APIs to required nullable values and updating call sites. Use when a PR, review, or user asks to forbid new `foo?: T` / `param?: T` additions except for exported or documented public APIs where requiring the value would be breaking.

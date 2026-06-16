@@ -1,0 +1,1 @@
+Deliberately manages the context window to cut token cost and prevent quality decay on long runs. Use when a task is long-running, involves large files or many tool outputs, the context feels full, or cost matters. For finding external info efficiently use progressive-research; for surviving multi-session work use sustained-execution.

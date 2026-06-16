@@ -1,0 +1,1 @@
+Prefers `fd` (https://github.com/sharkdp/fd) over `find` for filesystem searches in shell snippets. `fd` is faster on large trees, has saner defaults (respects `.gitignore`, smart case, regex by default), and a more ergonomic CLI. Falls back to `find` when `fd` is not available on the host.
