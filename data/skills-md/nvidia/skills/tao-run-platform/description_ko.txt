@@ -1,0 +1,1 @@
+지원되는 플랫폼(Lepton, Brev, SLURM, 로컬 Docker, Kubernetes)에서 GPU 훈련 작업을 제출하고 모니터링하기 위한 TAO 실행 SDK입니다. 사용자가 SDK를 통해 TAO 작업을 실행하고, 작업 추적, S3 I/O 래핑, 다중 노드 분산 교육 또는 docker-run이 제공할 수 없는 플랫폼별 기능을 얻으려는 경우에 사용합니다. 트리거 문구에는 "TAO SDK 사용", "tao_sdk 호출", "AutoMLRunner", "ActionWorkflow", "작업 핸들", "S3 I/O 래핑", "TAO 플랫폼 실행"이 포함됩니다.

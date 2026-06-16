@@ -1,0 +1,1 @@
+MariaDB 복제 및 고가용성을 위한 모범 사례 - Galera 클러스터, GTID 복제, 반동기 복제, 병렬 복제 및 HA 환경을 위한 애플리케이션 패턴. 복제 설정, HA용 애플리케이션 설계, Galera Cluster 작업, MariaDB GTID에 대한 질문, 애플리케이션 코드의 복제 지연 처리 또는 복제 토폴로지 선택 시 사용합니다. 중요 — MariaDB GTID 형식은 MySQL GTID와 호환되지 않으며 Galera Cluster는 로드하는 데 서버 플러그인이 필요하지 않지만 별도의 galera wsrep 공급자 라이브러리(galera-4)가 필요합니다.

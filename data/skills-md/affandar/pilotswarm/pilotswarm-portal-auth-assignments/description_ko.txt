@@ -1,0 +1,1 @@
+PilotSwarm 포털 Entra 앱의 '관리자' 또는 '사용자' 앱 역할에서 사용자/그룹을 추가하거나 제거할 때 사용합니다. 배포/스크립트/auth/Set-PortalAuthAssignments.ps1을 래핑합니다. — 멱등성, 재실행 가능, UPN/개체 ID/그룹 표시 이름을 확인합니다. 승인이 역할 기반인 경우 'Setup-PortalAuth.ps1 -CreateAppRoles' 이후에 필요합니다. 포털 액세스 권한을 부여하거나 취소해야 하는 기타 기술/에이전트는 Graph 호출 자체를 생성하는 대신 여기에서 위임해야 합니다.

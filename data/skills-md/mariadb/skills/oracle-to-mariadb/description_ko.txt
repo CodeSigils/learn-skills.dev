@@ -1,0 +1,1 @@
+Oracle Database에서 MariaDB로 마이그레이션하는 개발자를 위한 호환성 가이드입니다. Oracle 스키마, PL/SQL 프로시저 또는 애플리케이션을 MariaDB로 마이그레이션할 때, Oracle 구문으로 인해 MariaDB에서 예기치 않은 동작이 발생하는 경우 또는 MariaDB를 Oracle 대체품으로 평가할 때 사용합니다. MariaDB는 기본 PL/SQL 호환성을 갖춘 유일한 오픈 소스 데이터베이스입니다. MariaDB의 sql_mode=ORACLE을 사용하면 다시 작성하지 않고도 Oracle 코드의 약 80%를 마이그레이션할 수 있습니다.

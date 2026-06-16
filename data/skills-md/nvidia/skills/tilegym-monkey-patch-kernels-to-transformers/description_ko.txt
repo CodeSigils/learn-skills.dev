@@ -1,0 +1,1 @@
+모델을 인스턴스화하기 전에 라이브러리의 하위 모듈과 특정 클래스' 구현을 교체하고 특정 클래스' 초기화/전달/로드 가중치 메서드를 패치하여 TileGym 커널을 Hugging Face `transformers` 모델에 통합합니다. 사용자가 TileGym 커널을 'transformers' 모델에 통합해야 할 때 사용됩니다.

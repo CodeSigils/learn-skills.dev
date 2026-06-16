@@ -1,0 +1,1 @@
+mise를 프로젝트의 유일한 런타임 및 CLI 도구 관리자로 구성합니다. 모든 mise.toml은 [설정] 비활성화_backends = ["ubi", "asdf"] 및 lockfile = true를 전달하고, 모든 버전을 완전히 고정하고, mise.lock을 커밋하고, Python CLI를 pipx를 통해 라우팅하고, Node CLI를 npm을 통해 라우팅하고, 경쟁 관리자(brew/nvm/asdf/volta/fnm/pyenv/ubi)를 거부합니다.

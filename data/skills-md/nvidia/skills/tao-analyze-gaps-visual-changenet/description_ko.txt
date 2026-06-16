@@ -1,0 +1,1 @@
+NVIDIA TAO Visual ChangeNet(VCN) Classify 실험에서 'docker run … gap_analytic vcn_aoi …'를 통해 데이터 서비스 컨테이너('versions.yaml'의 'tao_toolkit.data_services')를 직접 호출하여 갭 분석을 수행합니다. — 최적의 결정 임계값을 선택하고, 샘플당 약점 순위를 매기고, 다운스트림 증강을 위해 조명별 Top-K 약한 마루 확장을 내보냅니다. VCN 분류 실패 분석, SDA 확장 대상 선택, PASS/NO_PASS 경계 사례 감사 또는 AOI ChangeNet 모델에 대한 DEFT 갭 분석 실행 시 사용합니다.

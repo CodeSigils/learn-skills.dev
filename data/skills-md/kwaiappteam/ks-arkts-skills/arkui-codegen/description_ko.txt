@@ -1,0 +1,5 @@
+ArkUI/ArkTS 코드 생성 및 수정 제약. 다음 시나리오가 자동으로 트리거됩니다.
+1. UI 코드 직접 포함: 구성 요소 생성, 페이지 작성, 기능 구현, ArkUI, 빌드, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, .ets 파일
+2. .ets 파일의 코드 수정/편집(로직 변경, 조건 변경, 스타일 변경, 기능 추가, 기능 제거, 리팩토링)
+3. 사용자가 제공한 파일 경로가 .ets로 끝나거나 코드 조각에 ArkUI 특성인 build(), @Component 등이 포함되어 있습니다.
+4. 빨간색 점, 배지, 탭, 탐색, 목록 항목 등 UI 관련 비즈니스 로직을 수정합니다.

@@ -1,0 +1,1 @@
+FastFold Workflows API를 통해 분자 역학(MD) 시뮬레이션을 실행하세요. 현재는 기존 접기 작업(AF 구조 + PAE 자동 확인) 또는 수동 PDB+PAE 업로드에서 CALVADOS+OpenMM 워크플로(calvados_openmm_v1)를 지원하고, 완료될 때까지 기다리고, 메트릭/플롯/CSV 아티팩트를 가져오고, 궤적 프레임을 PDB 파일로 추출합니다. FastFold, CALVADOS + OpenMM을 사용하여 MD 시뮬레이션을 실행할 때, MD 메트릭/플롯 읽기, 프레임 추출 또는 스크립팅 제출 → 대기 → MD 실행 결과에 사용합니다.

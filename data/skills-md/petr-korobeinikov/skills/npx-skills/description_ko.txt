@@ -1,0 +1,1 @@
+에이전트 기술 설치 및 업데이트를 위한 `npx Skills` CLI와 프로젝트 수준 `skills-lock.json` 잠금 파일을 문서화합니다. 시작 시 `.claude/skills/` 아래에 설치된 기술이 없는 `skills-lock.json`을 감지하고 잠금 파일에 기록된 소스별로 `npx Skills add … --copy -y`를 통해 복원을 제안합니다.

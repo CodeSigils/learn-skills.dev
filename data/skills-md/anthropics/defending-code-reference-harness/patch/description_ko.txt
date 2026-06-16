@@ -1,0 +1,1 @@
+검증된 보안 결과에 대한 후보 수정 사항을 생성합니다. TRIAGE.json(선호), VULN-FINDINGS.json 또는 vuln-pipeline 결과 디렉터리를 사용합니다. 파이프라인 입력은 실행이 검증된 `vuln-pipeline patch` 래더에 위임됩니다. 정적 분석 입력은 결과별 패치 하위 에이전트 + 독립 검토자를 가져오고 사람이 검토할 수 있도록 비활성 diff로 작성됩니다. PATCHES/bug_NN/{patch.diff,patch_result.json}, PATCHES.md 및 PATCHES.json을 작성합니다. "발견 사항 수정", "이러한 취약점 패치", "수정 사항 생성" 또는 "심사 시 루프 닫기"를 묻는 메시지가 표시될 때 사용합니다.

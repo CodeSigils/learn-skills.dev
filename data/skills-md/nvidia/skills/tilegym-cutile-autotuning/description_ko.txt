@@ -1,0 +1,1 @@
+CuTile 자동 튜닝 코드를 추가, 수정, 최적화 또는 디버깅할 때 사용합니다. 트리거 신호: 코드의 `exhaustive_search` / `replace_hints` / `hints_fn` / `cuda.tile.tune`, 파일 이름의 `autotune` 또는 자동 조정된 CuTile 커널의 정확성/성능 문제. 다루는 내용: 한 번 조정/캐시/실행 패턴, 아키텍처별 구성(sm80–sm120), 매개변수 공간 설계(타일 크기, 점유, num_ctas) 및 솔루션과 관련된 7가지 일반적인 함정을 다룹니다.
