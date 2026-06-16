@@ -1,0 +1,1 @@
+Ersetzt den Reflex des Agenten, einen Befehl direkt über „tail -n N“ oder „head -n N“ durch „tee“ an eine Datei in einem „mktemp -d“-Verzeichnis weiterzuleiten, gefolgt von demselben „tail“ / „head“. Die abgeschnittene Ansicht bleibt gleich; Die volle Leistung bleibt wiederherstellbar. Wird bei voraussichtlich sehr langen Ausgaben übersprungen.

@@ -1,0 +1,1 @@
+Dokumentiert die „npx skills“-CLI zum Installieren und Aktualisieren von Agent-Skills sowie die Sperrdatei „skills-lock.json“ auf Projektebene. Erkennt beim Start eine „skills-lock.json“ ohne installierte Fähigkeiten unter „.claude/skills/“ und schlägt vor, diese über „npx skills add … --copy -y“ gemäß der in der Sperrdatei aufgezeichneten Quelle wiederherzustellen.

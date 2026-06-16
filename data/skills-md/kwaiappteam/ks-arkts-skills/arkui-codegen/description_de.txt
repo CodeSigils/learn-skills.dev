@@ -1,0 +1,5 @@
+Einschränkungen bei der Generierung und Änderung von ArkUI/ArkTS-Code. Folgende Szenarien werden automatisch ausgelöst:
+1. Direkte Einbindung von UI-Code: Komponenten generieren, Seiten schreiben, Funktionalität implementieren, ArkUI, Build, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, .ets-Dateien
+2. Ändern/Bearbeiten von beliebigem Code in .ets-Dateien (Logik ändern, Bedingungen ändern, Stile ändern, Features hinzufügen, Features entfernen, Refactoring)
+3. Der vom Benutzer bereitgestellte Dateipfad endet mit .ets, oder das Code-Snippet enthält build(), @Component usw., die ArkUI-Merkmale sind
+4. Ändern der UI-bezogenen Geschäftslogik wie rote Punkte, Abzeichen, Registerkarten, Navigation, Listenelemente.

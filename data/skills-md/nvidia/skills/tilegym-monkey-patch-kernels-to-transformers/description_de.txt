@@ -1,0 +1,1 @@
+Integrieren Sie TileGym-Kernel in „Transformers“-Modelle von Hugging Face, indem Sie die Submodule der Bibliothek und bestimmte Klassenimplementierungen ersetzen und die Init-/Forward-/Load-Gewichtungsmethoden bestimmter Klassen vor der Instanziierung von Modellen patchen. Wird verwendet, wenn der Benutzer die Integration von TileGym-Kerneln in „Transformer“-Modelle benötigt.

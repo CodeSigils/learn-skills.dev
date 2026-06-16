@@ -1,0 +1,10 @@
+SubNode-Projektgerüst-Tool für das Weda IoT Edge Computing Framework. Verwendet „dotnet new“-Vorlagen zum Erstellen von Projekten und führt Benutzer dann durch die Edge-Verbindung (Simulator oder echtes Gerät), die Cloud-Verbindung (Mock- oder echter WedaNode), die Sensorkonfiguration und die End-to-End-Verifizierung.
+
+LÖSEN SIE DIESEN SKILL aus, wenn Benutzer:
+- Bitten Sie darum, ein neues SubNode-Projekt oder IoT-Geräteprojekt zu erstellen
+- Sie möchten ein Modbus-TCP-Gerät oder ein benutzerdefiniertes Protokollgerät aufbauen
+- Erwähnen Sie „Unterknoten“, „Weda“, „Edge-Gerät“, „IoT-Projekt“ oder ähnliches
+- Gerätekommunikation muss eingerichtet werden (Modbus TCP, seriell, DAQ)
+- Sie möchten dem SubNode-Framework ein neues Gerät hinzufügen
+
+Auch wenn der Benutzer nicht explizit „Unterknoten“ sagt, lösen Sie diesen Skill aus, wenn er im Repository „edge_subnode“ arbeitet und ein neues Gerät oder Projekt erstellen möchte.

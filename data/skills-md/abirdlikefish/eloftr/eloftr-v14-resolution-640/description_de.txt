@@ -1,0 +1,166 @@
+EfficientLoFTR v14 = v13 多维优化版 (训练分辨率 832->640 + 多项工程加速),
+cfg Version v13 ddp + 7 Jahre overrides, sh mehr als 7 Jahre. v14 vs v13 是干净的训练
+分辨率 Ablation——训练 Fingerabdruck 仅由 IMG_RESIZE 主导, 其他都是"语义
+等效 (反向缩放保 TRUE_LR/aktueller WARMUP-Schritt 不变, Zeitplan 等比例放大保
+Sample-Pass 总量不变) 或"工程加速" (val 协议跟 eval bat 一致, TB 数据
+ca. 80 %).
+
+v14 12 Monate / 5 Monate (NPE-Fehler) Version, Version v14 cfg „NPE-Fehler
+postmortem“; 历史上 v14 初版误加 NPE [832.832.640.640] 让 RoPE 跨分辨率
+Dehnungsverhältnis=1,3, 实测 ep0 auc@10=0,214 < outdoor.ckpt baseline 0,30+,
+根因 stretch 是 extrapolation 用的, v14 long_side 640 < 832 是 interpolation
+不该 strecken; Version 14 von NPE mit train.py:130 Fallback
+[832,832,832,832] 跟 v0-v13 一致):
+1. Ablationsparameter (1 Seite): MGDPT_IMG_RESIZE 832 -> 640 (in Datencfg
+   mega Depth_syn_pose_640.py, NICHT main cfg, und train.py:127 merge nicht
+   data_cfg AFTER main_cfg, main (siehe IMG_RESIZE)
+2. bs + LR/WARMUP 反向缩放 (3 Seiten): bs 2->4, CANONICAL_LR 1e-3->5e-4,
+   WARMUP_STEP 225->450 (TRUE_LR=1.25e-4 / tatsächlicher WARMUP-Schritt=1800 °C
+   v13/v10/v9 (nicht verfügbar)
+3. val 加速 (2 项): EVAL_TIMES 5->1 (über eval_metu_vistir_finetuned.bat
+   --ransac_times 1 协议完全一致, best-ckpt 选择 trend 不受影响),
+   --limit_val_batches 0.5->0.2 (val = 4493*0.2=899 Paar, = LoFTR
+   mega Depth_val_1500 (1500 Paar)
+4. N + Zeitplan (4 Seiten): N_SAMPLES_PER_SUBSET 200->100 (LoFTR
+   Papierstandard), max_ep 12->18 (N 砍半 -> ep 翻倍补偿 + ES 余地),
+   MSLR_MILESTONES [3,5,7]->[6,10,14] (Sample-Pass-Test),
+   EARLY_STOPPING_PATIENCE 3->5 (Folgenanzahl: 3/12=25 % vs. 5/18=28 %);
+   Die Sample-Pass-Version v14 beträgt ca. 156 KB und die ES-Version von v13 ca. 158 KB
+5. TB-Nummer (2 Seiten): ENABLE_PLOTTING True->False (lightning_loftr.py:562
+   Zugfigur 关掉, Valfigur 不受影响, Ereignisse 1,1 GB -> 220 MB),
+   --log_every_n_steps 50->500 (Skalar 10x Schritt + Schrittschrittweite 3-5%)
+
+显存预算修正 (基于 v13 Schiff mit 832+bs=2 = 20,2 GB / Monat, +4 GB vs. Plan):
+  cuDNN-Benchmark-Arbeitsbereich + DDP NCCL-Bucket-Puffer +4 GB.
+  v14 640+bs=4: sim_matrix etwa 29 % (0,93 -> 0,66 GB), mehr als 4 GB
+  Arbeitsbereich, mehr als ca. 17 GB / Monat (vs. 24 GB), mehr als 7 GB, mehr.
+
+5 个新建文件 (零 src/ 改动):
+(1) configs/data/mega Depth_syn_pose_640.py (~80 Byte, mehr als mega Depth_syn_pose_
+    trainval.py kopieren (oder MGDPT_IMG_RESIZE 832->640 + docstring)
+(2) configs/loftr/eloftr_full_v14_pose_msyn_ddp.py (~115 Jahre, Version v13 ddp
+    + 8 (CFG-Overrides, Docstring (siehe Version 13) + Zeitplan (Version 14))
+(3) configs/loftr/eloftr_full_v14_pose_msyn_singlecard.py (~23 Monate, Monate
+    v14 ddp + 单卡反向缩放 CANONICAL_LR=2e-3 / WARMUP_STEP=1800)
+(4) MyScripts/run_msyn_v14_pose_ddp.sh (~110 Jahre, Version v13 ddp.sh vor 7 Jahren:
+    data_cfg / main_cfg / exp_name / batch_size 2->4 /
+    limit_val_batches 0,5->0,2 / max_epochs 12->18 /
+    log_every_n_steps 50->500)
+(5) MyScripts/run_msyn_v14_pose_singlecard.sh (~56 Zeichen, Version v13 Singlecard
+    sh 4 处)
+
+Versanddatum (14.05.2026): NOCH NICHT versendet, nur geplant.
+cfg + sh 已 commit/未 commit 见 git status (路径全部 ?? untracked 至本
+Fertigkeit 创建时刻). 等 v13 Schiff 完成 (ca. 1-2h ES 即将触发) + 跑 METU eval
+拿数字, 再决定 v14 是否上.
+
+v13 实测对照基础 (作为 v14 Acceptance Gate 起点; 见
+.cursor/skills/eloftr-v13-pose/SKILL.md):
+  v13 bestes ep=6, auc@10=0,4096, auc@5=0,2508, auc@20=0,5730
+  v13-Wanduhr 9 Ep x 167 Min. = 25 Stunden
+  v13 events.tfevents 1,1 GB
+
+v14 Wanduhr Eigenschaften:
+  sim_matrix und Batch-Peak: 832@bs=2 0,93 GB -> 640@bs=4 0,66 GB (-29 %)
+  Einzelschrittzeit: v13 ~1,0 s/Schritt (bs=2 832) -> v14 ~0,83 s/Schritt
+    (bs=4 640 + 关 Zugzahl -5 % + log 频率砍 10x -3 %)
+  Zug pro Folge: 167 Min. @v13 -> ~32 Min. @v14 (-81 %, N 砍半 + BS 翻倍)
+  Wert pro Folge: 23 Min. @v13 -> ~1,4 Min. @v14 (-94 %, 640+1x RANSAC+0,2 Limit)
+  Folge insgesamt: 167 Min. @v13 -> ~33 Min. @v14
+  v14 17 ep x 33 min ~= 9h (~2,8x Länge vs v13 25h)
+  events.tfevents: 1,1 GB @v13 -> ~220 MB @v14 (-80%)
+
+Zeitplan für v14 (Beispieldurchlauf für v13 ES):
+  v13 best ep=6 (Sample-Pass 6 * 4400 Step * bs=4 = 105K / Rang)
+    -> v14 best ep ~12 (Sample-Pass 12 * 2300 * bs=4 = 110K / Rang, mehr)
+  v13 ES Veröffentlichung ep~9 -> v14 ES Veröffentlichung ep~15-17, max_ep 18 给 ES Veröffentlichung
+
+理论预期 (METU all auc@20 vs v13):
+  Fehler 832->640 Nichtübereinstimmung zwischen Zug und Auswertung (NPE 频率自动校准 + AGG Achtung
+    räumliches Muster + feines_Fenster 物理覆盖率): +5~15 % relativ
+  640 °C, 832 °C: -5 % relativ
+  N=100 Probendurchlauf-Werte: -2 % relativ
+  净 -2 ~ +8 % relativer AUC@20 (大概率持平或微升)
+
+Akzeptanztor (val auc@10 Monitor + METU all auc@20):
+  Stark: val auc@10 >= 0,415 (v13 0,4096 + 0,005 abs / +1,2 % rel);
+           METU alle auc@20 >= v13 + 0,5pp -> 论文 „分辨率 ablation 成功“
+  Medium: val auc@10 in [0,405, 0,415); METU +- 0,5pp ->
+           832/640 Jahre
+  Schwach: val auc@10 < 0,405; METU < v13 - 1.0pp -> 回退 v13 832 Pfad
+  Absturz: NaN / METU auc 远 < outdoor.ckpt -> NPE 设错 / cfg merge
+           顺序错; Siehe train.py:129-130
+
+风险点:
+- NPE-Fehler (Post-Mortem): v14 Version cfg.LOFTR.COARSE.NPE =
+  [832,832,640,640] 想跨分辨率校准, 但实际 Dehnungsverhältnis=1,3 zu RoPE
+  Positionsphase 错位 50 %, ep0 auc@10=0,214 < outdoor.ckpt baseline 0,30+.
+  Methode: position_encoding.py:21-22 mit train_res / test_res stretch Funktion
+  Extrapolation 用的 (Eingabe > Zug, z. B. LoFTR-Papier MegaDepth1500 1152
+  Eingabe vs. 832 Zug); v14 long_side 640 < 832 oder Interpolation, Ganzzahl
+  Position (1..20) 是 outdoor.ckpt 学过 (1..26) 的子集, Achtung 兼容
+  良好, 不该 strecken. Quelle: cfg.LOFTR.COARSE.NPE 显式设, 让
+  train.py:130 Fallback [832.832.832.832] (Verhältnis=1,0). 跑 v14 / 衍生
+  版本前再次检查 cfg 是否误加 NPE override.
+- data cfg merge Version: v14 ddp main cfg Version: MGDPT_IMG_RESIZE=640
+  (Die Datei „data cfg“ ist nicht verfügbar, „audit“ ist nicht verfügbar; die Datei „main cfg“ ist nicht mehr verfügbar. IMG_RESIZE ist tot
+  Code).
+- Outdoor.ckpt-Funktionen: Outdoor.ckpt für 832 Zug, RoPE-Puffer Sin/Cos
+  Also max_shape=(256,256) + npe=[832,832,832,832] Zeichen. v14-Fallback-NPE
+  跟 outdoor.ckpt 完全一致 (都是 [832,832,832,832] 不 stretch),
+  register_buffer(persistent=False) für ckpt (position_encoding.py:37-38),
+  Der v14-Fallback-NPE-Puffer ist nicht verfügbar.
+- bs=4 Anzahl der Einträge: 832+bs=4 OOM, 640+bs=4 OOM -29% sim_matrix Peak +
+  4 GB cuDNN/NCCL, ca. 17 GB pro Sekunde, oder 7 GB pro Sekunde. 首次跑前
+  nvidia-smi 看稳态值.
+- GPU-Version: Version 13, Betriebstemperatur GPU 0/2/3: 81–87 °C (GPU 2: 88 °C thermisch
+  Drosselung 阈值), GPU 1: 66 °C. Die GPU 2 wird gedrosselt, nicht mehr
+  NCCL all_reduce reduziert den Rang um 5-10 %. v14 跑前可选 sudo nvidia-smi
+  -i 2 -pl 280 限 GPU 2 Leistung 87->78 C, Schrittzeit -5% 但避免 Gas
+  净持平.
+
+Verwendung beim Ausführen/Debuggen/Erweitern von v14 / Vergleich von v14 vs. v13-Ablation /
+832 vs 640 / NPE 跨分辨率校准机制 / 显存预算修正 / sim_matrix
+bs=4 在 640 path 安全 / TB 数据精简 ENABLE_PLOTTING / N_SAMPLES Schedule
+等比例放大 / 写论文分辨率 ablation 章节 / v14 ckpt 选择 / METU eval v14
+ckpt 决定派生.
+
+Auslöser: v14 / v14_pose / v14_resolution_640 / msyn_v14_pose_ddp /
+IMG_RESIZE 832 -> 640 / NPE-Bug Post-Mortem / NPE-Stretch-Interpolation
+vs. Extrapolation / NPE-Fallback [832.832.832.832] / position_encoding.py
+train_res test_res / mega Depth_syn_pose_640.py / sim_matrix 砍 29% /
+bs 2 -> 4 反向缩放 / CANONICAL_LR 1e-3 -> 5e-4 / WARMUP_STEP 225 -> 450 /
+TRUE_LR 1.25e-4 Stunden / EVAL_TIMES 5 -> 1 / limit_val_batches 0.5 -> 0.2 /
+N_SAMPLES_PER_SUBSET 200 -> 100 (LoFTR-Papierstandard) / max_ep 12 -> 18 /
+MSLR [3,5,7] -> [6,10,14] / ES Geduld 3 -> 5 / ENABLE_PLOTTING False /
+log_every_n_steps 50 -> 500 / Ereignisse 1,1 GB -> 220 MB / Wanduhr 25 Stunden ->
+9 Stunden / GPU 2 thermische Drosselung / 12 Stunden / 5 Stunden / Mehr als 17 GB /
+卡 / METU 640 协议 Train/Eval Match / LWIR Thermal Native 640 假高频问题,
+Englisch „Resolution Ablation 832 to 640“, „NPE Cross-Resolution RoPE“.
+Kalibrierung“, „sim_matrix 4-te Potenz-Auflösungsskalierung“, „Reverse-Scale
+LR/WARMUP behält TRUE_LR invariant‘, ‚N_SAMPLES plant äquiproportional
+Scale-up', 'ENABLE_PLOTTING True to False speichert 80 Prozent Ereignisse',
+„13 Änderungen / 6 logische Gruppen“, „Nur-Plan-Versand ausstehend“.
+
+v14 = Pfad J 衍生 Ablation (训练分辨率维度), 不破坏 v13 Pfad J 的核心
+Cross-modale Pose 监督定位 (训练 Fingerabdruck 仅由 IMG_RESIZE 主导).
+Vererbungsdiagramm:
+  eloftr_full.py (v0-Basislinie)
+    -> v13 (B-pure Pose 监督, 832, bs=2, eloftr-v13-pose)
+      -> v14 (DIESER Skill, 640 + 工程加速, bs=4)
+
+Begleiter:
+  eloftr-v13-pose (Parent / v14 Acceptance Gate Version 0.4096)
+  eloftr-mega Depth-syn-data (Mega Depth_Syn-Datensatz SOP, Version 14)
+  eloftr-cross-modal-experiments (Kettenversion: Version 14 und Version 13)
+  eloftr-server-multigpu (DDP-Laufzeit + 5 Traps)
+  eloftr-eval-pipeline (eval_metu_vistir_finetuned.bat Version; v14 ckpt
+    待跑该 Fledermaus)
+  eloftr-results (Verbessertes Backfill-Ergebnis für Version 14)
+  eloftr-tb-summary (训练侧 KPI 总表; v14 wall-clock / best_ep / 待
+    Hinterfüllung)
+  eloftr-v15-pose-contrast (v14 的进一步 ablation 衍生, v14 + v1
+    Kontrastverlust, 1 Seite)
+  eloftr-v17-llvip (v14 mit Finetune-Funktion, v14 best ckpt + LLVIP-Funktion
+    数据集 + aggressiver einseitiger H Aug + Zeitplan V2; 第一个 Feinabstimmung
+    ab v14 (Cold Start Outdoor.ckpt (v*))

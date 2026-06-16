@@ -1,0 +1,1 @@
+Bevorzugt „fd“ (https://github.com/sharkdp/fd) gegenüber „find“ für Dateisystemsuchen in Shell-Snippets. „fd“ ist bei großen Bäumen schneller, verfügt über vernünftigere Standardeinstellungen (berücksichtigt standardmäßig „.gitignore“, Smart Case und Regex) und eine ergonomischere CLI. Fällt auf „find“ zurück, wenn „fd“ auf dem Host nicht verfügbar ist.
