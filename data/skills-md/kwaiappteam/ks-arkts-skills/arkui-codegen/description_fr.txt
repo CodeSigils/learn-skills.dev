@@ -1,0 +1,5 @@
+Contraintes de génération et de modification de code ArkUI/ArkTS. Les scénarios suivants sont automatiquement déclenchés :
+1. Impliquant directement le code de l'interface utilisateur : génération de composants, écriture de pages, implémentation de fonctionnalités, ArkUI, build, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, fichiers .ets
+2. Modification/édition de n'importe quel code dans les fichiers .ets (changement de logique, changement de conditions, changement de styles, ajout de fonctionnalités, suppression de fonctionnalités, refactorisation)
+3. Le chemin du fichier fourni par l'utilisateur se termine par .ets, ou l'extrait de code contient build(), @Component, etc., qui sont des caractéristiques d'ArkUI.
+4. Modification de la logique métier liée à l'interface utilisateur, telle que les points rouges, les badges, les onglets, la navigation et les éléments de liste.

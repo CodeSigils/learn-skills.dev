@@ -1,0 +1,1 @@
+Interdit la création de fichiers ou de répertoires temporaires sur des chemins codés en dur sous `/tmp`. Allouez toujours un répertoire privé avec `mktemp -d` et placez-y chaque artefact temporaire.

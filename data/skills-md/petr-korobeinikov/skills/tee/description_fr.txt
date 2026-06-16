@@ -1,0 +1,1 @@
+Remplace le réflexe de l'agent consistant à envoyer une commande directement via `tail -n N` ou `head -n N` par `tee` vers un fichier dans un répertoire `mktemp -d` suivi du même `tail` / `head`. La vue tronquée reste la même ; la sortie complète reste récupérable. Ignoré pour les sorties qui devraient être très longues.

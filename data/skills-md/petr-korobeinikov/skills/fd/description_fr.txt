@@ -1,0 +1,1 @@
+Préfère « fd » (https://github.com/sharkdp/fd) à « find » pour les recherches de système de fichiers dans les extraits de shell. `fd` est plus rapide sur les grands arbres, a des valeurs par défaut plus saines (respecte `.gitignore`, smart case, regex par défaut) et une CLI plus ergonomique. Revient à « find » lorsque « fd » n'est pas disponible sur l'hôte.

@@ -1,0 +1,1 @@
+Configure mise en tant que seul gestionnaire d'outils d'exécution et CLI pour un projet. Chaque mise.toml porte [settings] Disable_backends = ["ubi", "asdf"] et lockfile = true, épingle entièrement chaque version, valide mise.lock, achemine les CLI Python via pipx et les CLI Node via npm et rejette les gestionnaires concurrents (brew/nvm/asdf/volta/fnm/pyenv/ubi).

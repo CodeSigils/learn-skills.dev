@@ -1,0 +1,10 @@
+Outil d'échafaudage de projet SubNode pour le cadre informatique de pointe Weda IoT. Utilise les modèles « dotnet new » pour créer des projets, puis guide les utilisateurs à travers la connexion périphérique (simulateur ou appareil réel), la connexion cloud (simulateur ou WedaNode réel), la configuration du capteur et la vérification de bout en bout.
+
+DÉCLENCHEZ CETTE COMPÉTENCE lorsque les utilisateurs :
+- Demander à créer un nouveau projet SubNode ou un projet d'appareil IoT
+- Vous souhaitez échafauder un périphérique Modbus TCP ou un périphérique à protocole personnalisé
+- Mentionner « sous-noeud », « weda », « edge device », « projet IoT » ou similaire
+- Nécessité de configurer la communication de l'appareil (Modbus TCP, série, DAQ)
+- Vous souhaitez ajouter un nouvel appareil au framework SubNode
+
+Même si l'utilisateur ne dit pas explicitement « sous-noeud », déclenchez cette compétence s'il travaille dans le référentiel edge_subnode et souhaite créer un nouveau périphérique ou projet.

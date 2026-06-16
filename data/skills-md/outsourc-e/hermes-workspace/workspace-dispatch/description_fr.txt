@@ -1,0 +1,1 @@
+Orchestrateur de mission mono-agent. Décompose une mission en tâches, génère un travailleur par tâche en utilisant le modèle par défaut, vérifie les critères de sortie et enchaîne les tâches avec de nouvelles tentatives. Pas de modèle de critique – chaque travailleur s’auto-vérifie. Simple, rapide, fonctionne avec n'importe quelle configuration de modèle.
