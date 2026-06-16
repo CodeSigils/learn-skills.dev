@@ -1,0 +1,1 @@
+Reemplaza el reflejo del agente de canalizar un comando directamente a través de `tail -n N` o `head -n N` con `tee` a un archivo dentro de un directorio `mktemp -d` seguido del mismo `tail`/`head`. La vista truncada sigue siendo la misma; la producción total sigue siendo recuperable. Se omitió para salidas que se esperaba que fueran muy largas.

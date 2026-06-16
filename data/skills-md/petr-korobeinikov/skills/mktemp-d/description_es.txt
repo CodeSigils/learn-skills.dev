@@ -1,0 +1,1 @@
+Prohíbe la creación de archivos o directorios temporales en rutas codificadas en `/tmp`. Asigne siempre un directorio privado con `mktemp -d` y coloque todos los artefactos temporales dentro de él.

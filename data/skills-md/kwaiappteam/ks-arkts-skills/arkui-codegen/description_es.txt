@@ -1,0 +1,5 @@
+Restricciones de modificación y generación de código ArkUI/ArkTS. Los siguientes escenarios se activan automáticamente:
+1. Involucrar directamente el código de la interfaz de usuario: generar componentes, escribir páginas, implementar funciones, ArkUI, compilación, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, archivos .ets
+2. Modificar/editar cualquier código en archivos .ets (cambiar lógica, cambiar condiciones, cambiar estilos, agregar funciones, eliminar funciones, refactorizar)
+3. La ruta del archivo proporcionada por el usuario termina en .ets, o el fragmento de código contiene build(), @Component, etc., que son características de ArkUI.
+4. Modificar la lógica empresarial relacionada con la interfaz de usuario, como puntos rojos, insignias, pestañas, navegación y elementos de lista.

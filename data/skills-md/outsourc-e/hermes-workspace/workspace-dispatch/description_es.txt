@@ -1,0 +1,1 @@
+Orquestador de misión de agente único. Descompone una misión en tareas, genera un trabajador por tarea utilizando el modelo predeterminado, verifica los criterios de salida y encadena tareas con reintentos. Sin patrón crítico: cada trabajador se autoverifica. Simple, rápido, funciona con cualquier configuración de modelo.

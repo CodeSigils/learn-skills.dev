@@ -1,0 +1,10 @@
+Herramienta de andamiaje de proyectos SubNode para el marco de computación de borde Weda IoT. Utiliza plantillas "dotnet new" para crear proyectos y luego guía a los usuarios a través de la conexión perimetral (simulador o dispositivo real), la conexión a la nube (WedaNode simulada o real), la configuración del sensor y la verificación de un extremo a otro.
+
+ACTIVA ESTA HABILIDAD cuando los usuarios:
+- Solicite crear un nuevo proyecto de SubNodo o proyecto de dispositivo IoT
+- Quiere montar un dispositivo Modbus TCP o un dispositivo de protocolo personalizado
+- Mencione "subnodo", "weda", "dispositivo perimetral", "proyecto IoT" o similar.
+- Necesidad de configurar la comunicación del dispositivo (Modbus TCP, serie, DAQ)
+- Quiere agregar un nuevo dispositivo al marco de SubNode
+
+Incluso si el usuario no dice explícitamente "subnodo", active esta habilidad si está trabajando en el repositorio edge_subnode y desea crear un nuevo dispositivo o proyecto.

@@ -1,0 +1,1 @@
+Documenta la CLI `npx skills` para instalar y actualizar las habilidades del agente, además del archivo de bloqueo `skills-lock.json` a nivel de proyecto. Al iniciar, detecta un `skills-lock.json` sin skills instaladas en `.claude/skills/` y propone restaurarlos mediante `npx skills add… --copy -y` según la fuente registrada en el archivo de bloqueo.
