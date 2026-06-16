@@ -1,0 +1,5 @@
+Vincoli di generazione e modifica del codice ArkUI/ArkTS. Vengono attivati automaticamente i seguenti scenari:
+1. Coinvolgimento diretto del codice dell'interfaccia utente: generazione di componenti, scrittura di pagine, implementazione di funzionalità, ArkUI, build, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, file .ets
+2. Modifica/modifica di qualsiasi codice nei file .ets (modifica della logica, modifica delle condizioni, modifica degli stili, aggiunta di funzionalità, rimozione di funzionalità, refactoring)
+3. Il percorso del file fornito dall'utente termina con .ets o lo snippet di codice contiene build(), @Component, ecc., che sono caratteristiche di ArkUI
+4. Modifica della logica aziendale relativa all'interfaccia utente come punti rossi, badge, schede, navigazione, voci di elenco.

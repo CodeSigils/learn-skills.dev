@@ -1,0 +1,1 @@
+Routes the weakest VCN samples (output of `tao-analyze-gaps-visual-changenet`) into per-augmentation-module subsets — one parquet for k-NN mining, one for AnomalyGen (Cosmos SDG) — based on each module's label eligibility. Utilizzare come passaggio immediatamente successivo dopo l'analisi del gap DEFT in un'iterazione VCN AOI SDA.

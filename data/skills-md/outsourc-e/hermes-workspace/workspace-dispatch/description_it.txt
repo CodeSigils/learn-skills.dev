@@ -1,0 +1,1 @@
+Orchestratore di missioni con agente singolo. Decompone una missione in attività, genera un lavoratore per attività utilizzando il modello predefinito, verifica i criteri di uscita e concatena le attività con nuovi tentativi. Nessun modello critico: ogni lavoratore si autoverifica. Semplice, veloce, funziona con qualsiasi configurazione di modello.

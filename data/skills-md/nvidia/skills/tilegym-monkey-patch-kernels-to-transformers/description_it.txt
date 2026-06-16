@@ -1,0 +1,1 @@
+Integra i kernel TileGym nei modelli di "trasformatori" di Hugging Face sostituendo i sottomoduli della libreria e le implementazioni di alcune classi e applicando patch ai metodi init/forward/loadweight di determinate classi prima di istanziare i modelli. Utilizzato quando l'utente richiede l'integrazione dei kernel TileGym nei modelli "transformers".

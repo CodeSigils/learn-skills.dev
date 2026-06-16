@@ -1,0 +1,1 @@
+Configura mise come unico runtime e gestore degli strumenti CLI per un progetto. Ogni mise.toml trasporta [settings] aware_backends = ["ubi", "asdf"] e lockfile = true, blocca completamente ogni versione, esegue il commit di mise.lock, instrada le CLI Python attraverso pipx e le CLI Node attraverso npm e rifiuta i gestori concorrenti (brew/nvm/asdf/volta/fnm/pyenv/ubi).

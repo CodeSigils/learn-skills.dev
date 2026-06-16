@@ -1,0 +1,10 @@
+Strumento di impalcatura del progetto SubNode per il framework di edge computing Weda IoT. Utilizza i modelli "dotnet new" per creare progetti, quindi guida gli utenti attraverso la connessione edge (simulatore o dispositivo reale), la connessione cloud (WedaNode fittizio o reale), la configurazione del sensore e la verifica end-to-end.
+
+ATTIVA QUESTA ABILITÀ quando gli utenti:
+- Chiedere di creare un nuovo progetto SubNodo o progetto dispositivo IoT
+- Vuoi supportare un dispositivo Modbus TCP o un dispositivo con protocollo personalizzato
+- Menzionare "sottonodo", "weda", "dispositivo edge", "progetto IoT" o simili
+- Necessità di impostare la comunicazione del dispositivo (Modbus TCP, seriale, DAQ)
+- Vuoi aggiungere un nuovo dispositivo al framework SubNode
+
+Anche se l'utente non dice esplicitamente "subnode", attiva questa abilità se sta lavorando nel repository edge_subnode e desidera creare un nuovo dispositivo o progetto.

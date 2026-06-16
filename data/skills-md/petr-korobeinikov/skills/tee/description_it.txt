@@ -1,0 +1,1 @@
+Sostituisce il riflesso dell'agente di reindirizzare un comando direttamente attraverso `tail -n N` o `head -n N` con `tee` in un file all'interno di una directory `mktemp -d` seguito dallo stesso `tail` / `head`. La vista troncata rimane la stessa; l'intero output rimane recuperabile. Saltato per output che dovrebbero essere molto lunghi.
