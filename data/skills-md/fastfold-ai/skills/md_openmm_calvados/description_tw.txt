@@ -1,0 +1,1 @@
+透過 FastFold Workflows API 執行分子動力學 (MD) 模擬。今天支援來自現有折疊作業（AF 結構 + PAE 自動解析）或手動 PDB+PAE 上傳的 CALVADOS+OpenMM 工作流程 (calvados_openmm_v1)，然後等待完成，獲取指標/繪圖/CSV 工件，並提取軌跡幀作為 PDB 檔案。使用 FastFold、CALVADOS + OpenMM 執行 MD 模擬、讀取 MD 指標/圖、擷取影格或編寫腳本提交 → 等待 → MD 執行結果時使用。

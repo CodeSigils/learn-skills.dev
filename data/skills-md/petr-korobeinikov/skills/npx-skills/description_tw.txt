@@ -1,0 +1,1 @@
+記錄用於安裝和更新代理程式技能的「npx Skills」CLI，以及專案級「skills-lock.json」鎖定檔案。啟動時，檢測到“.claude/skills/”下沒有安裝技能的“skills-lock.json”，並建議根據鎖定檔案中記錄的來源透過“npx Skills add … --copy -y”恢復它們。

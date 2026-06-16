@@ -1,0 +1,1 @@
+設定每個會話的本機接收器和互動式 html 技能工件的“監視器”，以便使用者提交作為會話通知而不是複製貼上往返到達。其他 html 技能互動技能（html-mind-map、html-throaway-editor、html-brainstorm-grid、html-comparison-matrix、html-interactive-playground、html-design-prototypes）在編寫 HTML 工件之前從其飛行前塊工件調用此技能。幂等——每次都可以安全调用。傳回父技能在工件中作為「window.__CLAUDE_SUBMIT_URL__」注入的本地主機 URL。不要在不相關的對話中無提示地呼叫—這僅在即將產生互動式 html 技能工件時觸發。

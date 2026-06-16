@@ -1,0 +1,1 @@
+禁止使用“which”命令來檢查命令是否存在或解析其路徑。始終使用 POSIX shell 內建 `command -v` 來代替。

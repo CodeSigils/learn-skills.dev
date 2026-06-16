@@ -1,0 +1,5 @@
+ArkUI/ArkTS 程式碼產生和修改約束。自動觸發以下場景：
+1.直接涉及UI程式碼：產生元件、撰寫頁面、實作功能、ArkUI、build、@Component、@Entry、@Builder、@Styles、@Extend、@State、@Link、@Prop、HarmonyOS、.ets文件
+2.修改/編輯.ets檔案中的任何程式碼（更改邏輯、更改條件、更改樣式、新增功能、刪除功能、重構）
+3.使用者提供的檔案路徑以.ets結尾，或是程式碼片段包含build()、@Component等，這些都是ArkUI的特性
+4. 修改UI相關的業務邏輯，例如紅點、徽章、選項卡、導覽、清單項目。

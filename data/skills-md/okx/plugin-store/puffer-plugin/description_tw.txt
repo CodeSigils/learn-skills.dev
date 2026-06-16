@@ -1,0 +1,1 @@
+Puffer Finance（以太坊）的流動性重新抵押。將 ETH 存入 PufferVault 以鑄造 pufETH (ERC-4626 nLRT)。檢查餘額、目前 pufETH<->ETH 匯率和退出費用。選擇 1 步驟即時提款（單筆交易，支付退出費 - 預設 1%）或 2 步排隊提款（免費，約 14 天）。所有寫入命令都會將結構化 JSON 列印到 stdout，以便外部代理可以決定下一步，而無需解析 stderr。

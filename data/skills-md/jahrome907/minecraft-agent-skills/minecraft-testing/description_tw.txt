@@ -1,0 +1,1 @@
+為 1.21.x 的 Minecraft 模組和插件編寫自動化測試。涵蓋 NeoForge GameTests（@GameTest 註釋、GameTestHelper 斷言、測試結構放置）、Fabric 遊戲測試 (fabric-gametest-api-v1)、使用 JUnit 5 對非 Minecraft 邏輯進行單元測試、用於 Paper/Bukkit 外掛程式測試的 MockBukkit（以及程式碼GameTests 的 GitHub Actions CI 工作流程。包括用於模擬註冊表、測試事件處理程序、測試命令和 Minecraft 專案的測試驅動開發的模式。當使用者詢問測試 Minecraft 模組或外掛程式、編寫 GameTests、設定 MockBukkit 或為 Minecraft 專案配置 CI 時使用。

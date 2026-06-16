@@ -1,0 +1,1 @@
+為經過驗證的安全性結果產生候選修復程序。使用 TRIAGE.json（首選）、VULN-FINDINGS.json 或 vuln-pipeline 結果目錄。管道輸入被委託給執行驗證的“vuln-pipeline patch”梯子；靜態分析輸入獲得每個發現的補丁子代理+獨立審閱者，並被編寫為惰性差異以供人工審閱。寫入 PATCHES/bug_NN/{patch.diff,patch_result.json}、PATCHES.md 和 PATCHES.json。當被要求「修復發現的問題」、「修補這些漏洞」、「產生修復」或「關閉分類循環」時使用。

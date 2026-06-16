@@ -1,0 +1,3 @@
+根據技術方案、應用需求或Android程式碼片段，搜尋並列出所需的HarmonyOS ArkTS公共API。當使用者描述想要實現的功能或需要知道使用哪些API/Kit/介面時，應該觸發此功能，例如：「我需要實作什麼API...」、「拍照功能需要哪些介面」、「該需求應該使用哪個Kit」、「技術方案涉及到HarmonyOS的哪些功能」、「尋找相機相關的API」、「我可以使用哪些介面來整合地圖」。當用戶在沒有明確請求代碼的情況下描述應用程式需求時，也應該觸發它，例如：「我想建立一個需要音訊視訊通話的 IM 應用程式」——在這種情況下，識別所有相關的 API。當使用者提供 Android（Java/Kotlin）程式碼片段並請求對應的 HarmonyOS API 時，也應該被觸發，例如「什麼 API 在 HarmonyOS 上實作這個 Android 程式碼」、「幫我把這個 Android 功能移轉到 HarmonyOS，需要哪些介面」——解析 Android 程式碼並將其對應到對應的 HarmonyOS API。觸發關鍵字包括：需要哪些API、使用哪些介面、尋找API、涉及的能力、元件、技術方案、API文件、文件路徑、HarmonyOS遷移、Android遷移、Android程式碼，特別是與ArkTS/HarmonyOS/Harmony/ability/UIAbility/ArkUI或任何Kit名稱組合時。如果使用者明確要求編寫或產生 .ets 程式碼文件，則不應觸發此技能。 
+
+請始終使用使用者的語言進行回覆。

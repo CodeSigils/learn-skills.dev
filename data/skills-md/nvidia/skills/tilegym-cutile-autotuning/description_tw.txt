@@ -1,0 +1,1 @@
+新增、修改、最佳化或調試 CuTile 自動調整程式碼時使用。觸發訊號：程式碼中的“exhaustive_search”/“replace_hints”/“hints_fn”/“cuda.tile.tune”，檔案名稱中的“autotune”，或自動調整的 CuTile 核心中的正確性/效能問題。涵蓋：一次調整/快取/啟動模式、每個架構配置 (sm80–sm120)、參數空間設計（圖塊大小、佔用率、num_ctas）以及 7 個常見陷阱及其解決方案。

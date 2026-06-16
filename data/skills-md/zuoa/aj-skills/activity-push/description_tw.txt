@@ -1,0 +1,1 @@
+從微信文章提要中提取活動信息，讓模型通過讀取文章語義判斷每篇文章是否真正是活動，編寫原始/活動/結構化 JSON 文件，渲染可審閱的 Markdown 和推送就緒文本，並通過 webhook 機器人將更新發送到 WeCom 內部群組。每當使用者提及公眾號 feed、活動、活動報名資訊、企業微信群動態、webhook 動態、feed-to-activity 工作流程，或想要一個可重複的 bash/curl 管道來讀取 feeds.md 並發出 raw.json / Activity.json / Activity-structed.json /

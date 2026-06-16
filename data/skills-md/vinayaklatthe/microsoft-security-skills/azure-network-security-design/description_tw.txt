@@ -1,0 +1,1 @@
+設計安全 Azure 網路架構的指南 — 中心輻射型拓樸（或虛擬 WAN）、NSG/ASG 分段、PaaS 的專用終端/專用連結、透過 Azure 防火牆的出口、DDoS 保護、前門/應用程式閘道上的 WAF 以及集中式專用 DNS。與零信任網路支柱保持一致。時間：Azure 網路安全、中心輻射、虛擬 WAN、網路分段、NSG ASG 設計、專用終端、專用連結、DDoS 保護、安全虛擬網路、出口控制、零信任網路、專用連線設計、堡壘、JIT VM 存取。請勿用於防火牆本身（使用 azure-firewall）、VM 等級強化（使用 Defender-for-cloud-hardening）或僅用於 Key Vault 網路（使用 azure-key-vault）。

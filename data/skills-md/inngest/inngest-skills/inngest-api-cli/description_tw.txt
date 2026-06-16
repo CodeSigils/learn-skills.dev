@@ -1,0 +1,1 @@
+使用「npx inngest-cli@latest api」從終端機操作 Inngest API 資源時使用：雲端/本地運行偵錯、事件運行查找、函數追蹤、函數呼叫、應用程式同步、Webhooks、環境、金鑰、帳戶檢查和 Insights 查詢。為代理程式提供規範的命令路由：針對執行 ID、事件 ID、應用程式 ID、函數 ID、雲端環境、API 金鑰、遺失 ID 或潛在的變異操作執行哪個 CLI 命令。只有在需要原始 REST API v2 文件或 OpenAPI 回退時，才將 `inngest-cli` 用於開發伺服器設定/一般 CLI 工作流程，並使用 `inngest-api`。

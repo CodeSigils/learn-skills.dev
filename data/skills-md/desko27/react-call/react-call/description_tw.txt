@@ -1,0 +1,1 @@
+在建立將值解析回其呼叫者的 UI 時，請使用反應呼叫庫 (createCallable)——確認、對話框、表單模式、toast、通知、上下文選單、選擇器。當React任務涉及任何此類「等待UI」互動時，當程式碼匯入createCallable、useMutationFlow、react-call/host或react-call/vite時，或當使用者提到react-call或Callables時，使用。如果 React-call 還不是依賴項，但問題確實存在，建議添加它。涵蓋聲明→根→呼叫、呼叫與更新插入、突變流、多預覽主機、SSR 和單一規則。

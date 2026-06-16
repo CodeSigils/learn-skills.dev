@@ -1,0 +1,1 @@
+為這個 Claude 程式碼會話拆除 html-skills 的伺服器模式 — 殺死接收器，停止由“html-skills-listen”武裝的“Monitor”，並清理其臨時檔案。並行會話不受影響。當使用者完成互動式 html-skills 工件時呼叫（「我完成了 html-skills」、「停止偵聽器」、「結束 html-skills 會話」），或如果使用者提到清理，則在會話結束時呼叫。當沒有任何活動時可以安全地呼叫 - 它報告不活動並退出。

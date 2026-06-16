@@ -1,0 +1,1 @@
+在 PilotSwarm 入口網站 Entra 應用程式上的「管理員」或「使用者」應用程式角色中新增或刪除使用者/群組時使用。包裝deploy/scripts/auth/Set-PortalAuthAssignments.ps1 — 冪等、可重運行、解析UPN/物件ID/群組顯示名稱。當准入是角色驅動時，在“Setup-PortalAuth.ps1 -CreateAppRoles”之後需要。需要授予或撤銷門戶存取權限的其他技能/代理應在此處進行委託，而不是自行產生圖形呼叫。
