@@ -1,0 +1,1 @@
+Настраивает Mise как единственную среду выполнения и менеджер инструментов CLI для проекта. Каждый mise.toml содержит [settings]disable_backends = ["ubi", "asdf"] и lockfile = true, полностью закрепляет каждую версию, фиксирует mise.lock, маршрутизирует CLI Python через pipx и CLI Node через npm и отклоняет конкурирующие менеджеры (brew/nvm/asdf/VOLta/fnm/pyenv/ubi).
