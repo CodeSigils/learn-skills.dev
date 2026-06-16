@@ -1,0 +1,1 @@
+pr-to-video 工作流程 - GitHub 拉取请求（类似于 github.com/<owner>/<repo>/pull/<N> 或 <owner>/<repo>#<N> 的 URL，或签出存储库中的“此 PR”） -> 提取的 PR 事实（标题、正文、差异、提交、文件、+/- 统计信息） -> narrator_scripts.json + 音频（语音 + BGM）+section_plan.md ->代码差异/前后/影响解释视频。输入是代码更改。该 URL 是 PR 链接，而不是要抓取的营销网站；不是文字简介，也不是产品网站。对于非 PR 输入（产品网站、一般网站、主题文本），请参阅 /hyperframes。

@@ -1,0 +1,1 @@
+清除 ~/.codex 下超过一周的陈旧状态，以便并行 Codex CLI/TUI 会话停止锁定膨胀的 SQLite 日志、未轮换的 4 GB+ TUI 日志和数月的过时会话 JSONL。当 ~/.codex 为多 GB 时、当 12 个以上并行 Codex 实例在“数据库已锁定”上停止时、当 Logs_2.sqlite 上的 WAL 增长超过 100 MB 时，或者当您想要每周例行清除时，请使用。不适用于编辑实时配置（auth.json、config.toml、version.json、installation_id、.codex-global-state.json），不适用于 codex git 存储库，不适用于清理 ~/.codex 之外的不相关缓存。

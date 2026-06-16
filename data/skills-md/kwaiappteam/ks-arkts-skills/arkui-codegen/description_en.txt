@@ -1,6 +1,5 @@
-ArkUI/ArkTS 代码生成与修改约束。以下场景自动触发：
-1. 直接涉及 UI 代码：生成组件、写页面、实现功能、ArkUI、build、@Component、@Entry、
-   @Builder、@Styles、@Extend、@State、@Link、@Prop、鸿蒙、HarmonyOS、ets 文件
-2. 修改/编辑 .ets 文件中的任何代码（改逻辑、改条件、改样式、加功能、删功能、重构）
-3. 用户提供的文件路径以 .ets 结尾，或代码片段包含 build()、@Component 等 ArkUI 特征
-4. 修改红点、角标、Tab、导航、列表项等 UI 相关业务逻辑
+ArkUI/ArkTS code generation and modification constraints. The following scenarios are automatically triggered:
+1. Directly involving UI code: generating components, writing pages, implementing functionality, ArkUI, build, @Component, @Entry, @Builder, @Styles, @Extend, @State, @Link, @Prop, HarmonyOS, .ets files
+2. Modifying/editing any code in .ets files (changing logic, changing conditions, changing styles, adding features, removing features, refactoring)
+3. User-provided file path ends with .ets, or code snippet contains build(), @Component, etc., which are ArkUI characteristics
+4. Modifying UI‑related business logic such as red dots, badges, tabs, navigation, list items.

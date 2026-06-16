@@ -1,0 +1,1 @@
+MariaDB 复制和高可用性的最佳实践 - Galera Cluster、GTID 复制、半同步复制、并行复制和 HA 环境的应用程序模式。在设置复制、设计 HA 应用程序、使用 Galera Cluster、询问 MariaDB GTID、处理应用程序代码中的复制滞后或在复制拓扑之间进行选择时使用。重要信息 — MariaDB GTID 格式与 MySQL GTID 不兼容，Galera Cluster 不需要加载服务器插件，但需要单独的 galera wsrep 提供程序库 (galera-4)。

@@ -1,1 +1,1 @@
-TypeScript 后端的 Prisma ORM 模式 —— 模式设计、查询优化、事务、分页以及关键陷阱，如 updateMany 返回计数而非记录、$transaction 超时、migrate dev 重置数据库、@updatedAt 在批量写入时跳过、以及无服务器连接耗尽。
+Prisma ORM patterns in a TypeScript backend — pattern design, query optimization, transactions, pagination, and key pitfalls such as updateMany returning a count instead of records, $transaction timeouts, migrate dev resetting the database, @updatedAt being skipped in bulk writes, and serverless connection exhaustion.

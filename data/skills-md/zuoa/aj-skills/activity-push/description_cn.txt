@@ -1,0 +1,1 @@
+从微信文章提要中提取活动信息，让模型通过读取文章语义判断每篇文章是否真正是活动，编写原始/活动/结构化 JSON 文件，渲染可审阅的 Markdown 和推送就绪文本，并通过 webhook 机器人将更新发送到 WeCom 内部群组。每当用户提及公众号 feed、活动、活动报名信息、企业微信群动态、webhook 动态、feed-to-activity 工作流程，或者想要一个可重复的 bash/curl 管道来读取 feeds.md 并发出 raw.json / Activity.json / Activity-structed.json / Activity-structed.md / Activity-push.txt 时，请使用此技能。

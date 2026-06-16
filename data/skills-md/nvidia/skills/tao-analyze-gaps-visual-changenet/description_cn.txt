@@ -1,0 +1,1 @@
+通过直接通过“docker run…gap_analysis vcn_aoi…”调用数据服务容器（来自“versions.yaml”的“tao_toolkit.data_services”），对 NVIDIA TAO Visual ChangeNet (VCN) 分类实验执行间隙分析 — 选择最佳决策阈值，对每个样本的弱点进行排名，并发出前 K 个最弱的拼花扩展每个照明以进行下游增强。在分析 VCN 分类失败、选择 SDA 增强目标、审核 PASS/NO_PASS 边界情况或在 AOI ChangeNet 模型上运行 DEFT 差距分析时使用。

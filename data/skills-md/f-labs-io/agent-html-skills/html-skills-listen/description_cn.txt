@@ -1,0 +1,1 @@
+设置每个会话的本地接收器和交互式 html 技能工件的“监视器”，以便用户提交作为会话通知而不是复制粘贴往返到达。其他 html 技能交互技能（html-mind-map、html-throaway-editor、html-brainstorm-grid、html-comparison-matrix、html-interactive-playground、html-design-prototypes）在编写 HTML 工件之前从其飞行前块调用此技能。幂等——每次都可以安全调用。返回父技能在工件中作为“window.__CLAUDE_SUBMIT_URL__”注入的本地主机 URL。不要在不相关的对话中无提示地调用——这仅在即将生成交互式 html 技能工件时触发。

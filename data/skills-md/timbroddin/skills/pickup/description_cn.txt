@@ -1,0 +1,1 @@
+挑选一个为代理准备好的问题并进行端到端的处理。读取项目问题跟踪器以查找带有 AFK-ready 分类标签（默认“ready-for-agent”）的问题，选择一个，检查它是否确实已准备好，然后通过 /tdd 或 /diagnose 实现它并打开 PR。当用户想要获取问题、处理下一个可供代理处理的工单、开始 AFK 工作或运行 /pickup 时使用。这是to-prd→to-issues→triage→pickup管道的“工作”入口点；它与 mattpocock/技能配对。

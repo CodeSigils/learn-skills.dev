@@ -1,0 +1,1 @@
+通过读取 docs/pull_request_template.md 并用从 git diff、提交日志和当前分支上更改的文件派生的项目符号点填充它来生成 PR 描述。每当用户要求以任何形式创建 PR、推送 PR、打开拉取请求或发起 PR 时，请始终使用此技能。此技能必须在每次调用“gh pr create”之前运行。

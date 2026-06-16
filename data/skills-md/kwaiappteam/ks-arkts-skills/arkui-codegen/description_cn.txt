@@ -1,0 +1,5 @@
+ArkUI/ArkTS 代码生成和修改约束。自动触发以下场景：
+1、直接涉及UI代码：生成组件、编写页面、实现功能、ArkUI、build、@Component、@Entry、@Builder、@Styles、@Extend、@State、@Link、@Prop、HarmonyOS、.ets文件
+2.修改/编辑.ets文件中的任何代码（更改逻辑、更改条件、更改样式、添加功能、删除功能、重构）
+3、用户提供的文件路径以.ets结尾，或者代码片段中包含build()、@Component等，这些都是ArkUI的特性
+4. 修改UI相关的业务逻辑，例如红点、徽章、选项卡、导航、列表项。

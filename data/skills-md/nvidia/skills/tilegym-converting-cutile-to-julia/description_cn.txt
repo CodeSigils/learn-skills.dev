@@ -1,0 +1,1 @@
+将 cuTile Python GPU 内核 (@ct.kernel) 转换为 cuTile.jl Julia 等效项。处理内核语法转换、0 索引到 1 索引转换、广播差异、内存布局（行优先到列优先）、类型系统映射和启动 API 差异。在将 cuTile Python 内核转换、移植或翻译为 Julia cuTile.jl，或调试/优化现有 Julia cuTile 翻译时使用。

@@ -1,0 +1,1 @@
+在 shell 片段中进行文件系统搜索时，更喜欢使用 `fd` (https://github.com/sharkdp/fd) 而不是 `find`。 `fd` 在大型树上速度更快，具有更合理的默认设置（默认情况下尊重 `.gitignore`、智能大小写、正则表达式）以及更符合人体工程学的 CLI。当“fd”在主机上不可用时，回退到“find”。

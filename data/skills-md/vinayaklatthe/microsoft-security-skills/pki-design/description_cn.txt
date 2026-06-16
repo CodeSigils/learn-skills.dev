@@ -1,0 +1,1 @@
+在 Azure 和混合环境中设计公钥基础结构 (PKI) 和证书管理的指南。涵盖 CA 策略（脱机根 + 颁发 CA、AD CS 与托管/第三方与公共 CA）、Azure Key Vault 证书、HSM 密钥保护、Entra 基于证书的身份验证 (CBA)、证书生命周期（颁发、续订、轮换、吊销）和 Intune SCEP/PKCS 分发。时间：PKI 设计、证书颁发机构、根 CA 脱机、颁发 CA、证书管理、Key Vault 证书、基于证书的身份验证、CBA、证书生命周期、颁发和轮换证书、mTLS 证书、代码签名、CRL OCSP、证书过期、证书轮换、AD CS、HSM、托管 HSM。请勿用于 Entra ID 身份模型（使用 entra-id）或仅用于 Key Vault 机密/密钥（使用 azure-key-vault）。

@@ -1,0 +1,1 @@
+使用 Minecraft 1.21.x 的架构框架同时构建针对 NeoForge 和 Fabric 的 Minecraft 模组。涵盖 Architectury 项目结构（common/neoforge/fabric 子项目）、特定于平台实现的 ExpectPlatform 注释、通过 Architectury 的注册 API 共享注册表、特定于平台的入口点、architecture-loom Gradle 插件配置、两个加载器的 gradle.properties、多 jar 发布到 Modrinth 和 CurseForge，以及避免共享代码时的常见陷阱。当构建必须使用单个共享代码库在 NeoForge 和 Fabric 上运行的 mod 时，请使用此技能。

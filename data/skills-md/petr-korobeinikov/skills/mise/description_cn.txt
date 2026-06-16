@@ -1,0 +1,1 @@
+将 mise 配置为项目的唯一运行时和 CLI 工具管理器。每个mise.toml都带有[settings]disable_backends = [“ubi”，“asdf”]和lockfile = true，完全固定每个版本，提交mise.lock，通过pipx路由Python CLI，通过npm路由Node CLI，并拒绝竞争管理器（brew/nvm/asdf/volta/fnm/pyenv/ubi）。
