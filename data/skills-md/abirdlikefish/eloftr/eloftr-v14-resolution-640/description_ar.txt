@@ -1,0 +1,166 @@
+EfficientLoFTR v14 = v13 多维优化版 (训练分辨率 832->640 + 多项工程加速)،
+cfg 继承 v13 ddp + 7 项 يتجاوز، sh 改 7 处. الإصدار 14 مقابل الإصدار 13 من الإصدار 2.0
+الاستئصال —— بصمة الإصبع 仅由 IMG_RESIZE 主导, 其他都是"语义
+等效" (反向缩放保 TRUE_LR/خطوة الإحماء الفعلية 不变، الجدول الزمني 等比例放大保
+تمرير العينة 总量不变) 或"工程加速" (val 协议跟 evalbat 一致، TB 数据
+بنسبة 80٪).
+
+v14 12 项改动 / 5 组逻辑动机 (NPE bug 已删除، 详见 v14 cfg "NPE bug
+بعد الوفاة"؛ 历史上 v14 初版误加 NPE [832,832,640,640] 让 RoPE 跨分辨率
+نسبة التمدد = 1.3، 实测 ep0 auc@10=0.214 < خط الأساس Outdoor.ckpt 0.30+،
+根因 امتداد 是 استقراء 用的، v14 الجانب الطويل 640 <832 是 استيفاء
+不该 تمتد؛ 修复后 v14 不显式设 NPE 走 Train.py:130 احتياطي
+[832,832,832,832] 跟 v0-v13 一致):
+1. عملية الاجتثاث (1 نقطة): MGDPT_IMG_RESIZE 832 -> 640 (في البيانات cfg
+   megaعمق_syn_pose_640.py، وليس cfg الرئيسي، 因 Train.py:127 دمج 顺序
+   data_cfg بعد main_cfg، الرئيسي IMG_RESIZE 会被覆盖)
+2. bs + LR/WARMUP 反向缩放 (3 项): bs 2->4، CANONICAL_LR 1e-3->5e-4،
+   WARMUP_STEP 225->450 (TRUE_LR=1.25e-4 / خطوة الاحماء الفعلية=1800 跟
+   v13/v10/v9 完全一致)
+3. فال 加速 (2 项): EVAL_TIMES 5->1 (跟 eval_metu_vistir_finetuned.bat
+   --ransac_times 1 协议完全一致، أفضل اتجاه ckpt 选择،
+   --limit_val_batches 0.5->0.2 (القيمة 4493*0.2=899 زوج، 跟 LoFTR
+   megaعمق_val_1500 业界 1500 زوج 量级一致)
+4. N + الجدول الزمني 等比例放大 (4 项): N_SAMPLES_PER_SUBSET 200->100 (LoFTR)
+   الورق الافتراضي)، max_ep 12->18 (N 砍半 -> ep 翻倍补偿 + ES 余地)،
+   MSLR_MILESTONES [3,5,7]->[6,10,14] (تمريرة العينة 角度等效)،
+   EARLY_STOPPING_PATIENCE 3->5 (الحلقة الثانية: 3/12=25% مقابل 5/18=28%)؛
+   总 نموذج تمرير v14 ~156K أو v13 ES 早停后实际 ~158K 等效
+5. السل 精简 (2 项): ENABLE_PLOTTING True->False (lightning_loftr.py:562)
+   شكل القطار 关掉، شكل فال 不受影响، الأحداث 1.1 جيجابايت-> 220 ميجابايت)،
+   --log_every_n_steps 50->500 (العددية 10x + الخطوة 3-5%)
+
+显存预算修正 (السفينة v13 实测 832+bs=2 = 20.2 جيجابايت / 卡، +4 جيجابايت مقابل الخطة):
+  مساحة عمل cuDNN المعيارية + مخزن مؤقت دلو DDP NCCL +4 جيجابايت.
+  v14 640+bs=4: sim_matrix 29% (0.93->0.66 جيجابايت)، 但 BS، 4 جيجابايت
+  مساحة العمل، 实际预期 ~17 جيجابايت / 卡 (مقابل 24 جيجابايت)، 留 7 جيجابايت 余量، 安全.
+
+5 أنواع من المنتجات (零 src/ 改动):
+(1) configs/data/megareach_syn_pose_640.py (~80 بوصة، 从 megaعمق_syn_pose_
+    نسخة Trainval.py MGDPT_IMG_RESIZE 832->640 + docstring)
+(2) configs/loftr/eloftr_full_v14_pose_msyn_ddp.py (~115 بوصة، الإصدار v13 ddp
+    + 8 项 cfg overrides، docstring 含 v13 实测曲线 + v14 جدول زمني)
+(3) configs/loftr/eloftr_full_v14_pose_msyn_singlecard.py (~23 بوصة، 继承
+    v14 ddp + CANONICAL_LR=2e-3 / WARMUP_STEP=1800)
+(4) MyScripts/run_msyn_v14_pose_ddp.sh (~110 بوصة، الإصدار v13 ddp.sh 7 أيام:
+    data_cfg / main_cfg / exp_name / Batch_size 2->4 /
+    Limit_val_batches 0.5->0.2 / max_epochs 12->18 /
+    log_every_n_steps 50->500)
+(5) MyScripts/run_msyn_v14_pose_singlecard.sh (~56 بوصة، 基于 v13 Singlecard
+    ش 改 4 处)
+
+السفينة 状态 (2026-05-14): لم يتم شحنها بعد، للخطة فقط.
+cfg + sh 已 التزام/未 التزام 见 git Status (路径全部 ؟؟ غير متعقب 至本
+المهارة 创建时刻). 等 v13 ship 完成 (剩 1-2h ES 即将触发) + 跑 تقييم METU
+الإصدار الجديد, الإصدار v14 من الإصدار الجديد.
+
+v13 实测对照基础 (作为 v14 بوابة القبول 起点; 见
+.cursor/skills/eloftr-v13-pose/SKILL.md):
+  v13 أفضل ep=6، auc@10=0.4096، auc@5=0.2508، auc@20=0.5730
+  ساعة الحائط v13 9 إب × 167 دقيقة = 25 ساعة
+  v13 events.tfevents 1.1GB
+
+ساعة الحائط v14
+  sim_matrix 单 ذروة الدفعة: 832@bs=2 0.93 جيجابايت -> 640@bs=4 0.66 جيجابايت (-29%)
+  وقت الخطوة الواحدة: v13 ~1.0 ثانية/خطوة (bs=2 832) -> v14 ~0.83 ثانية/خطوة
+    (bs=4 640 + 关 شكل القطار -5% + سجل 频率砍 10x -3%)
+  تدريب لكل حلقة: 167 دقيقة @v13 -> ~32 دقيقة @v14 (-81%، N 砍半 + bs 翻倍)
+  القيمة لكل حلقة: 23 دقيقة @v13 -> ~1.4 دقيقة @v14 (-94%، 640+1x RANSAC+0.2 حد)
+  إجمالي الحلقة: 167 دقيقة @v13 -> ~33 دقيقة @v14
+  الإصدار 14 估 17 حلقة × 33 دقيقة ~= 9 ساعات (~2.8x 加速 مقابل الإصدار 13 25 ساعة)
+  events.tfevents: 1.1 جيجابايت @v13 -> ~220 ميجابايت @v14 (-80%)
+
+جدول v14 推算 (تمرير العينة 等效 v13 ES 早停后):
+  الإصدار 13 أفضل ep=6 (تمرير العينة 6 * 4400 خطوة * bs=4 = 105 ألف / رتبة)
+    -> الإصدار 14 أفضل ep ~ 12 (تمرير العينة 12 * 2300 * bs=4 = 110 ألف / الرتبة، 等效)
+  v13 ES 触发 ep~9 -> v14 ES 触发 ep~15-17, max_ep 18 给 ES 留余地
+
+理论预期 (METU all auc@20 vs v13):
+  消除 832->640 عدم تطابق القطار/التقييم (NPE 频率自动校准 + انتباه AGG
+    النمط المكاني + نافذة دقيقة (物理覆盖率): +5~15% نسبي
+  640 هانز هانز 832 弱: -5% نسبي
+  N=100 تمرير العينة: -2% نسبي
+  净 -2 ~ +8% نسبي auc@20 (大概率持平或微升)
+
+بوابة القبول (شاشة val auc@10 + METU الكل auc@20):
+  قوي : val auc@10 >= 0.415 (v13 0.4096 + 0.005 abs / +1.2% rel);
+           METU all auc@20 >= v13 + 0.5pp -> 论文 "استئصال الاجتثاث"
+  متوسط: فال auc@10 في [0.405، 0.415)؛ ميتو +- 0.5pp ->
+           832/640
+  ضعيف: فال auc@10 <0.405؛ METU < v13 - 1.0pp -> مسار v13 832
+  الأعطال: NaN / METU auc 远 <outdoor.ckpt -> NPE 设错 / cfg merge
+           顺序错; 查 Train.py:129-130
+
+风险点:
+- خطأ NPE في الخطأ (بعد الوفاة): الإصدار 14 من الإصدار cfg.LOFTR.COARSE.NPE =
+  [832,832,640,640] 想跨分辨率校准، نسبة التمدد = 1.3 让 حبل
+  مرحلة الموضع 错位 50%، ep0 auc@10=0.214 <outdoor.ckpt baseline 0.30+.
+  المصدر: Position_encoding.py:21-22 的 Train_res / test_res Stretch 是给
+  الاستقراء 用的 (الإدخال > القطار، على سبيل المثال ورقة LoFTR MegaDepth1500 1152
+  الإدخال مقابل 832 قطار)؛ v14 long_side 640 < 832 是 الاستيفاء، عدد صحيح
+  الموضع (1..20) 是 Outdoor.ckpt 学过 (1..26) 的子集، انتباه 兼容
+  良好، 不该 تمتد. 修复: 删除 cfg.LOFTR.COARSE.NPE 显式设، 让
+  Train.py:130 احتياطي [832,832,832,832] (النسبة = 1.0). · v14 / 衍生
+  版本前再次检查 cfg 是否误加 تجاوز NPE.
+- دمج بيانات cfg العنوان: v14 ddp main cfg MGDPT_IMG_RESIZE=640
+  (يمكنك اختيار data cfg 覆盖، التدقيق 时困惑؛ 在 main cfg 里设 IMG_RESIZE 是 ميت
+  الكود).
+- Outdoor.ckpt 加载兼容: Outdoor.ckpt 是 832 Train، RoPE buffer sin/cos
+  max_shape=(256,256) + npe=[832,832,832,832] 算. الإصدار 14 الاحتياطي NPE
+  跟 Outdoor.ckpt 完全一致 (都是 [832,832,832,832] 不 امتداد)،
+  Register_buffer(persistent=False) ckpt (position_encoding.py:37-38)،
+  v14 自动用 احتياطي NPE 算 المخزن المؤقت، 完全兼容.
+- bs=4 السعة: 832+bs=4 OOM، 640+bs=4 理论 -29% sim_matrix الذروة +
+  4 جيجابايت cuDNN/NCCL 实测预期 ~17 جيجابايت / 卡، 留 7 جيجابايت 余量، 安全. 首次跑前
+  nvidia-smi 看稳态值.
+- وحدة معالجة الرسومات: v13 السفينة 实测 GPU 0/2/3: 81-87 درجة مئوية (GPU 2 接近 88 درجة مئوية حرارية)
+  خنق 阈值)، GPU 1: 66 C 散热好. 当 GPU 2 触发 خنق، 整组
+  NCCL all_reduce رتبة 拖慢 5-10%. v14 跑前可选 sudo nvidia-smi
+  -i 2 -pl 280 限 GPU 2 قوة 87->78 C، وقت الخطوة -5% 但避免 خنق
+  净持平.
+
+يُستخدم عند التشغيل/تصحيح الأخطاء/التوسيع v14 / 解释 v14 vs v13 ablation /
+بطاقة 832 vs 640 / NPE 跨分辨率校准机制 / 显存预算修正 / sim_matrix
+bs=4 640 مسارًا / TB جدول ENABLE_PLOTTING / N_SAMPLES
+等比例放大 / 写论文分辨率 الاجتثاث 章节 / v14 ckpt 选择 / METU eval v14
+ckpt 决定派生.
+
+المشغلات: v14 / v14_pose / v14_resolution_640 / msyn_v14_pose_ddp /
+IMG_RESIZE 832 -> 640 / خطأ NPE بعد الوفاة / استيفاء تمديد NPE
+مقابل الاستقراء/الاحتياطي NPE [832,832,832,832] /position_encoding.py
+Train_res test_res / megaعمق_syn_pose_640.py / sim_matrix 砍 29% /
+bs 2 -> 4 反向缩放 / CANONICAL_LR 1e-3 -> 5e-4 / WARMUP_STEP 225 -> 450 /
+TRUE_LR 1.25e-4 不变 / EVAL_TIMES 5 -> 1 / Limit_val_batches 0.5 -> 0.2 /
+N_SAMPLES_PER_SUBSET 200 -> 100 (ورق LoFTR الافتراضي) / max_ep 12 -> 18 /
+MSLR [3,5,7] -> [6,10,14] / الصبر ES 3 -> 5 / ENABLE_PLOTTING خطأ /
+log_every_n_steps 50 -> 500 / الأحداث 1.1 جيجابايت -> 220 ميجابايت / ساعة الحائط 25 ساعة ->
+9 ساعات / GPU 2 الاختناق الحراري / 12 بوصة / 5 بوصات / 17 جيجا بايت /
+卡 / METU 640 协议 مطابقة القطار/التقييم / LWIR الأصلي الحراري 640 假高频问题،
+الإنجليزية "دقة الاستئصال من 832 إلى 640"، "NPE Cross-resolution RoPE".
+"المعايرة"، "sim_matrix مقياس دقة الطاقة الرابع"، "المقياس العكسي"
+LR/WARMUP يحافظ على TRUE_LR ثابتًا، 'N_SAMPLES جدول زمني متساوي التناسب
+توسيع النطاق، "ENABLE_PLOTTING True to False يوفر 80 بالمائة من الأحداث"،
+"13 تغييرًا / 6 مجموعات منطقية"، "شحن الخطة فقط معلق".
+
+v14 = مسار J استئصال الاجتثاث (训练分辨率维度)، 不破坏 مسار v13 J 的核心
+الوضعية المتقاطعة 监督定位 (训练 بصمة الإصبع 仅由 IMG_RESIZE 主导).
+الرسم البياني للميراث:
+  eloftr_full.py (خط الأساس v0)
+    -> الإصدار 13 (B-الوضعية النقية 监督, 832, bs=2, eloftr-v13-pose)
+      -> الإصدار 14 (هذه المهارة، 640 + 工程加速، bs=4)
+
+رفيق:
+  Eloftr-v13-pose (بوابة القبول الأصلية / v14 起点 0.4096)
+  بيانات Eloftr-mega Deep-syn (مجموعة بيانات Mega Deep_Syn SOP، الإصدار 14 复用)
+  تجارب Eloftr-cross-modal (سلسلة 路线总览؛ v14 是 v13 衍生)
+  eloftr-server-multigpu (وقت تشغيل DDP + 5 مصائد)
+  eloftr-eval-pipeline (eval_metu_vistir_finetuned.bat 协议; v14 ckpt
+    待跑该 الخفافيش)
+  نتائج eloftr (跨版本数字总表; v14 数字待 backfill)
+  ملخص eloftr-tb (训练侧 KPI 总表; v14 wall-clock / best_ep / 待
+    الردم)
+  eloftr-v15-pose-contrast (v14 的进一步 الاجتثاث 衍生، v14 + v1
+    الخسارة المتناقضة، 1 项改动)
+  eloftr-v17-llvip (v14 的 Finetune 派生، v14 best ckpt + LLVIP 像素对齐
+    数据集 + جانب واحد عدواني H aug + جدول V2؛ 第一个 غرامة
+    من الإصدار 14 而不是 بداية باردة في الهواء الطلق.ckpt 的 v* 实验)

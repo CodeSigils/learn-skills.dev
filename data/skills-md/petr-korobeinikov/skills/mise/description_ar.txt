@@ -1,0 +1,1 @@
+يقوم بتكوين mise باعتباره وقت التشغيل الوحيد ومدير أداة CLI للمشروع. يحمل كل mise.toml [إعدادات] Disable_backends = ["ubi"، "asdf"] وlockfile = true، ويثبت كل إصدار بالكامل، وينفذ mise.lock، ويوجه Python CLIs من خلال pipx وNode CLIs من خلال npm، ويرفض المديرين المتنافسين (brew/nvm/asdf/volta/fnm/pyenv/ubi).
