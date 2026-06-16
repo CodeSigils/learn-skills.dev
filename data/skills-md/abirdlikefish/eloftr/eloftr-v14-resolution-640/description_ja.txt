@@ -1,0 +1,166 @@
+EfficientLoFTR v14 = v13 多维优化版 (训练分辨率 832->640 + 多项工程加速)、
+cfg 承認 v13 ddp + 7 オーバーライド、sh 改 7 处。 v14 と v13 は干净の話です
+分率アブレーション——训练指紋 仅による IMG_RESIZE 主导、他都是"语义
+等效" (逆向缩放保 TRUE_LR/実際の WARMUP ステップ不变、スケジュール等比放大保
+サンプルパス总量不变) または「工程加速」 (val 协议跟 eval but 一致、TB データ
+精简 80%)。
+
+v14 12 変更 / 5 組織 (NPE バグ既除、详见 v14 cfg "NPE バグ)
+post-mortem"; 历史上 v14 初版误加 NPE [832,832,640,640] 让 RoPE 跨分辨率
+伸縮率=1.3、实测 ep0 auc@10=0.214 < Outdoor.ckpt ベースライン 0.30+、
+根元のストレッチは外挿です、v14 長辺 640 < 832 は補間です
+ストレッチではありません。 修复後 v14 不显式设 NPE 走行 train.py:130 フォールバック
+[832,832,832,832] 跟 v0-v13 一致):
+1. 核心アブレーションの变量 (1 项): MGDPT_IMG_RESIZE 832 -> 640 (データ cfg 内)
+   mega Depth_syn_pose_640.py、メイン cfg ではありません、train.py:127 マージ顺序のため
+   data_cfg AFTER main_cfg, main 设 IMG_RESIZE 会被覆盖)
+2. bs + LR/WARMUP 逆方向缩放 (3 项): bs 2->4、CANONICAL_LR 1e-3->5e-4、
+   WARMUP_STEP 225->450 (TRUE_LR=1.25e-4 / 実際の WARMUP ステップ = 1800 跟)
+   v13/v10/v9 完全一致)
+3. val 加速 (2 项): EVAL_TIMES 5->1 (跟 eval_metu_vistir_finetuned.bat)
+   --ransac_times 1 协议完全一致、best-ckpt 选择傾向不受影响)、
+   --limit_val_batches 0.5->0.2 (val 实跑 4493*0.2=899 ペア、跟 LoFTR)
+   mega Depth_val_1500 业界 1500 ペア量级一致)
+4. N + スケジュール等比拡大 (4 项): N_SAMPLES_PER_SUBSET 200->100 (LoFTR)
+   用紙のデフォルト)、max_ep 12->18 (N 砍半 -> ep 翻倍补偿 + ES )、
+   MSLR_MILESTONES [3,5,7]->[6,10,14] (サンプルパス角度等效)、
+   EARLY_STOPPING_PATIENCE 3->5 (ep 等比略压: 3/12=25% vs 5/18=28%);
+   总サンプルパス v14 ~156K 跟 v13 ES 早停止後实际 ~158K 等效
+5. TB 精简 (2 项): ENABLE_PLOTTING True->False (lightning_loftr.py:562)
+   列車図关掉、ヴァル図不受影响、イベント 1.1GB->220MB)、
+   --log_every_n_steps 50->500 (スカラー 10x 稀疏 + ステップ加速 3-5%)
+
+残存計算修正 (v13 出荷時の 832+bs=2 = 20.2 GB / 卡、計画に対して +4 GB):
+  cuDNN ベンチマーク ワークスペース + DDP NCCL バケット バッファー +4 GB。
+  v14 640+bs=4: sim_matrix 砍 29% (0.93->0.66 GB)、ただし bs 翻倍、加上 4 GB
+  ワークスペース、实际预期 ~17 GB / 卡 (対 24 GB)、7 GB 余量、安全。
+
+5 个新建文件 (ゼロソース/修正):
+(1) configs/data/mega Depth_syn_pose_640.py (~80 行、mega Depth_syn_pose_
+    trainval.py コピー 仅修正 MGDPT_IMG_RESIZE 832->640 + docstring)
+(2) configs/loftr/eloftr_full_v14_pose_msyn_ddp.py (~115 行、继承 v13 ddp)
+    + 8 项 cfg オーバーライド、docstring 含 v13 实测曲線 + v14 スケジュール推算)
+(3) configs/loftr/eloftr_full_v14_pose_msyn_singlecard.py (~23 行、继承
+    v14 ddp + 单卡逆方向缩放 CANONICAL_LR=2e-3 / WARMUP_STEP=1800)
+(4) MyScripts/run_msyn_v14_pose_ddp.sh (~110 行、v13 ddp.sh 改 7 に基づく:
+    データ_cfg / メイン_cfg / exp_name / バッチサイズ 2->4 /
+    limit_val_batches 0.5->0.2 / max_epochs 12->18 /
+    log_every_n_steps 50->500)
+(5) MyScripts/run_msyn_v14_pose_singlecard.sh (~56 行、v13 singlecard ベース)
+    sh 改 4 处)
+
+出荷状況 (2026-05-14): まだ出荷されていません。計画のみです。
+cfg + sh 既コミット/未コミット 见 git status (路径全部 ?? 未追跡 至本
+スキル创建時刻）。 等 v13 出荷完了 (剩 1-2h ES 即触発信) + 跑 METU 評価
+数字、v14 が上であるかどうかを再決定します。
+
+v13 の実際の基準 (v14 の受け入れゲートの起点として; 参照)
+.cursor/skills/eloftr-v13-pose/SKILL.md):
+  v13 ベスト ep=6、auc@10=0.4096、auc@5=0.2508、auc@20=0.5730
+  v13 壁掛け時計 9 ep x 167 分 = 25 時間
+  v13 イベント.tfevents 1.1GB
+
+v14 壁掛け時計の推算:
+  sim_matrix 单バッチ ピーク: 832@bs=2 0.93GB -> 640@bs=4 0.66GB (-29%)
+  シングルステップ時間: v13 ~1.0 秒/ステップ (bs=2 832) -> v14 ~0.83 秒/ステップ
+    (bs=4 640 + 关列車図 -5% + 対数周波数砍 10x -3%)
+  1 話あたりのトレーニング: 167 分 @v13 -> ~32 分 @v14 (-81%、N 砍半 + bs 翻倍)
+  ep あたりの有効時間: 23 分 @v13 -> ~1.4 分 @v14 (-94%、640+1x RANSAC+0.2 制限)
+  ep 合計: 167 分 @v13 -> ~33 分 @v14
+  v14 估 17 ep x 33 分 ~= 9 時間 (~2.8x 加速 vs v13 25 時間)
+  events.tfevents: 1.1 GB @v13 -> ~220 MB @v14 (-80%)
+
+v14 スケジュール推算 (サンプルパス等效 v13 ES 早停後):
+  v13 ベスト ep=6 (サンプルパス 6 * 4400 ステップ * bs=4 = 105K / ランク)
+    -> v14 ベスト ep ~12 (サンプルパス 12 * 2300 * bs=4 = 110K / ランク、等效)
+  v13 ES 接触 ep~9 -> v14 ES 接触 ep~15-17、max_ep 18 给 ES 残り
+
+理论预期 (METU すべての auc@20 対 v13):
+  832->640 train/eval 不一致の解消 (NPE 周波数自動校正 + AGG アテンション)
+    空間パターン + Fine_window 物理被覆率): +5~15% 相対
+  640 训练分辨率本身比 832 弱: -5% 相対
+  N=100 サンプルパス 略减: -2% 相対
+  净 -2 ~ +8% 相対 auc@20 (大概率持平または微升)
+
+受け入れゲート (val auc@10 モニター + METU all auc@20):
+  強い : val auc@10 >= 0.415 (v13 0.4096 + 0.005 abs / +1.2% rel);
+           METU all auc@20 >= v13 + 0.5pp -> 论文 "分辨率アブレーション成功"
+  媒体: val auc@10 in [0.405, 0.415); METU +- 0.5pp ->
+           832/640 都行
+  弱い : val auc@10 < 0.405; METU < v13 - 1.0pp -> 戻る v13 832 パス
+  クラッシュ : NaN / METU auc 远 < Outdoor.ckpt -> NPE 设错 / cfg マージ
+           顺序错; 查 train.py:129-130
+
+ポイント:
+- NPE バグ 已修复 (事後): v14 初版追加了 cfg.LOFTR.COARSE.NPE =
+  [832,832,640,640] 想跨分辨率校正、但し伸縮率=1.3 让 RoPE
+  位置位相错位 50%、ep0 auc@10=0.214 < 屋外.ckpt ベースライン 0.30+。
+  根因:position_encoding.py:21-22 の train_res / test_res ストレッチです
+  外挿用 (入力 > トレーニング、例: LoFTR ペーパー MegaDepth1500 1152)
+  入力 vs 832 トレイン); v14 long_side 640 < 832 は補間、整数
+  位置 (1..20) は、outdoor.ckpt 学过 (1..26) 的子集、注意兼容
+  ストレッチは良好、伸びはありません。 修正: 删除 cfg.LOFTR.COARSE.NPE 显式设、让
+  train.py:130 フォールバック [832,832,832,832] (比率=1.0)。 跑 v14 / 派生
+  バージョン前の再次检查 cfg が NPE オーバーライドの有無を判断します。
+- データ cfg マージ顺序: v14 ddp main cfg 不要也设 MGDPT_IMG_RESIZE=640
+  (データ CFG によって覆い隠され、監査時に副作用; メイン CFG の里程で IMG_RESIZE が無効になっています
+  コード）。
+- Outdoor.ckpt 加納兼容: Outdoor.ckpt は 832 train、RoPE バッファ sin/cos
+  按 max_shape=(256,256) + npe=[832,832,832,832] 計算。 v14 フォールバック NPE
+  跟 Outdoor.ckpt 完全一致 (都是 [832,832,832,832] 不伸),
+  register_buffer(persistent=False) 不入力 ckpt (position_encoding.py:37-38)、
+  v14 自動用フォールバック NPE 演算バッファ、完全互換。
+- bs=4 显存预算: 实测 832+bs=4 OOM, 640+bs=4 理论 -29% sim_matrix ピーク +
+  4 GB cuDNN/NCCL 实测预期 ~17 GB / 卡、7 GB 余量、安全。 最初跑前
+  nvidia-smi を参照してください。
+- GPU 散熱: v13 出荷時 GPU 0/2/3: 81-87 C (GPU 2 の熱温度は約 88 C)
+  スロットリング阈值)、GPU 1: 66 C 散热好。 GPU 2 がスロットルを触ると、整体
+  NCCL all_reduce 等最低速ランク 拖低速 5-10%。 v14 前に選択可能 sudo nvidia-smi
+  -i 2 -pl 280 制限 GPU 2 電力 87->78 C、ステップ時間 -5% ただしスロットルを回避
+  净持平。
+
+v14 の実行/デバッグ/拡張時に使用します / 解释 v14 と v13 のアブレーション /
+分辨率 832 vs 640 / NPE 跨分辨率校正机制 / 显存预算修正 / sim_matrix
+bs=4 640 パスで安全 / TB データ精简 ENABLE_PLOTTING / N_SAMPLES スケジュール
+等比拡大 / 写论文分辨率 ablation 章节 / v14 ckpt 选择 / METU eval v14
+ckpt 决定派生。
+
+トリガー: v14 / v14_pose / v14_resolution_640 / msyn_v14_pose_ddp /
+IMG_RESIZE 832 -> 640 / NPE バグ事後検証 / NPE ストレッチ補間
+vs 外挿 / NPE フォールバック [832,832,832,832] /position_encoding.py
+train_res test_res / mega Depth_syn_pose_640.py / sim_matrix 砍 29% /
+bs 2 -> 4 逆方向缩放 / CANONICAL_LR 1e-3 -> 5e-4 / WARMUP_STEP 225 -> 450 /
+TRUE_LR 1.25e-4 不变 / EVAL_TIMES 5 -> 1 / limit_val_batches 0.5 -> 0.2 /
+N_SAMPLES_PER_SUBSET 200 -> 100 (LoFTR 用紙のデフォルト) / max_ep 12 -> 18 /
+MSLR [3,5,7] -> [6,10,14] / ES 忍耐力 3 -> 5 / ENABLE_PLOTTING False /
+log_every_n_steps 50 -> 500 / イベント 1.1GB -> 220MB / 実時間 25h ->
+9 時間 / GPU 2 サーマル スロットリング / 12 変更 / 5 個のコンピュータ / 保存 17 GB /
+卡 / METU 640 协议 train/eval match / LWIR サーマルネイティブ 640 假高周波问题、
+英語「解像度アブレーション 832 ～ 640」、「NPE クロス解像度 RoPE」
+キャリブレーション'、'sim_matrix 4 乗分解能スケーリング'、'逆スケール
+LR/WARMUP は TRUE_LR を不変に保ちます'、'N_SAMPLES のスケジュールは等比例します
+スケールアップ', 'ENABLE_PLOTTING True to False によりイベントが 80% 節約されます',
+「13 の変更 / 6 つの論理グループ」、「計画のみ出荷保留中」。
+
+v14 = パス J 派生アブレーション (训练分辨率维度)、不破壊 v13 パス J の核心
+クロスモーダル ポーズの监督定位 (训练指紋仅による IMG_RESIZE 主导)。
+継承グラフ:
+  eloftr_full.py (v0 ベースライン)
+    -> v13 (B-pure ポーズ监督、832、bs=2、eloftr-v13-pose)
+      -> v14 (このスキル、640 + 工程加速、bs=4)
+
+同行者:
+  eloftr-v13-pose (親/v14 アクセプタンス ゲート起点 0.4096)
+  eloftr-mega Depth-syn-data (Mega Depth_Syn データセット SOP、v14 用)
+  eloftr-cross-modal-experiments (チェーン回線总览; v14 は v13 派生)
+  eloftr-server-multigpu (DDP ランタイム + 5 トラップ)
+  eloftr-eval-pipeline (eval_metu_vistir_finetuned.bat 协议; v14 ckpt
+    待ち跑该バット)
+  eloftr-results (跨版本数字总表; v14 数字待ちバックフィル)
+  eloftr-tb-summary (训练侧 KPI 总表; v14 ウォールクロック / best_ep / 待機
+    埋め戻し）
+  eloftr-v15-pose-contrast (v14 のさらなるアブレーション派生、v14 + v1
+    対照的な損失、1 项修正)
+  eloftr-v17-llvip (v14 の Finetune 派生、v14 best ckpt + LLVIP 像素对齐)
+    データ集 + アグレッシブな片面 8 月 + スケジュール V2; 最初の微調整
+    v14 以降ではなく、コールド スタート Outdoor.ckpt の v* 实验)
