@@ -1,0 +1,1 @@
+cuTile GPU 커널(@ct.kernel)을 Triton(@triton.jit)으로 변환합니다. 표준 저장소 내 변환, 디버깅(cudaErrorIllegalAddress, 모양 불일치, 숫자 불일치) 및 cuTile 관용구(ct.load/ct.store, ct.Constant, ct.launch)를 Triton 대응 항목으로 매핑하는 작업을 처리합니다. Translations/advanced-patterns.md에 따라 이중 커널 레이아웃 플래그(예: transpose=True/False + META를 통한 자동 조정 그리드)를 다룹니다. cuTile 커널을 Triton으로 변환, 이식 또는 번역하거나 기존 Triton 번역을 디버깅할 때 사용합니다.

@@ -1,0 +1,21 @@
+프로젝트에서 Apache-관리자 프레임워크를 채택하고 유지합니다.
+스냅샷 기반 채택 메커니즘을 통한 리포지토리. 유일한
+채택자의 저장소에 투입된 프레임워크 기술 — 기타
+스킬은 채택 하위 액션 와이어를 연결하는 심볼릭 링크입니다.
+하위 작업:
+  `/setup-steward` — 최초 채택(기본값;
+                              기본 결제만 가능)
+  `/setup-steward 업그레이드` — 무시된 스냅샷 새로 고침
+                              커밋된 잠금당
+                              (기본 결제만 해당)
+  `/setup-steward worktree-init` — 작업 트리의 심볼릭 링크
+                              메인 스냅샷
+  `/setup-steward verify` — 상태 확인 + 드리프트 감지
+  `/setup-steward override <skill>` — 열기 또는 비계
+                              에이전트 재정의
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — 채택을 취소합니다(스냅샷,
+                             잠금, 심볼릭 링크, 후크, 문서
+                             섹션); 보존하다
+                             `.apache-steward-overrides/` 작성자
+                             기본값(기본 결제만 해당)

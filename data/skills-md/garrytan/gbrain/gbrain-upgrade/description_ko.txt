@@ -1,0 +1,6 @@
+gbrain을 최신 상태로 유지하세요. `gbrain` 호출이 다음을 인쇄할 때
+`UPGRADE_AVAILABLE <기존> <신규>` 마커(또는 `gbrain self-upgrade --check-only`
+업데이트 보고) 구성된 self_upgrade.mode에 따라 적용합니다.
+(교환원에게 4가지 옵션 질문 + 다시 알림 메시지 표시) 또는 자동(적용)
+조용히). 작업은 항상 하드코딩된 `gbrain self-upgrade`입니다.
+마커에서 명령을 읽습니다.
