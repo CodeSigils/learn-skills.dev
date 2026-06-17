@@ -1,0 +1,9 @@
+Holen Sie über cmux eine zweite Meinung zu Code oder Spezifikationen von einem anderen KI-Agenten ein.
+Standardprüfer: Codex (oder Claude Code, wenn das übergeordnete Element Codex ist). Unterstützt benutzerdefinierte Agenten.
+Verwendet review_rules.md als Überprüfungskriterium, sofern verfügbar.
+
+Erfordert eine cmux-Sitzung (CMUX_SOCKET_PATH muss festgelegt sein).
+
+Englische Auslöser: „zweite Meinung“, „eine weitere Bewertung einholen“, „Codex dies überprüfen lassen“
+日本語トリガー: Codex
+Slash-Befehl: /cmux-second-opinion

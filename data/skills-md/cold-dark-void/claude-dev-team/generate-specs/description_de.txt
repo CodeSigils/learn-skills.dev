@@ -1,0 +1,5 @@
+Reverse Engineering von Verhaltensspezifikationen aus vorhandenem Quellcode. Liest die Codebasis,
+Gruppiert die öffentliche Oberfläche nach Domäne und schreibt MUSS/SOLL/MUSS-NICHT-Spezifikationen daraus
+was der Code eigentlich macht. Alle Ausgaben sind als INFERRED gekennzeichnet und erfordern einen menschlichen Eingriff
+Rezension. Entwickelt für Legacy-Projekte ohne vorhandene Spezifikationen. Zur Einrichtung einmal ausführen
+eine Grundlinie und verwenden Sie dann /reflect-specs, um sie aktuell zu halten.

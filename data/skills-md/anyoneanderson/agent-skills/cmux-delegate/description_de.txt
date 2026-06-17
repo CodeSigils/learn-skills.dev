@@ -1,0 +1,9 @@
+Delegieren Sie eine Aufgabe an einen anderen KI-Agenten in einem separaten Cmux-Bereich oder Arbeitsbereich.
+Unterstützt Claude Code, Codex, Gemini CLI und benutzerdefinierte Agenten.
+Verwaltet den Agentenstart, die Aufgabenübermittlung, die Abschlusserkennung und die Ergebniserfassung.
+
+Erfordert eine cmux-Sitzung (CMUX_SOCKET_PATH muss festgelegt sein).
+
+Englische Auslöser: „Aufgabe delegieren“, „in einem anderen Bereich ausführen“, „diesen Vorgang von einem anderen Agenten ausführen lassen“
+日本語トリガー: 「別ペインでやらせて」「委任して」「別のエージェントにやらせて」「このタスクを投げて」
+Slash-Befehl: /cmux-delegate

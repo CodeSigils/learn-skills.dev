@@ -1,0 +1,21 @@
+Übernehmen und pflegen Sie das Apache-Steward-Framework in einem Projekt
+Repo über den Snapshot-basierten Adoptionsmechanismus. Der Einzige
+Framework-Fähigkeit, die im Repo eines Anwenders festgelegt wird – jedes andere
+Fertigkeit ist ein symbolischer Link, der mit der Unteraktion „Annehmen“ verbunden ist.
+Unteraktionen:
+  „/setup-steward“ – erstmalige Einführung (Standard;
+                              nur Hauptkasse)
+  „/setup-steward upgrade“ – aktualisiert den gitignored-Snapshot
+                              pro festgeschriebener Sperre
+                              (nur Hauptkasse)
+  `/setup-steward worktree-init` – Symlink eines Arbeitsbaums
+                              Schnappschuss zum Main
+  „/setup-steward verify“ – Gesundheitsprüfung + Abweichungserkennung
+  `/setup-steward override <skill>` – Öffnen oder Gerüstieren einer
+                              Agentenüberschreibung in
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` – Umkehrung der Übernahme (Snapshot,
+                             Sperren, Symlinks, Hook, Doc
+                             Abschnitte); konserviert
+                             `.apache-steward-overrides/` von
+                             Standard (nur Hauptkasse)

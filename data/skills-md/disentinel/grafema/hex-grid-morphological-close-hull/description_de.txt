@@ -1,0 +1,11 @@
+Berechnen Sie eine einheitliche Außenhülle um eine Gruppe von Hex-Kacheln, die Folgendes umfasst:
+Mehrere getrennte Subcluster, getrennt durch 1-Kachel-Lücken. Verwenden Sie, wenn:
+(1) Rendern verschachtelter Hierarchiehüllen (z. B. „Paket“-Hüllenumhüllung).
+mehrere „Unterregion“-Hexinseln), (2) die naive Grenzspur
+Umreißt jede Insel separat statt als eine Tasche, (3) Flutfüllung
+von außen geht DURCH die 1-Hex-Lücken und markiert sie außen,
+(4) Die Heuristik „nicht benachbarte Nachbarn derselben Gruppe“ überfüllt die L-Form
+Konkavitäten, (5) nur axiale, entgegengesetzte Paarfüllungsfehler, nicht axial
+Brücken zwischen Inseln. Lösung: morphologischer Abschluss (dilatieren + erodieren)
+auf dem Hex-Raster – füllt genau die inneren 1-Hex-Lücken ohne
+Beeinflussen Sie die Außenecken und zeichnen Sie dann die Grenze auf der geschlossenen Form nach.
