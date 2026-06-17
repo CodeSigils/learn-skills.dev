@@ -1,0 +1,1 @@
+cuTile GPU カーネル (@ct.kernel) を Triton (@triton.jit) に変換します。標準のリポジトリ内変換、デバッグ (cudaErrorIllegalAddress、形状の不一致、数値の不一致)、および cuTile イディオム (ct.load/ct.store、ct.Constant、ct.launch) の Triton 相当物へのマッピングを処理します。 translations/advanced-patterns.md ごとに、デュアル カーネル レイアウト フラグ (transpose=True/False + META による自動調整グリッドなど) をカバーします。 cuTile カーネルを Triton に変換、移植、または翻訳する場合、または既存の Triton 翻訳をデバッグする場合に使用します。

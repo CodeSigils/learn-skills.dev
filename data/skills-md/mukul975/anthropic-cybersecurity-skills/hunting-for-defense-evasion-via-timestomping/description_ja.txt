@@ -1,0 +1,1 @@
+MFT の $STANDARD_INFORMATION と $FILE_NAME のタイムスタンプを比較することで、NTFS タイムスタンプの操作 (MITRE T1070.006) を検出します。 analyzeMFT と Python を使用して、反フォレンジック タイムストンピング アクティビティを示す異常な時間的パターンを持つファイルを識別します。

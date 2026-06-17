@@ -1,0 +1,6 @@
+gbrain を最新の状態に保ちます。 `gbrain` 呼び出しが出力するとき、
+`UPGRADE_AVAILABLE <old> <new>` マーカー (または `gbrain self-upgrade --check-only`)
+更新を報告します）、設定された self_upgrade.mode に従って適用します。
+(オペレーターに 4 択の質問 + スヌーズを促す) または自動 (適用)
+黙って）。アクションは常にハードコーディングされた「gbrain 自己アップグレード」です。
+マーカーから読み取られたコマンド。

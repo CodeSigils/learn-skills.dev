@@ -1,0 +1,21 @@
+プロジェクトでの Apache-Steward フレームワークの採用と維持
+スナップショットベースの導入メカニズムを介してリポジトリを作成します。唯一の
+アダプターのリポジトリにコミットされたフレームワーク スキル - 1 つおき
+スキルは、サブアクションを採用するためのシンボリックリンクです。
+サブアクション:
+  `/setup-steward` — 初回採用 (デフォルト。
+                              メインチェックアウトのみ)
+  `/setup-steward upgrade` — gitignored スナップショットを更新します
+                              コミットされたロックごとに
+                              (メインチェックアウトのみ)
+  `/setup-steward worktree-init` — ワークツリーのシンボリックリンク
+                              メインのスナップショット
+  `/setup-steward verify` — ヘルスチェック + ドリフト検出
+  `/setup-steward override <skill>` — オープンまたはスキャフォールディング
+                              エージェントオーバーライド
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — 採用を逆にします (スナップショット、
+                             ロック、シンボリックリンク、フック、ドキュメント
+                             セクション);保存する
+                             `.apache-steward-overrides/` による
+                             デフォルト (メインチェックアウトのみ)
