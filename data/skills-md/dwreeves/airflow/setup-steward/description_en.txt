@@ -1,0 +1,21 @@
+Adopt and maintain the apache-steward framework in a project
+repo via the snapshot-based adoption mechanism. The only
+framework skill committed in an adopter's repo — every other
+skill is a symlink the adopt sub-action wires up.
+Sub-actions:
+  `/setup-steward`         — first-time adoption (default;
+                              main-checkout only)
+  `/setup-steward upgrade` — refresh the gitignored snapshot
+                              per the committed lock
+                              (main-checkout only)
+  `/setup-steward worktree-init` — symlink a worktree's
+                              snapshot to the main's
+  `/setup-steward verify`  — health check + drift detection
+  `/setup-steward override <skill>` — open or scaffold an
+                              agentic override in
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — reverse the adoption (snapshot,
+                             locks, symlinks, hook, doc
+                             sections); preserves
+                             `.apache-steward-overrides/` by
+                             default (main-checkout only)

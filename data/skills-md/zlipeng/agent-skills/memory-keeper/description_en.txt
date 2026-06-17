@@ -1,0 +1,4 @@
+Save and load durable knowledge — project facts, conversation context, or user requirements/preferences — in a per-project memory store under `~/.agents/memories/`.
+TRIGGER (save) when: the user invokes this skill to persist something; says "save this to memory", "remember this", "记一下", "保存记忆", "记住这个", "把这个存到记忆里"; states a durable preference, decision, or constraint worth carrying across sessions; or asks to summarize the project / context for later.
+TRIGGER (load) when: the user invokes this skill to recall; says "load project memory", "read my memories", "what do you remember", "读取该项目记忆", "加载记忆", "回忆一下这个项目"; or starts work on a project and wants prior context restored.
+DO NOT TRIGGER when: the fact only matters to the current turn, is already recorded in the repo (code, README, git history), or the user is just asking a question without wanting anything persisted or recalled.

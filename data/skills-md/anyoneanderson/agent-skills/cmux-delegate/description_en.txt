@@ -1,0 +1,9 @@
+Delegate a task to another AI agent in a separate cmux pane or workspace.
+Supports Claude Code, Codex, Gemini CLI, and custom agents.
+Handles agent launch, task submission, completion detection, and result collection.
+
+Requires cmux session (CMUX_SOCKET_PATH must be set).
+
+English triggers: "delegate task", "run this in another pane", "have another agent do this"
+日本語トリガー: 「別ペインでやらせて」「委任して」「別のエージェントにやらせて」「このタスクを投げて」
+Slash command: /cmux-delegate

@@ -1,0 +1,9 @@
+Get a second opinion on code or specifications from a different AI agent via cmux.
+Default reviewer: Codex (or Claude Code if parent is Codex). Supports custom agents.
+Uses review_rules.md as review criteria when available.
+
+Requires cmux session (CMUX_SOCKET_PATH must be set).
+
+English triggers: "second opinion", "get another review", "have Codex review this"
+日本語トリガー: 「セカンドオピニオン」「別のAIにレビューしてもらって」「Codexにレビューさせて」
+Slash command: /cmux-second-opinion

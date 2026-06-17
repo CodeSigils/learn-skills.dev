@@ -1,0 +1,11 @@
+Compute a unified outer hull around a group of hex tiles that includes
+multiple disconnected sub-clusters separated by 1-tile gaps. Use when:
+(1) rendering nested hierarchy hulls (e.g. "package" hull wrapping
+multiple "sub-region" hex islands), (2) the naive boundary trace
+outlines each island separately instead of as one bag, (3) flood-fill
+from outside walks THROUGH the 1-hex gaps and marks them exterior,
+(4) heuristic "non-adjacent same-group neighbours" over-fills L-shape
+concavities, (5) axial-only opposite-pair filling misses non-axial
+bridges between islands. Solution: morphological close (dilate + erode)
+on the hex grid — fills exactly the interior 1-hex gaps without
+affecting exterior corners, then trace boundary on the closed shape.
