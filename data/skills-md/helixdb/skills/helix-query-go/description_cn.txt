@@ -1,0 +1,1 @@
+使用 Go SDK 编写和修改 HelixDB 查询。在 Go 中使用返回 helix.Request、ReadQuery/WriteQuery、内联参数、遍历构建器、投影、索引、BM25 文本搜索、矢量搜索和 client.Exec 的普通函数构建动态 Helix 查询时使用。动态优先；不要对 Go v1 使用存储查询或捆绑工作流程。

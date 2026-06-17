@@ -1,0 +1,1 @@
+通过将根级 `skills-lock.json` 中的 `compulatedHash` 与上游存储库的最新状态进行比较来更新它。 “source”不以“Fandhe-AI/”开头的条目不会被克隆并被跳过（安全阀）。不要修改任何子模块下的`skills-lock.json`。这在合并“contribute-skill”之后或与上游同步“哈希更新”或“技能锁定同步”等任务后使用。

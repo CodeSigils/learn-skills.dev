@@ -1,1 +1,1 @@
-コード変更 (`git diff`) の品質・アーキテクチャ準拠・セキュリティ (OWASP Top 10) を Agent ツール委譲で読み取り専用レビューする。コミット前/PR 作成前のセルフレビュー、「変更をレビューして」「コードレビューして」などで使用。GitHub PR のレビューには implement-review-pr を使用。
+Perform a read‑only review of code changes (`git diff`) for quality, architectural compliance, and security (OWASP Top 10) by delegating to an Agent tool. Use it for self‑reviews before committing or creating a PR, e.g., “review the changes” or “code review”. For reviewing GitHub PRs, use **implement-review-pr**.

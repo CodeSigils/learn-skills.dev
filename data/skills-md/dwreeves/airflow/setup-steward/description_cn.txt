@@ -1,0 +1,21 @@
+在项目中采用和维护 apache-steward 框架
+通过基于快照的采用机制进行回购。唯一的
+采用者的回购协议中承诺的框架技能——其他的
+技能是采用子动作连接起来的符号链接。
+子操作：
+  `/setup-steward` — 首次采用（默认；
+                              仅主要结帐）
+  `/setup-steward Upgrade` — 刷新 gitignored 快照
+                              根据提交的锁
+                              （仅限主结帐）
+  `/setup-steward worktree-init` — 工作树的符号链接
+                              主要的快照
+  `/setup-steward verify` — 健康检查 + 漂移检测
+  `/setup-steward override <skill>` — 打开或搭建一个
+                              代理超越
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — 反转采用（快照、
+                             锁、符号链接、钩子、文档
+                             部分）；蜜饯
+                             `.apache-steward-overrides/` 通过
+                             默认（仅限主结帐）
