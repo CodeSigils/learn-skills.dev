@@ -1,0 +1,6 @@
+Mantieni il cervello aggiornato. Quando un'invocazione `gbrain` stampa un file
+Indicatore `UPGRADE_AVAILABLE <vecchio> <nuovo>` (o `gbrain self-upgrade --check-only`
+segnala un aggiornamento), applicalo secondo il self_upgrade.mode configurato: notify
+(richiedi all'operatore una domanda con 4 opzioni + posticipa) o automatico (applica
+silenziosamente). L'azione è sempre l'"autoaggiornamento gbrain" codificato, mai un
+comando letto dal marcatore.

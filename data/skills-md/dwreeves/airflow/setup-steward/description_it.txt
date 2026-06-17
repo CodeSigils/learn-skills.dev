@@ -1,0 +1,21 @@
+Adottare e mantenere il framework apache-steward in un progetto
+repository tramite il meccanismo di adozione basato su snapshot. L'unico
+abilità del quadro impegnato nel repository di un adottante - ogni altro
+l'abilità è un collegamento simbolico che l'azione secondaria adotta collega.
+Sottoazioni:
+  `/setup-steward` — prima adozione (impostazione predefinita;
+                              solo cassa principale)
+  `/setup-steward upgrade` — aggiorna lo snapshot gitignored
+                              per il blocco impegnato
+                              (solo cassa principale)
+  `/setup-steward worktree-init` — collega simbolicamente un albero di lavoro
+                              istantanea su quella principale
+  `/setup-steward verify`: controllo dello stato + rilevamento della deriva
+  `/setup-steward override <skill>` — aprire o impalcatura an
+                              override dell'agente
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — inverte l'adozione (istantanea,
+                             serrature, collegamenti simbolici, gancio, doc
+                             sezioni); conserve
+                             `.apache-steward-overrides/` di
+                             predefinito (solo check-out principale)

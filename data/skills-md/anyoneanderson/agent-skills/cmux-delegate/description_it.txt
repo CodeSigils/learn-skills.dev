@@ -1,0 +1,9 @@
+Delega un'attività a un altro agente AI in un riquadro cmux o in un'area di lavoro separata.
+Supporta Claude Code, Codex, Gemini CLI e agenti personalizzati.
+Gestisce l'avvio dell'agente, l'invio delle attività, il rilevamento del completamento e la raccolta dei risultati.
+
+Richiede una sessione cmux (è necessario impostare CMUX_SOCKET_PATH).
+
+Trigger in inglese: "delega attività", "esegui questa operazione in un altro riquadro", "chiedi a un altro agente di farlo"
+日本語トリガー: 「別ペインでやらせて」「委任して」「別のエージェントにやらせて」「このタスクを投げて」
+Comando barra: /cmux-delegate

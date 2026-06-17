@@ -1,0 +1,11 @@
+Calcola uno scafo esterno unificato attorno a un gruppo di tessere esagonali che include
+più sottocluster disconnessi separati da spazi di 1 tessera. Utilizzare quando:
+(1) rendering di scafi gerarchici nidificati (ad esempio avvolgimento dello scafo "pacchetto").
+molteplici isole esagonali di "sottoregioni"), (2) l'ingenua traccia di confine
+delinea ciascuna isola separatamente invece che come un sacchetto, (3) pieno
+dall'esterno cammina ATTRAVERSO gli spazi di 1 esagono e li contrassegna all'esterno,
+(4) "vicini dello stesso gruppo non adiacenti" euristici riempiono eccessivamente la forma a L
+concavità, (5) riempimento solo assiale della coppia opposta non assiale
+ponti tra le isole. Soluzione: chiusura morfologica (dilatare + erodere)
+sulla griglia esagonale: riempie esattamente gli spazi interni di 1 esagono senza
+interessando gli angoli esterni, quindi tracciare il contorno sulla forma chiusa.

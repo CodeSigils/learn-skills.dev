@@ -1,0 +1,5 @@
+Decodifica le specifiche comportamentali dal codice sorgente esistente. Legge la base di codice,
+raggruppa la superficie pubblica per dominio e scrive le specifiche MUST/SHOULD/MUST NOT da
+cosa fa effettivamente il codice. Tutto l'output è contrassegnato come INFERRED e richiede l'intervento umano
+revisione. Progettato per progetti legacy senza specifiche esistenti. Corri una volta per stabilire
+una linea di base, quindi utilizzare /reflect-specs per mantenerli aggiornati.

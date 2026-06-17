@@ -1,0 +1,9 @@
+Ottieni una seconda opinione sul codice o sulle specifiche da un diverso agente AI tramite cmux.
+Revisore predefinito: Codex (o Codice Claude se il genitore è Codex). Supporta agenti personalizzati.
+Utilizza review_rules.md come criterio di revisione quando disponibile.
+
+Richiede una sessione cmux (è necessario impostare CMUX_SOCKET_PATH).
+
+Trigger in inglese: "seconda opinione", "richiedi un'altra revisione", "chiedi al Codex di rivederlo"
+日本語トリガー: 「セカンドオピニオン」「別のAIにレビューしてもらって」「Codexにレビューさせて」
+Comando barra: /cmux-seconda-opinione

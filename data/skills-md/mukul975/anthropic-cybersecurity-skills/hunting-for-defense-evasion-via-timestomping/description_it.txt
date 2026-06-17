@@ -1,0 +1,1 @@
+Rileva la manipolazione del timestamp NTFS (MITRE T1070.006) confrontando i timestamp $STANDARD_INFORMATION e $FILE_NAME nella MFT. Utilizza analyzeMFT e Python per identificare file con modelli temporali anomali che indicano attività di timestomp anti-forense.
