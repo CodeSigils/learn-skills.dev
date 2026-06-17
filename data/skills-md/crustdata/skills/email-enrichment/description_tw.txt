@@ -1,0 +1,1 @@
+豐富電子郵件地址列表，以查找每個地址背後的人（電子郵件到個人資料）。在 Crustdata MCP 工具中使用 7 階段瀑布：crustdata_company_identify、crustdata_people_enrich（business_email + individual_email）、crustdata_people_search_db（三種不同的過濾策略）、crustdata_web_search。處理速率限制、驗證、進度保存和復原。觸發條件：“豐富這些電子郵件”、“這些人是誰”、“查找這些電子郵件地址的資訊”、“查找這些聯絡人”、“從電子郵件中識別人員”、“反向電子郵件查找”、“電子郵件到個人資料”，或者當有人提供需要聯絡資訊的電子郵件地址列表/CSV/電子表格時。

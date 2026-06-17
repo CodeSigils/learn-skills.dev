@@ -1,0 +1,6 @@
+保持gbrain最新。當“gbrain”呼叫打印出
+`UPGRADE_AVAILABLE <old> <new>` 標記（或 `gbrain self-upgrade --check-only`
+報告更新），根據配置的 self_upgrade.mode 應用它：notify
+（以 4 個選項的問題提示操作員 + 暫停）或自動（應用
+默默地）。操作始終是硬編碼的「gbrain 自我升級」——從來都不是
+從標記讀取命令。

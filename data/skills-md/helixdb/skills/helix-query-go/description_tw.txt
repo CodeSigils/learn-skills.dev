@@ -1,0 +1,1 @@
+使用 Go SDK 編寫和修改 HelixDB 查詢。在 Go 中使用傳回 helix.Request、ReadQuery/WriteQuery、內聯參數、遍歷建構器、投影、索引、BM25 文字搜尋、向量搜尋和 client.Exec 的普通函數建立動態 Helix 查詢時使用。動態優先；不要對 Go v1 使用儲存查詢或捆綁工作流程。

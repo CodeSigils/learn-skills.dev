@@ -1,0 +1,1 @@
+透過比較 MFT 中的 $STANDARD_INFORMATION 與 $FILE_NAME 時間戳來偵測 NTFS 時間戳操作 (MITRE T1070.006)。使用analyzeMFT和Python來識別具有異常時間模式的文件，表明反取證時間戳活動。

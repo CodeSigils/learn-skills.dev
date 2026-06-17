@@ -1,0 +1,1 @@
+將舊版 HelixDB HQL (.hx `QUERY ... => ... RETURN`) 轉換為 Rust DSL 或 TypeScript DSL。當輸入包含 HQL 語法時使用 - QUERY、N<T>/E<T>/V<T>、AddN/AddE/AddV、Out/In/OutE/InE、FromN/ToN、WHERE/EQ/GT/EXISTS、SearchV/SearchBM25、GROUP_BY/AGGREGATE_BY、可以目標是等效的 Rust 或 TypeScript DSL 查詢。標記沒有 DSL 等效功能的 HQL 功能。請參閱 REFERENCE.md 以了解完整的映射表，並參閱 Examples.md 以了解已完成的 HQL→Rust→TS 遷移。
