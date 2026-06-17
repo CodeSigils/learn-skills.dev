@@ -1,0 +1,21 @@
+Adoptar y mantener el marco apache-steward en un proyecto.
+repositorio a través del mecanismo de adopción basado en instantáneas. el unico
+habilidad de marco comprometida en el repositorio de un adoptante - cada dos
+La habilidad es un enlace simbólico que adopta la subacción.
+Subacciones:
+  `/setup-steward` — adopción por primera vez (predeterminado;
+                              solo pago principal)
+  `/setup-steward Upgrade` — actualiza la instantánea ignorada por git
+                              por el bloqueo comprometido
+                              (solo pago principal)
+  `/setup-steward worktree-init` — enlace simbólico de un árbol de trabajo
+                              instantánea a la principal
+  `/setup-steward verificar` — control de estado + detección de deriva
+  `/setup-steward override <skill>` — abre o estructura una
+                              anulación agente en
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — revertir la adopción (instantánea,
+                             cerraduras, enlaces simbólicos, gancho, doc
+                             secciones); conservas
+                             `.apache-steward-overrides/` por
+                             predeterminado (solo pago principal)

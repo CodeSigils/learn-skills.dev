@@ -1,0 +1,1 @@
+Detecte la manipulación de la marca de tiempo NTFS (MITRE T1070.006) comparando las marcas de tiempo $STANDARD_INFORMATION con $FILE_NAME en el MFT. Utiliza analyseMFT y Python para identificar archivos con patrones temporales anómalos que indican actividad anti-forense de control de tiempo.

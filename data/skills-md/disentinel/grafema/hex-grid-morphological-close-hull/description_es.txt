@@ -1,0 +1,11 @@
+Calcule un casco exterior unificado alrededor de un grupo de mosaicos hexagonales que incluya
+múltiples subgrupos desconectados separados por espacios de 1 mosaico. Úselo cuando:
+(1) renderizar cascos de jerarquía anidados (por ejemplo, envoltura de casco de "paquete"
+múltiples islas hexagonales de "subregión"), (2) el trazo de límite ingenuo
+describe cada isla por separado en lugar de como una sola bolsa, (3) relleno de inundación
+desde afuera camina A TRAVÉS de los espacios de 1 hexágono y los marca en el exterior,
+(4) la heurística "vecinos no adyacentes del mismo grupo" llena en exceso la forma de L
+concavidades, (5) el llenado de pares opuestos solo axial falla no axial
+Puentes entre islas. Solución: cierre morfológico (dilatar + erosionar)
+en la rejilla hexagonal: llena exactamente los espacios interiores de 1 hexágono sin
+que afecta las esquinas exteriores, luego traza el límite en la forma cerrada.

@@ -1,0 +1,9 @@
+Delegue una tarea a otro agente de IA en un panel o espacio de trabajo cmux independiente.
+Admite Claude Code, Codex, Gemini CLI y agentes personalizados.
+Maneja el lanzamiento del agente, el envío de tareas, la detección de finalización y la recopilación de resultados.
+
+Requiere sesión cmux (se debe configurar CMUX_SOCKET_PATH).
+
+Activadores en inglés: "delegar tarea", "ejecutar esto en otro panel", "hacer que otro agente haga esto"
+日本語トリガー: 「別ペインでやらせて」「委任して」「別のエージェントにやらせて」「このタスクを投げて」
+Comando de barra diagonal: /cmux-delegate

@@ -1,0 +1,1 @@
+Audite las directivas Go nolint en busca de obsolescencias y justificaciones vagas. Verifica mecánicamente cada supresión con golangci-lint y luego lleva a cabo debates contradictorios Rojo/Azul/Blanco sobre los principales candidatos a ser eliminados. Úselo cuando se hereda un código base de Go, durante la limpieza periódica o cuando el recuento de nolint aumenta sin control.
