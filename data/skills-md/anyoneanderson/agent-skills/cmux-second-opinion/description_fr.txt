@@ -1,0 +1,9 @@
+Obtenez un deuxième avis sur le code ou les spécifications d'un autre agent IA via cmux.
+Réviseur par défaut : Codex (ou Claude Code si le parent est Codex). Prend en charge les agents personnalisés.
+Utilise review_rules.md comme critère de révision lorsqu'il est disponible.
+
+Nécessite une session cmux (CMUX_SOCKET_PATH doit être défini).
+
+Déclencheurs en anglais : "deuxième avis", "obtenir un autre avis", "demander au Codex d'examiner ceci"
+日本語トリガー : "Codex"
+Commande slash : /cmux-second-opinion

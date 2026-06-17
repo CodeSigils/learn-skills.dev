@@ -1,0 +1,11 @@
+Calculez une coque extérieure unifiée autour d'un groupe de tuiles hexagonales qui comprend
+plusieurs sous-clusters déconnectés séparés par des espaces d'une tuile. À utiliser lorsque :
+(1) rendu des coques hiérarchiques imbriquées (par exemple, emballage de coque "paquet"
+plusieurs îles hexagonales de "sous-région"), (2) la trace de frontière naïve
+décrit chaque île séparément au lieu de former un seul sac, (3) remplissage par inondation
+de l'extérieur, traverse les espaces vides d'un hex et les marque à l'extérieur,
+(4) l'heuristique « voisins non adjacents du même groupe » remplit excessivement la forme en L
+concavités, (5) remplissage axial uniquement par paire opposée manque non axial
+ponts entre les îles. Solution : fermeture morphologique (dilate + érode)
+sur la grille hexagonale — remplit exactement les espaces intérieurs d'un hex sans
+affectant les coins extérieurs, puis tracez la limite sur la forme fermée.

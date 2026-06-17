@@ -1,0 +1,1 @@
+Détectez la manipulation de l'horodatage NTFS (MITRE T1070.006) en comparant les horodatages $STANDARD_INFORMATION et $FILE_NAME dans le MFT. Utilise analyserMFT et Python pour identifier les fichiers présentant des modèles temporels anormaux indiquant une activité de timestomping anti-légal.

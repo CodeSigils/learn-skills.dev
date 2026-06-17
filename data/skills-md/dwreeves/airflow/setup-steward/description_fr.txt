@@ -1,0 +1,21 @@
+Adopter et maintenir le framework Apache-steward dans un projet
+repo via le mécanisme d’adoption basé sur un instantané. Le seul
+compétence de cadre engagée dans le dépôt d'un adoptant - tous les deux
+la compétence est un lien symbolique vers lequel la sous-action d'adoption est connectée.
+Sous-actions :
+  `/setup-steward` — première adoption (par défaut ;
+                              caisse principale uniquement)
+  `/setup-steward Upgrade` — actualise l'instantané gitignored
+                              par le verrou validé
+                              (caisse principale uniquement)
+  `/setup-steward worktree-init` — lien symbolique vers un arbre de travail
+                              instantané sur le principal
+  `/setup-steward verify` — bilan de santé + détection de dérive
+  `/setup-steward override <skill>` — ouvre ou échafaude un
+                              remplacement agent dans
+                              `.apache-steward-overrides/`
+  `/setup-steward unadopt` — annule l'adoption (instantané,
+                             verrous, liens symboliques, crochet, doc
+                             sections); préserve
+                             `.apache-steward-overrides/` par
+                             par défaut (paiement principal uniquement)

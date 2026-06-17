@@ -1,0 +1,5 @@
+Rétro-ingénierie des spécifications comportementales à partir du code source existant. Lit la base de code,
+regroupe la surface publique par domaine et écrit les spécifications DOIT/DEVRAIT/NE DOIT PAS partir de
+ce que fait réellement le code. Toutes les sorties sont marquées INFÉRÉES et nécessitent une intervention humaine.
+examen. Conçu pour les projets existants sans spécifications existantes. Exécutez une fois pour établir
+une référence, puis utilisez /reflect-specs pour les maintenir à jour.
