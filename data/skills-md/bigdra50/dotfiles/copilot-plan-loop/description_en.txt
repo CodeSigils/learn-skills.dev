@@ -1,3 +1,1 @@
-設計プランをCopilot CLIレビューで反復改善するループ。プラン作成→Copilotレビュー→FB反映→再レビューを収束まで繰り返す。
---model でレビューモデル、--effort で推論レベルを指定可能。
-Use for: "copilot-plan-loop", "Copilotとプラン練る", "設計レビューループ(Copilot)", "プラン精度上げて(Copilot)"
+A loop that iteratively improves a design plan through Copilot CLI reviews: create a plan → Copilot review → incorporate feedback → re‑review, repeating until convergence. The review model can be specified with --model and the inference level with --effort. Use for: “copilot-plan-loop”, “Planning with Copilot”, “Design review loop (Copilot)”, “Improve plan accuracy (Copilot)”.
