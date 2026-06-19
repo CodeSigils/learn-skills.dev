@@ -1,0 +1,14 @@
+適用於 .NET、Java、Python、Spring Boot 和的 Azure Cosmos DB SDK 最佳實踐
+LangChain：單例客戶端、非同步 API、連線模式、重試處理、
+診斷、序列化、模擬器配置、ETag、斷路器、
+可用性策略和特定於框架的模式。
+用於：CosmosClient 單例、非同步 API、直接模式與閘道模式、重試 429、
+首選區域、排除區域、可用性策略、斷路器、
+SDK 診斷、序列化枚舉、模擬器 SSL、ETag 並發、
+條件建立、補丁增量、延續令牌、內容回應、
+Spring Data Cosmos、Spring Boot 版本、Newtonsoft 依賴、命名空間衝突、
+Python 非同步 deps、本機開發配置、LangChain Cosmos DB saver、LangGraph 檢查點、
+MCP持久性會話、MCP工具內容格式、MCP工具過濾、
+LangChain JS向量庫、LangChain JS聊天記錄、LangChain JS語意快取。
+請勿用於：資料建模（使用 cosmosdb-data-modeling）、查詢（使用 cosmosdb-query-optimization）、
+分區鍵（使用 cosmosdb-partition-key）。

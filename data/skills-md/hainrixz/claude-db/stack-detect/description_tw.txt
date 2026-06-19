@@ -1,0 +1,1 @@
+透過包裝 script/detect-stack.mjs 來偵測專案的資料庫堆疊 - 範例、引擎、ORM、平台和權威的 source_of_truth。發出堆疊數組加上路由（範例設定檔和模組設定每個堆疊磁碟機）和 source_of_truth 優先權。永遠不要猜測引擎；空結果路由到 /claude-db:start。由 db-orchestrator 呼叫（第 1 階段）；通常不直接呼叫。

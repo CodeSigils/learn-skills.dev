@@ -1,0 +1,8 @@
+Azure Cosmos DB 安全性最佳實務：停用本機驗證（金鑰）、
+具有 DefaultAzureCredential 的託管身分、網路存取限制、
+RBAC 最小權限，以及時間點復原的連續備份。
+用於：Cosmos DB 安全性、停用本機驗證、停用金鑰、託管身分、
+DefaultAzureCredential、Entra ID、網路限制、IP 防火牆、
+專用端點、RBAC 角色、最小權限、資料平面角色、
+連續備份、時間點復原、PITR、零信任。
+請勿用於：客戶端加密（待定）、SDK 驗證代碼（使用 cosmosdb-sdk）。

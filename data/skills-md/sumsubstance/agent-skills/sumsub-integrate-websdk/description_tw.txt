@@ -1,0 +1,1 @@
+透過 Sumsub WebSDK 將 Sumsub KYC 新增至網站或 Web 應用程式的端到端秘訣。當使用者要求「整合/嵌入/新增 Sumsub」、「顯示 KYC 小工具」、「新增 WebSDK」、「在前端使用 Sumsub 驗證使用者」、提供他們想要插入頁面的現有 levelName，或詢問如何在任意專案中連接存取權杖/生命週期事件/webhook 以進行 Sumsub 驗證時觸發。涵蓋整個循環 — 等級設定、伺服器端存取權杖簽名、snsWebSdk 初始化（普通規範、React 配方）、用戶端生命週期事件、令牌刷新、透過 webhooks + 申請人 GET 取得真相來源、沙箱測試、上線檢查表。跳過建立關卡/問卷/POA 預設負載本身（使用同級技能），或僅後端 API 呼叫而無需前端（使用“sumsub-api-generic”）。

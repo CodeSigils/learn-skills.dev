@@ -1,0 +1,1 @@
+遷移安全 lint (M22) — 遷移安全審核員 (MSA) 和 db-migration-writer 在候選遷移運作之前對其強制實施的靜態合約。檢查可逆性（向下遷移當前/擴展契約）、鎖定等級（是否在熱表上採用 ACCESS EXCLUSIVE）、表重寫（對類型/預設更改進行全表重寫）、破壞性操作（DROP COLUMN/TABLE、TRUNCATE）、不安全的枚舉突變、大表上沒有預設值的 NOT提供效能和規模分數。

@@ -1,0 +1,1 @@
+將區域設定前綴的 i18n 路由新增至單一（非 monorepo）Next.js App Router 網站 - 一個中間件/代理，使用區域設定切換的最後一個選擇（NEXT_LOCALE cookie）然後瀏覽器的 Accept-Language，將 `/` 和任何無前綴路徑重定向到 `/<locale>/`Y鉤子的 `[locale]` 佈局以及持久存在的 LocaleToggle選擇。在獨立 Next.js 網站新增雙語/多語言路由、建置 `/en-hk/...` `/zh-hk/...` URL 命名空間、將根重定向到預設或記住的區域設定、在存取中保持語言切換或偵測中間件中的瀏覽器語言時使用。對於透過工作區包在多個應用程式之間共用此邏輯的 monorepo，請改用 nextjs-locale-monorepo。

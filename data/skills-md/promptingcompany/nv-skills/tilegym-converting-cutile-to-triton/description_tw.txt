@@ -1,0 +1,1 @@
+將 cuTile GPU 核心 (@ct.kernel) 轉換為 Triton (@triton.jit)。處理標準的儲存庫內轉換、調試（cudaErrorIllegalAddress、形狀不匹配、數值不匹配）以及將 cuTile 習慣用法（ct.load/ct.store、ct.Constant、ct.launch）對應到 Triton 等效項。涵蓋每個 Translations/advanced-patterns.md 的雙核心佈局標誌（例如 transpose=True/False + 透過 META 自動調整網格）。在將 cuTile 核心轉換、移植或翻譯為 Triton 或調試現有 Triton 翻譯時使用。

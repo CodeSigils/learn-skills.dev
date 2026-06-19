@@ -1,0 +1,1 @@
+當使用者明確要求「壓縮/修剪/簡化某個代理技能的 Markdown 文件」或「在不更改功能的情況下減少技能上下文開銷」時使用。首先了解目標技能的實際能力和安全邊界，然後在忽略“tests/”、“plans/”以及目標技能的“README.md”和“CHANGELOG.md”的同時，壓縮“SKILL.md”、“references/*.md”等面向工作的Markdown，並將中間產品隔離到“.compact-bensz-complls/md”中。 ⚠️ 不適用：當使用者主要想要新增功能、修復腳本邏輯、批次修改程式碼或只想壓縮非技能文件時。

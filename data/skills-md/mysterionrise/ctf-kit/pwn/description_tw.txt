@@ -1,0 +1,1 @@
+解決 CTF 二進位利用 (pwn) 挑戰：緩衝區溢位、格式字串、ROP 鏈、堆疊利用和 shellcoding。當給定帶有遠端服務的 ELF/PE 二進位檔案時使用。觸發器：「緩衝區溢位」、「格式字串」、「ROP」、「shellcode」、「checksec」、「NX」、「canary」、「PIE」、「GOT 覆蓋」、「ret2libc」、pwntools 腳本、.elf 檔案、nc/netcat 連線目標。工具：checksec、ROPgadget、pwntools、gdb、one_gadget。不適用於靜態逆向工程（使用反向）。

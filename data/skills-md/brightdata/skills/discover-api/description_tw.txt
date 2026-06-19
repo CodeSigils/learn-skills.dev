@@ -1,0 +1,10 @@
+使用 Bright Data 的 Discover API — 意圖排名、人工智慧相關性評分的網路搜索
+大規模（不是關鍵字 SERP）。觸發發現作業並檢索排名結果
+（連結、標題、描述、相關性分數）以及可選的已解析頁面內容。
+當使用者想要基於語意/意圖的網路搜尋時使用，「尋找有關
+與 <目標> 匹配的 <主題>」、LLM 的基於網路的檢索或結果
+按相關性而不是原始關鍵字排名進行過濾。涵蓋 REST API
+(POST/GET /discover)、CLI (`bdata discovery`) 和 Python/JS SDK
+(`client.discover`)，包括標準/zeroRanking/深度/快速模式。這是
+「現場研究」和「碎片管道」的基礎技能。對於關鍵字 SERP 使用
+`搜尋`；對於結構化平台數據，請使用「data-feeds」。

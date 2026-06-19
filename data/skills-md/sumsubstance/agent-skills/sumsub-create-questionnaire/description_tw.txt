@@ -1,0 +1,1 @@
+建立或更新 Sumsub KYC 問卷定義。 POST `/resources/api/questionnaires` 建立新的（如果 id 存在則失敗 409），修補相同路徑以更新（如果 id 未知則失敗 404），GET `/resources/api/questionnaires/{id}` 讀回一份。當使用者要求“建立/新增/建置/更新/編輯 Sumsub 問卷”，或提供適用於 Sumsub 申請人流程的問題/部分列表，或引用要發布或修補的問卷 ID/定義時觸發。跳過其他 Sumsub 實體（等級、工作流程、申請人）、問卷資料（答案）提交或非 Sumsub 表單產生器。

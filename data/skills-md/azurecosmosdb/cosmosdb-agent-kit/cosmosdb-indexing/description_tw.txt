@@ -1,0 +1,9 @@
+Azure Cosmos DB 索引策略最佳實務：排除未使用的路徑、
+ORDER BY 的複合索引、空間索引、索引類型、路徑語法、
+和索引模式（一致與惰性）。
+用途：Cosmos DB 索引策略、排除路徑、複合索引、空間索引、
+索引路徑語法 /? /* /[]，範圍索引與雜湊索引，惰性索引與一致索引，
+索引方向，減少寫入開銷。
+不要使用 FOR：查詢最佳化（使用 cosmosdb-query-optimization），
+全文搜尋索引（使用 cosmosdb-full-text-search），
+向量索引（使用 cosmosdb-vector-search）。

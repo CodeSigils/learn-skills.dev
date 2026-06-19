@@ -1,0 +1,8 @@
+Azure Cosmos DB 分區鍵設計最佳實務：高基數、
+熱點避免、分層分區鍵、合成鍵、查詢模式
+對齊、不變性和邏輯分割區大小限制。
+用途：Cosmos DB 分區鍵選擇、高基數、避免熱分區、
+分層分區鍵、合成分區鍵、查詢模式對齊、
+分割區鍵長度、不可變分割區鍵、20GB 邏輯分割區限制。
+請勿用於：資料建模（使用 cosmosdb-data-modeling）、查詢優化
+（使用 cosmosdb-query-optimization）、吞吐量（使用 cosmosdb-throughput）。
