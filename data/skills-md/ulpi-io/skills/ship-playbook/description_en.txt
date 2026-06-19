@@ -1,0 +1,11 @@
+Take one feature request and run the entire delivery playbook automatically: plan it, review the
+plan, build it task by task, review the build, and optionally audit it for launch — then return the
+verified findings as feedback (one pass, no autonomous loop; the user decides on any fix round). It
+chains the existing skills as one runnable Workflow:
+plan-to-task-list-with-dag (plan + assign a specialist agent per task) → plan-founder-review →
+a specialist engineer/reviewer build across the DAG → a full claude ∥ codex/kiro cross-review →
+go-live-audit. Up front it shows what skills/agents would help (with install commands), then asks
+which gates to run and at what depth — code writing and each review independently pick native / codex
+/ kiro (reviews can skip; writer and reviewer can differ), so the user controls quality vs token cost.
+Use when the user wants "prompt → planned, built, reviewed, audited" in one go
+instead of running each phase by hand.

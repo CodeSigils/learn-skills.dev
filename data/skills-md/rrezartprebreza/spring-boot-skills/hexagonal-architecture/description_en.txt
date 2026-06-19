@@ -1,0 +1,1 @@
+Use when the project follows hexagonal (ports & adapters) architecture. Prevents domain code from depending on Spring or JPA. Use when you see packages like domain/, application/, infrastructure/, or adapters/ in the project structure.

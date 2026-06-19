@@ -1,0 +1,8 @@
+Azure Cosmos DB partition key design best practices: high cardinality,
+hotspot avoidance, hierarchical partition keys, synthetic keys, query pattern
+alignment, immutability, and logical partition size limits.
+USE FOR: Cosmos DB partition key choice, high cardinality, avoid hot partitions,
+hierarchical partition keys, synthetic partition keys, query pattern alignment,
+partition key length, immutable partition key, 20GB logical partition limit.
+DO NOT USE FOR: data modeling (use cosmosdb-data-modeling), query optimization
+(use cosmosdb-query-optimization), throughput (use cosmosdb-throughput).

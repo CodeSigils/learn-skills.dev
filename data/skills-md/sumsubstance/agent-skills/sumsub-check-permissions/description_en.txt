@@ -1,0 +1,1 @@
+Fetch the current tenant's allowed entitlements (BackgroundCheckTarget list). Returns JSON with `allowed` (array of permission keys) and `descriptions` (map of key → human-readable label). Called by sumsub-create-level (and other create-* skills) before building a payload to gate entitlement-required features.

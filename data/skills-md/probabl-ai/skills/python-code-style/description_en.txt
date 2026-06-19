@@ -1,0 +1,15 @@
+Owns Python code style for this stack: ruff for lint + format, numpydoc for docstrings. Three responsibilities — (1) place the project's `ruff.toml` from the bundled template once the stack and workspace are in place, (2) run ruff against any Python files Claude has just generated or edited, and (3) contextualize each touched file's comments to the data-science problem — rewriting any leftover template / workflow prose (skill names, gates, runner, digest, guard-rails) into concise, problem-specific docs so the user's committed files read like a colleague wrote them, not like a generated scaffold. Stops at "the touched files pass `ruff check` and document the problem, not the process."
+TRIGGER when (any of these): (1) a Python file was just created or edited via Write / Edit /
+    MultiEdit — invoke this skill before declaring the task done so
+    ruff is run AND the file's comments are contextualized to the
+    problem;
+(2) a fresh ML workspace was just scaffolded by
+    `organize-ml-workspace` and the project has no `ruff.toml` at
+    its root yet — drop the bundled template;
+(3) the user asks about lint, format, docstring style, or reaches
+    for `black` / `isort` / `flake8` / `pydocstyle` (redirect to
+    ruff — the stack's canonical linter, owned by
+    `data-science-python-stack` Tier 1).
+
+SKIP when: the project is non-Python; the only edits in this turn are to Markdown / TOML / JSON / YAML; the file lives in a third-party vendored directory the user doesn't own.
+HOW TO USE: run ruff manually on the files you just touched — do not configure a PostToolUse hook for this. **Read the "Stop conditions" block and emit the Pre-flight checklist as visible text in your response — both are mandatory before running ruff.**

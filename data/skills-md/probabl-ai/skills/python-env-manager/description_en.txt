@@ -1,0 +1,17 @@
+Single source of truth for "which Python environment manager does this project use, and how do I install a package with it?". Owns the detection table (pixi / uv / poetry / hatch / conda+mamba / pip+venv), the install / remove / upgrade commands per manager, and the bootstrap path when no manager is in place (default recommendation: pixi). Stops at "the install command was issued with the right manager and the package is importable".
+TRIGGER when (any of these): (1) **about to install / add / pin / upgrade / remove a Python
+    package** — `pip install`, `pixi add`, `uv add`, `poetry add`,
+    `conda install`, etc. — under any framing;
+(2) `data-science-python-stack` § "Missing dependency" surfaced a
+    missing import and an install is the next step;
+(3) a workflow skill's Stop condition fired on a missing
+    dependency (`build-ml-pipeline`, `evaluate-ml-pipeline`,
+    `organize-ml-workspace`, `audit-ml-pipeline`);
+(4) starting a new Python project and no manager is in place yet
+    (bootstrap with pixi unless the user picks otherwise);
+(5) `audit-ml-pipeline` (or another agent-only consumer) needs the
+    **agent feature** (`ipython` + `pyright`) and it isn't yet
+    present in the project's manifest — see § "Agent feature".
+
+SKIP when: the project is non-Python; the install/add command is for a non-Python tool (npm, brew, apt, cargo, gem); the dependency is already installed and importable; the work is purely editing existing source code with no new dependency in play.
+HOW TO USE: **detect first, then install**. Run the § "Detection" table at the project root before issuing any install command. If no manager is detected, ask the user before bootstrapping. Never install with a different manager than the one the project uses (e.g., never `pip install` into a pixi-managed project) — that creates env state divergence the manifest won't track. **Read the "Stop conditions" block and emit the Pre-flight checklist as visible text in your response — both are mandatory before issuing any command.**

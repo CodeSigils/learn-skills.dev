@@ -1,0 +1,8 @@
+Optional design-improvement pass for when you have spare usage to drain. Finds
+the shallowest modules in the code the spec touches, researches a deeper
+design, and proposes refactors that shrink interfaces and hide decisions —
+behavior held constant, tests green before and after. Proposes §I/§V/§T edits,
+never silent rewrites. Triggers when the user says "deepen this", "improve the
+design", "this module feels shallow", "pull complexity down", "use spare
+budget on the codebase", or invokes /ck:deepen. Leans on the codebase-design
+skill's deep-module vocabulary when present.

@@ -1,0 +1,1 @@
+Orchestrates a full database audit — detects the stack(s), dispatches read-only auditor subagents in parallel by paradigm, merges and dedupes their findings, computes the two never-blended scores (Design & Integrity + Performance & Scale) via score.mjs, and renders the report. Invoked by the audit command; not usually called directly.

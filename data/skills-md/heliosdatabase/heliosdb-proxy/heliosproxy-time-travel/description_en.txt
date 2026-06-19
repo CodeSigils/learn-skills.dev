@@ -1,0 +1,1 @@
+Replay a window of the transaction journal onto a target backend via `POST /api/replay`. Validate failover, hydrate staging from prod, debug "what happened yesterday at 14:32". Use when the user says "replay", "time-travel", "/api/replay", "hydrate staging", "rerun the last hour against staging".

@@ -1,0 +1,8 @@
+Azure Cosmos DB throughput and scaling best practices: autoscale for variable
+workloads, right-sizing provisioned throughput, serverless for dev/test,
+burst capacity, and container vs database throughput allocation.
+USE FOR: Cosmos DB autoscale, provisioned throughput, serverless, burst capacity,
+RU/s sizing, container throughput, database throughput, cost optimization,
+over-provisioning, under-provisioning, throttling prevention.
+DO NOT USE FOR: RU consumption monitoring (use cosmosdb-monitoring),
+partition key design (use cosmosdb-partition-key).
