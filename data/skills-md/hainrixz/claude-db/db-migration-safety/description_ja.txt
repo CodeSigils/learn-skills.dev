@@ -1,0 +1,1 @@
+Migration-safety lint (M22) — migration-safety Auditor (MSA) と db-migration-writer が実行前に候補の移行に強制する静的契約。可逆性 (ダウン移行の存在/拡張契約)、ロック レベル (ホット テーブルで ACCESS EXCLUSIVE が必要か)、テーブルの書き換え (タイプ/デフォルトの変更時のテーブル全体の書き換え)、破壊的な操作 (DROP COLUMN/TABLE、TRUNCATE)、安全でない列挙型の変更、大きなテーブルでのデフォルトなしの NOT NULL、および宣言アーティファクトと移行履歴の間のスキーマ ドリフトをチェックします。パフォーマンスとスケールのスコアをフィードします。

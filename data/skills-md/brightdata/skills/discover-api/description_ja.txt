@@ -1,0 +1,10 @@
+Bright Data の Discover API を使用する — 意図に基づいてランク付けされ、AI 関連性によってスコア付けされた Web 検索
+大規模に (キーワード SERP ではなく)検出ジョブをトリガーし、ランク付けされた結果を取得する
+(リンク、タイトル、説明、relevance_score) と、オプションで解析されたページ コンテンツ。
+ユーザーがセマンティック/インテントベースの Web 検索を必要とする場合に使用します。「に関するページを検索」
+<goal> に一致する <topic>」、LLM の Web ベースの取得、または結果
+生のキーワードランクではなく、関連性によってフィルタリングされます。 REST APIをカバーします
+(POST/GET /discover)、CLI (「bdata Discover」)、および Python/JS SDK
+(`client.discover`)、standard/zeroRanking/deep/fast モードを含みます。これは
+「ライブリサーチ」と「ラグパイプライン」の基礎スキル。キーワードSERP用
+`検索`;構造化されたプラットフォーム データの場合は、「data-feeds」を使用します。

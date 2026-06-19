@@ -1,0 +1,1 @@
+RTVI-CV-3D マイクロサービスを MV3DT (`MODE=mv3dt`) としてデプロイおよび操作します: カメラごとの DeepStream 認識と、調整されたカメラ上の BEV Fusion。バンドルされたサンプル データセット、カスタム ビデオ ファイル、RTSP ストリームをサポートし、キャリブレーションが欠落している場合は「vss-generate-video-calibration」へのチェーンをサポートします。完全なウェアハウス ブループリントには「vss-deploy-profile」を使用し、単一カメラ 2D 検出には「vss-deploy-detection-tracking-2d」を使用します。

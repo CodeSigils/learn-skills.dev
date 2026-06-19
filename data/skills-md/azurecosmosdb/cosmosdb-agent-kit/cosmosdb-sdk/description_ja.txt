@@ -1,0 +1,14 @@
+.NET、Java、Python、Spring Boot、および
+LangChain: シングルトン クライアント、非同期 API、接続モード、再試行処理、
+診断、シリアル化、エミュレータ構成、ETag、サーキット ブレーカー、
+可用性戦略とフレームワーク固有のパターン。
+用途: CosmosClient シングルトン、非同期 API、ダイレクト モードとゲートウェイ モード、再試行 429、
+優先リージョン、除外リージョン、可用性戦略、サーキット ブレーカー、
+SDK 診断、シリアル化列挙型、エミュレーター SSL、ETag 同時実行性、
+条件付き作成、パッチ増分、継続トークン、コンテンツ応答、
+Spring Data Cosmos、Spring Boot バージョン、Newtonsoft 依存関係、名前空間の衝突、
+Python 非同期 DEPS、ローカル開発構成、LangChain Cosmos DB セーバー、LangGraph チェックポイント作成者、
+MCP 永続セッション、MCP ツールのコンテンツ形式、MCP ツールのフィルタリング、
+LangChain JS ベクトルストア、LangChain JS チャット履歴、LangChain JS セマンティック キャッシュ。
+次の用途には使用しないでください: データ モデリング (cosmosdb-data-modeling を使用)、クエリ (cosmosdb-query-optimization を使用)、
+パーティション キー (cosmosdb-partition-key を使用)。

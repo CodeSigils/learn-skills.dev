@@ -1,0 +1,1 @@
+SLURM クラスター上で分散 Megatron-LM トレーニング ジョブを起動する方法。最小限の sbatch スケルトン、torch.distributed.run の環境変数セットアップ、ハードウェアおよび並列モード全体にわたる CUDA_DEVICE_MAX_CONNECTIONS ルール、コンテナ規約、モニタリング、およびランクごとの障害診断について説明します。

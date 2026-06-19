@@ -1,0 +1,1 @@
+NVIDIA TAO Visual ChangeNet (VCN) でギャップ分析を実行します。 データ サービス コンテナー (`versions.yaml` の `tao_toolkit.data_services`) を直接 `docker run … gap_analysis vcn_aoi …` 経由で呼び出して実験を分類します。これにより、最適な決定しきい値が選択され、サンプルごとの弱点がランク付けされ、下流の拡張のために上位 K の最も弱い寄木細工の拡張されたライティングごとに放射されます。 VCN分類エラーの分析、SDA拡張ターゲットの選択、PASS/NO_PASS境界ケースの監査、またはAOI ChangeNetモデルでのDEFTギャップ分析の実行時に使用します。
