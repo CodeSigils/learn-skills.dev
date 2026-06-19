@@ -1,0 +1,14 @@
+Prácticas recomendadas del SDK de Azure Cosmos DB para .NET, Java, Python, Spring Boot y
+LangChain: cliente singleton, API asíncronas, modos de conexión, manejo de reintentos,
+diagnóstico, serialización, configuración del emulador, ETags, disyuntor,
+estrategia de disponibilidad y patrones específicos del marco.
+USO PARA: CosmosClient singleton, API asíncrona, modo Direct vs Gateway, reintento 429,
+regiones preferidas, regiones excluidas, estrategia de disponibilidad, disyuntor,
+Diagnóstico de SDK, enumeraciones de serialización, emulador SSL, concurrencia de ETag,
+creación condicional, incremento de parche, token de continuación, respuesta de contenido,
+Spring Data Cosmos, versiones Spring Boot, dependencia de Newtonsoft, colisión de espacios de nombres,
+Departamentos asíncronos de Python, configuración de desarrollo local, protector LangChain Cosmos DB, puntero de control LangGraph,
+Sesión persistente de MCP, formato de contenido de la herramienta MCP, filtrado de herramientas MCP,
+LangChain JS vectorstore, historial de chat de LangChain JS, caché semántica de LangChain JS.
+NO UTILIZAR PARA: modelado de datos (use cosmosdb-data-modeling), consultas (use cosmosdb-query-optimization),
+claves de partición (use cosmosdb-partition-key).

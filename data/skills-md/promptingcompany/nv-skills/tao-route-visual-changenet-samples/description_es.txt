@@ -1,0 +1,1 @@
+Enruta las muestras de VCN más débiles (salida de `tao-analyze-gaps-visual-changenet`) a subconjuntos por módulo de aumento (un parquet para la minería k-NN, uno para AnomalyGen (Cosmos SDG)) en función de la elegibilidad de la etiqueta de cada módulo. Úselo como el siguiente paso inmediato después del análisis de brechas de DEFT en una iteración de VCN AOI SDA.

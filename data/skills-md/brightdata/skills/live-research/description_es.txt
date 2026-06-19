@@ -1,0 +1,11 @@
+Producir un resumen de investigación profundo, citado de múltiples fuentes sobre un tema desde la web en vivo.
+datos utilizando la API Discover de Bright Data (búsqueda web clasificada por intención + página analizada
+contenido). Úselo cuando el usuario quiera "investigación en vivo", "investigar <tema> profundamente",
+"investiga lo último sobre", "escribe un informe sobre", "dame un resumen/literatura
+revisar/escanear el mercado", "encontrar y sintetizar todo acerca de", o de otra manera
+quiere una respuesta sintetizada y basada en fuentes en lugar de una lista de enlaces. Descompone la pregunta en múltiples descubrimientos clasificados por intención.
+realiza consultas, extrae contenido de la página, deduplica y clasifica por relevancia, luego
+sintetiza un resumen estructurado con citas en línea. Construido sobre el
+Habilidad `descubrir-api`. Para obtener información específica de la competencia, utilice "competitive-intel";
+para el sentimiento social/de marca utilice "escucha de marca"; para un *sistema* de recuperación (no
+un informe único) utilice "rag-pipeline".

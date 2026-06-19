@@ -1,0 +1,1 @@
+Integre los núcleos de TileGym en los modelos `transformers` de Hugging Face reemplazando los submódulos de la biblioteca y las implementaciones de ciertas clases, y parcheando los métodos de inicio/adelante/carga de ciertas clases antes de crear instancias de los modelos. Se utiliza cuando el usuario requiere integrar los kernels de TileGym en modelos `transformers`.

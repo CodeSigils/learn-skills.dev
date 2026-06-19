@@ -1,0 +1,9 @@
+Prácticas recomendadas de optimización de consultas de Azure Cosmos DB: lecturas de puntos, proyecciones,
+paginación con tokens de continuación, consultas parametrizadas, ordenamiento de filtros,
+evitación de consultas entre particiones y detección de consultas analíticas.
+UTILIZAR PARA: consultas de Cosmos DB, lecturas puntuales frente a consultas, proyecciones SELECT,
+tokens de continuación, consultas parametrizadas, evitar particiones cruzadas, evitar escaneos,
+selectividad de filtro, literal TOP, ORDER BY, último por marca de tiempo, detección OLAP,
+consultas agregadas, palabra clave DISTINCT.
+NO UTILIZAR PARA: indexación (use cosmosdb-indexing), modelado de datos (use cosmosdb-data-modeling),
+Código de cliente SDK (use cosmosdb-sdk).

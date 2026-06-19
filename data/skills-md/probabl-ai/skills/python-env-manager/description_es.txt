@@ -1,0 +1,17 @@
+Fuente única de verdad para "¿qué administrador de entorno Python utiliza este proyecto y cómo instalo un paquete con él?". Posee la tabla de detección (pixi / uv / poesía / hatch / conda+mamba / pip+venv), los comandos de instalación/eliminación/actualización por administrador y la ruta de arranque cuando no hay ningún administrador implementado (recomendación predeterminada: pixi). Se detiene en "el comando de instalación se emitió con el administrador adecuado y el paquete es importable".
+DISPARAR cuando (cualquiera de estos): (1) **a punto de instalar/añadir/fijar/actualizar/eliminar un Python
+    paquete** — `pip install`, `pixi add`, `uv add`, `poetry add`,
+    `conda install`, etc. - bajo cualquier marco;
+(2) `data-science-python-stack` § "Dependencia faltante" apareció un
+    falta importar y una instalación es el siguiente paso;
+(3) la condición de detención de una habilidad de flujo de trabajo se activa ante una falta
+    dependencia (`build-ml-pipeline`, `evaluate-ml-pipeline`,
+    `organizar-ml-workspace`, `audit-ml-pipeline`);
+(4) iniciar un nuevo proyecto de Python y aún no existe ningún administrador
+    (arranque con pixi a menos que el usuario elija lo contrario);
+(5) `audit-ml-pipeline` (u otro consumidor exclusivo de agente) necesita la
+    **función de agente** (`ipython` + `pyright`) y aún no está disponible
+    presente en el manifiesto del proyecto; consulte § "Función del agente".
+
+SALTAR cuando: el proyecto no sea Python; el comando instalar/agregar es para una herramienta que no es Python (npm, brew, apt, cargo, gem); la dependencia ya está instalada y es importable; el trabajo consiste únicamente en editar el código fuente existente sin ninguna nueva dependencia en juego.
+CÓMO UTILIZAR: **detectar primero, luego instalar**. Ejecute la tabla § "Detección" en la raíz del proyecto antes de emitir cualquier comando de instalación. Si no se detecta ningún administrador, pregunte al usuario antes de iniciar. Nunca instale con un administrador diferente al que usa el proyecto (por ejemplo, nunca haga "pip install" en un proyecto administrado por pixi), ya que eso crea una divergencia en el estado del entorno que el manifiesto no rastreará. **Lea el bloque "Condiciones de parada" y emita la lista de verificación previa al vuelo como texto visible en su respuesta; ambos son obligatorios antes de emitir cualquier comando.**

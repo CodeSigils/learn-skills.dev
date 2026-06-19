@@ -1,0 +1,11 @@
+Tome una solicitud de función y ejecute todo el manual de entrega automáticamente: planifíquelo, revise el
+planifique, compílelo tarea por tarea, revise la compilación y, opcionalmente, audite su lanzamiento; luego, devuelva el
+hallazgos verificados como retroalimentación (una pasada, sin bucle autónomo; el usuario decide cualquier ronda de solución). eso
+encadena las habilidades existentes como un flujo de trabajo ejecutable:
+plan-to-task-list-with-dag (plan + asignar un agente especialista por tarea) → plan-fundador-revisión →
+un ingeniero/revisor especializado en todo el DAG → una revisión cruzada completa de claude ∥ codex/kiro →
+auditoría de puesta en marcha. Al principio muestra qué habilidades/agentes ayudarían (con comandos de instalación), luego pregunta
+qué puertas ejecutar y a qué profundidad: la escritura del código y cada revisión seleccionan de forma independiente nativo/códice
+/kiro (las reseñas pueden omitirse; el escritor y el revisor pueden diferir), por lo que el usuario controla la calidad frente al costo del token.
+Úselo cuando el usuario quiera "avisar → planear, construir, revisar, auditar" de una sola vez.
+en lugar de ejecutar cada fase a mano.

@@ -1,0 +1,15 @@
+Posee el estilo de código Python para esta pila: ruff para formato lint +, numpydoc para cadenas de documentos. Tres responsabilidades: (1) colocar el `ruff.toml` del proyecto a partir de la plantilla incluida una vez que la pila y el espacio de trabajo estén en su lugar, (2) ejecutar ruff contra cualquier archivo Python que Claude acaba de generar o editar, y (3) contextualizar los comentarios de cada archivo tocado con el problema de ciencia de datos: reescribir cualquier plantilla/prosa de flujo de trabajo sobrante (nombres de habilidades, puertas, corredor, resumen, barandillas) en documentos concisos y específicos del problema para que el usuario Los archivos comprometidos se leen como los escribió un colega, no como un andamio generado. Se detiene en "los archivos tocados pasan la `verificación fallida` y documentan el problema, no el proceso".
+DISPARAR cuando (cualquiera de estos): (1) se acaba de crear o editar un archivo Python mediante Escribir/Editar/
+    MultiEdit: invoca esta habilidad antes de declarar la tarea realizada
+    ruff se ejecuta Y los comentarios del archivo se contextualizan al
+    problema;
+(2) un nuevo espacio de trabajo de ML acaba de ser estructurado por
+    `organize-ml-workspace` y el proyecto no tiene `ruff.toml` en
+    su raíz todavía: suelte la plantilla incluida;
+(3) el usuario pregunta sobre pelusa, formato, estilo de cadena de documentación o alcance
+    para `black` / `isort` / `flake8` / `pydocstyle` (redireccionar a
+    ruff — el linter canónico de la pila, propiedad de
+    `data-science-python-stack` Nivel 1).
+
+SALTAR cuando: el proyecto no sea Python; las únicas ediciones en este turno son Markdown/TOML/JSON/YAML; el archivo se encuentra en un directorio proporcionado por un tercero que no es propiedad del usuario.
+CÓMO UTILIZAR: ejecute ruff manualmente en los archivos que acaba de tocar; no configure un gancho PostToolUse para esto. **Lea el bloque "Condiciones de detención" y emita la lista de verificación previa al vuelo como texto visible en su respuesta; ambos son obligatorios antes de ejecutar ruff.**

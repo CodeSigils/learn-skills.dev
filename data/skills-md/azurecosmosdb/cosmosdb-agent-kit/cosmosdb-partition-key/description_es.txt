@@ -1,0 +1,8 @@
+Prácticas recomendadas de diseño de claves de partición de Azure Cosmos DB: alta cardinalidad,
+evitación de puntos de acceso, claves de partición jerárquicas, claves sintéticas, patrón de consulta
+alineación, inmutabilidad y límites de tamaño de partición lógica.
+USO PARA: Elección de clave de partición de Cosmos DB, alta cardinalidad, evitar particiones activas,
+claves de partición jerárquicas, claves de partición sintéticas, alineación de patrones de consulta,
+longitud de la clave de partición, clave de partición inmutable, límite de partición lógica de 20 GB.
+NO UTILIZAR PARA: modelado de datos (use cosmosdb-data-modeling), optimización de consultas
+(use cosmosdb-query-optimization), rendimiento (use cosmosdb-throughput).

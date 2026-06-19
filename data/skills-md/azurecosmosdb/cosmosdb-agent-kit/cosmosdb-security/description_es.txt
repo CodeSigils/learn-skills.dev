@@ -1,0 +1,8 @@
+Prácticas recomendadas de seguridad de Azure Cosmos DB: deshabilitar la autenticación local (claves),
+identidad administrada con DefaultAzureCredential, restricciones de acceso a la red,
+Privilegio mínimo de RBAC y copia de seguridad continua para restauración en un momento dado.
+USO PARA: Seguridad de Cosmos DB, deshabilitar la autenticación local, deshabilitar claves, identidad administrada,
+DefaultAzureCredential, Entra ID, restricciones de red, firewall IP,
+puntos finales privados, roles RBAC, privilegios mínimos, roles del plano de datos,
+copia de seguridad continua, restauración a un momento dado, PITR, confianza cero.
+NO UTILIZAR PARA: cifrado del lado del cliente (pendiente), código de autenticación SDK (use cosmosdb-sdk).

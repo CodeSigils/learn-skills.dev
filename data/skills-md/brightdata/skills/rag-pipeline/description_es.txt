@@ -1,0 +1,10 @@
+Cree una canalización RAG (generación aumentada de recuperación) o un motor de búsqueda personalizado
+además de la API Discover de Bright Data: uso de resultados web clasificados por intención y analizados
+contenido de la página como capa de recuperación/ingestión para un LLM o un almacén de vectores. uso
+cuando el usuario quiere "construir un canal RAG", "agregar búsqueda web a mi LLM/agente",
+"construir mi modelo en datos web en vivo", "crear un motor de búsqueda en la web",
+"ingerir contenido web en una base de datos vectorial/base de conocimientos" o "darle a mi chatbot
+recuperación". Cubre tanto la recuperación en vivo (descubra en el momento de la consulta como un acceso basado en la web)
+recuperador) e ingestión (Descubrir → fragmento → incrustar → almacén de vectores → recuperar).
+Construido sobre la habilidad "discover-api". Para un informe escrito único, utilice
+`investigación en vivo`; para obtener rebajas sin procesar de URL conocidas específicas, utilice "scrape".

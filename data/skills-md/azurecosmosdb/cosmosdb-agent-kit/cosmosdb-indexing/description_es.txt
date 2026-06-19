@@ -1,0 +1,9 @@
+Prácticas recomendadas de la estrategia de indexación de Azure Cosmos DB: exclusión de rutas no utilizadas,
+índices compuestos para ORDER BY, índices espaciales, tipos de índice, sintaxis de ruta,
+y modos de indexación (consistente versus diferido).
+UTILIZAR PARA: Política de indexación de Cosmos DB, rutas de exclusión, índice compuesto, índice espacial,
+sintaxis de ruta de índice /? /* /[], rango versus índice hash, indexación diferida versus consistente,
+dirección del índice, reducción de la sobrecarga de escritura.
+NO UTILIZAR PARA: optimización de consultas (use cosmosdb-query-optimization),
+índices de búsqueda de texto completo (use cosmosdb-full-text-search),
+índices vectoriales (use cosmosdb-vector-search).
