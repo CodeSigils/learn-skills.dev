@@ -1,0 +1,15 @@
+Possède le style de code Python pour cette pile : ruff pour lint + format, numpydoc pour docstrings. Trois responsabilités : (1) placer le fichier "ruff.toml" du projet à partir du modèle fourni une fois que la pile et l'espace de travail sont en place, (2) exécuter ruff sur tous les fichiers Python que Claude vient de générer ou de modifier, et (3) contextualiser les commentaires de chaque fichier touché par rapport au problème de science des données - en réécrivant tout modèle/prose de flux de travail restant (noms de compétences, portes, coureur, résumé, garde-corps) dans des documents concis et spécifiques au problème afin que le les fichiers validés de l'utilisateur se lisent comme un collègue les a écrits, pas comme un échafaudage généré. S'arrête à « les fichiers touchés passent le « ruff check » et documentent le problème, pas le processus. »
+DÉCLENCHEUR lorsque (l'un d'entre eux) : (1) un fichier Python vient d'être créé ou modifié via Write / Edit /
+    MultiEdit - invoquez cette compétence avant de déclarer la tâche terminée
+    ruff est exécuté ET les commentaires du fichier sont contextualisés en fonction du
+    problème ;
+(2) un nouvel espace de travail ML vient d'être échafaudé par
+    `organize-ml-workspace` et le projet n'a pas de `ruff.toml` à
+    sa racine encore — supprimez le modèle fourni ;
+(3) l'utilisateur pose des questions sur la charpie, le format, le style de docstring ou atteint
+    pour `black` / `isort` / `flake8` / `pydocstyle` (redirection vers
+    ruff — le linter canonique de la pile, propriété de
+    `data-science-python-stack` Niveau 1).
+
+SKIP quand : le projet n’est pas Python ; les seules modifications à ce tour concernent Markdown / TOML / JSON / YAML ; le fichier se trouve dans un répertoire fournisseur tiers dont l'utilisateur ne possède pas.
+COMMENT UTILISER : exécutez ruff manuellement sur les fichiers que vous venez de toucher – ne configurez pas de hook PostToolUse pour cela. **Lisez le bloc « Conditions d'arrêt » et émettez la liste de contrôle avant le vol sous forme de texte visible dans votre réponse – les deux sont obligatoires avant d'exécuter ruff.**

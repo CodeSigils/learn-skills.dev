@@ -1,0 +1,8 @@
+Bonnes pratiques de conception de clés de partition Azure Cosmos DB : cardinalité élevée,
+évitement des points d'accès, clés de partition hiérarchiques, clés synthétiques, modèle de requête
+alignement, immuabilité et limites de taille de partition logique.
+UTILISER POUR : choix de clé de partition Cosmos DB, cardinalité élevée, éviter les partitions chaudes,
+clés de partition hiérarchiques, clés de partition synthétiques, alignement des modèles de requête,
+longueur de la clé de partition, clé de partition immuable, limite de partition logique de 20 Go.
+NE PAS UTILISER POUR : la modélisation des données (utiliser cosmosdb-data-modeling), l'optimisation des requêtes
+(utilisez cosmosdb-query-optimization), débit (utilisez cosmosdb-throughput).

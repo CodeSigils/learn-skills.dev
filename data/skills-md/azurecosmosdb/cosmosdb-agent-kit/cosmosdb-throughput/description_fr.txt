@@ -1,0 +1,8 @@
+Meilleures pratiques en matière de débit et de mise à l’échelle d’Azure Cosmos DB : mise à l’échelle automatique pour les variables
+charges de travail, débit provisionné adapté, sans serveur pour le développement/test,
+capacité de rafale et allocation du débit du conteneur par rapport à la base de données.
+UTILISER POUR : mise à l'échelle automatique de Cosmos DB, débit provisionné, sans serveur, capacité en rafale,
+Dimensionnement des RU/s, débit des conteneurs, débit des bases de données, optimisation des coûts,
+sur-approvisionnement, sous-approvisionnement, prévention de la limitation.
+NE PAS UTILISER POUR : la surveillance de la consommation de RU (utiliser cosmosdb-monitoring),
+conception de clé de partition (utilisez cosmosdb-partition-key).

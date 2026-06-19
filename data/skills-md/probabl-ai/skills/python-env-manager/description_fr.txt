@@ -1,0 +1,17 @@
+Source unique de vérité pour "quel gestionnaire d'environnement Python ce projet utilise-t-il et comment installer un package avec celui-ci ?". Possède la table de détection (pixi/uv/poésie/hatch/conda+mamba/pip+venv), les commandes d'installation/suppression/mise à niveau par gestionnaire, et le chemin d'amorçage lorsqu'aucun gestionnaire n'est en place (recommandation par défaut : pixi). S'arrête à "la commande d'installation a été émise avec le bon gestionnaire et le package est importable".
+DÉCLENCHEUR lorsque (l'un d'entre eux) : (1) **sur le point d'installer/ajouter/épingler/mettre à niveau/supprimer un Python
+    package** — `pip install`, `pixi add`, `uv add`, `poetry add`,
+    `conda install`, etc. — sous n'importe quel cadrage ;
+(2) `data-science-python-stack` § "Dépendance manquante" a fait surface
+    une importation manquante et une installation sont la prochaine étape ;
+(3) la condition d'arrêt d'une compétence de flux de travail déclenchée sur un élément manquant
+    dépendance (`build-ml-pipeline`, `evaluate-ml-pipeline`,
+    `organize-ml-workspace`, `audit-ml-pipeline`);
+(4) démarrage d'un nouveau projet Python et aucun gestionnaire n'est encore en place
+    (bootstrap avec pixi, sauf si l'utilisateur choisit autrement) ;
+(5) `audit-ml-pipeline` (ou un autre consommateur réservé à un agent) a besoin du
+    **fonctionnalité d'agent** (`ipython` + `pyright`) et ce n'est pas encore le cas
+    présent dans le manifeste du projet — voir § "Fonctionnalité Agent".
+
+SKIP quand : le projet n’est pas Python ; la commande install/add est destinée à un outil non-Python (npm, Brew, apt, cargo, gem) ; la dépendance est déjà installée et importable ; le travail consiste simplement à éditer le code source existant sans nouvelle dépendance en jeu.
+COMMENT UTILISER : **détectez d'abord, puis installez**. Exécutez la table § "Détection" à la racine du projet avant d'émettre une commande d'installation. Si aucun gestionnaire n'est détecté, demandez à l'utilisateur avant de démarrer. N'installez jamais avec un gestionnaire différent de celui utilisé par le projet (par exemple, ne jamais « installer pip » dans un projet géré par pixi) — cela crée une divergence d'état d'environnement que le manifeste ne suivra pas. **Lisez le bloc « Conditions d'arrêt » et émettez la liste de contrôle avant vol sous forme de texte visible dans votre réponse — les deux sont obligatoires avant d'émettre une commande.**

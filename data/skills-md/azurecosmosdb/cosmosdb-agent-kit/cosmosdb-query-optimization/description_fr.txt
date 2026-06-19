@@ -1,0 +1,9 @@
+Bonnes pratiques d’optimisation des requêtes Azure Cosmos DB : lectures de points, projections,
+pagination avec jetons de continuation, requêtes paramétrées, ordre des filtres,
+évitement des requêtes entre partitions et détection analytique des requêtes.
+UTILISER POUR : requêtes Cosmos DB, lectures de points et requêtes, projections SELECT,
+jetons de continuation, requêtes paramétrées, éviter les partitions croisées, éviter les analyses,
+sélectivité du filtre, littéral TOP, ORDER BY, dernier par horodatage, détection OLAP,
+requêtes agrégées, mot-clé DISTINCT.
+NE PAS UTILISER POUR : l'indexation (utilisez cosmosdb-indexing), la modélisation de données (utilisez cosmosdb-data-modeling),
+Code client SDK (utilisez cosmosdb-sdk).

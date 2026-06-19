@@ -1,0 +1,11 @@
+Produire un mémoire de recherche approfondi, multi-sources et cité sur un sujet à partir du Web en direct
+données à l'aide de l'API Discover de Bright Data (recherche Web classée par intention + page analysée
+contenu). À utiliser lorsque l'utilisateur souhaite effectuer une "recherche en direct", pour "rechercher <sujet> en profondeur",
+"faire des recherches sur les dernières nouveautés", "rédiger un rapport sur", "donnez-moi un briefing/de la littérature
+revue / analyse de marché", "trouver et synthétiser tout ce qui concerne", ou autrement
+veut une réponse synthétisée et fondée sur la source plutôt qu'une liste de liens. Décompose la question en plusieurs découvertes classées par intention
+requêtes, extrait le contenu de la page, déduplique et classe par pertinence, puis
+synthétise un mémoire structuré avec des citations en ligne. Construit sur le
+Compétence « discover-api ». Pour les informations spécifiques aux concurrents, utilisez « Competitive-Intel » ;
+pour le sentiment social/de marque, utilisez « écoute de marque » ; pour un *système* de récupération (pas
+un rapport ponctuel) utilisez `rag-pipeline`.

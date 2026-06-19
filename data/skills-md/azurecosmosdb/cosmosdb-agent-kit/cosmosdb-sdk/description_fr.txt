@@ -1,0 +1,14 @@
+Bonnes pratiques du SDK Azure Cosmos DB pour .NET, Java, Python, Spring Boot et
+LangChain : client singleton, API asynchrones, modes de connexion, gestion des nouvelles tentatives,
+diagnostics, sérialisation, configuration de l'émulateur, ETags, disjoncteur,
+stratégie de disponibilité et modèles spécifiques au framework.
+UTILISER POUR : CosmosClient singleton, API asynchrone, mode Direct vs Gateway, réessayez 429,
+régions préférées, régions exclues, stratégie de disponibilité, disjoncteur,
+Diagnostics SDK, énumérations de sérialisation, émulateur SSL, concurrence ETag,
+création conditionnelle, incrément de correctif, jeton de continuation, réponse de contenu,
+Spring Data Cosmos, versions Spring Boot, dépendance Newtonsoft, collision d'espace de noms,
+Déps asynchrones Python, configuration de développement locale, économiseur LangChain Cosmos DB, point de contrôle LangGraph,
+Session persistante MCP, format de contenu de l'outil MCP, filtrage de l'outil MCP,
+LangChain JS vectorstore, historique des discussions LangChain JS, cache sémantique LangChain JS.
+NE PAS UTILISER POUR : la modélisation de données (utilisez cosmosdb-data-modeling), les requêtes (utilisez cosmosdb-query-optimization),
+clés de partition (utilisez cosmosdb-partition-key).

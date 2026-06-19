@@ -1,0 +1,1 @@
+Gestion des connexions d'audit : fonctions sans serveur ouvrant des connexions Postgres directes, utilisation abusive du pooler en mode transaction (PgBouncer / Supabase / instructions préparées) et dimensionnement du pool par rapport aux max_connections du backend. ModuleM15. Alimente le score de performances et d’échelle.

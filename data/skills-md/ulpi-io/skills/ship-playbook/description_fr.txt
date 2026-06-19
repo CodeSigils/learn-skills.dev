@@ -1,0 +1,11 @@
+Prenez une demande de fonctionnalité et exécutez automatiquement l'intégralité du playbook de livraison : planifiez-la, examinez le
+planifiez-le, construisez-le tâche par tâche, examinez la construction et éventuellement auditez-la pour son lancement, puis renvoyez le
+résultats vérifiés sous forme de retour d'information (un seul passage, pas de boucle autonome ; l'utilisateur décide de n'importe quel cycle de correction). Il
+enchaîne les compétences existantes en un seul workflow exécutable :
+plan-to-task-list-with-dag (planifier + affecter un agent spécialisé par tâche) → plan-founder-review →
+un ingénieur/réviseur spécialisé construit à travers le DAG → une revue croisée complète claude ∥ codex/kiro →
+audit de mise en service. Dès le départ, il montre quelles compétences/agents pourraient aider (avec les commandes d'installation), puis demande
+quelles portes exécuter et à quelle profondeur - l'écriture du code et chaque révision choisissent indépendamment le codex natif
+/ kiro (les critiques peuvent sauter ; l'auteur et le réviseur peuvent différer), de sorte que l'utilisateur contrôle la qualité par rapport au coût du jeton.
+À utiliser lorsque l'utilisateur souhaite "inviter → planifié, construit, révisé, audité" en une seule fois
+au lieu d'exécuter chaque phase à la main.

@@ -1,0 +1,9 @@
+Bonnes pratiques de stratégie d'indexation Azure Cosmos DB : exclusion des chemins inutilisés,
+index composites pour ORDER BY, index spatiaux, types d'index, syntaxe de chemin,
+et modes d'indexation (cohérent ou paresseux).
+UTILISER POUR : stratégie d'indexation Cosmos DB, chemins d'exclusion, index composite, index spatial,
+syntaxe du chemin d'index /? /* /[], plage par rapport à l'index de hachage, indexation paresseuse ou cohérente,
+direction de l'index, réduction des frais généraux d'écriture.
+NE PAS UTILISER POUR : l'optimisation des requêtes (utilisez cosmosdb-query-optimization),
+index de recherche en texte intégral (utilisez cosmosdb-full-text-search),
+index vectoriels (utilisez cosmosdb-vector-search).

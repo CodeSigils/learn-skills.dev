@@ -1,0 +1,10 @@
+Utilisez l'API Discover de Bright Data : recherche Web classée par intention et notée par l'IA
+à grande échelle (pas de mot-clé SERP). Déclenchez une tâche de découverte et récupérez les résultats classés
+(lien, titre, description, pertinence_score) avec contenu de page analysé facultatif.
+À utiliser lorsque l'utilisateur souhaite effectuer une recherche Web basée sur la sémantique/l'intention, "trouver des pages sur
+<sujet> qui correspond à <objectif>", récupération basée sur le Web pour un LLM ou résultats
+filtré par pertinence plutôt que par classement brut des mots clés. Couvre l'API REST
+(POST/GET /discover), la CLI (`bdata discover`) et les SDK Python/JS
+(`client.discover`), y compris les modes standard/zeroRanking/deep/fast. C'est
+la compétence de base pour la « recherche en direct » et le « rag-pipeline ». Pour l'utilisation de mots clés SERP
+« recherche » ; pour les données structurées de la plate-forme, utilisez « data-feeds ».

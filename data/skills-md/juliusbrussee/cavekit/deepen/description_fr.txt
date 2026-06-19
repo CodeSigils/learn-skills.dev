@@ -1,0 +1,8 @@
+Pass d'amélioration de la conception en option lorsque vous avez une utilisation disponible à vider. Trouve
+les modules les moins profonds du code touchés par la spécification, recherche une profondeur plus profonde
+conception et propose des refactors qui réduisent les interfaces et masquent les décisions -
+comportement maintenu constant, tests verts avant et après. Propose des modifications §I/§V/§T,
+jamais de réécritures silencieuses. Se déclenche lorsque l'utilisateur dit « approfondir ceci », « améliorer le
+conception", "ce module semble superficiel", "réduire la complexité", "utiliser des pièces de rechange
+budget sur la base de code", ou invoque /ck:deepen. S'appuie sur la conception de la base de code
+le vocabulaire du module approfondi de la compétence lorsqu'il est présent.

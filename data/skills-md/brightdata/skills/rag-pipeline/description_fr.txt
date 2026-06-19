@@ -1,0 +1,10 @@
+Créez un pipeline RAG (génération augmentée par récupération) ou un moteur de recherche personnalisé
+au-dessus de l'API Discover de Bright Data - en utilisant des résultats Web classés par intention + analysés
+contenu de la page en tant que couche de récupération/ingestion pour un LLM ou un magasin de vecteurs. Utiliser
+lorsque l'utilisateur souhaite "construire un pipeline RAG", "ajouter une recherche Web à mon LLM/agent",
+"ancrer mon modèle dans des données Web en direct", "créer un moteur de recherche sur le Web",
+"ingérer du contenu Web dans une base de données/base de connaissances vectorielle", ou "donner à mon chatbot
+récupération". Couvre à la fois la récupération en direct (découverte au moment de la requête en tant que support Web)
+retriever) et l'ingestion (Découvrir → chunk → intégrer → magasin de vecteurs → récupérer).
+Construit sur la compétence « discover-api ». Pour un rapport écrit ponctuel, utilisez
+« recherche en direct » ; pour la démarque brute d'URL connues spécifiques, utilisez « scrape ».
