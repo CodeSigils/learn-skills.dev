@@ -1,0 +1,9 @@
+Azure Cosmos DB 查询优化最佳实践：点读取、投影、
+使用延续标记、参数化查询、过滤器排序进行分页，
+跨分区查询避免和分析查询检测。
+用途：Cosmos DB 查询、点读取与查询、SELECT 投影、
+延续标记、参数化查询、避免跨分区、避免扫描、
+过滤器选择性、TOP 文字、ORDER BY、按时间戳最新、OLAP 检测、
+聚合查询，DISTINCT 关键字。
+请勿用于：索引（使用 cosmosdb-indexing）、数据建模（使用 cosmosdb-data-modeling）、
+SDK客户端代码（使用cosmosdb-sdk）。

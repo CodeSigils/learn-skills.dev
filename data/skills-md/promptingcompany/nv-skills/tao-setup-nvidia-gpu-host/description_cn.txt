@@ -1,0 +1,1 @@
+TAO GPU 后端的主机设置。检查并在用户批准后为 Docker/local-Docker 和 Kubernetes GPU 工作主机安装 NVIDIA 驱动程序分支 580、CUDA Toolkit 13.0 和 NVIDIA Container Toolkit 1.19.0。 `--check-only` 路径适用于任何 Linux 发行版； `--install` 自动化 debian-family (Ubuntu/Debian/Pop!_OS/Mint/Zorin/Raspbian)、rhel-family (Fedora/RHEL/Rocky/AlmaLinux) 和 suse-family (openSUSE/SLES) 主机，并打印其他所有内容的可操作手动安装步骤。

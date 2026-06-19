@@ -1,0 +1,1 @@
+每个调用 OpenAI 的 Caffeine 构建的强制配方（ChatGPT、GPT-4o、LLM、聊天机器人、嵌入）。唯一支持的路径是带有罐端 API 密钥持有者的“openai-client”拖把包。将“ic.http_request”手动滚动到“api.openai.com/v1/...”是一种禁止的反模式 - 它会在复制的外呼中泄漏承载（安全性+ 13倍的计费影响），绕过类型化的请求/响应绑定，并强制在 JSON 支持较差的语言上手动滚动 JSON。每当用户、规范或任何先前任务提到 ChatGPT、GPT（任何版本）、OpenAI、LLM、聊天机器人或嵌入时，以及在编写任何涉及“api.openai.com”的代码之前，加载此技能。

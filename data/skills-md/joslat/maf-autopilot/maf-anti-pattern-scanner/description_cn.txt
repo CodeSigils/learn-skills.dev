@@ -1,0 +1,1 @@
+迁移完成后扫描 MAF 1.3.0 代码库以查找已知的反模式。首选 MCP 工具 MafScanAntiPatterns 进行一次性扫描；该技能用于理解规则分类或贡献新的反模式规则。检测不安全的凭据使用（DefaultAzureCredential、硬编码密钥）、不安全的默认值（非开发中的 EnableSensitiveData=true）、AIContextProvider 中的线程不安全状态、缺少可观察性（UseOpenTelemetry 未连接）以及缺少身份（ManagedIdentityCredential 优先于基于秘密的身份验证）。与迁移工具相对应：这是稳态最佳实践审查。

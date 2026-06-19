@@ -1,0 +1,10 @@
+使用 Bright Data 的 Discover API — 意图排名、人工智能相关性评分的网络搜索
+大规模（不是关键字 SERP）。触发发现作业并检索排名结果
+（链接、标题、描述、相关性分数）以及可选的已解析页面内容。
+当用户想要基于语义/意图的网络搜索时使用，“查找有关
+与 <目标> 匹配的 <主题>”、LLM 的基于网络的检索或结果
+按相关性而不是原始关键字排名进行过滤。涵盖 REST API
+(POST/GET /discover)、CLI (`bdata discovery`) 和 Python/JS SDK
+(`client.discover`)，包括标准/zeroRanking/深度/快速模式。这是
+“现场研究”和“碎片管道”的基础技能。对于关键字 SERP 使用
+`搜索`；对于结构化平台数据，请使用“data-feeds”。

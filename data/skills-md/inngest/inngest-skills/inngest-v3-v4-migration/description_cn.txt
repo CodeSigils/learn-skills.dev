@@ -1,0 +1,1 @@
+将现有 TypeScript 代码库从 Inngest SDK v3 升级到 v4 时，或修复混合 v3/v4 API 使用时使用。涵盖检测当前 SDK 使用情况、将触发器移至 createFunction 选项、用 eventType/staticSchema 替换 EventSchema、将服务选项移至客户端、更新实时导入、重写 step.invoke 字符串 ID、检查点/无服务器运行时设置、Connect 选项更改和验证。

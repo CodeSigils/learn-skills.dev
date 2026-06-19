@@ -1,0 +1,1 @@
+通过包装 script/detect-stack.mjs 来检测项目的数据库堆栈 - 范例、引擎、ORM、平台和权威的 source_of_truth。发出堆栈数组加上路由（范例配置文件和模块设置每个堆栈驱动器）和 source_of_truth 优先级。永远不要猜测发动机；空结果路由到 /claude-db:start。由 db-orchestrator 调用（第 1 阶段）；通常不直接调用。

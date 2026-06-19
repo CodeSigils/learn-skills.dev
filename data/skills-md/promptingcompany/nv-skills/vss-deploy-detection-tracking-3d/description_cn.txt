@@ -1,0 +1,1 @@
+将 RTVI-CV-3D 微服务部署和操作为 MV3DT (`MODE=mv3dt`)：每个摄像机的 DeepStream 感知加上校准摄像机上的 BEV Fusion。支持捆绑的示例数据集、自定义视频文件和 RTSP 流，并在缺少校准时链接到“vss-generate-video-calibration”。使用“vss-deploy-profile”获得完整的仓库蓝图，使用“vss-deploy-detection-tracking-2d”进行单摄像头 2D 检测。

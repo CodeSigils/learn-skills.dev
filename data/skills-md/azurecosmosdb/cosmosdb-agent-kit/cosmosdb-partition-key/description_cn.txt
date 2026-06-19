@@ -1,0 +1,8 @@
+Azure Cosmos DB 分区键设计最佳实践：高基数、
+热点避免、分层分区键、合成键、查询模式
+对齐、不变性和逻辑分区大小限制。
+用途：Cosmos DB 分区键选择、高基数、避免热分区、
+分层分区键、合成分区键、查询模式对齐、
+分区键长度、不可变分区键、20GB 逻辑分区限制。
+请勿用于：数据建模（使用 cosmosdb-data-modeling）、查询优化
+（使用 cosmosdb-query-optimization）、吞吐量（使用 cosmosdb-throughput）。

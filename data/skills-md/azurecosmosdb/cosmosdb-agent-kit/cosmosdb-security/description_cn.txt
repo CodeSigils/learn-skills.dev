@@ -1,0 +1,8 @@
+Azure Cosmos DB 安全最佳实践：禁用本地身份验证（密钥）、
+具有 DefaultAzureCredential 的托管身份、网络访问限制、
+RBAC 最小权限，以及用于时间点恢复的连续备份。
+用于：Cosmos DB 安全、禁用本地身份验证、禁用密钥、托管身份、
+DefaultAzureCredential、Entra ID、网络限制、IP 防火墙、
+专用端点、RBAC 角色、最小权限、数据平面角色、
+连续备份、时间点恢复、PITR、零信任。
+请勿用于：客户端加密（待定）、SDK 身份验证代码（使用 cosmosdb-sdk）。

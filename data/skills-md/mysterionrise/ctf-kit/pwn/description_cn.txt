@@ -1,0 +1,1 @@
+解决 CTF 二进制利用 (pwn) 挑战：缓冲区溢出、格式字符串、ROP 链、堆利用和 shellcoding。当给定带有远程服务的 ELF/PE 二进制文件时使用。触发器：“缓冲区溢出”、“格式字符串”、“ROP”、“shellcode”、“checksec”、“NX”、“canary”、“PIE”、“GOT 覆盖”、“ret2libc”、pwntools 脚本、.elf 文件、nc/netcat 连接目标。工具：checksec、ROPgadget、pwntools、gdb、one_gadget。不适用于静态逆向工程（使用反向）。

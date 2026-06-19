@@ -1,0 +1,1 @@
+使用 Agent Ready 命令行客户端根据 Vercel Agent 可读性规范、llmstxt.org 标准和代理协议清单（MCP 服务器卡、A2A、agents.json、agent-permissions.json、UCP、x402、NLWeb）扫描任何公共 URL 的 AI 代理可读性。激活“使用代理就绪的 CLI 扫描此站点”、“在终端中运行代理就绪的扫描 {URL}”、“代理就绪的获取 {id}”、“代理就绪的列表”、“代理就绪的询问 {question}”，或者在用户想要无需获取连线且无需安装 MCP 的情况下进行单命令终端扫描时激活。当代理可以运行 shell 命令时选择此技能。对于原始 HTTP，请使用“agent-ready-api”技能；对于 MCP 本机工具调用，请使用“agent-ready-mcp”。
