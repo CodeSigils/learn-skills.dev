@@ -1,0 +1,17 @@
+Single Source of Truth für „Welchen Python-Umgebungsmanager verwendet dieses Projekt und wie installiere ich ein Paket damit?“ Besitzt die Erkennungstabelle (pixi/uv/poetry/hatch/conda+mamba/pip+venv), die Installations-/Entfernungs-/Upgrade-Befehle pro Manager und den Bootstrap-Pfad, wenn kein Manager vorhanden ist (Standardempfehlung: pixi). Stoppt bei „Der Installationsbefehl wurde mit dem richtigen Manager ausgegeben und das Paket ist importierbar“.
+TRIGGER, wenn (einer dieser Punkte): (1) **im Begriff ist, ein Python zu installieren / hinzuzufügen / anzuheften / zu aktualisieren / zu entfernen
+    Paket** – „pip install“, „pixi add“, „uv add“, „poetry add“,
+    „conda install“ usw. – in jedem Rahmen;
+(2) `data-science-python-stack` § „Fehlende Abhängigkeit“ aufgetaucht a
+    fehlender Import und eine Installation sind der nächste Schritt;
+(3) Die Stop-Bedingung eines Workflow-Skills wird bei einem Fehlen ausgelöst
+    Abhängigkeit („build-ml-pipeline“, „evaluate-ml-pipeline“,
+    `organize-ml-workspace`, `audit-ml-pipeline`);
+(4) Starten eines neuen Python-Projekts und noch kein Manager vorhanden
+    (Bootstrap mit Pixi, sofern der Benutzer nichts anderes wählt);
+(5) „audit-ml-pipeline“ (oder ein anderer Nur-Agent-Verbraucher) benötigt das
+    **Agentenfunktion** (`ipython` + `pyright`) und das ist noch nicht der Fall
+    im Manifest des Projekts vorhanden – siehe § „Agent-Funktion“.
+
+ÜBERSPRINGEN, wenn: das Projekt kein Python ist; Der Befehl install/add gilt für ein Nicht-Python-Tool (npm, brew, apt, cargo, gem). die Abhängigkeit ist bereits installiert und importierbar; Die Arbeit besteht lediglich darin, vorhandenen Quellcode zu bearbeiten, ohne dass neue Abhängigkeiten im Spiel sind.
+ANWENDUNG: **Zuerst erkennen, dann installieren**. Führen Sie die Tabelle „Erkennung“ im Projektstammverzeichnis aus, bevor Sie einen Installationsbefehl erteilen. Wenn kein Manager erkannt wird, fragen Sie den Benutzer vor dem Bootstrapping. Installieren Sie niemals mit einem anderen Manager als dem, den das Projekt verwendet (z. B. „Pip-Installation“ niemals in ein von Pixi verwaltetes Projekt) – das führt zu Abweichungen im Umgebungsstatus, die das Manifest nicht verfolgt. **Lesen Sie den Block „Stoppbedingungen“ und geben Sie die Checkliste vor dem Flug als sichtbaren Text in Ihrer Antwort aus – beides ist obligatorisch, bevor Sie einen Befehl erteilen.**

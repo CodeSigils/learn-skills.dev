@@ -1,0 +1,15 @@
+Besitzt den Python-Codestil für diesen Stack: ruff für lint + format, numpydoc für Docstrings. Drei Verantwortlichkeiten: (1) Platzieren Sie „ruff.toml“ des Projekts aus der gebündelten Vorlage, sobald der Stapel und der Arbeitsbereich vorhanden sind, (2) führen Sie ruff für alle Python-Dateien aus, die Claude gerade generiert oder bearbeitet hat, und (3) kontextualisieren Sie die Kommentare jeder berührten Datei zum datenwissenschaftlichen Problem – indem Sie alle übrig gebliebenen Vorlagen/Workflow-Prosa (Skill-Namen, Gates, Runner, Digest, Leitplanken) in prägnante, problemspezifische Dokumente umschreiben Die festgeschriebenen Dateien des Benutzers lesen sich wie ein Kollege, der sie geschrieben hat, und nicht wie ein generiertes Gerüst. Stoppt bei „Die betroffenen Dateien bestehen den „Ruff Check“ und dokumentieren das Problem, nicht den Prozess.“
+TRIGGER, wenn (eines davon): (1) eine Python-Datei gerade über Schreiben / Bearbeiten / erstellt oder bearbeitet wurde
+    MultiEdit – Rufen Sie diese Fähigkeit auf, bevor Sie die Aufgabe als erledigt erklären
+    ruff wird ausgeführt UND die Kommentare der Datei werden mit dem kontextualisiert
+    Problem;
+(2) Ein neuer ML-Arbeitsbereich wurde gerade eingerichtet
+    `organize-ml-workspace` und das Projekt hat kein `ruff.toml` an
+    noch sein Stammverzeichnis – löschen Sie die gebündelte Vorlage;
+(3) Der Benutzer fragt nach Lint, Format, Dokumentzeichenfolgenstil oder Reichweite
+    für „black“ / „isort“ / „flake8“ / „pydocstyle“ (weiterleiten zu
+    ruff – der kanonische Linter des Stapels, im Besitz von
+    „Data-Science-Python-Stack“ Tier 1).
+
+ÜBERSPRINGEN, wenn: das Projekt kein Python ist; Die einzigen Änderungen in dieser Runde betreffen Markdown / TOML / JSON / YAML; Die Datei befindet sich in einem Verzeichnis eines Drittanbieters, das nicht dem Benutzer gehört.
+ANWENDUNG: Führen Sie ruff manuell für die Dateien aus, die Sie gerade berührt haben – konfigurieren Sie hierfür keinen PostToolUse-Hook. **Lesen Sie den Block „Stoppbedingungen“ und geben Sie die Checkliste vor dem Flug als sichtbaren Text in Ihrer Antwort aus – beides ist obligatorisch, bevor Sie Ruff ausführen.**

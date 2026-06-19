@@ -1,0 +1,10 @@
+Nutzen Sie die Discover API von Bright Data – Websuche mit Absichtsrang und KI-Relevanzbewertung
+im großen Maßstab (nicht Keyword SERP). Lösen Sie einen Ermittlungsauftrag aus und rufen Sie die Rangfolgeergebnisse ab
+(Link, Titel, Beschreibung, Relevanzbewertung) mit optional geparstem Seiteninhalt.
+Verwenden Sie diese Option, wenn der Benutzer eine semantische/absichtsbasierte Websuche wünscht, um Seiten zu finden
+<Thema>, das mit <Ziel> übereinstimmt“, webbasierter Abruf für ein LLM oder Ergebnisse
+gefiltert nach Relevanz und nicht nach rohem Keyword-Rang. Deckt die REST-API ab
+(POST/GET /discover), die CLI („bdata discover“) und die Python/JS SDKs
+(`client.discover`), einschließlich der Modi Standard/ZeroRanking/Deep/Fast. Das ist
+die Grundkompetenz für „Live-Research“ und „Rag-Pipeline“. Für Keyword SERP verwenden
+`suchen`; Für strukturierte Plattformdaten verwenden Sie „Daten-Feeds“.

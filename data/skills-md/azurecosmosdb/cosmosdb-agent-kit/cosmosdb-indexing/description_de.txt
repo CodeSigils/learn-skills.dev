@@ -1,0 +1,9 @@
+Best Practices für die Azure Cosmos DB-Indizierungsstrategie: Ausschließen nicht verwendeter Pfade,
+zusammengesetzte Indizes für ORDER BY, räumliche Indizes, Indextypen, Pfadsyntax,
+und Indizierungsmodi (konsistent vs. lazy).
+VERWENDUNG FÜR: Cosmos DB-Indizierungsrichtlinie, Pfade ausschließen, zusammengesetzter Index, räumlicher Index,
+Indexpfad-Syntax /? /* /[], Bereich vs. Hash-Index, Lazy vs. konsistente Indizierung,
+Indexrichtung, Reduzierung des Schreibaufwands.
+NICHT VERWENDEN FÜR: Abfrageoptimierung (cosmosdb-query-optimization verwenden),
+Volltextsuchindizes (verwenden Sie cosmosdb-full-text-search),
+Vektorindizes (verwenden Sie cosmosdb-vector-search).

@@ -1,0 +1,8 @@
+Best Practices für den Entwurf von Azure Cosmos DB-Partitionsschlüsseln: hohe Kardinalität,
+Hotspot-Vermeidung, hierarchische Partitionsschlüssel, synthetische Schlüssel, Abfragemuster
+Ausrichtung, Unveränderlichkeit und Größenbeschränkungen für logische Partitionen.
+VERWENDUNG FÜR: Auswahl des Cosmos DB-Partitionsschlüssels, hohe Kardinalität, Vermeidung heißer Partitionen,
+hierarchische Partitionsschlüssel, synthetische Partitionsschlüssel, Abfragemusterausrichtung,
+Partitionsschlüssellänge, unveränderlicher Partitionsschlüssel, 20 GB logisches Partitionslimit.
+NICHT VERWENDEN FÜR: Datenmodellierung (verwenden Sie cosmosdb-data-modeling), Abfrageoptimierung
+(cosmosdb-query-optimization verwenden), Durchsatz (cosmosdb-throughput verwenden).

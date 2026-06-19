@@ -1,0 +1,8 @@
+Best Practices für Azure Cosmos DB-Durchsatz und Skalierung: Automatische Skalierung für Variablen
+Workloads, richtige Dimensionierung des bereitgestellten Durchsatzes, serverlos für Entwicklung/Test,
+Burst-Kapazität und Container- vs. Datenbank-Durchsatzzuordnung.
+VERWENDUNG FÜR: Automatische Skalierung von Cosmos DB, bereitgestellter Durchsatz, serverlos, Burst-Kapazität,
+RU/s-Dimensionierung, Containerdurchsatz, Datenbankdurchsatz, Kostenoptimierung,
+Überbereitstellung, Unterbereitstellung, Drosselungsverhinderung.
+NICHT VERWENDEN FÜR: RU-Verbrauchsüberwachung (cosmosdb-monitoring verwenden),
+Partitionsschlüsselentwurf (cosmosdb-partition-key verwenden).

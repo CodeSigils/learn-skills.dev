@@ -1,0 +1,9 @@
+Best Practices für die Azure Cosmos DB-Abfrageoptimierung: Punktlesevorgänge, Projektionen,
+Paginierung mit Fortsetzungstoken, parametrisierte Abfragen, Filterreihenfolge,
+Partitionsübergreifende Abfragevermeidung und analytische Abfrageerkennung.
+VERWENDUNG FÜR: Cosmos DB-Abfragen, Punktlesevorgänge vs. Abfragen, SELECT-Projektionen,
+Fortsetzungstoken, parametrisierte Abfragen, Partitionsübergreifend vermeiden, Scans vermeiden,
+Filterselektivität, TOP-Literal, ORDER BY, spätestens nach Zeitstempel, OLAP-Erkennung,
+Aggregatabfragen, Schlüsselwort DISTINCT.
+NICHT VERWENDEN FÜR: Indizierung (cosmosdb-indexing verwenden), Datenmodellierung (cosmosdb-data-modeling verwenden),
+SDK-Clientcode (cosmosdb-sdk verwenden).

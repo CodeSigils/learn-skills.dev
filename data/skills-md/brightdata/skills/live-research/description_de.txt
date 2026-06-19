@@ -1,0 +1,11 @@
+Erstellen Sie einen ausführlichen, aus mehreren Quellen zitierten Forschungsbericht zu einem Thema aus dem Live-Web
+Daten mithilfe der Discover API von Bright Data (Intent-Ranking-Websuche + analysierte Seite).
+Inhalt). Verwenden Sie diese Option, wenn der Benutzer eine „Live-Recherche“ wünscht, um „<Thema> gründlich zu recherchieren“.
+„Recherchieren Sie das Neueste über“, „Schreiben Sie einen Bericht über“, „Geben Sie mir ein Briefing/Literatur
+Überprüfung/Marktscan“, „Alles darüber finden und zusammenfassen“ oder auf andere Weise
+möchte eine synthetisierte, quellenbasierte Antwort und keine Liste von Links. Zerlegt die Frage in mehrere Discover mit Absichtsrang
+Fragen ab, ruft Seiteninhalte ab, dedupliziert sie und ordnet sie dann nach Relevanz
+fasst ein strukturiertes Briefing mit Inline-Zitaten zusammen. Gebaut auf
+Fähigkeit „Discover-API“. Für konkurrenzspezifische Informationen verwenden Sie „competitive-intel“;
+für soziales/Markengefühl verwenden Sie „Markenhören“; für ein Retrieval-*System* (nicht
+ein einmaliger Bericht) verwenden Sie „rag-pipeline“.
