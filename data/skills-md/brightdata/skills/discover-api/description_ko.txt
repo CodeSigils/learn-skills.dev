@@ -1,0 +1,10 @@
+Bright Data의 Discover API 사용 - 의도 순위, AI 관련성 점수 웹 검색
+대규모로(키워드 SERP 아님) 검색 작업을 트리거하고 순위가 매겨진 결과를 검색합니다.
+(링크, 제목, 설명, 관련성_점수)를 선택적으로 구문 분석된 페이지 콘텐츠로 만듭니다.
+사용자가 의미/의도 기반 웹 검색을 원할 때 사용합니다.
+<목표>'와 일치하는 <주제>, LLM에 대한 웹 기반 검색 또는 결과
+원시 키워드 순위가 아닌 관련성을 기준으로 필터링됩니다. REST API를 다룹니다.
+(POST/GET /discover), CLI(`bdata discover`) 및 Python/JS SDK
+(`client.discover`), 표준/zeroRanking/deep/fast 모드 포함. 이것은
+'실시간 연구'와 '래그 파이프라인'의 기초 스킬입니다. 키워드 SERP 사용의 경우
+'검색'; 구조화된 플랫폼 데이터의 경우 'data-feeds'를 사용하세요.

@@ -1,0 +1,1 @@
+단일 노드 스크립트를 다중 노드 Slurm sbatch 작업으로 변환하고 일반적인 다중 노드 오류를 디버그합니다. srun-native 대 uv run torch.distributed 접근 방식, 컨테이너 설정, NCCL 시간 초과, MoE 모델의 OOM 크기 조정 및 대화형 할당을 다룹니다.

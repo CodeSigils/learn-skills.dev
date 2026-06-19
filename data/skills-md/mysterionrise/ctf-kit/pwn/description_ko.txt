@@ -1,0 +1,1 @@
+버퍼 오버플로, 형식 문자열, ROP 체인, 힙 활용 및 쉘코딩과 같은 CTF 바이너리 활용(pwn) 문제를 해결합니다. 악용할 원격 서비스와 함께 ELF/PE 바이너리가 제공될 때 사용합니다. 트리거: "버퍼 오버플로", "형식 문자열", "ROP", "shellcode", "checksec", "NX", "canary", "PIE", "GOT 덮어쓰기", "ret2libc", pwntools 스크립트, .elf 파일, nc/netcat 연결 대상. 도구: checksec, ROPgadget, pwntools, gdb, one_gadget. 정적 리버스 엔지니어링에는 적합하지 않습니다(역방향 사용).

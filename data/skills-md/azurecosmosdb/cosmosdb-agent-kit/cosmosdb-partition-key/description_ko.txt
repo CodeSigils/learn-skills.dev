@@ -1,0 +1,8 @@
+Azure Cosmos DB 파티션 키 디자인 모범 사례: 높은 카디널리티,
+핫스팟 회피, 계층적 파티션 키, 합성 키, 쿼리 패턴
+정렬, 불변성 및 논리 파티션 크기 제한.
+사용 대상: Cosmos DB 파티션 키 선택, 높은 카디널리티, 핫 파티션 방지,
+계층적 파티션 키, 합성 파티션 키, 쿼리 패턴 정렬,
+파티션 키 길이, 변경할 수 없는 파티션 키, 20GB 논리 파티션 제한.
+사용하지 마세요: 데이터 모델링(cosmosdb-data-modeling 사용), 쿼리 최적화
+(cosmosdb-query-optimization 사용), 처리량(cosmosdb-throughput 사용).

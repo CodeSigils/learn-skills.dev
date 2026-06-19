@@ -1,0 +1,1 @@
+규제 문서(PDF 또는 텍스트)를 분석하고 Sumsub 구성 계획을 생성하여 규제 요구 사항을 Sumsub 엔터티(레벨, 설문지, PoA 사전 설정, TM 규칙, 워크플로)에 매핑합니다. 사용자가 규정 PDF, 법률 행위 또는 규정 준수 요구 사항 문서를 제공하고 Sumsub에서 구성할 항목을 알고 싶어하는 경우 트리거합니다. sumsub-create-level, sumsub-create-questionnaire, sumsub-create-poa-preset, sumsub-create-workflow 및 기타 기술을 호출하기 전에 진입점 역할을 합니다. 직접 엔터티 생성 요청(규제 컨텍스트 없음) 또는 Sumsub API 호출의 경우 건너뛰세요.

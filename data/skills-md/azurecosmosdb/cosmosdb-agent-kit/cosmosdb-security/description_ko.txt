@@ -1,0 +1,8 @@
+Azure Cosmos DB 보안 모범 사례: 로컬 인증(키) 비활성화
+DefaultAzureCredential을 사용한 관리 ID, 네트워크 액세스 제한,
+RBAC 최소 권한 및 특정 시점 복원을 위한 지속적인 백업.
+사용 대상: Cosmos DB 보안, 로컬 인증 비활성화, 키 비활성화, 관리 ID,
+DefaultAzureCredential, Entra ID, 네트워크 제한, IP 방화벽,
+프라이빗 엔드포인트, RBAC 역할, 최소 권한, 데이터 평면 역할,
+연속 백업, 특정 시점 복원, PITR, 제로 트러스트.
+사용하지 마세요: 클라이언트 측 암호화(보류 중), SDK 인증 코드(cosmosdb-sdk 사용).

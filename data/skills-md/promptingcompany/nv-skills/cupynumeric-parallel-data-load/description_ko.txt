@@ -1,0 +1,1 @@
+샤딩된 온디스크 데이터 세트(샤딩된 .npy, Parquet/Arrow, 원시 바이너리, 샤딩된 HDF5, 사용자 정의 레이아웃)를 수동 파티션 + CPU/OMP/GPU 변형이 포함된 리프 @태스크 실행을 통해 분산 cuPyNumeric ndarray에 로드합니다. 샤드당 행 수가 파일마다 다른 경우를 포함하여 단일 호출 로더가 적합하지 않은 경우에 사용합니다. 적용 시 cupynumeric.load 또는 legate.io.hdf5.from_file을 선호하세요.

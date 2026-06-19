@@ -1,0 +1,14 @@
+.NET, Java, Python, Spring Boot에 대한 Azure Cosmos DB SDK 모범 사례 및
+LangChain: 싱글톤 클라이언트, 비동기 API, 연결 모드, 재시도 처리,
+진단, 직렬화, 에뮬레이터 구성, ETag, 회로 차단기,
+가용성 전략 및 프레임워크별 패턴.
+사용 대상: CosmosClient 싱글톤, 비동기 API, 직접 대 게이트웨이 모드, 재시도 429,
+기본 지역, 제외 지역, 가용성 전략, 회로 차단기,
+SDK 진단, 직렬화 열거형, 에뮬레이터 SSL, ETag 동시성,
+조건부 생성, 패치 증분, 연속 토큰, 콘텐츠 응답,
+Spring Data Cosmos, Spring Boot 버전, Newtonsoft 종속성, 네임스페이스 충돌,
+Python 비동기 deps, 로컬 개발 구성, LangChain Cosmos DB 보호기, LangGraph 체크포인터,
+MCP 영구 세션, MCP 도구 콘텐츠 형식, MCP 도구 필터링,
+LangChain JS 벡터스토어, LangChain JS 채팅 기록, LangChain JS 시맨틱 캐시.
+사용하지 마세요: 데이터 모델링(cosmosdb-data-modeling 사용), 쿼리(cosmosdb-query-optimization 사용),
+파티션 키(cosmosdb-partition-key 사용)

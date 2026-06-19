@@ -1,0 +1,1 @@
+기존 TypeScript 코드베이스를 Ingest SDK v3에서 v4로 업그레이드하거나 혼합 v3/v4 API 사용을 수정할 때 사용합니다. 현재 SDK 사용 감지, 트리거를 createFunction 옵션으로 이동, EventSchemas를 eventType/staticSchema로 교체, 서비스 옵션을 클라이언트로 이동, 실시간 가져오기 업데이트, step.invoke 문자열 ID 다시 작성, 체크포인팅/서버리스 런타임 설정, 연결 옵션 변경 및 확인을 다룹니다.

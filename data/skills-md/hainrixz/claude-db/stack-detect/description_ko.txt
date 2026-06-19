@@ -1,0 +1,1 @@
+scripts/Detect-stack.mjs를 래핑하여 프로젝트의 데이터베이스 스택(패러다임, 엔진, ORM, 플랫폼 및 권위 있는 source_of_truth)을 감지합니다. 스택 배열과 라우팅(패러다임 프로필 및 모듈이 각 스택 드라이브를 설정함) 및 source_of_truth 우선 순위를 내보냅니다. 엔진을 추측하지 마십시오. 빈 결과는 /claude-db:start로 라우팅됩니다. db-orchestrator(1단계)에 의해 호출됩니다. 일반적으로 직접 호출되지 않습니다.

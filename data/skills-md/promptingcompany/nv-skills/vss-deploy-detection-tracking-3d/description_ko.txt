@@ -1,0 +1,1 @@
+RTVI-CV-3D 마이크로서비스를 MV3DT(`MODE=mv3dt`)로 배포하고 운영합니다. 카메라별 DeepStream 인식과 보정된 카메라를 통한 BEV Fusion이 가능합니다. 번들 샘플 데이터 세트, 사용자 정의 비디오 파일, RTSP 스트림을 지원하고 보정이 누락된 경우 'vss-generate-video-calibration'에 대한 체인을 지원합니다. 전체 웨어하우스 청사진에는 'vss-deploy-profile'을 사용하고 단일 카메라 2D 감지에는 'vss-deploy-Detection-tracking-2d'를 사용하세요.

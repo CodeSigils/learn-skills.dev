@@ -1,0 +1,9 @@
+Azure Cosmos DB 쿼리 최적화 모범 사례: 포인트 읽기, 프로젝션,
+연속 토큰을 사용한 페이지 매김, 매개변수화된 쿼리, 필터 순서 지정,
+파티션 간 쿼리 회피 및 분석 쿼리 감지.
+사용 대상: Cosmos DB 쿼리, 포인트 읽기 및 쿼리, SELECT 프로젝션,
+연속 토큰, 매개변수화된 쿼리, 교차 파티션 방지, 스캔 방지,
+필터 선택성, TOP 리터럴, ORDER BY, 타임스탬프별 최신, OLAP 감지,
+집계 쿼리, DISTINCT 키워드.
+사용하지 마십시오: 인덱싱(cosmosdb-indexing 사용), 데이터 모델링(cosmosdb-data-modeling 사용),
+SDK 클라이언트 코드(cosmosdb-sdk 사용)
