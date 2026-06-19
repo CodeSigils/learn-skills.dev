@@ -1,0 +1,11 @@
+Produci un brief di ricerca approfondito, multi-fonte e citato su un argomento dal web in diretta
+dati utilizzando l'API Discover di Bright Data (ricerca web classificata per intento + pagina analizzata
+contenuto). Utilizzare quando l'utente desidera "ricercare dal vivo", "ricercare <argomento> in modo approfondito",
+"ricerca le ultime novità", "scrivi un rapporto su", "dammi un briefing/documentazione
+revisione/scansione del mercato", "trova e sintetizza tutto ciò che riguarda" o altro
+vuole una risposta sintetizzata e basata sulla fonte piuttosto che un elenco di collegamenti. Decompone la domanda in più Discover classificati per intenti
+esegue query, estrae il contenuto della pagina, deduplica e classifica in base alla pertinenza, quindi
+sintetizza un brief strutturato con citazioni in linea. Costruito sul
+abilità "discover-api". Per le informazioni specifiche del concorrente utilizzare "competitive-intel";
+per il sentiment sociale/del marchio utilizzare "brand-listening"; per un *sistema* di recupero (non
+un rapporto una tantum) utilizzare `rag-pipeline`.

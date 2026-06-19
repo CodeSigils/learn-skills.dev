@@ -1,0 +1,9 @@
+Procedure consigliate per l'ottimizzazione delle query di Azure Cosmos DB: letture puntuali, proiezioni,
+impaginazione con token di continuazione, query parametrizzate, ordinamento dei filtri,
+evitare query su partizioni incrociate e rilevamento di query analitiche.
+UTILIZZARE PER: query Cosmos DB, letture puntuali e query, proiezioni SELECT,
+token di continuazione, query parametrizzate, evitare partizioni incrociate, evitare scansioni,
+selettività del filtro, letterale TOP, ORDER BY, ultimo per timestamp, rilevamento OLAP,
+query aggregate, parola chiave DISTINCT.
+NON UTILIZZARE PER: indicizzazione (usare cosmosdb-indexing), modellazione dei dati (usare cosmosdb-data-modeling),
+Codice client SDK (usa cosmosdb-sdk).

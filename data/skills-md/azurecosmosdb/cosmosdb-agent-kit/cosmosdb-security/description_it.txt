@@ -1,0 +1,8 @@
+Procedure consigliate per la sicurezza di Azure Cosmos DB: disabilitazione dell'autenticazione locale (chiavi),
+identità gestita con DefaultAzureCredential, restrizioni di accesso alla rete,
+Privilegio minimo RBAC e backup continuo per il ripristino point-in-time.
+UTILIZZARE PER: sicurezza Cosmos DB, disabilitazione dell'autenticazione locale, disabilitazione delle chiavi, identità gestita,
+DefaultAzureCredential, ID Entra, restrizioni di rete, firewall IP,
+endpoint privati, ruoli RBAC, privilegio minimo, ruoli del piano dati,
+backup continuo, ripristino point-in-time, PITR, zero-trust.
+NON UTILIZZARE PER: crittografia lato client (in sospeso), codice di autenticazione SDK (utilizzare cosmosdb-sdk).

@@ -1,0 +1,8 @@
+Procedure consigliate per la progettazione della chiave di partizione di Azure Cosmos DB: cardinalità elevata,
+evitamento degli hotspot, chiavi di partizione gerarchica, chiavi sintetiche, modello di query
+allineamento, immutabilità e limiti di dimensione della partizione logica.
+UTILIZZARE PER: scelta della chiave di partizione Cosmos DB, cardinalità elevata, evitare partizioni attive,
+chiavi di partizione gerarchiche, chiavi di partizione sintetiche, allineamento dei modelli di query,
+lunghezza della chiave di partizione, chiave di partizione immutabile, limite di partizione logica di 20 GB.
+NON UTILIZZARE PER: modellazione dei dati (usare cosmosdb-data-modeling), ottimizzazione delle query
+(usa l'ottimizzazione delle query cosmosdb), velocità effettiva (usa la velocità effettiva cosmosdb).

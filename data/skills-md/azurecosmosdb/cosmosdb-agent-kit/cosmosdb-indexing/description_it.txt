@@ -1,0 +1,9 @@
+Procedure consigliate per la strategia di indicizzazione di Azure Cosmos DB: esclusione di percorsi non utilizzati,
+indici compositi per ORDER BY, indici spaziali, tipi di indice, sintassi del percorso,
+e modalità di indicizzazione (coerente vs pigro).
+UTILIZZARE PER: criteri di indicizzazione Cosmos DB, percorsi di esclusione, indice composito, indice spaziale,
+sintassi del percorso dell'indice /? /* /[], intervallo vs indice hash, indicizzazione pigra vs coerente,
+direzione dell'indice, riduzione del sovraccarico di scrittura.
+NON UTILIZZARE PER: ottimizzazione delle query (utilizzare cosmosdb-query-optimization),
+indici di ricerca full-text (usa cosmosdb-full-text-search),
+indici vettoriali (utilizzare cosmosdb-vettore-search).

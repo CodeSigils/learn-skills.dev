@@ -1,0 +1,8 @@
+Procedure consigliate per velocità effettiva e scalabilità di Azure Cosmos DB: scalabilità automatica per variabile
+carichi di lavoro, throughput assegnato con il giusto dimensionamento, serverless per sviluppo/test,
+capacità di burst e allocazione del throughput del contenitore rispetto al database.
+UTILIZZARE PER: scalabilità automatica di Cosmos DB, throughput assegnato, serverless, capacità burst,
+dimensionamento UR/s, throughput del contenitore, throughput del database, ottimizzazione dei costi,
+prevenzione di over-provisioning, under-provisioning e throttling.
+NON UTILIZZARE PER: monitoraggio dei consumi delle IF (utilizzare cosmosdb-monitoring),
+progettazione della chiave di partizione (utilizzare cosmosdb-partition-key).

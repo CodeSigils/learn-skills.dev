@@ -1,0 +1,17 @@
+Unica fonte di verità per "quale gestore dell'ambiente Python utilizza questo progetto e come posso installare un pacchetto con esso?". Possiede la tabella di rilevamento (pixi / uv / poetry / hatch / conda+mamba / pip+venv), i comandi di installazione/rimozione/aggiornamento per gestore e il percorso di bootstrap quando non è presente alcun gestore (raccomandazione predefinita: pixi). Si ferma a "il comando di installazione è stato emesso con il gestore giusto e il pacchetto è importabile".
+TRIGGER quando (uno di questi): (1) **sta per installare/aggiungere/aggiungere/aggiornare/rimuovere un Python
+    pacchetto** — `pip install`, `pixi add`, `uv add`, `poetry add`,
+    `conda install`, ecc. — sotto qualsiasi inquadramento;
+(2) `data-science-python-stack` § "Dipendenza mancante" è emersa a
+    l'importazione mancante e l'installazione sono il passaggio successivo;
+(3) la condizione di arresto di una competenza del flusso di lavoro attivata in caso di disperso
+    dipendenza (`build-ml-pipeline`, `evaluate-ml-pipeline`,
+    `organize-ml-workspace`, `audit-ml-pipeline`);
+(4) avviare un nuovo progetto Python e non è ancora presente alcun manager
+    (bootstrap con pixi a meno che l'utente non scelga diversamente);
+(5) "audit-ml-pipeline" (o un altro consumatore con solo agente) necessita di
+    **funzione agente** (`ipython` + `pyright`) e non lo è ancora
+    presente nel manifest del progetto — vedere § "Caratteristica dell'agente".
+
+SALTA quando: il progetto non è Python; il comando install/add è per uno strumento non Python (npm, brew, apt, cargo, gem); la dipendenza è già installata e importabile; il lavoro consiste semplicemente nel modificare il codice sorgente esistente senza nuove dipendenze in gioco.
+COME USARE: **rileva prima, poi installa**. Eseguire la tabella § "Rilevamento" nella root del progetto prima di emettere qualsiasi comando di installazione. Se non viene rilevato alcun manager, chiedi all'utente prima di eseguire il bootstrap. Non installare mai con un gestore diverso da quello utilizzato dal progetto (ad esempio, non eseguire mai "pip install" in un progetto gestito da pixi) — ciò crea una divergenza dello stato env che il manifest non traccerà. **Leggi il blocco "Condizioni di arresto" ed emetti la lista di controllo pre-volo come testo visibile nella tua risposta: entrambi sono obbligatori prima di impartire qualsiasi comando.**

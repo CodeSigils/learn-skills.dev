@@ -1,0 +1,1 @@
+Converti script a nodo singolo in lavori sbatch Slurm multi-nodo ed esegui il debug degli errori comuni multi-nodo. Copre gli approcci srun-native e uv run torch.distributed, la configurazione del contenitore, i timeout NCCL, il dimensionamento OOM per i modelli MoE e l'allocazione interattiva.

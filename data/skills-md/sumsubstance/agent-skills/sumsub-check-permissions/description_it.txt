@@ -1,0 +1,1 @@
+Recupera i diritti consentiti del tenant corrente (elenco BackgroundCheckTarget). Restituisce JSON con "autorizzato" (array di chiavi di autorizzazione) e "descrizioni" (mappa di chiavi → etichetta leggibile dall'uomo). Chiamato da sumsub-create-level (e altre competenze create-*) prima di creare un payload per ottenere le funzionalità richieste dai diritti.

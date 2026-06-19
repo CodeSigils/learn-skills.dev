@@ -1,0 +1,11 @@
+Accetta una richiesta di funzionalità ed esegui automaticamente l'intero playbook di consegna: pianificalo, rivedi il
+pianifica, crealo attività per attività, rivedi la build e, facoltativamente, controllala per il lancio, quindi restituisci il file
+risultati verificati come feedback (un passaggio, nessun ciclo autonomo; l'utente decide qualsiasi round di correzione). Esso
+concatena le competenze esistenti come un flusso di lavoro eseguibile:
+plan-to-task-list-with-dag (pianifica + assegna un agente specializzato per attività) → revisione-fondatore del piano →
+un ingegnere/revisore specializzato costruito nel DAG → una revisione incrociata completa del codice Claude ∥/kiro →
+verifica go-live. In primo piano mostra quali competenze/agenti potrebbero aiutare (con i comandi di installazione), quindi chiede
+quali porte eseguire e a quale profondità: la scrittura del codice e ciascuna revisione scelgono in modo indipendente il nativo/codice
+/ kiro (le recensioni possono saltare; scrittore e revisore possono differire), quindi l'utente controlla la qualità rispetto al costo del token.
+Da utilizzare quando l'utente desidera "richiesta → pianificato, costruito, rivisto, controllato" in una volta sola
+invece di eseguire ogni fase manualmente.

@@ -1,0 +1,15 @@
+Possiede lo stile del codice Python per questo stack: ruff per lint + format, numpydoc per docstrings. Tre responsabilità: (1) posizionare il `ruff.toml` del progetto dal modello in bundle una volta che lo stack e l'area di lavoro sono a posto, (2) eseguire ruff su qualsiasi file Python che Claude ha appena generato o modificato e (3) contestualizzare i commenti di ciascun file toccato al problema di scienza dei dati - riscrivendo qualsiasi modello rimanente/prose del flusso di lavoro (nomi delle competenze, porte, runner, digest, guard-rail) in documenti concisi e specifici del problema in modo che il i file impegnati dell'utente vengono letti come li ha scritti un collega, non come un'impalcatura generata. Si ferma a "i file toccati superano il `ruff check` e documentano il problema, non il processo."
+TRIGGER quando (uno di questi): (1) un file Python è stato appena creato o modificato tramite Scrivi / Modifica /
+    MultiEdit: richiama questa abilità prima di dichiarare l'attività completata
+    ruff viene eseguito E i commenti del file vengono contestualizzati al file
+    problema;
+(2) un nuovo spazio di lavoro ML è stato appena impalcato
+    `organize-ml-workspace` e il progetto non ha `ruff.toml` in
+    è ancora root: rilascia il modello in bundle;
+(3) l'utente chiede informazioni su lint, formato, stile docstring o raggiungimenti
+    per `black` / `isort` / `flake8` / `pydocstyle` (reindirizzamento a
+    ruff: il linter canonico dello stack, di proprietà di
+    `data-science-python-stack` Livello 1).
+
+SALTA quando: il progetto non è Python; le uniche modifiche in questo turno riguardano Markdown / TOML / JSON / YAML; il file si trova in una directory fornita da terze parti di cui l'utente non è proprietario.
+COME USARE: esegui ruff manualmente sui file che hai appena toccato - non configurare un hook PostToolUse per questo. **Leggi il blocco "Condizioni di arresto" ed emetti la lista di controllo pre-volo come testo visibile nella tua risposta: entrambi sono obbligatori prima di eseguire ruff.**
