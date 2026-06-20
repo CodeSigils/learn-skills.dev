@@ -1,0 +1,1 @@
+在計劃和執行任務期間強制執行慣用的 git-branchless — 分離 HEAD 優先工作、通過 `git move` 進行內存中 rebase、通過 `git undo` 進行事件日誌恢復、延遲分支創建、用於基礎更新的推測合併 `gitsync`。在規劃或執行多提交工作、歷史重寫、堆疊編輯、變基/重新排序、堆疊中間插入修復、堆疊 PR 發布或從錯誤的 git 操作中恢復時使用；或者當用戶提到branchless、smartlog、`git move`或`git undo`時。如果目前倉庫沒有初始化branchless，則靜默惰性。

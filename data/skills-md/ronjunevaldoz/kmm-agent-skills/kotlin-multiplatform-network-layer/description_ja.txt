@@ -1,0 +1,1 @@
+Kotlin マルチプラットフォーム プロジェクトの :core:network 内に本番環境に対応した Ktor 3 ネットワーク レイヤーを足場にします。対象範囲: Android、iOS、デスクトップ (JVM)、および Web (JS + WasmJs) 用のプラットフォーム エンジン (OkHttp/Darwin/CIO/Js)、ContentNegotiation、自動トークン更新 (競合条件セーフ) を備えたベアラー認証、NetworkResult<T> シール型への構造化エラー マッピング、リクエスト/レスポンスのログ、Koin ワイヤリング。プロジェクトが kotlin-multiplatform-feature-scaffold でスキャフォールディングされたことを前提としています。

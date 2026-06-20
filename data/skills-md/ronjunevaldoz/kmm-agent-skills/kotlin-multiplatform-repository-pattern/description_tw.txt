@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的儲存庫模式 - 領域邏輯和儲存/網路之間的資料層。涵蓋：:feature:x:api 中的儲存庫介面、:feature:x:data 中的實作、透過 SQLDelight Flow 的單一事實來源、三種取得策略（網路優先、快取優先、離線優先）、儲存庫邊界的 NetworkResult 到網域對映、樂觀更新、以及將網路類型洩漏到本機跳過快取的常見錯誤。需要 kotlin-multiplatform-network-layer 和 kotlin-multiplatform-sqldelight-setup。

@@ -1,0 +1,1 @@
+KMP の完全な UI レイヤー テスト: コンポーザブルのセマンティック テスト タグ、Compose UI インタラクション テスト (createComposeRule、onNodeWithTag、performClick、assertIsDisplayed)、およびビジュアル回帰検出のために JVM/デスクトップ上の @Preview コンポーザブルをキャプチャする Roborazzi スクリーンショット テスト。 testTag の規則から CI ゴールデン イメージの差分までの完全なスタックをカバーします。 UI 回帰テスト用に kotlin-multiplatform-testing-robot を置き換えます。

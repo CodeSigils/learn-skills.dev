@@ -1,0 +1,1 @@
+Configura el almacén de datos multiplataforma para KMP: preferencias (clave-valor) y variantes Proto (escritas, basadas en esquemas). Cubre createDataStore {} esperado/real por plataforma, lecturas basadas en flujo, escrituras de rutina, migración desde SharedPreferences y cableado Koin para que los módulos de funciones nunca construyan DataStore directamente.

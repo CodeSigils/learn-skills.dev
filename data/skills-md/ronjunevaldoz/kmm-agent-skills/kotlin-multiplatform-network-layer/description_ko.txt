@@ -1,0 +1,1 @@
+Kotlin Multiplatform 프로젝트를 위해 :core:network 내부에 프로덕션용 Ktor 3 네트워크 계층을 스캐폴드합니다. 다룹니다: Android, iOS, 데스크톱(JVM) 및 웹(JS + WasmJs)용 플랫폼 엔진(OkHttp/Darwin/CIO/Js), ContentNegotiation, 자동 토큰 새로 고침(경합 조건 안전)을 통한 Bearer 인증, NetworkResult<T> 봉인 유형에 대한 구조적 오류 매핑, 요청/응답 로깅 및 Koin 연결. 프로젝트가 kotlin-multiplatform-feature-scaffold를 사용하여 스캐폴드되었다고 가정합니다.

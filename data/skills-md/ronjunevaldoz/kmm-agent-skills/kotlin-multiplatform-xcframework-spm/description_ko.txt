@@ -1,0 +1,1 @@
+Kotlin Multiplatform 공유 모듈에서 XCFramework를 빌드하고 이를 SPM(Swift Package Manager) 바이너리 대상으로 게시합니다. 다루는 내용: Gradle XCFramework 구성, assembleReleaseXCFramework 작업, 개발용 로컬 SPM Package.swift, 배포용 원격 바이너리 SPM 대상(GitHub 릴리스) 및 Xcode 프로젝트 통합. AGP 9+ 및 kotlin-multiplatform-feature-scaffold의 프로젝트 구조를 가정합니다.

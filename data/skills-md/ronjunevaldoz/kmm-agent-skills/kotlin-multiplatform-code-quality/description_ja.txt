@@ -1,0 +1,1 @@
+KMP プロジェクトの Ktlint (フォーマット) と Detekt (コード匂い + アーキテクチャ ルール) をセットアップします。どちらも CI ゲートとして実行されます。 Ktlint は設定がほぼゼロです。 Detekt アーキテクチャ ルールは、kotlin-multiplatform-clean-architecture からの 6 層モジュール境界コントラクトを強制します。

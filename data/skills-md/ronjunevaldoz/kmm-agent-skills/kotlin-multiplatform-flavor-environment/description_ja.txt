@@ -1,0 +1,1 @@
+BuildKonfig を使用して、Kotlin マルチプラットフォーム プロジェクトでマルチ環境構成 (dev/staging/prod) をセットアップします。対象範囲: 環境固有の BuildKonfig 値、BuildKonfig に接続された Android 製品フレーバー、commonMain の共有 AppConfig オブジェクト、シークレット管理、ビルド時の環境の切り替え。プロジェクトが kotlin-multiplatform-feature-scaffold でスキャフォールディングされたことを前提としています。

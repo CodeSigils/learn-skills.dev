@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的存储库模式 - 领域逻辑和存储/网络之间的数据层。涵盖：:feature:x:api 中的存储库接口、:feature:x:data 中的实现、通过 SQLDelight Flow 的单一事实来源、三种获取策略（网络优先、缓存优先、离线优先）、存储库边界的 NetworkResult 到域映射、乐观更新以及将网络类型泄漏到域和跳过本地缓存的常见错误。需要 kotlin-multiplatform-network-layer 和 kotlin-multiplatform-sqldelight-setup。

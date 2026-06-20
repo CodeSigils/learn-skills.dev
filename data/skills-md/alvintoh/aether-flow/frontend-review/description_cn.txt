@@ -1,0 +1,1 @@
+根据 TypeScript、React、Next.js App Router、性能、可访问性和安全最佳实践检查 src/app/ 和 src/features/ 中的所有前端组件。首先捕获 Chrome 控制台错误，运行 lint 和类型检查，然后在读取文件之前运行 Grep-first 模式匹配 — 返回按优先顺序排列的结果列表。

@@ -1,0 +1,1 @@
+修复文件上的样式指南错误。首先检查 IDE 诊断，然后仅在 IDE 诊断不可用或为空时运行 vale 和 markdownlint。仅当提示明确指示时，才会回退到标有粘性标记“STYLE GUIDE VALIDATION”的 PR 评论。当要求修复文件上的样式指南错误时使用。

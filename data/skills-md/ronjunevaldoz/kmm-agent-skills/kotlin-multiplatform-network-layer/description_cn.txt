@@ -1,0 +1,1 @@
+在 :core:network 中为 Kotlin 多平台项目搭建一个生产就绪的 Ktor 3 网络层。涵盖：适用于 Android、iOS、桌面 (JVM) 和 Web (JS + WasmJs) 的平台引擎 (OkHttp/Darwin/CIO/Js)、ContentNegotiation、具有自动令牌刷新功能的承载身份验证（竞争条件安全）、映射到 NetworkResult<T> 密封类型的结构化错误、请求/响应日志记录和 Koin 接线。假设该项目是使用 kotlin-multiplatform-feature-scaffold 搭建的。

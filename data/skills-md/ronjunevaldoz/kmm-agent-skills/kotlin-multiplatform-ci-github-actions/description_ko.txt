@@ -1,0 +1,1 @@
+KMP(Kotlin Multiplatform) 프로젝트용 GitHub Actions CI를 설정합니다. ci.yml(lint, Android 테스트, iOS 테스트, 데스크톱 JVM 테스트, Web JS + WasmJs 테스트, Gradle 캐시) 및 release.yml(XCFramework 빌드 + 업로드 아티팩트)의 두 가지 워크플로 파일을 생성합니다. 모든 대상 플랫폼이 포함됩니다. AGP 9+ 및 kotlin-multiplatform-feature-scaffold의 프로젝트 구조를 가정합니다.

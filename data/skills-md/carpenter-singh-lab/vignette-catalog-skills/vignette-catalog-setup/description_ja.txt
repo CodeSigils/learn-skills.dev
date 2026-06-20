@@ -1,0 +1,1 @@
+クローン作成後に既存の vignette カタログをセットアップします。それには、catalog.toml を読み取り、uv と auth を確認し、marimo-pair をインストールし、--sandbox で最初の marimo ノートブックを起動し、ライブ カーネルを登録し、vignette-catalog-compose-notebook に渡します。誰かがカタログ リポジトリにいて、カタログの開始、セットアップ、実行、最初のノートブックの起動、またはライブ カーネルの準備を求めるときに使用します。新しいカタログの作成には使用しないでください。そのためには vignette-catalog-scaffold を使用してください。

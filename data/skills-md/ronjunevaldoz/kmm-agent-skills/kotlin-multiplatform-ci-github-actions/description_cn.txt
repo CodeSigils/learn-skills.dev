@@ -1,0 +1,1 @@
+为 Kotlin 多平台 (KMP) 项目设置 GitHub Actions CI。生成两个工作流程文件：ci.yml（lint、Android 测试、iOS 测试、桌面 JVM 测试、Web JS + WasmJs 测试、Gradle 缓存）和 release.yml（XCFramework 构建 + 上传工件）。涵盖所有目标平台。假设 AGP 9+ 和来自 kotlin-multiplatform-feature-scaffold 的项目结构。

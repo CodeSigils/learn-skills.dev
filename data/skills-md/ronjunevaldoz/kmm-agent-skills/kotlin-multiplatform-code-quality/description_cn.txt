@@ -1,0 +1,1 @@
+为 KMP 项目设置 Ktlint（格式化）和 Detekt（代码气味 + 架构规则）。两者都作为 CI 门运行。 Ktlint 的配置接近于零。 Detekt 架构规则强制执行来自 kotlin-multiplatform-clean-architecture 的 6 层模块边界契约。

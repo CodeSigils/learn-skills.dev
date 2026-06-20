@@ -1,0 +1,1 @@
+Kotlin マルチプラットフォームのリポジトリ パターン — ドメイン ロジックとストレージ/ネットワークの間のデータ層。 :feature:x:api のリポジトリ インターフェイス、:feature:x:data の実装、SQLDelight フローによる単一ソース、3 つのフェッチ戦略 (ネットワーク ファースト、キャッシュ ファースト、オフライン ファースト)、リポジトリ境界での NetworkResult からドメインへのマッピング、オプティミスティック更新、およびネットワーク タイプをドメインに漏洩してローカル キャッシュをスキップする一般的な間違いについて説明します。 kotlin-multiplatform-network-layer と kotlin-multiplatform-sqldelight-setup が必要です。

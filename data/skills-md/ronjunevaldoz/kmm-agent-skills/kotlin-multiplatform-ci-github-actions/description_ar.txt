@@ -1,0 +1,1 @@
+يقوم بإعداد GitHub Actions CI لمشروع Kotlin Multiplatform (KMP). يُنتج ملفين لسير العمل: ci.yml (lint، اختبارات Android، اختبارات iOS، اختبارات JVM لسطح المكتب، اختبارات Web JS + WasmJs، ذاكرة التخزين المؤقت Gradle) وrelease.yml (بناء XCFramework + قطعة أثرية للتحميل). يتم تغطية جميع المنصات المستهدفة. يفترض AGP 9+ وهيكل المشروع من kotlin-multiplatform-feature-scaffold.

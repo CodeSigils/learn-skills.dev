@@ -1,0 +1,1 @@
+KMP 的完整 UI 層測試：可組合項目上的語義測試標籤、Compose UI 交互測試（createComposeRule、onNodeWithTag、performClick、assertIsDisplayed）以及在 JVM/Desktop 上捕獲 @Preview 可組合項以進行視覺回歸的 Roborazzi 屏幕截圖測試。涵蓋從 testTag 約定到 CI 黃金影像差異的完整堆疊。取代 kotlin-multiplatform-testing-robot 以進行 UI 回歸測試。
