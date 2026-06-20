@@ -1,0 +1,1 @@
+Sets up GitHub Actions CI for a Kotlin Multiplatform (KMP) project. Produces two workflow files: ci.yml (lint, Android tests, iOS tests, Desktop JVM tests, Web JS + WasmJs tests, Gradle cache) and release.yml (XCFramework build + upload artifact). All target platforms are covered. Assumes AGP 9+ and the project structure from kotlin-multiplatform-feature-scaffold.

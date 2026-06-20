@@ -1,0 +1,1 @@
+Sets up Multiplatform DataStore for KMP: Preferences (key-value) and Proto (typed, schema-driven) variants. Covers createDataStore {} expect/actual per platform, Flow-based reads, coroutine writes, migration from SharedPreferences, and Koin wiring so feature modules never construct DataStore directly.

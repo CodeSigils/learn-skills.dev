@@ -1,0 +1,1 @@
+Sets up Ktlint (formatting) and Detekt (code smells + architecture rules) for a KMP project. Both run as CI gates. Ktlint is near-zero config. Detekt architecture rules enforce the 6-layer module boundary contract from kotlin-multiplatform-clean-architecture.

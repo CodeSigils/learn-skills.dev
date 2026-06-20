@@ -1,0 +1,1 @@
+Fix style guide errors on a file. Checks IDE diagnostics first, then runs vale and markdownlint only if IDE diagnostics are unavailable or empty. Falls back to the PR comment marked with the sticky marker "STYLE GUIDE VALIDATION" only when the prompt explicitly instructs it. Use when asked to fix style guide errors on a file.

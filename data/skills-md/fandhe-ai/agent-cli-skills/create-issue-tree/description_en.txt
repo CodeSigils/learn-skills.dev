@@ -1,0 +1,1 @@
+Phase 分割された GitHub Issue ツリーを新規作成するスキル。「イシューツリー作って」「タスクを Phase 別に Issue 化」「Issue ツリーを起票して」で使用。 要件・タスク一覧を受け取り、タスク分解（4h 粒度）→ Phase 分割 → ルート（トラッキング）issue → Phase 親 issue → 子 issue の階層を sub_issues API で紐付け。 phase ラベル付与・ルート issue 本文の Phase 別表生成まで自動化。任意の phase 指定で部分起票にも対応。 ツリーの棚卸し・更新は update-issue-tree、実装消化は implement-issue-tree を参照。

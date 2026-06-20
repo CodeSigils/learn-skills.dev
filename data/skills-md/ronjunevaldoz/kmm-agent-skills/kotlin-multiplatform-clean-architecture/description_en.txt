@@ -1,0 +1,1 @@
+Defines the 6-layer clean architecture contract for KMP feature modules: :model / :api / :domain / :data / :presenter / :ui. Covers layer dependency rules, :model vs :api split, internal visibility enforcement, and Detekt architecture fitness functions that make violations fail the build.
