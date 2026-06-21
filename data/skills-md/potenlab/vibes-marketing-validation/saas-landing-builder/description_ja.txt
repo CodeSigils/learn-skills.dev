@@ -1,0 +1,1 @@
+ブランドが承認されたら、`sites/<slug>/` に SaaS ランディング ページを構築します。 「approval.json.approved === true」で、ユーザーがランディング ページ、Web サイト、マーケティング サイトを要求するか、「/build-landing」を実行すると、自動的にアクティブになります。 Next.js + Tailwind + Framer Motion アプリを生成し、Higgsfield が生成したヒーロー モーション + フィーチャー マイクロ アニメーションを接続し、`brand.json` + `saas-context.json` から SaaS コピーを書き込み、常に `<Waitlist />` セクションを下部に配置します。

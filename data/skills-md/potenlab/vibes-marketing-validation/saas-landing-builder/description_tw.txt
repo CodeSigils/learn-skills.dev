@@ -1,0 +1,1 @@
+品牌獲得批准後，在「sites/<slug>/」中建立 SaaS 登陸頁面。當「approval.json.approved === true」並且使用者要求登陸頁面、網站、行銷網站或執行「/build-landing」時自動啟動。產生 Next.js + Tailwind + Framer Motion 應用程序，連接 Higgsfield 生成的英雄動作 + 功能微動畫，從“brand.json”+“saas-context.json”寫入 SaaS 副本，並始終在底部放置“<Waitlist />”部分。
