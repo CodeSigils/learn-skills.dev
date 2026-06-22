@@ -1,0 +1,1 @@
+Kotlin マルチプラットフォームのバックグラウンド タスク スケジューリング - 期待/実際の BackgroundScheduler の背後にある WorkManager (Android) および BGTaskScheduler / BGProcessingTask (iOS)。 Android での 1 回限りの作業、定期的な作業、バックオフ付きのリトライ、データの入出力、連鎖した作業をカバーします。 iOS は、頻繁に実行される短いタスクには BGAppRefreshTask を使用し、長時間のネットワーク ジョブやメンテナンス ジョブには BGProcessingTask を使用します。

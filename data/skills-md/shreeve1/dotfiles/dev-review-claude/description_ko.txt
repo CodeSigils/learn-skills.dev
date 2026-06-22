@@ -1,0 +1,1 @@
+새로운 대화형 Claude Code 세션을 검토자로 사용하여 독립적인 코드 검토를 수행합니다. 사용자가 "dev-review-claude", "/skill:dev-review-claude", "독립적인 Claude 검토"라고 말하거나 계획, 빌드(커밋되지 않은 diff), 파일/디렉터리 경로 또는 제안에 대한 Claude 기반 2차 의견 검토를 원할 때 사용합니다. 선택적인 `--claude` / `--opus` / `--sonnet` 모델 플래그와 대상 인수(`plan`, `build`, `proposal` 또는 경로)를 허용합니다.

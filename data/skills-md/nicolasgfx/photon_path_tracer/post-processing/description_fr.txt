@@ -1,0 +1,1 @@
+Pipeline de post-traitement GPU à l'intérieur de photon_tracer : filtre luciole (médian+MAD), bloom (mip-chain Gaussian), tonalité (ACES+sRGB gamma), débruiteur OptiX. À utiliser pour : réparer les artefacts Firefly, régler les seuils de bloom, ajuster le mappage de tons, déboguer la corruption de sortie, intégrer le débruiteur OptiX ou optimiser les performances post-FX.

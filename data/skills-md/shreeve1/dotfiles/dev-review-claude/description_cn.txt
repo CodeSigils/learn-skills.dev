@@ -1,0 +1,1 @@
+使用全新的交互式 Claude Code 会话作为审阅者进行独立代码审阅。当用户说“dev-review-claude”、“/skill:dev-review-claude”、“独立的 Claude 审查”，或者想要对计划、构建（未提交的差异）、文件/目录路径或提案进行 Claude 支持的第二意见审查时使用。接受可选的 `--claude` / `--opus` / `--sonnet` 模型标志和目标参数（`plan`、`build`、`proposal` 或路径）。

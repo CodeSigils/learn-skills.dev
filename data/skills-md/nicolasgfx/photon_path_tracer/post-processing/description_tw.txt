@@ -1,0 +1,1 @@
+photon_tracer 內部的 GPU 後處理管道：螢火蟲濾波器（中位數 + MAD）、布隆（mip 鏈高斯）、色調圖（ACES + sRGB gamma）、OptiX 降噪器。使用場合：修復螢火蟲偽影、調整光暈閾值、調整色調映射、調試輸出損壞、集成 OptiX 降噪器或優化後期 FX 性能。

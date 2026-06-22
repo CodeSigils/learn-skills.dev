@@ -1,0 +1,1 @@
+Kotlin Multiplatform 的後台任務排程 - WorkManager (Android) 和 BGTaskScheduler / BGProcessingTask (iOS) 背後的期望/實際 BackgroundScheduler。涵蓋 Android 上的一次性工作、定期工作、帶回退的重試、輸入/輸出資料和鍊式工作。 iOS 使用 BGAppRefreshTask 執行短期頻繁任務，並使用 BGProcessingTask 執行長時間網路或維護作業。

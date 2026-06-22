@@ -1,0 +1,1 @@
+Kotlin 멀티플랫폼용 백그라운드 작업 예약 - 예상/실제 BackgroundScheduler 뒤에 있는 WorkManager(Android) 및 BGTaskScheduler/BGProcessingTask(iOS). Android에서 일회성 작업, 정기 작업, 백오프를 통한 재시도, 입력/출력 데이터 및 연결된 작업을 다룹니다. iOS는 짧고 빈번한 작업에는 BGAppRefreshTask를 사용하고 긴 네트워크 또는 유지 관리 작업에는 BGProcessingTask를 사용합니다.

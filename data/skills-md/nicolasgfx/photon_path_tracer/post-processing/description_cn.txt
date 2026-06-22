@@ -1,0 +1,1 @@
+photon_tracer 内部的 GPU 后处理管道：萤火虫滤波器（中值 + MAD）、布隆（mip 链高斯）、色调图（ACES + sRGB gamma）、OptiX 降噪器。使用场合：修复萤火虫伪影、调整光晕阈值、调整色调映射、调试输出损坏、集成 OptiX 降噪器或优化后期 FX 性能。

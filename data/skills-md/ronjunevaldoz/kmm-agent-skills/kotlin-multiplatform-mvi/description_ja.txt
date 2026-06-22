@@ -1,0 +1,1 @@
+Kotlin マルチプラットフォーム + Compose マルチプラットフォームの MVI (モデル-ビュー-インテント) アーキテクチャ パターン。カバーする内容: コントラクト パターン (画面ごとの状態/インテント/効果)、状態の StateFlow とワンショット効果のチャネルを備えた MviViewModel 基本クラス、アトミックな状態の更新、Compose 画面/コンテンツの分割、Turbine を使用した ViewModel のテスト、および KMP での最も一般的な MVI の落とし穴。新しい依存関係はゼロ — feature-scaffold にすでに存在する androidx.lifecycle.ViewModel と kotlinx.coroutines に基づいて構築されます。

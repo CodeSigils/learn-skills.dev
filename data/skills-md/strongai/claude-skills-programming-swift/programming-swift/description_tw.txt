@@ -1,0 +1,1 @@
+/程式設計鏈調用的內部技能。在編寫、審查或重構 Swift 程式碼（.swift 檔案）時使用。在遇到 Sendable 一致性錯誤、actor 隔離警告、@MainActor 問題、「無法將類型『any X』的值轉換為預期類型『some X』」或 Swift 6 嚴格並發遷移時使用。在選擇 struct、class、actor、設計協定、處理類型化拋出錯誤、管理 SwiftUI 狀態（@Observable 與 @ObservableObject）、編寫 Swift 測試（@Test、

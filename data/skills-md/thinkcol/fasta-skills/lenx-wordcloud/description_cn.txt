@@ -1,0 +1,1 @@
+通过 lenx-mcp stdio 服务器从 Lenx 任务监控数据生成词云可视化。当要求创建词云、可视化 Lenx 任务数据中的关键字频率或分析社交媒体监控中的文本模式时使用。支持中文（简体和繁体，通过jieba）和英文文本分割，关键字包含/排除过滤，以及基于情感的过滤。触发：/lenx-wordcloud，wordcloud for 任务，生成 wordcloud for lenx 任务，wordcloud 任务数据。
