@@ -1,0 +1,1 @@
+Inject live system health into agent context at session open. Cron script checks integrations, disk, gateway status, active sessions — writes compact JSON. Agent reads it before answering any status question. Eliminates stale-recall failures where agents answer from memory instead of live state. Use when setting up always-current system awareness for an autonomous agent.

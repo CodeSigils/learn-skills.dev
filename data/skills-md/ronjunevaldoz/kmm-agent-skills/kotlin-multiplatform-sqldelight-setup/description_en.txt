@@ -1,0 +1,1 @@
+Sets up SQLDelight 2 in a Kotlin Multiplatform project. Covers: Gradle plugin configuration, schema (.sq) files, migrations, type adapters, platform-specific drivers via expect/actual (Android, iOS, Desktop/JVM, Web/JS), coroutines Flow queries, and Koin wiring inside :core:database. Assumes the project was scaffolded with kotlin-multiplatform-feature-scaffold.

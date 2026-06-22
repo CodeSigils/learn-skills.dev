@@ -1,0 +1,1 @@
+GPU post-processing pipeline inside photon_tracer: firefly filter (median+MAD), bloom (mip-chain Gaussian), tonemap (ACES+sRGB gamma), OptiX denoiser. Use when: fixing firefly artifacts, tuning bloom thresholds, adjusting tonemapping, debugging output corruption, integrating OptiX denoiser, or optimizing post-FX performance.
