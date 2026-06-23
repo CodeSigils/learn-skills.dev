@@ -1,0 +1,4 @@
+Migración de símbolos entre versiones y diferencia binaria. Utilícelo cuando tenga símbolos o resultados de ingeniería inversa de una versión anterior y necesite migrar rápidamente a una versión más nueva.  
+Escenarios aplicables: al kernel le falta PDB, se deriva utilizando símbolos antiguos; migración por lotes de nombres de funciones después de una actualización del programa; Localice rápidamente nuevas compensaciones después de una actualización de la aplicación.  
+Método principal: utilice un LLM para realizar comparaciones de diferencias estructuradas, con entrada y salida programática; Costo extremadamente bajo (alrededor de 1 yuan por 200 funciones).  
+Palabras clave de activación: migración de símbolos, bindiff, versión cruzada, PDB faltante, migración de compensación de función, migración de símbolos, diferencia binaria, comparación de versiones.

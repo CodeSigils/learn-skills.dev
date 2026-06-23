@@ -1,0 +1,6 @@
+逆向防御方实现 → 红队针对性绕过。把 EDR / Defender / AV 的 hook 、ETW supplier、AMSI 先逆向出来，
+Il s'agit d'un décrochage / d'un appel système / d'un correctif ETW / d'une usurpation de pile d'appels.
+Fonctionnalités : EDR, contournement AV, décrochage, appel système direct, appel système indirect, Hell's Gate, Halo's Gate.
+Tartarus Gate, correctif ETW, correctif AMSI, usurpation de la pile d'appels, point d'arrêt matériel Blindside, MITRE T1562.
+Décrochage ntdll, rappel du noyau, CrowdStrike en ligne, Defender en ligne, Sentinel One en ligne, Elastic Defend.
+Sysmon 规避、PPID spoof、Sleep Mask、Process Hollowing、Reflective DLL。

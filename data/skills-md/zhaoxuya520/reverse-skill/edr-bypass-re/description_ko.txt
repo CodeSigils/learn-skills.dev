@@ -1,0 +1,6 @@
+逆向防御方实现 → 红队针对性绕过。把 EDR/Defender/AV 적 후크 表、ETW 제공자、AMSI 实现先逆向出来，
+再写针对性의 unhook / 间接 syscall / ETW 패치 / 호출 스택 스푸핑. MITRE ATT&CK T1562 防御规避.
+触发关键词：EDR 绕过, AV 우회, 免杀, unhook, 직접 시스템 호출, 간접 시스템 호출, Hell's Gate, Halo's Gate,
+Tartarus Gate, ETW 패치, AMSI 패치, 호출 스택 스푸핑, 하드웨어 중단점 Blindside, MITRE T1562,
+ntdll unhook、커널 콜백、CrowdStrike 绕过、Defender 绕过、Sentinel One 绕过、Elastic Defend、
+Sysmon 规避、PPID 스푸핑、수면 마스크、Process Hollowing、Reflective DLL。

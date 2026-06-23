@@ -1,0 +1,1 @@
+以只读方式查询生产 Postgres 数据库。在调查生产数据不一致、验证工作区行中的实际内容（与 API/UI 显示的内容相比）、确认回填后的行计数、诊断发件箱/队列积压或对产品数据库进行任何其他只读取证挖掘时使用。两种访问路径：从终端使用 $POSTGRESQL_PROD_READ_ONLY_CONN_STRING 进行 psql，或者在 Claude Code Web 会话中运行时通过 apps/db-read-proxy 服务使用 HTTPS。不适用于写入——每一层都是只读的。

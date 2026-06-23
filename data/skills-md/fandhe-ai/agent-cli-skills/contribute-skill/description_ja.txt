@@ -1,0 +1,1 @@
+ローカルで変更した `skills/<skill-name>/` を PR として上流リポジトリ (Fandhe‑AI/agent-cli-skills など) に投稿します。安全対策として、「skills-lock.json」の「source」フィールドを読み取り、「Fandhe‑AI/」以外のリポジトリへのプッシュを中止します。次に、クローン → 変更の適用 → セキュリティ チェック → ブランチの作成 → プッシュ → `gh pr create` を実行します。マージ後、「sync-skills-lock」でハッシュを更新します。 「スキルの上流への貢献」「外部リポジトリへのPR」などに利用されます。

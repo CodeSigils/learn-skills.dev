@@ -1,0 +1,1 @@
+로컬로 수정된 `skills/<skill-name>/`을 업스트림 저장소(예: Fandhe‑AI/agent-cli-skills)에 PR로 게시합니다. `skills-lock.json`에서 `source` 필드를 읽고 안전 조치로 `Fandhe‑AI/` 이외의 저장소에 대한 푸시를 중단하세요. 그런 다음 복제 → 변경 사항 적용 → 보안 검사 → 분기 생성 → 푸시 → `gh pr create`를 실행합니다. 병합 후 `sync-skills-lock`으로 해시를 업데이트합니다. "업스트림 기술 기여", "외부 저장소에 대한 홍보" 등에 사용됩니다.

@@ -1,0 +1,6 @@
+逆向防御方实现 → 红队封锁。把 EDR / Defender / AV 的 hook 表、ETW provider、AMSI 实现先逆向出来，
+再写外部的unhook / 引用syscall / ETW patch / call stack spoof。对照MITRE ATT&CK T1562 防御防御。
+触发关键词：EDR绕过、AV绕过、免杀、unhook、直接系统调用、间接系统调用、地狱之门、光环之门、
+Tartarus Gate、ETW补丁、AMSI补丁、调用堆栈欺骗、硬件断点Blindside、MITRE T1562、
+ntdll unhook、内核回调、CrowdStrike绕过、Defender绕过、Sentinel One绕过、Elastic Defend、
+Sysmon 照明、PPID 欺骗、睡眠屏蔽、Process Hollowing、Reflective DLL。

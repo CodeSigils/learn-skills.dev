@@ -1,0 +1,1 @@
+사용자가 MySQL DDL, CREATE TABLE 문, 테이블 스키마 스크린샷을 제공하거나 Kysely 데이터베이스 유형, DB 인터페이스, 삽입 가능/업데이트 가능 유형, 대량 삽입, 대량 업데이트, upsert 또는 쿼리/수정 메서드를 채우라는 요청을 제공하는 경우 이 기술을 사용하세요. DDL을 이 저장소의 Kysely 유형 및 해당 서비스 메서드로 정확하게 변환하여 ToGenerated, null/기본 처리 및 camelCase/snake_case 매핑 오류를 방지하는 데 중점을 둡니다.

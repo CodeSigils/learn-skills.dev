@@ -1,0 +1,6 @@
+逆向防御方实现 → 红队针对性绕过。把 EDR / Defender / AV 的 hook 表、provider ETW、AMSI 实现先逆向出来,
+再写针对性的 unhook / syscall di sistema / patch ETW / spoofing dello stack di chiamate.
+Riepilogo: EDR 绕过、AV bypass、免杀、unhook、chiamata di sistema diretta、chiamata di sistema indiretta、Hell's Gate、Halo's Gate、
+Tartarus Gate, patch ETW, patch AMSI, spoofing dello stack di chiamate, punto di interruzione hardware Blindside, MITRE T1562,
+ntdll unhook、kernel callback、CrowdStrike 绕过、Defender 绕过、Sentinel One 绕过、Elastic Defend、
+Sysmon 规避、PPID spoof、Maschera per dormire、Process Hollowing、DLL riflettente.

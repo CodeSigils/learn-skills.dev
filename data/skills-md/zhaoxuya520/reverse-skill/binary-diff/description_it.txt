@@ -1,0 +1,4 @@
+Migrazione dei simboli tra versioni incrociate e diff. binaria. Utilizzalo quando disponi di simboli o risultati di reverse engineering da una versione precedente ed è necessario eseguire rapidamente la migrazione a una versione più recente.  
+Scenari applicabili: PDB mancante del kernel, derivazione utilizzando vecchi simboli; migrazione batch dei nomi delle funzioni dopo un aggiornamento del programma; individuare rapidamente nuovi offset dopo un aggiornamento dell'applicazione.  
+Metodo di base: utilizzare un LLM per eseguire confronti differenziali strutturati, con input e output programmatici; costo estremamente contenuto (circa 1 yuan per 200 funzioni).  
+Parole chiave di attivazione: migrazione dei simboli, bindiff, versione incrociata, PDB mancante, migrazione dell'offset delle funzioni, migrazione dei simboli, differenza binaria, confronto delle versioni.

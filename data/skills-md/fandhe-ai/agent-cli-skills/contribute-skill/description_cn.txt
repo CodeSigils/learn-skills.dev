@@ -1,0 +1,1 @@
+将本地修改的 `skills/<skill-name>/` 作为 PR 发布到上游存储库（例如，Fandhe-AI/agent-cli-skills）。作为安全措施，读取“skills-lock.json”中的“source”字段，并中止对“Fandhe-AI/”以外的存储库的任何推送。然后：克隆→应用更改→安全检查→创建分支→推送→运行`gh pr create`。合并后，使用“sync-skills-lock”更新哈希。用于“向上游贡献技能”、“向外部存储库进行 PR”等。

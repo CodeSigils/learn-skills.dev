@@ -1,0 +1,1 @@
+Dynamicagency.com Silverstripe 6 升級資料遷移的可重複工作流程。當使用者想要「執行 SS6 遷移」、「同步並遷移 SS6」、「測試連結欄位遷移」或在 SS6 升級後重建本機網站以符合生產時，請使用此技能。順序是 — ddev-sync、dev/build、執行每個遷移任務、針對生產驗證前端。

@@ -1,0 +1,6 @@
+EDR / Defender / AV のフック テーブル、ETW プロバイダー、AMSI を逆方向に実装し、
+MITRE ATT&CK T1562 の防御を回避するために、アンフック/フック システムコール/ETW パッチ/コール スタック スプーフを再書き込みします。
+触発关键词：EDR 绕过、AV バイパス、免杀、アンフック、直接 syscall、間接 syscall、Hell's Gate、Halo's Gate、
+Tartarus Gate、ETWパッチ、AMSIパッチ、コールスタックスプーフィング、ハードウェアブレークポイントブラインドサイド、MITRE T1562、
+ntdll unhook、カーネル コールバック、CrowdStrike 绕过、Defender 绕过、Sentinel One 绕过、Elastic Defend、
+Sysmon回避、PPIDスプーフィング、スリープマスク、プロセスホロウイング、リフレクティブDLL。

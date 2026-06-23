@@ -1,0 +1,4 @@
+Migration de symboles entre versions et différence binaire. Utilisez-le lorsque vous disposez de symboles ou de résultats de rétro-ingénierie provenant d’une ancienne version et que vous devez migrer rapidement vers une version plus récente.  
+Scénarios applicables : PDB manquant dans le noyau, dérive en utilisant d'anciens symboles ; migration par lots des noms de fonctions après une mise à jour du programme ; localiser rapidement de nouveaux décalages après une mise à jour de l'application.  
+Méthode de base : utiliser un LLM pour effectuer une comparaison de différences structurée, avec des entrées et des sorties programmatiques ; coût extrêmement faible (environ 1 yuan pour 200 fonctions).  
+Mots-clés déclencheurs : migration de symboles, bindiff, version croisée, PDB manquant, migration de décalage de fonction, migration de symboles, diff binaire, comparaison de versions.

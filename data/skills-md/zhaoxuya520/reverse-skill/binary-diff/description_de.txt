@@ -1,0 +1,4 @@
+Versionsübergreifende Symbolmigration und binäre Differenz. Verwenden Sie dies, wenn Sie Symbole oder Reverse-Engineering-Ergebnisse aus einer älteren Version haben und schnell auf eine neuere Version migrieren müssen.  
+Anwendbare Szenarien: Kernel fehlt PDB, Ableitung mit alten Symbolen; Batch-Migration von Funktionsnamen nach einem Programmupdate; Finden Sie nach einem Anwendungsupdate schnell neue Offsets.  
+Kernmethode: Verwenden Sie ein LLM, um einen strukturierten Diff-Vergleich mit programmatischer Eingabe und Ausgabe durchzuführen. extrem niedrige Kosten (ca. 1 Yuan für 200 Funktionen).  
+Auslöseschlüsselwörter: Symbolmigration, Bindiff, Cross-Version, fehlendes PDB, Funktionsoffset-Migration, Symbolmigration, binärer Diff, Versionsvergleich.

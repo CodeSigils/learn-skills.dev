@@ -1,0 +1,1 @@
+以唯讀方式查詢生產 Postgres 資料庫。在調查生產資料不一致、驗證工作區行中的實際內容（與 API/UI 顯示的內容相比）、確認回填後的行計數、診斷發件箱/隊列積壓或對產品資料庫進行任何其他只讀取證挖掘時使用。兩種存取路徑：從終端機使用 $POSTGRESQL_PROD_READ_ONLY_CONN_STRING 進行 psql，或在 Claude Code Web 工作階段中執行時透過 apps/db-read-proxy 服務使用 HTTPS。不適用於寫入－每一層都是唯讀的。

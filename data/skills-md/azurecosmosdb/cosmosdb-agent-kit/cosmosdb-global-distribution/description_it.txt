@@ -1,0 +1,9 @@
+Procedure consigliate per la distribuzione globale di Azure Cosmos DB: scritture su più aree,
+livelli di coerenza, risoluzione dei conflitti, failover automatico, regioni di lettura,
+e ridondanza di zona per un'elevata disponibilità.
+UTILIZZARE PER: Cosmos DB multiregione, livelli di coerenza, coerenza elevata,
+obsolescenza limitata, coerenza della sessione, coerenza finale, risoluzione dei conflitti,
+failover automatico, regioni di lettura, ridondanza di zona, replica globale,
+ripristino di emergenza, ridondanza geografica, multimaster.
+NON UTILIZZARE PER: regioni preferite dell'SDK (utilizzare cosmosdb-sdk),
+monitoraggio (utilizzare il monitoraggio cosmosdb).
