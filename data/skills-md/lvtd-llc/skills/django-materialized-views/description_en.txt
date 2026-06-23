@@ -1,0 +1,1 @@
+Model, migrate, refresh, and verify PostgreSQL materialized views in Django for expensive report or dashboard queries that can tolerate stale data. Use when ORM/index/query rewrites are not enough, the result is read often, freshness can be bounded, and a Django app needs unmanaged models, RunSQL migrations, refresh commands, or concurrent refresh.
