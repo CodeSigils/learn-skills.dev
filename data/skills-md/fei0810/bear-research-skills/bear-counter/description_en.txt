@@ -1,5 +1,3 @@
-Given a sentence or paragraph, locate genuine academic literature that opposes it—contrary conclusions, boundary conditions, alternative explanations, methodological critiques, replication failures. Rank the sources by threat level, and for each provide a line explaining “how it threatens this viewpoint” and “how to respond to it.” Use authentic retrieval (scimaster‑cli) underneath; never fabricate counterexamples.
-
-**In the following situations, proactively trigger this capability**: the user wants to “pre‑empt reviewers,” “find counterexamples to this conclusion,” “see if this area is controversial,” “find research that contradicts this,” “help me attack this argument,” “assess how stable this conclusion is,” or “learn what objections exist”—even if the user doesn’t say “bear‑counter,” as long as the intent is **to find academic evidence against a viewpoint**, use this skill. bear‑support and bear‑counter work best together: run each on the same passage to see both sides simultaneously.
-
-Not applicable for: finding supporting literature (use bear‑support), topic plagiarism checks (use bear‑scoop), concept maps (use bear‑map), tracing evolutionary histories (use bear‑trace).
+给一句话或一段话，找出真实学术文献来反对它——相反结论、边界条件、替代解释、方法批评、复制失败。按威胁程度排序，每篇附一行"它如何威胁这个观点"和"怎么回应它"。底层走真实检索（scimaster-cli），绝不编造反例。
+**以下情况请主动触发本技能**：用户想"提前挡住审稿人"、"找这个结论的反例"、"这个方向有没有争议"、"有没有跟这个相反的研究"、"帮我攻击这个论点"、"这个结论稳不稳"、"想知道有哪些反对意见"——即使用户没有说"bear-counter"，只要意图是**为一个观点寻找学术反对证据**，就使用本技能。bear-support 和 bear-counter 配对使用效果最好：对同一段话各跑一遍，就能同时看到正反两面。
+不适用于：找支持文献（用 bear-support）、选题查重（用 bear-scoop）、概念地图（用 bear-map）、溯源演化史（用 bear-trace）。

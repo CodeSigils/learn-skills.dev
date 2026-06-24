@@ -1,0 +1,1 @@
+Choose the cheapest correct Sendmux surface and call. Use whenever a Sendmux task could be done through MCP, the sendmux CLI, an SDK, or direct HTTP and the user needs low-token, low-round-trip usage: batch sends, mailbox search/count/batch reads, sync deltas, cursor pagination, ETags, conditional requests, idempotency keys, or avoiding broad mailbox/log fetches.

@@ -1,5 +1,3 @@
-Given a sentence or a paragraph, locate genuine academic literature that supports it, and attach a one‑line note to each reference describing “how it supports this viewpoint.” The underlying process uses real searches (scimaster‑cli) and never fabricates citations from memory—if nothing is found, honestly state that nothing was found.  
-
-**In the following situations, proactively trigger this capability**: the user wants a viewpoint to be “more substantiated,” “more defensible,” “add literature support,” “find a few papers,” “is there research on this claim,” “help me check this conclusion,” or “will reviewers say there are no citations”—even if the user doesn’t explicitly say “bear‑support” or “find literature,” as long as the intent is **to find academic support for a viewpoint**, use this capability.  
-
-Not applicable for: finding opposing literature (use bear‑counter), topic plagiarism checking (use bear‑scoop), concept mapping (use bear‑map), tracing evolutionary history (use bear‑trace).
+给一句话或一段话，找出真实学术文献来支持它，每篇文献附一行"它如何支撑这个观点"的说明。底层走真实检索（scimaster-cli），绝不从记忆编造引用——搜不到就如实说搜不到。
+**以下情况请主动触发本技能**：用户想让某个观点"更有依据"、"更经得起质疑"、"加上文献支撑"、"找几篇论文"、"这个说法有没有研究"、"帮我查一下这个结论"、"审稿人会不会说没有引用"——即使用户没有说"bear-support"或"找文献"这几个字，只要意图是**为一个观点寻找学术支撑**，就使用本技能。
+不适用于：找反对文献（用 bear-counter）、选题查重（用 bear-scoop）、概念地图（用 bear-map）、溯源演化史（用 bear-trace）。
