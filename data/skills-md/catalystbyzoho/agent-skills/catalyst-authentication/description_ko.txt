@@ -1,0 +1,1 @@
+Catalyst 인증 — 사용자 로그인/가입, ZAID, 웹 SDK 인증 흐름 및 Connections를 통한 OAuth 토큰 관리. '인증', '로그인', '가입', 'getCurrentUser', 'ZAID', 'isUserAuthenticated', 'signOut', 'Connections' 또는 'getAccessToken'에서 트리거됩니다. 사용자 로그인을 구현하거나 데이터를 보호할 때마다 이 기술을 로드해야 합니다. ZAID는 개발과 프로덕션 간에 다르며 환경 승격 후 인증 실패의 가장 큰 원인입니다. 보안 규칙(함수 호출 제어)의 경우 촉매 함수로 라우팅합니다.

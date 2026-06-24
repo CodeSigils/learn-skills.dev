@@ -1,0 +1,9 @@
+HyperFrames中文短影片視覺與版面預處理規格（抖音/小紅書筆觸可讀）。適用於任意鏡頭數量的中文解說影片。必須先閱讀此技能，然後閱讀hyperframes、hyperframes-cli、gsap；在編寫 HTML 之前，您必須閱讀 design-taste-frontend (taste-skill)、templates/anti-slop-motion-scheme.md、templates/hyperframes-zh-checklist.mdy-checkywations、pect-ra-moations、pix-pexlist.p、pP-imexlist. templates/visual-style-guide.md。對於每個項目，您必須產生一個 design.md（包括運動計劃）並旋轉視覺樣式；禁止重複使用相同的模板。
+
+硬版佈局規則：底部字幕必須永遠為單行，頁面文字不得重疊，中文必須使用本地字體/ + @font-face（禁止使用蘋果、微軟雅黑、Google字體），禁止使用AI風格的表情符號或meme風格的插圖；動畫：L0`#root`靜態背景+L1入口+L2語義對齊。 TTS 是強制性的（禁止每次拍攝 CSS 無限環境光）。
+
+在交付之前，您必須執行 verify-delivery-checklist.py + verify-index-encoding.py + npm run check（零錯誤）。中文TTS預設為Edge TTS（generate-tts.py）； TTS 之後，您必須運行align-subtitles.py（更快的耳語單字級時間戳），然後運行apply-audio-schedule.mjs；不需要超幀媒體。
+
+Agent必須自動完成整個環境和建置過程（預先檢查、鷹架、TTS、對齊、時間軸、驗證）；使用者只需要手動執行 npm run dev 即可預覽。禁止自動渲染/匯出到 MP4 - 匯出必須等待使用者確認。
+
+語音（voice）和字幕（subtitle）是分開的：TTS是根據所說的句子生成的，並且TTS不得被分割以滿足字幕單行限制。將使用者的口語腳本在語意上分割為多個場景，產生螢幕副本，規劃佈局，分配持續時間，指定轉場和動畫，並協調畫外音/背景音樂/音效安排。

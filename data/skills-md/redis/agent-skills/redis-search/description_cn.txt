@@ -1,0 +1,1 @@
+Redis 搜索指南涵盖 FT.CREATE 模式设计、字段类型选择（TEXT、TAG、NUMERIC、GEO、GEOSHAPE、VECTOR、JSON 路径）、DIALECT 2 查询语法、FT.SEARCH / FT.AGGREGATE / FT.HYBRID 命令选择、与 HNSW 或 FLAT 的向量相似性、结合词汇和向量排名的混合检索、RAG 管道、通过别名进行零停机索引更新以及使用调试《金融时报》简介和《金融时报》解释。在 Hash 或 JSON 文档上定义搜索索引、使用过滤器、排序、聚合或向量 KNN 编写 FT.SEARCH 查询、调整 HNSW 参数、构建 RAG 检索管道或对缓慢或空的搜索结果进行故障排除时使用。

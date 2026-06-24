@@ -1,0 +1,1 @@
+Catalyst 身份验证 — 用户登录/注册、ZAID、Web SDK 身份验证流程以及通过 Connections 进行的 OAuth 令牌管理。在“authentication”、“login”、“signup”、“getCurrentUser”、“ZAID”、“isUserAuthenticated”、“signOut”、“Connections”或“getAccessToken”上触发。每当实现用户登录或保护数据时，您都必须加载此技能 - ZAID 在开发和生产之间有所不同，并且是环境升级后身份验证失败的第一大原因。对于安全规则（函数调用控制），路由至催化剂函数。

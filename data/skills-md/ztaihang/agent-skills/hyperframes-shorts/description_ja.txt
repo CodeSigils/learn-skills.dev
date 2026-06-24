@@ -1,0 +1,9 @@
+HyperFrames 中国語のショートビデオのビジュアルおよびレイアウトの前処理仕様 (Douyin/Xiaohongshu で縦画面で読み取り可能)。任意のショット数の中国語ナレーションビデオに適用されます。まずこのスキルを読んでから、ハイパーフレーム、ハイパーフレーム-cli、gsap を読む必要があります。 HTML を書く前に、design‑taste‑frontend (taste‑skill)、templates/anti-slop‑motion‑scheme.md、templates/hyperframes‑zh‑checklist.md、css‑animations、design‑motion‑principles、web‑typography を読む必要があります。テンプレート/visual‑style‑guide.md。プロジェクトごとに、design.md (モーション プランを含む) を作成し、視覚スタイルを回転する必要があります。同じテンプレートを再利用することは禁止されています。
+
+厳密なレイアウト ルール: 下部の字幕は常に 1 行である必要があり、ページ テキストは重なってはなりません。中国語はローカル フォント/ + @font‑face を使用する必要があります (PingFang、Microsoft YaHei、Google Fonts は禁止されています)、AI スタイルの絵文字またはミーム スタイルのイラストは禁止されています。アニメーション: L0 `#root` 静的背景 + L1 入口 + L2 セマンティック アラインメント。 TTS は必須です (ショットごとの CSS 無限アンビエントは禁止されています)。
+
+配信前に、verify‑delivery‑checklist.py + verify‑index‑encoding.py + npm run check (エラーゼロ) を実行する必要があります。中国の TTS のデフォルトは Edge TTS (generate‑tts.py) です。 TTS の後に、align‑subtitles.py (より高速なささやき単語レベルのタイムスタンプ) を実行してから、apply‑audio‑schedule.mjs を実行する必要があります。ハイパーフレームメディアは必要ありません。
+
+エージェントは、環境全体と構築プロセス (事前チェック、スキャフォールディング、TTS、調整、タイムライン、検証) を自動的に完了する必要があります。ユーザーは手動で npm run dev を実行してプレビューするだけです。 MP4 への自動レンダリング/エクスポートは禁止されています。エクスポートはユーザーの確認を待つ必要があります。
+
+音声 (音声) と字幕 (字幕) は分離されています。TTS は話された文ごとに生成され、字幕の 1 行制限を満たすために TTS を分割してはなりません。ユーザーの音声スクリプトを意味的に複数のシーンに分割し、画面上のコピーを生成し、レイアウトを計画し、長さを割り当て、トランジションとアニメーションを指定し、ナレーション/BGM/効果音の配置を調整します。

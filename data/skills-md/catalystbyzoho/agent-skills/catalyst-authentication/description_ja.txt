@@ -1,0 +1,1 @@
+Catalyst 認証 — ユーザーのログイン/サインアップ、ZAID、Web SDK 認証フロー、および Connections を介した OAuth トークン管理。 「authentication」、「login」、「signup」、「getCurrentUser」、「ZAID」、「isUserAuthenticated」、「signOut」、「Connections」、または「getAccessToken」でトリガーします。ユーザー ログインを実装するとき、またはデータを保護するときは必ずこのスキルをロードする必要があります。ZAID は開発と運用で異なり、環境昇格後の認証失敗の最大の原因です。セキュリティ ルール (関数呼び出し制御) の場合は、catalyst-functions にルーティングします。

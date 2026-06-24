@@ -1,0 +1,9 @@
+HyperFrames中文短视频视觉和布局预处理规范（抖音/小红书竖屏可读）。适用于任意镜头数量的中文解说视频。必须先阅读此技能，然后阅读hyperframes、hyperframes-cli、gsap；在编写 HTML 之前，您必须阅读 design-taste-frontend (taste-skill)、templates/anti-slop-motion-scheme.md、templates/hyperframes-zh-checklist.md、css-animations、design-motion-principles、web-typography 和 templates/visual-style-guide.md。对于每个项目，您必须生成一个 design.md（包括运动计划）并旋转视觉样式；禁止重复使用相同的模板。
+
+硬布局规则：底部字幕必须始终为单行，页面文本不得重叠，中文必须使用本地字体/ + @font-face（禁止使用苹果、微软雅黑、谷歌字体），禁止使用AI风格的表情符号或meme风格的插图；动画：L0`#root`静态背景+L1入口+L2语义对齐。 TTS 是强制性的（禁止每次拍摄 CSS 无限环境光）。
+
+在交付之前，您必须运行 verify-delivery-checklist.py + verify-index-encoding.py + npm run check（零错误）。中文TTS默认为Edge TTS（generate-tts.py）； TTS 之后，您必须运行align-subtitles.py（更快的耳语单词级时间戳），然后运行apply-audio-schedule.mjs；不需要超帧媒体。
+
+Agent必须自动完成整个环境和构建过程（预检查、脚手架、TTS、对齐、时间线、验证）；用户只需要手动运行 npm run dev 即可预览。禁止自动渲染/导出到 MP4 - 导出必须等待用户确认。
+
+语音（voice）和字幕（subtitle）是分开的：TTS是根据所说的句子生成的，并且TTS不得被分割以满足字幕单行限制。将用户的口语脚本在语义上分割为多个场景，生成屏幕副本，规划布局，分配持续时间，指定转场和动画，并协调画外音/背景音乐/音效安排。
