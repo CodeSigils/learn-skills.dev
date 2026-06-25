@@ -1,0 +1,1 @@
+استخراج التضمينات لكل جزيء من أي نقطة تفتيش KERMT الحاملة للتشفير (grover_base / cmim / hybrid / Finetuned). يكتب .npy واحدًا لكل نوع قراءات (atom_from_atom، وbond_from_atom، وatom_from_bond، وbond_from_bond) بالإضافة إلى canonical_smiles.npy وvality.npy. يستدعي المهمة/extract_embeddings.py (الذي يتميز بميزات SMILES بسرعة - لا حاجة إلى ميزات محسوبة مسبقًا).
