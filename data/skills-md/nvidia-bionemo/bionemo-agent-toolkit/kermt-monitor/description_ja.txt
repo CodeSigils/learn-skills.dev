@@ -1,0 +1,1 @@
+切り離された KERMT 実行 (事前トレーニング、微調整、または任意の kermt_run_detached 呼び出し) の進行状況を確認します。 run.json を読み取り、docker にコンテナーの状態をクエリし、pretrain/finetune ログを追跡し、進行状況ライン (エポック、ステップ、val loss) を解析します。

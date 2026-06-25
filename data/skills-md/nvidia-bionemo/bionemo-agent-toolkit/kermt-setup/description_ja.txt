@@ -1,0 +1,1 @@
+KERMT エージェント環境をブートストラップします。ホスト docker + nvidia-container-toolkit を確認し、まだ存在しない場合はリポジトリの Dockerfile から kermt:latest イメージを構築し、コンテナ内で GPU スモーク テストを実行します。他のすべての kermt-* スキルはこれに依存します。最初にそれを呼び出します。

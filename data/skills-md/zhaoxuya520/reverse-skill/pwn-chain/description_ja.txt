@@ -1,0 +1,5 @@
+リバース エンジニアリングから実用的なエクスプロイトまで、フルチェーン エンジニアリング手法。  
+該当するシナリオ: バイナリ、脆弱性ポイント、およびターゲット環境を取得しており、確実に機能するエクスプロイトを作成する必要があります (ローカルでのみ再現され、リモートで実行するとクラッシュするスクリプトだけではありません)。  
+スタック オーバーフロー / ヒープ活用 / カーネル pwn の 3 つの主要な方向をカバーします。 「CTF ローカルの成功→実際のリモートの安定した活用」の間のエンジニアリング ギャップを強調します。つまり、libc バージョンの不一致、ヒープ スプレー タイミング、SMEP/SMAP/KASLR、スタック アライメント、リモート バッファリングです。  
+コア ツールチェーン: pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc‑database + qemu‑system カーネル デバッグ。  
+トリガーキーワード: pwn、スタックオーバーフロー、ヒープオーバーフロー、ROP、ret2libc、ret2csu、one_gadget、libc‑database、ヒープ活用、tcache、fastbin、unsorted bin、kernel pwn、kROP、SMEP、SMAP、KASLR、modprobe_path、pwntools、GEF、pwndbg。

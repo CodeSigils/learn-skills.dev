@@ -1,0 +1,1 @@
+エンコーダーを備えた KERMT チェックポイント (grover_base / cmim / hybrid /finetuned) から分子ごとのエンベディングを抽出します。読み出しタイプ (atom_from_atom、bond_from_atom、atom_from_bond、bond_from_bond) ごとに 1 つの .npy と canonical_smiles.npy および validity.npy を書き込みます。 task/extract_embeddings.py を呼び出します (SMILES をオンザフライで機能させます。事前に計算された機能は必要ありません)。

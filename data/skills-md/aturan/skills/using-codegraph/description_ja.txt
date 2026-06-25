@@ -1,0 +1,1 @@
+CodeGraph ファーストのコード探索。 CodeGraph によってインデックス付けされる可能性のあるリポジトリで作業し、grep/find/rg を使用したりファイルを開く前にコードを理解、検索、トレース、または読み取る必要がある場合に使用します。リポジトリ ルートに .codegraph ディレクトリがあるかどうかを確認し、利用可能な場合は codegraph_explore MCP ツールを使用するか、codegraph explore シェル コマンドを使用し、.codegraph ディレクトリが存在しない場合は CodeGraph をスキップします。
