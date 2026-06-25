@@ -1,0 +1,1 @@
+분리된 KERMT 실행(사전 훈련, 미세 조정 또는 kermt_run_detached 호출)의 진행 상황을 확인합니다. run.json을 읽고, Docker에서 컨테이너 상태를 쿼리하고, 사전 학습/미세 조정 로그를 추적하고, 진행 라인(epoch, step, val loss)을 구문 분석합니다.

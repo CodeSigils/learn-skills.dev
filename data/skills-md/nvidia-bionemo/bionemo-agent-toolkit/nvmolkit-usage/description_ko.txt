@@ -1,0 +1,1 @@
+GPU 가속 일괄 RDKit 스타일 작업(Morgan 지문, Tanimoto/코사인 유사성, ETKDG 적합자 임베딩, MMFF/UFF 최적화, TFD, 적합자 RMSD, Butina 클러스터링 및 하위 구조 검색)을 위해 설치된 nvMolKit Python API를 호출하는 코드를 작성합니다. 사용자가 `nvmolkit.*` 가져오기, `nvmolkit` 호출 디버깅, 일괄 화학정보학 작업 흐름을 위해 nvMolKit과 RDKit 중에서 선택, nvMolKit 결과를 토치/numpy 파이프라인에 연결할 때 사용합니다. 범위 외: 소스에서 nvMolKit 빌드.

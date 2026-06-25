@@ -1,0 +1,1 @@
+SMILES 전용 CSV에서 미세 조정된 KERMT 체크포인트를 사용하여 예측을 실행하세요. 이 기술은 입력 ckpt에 작업 FFN 헤드가 있는지 확인하고(kermt-finetune으로 리디렉션되는 사전 훈련 ckpt 거부) CSV를 검증하고 데이터를 준비한 다음(clean + rdkit_2d 기능), kermt 컨테이너 내에서 main.py 예측을 시작합니다(차단, 분 단위).

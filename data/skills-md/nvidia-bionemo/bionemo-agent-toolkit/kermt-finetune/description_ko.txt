@@ -1,0 +1,1 @@
+레이블이 지정된 CSV에서 사전 훈련된 KERMT 인코더를 미세 조정합니다. 이 스킬은 입력 체크포인트(사전 학습 ckpt여야 함 - grover_base / cmim / hybrid)를 검증하고, 레이블이 지정된 CSV를 검증하고, 데이터를 준비하고(정리 + 기능 + 선택적 분할) kermt 컨테이너 내에서 main.py 미세 조정을 시작합니다(시간 규모 실행을 위해 분리됨). 하이퍼파라미터는 플래그별 CLI 재정의를 통해 Agent/config/defaults_finetune.json에서 제공됩니다.

@@ -1,0 +1,1 @@
+FMC 지리 앱용 React-map-gl/maplibre 패턴: 선언적 소스/레이어(addSource/addLayer 아님), MapProvider + useMap(), InteractiveLayerIds, 플랫 소스/레이어, 지도 로드 가드, 지도 이벤트 핸들러(useEffect 아님), URL 맵 상태,initialViewState, 커서, 기능 상태, 누락된 이미지. TanStack Start/Vite 앱에서 지도 구성 요소, 레이어, 클릭/호버 핸들러, setFeatureState 또는 지도 URL 동기화를 구축하거나 검토할 때 사용합니다. 참조 구현: tilda-geo/app.

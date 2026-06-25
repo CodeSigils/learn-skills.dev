@@ -1,0 +1,12 @@
+`audit/` 폴더를 소유합니다: 실험당 하나의 `# %%`(jupytext 퍼센트) Python 파일, `experiments/NN_<short_name>.py` 및 `journal/NN_<short_name>.md`와 1:1로 정렬되어 실험의 점수 보고서 **읽기 전용**을 로드하고 `__repr__`이 감사 신호를 전달하는 맨 마지막 표현 셀을 사용합니다.   에이전트는 번들된 in-process 실행기(`audit-ml-pipeline/scripts/run_cells.py` — IPython `InteractiveShell.run_cell`)를 통해 감사 파일을 실행합니다. 이 실행기는 각 셀의 stdout + 마지막 표현식 표현의 마크다운 다이제스트를 stdout(선택적으로 파일로도 스트리밍)으로 스트리밍합니다. 다이제스트는 서술형 작업(`JOURNAL.md` 상태 + 기록 업데이트, 과거 실험에 대한 후속 질문, 교차 실험 비교)을 촉진합니다. "audit/NN_*.py가 배치되고 실행되며 다이제스트를 사용할 수 있습니다."에서 중지됩니다. 절대 `skore.evaluate(...)` 또는 `project.put(...)`을 호출하지 마세요.
+TRIGGER — 다음 중 하나: - `iterate-ml-experiment` § 4 기록 결과 — 감사가 발송됩니다.
+  FIRST(미터법 추출을 위한 스크래치 프로브 교체)
+- 사용자가 "감사 실험 02", "03이 어떻게 보이는지 보여주세요"라고 묻습니다.
+  좋아요", "새 보고서에 대해 04를 다시 감사하세요".
+- 실험이 다시 실행되었으며(동일한 `put()` 키를 덮어썼습니다)
+  일치하는 감사 파일을 다시 실행해야 합니다.
+- 사용자는 과거 실험에 대해 사람이 읽을 수 있는 설명을 원합니다.
+  전체 `skore에서 반복` 흐름을 실행하지 않고.
+
+다음의 경우 건너뛰기: 설계 노트가 아직 승인되지 않았습니다(`iterate-ml-experiment`로 경로 지정). 실험이 실행되지 않았습니다(디스크에 보고서가 없음). 에이전트 기능이 설치되지 않았습니다(`python-env-manager` § "에이전트 기능"에 위임). 사용자는 *다음* 실험(`iterate-from-skore`)을 소스로 사용하기 위해 보고서를 마이닝하고 있습니다. 사용자는 완료된 실행의 점수 보고서(`explore-ml-data` - 감사에서는 데이터가 아닌 보고서를 읽음)가 아닌 **원시 데이터세트**를 탐색하기를 원합니다.
+사용 방법: 4방향 스템 쌍이 있는지 확인합니다(`journal/NN_*.md` 승인 + `experiments/NN_*.py` 존재 + 스모크 테스트 통과 + 프로젝트의 해당 키 아래에 보고). 그런 다음 `templates/audit.py`에서 `audit/NN_<short_name>.py`를 배치하고 패키지 이름 + `experiments/<stem>.py`에서 복사한 리터럴 프로젝트 초기화 블록으로 대체합니다.   번들 실행기를 통해 실행합니다: `pixi run -e Agent python .agents/skills/audit-ml-pipeline/scripts/run_cells.py audit/<stem>.py`. **쓰기 또는 쉘 명령 전에 중지 조건을 읽고 비행 전 체크리스트를 내보냅니다.** 스코어 기호 서명에 대해 항상 `python-api`를 호출하고 메모리에서 쓰지 마십시오.

@@ -1,0 +1,10 @@
+모델이 설계되기 전에 데이터를 이해하고 있습니다. 공유된 In-Process Runner를 통해 `data/eda.py`(jupytext `# %%` 스크립트)를 배치 및 실행하고, 스트리밍된 다이제스트를 읽은 다음 지속형 `data/eda.md` 보고서(링크된 `data/eda_<table>.html` skrub `TableReport` 페이지 포함)와 `journal/JOURNAL.md`의 `## 데이터 이해(EDA)` 섹션을 작성합니다. 요점은 나중에 학습자/분배기/메트릭 결정을 정당화하는 데이터 세트 사실(모양, dtypes, 누락, 카디널리티, 목표 균형/왜곡, 날짜/시간/그룹 구조, 기능 연관)을 표면화하여 사용자가 모델링 선택이 *이유* 이루어지는지 이해할 수 있도록 하는 것입니다. 데이터 프레임 개요 및 공유 실행기 `audit-ml-pipeline/scripts/run_cells.py`에 `skrub.TableReport`를 사용합니다. "EDA 실행, `data/eda.md` + HTML 작성, JOURNAL EDA 섹션 업데이트"에서 중지됩니다. 모델을 디자인하지 않으며 `src/<pkg>/`를 편집하지 않으며 사용자의 원시 데이터 파일을 수정하지 않습니다.
+TRIGGER — 다음 중 하나: - `iterate-ml-experiment` § 0 부트스트랩, 기준 설계 전
+  참고 - G-EDA 게이트가 여기에서 실행됩니다(실행/건너뛰기).
+- 사용자가 "데이터 탐색", "EDA 수행", "프로파일링"을 요청합니다.
+  데이터 세트", "데이터는 어떻게 생겼나요?", "데이터를 이해합니다".
+- 신규 또는 변경된 데이터 소스에 대해서는 사전에 (재)이해가 필요합니다.
+  다음 실험.
+
+다음 경우를 건너뛰십시오: 작업공간이 아직 스캐폴드/부트스트랩되지 않았습니다 — `iterate-ml-experiment` § 0은 부트스트랩 순서를 소유하고 G-EDA 단계에서 여기로 전달됩니다. 스캐폴딩 전에 독립형으로 실행하지 마십시오(`iterate-ml-experiment` / `organize-ml-workspace`로 경로 지정). 아직 탐색할 데이터가 없습니다. 사용자는 원시 데이터 세트(`audit-ml-pipeline`)보다는 완료된 실행의 점수 보고서를 검사하기를 원합니다. 사용자가 과거 데이터를 이해하고 파이프라인/평가 메커니즘(`build-ml-pipeline` / `evaluate-ml-pipeline`)을 원합니다. 순수 기호 조회(`python-api`); EDA는 이미 기록되어 있으며(`data/eda.md` + JOURNAL EDA 섹션 존재) 사용자가 새로 고침을 요청하지 않습니다.
+사용 방법: 감지 단계를 실행하고(`data/eda.md` + JOURNAL EDA 섹션이 이미 존재합니까?) 비행 전 체크리스트를 눈에 보이는 텍스트로 내보내고 중지 조건을 읽은 다음 `templates/eda.py`에서 `data/eda.py`를 배치하고 공유 실행기를 통해 실행하고 다이제스트를 읽고 `data/eda.md` + JOURNAL EDA 섹션을 작성합니다. 항상 `python-api`를 통해 skrub / pandas / polars 기호를 해결하세요. 절대 메모리에서 해결하지 마세요.

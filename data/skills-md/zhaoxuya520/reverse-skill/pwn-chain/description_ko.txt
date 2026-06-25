@@ -1,0 +1,5 @@
+리버스 엔지니어링에서 작업 익스플로잇까지: 전체 체인 엔지니어링 방법론.  
+적용 가능한 시나리오: 바이너리, 취약점 지점 및 대상 환경을 얻었으며 안정적으로 작동하는 익스플로잇을 작성해야 합니다(단지 로컬에서만 재생산하고 원격으로 실행하면 충돌하는 스크립트가 아님).  
+스택 오버플로/힙 활용/커널 pwn의 세 가지 주요 방향을 다룹니다. "CTF 로컬 성공 → 실제 원격 안정적인 공격" 사이의 엔지니어링 격차를 강조합니다: 일치하지 않는 libc 버전, 힙 스프레이 타이밍, SMEP/SMAP/KASLR, 스택 정렬, 원격 버퍼링.  
+핵심 툴체인: pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc‑database + qemu‑system 커널 디버깅.  
+트리거 키워드: pwn, 스택 오버플로, 힙 오버플로, ROP, ret2libc, ret2csu, one_gadget, libc‑database, 힙 활용, tcache, fastbin, 정렬되지 않은 bin, 커널 pwn, kROP, SMEP, SMAP, KASLR, modprobe_path, pwntools, GEF, pwndbg.
