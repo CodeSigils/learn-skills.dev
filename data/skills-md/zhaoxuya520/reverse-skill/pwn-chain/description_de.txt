@@ -1,0 +1,9 @@
+Vom Reverse Engineering bis zum nutzbaren Exploit (Working Exploit): eine vollständige, auf Engineering ausgerichtete Methodik.  
+
+Anwendbares Szenario: Sie verfügen über die Binärdatei, den Speicherort der Schwachstelle und die Zielumgebung und müssen einen Exploit schreiben, der zuverlässig funktioniert – und nicht nur ein Skript, das sich lokal reproduziert oder sofort abstürzt, wenn es remote ausgeführt wird.  
+
+Deckt drei Hauptbereiche ab: Stapelüberlauf / Heap-Ausnutzung / Kernel-PWN. Betont die technische Lücke zwischen „nur lokalem CTF-Erfolg → stabiler Remote-Ausnutzung in der realen Welt“: nicht übereinstimmende libc-Versionen, Heap-Spray-Timing, SMEP/SMAP/KASLR, Stack-Ausrichtung, Remote-Pufferung.  
+
+Kern-Toolchain: pwntools + GEF/pwndbg + ROPgadget/ROPper + one_gadget + libc-database + qemu-system Kernel-Debugging.  
+
+Auslöserschlüsselwörter: pwn, Stack Overflow, Heap Overflow, ROP, ret2libc, ret2csu, one_gadget, libc-database, Heap Exploitation, Tcache, Fastbin, unsorted Bin, Kernel Pwn, kROP, SMEP, SMAP, KASLR, modprobe_path, pwntools, GEF, pwndbg.

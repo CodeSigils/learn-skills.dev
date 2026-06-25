@@ -1,0 +1,3 @@
+FMC-Konventionen für Zustand v5 in React: Dateibenennung, nur benutzerdefinierte Hook-Exporte, atomare Selektoren, Aktions-Namespace, kleine fokussierte Stores. Wird zum Hinzufügen oder Überprüfen des globalen Clientstatus oder zum Debuggen unnötiger erneuter Renderings und SSR-/Persist-Hydratationsprobleme verwendet.
+
+Nicht für Server-/asynchrone Daten (TanStack Query) oder URL-Status (nuqs). Für API-Details, Middleware, Slices und Migration verwenden Sie den offiziellen llms.txt-Index unten.

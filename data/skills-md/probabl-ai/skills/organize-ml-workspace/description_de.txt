@@ -1,0 +1,12 @@
+Entscheiden Sie, wo sich Dateien in einem ML-Experimentierprojekt befinden: wiederverwendbarer Code in „src/<pkg>/“, ein „# %%“-Skript pro Experiment in „experiments/“, Designnotizen + Index in „journal/“, Berichte in „reports/“, reine Agenten-Prüfungen in „scratch/“. Besitzt das Layout, die Dateierstellungsregeln (eine Datei pro Experiment, fragen Sie vor der Bearbeitung) und die Jupytext-Skriptkonvention „# %%“. Erzwingt niemals „Daten/“ – das gehört dem Benutzer.
+TRIGGER – einer von: - Starten eines neuen ML-Projekts / Aufbau eines Arbeitsbereichs. – Ich bin dabei, die erste Experimentdatei in einem Projekt zu erstellen. - Im Begriff, `src/<pkg>/data.py` / `features.py` / zu erstellen
+  `pipeline.py` / `evaluate.py` zum ersten Mal.
+- Bin gerade dabei, eine „.ipynb“-Datei zum Experimentieren zu schreiben – Weiterleitung zu a
+  Skript „# %%“ unter „experimente/“.
+- Benutzer fragt, wo etwas leben soll, wie man es organisiert
+  Projekt oder wie man den Arbeitsbereich einrichtet.
+– Ich bin dabei, eine neue Experimentiteration hinzuzufügen – entscheiden Sie sich für eine neue Datei vs
+  Vorhandenes bearbeiten (den Benutzer fragen).
+
+ÜBERSPRINGEN, wenn: die Datei eindeutig Teil eines bereits ausgefüllten Moduls ist (z. B. Hinzufügen einer Funktion zu vorhandener „features.py“); reines Refactoring innerhalb einer einzelnen vorhandenen Datei; Mechanik der Pipeline-Deklaration („build-ml-pipeline“); Bewertungsmechanik („evaluate-ml-pipeline“); Skore-Symbolsuche („python-api“).
+ANWENDUNG: **Führen Sie zuerst die nachstehende Erkennungstabelle aus** – wenn ein Signal übereinstimmt, halten Sie sich an bestehende Konventionen (Ordner nicht umbenennen oder verschieben). Wenn kein Signal übereinstimmt, erstellen Sie ein Gerüst mit dem Standardlayout. **Geben Sie die Checkliste vor dem Flug als sichtbaren Text aus und lesen Sie die Stoppbedingungen, bevor eine Datei erstellt oder bearbeitet wird.** Verwenden Sie Vorlagen in „templates/“; Kopieren und anpassen, nicht von Grund auf neu schreiben.
