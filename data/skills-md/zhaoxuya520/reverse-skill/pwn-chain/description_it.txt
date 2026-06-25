@@ -1,0 +1,5 @@
+Un approccio ingegneristico a catena completa, dal reverse engineering a un exploit utilizzabile (funzionante).  
+Scenario applicabile: hai il file binario, il punto di vulnerabilità e l'ambiente di destinazione e devi scrivere un exploit che funzioni in modo affidabile (non solo uno script che può essere riprodotto solo localmente e si blocca se eseguito in remoto).  
+Copre tre direzioni principali: overflow dello stack/sfruttamento dell'heap/pwn del kernel. Sottolinea il divario ingegneristico tra "successo locale CTF → sfruttamento reale e stabile remoto": disallineamenti della versione libc, tempistiche di heap spraying, SMEP/SMAP/KASLR, allineamento dello stack, buffering remoto.  
+Toolchain principale: pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc‑database + qemu‑system kernel debugging.  
+Parole chiave di attivazione: pwn, stack overflow, heap overflow, ROP, ret2libc, ret2csu, one_gadget, libc‑database, sfruttamento dell'heap, tcache, fastbin, unsorted bin, kernel pwn, kROP, SMEP, SMAP, KASLR, modprobe_path, pwntools, GEF, pwndbg.

@@ -1,0 +1,1 @@
+Estrai incorporamenti per molecola da qualsiasi checkpoint KERMT con codificatore (grover_base / cmim / ibrido / finetuned). Scrive un .npy per tipo di lettura (atom_from_atom, bond_from_atom, atom_from_bond, bond_from_bond) più canonical_smiles.npy e validity.npy. Chiama task/extract_embeddings.py (che presenta SMILES al volo: non sono necessarie funzionalità precalcolate).

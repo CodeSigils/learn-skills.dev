@@ -1,0 +1,1 @@
+Converti un checkpoint grover_base (solo codificatore o codificatore + testine vocabolario) in un checkpoint ibrido aggiungendo un decoder cMIM inizializzato in modo casuale + latent_dist, quindi continua il preaddestramento sul corpus dell'utente come ibrido (vocabolario + contrasto). In effetti kermt-continue-pretrain con un passaggio di conversione ckpt una tantum anteposto.

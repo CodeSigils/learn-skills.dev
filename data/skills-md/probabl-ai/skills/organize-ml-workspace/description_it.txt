@@ -1,0 +1,12 @@
+Decidi dove risiedono i file in un progetto di sperimentazione ML: codice riutilizzabile in `src/<pkg>/`, uno script `# %%` per esperimento in `experiments/`, note di progettazione + indice in `journal/`, report in `reports/`, sondaggi solo agente in `scratch/`. Possiede il layout, le regole di creazione del file (un file per esperimento, chiedi prima di modificare) e la convenzione dello script jupytext `# %%`. Non impone mai `data/`: l'utente ne è il proprietario.
+TRIGGER: uno qualsiasi tra: - Avvio di un nuovo progetto ML/impalcatura di uno spazio di lavoro. - Sto per creare il primo file dell'esperimento in un progetto. - Sto per creare `src/<pkg>/data.py` / `features.py` /
+  `pipeline.py` / `evaluate.py` per la prima volta.
+- Sto per scrivere un `.ipynb` per la sperimentazione: reindirizza a a
+  `# %%` in "esperimenti/".
+- L'utente chiede dove dovrebbe vivere qualcosa, come organizzare il
+  progetto o come impostare lo spazio di lavoro.
+- Sto per aggiungere una nuova iterazione dell'esperimento: decidi il nuovo file rispetto al nuovo
+  modificare esistente (chiedere all'utente).
+
+SALTA quando: il file fa chiaramente parte di un modulo già popolato (ad esempio, aggiungendo una funzione a `features.py` esistente); refactoring puro all'interno di un singolo file esistente; meccanica di dichiarazione della pipeline (`build-ml-pipeline`); meccanica di valutazione ("evaluate-ml-pipeline"); Ricerca del simbolo del punteggio (`python-api`).
+COME USARE: **prima esegui la tabella di rilevamento** di seguito: se qualche segnale corrisponde, rispetta le convenzioni esistenti (non rinominare o spostare le cartelle). Se nessun segnale corrisponde, impalcatura con il layout predefinito. **Emetti la lista di controllo pre-volo come testo visibile e leggi le condizioni di arresto prima che qualsiasi file venga creato o modificato.** Utilizza i modelli in `templates/`; copiare e adattare, non riscrivere da zero.

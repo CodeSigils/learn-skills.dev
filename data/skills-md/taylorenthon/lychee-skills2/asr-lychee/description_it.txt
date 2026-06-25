@@ -1,0 +1,3 @@
+Richiama l'interfaccia di riconoscimento vocale lychee-openapi `/open/asr`, carica un file audio e restituisce il testo riconosciuto.  
+Trigger: l'utente dice "trascrivi l'audio", "converti questo audio in testo", "riconosci questo discorso", "ASR" o "/asr-lychee".  
+Non utilizzare questa competenza per il riconoscimento dello streaming in tempo reale (lo streaming utilizza WebSocket; questa competenza utilizza HTTP multipart).

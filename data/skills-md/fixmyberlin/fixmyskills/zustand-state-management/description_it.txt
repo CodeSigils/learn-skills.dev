@@ -1,0 +1,3 @@
+Convenzioni FMC per Zustand v5 in React: denominazione dei file, esportazioni solo con hook personalizzati, selettori atomici, spazio dei nomi delle azioni, piccoli negozi mirati. Da utilizzare quando si aggiunge o si esamina lo stato globale del client o si esegue il debug di nuovi rendering non necessari e problemi di idratazione persistente/SSR.
+
+Non per dati server/asincroni (TanStack Query) o stato URL (nuqs). Per i dettagli sull'API, il middleware, le sezioni e la migrazione, utilizza l'indice llms.txt ufficiale riportato di seguito.

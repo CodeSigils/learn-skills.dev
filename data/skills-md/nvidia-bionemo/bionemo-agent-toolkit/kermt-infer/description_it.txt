@@ -1,0 +1,1 @@
+Esegui previsioni con un checkpoint KERMT ottimizzato su un CSV solo SMILES. La competenza convalida che il ckpt di input ha attività FFN head (rifiuta i ckpt di pre-addestramento con un reindirizzamento a kermt-finetune), convalida il CSV, prepara i dati (funzionalità clean + rdkit_2d), quindi avvia main.py predit all'interno del contenitore kermt (blocco, scala in minuti).

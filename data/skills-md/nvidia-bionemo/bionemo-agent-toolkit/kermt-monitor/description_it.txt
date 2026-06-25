@@ -1,0 +1,1 @@
+Controlla l'avanzamento di un'esecuzione KERMT distaccata (pretraining, finetune o qualsiasi invocazione kermt_run_dependent). Legge run.json, interroga la finestra mobile per lo stato del contenitore, completa il log di pretraining/finetune e analizza le linee di avanzamento (epoca, passaggio, perdita di valore).

@@ -1,0 +1,1 @@
+Avvia l'ambiente dell'agente KERMT: verifica l'host docker + nvidia-container-toolkit, crea l'immagine kermt:latest dal Dockerfile del repository se non esiste ancora ed esegui un test del fumo della GPU all'interno del contenitore. Ogni altra abilità kermt-* dipende da questo; invocalo prima.
