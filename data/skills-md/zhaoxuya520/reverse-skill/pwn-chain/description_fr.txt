@@ -1,0 +1,5 @@
+De l’ingénierie inverse à un exploit fonctionnel : une méthodologie d’ingénierie en chaîne complète.  
+Scénario applicable : vous avez obtenu le binaire, le point de vulnérabilité et l'environnement cible, et devez écrire un exploit qui fonctionne de manière fiable (pas seulement un script qui se reproduit uniquement localement et plante lorsqu'il est exécuté à distance).  
+Couvre trois directions principales : débordement de pile / exploitation du tas / pwn du noyau. Souligne l'écart d'ingénierie entre « le succès local du CTF → une véritable exploitation stable à distance » : versions libc incompatibles, timing de pulvérisation du tas, SMEP/SMAP/KASLR, alignement de la pile, mise en mémoire tampon à distance.  
+Chaîne d'outils de base : pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc‑database + débogage du noyau du système qemu.  
+Mots-clés déclencheurs : pwn, stack overflow, heap overflow, ROP, ret2libc, ret2csu, one_gadget, libc‑database, heap exploitation, tcache, fastbin, unsorted bin, kernel pwn, kROP, SMEP, SMAP, KASLR, modprobe_path, pwntools, GEF, pwndbg.

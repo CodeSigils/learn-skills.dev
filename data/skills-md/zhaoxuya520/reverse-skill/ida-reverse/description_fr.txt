@@ -1,0 +1,5 @@
+IDA Pro逆向分析辅助技能。当用户提到逆向、反编译、分析二进制/PE/ELF/A PK/DLL/SO, logiciels, logiciels, micrologiciels Il s'agit d'un fichier exe/dll/so/elf/macho/sys.
+
+Assurez-vous d'utiliser cette compétence lorsque l'utilisateur souhaite analyser un fichier binaire, qu'il mentionne explicitement « IDA » ou « ingénierie inverse ». Cela inclut les requêtes telles que "看看这个exe", "分析这个dll", "帮我破解", "找一下密码", "这个软件怎么注册", etc.
+
+Utilisez les scripts fournis (scripts/start.ps1, scripts/open.ps1) pour la gestion déterministe du serveur et l'ouverture de fichiers — n'écrivez PAS de commandes PowerShell ad hoc pour ces opérations.

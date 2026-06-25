@@ -1,0 +1,1 @@
+Amorcez l'environnement de l'agent KERMT : vérifiez le docker hôte + nvidia-container-toolkit, créez l'image kermt:latest à partir du Dockerfile du dépôt si elle n'existe pas encore et exécutez un test de fumée GPU à l'intérieur du conteneur. Toutes les autres compétences kermt-* en dépendent ; invoquez-le en premier.

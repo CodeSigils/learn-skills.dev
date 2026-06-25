@@ -1,0 +1,12 @@
+Décidez où se trouvent les fichiers dans un projet d'expérimentation ML : code réutilisable dans `src/<pkg>/`, un script `# %%` par expérience dans `experiments/`, notes de conception + index dans `journal/`, rapports dans `reports/`, sondes réservées aux agents dans `scratch/`. Possède la mise en page, les règles de création de fichiers (un fichier par expérience, demander avant de modifier) ​​et la convention de script jupytext `# %%`. N'impose jamais `data/` — l'utilisateur en est propriétaire.
+TRIGGER - l'un des éléments suivants : - Démarrage d'un nouveau projet ML / échafaudage d'un espace de travail. - Sur le point de créer le premier fichier d'expérience dans un projet. - Sur le point de créer `src/<pkg>/data.py` / `features.py` /
+  `pipeline.py` / `evaluate.py` pour la première fois.
+- Sur le point d'écrire un `.ipynb` pour l'expérimentation — rediriger vers un
+  Script `# %%` sous `experiments/`.
+- L'utilisateur demande où quelque chose doit vivre, comment organiser le
+  projet, ou comment configurer l'espace de travail.
+- Sur le point d'ajouter une nouvelle itération d'expérience - décidez du nouveau fichier ou
+  modifier l'existant (demander à l'utilisateur).
+
+SKIP quand : le fichier fait clairement partie d'un module déjà rempli (par exemple, l'ajout d'une fonction à `features.py` existant) ; refactor pur dans un seul fichier existant ; mécanismes de déclaration de pipeline (`build-ml-pipeline`); les mécanismes d'évaluation (« evaluate-ml-pipeline » ); recherche de symboles skore (`python-api`).
+COMMENT UTILISER : **exécutez d'abord le tableau de détection** ci-dessous — si un signal correspond, respectez les conventions existantes (ne renommez pas et ne déplacez pas les dossiers). Si aucun signal ne correspond, échafaudez la disposition par défaut. **Émettez la liste de contrôle avant le vol sous forme de texte visible et lisez les conditions d'arrêt avant qu'un fichier ne soit créé ou modifié.** Utilisez des modèles dans `templates/` ; copier et adapter, ne pas réécrire à partir de zéro.

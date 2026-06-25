@@ -1,0 +1,3 @@
+Appelez le point de terminaison de reconnaissance vocale lychee‑openapi/open/asr, téléchargez un fichier audio et renvoyez le texte reconnu.  
+Phrases déclencheurs : l'utilisateur dit « transcrire l'audio », « convertir cet audio en texte », « reconnaître ce discours », « ASR » ou « /asr-lychee ».  
+N'utilisez pas cette compétence pour la reconnaissance de streaming en temps réel (le streaming doit utiliser WebSocket ; cette compétence fonctionne via HTTP multipart).

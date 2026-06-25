@@ -1,0 +1,3 @@
+Indexer un fichier ou un répertoire local dans la base de connaissances FTS5 persistante du mode contexte
+Ainsi, les futurs appels ctx_search pourront récupérer des extraits ciblés sans relire les fichiers bruts.
+Déclencheur : /context-mode:ctx-index
