@@ -1,0 +1,12 @@
+Decida dónde residen los archivos en un proyecto de experimentación de ML: código reutilizable en `src/<pkg>/`, un script `# %%` por experimento en `experimentos/`, notas de diseño + índice en `journal/`, informes en `reports/`, sondas de solo agente en `scratch/`. Posee el diseño, las reglas de creación de archivos (un archivo por experimento, pregunte antes de editar) y la convención de script jupytext `# %%`. Nunca impone `datos/`; eso es propiedad del usuario.
+DISPARADOR: cualquiera de: - Iniciar un nuevo proyecto de ML/desarrollar un espacio de trabajo. - A punto de crear el primer archivo de experimento en un proyecto. - A punto de crear `src/<pkg>/data.py` / `features.py` /
+  `pipeline.py` / `evaluate.py` por primera vez.
+- A punto de escribir un `.ipynb` para experimentar: redirigir a un
+  `# %%` script en `experimentos/`.
+- El usuario pregunta dónde debería vivir algo, cómo organizarlo.
+  proyecto, o cómo configurar el espacio de trabajo.
+- A punto de agregar una nueva iteración del experimento: decidir nuevo archivo vs.
+  editar existente (preguntar al usuario).
+
+SALTAR cuando: el archivo es claramente parte de un módulo ya completo (por ejemplo, agregando una función a `features.py` existente); refactor puro dentro de un único archivo existente; mecánica de declaración de canalización (`build-ml-pipeline`); mecánica de evaluación (`evaluate-ml-pipeline`); Búsqueda de símbolos skore (`python-api`).
+CÓMO UTILIZAR: **primero ejecute la tabla de Detección** a continuación; si alguna señal coincide, pegue las convenciones existentes (no cambie el nombre ni mueva las carpetas). Si ninguna señal coincide, aplique el diseño predeterminado. **Emita la lista de verificación previa al vuelo como texto visible y lea las condiciones de detención antes de crear o editar cualquier archivo.** Utilice plantillas en `templates/`; Copie y adapte, no reescriba desde cero.

@@ -1,0 +1,3 @@
+Llame al punto final de reconocimiento de voz de lychee‑openapi/open/asr, cargue un archivo de audio y devuelva el texto reconocido.  
+Frases de activación: el usuario dice "transcribir audio", "convertir este audio en texto", "reconocer este discurso", "ASR" o "/asr-lychee".  
+No utilice esta habilidad para el reconocimiento de transmisión en tiempo real (la transmisión debe usar WebSocket; esta habilidad funciona a través de HTTP multiparte).

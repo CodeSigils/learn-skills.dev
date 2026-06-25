@@ -1,0 +1,5 @@
+De la ingeniería inversa a un exploit funcional: una metodología de ingeniería de cadena completa.  
+Escenario aplicable: ha obtenido el binario, el punto de vulnerabilidad y el entorno de destino, y necesita escribir un exploit que funcione de manera confiable (no solo un script que solo se reproduce localmente y falla cuando se ejecuta de forma remota).  
+Cubre tres direcciones principales: desbordamiento de pila/explotación del montón/pwn del kernel. Enfatiza la brecha de ingeniería entre “éxito local de CTF → explotación estable remota real”: versiones de libc no coincidentes, tiempo de pulverización del montón, SMEP/SMAP/KASLR, alineación de la pila, almacenamiento en búfer remoto.  
+Cadena de herramientas principal: pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc‑database + depuración del kernel qemu‑system.  
+Palabras clave de activación: pwn, desbordamiento de pila, desbordamiento de montón, ROP, ret2libc, ret2csu, one_gadget, libc‑database, explotación de montón, tcache, fastbin, bin sin clasificar, kernel pwn, kROP, SMEP, SMAP, KASLR, modprobe_path, pwntools, GEF, pwndbg.
