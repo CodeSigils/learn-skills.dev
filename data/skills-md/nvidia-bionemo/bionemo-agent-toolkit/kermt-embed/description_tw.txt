@@ -1,0 +1,1 @@
+從任何帶有編碼器的 KERMT 檢查點提取每分子嵌入（grover_base/cmim/hybrid/finetuned）。為每個讀出類型（atom_from_atom、bond_from_atom、atom_from_bond、bond_from_bond）寫入一個 .npy，加上 canonical_smiles.npy 和validity.npy。呼叫 task/extract_embeddings.py （它具有動態 SMILES 功能 - 不需要預先計算的功能）。

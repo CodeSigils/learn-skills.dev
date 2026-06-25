@@ -1,0 +1,12 @@
+擁有 `audit/` 資料夾：每個實驗一個 `# %%` (jupytext%) Python 文件，與 `experiments/NN_<short_name>.py` 和 `journal/NN_<short_name>.md` 1:1 對齊，載入實驗的 skore 報告**只讀一個最後一個單元格 `` 1:1。   代理程式透過捆綁的進程內執行程式（`audit-ml-pipeline/scripts/run_cells.py` — IPython `InteractiveShell.run_cell`）執行審核文件，該執行程式將每個單元格的 stdout + 最後表達式 repr 的 Markdown 摘要串流傳輸到 stdout（也可以選擇傳輸到檔案）。摘要推動了敘事工作（“JOURNAL.md”狀態+歷史更新、有關過去實驗的後續問題、跨實驗比較）。停在「audit/NN_*.py 已放置、執行，且摘要可用」處。切勿呼叫 `skore.evaluate(...)` 或 `project.put(...)`。
+觸發 — 以下任一項： - `iterate-ml-experiment` § 4 記錄結果 — 已調度審核
+  第一（替換用於公制提取的刮痕探針）。
+- 使用者詢問“審核實驗 02”、“顯示 03 是什麼樣子”
+  例如」、「根據新報告重新審核 04」。
+- 重新運行實驗（覆蓋相同的“put()”鍵）並且
+  匹配的審核文件需要重新執行。
+- 使用者想要對過去的實驗進行人類可讀的敘述
+  無需觸發完整的“iterate-from-skore”流程。
+
+跳過以下情況：設計說明尚未獲得批准（路由至“iterate-ml-experiment”）；實驗尚未運行（磁碟上沒有報告）；未安裝代理功能（委託給 `python-env-manager` §“代理功能”）；用戶正在挖掘報告以獲取*下一個*實驗（“iterate-from-skore”）；用戶正在挖掘報告以獲取*下一個*實驗（“iterate-from-skore”）；審核讀取報告，而不是資料）。
+使用方法：確認四向詞幹配對存在（`journal/NN_*.md` 批准 + `experiments/NN_*.py` 存在 + 冒煙測試通過 + 在項目中該鍵下的報告），然後將 `audit/NN_<short_name>.py` 從 `templates/audit.` 中）   透過捆綁運行程式執行：「pixi run -e agent python .agents/skills/audit-ml-pipeline/scripts/run_cells.pyaudit/<stem>.py」。 **在任何寫入或 shell 命令之前讀取停止條件並發出飛行前檢查表。 ** 始終為 skore 符號簽名呼叫 `python-api` — 切勿從記憶體中寫入它們。

@@ -1,0 +1,1 @@
+通用影像產生執行層，支援三種影像產生API：MuleRun Nano Banana 2、APImart GPT Image 2、Atlas Cloud GPT Image 2。透過--provider切換。支援生成（純文字圖像生成）和編輯（使用參考圖像編輯圖像）模式，用於單一或批次執行。這是由其他技能調用的基礎設施技能，不直接面向最終用戶。當其他技能（例如 cover-hero、inline-diagram）需要呼叫圖像生成 API 時，它們會呼叫該技能的scripts/generate.py。不要將其用於：提示編寫、樣式註入、業務驗證——這些是呼叫技能的責任。

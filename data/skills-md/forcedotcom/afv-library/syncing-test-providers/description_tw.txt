@@ -1,0 +1,1 @@
+在使用者明確確認後，透過 Connect API 同步端點重新同步管道上已設定的 DevOps Center 測試提供者以取得新的測試套件。取得 pipelineId 和一個或多個 testProviderId 並觸發非同步重新同步，以便可供分配新新增的套件。當測試提供者（例如 Apex Unit Tests、程式碼分析器、Flow Tests、Provar）自上次配置以來新增了套件並且使用者希望這些套件顯示在 DevOps Center 中時，請使用此技能。在以下情況下觸發：使用者想要重新同步測試提供者、從提供者拉入新套件、刷新提供者的套件列表，或說已配置提供者的指定套件遺失/過期。請勿在下列情況下觸發：首次配置提供者（建立新的 DevopsPipelineTestProvider 配置），或將現有套件指派/對應至階段（使用管理套件指派）。

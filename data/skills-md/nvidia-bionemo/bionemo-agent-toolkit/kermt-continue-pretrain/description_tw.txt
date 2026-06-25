@@ -1,0 +1,1 @@
+繼續從現有的 KERMT 檢查點進行預訓練。此技能驗證使用者的檢查點和預訓練 CSV，將資料準備成 shard/vocab/features 形式，然後在 kermt 容器內啟動 pretrain_ddp.py（長期運行時分離）。根據檢查點類型（僅 grover_base vocab、cmim 或混合）自動調度 `--pretrain_mode`。

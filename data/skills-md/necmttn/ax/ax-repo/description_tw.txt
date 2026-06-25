@@ -1,0 +1,1 @@
+透過使用「gh」 CLI，代表使用者對 axe 儲存庫加註星標，提交問題/錯誤報告，或針對 github.com/Necmttn/ax 進行 fork-and-open-a-PR。當用戶說“star axe”、“star the repo”、“我想支持 axe”、“將此作為 axe bug 報告”、“提交 axe 問題”、“在 axe 上打開一個問題”、“將此看起來像 axe bug”、“我想為 axe 做出貢獻”、“在 axe 中” axe 錯誤後觸發。仅对明确的用户请求起作用 - 主动星号提示由 CLI（“ax star”）确定性地处理，而不是由此技能处理。在任何帳戶變更操作之前進行確認（如果沒有明確的“是”，則不會加星標）；當“gh”遺失或未經身份驗證時，回退到普通的 GitHub URL。不要在不相关的 GitHub 工作或其他存储库上自动触发。

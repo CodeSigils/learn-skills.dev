@@ -1,0 +1,1 @@
+檢查分離的 KERMT 運行的進度（預訓練、微調或任何 kermt_run_detached 呼叫）。讀取 run.json，查詢 docker 容器狀態，追蹤預訓練/微調日誌，並解析進度線（紀元、步驟、val 損失）。

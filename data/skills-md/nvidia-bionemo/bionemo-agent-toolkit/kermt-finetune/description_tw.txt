@@ -1,0 +1,1 @@
+在標記的 CSV 上微調預先訓練的 KERMT 編碼器。此技能驗證輸入檢查點（必須是預訓練 ckpt — grover_base/cmim/hybrid），驗證標記的 CSV，準備資料（乾淨 + 功能 + 可選拆分），然後在 kermt 容器內啟動 main.pyfinetune（針對小時規模的運行分離）。超參數來自 agent/config/defaults_finetune.json，具有按標誌 CLI 覆寫。

@@ -1,0 +1,4 @@
+透過**閱讀 `scratch/audit/<stem>/audit.md` 中的審核摘要**來取得下一個 ML 實驗提案（由第 4 節記錄結果中的 `audit-ml-pipeline` 產生）。對於摘要的「## 檢查摘要」中「嚴重性」為「issue」或「tip」的每一行，請依照該行的「documentation_url」起草一個 Backlog 行，其「Item」是文件建議的緩解措施。 「## Metrics 摘要」為人工摘要段落提供上下文，但本身不會驅動待辦事項行。將豐富的待辦事項行 + 一段摘要返回到“iterate-ml-experiment”，它將行寫入“JOURNAL.md”並重新呈現來源選單，以便使用者可以提升“B<N>”行。停在「待辦事項豐富，摘要回傳」；從不寫每個實驗的設計說明，從不選擇「獲勝」的發現－使用者透過「B<N>」選擇。
+當“iterate-ml-experiment”選擇採購策略並且使用者從選單中選擇“skore”時觸發；使用者說“我的報告”，“skore 看到了什麼？”，“填寫診斷中的積壓工作”；先前的實驗已完成，使用者希望將報告轉換為可操作的積壓項目。
+SKIP when：先前的實驗尚未運行（磁碟上沒有審計摘要）；使用者有具體的建模想法（使用「iterate-from-user」）；任務是運行/開啟報告的「機制」－通往「evaluate-ml-pipeline」的路線；用戶想要閱讀報告的特定部分（通往「evaluate-ml-pipeline」的路徑）。
+使用方法：以文字形式讀取現有的 `scratch/audit/<stem>/audit.md` 摘要 — 不要重新開啟 skore 項目，不要呼叫 `report.*` 存取器。對於「## 檢查摘要」部分中嚴重性為「問題」或「提示」的每一行，請遵循「documentation_url」（透過 WebFetch）並起草一個引用「audit:<stem>:checks.<code>」的待辦事項行。透過來源引用對「JOURNAL.md」積壓中已有的行進行重複資料刪除。返回候選行+一段人工摘要。父技能將行寫入“JOURNAL.md”並重新顯示採購選單。

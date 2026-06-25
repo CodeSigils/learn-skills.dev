@@ -1,0 +1,1 @@
+ISV 應用程式分析元資料類型 - AppAnalyticsQueryRequest 和 AppAnalyticsSettings。當使用者詢問有關檢索託管包使用資料、設定 App Analytics 模擬模式、查詢訂閱者快照或了解 AppAnalyticsQueryRequest 生命週期（新建 → 待處理 → 完成 → 已過期）時，請使用此技能。觸發條件：使用者提及 App Analytics、AppAnalyticsQueryRequest、AppAnalyticsSettings、軟體套件使用資料、訂閱者分析、ISV 分析或應用分析的類比模式。不要在以下情況下觸發：任務涉及標準 Salesforce 報表/儀表板（使用報表技能）、客戶/聯絡人上的自訂 SOQL（使用查詢-soql）或資料雲端查詢/搜尋（使用檢索-datacloud）。

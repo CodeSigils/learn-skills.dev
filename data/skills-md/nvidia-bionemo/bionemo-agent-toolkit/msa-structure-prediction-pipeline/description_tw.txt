@@ -1,0 +1,1 @@
+使用 NVIDIA BioNeMo NIM 運行完整的蛋白質結構預測流程：使用 MSA-Search (ColabFold) 搜尋 MSA 比對，然後使用檢索到的比對透過 OpenFold3 預測結構。每當使用者想要使用 MSA 上下文以最高精度預測蛋白質結構、運行完整的 AlphaFold3 式管道、產生 MSA 通知的結構預測或透過提供進化資訊來提高結構預測準確性時，請使用此技能。觸發：MSA 結構預測管道、結構預測管道、MSA 通知預測、OpenFold3、ColabFold MSA、AlphaFold3 管道、蛋白質結構、同源搜尋、a3m 比對、UniRef30、NIM 微服務。該管道連結 MSA-Search 和 OpenFold3。

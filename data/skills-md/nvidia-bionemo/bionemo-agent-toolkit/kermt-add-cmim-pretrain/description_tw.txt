@@ -1,0 +1,1 @@
+透過加入隨機初始化的 cMIM 解碼器 + Latent_dist，將 grover_base 檢查點（僅編碼器或編碼器 + 詞彙頭）轉換為混合檢查點，然後繼續對使用者語料庫作為混合（詞彙 + 對比）進行預訓練。有效地進行 kermt-Continue-pretrain，並預先新增一次性 ckpt-conversion 步驟。
