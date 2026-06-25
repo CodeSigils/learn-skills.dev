@@ -1,0 +1,1 @@
+通过 Langfuse MCP 服务器读取客户的实时 Langfuse 跟踪、会话和分数，与已知故障目录进行模式匹配，并编写一份调查结果报告，该报告分为与 Ratel 相关的机会和与堆栈无关的容易实现的目标。用于扫描仪表板、挖掘故障、查看最近的会话或合作伙伴的跟踪、审核其可观察性、查看代理做错了什么，或“/ratel-langfuse-analyze”。写入<repo>/.ratel/（累积）；如果 MCP 关闭，则快速失败，诚实 - 跳过干净的数据，从不编辑代码。 /ratel-langfuse-integrate 的后续行动，是在 /ratel-observability-assessment 选择 Langfuse 之后达成的。

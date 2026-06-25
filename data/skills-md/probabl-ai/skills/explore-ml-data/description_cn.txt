@@ -1,0 +1,10 @@
+在设计任何模型之前就拥有数据理解能力。通过共享进程内运行器放置并执行“data/eda.py”（jupytext“#%%”脚本），读取流式摘要，然后写入持久的“data/eda.md”报告（加上链接的“data/eda_<table>.html”skrub“TableReport”页面）和“journal/JOURNAL.md”的“##数据理解（EDA）”部分。关键是要展示数据集事实——形状、数据类型、缺失、基数、目标平衡/偏差、日期时间/组结构、特征关联——以证明后来的学习器/拆分器/度量决策，以便用户理解“为什么”做出建模选择。使用“skrub.TableReport”进行数据帧概述和共享运行器“audit-ml-pipeline/scripts/run_cells.py”。停在“EDA 已执行，‘data/eda.md’ + HTML 已写入，JOURNAL EDA 部分已更新”处。从不设计模型，从不编辑 `src/<pkg>/`，从不修改用户的原始数据文件。
+触发 - 任何： - `iterate-ml-experiment` § 0 bootstrap，在基线设计之前
+  注意 — G-EDA 门在此处触发（运行/跳过）。
+- 用户要求“探索数据”、“进行 EDA”、“分析数据”
+  数据集”、“数据是什么样的”、“理解数据”。
+- 在使用新的或更改的数据源之前需要（重新）了解
+  下一个实验。
+
+跳过以下情况：工作空间尚未搭建/引导 - `iterate-ml-experiment` § 0 拥有引导排序，并将在 G-EDA 步骤中分派到此处；不要在脚手架之前独立运行（路由到“iterate-ml-experiment”/“organize-ml-workspace”）；尚无数据可供探索；用户想要检查完成运行的分数报告而不是原始数据集（“audit-ml-pipeline”）；用户已经了解数据并需要管道/评估机制（“build-ml-pipeline”/“evaluate-ml-pipeline”）；纯符号查找（`python-api`）； EDA 已被记录（`data/eda.md` + JOURNAL EDA 部分存在）并且用户不要求刷新它。
+如何使用：运行检测步骤（“data/eda.md”+ JOURNAL EDA 部分是否已经存在？），以可见文本形式发出预检清单，读取停止条件，然后从“templates/eda.py”放置“data/eda.py”，通过共享运行器执行它，读取摘要，并编写“data/eda.md”+“JOURNAL EDA”部分。始终通过“python-api”解析 skrub/pandas/polars 符号，而不是从内存中解析。

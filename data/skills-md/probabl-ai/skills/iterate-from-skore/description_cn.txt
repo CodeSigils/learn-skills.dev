@@ -1,0 +1,4 @@
+通过**阅读 `scratch/audit/<stem>/audit.md` 中的审核摘要**来获取下一个 ML 实验提案（由第 4 节记录结果中的 `audit-ml-pipeline` 生成）。对于摘要的“## 检查摘要”中“严重性”为“issue”或“tip”的每一行，请按照该行的“documentation_url”起草一个 Backlog 行，其“Item”是文档建议的缓解措施。 “## Metrics 摘要”为人工摘要段落提供上下文，但本身不会驱动待办事项行。将丰富的待办事项行 + 一段摘要返回到“iterate-ml-experiment”，它将行写入“JOURNAL.md”并重新呈现源菜单，以便用户可以提升“B<N>”行。停在“待办事项丰富，摘要返回”；从不写每个实验的设计说明，从不选择“获胜”的发现——用户通过“B<N>”选择。
+当“iterate-ml-experiment”选择采购策略并且用户从菜单中选择“skore”时触发；用户说“我的报告”，“skore 看到了什么？”，“填写诊断中的积压工作”；先前的实验已完成，用户希望将报告转换为可操作的积压项目。
+SKIP when：之前的实验尚未运行（磁盘上没有审计摘要）；用户有具体的建模想法（使用“iterate-from-user”）；任务是运行/打开报告的“机制”——通往“evaluate-ml-pipeline”的路线；用户想要阅读报告的特定部分（通往“evaluate-ml-pipeline”的路径）。
+如何使用：以文本形式读取现有的 `scratch/audit/<stem>/audit.md` 摘要 — 不要重新打开 skore 项目，不要调用 `report.*` 访问器。对于“## 检查摘要”部分中严重性为“问题”或“提示”的每一行，请遵循“documentation_url”（通过 WebFetch）并起草一个引用“audit:<stem>:checks.<code>”的待办事项行。通过源引用对“JOURNAL.md”积压中已有的行进行重复数据删除。返回候选行+一段人工摘要。父技能将行写入“JOURNAL.md”并重新显示采购菜单。

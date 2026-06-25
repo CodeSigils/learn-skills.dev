@@ -1,0 +1,5 @@
+从逆向工程到有效利用：全链工程方法。  
+适用场景：您已经获得了二进制文件、漏洞点和目标环境，需要编写一个可靠运行的漏洞利用程序（而不仅仅是只在本地重现、远程运行时崩溃的脚本）。  
+涵盖三大方向：堆栈溢出/堆利用/内核pwn。强调“CTF本地成功→真正的远程稳定利用”之间的工程差距：libc版本不匹配、堆喷射计时、SMEP/SMAP/KASLR、堆栈对齐、远程缓冲。  
+核心工具链：pwntools + GEF/pwndbg + ROPgadget/Ropper + one_gadget + libc 数据库 + qemu 系统内核调试。  
+触发关键字：pwn、堆栈溢出、堆溢出、ROP、ret2libc、ret2csu、one_gadget、libc-database、堆利用、tcache、fastbin、unsorted bin、kernel pwn、kROP、SMEP、SMAP、KASLR、modprobe_path、pwntools、GEF、pwndbg。

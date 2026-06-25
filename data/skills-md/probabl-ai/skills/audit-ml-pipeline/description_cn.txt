@@ -1,0 +1,12 @@
+拥有 `audit/` 文件夹：每个实验一个 `# %%` (jupytext%) Python 文件，与 `experiments/NN_<short_name>.py` 和 `journal/NN_<short_name>.md` 1:1 对齐，加载实验的 skore 报告**只读**，并使用其 `__repr__` 携带审核信号的裸最后表达式单元格。   代理通过捆绑的进程内运行程序（`audit-ml-pipeline/scripts/run_cells.py` — IPython `InteractiveShell.run_cell`）执行审核文件，该运行程序将每个单元格的 stdout + 最后表达式 repr 的 Markdown 摘要流式传输到 stdout（也可以选择传输到文件）。摘要推动了叙事工作（“JOURNAL.md”状态+历史更新、有关过去实验的后续问题、跨实验比较）。停在“audit/NN_*.py 已放置、执行，并且摘要可用”处。切勿调用 `skore.evaluate(...)` 或 `project.put(...)`。
+触发 — 以下任意一项： - `iterate-ml-experiment` § 4 记录结果 — 已调度审核
+  第一（替换用于公制提取的划痕探针）。
+- 用户询问“审核实验 02”、“显示 03 是什么样子”
+  例如”、“根据新报告重新审核 04”。
+- 重新运行实验（覆盖相同的“put()”键）并且
+  匹配的审核文件需要重新执行。
+- 用户想要对过去的实验进行人类可读的叙述
+  无需触发完整的“iterate-from-skore”流程。
+
+跳过以下情况：设计说明尚未获得批准（路由至“iterate-ml-experiment”）；实验尚未运行（磁盘上没有报告）；未安装代理功能（委托给 `python-env-manager` §“代理功能”）；用户正在挖掘报告以获取*下一个*实验（“iterate-from-skore”）；用户想要探索**原始数据集**，而不是完成运行的分数报告（“explore-ml-data” - 审核读取报告，而不是数据）。
+如何使用：确认四向词干配对存在（`journal/NN_*.md` 批准 + `experiments/NN_*.py` 存在 + 冒烟测试通过 + 在项目中该键下的报告），然后将 `audit/NN_<short_name>.py` 从 `templates/audit.py` 中放入，替换包名称 + 从 `experiments/<stem>.py` 复制的文字项目初始化块。   通过捆绑运行程序执行：“pixi run -e agent python .agents/skills/audit-ml-pipeline/scripts/run_cells.pyaudit/<stem>.py”。 **在任何写入或 shell 命令之前读取停止条件并发出飞行前检查表。** 始终为 skore 符号签名调用 `python-api` — 切勿从内存中写入它们。

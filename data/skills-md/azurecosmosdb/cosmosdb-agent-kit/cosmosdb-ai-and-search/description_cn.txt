@@ -1,0 +1,3 @@
+用于 AI、RAG 和搜索的 Azure Cosmos DB：矢量搜索（矢量索引类型、嵌入容器设置、相似性/最近邻查询）、全文搜索（启用 FTS、BM25 相关性排名、混合关键字 + 向量）、LangChain 和 LangGraph 集成（CosmosDB 检查点保护程序、异步检查点初始化、MCP 持久会话、MCP 工具内容和过滤、LangChain JS 矢量存储、聊天历史记录、嵌入模型、语义缓存）和人工智能代理设计模式（多代理路由、聊天历史记录分离、从检查点恢复、接地访问、后台任务写入）。
+用途：存储嵌入并运行相似性搜索、选择向量索引、启用全文/BM25 搜索、混合搜索、构建 RAG 应用程序、保留 LangGraph 检查点、多代理状态、MCP 工具、语义缓存。
+不要用于：核心建模/分区/索引/查询（使用 cosmosdb-data-and-queries）；吞吐量/全局/监控/安全（使用 cosmosdb-operations）；非 AI SDK 客户端设置（使用 cosmosdb-sdk）。

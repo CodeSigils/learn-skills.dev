@@ -1,0 +1,1 @@
+引导 KERMT 代理环境 - 验证主机 docker + nvidia-container-toolkit，从存储库的 Dockerfile 构建 kermt:latest 映像（如果尚不存在），并在容器内运行 GPU 冒烟测试。所有其他 kermt-* 技能都依赖于此；首先调用它。

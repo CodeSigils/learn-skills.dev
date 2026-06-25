@@ -1,0 +1,1 @@
+使用经过微调的 KERMT 检查点在仅 SMILES 的 CSV 上运行预测。该技能验证输入 ckpt 是否具有任务 FFN 头（拒绝预训练 ckpts 并重定向到 kermt-finetune），验证 CSV，准备数据（clean + rdkit_2d 功能），然后在 kermt 容器内启动 main.py 预测（阻塞，分钟级）。

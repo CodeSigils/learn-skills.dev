@@ -1,0 +1,1 @@
+CodeGraph-优先的代码探索。当您在可能由 CodeGraph 索引的存储库中工作并且您需要在使用 grep/find/rg 或打开文件之前理解、定位、跟踪或读取代码时使用。检查存储库根目录中是否有 .codegraph 目录，使用 codegraph_explore MCP 工具（如果可用）或 codegraph explore shell 命令，并在不存在 .codegraph 目录时跳过 CodeGraph。

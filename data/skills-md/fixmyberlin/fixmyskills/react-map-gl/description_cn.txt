@@ -1,0 +1,1 @@
+FMC 地理应用程序的 react-map-gl/maplibre 模式：声明性源/层（从不 addSource/addLayer）、MapProvider + useMap()、interactiveLayerIds、平面源/层、地图加载防护、地图事件处理程序（不是 useEffect）、URL 地图状态、initialViewState、光标、要素状态、缺失图像。在 TanStack Start / Vite 应用程序中构建或查看地图组件、图层、单击/悬停处理程序、setFeatureState 或地图 URL 同步时使用。参考实现：tilda-geo/app。
