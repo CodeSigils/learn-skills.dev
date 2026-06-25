@@ -1,0 +1,12 @@
+Owns the `audit/` folder: one `# %%` (jupytext percent) Python file per experiment, aligned 1:1 with `experiments/NN_<short_name>.py` and `journal/NN_<short_name>.md`, that loads the experiment's skore report **read-only** and uses bare-last-expression cells whose `__repr__` carries the audit's signal.   The agent executes the audit file via the bundled in-process runner (`audit-ml-pipeline/scripts/run_cells.py` — IPython `InteractiveShell.run_cell`), which streams a markdown digest of each cell's stdout + last-expression repr to stdout (optionally also to a file). The digest fuels narrative work (the `JOURNAL.md` Status + History update, follow-up questions about a past experiment, cross-experiment comparison). Stops at "audit/NN_*.py is placed, executed, and the digest is available." Never calls `skore.evaluate(...)` or `project.put(...)`.
+TRIGGER — any of: - `iterate-ml-experiment` § 4 record-outcome — audit is dispatched
+  FIRST (replaces scratch probes for metric extraction).
+- The user asks "audit experiment 02", "show me what 03 looks
+  like", "re-audit 04 against the new report".
+- An experiment was re-run (same `put()` key overwritten) and the
+  matching audit file needs re-execution.
+- The user wants a human-readable narrative of a past experiment
+  without firing the full `iterate-from-skore` flow.
+
+SKIP when: the design note isn't approved yet (route to `iterate-ml-experiment`); the experiment hasn't been run (no report on disk); the agent feature isn't installed (delegate to `python-env-manager` § "Agent feature"); the user is mining the report to source the *next* experiment (`iterate-from-skore`); the user wants to explore the **raw dataset** rather than a finished run's skore report (`explore-ml-data` — audit reads a report, not the data).
+HOW TO USE: confirm the four-way stem pairing exists (`journal/NN_*.md` approved + `experiments/NN_*.py` exists + smoke test passed + report under that key in the Project), then place `audit/NN_<short_name>.py` from `templates/audit.py`, substituting the package name + the literal Project init block copied from `experiments/<stem>.py`.   Execute via the bundled runner: `pixi run -e agent python .agents/skills/audit-ml-pipeline/scripts/run_cells.py audit/<stem>.py`. **Read the Stop conditions and emit the Pre-flight checklist before any write or shell command.** Always invoke `python-api` for skore symbol signatures — never write them from memory.

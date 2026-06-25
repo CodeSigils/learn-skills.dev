@@ -1,0 +1,12 @@
+Decide where files live in an ML experimentation project: reusable code in `src/<pkg>/`, one `# %%` script per experiment in `experiments/`, design notes + index in `journal/`, reports in `reports/`, agent-only probes in `scratch/`. Owns the layout, the file-creation rules (one file per experiment, ask before editing), and the jupytext `# %%` script convention. Never imposes `data/` — the user owns that.
+TRIGGER — any of: - Starting a new ML project / scaffolding a workspace. - About to create the first experiment file in a project. - About to create `src/<pkg>/data.py` / `features.py` /
+  `pipeline.py` / `evaluate.py` for the first time.
+- About to write a `.ipynb` for experimentation — redirect to a
+  `# %%` script under `experiments/`.
+- User asks where something should live, how to organize the
+  project, or how to set up the workspace.
+- About to add a new experiment iteration — decide new file vs
+  edit existing (ask the user).
+
+SKIP when: the file is clearly part of an already-populated module (e.g., adding a function to existing `features.py`); pure refactor inside a single existing file; pipeline declaration mechanics (`build-ml-pipeline`); evaluation mechanics (`evaluate-ml-pipeline`); skore symbol lookup (`python-api`).
+HOW TO USE: **first run the Detection table** below — if any signal matches, glue to existing conventions (do not rename or move folders). If no signal matches, scaffold the default layout. **Emit the Pre-flight checklist as visible text and read the Stop conditions before any file is created or edited.** Use templates in `templates/`; copy and adapt, do not rewrite from scratch.

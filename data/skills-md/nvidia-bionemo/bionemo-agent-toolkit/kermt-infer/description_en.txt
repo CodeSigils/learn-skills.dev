@@ -1,0 +1,1 @@
+Run predictions with a finetuned KERMT checkpoint on a SMILES-only CSV. The skill validates that the input ckpt has task FFN heads (refuses pretrain ckpts with a redirect to kermt-finetune), validates the CSV, prepares the data (clean + rdkit_2d features), then launches main.py predict inside the kermt container (blocking, minutes-scale).

@@ -1,0 +1,1 @@
+Generate `.glb` 3D assets headlessly via Blender Python (`blender --background --python`). Use when a Godot/Unity/Unreal project needs a procedural mesh / prop / room piece. Skill provides only thin helpers (`prelude.py`, `export.py`); project-specific generation scripts live in `assets/modeling/`. Do not use for live Blender editing or hero-character sculpting.

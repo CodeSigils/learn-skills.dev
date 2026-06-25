@@ -1,0 +1,3 @@
+FMC conventions for Zustand v5 in React: file naming, custom-hook-only exports, atomic selectors, actions namespace, small focused stores. Use when adding or reviewing client global state, or debugging unnecessary re-renders and SSR/persist hydration issues.
+
+Not for server/async data (TanStack Query) or URL state (nuqs). For API details, middleware, slices, and migration, use the official llms.txt index below.
