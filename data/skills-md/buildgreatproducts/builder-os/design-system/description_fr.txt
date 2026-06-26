@@ -1,0 +1,12 @@
+Traduit une image (ou un ensemble de références d'images — captures d'écran,
+maquettes, URL Figma, sites Web en direct) dans un `docs/design.md` de haute qualité
+fichier suite à l'ouverture de Google
+Format [design.md](https://github.com/google-labs-code/design.md).
+Lit les images, pose des questions de clarification ciblées, dérive YAML
+jetons de design (couleurs, typographie, espacement, arrondis, composants),
+et écrit des justifications en prose que tout agent de codage d'IA peut consommer.
+Entièrement autonome : ne nécessite aucun autre document ou compétence. Utiliser lorsque le
+le fondateur dit "créer un système de conception", "concevoir à partir de l'image",
+"traduire l'image en design", "créer un design.md", "l'image en design
+système", "extraire des jetons de conception", ou partage une image avec aucun autre
+intention claire.
