@@ -1,0 +1,12 @@
+Translates an image (or a set of image references — screenshots,
+mockups, Figma URLs, live websites) into a high-quality `docs/design.md`
+file following Google's open
+[design.md](https://github.com/google-labs-code/design.md) format.
+Reads the imagery, asks targeted clarifying questions, derives YAML
+design tokens (colors, typography, spacing, rounded, components),
+and writes prose rationale that any AI coding agent can consume.
+Fully standalone — requires no other document or skill. Use when the
+founder says "create a design system", "design from image",
+"translate image to design", "create design.md", "image to design
+system", "extract design tokens", or shares an image with no other
+clear intent.
