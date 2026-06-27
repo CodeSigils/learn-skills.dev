@@ -1,0 +1,4 @@
+Angular library generator for Nx monorepo. This skill should be used when creating new Angular libraries
+with @nx/angular:library generator. Handles feature libs (landing/feature-*), shared libs (landing/shared/*),
+and global shared libs (shared/*). Auto-prefills tags, directory, prefix, importPath based on project conventions.
+Triggers: "create lib", "new library", "generate library", "ng-lib", "/ng-lib"

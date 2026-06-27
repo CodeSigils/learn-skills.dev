@@ -1,0 +1,15 @@
+Use this skill for planning, testing, and safely executing PostgreSQL schema migrations — especially when working with production data or shared databases.
+
+**Trigger when user asks to:**
+- Test a schema migration before applying it to production
+- Add, remove, or rename columns safely on a live table
+- Change a column's data type without downtime
+- Add or drop indexes, constraints, or foreign keys on large tables
+- Understand which ALTER TABLE operations lock the table
+- Roll back a failed migration
+- Plan a zero-downtime migration strategy
+- Fork a database to test a migration safely
+
+**Keywords:** migration, schema change, ALTER TABLE, add column, drop column, rename column, change type, zero downtime, lock, AccessExclusiveLock, concurrent index, forking, ghost, rollback, backfill, deploy
+
+Covers: lock-level reference for every common DDL operation, safe migration patterns, fork-based testing, zero-downtime column changes, index creation, constraint addition, backfill strategies, pre/post-migration validation, and rollback planning.
