@@ -1,0 +1,15 @@
+Nutzen Sie diese Fähigkeit zum Planen, Testen und sicheren Ausführen von PostgreSQL-Schemamigrationen – insbesondere bei der Arbeit mit Produktionsdaten oder gemeinsam genutzten Datenbanken.
+
+**Auslösen, wenn der Benutzer dazu auffordert:**
+- Testen Sie eine Schemamigration, bevor Sie sie in der Produktion anwenden
+- Fügen Sie Spalten in einer Live-Tabelle sicher hinzu, entfernen Sie sie oder benennen Sie sie um
+- Ändern Sie den Datentyp einer Spalte ohne Ausfallzeit
+- Fügen Sie Indizes, Einschränkungen oder Fremdschlüssel für große Tabellen hinzu oder löschen Sie sie
+- Verstehen Sie, welche ALTER TABLE-Operationen die Tabelle sperren
+- Machen Sie eine fehlgeschlagene Migration rückgängig
+- Planen Sie eine Migrationsstrategie ohne Ausfallzeiten
+- Forken Sie eine Datenbank, um eine Migration sicher zu testen
+
+**Schlüsselwörter:** Migration, Schemaänderung, ALTER TABLE, Spalte hinzufügen, Spalte löschen, Spalte umbenennen, Typ ändern, keine Ausfallzeit, Sperre, AccessExclusiveLock, gleichzeitiger Index, Forking, Ghost, Rollback, Backfill, Bereitstellung
+
+Behandelt: Referenz auf Sperrebene für jeden gängigen DDL-Vorgang, sichere Migrationsmuster, forkbasiertes Testen, Spaltenänderungen ohne Ausfallzeit, Indexerstellung, Hinzufügung von Einschränkungen, Backfill-Strategien, Validierung vor/nach der Migration und Rollback-Planung.

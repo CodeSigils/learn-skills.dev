@@ -1,0 +1,15 @@
+Utilizza questa competenza per pianificare, testare ed eseguire in sicurezza le migrazioni di schemi PostgreSQL, in particolare quando si lavora con dati di produzione o database condivisi.
+
+**Si attiva quando l'utente chiede di:**
+- Testare una migrazione dello schema prima di applicarla alla produzione
+- Aggiungi, rimuovi o rinomina le colonne in modo sicuro su una tabella live
+- Modifica il tipo di dati di una colonna senza tempi di inattività
+- Aggiungi o elimina indici, vincoli o chiavi esterne su tabelle di grandi dimensioni
+- Comprendere quali operazioni ALTER TABLE bloccano la tabella
+- Eseguire il rollback di una migrazione non riuscita
+- Pianificare una strategia di migrazione senza tempi di inattività
+- Effettua il fork di un database per testare una migrazione in modo sicuro
+
+**Parole chiave:** migrazione, modifica dello schema, ALTER TABLE, aggiungi colonna, elimina colonna, rinomina colonna, modifica tipo, zero tempi di inattività, blocco, AccessExclusiveLock, indice simultaneo, fork, ghost, rollback, backfill, distribuzione
+
+Copre: riferimento a livello di blocco per ogni operazione DDL comune, modelli di migrazione sicuri, test basati su fork, modifiche alle colonne senza tempi di inattività, creazione di indici, aggiunta di vincoli, strategie di backfill, convalida pre/post migrazione e pianificazione del rollback.

@@ -1,0 +1,4 @@
+Nx monorepo용 각도 라이브러리 생성기입니다. 이 기술은 새로운 Angular 라이브러리를 만들 때 사용해야 합니다.
+@nx/angular:library 생성기를 사용합니다. 기능 라이브러리(landing/feature-*), 공유 라이브러리(landing/shared/*)를 처리합니다.
+및 전역 공유 라이브러리(shared/*). 프로젝트 규칙에 따라 태그, 디렉터리, 접두사, importPath를 자동으로 미리 채웁니다.
+트리거: "lib 생성", "새 라이브러리", "라이브러리 생성", "ng-lib", "/ng-lib"

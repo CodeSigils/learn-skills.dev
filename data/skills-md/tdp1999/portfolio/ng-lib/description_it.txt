@@ -1,0 +1,4 @@
+Generatore di librerie angolari per Nx monorepo. Questa abilità dovrebbe essere utilizzata quando si creano nuove librerie Angular
+con @nx/angular:generatore di librerie. Gestisce le librerie delle funzionalità (landing/feature-*), le librerie condivise (landing/shared/*),
+e librerie condivise globali (shared/*). Precompila automaticamente tag, directory, prefisso e importPath in base alle convenzioni del progetto.
+Trigger: "crea libreria", "nuova libreria", "genera libreria", "ng-lib", "/ng-lib"

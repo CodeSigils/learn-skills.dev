@@ -1,0 +1,15 @@
+Utilice esta habilidad para planificar, probar y ejecutar de forma segura migraciones de esquemas PostgreSQL, especialmente cuando trabaje con datos de producción o bases de datos compartidas.
+
+**Se activa cuando el usuario solicita:**
+- Probar una migración de esquema antes de aplicarla a producción.
+- Agregue, elimine o cambie el nombre de columnas de forma segura en una tabla en vivo
+- Cambiar el tipo de datos de una columna sin tiempo de inactividad
+- Agregar o eliminar índices, restricciones o claves externas en tablas grandes
+- Comprender qué operaciones ALTER TABLE bloquean la tabla
+- Revertir una migración fallida
+- Planificar una estrategia de migración sin tiempo de inactividad
+- Bifurcar una base de datos para probar una migración de forma segura
+
+**Palabras clave:** migración, cambio de esquema, ALTER TABLE, agregar columna, eliminar columna, cambiar el nombre de la columna, tipo de cambio, tiempo de inactividad cero, bloqueo, AccessExclusiveLock, índice concurrente, bifurcación, fantasma, reversión, reposición, implementación
+
+Cubre: referencia de nivel de bloqueo para cada operación DDL común, patrones de migración segura, pruebas basadas en bifurcaciones, cambios de columnas sin tiempo de inactividad, creación de índices, adición de restricciones, estrategias de reposición, validación previa y posterior a la migración y planificación de reversión.

@@ -1,0 +1,15 @@
+Utilisez cette compétence pour planifier, tester et exécuter en toute sécurité des migrations de schémas PostgreSQL, en particulier lorsque vous travaillez avec des données de production ou des bases de données partagées.
+
+** Déclenché lorsque l'utilisateur demande : **
+- Tester une migration de schéma avant de l'appliquer en production
+- Ajoutez, supprimez ou renommez des colonnes en toute sécurité sur une table dynamique
+- Changer le type de données d'une colonne sans temps d'arrêt
+- Ajouter ou supprimer des index, des contraintes ou des clés étrangères sur de grandes tables
+- Comprendre quelles opérations ALTER TABLE verrouillent la table
+- Annuler une migration ayant échoué
+- Planifier une stratégie de migration sans temps d'arrêt
+- Forker une base de données pour tester une migration en toute sécurité
+
+**Mots clés :** migration, modification de schéma, ALTER TABLE, ajout de colonne, suppression de colonne, renommage de colonne, type de modification, zéro temps d'arrêt, verrouillage, AccessExclusiveLock, index simultané, forking, fantôme, restauration, remplissage, déploiement
+
+Couvre : référence au niveau de verrouillage pour chaque opération DDL courante, modèles de migration sécurisés, tests basés sur le fork, modifications de colonnes sans temps d'arrêt, création d'index, ajout de contraintes, stratégies de remplissage, validation pré/post-migration et planification de restauration.
