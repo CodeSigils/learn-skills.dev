@@ -1,0 +1,1 @@
+Disable or re-enable Cloudflare R2 (download-r2.pytorch.org) usage in manage_v2.py during R2 outages. Can toggle R2 off/on for nightly builds, prod/stable builds, or both. The affected packages are PT_FOUNDATION_PACKAGES (torch, torchvision, torchaudio, fbgemm_gpu, fbgemm_gpu_genai, triton, pytorch_triton, pytorch_triton_rocm, pytorch_triton_xpu).
