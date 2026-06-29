@@ -1,0 +1,1 @@
+將 pytorch/pytorch 中的 nightly/release 二進位建置工作流程所使用的 Linux Manywheel 建構器 docker 映像固定（或重新固定）到固定的 .ci/docker 建置。將發布版本（例如 2.13）作為輸入。更新 .github/scripts/generate_binary_build_matrix.py 中的 DOCKER_IMAGE_PIN 並重新產生工作流程。由提及發布分支的“pin docker image”、“update docker pin”、“docker image pin”、“pin builder images”或“bump the Manywheel image pin”而觸發。

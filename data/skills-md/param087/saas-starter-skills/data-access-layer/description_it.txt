@@ -1,0 +1,1 @@
+Da utilizzare quando si esegue una query o si modifica il database dall'app: racchiudere Drizzle in funzioni solo server, con ambito tenant invece di chiamare l'ORM dai componenti, in modo che ogni lettura/scrittura sia tipizzata, testabile e sicura per l'isolamento.

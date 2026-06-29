@@ -1,0 +1,1 @@
+R2 중단 중에 관리_v2.py에서 Cloudflare R2(download-r2.pytorch.org) 사용을 비활성화하거나 다시 활성화합니다. 야간 빌드, 프로덕션/안정적 빌드 또는 둘 다에 대해 R2를 끄거나 켤 수 있습니다. 영향을 받는 패키지는 PT_FOUNDATION_PACKAGES(torch, torchvision, torchaudio, fbgemm_gpu, fbgemm_gpu_genai, triton, pytorch_triton, pytorch_triton_rocm, pytorch_triton_xpu)입니다.

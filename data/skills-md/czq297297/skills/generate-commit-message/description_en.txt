@@ -1,1 +1,3 @@
-分析 git 改动并生成中文 Conventional Commits 提交信息（含单行/正文/改动摘要/破坏性变更选项）。 在用户说「生成提交注释」「写 commit message」「帮我提交信息」、或要求根据 diff 起草提交说明时使用。 仅生成注释时不执行 git commit，除非用户明确要求提交。
+Analyze git changes and generate Chinese Conventional Commits commit messages (including title, body, change summary, and breaking-change options). Use this when the user says “generate commit comment,” “write commit message,” “help me with commit info,” or requests drafting a commit description based on a diff. Do not execute git commit when only generating the comment, unless the user explicitly requests a commit.
+
+Please always respond in user's language.

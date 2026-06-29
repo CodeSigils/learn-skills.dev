@@ -1,0 +1,1 @@
+pytorch/pytorch의 nightly/release 바이너리 빌드 워크플로에서 사용되는 Linux Manywheel Builder Docker 이미지를 고정된 .ci/docker 빌드에 고정(또는 다시 고정)합니다. 릴리스 버전(예: 2.13)을 입력으로 사용합니다. .github/scripts/generate_binary_build_matrix.py에서 DOCKER_IMAGE_PIN을 업데이트하고 워크플로를 다시 생성합니다. 릴리스 분기에 대한 "핀 도커 이미지", "도커 핀 업데이트", "도커 이미지 핀", "핀 빌더 이미지" 또는 "다륜 이미지 핀 범프"에 대한 언급에 의해 트리거됩니다.

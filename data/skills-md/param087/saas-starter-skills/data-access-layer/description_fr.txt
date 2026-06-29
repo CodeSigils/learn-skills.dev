@@ -1,0 +1,1 @@
+À utiliser lors de l'interrogation ou de la mutation de la base de données à partir de l'application : enveloppez Drizzle dans des fonctions réservées au serveur et à l'échelle du locataire au lieu d'appeler l'ORM à partir de composants, de sorte que chaque lecture/écriture soit typée, testable et sécurisée pour l'isolation.

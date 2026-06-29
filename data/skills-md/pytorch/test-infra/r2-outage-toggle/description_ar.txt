@@ -1,0 +1,1 @@
+قم بتعطيل أو إعادة تمكين استخدام Cloudflare R2 (download-r2.pytorch.org) في manager_v2.py أثناء انقطاع R2. يمكن تبديل إيقاف/تشغيل R2 للإنشاءات الليلية، أو الإنشاءات المنتجة/المستقرة، أو كليهما. الحزم المتأثرة هي PT_FOUNDATION_PACKAGES (torch، torchvision، torchaudio، fbgemm_gpu، fbgemm_gpu_genai، triton، pytorch_triton، pytorch_triton_rocm، pytorch_triton_xpu).

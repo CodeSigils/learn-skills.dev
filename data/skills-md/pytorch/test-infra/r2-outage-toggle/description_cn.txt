@@ -1,0 +1,1 @@
+在 R2 中断期间禁用或重新启用 manage_v2.py 中的 Cloudflare R2 (download-r2.pytorch.org) 使用。可以关闭/打开 R2 以进行夜间构建、生产/稳定构建或两者。受影响的软件包是 PT_FOUNDATION_PACKAGES（torch、torchvision、torchaudio、fbgemm_gpu、fbgemm_gpu_genai、triton、pytorch_triton、pytorch_triton_rocm、pytorch_triton_xpu）。

@@ -1,0 +1,1 @@
+pytorch/pytorch のナイトリー/リリース バイナリ ビルド ワークフローで使用される Linux manywheel Builder Docker イメージを、固定された .ci/docker ビルドに固定 (または再固定) します。リリース バージョン (例: 2.13) を入力として受け取ります。 .github/scripts/generate_binary_build_matrix.py の DOCKER_IMAGE_PIN を更新し、ワークフローを再生成します。リリース ブランチの「ドッカー イメージのピン」、「ドッカー ピンの更新」、「ドッカー イメージ ピン」、「ビルダー イメージのピン」、または「manywheel イメージ ピンのバンプ」の言及によってトリガーされます。

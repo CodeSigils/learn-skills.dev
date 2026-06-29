@@ -1,0 +1,1 @@
+Úselo al consultar o mutar la base de datos desde la aplicación: incluya Drizzle en funciones exclusivas del servidor y con alcance de inquilino en lugar de llamar al ORM desde los componentes, de modo que cada lectura/escritura sea escrita, comprobable y segura para el aislamiento.

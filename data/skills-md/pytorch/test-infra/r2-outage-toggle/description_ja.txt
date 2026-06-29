@@ -1,0 +1,1 @@
+R2 の停止中に、manage_v2.py での Cloudflare R2 (download-r2.pytorch.org) の使用を無効にするか、再度有効にします。夜間ビルド、本番/安定版ビルド、またはその両方で R2 のオフ/オンを切り替えることができます。影響を受けるパッケージは PT_FOUNDATION_PACKAGES (torch、torchvision、torchaudio、fbgemm_gpu、fbgemm_gpu_genai、triton、pytorch_triton、pytorch_triton_rocm、pytorch_triton_xpu) です。

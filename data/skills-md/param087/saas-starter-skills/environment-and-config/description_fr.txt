@@ -1,0 +1,1 @@
+À utiliser lors du câblage des variables d'environnement, des secrets ou de la configuration d'exécution : validez-les avec zod au démarrage, séparez le serveur uniquement des valeurs publiques (NEXT_PUBLIC_) et échouez rapidement avec une erreur claire au lieu d'un cryptique non défini au moment de l'exécution.
