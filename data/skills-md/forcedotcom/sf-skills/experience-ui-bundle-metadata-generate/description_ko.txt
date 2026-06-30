@@ -1,0 +1,1 @@
+프로젝트에 uiBundles/*/src/ 디렉터리가 포함되고 새 UI 번들 또는 앱을 스캐폴딩하는 경우 또는 ui-bundle.json, .uibundle-meta.xml 또는 CSP 신뢰할 수 있는 사이트 파일을 편집할 때 활성화해야 합니다. SF 템플릿을 사용하여 스캐폴딩하여 ui-bundle을 생성하거나, ui-bundle.json(라우팅, 헤더, 출력Dir)을 구성하거나 CSP 신뢰할 수 있는 사이트를 등록할 때 이 기술을 사용하세요. 작업에 *.uibundle-meta.xml, ui-bundle.json 또는 cspTrustedSites/*.cspTrustedSite-meta.xml과 일치하는 파일이 포함된 경우 활성화합니다.

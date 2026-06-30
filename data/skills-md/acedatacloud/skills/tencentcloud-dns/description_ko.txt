@@ -1,0 +1,5 @@
+DNSPod(Tencent Cloud의 DNS 서비스)에서 DNS 레코드를 관리합니다. 다음과 같은 경우에 사용하세요.
+사용자가 A / AAAA / CNAME / MX / TXT / 추가 / 업데이트 / 삭제를 요청합니다.
+NS/SRV/CAA 레코드, 도메인에 대한 목록 레코드, 검색 레코드,
+ACME 챌린지/SPF/DKIM/도메인 확인 TXT 레코드를 추가합니다.
+공식 tencentcloud-sdk-python DNSPod 클라이언트가 지원합니다.

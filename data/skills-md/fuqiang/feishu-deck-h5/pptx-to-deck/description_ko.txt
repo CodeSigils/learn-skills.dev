@@ -1,0 +1,21 @@
+기존 PowerPoint(.pptx)를 편집 가능한 feishu-deck-h5 데크로 변환 —
+16:9 현재 모드 HTML 데크로 렌더링되는 구조화된 '캔버스' Deck.json입니다.
+feishu-deck-h5를 RENDER BACKEND로 사용하는 STANDALONE 스킬(쉘
+데크-json/render-deck.py; 최종 덱에는 해당 스킬의 프레임워크 CSS/JS가 필요합니다.
+feishu-deck-h5의 파서는 .pptx 가져오기도 이 기술에 위임합니다.
+
+트리거: "把 PPT/PPTX 转成 Deck/HTML/H5", "import pptx", ".pptx 转 Deck",
+"把这份 PowerPoint 还原成网页/可编辑 데크" 또는 사용자가 .pptx를 넘겨주는 경우
+편집 가능한 데크로 만들고 싶습니다. `.key` Keynote에는 사용하지 마세요(사용
+keynote-to-html), 처음부터 다시 디자인(feishu-deck-h5 직접 사용) 또는
+실제 .pptx를 생성합니다.
+
+하나의 파이프라인: build_pptx.py = 순수 코드 재구성(python-pptx) → a
+`레이아웃:"캔버스"` 완전히 편집 가능한 유형 요소의 Deck.json, 렌더링됨
+render-deck.py. 추가 깊이가 없습니다(LibreOffice/PyMuPDF 없음). 장식 요소
+(그라데이션/글로우/자유 형식/잘린 이미지)는 최선의 노력을 다한 근사치입니다.
+완전한 편집 가능성을 위해 거래하십시오. (LibreOffice/래스터 "하이브리드" 파이프라인은 한 번만
+존재했다; 폐기되었습니다. Skills/_deprecated/를 참조하세요.)
+
+Deps, 손실/근사 목록 및 자리 표시자는 SKILL.md 본문을 참조하세요.
+은퇴 플래그(--raster/--full-raster는 작동하지 않음) 동작.
