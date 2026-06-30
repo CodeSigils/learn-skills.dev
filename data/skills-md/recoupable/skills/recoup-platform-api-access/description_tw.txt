@@ -1,0 +1,1 @@
+直接呼叫 Recoup API 和外部連接器 — 取得任何平台資源（藝術家、社交、組織、研究、文件）並執行連接器操作（Google 文件/表格/雲端硬碟編輯、Gmail、TikTok、Instagram）。當您需要原始 Recoup 資料（一種平台資源）時，可以使用它來針對 api.recoupable.dev 編寫curl，或在 Recoup 之外讀取/寫入某些內容，例如 Google 文件 URL 或電子表格。管道是所有其他技能的基礎。要加入藝術家或對藝術家進行操作，請使用 recoup-roster-* 技能；對於首次運行連接，請使用 recoup-platform-connect-account。

@@ -1,0 +1,1 @@
+將 prek（Rust 支援的預先提交）加入任何專案中，並建議針對語言/框架量身定制的鉤子。當使用者說「新增 prek」、「設定預提交掛鉤」、「配置 prek」、「我應該使用什麼掛鉤」時，或當您發現一個沒有 prek.toml 的專案可以從預提交檢查中受益時使用。當使用者想要為現有 prek.toml 新增鉤子、審核其鉤子配置或從預提交遷移到 prek 時也會觸發。涵蓋 Rust、Python、TypeScript/JavaScript、Go、Ruby 和 Shell 專案。請勿用於 husky、lint-staged 或 CI 管道掛鉤配置 - 此技能專門用於 prek。

@@ -1,0 +1,1 @@
+透過「orca Linear ...」指令使用 Orca 的線性 CLI，透過「orca Linear issues --current --full --json」讀取連結工單上下文，完成後更新，透過 Linear 工作流程狀態推進工作，用「orca Linear Attach --current --url <pr-or-mr-url> --title "PR/MR link」 --json鏈接，並對受讓人、優先級、估計、截止日期、標籤和線性鏈接 Orca 任務的父級後續創建進行分類線性任務，而無需將票據文本視為說明。

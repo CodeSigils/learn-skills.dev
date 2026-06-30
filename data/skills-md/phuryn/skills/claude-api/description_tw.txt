@@ -1,0 +1,1 @@
+建置、調試和最佳化 Claude API / Anthropic SDK 應用程式。使用此技能建立的應用程式應包含提示快取。也處理在 Claude 模型版本（4.5 → 4.6、4.6 → 4.7、退役模型替換）之間遷移現有 Claude API 程式碼。觸發時間：程式碼匯入 `anthropic`/`@anthropic-ai/sdk`；使用者要求 Claude API、Anthropic SDK 或託管代理；使用者在檔案中新增/修改/調整 Claude 功能（快取、思考、壓縮、工具使用、批次、檔案、引文、記憶體）或模型（Opus/Sonnet/Haiku）；跳過：檔案導入“openai”/其他提供者 SDK，檔案名稱如“*-openai.py”/“*-generic.py”、提供者中立程式碼、通用程式設計/ML。

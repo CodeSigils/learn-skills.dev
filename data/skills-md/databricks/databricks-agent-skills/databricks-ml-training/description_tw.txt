@@ -1,0 +1,1 @@
+通过 MLflow 跟踪和 Unity Catalog 注册在 Databricks 上训练 ML 或自定义代理模型。當被要求時使用：透過 Optuna 調整訓練分類/回歸或深度學習模型（XGBoost、scikit-learn、LightGBM、PyTorch 等）、註冊到 UC 並推廣 `@prod`/`@challenger` 別名、透過 `spark_udf` 進行批次評分、建立自訂工具自訂工具 `ResponsesAgent`，或提交训练笔记本作为无服务器一次性工作。不適用於：端點操作 (databricks-model-serving)、知識助理/主管代理 (databricks-agent-bricks)、MLflow 評估 (databricks-mlflow-evaluation)。

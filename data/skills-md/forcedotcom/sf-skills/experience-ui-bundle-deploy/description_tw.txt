@@ -1,0 +1,1 @@
+當專案包含 uiBundles/*/src/ 目錄或 sfdx-project.json 且任務涉及部署、推送到組織或部署後設定時，必須啟動。將 UI 捆綁應用程式部署到 Salesforce 組織時使用此技能。涵蓋完整的部署順序：組織身份驗證、預先部署建置、元資料部署、權限集分配、資料匯入、GraphQL 架構取得和程式碼產生。當存在 *.uibundle-meta.xml 或 sfdx-project.json 等文件並且用戶提到部署、推送、組織設定或部署後任務時啟動。

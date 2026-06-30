@@ -1,0 +1,5 @@
+在DNSPod（騰訊雲端的DNS服務）上管理DNS記錄。使用時
+使用者要求新增/更新/刪除A/AAAA/CNAME/MX/TXT/
+NS / SRV / CAA 記錄、網域的清單記錄、搜尋記錄、
+新增 ACME 質詢/SPF/DKIM/網域驗證 TXT 記錄。
+由官方的 tencentcloud-sdk-python DNSPod 用戶端支援。

@@ -1,0 +1,1 @@
+使用 Vlocity Build 的 Salesforce Industries DataPack 部署自動化。在下列情況下觸發：使用者使用 vlocity 指令 (packDeploy/packRetry/packExport/packGetDiffs) 部署或驗證 OmniStudio/Vlocity DataPack、設定 DataPack CI/CD 管道或排除 DataPack 遷移錯誤。請勿在下列情況下觸發：使用 sf 專案部署部署 Salesforce 元資料（使用 platform-metadata-deploy）、建立 OmniStudio 工件（使用omnistudio-*-build）或撰寫 Apex/LWC 業務邏輯（使用 platform-apex-generate/experience-lwc-generate）。

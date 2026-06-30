@@ -1,0 +1,1 @@
+使用 sf CLI v2 的 Salesforce DevOps 自動化。觸發時間：使用者部署元資料、建立/管理臨時組織或沙箱、設定 CI/CD 管道或使用 sf 專案部署排除部署錯誤。請勿在以下情況觸發：編寫 Apex 程式碼（使用 platform-apex-generate）、建置 LWC 元件（使用 experience-lwc-generate）、建立元資料定義（使用 platform-custom-object-generate 或 platform-custom-field-generate）或查詢組織資料（使用 platform-data-manage 或 platform-data-manage）。

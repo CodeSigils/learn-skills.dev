@@ -1,0 +1,21 @@
+將現有 PowerPoint (.pptx) 轉換為可編輯的 feishu-deck-h5 幻燈片 —
+結構化的「canvas」deck.json，呈現為 16:9 呈現模式 HTML 卡片組。
+使用 feishu-deck-h5 作為其渲染後端的獨立技能（砲彈進入其
+甲板-json /渲染-甲板.py；最終牌組需要該技能的框架CSS/JS）。
+feishu-deck-h5 的解析器也將 .pptx 導入委託給此技能。
+
+觸發器: "把 PPT/PPTX 轉成甲板/HTML/H5", "導入 pptx", ".pptx 轉甲板",
+“將一份 PowerPoint 還原成網頁/可編輯甲板”，或當使用者交出 .pptx 時
+並希望將其作為可編輯的套牌。請勿用於 `.key` Keynote（使用
+keynote-to-html），從頭開始重新設計（直接使用 feishu-deck-h5），或者
+產生真正的 .pptx。
+
+一個管道：build_pptx.py = 純程式碼重構 (python-pptx) → a
+完全可編輯的類型化元素的`layout:"canvas"` Deck.json，由
+渲染甲板.py。沒有額外的依賴（沒有 LibreOffice / PyMuPDF）。裝飾元素
+（漸層/發光/自由形式/裁切影像）是盡力而為的近似值 -
+交易以獲得完全可編輯性。 （LibreOffice/光柵「混合」管道一次
+存在過；它已退役 - 請參閱 Skills/_deprecated/。 ）
+
+請參閱 SKILL.md 正文以了解 deps、有損/近似清單和占位符 +
+退休標誌（--raster/--full-raster 是無操作）行為。

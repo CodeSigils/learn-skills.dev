@@ -1,0 +1,1 @@
+Apex 测试执行、覆盖率分析和测试修复循环，评分为 120 分。当用户需要运行 Apex 测试、检查代码覆盖率、修复失败的测试或使用 *Test.cls / *_Test.cls 文件时使用。在以下情况下触发：用户运行 Apex 测试、检查代码覆盖率、修复失败的测试或触摸 *Test.cls / *_Test.cls 文件。請勿在以下情況觸發：編寫 Apex 生產程式碼（使用 platform-apex-generate）、Agentforce 代理程式測試（使用 agentforce-test）或 Jest/LWC 測試（使用 experience-lwc-generate）。

@@ -1,0 +1,1 @@
+在 Netlify 上建置、部署和保護模型上下文協定 (MCP) 伺服器。當任務涉及建立 MCP 伺服器、將應用程式或 API 作為 MCP 工具向 AI 代理程式公開、讓 Claude / Cursor / Claude Code 呼叫自訂遠端伺服器或將 MCP 工具新增至現有 Netlify 網站時，請使用。涵蓋 Netlify 功能上的 MCP SDK + Streamable HTTP 傳輸、驗證（單一共用金鑰與具有 Netlify Identity 的每用戶 API 金鑰）、讀取/寫入安全性、檔案上傳和連接用戶端。即使用戶只是說「MCP」、「代理程式的工具伺服器」或「讓 AI 使用我的 API」也可以使用。

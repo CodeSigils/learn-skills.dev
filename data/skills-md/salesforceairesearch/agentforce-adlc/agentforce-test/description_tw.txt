@@ -1,0 +1,1 @@
+為 Agentforce 代理程式編寫、運行和分析結構化測試套件。觸發時間：使用者編寫或修改測試規範 YAML (AiEvaluationDefinition)；執行 sf agent test create、run、run-eval 或 results 指令；詢問測試覆蓋率策略、指標選擇或自訂評估；解釋測試結果或診斷測試失敗；詢問有關批次測試、回歸套件或 CI/CD 測試整合的問題。不要在以下情況下觸發： 使用者建立、修改、預覽或偵錯 .agent 檔案（使用 agentforce-generate）；部署或發布代理程式；編寫代理腳本程式碼；使用sf代理預覽進行開發迭代；分析生產會話追蹤（使用agentforce-observe）；請求 OWASP、安全或紅隊測試（使用 agentforce-secure）。

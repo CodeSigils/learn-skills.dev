@@ -1,0 +1,1 @@
+檢查代理程式碼庫並編寫一個 Markdown 計劃，連接 Langfuse 追蹤/可觀察性（會話/追蹤邊界、子代理切換、工具包裝、命名/標記詞彙）以及 Ratel-value/agent-health 儀表板建立規範。用於檢測 Langfuse、連接追蹤、設定儀表板、決定 Langfuse 的去向或在板上放置什麼、加入剛剛簽署的合作夥伴或「/ratel-langfuse-integrate」。寫入<repo>/.ratel/；從不編輯程式碼或呼叫 Langfuse API。 /ratel-observability-assessment 的 Langfuse 分支；如果供應商是 LangSmith，則重定向；一旦追蹤流量，就會路由到 /ratel-langfuse-analyze。

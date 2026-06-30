@@ -1,0 +1,1 @@
+順序啟動器，用於在沒有 QA 的專案上引導 QA。在一次引導運行中將 qa-項目-上下文 → 測試策略 → 測試計劃串聯起來，然後為您指明自動化。在以下情況下使用：「在新專案上設定 QA」、「從頭開始進行 QA」、「尚不存在 QA」、「/qa-start」。不適合：透過現有測試將 QA 工程師加入現有團隊 - 使用 qa-project-bootstrap。不適用於：沒有明確匹配的「我該使用哪種技能」—使用 qa-do。相關：qa-project-context、測試策略、測試計劃、qa-project-bootstrap、qa-do。

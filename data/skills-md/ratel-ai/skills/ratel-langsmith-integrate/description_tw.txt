@@ -1,0 +1,1 @@
+檢查代理程式碼庫並編寫 Markdown 計劃，連接 LangSmith 追蹤/可觀察性（運行樹邊界、子代理切換、工具包裝、運行命名/元資料詞彙）以及 Ratel-value/agent-health 儀表板建置規範。用於檢測 LangSmith、新增 @traceable/wrap_openai 覆蓋範圍、將運行分組到線程、設計儀表板或監控圖表、決定 LangSmith 的去向、加入剛剛簽署的合作夥伴或「/ratel-langsmith-integrate」。寫入<repo>/.ratel/；從不編輯程式碼或呼叫 LangSmith API。 /ratel-observability-assessment 的 LangSmith 分支；如果供應商是 Langfuse，則重定向；一旦追蹤流量，就會路由到 /ratel-langsmith-analyze。
