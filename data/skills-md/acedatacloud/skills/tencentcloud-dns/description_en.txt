@@ -1,0 +1,5 @@
+Manage DNS records on DNSPod (Tencent Cloud's DNS service). Use when
+the user asks to add / update / delete A / AAAA / CNAME / MX / TXT /
+NS / SRV / CAA records, list records for a domain, search records,
+add ACME challenge / SPF / DKIM / domain-verification TXT records.
+Backed by the official tencentcloud-sdk-python DNSPod client.

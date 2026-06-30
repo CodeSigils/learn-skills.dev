@@ -1,0 +1,6 @@
+Manage Tencent Cloud TKE (Tencent Kubernetes Engine) clusters and
+workloads. Use when the user asks to: list clusters, check cluster /
+node health, list pods or services, scale a Deployment, do a rolling
+restart, fetch kubeconfig, view recent K8s events, manage node pools.
+Combines the official tencentcloud-sdk-python TKE client (cluster
+metadata) with kubectl for in-cluster operations.

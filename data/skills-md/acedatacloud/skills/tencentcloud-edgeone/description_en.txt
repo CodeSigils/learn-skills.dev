@@ -1,0 +1,6 @@
+Manage Tencent Cloud EdgeOne (CDN + edge security). Use when the user
+asks to: list zones, purge CDN cache (URL / prefix / hostname / all),
+prefetch URLs to warm edges, check purge / prefetch task status,
+manage acceleration domains, list / create / delete EdgeOne DNS
+records, inspect WAF / security configuration. Backed by the official
+tencentcloud-sdk-python TEO client.

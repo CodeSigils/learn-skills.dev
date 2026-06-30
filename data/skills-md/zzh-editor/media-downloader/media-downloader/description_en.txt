@@ -1,0 +1,1 @@
+基于 yt-dlp 和 gallery-dl 的素材下载技能，覆盖 YouTube、Bilibili、Vimeo、ArtStation 等数百个站点。 当用户给出视频/图片链接请求下载时，必须使用此技能——包括但不限于："下载这个视频"、"把这个下了"、 "帮我下这个"、"下载链接"、"保存这个视频"、"下载 B 站"、"下这个 youtube"、"ArtStation 下载"、 "把这个项目下了"、"下个视频"、"帮我下个东西"等。技能自动处理清晰度选择（超过1080p询问用户）、 时间节点切片下载、ArtStation 项目按用户名/项目名组织。 gallery-dl 专门用于图片画廊类网站下载（ArtStation、Pixiv、DeviantArt 等）。 任何时候用户提供 URL 并涉及下载行为，优先考虑此技能。

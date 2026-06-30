@@ -1,0 +1,1 @@
+Two-phase upgrade sync for an already-initialized project — phase 1 safely syncs the latest scaffold (idempotent, never overwrites user content); phase 2 reads real code and does a drift-aware incremental refresh (baselines auto-refresh, user docs per-item confirm). Use for update / 升级同步 after the plugin updates, or when baselines/architecture docs look stale.

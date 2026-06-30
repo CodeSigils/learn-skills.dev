@@ -1,0 +1,21 @@
+Convert an existing PowerPoint (.pptx) into an EDITABLE feishu-deck-h5 deck —
+a structured `canvas` deck.json that renders to a 16:9 present-mode HTML deck.
+STANDALONE skill that uses feishu-deck-h5 as its RENDER BACKEND (shells into its
+deck-json/render-deck.py; the final deck needs that skill's framework CSS/JS).
+feishu-deck-h5's parser also delegates .pptx import to this skill.
+
+Triggers: "把 PPT/PPTX 转成 deck/HTML/H5", "import pptx", ".pptx 转 deck",
+"把这份 PowerPoint 还原成网页/可编辑 deck", or when the user hands over a .pptx
+and wants it as an editable deck. Do NOT use for `.key` Keynote (use
+keynote-to-html), a from-scratch redesign (use feishu-deck-h5 directly), or
+producing a real .pptx.
+
+ONE pipeline: build_pptx.py = PURE CODE RECONSTRUCTION (python-pptx) → a
+`layout:"canvas"` deck.json of fully editable typed elements, rendered by
+render-deck.py. No extra deps (no LibreOffice / PyMuPDF). Decorative elements
+(gradients/glow/freeform/cropped images) are best-effort APPROXIMATE — the
+trade for full editability. (A LibreOffice/raster "hybrid" pipeline once
+existed; it was retired — see skills/_deprecated/.)
+
+See the SKILL.md body for deps, the lossy/approximation list, and placeholder +
+retired-flag (--raster/--full-raster are no-ops) behavior.

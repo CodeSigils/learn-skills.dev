@@ -1,0 +1,7 @@
+总控 skill for Feishu / Lark-style HTML decks. Use for 飞书风格 PPT, Lark deck,
+汇报材料, 客户提案, h5 deck, 16:9 网页演示, HTML deck generation/editing/validation,
+source parsing, Magic Page/Miaobi/html-box publishing, and feishu-slide-library
+importing. Routes work to subskills; generation is DeckJSON/render-deck first,
+normally raw-first, with validation before handoff/import; publishing uses the
+publisher's lightweight artifact-integrity gate. For real `.pptx`, use a
+PowerPoint/keynote workflow instead.
