@@ -1,0 +1,6 @@
+Verwalten Sie Tencent Cloud TKE-Cluster (Tencent Kubernetes Engine) und
+Arbeitsbelastungen. Verwenden Sie diese Option, wenn der Benutzer Folgendes verlangt: Cluster auflisten, Cluster überprüfen /
+Knotengesundheit, Pods oder Dienste auflisten, eine Bereitstellung skalieren, ein Rolling durchführen
+neu starten, kubeconfig abrufen, aktuelle K8s-Ereignisse anzeigen, Knotenpools verwalten.
+Kombiniert den offiziellen tencentcloud-sdk-python TKE-Client (Cluster
+Metadaten) mit kubectl für In-Cluster-Vorgänge.

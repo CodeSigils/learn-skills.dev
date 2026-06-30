@@ -1,0 +1,16 @@
+Konvertieren Sie eine Apple Keynote-Präsentation (`.key`) in „deck.json“ + ein HTML-Deck: Iterieren Sie Seite für Seite, erstellen Sie jede Seite als absolut positioniertes HTML neu – Bilder bleiben „<img>“, Text wird zu bearbeitbarem HTML-Text, Video ist „<video>“. Zusammen mit dem Skill „feishu-deck-h5“ verwenden: Dieser Skill erzeugt „deck.json“ und „feishu-deck-h5/deck-json/render-deck.py“ verpackt ihn in den endgültigen HTML-Code mit einem Chrome-Präsentationsmodus (← → Umblättern / F-Vollbild / Fortschrittsbalken / mobiler Scrollmodus).
+
+Auslöserphrasen: „Keynote in HTML konvertieren“, „Keynote importieren“, „.key in Deck“, „.pptx in HTML“ (öffnen Sie einfach das PPTX in Keynote und speichern Sie es als .key), oder der Benutzer gibt einen „.key“-Dateipfad/ein bereits in Keynote geöffnetes Dokument an.
+
+Verarbeitungsablauf für jede Seite:
+1. AppleScript iteriert alle iWork-Elemente auf der Seite und gibt (Typ, Position, Größe, Dateiname, Text, Schriftart/Schriftgröße/Farbe) aus.
+2. Bilddateiverweise werden entsprechend dem Data/-Verzeichnis des „.key“-Bundles aufgelöst: Erster Versuch mit exakter Präfixübereinstimmung; Bei mehrdeutigen Fällen wie „pasted-image.pdf“ greifen Sie auf die Größen-/Seitenverhältnisanpassung zurück.
+3. Jedes Nicht-Text-Element wird zu einem „<img>“ / „<video>“, das am Original platziert wird (x, y, w, h); Jedes Textelement wird zu einem echten HTML-Element mit der ursprünglichen Schriftart und Schriftgröße.
+4. Die Seite wird mit „layout: „raw““ in „deck.json“ geschrieben.
+5. „feishu-deck-h5/deck-json/render-deck.py“ verpackt es im Präsentationsmodus von Chrome in HTML.
+
+Akzeptable Verzerrungen (lassen Sie nicht zu, dass sie den Prozess stoppen):
+- Benutzerdefinierte Keynote-Schriftarten (z. B. HarmonyOS, Alibaba PuHui, Founder LanTing) greifen auf einen websicheren chinesischen Schriftartenstapel (PingFang SC, Microsoft YaHei) zurück.
+- Eine oder zwei mehrdeutige eingefügte Bilddateien sind möglicherweise der falschen Quelle zugeordnet – protokollieren Sie sie und fahren Sie fort.
+- Hintergrundverläufe der Masterfolie werden noch nicht analysiert (Best-Effort).
+- Animationen/Eingangseffekte werden verworfen (beabsichtigt – HTML benötigt sie nicht).
