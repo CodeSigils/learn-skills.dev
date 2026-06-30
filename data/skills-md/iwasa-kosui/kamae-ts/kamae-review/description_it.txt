@@ -1,0 +1,7 @@
+Revisione del codice contraddittorio di TypeScript lato server per l'aderenza ai principi kamae
+(unioni discriminate, tipi con marchio, gestione degli errori di risultato, convalida dei limiti, protezione PII).
+
+TRIGGER quando: revisione di una richiesta pull, audit o controllo di qualità del codice lato server TypeScript
+che coinvolgono modelli di dominio, repository, casi d'uso, logica aziendale o codice limite.
+SALTA: revisione del codice frontend, revisione dell'infrastruttura come codice, revisione solo test, revisione del codice
+estraneo alla logica del dominio.

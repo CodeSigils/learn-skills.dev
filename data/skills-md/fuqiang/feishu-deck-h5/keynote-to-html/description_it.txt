@@ -1,0 +1,16 @@
+Converti una presentazione Apple Keynote (`.key`) in `deck.json` + un deck HTML: scorri ogni diapositiva, ricostruisci ogni diapositiva come HTML posizionato in modo assoluto: le immagini rimangono `<img>`, il testo diventa testo HTML modificabile e il video è `<video>`. Da utilizzare insieme all'abilità `feishu-deck-h5`: questa abilità genera `deck.json` e `feishu-deck-h5/deck-json/render-deck.py` lo avvolge nell'HTML finale con una cromatura in modalità presentazione (← → per girare la pagina / F per schermo intero / barra di avanzamento / modalità di scorrimento mobile).
+
+Frasi trigger: "converti Keynote in HTML", "importa keynote", ".key to deck", ".pptx in HTML" (prima apri il PPTX in Keynote e salvalo come `.key`), oppure l'utente fornisce un percorso del file `.key` / un documento Keynote già aperto.
+
+Flusso di elaborazione per ciascuna diapositiva:
+1. AppleScript attraversa tutti gli elementi iWork sulla diapositiva, producendo (tipo, posizione, dimensione, nome file, testo, carattere/dimensione carattere/colore).
+2. I riferimenti ai file immagine vengono risolti dalla directory "Data/" del bundle `.key`: tentare prima una corrispondenza esatta del prefisso; per casi ambigui come "immagine-incollata.pdf", ricorrere alla corrispondenza per dimensioni/proporzioni.
+3. Ogni elemento non testuale diventa un `<img>` / `<video>` posizionato nella sua posizione originale (x, y, w, h); ogni elemento di testo diventa un vero e proprio elemento HTML con il font e la dimensione originale.
+4. La diapositiva viene scritta in `deck.json` con `layout: "raw"`.
+5. `feishu-deck-h5/deck-json/render-deck.py` lo impacchetta in HTML con un chrome in modalità presentazione.
+
+Distorsioni accettabili (non lasciare che interrompano il processo):
+· I caratteri Keynote personalizzati (HarmonyOS, Alibaba PuHui, Founder Lanting) ricadono in uno stack di caratteri cinesi sicuri per il Web (PingFang SC, Microsoft YaHei).
+· Uno o due file immagine incollati ambigui potrebbero essere abbinati alla fonte sbagliata: registralo e continua.
+· I gradienti di sfondo della diapositiva master non vengono analizzati (solo massimo sforzo).
+· Le animazioni/gli effetti di ingresso vengono scartati (intenzionalmente – l'HTML non ne ha bisogno).
