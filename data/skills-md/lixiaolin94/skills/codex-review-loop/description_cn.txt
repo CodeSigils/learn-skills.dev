@@ -1,0 +1,1 @@
+通过 ChatGPT Codex 的在线 PR 审查推动 GitHub 拉取请求以实现干净合并：触发审查、轮询裁决（结果与干净）、通过本地验证修复每个发现，并且仅在同一提交上连续两次干净审查后合并。在根据 Codex 审核意见迭代 PR 时使用，或者在被要求“运行 Codex 审核循环”、“处理 Codex 审核结果”或“清理此 PR 并将其合并”时使用。前提条件：该存储库已启用 ChatGPT Codex 的 GitHub 集成（机器人：chatgpt-codex-connector[bot]）；还需要“gh”（已验证）和“jq”。

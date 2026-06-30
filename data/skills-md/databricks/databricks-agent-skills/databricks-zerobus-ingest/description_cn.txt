@@ -1,0 +1,1 @@
+构建 Zerobus Ingest 客户端，通过 gRPC 将近乎实时的数据引入到 Databricks Delta 表中。在创建不使用消息总线直接写入 Unity Catalog 表的生产者、使用 Python/Java/Go/TypeScript/Rust 中的 Zerobus Ingest SDK、从 UC 表生成 Protobuf 模式或通过 ACK 处理和重试逻辑实现基于流的摄取时使用。

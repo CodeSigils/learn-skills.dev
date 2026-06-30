@@ -1,0 +1,1 @@
+gRPC 経由で Databricks Delta テーブルにほぼリアルタイムでデータを取り込むための Zerobus Ingest クライアントを構築します。メッセージ バスを使用せずに Unity Catalog テーブルに直接書き込むプロデューサーを作成する場合、Python/Java/Go/TypeScript/Rust で Zerobus Ingest SDK を操作する場合、UC テーブルから Protobuf スキーマを生成する場合、または ACK 処理および再試行ロジックを備えたストリームベースの取り込みを実装する場合に使用します。

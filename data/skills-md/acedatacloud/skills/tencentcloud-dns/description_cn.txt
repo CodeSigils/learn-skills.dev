@@ -1,0 +1,5 @@
+在DNSPod（腾讯云的DNS服务）上管理DNS记录。使用时
+用户要求添加/更新/删除A/AAAA/CNAME/MX/TXT/
+NS / SRV / CAA 记录、域的列表记录、搜索记录、
+添加 ACME 质询/SPF/DKIM/域验证 TXT 记录。
+由官方的 tencentcloud-sdk-python DNSPod 客户端支持。

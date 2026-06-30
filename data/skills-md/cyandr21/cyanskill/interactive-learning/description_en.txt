@@ -1,5 +1,5 @@
-基于 Benjamin Bloom 2 Sigma 问题理论的一对一交互式学习系统。自适应教学——根据学生回答判断掌握程度、自动推进或补充，绝不跳过未掌握的内容。支持学生画像、课后讨论、结课评估。
+One-on-one interactive learning system based on Benjamin Bloom’s 2 Sigma problem theory. Adaptive teaching—determine mastery level from the student’s answers, automatically advance or supplement, never skipping material that hasn’t been mastered. Supports student profiles, post‑lesson discussions, and course‑completion assessment.
 
-触发词：「打开交互式学习系统」「打开交互式学习」「交互式学习」「我想学 X」「继续学 X」「继续学」「学完 X 了」。
-不要 undertrigger——用户说想学东西、继续上课、打开学习系统，就必须调用此 skill。
-当用户说"继续"但上下文不明确时，先检查当前工作目录是否存在 `.learning-config.json`，如果存在就触发此 skill。
+Trigger phrases: “Open interactive learning system”, “Open interactive learning”, “Interactive learning”, “I want to learn X”, “Continue learning X”, “Continue learning”, “Finished learning X”.
+Do not undertrigger—if the user says they want to learn something, continue the class, or open the learning system, this skill must be invoked.
+When the user says “continue” but the context is unclear, first check whether a `.learning-config.json` file exists in the current working directory; if it does, trigger this skill.

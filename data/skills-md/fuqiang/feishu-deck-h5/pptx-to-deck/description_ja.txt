@@ -1,0 +1,21 @@
+既存の PowerPoint (.pptx) を編集可能な feishu-deck-h5 デッキに変換します —
+16:9 の現在モードの HTML デッキにレンダリングする構造化された「canvas」deck.json。
+feishu-deck-h5 を RENDER BACKEND として使用する STANDALONE スキル (シェルをその
+デッキ-json/レンダー-デッキ.py;最終的なデッキにはそのスキルのフレームワーク CSS/JS が必要です)。
+feishu-deck-h5 のパーサーは、.pptx インポートもこのスキルに委任します。
+
+トリガー: "PPT/PPTX 转成デッキ/HTML/H5"、"import pptx"、".pptx 转成デッキ"、
+「把这份 PowerPoint 还原成网页/可编辑デッキ」、またはユーザーが .pptx を渡したとき
+編集可能なデッキとして使用したいと考えています。 `.key` 基調講演には使用しないでください (使用してください)
+keynote-to-html)、最初から再設計 (feishu-deck-h5 を直接使用)、または
+本物の .pptx を生成します。
+
+1 つのパイプライン: build_pptx.py = 純粋なコード再構築 (python-pptx) → a
+`layout:"canvas"` によってレンダリングされた、完全に編集可能な型付き要素のデッキ.json
+レンダリングデッキ.py。追加の deps はありません (LibreOffice / PyMuPDF はありません)。装飾要素
+(グラデーション/グロー/フリーフォーム/トリミング画像) はベストエフォート型です。
+完全な編集可能性と引き換えに。 (LibreOffice/ラスターの「ハイブリッド」パイプラインが 1 回
+存在した。廃止されました。skills/_deprecated/ を参照してください。)
+
+deps、非可逆/近似リスト、およびプレースホルダー + については、SKILL.md 本体を参照してください。
+引退フラグ (--raster/--full-raster は操作なし) の動作。

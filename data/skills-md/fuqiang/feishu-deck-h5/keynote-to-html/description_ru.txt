@@ -1,0 +1,16 @@
+Convert Apple Keynote (`.key`) presentations into `deck.json` + HTML deck: iterate page by page, reconstruct each page as absolutely positioned HTML—images remain `<img>`, text is editable HTML text, videos are `<video>`. Used together with the `feishu-deck-h5` skill: this skill produces `deck.json`, and `feishu-deck-h5/deck-json/render-deck.py` wraps it into the final HTML with a presentation-mode chrome (← → page turn / F fullscreen / progress bar / mobile scrolling mode).
+
+Trigger phrases: “convert Keynote to HTML”, “import keynote”, “.key to deck”, “.pptx to HTML” (just open the PPTX in Keynote and save as .key), or the user provides a `.key` file path / an already opened document in Keynote.
+
+Порядок обработки каждой страницы:
+  1. AppleScript перебирает все элементы iWork на странице, выводя данные (тип, положение, размер, имя файла, текст, шрифт/размер шрифта/цвет).
+  2. Ссылки на файлы изображений разрешаются в соответствии с каталогом Data/ пакета .key: первое точное совпадение префикса; в неоднозначных случаях, таких как «вставленное изображение.pdf», вернитесь к сопоставлению размера/соотношения сторон.
+  3. Каждый нетекстовый элемент становится `<img>`/`<video>` в исходном виде (x, y, w, h); каждый текстовый элемент становится настоящим элементом HTML с исходным шрифтом и размером шрифта.
+  4. Страница записывается в Deck.json с макетом: «raw».
+  5. `feishu-deck-h5/deck-json/render-deck.py` оборачивает его в HTML с помощью Chrome в режиме презентации.
+
+Допустимые искажения (не позволяйте им блокировать процесс):
+  • Custom Keynote fonts (HarmonyOS / Alibaba PuHui / Founder LanTing) fall back to a web‑safe Chinese font stack (PingFang SC, Microsoft YaHei).
+  • Один или два неоднозначных файла вставленного изображения могут соответствовать неправильному источнику — зарегистрируйте его и продолжайте.
+  • Градиенты фона мастер-слайда еще не анализируются (максимальное усилие).
+  • Анимации/эффекты входа отброшены (по замыслу — HTML в них не нуждается).

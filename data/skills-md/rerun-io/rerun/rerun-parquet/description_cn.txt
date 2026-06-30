@@ -1,0 +1,1 @@
+使用 rerun.experimental.ParquetReader 将表格 Parquet 文件提取到重新运行块流中。将轨迹或传感器表（LeRobot 风格的 parquet、导出的日志）转换为实体和组件时阅读 - 列分组、时间线/索引列、静态列和透镜 (DeriveLens)，这些透镜从阅读器的分组结构/标量输出组装类型化组件（Transform3D、标量）。基于重新运行块处理和重新运行数据模型构建。

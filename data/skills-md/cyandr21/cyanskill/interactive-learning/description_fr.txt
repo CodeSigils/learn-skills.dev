@@ -1,7 +1,5 @@
-Système d'apprentissage interactif individuel basé sur la théorie des problèmes 2 Sigma de Benjamin Bloom. Enseignement adaptatif : déterminer le niveau de maîtrise à partir des réponses des étudiants, progresser ou compléter automatiquement, sans jamais sauter le contenu qui n'a pas été maîtrisé. Prend en charge le profilage des étudiants, les discussions après le cours et l'évaluation de l'achèvement des cours.
+Système d’apprentissage interactif individuel basé sur la théorie des problèmes 2 Sigma de Benjamin Bloom. Enseignement adaptatif : déterminez le niveau de maîtrise à partir des réponses de l’élève, avancez ou complétez automatiquement, sans jamais sauter de matière qui n’a pas été maîtrisée. Prend en charge les profils des étudiants, les discussions après le cours et l'évaluation de l'achèvement des cours.
 
 Phrases de déclenchement : « Système d'apprentissage interactif ouvert », « Apprentissage interactif ouvert », « Apprentissage interactif », « Je veux apprendre X », « Continuer l'apprentissage X », « Continuer l'apprentissage », « Terminer l'apprentissage X ».
-
-Ne sous-déclenchez pas : lorsque l'utilisateur dit vouloir apprendre quelque chose, continuer le cours ou ouvrir le système d'apprentissage, cette compétence doit être invoquée.
-
-Lorsque l'utilisateur dit « continuer » mais que le contexte n'est pas clair, vérifiez d'abord si un « .learning-config.json » existe dans le répertoire de travail actuel ; si c'est le cas, déclenchez cette compétence.
+Ne sous-déclenchez pas : si l'utilisateur dit vouloir apprendre quelque chose, continuer le cours ou ouvrir le système d'apprentissage, cette compétence doit être invoquée.
+Lorsque l'utilisateur dit « continuer » mais que le contexte n'est pas clair, vérifiez d'abord si un fichier « .learning-config.json » existe dans le répertoire de travail actuel ; si c'est le cas, déclenchez cette compétence.

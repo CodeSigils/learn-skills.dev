@@ -1,0 +1,16 @@
+将 Apple Keynote (`.key`) 演示文稿转换为 `deck.json` + HTML 甲板：逐页迭代，将每个页面重建为绝对定位的 HTML — 图像保留为 `<img>`，文本为可编辑的 HTML 文本，视频为 `<video>`。与 `feishu-deck-h5` 技能一起使用：该技能生成 `deck.json`，`feishu-deck-h5/deck-json/render-deck.py` 将其用演示模式镶边包装成最终的 HTML（← → 翻页/F 全屏/进度条/移动滚动模式）。
+
+触发短语：“将Keynote转换为HTML”，“导入keynote”，“.key到deck”，“.pptx到HTML”（只需在Keynote中打开PPTX并另存为.key），或者用户提供一个“.key”文件路径/一个已在Keynote中打开的文档。
+
+每个页面的处理流程：
+  1. AppleScript 迭代页面上的所有 iWork 元素，输出（类型、位置、大小、文件名、文本、字体/字体大小/颜色）。
+  2. 根据.key包的Data/目录解析图像文件引用：首先精确前缀匹配；对于像“pasted-image.pdf”这样不明确的情况，请回退到尺寸/长宽比匹配。
+  3. 每个非文本元素在其原始位置 (x, y, w, h) 变为 `<img>` / `<video>`；每个文本元素都成为具有原始字体和字体大小的真正的 HTML 元素。
+  4. 页面以`layout: "raw"`写入deck.json。
+  5. `feishu-deck-h5/deck-json/render-deck.py` 使用演示模式 chrome 将其包装为 HTML。
+
+可接受的扭曲（不要让它们阻碍该过程）：
+  • 自定义Keynote 字体（HarmonyOS / 阿里巴巴普惠/ 方正兰亭）回退到网络安全的中文字体堆栈（PingFang SC、Microsoft YaHei）。
+  • 一两个不明确的粘贴图像文件可能与错误的源匹配 - 记录它并继续。
+  • 母版幻灯片背景渐变尚未解析（尽力而为）。
+  • 动画/入口效果被丢弃（根据设计——HTML 不需要它们）。

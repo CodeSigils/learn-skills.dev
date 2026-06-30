@@ -1,0 +1,1 @@
+当项目包含 uiBundles/*/src/ 目录并且任务涉及上传、附加或删除文件时，必须激活。向 UI 捆绑应用程序添加文件上传功能时，请使用此技能。提供进度跟踪和 Salesforce ContentVersion 集成。此功能仅提供编程 API — 使用 upload() API 构建自定义 UI。始终使用它，而不是使用 FormData 或 XHR 从头开始​​构建文件上传。

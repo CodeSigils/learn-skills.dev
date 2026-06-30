@@ -1,0 +1,1 @@
+当项目包含 uiBundles/*/src/ 目录并且任务涉及创建或配置自定义应用程序以在 Lightning Experience 中托管 UI 包时，必须激活。创建 CustomApplication 元数据记录时使用此技能以在应用程序启动器中显示 UI 包。当存在与 applications/*.app-meta.xml 匹配的文件并需要修改时，或者当用户想要通过 Lightning 应用程序启动器公开其应用程序而无需数字体验站点时，激活。请勿为此使用 platform-custom-application-generate — UI 捆绑应用程序不使用选项卡、操作覆盖或 Flexipages。

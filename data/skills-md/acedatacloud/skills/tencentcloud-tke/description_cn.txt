@@ -1,0 +1,6 @@
+管理腾讯云TKE（Tencent Kubernetes Engine）集群并
+工作负载。当用户要求：列出集群、检查集群/时使用
+节点运行状况、列出 Pod 或服务、扩展部署、进行滚动
+重启、获取 kubeconfig、查看最近的 K8s 事件、管理节点池。
+结合了官方的tencentcloud-sdk-python TKE客户端（集群
+元数据）与 kubectl 用于集群内操作。

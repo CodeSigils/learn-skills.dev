@@ -1,0 +1,1 @@
+将 prek（Rust 支持的预提交）加入到任何项目中，并建议针对语言/框架定制的钩子。当用户说“添加 prek”、“设置预提交挂钩”、“配置 prek”、“我应该使用什么挂钩”时，或者当您发现一个没有 prek.toml 的项目可以从预提交检查中受益时使用。当用户想要向现有 prek.toml 添加新钩子、审核其钩子配置或从预提交迁移到 prek 时也会触发。涵盖 Rust、Python、TypeScript/JavaScript、Go、Ruby 和 Shell 项目。请勿用于 husky、lint-staged 或 CI 管道挂钩配置 - 该技能专门用于 prek。

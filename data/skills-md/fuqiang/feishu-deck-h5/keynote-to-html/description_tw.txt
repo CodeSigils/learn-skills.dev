@@ -1,16 +1,16 @@
-將 Apple Keynote (`.key`) 簡報轉換為 `deck.json` + HTML 甲板：逐頁迭代，將每個頁面重建為絕對定位的 HTML — 圖像保留為 `<img>`，文字為可編輯的 HTML 文本，影片為 `<video>`。與 `feishu-deck-h5` 技能一起使用：此技能輸出 `deck.json`，而 `feishu-deck-h5/deck-json/render-deck.py` 將其包裝到帶有演示模式鑲邊的最終 HTML 中（← → 用於分割畫面 / F 用於全螢幕模式）進度。
+將 Apple Keynote (`.key`) 簡報轉換為 `deck.json` + HTML 甲板：逐頁迭代，將每個頁面重建為絕對定位的 HTML — 圖像保留為 `<img>`，文字為可編輯的 HTML 文本，影片為 `<video>`。與 `feishu-deck-h5` 技能一起使用：此技能產生 `deck.json`，`feishu-deck-h5/deck-json/render-deck.py` 將其以演示模式鑲邊包裝成最終的 HTML（← → 翻頁/F 全螢幕/進度條/移動模式）。
 
-觸發短語：“將Keynote轉換為HTML”，“導入keynote”，“.key到deck”，“.pptx到HTML”（只需在Keynote中打開PPTX並另存為.key），或者用戶提供`.key`文件路徑/已在Keynote中打開的文檔。
+觸發短語：“將Keynote轉換為HTML”，“導入keynote”，“.key到deck”，“.pptx到HTML”（只需在Keynote中打開PPTX並另存為.key），或者用戶提供一個“.key”文件路徑/一個已在Keynote中打開的文檔。
 
 每個頁面的處理流程：
-1. AppleScript 迭代頁面上的所有 iWork 元素，輸出（類型、位置、大小、檔案名稱、文字、字體/字體大小/顏色）。
-2. 根據.key包的Data/目錄解析圖像檔案引用：首先精確前綴匹配；對於像「pasted-image.pdf」這樣不明確的情況，會退回到大小/長寬比匹配。
-3. 每個非文字元素都變成放置在原始 (x, y, w, h) 處的 `<img>` / `<video>`；每個文字元素都成為具有原始字體和字體大小的真正的 HTML 元素。
-4. 頁面以`layout: "raw"`寫入deck.json。
-5. `feishu-deck-h5/deck-json/render-deck.py` 使用演示模式 chrome 將其包裝為 HTML。
+  1. AppleScript 迭代頁面上的所有 iWork 元素，輸出（類型、位置、大小、檔案名稱、文字、字體/字體大小/顏色）。
+  2. 根據.key包的Data/目錄解析圖像檔案引用：首先精確前綴匹配；對於像「pasted-image.pdf」這樣不明確的情況，請回退到尺寸/長寬比匹配。
+  3. 每個非文字元素在原始位置 (x, y, w, h) 變成 `<img>` / `<video>`；每個文字元素都成為具有原始字體和字體大小的真正的 HTML 元素。
+  4. 頁面以`layout: "raw"`寫入deck.json。
+  5. `feishu-deck-h5/deck-json/render-deck.py` 使用演示模式 chrome 將其包裝為 HTML。
 
-可接受的扭曲（不要因此而阻塞）：
-• 自訂Keynote 字型（HarmonyOS / 阿里巴巴普惠/ 方正蘭亭）回退到網路安全的中文字體堆疊（PingFang SC、Microsoft YaHei）。  
-• 1-2 個不明確的貼上影像檔案可能與錯誤的來源相符 - 記錄並繼續。  
-• 母版投影片背景漸變尚未解析（盡力而為）。  
-• 動畫/入口效果將被丟棄（根據設計－HTML 不需要它們）。
+可接受的扭曲（不要讓它們阻礙該過程）：
+  • 自訂Keynote 字型（HarmonyOS / 阿里巴巴普惠/ 方正蘭亭）回退到網路安全的中文字體堆疊（PingFang SC、Microsoft YaHei）。
+  • 一兩個不明確的貼上影像檔案可能與錯誤的來源相符 - 記錄它並繼續。
+  • 母版投影片背景漸層尚未解析（盡力而為）。
+  • 動畫/入口效果被丟棄（根據設計－HTML 不需要它們）。

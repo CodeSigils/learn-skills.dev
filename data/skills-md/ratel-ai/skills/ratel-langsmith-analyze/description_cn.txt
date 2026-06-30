@@ -1,0 +1,1 @@
+通过 LangSmith MCP 服务器（或 langsmith SDK 后备）读取客户的实时 LangSmith 运行、跟踪、线程和反馈分数，针对共享发现目录进行模式匹配，并编写一份发现报告，该报告分为 Ratel 风格的改进和与堆栈无关的容易实现的成果。用于扫描 LangSmith 仪表板，深入研究运行树或失败的运行，查看本周的运行，审核其可观察性，查看代理做错了什么，或“/ratel-langsmith-analyze”。写入<repo>/.ratel/（累积）；在没有可访问的服务器或 API 密钥的情况下快速失败，诚实地跳过干净的数据，从不编辑代码。 /ratel-langsmith-integrate 的后续行动。

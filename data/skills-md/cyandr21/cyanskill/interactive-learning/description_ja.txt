@@ -1,0 +1,5 @@
+One-on-one interactive learning system based on Benjamin Bloom’s 2 Sigma problem theory.アダプティブティーチング - 生徒の解答から習熟度を判断し、自動的に進めたり補足したりして、習熟していない内容をスキップすることはありません。 Supports student profiles, post‑lesson discussions, and course‑completion assessment.
+
+トリガーフレーズ: 「オープンインタラクティブ学習システム」、「オープンインタラクティブ学習」、「インタラクティブ学習」、「X を学びたい」、「継続学習 X」、「継続学習」、「終了学習 X」。
+トリガーを低く設定しないでください。ユーザーが何かを学びたい、クラスを継続したい、または学習システムを開いてみたいと言ったら、このスキルを呼び出す必要があります。
+ユーザーが「続行」と言ったが、内容が不明瞭な場合は、まず現在の作業ディレクトリに `.learning-config.json` ファイルが存在するかどうかを確認します。そうした場合、このスキルを発動する。

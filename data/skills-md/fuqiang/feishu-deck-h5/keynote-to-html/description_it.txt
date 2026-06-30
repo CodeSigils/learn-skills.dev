@@ -1,16 +1,16 @@
-Converti una presentazione Apple Keynote (`.key`) in `deck.json` + un deck HTML: scorri ogni diapositiva, ricostruisci ogni diapositiva come HTML posizionato in modo assoluto: le immagini rimangono `<img>`, il testo diventa testo HTML modificabile e il video è `<video>`. Da utilizzare insieme all'abilità `feishu-deck-h5`: questa abilità genera `deck.json` e `feishu-deck-h5/deck-json/render-deck.py` lo avvolge nell'HTML finale con una cromatura in modalità presentazione (← → per girare la pagina / F per schermo intero / barra di avanzamento / modalità di scorrimento mobile).
+Converti le presentazioni Apple Keynote (`.key`) in `deck.json` + deck HTML: itera pagina per pagina, ricostruisci ogni pagina come HTML posizionato in modo assoluto: le immagini rimangono `<img>`, il testo è testo HTML modificabile, i video sono `<video>`. Utilizzato insieme all'abilità `feishu-deck-h5`: questa abilità produce `deck.json` e `feishu-deck-h5/deck-json/render-deck.py` lo avvolge nell'HTML finale con una cromatura in modalità presentazione (← → volta pagina / F schermo intero / barra di avanzamento / modalità scorrimento mobile).
 
-Frasi trigger: "converti Keynote in HTML", "importa keynote", ".key to deck", ".pptx in HTML" (prima apri il PPTX in Keynote e salvalo come `.key`), oppure l'utente fornisce un percorso del file `.key` / un documento Keynote già aperto.
+Frasi trigger: "converti Keynote in HTML", "importa keynote", ".key to deck", ".pptx in HTML" (basta aprire PPTX in Keynote e salvare come .key), oppure l'utente fornisce un percorso di file `.key` / un documento già aperto in Keynote.
 
-Flusso di elaborazione per ciascuna diapositiva:
-1. AppleScript attraversa tutti gli elementi iWork sulla diapositiva, producendo (tipo, posizione, dimensione, nome file, testo, carattere/dimensione carattere/colore).
-2. I riferimenti ai file immagine vengono risolti dalla directory "Data/" del bundle `.key`: tentare prima una corrispondenza esatta del prefisso; per casi ambigui come "immagine-incollata.pdf", ricorrere alla corrispondenza per dimensioni/proporzioni.
-3. Ogni elemento non testuale diventa un `<img>` / `<video>` posizionato nella sua posizione originale (x, y, w, h); ogni elemento di testo diventa un vero e proprio elemento HTML con il font e la dimensione originale.
-4. La diapositiva viene scritta in `deck.json` con `layout: "raw"`.
-5. `feishu-deck-h5/deck-json/render-deck.py` lo impacchetta in HTML con un chrome in modalità presentazione.
+Flusso di elaborazione per ciascuna pagina:
+  1. AppleScript esegue un'iterazione su tutti gli elementi iWork sulla pagina, generando output (tipo, posizione, dimensione, nome file, testo, carattere/dimensione carattere/colore).
+  2. I riferimenti ai file immagine vengono risolti in base alla directory Data/ del bundle .key: prima corrispondenza esatta del prefisso; per casi ambigui come "pasted-image.pdf", ricorrere alla corrispondenza dimensioni/proporzioni.
+  3. Ogni elemento non testuale diventa `<img>` / `<video>` nel suo formato originale (x, y, w, h); ogni elemento di testo diventa un vero e proprio elemento HTML con il carattere e la dimensione del carattere originali.
+  4. La pagina viene scritta in deck.json con `layout: "raw"`.
+  5. `feishu-deck-h5/deck-json/render-deck.py` lo avvolge in HTML con chrome in modalità presentazione.
 
-Distorsioni accettabili (non lasciare che interrompano il processo):
-· I caratteri Keynote personalizzati (HarmonyOS, Alibaba PuHui, Founder Lanting) ricadono in uno stack di caratteri cinesi sicuri per il Web (PingFang SC, Microsoft YaHei).
-· Uno o due file immagine incollati ambigui potrebbero essere abbinati alla fonte sbagliata: registralo e continua.
-· I gradienti di sfondo della diapositiva master non vengono analizzati (solo massimo sforzo).
-· Le animazioni/gli effetti di ingresso vengono scartati (intenzionalmente – l'HTML non ne ha bisogno).
+Distorsioni accettabili (non lasciare che blocchino il processo):
+  • I caratteri Keynote personalizzati (HarmonyOS/Alibaba PuHui/Founder LanTing) ricadono in uno stack di caratteri cinesi sicuri per il Web (PingFang SC, Microsoft YaHei).
+  • Uno o due file immagine incollati ambigui potrebbero essere associati all'origine sbagliata: registrarli e continuare.
+  • I gradienti di sfondo della diapositiva master non sono ancora stati analizzati (massimo sforzo).
+  • Le animazioni/gli effetti di ingresso vengono scartati (in base alla progettazione: l'HTML non ne ha bisogno).
