@@ -1,0 +1,21 @@
+Convertissez un PowerPoint (.pptx) existant en un deck feishu-deck-h5 MODIFIABLE —
+un deck.json `canvas` structuré qui s'affiche dans un deck HTML 16:9 en mode présent.
+Compétence AUTONOME qui utilise feishu-deck-h5 comme RENDER BACKEND (coquille dans son
+deck-json/render-deck.py ; le deck final a besoin du framework CSS/JS de cette compétence).
+L'analyseur de feishu-deck-h5 délègue également l'importation .pptx à cette compétence.
+
+Déclencheurs : "PPT/PPTX dans le deck/HTML/H5", "import pptx", ".pptx dans le deck",
+« 把这份 PowerPoint 还原成网页/可编辑 deck », ou lorsque l'utilisateur remet un .pptx
+et le veut comme deck modifiable. Ne PAS utiliser pour `.key` Keynote (utilisez
+keynote-to-html), une refonte à partir de zéro (utilisez directement feishu-deck-h5), ou
+produire un vrai .pptx.
+
+UN pipeline : build_pptx.py = RECONSTRUCTION DE CODE PURE (python-pptx) → a
+`layout:"canvas"` deck.json d'éléments typés entièrement modifiables, rendus par
+render-deck.py. Pas de dépôts supplémentaires (pas de LibreOffice / PyMuPDF). Éléments décoratifs
+(dégradés/lueur/forme libre/images recadrées) sont APPROXIMATIVES au mieux — le
+échangez pour une éditabilité totale. (Un pipeline "hybride" LibreOffice/raster une fois
+existait; il a été retiré – voir skills/_deprecated/.)
+
+Voir le corps SKILL.md pour les deps, la liste avec perte/approximation et l'espace réservé +
+Comportement du drapeau à la retraite (--raster/--full-raster ne sont pas opérationnels).

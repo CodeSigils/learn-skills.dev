@@ -1,0 +1,6 @@
+Gérer les clusters Tencent Cloud TKE (Tencent Kubernetes Engine) et
+charges de travail. À utiliser lorsque l'utilisateur demande : lister les clusters, vérifier le cluster /
+santé des nœuds, répertorier les pods ou les services, mettre à l'échelle un déploiement, effectuer un roulement
+redémarrez, récupérez kubeconfig, affichez les événements K8 récents, gérez les pools de nœuds.
+Combine le client TKE officiel tencentcloud-sdk-python (cluster
+métadonnées) avec kubectl pour les opérations au sein du cluster.

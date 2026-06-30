@@ -1,0 +1,16 @@
+Convertissez les présentations Apple Keynote (`.key`) en `deck.json` + HTML deck : itérez page par page, reconstruisez chaque page en HTML positionné de manière absolue : les images restent `<img>`, le texte est un texte HTML modifiable, la vidéo est `<video>`. Utilisée avec la compétence `feishu-deck-h5` : cette compétence produit `deck.json`, et `feishu-deck-h5/deck-json/render-deck.py` l'enveloppe dans le HTML final avec un chrome en mode présentation (← → tour de page / F plein écran / barre de progression / mode de défilement mobile).
+
+Phrases de déclenchement : « convertir Keynote en HTML », « importer keynote », « .key to deck », « .pptx to HTML » (il suffit d'ouvrir le PPTX dans Keynote et de l'enregistrer sous .key), ou l'utilisateur fournit un chemin de fichier « .key » / un document déjà ouvert dans Keynote.
+
+Flux de traitement pour chaque page :
+  1. AppleScript parcourt tous les éléments iWork de la page, en produisant (type, position, taille, nom de fichier, texte, police/taille/couleur).
+  2. Les références aux fichiers image sont résolues en fonction du répertoire Data/ du bundle .key : première correspondance exacte du préfixe ; pour les cas ambigus comme « pasted-image.pdf », revenez à la correspondance taille/rapport d'aspect.
+  3. Chaque élément non textuel devient un `<img>` / `<video>` à l'original (x, y, w, h) ; chaque élément de texte devient un véritable élément HTML avec la police et la taille d'origine.
+  4. La page est écrite dans deck.json avec `layout: "raw"`.
+  5. `feishu-deck-h5/deck-json/render-deck.py` l'enveloppe en HTML avec Chrome en mode présentation.
+
+Distorsions acceptables (ne les laissez pas bloquer le processus) :
+  • Les polices Keynote personnalisées (HarmonyOS / Alibaba PuHui / Founder LanTing) reposent sur une pile de polices chinoises sécurisées pour le Web (PingFang SC, Microsoft YaHei).
+  • Un ou deux fichiers d'images collées ambiguës peuvent correspondre à la mauvaise source : enregistrez-les et continuez.
+  • Les dégradés d'arrière-plan des diapositives principales ne sont pas encore analysés (au mieux).
+  • Les animations/effets d'entrée sont supprimés (de par leur conception — HTML n'en a pas besoin).
