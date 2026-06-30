@@ -1,0 +1,16 @@
+Convierta una presentación de Apple Keynote (`.key`) en `deck.json` + una presentación HTML: itere página por página, reconstruya cada página como HTML absolutamente posicionado: las imágenes permanecen `<img>`, el texto se convierte en texto HTML editable y el video es `<video>`. Úselo junto con la habilidad `feishu-deck-h5`: esta habilidad produce `deck.json`, y `feishu-deck-h5/deck-json/render-deck.py` lo envuelve en el HTML final con un Chrome en modo de presentación (← → cambio de página / F pantalla completa / barra de progreso / modo de desplazamiento móvil).
+
+Frases desencadenantes: "convertir Keynote a HTML", "importar Keynote", ".key to deck", ".pptx a HTML" (simplemente abra el PPTX en Keynote y guárdelo como .key), o el usuario proporciona una ruta de archivo `.key`/un documento ya abierto en Keynote.
+
+Flujo de procesamiento para cada diapositiva:
+1. AppleScript enumera todos los elementos de iWork en la diapositiva y los genera (tipo, posición, tamaño, nombre de archivo, texto, fuente/tamaño de fuente/color).  
+2. Las referencias de archivos de imagen se resuelven de acuerdo con el directorio `Data/` del paquete `.key`: primero intente hacer coincidir el prefijo exacto; para casos ambiguos como “imagen-pegado.pdf”, recurra a la coincidencia por dimensiones/relación de aspecto.  
+3. Cada elemento que no es texto se convierte en un `<img>` / `<video>` colocado en su original (x, y, w, h); cada elemento de texto se convierte en un elemento HTML real con la fuente y el tamaño de fuente originales.  
+4. La diapositiva se escribe en `deck.json` con `layout: "raw"`.  
+5. `feishu-deck-h5/deck-json/render-deck.py` lo empaqueta en HTML con Chrome en modo de presentación.
+
+Distorsiones aceptables (no dejes que bloqueen el proceso):
+- Las fuentes Keynote personalizadas (HarmonyOS / Alibaba PuHuiTi / Founder LanTing) recurren a una pila de fuentes chinas seguras para la web (PingFang SC, Microsoft YaHei).  
+- Es posible que uno o dos archivos de imágenes pegadas ambiguas coincidan con la fuente incorrecta; regístrelo y continúe.  
+- Los degradados de fondo de la diapositiva maestra aún no se han analizado (mejor esfuerzo).  
+- Las animaciones/efectos de entrada se descartan (por diseño: HTML no los necesita).
