@@ -1,0 +1,1 @@
+أنشئ عملاء Zerobus Ingest لاستيعاب البيانات في الوقت الفعلي تقريبًا في جداول Databricks Delta عبر gRPC. يُستخدم عند إنشاء منتجين يكتبون مباشرة إلى جداول Unity Catalog بدون ناقل رسائل، أو العمل مع Zerobus Ingest SDK في Python/Java/Go/TypeScript/Rust، أو إنشاء مخططات Protobuf من جداول UC، أو تنفيذ الاستيعاب القائم على التدفق مع معالجة ACK وإعادة محاولة المنطق.
