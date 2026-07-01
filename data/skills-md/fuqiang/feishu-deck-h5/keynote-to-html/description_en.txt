@@ -1,16 +1,27 @@
-Convert Apple Keynote (`.key`) presentations into `deck.json` + HTML deck: iterate page by page, reconstruct each page as absolutely positioned HTML—images remain `<img>`, text is editable HTML text, videos are `<video>`. Used together with the `feishu-deck-h5` skill: this skill produces `deck.json`, and `feishu-deck-h5/deck-json/render-deck.py` wraps it into the final HTML with a presentation-mode chrome (← → page turn / F fullscreen / progress bar / mobile scrolling mode).
+把 Apple Keynote（`.key`）演示文稿转成 `deck.json` + HTML deck：逐页遍历，
+把每一页重建为绝对定位的 HTML——图片仍是 `<img>`、文本是可编辑的 HTML
+文本、视频是 `<video>`。与 `feishu-deck-h5` skill 配合使用：本 skill 产出
+`deck.json`，`feishu-deck-h5/deck-json/render-deck.py` 把它包装成带演示模
+式 chrome（← → 翻页 / F 全屏 / 进度条 / 移动端滚动模式）的最终 HTML。
 
-Trigger phrases: “convert Keynote to HTML”, “import keynote”, “.key to deck”, “.pptx to HTML” (just open the PPTX in Keynote and save as .key), or the user provides a `.key` file path / an already opened document in Keynote.
+触发词：「把 Keynote 转成 HTML」、「import keynote」、「.key 转 deck」、
+「.pptx 转 HTML」（先用 Keynote 打开 PPTX 另存为 .key 即可），或者用户给出
+`.key` 文件路径 / Keynote 里已打开的文稿。
 
-Processing flow for each page:
-  1. AppleScript iterates over all iWork elements on the page, outputting (type, position, size, filename, text, font / font size / color).
-  2. Image file references are resolved according to the .key bundle’s Data/ directory: first exact prefix matching; for ambiguous cases like “pasted-image.pdf”, fall back to size / aspect‑ratio matching.
-  3. Each non‑text element becomes an `<img>` / `<video>` at its original (x, y, w, h); each text element becomes a real HTML element with the original font and font size.
-  4. The page is written into deck.json with `layout: "raw"`.
-  5. `feishu-deck-h5/deck-json/render-deck.py` wraps it into HTML with presentation-mode chrome.
+每一页的处理流程：
+  1. AppleScript 遍历该页所有 iWork 元素，输出 (类型, 位置, 尺寸,
+     文件名, 文本, 字体 / 字号 / 颜色)。
+  2. 图片的文件引用按 .key bundle 的 Data/ 目录解析：先精确前缀匹配；
+     对模糊的 "pasted-image.pdf" 类情况退回尺寸 / 长宽比匹配。
+  3. 每个非文本元素变成原始 (x, y, w, h) 处的 `<img>` / `<video>`；
+     每个文本变成带原字体 + 字号的真实 HTML 元素。
+  4. 该页以 `layout: "raw"` 形式写入 deck.json。
+  5. `feishu-deck-h5/deck-json/render-deck.py` 包装成带演示模式 chrome
+     的 HTML。
 
-Acceptable distortions (do not let them block the process):
-  • Custom Keynote fonts (HarmonyOS / Alibaba PuHui / Founder LanTing) fall back to a web‑safe Chinese font stack (PingFang SC, Microsoft YaHei).
-  • One or two ambiguous pasted‑image files may be matched to the wrong source — log it and continue.
-  • Master‑slide background gradients are not yet parsed (best‑effort).
-  • Animations / entrance effects are discarded (by design — HTML does not need them).
+可接受的失真（不要因此阻断）：
+  · 自定义 Keynote 字体（鸿蒙 / 阿里巴巴普惠 / 方正兰亭）退回到 web-safe
+    中文字体栈（PingFang SC、Microsoft YaHei）。
+  · 1–2 个模糊的 pasted-image 文件可能匹配错源 —— 记录后继续。
+  · 母版背景渐变尚未解析（best-effort）。
+  · 动画 / 入场效果会被丢弃（有意为之 —— HTML 不需要）。
