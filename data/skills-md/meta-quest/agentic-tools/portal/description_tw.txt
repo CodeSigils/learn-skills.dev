@@ -1,0 +1,1 @@
+使用 metavr 為 Meta Portal 裝置（Portal、Portal+、Portal Mini、Portal Go、Portal TV）建置和旁載入 Android 應用程式。在針對 Portal 硬體時使用 — 涵蓋 ADB 支援、無 GMS 約束、清單/啟動器意圖過濾器要求、圖示密度怪異（僅限 PNG、mipmap-xxxhdpi）、智慧型相機 SDK 以及 gradle + `metavr adb` 建置/部署/偵錯循環。當用戶提到「Portal」設備、針對桌面/電視外形規格的「minSdkVersion」28-29 或與「com.facebook.portal」套件配合使用時自動載入。

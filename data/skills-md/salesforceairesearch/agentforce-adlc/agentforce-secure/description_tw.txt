@@ -1,0 +1,1 @@
+針對即時 Agentforce 代理程式運行 OWASP LLM Top 10 安全評估。觸發時間：使用者要求進行安全測試、OWASP 掃描、紅隊、滲透測試、安全等級、漏洞評估、提示注入測試、資料外洩測試、過度機構測試、安全態勢檢查或強化建議。不要在以下情況下觸發： 使用者執行功能冒煙測試或大量測試（使用 agentforce-test）；對 .agent 檔案內容執行靜態安全審查（使用 agentforce-generate 第 15 節）；分析生產會話追蹤（使用agentforce-observe）；寫入或修改 .agent 檔案。
