@@ -1,0 +1,1 @@
+Metavr을 사용하여 Meta Portal 장치(Portal, Portal+, Portal Mini, Portal Go, Portal TV)용 Android 앱을 빌드하고 사이드로드하세요. 포털 하드웨어를 대상으로 지정할 때 사용 - ADB 활성화, GMS 없는 제약 조건, 매니페스트/런처 인텐트 필터 요구 사항, 아이콘 밀도 문제(PNG 전용, mipmap-xxxhdpi), 스마트 카메라 SDK 및 Gradle + `metavr adb` 빌드/배포/디버그 루프를 다룹니다. 사용자가 "포털" 장치를 언급하거나 테이블탑/TV 폼 팩터에 대해 `minSdkVersion` 28-29를 대상으로 하거나 `com.facebook.portal` 패키지와 함께 작동하면 자동 로드됩니다.
