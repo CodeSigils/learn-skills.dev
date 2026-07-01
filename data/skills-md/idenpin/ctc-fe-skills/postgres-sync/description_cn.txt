@@ -1,0 +1,1 @@
+将远程 PostgreSQL 数据库（测试/登台服务器）同步到本地 PostgreSQL 实例。使用自定义格式的 pg_dump + pg_restore 以及 FORCE 来删除数据库并使用 template0/UTF8 重建它。当用户要求将 PostgreSQL 数据库从远程/测试/登台服务器同步/复制/刷新/镜像/拉取到本地，或者用户说“同步/更新/拉取测试服务器数据库到本地”“pg_dump/pg_restore 在两个 PostgreSQL 实例之间复制数据”时使用。

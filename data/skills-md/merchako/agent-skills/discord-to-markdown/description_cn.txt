@@ -1,0 +1,1 @@
+将 Discord 消息副本（从剪贴板）转换为干净的 Markdown，确定性且无需法学硕士。 Discord 在剪贴板上添加了丰富的 HTML 风格，保留了作者组、发布者自己的项目符号/编号列表、链接、代码、表情符号和图像附件；一个简单的 HTML 到 Markdown 转换器将 Discord 的消息列表（<ol>）转换为编号列表并破坏真实列表。此技能可以正确解析 HTML。当用户说“将此 Discord 副本转换为 markdown”、“discord 为 markdown”、“/discord-md”、“将此 Discord 线程粘贴到 Obsidian”、“清理此 Discord 粘贴以获得 LLM”或从 Discord 复制消息并想要可读的 Markdown 时使用。仅限 macOS（通过 osascript/pbpaste 读取剪贴板）。

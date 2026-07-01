@@ -1,0 +1,1 @@
+针对实时 Agentforce 代理运行 OWASP LLM Top 10 安全评估。触发时间：用户要求进行安全测试、OWASP 扫描、红队、渗透测试、安全等级、漏洞评估、提示注入测试、数据泄漏测试、过度机构测试、安全态势检查或强化建议。不要在以下情况下触发： 用户运行功能冒烟测试或批量测试（使用 agentforce-test）；对 .agent 文件内容执行静态安全审查（使​​用 agentforce-generate 第 15 节）；分析生产会话跟踪（使用agentforce-observe）；写入或修改 .agent 文件。
