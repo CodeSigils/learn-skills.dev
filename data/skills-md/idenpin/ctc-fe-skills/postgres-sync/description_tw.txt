@@ -1,1 +1,1 @@
-將遠端 PostgreSQL 資料庫（測試/預發布伺服器）同步到本機 PostgreSQL 實例。使用自訂格式的 pg_dump 和 pg_restore 結合使用 FORCE 來刪除資料庫並使用 template0/UTF8 重建它。當使用者要求將 PostgreSQL 資料庫從遠端/測試/登台伺服器同步/複製/刷新/鏡像/拉取到本機時，或當使用者說「同步/更新/拉取測試伺服器資料庫到本機」或「pg_dump / pg_restore 在兩個 PostgreSQL 實例之間複製資料」時，請使用此選項。
+將遠端 PostgreSQL 資料庫（測試/預發布伺服器）同步到本機 PostgreSQL 實例。將自訂格式的 pg_dump 與 pg_restore 一起使用，使用 FORCE 刪除資料庫並使用 template0/UTF8 重建它。當使用者要求將 PostgreSQL 資料庫從遠端/測試/登台伺服器同步/複製/刷新/鏡像/拉取到本機時，或當使用者說「同步/更新/拉取測試伺服器資料庫到本機」或「pg_dump/pg_restore 在兩個 PostgreSQL 實例之間複製資料」時使用。
