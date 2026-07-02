@@ -1,0 +1,10 @@
+Bulk fulfillment tracking sync — update orders to Fulfilled status with tracking
+numbers from a CSV when the fulfillment provider's automation fails to sync back.
+
+Walks through store identification, API key validation, CSV ingestion, carrier
+detection, dry-run validation, live execution with customer notifications, and
+results reporting.
+
+Use when: "bulk fulfill", "sync tracking numbers", "tracking sync", "fulfill orders
+from CSV", "orders stuck in processing", "tracking numbers didn't sync", or when a
+merchant reports shipped orders still showing as Processing.
