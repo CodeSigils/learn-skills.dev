@@ -1,0 +1,1 @@
+使用 ClaudeCode 開發或遷移 baserCMS5 (CakePHP5) 時，請事先參考「推薦工作流程環境設定」技能（基於建議；執行是選擇加入）。當「開始開發或遷移5系列外掛」、「試圖確定最佳的繼續方式」、「想要組織設計→計畫→實施流程/環境」、「想要整理權限並以自動模式進行」等時，首先會參考它。設計是透過超能力腦力激盪完成的，權限透過權限審計進行組織，然後使用自動模式，用Markdown預覽spec/plan，以及腦力激盪→計畫預覽→spec導出的順序是「建議」而不是強制（用戶決定是否執行；如果已經設定則跳過）。技術重寫模式為basercms5-development、basercms-plugin-4-to-5-upgrade和basercms-plugin-5x-update；測試執行請參考basercms-unittest。

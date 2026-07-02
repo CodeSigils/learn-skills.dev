@@ -1,0 +1,1 @@
+将共享代码包从功能层模块提取到“grp-{module}-common”模块中，使规则集适应检测到的产品线。当用户要求在 Maven Java 服务中“提取公共模块”、“运行 Step8”、“检查公共包”、“提取公共”或“合并 util/cache/constant/enums/exception/config”时，请使用此技能。它是重构链包中 Java 分层架构通道的第 8 步（共 9 步），并从“pom.xml”“<groupId>”（“grp.pt”、“grp.budget”、“gfmis.bgtex”/“com.ctjsoft.gfmis”）中选择产品线规则集。

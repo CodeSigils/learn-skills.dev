@@ -1,0 +1,1 @@
+将测试套件从一个框架逐步迁移到另一个框架，并且不会丢失覆盖范围。涵盖 Selenium→Playwright、Cypress→Playwright、Jest→Vitest、Mocha→Vitest 和 Protractor→Playwright，具有并行 CI 运行、定位器/断言翻译和覆盖奇偶校验轨道。在以下情况下使用：“迁移测试”、“切换框架”、“Selenium 到 Playwright”、“Jest 到 Vitest”、“框架迁移”。不适用于：在同一框架上进行 UI 重构后批量重新生成选择器 — 使用选择器漂移恢复。不适合：在运行时修复一个不稳定的测试——使用测试可靠性。不适合：在不改变框架的情况下实现模式现代化——使用 ai-qa-review。相关：剧作家自动化、cypress 自动化、单元测试、ci-cd 集成、测试可靠性。

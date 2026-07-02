@@ -1,0 +1,1 @@
+共有コード パッケージを機能層モジュールから「grp-{module}-common」モジュールに抽出し、ルールセットを検出された製品ラインに適合させます。このスキルは、ユーザーが Maven Java サービスで「共通モジュールの抽出」、「Step8 の実行」、「共通パッケージの確認」、「共通の抽出」、または「util/cache/constant/enums/Exception/config の統合」を要求する場合に使用します。これは、リファクタ チェーン バンドルの Java 階層化アーキテクチャ レーンのステップ 8/9 であり、`pom.xml` `<groupId>` (`grp.pt`、`grp.budget`、`gfmis.bgtex` / `com.ctjsoft.gfmis`) からプロダクトライン ルールセットを選択します。

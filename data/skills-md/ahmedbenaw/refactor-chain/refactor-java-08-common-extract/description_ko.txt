@@ -1,0 +1,1 @@
+기능 계층 모듈에서 `grp-{module}-common` 모듈로 공유 코드 패키지를 추출하여 감지된 제품 라인에 규칙 세트를 적용합니다. 사용자가 Maven Java 서비스에서 "공통 모듈 추출", "Step8 실행", "공통 패키지 확인", "공통 추출" 또는 "util/cache/constant/enums/Exception/config 통합"을 요청할 때 이 기술을 사용하세요. 이는 리팩터링 체인 번들에 있는 Java 계층 아키텍처 레인의 9단계 중 8단계이며 `pom.xml` `<groupId>`(`grp.pt`, `grp.budget`, `gfmis.bgtex` / `com.ctjsoft.gfmis`)에서 제품 라인 규칙 세트를 선택합니다.
