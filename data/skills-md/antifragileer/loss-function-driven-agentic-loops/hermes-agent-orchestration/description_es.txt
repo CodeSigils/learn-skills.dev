@@ -1,0 +1,11 @@
+Cómo manejar el CLI del Agente Hermes (Nous Research) como
+agente de codificación dentro de un bucle controlado por función de pérdida. el
+El conductor (Hermes o cualquier orquestador) es dueño del bucle exterior,
+la función de pérdida y el verificador se ejecuta. el interior
+La sesión de Hermes es propietaria de la llamada del modelo, la iteración
+contexto, las ediciones del archivo y las ejecuciones de prueba. Cargar esto
+habilidad cada vez que se inicia un chat Hermes anidado como
+agente interno y al crear un script contenedor de Hermes
+— las banderas del modo de chat verificadas, la forma de salida JSON,
+el analizador y el contrato que el contenedor debe cumplir
+todos viven aquí.

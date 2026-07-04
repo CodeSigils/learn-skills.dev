@@ -1,0 +1,11 @@
+Cómo manejar Claude Code CLI (Anthropic) como codificación
+agente dentro de un bucle impulsado por una función de pérdida. el conductor
+(Hermes o cualquier orquestador) es dueño del bucle, la pérdida
+función y el verificador se ejecuta. Claude Code es dueño del modelo.
+llamada, el contexto de iteración, las ediciones de archivos y el
+ejecuciones de prueba. Cargue esta habilidad cada vez que inicie, monitoree,
+o interrumpir una sesión de Claude Code desde dentro de un
+bucle impulsado por función de pérdida y al construir un Código Claude
+script contenedor: las banderas del modo de impresión verificadas, el JSON
+esquema de salida, el analizador y el contrato, el contenedor
+Debe satisfacer a todos los que viven aquí.

@@ -1,0 +1,11 @@
+Cómo manejar Cline CLI como agente de codificación dentro de un
+bucle impulsado por función de pérdida. Cline es la *superficie de la herramienta* el agente
+utiliza dentro del bucle. El conductor (Hermes o cualquier otro orquestador)
+posee el bucle, la función de pérdida y el verificador se ejecuta. Clina
+posee la llamada del modelo, el contexto por iteración, las ediciones del archivo,
+y la prueba se ejecuta dentro de su zona de pruebas. Carga esta habilidad siempre que
+iniciar, monitorear o interrumpir una sesión de Cline desde
+dentro de un bucle controlado por función de pérdida. Cárgalo también al construir.
+un script contenedor de Cline: la forma de invocación verificada, el
+El esquema NDJSON, el analizador y el contrato que debe tener el contenedor.
+Satisfacer a todos los que viven aquí.

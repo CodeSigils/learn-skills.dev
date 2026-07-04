@@ -1,0 +1,13 @@
+Cómo manejar el código auxiliar de **agente falso** como codificación interna
+agente dentro de un bucle impulsado por una función de pérdida. El agente falso
+es un código auxiliar determinista: repite el mensaje del ciclo
+como "texto candidato", escribe un archivo fijo en el
+directorio de iteración y emite un JSON determinista
+resultado. No hay modelo, ni red, ni debilidad.
+Este adaptador existe para **pruebas de prueba interna**: verificar
+que el propio sistema LFD funcione de extremo a extremo sin
+gastar tokens o depender de un agente de codificación real.
+Cargue esta habilidad al crear un verificador determinista
+(el sistema LFD se verifica a sí mismo), o al probar
+el bucle / andamio / analizadores en CI. NO lo use para
+ciclos de desarrollo reales.

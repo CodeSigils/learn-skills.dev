@@ -1,0 +1,11 @@
+Cómo manejar la CLI de OpenAI Codex como agente de codificación
+dentro de un bucle controlado por función de pérdida. El conductor (Hermes
+o cualquier orquestador) es dueño del bucle, la función de pérdida,
+y el verificador se ejecuta. Codex es propietario de la llamada modelo, la
+contexto por iteración, las ediciones de archivos y la prueba
+corre. Cargue esta habilidad cada vez que inicie, monitoree,
+o interrumpir una sesión del Codex desde el interior de un
+bucle impulsado por función de pérdida, y al construir un Codex
+script contenedor: los indicadores del modo ejecutivo verificados, el
+El esquema de eventos JSON, el analizador y el contrato
+El envoltorio debe satisfacer a todos los que viven aquí.

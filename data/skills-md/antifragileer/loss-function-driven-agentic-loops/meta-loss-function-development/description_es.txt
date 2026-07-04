@@ -1,0 +1,19 @@
+Convierta un objetivo de alto nivel ("construya X en Y usando la función de pérdida
+desarrollo") en un mensaje /objetivo completo y pegable más
+el andamio del arnés que impulsa. La salida es una sola
+bloque de texto listo para pegar en /objetivo de una nueva sesión
+comando.
+
+Cargue esta habilidad cada vez que el usuario diga algo de: "función de pérdida
+desarrollo", "LFD", "/objetivo", "usar el patrón de bucle en X",
+"configurar un bucle controlado por pérdidas para Y", "Quiero construir Z con
+el patrón de ingeniería de arnés", o describe un proyecto que
+Quiere conducir con un bucle de función de pérdida. Cárgalo también cuando
+el usuario pega un mensaje /objetivo y solicita una revisión, o dice
+"este bucle no converge" y el fallo está en la portería
+especificación en lugar de en el arnés.
+
+Esta habilidad es el *meta-loop*: produce los artefactos
+que describe la habilidad de diseño de función de pérdida. no lo hace
+ejecutar el bucle en sí. La salida es consumida por un nuevo
+sesión que ejecuta el bucle.

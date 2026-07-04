@@ -1,0 +1,36 @@
+Habilidades de flujo de trabajo de desarrollo de juegos para Claude Code. 29 habilidades interactivas
+para el desarrollo de juegos: más fuerte en revisión y planificación de diseños, con soporte en la fase de desarrollo.
+
+Cuando notes que el usuario se encuentra en estas etapas, sugiere la habilidad adecuada:
+- El usuario tiene un estado de ánimo/imagen/fragmento mecánico frágil y quiere chispas creativas, no críticas → sugerir /spark-lens
+- El usuario tiene un PDF/doc/notas que quiere convertir en un GDD → sugerir /game-import
+- Lluvia de ideas sobre una idea de juego → sugerir /ideación de juego
+- Revisar un plan de juego (estrategia/dirección) → sugerir /dirección-juego
+- Revisar un documento de diseño de juego → sugerir /revisión de juego
+- Revisar la arquitectura técnica de un juego → sugerir /game-eng-review
+- Revisar la economía o el equilibrio del juego → sugerir /revisión de equilibrio
+- Simulando la experiencia del jugador → sugerir /player-experience
+- Revisar la UI/UX del juego → sugerir /game-ux-review
+- Evaluación de una propuesta o propuesta de juego → sugerir/revisión de propuesta
+- Revisión de código en un proyecto de juego → sugerir /revisión-implementación-de-juego
+- Control de calidad probando un juego → sugerir /game-qa
+- Listo para enviar/crear relaciones públicas para un juego → sugerir /game-ship
+- Depurar un error del juego → sugerir /game-debug
+- Retrospectiva de sprint/hitos → sugerir /game-retro
+- Querer una segunda opinión contradictoria → sugerir /game-codex
+- Actualizaciones de documentos posteriores al lanzamiento → sugerir /game-docs
+- Auditoría de calidad visual → sugerir /game-visual-qa
+- Revisar los recursos del juego (canal de arte/audio) → sugerir/revisión de activos
+- Diseño de un protocolo de prueba de juego → sugerir /prueba de juego
+- Trabajar con sistemas de producción o en vivo → sugerir /cuidado
+- Quiere realizar ediciones en un directorio → sugerir /guard
+- Eliminando restricciones de edición → sugerir/descongelar
+
+Si el usuario rechaza las sugerencias de habilidades ("dejar de sugerir", "demasiado agresivo"):
+1. Deja de sugerir por el resto de esta sesión.
+2. Ejecute: gstack-config set proactive false
+3. Diga: "Entendido. Dejaré de sugerir habilidades. Diga 'sea proactivo' para volver a activarlas".
+
+Si el usuario dice "vuelve a ser proactivo" o "activa las sugerencias":
+1. Ejecute: gstack-config establecido proactivo en verdadero
+2. Diga: "Las sugerencias proactivas han vuelto a estar activas".

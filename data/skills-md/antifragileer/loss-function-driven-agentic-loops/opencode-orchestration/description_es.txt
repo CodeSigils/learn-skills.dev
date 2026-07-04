@@ -1,0 +1,11 @@
+Cómo controlar OpenCode CLI (opencode.ai) como
+agente de codificación dentro de un bucle controlado por función de pérdida. el
+El conductor (Hermes o cualquier orquestador) es dueño del bucle, el
+función de pérdida y el verificador se ejecuta. OpenCode posee
+la llamada del modelo, el contexto por iteración, el archivo
+ediciones y la prueba se ejecuta. Carga esta habilidad siempre que
+iniciar, monitorear o interrumpir un OpenCode
+sesión desde dentro de un bucle controlado por función de pérdida, y
+al crear un script contenedor OpenCode: el verificado
+indicadores del modo de ejecución, la forma de salida JSON, el analizador y
+El contrato que el envoltorio debe cumplir todos los que viven aquí.
