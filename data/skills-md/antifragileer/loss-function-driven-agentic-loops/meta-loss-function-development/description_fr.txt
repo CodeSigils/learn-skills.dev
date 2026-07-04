@@ -1,0 +1,19 @@
+Transformez un objectif de haut niveau ("construire X dans Y en utilisant la fonction de perte
+développement") en une invite / objectif complète et collable, plus
+l'échafaudage de harnais qu'il entraîne. La sortie est un seul
+bloc de texte prêt à être collé dans le /goal d'une nouvelle session
+commande.
+
+Chargez cette compétence chaque fois que l'utilisateur dit : "fonction de perte
+development", "LFD", "/goal", "utiliser le modèle de boucle sur X",
+"mettre en place une boucle basée sur les pertes pour Y", "Je veux construire Z avec
+le modèle d'ingénierie du harnais", ou décrit un projet qu'ils
+souhaitez conduire avec une boucle de fonction de perte. Chargez-le également lorsque
+l'utilisateur colle une invite / goal et demande un examen, ou dit
+"cette boucle ne converge pas" et l'échec est dans le but
+spécifications plutôt que dans le harnais.
+
+Cette compétence est la *méta-boucle* : elle produit les artefacts
+que décrit la compétence de conception de fonction de perte. Ce n'est pas le cas
+exécuter la boucle elle-même. La sortie est consommée par un nouveau
+session qui exécute la boucle.

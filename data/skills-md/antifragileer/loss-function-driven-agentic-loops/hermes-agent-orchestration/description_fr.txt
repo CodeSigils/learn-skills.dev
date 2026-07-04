@@ -1,0 +1,11 @@
+Comment piloter la CLI Hermes Agent (Nous Research) en tant que
+agent de codage à l'intérieur d'une boucle pilotée par une fonction de perte. Le
+le pilote (Hermes ou tout orchestrateur) est propriétaire de la boucle externe,
+la fonction de perte et le vérificateur s'exécute. L'intérieur
+La session Hermes possède l'appel de modèle, la per-itération
+contexte, les modifications du fichier et les exécutions de tests. Charge ceci
+compétence chaque fois que vous lancez un chat Hermes imbriqué en tant que
+agent interne, et lors de la construction d'un script wrapper Hermes
+— les indicateurs du mode chat vérifiés, la forme de sortie JSON,
+l'analyseur et le contrat que le wrapper doit satisfaire
+tous vivent ici.

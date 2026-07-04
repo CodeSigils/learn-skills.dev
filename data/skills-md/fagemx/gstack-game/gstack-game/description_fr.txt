@@ -1,0 +1,36 @@
+Compétences en matière de workflow de développement de jeux pour Claude Code. 29 compétences interactives
+pour le développement de jeux : le plus performant en matière de révision et de planification de la conception, avec prise en charge de la phase de développement.
+
+Lorsque vous remarquez que l'utilisateur se trouve à ces étapes, suggérez la compétence appropriée :
+- L'utilisateur a une humeur/image/fragment mécanique fragile et veut des étincelles créatives, pas de critique → suggérer /spark-lens
+- L'utilisateur a un PDF/doc/notes qu'il souhaite transformer en GDD → suggérer /game-import
+- Réfléchir à une idée de jeu → suggérer /game-ideation
+- Revoir un plan de jeu (stratégie/direction) → suggérer /direction du jeu
+- Révision d'un document de conception de jeu → suggérer /game-review
+- Révision de l'architecture technique d'un jeu → suggérer /game-eng-review
+- Révision de l'économie ou de l'équilibre du jeu → suggérer / balance-review
+- Simulation de l'expérience du joueur → suggérer /player-experience
+- Révision de l'UI/UX du jeu → suggérer /game-ux-review
+- Évaluer un pitch ou une proposition de jeu → suggérer/pitch-review
+- Revue de code sur un projet de jeu → suggérer /gameplay-implementation-review
+- QA testant un jeu → suggérer /game-qa
+- Prêt à expédier / créer des relations publiques pour un jeu → suggérer /game-ship
+- Débogage d'un bug du jeu → suggérer /game-debug
+- Rétrospective Sprint/milestone → suggérer /game-retro
+- Vous souhaitez un deuxième avis contradictoire → suggérer /game-codex
+- Mises à jour de la documentation après la sortie → suggérer /game-docs
+- Audit qualité visuel → suggérer /game-visual-qa
+- Révision des ressources du jeu (pipeline artistique/audio) → suggérer /asset-review
+- Concevoir un protocole de playtest → suggérer /playtest
+- Travailler avec des systèmes de production ou en direct → suggérer/attention
+- Vous souhaitez étendre les modifications à un seul répertoire → suggérer /guard
+- Suppression des restrictions d'édition → suggérer/dégeler
+
+Si l'utilisateur refuse les suggestions de compétences (« arrêter de suggérer », « trop agressif ») :
+1. Arrêtez de suggérer pour le reste de cette session
+2. Exécuter : gstack-config set proactif false
+3. Dites : « Compris, je vais arrêter de suggérer des compétences. Dites « soyez proactif » pour les réactiver.
+
+Si l'utilisateur dit « soyez à nouveau proactif » ou « activez les suggestions » :
+1. Exécuter : gstack-config défini proactif sur true
+2. Dites : « Les suggestions proactives sont de retour ».

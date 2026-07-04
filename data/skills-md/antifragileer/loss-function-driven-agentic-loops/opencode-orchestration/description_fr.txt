@@ -1,0 +1,11 @@
+Comment piloter la CLI OpenCode (opencode.ai) en tant que
+agent de codage à l'intérieur d'une boucle pilotée par une fonction de perte. Le
+le pilote (Hermes ou n'importe quel orchestrateur) est propriétaire de la boucle, le
+fonction de perte et le vérificateur s'exécute. OpenCode possède
+l'appel du modèle, le contexte par itération, le fichier
+les modifications et les tests s'exécutent. Chargez cette compétence à tout moment
+lancer, surveiller ou interrompre un OpenCode
+session depuis l'intérieur d'une boucle pilotée par une fonction de perte, et
+lors de la création d'un script wrapper OpenCode - le vérifié
+les indicateurs de mode d'exécution, la forme de sortie JSON, l'analyseur et
+le contrat que le wrapper doit satisfaire à tous ceux qui vivent ici.

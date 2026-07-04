@@ -1,0 +1,11 @@
+Comment piloter la CLI Cline en tant qu'agent de codage dans un
+boucle pilotée par une fonction de perte. Cline est la *surface de l'outil* l'agent
+utilise à l'intérieur de la boucle. Le chauffeur (Hermès ou tout autre orchestrateur)
+possède la boucle, la fonction de perte et le vérificateur s'exécute. Clin
+possède l'appel du modèle, le contexte par itération, les modifications du fichier,
+et le test s'exécute dans son bac à sable. Chargez cette compétence à tout moment
+lancer, surveiller ou interrompre une session Cline depuis
+à l'intérieur d'une boucle pilotée par une fonction de perte. Chargez-le également lors de la construction
+un script wrapper Cline - la forme d'invocation vérifiée, le
+Le schéma NDJSON, l'analyseur et le contrat que le wrapper doit
+satisfaire tous ceux qui vivent ici.

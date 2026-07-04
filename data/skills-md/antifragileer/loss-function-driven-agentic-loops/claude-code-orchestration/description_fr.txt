@@ -1,0 +1,11 @@
+Comment piloter la Claude Code CLI (Anthropic) comme codage
+agent à l’intérieur d’une boucle pilotée par une fonction de perte. Le chauffeur
+(Hermès ou n'importe quel orchestrateur) possède la boucle, la perte
+fonction et le vérificateur s'exécute. Claude Code est propriétaire du modèle
+l'appel, le contexte par itération, les modifications du fichier et le
+essais. Chargez cette compétence à chaque lancement, surveillance,
+ou interrompre une session Claude Code depuis l'intérieur d'un
+boucle pilotée par une fonction de perte, et lors de la construction d'un code Claude
+script wrapper - les indicateurs de mode d'impression vérifiés, le JSON
+le schéma de sortie, l'analyseur et le contrat le wrapper
+doit satisfaire tous ceux qui vivent ici.

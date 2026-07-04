@@ -1,0 +1,11 @@
+Comment piloter la CLI OpenAI Codex en tant qu'agent de codage
+à l'intérieur d'une boucle pilotée par une fonction de perte. Le chauffeur (Hermès
+ou tout orchestrateur) possède la boucle, la fonction de perte,
+et le vérificateur s'exécute. Le Codex est propriétaire de l'appel modèle, le
+contexte par itération, les modifications du fichier et le test
+court. Chargez cette compétence à chaque lancement, surveillance,
+ou interrompre une session du Codex depuis l'intérieur d'un
+boucle pilotée par une fonction de perte, et lors de la construction d'un Codex
+script wrapper - les indicateurs de mode d'exécution vérifiés, le
+Le schéma d'événement JSON, l'analyseur et le contrat
+le wrapper doit satisfaire tous les live ici.

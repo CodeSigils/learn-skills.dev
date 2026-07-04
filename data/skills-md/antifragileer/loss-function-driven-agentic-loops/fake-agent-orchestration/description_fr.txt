@@ -1,0 +1,13 @@
+Comment piloter le stub **fake-agent** comme codage interne
+agent à l’intérieur d’une boucle pilotée par une fonction de perte. Le faux agent
+est un stub déterministe : il fait écho à l'invite du cycle
+comme "texte candidat", écrit un fichier fixe dans le
+répertoire d'itération, et émet un JSON déterministe
+résultat. Il n’y a pas de modèle, pas de réseau, pas de fragilité.
+Cet adaptateur existe pour les **tests dogfood** – vérification
+que le système LFD lui-même fonctionne de bout en bout sans
+dépenser des jetons ou dépendre d'un véritable agent de codage.
+Chargez cette compétence lors de la création d'un vérificateur déterministe
+(le système LFD se vérifie lui-même), ou lors des tests
+la boucle / l'échafaudage / les analyseurs en CI. Ne l'utilisez PAS pour
+cycles de développement réels.
