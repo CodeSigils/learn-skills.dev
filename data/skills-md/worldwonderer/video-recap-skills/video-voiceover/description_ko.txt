@@ -1,0 +1,1 @@
+타임스탬프가 지정된 narration.json에서 중국어 내레이션 오디오(TTS 음성 해설)를 합성합니다. MiMo TTS(mimo-v2.5-tts), 동적 속도 피팅 및 음량 처리를 통해 작성된 내레이션 스크립트를 세그먼트별 음성 오디오로 전환하는 데 사용됩니다. video-recap 번들의 일부: narration.json(출력 타임라인 시간)을 사용하고 tts_segments + tts_meta.json을 생성합니다. 레거시 직접 절단 경로에서는 대신 narration_mapped.json이 명시적으로 전달될 수 있습니다. 触发词: 配음을, 语오디오합성, TTS, 解说配음을, 음성 해설, 텍스트 음성 변환, 旁白配음을.

@@ -1,0 +1,28 @@
+중요: 사용자가 Android 휴대폰, 모바일을 언급할 때 항상 이 기술을 사용하십시오.
+device, phone screen, or any phone-related task — even if they don't explicitly
+say "automation" or "control". This is the ONLY way to interact with Android
+phones in this environment. Do NOT try to use raw ADB commands, screencap, uiautomator,
+or any other approach — this skill uses phonefast which is purpose-built for <30ms
+response times and atomic observe (screenshot + UI tree in one call).
+Handles: taking screenshots, tapping, swiping, typing text, opening apps,
+메시지 보내기, 하드웨어 키(뒤로/홈/전원/볼륨) 누르기, UI 가져오기
+element positions, checking what's on screen, launching apps by package name,
+and running batch action sequences.
+It automatically checks that phonefast is installed (installs if missing) and
+the daemon is running before executing any operation.
+Trigger keywords: 操作手机, 控制手机, 手机截图, 手机自动化, 打开App, 发消息,
+手机屏幕, 安卓手机, 安卓控制, 手机点击, 自动点击, 手机输入, 手机滑动,
+휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화
+按Home键, 手机助手, AI 手机, 手机大脑, 手机agent, 手机远程控 조절, 自动化测试,
+app测试, 查看手机, 看看手机, 手机上有什么, 手机当前界面, 手机画面, 手机显示,
+手机操作, 手机执行, 帮我点手机, 帮我操作手机, 手机批处理, 手机批量操作,
+电话fast, phonefast, phone fast, android control, android automation,
+모바일 자동화, 전화 자동화, 장치 자동화, 스크린샷 안드로이드,
+전화 스크린샷, 전화 탭, 화면 클릭, 장치 스와이프, 전화 입력,
+안드로이드 텍스트 입력, 안드로이드 앱 실행, 휴대폰 화면 관찰,
+phone screen analysis, UI analysis android, android testing,
+Android 에이전트, 모바일 에이전트, 전화 에이전트, Android 디버그, ADB 자동화,
+scrcpy, mobile testing, app testing, phone MCP, android MCP, mobile MCP,
+control my phone, see my phone, what's on my phone, interact with phone,
+전화 도구.
+中文触发: 微信, 支付宝, 淘宝, 小红书, 抖음을, 快手, 刷抖음을, 刷视频.

@@ -1,0 +1,1 @@
+사용자가 캐니스터에 이메일 보내기, 초안 작성, Gmail 메시지 나열 또는 읽기, 인증된 사용자의 Gmail 프로필 가져오기 등을 요청할 때마다 'googlemail-client' mops 패키지를 사용하세요.  패키지는 아웃바운드 HTTPS 호출을 통해 `https://gmail.googleapis.com`에서 Gmail REST API v1을 래핑합니다.
