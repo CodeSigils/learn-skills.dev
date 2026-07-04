@@ -1,0 +1,13 @@
+So steuern Sie den **fake-agent**-Stub als innere Codierung
+Agent innerhalb einer verlustfunktionsgesteuerten Schleife. Der falsche Agent
+ist ein deterministischer Stub: Er gibt die Zyklus-Eingabeaufforderung zurück
+als „Kandidatentext“ schreibt eine feste Datei in die
+Iterationsverzeichnis und gibt ein deterministisches JSON aus
+Ergebnis. Es gibt kein Modell, kein Netzwerk, keine Flockigkeit.
+Dieser Adapter existiert für **Hundefuttertests** – zur Überprüfung
+dass das LFD-System selbst durchgängig ohne funktioniert
+Token ausgeben oder auf einen echten Codierungsagenten angewiesen sein.
+Laden Sie diese Fähigkeit, wenn Sie einen deterministischen Prüfer erstellen
+(das LFD-System verifiziert sich selbst) oder beim Testen
+die Schleife / das Gerüst / die Parser in CI. Verwenden Sie es NICHT für
+tatsächliche Entwicklungszyklen.

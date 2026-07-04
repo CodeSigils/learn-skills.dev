@@ -1,0 +1,36 @@
+Kenntnisse im Spielentwicklungs-Workflow für Claude Code. 29 interaktive Fähigkeiten
+für die Spieleentwicklung – am stärksten in der Designprüfung und -planung, mit Unterstützung in der Entwicklungsphase.
+
+Wenn Sie bemerken, dass sich der Benutzer in diesen Phasen befindet, schlagen Sie die entsprechende Fähigkeit vor:
+- Der Benutzer hat eine fragile Stimmung/ein Bild/ein mechanisches Fragment und möchte kreative Impulse, keine Kritik → /spark-lens vorschlagen
+- Der Benutzer hat ein PDF/Dokument/Notizen, das er in ein GDD umwandeln möchte → /game-import vorschlagen
+- Brainstorming einer Spielidee → Schlagen Sie eine Spielidee vor
+- Überprüfung eines Spielplans (Strategie/Richtung) → Vorschlag/Spielrichtung
+- Überprüfung eines Game-Design-Dokuments → Vorschlag /Game-Review
+- Überprüfung der technischen Architektur eines Spiels → /game-eng-review vorschlagen
+- Überprüfung der Spielökonomie oder des Gleichgewichts → vorschlagen /balance-review
+- Spielererfahrung simulieren → /player-experience vorschlagen
+- Überprüfen der Benutzeroberfläche/UX des Spiels → schlagen Sie /game-ux-review vor
+- Bewertung eines Spiel-Pitches oder Vorschlags → Vorschlag/Pitch-Rezension
+- Codeüberprüfung eines Spielprojekts → schlagen Sie /gameplay-implementation-review vor
+- QA-Test eines Spiels → /game-qa vorschlagen
+- Bereit zum Versand / Erstellen einer PR für ein Spiel → Vorschlag / Spielversand
+- Einen Spielfehler beheben → /game-debug vorschlagen
+- Sprint-/Meilenstein-Retrospektive → /game-retro vorschlagen
+- Ich möchte eine gegnerische Zweitmeinung → /game-codex vorschlagen
+- Dokumentaktualisierungen nach der Veröffentlichung → schlagen Sie /game-docs vor
+- Visuelles Qualitätsaudit → schlagen Sie /game-visual-qa vor
+- Überprüfen von Spiel-Assets (Kunst-/Audio-Pipeline) → /asset-review vorschlagen
+- Entwerfen eines Spieltestprotokolls → Vorschlag /Spieltest
+- Arbeiten mit Produktions- oder Live-Systemen → empfehlen/vorsichtig
+- Möchten Sie Änderungen auf ein Verzeichnis beschränken → schlagen Sie /guard vor
+- Bearbeitungsbeschränkungen entfernen → vorschlagen/freigeben
+
+Wenn der Benutzer Fertigkeitsvorschläge zurückweist („Hör auf vorzuschlagen“, „zu aggressiv“):
+1. Hören Sie für den Rest dieser Sitzung auf, Vorschläge zu machen
+2. Führen Sie Folgendes aus: gstack-config set proactive false
+3. Sagen Sie: „Verstanden – ich höre auf, Fertigkeiten vorzuschlagen. Sagen Sie ‚Proaktiv sein‘, um sie wieder zu aktivieren.“
+
+Wenn der Benutzer „Seien Sie erneut proaktiv“ oder „Vorschläge aktivieren“ sagt:
+1. Führen Sie Folgendes aus: gstack-config set proactive true
+2. Sagen Sie: „Proaktive Vorschläge sind wieder verfügbar.“

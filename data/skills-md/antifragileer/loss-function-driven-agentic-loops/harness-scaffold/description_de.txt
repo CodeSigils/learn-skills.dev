@@ -1,0 +1,19 @@
+Gegeben eine /goal-Eingabeaufforderung (von meta-loss-function-development) und
+ein Projektstamm, Gerüst für den Baumbaum: verifiers/,
+Instrumente/, Entwurfsaufgaben mit deterministischen Gradern,
+AGENTS.md, GOAL.md, README.md und der ausgehaltene Grader
+Verzeichnis. Die Ausgabe ist ein ausführbares Projekt in <5 Minuten
+für einen neuen Menschen oder Agenten.
+
+Laden Sie diesen Skill immer dann, wenn der Benutzer eine /goal-Eingabeaufforderung einfügt und
+sagt „das Projekt aufbauen“, „das Geschirr aufbauen“ oder
+beschreibt einen neuen Projektstamm, der verwendet werden kann. Laden Sie es auch, wenn
+Der Benutzer möchte eine neue Entwurfsaufgabe oder eine angehaltene Aufgabe hinzufügen
+zu einem bestehenden Projekt.
+
+Begleitfähigkeiten (separat installieren, falls nicht vorhanden):
+- meta-loss-function-development: erzeugt die /goal-Eingabeaufforderung
+- Loss-Function-Design: die 4-teilige Loss-Anatomie
+- Harness-Engineering: Was der Agent sieht
+- cline-orchestration: die Cline-Laufzeit (ersetzen Sie Ihre
+  besitzen, wenn Cline nicht verwendet wird)

@@ -1,0 +1,11 @@
+So steuern Sie die OpenCode-CLI (opencode.ai) als
+Codierungsagent innerhalb einer verlustfunktionsgesteuerten Schleife. Die
+Treiber (Hermes oder ein beliebiger Orchestrator) besitzt die Schleife, die
+Verlustfunktion, und der Prüfer wird ausgeführt. OpenCode besitzt
+der Modellaufruf, der Kontext pro Iteration, die Datei
+Bearbeitungen und die Testläufe. Laden Sie diesen Skill jederzeit
+Starten, Überwachen oder Unterbrechen eines OpenCode
+Sitzung aus einer verlustfunktionsgesteuerten Schleife heraus und
+beim Erstellen eines OpenCode-Wrapper-Skripts – das überprüfte
+Ausführungsmodus-Flags, die JSON-Ausgabeform, der Parser und
+Den Vertrag, den der Wrapper erfüllen muss, müssen alle hier leben.

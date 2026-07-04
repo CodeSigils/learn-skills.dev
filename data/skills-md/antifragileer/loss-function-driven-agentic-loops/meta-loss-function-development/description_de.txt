@@ -1,0 +1,19 @@
+Verwandeln Sie ein übergeordnetes Ziel („Bauen Sie X in Y mithilfe der Verlustfunktion
+development") in ein vollständiges, einfügbares /goal Prompt Plus umwandeln
+das Gurtgerüst, das es antreibt. Die Ausgabe ist eine Single
+Textblock, der in das Ziel einer neuen Sitzung eingefügt werden kann
+Befehl.
+
+Laden Sie diesen Skill immer dann, wenn der Benutzer Folgendes sagt: „Verlustfunktion“.
+development“, „LFD“, „/goal“, „verwende das Schleifenmuster auf X“,
+„Eine verlustgesteuerte Schleife für Y einrichten“, „Ich möchte Z mit erstellen
+das Harness-Engineering-Muster“ oder beschreibt ein Projekt, das sie haben
+Ich möchte mit einer Verlustfunktionsschleife fahren. Laden Sie es auch, wenn
+Der Benutzer fügt eine /goal-Eingabeaufforderung ein und bittet um Überprüfung oder sagt
+„Diese Schleife konvergiert nicht“ und der Fehler liegt im Ziel
+Spezifikation und nicht im Kabelbaum.
+
+Diese Fertigkeit ist die *Meta-Schleife*: Sie erzeugt die Artefakte
+die die Verlustfunktionsdesign-Fähigkeit beschreibt. Das ist nicht der Fall
+Führen Sie die Schleife selbst aus. Die Ausgabe wird von einem neuen verbraucht
+Sitzung, die die Schleife ausführt.

@@ -1,0 +1,22 @@
+Führen Sie die äußere Schleife eines verlustfunktionsgesteuerten Agenten aus
+Zyklus: Iterationsprotokoll lesen, Kandidatenartefakt schreiben,
+Installieren Sie es für den Agenten, führen Sie Design Set aus, bewerten Sie es und protokollieren Sie es
+Iteration, erzwungene Entropie auf Stall anwenden, wiederholen.
+
+Wird geladen, wenn eine /goal-Eingabeaufforderung in eine Sitzung eingefügt wurde
+und der Benutzer sagt „Run the Loop“, „Start Cycling“,
+„den Verlust vorantreiben“ oder „den Kandidaten wiederholen“. Auch
+laden, wenn „die Schleife nicht konvergiert“ und der Fehler auftritt
+befindet sich in der Zyklusauswahl (nicht die Zielaufforderung oder der Zielgurt).
+
+Die dritte von drei LFD-Fähigkeiten: Meta-Verlust-Funktion-
+Die Entwicklung erzeugt die /goal-Eingabeaufforderung, das Harness-Gerüst
+produziert den Baumbaum, diese Fertigkeit leitet die Zyklen.
+
+Begleitfähigkeiten (separat installieren, falls nicht vorhanden):
+- meta-loss-function-development: erzeugt die /goal-Eingabeaufforderung
+- Harness-Scaffold: Gerüst für den Projektbaum
+- Loss-Function-Design: die 4-teilige Loss-Anatomie
+- Harness-Engineering: Was der Agent sieht
+- cline-orchestration: die Cline-Laufzeit (Ersatz
+  Ihr eigenes, wenn Sie Cline nicht verwenden)

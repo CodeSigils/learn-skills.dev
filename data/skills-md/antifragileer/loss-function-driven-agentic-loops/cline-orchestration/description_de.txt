@@ -1,0 +1,11 @@
+So steuern Sie die Cline-CLI als Codierungsagent in einem
+Verlustfunktionsgesteuerte Schleife. Cline ist die *Werkzeugoberfläche* des Agenten
+Verwendet innerhalb der Schleife. Der Treiber (Hermes oder ein anderer Orchestrator)
+besitzt die Schleife, die Verlustfunktion und die Verifiziererläufe. Cline
+besitzt den Modellaufruf, den Kontext pro Iteration, die Dateibearbeitungen,
+und der Test läuft in seiner Sandbox. Laden Sie diesen Skill jederzeit
+Starten, Überwachen oder Unterbrechen einer Cline-Sitzung
+innerhalb einer verlustfunktionsgesteuerten Schleife. Laden Sie es auch beim Bauen
+ein Cline-Wrapper-Skript – die verifizierte Aufrufform, die
+NDJSON-Schema, der Parser und der Vertrag, den der Wrapper benötigen muss
+erfüllen alle, die hier leben.
