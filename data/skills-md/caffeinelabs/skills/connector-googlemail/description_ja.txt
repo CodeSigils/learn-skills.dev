@@ -1,0 +1,1 @@
+ユーザーがキャニスターに電子メールの送信、下書きの作成、Gmail メッセージのリストまたは読み取り、または認証されたユーザーの Gmail プロファイルの取得を要求する場合は、必ず「googlemail-client」mops パッケージを使用します。  このパッケージは、アウトバウンド HTTPS 呼び出しを介して「https://gmail.googleapis.com」で Gmail REST API v1 をラップします。
