@@ -1,0 +1,22 @@
+Run the outer loop of a loss-function-driven agentic
+cycle: read iteration log, write candidate artifact,
+install it for the agent, run design set, score, log
+iteration, apply forced entropy on stall, repeat.
+
+Load when a /goal prompt has been pasted into a session
+and the user says "run the loop", "start cycling",
+"drive the loss", or "iterate on the candidate". Also
+load when "the loop isn't converging" and the failure
+is in cycle selection (not the goal prompt or harness).
+
+The third of three LFD skills: meta-loss-function-
+development produces the /goal prompt, harness-scaffold
+produces the harness tree, this skill runs the cycles.
+
+Companion skills (install separately if not present):
+- meta-loss-function-development: produces the /goal prompt
+- harness-scaffold: scaffolds the project tree
+- loss-function-design: the 4-piece loss anatomy
+- harness-engineering: what the agent sees
+- cline-orchestration: the Cline runtime (substitute
+  your own if not using Cline)

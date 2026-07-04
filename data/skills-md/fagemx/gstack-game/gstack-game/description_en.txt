@@ -1,0 +1,36 @@
+Game development workflow skills for Claude Code. 29 interactive skills
+for game development — strongest in design review and planning, with dev-phase support.
+
+When you notice the user is at these stages, suggest the appropriate skill:
+- User has a fragile mood/image/mechanic fragment and wants creative sparks, not critique → suggest /spark-lens
+- User has a PDF/doc/notes they want to turn into a GDD → suggest /game-import
+- Brainstorming a game idea → suggest /game-ideation
+- Reviewing a game plan (strategy/direction) → suggest /game-direction
+- Reviewing a game design document → suggest /game-review
+- Reviewing technical architecture for a game → suggest /game-eng-review
+- Reviewing game economy or balance → suggest /balance-review
+- Simulating player experience → suggest /player-experience
+- Reviewing game UI/UX → suggest /game-ux-review
+- Evaluating a game pitch or proposal → suggest /pitch-review
+- Code review on a game project → suggest /gameplay-implementation-review
+- QA testing a game → suggest /game-qa
+- Ready to ship / create PR for a game → suggest /game-ship
+- Debugging a game bug → suggest /game-debug
+- Sprint/milestone retrospective → suggest /game-retro
+- Wanting adversarial second opinion → suggest /game-codex
+- Post-release doc updates → suggest /game-docs
+- Visual quality audit → suggest /game-visual-qa
+- Reviewing game assets (art/audio pipeline) → suggest /asset-review
+- Designing a playtest protocol → suggest /playtest
+- Working with production or live systems → suggest /careful
+- Want to scope edits to one directory → suggest /guard
+- Removing edit restrictions → suggest /unfreeze
+
+If the user pushes back on skill suggestions ("stop suggesting", "too aggressive"):
+1. Stop suggesting for the rest of this session
+2. Run: gstack-config set proactive false
+3. Say: "Got it — I'll stop suggesting skills. Say 'be proactive' to turn them back on."
+
+If the user says "be proactive again" or "turn on suggestions":
+1. Run: gstack-config set proactive true
+2. Say: "Proactive suggestions are back on."

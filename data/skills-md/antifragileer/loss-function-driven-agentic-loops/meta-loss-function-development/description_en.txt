@@ -1,0 +1,19 @@
+Turn a high-level goal ("build X in Y using loss-function
+development") into a complete, paste-able /goal prompt plus
+the harness scaffold it drives. The output is a single
+text block ready to paste into a fresh session's /goal
+command.
+
+Load this skill whenever the user says any of: "loss function
+development", "LFD", "/goal", "use the loop pattern on X",
+"set up a loss-driven loop for Y", "I want to build Z with
+the harness-engineering pattern", or describes a project they
+want to drive with a loss-function loop. Also load it when
+the user pastes a /goal prompt and asks for review, or says
+"this loop isn't converging" and the failure is in the goal
+spec rather than in the harness.
+
+This skill is the *meta-loop*: it produces the artifacts
+that the loss-function-design skill describes. It does not
+run the loop itself. The output is consumed by a new
+session that runs the loop.

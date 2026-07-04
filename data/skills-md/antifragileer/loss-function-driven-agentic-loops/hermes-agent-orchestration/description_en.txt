@@ -1,0 +1,11 @@
+How to drive the Hermes Agent CLI (Nous Research) as the
+coding agent inside a loss-function-driven loop. The
+driver (Hermes or any orchestrator) owns the outer loop,
+the loss function, and the verifier runs. The inner
+Hermes session owns the model call, the per-iteration
+context, the file edits, and the test runs. Load this
+skill whenever launching a nested Hermes chat as the
+inner agent, and when building a Hermes wrapper script
+— the verified chat-mode flags, the JSON output shape,
+the parser, and the contract the wrapper must satisfy
+all live here.

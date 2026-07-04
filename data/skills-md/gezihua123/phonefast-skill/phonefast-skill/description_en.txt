@@ -1,0 +1,28 @@
+CRITICAL: Always use this skill when the user mentions an Android phone, mobile
+device, phone screen, or any phone-related task — even if they don't explicitly
+say "automation" or "control". This is the ONLY way to interact with Android
+phones in this environment. Do NOT try to use raw ADB commands, screencap, uiautomator,
+or any other approach — this skill uses phonefast which is purpose-built for <30ms
+response times and atomic observe (screenshot + UI tree in one call).
+Handles: taking screenshots, tapping, swiping, typing text, opening apps,
+sending messages, pressing hardware keys (back/home/power/volume), getting UI
+element positions, checking what's on screen, launching apps by package name,
+and running batch action sequences.
+It automatically checks that phonefast is installed (installs if missing) and
+the daemon is running before executing any operation.
+Trigger keywords: 操作手机, 控制手机, 手机截图, 手机自动化, 打开App, 发消息,
+手机屏幕, 安卓手机, 安卓控制, 手机点击, 自动点击, 手机输入, 手机滑动,
+手机测试, 手机调试, 手机UI, 手机界面, 获取界面元素, 启动应用, 按返回键,
+按Home键, 手机助手, AI手机, 手机大脑, 手机agent, 手机远程控制, 自动化测试,
+app测试, 查看手机, 看看手机, 手机上有什么, 手机当前界面, 手机画面, 手机显示,
+手机操作, 手机执行, 帮我点手机, 帮我操作手机, 手机批处理, 手机批量操作,
+电话fast, phonefast, phone fast, android control, android automation,
+mobile automation, phone automation, device automation, screenshot android,
+screenshot phone, tap on phone, click on screen, swipe on device, type on phone,
+type text android, launch app android, observe phone screen,
+phone screen analysis, UI analysis android, android testing,
+android agent, mobile agent, phone agent, android debug, adb automation,
+scrcpy, mobile testing, app testing, phone MCP, android MCP, mobile MCP,
+control my phone, see my phone, what's on my phone, interact with phone,
+phone tool.
+中文触发: 微信, 支付宝, 淘宝, 小红书, 抖音, 快手, 刷抖音, 刷视频.

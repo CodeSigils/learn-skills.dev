@@ -1,0 +1,11 @@
+How to drive the OpenCode CLI (opencode.ai) as the
+coding agent inside a loss-function-driven loop. The
+driver (Hermes or any orchestrator) owns the loop, the
+loss function, and the verifier runs. OpenCode owns
+the model call, the per-iteration context, the file
+edits, and the test runs. Load this skill whenever
+launching, monitoring, or interrupting an OpenCode
+session from inside a loss-function-driven loop, and
+when building an OpenCode wrapper script — the verified
+run-mode flags, the JSON output shape, the parser, and
+the contract the wrapper must satisfy all live here.

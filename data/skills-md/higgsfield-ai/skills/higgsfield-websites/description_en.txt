@@ -1,0 +1,16 @@
+Build, edit, and deploy full-stack websites via the Higgsfield CLI
+(`higgsfield website …`). Each site is a React 19 + TanStack Start SSR app in
+one Cloudflare Worker (D1/R2/KV/DO/Containers). The loop: create →
+repo-access → clone → edit → push → deploy preview. This is the website
+template's AGENTS.md: an IMAGE-GROUNDED, phased build pipeline (intake →
+concept → reference boards → asset system → build-to-boards → motion →
+review gates), hard rules, editing map, verify/deploy/publish flow, and
+per-task references. Everything is here.
+Use when: "build me a website", "make a landing page", "create a web app",
+"build a SaaS dashboard / tool / portfolio", "deploy this site", "edit my
+site", "publish", "ship to production".
+Create requires --type: "website" (no Higgsfield integration) vs "app"
+(Higgsfield sign-in + SDK, Quanta + standard layouts).
+NOT for: single image/video/audio generation (higgsfield-generate), product
+photos (higgsfield-product-photoshoot), marketplace cards
+(higgsfield-marketplace-cards).

@@ -1,0 +1,9 @@
+Use this qiaomu skill workflow when the user wants to check whether their
+local or browser environment looks like a China user before accessing AI
+models, using yArna/isChinaUser first, then asking for explicit consent before
+safe privacy-hygiene guidance. Trigger on requests such as "我是中国人但想用顶级AI",
+"检测中国用户特征", "用 isChinaUser 检测", "qiaomu-ai-access", "AI access region
+signal check", or "先检测再问我要不要整理隐私特征". Do not provide VPN/proxy,
+geofence bypass, sanctions evasion, account-region spoofing, KYC/payment
+misrepresentation, CAPTCHA/device-fingerprint bypass, or platform-risk
+evasion instructions; offer compliant alternatives instead.

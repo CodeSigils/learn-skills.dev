@@ -1,0 +1,19 @@
+Given a /goal prompt (from meta-loss-function-development) and
+a project root, scaffold the harness tree: verifiers/,
+instruments/, design tasks with deterministic graders,
+AGENTS.md, GOAL.md, README.md, and the held-out grader
+directory. The output is a runnable project in <5 minutes
+for a fresh human or agent.
+
+Load this skill whenever the user pastes a /goal prompt and
+says "scaffold the project", "set up the harness", or
+describes a fresh project root to use. Also load it when
+the user wants to add a new design task or held-out task
+to an existing project.
+
+Companion skills (install separately if not present):
+- meta-loss-function-development: produces the /goal prompt
+- loss-function-design: the 4-piece loss anatomy
+- harness-engineering: what the agent sees
+- cline-orchestration: the Cline runtime (substitute your
+  own if not using Cline)

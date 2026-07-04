@@ -1,0 +1,13 @@
+How to drive the **fake-agent** stub as the inner coding
+agent inside a loss-function-driven loop. The fake agent
+is a deterministic stub: it echoes the cycle prompt back
+as the "candidate text", writes a fixed file to the
+iteration directory, and emits a deterministic JSON
+result. There is no model, no network, no flakiness.
+This adapter exists for **dogfood testing** — verifying
+that the LFD system itself works end-to-end without
+spending tokens or depending on a real coding agent.
+Load this skill when building a deterministic verifier
+(the LFD system verifies itself), or when testing
+the loop / scaffold / parsers in CI. Do NOT use it for
+actual development cycles.

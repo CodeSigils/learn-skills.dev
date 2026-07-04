@@ -1,0 +1,1 @@
+Seal Kubernetes Secrets into SealedSecrets using kubeseal for secure GitOps storage. Use when users need to create or update SealedSecrets, seal credentials for GitOps repos, or migrate secrets between services. NEVER leak plaintext credentials or seal keys in output, logs, or files.

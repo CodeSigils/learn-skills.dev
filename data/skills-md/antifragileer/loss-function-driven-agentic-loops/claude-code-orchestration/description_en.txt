@@ -1,0 +1,11 @@
+How to drive the Claude Code CLI (Anthropic) as the coding
+agent inside a loss-function-driven loop. The driver
+(Hermes or any orchestrator) owns the loop, the loss
+function, and the verifier runs. Claude Code owns the model
+call, the per-iteration context, the file edits, and the
+test runs. Load this skill whenever launching, monitoring,
+or interrupting a Claude Code session from inside a
+loss-function-driven loop, and when building a Claude Code
+wrapper script — the verified print-mode flags, the JSON
+output schema, the parser, and the contract the wrapper
+must satisfy all live here.

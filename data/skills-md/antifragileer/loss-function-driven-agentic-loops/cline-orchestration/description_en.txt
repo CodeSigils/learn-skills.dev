@@ -1,0 +1,11 @@
+How to drive the Cline CLI as the coding agent inside a
+loss-function-driven loop. Cline is the *tool surface* the agent
+uses inside the loop. The driver (Hermes or any other orchestrator)
+owns the loop, the loss function, and the verifier runs. Cline
+owns the model call, the per-iteration context, the file edits,
+and the test runs inside its sandbox. Load this skill whenever
+launching, monitoring, or interrupting a Cline session from
+inside a loss-function-driven loop. Also load it when building
+a Cline wrapper script — the verified invocation shape, the
+NDJSON schema, the parser, and the contract the wrapper must
+satisfy all live here.
