@@ -1,28 +1,28 @@
 중요: 사용자가 Android 휴대폰, 모바일을 언급할 때 항상 이 기술을 사용하십시오.
-device, phone screen, or any phone-related task — even if they don't explicitly
-say "automation" or "control". This is the ONLY way to interact with Android
-phones in this environment. Do NOT try to use raw ADB commands, screencap, uiautomator,
-or any other approach — this skill uses phonefast which is purpose-built for <30ms
-response times and atomic observe (screenshot + UI tree in one call).
-Handles: taking screenshots, tapping, swiping, typing text, opening apps,
+장치, 전화 화면 또는 전화 관련 작업 - 명시적으로 그렇지 않은 경우에도 마찬가지입니다.
+"자동화" 또는 "제어"라고 말하세요. 이것이 Android와 상호작용할 수 있는 유일한 방법입니다.
+이 환경에서는 휴대폰이 필요합니다. 원시 ADB 명령, screencap, uiautomator를 사용하지 마십시오.
+또는 다른 접근 방식 — 이 기술은 30ms 미만을 위해 특별히 제작된 Phonefast를 사용합니다.
+응답 시간 및 원자 관찰(한 번의 호출에서 스크린샷 + UI 트리)
+처리: 스크린샷 찍기, 탭하기, 스와이프하기, 텍스트 입력하기, 앱 열기,
 메시지 보내기, 하드웨어 키(뒤로/홈/전원/볼륨) 누르기, UI 가져오기
-element positions, checking what's on screen, launching apps by package name,
-and running batch action sequences.
-It automatically checks that phonefast is installed (installs if missing) and
-the daemon is running before executing any operation.
-Trigger keywords: 操作手机, 控制手机, 手机截图, 手机自动化, 打开App, 发消息,
-手机屏幕, 安卓手机, 安卓控制, 手机点击, 自动点击, 手机输入, 手机滑动,
+요소 위치, 화면 내용 확인, 패키지 이름으로 앱 실행,
+일괄 작업 시퀀스를 실행합니다.
+Phonefast가 설치되어 있는지 자동으로 확인하고(누락된 경우 설치)
+작업을 실행하기 전에 데몬이 실행 중입니다.
+트리거 키워드: 操작품수机, 控제수机, 수机截图, 수机自动化, 打开App, 发消息,
+手机屏幕, 安卓手机, 安卓控system, 手机点击, 自动点击, 手机输入, 手机滑动,
 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화, 휴대전화
 按Home键, 手机助手, AI 手机, 手机大脑, 手机agent, 手机远程控 조절, 自动化测试,
-app测试, 查看手机, 看看手机, 手机上有什么, 手机当前界面, 手机画面, 手机显示,
-手机操作, 手机执行, 帮我点手机, 帮我操作手机, 手机批处理, 手机批量操作,
-电话fast, phonefast, phone fast, android control, android automation,
+app测试, 查看手机, 看看手机, 手机上有什么, 手机当前界면, 手机画면, 手机显示,
+手机操작품, 手机执行, 帮我点手机, 帮我操事手机, 手机批处理, 手机批weight操작품,
+电话fast, Phonefast, Phone Fast, 안드로이드 제어, 안드로이드 자동화,
 모바일 자동화, 전화 자동화, 장치 자동화, 스크린샷 안드로이드,
 전화 스크린샷, 전화 탭, 화면 클릭, 장치 스와이프, 전화 입력,
 안드로이드 텍스트 입력, 안드로이드 앱 실행, 휴대폰 화면 관찰,
-phone screen analysis, UI analysis android, android testing,
+휴대폰 화면 분석, UI 분석 안드로이드, 안드로이드 테스트,
 Android 에이전트, 모바일 에이전트, 전화 에이전트, Android 디버그, ADB 자동화,
-scrcpy, mobile testing, app testing, phone MCP, android MCP, mobile MCP,
-control my phone, see my phone, what's on my phone, interact with phone,
+scrcpy, 모바일 테스트, 앱 테스트, 전화 MCP, 안드로이드 MCP, 모바일 MCP,
+내 휴대폰 제어, 내 휴대폰 보기, 내 휴대폰에 있는 내용, 휴대폰과 상호작용,
 전화 도구.
 中文触发: 微信, 支付宝, 淘宝, 小红书, 抖음을, 快手, 刷抖음을, 刷视频.

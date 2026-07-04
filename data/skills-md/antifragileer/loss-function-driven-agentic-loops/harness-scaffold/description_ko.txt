@@ -1,19 +1,19 @@
-(메타 손실 기능 개발에서) /goal 프롬프트가 주어지고
-프로젝트 루트, 하네스 트리 스캐폴드: verifiers/,
-도구/, 결정론적 그레이더를 사용한 설계 작업,
-AGENTS.md, GOAL.md, README.md 및 보류 채점기
-디렉토리. 출력은 5분 이내에 실행 가능한 프로젝트입니다.
-새로운 인간이나 에이전트의 경우.
+Given a /goal prompt (from meta-loss-function-development) and
+a project root, scaffold the harness tree: verifiers/,
+instruments/, design tasks with deterministic graders,
+AGENTS.md, GOAL.md, README.md, and the held-out grader
+디렉토리. The output is a runnable project in <5 minutes
+for a fresh human or agent.
 
-사용자가 /goal 프롬프트를 붙여 넣을 때마다 이 스킬을 로드하고
-"프로젝트 비계", "하네스 설정" 또는
-사용할 새로운 프로젝트 루트를 설명합니다. 다음과 같은 경우에도 로드하세요.
-사용자가 새로운 디자인 작업이나 보류된 작업을 추가하려고 합니다.
-기존 프로젝트에.
+Load this skill whenever the user pastes a /goal prompt and
+says "scaffold the project", "set up the harness", or
+describes a fresh project root to use. Also load it when
+the user wants to add a new design task or held-out task
+to an existing project.
 
-컴패니언 스킬(없을 경우 별도로 설치):
-- Meta-loss-function-development: /goal 프롬프트를 생성합니다.
-- 손실 함수 설계: 4부분 손실 해부학
-- 하네스 엔지니어링: 에이전트가 보는 것
-- cline-orchestration: Cline 런타임(대체
-  Cline을 사용하지 않는 경우 소유)
+Companion skills (install separately if not present):
+- meta-loss-function-development: produces the /goal prompt
+- loss-function-design: the 4-piece loss anatomy
+- harness-engineering: what the agent sees
+- cline-orchestration: the Cline runtime (substitute your
+  own if not using Cline)

@@ -1,1 +1,1 @@
-Foundry 專案中 Solidity 智慧合約的部署前安全性稽核。結合靜態分析（Slither、Aderyn）、符號執行（Mythril）和基於屬性的測試（使用處理程序進行模糊+不變測試），以在部署到 EVM 鏈之前捕獲重入、存取控制、預言/價格操縱和算術錯誤。也強制執行金鑰衛生（無明文私鑰、加密的強制金鑰庫）和安全部署工作流程。在編寫、審查、測試或部署 Solidity/Foundry 合約、建置 dApp 或使用 forge/cast/anvil、MetaMask 或 Web3/DeFi 程式碼時使用。
+Foundry 项目中 Solidity 智能合约的部署前安全审计。結合靜態分析（Slither、Aderyn）、符號執行（Mythril）和基於屬性的測試（使用處理程序進行模糊+不變測試），以在部署到 EVM 鏈之前捕獲重入、存取控制、預言/價格操縱和算術錯誤。还强制执行密钥卫生（无明文私钥，加密的强制密钥库）和安全部署工作流程。在編寫、審查、測試或部署 Solidity/Foundry 合約、建置 dApp 或使用 forge/cast/anvil、MetaMask 或 Web3/DeFi 程式碼時使用。

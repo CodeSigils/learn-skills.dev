@@ -1,11 +1,11 @@
-OpenAI Codex CLI를 코딩 에이전트로 구동하는 방법
-손실 함수 기반 루프 내부. 운전사(헤르메스
-또는 모든 오케스트레이터)는 루프, 손실 함수,
-검증자가 실행됩니다. Codex는 모델 호출을 소유하고 있습니다.
-반복당 컨텍스트, 파일 편집 및 테스트
-달린다. 실행, 모니터링,
-또는 내부에서 Codex 세션을 중단하는 경우
-손실 함수 기반 루프 및 Codex 구축 시
-래퍼 스크립트 — 검증된 실행 모드 플래그,
-JSON 이벤트 스키마, 파서 및 계약
-래퍼는 여기 사는 모든 사람을 만족시켜야 합니다.
+How to drive the OpenAI Codex CLI as the coding agent
+inside a loss-function-driven loop. The driver (Hermes
+or any orchestrator) owns the loop, the loss function,
+and the verifier runs. Codex owns the model call, the
+per-iteration context, the file edits, and the test
+runs. 실행, 모니터링,
+or interrupting a Codex session from inside a
+loss-function-driven loop, and when building a Codex
+wrapper script — the verified exec-mode flags, the
+JSON event schema, the parser, and the contract the
+wrapper must satisfy all live here.

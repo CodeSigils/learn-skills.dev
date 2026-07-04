@@ -2,8 +2,8 @@ So steuern Sie die OpenAI Codex CLI als Codierungsagent
 innerhalb einer verlustfunktionsgesteuerten Schleife. Der Fahrer (Hermes
 oder ein beliebiger Orchestrator) besitzt die Schleife, die Verlustfunktion,
 und der Prüfer läuft. Codex besitzt den Modellaufruf, den
-den Kontext pro Iteration, die Dateibearbeitungen und den Test
-läuft. Laden Sie diesen Skill jedes Mal, wenn Sie ihn starten, überwachen,
+den Kontext pro Iteration, die Dateiänderungen und den Test
+läuft. Laden Sie diesen Skill jedes Mal, wenn Sie starten, überwachen,
 oder eine Codex-Sitzung von innen aus unterbrechen
 Verlustfunktionsgesteuerte Schleife und beim Erstellen eines Codex
 Wrapper-Skript – die überprüften Exec-Modus-Flags, die
