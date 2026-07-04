@@ -1,0 +1,11 @@
+Come gestire la CLI OpenCode (opencode.ai) come file
+agente di codifica all'interno di un ciclo guidato dalla funzione di perdita. Il
+driver (Hermes o qualsiasi orchestratore) possiede il loop, il file
+funzione di perdita e il verificatore viene eseguito. OpenCode possiede
+la chiamata del modello, il contesto per-iterazione, il file
+modifiche e il test viene eseguito. Carica questa abilità ogni volta
+avviare, monitorare o interrompere un OpenCode
+sessione dall'interno di un ciclo guidato dalla funzione di perdita e
+quando si crea uno script wrapper OpenCode: il file verify
+flag della modalità di esecuzione, la forma di output JSON, il parser e
+il contratto che il wrapper deve soddisfare tutti vivono qui.

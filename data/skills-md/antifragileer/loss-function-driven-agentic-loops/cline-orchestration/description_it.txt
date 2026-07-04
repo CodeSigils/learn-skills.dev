@@ -1,0 +1,11 @@
+Come gestire la CLI Cline come agente di codifica all'interno di a
+ciclo guidato dalla funzione di perdita. Cline è la *superficie dello strumento*, l'agente
+usi all'interno del ciclo. L'autista (Hermes o qualsiasi altro orchestratore)
+possiede il ciclo, la funzione di perdita e il verificatore viene eseguito. Cline
+possiede la chiamata del modello, il contesto per-iterazione, le modifiche del file,
+e il test viene eseguito all'interno della sua sandbox. Carica questa abilità ogni volta
+avviare, monitorare o interrompere una sessione Cline da
+all’interno di un ciclo guidato dalla funzione di perdita. Caricalo anche durante la costruzione
+uno script wrapper Cline: la forma di invocazione verificata, il
+Schema NDJSON, parser e contratto che il wrapper deve
+soddisfare tutti vivono qui.

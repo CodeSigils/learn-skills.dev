@@ -1,0 +1,11 @@
+Come gestire l'Hermes Agent CLI (Nous Research) come il
+agente di codifica all'interno di un ciclo guidato dalla funzione di perdita. Il
+il driver (Hermes o qualsiasi orchestratore) possiede il loop esterno,
+la funzione di perdita e il verificatore viene eseguito. L'interno
+La sessione di Hermes possiede la chiamata del modello, la per-iterazione
+contesto, le modifiche del file e l'esecuzione del test. Carica questo
+abilità ogni volta che si avvia una chat Hermes nidificata come
+agente interno e durante la creazione di uno script wrapper Hermes
+— i flag verificati della modalità chat, la forma dell'output JSON,
+il parser e il contratto che il wrapper deve soddisfare
+vivono tutti qui.

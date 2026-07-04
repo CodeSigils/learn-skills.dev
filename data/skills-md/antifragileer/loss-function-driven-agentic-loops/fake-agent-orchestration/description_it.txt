@@ -1,0 +1,13 @@
+Come gestire lo stub **falso agente** come codifica interna
+agente all’interno di un ciclo guidato dalla funzione di perdita. Il falso agente
+è uno stub deterministico: fa eco al prompt del ciclo
+come "testo candidato", scrive un file fisso nel file
+directory di iterazione ed emette un JSON deterministico
+risultato. Non c’è nessun modello, nessuna rete, nessuna fragilità.
+Questo adattatore esiste per **test sperimentali**: verifica
+senza cui il sistema LFD stesso funziona end-to-end
+spendendo gettoni o dipendendo da un vero agente di codifica.
+Carica questa abilità quando costruisci un verificatore deterministico
+(il sistema LFD verifica se stesso) o durante il test
+il loop/impalcatura/parser in CI. NON usarlo per
+cicli di sviluppo reali.

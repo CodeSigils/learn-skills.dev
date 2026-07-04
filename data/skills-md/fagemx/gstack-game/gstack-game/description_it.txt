@@ -1,0 +1,36 @@
+Competenze nel flusso di lavoro di sviluppo di giochi per Claude Code. 29 abilità interattive
+per lo sviluppo di giochi: il più forte nella revisione e pianificazione del design, con supporto nella fase di sviluppo.
+
+Quando noti che l'utente si trova in queste fasi, suggerisci la competenza appropriata:
+- L'utente ha uno stato d'animo/immagine/frammento meccanico fragile e desidera scintille creative, non critiche → suggerisci/spark-lens
+- L'utente ha un PDF/doc/note che desidera trasformare in un GDD → suggerisci/importa-gioco
+- Brainstorming su un'idea di gioco → suggerimento/ideazione del gioco
+- Revisione di un piano di gioco (strategia/direzione) → suggerimento/direzione di gioco
+- Revisione di un documento di progettazione del gioco → suggerisci /revisione del gioco
+- Revisione dell'architettura tecnica di un gioco → suggest /game-eng-review
+- Revisione dell'economia o del bilanciamento del gioco → suggerimento/revisione del saldo
+- Simulazione dell'esperienza del giocatore → suggerisci / esperienza del giocatore
+- Revisione dell'interfaccia utente/UX del gioco → suggerisci /game-ux-review
+- Valutare una presentazione o una proposta di gioco → suggerimento/pitch-review
+- Revisione del codice su un progetto di gioco → suggerisci /revisione-implementazione-gameplay
+- QA testare un gioco → suggerisci /game-qa
+- Pronto per la spedizione/crea PR per un gioco → suggerisci/game-ship
+- Debug di un bug del gioco → suggerisci /game-debug
+- Retrospettiva Sprint/traguardo → suggerimento/gioco-retro
+- Volendo una seconda opinione contraddittoria → suggerisci /codice-gioco
+- Aggiornamenti dei documenti post-rilascio → suggerisci /game-docs
+- Controllo della qualità visiva → suggerisci /game-visual-qa
+- Revisione delle risorse del gioco (pipeline grafica/audio) → suggerimento/revisione delle risorse
+- Progettare un protocollo di playtest → suggerisci /playtest
+- Lavorare con sistemi di produzione o live → suggerire/attenzione
+- Vuoi limitare le modifiche a una directory → suggerisci /guard
+- Rimozione delle restrizioni di modifica → suggerisci/sblocca
+
+Se l'utente respinge i suggerimenti sulle abilità ("smetti di suggerire", "troppo aggressivo"):
+1. Smetti di suggerire per il resto della sessione
+2. Esegui: gstack-config set proactive false
+3. Di': "Capito, smetterò di suggerire competenze. Di' 'sii proattivo' per riattivarle".
+
+Se l'utente dice "sii di nuovo proattivo" o "attiva i suggerimenti":
+1. Esegui: gstack-config imposta proactive true
+2. Dire: "I suggerimenti proattivi sono di nuovo attivi".

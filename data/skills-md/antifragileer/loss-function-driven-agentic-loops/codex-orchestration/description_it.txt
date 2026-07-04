@@ -1,0 +1,11 @@
+Come gestire la CLI di OpenAI Codex come agente di codifica
+all’interno di un ciclo guidato dalla funzione di perdita. L'autista (Hermes
+o qualsiasi orchestratore) possiede il ciclo, la funzione di perdita,
+e il verificatore viene eseguito. Codex possiede il modello chiamato, the
+contesto per-iterazione, modifiche al file e test
+corre. Carica questa abilità ogni volta che avvii, monitorizzi,
+o interrompere una sessione del Codex dall'interno di a
+ciclo guidato dalla funzione di perdita e quando si costruisce un Codice
+script wrapper: i flag verificati della modalità exec, il file
+Schema degli eventi JSON, parser e contratto
+l'involucro deve soddisfare tutti coloro che vivono qui.

@@ -1,0 +1,19 @@
+Trasformare un obiettivo di alto livello ("costruire X in Y utilizzando la funzione di perdita
+development") in un prompt /goal plus completo e incollabile
+l'impalcatura dell'imbracatura che guida. L'output è un singolo
+blocco di testo pronto per essere incollato in /goal di una nuova sessione
+comando.
+
+Carica questa abilità ogni volta che l'utente dice: "funzione di perdita
+development", "LFD", "/goal", "usa il modello di loop su X",
+"imposta un ciclo basato sulle perdite per Y", "Voglio costruire Z con
+il modello di ingegneria dell'imbracatura", o descrive un progetto
+voglio guidare con un ciclo con funzione di perdita. Caricalo anche quando
+l'utente incolla un prompt /goal e chiede la revisione, o dice
+"questo circuito non converge" e il fallimento è nell'obiettivo
+specifiche piuttosto che nel cablaggio.
+
+Questa abilità è il *meta-loop*: produce gli artefatti
+che l'abilità di progettazione della funzione di perdita descrive. Non è così
+eseguire il ciclo stesso. L'output viene consumato da un nuovo
+sessione che esegue il ciclo.

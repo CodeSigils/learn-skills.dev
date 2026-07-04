@@ -1,0 +1,28 @@
+CRITICO: utilizza sempre questa abilità quando l'utente menziona un telefono Android, un cellulare
+dispositivo, schermo del telefono o qualsiasi attività relativa al telefono, anche se non esplicitamente
+dire "automazione" o "controllo". Questo è l'UNICO modo per interagire con Android
+telefoni in questo ambiente. NON provare a utilizzare comandi ADB grezzi, screencap, uiautomator,
+o qualsiasi altro approccio: questa abilità utilizza phonefast, appositamente creato per <30 ms
+tempi di risposta e osservazione atomica (screenshot + albero dell'interfaccia utente in una chiamata).
+Maniglie: acquisire screenshot, toccare, scorrere, digitare testo, aprire app,
+invio di messaggi, pressione dei tasti hardware (indietro/home/accensione/volume), visualizzazione dell'interfaccia utente
+posizioni degli elementi, controllo di cosa c'è sullo schermo, avvio di app in base al nome del pacchetto,
+ed eseguire sequenze di azioni batch.
+Controlla automaticamente che phonefast sia installato (si installa se mancante) e
+il demone è in esecuzione prima di eseguire qualsiasi operazione.
+Parole chiave attivatrici: 操作手机, 控制手机, 手机截图, 手机自动化, 打开App, 发消息,
+手机屏幕, 安卓手机, 安卓控制, 手机点击, 自动点击, 手机输入, 手机滑动,
+手机测试, 手机调试, 手机UI, 手机界面, 获取界面元素, 启动应用, 按返回键,
+按Home键, 手机助手, AI手机, 手机大脑, 手机agent, 手机远程控制, 自动化测试,
+app测试, 查看手机, 看看手机, 手机上有什么, 手机当前界面, 手机画面, 手机显示,
+手机操作, 手机执行, 帮我点手机, 帮我操作手机, 手机批处理, 手机批量操作,
+电话fast, phonefast, telefono veloce, controllo Android, automazione Android,
+automazione mobile, automazione del telefono, automazione del dispositivo, screenshot Android,
+screenshot del telefono, tocca sul telefono, fai clic sullo schermo, scorri sul dispositivo, digita sul telefono,
+digita il testo Android, avvia l'app Android, osserva lo schermo del telefono,
+analisi dello schermo del telefono, analisi dell'interfaccia utente Android, test Android,
+agente Android, agente mobile, agente telefonico, debug Android, automazione adb,
+scrcpy, test mobile, test app, MCP telefono, MCP Android, MCP mobile,
+controllare il mio telefono, vedere il mio telefono, cosa c'è sul mio telefono, interagire con il telefono,
+strumento telefonico.
+中文触发: 微信, 支付宝, 淘宝, 小红书, 抖音, 快手, 刷抖音, 刷视频.
