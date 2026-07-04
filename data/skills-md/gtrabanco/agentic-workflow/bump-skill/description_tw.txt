@@ -1,0 +1,1 @@
+代理工作流程儲存庫的內部技能。編輯一個或多個 SKILL.md 檔案後，變更其「version:」欄位並更新儲存庫中必須保持同步的每份文件：CHANGELOG.md、CHANGELOG.es.md、README.md 和 README.es.md。在進行任何技能更改之前運行。在 Claude Code 上並且想要手動調整每技能模型/努力等級？安裝 `#claude` 分支（`npx Skills add gtrabanco/agentic-workflow#claude`） - 請參閱自述文件。該分支與模型無關：該技能繼承您的代理會話已經使用的任何模型和工作。觸發短語：「提陞技能版本」、「更新版本」、「更新變更日誌」、「我剛剛更改了一項技能」、「記錄此變更」、「版本提升」。

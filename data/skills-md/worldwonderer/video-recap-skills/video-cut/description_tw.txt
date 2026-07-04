@@ -1,0 +1,1 @@
+將長視訊剪切到選定的來源範圍（蒙太奇/剪輯組合）。視訊回顧套件的一部分：在編排（兩次）流程中，使用clip_plan.json +來源視頻，產生edited_source.mp4；然後，代理根據輸出時間軸寫入 narration.json。當不帶 --no-narration-map 獨立呼叫時，也會重新映射現有的 narration.json → narration_mapped.json （舊版單通道路徑）。 觸發詞：影片剪輯、剪輯式解說、影片剪輯、剪輯計畫、拼剪。

@@ -1,0 +1,1 @@
+使用 kubeseal 將 Kubernetes Secrets 密封到 SealedSecrets 中，以實現安全的 GitOps 儲存。當使用者需要建立或更新 SealedSecrets、密封 GitOps 儲存庫的憑證或在服務之間遷移機密時使用。切勿洩漏輸出、日誌或檔案中的明文憑或密封金鑰。
