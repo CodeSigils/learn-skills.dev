@@ -1,0 +1,1 @@
+代理工作流存储库的内部技能。编辑一个或多个 SKILL.md 文件后，更改其“version:”字段并更新存储库中必须保持同步的每一份文档：CHANGELOG.md、CHANGELOG.es.md、README.md 和 README.es.md。在进行任何技能更改之前运行。在 Claude Code 上并且想要手动调整每技能模型/努力等级？安装 `#claude` 分支（`npx Skills add gtrabanco/agentic-workflow#claude`） - 请参阅自述文件。该分支与模型无关：该技能继承您的代理会话已经使用的任何模型和工作。触发短语：“提升技能版本”、“更新版本”、“更新变更日志”、“我刚刚更改了一项技能”、“记录此更改”、“版本提升”。

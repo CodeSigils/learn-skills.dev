@@ -1,0 +1,1 @@
+将长视频剪切到选定的源范围（蒙太奇/剪辑组合）。视频回顾包的一部分：在编排（两遍）流程中，使用clip_plan.json +源视频，生成edited_source.mp4；然后，代理根据输出时间轴写入 narration.json。当不带 --no-narration-map 独立调用时，还会重新映射现有的 narration.json → narration_mapped.json （旧版单通道路径）。 触发词：视频剪辑、剪辑式解说、视频剪辑、剪辑计划、拼剪。

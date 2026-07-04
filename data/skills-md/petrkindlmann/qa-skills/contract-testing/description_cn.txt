@@ -1,0 +1,1 @@
+使用 Pact-JS (v16) 实施消费者驱动的合约测试。涵盖消费者测试编写、代理驱动的提供者验证、Pact Broker 设置、can-i-deploy 作为部署门、webhook 触发的验证、待定契约以及模式优先与消费者优先方法（OpenAPI/Ajv、Schemathesis）。在以下情况下使用：“合约测试”、“Pact”、“消费者驱动”、“API 合约”、“提供商验证”、“can-i-deploy”。不适用于：存根或模拟依赖项以隔离测试 - 使用服务虚拟化；针对您自己的 API 的一般 REST/GraphQL 端点断言 — 使用 api 测试。相关：api 测试、服务虚拟化、ci-cd 集成、测试环境。

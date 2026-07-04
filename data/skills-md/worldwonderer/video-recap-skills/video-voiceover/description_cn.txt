@@ -1,0 +1,1 @@
+从带时间戳的 narration.json 合成中文旁白音频（TTS 配音）。用于将书面旁白脚本转换为每段语音音频，具有 MiMo TTS (mimo-v2.5-tts)、动态速度拟合和响度处理。视频回顾包的一部分：使用 narration.json（输出时间线时间），生成 tts_segments + tts_meta.json。在传统的直接剪切路径中，可以显式传递 narration_mapped.json。 触发词：配音、语音合成、TTS、解说配音、画外音、文本转语音、旁白配音。

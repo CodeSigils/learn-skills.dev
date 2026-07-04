@@ -1,0 +1,1 @@
+当用户需要创建、生成或验证 Salesforce 全局值集或自定义标准值集时，请使用此技能。当用户提及全局值集、GlobalValueSet、标准值集、StandardValueSet、可重用选项列表、跨字段共享的选项列表值集或自定义标准选项列表（例如行业、潜在客户来源或机会阶段）时触发。当用户遇到部署错误将值添加到标准选项列表、引用自定义字段中的值集或使用 .globalValueSet-meta.xml 或 .standardValueSet-meta.xml 文件时，也可使用。不要触发单个字段上的内联一次性选择列表而不重用，或者对于不涉及 GlobalValueSet 或 StandardValueSet 的一般自定义字段元数据工作 - 请改用 platform-custom-field-generate。

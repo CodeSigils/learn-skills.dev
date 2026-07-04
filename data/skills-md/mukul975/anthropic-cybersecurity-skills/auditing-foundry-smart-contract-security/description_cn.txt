@@ -1,0 +1,1 @@
+Foundry 项目中 Solidity 智能合约的部署前安全审计。结合静态分析（Slither、Aderyn）、符号执行（Mythril）和基于属性的测试（使用处理程序进行模糊+不变测试），以在部署到 EVM 链之前捕获重入、访问控制、预言/价格操纵和算术错误。还强制执行密钥卫生（无明文私钥，加密的强制密钥库）和安全部署工作流程。在编写、审查、测试或部署 Solidity/Foundry 合约、构建 dApp 或使用 forge/cast/anvil、MetaMask 或 Web3/DeFi 代码时使用。
