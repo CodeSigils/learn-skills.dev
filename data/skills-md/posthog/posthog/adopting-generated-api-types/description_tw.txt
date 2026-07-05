@@ -1,0 +1,1 @@
+將前端程式碼從手動 API 用戶端呼叫（`api.get`、`api.create`、`api.surveys.get`、`api.dashboards.list`、`new ApiRequest()`）和手寫 TypeScript 介面遷移到產生的 API 函數和類型時使用。在從 `lib/api` 匯入的檔案、包含 `api.get<`、`api.create<`、`api.<entity>.<method>` 的檔案、複製後端序列化器的手動介面定義或手動建構 API URL 的任何前端檔案上觸發。涵蓋完整的替換工作流程 - 尋找產生的等效項、交換導入、調整呼叫站點以及刪除死手動類型。

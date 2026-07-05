@@ -1,0 +1,1 @@
+避免每個行程（web、celery、temporal、migrate、shell、CI）都需要付費的 django.setup() 路徑進行大量導入。當接觸 AppConfig.ready()、連接訊號接收器、編輯惰性 API 路由器（posthog/api/rest_router.py 或其 __init__.py shim）、延遲大量導入、啟動導入預算防護失敗時或將 master 合併到使路由器變得惰性的長期分支時使用。

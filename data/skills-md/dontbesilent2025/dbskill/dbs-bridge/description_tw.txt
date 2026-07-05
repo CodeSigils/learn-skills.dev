@@ -1,0 +1,4 @@
+Agent基建：把任意技能或技能集合目錄橋接收Claude Code（~/.claude/skills）和Codex（~/.codex/skills）。支援dbskill倉庫內技能，也支援外部技能絕對路徑。透過軟鏈連接來源目錄，改源目錄後介面同步。支援按技能名稱、相對路徑、絕對路徑、技能目錄對接橋，也支援拆橋和查看接橋狀態。
+觸發方式：/dbs-bridge、/bridge、「橋接這個技能」「橋接整個技能目錄」「把這個技能接收 Claude Code 和 Codex」「讓 Claude 和 Codex 呼叫這個技能」「取消橋接」「檢視橋接狀態」
+使用符號連結將任何技能資料夾或技能資料夾目錄橋接到 Claude Code 和 Codex。支援 dbskill 技能和外在技能目錄。當使用者想要從兩個代理呼叫一項或多項技能，或想要取消連結/檢查網橋狀態時使用。
+觸發器：/dbs-bridge、/bridge、“橋接此技能”、“橋接此技能目錄”、“使此技能可供 Claude Code 和 Codex 使用”、“取消鏈接此技能”、“檢查橋接狀態”

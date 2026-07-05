@@ -1,0 +1,1 @@
+針對單一本機問題檔案 (issues/issue-#.md) 的問題驅動 TDD — red-green-refactor，然後編寫回歸測試/verify-issue-#.sh，執行 ruff+pyright+pytest+regression 腳本（專案本身的 run-*.sh 如果存在，否則此套件的預設值），在問題需要更新時進行的 UI處停止添加。如果沒有問題編號，則檢測到正在進行的問題以恢復或選擇最小的待處理問題來啟動，並首先詢問。當使用者說“/tdd2”、“tdd2”時使用

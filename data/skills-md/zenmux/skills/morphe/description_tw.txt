@@ -1,0 +1,1 @@
+建置 Next.js、Bigfish (@alipay/bigfish) 或 Vite 專案並將其部署到 Morphe 服務 (https://morphe.zenmux.app)，目標是 linux-x64-gnu 執行階段。當使用者要求將 Next.js、Bigfish 或 Vite 應用程式部署、運送、發佈或發佈到 Morphe、執行「morphe deploy」或以其他方式將建置推送到 Morphe / zenmux 平台時使用。處理登入、框架偵測、Next.js 獨立驗證/設定修復、Bigfish 靜態伺服器包裝、Vite SPA 靜態包裝或自訂伺服器 (server.ts/js) esbuild 捆綁、建置、壓縮、OSS 上傳、CRC64 校驗和、.morphe.json 管理和部署 API 呼叫。

@@ -1,0 +1,1 @@
+剪切 brooks-lint 版本：在 package.json 中設定版本，將其傳播到所有四個插件清單 + README 徽章，編寫 CHANGELOG 條目，驗證，然後提交、推送、標記並發布 GitHub 版本。當維護者要求「發布」、「削減發布」、「發布新版本」或「發布並發布」brooks-lint 時觸發。不要觸發以下情況：傳播已決定的版本而不發布（直接使用“npm run Bump”），單獨進行 CHANGELOG 編輯，或有關不要求執行它的發布過程的問題。

@@ -1,0 +1,1 @@
+針對本機 Postgres 應用程式資料庫執行唯讀 SQL（SELECT、EXPLAIN、SELECT 上的 EXPLAIN ANALYZE）。預設本機 URL postgres://posthog:posthog@localhost:5432/posthog;否則 DATABASE_URL。在查詢本機資料庫、檢查表、偵錯資料或分析查詢計劃時使用。突變是嚴格禁止的。
