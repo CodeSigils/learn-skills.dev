@@ -1,0 +1,7 @@
+Déléguez une tâche d'implémentation à Kiro CLI (`kiro-cli`) et signalez le résultat. À utiliser lorsque l'utilisateur
+demande de confier le travail à Kiro — "/remettre-à-kiro", "déléguer à Kiro", "laisser Kiro gérer/faire ça",
+"passer à Kiro", "remettre à Kiro" ou toute variante demandant l'exécution de Kiro-cli. Deux modes : Planifier
+le mode transmet un plan existant à Kiro pour sa mise en œuvre ; Le mode direct transmet la tâche de l'utilisateur. Claude
+rassemble le contexte, crée une invite autonome sécurisée pour l'injection, injecte le kiro pertinent de la tâche
+skills (`--skill <name>`, puisque kiro n'a pas d'outil Skill qui lui est propre), invoque kiro-cli via un package
+assistant avec une confiance étendue, capture la sortie, vérifie la différence et rend compte.

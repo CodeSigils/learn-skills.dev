@@ -1,0 +1,9 @@
+Moteur de rédaction de lancement basé sur le produit. Rédige la copie dont un lancement a besoin - slogans/titres,
+des one-liners, des descriptions courtes et longues et le message de lancement/premier commentaire – sous plusieurs angles
+versions (axées sur les fonctionnalités, axées sur les avantages, comparaison/alternative, dirigées par le public), toutes fondées sur le VRAI
+produit, jamais d'espaces réservés génériques. L'appelant transmet un **profil d'actifs** (quels actifs,
+limites, la voix et les éventuelles règles de conformité) ; cette compétence renvoie une copie rédigée, conforme à la marque et dans les limites.
+Bloc de construction partagé pour la famille launch-skill : invoqué par `launch-product-hunt`, `launch-hacker-news`,
+et autres, ou exécutez de manière autonome pour rédiger une copie pour n'importe quel canal (liste d'annuaire, page de destination, e-mail).
+Lit et réutilise `.ulpi/launch/positioning.md` (la description du produit indépendante de la plate-forme) afin que le produit soit
+décrit une fois et réutilisé sur tous les canaux ; motifs via la compétence « parcourir » + repo lorsqu'elle est absente.
