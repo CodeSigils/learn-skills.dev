@@ -1,0 +1,1 @@
+personhog-replica 및 personhog-router에 새 RPC를 추가하기 위한 가이드입니다. 자격 확인, proto 정의, Python 및 Node.js 클라이언트용 코드 생성, Rust 구현(스토리지 특성, postgres 쿼리, 서비스 핸들러, 라우터 연결) 및 인덱스 호환성 검증을 다룹니다. personhog에 새 gRPC 엔드포인트를 추가하거나, Django ORM 쿼리를 personhog로 마이그레이션하거나, personhog 서비스 API를 확장할 때 사용합니다.

@@ -1,0 +1,1 @@
+PSAK(프로젝트 비밀 API 키) 인증(프로젝트 범위, 사용자가 없는 서비스 자격 증명)을 사용하여 PostHog API 엔드포인트를 게이트하는 방법. 보기 세트 작업에 PSAK 지원을 추가하거나, PSAK에 대한 새로운 범위를 허용하거나, 합성 사용자(ProjectSecretAPIKeyUser)를 처리하거나, PSAK 인식 속도 조절을 선택할 때 사용합니다. 트리거 용어: PSAK, ProjectSecretAPIKey, 프로젝트 비밀 API 키, phs_ 토큰, 서비스 인증, 프로그래밍 방식 엔드포인트 인증.

@@ -1,0 +1,1 @@
+컨테이너 이미지를 레지스트리(build-push-action을 통한 ECR/ghcr/Docker Hub)에 푸시하거나 프로덕션 배포(PostHog/charts에 `commit_state_update` 저장소_디스패치)를 디스패치하는 GitHub Actions 워크플로를 추가하거나 편집할 때 사용합니다. 이는 CD_DEPLOY_ENABLED 변수로 제어되는 단일 정식 배포 저장소에서 실행됩니다. GitHub 릴리스, npm, 크레이트 또는 Homebrew를 게시하는 워크플로에는 적용되지 않으며 공개 저장소에 유지됩니다.
