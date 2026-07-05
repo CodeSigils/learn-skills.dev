@@ -1,0 +1,9 @@
+Product-grounded launch copywriting engine. Drafts the copy a launch needs — taglines/headlines,
+one-liners, short and long descriptions, and the launch post / first comment — in multiple angle
+versions (feature-led, benefit-led, comparison/alternative, audience-led), all grounded in the REAL
+product, never generic placeholders. The caller passes an **asset profile** (which assets, the hard
+limits, the voice, and any compliance rules); this skill returns drafted, on-brand, within-limit copy.
+Shared building block for the launch-skill family: invoked by `launch-product-hunt`, `launch-hacker-news`,
+and others, or run standalone to draft copy for any channel (directory listing, landing page, email).
+Reads and reuses `.ulpi/launch/positioning.md` (the platform-agnostic product brief) so the product is
+described once and reused across every channel; grounds via the `browse` skill + repo when it's absent.

@@ -1,0 +1,6 @@
+Generate and run a project-tailored pre-launch (go-live) audit as a multi-agent workflow:
+parallel build/test/lint gates, one read-only finder per audit dimension, agent-based dedup,
+adversarial verification of every finding, and a completeness critic round. Fills the bundled
+workflow template for the target project and runs it via the Workflow tool. Use when the user
+wants a launch-readiness review, pre-launch audit, "are we ready to ship", or a deep
+adversarial code/security/correctness sweep of a repo before release.

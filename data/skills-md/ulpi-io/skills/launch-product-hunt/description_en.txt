@@ -1,0 +1,14 @@
+Prepare and run a Product Hunt launch end to end, written to `.ulpi/launch/product-hunt/`. Grounds every
+word in the real product, then produces a complete, paste-ready, PH-COMPLIANT launch package:
+`LISTING.md` (every PH field filled — tagline options ≤ the current limit, description, topics, a gallery
+shot-list, demo-video outline, the maker's first comment), `PLAN.md` (a T-minus countdown + an
+hour-by-hour Pacific-time launch-day runbook + the post-launch plan), `OUTREACH.md` (segmented supporter
+outreach + social posts, never vote-soliciting), and `CHECKLIST.md` (a blocking pre-flight gate). The
+PH-specific orchestrator of the launch-skill family: it owns PH mechanics, field specs, policy, the
+day-of runbook, and the gate, and composes the shared skills — `launch-copy` (the listing copy),
+`launch-outreach` (the messages, in Product-Hunt compliance mode), and `launch-analytics` (UTM +
+conversion tracking) — degrading to built-in fallbacks if a companion isn't installed. Reads the shared
+`.ulpi/launch/positioning.md` so the product is described once and reused across launches. Coaches only
+compliant promotion — never vote manipulation, vote rings, bought/incentivized votes, or "please upvote"
+solicitation. Treats Product Hunt as a credibility/visibility amplifier, not a primary acquisition
+channel, and sets realistic expectations.

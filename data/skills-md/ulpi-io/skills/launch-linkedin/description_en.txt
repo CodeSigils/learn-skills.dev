@@ -1,0 +1,13 @@
+Prepare and run a product/company launch on LinkedIn end to end, written to `.ulpi/launch/linkedin/`.
+Grounds in the real product, then produces a paste-ready package: `POST.md` (the launch **post** — a
+strong hook in the first ~2 lines before the "…see more" cut, a skimmable body, the format that earns
+reach, hashtags, and the product link placed in the **first comment** not the post body so reach isn't
+penalized), `PLAN.md` (when to post, the **golden-hour** engagement runbook, team amplification, and the
+post-launch plan), and `CHECKLIST.md` (a blocking pre-flight gate). The LinkedIn platform skill of the
+launch-* family: it owns LinkedIn mechanics, format rules, timing, the engagement runbook, and the gate,
+and composes the shared `launch-copy` (the post copy), `launch-outreach` (cross-channel + team
+amplification, mode `linkedin`), and `launch-analytics` (UTM + conversion tracking), degrading to
+built-in fallbacks if a companion isn't installed. Reads the shared `.ulpi/launch/positioning.md`. On
+LinkedIn you MAY ask your network and team to engage genuinely (no vote-ring rules) — but it avoids what
+LinkedIn penalizes: an external link in the post body, engagement-bait, engagement pods, and editing the
+post right after publishing.

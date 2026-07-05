@@ -1,0 +1,12 @@
+Prepare and run a Hacker News "Show HN" launch end to end, written to `.ulpi/launch/hacker-news/`.
+Grounds in the real product, then produces a small, paste-ready, HN-appropriate package: `POST.md`
+(the standard `Show HN: <thing> – <plain description>` title + the URL + the founder's explanatory first
+comment, in technical/no-hype voice), `PLAN.md` (when to post in US-Eastern time, the first-1–2-hours
+plan, a thread-engagement plan with prepared answers to likely hard questions, and the post-launch /
+second-chance plan), and `CHECKLIST.md` (a blocking readiness gate). The HN platform skill of the
+launch-* family: it owns HN mechanics, the Show HN rules, HN policy, the thread runbook, and the gate,
+and composes the shared `launch-copy` (the title + first comment) and `launch-analytics` (UTM +
+conversion tracking), degrading to built-in fallbacks if a companion isn't installed. Reads the shared
+`.ulpi/launch/positioning.md`. HN is STRICTER than other channels: it **forbids all vote mobilization**
+(no supporter waves, no asking anyone to upvote — ever), punishes hype/marketing-speak and unfinished or
+signup-walled products, and rewards technical honesty and a present, non-defensive founder in the thread.

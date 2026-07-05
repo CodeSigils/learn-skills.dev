@@ -1,0 +1,10 @@
+Build and notify a launch supporter audience with paste-ready, platform-COMPLIANT outreach — recruit an
+audience before launch, segment it (team · friends · existing users/waitlist · communities · public
+followers), and notify it in well-timed waves on launch day. Drafts the messages you send to PEOPLE:
+teaser DMs, waitlist and launch-day emails, community heads-ups, personal 1:1 DMs, and the X/LinkedIn
+amplification posts — all grounded in the real product and free of vote-soliciting or spammy language.
+Parameterized by a per-platform COMPLIANCE MODE the caller passes (e.g. Product Hunt: supporter waves
+allowed, ask for feedback not upvotes; Hacker News: NO vote mobilization at all). Shared building block
+for the launch-skill family: invoked by `launch-product-hunt`, `launch-hacker-news`, and others, or run
+standalone. Reads `.ulpi/launch/positioning.md`. It does NOT write the on-listing copy (tagline,
+description, first comment) — that's `launch-copy`.

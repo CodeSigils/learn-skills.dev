@@ -1,0 +1,8 @@
+Instrument a launch so the traffic spike is measurable and attributable — define one consistent UTM
+scheme for every launch link, wire the key conversion events (visit → signup → activation) into GA4
+(or the project's existing analytics), and set up a quick validation + read-out. Parameterized by the
+launch source (e.g. producthunt, hackernews) so each link and report is correctly attributed. Shared
+building block for the launch-skill family: invoked by `launch-product-hunt`, `launch-hacker-news`, and
+others to close the measurement loop, or run standalone to add UTMs + event tracking to any campaign.
+Writes the UTM map and event plan to `.ulpi/launch/<channel>/analytics.md`. Measures durable outcomes
+(signups, activation), not just upvotes/visits; never collects PII in links or events.

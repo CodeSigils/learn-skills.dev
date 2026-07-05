@@ -1,0 +1,1 @@
+Creates and updates GitHub Actions secrets for PostHog workflows. Use when adding a new CI secret, rotating an existing secret, wiring a workflow to an API token, package registry credential, deploy key, or any value referenced via `${{ secrets.* }}` in `.github/workflows/`.

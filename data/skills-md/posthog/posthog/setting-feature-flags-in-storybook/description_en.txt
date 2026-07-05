@@ -1,0 +1,1 @@
+Use when writing a Storybook story for a component gated on a feature flag — boolean flags or multivariate/experiment-arm variants. Covers the `featureFlags` story parameter and why imperatively setting flags renders the flag-off branch in visual-regression snapshots while passing in jest.

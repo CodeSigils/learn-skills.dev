@@ -1,0 +1,12 @@
+Prepare and run a product launch on X (formerly Twitter) end to end, written to `.ulpi/launch/x/`.
+Grounds in the real product, then produces a paste-ready package: `POST.md` (the launch **thread** — a
+scroll-stopping hook tweet, the thread body, native media, and the product link placed in a **reply**
+not the main tweet so reach isn't penalized), `PLAN.md` (when to post, the **golden-hour** engagement
+runbook, cross-promotion, and the post-launch plan), and `CHECKLIST.md` (a blocking pre-flight gate).
+The X platform skill of the launch-* family: it owns X mechanics, format rules, timing, the engagement
+runbook, and the gate, and composes the shared `launch-copy` (the thread copy), `launch-outreach`
+(cross-channel + team amplification, mode `x`), and `launch-analytics` (UTM + conversion tracking),
+degrading to built-in fallbacks if a companion isn't installed. Reads the shared
+`.ulpi/launch/positioning.md`. On X you MAY ask your own audience and team to engage (no vote-ring rules
+like Product Hunt/Hacker News) — but it avoids the things X penalizes: an external link in the main
+tweet, engagement-bait, and bought engagement.
