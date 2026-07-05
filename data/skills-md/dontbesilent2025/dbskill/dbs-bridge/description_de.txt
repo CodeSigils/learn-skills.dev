@@ -1,0 +1,4 @@
+Der Agent ist ein Mitglied von „skill“ und „skill“ von Claude Code (~/.claude/skills) und Codex (~/.codex/skills). Fähigkeit, 也支持外部 Fähigkeit 绝对路径.通过软链连接源目录,改源目录后两端同步.支持按 Fähigkeit名称、相对路径、绝对路径、skills 目录批量桥接, 也支持拆桥和查看桥接状态。
+触发方式: /dbs-bridge、/bridge、「桥接这个 skills」「桥接整个 skills 目录」「把这个 skills 接到 Claude Code und Codex」「让 Claude und Codex都能调用这个 Fähigkeit」「取消桥接」「查看桥接状态」
+Überbrücken Sie beliebige Skill-Ordner oder Verzeichnisse von Skill-Ordnern mithilfe von Symlinks mit Claude Code und Codex. Unterstützt dbskill-Skills und externe Skill-Verzeichnisse. Verwenden Sie diese Option, wenn der Benutzer möchte, dass ein oder mehrere Skills von beiden Agenten aufgerufen werden können, oder wenn er die Verknüpfung aufheben/den Bridge-Status überprüfen möchte.
+Auslöser: /dbs-bridge, /bridge, „Diesen Skill überbrücken“, „Dieses Skills-Verzeichnis überbrücken“, „Diesen Skill für Claude Code und Codex verfügbar machen“, „Verknüpfung mit diesem Skill aufheben“, „Bridge-Status prüfen“

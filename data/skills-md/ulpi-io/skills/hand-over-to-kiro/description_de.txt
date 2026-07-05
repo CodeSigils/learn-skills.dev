@@ -1,0 +1,7 @@
+Delegieren Sie eine Implementierungsaufgabe an die Kiro-CLI („kiro-cli“) und melden Sie das Ergebnis. Verwenden Sie, wenn der Benutzer
+bittet darum, die Arbeit an Kiro zu übergeben – „/hand-over-to-kiro“, „an Kiro delegieren“, „dieses von Kiro erledigen lassen“,
+„an Kiro übergeben“, „an Kiro übergeben“ oder jede Variante, die die Ausführung von Kiro-Cli anfordert. Zwei Modi: Planen
+mode übergibt einen bestehenden Plan zur Umsetzung an Kiro; Der Direktmodus übergibt die Aufgabe des Benutzers. Claude
+Sammelt den Kontext, erstellt eine eigenständige injektionssichere Eingabeaufforderung und injiziert das relevante Kiro der Aufgabe
+skills („--skill <name>“, da kiro kein eigenes Skill-Tool hat), ruft kiro-cli über ein Bundle auf
+Helfer mit bereichsbezogener Vertrauensstellung, erfasst die Ausgabe, überprüft den Unterschied und meldet zurück.
