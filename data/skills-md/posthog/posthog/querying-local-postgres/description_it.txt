@@ -1,0 +1,1 @@
+Esegui SQL di sola lettura sul database dell'app Postgres locale (SELECT, EXPLAIN, EXPLAIN ANALYZE su SELECT). URL locale predefinito postgres://posthog:posthog@localhost:5432/posthog; altrimenti DATABASE_URL. Da utilizzare durante l'esecuzione di query sul DB locale, l'ispezione di tabelle, il debug di dati o l'analisi di piani di query. Le mutazioni sono severamente vietate.

@@ -1,0 +1,12 @@
+Preparare ed eseguire un lancio "Mostra HN" di Hacker News dall'inizio alla fine, scritto in `.ulpi/launch/hacker-news/`.
+Si basa sul prodotto reale, quindi produce un piccolo pacchetto HN pronto per essere incollato: `POST.md`
+(il titolo standard `Mostra HN: <cosa> – <descrizione semplice>` + l'URL + prima la spiegazione del fondatore
+commento, in tono tecnico/non pubblicitario), "PLAN.md" (quando pubblicare nell'ora degli Stati Uniti orientali, le prime 1-2 ore
+piano, un piano di coinvolgimento del thread con risposte preparate a domande probabilmente difficili e il post-lancio /
+piano della seconda opportunità) e "CHECKLIST.md" (un cancello di disponibilità al blocco). L'abilità della piattaforma HN del
+famiglia launch-*: possiede la meccanica HN, le regole Show HN, la policy HN, il runbook del thread e il gate,
+e compone il `launch-copy` condiviso (il titolo + il primo commento) e il `launch-analytics` (UTM +
+monitoraggio delle conversioni), degradando a fallback integrati se non è installato un compagno. Legge il condiviso
+`.ulpi/launch/posizionamento.md`. HN è PIÙ RIGOROSO degli altri canali: **vieta qualsiasi mobilitazione elettorale**
+(nessuna ondata di sostenitori, nessuna richiesta a nessuno di votare a favore – mai), punisce l'hype/i discorsi di marketing e l'incompiutezza o
+prodotti con iscrizioni limitate e premia l'onestà tecnica e un fondatore presente e non difensivo nel thread.

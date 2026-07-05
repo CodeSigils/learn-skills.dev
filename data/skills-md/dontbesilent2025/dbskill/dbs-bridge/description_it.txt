@@ -1,0 +1,4 @@
+Agente 基建：把任意 skill 或 skill 集合目录桥接到 Claude Code（~/.claude/skills） e Codex（~/.codex/skills）。支持 dbskill 仓库内abilità,也支持外部 abilità 绝对路径。通过软链连接源目录,改源目录后两端同步。支持按 abilità名称、相对路径、绝对路径、abilità 目录批量桥接, 也支持拆桥和查看桥接状态.
+触发方式：/dbs-bridge、/bridge、「桥接这个 abilità」「桥接整个 abilità 目录」「把这个 abilità 接到 Claude Code 和 Codex」「让 Claude 和Abilità del Codex 都能调用这个」「取消桥接」「查看桥接状态」
+Collega qualsiasi cartella di abilità o directory di cartelle di abilità a Claude Code e Codex utilizzando i collegamenti simbolici. Supporta competenze dbskill e directory di competenze esterne. Da utilizzare quando l'utente desidera che una o più competenze siano richiamabili da entrambi gli agenti o desidera scollegare/controllare lo stato del bridge.
+Trigger: /dbs-bridge, /bridge, "collega questa abilità", "collega questa directory delle abilità", "rendi questa abilità disponibile a Claude Code e Codex", "scollega questa abilità", "controlla lo stato del bridge"

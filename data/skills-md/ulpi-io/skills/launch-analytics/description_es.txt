@@ -1,0 +1,8 @@
+Instrumente un lanzamiento para que el pico de tráfico sea mensurable y atribuible: defina un UTM consistente
+esquema para cada enlace de lanzamiento, conecte los eventos de conversión clave (visita → registro → activación) a GA4
+(o los análisis existentes del proyecto) y configurar una validación + lectura rápida. Parametrizado por el
+fuente de lanzamiento (por ejemplo, producthunt, hackernews) para que cada enlace e informe se atribuya correctamente. Compartido
+bloque de construcción para la familia de habilidades de lanzamiento: invocado por "launch-product-hunt", "launch-hacker-news" y
+otros para cerrar el ciclo de medición o ejecutarlos de forma independiente para agregar UTM + seguimiento de eventos a cualquier campaña.
+Escribe el mapa UTM y el plan de eventos en `.ulpi/launch/<channel>/analytics.md`. Mide resultados duraderos
+(inscripciones, activación), no solo votos positivos/visitas; nunca recopila PII en enlaces o eventos.

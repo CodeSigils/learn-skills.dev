@@ -1,0 +1,1 @@
+قم بتشغيل SQL للقراءة فقط مقابل قاعدة بيانات تطبيق Postgres المحلية (SELECT، EXPLAIN، EXPLAIN ANALYZE on SELECT). عنوان URL المحلي الافتراضي postgres://posthog:posthog@localhost:5432/posthog; آخر DATABASE_URL. يُستخدم عند الاستعلام عن قاعدة البيانات المحلية أو فحص الجداول أو تصحيح البيانات أو تحليل خطط الاستعلام. الطفرات ممنوعة منعا باتا.

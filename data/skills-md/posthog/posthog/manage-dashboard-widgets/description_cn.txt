@@ -1,0 +1,1 @@
+指导 PostHog 工程师完成仪表板小部件平台工作 - 发布新的 widget_type（WIDGET_REGISTRY、catalog、run_widgets、WidgetCard）或更新发布的类型（配置、查询、布局、RBAC、平铺过滤栏、列表页脚、titleHref、油门）。用于 WidgetSpec、widget_specs/、widget-configs.zod.ts、hogli build:openapi、error_tracking_list、session_replay_list、widgetFilters、formatWidgetListCountFooter、widget_query_throttle 或 WidgetCard 组合。新类型首先需要确认小部件摄入。不适用于 MCP 批量添加现有类型或向仪表板添加图块。

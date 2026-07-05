@@ -1,0 +1,1 @@
+将大量导入从每个进程（web、celery、temporal、migrate、shell、CI）支付的 django.setup() 路径中删除。当接触 AppConfig.ready()、连接信号接收器、编辑惰性 API 路由器（posthog/api/rest_router.py 或其 __init__.py shim）、推迟大量导入、启动导入预算防护失败时或将 master 合并到使路由器变得惰性的长期分支时使用。

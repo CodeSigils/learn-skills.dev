@@ -1,0 +1,1 @@
+在添加或编辑 GitHub Actions 工作流程时使用，该工作流程将容器映像推送到注册表（通过 build-push-action 的 ECR/ghcr/Docker Hub）或分派生产部署（“commit_state_update”repository_dispatch 到 PostHog/charts）。它们从单个规范部署存储库运行，由 CD_DEPLOY_ENABLED 变量控制。不适用于发布 GitHub 版本、npm、板条箱或 Homebrew 的工作流程 - 这些内容保留在公共存储库中。

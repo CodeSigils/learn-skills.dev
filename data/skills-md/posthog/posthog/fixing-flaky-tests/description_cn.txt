@@ -1,0 +1,1 @@
+指导代理在 PostHog monorepo 中重现、找出根源、修复和验证片状测试。当测试在 CI 中间歇性失败但在重新运行或本地传递时使用，当“hogli ci:insights”或debugging-ci-failures技能将失败分类为不稳定测试时，当给定不稳定作业的 GitHub Actions URL 时，或者当被要求对不稳定的 Jest、pytest 或 Playwright 测试进行去不稳定、稳定或修复时使用。核心原则：在更改任何内容之前在本地进行重现，修复根本原因（切勿通过睡眠、重试或更大的超时来掩盖它），并使用大小适合观察到的故障率的 N 运行验证循环来证明修复。

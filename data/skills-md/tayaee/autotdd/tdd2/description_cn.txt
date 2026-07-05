@@ -1,0 +1,1 @@
+针对单个本地问题文件 (issues/issue-#.md) 的问题驱动 TDD — red-green-refactor，然后编写回归测试/verify-issue-#.sh，运行 ruff+pyright+pytest+regression 脚本（项目自己的 run-*.sh 如果存在，否则此包的默认值），在问题需要时进行 UI 验证，更新问题的 구현 결과 部分，在 git 处停止添加。如果没有问题编号，则检测到正在进行的问题以恢复或选择最小的待处理问题来启动，并首先询问。当用户说“/tdd2”、“tdd2”时使用

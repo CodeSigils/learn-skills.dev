@@ -1,0 +1,1 @@
+指导 PostHog 工程师启动、连接、运行命令以及将本地代码镜像到远程 devbox（运行完整 PostHog 堆栈的 Coder 工作区）。当要求设置 devbox、启动或连接到 devbox、配置远程开发、在 devbox 上进行 gh CLI/Claude Code 验证、在 devbox 上运行命令、同步本地结帐以便您可以在堆栈远程运行时进行本地编辑 (devbox:sync) 或诊断 devbox 命令失败的原因时使用。涵盖 tailnet 先决条件、hogli devbox 命令、用于身份验证的 Coder 用户机密、通过 mutagen 的单向本地->远程同步，以及使用 devbox:exec 进行验证。每个开发人员如何个性化他们的盒子是留给他们的。

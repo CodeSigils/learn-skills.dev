@@ -1,0 +1,7 @@
+Delega un'attività di implementazione alla CLI Kiro ("kiro-cli") e riporta il risultato. Utilizzare quando l'utente
+chiede di consegnare il lavoro a Kiro — "/hand-over-to-kiro", "delega a Kiro", "lascia che Kiro si occupi/faccia questo",
+"passa a Kiro", "consegna a Kiro" o qualsiasi variante che richieda l'esecuzione di Kiro-cli. Due modalità: Pianifica
+mode passa un piano esistente a Kiro per l'implementazione; La modalità diretta passa il compito dell'utente. Claudio
+raccoglie il contesto, crea un prompt autonomo e sicuro per l'iniezione, inserisce il kiro pertinente dell'attività
+skills (`--skill <name>`, poiché Kiro non ha uno strumento Skill proprio), invoca kiro-cli tramite un pacchetto
+helper con attendibilità con ambito, acquisisce l'output, verifica la differenza e restituisce il report.

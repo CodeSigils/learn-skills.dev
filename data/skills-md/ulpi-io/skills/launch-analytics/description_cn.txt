@@ -1,0 +1,8 @@
+对发布进行检测，以便流量峰值是可测量和可归因的——定义一个一致的 UTM
+每个启动链接的方案，将关键转化事件（访问 → 注册 → 激活）连接到 GA4
+（或项目的现有分析），并设置快速验证+读出。参数化为
+启动源（例如producthunt、hackernews），以便每个链接和报告都有正确的归属。共享
+启动技能系列的构建块：由“launch-product-hunt”、“launch-hacker-news”和“launch-hacker-news”调用
+其他人可以关闭测量循环，或独立运行以将 UTM + 事件跟踪添加到任何活动中。
+将UTM地图和活动计划写入“.ulpi/launch/<channel>/analytics.md”。衡量持久成果
+（注册、激活），而不仅仅是点赞/访问；从不收集链接或事件中的 PII。

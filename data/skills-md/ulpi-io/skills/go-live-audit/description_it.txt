@@ -1,0 +1,6 @@
+Genera ed esegui un audit pre-lancio (go-live) personalizzato sul progetto come flusso di lavoro multi-agente:
+gate di creazione/test/lint paralleli, un cercatore di sola lettura per dimensione di controllo, deduplicazione basata su agenti,
+verifica contraddittoria di ogni scoperta e un giro critico di completezza. Riempie il bundle
+modello di flusso di lavoro per il progetto di destinazione e lo esegue tramite lo strumento Flusso di lavoro. Utilizzare quando l'utente
+vuole una revisione della preparazione al lancio, un audit pre-lancio, "siamo pronti per la spedizione" o un'analisi approfondita
+rimozione del codice/sicurezza/correttezza contraddittoria di un pronti contro termine prima del rilascio.

@@ -1,0 +1,1 @@
+针对本地 Postgres 应用数据库运行只读 SQL（SELECT、EXPLAIN、SELECT 上的 EXPLAIN ANALYZE）。默认本地 URL postgres://posthog:posthog@localhost:5432/posthog;否则 DATABASE_URL。在查询本地数据库、检查表、调试数据或分析查询计划时使用。突变是严格禁止的。
