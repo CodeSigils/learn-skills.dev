@@ -1,0 +1,1 @@
+新しい RPC を personhog-replica および personhog-router に追加するためのガイド。適格性チェック、プロト定義、Python および Node.js クライアントのコード生成、Rust 実装 (ストレージ特性、postgres クエリ、サービス ハンドラー、ルーター配線)、インデックス互換性検証をカバーします。新しい gRPC エンドポイントを personhog に追加する場合、Django ORM クエリを personhog に移行する場合、または personhog サービス API を拡張する場合に使用します。

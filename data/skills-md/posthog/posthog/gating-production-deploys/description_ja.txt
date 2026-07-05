@@ -1,0 +1,1 @@
+コンテナー イメージをレジストリ (build-push-action 経由の ECR/ghcr/Docker Hub) にプッシュするか、運用デプロイ (PostHog/charts への「commit_state_update」 repository_dispatch) をディスパッチする GitHub Actions ワークフローを追加または編集するときに使用します。これらは、CD_DEPLOY_ENABLED 変数によって制御された単一の正規デプロイ リポジトリから実行されます。 GitHub リリース、npm、クレート、または Homebrew を公開するワークフローには適用されません。これらはパブリック リポジトリに残ります。

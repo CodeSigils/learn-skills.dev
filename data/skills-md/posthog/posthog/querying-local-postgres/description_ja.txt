@@ -1,0 +1,1 @@
+ローカル Postgres アプリ データベースに対して読み取り専用 SQL を実行します (SELECT、EXPLAIN、SELECT での EXPLAIN ANALYZE)。デフォルトのローカル URL postgres://posthog:posthog@localhost:5432/posthog;それ以外の場合はDATABASE_URL。ローカル DB へのクエリ、テーブルの検査、データのデバッグ、またはクエリ プランの分析時に使用します。突然変異は固く禁じられています。
