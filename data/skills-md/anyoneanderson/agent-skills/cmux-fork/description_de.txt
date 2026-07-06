@@ -1,0 +1,8 @@
+Verzweigen Sie die aktuelle Claude Code-Konversation in einen neuen cmux-Bereich oder Arbeitsbereich.
+Standard: rechts geteilt. Unterstützt Down- und New-Workspace über natürliche Sprache.
+
+Erfordert eine cmux-Sitzung (CMUX_SOCKET_PATH muss festgelegt sein).
+
+Englische Auslöser: „Fork Session“, „Fork Conversation“, „Split and Fork“
+日本語トリガー: 「フォークして」「会話をフォーク」「ターミナルをフォークして」「もう一個ターミナル立ち上げて」
+Slash-Befehl: /cmux-fork

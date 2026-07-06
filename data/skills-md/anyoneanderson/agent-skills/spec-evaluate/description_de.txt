@@ -1,0 +1,13 @@
+Führen Sie einen Black-Box-Abnahmetestplan (test.md) gegen einen fertigen aus
+Umsetzung und erstellen Sie ein strukturiertes Pass/Fail-Ergebnis.
+
+Führt jeden Testfall anhand seiner Verifizierungsmethode aus (Dramatiker / Befehl /
+Dateiprüfung), startet die App aus einem Projektrezept, speichert Screenshots und
+Protokolliert als Beweismittel und schreibt eine mit der Spezifikationsprüfung kompatible Ergebnisdatei
+spec-code --feedback kann verbrauchen. Läuft eigenständig oder im Inneren
+spec-orchestrate-Pipeline, auf einem Claude-Subagenten oder einem delegierten Peer-LLM.
+
+Englische Auslöser: „Acceptance test this feature“, „Run spec-evaluate“,
+„Überprüfen Sie anhand von test.md“, „Führen Sie den Abnahmetestplan aus“
+Beschreibung: 「この機能を受け入れ試験して」「spec-evaluateを実行」
+「test.md を実行」「受け入れテストを回して」

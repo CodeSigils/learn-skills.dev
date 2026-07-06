@@ -1,0 +1,7 @@
+Kontroverse Codeüberprüfung von serverseitigem TypeScript auf Einhaltung der Kamae-Prinzipien
+(Diskriminierte Gewerkschaften, Markentypen, Ergebnisfehlerbehandlung, Grenzvalidierung, PII-Schutz).
+
+TRIGGER, wenn: eine Pull-Anfrage, ein Audit oder eine Qualitätsprüfung des serverseitigen TypeScript-Codes überprüft wird
+Einbeziehung von Domänenmodellen, Repositorys, Anwendungsfällen, Geschäftslogik oder Grenzcode.
+ÜBERSPRINGEN: Frontend-Codeüberprüfung, Infrastructure-as-Code-Überprüfung, Nur-Test-Überprüfung, Codeüberprüfung
+hat nichts mit der Domänenlogik zu tun.

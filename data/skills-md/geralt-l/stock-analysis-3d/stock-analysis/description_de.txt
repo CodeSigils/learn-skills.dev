@@ -1,0 +1,9 @@
+Stock Smart 3D Scoring Analysis Skill (v2.0). Geben Sie einen Aktiencode ein (A-Aktien/Hongkong-Aktien/US-Aktien) und es wird automatisch Folgendes ausgeführt:
+1. Ruft Echtzeitkurse + historische K-Line-Daten + Fundamentalindikatoren ab
+2. Berechnet technische Indikatoren (MA / MACD / RSI / Volumen / Preisabweichung)
+3. Erzeugt eine dreidimensionale Bewertung: 50 technische Punkte + 30 grundlegende Punkte + 20 Nachrichtenpunkte = 100 Punkte
+4. Führt eine Websuche durch, um Nachrichten abzurufen → Claude wertet den Nachrichten-Sentiment-Score aus
+5. Gibt ein 3D-Entscheidungs-Dashboard aus (einschließlich der 3D-Aufschlüsselung + Kauf-/Verkaufssignalen + Preiszielen)
+
+Auslöseszenarien: Der Benutzer gibt einen Aktiencode ein und fordert eine Analyse an, fragt nach der Entwicklung einer bestimmten Aktie, fragt nach einer Markteinschätzung usw.
+Beispieleingaben: „TSLA PLTR analysieren“, „Wie wäre es mit 600519“, „Helfen Sie mir, HK00700 anzusehen“.

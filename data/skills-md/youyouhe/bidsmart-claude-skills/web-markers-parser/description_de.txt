@@ -1,0 +1,2 @@
+Analysieren Sie KI-Antworten, die BuildFlow-Marker (NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START) enthalten, in strukturierte Dateivorgänge. Dies ist ein Dienstprogramm-Skill, der von Web-Builder-Initial und Web-Builder-Update aufgerufen und nicht direkt vom Benutzer aufgerufen wird.
+Eingaben: KI-Antworttext mit BuildFlow-Markierungen Ausgaben: Strukturierte Daten (Dateiarray, Projektname, SEARCH/REPLACE-Vorgänge, Fehler)
