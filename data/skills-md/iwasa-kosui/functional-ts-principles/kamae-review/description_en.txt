@@ -1,0 +1,7 @@
+Adversarial code review of server-side TypeScript for adherence to the kamae principles
+(discriminated unions, branded types, Result error handling, boundary validation, PII protection).
+
+TRIGGER when: reviewing a pull request, audit, or quality check of TypeScript server-side code
+involving domain models, repositories, use cases, business logic, or boundary code.
+SKIP: frontend code review, infrastructure-as-code review, test-only review, code review
+unrelated to domain logic.

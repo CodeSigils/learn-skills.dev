@@ -1,0 +1,12 @@
+Run the GAN control loop for one epic: for each sprint, negotiate the
+contract, iterate Generator ⇄ Evaluator to rubric convergence (or
+Principal Skinner stop), checkpoint to progress.md + _state.json +
+git + metrics.jsonl every iteration, and open the PR. Handles
+interactive / continuous / autonomous-ralph / scheduled execution modes.
+
+Prerequisite: /harness-init and /harness-plan must have completed.
+_state.json.phase must be "ready-for-loop" (fresh) or one of the
+in-sprint phases (resume).
+
+English triggers: "Run harness-loop", "Start the sprint loop", "Execute sprints"
+日本語トリガー: 「harness-loop を実行」「sprint ループを開始」「自律実装を開始」

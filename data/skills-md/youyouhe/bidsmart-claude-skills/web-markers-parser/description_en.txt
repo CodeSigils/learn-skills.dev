@@ -1,0 +1,2 @@
+Parse AI responses containing BuildFlow markers (NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START) into structured file operations. This is a utility skill called by web-builder-initial and web-builder-update, not directly user-invoked.
+Inputs: AI response text with BuildFlow markers Outputs: Structured data (files array, project name, SEARCH/REPLACE operations, errors)

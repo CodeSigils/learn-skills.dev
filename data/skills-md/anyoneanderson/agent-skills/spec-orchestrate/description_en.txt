@@ -1,0 +1,13 @@
+End-to-end pipeline orchestrator — drive a GitHub Issue or a human request
+from specification through adversarial review, implementation, acceptance
+testing, and pull request, as a thin state machine that delegates every unit
+of work to a worker skill.
+
+Runs in manual mode (human sets the request and approves the spec once) or
+auto mode (an Issue number goes in, a PR comes out with no human gate). Never
+writes code, specs, tests, or reviews itself.
+
+English triggers: "Run the spec pipeline", "Orchestrate this issue to PR",
+"spec-orchestrate", "Take this feature from spec to PR"
+日本語トリガー: 「パイプラインを回して」「Issue から PR まで自動で」
+「spec-orchestrate を実行」「仕様から PR まで通して」

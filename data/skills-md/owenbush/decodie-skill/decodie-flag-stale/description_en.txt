@@ -1,0 +1,1 @@
+Fast CI-friendly check for entries whose source files have changed since last verification. Compares entry source files against git diff without reading source code. Flags stale entries in index.json. Use in CI pipelines or before releases to detect outdated documentation.

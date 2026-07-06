@@ -1,0 +1,13 @@
+Run a black-box acceptance test plan (test.md) against a finished
+implementation and produce a structured pass/fail result.
+
+Executes each test case by its verification method (playwright / command /
+file-check), launches the app from a project recipe, saves screenshots and
+logs as evidence, and writes a spec-review-compatible findings file that
+spec-code --feedback can consume. Runs standalone or inside the
+spec-orchestrate pipeline, on a Claude subagent or a delegated peer LLM.
+
+English triggers: "Acceptance test this feature", "Run spec-evaluate",
+"Verify against test.md", "Run the acceptance test plan"
+日本語トリガー: 「この機能を受け入れ試験して」「spec-evaluateを実行」
+「test.md を実行」「受け入れテストを回して」

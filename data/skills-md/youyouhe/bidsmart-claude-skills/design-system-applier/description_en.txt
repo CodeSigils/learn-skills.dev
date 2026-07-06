@@ -1,0 +1,3 @@
+Apply consistent design system (colors, theme, typography, spacing) to web projects. Extracts design preferences from user requests and generates SEARCH/REPLACE patterns to update CSS variables, Tailwind classes, and theme configurations.
+Trigger conditions: - User requests: "change color scheme", "apply dark mode", "use blue theme", "更改配色" - Design preferences mentioned (colors, fonts, spacing scale) - Explicit design system requirements
+Inputs: Design preferences + existing web files Outputs: UPDATE_FILE blocks with design system changes

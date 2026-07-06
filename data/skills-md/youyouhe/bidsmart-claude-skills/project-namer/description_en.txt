@@ -1,0 +1,3 @@
+Generate creative, catchy project names with emojis for web projects. Uses BuildFlow's PROMPT_FOR_PROJECT_NAME template to create short (≤6 words), unique, and memorable names that reflect the project's purpose.
+Trigger conditions: - Called by web-builder-initial during project creation - User explicitly requests: "give this project a name", "命名这个项目" - Auto-generated when creating new web projects
+Inputs: Project description or user request Outputs: Project name (≤6 words) + emoji

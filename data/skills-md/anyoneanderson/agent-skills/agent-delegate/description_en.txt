@@ -1,0 +1,9 @@
+Delegate a task to, or get an adversarial review from, the other AI agent
+(Codex from Claude Code, or Claude Code from Codex) via a headless CLI call —
+no cmux required. Returns a normalized report.json the caller can parse.
+Use for task hand-off, code/spec review, and second opinions in environments
+without cmux.
+
+English triggers: "delegate to Codex", "have Codex review this", "second opinion without cmux", "run this on the other agent"
+日本語トリガー: 「Codex に投げて」「Codex にレビューさせて」「セカンドオピニオン」「もう一方のエージェントで実行して」
+Slash command: /agent-delegate

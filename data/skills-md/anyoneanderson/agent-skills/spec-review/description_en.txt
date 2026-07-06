@@ -1,0 +1,8 @@
+Structured code review against review_rules.md and coding-rules.md.
+
+Performs rule-by-rule, file-by-file matrix review of code changes.
+Outputs findings to a structured review file for use by spec-code --feedback.
+Works standalone for manual reviews or as part of spec-implement pipeline.
+
+English triggers: "Review code", "Run spec-review", "Check against rules"
+日本語トリガー: 「コードレビュー」「spec-reviewを実行」「ルールに照合」

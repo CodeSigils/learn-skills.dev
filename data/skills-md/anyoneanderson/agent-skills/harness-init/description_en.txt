@@ -1,0 +1,10 @@
+Install a Harness Engineering control loop into the current project.
+Hears environment settings once, then generates Planner/Generator/Evaluator
+sub-agents, hooks, guard scripts, and resilience files (.harness/, .claude/).
+
+Use this when you want to switch a project to autonomous-sprint development
+driven by the /harness series (autonomous, auto-patrol, or scheduled modes).
+Not for spec-driven workflows — for that use /spec-workflow-init.
+
+English triggers: "Initialize harness", "Set up /harness", "Install harness engineering"
+日本語トリガー: 「harness を導入」「ハーネスを初期化」「harness-init を実行」

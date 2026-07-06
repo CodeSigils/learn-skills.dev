@@ -1,0 +1,8 @@
+Auto-detect project tech stack and suggest optimal skills from skills.sh registry.
+
+Analyzes manifest files (package.json, Cargo.toml, go.mod, etc.), searches the skills.sh
+API, scores results by install count, and installs selected skills
+with agent-targeted installation to prevent unwanted directory creation.
+
+English triggers: "Suggest skills", "Find best practice skills", "What skills should I install"
+日本語トリガー: 「スキルを提案」「ベストプラクティススキルを検索」「おすすめスキルを教えて」
