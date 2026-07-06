@@ -1,0 +1,8 @@
+Rileva automaticamente lo stack tecnologico del progetto e suggerisce le competenze ottimali dal registro skills.sh.
+
+Analizza i file manifest (package.json, Cargo.toml, go.mod, ecc.), cerca skills.sh
+API, assegna punteggi ai risultati in base al numero di installazioni e installa le competenze selezionate
+con installazione mirata all'agente per impedire la creazione di directory indesiderate.
+
+Trigger in inglese: "Suggerisci competenze", "Trova competenze di best practice", "Quali competenze dovrei installare"
+日本語トリガー: 「スキルを提案」「ベストプラクティススキルを検索」「おすすめスキルを教えて」

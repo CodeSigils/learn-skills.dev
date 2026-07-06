@@ -1,0 +1,13 @@
+Eseguire un piano di test di accettazione della scatola nera (test.md) rispetto a un piano di test finito
+implementazione e produrre un risultato strutturato di pass/fail.
+
+Esegue ogni caso di test in base al suo metodo di verifica (drammaturgo/comando/
+file-check), avvia l'app da una ricetta di progetto, salva screenshot e
+logs come prova e scrive un file di risultati compatibile con la revisione delle specifiche che
+spec-code --il feedback può consumare. Funziona in modo autonomo o all'interno di
+pipeline spec-orchestrate, su un subagente Claude o un LLM peer delegato.
+
+Trigger in inglese: "Test di accettazione di questa funzionalità", "Esegui valutazione specifica",
+"Verifica rispetto a test.md", "Esegui il piano di test di accettazione"
+日本語トリガー: 「この機能を受け入れ試験して」「spec-evaluateを実行」
+「test.md を実行」「受け入れテストを回して」

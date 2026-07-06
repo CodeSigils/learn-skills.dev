@@ -1,0 +1,1 @@
+Controllo rapido CI per le voci i cui file di origine sono cambiati dall'ultima verifica. Confronta i file sorgente di ingresso con git diff senza leggere il codice sorgente. Contrassegna le voci non aggiornate in index.json. Utilizzare nelle pipeline CI o prima dei rilasci per rilevare la documentazione obsoleta.

@@ -1,0 +1,3 @@
+Applica un sistema di progettazione coerente (colori, tema, tipografia, spaziatura) ai progetti web. Estrae le preferenze di progettazione dalle richieste degli utenti e genera modelli SEARCH/REPLACE per aggiornare variabili CSS, classi Tailwind e configurazioni di temi.
+Condizioni di attivazione: - Richieste dell'utente: "cambia combinazione di colori", "applica modalità scura", "usa tema blu", "更改配色" - Preferenze di progettazione menzionate (colori, caratteri, scala di spaziatura) - Requisiti di sistema di progettazione espliciti
+Input: preferenze di progettazione + file Web esistenti Output: blocchi UPDATE_FILE con modifiche al sistema di progettazione

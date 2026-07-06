@@ -1,0 +1,13 @@
+Orchestratore di pipeline end-to-end: gestisci un problema GitHub o una richiesta umana
+dalla specificazione attraverso la revisione contraddittoria, l'implementazione, l'accettazione
+test e richieste pull, come una macchina a stati sottili che delega ogni unità
+del lavoro alla competenza del lavoratore.
+
+Funziona in modalità manuale (l'utente imposta la richiesta e approva le specifiche una volta) o
+modalità automatica (entra un numero di emissione, esce un PR senza cancello umano). Mai
+scrive codice, specifiche, test o revisioni stesse.
+
+Trigger in inglese: "Esegui la pipeline delle specifiche", "Orchestra questo problema per le PR",
+"spec-orchestrate", "Porta questa funzionalità dalle specifiche alle PR"
+日本語トリガー: 「パイプラインを回して」「Problema から PR まで自動で」
+「spec-orchestrate を実行」「仕様から PR まで通して」

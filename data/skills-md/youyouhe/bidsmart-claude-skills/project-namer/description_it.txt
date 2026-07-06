@@ -1,0 +1,3 @@
+Genera nomi di progetti creativi e accattivanti con emoji per progetti web. Utilizza il modello PROMPT_FOR_PROJECT_NAME di BuildFlow per creare nomi brevi (meno di 6 parole), univoci e facili da ricordare che riflettono lo scopo del progetto.
+Condizioni di attivazione: - Chiamato da web-builder-initial durante la creazione del progetto - L'utente richiede esplicitamente: "dai un nome a questo progetto", "命名这个项目" - Generato automaticamente durante la creazione di nuovi progetti web
+Input: descrizione del progetto o richiesta dell'utente Output: nome del progetto (≤6 parole) + emoji

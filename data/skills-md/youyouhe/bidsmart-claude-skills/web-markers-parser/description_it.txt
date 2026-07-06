@@ -1,0 +1,2 @@
+Analizza le risposte AI contenenti indicatori BuildFlow (NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START) in operazioni di file strutturati. Questa è un'abilità di utilità chiamata da web-builder-initial e web-builder-update, non richiamata direttamente dall'utente.
+Input: testo di risposta AI con indicatori BuildFlow Output: dati strutturati (array di file, nome progetto, operazioni SEARCH/REPLACE, errori)

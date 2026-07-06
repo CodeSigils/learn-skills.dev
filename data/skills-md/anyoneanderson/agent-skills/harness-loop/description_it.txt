@@ -1,0 +1,12 @@
+Esegui il ciclo di controllo GAN per un'epica: per ogni sprint, negozia il
+contratto, iterazione Generatore ⇄ Valutatore alla convergenza della rubrica (o
+Fermata del preside Skinner), checkpoint per progress.md + _state.json +
+git + metrics.jsonl ogni iterazione e apri PR. Maniglie
+modalità di esecuzione interattiva/continua/autonoma/programmata.
+
+Prerequisito: /harness-init e /harness-plan devono essere completati.
+_state.json.phase deve essere "ready-for-loop" (fresco) o uno dei
+fasi dello sprint (resume).
+
+Trigger inglesi: "Esegui l'imbracatura-loop", "Inizia lo sprint loop", "Esegui gli sprint"
+日本語トリガー: 「harness-loop を実行」「sprint ループを開始」「自律実装を開始」

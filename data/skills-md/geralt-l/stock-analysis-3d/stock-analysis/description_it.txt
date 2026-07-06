@@ -1,0 +1,9 @@
+Abilità di analisi della valutazione 3D intelligente di stock (v2.0). Inserisci un codice azionario (azione A/azione Hong Kong/azione USA), si completa automaticamente:  
+1. Recupera quotazioni in tempo reale + candelieri storici + indicatori fondamentali  
+2. Calcolare gli indicatori tecnici (MA/MACD/RSI/volume/deviazione del prezzo)  
+3. Valutazione tridimensionale: Tecnica 50 + Fondamentale 30 + Notizie 20 = 100 punti  
+4. WebSearch recupera le notizie → Claude valuta il punteggio del sentiment lato notizie  
+5. Genera un dashboard decisionale 3D (inclusa la ripartizione tridimensionale + segnali di acquisto/vendita + obiettivo di prezzo)  
+
+Scenari di attivazione: l'utente fornisce un codice azionario per l'analisi, chiede come sta andando un particolare titolo, richiede l'analisi di mercato, ecc.  
+Input di esempio: "Analizza TSLA PLTR", "Come sta 600519", "Aiutami a guardare HK00700".
