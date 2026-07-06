@@ -1,0 +1,1 @@
+組み込みブートローダー管理およびファームウェア アップグレード ツール。 STM32 DfuSe (USB DFU)、UF2、OpenBLT、MCUboot、およびカスタム ブートローダー プロトコルをサポートします。 dfu-util、uf2conv、stm32flash、シリアル YMODEM/XMODEM などを介してファームウェアのフラッシュを実行します。ユーザーがブートローダー、DFU、DfuSe、UF2、ファームウェア アップグレード、オンライン アップグレード、dfu-util、stm32flash、OpenBLT、MCUboot、YMODEM、または IAP を指定すると、自動的にトリガーされます。明示的な /bootloader 呼び出しとも互換性があります。

@@ -1,0 +1,1 @@
+FreeRTOS/RTOS タスク診断およびランタイム分析ツール。 GDB/J‑Link/OpenOCD 経由でターゲット デバイスに接続し、タスク スタックの使用状況、CPU 使用率、デッドロック検出、キュー/セマフォ/タイマーの状態、メモリ割り当てトレースを分析します。ユーザーが FreeRTOS、RTOS、タスク スタック、スタック オーバーフロー、デッドロック、CPU 使用率、タスク診断、vTaskList、uxTaskGetStackHighWaterMark、キュー、セマフォ、ミューテックス、タイマーに言及すると自動的にトリガーされます。 /freertos-diagnose による明示的な呼び出しとも互換性があります。

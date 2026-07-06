@@ -1,0 +1,1 @@
+I2C/SPIバスデバッグツール。バスデバイスのスキャン、レジスタの読み取り/書き込み、FTDI、CH341、Aardvark、RaspberryPi、マイクロコントローラーブリッジなどのアダプター経由での SPI データの送受信を行います。 Python smbus2/spidev/pyftdi およびコマンドライン i2c-tools をサポートします。ユーザーが I2C、SPI、バス スキャン、i2cdetect、レジスタ読み取り/書き込み、FTDI、CH341、Aardvark、smbus、i2c‑tools、I2C デバイス アドレス、または SPI フラッシュを指定すると、自動的にトリガーされます。 /i2c‑spi‑tools への明示的な呼び出しとも互換性があります。

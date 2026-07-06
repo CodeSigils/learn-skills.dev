@@ -1,0 +1,2 @@
+BuildFlow マーカー (NEW_FILE_START、UPDATE_FILE_START、SEARCH/REPLACE、PROJECT_NAME_START) を含む AI 応答を構造化されたファイル操作に解析します。これは、ユーザーが直接呼び出すものではなく、web-builder-initial および web-builder-update によって呼び出されるユーティリティ スキルです。
+入力: BuildFlow マーカーを含む AI 応答テキスト 出力: 構造化データ (ファイル配列、プロジェクト名、SEARCH/REPLACE 操作、エラー)

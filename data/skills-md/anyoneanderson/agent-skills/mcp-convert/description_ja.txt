@@ -1,0 +1,22 @@
+エージェント CLI 用の MCP 設定コンバータ。
+
+Claude Code MCP 設定を Codex CLI MCP 設定に変換します。
+env 値を Codex 設定に直接コピーします。
+
+ユーザーが次のことを行う場合にこれを使用します。
+- MCP サーバーを Claude Code から Codex CLI に移行
+- Claude Code MCP 設定を Codex に同期します
+- クロード MCP 設定を Codex 構成としてエクスポート
+- コマンドと環境の動作を維持しながら MCP 定義をコピーします
+
+英語のトリガー:
+- 「クロード MCP をコーデックスに変換」
+- 「クロード コードから MCP 設定を同期」
+- 「MCP 設定を Codex CLI に移行」
+- 「Claude mcpServers を Codex にコピー」
+
+日本語トリガー:
+- 「クロード・コードのMCPをコーデックスに変換」
+- 「クロードのMCP設定をCodex CLIに同期」
+- 「MCP設定を移行」
+- 「クロードのmcpServersをコーデックスに持っていく」
