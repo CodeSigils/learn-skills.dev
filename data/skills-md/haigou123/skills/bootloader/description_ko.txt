@@ -1,0 +1,1 @@
+내장된 부트로더 관리 및 펌웨어 업그레이드 도구입니다. STM32 DfuSe(USB DFU), UF2, OpenBLT, MCUboot 및 사용자 정의 부트로더 프로토콜을 지원합니다. dfu-util, uf2conv, stm32flash, 직렬 YMODEM/XMODEM 등을 통해 펌웨어 플래싱을 수행합니다. 사용자가 부트로더, DFU, DfuSe, UF2, 펌웨어 업그레이드, 온라인 업그레이드, dfu-util, stm32flash, OpenBLT, MCUboot, YMODEM 또는 IAP를 언급하면 ​​자동으로 트리거됩니다. 명시적인 /bootloader 호출과도 호환됩니다.

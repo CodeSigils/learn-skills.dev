@@ -1,0 +1,1 @@
+I2C/SPI 버스 디버깅 도구. 버스 장치를 스캔하고, 레지스터를 읽고 쓰고, FTDI, CH341, Aardvark, RaspberryPi 또는 MCU 브리지와 같은 어댑터를 통해 SPI 데이터를 전송/수신합니다. Python smbus2/spidev/pyftdi 및 명령줄 i2c-tools를 지원합니다. 사용자가 I2C, SPI, 버스 스캐닝, i2cDetect, 레지스터 읽기/쓰기, FTDI, CH341, Aardvark, smbus, i2c-tools, I2C 장치 주소 또는 SPI 플래시를 언급하면 ​​자동으로 트리거됩니다. /i2c‑spi‑tools에 대한 명시적 호출과도 호환됩니다.

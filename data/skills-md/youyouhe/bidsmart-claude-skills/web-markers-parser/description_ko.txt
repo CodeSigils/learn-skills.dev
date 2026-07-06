@@ -1,0 +1,2 @@
+BuildFlow 마커(NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START)가 포함된 AI 응답을 구조화된 파일 작업으로 구문 분석합니다. 이는 사용자가 직접 호출하지 않고 web-builder-initial 및 web-builder-update에 의해 호출되는 유틸리티 스킬입니다.
+입력: BuildFlow 마커가 포함된 AI 응답 텍스트 출력: 구조화된 데이터(파일 배열, 프로젝트 이름, 검색/교체 작업, 오류)

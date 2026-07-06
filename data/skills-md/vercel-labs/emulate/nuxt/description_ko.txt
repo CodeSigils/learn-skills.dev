@@ -1,0 +1,1 @@
+@emulators/adapter-nuxt를 통해 Nuxt 앱에 에뮬레이터를 직접 삽입하기 위한 Nuxt 어댑터입니다. 사용자가 Nuxt에 에뮬레이터를 내장하고, 미리보기 배포를 위해 동일 출처 OAuth를 설정하고, 포괄 서버 경로를 에뮬레이트하고, 내장된 Nuxt 에뮬레이터에 대한 지속성을 구성하거나, withEmulate로 nuxt.config를 래핑해야 하는 경우에 사용하세요. 트리거에는 "Nuxt 에뮬레이터", "adapter-nuxt", "임베디드 에뮬레이터", "same-origin OAuth", "createEmulateHandler", "withEmulate" 또는 Nuxt 앱 내에서 에뮬레이터가 필요한 모든 작업이 포함됩니다.

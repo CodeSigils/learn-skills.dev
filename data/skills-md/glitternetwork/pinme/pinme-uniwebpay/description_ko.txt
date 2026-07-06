@@ -1,0 +1,1 @@
+UniwebPay를 통해 결제를 허용하는 PinMe Cloudflare Worker TypeScript 코드를 생성, 수정 또는 검토할 때 사용하세요. 대상 앱은 PinMe가 UNIWEB_* 바인딩을 주입하고 Worker가 @uniwebpay/sdk를 사용하여 UniwebPay를 직접 호출하는 PinMe Worker 프로젝트입니다. Env 바인딩, SDK 클라이언트 설정, 결제 링크, 제품/가격, 결제 세션, 결제 상태 읽기, 요청 시 환불/구독/웹훅 및 PinMe 관련 배포/보안 규칙을 다룹니다.

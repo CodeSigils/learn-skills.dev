@@ -1,0 +1,1 @@
+FreeRTOS/RTOS 작업 진단 및 런타임 분석 도구입니다. GDB/J-Link/OpenOCD를 통해 대상 장치에 연결하여 작업 스택 사용량, CPU 사용률, 교착 상태 감지, 큐/세마포어/타이머 상태 및 메모리 할당 추적을 분석합니다. 사용자가 FreeRTOS, RTOS, 작업 스택, 스택 오버플로, 교착 상태, CPU 사용률, 작업 진단, vTaskList, uxTaskGetStackHighWaterMark, 대기열, 세마포, 뮤텍스 또는 타이머를 언급하면 ​​자동으로 트리거됩니다. /freertos-diagnose에 대한 명시적 호출과도 호환됩니다.
