@@ -1,5 +1,1 @@
-投标业务专用经验学习器。从对话中提取投标相关的错误、问题和经验教训， 自动注入到 bid-* skills 的 gotchas.md 文件中。
-严格限定范围：仅处理投标业务（招标分析、响应文件编写、质检等）， 不学习通用编程、其他领域知识。
-触发条件： 1. 用户说"记住这个错误" / "记住这次教训" / "总结经验" / "学习这个案例" 2. 用户明确要求"更新 bid-XXX 的 gotchas" 3. 用户说"投标经验记录" / "标书问题记录"
-前置条件： - 当前对话必须在投标项目上下文中（有招标文件、分析报告、响应文件等） - 最近调用过至少一个 bid-* skill
-不触发条件： ❌ 非投标相关对话 ❌ 用户只是抱怨但没明确要求记录 ❌ 问题与 bid 业务无关（如通用代码错误）
+Bid business dedicated experience learner. Extract bid-related errors, issues, and lessons learned from the conversation and automatically inject them into the gotchas.md file of bid-* skills. Strictly limited scope: only handle bid business (tender analysis, response document drafting, quality inspection, etc.), and do not learn generic programming or other domain knowledge. Trigger conditions: 1. User says “remember this error” / “remember this lesson” / “summarize experience” / “learn this case”. 2. User explicitly requests “update bid-XXX’s gotchas”. 3. User says “bid experience record” / “tender document issue record”. Preconditions: – The current conversation must be in the context of a bid project (with tender documents, analysis reports, response documents, etc.). – At least one bid-* skill has been invoked recently. Non-trigger conditions: ❌ Non‑bid‑related conversation. ❌ User only complains without explicitly requesting a record. ❌ Issue unrelated to bid business (e.g., generic code errors).

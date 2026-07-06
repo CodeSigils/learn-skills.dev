@@ -1,0 +1,1 @@
+probe-rs下载和调试工具，用于探针发现、固件刷新、重置、内存读/写、GDB Server调试和RTT日志读取。当用户提到probe-rs、cargo-embed、DAP、RTT、CMSIS-DAP、ST-Link、J-Link、闪烁、芯片信息、重置下的连接、探针选择器、probe-rs gdb、probe-rs Attach时，应该自动触发，并且还兼容显式/probe-rs调用。即使用户只说“使用probe-rs来刷新它”、“检查RTT”或“拉回溯”，只要上下文明确提到probe-rs的功能、CLI命令或相关术语（例如cargo-embed、RTT、probe-rs flash），就应该触发该技能。请始终使用用户的语言进行回复。

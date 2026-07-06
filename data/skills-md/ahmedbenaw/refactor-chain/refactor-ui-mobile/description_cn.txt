@@ -1,0 +1,1 @@
+在重构本机或跨平台移动 UI（SwiftUI、UIKit、Jetpack Compose、React Native 或 Flutter）的视觉设计时使用此技能，并且用户会说“让这个 iOS/Android 屏幕感觉原生”、“点击目标太小”、“内容隐藏在缺口/主页指示器下”、“这不符合 Apple/Material 指南”、“修复移动导航”或“打磨此应用程序屏幕”。它强制执行平台 HIG/材质约定：≥44pt (iOS) / 48dp (Android) 触摸目标、安全区域和缺口/主页指示器插图、平台正确的导航模式以及动态类型/可缩放文本。这是重构链管道中实际工作 UI 通道的移动分支；它在 refactor-ui-tokens 之后和 refactor-ui-components 之前运行。它在保留内容、数据和行为的同时重新设计了呈现方式。

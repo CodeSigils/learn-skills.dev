@@ -1,0 +1,2 @@
+将包含 BuildFlow 标记（NEW_FILE_START、UPDATE_FILE_START、SEARCH/REPLACE、PROJECT_NAME_START）的 AI 响应解析为结构化文件操作。这是由 web-builder-initial 和 web-builder-update 调用的实用技能，而不是用户直接调用的。
+输入：带有 BuildFlow 标记的 AI 响应文本 输出：结构化数据（文件数组、项目名称、搜索/替换操作、错误）

@@ -1,0 +1,12 @@
+为一个史诗运行 GAN 控制循环：对于每个冲刺，协商
+合同，迭代生成器⇄评估器到标题收敛（或
+校长斯金纳停止），检查点到progress.md + _state.json +
+每次迭代时使用 git +metrics.jsonl ，并打开 PR。手柄
+交互式/连续/自主拉尔夫/计划执行模式。
+
+先决条件：/harness-init 和 /harness-plan 必须已完成。
+_state.json.phase 必须是“ready-for-loop”（新鲜）或其中之一
+冲刺阶段（恢复）。
+
+英语触发器：“运行harness-loop”、“启动冲刺循环”、“执行冲刺”
+日本语torigaー：「harness-loop を実行」「sprint ループを开始」「自律実装を开始」

@@ -1,0 +1,1 @@
+GCC嵌入式项目构建工具（CMake+arm-none-eabi-gcc），用于扫描CMake风格的嵌入式项目、列出预设、配置、编译、重建、清理和分析ELF大小。当用户提及 GCC、arm-none-eabi、CMake 嵌入式编译、Ninja 构建、ELF 大小分析、arm-gcc、交叉编译、cmake--build、cmake--preset 时，它会自动触发，并且还与显式 /gcc 调用兼容。即使用户只是说“编译它”或“检查固件有多大”，只要上下文涉及 CMake 嵌入式 GCC 项目，就应该触发此技能。

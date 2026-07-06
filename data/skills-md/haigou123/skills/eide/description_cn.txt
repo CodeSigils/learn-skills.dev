@@ -1,0 +1,1 @@
+EIDE（Embedded IDE）项目构建工具，用于扫描.eide/eide.yml项目，枚举构建配置（ConfigName），执行构建/重建/清理并解析构建日志，返回可以被jlink/openocd重用的工件路径。当用户提及 EIDE、Embedded IDE、eide.yml、unify_builder、VS Code EIDE 扩展或 Cl.eide 时会自动触发，并且还支持使用 /eide 显式调用。即使用户只说“使用EIDE编译”或“EIDE闪存到板”，只要上下文涉及EIDE嵌入式项目，就应该触发该技能。

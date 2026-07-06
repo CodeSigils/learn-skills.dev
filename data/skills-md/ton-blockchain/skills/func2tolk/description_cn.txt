@@ -1,0 +1,1 @@
+使用 Acton 将 TON 智能合约从 FunC (.fc/.func) 移植到现代 Tolk (.tolk)：在有用时使用 acton func2tolk，然后将存储/消息/操作码重构为类型化结构和序列化，实现 Acton 风格的入口点，生成包装器，将 JS/TS 测试迁移到本机 Tolk 测试，并使用 acton build/test/script/verify/disasm 来保留 TL-B 兼容性和行为。当被要求将 FunC 合约转换、移植或现代化为惯用的 Tolk 时使用。

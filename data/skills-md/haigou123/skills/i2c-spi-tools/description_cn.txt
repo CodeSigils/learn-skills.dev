@@ -1,0 +1,1 @@
+I2C/SPI 总线调试工具。扫描总线设备、读取/写入寄存器以及通过 FTDI、CH341、Aardvark、RaspberryPi 或微控制器桥等适配器发送/接收 SPI 数据。支持 Python smbus2/spidev/pyftdi 以及命令行 i2c 工具。当用户提及 I2C、SPI、总线扫描、i2cdetect、寄存器读/写、FTDI、CH341、Aardvark、smbus、i2c-tools、I2C 设备地址或 SPI Flash 时自动触发。还兼容对 /i2c-spi-tools 的显式调用。

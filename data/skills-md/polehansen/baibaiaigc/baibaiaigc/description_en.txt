@@ -1,1 +1,3 @@
-对中文或英文技术/学术文本进行降 AIGC 改写。中文模式严格按两轮顺序使用 prompts/baibaiaigc1.md、prompts/baibaiaigc2.md；英文模式只执行一轮，使用 prompts/baibaiaigc-en.md。每次调用只执行一轮改写，依靠“降 AIGC 记录”跨对话串联轮次。
+Perform a reduction AIGC rewrite of Chinese or English technical/academic texts. In Chinese mode, strictly follow two rounds in order using prompts/baibaiaigc1.md and prompts/baibaiaigc2.md; in English mode, only execute one round, using prompts/baibaiaigc-en.md. Each call performs only one rewrite, relying on the “Reduction AIGC Record” to chain rounds across dialogues.
+
+Please always respond in the user's language.

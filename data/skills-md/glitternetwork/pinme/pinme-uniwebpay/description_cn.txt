@@ -1,0 +1,1 @@
+在生成、修改或查看通过 UniwebPay 接受付款的 PinMe Cloudflare Worker TypeScript 代码时使用。目标应用程序是一个 PinMe Worker 项目，其中 PinMe 注入 UNIWEB_* 绑定，并且 Worker 直接使用 @uniwebpay/sdk 调用 UniwebPay。涵盖 Env 绑定、SDK 客户端设置、支付链接、产品/价格、结帐会话、支付状态读取、请求时的退款/订阅/webhooks 以及 PinMe 特定的部署/安全规则。
