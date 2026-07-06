@@ -1,0 +1,19 @@
+Aprendiz de experiencia dedicada al negocio de ofertas. Extraiga errores, problemas y lecciones aprendidas de la conversación relacionados con las ofertas e inyéctelos automáticamente en el archivo gotchas.md de habilidades bid-*.  
+
+Alcance estrictamente limitado: solo manejar negocios de licitaciones (análisis de licitaciones, redacción de documentos de respuesta, inspección de calidad, etc.), no aprender programación general u otros conocimientos de dominio.  
+
+Condiciones de activación:  
+1. El usuario dice "recordar este error" / "recordar esta lección" / "resumir experiencia" / "aprende este caso"  
+2. El usuario solicita explícitamente "actualizar los errores de bid-XXX"  
+3. El usuario dice "registro de experiencia de licitación" / "registro de emisión del documento de licitación"  
+
+Condiciones previas:  
+- La conversación actual debe estar dentro del contexto de un proyecto de licitación (contar con documentos de licitación, informes de análisis, documentos de respuesta, etc.)  
+- Recientemente se ha invocado al menos una habilidad bid‑*  
+
+Condiciones no desencadenantes:  
+❌ Conversación no relacionada con la oferta  
+❌ El usuario simplemente se queja sin solicitar explícitamente un registro  
+❌ Problema no relacionado con el negocio de licitación (por ejemplo, errores de código generales)  
+
+Por favor responda siempre en el idioma del usuario.

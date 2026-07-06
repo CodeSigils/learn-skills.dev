@@ -1,0 +1,13 @@
+Ejecute un plan de prueba de aceptación de caja negra (test.md) contra un plan terminado
+implementación y producir un resultado estructurado de pasa/falla.
+
+Ejecuta cada caso de prueba mediante su método de verificación (dramaturgo/comando/
+verificación de archivos), inicia la aplicación desde una receta de proyecto, guarda capturas de pantalla y
+registra como evidencia y escribe un archivo de hallazgos compatible con la revisión de especificaciones que
+código de especificación: la retroalimentación puede consumir. Se ejecuta de forma independiente o dentro del
+canalización de orquestación de especificaciones, en un subagente de Claude o en un LLM de pares delegados.
+
+Activadores en inglés: "Prueba de aceptación esta característica", "Ejecutar evaluación de especificaciones",
+"Verificar contra test.md", "Ejecutar el plan de prueba de aceptación"
+日本語トリガー: 「この機能を受け入れ試験して」「spec-evaluateを実行」
+「test.md を実行」「受け入れテストを回して」

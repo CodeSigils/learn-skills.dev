@@ -1,0 +1,9 @@
+Habilidad de análisis de puntuación 3D de Stock Intelligence (v2.0). Ingrese un código de acciones (acción A/Hong Kong/EE. UU.), automáticamente:
+1. Recuperar cotizaciones en tiempo real + líneas K históricas + métricas fundamentales
+2. Calcular indicadores técnicos (MA, MACD, RSI, volumen, desviación de precio)
+3. Puntuación tridimensional: Técnica 50 + Fundamental 30 + Noticias 20 = 100 puntos
+4. WebSearch extrae noticias → Claude evalúa la puntuación de sentimiento de noticias
+5. Genere un panel de decisiones en 3D (que incluya un desglose de tres vías + señales de compra/venta + objetivos de precios)
+
+Escenarios desencadenantes: el usuario proporciona un código de acción para su análisis, pregunta cómo le está yendo a una acción en particular, solicita un análisis de mercado, etc.
+Entradas de ejemplo: "Analizar TSLA PLTR", "Cómo está 600519", "Ayúdame a mirar HK00700".

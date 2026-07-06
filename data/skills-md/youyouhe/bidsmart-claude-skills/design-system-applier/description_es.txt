@@ -1,0 +1,3 @@
+Aplicar un sistema de diseño consistente (colores, tema, tipografía, espaciado) a proyectos web. Extrae las preferencias de diseño de las solicitudes de los usuarios y genera patrones de BÚSQUEDA/REEMPLAZO para actualizar variables CSS, clases Tailwind y configuraciones de temas.
+Condiciones de activación: - Solicitudes de usuario: "cambiar combinación de colores", "aplicar modo oscuro", "usar tema azul", "更改配色" - Preferencias de diseño mencionadas (colores, fuentes, escala de espaciado) - Requisitos explícitos del sistema de diseño
+Entradas: preferencias de diseño + archivos web existentes Salidas: bloques UPDATE_FILE con cambios en el sistema de diseño

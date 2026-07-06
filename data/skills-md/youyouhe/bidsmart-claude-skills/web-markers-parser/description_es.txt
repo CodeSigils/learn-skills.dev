@@ -1,0 +1,2 @@
+Analice las respuestas de IA que contienen marcadores BuildFlow (NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START) en operaciones de archivos estructurados. Esta es una habilidad de utilidad llamada por web-builder-initial y web-builder-update, no invocada directamente por el usuario.
+Entradas: texto de respuesta de IA con marcadores BuildFlow Salidas: datos estructurados (matriz de archivos, nombre del proyecto, operaciones de BÚSQUEDA/REEMPLAZO, errores)

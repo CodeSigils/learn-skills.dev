@@ -1,0 +1,8 @@
+Detecta automáticamente la pila de tecnología del proyecto y sugiere habilidades óptimas desde el registro skills.sh.
+
+Analiza archivos de manifiesto (package.json, Cargo.toml, go.mod, etc.), busca skills.sh
+API, califica los resultados por recuento de instalaciones e instala habilidades seleccionadas
+con instalación dirigida al agente para evitar la creación de directorios no deseados.
+
+Activadores en inglés: "Sugerir habilidades", "Encontrar habilidades de mejores prácticas", "¿Qué habilidades debo instalar?"
+日本語トリガー: ""

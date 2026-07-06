@@ -1,0 +1,8 @@
+Bifurque la conversación actual de Claude Code en un nuevo panel o espacio de trabajo cmux.
+Valor predeterminado: dividir a la derecha. Admite un nuevo espacio de trabajo a través del lenguaje natural.
+
+Requiere sesión cmux (se debe configurar CMUX_SOCKET_PATH).
+
+Desencadenantes en inglés: "sesión fork", "conversación fork", "split and fork"
+日本語トリガー: 「フォークして」「会話をフォーク」「ターミナルをフォークして」「もう一個ターミナル立ち上げて」
+Comando de barra diagonal: /cmux-fork

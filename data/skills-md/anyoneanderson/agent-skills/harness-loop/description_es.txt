@@ -1,0 +1,12 @@
+Ejecute el bucle de control GAN para una épica: para cada sprint, negocie el
+contrato, iterar Generador ⇄ Evaluador a la convergencia de rúbricas (o
+Parada del director Skinner), punto de control para Progress.md + _state.json +
+git + metrics.jsonl en cada iteración y abra el PR. Manijas
+Modos de ejecución interactivos/continuos/autónomos-ralph/programados.
+
+Requisito previo: /harness-init y /harness-plan deben haberse completado.
+_state.json.phase debe estar "listo para el bucle" (nuevo) o uno de los
+fases de sprint (reanudar).
+
+Activadores en inglés: "Ejecutar el bucle de arnés", "Iniciar el bucle de sprint", "Ejecutar sprints"
+日本語トリガー: 「harness-loop を実行」「sprint ループを開始」「自律実装を開始」
