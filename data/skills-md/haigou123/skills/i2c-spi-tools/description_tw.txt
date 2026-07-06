@@ -1,0 +1,1 @@
+I2C/SPI 匯流排偵錯工具。掃描匯流排裝置、讀寫暫存器，並透過 FTDI、CH341、Aardvark、RaspberryPi 或 MCU 橋接器等適配器發送/接收 SPI 資料。支援 Python smbus2/spidev/pyftdi 和命令列 i2c 工具。當使用者提及 I2C、SPI、匯流排掃描、i2cDetect、暫存器讀取/寫入、FTDI、CH341、Aardvark、smbus、i2c 工具、I2C 裝置位址或 SPI 快閃記憶體時會自動觸發。也相容於對 /i2c-spi-tools 的明確呼叫。

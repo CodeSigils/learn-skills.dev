@@ -1,0 +1,22 @@
+用於代理 CLI 的 MCP 設定轉換器。
+
+將 Claude Code MCP 設定轉換為 Codex CLI MCP 配置，
+將 env 值直接複製到 Codex 配置中。
+
+當使用者想要：
+- 將 MCP 伺服器從 Claude Code 遷移到 Codex CLI
+- 將 Claude Code MCP 設定同步到 Codex
+- 將 Claude MCP 設定匯出為 Codex 配置
+- 複製 MCP 定義，同時保留指令和環境行為
+
+英語觸發器：
+- “將 Claude MCP 轉換為 Codex”
+- “從 Claude Code 同步 MCP 設定”
+-“將 MCP 配置遷移到 Codex CLI”
+- “將 Claude mcpServers 複製到 Codex”
+
+日本語：
+- 「克勞德代碼のMCPをCodexに変換」
+- “克勞德のMCP設定をCodex CLIに相似”
+- “MCP設定を移行”
+- 「claudeのmcpServersをcodexに持っていく」

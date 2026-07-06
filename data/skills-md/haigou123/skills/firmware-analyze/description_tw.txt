@@ -1,0 +1,1 @@
+嵌入式韌體靜態分析工具。解析 ELF/Mach-O 文件，導出記憶體佈局和符號表，反彙編關鍵函數，提取字串/常數，並分析快閃記憶體/RAM 使用情況。使用arm-none-eabi工具鏈（objdump/readelf/nm/size）和Python腳本進行自動分析。當使用者提到韌體分析、ELF解析、記憶體佈局、反彙編、符號表、段分析、Flash使用、RAM使用、objdump、readelf、大小、nm或韌體逆向工程時自動觸發。也與透過 /firmware-analyze 的明確呼叫相容。

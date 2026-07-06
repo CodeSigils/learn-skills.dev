@@ -1,0 +1,8 @@
+將目前的 Claude Code 對話分叉到新的 cmux 窗格或工作區。
+預設值：右分割。透過自然語言支援停機和新的工作區。
+
+需要 cmux 會話（必須設定 CMUX_SOCKET_PATH）。
+
+英語觸發器：“fork session”、“fork conversation”、“split and fork”
+日本語トリガー：「福ォークして」「會話を福ォーク」「ターミナルを福ォークして」「もう一個ターミナル立ち上げて」
+斜線指令：/cmux-fork
