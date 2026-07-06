@@ -1,0 +1,12 @@
+Exécutez la boucle de contrôle GAN pour une épopée : pour chaque sprint, négociez le
+contrat, itérer Générateur ⇄ Évaluateur jusqu'à la convergence de la rubrique (ou
+Arrêt principal Skinner), point de contrôle vers progress.md + _state.json +
+git + metrics.jsonl à chaque itération et ouvrez le PR. Poignées
+modes d'exécution interactifs / continus / autonomes-ralph / programmés.
+
+Condition préalable : /harness-init et /harness-plan doivent être terminés.
+_state.json.phase doit être "prêt pour la boucle" (frais) ou l'un des
+phases en sprint (reprise).
+
+Déclencheurs en anglais : "Exécuter une boucle de harnais", "Démarrer la boucle de sprint", "Exécuter des sprints"
+Nom du produit : "harnais-boucle" et sprint.

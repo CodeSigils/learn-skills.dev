@@ -1,0 +1,1 @@
+Vérification rapide compatible CI pour les entrées dont les fichiers sources ont changé depuis la dernière vérification. Compare les fichiers source d'entrée avec git diff sans lire le code source. Signale les entrées obsolètes dans index.json. À utiliser dans les pipelines CI ou avant les versions pour détecter la documentation obsolète.

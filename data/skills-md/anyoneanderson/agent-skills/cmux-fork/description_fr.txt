@@ -1,0 +1,8 @@
+Divisez la conversation Claude Code actuelle dans un nouveau volet cmux ou espace de travail.
+Par défaut : diviser à droite. Prend en charge les nouveaux espaces de travail via le langage naturel.
+
+Nécessite une session cmux (CMUX_SOCKET_PATH doit être défini).
+
+Déclencheurs en anglais : "fork session", "fork conversation", "split and fork"
+日本語トリガー : 「フォークして」「会話をフォーク」「ターミナルをフォークして」「もう一個ターミナル立ち上げて」
+Commande barre oblique : /cmux-fork

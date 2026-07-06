@@ -1,0 +1,13 @@
+Exécutez un plan de test d'acceptation en boîte noire (test.md) sur un
+mise en œuvre et produire un résultat structuré réussite/échec.
+
+Exécute chaque scénario de test par sa méthode de vérification (dramaturge/commande/
+file-check), lance l'application à partir d'une recette de projet, enregistre des captures d'écran et
+enregistre comme preuve et écrit un fichier de résultats compatible avec la révision des spécifications qui
+spec-code --feedback peut consommer. Fonctionne de manière autonome ou à l'intérieur du
+pipeline spec-orchestrate, sur un sous-agent Claude ou un LLM homologue délégué.
+
+Déclencheurs en anglais : "Test d'acceptation de cette fonctionnalité", "Exécuter la spécification-évaluation",
+"Vérifier par rapport à test.md", "Exécuter le plan de test d'acceptation"
+Nom du produit : "spec-evaluate"
+"test.md"

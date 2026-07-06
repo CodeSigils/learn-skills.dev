@@ -1,0 +1,8 @@
+Détectez automatiquement la pile technologique du projet et suggérez des compétences optimales à partir du registre skills.sh.
+
+Analyse les fichiers manifestes (package.json, Cargo.toml, go.mod, etc.), recherche le skills.sh
+API, note les résultats par nombre d'installations et installe les compétences sélectionnées
+avec une installation ciblée par agent pour empêcher la création de répertoires indésirables.
+
+Déclencheurs en anglais : "Suggérer des compétences", "Trouver les meilleures compétences pratiques", "Quelles compétences dois-je installer"
+日本語トリガー : 「スキルを提案」「ベストプラクティススキルを検索」「おすすめスキルを教えて」

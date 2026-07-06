@@ -1,0 +1,9 @@
+Compétence d'analyse de notation 3D Stock Smart (v2.0). Saisissez un code d'action (actions A/actions de Hong Kong/actions américaines) et automatiquement :
+1. Récupère les cotations en temps réel + les données historiques de la ligne K + les indicateurs fondamentaux
+2. Calcule les indicateurs techniques (MA / MACD / RSI / volume / écart de prix)
+3. Génère un score tridimensionnel : technique 50 + fondamental 30 + actualité 20 = 100 points
+4. Effectue une recherche Web pour extraire des actualités → Claude évalue le score de sentiment d'actualité
+5. Produit un tableau de bord de décision 3D (comprenant la répartition 3D + les signaux d'achat/vente + les objectifs de prix)
+
+Scénarios de déclenchement : l'utilisateur fournit un code de titre et demande une analyse, demande comment évolue un titre particulier, demande une vue du marché, etc.
+Exemples d'entrées : « Analyser TSLA PLTR », « Que diriez-vous de 600519 », « Aidez-moi à regarder HK00700 ».

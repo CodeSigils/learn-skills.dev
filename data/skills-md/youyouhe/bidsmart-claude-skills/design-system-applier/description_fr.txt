@@ -1,0 +1,3 @@
+Appliquer un système de conception cohérent (couleurs, thème, typographie, espacement) aux projets Web. Extrait les préférences de conception des demandes des utilisateurs et génère des modèles SEARCH/REPLACE pour mettre à jour les variables CSS, les classes Tailwind et les configurations de thème.
+Conditions de déclenchement : - Demandes des utilisateurs : "changer le jeu de couleurs", "appliquer le mode sombre", "utiliser le thème bleu", "更改配色" - Préférences de conception mentionnées (couleurs, polices, échelle d'espacement) - Exigences explicites du système de conception
+Entrées : préférences de conception + fichiers Web existants Sorties : blocs UPDATE_FILE avec modifications du système de conception

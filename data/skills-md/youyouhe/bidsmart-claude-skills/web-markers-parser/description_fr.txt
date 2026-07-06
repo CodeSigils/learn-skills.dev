@@ -1,0 +1,2 @@
+Analysez les réponses AI contenant des marqueurs BuildFlow (NEW_FILE_START, UPDATE_FILE_START, SEARCH/REPLACE, PROJECT_NAME_START) dans des opérations de fichiers structurés. Il s'agit d'une compétence utilitaire appelée par web-builder-initial et web-builder-update, et non directement invoquée par l'utilisateur.
+Entrées : texte de réponse IA avec marqueurs BuildFlow Sorties : données structurées (tableau de fichiers, nom du projet, opérations SEARCH/REPLACE, erreurs)

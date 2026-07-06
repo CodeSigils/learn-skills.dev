@@ -1,0 +1,22 @@
+Convertisseur de configuration MCP pour les CLI d'agent.
+
+Convertit les paramètres Claude Code MCP en configuration Codex CLI MCP,
+copier les valeurs d'environnement directement dans la configuration du Codex.
+
+Utilisez-le lorsque l'utilisateur souhaite :
+- migrer les serveurs MCP de Claude Code vers Codex CLI
+- synchroniser les paramètres Claude Code MCP dans Codex
+- exporter les paramètres Claude MCP en tant que configuration Codex
+- copier les définitions MCP tout en préservant les commandes et le comportement de l'environnement
+
+Déclencheurs anglais :
+- "convertir Claude MCP en Codex"
+- "synchroniser les paramètres MCP de Claude Code"
+- "migrer la configuration MCP vers Codex CLI"
+- "copier Claude mcpServers dans le Codex"
+
+日本語トリガー :
+- 「Claude CodeのMCPをCodexに変換」
+- 「ClaudeのMCP設定をCodex CLIに同期」
+- 「MCP設定を移行」
+- "claude" mcpServers "codex"
