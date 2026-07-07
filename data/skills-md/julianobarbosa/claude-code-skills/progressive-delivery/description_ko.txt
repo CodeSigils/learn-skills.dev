@@ -1,0 +1,1 @@
+Kubernetes의 점진적 제공 — Argo Rollouts를 통한 카나리아 및 블루-그린 배포와 Kargo를 통한 환경 간 프로모션. Canary 릴리스, 블루-그린 배포, 개정 간 트래픽 이동, 메트릭 기반 승격, AnalysisTemplate/AnalyticRun 디자인, Argo 롤아웃 CRD 또는 Kargo 화물/창고/단계 승격 파이프라인, 개발/스테이징/프로덕션 전반의 다단계 승격, ArgoCD+Kargo 통합을 구현할 때 사용합니다. 출시는 트래픽을 처리하는 개정판을 처리합니다. Kargo는 WHICH 개정판이 어떤 환경에 있는지 처리합니다. 배포 전략과 다중 환경 승격이 모두 필요한 경우 두 가지를 함께 사용하세요.

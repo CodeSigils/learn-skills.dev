@@ -1,0 +1,1 @@
+캐싱, 세션 스토리지 및 작업 대기열을 위한 렌더 키 값(Redis 호환 Valkey 8) 인스턴스를 프로비저닝하고 구성합니다. 사용자에게 Redis, 키 값, Valkey, 캐시, 세션 저장소, 작업 대기열 백엔드가 필요하거나 최대 메모리 정책, ipAllowList, 연결 문자열 또는 내부 및 외부 액세스를 구성해야 하는 경우에 사용합니다. 트리거 조건: 키 값, Redis, Valkey, 캐시, 세션 저장소, REDIS_URL, maxmemory, ipAllowList, allkeys-lru, noeviction.
