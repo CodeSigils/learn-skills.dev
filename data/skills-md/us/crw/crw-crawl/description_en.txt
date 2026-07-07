@@ -1,0 +1,5 @@
+Crawl an entire website or section and extract content from every page.
+Use when you need content from many pages under a common URL prefix:
+"crawl the whole site", "get all docs pages", "scrape every blog post",
+"download the full docs for RAG", "extract all pages under /api". Async
+BFS — starts a job and polls for results. Step 4 of the crw workflow ladder.

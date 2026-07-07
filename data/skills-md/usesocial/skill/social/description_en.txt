@@ -1,0 +1,10 @@
+Use when the user wants to interact with LinkedIn or X (Twitter):
+outreach, posting, audience insights, message triage, account research,
+comments/reactions, companies, company Page management, jobs, bookmarks,
+connected-account management, billing audits, bug reports, and feature requests. Triggers include "search
+LinkedIn", "find <name> on LinkedIn", "look up this tweet", "my X bookmarks",
+"show my home timeline", "check my messages", "from:<username>", "report a
+bug", "request a feature", "send feedback", "let's get started with social",
+"set me up", "log me in", "connect my LinkedIn/X", and explicit `/social`.
+Operates the `social` CLI (npm `@usesocial/cli`); never call LinkedIn's or X's
+HTTP APIs directly.

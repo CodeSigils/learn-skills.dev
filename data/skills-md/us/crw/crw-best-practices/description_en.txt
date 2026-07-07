@@ -1,0 +1,6 @@
+Reference skill for building production-ready crw integrations. Covers verb
+selection, call surfaces (CLI/MCP/REST), post-filtering strategies, context-window
+hygiene, Hybrid RAG patterns, common pitfalls, and crw-specific operational
+considerations (SearXNG limits, renderer pool, proxy rotation). Load this when
+writing application code that embeds crw, designing a multi-step agent workflow,
+or debugging an integration that isn't behaving as expected.

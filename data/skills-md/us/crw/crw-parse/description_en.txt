@@ -1,0 +1,5 @@
+Parse a local or remote FILE (PDF) into markdown or structured JSON with
+fastCRW. Use when the source is a file on disk — "parse this PDF", "extract
+text from this document", "read this report", "convert PDF to markdown".
+Routing rule: URL → use crw-scrape; file on disk → use crw-parse. Step 5
+of the crw workflow ladder.
