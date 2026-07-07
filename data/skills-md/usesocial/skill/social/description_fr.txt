@@ -1,0 +1,10 @@
+À utiliser lorsque l'utilisateur souhaite interagir avec LinkedIn ou X (Twitter) :
+sensibilisation, publication, informations sur l'audience, tri des messages, recherche de comptes,
+commentaires/réactions, entreprises, gestion des pages d'entreprise, emplois, favoris,
+gestion des comptes connectés, audits de facturation, rapports de bugs et demandes de fonctionnalités. Les déclencheurs incluent "recherche
+LinkedIn", "trouver <nom> sur LinkedIn", "rechercher ce tweet", "mes favoris X",
+"afficher la chronologie de ma maison", "vérifier mes messages", "de :<nom d'utilisateur>", "signaler un
+bug", "demander une fonctionnalité", "envoyer des commentaires", "commençons avec les réseaux sociaux",
+« me configurer », « me connecter », « connecter mon LinkedIn/X » et « /social » explicite.
+Exploite la CLI `social` (npm `@usesocial/cli`) ; n'appelez jamais LinkedIn ou X
+API HTTP directement.
