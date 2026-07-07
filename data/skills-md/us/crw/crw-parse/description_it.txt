@@ -1,0 +1,5 @@
+Analizza un FILE locale o remoto (PDF) in markdown o JSON strutturato con
+veloceCRW. Da utilizzare quando l'origine è un file su disco: "analizza questo PDF", "estrai
+testo da questo documento", "leggi questo rapporto", "converti PDF in markdown".
+Regola di instradamento: URL → usa crw-scrape; file su disco → usa crw-parse. Passaggio 5
+della scala del flusso di lavoro crw.

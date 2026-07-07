@@ -1,0 +1,10 @@
+Utilizzare quando l'utente desidera interagire con LinkedIn o X (Twitter):
+sensibilizzazione, pubblicazione, approfondimenti sul pubblico, valutazione dei messaggi, ricerca dell'account,
+commenti/reazioni, aziende, gestione della Pagina aziendale, lavori, segnalibri,
+gestione degli account connessi, controlli di fatturazione, segnalazioni di bug e richieste di funzionalità. I trigger includono "search
+LinkedIn", "trova <nome> su LinkedIn", "cerca questo tweet", "i miei X segnalibri",
+"mostra la mia cronologia home", "controlla i miei messaggi", "da:<nomeutente>", "segnala a
+bug", "richiedi una funzione", "invia feedback", "iniziamo con i social",
+"impostami", "accedi", "collega il mio LinkedIn/X" e "/social" esplicito.
+Gestisce la CLI `social` (npm `@usesocial/cli`); non chiamare mai LinkedIn o X
+API HTTP direttamente.
