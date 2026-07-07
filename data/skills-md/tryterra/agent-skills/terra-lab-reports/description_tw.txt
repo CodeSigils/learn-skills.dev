@@ -1,0 +1,1 @@
+Terra Lab Reports（預發布）的最佳實踐和 API 參考 – 將臨床實驗室報告 PDF 和圖像轉換為結構化、標準化的生物標記數據。在解析血液測試結果、提取生物標記、映射到 LOINC 或 UCUM 單位代碼、處理參考範圍、處理 lab_report.completed / lab_report.failed webhooks 或處理 PDF 實驗室結果和實驗室報告 OCR 時使用。涵蓋非同步上傳/標準化/交付生命週期、事件信封（event_id、upload_id）、分層結果模型（來源、生物標記、測量、解釋、參考範圍）、不匹配的生物標記處理、雪花 ID 和冪等 Webhook 處理。

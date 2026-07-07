@@ -1,0 +1,1 @@
+在編寫涉及 wgpu、WGSL 計算著色器、Tokio 非同步管道、GPU 緩衝區管理、SAM/ReBAR 記憶體策略、RDNA2/RDNA3 硬體約束或任何必須同時考慮 Rust 非同步和 GPU 計算的架構的 Rust 程式碼時，請使用此技能。觸發器包括：wgpu 管道佈局、WGSL 工作組設計、緩衝區分段策略、GPU 駐留資料架構、用於硬體攝取的 Tokio 任務拓撲、用於即時管道的 crossbeam 通道設計，以及為什麼 Tokio 不是 C++ 執行緒的任何問題。

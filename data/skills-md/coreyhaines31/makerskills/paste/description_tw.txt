@@ -1,0 +1,1 @@
+當您想要清理並重新格式化內容（通常來自終端）以貼上到 Slack、Notion、Twitter/X、LinkedIn、電子郵件、GitHub 或純文字中。移除 ANSI 代碼、方塊圖字元、終端提示工件，並套用特定於目標的格式。預設輸入是剪貼簿（透過「pbpaste」讀取）；預設輸出是剪貼簿（`pbcopy`）和聊天預覽。在「/paste」、「/paste [destination]」、「clean this for X」、「slack/notion/twitter/linkedin/email/github 格式」、「渲染為 markdown」、「貼上就緒」、「剝離格式」、「使此可複製貼上」上觸發。預設目標是普通的。也會掃描機密（API 金鑰、令牌、.env 值）並在複製任何敏感內容之前發出警告。
