@@ -1,0 +1,1 @@
+当您想要清理并重新格式化内容（通常来自终端）以粘贴到 Slack、Notion、Twitter/X、LinkedIn、电子邮件、GitHub 或纯文本中时。去除 ANSI 代码、方框图字符、终端提示工件，并应用特定于目标的格式。默认输入是剪贴板（通过“pbpaste”读取）；默认输出是剪贴板（`pbcopy`）和聊天预览。在“/paste”、“/paste [destination]”、“clean this for X”、“slack/notion/twitter/linkedin/email/github 格式”、“渲染为 markdown”、“粘贴就绪”、“剥离格式”、“使此可复制粘贴”上触发。默认目标是普通的。还会扫描机密（API 密钥、令牌、.env 值）并在复制任何敏感内容之前发出警告。

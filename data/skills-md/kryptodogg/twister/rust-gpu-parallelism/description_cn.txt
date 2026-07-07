@@ -1,0 +1,1 @@
+在编写涉及 wgpu、WGSL 计算着色器、Tokio 异步管道、GPU 缓冲区管理、SAM/ReBAR 内存策略、RDNA2/RDNA3 硬件约束或任何必须同时考虑 Rust 异步和 GPU 计算的架构的 Rust 代码时，请使用此技能。触发器包括：wgpu 管道布局、WGSL 工作组设计、缓冲区分段策略、GPU 驻留数据架构、用于硬件摄取的 Tokio 任务拓扑、用于实时管道的 crossbeam 通道设计，以及有关为什么 Tokio 不是 C++ 线程的任何问题。

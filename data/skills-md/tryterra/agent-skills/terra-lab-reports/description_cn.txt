@@ -1,0 +1,1 @@
+Terra Lab Reports（预发布）的最佳实践和 API 参考 – 将临床实验室报告 PDF 和图像转换为结构化、标准化的生物标记数据。在解析血液测试结果、提取生物标志物、映射到 LOINC 或 UCUM 单位代码、处理参考范围、处理 lab_report.completed / lab_report.failed webhooks 或处理 PDF 实验室结果和实验室报告 OCR 时使用。涵盖异步上传/标准化/交付生命周期、事件信封（event_id、upload_id）、分层结果模型（源、生物标记、测量、解释、参考范围）、不匹配的生物标记处理、雪花 ID 和幂等 Webhook 处理。

@@ -1,0 +1,1 @@
+搭建新的 brooks-lint 分析技能，使其在第一次尝试时通过 `npm run validate` 和 `npm run evals` — 生成 Skills/{name}/SKILL.md（带有强制的“Do NOT trigger for:”子句和引用指导步骤范围的 Process 部分）加上 Skills/{name}/{name}-guide.md（按顺序编号的步骤），然后附加配对的 eval 场景。当维护者要求“添加新技能”、“搭建技能”或“创建 brooks-lint 模式”时触发。请勿触发：编辑现有技能的内容、向现有技能添加单个评估或为其他插件创作技能。
