@@ -1,0 +1,1 @@
+當使用者需要將想法、需求描述、產品需求、專案背景、Markdown、純文字或本機文件組織成 DWF 工作流程樣式的需求文件時，必須使用此技能。負責收集和明確需求，根據“references/requirements_template.md”在目標spec目錄下產生“01-需求/需求文件.md”，並請求使用者確認。它適用於「產生需求文件」、「組織PRD」、「先編寫需求文件」、「標準化需求」、「提取需求階段」等場景。它可以獨立運行，也可以作為 dwf-orchestrator 編排工作流程的一部分運行（當「state.json」中的規範具有「status：active」和「current_step：requirements」時進入工作流程模式）。
