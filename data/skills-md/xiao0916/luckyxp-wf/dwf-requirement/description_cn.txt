@@ -1,0 +1,1 @@
+当用户需要将想法、需求描述、产品需求、项目背景、Markdown、纯文本或本地文档组织成 DWF 工作流程样式的需求文档时，必须使用此技能。负责收集和明确需求，根据“references/requirements_template.md”在目标spec目录下生成“01-需求/需求文档.md”，并请求用户确认。它适用于“生成需求文档”、“组织 PRD”、“先编写需求文档”、“标准化需求”、“提取需求阶段”等场景。它可以独立运行，也可以作为 dwf-orchestrator 编排的工作流程的一部分运行（当“state.json”中的规范具有“status：active”和“current_step：requirements”时进入工作流程模式）。
