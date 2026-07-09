@@ -1,0 +1,1 @@
+gestione della configurazione locale di arkcli. A partire dalla versione 0.1.16, le operazioni relative al profilo dovrebbero utilizzare preferenzialmente `arkcli profile <subcmd>` (init/list/show/switch/delete sono deprecati); questa abilità può ancora gestire `arkcli config reset` e la risoluzione dei problemi yaml legacy.

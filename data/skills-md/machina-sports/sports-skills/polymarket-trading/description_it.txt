@@ -1,0 +1,3 @@
+Operazioni di trading Polymarket ad alto rischio: configura l'accesso CLOB supportato dal portafoglio, effettua ordini limite/di mercato, annulla ordini e visualizza ordini/operazioni specifici dell'account. Richiede py-clob-client-v2 e un portafoglio controllato dall'utente. Utilizzare solo quando l'utente richiede esplicitamente di negoziare o gestire gli ordini nella sessione corrente.
+
+Non utilizzare per quote di sola lettura, probabilità, ricerche di mercato o scoperta di eventi: utilizza invece l'abilità "polimercato". Non chiedere all'utente di incollare le chiavi private nella chat. Non effettuare o annullare ordini senza la conferma esplicita di token_id, lato, prezzo/importo e dimensione.
