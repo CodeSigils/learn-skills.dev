@@ -1,0 +1,3 @@
+Operaciones comerciales de Polymarket de alto riesgo: configure el acceso CLOB respaldado por billetera, realice órdenes de mercado/límite, cancele órdenes y vea órdenes/operaciones específicas de la cuenta. Requiere py-clob-client-v2 y una billetera controlada por el usuario. Úselo solo cuando el usuario solicite explícitamente negociar o administrar órdenes en la sesión actual.
+
+No lo utilice para cuotas, probabilidades, búsqueda de mercado o descubrimiento de eventos de solo lectura; en su lugar, utilice la habilidad "polimercado". No le pida al usuario que pegue claves privadas en el chat. No realice ni cancele pedidos sin la confirmación explícita de token_id, lado, precio/cantidad y tamaño.
