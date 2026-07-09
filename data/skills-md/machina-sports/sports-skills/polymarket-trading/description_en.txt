@@ -1,0 +1,3 @@
+High-risk Polymarket trading operations — configure wallet-backed CLOB access, place limit/market orders, cancel orders, and view account-specific orders/trades. Requires py-clob-client-v2 and a user-controlled wallet. Use only when the user explicitly asks to trade or manage orders in the current session.
+
+Do not use for read-only odds, probabilities, market search, or event discovery — use the `polymarket` skill instead. Do not ask the user to paste private keys into chat. Do not place or cancel orders without explicit confirmation of token_id, side, price/amount, and size.

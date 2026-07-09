@@ -1,0 +1,8 @@
+Esports data — Dota 2 (OpenDota) and League of Legends esports (Leaguepedia).
+Pro matches, tournaments, teams, and structured LoL competitive data.
+Use when: user asks about Dota 2 pro matches/teams/leagues, or LoL esports
+tournaments/rosters/results.
+Don't use when: user asks about esports betting/odds — use the `kalshi`
+(get_esports_odds) or `polymarket` (get_esports_events) skills (no keyless
+bookmaker-odds source exists). Don't use for non-Dota/LoL titles (only Dota 2
+and LoL are covered).

@@ -1,0 +1,1 @@
+arkcli +understand：多模态理解工作流，通过 12 个任务型 sub-skill（4 模态：image/video/audio/file）在数据面 Responses API 引擎上做专项理解。覆盖图片描述/OCR、视觉定位（bbox grounding）、GUI 操作识别、PDF/文档字段抽取、视频总结/视频问答、音视频联合理解、语音转写（ASR）、语音翻译（AST）、SRT 字幕打轴、多说话人转写、会议纪要。每个 sub-skill 自带专家 system prompt 与默认模型。当用户要『转写这段录音 / 把图里目标框出来 / 抽取这份 PDF 的字段 / 总结这段视频 / 生成字幕 / 识别会议纪要 / 描述这张图』这类有明确产出形态的多模态理解任务时使用；开放式带图对话用 +chat，生成图/视频用 +gen。

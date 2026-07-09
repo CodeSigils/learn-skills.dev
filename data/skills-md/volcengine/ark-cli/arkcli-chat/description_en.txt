@@ -1,0 +1,1 @@
+arkcli +chat：通过数据面 Responses API 快速对话/推理，支持多模态（@file 本地图片、视频、音频、通用文件）、流式输出、system instructions、采样调节（temperature/top-p/max-output-tokens）、reasoning effort 调节、--store + previous-response-id 多轮接续。当用户需要与模型即时对话、问答、推理、做带图/视频/音频的开放式多模态对话与追问、调温度/采样、控制思考强度、或多轮接续对话时使用。注意：有明确产出形态的多模态理解（语音转写、文档字段抽取、字幕打轴、bbox 框选定位、视频分章节总结等）走 arkcli-understand；本 skill 只做开放式对话/推理。
