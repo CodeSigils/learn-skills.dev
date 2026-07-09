@@ -1,0 +1,3 @@
+Polymarket-Handelsvorgänge mit hohem Risiko: Konfigurieren Sie den Wallet-gestützten CLOB-Zugriff, erteilen Sie Limit-/Market-Orders, stornieren Sie Orders und sehen Sie sich kontospezifische Orders/Trades an. Erfordert py-clob-client-v2 und eine benutzergesteuerte Wallet. Nur verwenden, wenn der Benutzer in der aktuellen Sitzung ausdrücklich darum bittet, Aufträge zu handeln oder zu verwalten.
+
+Nicht für schreibgeschützte Quoten, Wahrscheinlichkeiten, Marktsuche oder Ereigniserkennung verwenden – verwenden Sie stattdessen die Fertigkeit „Polymarket“. Bitten Sie den Benutzer nicht, private Schlüssel in den Chat einzufügen. Geben Sie keine Bestellungen auf oder stornieren Sie sie nicht ohne ausdrückliche Bestätigung von token_id, Seite, Preis/Betrag und Größe.
