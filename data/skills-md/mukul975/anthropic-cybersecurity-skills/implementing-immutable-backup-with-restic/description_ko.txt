@@ -1,0 +1,1 @@
+랜섬웨어 방지 데이터 보호를 위해 S3 호환 스토리지 및 개체 잠금이 포함된 Restic을 사용하여 불변 백업 전략을 구현합니다. 백업 생성, Restic Check --read-data를 통한 무결성 확인, 스냅샷 보존 정책 적용 및 복원 테스트를 자동화합니다. 랜섬웨어 행위자에 의한 백업 삭제 또는 암호화를 방지하는 WORM(Write Once Read Many) 스토리지용 AWS S3 Object Lock, MinIO 및 Backblaze B2와 통합됩니다.
