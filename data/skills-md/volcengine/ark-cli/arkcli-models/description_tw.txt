@@ -1,0 +1,1 @@
+arkcli 模型查詢功能：列出、搜尋和檢索 Volcano 公共基礎模型的詳細資訊。偏好使用產品指令 `arkcli models ...` 而不是直接呼叫原始 API。注意：查詢/管理帳戶下自訓練或微調的自訂模型（`cm-xxx`）應使用 arkcli-custommodel；此技能僅涵蓋公共基礎模型目錄。語音/TTS/ASR/播客/音色/即時語音互動模型僅支援廣場搜尋和選擇描述，不應呼叫+chat、+gen、+deploy、+程式碼範例、使用、定價、onboard 或 auth apikey。

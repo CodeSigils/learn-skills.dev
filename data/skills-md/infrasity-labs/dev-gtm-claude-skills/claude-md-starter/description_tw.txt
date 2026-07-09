@@ -1,0 +1,1 @@
+透過掃描儲存庫中的訊號檔案（package.json、Makefile、.github/workflows/、.env.example 等），推斷堆疊、命令、架構和約定，然後針對無法推斷的內容提出最多 3 個有針對性的問題，產生完全結構化的、特定於專案的 CLAUDE.md。每當使用者說「建立 CLAUDE.md」、「我的 CLAUDE.md 為空」、「產生專案上下文」、「初始化 CLAUDE.md」、「為此儲存庫設定 Claude 上下文」、「填寫我的 CLAUDE.md」或任何需要為 Claude 記錄其專案上下文的變體時使用。如果 CLAUDE.md 已存在內容，則在寫入之前執行 diff-and-merge 流程。

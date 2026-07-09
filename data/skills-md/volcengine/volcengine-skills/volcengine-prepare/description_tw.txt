@@ -1,0 +1,1 @@
+當使用者想要將本機目錄或 GitHub 儲存庫部署到 Volcengine 並需要在選擇執行路徑之前分析專案、了解應用程式形狀以及跨 ECS、VKE 和 veFaaS 的排名建議時使用。當使用者詢問「我應該使用什麼部署模式」、「這個儲存庫是否已準備好用於 Volcengine」或「在部署之前檢查我的儲存庫」時也會觸發。這項技能為決策做好準備； `volcengine-deploy` 技能執行所選的部署，並且僅當使用者選擇 Terraform/IaC 或任務已有 IaC 工作流程時才使用 `volcengine-iac` 技能。
