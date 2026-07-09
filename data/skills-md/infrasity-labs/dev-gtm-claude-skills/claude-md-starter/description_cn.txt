@@ -1,0 +1,1 @@
+通过扫描存储库中的信号文件（package.json、Makefile、.github/workflows/、.env.example 等），推断堆栈、命令、架构和约定，然后针对无法推断的内容提出最多 3 个有针对性的问题，生成完全结构化的、特定于项目的 CLAUDE.md。每当用户说“创建 CLAUDE.md”、“我的 CLAUDE.md 为空”、“生成项目上下文”、“初始化 CLAUDE.md”、“为此存储库设置 Claude 上下文”、“填写我的 CLAUDE.md”或任何需要为 Claude 记录其项目上下文的变体时使用。如果 CLAUDE.md 已存在内容，则在写入之前运行 diff-and-merge 流程。

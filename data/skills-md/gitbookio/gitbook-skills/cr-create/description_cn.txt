@@ -1,0 +1,1 @@
+通过直接使用curl（无CLI）调用GitBook REST API，从Claude Code驱动端到端的GitBook文档审阅流程——创建变更请求，推送内容（更新现有页面并创建新页面），请求审阅者，通知Slack，然后拉回审阅评论，修复它们，重新推送并解决。这是 cr-review 的创作端伴侣（同一 API 上的审阅者端）。每当有人想要从终端/代理针对原始 API (curl/HTTP) 运行“GitBook 中的文档审查”循环时，提到通过 API 创建更改请求、将内容推送到 CR、“拉取最新评论并修复它们”、请求对文档进行审查，或者向工程师展示如何在没有 CLI 的情况下协作处理来自 Claude + Slack 的 GitBook 文档，请使用此选项。

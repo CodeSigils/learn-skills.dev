@@ -1,0 +1,1 @@
+当用户想要查询 Twilio SendGrid 电子邮件日志或检索特定 sg_message_id 的每条消息活动时使用，包括电子邮件是否被打开、单击、送达、退回、推迟、丢弃、垃圾邮件报告或取消订阅。支持按 ID 进行 GET /v3/logs/{sg_message_id} 搜索，并支持按收件人、可选主题、发送下限、状态、原始查询和模糊消息 ID 匹配进行 POST /v3/logs 搜索。支持全球或欧盟 SendGrid API 基本 URL、用于按 ID 查找的可选代表父帐户标头、原始 JSON 输出、事件摘要丰富、试运行 URL 或负载预览以及保存的 SendGrid API 密钥重用。请勿用于发送电子邮件或汇总 SendGrid 统计信息。

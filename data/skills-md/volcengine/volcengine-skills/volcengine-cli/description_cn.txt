@@ -1,0 +1,1 @@
+使用 Volcengine CLI（`ve` 命令）创建和管理 Volcengine 云资源。支持所有 Volcengine 服务，包括 ECS、VPC、CLB、RDS、Redis 等。每当用户要求在 Volcengine 上创建、查询、修改或删除云资源、提到“ve”命令、说“volcengine CLI”或描述“创建 ECS 实例”、“设置 VPC”、“列出安全组”、“分配 EIP”等基础设施任务时，都会触发此技能。也会在中文提示中提到“火山引擎”或“火山”时触发（例如，“火山引擎上有哪些 ECS”、“查一下我火山的云服务器”、“火山引擎创建一个 VPC”、“火山的 Redis 实例列一下”）。当用户遇到“ve”命令错误并需要故障排除帮助时也会触发。
