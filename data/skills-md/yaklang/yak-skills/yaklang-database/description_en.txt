@@ -1,0 +1,1 @@
+Yaklang 数据库操作 (db 库) 专题。当用户需要在脚本/插件里持久化或查询数据时使用：临时 SQLite 建表与增删改查 (db.OpenTempSqliteDatabase / db.ScanResult / Exec)、跨脚本共享配置的键值存储 (db.SetKey/GetKey/DelKey/SetKeyWithTTL)、爆破字典统一管理 (db.SavePayload/YieldPayload)、以及项目级配置 (db.SetProjectKey/GetProjectKey)。

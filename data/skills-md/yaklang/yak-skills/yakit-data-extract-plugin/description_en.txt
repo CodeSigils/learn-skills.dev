@@ -1,0 +1,1 @@
+解决一个高频实战痛点：在 Yakit History 里积累了某站点大量流量后，如何一键按域名捞取所有唯一 路径、拿到登录 Cookie，并把这些路径沉淀成可复用的 Payload 字典，再带着登录态逐路径发包扫描/Fuzz。 覆盖 db.QueryHTTPFlowsByKeyword 捞 History、URI 去重、Cookie 提取、db.SavePayload/YieldPayload 字典管理、poc.HTTP 登录态发包。当用户想"从历史流量提取数据驱动后续扫描"时使用。

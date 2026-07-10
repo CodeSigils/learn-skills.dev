@@ -2,7 +2,7 @@
   "title": "Skills.sh Feed",
   "description": "Latest skill data from skills.sh",
   "link": "https://skills.sh",
-  "updatedAt": "2026-07-09T02:42:48.562Z",
+  "updatedAt": "2026-07-10T02:44:50.054Z",
   "providers": [
     {
       "id": "skills.sh",
@@ -15,7 +15,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 2403483,
+      "installs": 2421001,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -24,7 +24,7 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 640466,
+      "installs": 644866,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -33,7 +33,7 @@
       "id": "vercel-labs/agent-skills/vercel-react-best-practices",
       "title": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
-      "installs": 535591,
+      "installs": 538667,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
@@ -42,7 +42,7 @@
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 525362,
+      "installs": 529307,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
@@ -51,7 +51,7 @@
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 487699,
+      "installs": 502650,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -60,7 +60,7 @@
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 448149,
+      "installs": 451046,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -69,7 +69,7 @@
       "id": "microsoft/azure-skills/microsoft-foundry",
       "title": "microsoft-foundry",
       "source": "microsoft/azure-skills",
-      "installs": 440160,
+      "installs": 443565,
       "link": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
       "providerId": "skills.sh",
       "description": "Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare)."
@@ -78,7 +78,7 @@
       "id": "microsoft/azure-skills/azure-ai",
       "title": "azure-ai",
       "source": "microsoft/azure-skills",
-      "installs": 437039,
+      "installs": 440394,
       "link": "https://skills.sh/microsoft/azure-skills/azure-ai",
       "providerId": "skills.sh",
       "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech."
@@ -87,7 +87,7 @@
       "id": "microsoft/azure-skills/azure-deploy",
       "title": "azure-deploy",
       "source": "microsoft/azure-skills",
-      "installs": 436690,
+      "installs": 440047,
       "link": "https://skills.sh/microsoft/azure-skills/azure-deploy",
       "providerId": "skills.sh",
       "description": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: \"run azd up\", \"run azd deploy\", \"execute deployment\", \"push to production\", \"push to cloud\", \"go live\", \"ship it\", \"bicep deploy\", \"terraform apply\", \"publish to Azure\", \"launch on Azure\". DO NOT USE WHEN: \"create and deploy\", \"build and deploy\", \"create a new app\", \"set up infrastructure\", \"create and deploy to Azure using Terraform\" — use azure-prepare for these."
@@ -96,7 +96,7 @@
       "id": "microsoft/azure-skills/azure-diagnostics",
       "title": "azure-diagnostics",
       "source": "microsoft/azure-skills",
-      "installs": 436571,
+      "installs": 439926,
       "link": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
       "providerId": "skills.sh",
       "description": "Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working."
@@ -105,7 +105,7 @@
       "id": "microsoft/azure-skills/azure-prepare",
       "title": "azure-prepare",
       "source": "microsoft/azure-skills",
-      "installs": 436467,
+      "installs": 439821,
       "link": "https://skills.sh/microsoft/azure-skills/azure-prepare",
       "providerId": "skills.sh",
       "description": "Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: \"create app\", \"build web app\", \"create API\", \"create serverless HTTP API\", \"create frontend\", \"create back end\", \"build a service\", \"modernize application\", \"update application\", \"add authentication\", \"add caching\", \"host on Azure\", \"create and deploy\", \"deploy to Azure\", \"deploy to Azure using Terraform\", \"deploy to Azure App Service\", \"deploy to Azure App Service using Terraform\", \"deploy to Azure Container Apps\", \"deploy to Azure Container Apps using Terraform\", \"generate Terraform\", \"generate Bicep\", \"function app\", \"timer trigger\", \"service bus trigger\", \"event-driven function\", \"containerized Node.js app\", \"social media app\", \"static portfolio website\", \"todo list with frontend and API\", \"prepare my Azure application to use Key Vault\", \"managed identity\"."
@@ -114,7 +114,7 @@
       "id": "microsoft/azure-skills/azure-storage",
       "title": "azure-storage",
       "source": "microsoft/azure-skills",
-      "installs": 436161,
+      "installs": 439512,
       "link": "https://skills.sh/microsoft/azure-skills/azure-storage",
       "providerId": "skills.sh",
       "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging)."
@@ -123,7 +123,7 @@
       "id": "microsoft/azure-skills/azure-validate",
       "title": "azure-validate",
       "source": "microsoft/azure-skills",
-      "installs": 435826,
+      "installs": 439177,
       "link": "https://skills.sh/microsoft/azure-skills/azure-validate",
       "providerId": "skills.sh",
       "description": "Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment."
@@ -132,7 +132,7 @@
       "id": "microsoft/azure-skills/entra-app-registration",
       "title": "entra-app-registration",
       "source": "microsoft/azure-skills",
-      "installs": 435705,
+      "installs": 439059,
       "link": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
       "providerId": "skills.sh",
       "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security)."
@@ -141,7 +141,7 @@
       "id": "microsoft/azure-skills/appinsights-instrumentation",
       "title": "appinsights-instrumentation",
       "source": "microsoft/azure-skills",
-      "installs": 435628,
+      "installs": 438980,
       "link": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
       "providerId": "skills.sh",
       "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices."
@@ -150,7 +150,7 @@
       "id": "microsoft/azure-skills/azure-compliance",
       "title": "azure-compliance",
       "source": "microsoft/azure-skills",
-      "installs": 435561,
+      "installs": 438912,
       "link": "https://skills.sh/microsoft/azure-skills/azure-compliance",
       "providerId": "skills.sh",
       "description": "Comprehensive Azure compliance and security auditing capabilities including best practices assessment, Key Vault expiration monitoring, and resource configuration validation. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, compliance assessment, resource review, configuration validation, expired certificates, expiring secrets, orphaned resources, policy compliance, security posture evaluation."
@@ -159,7 +159,7 @@
       "id": "microsoft/azure-skills/azure-resource-lookup",
       "title": "azure-resource-lookup",
       "source": "microsoft/azure-skills",
-      "installs": 435557,
+      "installs": 438908,
       "link": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
       "providerId": "skills.sh",
       "description": "List, find, and show Azure resources. Answers \"list my VMs\", \"show my storage accounts\", \"list websites\", \"find container apps\", \"what resources do I have\", and similar queries for any Azure resource type. USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps, list container apps, show resources, find resources, what resources do I have, list resources in resource group, list resources in subscription, find resources by tag, find orphaned resources, resource inventory, count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery, list container registries, list SQL servers, list Key Vaults, show resource groups, list app services, find resources across subscriptions, find unattached disks, tag analysis. DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources, cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds."
@@ -168,7 +168,7 @@
       "id": "microsoft/azure-skills/azure-rbac",
       "title": "azure-rbac",
       "source": "microsoft/azure-skills",
-      "installs": 435551,
+      "installs": 438902,
       "link": "https://skills.sh/microsoft/azure-skills/azure-rbac",
       "providerId": "skills.sh",
       "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles."
@@ -177,7 +177,7 @@
       "id": "microsoft/azure-skills/azure-aigateway",
       "title": "azure-aigateway",
       "source": "microsoft/azure-skills",
-      "installs": 435462,
+      "installs": 438813,
       "link": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
       "providerId": "skills.sh",
       "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway."
@@ -186,7 +186,7 @@
       "id": "microsoft/azure-skills/azure-kusto",
       "title": "azure-kusto",
       "source": "microsoft/azure-skills",
-      "installs": 435403,
+      "installs": 438753,
       "link": "https://skills.sh/microsoft/azure-skills/azure-kusto",
       "providerId": "skills.sh",
       "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection."
@@ -195,7 +195,7 @@
       "id": "microsoft/azure-skills/azure-resource-visualizer",
       "title": "azure-resource-visualizer",
       "source": "microsoft/azure-skills",
-      "installs": 435393,
+      "installs": 438742,
       "link": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
       "providerId": "skills.sh",
       "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)"
@@ -204,52 +204,52 @@
       "id": "microsoft/azure-skills/azure-messaging",
       "title": "azure-messaging",
       "source": "microsoft/azure-skills",
-      "installs": 425149,
+      "installs": 428497,
       "link": "https://skills.sh/microsoft/azure-skills/azure-messaging",
       "providerId": "skills.sh",
       "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter."
     },
     {
-      "id": "remotion-dev/skills/remotion-best-practices",
-      "title": "remotion-best-practices",
-      "source": "remotion-dev/skills",
-      "installs": 415521,
-      "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
-      "providerId": "skills.sh",
-      "description": "Best practices for Remotion - Video creation in React"
-    },
-    {
-      "id": "microsoft/azure-skills/azure-hosted-copilot-sdk",
-      "title": "azure-hosted-copilot-sdk",
-      "source": "microsoft/azure-skills",
-      "installs": 408158,
-      "link": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
-      "providerId": "skills.sh",
-      "description": "Build and deploy GitHub Copilot SDK apps to Azure. WHEN: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API."
-    },
-    {
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 405672,
+      "installs": 419724,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
     },
     {
+      "id": "remotion-dev/skills/remotion-best-practices",
+      "title": "remotion-best-practices",
+      "source": "remotion-dev/skills",
+      "installs": 417520,
+      "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
+      "providerId": "skills.sh",
+      "description": "Best practices for Remotion - Video creation in React"
+    },
+    {
       "id": "mattpocock/skills/improve-codebase-architecture",
       "title": "improve-codebase-architecture",
       "source": "mattpocock/skills",
-      "installs": 400702,
+      "installs": 413801,
       "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
       "providerId": "skills.sh",
       "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
     },
     {
+      "id": "microsoft/azure-skills/azure-hosted-copilot-sdk",
+      "title": "azure-hosted-copilot-sdk",
+      "source": "microsoft/azure-skills",
+      "installs": 410642,
+      "link": "https://skills.sh/microsoft/azure-skills/azure-hosted-copilot-sdk",
+      "providerId": "skills.sh",
+      "description": "Build and deploy GitHub Copilot SDK apps to Azure. WHEN: build copilot app, create copilot app, copilot SDK, @github/copilot-sdk, scaffold copilot project, copilot-powered app, deploy copilot app, host on azure, azure model, BYOM, bring your own model, use my own model, azure openai model, DefaultAzureCredential, self-hosted model, copilot SDK service, chat app with copilot, copilot-sdk-service template, azd init copilot, CopilotClient, createSession, sendAndWait, GitHub Models API."
+    },
+    {
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 382800,
+      "installs": 396078,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
@@ -258,7 +258,7 @@
       "id": "microsoft/azure-skills/azure-compute",
       "title": "azure-compute",
       "source": "microsoft/azure-skills",
-      "installs": 379168,
+      "installs": 382513,
       "link": "https://skills.sh/microsoft/azure-skills/azure-compute",
       "providerId": "skills.sh",
       "description": "Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration."
@@ -267,7 +267,7 @@
       "id": "microsoft/azure-skills/azure-cloud-migrate",
       "title": "azure-cloud-migrate",
       "source": "microsoft/azure-skills",
-      "installs": 369116,
+      "installs": 372457,
       "link": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
       "providerId": "skills.sh",
       "description": "Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness report, migrate from AWS, migrate from GCP, cross-cloud migration."
@@ -276,52 +276,52 @@
       "id": "mattpocock/skills/to-prd",
       "title": "to-prd",
       "source": "mattpocock/skills",
-      "installs": 353549,
+      "installs": 354787,
       "link": "https://skills.sh/mattpocock/skills/to-prd",
       "providerId": "skills.sh",
       "description": "Turn the current conversation context into a PRD and submit it as a GitHub issue. Use when user wants to create a PRD from the current context."
     },
     {
-      "id": "mattpocock/skills/to-issues",
-      "title": "to-issues",
-      "source": "mattpocock/skills",
-      "installs": 340999,
-      "link": "https://skills.sh/mattpocock/skills/to-issues",
-      "providerId": "skills.sh",
-      "description": "Break a plan, spec, or PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues."
-    },
-    {
       "id": "mattpocock/skills/setup-matt-pocock-skills",
       "title": "setup-matt-pocock-skills",
       "source": "mattpocock/skills",
-      "installs": 339264,
+      "installs": 352147,
       "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
       "providerId": "skills.sh",
       "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
     },
     {
-      "id": "juliusbrussee/caveman/caveman",
-      "title": "caveman",
-      "source": "juliusbrussee/caveman",
-      "installs": 330826,
-      "link": "https://skills.sh/juliusbrussee/caveman/caveman",
+      "id": "mattpocock/skills/to-issues",
+      "title": "to-issues",
+      "source": "mattpocock/skills",
+      "installs": 342216,
+      "link": "https://skills.sh/mattpocock/skills/to-issues",
       "providerId": "skills.sh",
-      "description": "Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested."
+      "description": "Break a plan, spec, or PRD into independently-grabbable GitHub issues using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues."
     },
     {
       "id": "larksuite/cli/lark-doc",
       "title": "lark-doc",
       "source": "larksuite/cli",
-      "installs": 330190,
+      "installs": 335747,
       "link": "https://skills.sh/larksuite/cli/lark-doc",
       "providerId": "skills.sh",
       "description": "飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。"
     },
     {
+      "id": "juliusbrussee/caveman/caveman",
+      "title": "caveman",
+      "source": "juliusbrussee/caveman",
+      "installs": 334805,
+      "link": "https://skills.sh/juliusbrussee/caveman/caveman",
+      "providerId": "skills.sh",
+      "description": "Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested."
+    },
+    {
       "id": "larksuite/cli/lark-base",
       "title": "lark-base",
       "source": "larksuite/cli",
-      "installs": 328937,
+      "installs": 334463,
       "link": "https://skills.sh/larksuite/cli/lark-base",
       "providerId": "skills.sh",
       "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
@@ -330,7 +330,7 @@
       "id": "larksuite/cli/lark-im",
       "title": "lark-im",
       "source": "larksuite/cli",
-      "installs": 328568,
+      "installs": 334088,
       "link": "https://skills.sh/larksuite/cli/lark-im",
       "providerId": "skills.sh",
       "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。"
@@ -339,7 +339,7 @@
       "id": "larksuite/cli/lark-drive",
       "title": "lark-drive",
       "source": "larksuite/cli",
-      "installs": 328249,
+      "installs": 333792,
       "link": "https://skills.sh/larksuite/cli/lark-drive",
       "providerId": "skills.sh",
       "description": "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
@@ -348,7 +348,7 @@
       "id": "larksuite/cli/lark-shared",
       "title": "lark-shared",
       "source": "larksuite/cli",
-      "installs": 328150,
+      "installs": 333681,
       "link": "https://skills.sh/larksuite/cli/lark-shared",
       "providerId": "skills.sh",
       "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
@@ -357,7 +357,7 @@
       "id": "larksuite/cli/lark-wiki",
       "title": "lark-wiki",
       "source": "larksuite/cli",
-      "installs": 327159,
+      "installs": 332697,
       "link": "https://skills.sh/larksuite/cli/lark-wiki",
       "providerId": "skills.sh",
       "description": "飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。"
@@ -366,34 +366,34 @@
       "id": "larksuite/cli/lark-whiteboard",
       "title": "lark-whiteboard",
       "source": "larksuite/cli",
-      "installs": 327060,
+      "installs": 332565,
       "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
       "providerId": "skills.sh",
       "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
     },
     {
-      "id": "larksuite/cli/lark-calendar",
-      "title": "lark-calendar",
-      "source": "larksuite/cli",
-      "installs": 327052,
-      "link": "https://skills.sh/larksuite/cli/lark-calendar",
-      "providerId": "skills.sh",
-      "description": "飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。"
-    },
-    {
       "id": "larksuite/cli/lark-sheets",
       "title": "lark-sheets",
       "source": "larksuite/cli",
-      "installs": 327040,
+      "installs": 332552,
       "link": "https://skills.sh/larksuite/cli/lark-sheets",
       "providerId": "skills.sh",
       "description": "飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。"
     },
     {
+      "id": "larksuite/cli/lark-calendar",
+      "title": "lark-calendar",
+      "source": "larksuite/cli",
+      "installs": 332541,
+      "link": "https://skills.sh/larksuite/cli/lark-calendar",
+      "providerId": "skills.sh",
+      "description": "飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。"
+    },
+    {
       "id": "larksuite/cli/lark-task",
       "title": "lark-task",
       "source": "larksuite/cli",
-      "installs": 326770,
+      "installs": 332282,
       "link": "https://skills.sh/larksuite/cli/lark-task",
       "providerId": "skills.sh",
       "description": "飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。"
@@ -402,7 +402,7 @@
       "id": "larksuite/cli/lark-mail",
       "title": "lark-mail",
       "source": "larksuite/cli",
-      "installs": 326440,
+      "installs": 331934,
       "link": "https://skills.sh/larksuite/cli/lark-mail",
       "providerId": "skills.sh",
       "description": "飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread."
@@ -411,7 +411,7 @@
       "id": "larksuite/cli/lark-minutes",
       "title": "lark-minutes",
       "source": "larksuite/cli",
-      "installs": 326217,
+      "installs": 331708,
       "link": "https://skills.sh/larksuite/cli/lark-minutes",
       "providerId": "skills.sh",
       "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
@@ -420,7 +420,7 @@
       "id": "larksuite/cli/lark-vc",
       "title": "lark-vc",
       "source": "larksuite/cli",
-      "installs": 326182,
+      "installs": 331668,
       "link": "https://skills.sh/larksuite/cli/lark-vc",
       "providerId": "skills.sh",
       "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
@@ -429,7 +429,7 @@
       "id": "larksuite/cli/lark-event",
       "title": "lark-event",
       "source": "larksuite/cli",
-      "installs": 326008,
+      "installs": 331485,
       "link": "https://skills.sh/larksuite/cli/lark-event",
       "providerId": "skills.sh",
       "description": "飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。"
@@ -438,7 +438,7 @@
       "id": "larksuite/cli/lark-contact",
       "title": "lark-contact",
       "source": "larksuite/cli",
-      "installs": 325781,
+      "installs": 331261,
       "link": "https://skills.sh/larksuite/cli/lark-contact",
       "providerId": "skills.sh",
       "description": "飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。"
@@ -447,7 +447,7 @@
       "id": "larksuite/cli/lark-workflow-meeting-summary",
       "title": "lark-workflow-meeting-summary",
       "source": "larksuite/cli",
-      "installs": 325571,
+      "installs": 331047,
       "link": "https://skills.sh/larksuite/cli/lark-workflow-meeting-summary",
       "providerId": "skills.sh",
       "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。"
@@ -456,7 +456,7 @@
       "id": "larksuite/cli/lark-workflow-standup-report",
       "title": "lark-workflow-standup-report",
       "source": "larksuite/cli",
-      "installs": 325113,
+      "installs": 330584,
       "link": "https://skills.sh/larksuite/cli/lark-workflow-standup-report",
       "providerId": "skills.sh",
       "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。"
@@ -467,7 +467,7 @@
       "id": "101-skills/skills/ai-video-generation",
       "title": "ai-video-generation",
       "source": "101-skills/skills",
-      "installs": 21260,
+      "installs": 21660,
       "link": "https://skills.sh/101-skills/skills/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
@@ -476,7 +476,7 @@
       "id": "101-skills/skills/ai-image-generation",
       "title": "ai-image-generation",
       "source": "101-skills/skills",
-      "installs": 21232,
+      "installs": 21611,
       "link": "https://skills.sh/101-skills/skills/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
@@ -485,7 +485,7 @@
       "id": "101-skills/skills/twitter-automation",
       "title": "twitter-automation",
       "source": "101-skills/skills",
-      "installs": 21228,
+      "installs": 21604,
       "link": "https://skills.sh/101-skills/skills/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
@@ -494,7 +494,7 @@
       "id": "101-skills/skills/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "101-skills/skills",
-      "installs": 21227,
+      "installs": 21604,
       "link": "https://skills.sh/101-skills/skills/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
@@ -503,7 +503,7 @@
       "id": "101-skills/skills/remotion-render",
       "title": "remotion-render",
       "source": "101-skills/skills",
-      "installs": 21227,
+      "installs": 21604,
       "link": "https://skills.sh/101-skills/skills/remotion-render",
       "providerId": "skills.sh",
       "description": "Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video"
@@ -512,7 +512,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 17363,
+      "installs": 17811,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -521,7 +521,7 @@
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 12793,
+      "installs": 15214,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -530,7 +530,7 @@
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 12022,
+      "installs": 14290,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
@@ -539,34 +539,34 @@
       "id": "mattpocock/skills/grilling",
       "title": "grilling",
       "source": "mattpocock/skills",
-      "installs": 11568,
+      "installs": 13535,
       "link": "https://skills.sh/mattpocock/skills/grilling",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
     },
     {
-      "id": "mattpocock/skills/handoff",
-      "title": "handoff",
-      "source": "mattpocock/skills",
-      "installs": 11470,
-      "link": "https://skills.sh/mattpocock/skills/handoff",
-      "providerId": "skills.sh",
-      "description": "Compact the current conversation into a handoff document for another agent to pick up."
-    },
-    {
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 11250,
+      "installs": 13502,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
     },
     {
+      "id": "mattpocock/skills/handoff",
+      "title": "handoff",
+      "source": "mattpocock/skills",
+      "installs": 13440,
+      "link": "https://skills.sh/mattpocock/skills/handoff",
+      "providerId": "skills.sh",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up."
+    },
+    {
       "id": "mattpocock/skills/improve-codebase-architecture",
       "title": "improve-codebase-architecture",
       "source": "mattpocock/skills",
-      "installs": 11161,
+      "installs": 13325,
       "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
       "providerId": "skills.sh",
       "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
@@ -575,7 +575,7 @@
       "id": "mattpocock/skills/setup-matt-pocock-skills",
       "title": "setup-matt-pocock-skills",
       "source": "mattpocock/skills",
-      "installs": 10989,
+      "installs": 13109,
       "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
       "providerId": "skills.sh",
       "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
@@ -584,7 +584,7 @@
       "id": "mattpocock/skills/code-review",
       "title": "code-review",
       "source": "mattpocock/skills",
-      "installs": 10848,
+      "installs": 12894,
       "link": "https://skills.sh/mattpocock/skills/code-review",
       "providerId": "skills.sh",
       "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
@@ -593,34 +593,61 @@
       "id": "mattpocock/skills/implement",
       "title": "implement",
       "source": "mattpocock/skills",
-      "installs": 10813,
+      "installs": 12795,
       "link": "https://skills.sh/mattpocock/skills/implement",
       "providerId": "skills.sh",
       "description": "Implement a piece of work based on a PRD or set of issues."
     },
     {
-      "id": "mattpocock/skills/domain-modeling",
-      "title": "domain-modeling",
+      "id": "mattpocock/skills/to-spec",
+      "title": "to-spec",
       "source": "mattpocock/skills",
-      "installs": 10759,
-      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
+      "installs": 12783,
+      "link": "https://skills.sh/mattpocock/skills/to-spec",
       "providerId": "skills.sh",
-      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed."
     },
     {
       "id": "mattpocock/skills/prototype",
       "title": "prototype",
       "source": "mattpocock/skills",
-      "installs": 10579,
+      "installs": 12720,
       "link": "https://skills.sh/mattpocock/skills/prototype",
       "providerId": "skills.sh",
       "description": "Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\"."
     },
     {
+      "id": "mattpocock/skills/to-tickets",
+      "title": "to-tickets",
+      "source": "mattpocock/skills",
+      "installs": 12613,
+      "link": "https://skills.sh/mattpocock/skills/to-tickets",
+      "providerId": "skills.sh",
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker."
+    },
+    {
+      "id": "mattpocock/skills/domain-modeling",
+      "title": "domain-modeling",
+      "source": "mattpocock/skills",
+      "installs": 12606,
+      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
+      "providerId": "skills.sh",
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
+    },
+    {
+      "id": "mattpocock/skills/wayfinder",
+      "title": "wayfinder",
+      "source": "mattpocock/skills",
+      "installs": 12597,
+      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "providerId": "skills.sh",
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
+    },
+    {
       "id": "mattpocock/skills/writing-great-skills",
       "title": "writing-great-skills",
       "source": "mattpocock/skills",
-      "installs": 10579,
+      "installs": 12302,
       "link": "https://skills.sh/mattpocock/skills/writing-great-skills",
       "providerId": "skills.sh",
       "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable."
@@ -629,7 +656,7 @@
       "id": "mattpocock/skills/research",
       "title": "research",
       "source": "mattpocock/skills",
-      "installs": 10450,
+      "installs": 12275,
       "link": "https://skills.sh/mattpocock/skills/research",
       "providerId": "skills.sh",
       "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent."
@@ -638,16 +665,25 @@
       "id": "mattpocock/skills/teach",
       "title": "teach",
       "source": "mattpocock/skills",
-      "installs": 10425,
+      "installs": 12223,
       "link": "https://skills.sh/mattpocock/skills/teach",
       "providerId": "skills.sh",
       "description": "Teach the user a new skill or concept, within this workspace."
     },
     {
+      "id": "mattpocock/skills/triage",
+      "title": "triage",
+      "source": "mattpocock/skills",
+      "installs": 12211,
+      "link": "https://skills.sh/mattpocock/skills/triage",
+      "providerId": "skills.sh",
+      "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
+    },
+    {
       "id": "mattpocock/skills/codebase-design",
       "title": "codebase-design",
       "source": "mattpocock/skills",
-      "installs": 10396,
+      "installs": 12211,
       "link": "https://skills.sh/mattpocock/skills/codebase-design",
       "providerId": "skills.sh",
       "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
@@ -656,262 +692,226 @@
       "id": "mattpocock/skills/diagnosing-bugs",
       "title": "diagnosing-bugs",
       "source": "mattpocock/skills",
-      "installs": 10318,
+      "installs": 12128,
       "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
       "providerId": "skills.sh",
       "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
     },
     {
-      "id": "mattpocock/skills/triage",
-      "title": "triage",
-      "source": "mattpocock/skills",
-      "installs": 10082,
-      "link": "https://skills.sh/mattpocock/skills/triage",
-      "providerId": "skills.sh",
-      "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
-    },
-    {
       "id": "mattpocock/skills/ask-matt",
       "title": "ask-matt",
       "source": "mattpocock/skills",
-      "installs": 9992,
+      "installs": 11693,
       "link": "https://skills.sh/mattpocock/skills/ask-matt",
       "providerId": "skills.sh",
       "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
     },
     {
-      "id": "mattpocock/skills/wayfinder",
-      "title": "wayfinder",
-      "source": "mattpocock/skills",
-      "installs": 9354,
-      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "id": "getpaperclipai/paperclip/paperclip-create-agent",
+      "title": "paperclip-create-agent",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5916,
+      "link": "https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent",
       "providerId": "skills.sh",
-      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
+      "description": "Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request."
+    },
+    {
+      "id": "getpaperclipai/paperclip/design-guide",
+      "title": "design-guide",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5916,
+      "link": "https://skills.sh/getpaperclipai/paperclip/design-guide",
+      "providerId": "skills.sh",
+      "description": "Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling UI elements, or when you need to understand the design language and conventions. Covers: component creation, design tokens, typography, status/priority systems, composition patterns, and the /design-guide showcase page. Always use this skill alongside the frontend-design skill (for visual quality) and the web-design-guidelines skill (for web best practices)."
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip",
+      "title": "paperclip",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5914,
+      "link": "https://skills.sh/getpaperclipai/paperclip/paperclip",
+      "providerId": "skills.sh",
+      "description": "Interact with the Paperclip control plane API to manage tasks, coordinate with other agents, and follow company governance. Use when you need to check assignments, update task status, delegate work, post comments, set up or manage routines (recurring scheduled tasks), or call any Paperclip API endpoint. Do NOT use for the actual domain work itself (writing code, research, etc.) — only for Paperclip coordination."
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
+      "title": "paperclip-converting-plans-to-tasks",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5914,
+      "link": "https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks",
+      "providerId": "skills.sh",
+      "description": "The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue."
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-board",
+      "title": "paperclip-board",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5914,
+      "link": "https://skills.sh/getpaperclipai/paperclip/paperclip-board",
+      "providerId": "skills.sh",
+      "description": "Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane."
+    },
+    {
+      "id": "getpaperclipai/paperclip/para-memory-files",
+      "title": "para-memory-files",
+      "source": "getpaperclipai/paperclip",
+      "installs": 5914,
+      "link": "https://skills.sh/getpaperclipai/paperclip/para-memory-files",
+      "providerId": "skills.sh",
+      "description": "File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans."
     },
     {
       "id": "larksuite/cli/lark-doc",
       "title": "lark-doc",
       "source": "larksuite/cli",
-      "installs": 5156,
+      "installs": 5739,
       "link": "https://skills.sh/larksuite/cli/lark-doc",
       "providerId": "skills.sh",
       "description": "飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。"
     },
     {
-      "id": "larksuite/cli/lark-wiki",
-      "title": "lark-wiki",
-      "source": "larksuite/cli",
-      "installs": 5119,
-      "link": "https://skills.sh/larksuite/cli/lark-wiki",
-      "providerId": "skills.sh",
-      "description": "飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-base",
-      "title": "lark-base",
-      "source": "larksuite/cli",
-      "installs": 5110,
-      "link": "https://skills.sh/larksuite/cli/lark-base",
-      "providerId": "skills.sh",
-      "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
-    },
-    {
-      "id": "larksuite/cli/lark-shared",
-      "title": "lark-shared",
-      "source": "larksuite/cli",
-      "installs": 5108,
-      "link": "https://skills.sh/larksuite/cli/lark-shared",
-      "providerId": "skills.sh",
-      "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
-    },
-    {
       "id": "larksuite/cli/lark-drive",
       "title": "lark-drive",
       "source": "larksuite/cli",
-      "installs": 5107,
+      "installs": 5729,
       "link": "https://skills.sh/larksuite/cli/lark-drive",
       "providerId": "skills.sh",
       "description": "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
     },
     {
+      "id": "larksuite/cli/lark-wiki",
+      "title": "lark-wiki",
+      "source": "larksuite/cli",
+      "installs": 5725,
+      "link": "https://skills.sh/larksuite/cli/lark-wiki",
+      "providerId": "skills.sh",
+      "description": "飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-shared",
+      "title": "lark-shared",
+      "source": "larksuite/cli",
+      "installs": 5714,
+      "link": "https://skills.sh/larksuite/cli/lark-shared",
+      "providerId": "skills.sh",
+      "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
+    },
+    {
+      "id": "larksuite/cli/lark-base",
+      "title": "lark-base",
+      "source": "larksuite/cli",
+      "installs": 5710,
+      "link": "https://skills.sh/larksuite/cli/lark-base",
+      "providerId": "skills.sh",
+      "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
+    },
+    {
       "id": "larksuite/cli/lark-im",
       "title": "lark-im",
       "source": "larksuite/cli",
-      "installs": 5099,
+      "installs": 5703,
       "link": "https://skills.sh/larksuite/cli/lark-im",
       "providerId": "skills.sh",
       "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。"
     },
     {
-      "id": "larksuite/cli/lark-whiteboard",
-      "title": "lark-whiteboard",
-      "source": "larksuite/cli",
-      "installs": 5096,
-      "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
-      "providerId": "skills.sh",
-      "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
-    },
-    {
       "id": "larksuite/cli/lark-task",
       "title": "lark-task",
       "source": "larksuite/cli",
-      "installs": 5092,
+      "installs": 5695,
       "link": "https://skills.sh/larksuite/cli/lark-task",
       "providerId": "skills.sh",
       "description": "飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。"
     },
     {
+      "id": "mattpocock/skills/design-an-interface",
+      "title": "design-an-interface",
+      "source": "mattpocock/skills",
+      "installs": 5695,
+      "link": "https://skills.sh/mattpocock/skills/design-an-interface",
+      "providerId": "skills.sh",
+      "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\"."
+    },
+    {
       "id": "larksuite/cli/lark-sheets",
       "title": "lark-sheets",
       "source": "larksuite/cli",
-      "installs": 5088,
+      "installs": 5695,
       "link": "https://skills.sh/larksuite/cli/lark-sheets",
       "providerId": "skills.sh",
       "description": "飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。"
     },
     {
+      "id": "larksuite/cli/lark-whiteboard",
+      "title": "lark-whiteboard",
+      "source": "larksuite/cli",
+      "installs": 5689,
+      "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
+      "providerId": "skills.sh",
+      "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
+    },
+    {
       "id": "larksuite/cli/lark-markdown",
       "title": "lark-markdown",
       "source": "larksuite/cli",
-      "installs": 5087,
+      "installs": 5688,
       "link": "https://skills.sh/larksuite/cli/lark-markdown",
       "providerId": "skills.sh",
       "description": "飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。"
     },
     {
+      "id": "mattpocock/skills/resolving-merge-conflicts",
+      "title": "resolving-merge-conflicts",
+      "source": "mattpocock/skills",
+      "installs": 5682,
+      "link": "https://skills.sh/mattpocock/skills/resolving-merge-conflicts",
+      "providerId": "skills.sh",
+      "description": "Use when you need to resolve an in-progress git merge/rebase conflict."
+    },
+    {
       "id": "larksuite/cli/lark-mail",
       "title": "lark-mail",
       "source": "larksuite/cli",
-      "installs": 5081,
+      "installs": 5678,
       "link": "https://skills.sh/larksuite/cli/lark-mail",
       "providerId": "skills.sh",
       "description": "飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread."
     },
     {
-      "id": "larksuite/cli/lark-calendar",
-      "title": "lark-calendar",
-      "source": "larksuite/cli",
-      "installs": 5078,
-      "link": "https://skills.sh/larksuite/cli/lark-calendar",
-      "providerId": "skills.sh",
-      "description": "飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。"
-    },
-    {
-      "id": "larksuite/cli/lark-minutes",
-      "title": "lark-minutes",
-      "source": "larksuite/cli",
-      "installs": 5072,
-      "link": "https://skills.sh/larksuite/cli/lark-minutes",
-      "providerId": "skills.sh",
-      "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
-    },
-    {
-      "id": "larksuite/cli/lark-vc",
-      "title": "lark-vc",
-      "source": "larksuite/cli",
-      "installs": 5071,
-      "link": "https://skills.sh/larksuite/cli/lark-vc",
-      "providerId": "skills.sh",
-      "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
-    },
-    {
-      "id": "larksuite/cli/lark-contact",
-      "title": "lark-contact",
-      "source": "larksuite/cli",
-      "installs": 5067,
-      "link": "https://skills.sh/larksuite/cli/lark-contact",
-      "providerId": "skills.sh",
-      "description": "飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-event",
-      "title": "lark-event",
-      "source": "larksuite/cli",
-      "installs": 5065,
-      "link": "https://skills.sh/larksuite/cli/lark-event",
-      "providerId": "skills.sh",
-      "description": "飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。"
-    },
-    {
       "id": "larksuite/cli/lark-slides",
       "title": "lark-slides",
       "source": "larksuite/cli",
-      "installs": 5064,
+      "installs": 5675,
       "link": "https://skills.sh/larksuite/cli/lark-slides",
       "providerId": "skills.sh",
       "description": "飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。"
     },
     {
-      "id": "larksuite/cli/lark-okr",
-      "title": "lark-okr",
+      "id": "larksuite/cli/lark-minutes",
+      "title": "lark-minutes",
       "source": "larksuite/cli",
-      "installs": 5063,
-      "link": "https://skills.sh/larksuite/cli/lark-okr",
+      "installs": 5674,
+      "link": "https://skills.sh/larksuite/cli/lark-minutes",
       "providerId": "skills.sh",
-      "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。"
+      "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
     },
     {
-      "id": "larksuite/cli/lark-workflow-meeting-summary",
-      "title": "lark-workflow-meeting-summary",
+      "id": "larksuite/cli/lark-calendar",
+      "title": "lark-calendar",
       "source": "larksuite/cli",
-      "installs": 5063,
-      "link": "https://skills.sh/larksuite/cli/lark-workflow-meeting-summary",
+      "installs": 5672,
+      "link": "https://skills.sh/larksuite/cli/lark-calendar",
       "providerId": "skills.sh",
-      "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。"
+      "description": "飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。"
     },
     {
-      "id": "larksuite/cli/lark-approval",
-      "title": "lark-approval",
+      "id": "larksuite/cli/lark-vc",
+      "title": "lark-vc",
       "source": "larksuite/cli",
-      "installs": 5062,
-      "link": "https://skills.sh/larksuite/cli/lark-approval",
+      "installs": 5669,
+      "link": "https://skills.sh/larksuite/cli/lark-vc",
       "providerId": "skills.sh",
-      "description": "飞书审批 API：审批实例、审批任务管理。"
-    },
-    {
-      "id": "larksuite/cli/lark-vc-agent",
-      "title": "lark-vc-agent",
-      "source": "larksuite/cli",
-      "installs": 5058,
-      "link": "https://skills.sh/larksuite/cli/lark-vc-agent",
-      "providerId": "skills.sh",
-      "description": "飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。"
-    },
-    {
-      "id": "larksuite/cli/lark-apps",
-      "title": "lark-apps",
-      "source": "larksuite/cli",
-      "installs": 5056,
-      "link": "https://skills.sh/larksuite/cli/lark-apps",
-      "providerId": "skills.sh",
-      "description": "把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。"
-    },
-    {
-      "id": "larksuite/cli/lark-attendance",
-      "title": "lark-attendance",
-      "source": "larksuite/cli",
-      "installs": 5053,
-      "link": "https://skills.sh/larksuite/cli/lark-attendance",
-      "providerId": "skills.sh",
-      "description": "飞书考勤打卡：查询自己的考勤打卡记录"
-    },
-    {
-      "id": "larksuite/cli/lark-workflow-standup-report",
-      "title": "lark-workflow-standup-report",
-      "source": "larksuite/cli",
-      "installs": 5053,
-      "link": "https://skills.sh/larksuite/cli/lark-workflow-standup-report",
-      "providerId": "skills.sh",
-      "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。"
-    },
-    {
-      "id": "larksuite/cli/lark-openapi-explorer",
-      "title": "lark-openapi-explorer",
-      "source": "larksuite/cli",
-      "installs": 5051,
-      "link": "https://skills.sh/larksuite/cli/lark-openapi-explorer",
-      "providerId": "skills.sh",
-      "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。"
+      "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
     }
   ],
   "topHot": [
@@ -919,7 +919,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 466,
+      "installs": 487,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -928,7 +928,7 @@
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 393,
+      "installs": 410,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -937,115 +937,142 @@
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 360,
+      "installs": 373,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
     },
     {
-      "id": "mattpocock/skills/handoff",
-      "title": "handoff",
-      "source": "mattpocock/skills",
-      "installs": 359,
-      "link": "https://skills.sh/mattpocock/skills/handoff",
-      "providerId": "skills.sh",
-      "description": "Compact the current conversation into a handoff document for another agent to pick up."
-    },
-    {
-      "id": "mattpocock/skills/grilling",
-      "title": "grilling",
-      "source": "mattpocock/skills",
-      "installs": 348,
-      "link": "https://skills.sh/mattpocock/skills/grilling",
-      "providerId": "skills.sh",
-      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
-    },
-    {
-      "id": "mattpocock/skills/setup-matt-pocock-skills",
-      "title": "setup-matt-pocock-skills",
-      "source": "mattpocock/skills",
-      "installs": 345,
-      "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
-      "providerId": "skills.sh",
-      "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
-    },
-    {
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 344,
+      "installs": 349,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
     },
     {
+      "id": "mattpocock/skills/setup-matt-pocock-skills",
+      "title": "setup-matt-pocock-skills",
+      "source": "mattpocock/skills",
+      "installs": 349,
+      "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
+      "providerId": "skills.sh",
+      "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
+    },
+    {
       "id": "mattpocock/skills/improve-codebase-architecture",
       "title": "improve-codebase-architecture",
       "source": "mattpocock/skills",
-      "installs": 337,
+      "installs": 348,
       "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
       "providerId": "skills.sh",
       "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
     },
     {
-      "id": "mattpocock/skills/implement",
-      "title": "implement",
+      "id": "mattpocock/skills/grilling",
+      "title": "grilling",
       "source": "mattpocock/skills",
-      "installs": 336,
-      "link": "https://skills.sh/mattpocock/skills/implement",
+      "installs": 338,
+      "link": "https://skills.sh/mattpocock/skills/grilling",
       "providerId": "skills.sh",
-      "description": "Implement a piece of work based on a PRD or set of issues."
+      "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
     },
     {
       "id": "mattpocock/skills/prototype",
       "title": "prototype",
       "source": "mattpocock/skills",
-      "installs": 334,
+      "installs": 335,
       "link": "https://skills.sh/mattpocock/skills/prototype",
       "providerId": "skills.sh",
       "description": "Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\"."
     },
     {
-      "id": "mattpocock/skills/code-review",
-      "title": "code-review",
+      "id": "mattpocock/skills/handoff",
+      "title": "handoff",
       "source": "mattpocock/skills",
-      "installs": 332,
-      "link": "https://skills.sh/mattpocock/skills/code-review",
+      "installs": 330,
+      "link": "https://skills.sh/mattpocock/skills/handoff",
       "providerId": "skills.sh",
-      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
+      "description": "Compact the current conversation into a handoff document for another agent to pick up."
+    },
+    {
+      "id": "mattpocock/skills/triage",
+      "title": "triage",
+      "source": "mattpocock/skills",
+      "installs": 321,
+      "link": "https://skills.sh/mattpocock/skills/triage",
+      "providerId": "skills.sh",
+      "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
     },
     {
       "id": "mattpocock/skills/domain-modeling",
       "title": "domain-modeling",
       "source": "mattpocock/skills",
-      "installs": 327,
+      "installs": 319,
       "link": "https://skills.sh/mattpocock/skills/domain-modeling",
       "providerId": "skills.sh",
       "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
     },
     {
-      "id": "mattpocock/skills/wayfinder",
-      "title": "wayfinder",
+      "id": "mattpocock/skills/to-spec",
+      "title": "to-spec",
       "source": "mattpocock/skills",
-      "installs": 325,
-      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "installs": 310,
+      "link": "https://skills.sh/mattpocock/skills/to-spec",
       "providerId": "skills.sh",
-      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed."
+    },
+    {
+      "id": "mattpocock/skills/to-tickets",
+      "title": "to-tickets",
+      "source": "mattpocock/skills",
+      "installs": 305,
+      "link": "https://skills.sh/mattpocock/skills/to-tickets",
+      "providerId": "skills.sh",
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker."
+    },
+    {
+      "id": "mattpocock/skills/code-review",
+      "title": "code-review",
+      "source": "mattpocock/skills",
+      "installs": 304,
+      "link": "https://skills.sh/mattpocock/skills/code-review",
+      "providerId": "skills.sh",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
+    },
+    {
+      "id": "mattpocock/skills/implement",
+      "title": "implement",
+      "source": "mattpocock/skills",
+      "installs": 304,
+      "link": "https://skills.sh/mattpocock/skills/implement",
+      "providerId": "skills.sh",
+      "description": "Implement a piece of work based on a PRD or set of issues."
     },
     {
       "id": "mattpocock/skills/codebase-design",
       "title": "codebase-design",
       "source": "mattpocock/skills",
-      "installs": 323,
+      "installs": 301,
       "link": "https://skills.sh/mattpocock/skills/codebase-design",
       "providerId": "skills.sh",
       "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
     },
     {
+      "id": "mattpocock/skills/wayfinder",
+      "title": "wayfinder",
+      "source": "mattpocock/skills",
+      "installs": 300,
+      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "providerId": "skills.sh",
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
+    },
+    {
       "id": "mattpocock/skills/diagnosing-bugs",
       "title": "diagnosing-bugs",
       "source": "mattpocock/skills",
-      "installs": 321,
+      "installs": 299,
       "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
       "providerId": "skills.sh",
       "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
@@ -1054,16 +1081,25 @@
       "id": "mattpocock/skills/research",
       "title": "research",
       "source": "mattpocock/skills",
-      "installs": 320,
+      "installs": 298,
       "link": "https://skills.sh/mattpocock/skills/research",
       "providerId": "skills.sh",
       "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent."
     },
     {
+      "id": "mattpocock/skills/ask-matt",
+      "title": "ask-matt",
+      "source": "mattpocock/skills",
+      "installs": 297,
+      "link": "https://skills.sh/mattpocock/skills/ask-matt",
+      "providerId": "skills.sh",
+      "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
+    },
+    {
       "id": "mattpocock/skills/writing-great-skills",
       "title": "writing-great-skills",
       "source": "mattpocock/skills",
-      "installs": 319,
+      "installs": 295,
       "link": "https://skills.sh/mattpocock/skills/writing-great-skills",
       "providerId": "skills.sh",
       "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable."
@@ -1072,298 +1108,262 @@
       "id": "mattpocock/skills/teach",
       "title": "teach",
       "source": "mattpocock/skills",
-      "installs": 319,
+      "installs": 293,
       "link": "https://skills.sh/mattpocock/skills/teach",
       "providerId": "skills.sh",
       "description": "Teach the user a new skill or concept, within this workspace."
     },
     {
-      "id": "mattpocock/skills/triage",
-      "title": "triage",
-      "source": "mattpocock/skills",
-      "installs": 316,
-      "link": "https://skills.sh/mattpocock/skills/triage",
-      "providerId": "skills.sh",
-      "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
-    },
-    {
-      "id": "mattpocock/skills/ask-matt",
-      "title": "ask-matt",
-      "source": "mattpocock/skills",
-      "installs": 306,
-      "link": "https://skills.sh/mattpocock/skills/ask-matt",
-      "providerId": "skills.sh",
-      "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
-    },
-    {
-      "id": "larksuite/cli/lark-base",
-      "title": "lark-base",
-      "source": "larksuite/cli",
-      "installs": 222,
-      "link": "https://skills.sh/larksuite/cli/lark-base",
-      "providerId": "skills.sh",
-      "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
-    },
-    {
-      "id": "larksuite/cli/lark-shared",
-      "title": "lark-shared",
-      "source": "larksuite/cli",
-      "installs": 222,
-      "link": "https://skills.sh/larksuite/cli/lark-shared",
-      "providerId": "skills.sh",
-      "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
-    },
-    {
-      "id": "larksuite/cli/lark-doc",
-      "title": "lark-doc",
-      "source": "larksuite/cli",
-      "installs": 222,
-      "link": "https://skills.sh/larksuite/cli/lark-doc",
-      "providerId": "skills.sh",
-      "description": "飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。"
-    },
-    {
-      "id": "larksuite/cli/lark-drive",
-      "title": "lark-drive",
-      "source": "larksuite/cli",
-      "installs": 222,
-      "link": "https://skills.sh/larksuite/cli/lark-drive",
-      "providerId": "skills.sh",
-      "description": "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-im",
-      "title": "lark-im",
-      "source": "larksuite/cli",
-      "installs": 221,
-      "link": "https://skills.sh/larksuite/cli/lark-im",
-      "providerId": "skills.sh",
-      "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。"
-    },
-    {
       "id": "larksuite/cli/lark-wiki",
       "title": "lark-wiki",
       "source": "larksuite/cli",
-      "installs": 221,
+      "installs": 280,
       "link": "https://skills.sh/larksuite/cli/lark-wiki",
       "providerId": "skills.sh",
       "description": "飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。"
     },
     {
-      "id": "larksuite/cli/lark-task",
-      "title": "lark-task",
+      "id": "larksuite/cli/lark-drive",
+      "title": "lark-drive",
       "source": "larksuite/cli",
-      "installs": 220,
-      "link": "https://skills.sh/larksuite/cli/lark-task",
+      "installs": 277,
+      "link": "https://skills.sh/larksuite/cli/lark-drive",
       "providerId": "skills.sh",
-      "description": "飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-vc-agent",
-      "title": "lark-vc-agent",
-      "source": "larksuite/cli",
-      "installs": 219,
-      "link": "https://skills.sh/larksuite/cli/lark-vc-agent",
-      "providerId": "skills.sh",
-      "description": "飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。"
-    },
-    {
-      "id": "larksuite/cli/lark-sheets",
-      "title": "lark-sheets",
-      "source": "larksuite/cli",
-      "installs": 219,
-      "link": "https://skills.sh/larksuite/cli/lark-sheets",
-      "providerId": "skills.sh",
-      "description": "飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。"
-    },
-    {
-      "id": "larksuite/cli/lark-markdown",
-      "title": "lark-markdown",
-      "source": "larksuite/cli",
-      "installs": 219,
-      "link": "https://skills.sh/larksuite/cli/lark-markdown",
-      "providerId": "skills.sh",
-      "description": "飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-whiteboard",
-      "title": "lark-whiteboard",
-      "source": "larksuite/cli",
-      "installs": 219,
-      "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
-      "providerId": "skills.sh",
-      "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
-    },
-    {
-      "id": "larksuite/cli/lark-skill-maker",
-      "title": "lark-skill-maker",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-skill-maker",
-      "providerId": "skills.sh",
-      "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-openapi-explorer",
-      "title": "lark-openapi-explorer",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-openapi-explorer",
-      "providerId": "skills.sh",
-      "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-workflow-standup-report",
-      "title": "lark-workflow-standup-report",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-workflow-standup-report",
-      "providerId": "skills.sh",
-      "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。"
-    },
-    {
-      "id": "larksuite/cli/lark-attendance",
-      "title": "lark-attendance",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-attendance",
-      "providerId": "skills.sh",
-      "description": "飞书考勤打卡：查询自己的考勤打卡记录"
+      "description": "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
     },
     {
       "id": "larksuite/cli/lark-slides",
       "title": "lark-slides",
       "source": "larksuite/cli",
-      "installs": 218,
+      "installs": 276,
       "link": "https://skills.sh/larksuite/cli/lark-slides",
       "providerId": "skills.sh",
       "description": "飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。"
     },
     {
-      "id": "larksuite/cli/lark-contact",
-      "title": "lark-contact",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-contact",
-      "providerId": "skills.sh",
-      "description": "飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-minutes",
-      "title": "lark-minutes",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-minutes",
-      "providerId": "skills.sh",
-      "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
-    },
-    {
-      "id": "larksuite/cli/lark-okr",
-      "title": "lark-okr",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-okr",
-      "providerId": "skills.sh",
-      "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-vc",
-      "title": "lark-vc",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-vc",
-      "providerId": "skills.sh",
-      "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
-    },
-    {
-      "id": "larksuite/cli/lark-approval",
-      "title": "lark-approval",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-approval",
-      "providerId": "skills.sh",
-      "description": "飞书审批 API：审批实例、审批任务管理。"
-    },
-    {
-      "id": "larksuite/cli/lark-workflow-meeting-summary",
-      "title": "lark-workflow-meeting-summary",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-workflow-meeting-summary",
-      "providerId": "skills.sh",
-      "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。"
-    },
-    {
-      "id": "larksuite/cli/lark-event",
-      "title": "lark-event",
-      "source": "larksuite/cli",
-      "installs": 218,
-      "link": "https://skills.sh/larksuite/cli/lark-event",
-      "providerId": "skills.sh",
-      "description": "飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。"
-    },
-    {
       "id": "larksuite/cli/lark-mail",
       "title": "lark-mail",
       "source": "larksuite/cli",
-      "installs": 218,
+      "installs": 276,
       "link": "https://skills.sh/larksuite/cli/lark-mail",
       "providerId": "skills.sh",
       "description": "飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread."
     },
     {
+      "id": "larksuite/cli/lark-whiteboard",
+      "title": "lark-whiteboard",
+      "source": "larksuite/cli",
+      "installs": 276,
+      "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
+      "providerId": "skills.sh",
+      "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
+    },
+    {
+      "id": "larksuite/cli/lark-doc",
+      "title": "lark-doc",
+      "source": "larksuite/cli",
+      "installs": 276,
+      "link": "https://skills.sh/larksuite/cli/lark-doc",
+      "providerId": "skills.sh",
+      "description": "飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。"
+    },
+    {
+      "id": "larksuite/cli/lark-sheets",
+      "title": "lark-sheets",
+      "source": "larksuite/cli",
+      "installs": 275,
+      "link": "https://skills.sh/larksuite/cli/lark-sheets",
+      "providerId": "skills.sh",
+      "description": "飞书电子表格：创建和操作电子表格。创建表格并写入表头和数据、读取和写入单元格、追加行数据、在已知电子表格中查找单元格内容、导出表格文件。当用户需要创建电子表格、批量读写数据、在已知表格中查找内容、导出或下载表格时使用。若用户是想按名称或关键词搜索云空间里的表格文件，请改用 lark-doc 的 docs +search 先定位资源。"
+    },
+    {
+      "id": "larksuite/cli/lark-task",
+      "title": "lark-task",
+      "source": "larksuite/cli",
+      "installs": 275,
+      "link": "https://skills.sh/larksuite/cli/lark-task",
+      "providerId": "skills.sh",
+      "description": "飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-shared",
+      "title": "lark-shared",
+      "source": "larksuite/cli",
+      "installs": 275,
+      "link": "https://skills.sh/larksuite/cli/lark-shared",
+      "providerId": "skills.sh",
+      "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
+    },
+    {
+      "id": "larksuite/cli/lark-im",
+      "title": "lark-im",
+      "source": "larksuite/cli",
+      "installs": 275,
+      "link": "https://skills.sh/larksuite/cli/lark-im",
+      "providerId": "skills.sh",
+      "description": "飞书即时通讯：收发消息和管理群聊。发送和回复消息、搜索聊天记录、管理群聊成员、上传下载图片和文件、管理表情回复。当用户需要发消息、查看或搜索聊天记录、下载聊天中的文件、查看群成员时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-base",
+      "title": "lark-base",
+      "source": "larksuite/cli",
+      "installs": 275,
+      "link": "https://skills.sh/larksuite/cli/lark-base",
+      "providerId": "skills.sh",
+      "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
+    },
+    {
       "id": "larksuite/cli/lark-calendar",
       "title": "lark-calendar",
       "source": "larksuite/cli",
-      "installs": 218,
+      "installs": 274,
       "link": "https://skills.sh/larksuite/cli/lark-calendar",
       "providerId": "skills.sh",
       "description": "飞书日历（calendar）：提供日历与日程（会议）的全面管理能力。核心场景包括：查看/搜索日程、创建/更新日程、管理参会人、查询忙闲状态及推荐空闲时段。高频操作请优先使用 Shortcuts：+agenda（快速概览今日/近期行程）、+create（创建日程并按需邀请参会人）、+freebusy（查询用户主日历的忙闲信息和rsvp的状态）、+suggestion（针对时间未确定的预约日程需求，提供多个时间推荐方案）。"
     },
     {
-      "id": "larksuite/cli/lark-apps",
-      "title": "lark-apps",
+      "id": "larksuite/cli/lark-contact",
+      "title": "lark-contact",
       "source": "larksuite/cli",
-      "installs": 217,
-      "link": "https://skills.sh/larksuite/cli/lark-apps",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-contact",
       "providerId": "skills.sh",
-      "description": "把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。"
+      "description": "飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-event",
+      "title": "lark-event",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-event",
+      "providerId": "skills.sh",
+      "description": "飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-skill-maker",
+      "title": "lark-skill-maker",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-skill-maker",
+      "providerId": "skills.sh",
+      "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-workflow-standup-report",
+      "title": "lark-workflow-standup-report",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-workflow-standup-report",
+      "providerId": "skills.sh",
+      "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。"
+    },
+    {
+      "id": "larksuite/cli/lark-vc-agent",
+      "title": "lark-vc-agent",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-vc-agent",
+      "providerId": "skills.sh",
+      "description": "飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。"
+    },
+    {
+      "id": "larksuite/cli/lark-minutes",
+      "title": "lark-minutes",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-minutes",
+      "providerId": "skills.sh",
+      "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
+    },
+    {
+      "id": "larksuite/cli/lark-openapi-explorer",
+      "title": "lark-openapi-explorer",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-openapi-explorer",
+      "providerId": "skills.sh",
+      "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-vc",
+      "title": "lark-vc",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-vc",
+      "providerId": "skills.sh",
+      "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
+    },
+    {
+      "id": "larksuite/cli/lark-workflow-meeting-summary",
+      "title": "lark-workflow-meeting-summary",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-workflow-meeting-summary",
+      "providerId": "skills.sh",
+      "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-markdown",
+      "title": "lark-markdown",
+      "source": "larksuite/cli",
+      "installs": 274,
+      "link": "https://skills.sh/larksuite/cli/lark-markdown",
+      "providerId": "skills.sh",
+      "description": "飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。"
     },
     {
       "id": "larksuite/cli/lark-note",
       "title": "lark-note",
       "source": "larksuite/cli",
-      "installs": 216,
+      "installs": 273,
       "link": "https://skills.sh/larksuite/cli/lark-note",
       "providerId": "skills.sh",
       "description": "飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node-id 获得 note_id 时使用。不负责会议/日程/妙记定位、文档标题搜索或 Docx 正文读取。"
     },
     {
-      "id": "mattpocock/skills/qa",
-      "title": "qa",
-      "source": "mattpocock/skills",
-      "installs": 154,
-      "link": "https://skills.sh/mattpocock/skills/qa",
+      "id": "larksuite/cli/lark-apps",
+      "title": "lark-apps",
+      "source": "larksuite/cli",
+      "installs": 273,
+      "link": "https://skills.sh/larksuite/cli/lark-apps",
       "providerId": "skills.sh",
-      "description": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions \"QA session\"."
+      "description": "把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。"
     },
     {
-      "id": "mattpocock/skills/request-refactor-plan",
-      "title": "request-refactor-plan",
-      "source": "mattpocock/skills",
-      "installs": 153,
-      "link": "https://skills.sh/mattpocock/skills/request-refactor-plan",
+      "id": "larksuite/cli/lark-okr",
+      "title": "lark-okr",
+      "source": "larksuite/cli",
+      "installs": 273,
+      "link": "https://skills.sh/larksuite/cli/lark-okr",
       "providerId": "skills.sh",
-      "description": "Use this skill when user wants to create a refactor plan."
+      "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。"
     },
     {
-      "id": "mattpocock/skills/resolving-merge-conflicts",
-      "title": "resolving-merge-conflicts",
-      "source": "mattpocock/skills",
-      "installs": 153,
-      "link": "https://skills.sh/mattpocock/skills/resolving-merge-conflicts",
+      "id": "larksuite/cli/lark-approval",
+      "title": "lark-approval",
+      "source": "larksuite/cli",
+      "installs": 273,
+      "link": "https://skills.sh/larksuite/cli/lark-approval",
       "providerId": "skills.sh",
-      "description": "Use when you need to resolve an in-progress git merge/rebase conflict."
+      "description": "飞书审批 API：审批实例、审批任务管理。"
+    },
+    {
+      "id": "larksuite/cli/lark-attendance",
+      "title": "lark-attendance",
+      "source": "larksuite/cli",
+      "installs": 273,
+      "link": "https://skills.sh/larksuite/cli/lark-attendance",
+      "providerId": "skills.sh",
+      "description": "飞书考勤打卡：查询自己的考勤打卡记录"
+    },
+    {
+      "id": "getpaperclipai/paperclip/paperclip-create-agent",
+      "title": "paperclip-create-agent",
+      "source": "getpaperclipai/paperclip",
+      "installs": 223,
+      "link": "https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent",
+      "providerId": "skills.sh",
+      "description": "Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request."
     }
   ]
 }
