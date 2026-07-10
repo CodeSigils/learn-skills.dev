@@ -1,0 +1,1 @@
+Yaklang 데이터베이스 작업(db 라이브러리) 주제입니다. 사용자가 스크립트/플러그인 내에서 데이터를 유지하거나 쿼리해야 할 때 사용합니다. 임시 SQLite 테이블 생성 및 CRUD(db.OpenTempSqliteDatabase / db.ScanResult / Exec), 크로스 스크립트 공유 구성 키 값 저장소(db.SetKey / GetKey / DelKey / SetKeyWithTTL), 무차별 사전 통합 관리(db.SavePayload / YieldPayload) 및 프로젝트 수준 구성(db.SetProjectKey / GetProjectKey).

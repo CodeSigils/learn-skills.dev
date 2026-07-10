@@ -1,0 +1,1 @@
+Yakit MITM 핫 패치(Hot Patch) 튜토리얼. 이는 사용자가 MITM 프록시의 코드를 사용하여 요청 및 응답을 동적으로 하이재킹/수정해야 하거나, 트래픽을 미러링 및 분석하고, 저장하기 전에 데이터에 태그 및 색상을 지정하거나, 위험한 작업에 대한 모의 보호 장치를 적용해야 할 때 사용됩니다. hijackHTTPRequest / hijackHTTPResponseEx / 미러 시리즈 / hijackSaveHTTPFlow / mockHTTPRequest에 대한 모든 후크와 전달/삭제 의미 체계를 다룹니다.
