@@ -1,0 +1,1 @@
+解決一個常見的實際痛點：在 Yakit History 中某個特定網站累積了大量流量後，如何透過點擊檢索網域的所有唯一路徑，取得登入 cookie，並將這些路徑固化為可重複使用的負載字典，然後在保留登入狀態的同時執行每路徑請求掃描/模糊測試。這包括使用 db.QueryHTTPFlowsByKeyword 取得歷史記錄、重複 URI 刪除、提取 cookie、使用 db.SavePayload/YieldPayload 管理字典以及透過 poc.HTTP 發送登入狀態請求。當用戶想要「從歷史流量中提取資料以驅動後續掃描」時使用它。

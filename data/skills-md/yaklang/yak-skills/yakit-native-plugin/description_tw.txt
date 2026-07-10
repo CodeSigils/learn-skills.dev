@@ -1,0 +1,1 @@
+Yakit 原生外掛程式（yak / mitm 類型）和 CLI 參數系統。闡明原生插件和熱載入之間的區別，cli.* 如何成為 Yakit 執行頁面上的參數形式（String/Int/Bool/Urls/Ports/StringSlice dropdown/File 等+setRequired / setDefault / setVerboseName / setCliGroup），並展示三個優秀範例：使用 CLIak原生插件；中間人本機插件，被動掃描複雜內容並產生風險條目；以及一個 mitm+CLI 互動式插件，可載入外部參數（關鍵字字典/範圍）來驅動掃描。當使用者詢問「如何使用參數形式編寫 yak/mitm 外掛程式、如何使用 CLI、如何在 mitm 外掛程式中實現被動掃描」時，請使用此選項。

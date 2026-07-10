@@ -1,0 +1,1 @@
+yak-skills主要入口點和路由。當使用者想要進行 Yaklang 程式設計、Yak 熱載入（MITM/Web Fuzzer/global）、Yakit 二次開發、或 MCP 測試時，從這裡開始確定具體進入哪個技能。本頁介紹了三層熱載入架構、YAK_MAIN 偵錯約定、go 執行測試方法，以及將請求路由至 mitm-hotpatch / webfuzzer-hotpatch / global-hotpatch / yaklang-syntax / yaklang-database / yakit-rightc-plugin /p.

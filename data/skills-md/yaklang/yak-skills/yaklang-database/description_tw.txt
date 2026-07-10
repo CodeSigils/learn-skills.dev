@@ -1,0 +1,1 @@
+Yaklang資料庫操作（db庫）專題。當使用者需要在腳本/外掛程式中保留或查詢資料時使用：臨時 SQLite 表建立和 CRUD 操作（db.OpenTempSqliteDatabase / db.ScanResult / Exec）、跨腳本共享配置鍵值儲存（db.SetKey / GetKey / DelKey / SetKeyWithTTL）、暴力字典配置的統一配置（db.S GetProjectKey）。

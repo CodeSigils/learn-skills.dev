@@ -1,0 +1,1 @@
+Nuclear-grade 16-agent pre-publish release gate.運行 /get-unpublished-changes 來檢測自上次 npm 版本以來的所有更改，生成最多 10 個 ultrabrain 代理以進行深入的每次更改分析，調用 /review-work （5 個代理）進行整體審查，並使用 1 個預言機進行整體發布綜合。 Use before EVERY npm publish.觸發器：「發布前審核」、「發布前審核」、「發布審核」、「發布前審核」、「準備好發布了嗎？」、「我可以發布嗎？」、「預發布」、「安全發布」、「發布審核」、「發布前檢查」。

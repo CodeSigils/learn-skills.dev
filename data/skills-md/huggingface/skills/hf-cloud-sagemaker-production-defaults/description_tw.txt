@@ -1,0 +1,1 @@
+建立預設啟用自動擴充、CloudWatch 警報和標記的 SageMaker 終端節點（即時或非同步）。每當要建立 SageMaker 終端節點、編寫呼叫「create_endpoint」的部署程式碼或在已知映像 URI 和 IAM 角色後完成部署時，請使用此技能。為即時端點提供deploy.py，為非同步端點提供deploy_async.py（具有真正的縮放到零支援）。這是 SageMaker 部署工作流程的最後一步。如果沒有這些預設值，切勿產生裸露的「create_endpoint」呼叫 - 沒有自動縮放或警報的端點是演示，而不是部署。
