@@ -1,0 +1,1 @@
+在部署或训练之前确保存在可用的 SageMaker 执行角色。每当要创建 SageMaker 端点、模型、训练作业或任何需要执行角色的资源时，请使用此技能。特别是当用户未显式提供角色 ARN、脚本即将调用“iam:CreateRole”或 AccessDenied 错误提到 IAM 操作时，请特别使用它。切勿盲目调用“iam:CreateRole”——始终首先检查现有角色。此技能可以防止最常见的 SageMaker 部署失败：尝试从没有 IAM 写入权限的 SSO 委托人创建 IAM 资源。

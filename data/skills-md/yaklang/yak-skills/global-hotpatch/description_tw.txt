@@ -1,1 +1,1 @@
-Yakit Global Hot Reload（全域熱補丁）主題。當使用者需要單一配置來讓 MITM 與所有 Web Fuzzer 標籤共用相同組鉤子時，請使用它：網站範圍的透明加密/解密、統一簽章/驗證注入、動態質詢回應、網站範圍的顏色屏蔽和危險操作防護措施。全域鉤子在模組鉤子之前運行，並且一次只能啟用一個。它重用了 beforeRequest / afterRequest / hijackHTTPRequest / hijackSaveHTTPFlow / mockHTTPRequest。
+Yakit Global Hot Reload（全局热补丁）主题。当用户需要单一配置来允许 MITM 和所有 Web Fuzzer 选项卡共享同一组钩子时，请使用此选项：站点范围的透明加密/解密、统一签名/身份验证注入、动态质询响应、站点范围的着色/脱敏以及危险操作的防护措施。全局钩子在模块钩子之前运行，并且一次只能启用一个。重複使用 beforeRequest / afterRequest / hijackHTTPRequest / hijackSaveHTTPFlow / mockHTTPRequest。

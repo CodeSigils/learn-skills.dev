@@ -1,0 +1,1 @@
+Yakit Web Fuzzer 热重载（热补丁）主题。当用户需要使用代码自动加密/解密请求和响应、注入签名、执行智能重试、定义自定义业务故障检查、使用模糊标签动态生成有效负载，或者在单个 Web Fuzzer 选项卡中发送数据包时从响应中提取参数以进行相关性测试时，可以使用它。它涵盖了 beforeRequest/afterRequest/retryHandler/customFailureChecker/mirrorHTTPFlow/mockHTTPRequest 和 {{yak(...)} } 模糊标签。

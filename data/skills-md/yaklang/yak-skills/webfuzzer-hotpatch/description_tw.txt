@@ -1,1 +1,1 @@
-Yakit Web Fuzzer 熱重載（熱補丁）主題。當使用者需要使用程式碼自動加密/解密請求和回應、注入簽章、執行智慧重試、定義自訂業務故障檢查、使用模糊標籤動態產生有效負載，或在單一 Web Fuzzer 標籤中傳送資料包時從回應中提取參數以進行相關性測試時，可以使用它。它涵蓋了 beforeRequest、afterRequest、retryHandler、customFailureChecker、mirrorHTTPFlow、mockHTTPRequest 和 {{yak(...)} } 模糊標籤。
+Yakit Web Fuzzer 熱重載（熱補丁）主題。當使用者需要使用程式碼自動加密/解密請求和回應、注入簽章、執行智慧重試、定義自訂業務故障檢查、使用模糊標籤動態產生有效負載，或在單一 Web Fuzzer 標籤中傳送資料包時從回應中提取參數以進行相關性測試時，可以使用它。它涵蓋了 beforeRequest/afterRequest/retryHandler/customFailureChecker/mirrorHTTPFlow/mockHTTPRequest 和 {{yak(...)} } 模糊標籤。

@@ -1,0 +1,1 @@
+Yaklang 工具链和插件验证指南。它清楚地解释了如何使用 Yaklang 源引擎运行脚本 (go run common/yak/cmd/yak.go)，以及如何使用四个热加载/编解码器验证命令（yak hotpatch-mitm、hotpatch-global、hotpatch-webfuzzer、codec-plugin）通过真正的 gRPC 等效执行路径来验证 MITM、全局或 Web Fuzzer 热加载以及右键单击编解码器插件。它还介绍了如何利用 Yaklang 存储库源代码来定位和调试 MITM 问题。当用户询问“如何验证我的插件？”时使用此选项。或“我的 MITM 行为不正确 — 我该如何排除故障？”

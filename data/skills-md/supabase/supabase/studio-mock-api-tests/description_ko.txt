@@ -1,1 +1,1 @@
-MSW를 사용하여 네트워크 계층에서 API 요청을 모의하는 Supabase Studio용 구성 요소 테스트입니다. React Query 후크 또는 변형을 실행하는 구성 요소 테스트를 작성 또는 검토할 때 또는 vi.mock('@/data/...')에서 기존 테스트를 마이그레이션할 때 사용합니다. 실제 디버깅 시간이 소요되는 customRender + addAPIMock 템플릿과 jsdom/MSW 문제점을 다룹니다.
+MSW를 사용하여 네트워크 계층에서 API 요청을 모의하는 Supabase Studio용 구성 요소 테스트입니다. React Query 후크 또는 변형을 실행하는 구성 요소 테스트를 작성 또는 검토할 때 또는 vi.mock('@/data/...')에서 기존 테스트를 마이그레이션할 때 사용합니다. 실제 디버깅 시간이 소요되는 customRender + addAPIMock 템플릿과 jsdom/MSW 문제를 다룹니다.

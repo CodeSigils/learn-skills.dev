@@ -1,0 +1,1 @@
+yak-skills主要入口点和路由。当用户想要进行Yaklang编程、Yak热加载（MITM/Web Fuzzer/全局）、Yakit二次开发或者MCP测试时，首先在这里确定要进入哪个具体技能主题。本页阐明了三层热加载系统、YAK_MAIN调试约定、go运行测试方法，并将请求路由到mitm-hotpatch / webfuzzer-hotpatch / global-hotpatch / yaklang-syntax / yaklang-database / yakit-rightclick-plugin / yaklang-toolchain / yakit-data-extract-plugin。

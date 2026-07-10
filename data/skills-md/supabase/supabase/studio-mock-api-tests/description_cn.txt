@@ -1,0 +1,1 @@
+Supabase Studio 的组件测试，使用 MSW 在网络层模拟 API 请求。在编写或审查执行 React Query 挂钩或突变的组件测试时，或者从 vi.mock('@/data/...') 迁移现有测试时使用。涵盖了 customRender + addAPIMock 模板以及花费实际调试时间的 jsdom/MSW 陷阱。

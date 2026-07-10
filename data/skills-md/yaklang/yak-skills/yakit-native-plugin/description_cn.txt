@@ -1,0 +1,1 @@
+Yakit 原生插件（yak/mitm 类型）和 CLI 参数系统。阐明原生插件和热加载的区别，cli.*如何成为Yakit执行页面参数形式（String/Int/Bool/Urls/Ports/StringSlice dropdown/File等+setRequired / setDefault / setVerboseName / setCliGroup），并给出三个典型案例：一个使用CLI收集用户输入的yak原生插件；中间人本机插件，对复杂内容执行被动扫描并产生风险；以及一个加载外部参数（关键字字典/范围）来驱动扫描的 mitm+CLI 交互式插件。当用户询问“如何使用参数形式编写 yak/mitm 插件、如何使用 CLI、如何使用 mitm 插件执行被动扫描”时，请使用此选项。
