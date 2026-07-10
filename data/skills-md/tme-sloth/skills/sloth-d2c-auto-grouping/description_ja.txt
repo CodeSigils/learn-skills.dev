@@ -1,0 +1,1 @@
+Sloth D2C 自動グループ化タスクを実行します。これは、subAgentTask-autoGrouping-*.md、autoGroupingHandoff.requiresAutoGrouping、groupsData.json を含むシナリオの処理、自動グループ化を待機しているページのインターセプト、AI 自動グループ化、またはグループ化ファイルの生成にサブエージェントが必要な場合に使用されます。このスキルは、チャットを通じて完全なグループ化 JSON を返すのではなく、ローカル タスクを読み取り、最終的なグループ化 JSON を groupsData.json に書き込む必要があります。

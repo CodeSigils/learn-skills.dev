@@ -1,0 +1,1 @@
+Yaklang データベース操作 (db ライブラリ) の特別なトピック。ユーザーがスクリプト/プラグイン内でデータを永続化またはクエリする必要がある場合に使用されます: 一時的な SQLite テーブルの作成と CRUD (db.OpenTempSqliteDatabase / db.ScanResult / Exec)、クロススクリプト共有構成キー値ストレージ (db.SetKey / GetKey / DelKey / SetKeyWithTTL)、ブルート フォース ディクショナリの統合管理 (db.SavePayload / YieldPayload)、プロジェクト レベルの構成(db.SetProjectKey / GetProjectKey)。
