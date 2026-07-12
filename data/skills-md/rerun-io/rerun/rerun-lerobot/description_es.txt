@@ -1,0 +1,1 @@
+Ingerir un conjunto de datos de LeRobot (HuggingFace) en Rerun. Léalo al convertir un conjunto de datos de LeRobot a RRD, dividirlo en segmentos por episodio o registrarlo en un catálogo de repetición. Cubre el importador de directorio integrado (log_file_from_path), la división por episodio de RrdReader + send_chunks y cuándo pasar a ParquetReader para un control personalizado.
