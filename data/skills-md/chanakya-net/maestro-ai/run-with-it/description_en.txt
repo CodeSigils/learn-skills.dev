@@ -1,0 +1,1 @@
+Two-layer orchestration runtime — Main Orchestrator fetches all issues, plans execution order, maintains a rolling pool of Sub-Coordinators (up to PARALLEL_JOBS concurrently), fills freed slots immediately on completion, and updates GitHub. Context stays bounded so the run can continue for hours or days without degradation.

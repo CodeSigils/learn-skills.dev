@@ -1,0 +1,1 @@
+Scan a repo's stack and tooling plus installed helper tools (package managers, build/test/lint commands, make, git, rtk) and generate a project-local permission allowlist for the current agent/client so those commands run without prompting. Use when the user wants fewer permission prompts, to pre-approve a project's dev tools, or to set up an agent config for a repo's stack.

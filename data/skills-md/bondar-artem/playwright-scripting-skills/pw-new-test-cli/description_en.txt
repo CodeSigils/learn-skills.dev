@@ -1,0 +1,1 @@
+Write a new Playwright E2E test from user-provided test steps when application source code is NOT accessible. Uses Playwright CLI (`@playwright/cli`) to inspect a live URL via snapshots and `generate-locator`, then writes the test, runs and debugs it if needed.
