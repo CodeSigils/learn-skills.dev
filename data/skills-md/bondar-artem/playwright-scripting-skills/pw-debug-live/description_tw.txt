@@ -1,0 +1,1 @@
+透過 `--debug=cli` 和 `playwright-cli` 互動調試 Playwright 測試。使用「pause-at」（被動編輯）在使用者選擇的行暫停測試，然後使用「snapshot」、「eval」、「generate-locator」、「console」、「requests」驅動即時暫停的頁面，以診斷靜態追蹤無法顯示的競爭條件、計時錯誤和狀態相關故障。當使用者要求「單步執行測試」、「即時偵錯」、「附加到暫停的測試」、「從第 N 行偵錯」時使用，或當「pw-debug-test」（基於追蹤）不充分時使用，因為失敗取決於即時頁面狀態。

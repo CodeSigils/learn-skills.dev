@@ -1,0 +1,1 @@
+重新執行區塊處理 API (rerun.experimental) 的核心機制 — LazyChunkStream 管道、區塊、透鏡 (MutateLens/DeriveLens/Selector)、RrdReader、編寫最佳化的 RRD。在編寫任何攝取/轉換/預處理程式碼（轉換 MCAP、從資料集建立記錄、預處理 .rrd、移植舊轉換器）之前閱讀：它強制使用 reader+lens 管道並遠離手動建立的區塊 - 對於 reader/lens 可以產生的數據，沒有 Chunk.from_columns，沒有每條手動 parr。來源特定知識存在於導入器技能中（rerun-mcap、rerun-urdf、rerun-parquet、rerun-lerobot）；首先讀取 rerun-data-model 來決定資料應該變成什麼。

@@ -1,0 +1,1 @@
+在任何生態系統中一次安全地升級儲存庫的依賴項 — npm/pnpm/yarn/bun、cargo、go 模組、pip/poetry/uv、gradle/maven、Docker 映像和 Flux/GitOps Helm/OCI 圖表。檢測堆疊，優先考慮安全性和補丁碰撞，在碰撞之前讀取每個變更日誌，在重大/重大升級之前詢問，並在進入下一個之前對驗證+驗證（構建/測試或 Flux 運行狀況）進行每個更改的控制。當使用者想要升級/更新/碰撞依賴項、刷新鎖定檔案、處理 Renovate/Dependabot PR 或更新任何儲存庫中的圖表/影像時使用。
