@@ -1,0 +1,1 @@
+在任何生态系统中一次安全地升级存储库的依赖项 — npm/pnpm/yarn/bun、cargo、go 模块、pip/poetry/uv、gradle/maven、Docker 映像和 Flux/GitOps Helm/OCI 图表。检测堆栈，优先考虑安全性和补丁碰撞，在碰撞之前读取每个变更日志，在重大/重大升级之前询问，并在进入下一个之前对验证+验证（构建/测试或 Flux 运行状况）进行每个更改的控制。当用户想要升级/更新/碰撞依赖项、刷新锁定文件、处理 Renovate/Dependabot PR 或更新任何存储库中的图表/图像时使用。

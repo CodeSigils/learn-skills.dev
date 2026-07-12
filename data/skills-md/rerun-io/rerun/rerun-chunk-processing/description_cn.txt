@@ -1,0 +1,1 @@
+重新运行块处理 API (rerun.experimental) 的核心机制 — LazyChunkStream 管道、块、透镜 (MutateLens/DeriveLens/Selector)、RrdReader、编写优化的 RRD。在编写任何摄取/转换/预处理代码（转换 MCAP、从数据集构建记录、预处理 .rrd、移植旧转换器）之前阅读：它强制使用 reader+lens 管道并远离手工构建的块 - 对于 reader/lens 可以生成的数据，没有 Chunk.from_columns，没有每条消息 rr.log，没有手动 pa.array 组装。源特定知识存在于导入器技能中（rerun-mcap、rerun-urdf、rerun-parquet、rerun-lerobot）；首先读取 rerun-data-model 来决定数据应该变成什么。

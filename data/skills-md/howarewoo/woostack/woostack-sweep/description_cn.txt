@@ -1,0 +1,1 @@
+用于驱动一堆堆叠的 PR 进行干净的审查 - 自下而上扫描每个增量 PR（woostack-review --full → woostack-address-comments → 仅重新堆叠此堆栈 → 重新审查），以 review_sweep.max_rounds 加上无进度保护为界，以得到干净的判决或仅批准 nits。默认自治；停止并报告拦截器。审查-扫描循环的唯一主页，由每个轨道的 woostack-execute-overnight 重用。永远不会合并。

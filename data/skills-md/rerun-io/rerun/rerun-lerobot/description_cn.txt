@@ -1,0 +1,1 @@
+将 LeRobot (HuggingFace) 数据集摄取到 Rerun 中。将 LeRobot 数据集转换为 RRD、将其拆分为每集片段或将其注册到重新运行目录时请阅读。涵盖内置目录导入器 (log_file_from_path)、RrdReader + send_chunks 每集分割，以及何时放置到 ParquetReader 进行自定义控制。

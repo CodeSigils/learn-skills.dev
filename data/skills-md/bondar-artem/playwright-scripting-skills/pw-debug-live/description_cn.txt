@@ -1,0 +1,1 @@
+通过 `--debug=cli` 和 `playwright-cli` 交互调试 Playwright 测试。使用“pause-at”（无源编辑）在用户选择的行暂停测试，然后使用“snapshot”、“eval”、“generate-locator”、“console”、“requests”驱动实时暂停的页面，以诊断静态跟踪无法显示的竞争条件、计时错误和状态相关故障。当用户要求“单步执行测试”、“实时调试”、“附加到暂停的测试”、“从第 N 行调试”时使用，或者当“pw-debug-test”（基于跟踪）不充分时使用，因为失败取决于实时页面状态。

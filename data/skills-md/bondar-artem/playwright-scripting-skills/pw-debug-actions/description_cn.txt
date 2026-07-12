@@ -1,0 +1,1 @@
+调试 GitHub Actions 中失败的 Playwright 测试。使用“gh”CLI 定位失败的工作流程运行，下载其“测试结果”工件（包含 Playwright 跟踪），通过“npx playwright 跟踪”分析跟踪，确定根本原因，并按照项目的 Playwright 脚本规则对规范应用修复 - 保留更改未提交，以便用户可以查看、提交和推送。当用户要求调试、修复或调查在 GitHub Actions / CI 上失败的 Playwright 测试（例如“CI 上的 pw 测试失败”、“调试失败的操作运行”、“为什么 GitHub Actions Playwright 作业失败”、“修复失败的 CI 测试”）时，请使用此技能。
