@@ -1,1 +1,1 @@
-用於驅動一堆堆疊的 PR 進行乾淨的審查 - 自下而上掃描每個增量 PR（woostack-review --full → woostack-address-comments → 僅重新堆疊此堆疊 → 重新審查），以 review_sweep.max_rounds 加上無進度保護為界，以得到乾淨的判決或僅批准 nits。預設自治；停止並報告攔截器。審查-掃描循環的單一主頁，由每個軌道的 woostack-execute-overnight 重複使用。永遠不會合併。
+用於驅動一堆堆疊的 PR 進行乾淨的審查 - 自下而上掃描每個增量 PR（woostack-review --full → woostack-address-comments → 僅重新堆疊此堆疊 → 重新審查），以 review_sweep.max_rounds 加上無進度保護為界，以得到乾淨的判決或僅批准 nits。預設自治；停止並報告攔截器。審查-掃描循環的唯一主頁，由每個軌道的 woostack-execute-overnight 重複使用。永遠不會合併。

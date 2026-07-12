@@ -1,1 +1,1 @@
-將 LeRobot (HuggingFace) 資料集攝取到 Rerun 中。將 LeRobot 資料集轉換為 RRD、將其拆分為每集片段或將其註冊到重新運行目錄時請閱讀。涵蓋內建目錄導入器 (log_file_from_path)、RrdReader + send_chunks 每集分割，以及何時放置到 ParquetReader 進行自訂控制。
+將 LeRobot (HuggingFace) 資料集攝取到 Rerun 中。將 LeRobot 資料集轉換為 RRD、將其拆分為每集片段或將其註冊到 Rerun 目錄時請閱讀。涵蓋內建目錄導入器 (log_file_from_path)、RrdReader + send_chunks 每集分割，以及何時放置到 ParquetReader 進行自訂控制。
