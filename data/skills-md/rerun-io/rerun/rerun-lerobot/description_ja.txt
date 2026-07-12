@@ -1,0 +1,1 @@
+LeRobot (HuggingFace) データセットを Rerun に取り込みます。 LeRobot データセットを RRD に変換するとき、エピソードごとのセグメントに分割するとき、または再実行カタログに登録するときに読み取ります。組み込みのディレクトリ インポーター (log_file_from_path)、RrdReader + send_chunks のエピソードごとの分割、カスタム コントロールのために ParquetReader にドロップするタイミングについて説明します。

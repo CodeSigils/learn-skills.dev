@@ -1,0 +1,1 @@
+スタックされた PR のスタックをクリーンなレビューに導くために使用します。review_掃引.max_rounds と進行なしガードによって制限され、各増分 PR をボトムアップでスイープし (woostack-review --full → woostack-address-comments → このスタックのみ再スタック → 再レビュー)、クリーンな評決または承認済みのニットのみを取得します。デフォルトでは自律的です。ブロッカーを停止して報告します。 review-sweet ループの単一ホーム。トラックごとに woostack-execute-overnight によって再利用されます。決して合併しない。
