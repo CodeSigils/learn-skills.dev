@@ -1,0 +1,1 @@
+누적된 PR 스택을 클린 리뷰로 유도하는 데 사용합니다. review_sweep.max_rounds와 진행 없음 가드로 경계가 지정된 각 증분 PR 상향식(woostack-review --full → woostack-address-comments → 이 스택만 재스택 → 재검토)을 스윕하여 클린 판정 또는 승인된 니트로 승인됩니다. 기본적으로 자율적입니다. 차단기에 대해 중지하고 보고합니다. 트랙당 woostack-execute-overnight에서 재사용되는 검토-스윕 루프의 단일 홈입니다. 절대 병합하지 마세요.

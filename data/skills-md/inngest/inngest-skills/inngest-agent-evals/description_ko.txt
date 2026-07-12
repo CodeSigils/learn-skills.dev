@@ -1,0 +1,1 @@
+Ingest에서 에이전트 평가를 구축, 마이그레이션 또는 디버깅할 때 사용합니다. AI 에이전트 또는 워크플로 결과, 지연된 채점자, 세션, 추적, 단계 실험, 실험 변형 속성, Insights 쿼리 또는 프롬프트, 모델, 도구, 공급자 및 에이전트 동작에 대한 프로덕션 평가 루프에 점수를 매깁니다. TypeScript SDK v4 채점 베타 API인 `scoreMiddleware`, `step.score`, `inngest.score`, `createScorer`, `defer`, `group.experiment`, `experimentRef`, `meta.sessions` 및 결과 기반 평가를 위해 내구성 있는 워크플로 기본 요소를 사용하는 경우를 다룹니다.

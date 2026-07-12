@@ -1,0 +1,1 @@
+LeRobot(HuggingFace) 데이터 세트를 Rerun에 수집합니다. LeRobot 데이터세트를 RRD로 변환하거나 에피소드별 세그먼트로 분할하거나 Rerun 카탈로그에 등록할 때 읽어보세요. 내장된 디렉터리 임포터(log_file_from_path), RrdReader + send_chunks/에피소드 분할, 사용자 지정 제어를 위해 ParquetReader에 드롭하는 시기를 다룹니다.
