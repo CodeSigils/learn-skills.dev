@@ -1,0 +1,6 @@
+Bun 项目使用 pnpm 管理依赖 skill。当 agent 在使用 Bun（bunjs）的项目中工作时，
+必须使用 pnpm（而非 bun 自带的包管理器或 npm/yarn）来安装、添加、移除依赖，
+同时继续使用 bun 作为运行时（执行脚本、运行测试、启动服务）。
+本 skill 适用于任何涉及依赖管理操作（install / add / remove / update / lockfile）的任务。
+判断准则：项目根目录存在 `bun.lockb` 或 `pnpm-lock.yaml`，或 package.json 的 packageManager 字段包含 pnpm，即应激活本 skill。
+基于 pnpm@11+，配置统一写入 `pnpm-workspace.yaml`，不再使用 `.npmrc` 管理 pnpm 设置。
