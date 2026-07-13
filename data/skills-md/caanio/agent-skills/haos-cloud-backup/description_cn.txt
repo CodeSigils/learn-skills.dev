@@ -1,0 +1,1 @@
+Ship Home Assistant OS (HAOS) 使用 Rclone Backup 插件将 SD 卡备份到云存储（Google Drive 或任何 rclone 远程），并具有上传带宽上限和 GFS 式保留策略（每日/每周/每月稀疏）。当用户想要将 HA 备份上传到 Google Drive / Dropbox / 云、抱怨 SD 卡已满备份、需要为 Home Assistant 进行异地备份，或者因为家庭上行带宽稀缺而要求限制/限制备份上传时使用。在建议使用本机 google_drive 备份代理或 sabeechen 附加组件之前，请先咨询一下 — 两者都不能限制上传速度。

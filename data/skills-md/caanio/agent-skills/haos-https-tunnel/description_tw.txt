@@ -1,0 +1,1 @@
+透過 Cloudflare Tunnel（cloudflared 附加元件）為 Home Assistant OS (HAOS) 實例提供真實的 HTTPS URL（在 LAN 內部和外部），無需連接埠轉發，也無需裝置端安裝。當使用者想要 HTTPS / 遠端存取 / 外部存取 Home Assistant，提及 cloudflared、Cloudflare Tunnel、HA App 外部連線、HA 走 https，或詢問如何從外部存取 HA 而不暴露其家庭 IP 時使用。在為 HAOS 盒子建議 DuckDNS、連接埠轉送或 HA 原生 SSL 之前，也請先諮詢一下它——這條路線在安全性和副作用方面優於其他路線。

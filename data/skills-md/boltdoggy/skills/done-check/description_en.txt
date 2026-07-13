@@ -1,5 +1,1 @@
-开发完成验收 skill。当 agent 认为某项开发任务（功能开发、Bug 修复、重构、配置变更等）已经完成时，
-必须在提交或宣告完成前执行一轮系统性验收，逐项确认代码质量、测试通过、需求达成、文档同步、无回归风险。
-验收方式按项目类型（CLI / Web / Server）区分，各有专属检查项。
-本 skill 适用于任何涉及代码修改的任务收尾阶段。
-判断准则：agent 准备说"完成了"或准备提交代码时，即应激活本 skill。
+Development Completion Acceptance skill. When the agent deems a development task (feature development, bug fix, refactoring, configuration change, etc.) to be finished, a systematic acceptance must be performed before submitting or declaring completion, confirming code quality, test pass, requirement fulfillment, documentation synchronization, and absence of regression risk item by item. Acceptance methods are differentiated by project type (CLI / Web / Server), each with its own checklist. This skill applies to the final stage of any task involving code changes. Judgment criterion: when the agent is about to say “done” or to submit code, this skill should be activated.

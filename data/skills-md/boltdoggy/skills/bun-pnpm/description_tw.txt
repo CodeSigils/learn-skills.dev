@@ -1,0 +1,5 @@
+Bun 專案使用 pnpm 來管理相依性。當代理程式在使用 Bun (bunjs) 的專案上工作時，它們必須使用 pnpm（而不是 Bun 的內建套件管理器或 npm/yarn）來安裝、新增和刪除依賴項，同時繼續使用 Bun 作為執行時間（執行腳本、執行測試、啟動服務）。此技能適用於涉及依賴項管理操作（安裝/新增/刪除/更新/鎖定檔案）的任何任務。  
+
+判斷標準：如果專案根目錄包含`bun.lockb`或`pnpm-lock.yaml`，或`package.json`中的`packageManager`欄位包含pnpm，則應啟動該技能。  
+
+基於pnpm@11+，設定統一寫入`pnpm-workspace.yaml`； `.npmrc` 不再用於管理 pnpm 設定。

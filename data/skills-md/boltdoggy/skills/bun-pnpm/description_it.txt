@@ -1,0 +1,5 @@
+Il progetto Bun utilizza pnpm per gestire le dipendenze. Quando l'agente lavora su un progetto che utilizza Bun (bunjs), deve utilizzare pnpm (invece del gestore di pacchetti integrato di Bun o npm/yarn) per installare, aggiungere e rimuovere le dipendenze, continuando a utilizzare Bun come runtime (esecuzione di script, esecuzione di test, avvio di servizi). Questa competenza si applica a qualsiasi attività che coinvolga operazioni di gestione delle dipendenze (installazione/aggiunta/rimozione/aggiornamento/lockfile).  
+
+Criteri di giudizio: la skill va attivata se la root del progetto contiene un `bun.lockb` o un `pnpm-lock.yaml`, oppure se il campo `packageManager` in `package.json` include pnpm.  
+
+Basandosi su pnpm@11+, la configurazione viene scritta in modo uniforme su `pnpm-workspace.yaml`; `.npmrc` non viene più utilizzato per gestire le impostazioni pnpm.
