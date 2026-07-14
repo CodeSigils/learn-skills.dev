@@ -1,0 +1,1 @@
+packages/playground 및 packages/playground-ui에 대한 필수 및 기본 테스트 접근 방식입니다. 트리거 대상: 후크, 페이지, 경로 구성 요소, 데이터 가져오기 코드, React 쿼리 상호 작용 또는 이러한 패키지의 모든 테스트 작업을 추가하거나 수정합니다. @mastra/client-js 응답 유형에서 파생된 MSW 핸들러 및 유형화된 고정 장치를 통해 실제 @mastra/client-js + React 쿼리 스택을 구동하는 Vitest 테스트를 생성합니다. 이것은 Playwright E2E 위의 플레이그라운드 패키지를 테스트하는 #1 방법입니다. MSW가 모델링할 수 없는 페이지 간 사용자 경험에만 Playwright를 사용하세요.

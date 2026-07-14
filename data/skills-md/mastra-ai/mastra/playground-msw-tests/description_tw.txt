@@ -1,0 +1,1 @@
+packages/playground 和 packages/playground-ui 的必要和主要測試方法。觸發：新增或修改掛鉤、頁面、路由元件、資料擷取程式碼、React 查詢互動或這些套件中的任何測試工作。產生 Vitest 測試，透過 MSW 處理程序和從 @mastra/client-js 回應類型派生的類型化固定裝置來驅動真正的 @mastra/client-js + React 查詢堆疊。這是測試 Playwright 套件的第一個方法 — ABOVE Playwright E2E。僅將 Playwright 用於 MSW 無法建模的跨頁面使用者旅程。

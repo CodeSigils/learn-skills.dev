@@ -1,0 +1,1 @@
+建立個人 WhatsApp ↔ Claude Code 橋樑。用戶透過手機向 WhatsApp 號碼發送訊息，然後 Claude Code（帶有完整的代理循環、文件工具、bash）進行回應。使用 Anthropic 訂閱身份驗證（不按代幣收費）。每個聊天會話的連續性、每日凌晨 5 點會話透過預刷新記憶體提取進行重置、兩個角色 LID 白名單（所有者/只讀訪客）、隱私模式的群組聊天支援（所有者添加機器人時自動允許）、回覆訊息支援、以自然語言安排的使用者定義的 cron 作業、無斜線命令。可選的自動啟動（LinuxServer.io/EnvHaven、s6-rc、systemd-user 或 launchd 上的“/custom-cont-init.d/”），以便網橋在重新啟動後仍能正常運作。該技能建構了一個獨立的克勞德代碼橋。
