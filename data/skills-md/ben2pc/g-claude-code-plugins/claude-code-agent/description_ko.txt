@@ -1,0 +1,1 @@
+Claude Code CLI의 `claude -p` 에이전트 SDK 진입점을 통해 코딩, 검토, 진단, 계획 및 구조화된 출력 작업을 별도의 Claude Code 세션에 위임합니다. 사용 사례에는 다중 턴 대화를 계속하기 위한 `--resume` / `--continue`, 단일 결과 출력을 위한 `--output-format json`, `stream-json` 이벤트 스트림, `--worktree`, 도구 화이트리스트, `--bare` 또는 구조화된 JSON 출력이 필요한 스크립트/CI 호출이 포함됩니다.

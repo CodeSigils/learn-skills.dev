@@ -1,0 +1,1 @@
+使用正確的 Python 版本和目前的 boto3 為 SageMaker/AWS 工作設定隔離的 Python 環境。每當為 SageMaker 部署、訓練作業或任何 AWS 自動化執行 Python 程式碼時，包括當要執行 `pip install` 時、當要呼叫 `boto3` 時、建立或啟動 virtualenv 時，或當使用者要求「設定環境」時，請使用此技能。切勿使用系統 Python，也切勿對其進行「pip install」。始終隔離。此技能可防止最常見的故障模式：錯誤的 Python 版本、依賴項衝突和陳舊的 SDK。

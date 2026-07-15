@@ -1,0 +1,1 @@
+每个 Caffeine 构建的强制配方，列出即将发生的事件或在用户自己的 Google 日历上创建事件。唯一支持的路径是“googlecalendar-client”mops 包（日历 REST API v3）与“google-oauth”mops 包（令牌交换+刷新+PKCE）相结合。对“oauth2.googleapis.com”或“www.googleapis.com/calendar/v3”的手动“ic.http_request”调用是一种禁止的反模式——它绕过了承载身份验证、复制成本保护以及“google-oauth”库的百分比编码和 JSON 解析。每当用户、规范或任何先前任务提到日程安排、日历事件、约会、会议、“添加到日历”或任何等效措辞时，以及在编写任何涉及 Google 端点的代码之前，请加载此技能。

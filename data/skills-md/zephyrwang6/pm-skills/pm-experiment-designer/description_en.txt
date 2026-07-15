@@ -1,5 +1,9 @@
-A/B 实验设计 Skill。从实验目标出发，输出完整的实验方案（假设、分组、指标体系、样本量估算、止损规则、判定规则）。
-触发条件：用户提到"A/B 测试"、"AB 实验"、"实验设计"、"对照实验"、"分流实验"、"灰度方案"、"实验方案"、"样本量计算"、"显著性检验"、"实验评估"、"p值"、"置信区间"、"MDE"、"统计功效"、"实验周期"、"止损规则"等关键词。
-也适用于：用户提供了实验目标/可改动点/数据量级/周期限制要求产出实验方案；用户要求评估现有实验设计是否合理；用户要求制定实验判定标准和决策规则。
-典型输入：实验目标 + 可改动点 + 当前数据量级 + 可接受实验周期。
-不适用于：纯数据分析（用 pm-analytics）、纯埋点设计（用 tracking-spec-writer）、纯PRD写作（用 pm-prd-writer）。
+A/B Experiment Design Skill. Starting from the experiment objective, output a complete experiment plan (hypotheses, grouping, metric system, sample size estimation, stop‑loss rules, decision rules).
+
+Trigger conditions: user mentions keywords such as “A/B test”, “AB experiment”, “experiment design”, “control experiment”, “traffic‑splitting experiment”, “gray rollout plan”, “experiment plan”, “sample size calculation”, “significance test”, “experiment evaluation”, “p‑value”, “confidence interval”, “MDE”, “statistical power”, “experiment duration”, “stop‑loss rule”, etc.
+
+Also applicable when: the user provides experiment objectives / modifiable points / data scale / time‑frame constraints and requests an experiment plan; the user asks to evaluate whether an existing experiment design is reasonable; the user asks to formulate experiment decision criteria and decision rules.
+
+Typical input: experiment objective + modifiable points + current data scale + acceptable experiment duration.
+
+Not applicable: pure data analysis (use pm‑analytics), pure instrumentation design (use tracking‑spec‑writer), pure PRD writing (use pm‑prd‑writer).

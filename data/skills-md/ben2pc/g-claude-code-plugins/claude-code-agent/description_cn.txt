@@ -1,0 +1,1 @@
+通过 Claude Code CLI 的“claude -p”代理 SDK 入口点，将编码、审查、诊断、规划和结构化输出任务委托给单独的 Claude Code 会话。用例包括用于继续多轮对话的“--resume”/“--continue”、用于单结果输出的“--output-format json”、“stream-json”事件流以及需要“--worktree”、工具白名单、“--bare”或结构化 JSON 输出的脚本化/CI 调用。

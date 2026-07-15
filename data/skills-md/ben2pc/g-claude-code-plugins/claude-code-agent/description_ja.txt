@@ -1,0 +1,1 @@
+Claude Code CLI の「claude -p」エージェント SDK エントリ ポイントを介して、コーディング、レビュー、診断、計画、および構造化出力タスクを別の Claude Code セッションに委任します。ユースケースには、マルチターン会話を継続するための「--resume」/「--Continue」、単一結果出力のための「--output-format json」、「stream-json」イベントストリーム、および「--worktree」、ツールホワイトリスト、「--bare」、または構造化された JSON 出力を必要とするスクリプト/CI 呼び出しが含まれます。

@@ -1,0 +1,9 @@
+Compétence en conception d’expériences A/B. À partir de l’objectif de l’expérience, générez un plan d’expérience complet (hypothèses, regroupement, système métrique, estimation de la taille de l’échantillon, règles stop-loss, règles de décision).
+
+Conditions de déclenchement : l'utilisateur mentionne des mots-clés tels que « test A/B », « expérience AB », « plan d'expérience », « expérience de contrôle », « expérience de répartition du trafic », « plan de déploiement gris », « plan d'expérimentation », « calcul de la taille de l'échantillon », « test de signification », « évaluation de l'expérience », « valeur p », « intervalle de confiance », « MDE », « puissance statistique », « durée de l'expérience », « règle stop-loss », etc.
+
+Applicable également lorsque : l'utilisateur fournit des objectifs d'expérimentation / des points modifiables / une échelle de données / des contraintes de temps et demande un plan d'expérimentation ; l'utilisateur demande d'évaluer si un plan d'expérience existant est raisonnable ; l'utilisateur demande à formuler des critères de décision d'expérimentation et des règles de décision.
+
+Entrée typique : objectif de l'expérience + points modifiables + échelle de données actuelle + durée d'expérience acceptable.
+
+Non applicable : analyse de données pure (utiliser pm-analytics), conception d'instrumentation pure (utiliser tracking-spec-writer), écriture pure de PRD (utiliser pm-prd-writer).
