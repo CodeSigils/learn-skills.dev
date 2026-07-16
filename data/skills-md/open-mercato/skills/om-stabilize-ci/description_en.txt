@@ -1,0 +1,1 @@
+Drive a PR or branch to green CI. Reads check status through tracker operations, pulls failed-step logs, classifies each failure (real bug, test bug, flake, infra), fixes the real ones in an isolated worktree with tests, pushes, and re-checks — iterating until every required check passes or a genuine blocker is reported. Never goes green by weakening tests or disabling checks.

@@ -1,0 +1,1 @@
+Review or re-review a PR by number in an isolated worktree. Runs the `om-code-review` skill, submits approve/request-changes, manages pipeline labels. On changes-requested, an autonomous autofix loop iterates conflict resolution/fixes/tests/validation/re-review until merge-ready. Usage - /om-auto-review-pr <PR-number>
