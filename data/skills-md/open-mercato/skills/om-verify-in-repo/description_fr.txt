@@ -1,0 +1,1 @@
+Porte de tri en lecture seule pour une chaîne de réparation automatique. Décide si un problème de suivi est un défaut réel et non encore corrigé sur la branche actuelle. Arrête proprement la chaîne avec NO_ACTION_NEEDED lorsque le problème est déjà résolu, déjà en cours par quelqu'un d'autre, déjà couvert par un PR ouvert, ou n'est pas réellement un bug.
