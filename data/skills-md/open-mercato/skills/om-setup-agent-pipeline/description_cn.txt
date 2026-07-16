@@ -1,0 +1,1 @@
+代理 PR 管道的一次性配置器。检查存储库（默认分支、验证脚本、跟踪器标签），询问一些问题，写入 .ai/agentic.config.json（此集合中的所有其他技能都会读取的文件），安装跟踪器提供程序描述符 (.ai/trackers/<tracker>.md)，并在丢失时生成项目文档 - SDLC.md（团队的工单流流程文档）、CODE_REVIEW.md（审核规则）， BACKWARD_COMPATIBILITY.md（受保护的合约面）和带有任务路由表的 AGENTS.md 启动器 - 每个都源自当前存储库。每个存储库运行一次；当工具链或标签分类发生变化时重新运行。

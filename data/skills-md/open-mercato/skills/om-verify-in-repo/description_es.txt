@@ -1,0 +1,1 @@
+Puerta de clasificación de solo lectura para una cadena de reparación automática. Decide si un problema del rastreador es un defecto real y aún sin solucionar en la rama actual. Detiene la cadena limpiamente con NO_ACTION_NEEDED cuando el problema ya está solucionado, ya está en progreso por otra persona, ya está cubierto por un PR abierto o no es realmente un error.

@@ -1,0 +1,1 @@
+進階 om-auto-create-pr 工作流程，適用於需要可恢復性和嚴格步驟追蹤的長、多步驟規範實作。使用 PLAN.md、HANDOFF.md 和 NOTIFY.md 在配置的運行目錄下建立一個運行資料夾，對每個任務表步驟執行一次精益提交，每 5 個步驟將驗證批量驗證到 checkpoint-<N>-checks.md（重點集成測試和觸摸 UI 時的屏幕截圖），運行完整配置的驗證門以及存儲庫可透過 om-auto-continue-pr-loop 恢復。使用簡單的 om-auto-create-pr 進行小修復。

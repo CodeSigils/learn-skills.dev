@@ -1,0 +1,1 @@
+由“om-auto-create-pr-loop”启动的 PR 的高级“om-auto-continue-pr”工作流程。声明 PR，重新进入隔离的工作树，从运行文件夹的“PLAN.md”任务表中的第一个未完成的行恢复，执行精益的每步提交，每〜5个恢复步骤将验证批量验证到“checkpoint-<N>-checks.md”（重点集成测试+触摸 UI 时的屏幕截图），运行配置的完整验证门以及存储库的完整集成套件以及规范完成时的任何样式合规性传递，以及保留运行文件夹和标签合同。使用普通 om-auto-continue-pr 进行简单的 om-auto-create-pr 运行。

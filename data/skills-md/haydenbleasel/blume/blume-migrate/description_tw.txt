@@ -1,0 +1,1 @@
+將現有文件網站（Mintlify、Docusaurus、Fumadocs、Nextra、Starlight 或任何文件框架）遷移到 Blume（Astro 上的 markdown-first 文件框架）。將來源設定轉換為 blume.config.ts，將內容重組為 Blume 的檔案系統派生導航，將 JSX 標註重寫為指令，將圖示轉換為 Lucide 以及內嵌片段。當使用者要求將文件儲存庫遷移/轉換/移植到 Blume 時，或當儲存庫具有 docs.json/mint.json、docusaurus.config.*、帶有 fumadocs 的 meta.json、帶有 nextra 的 _meta.* 或帶有 starlight() 的 astro.config.* 時使用。

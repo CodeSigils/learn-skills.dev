@@ -1,0 +1,1 @@
+指導代理程式使用 Dart 的 Native Assets 鉤子系統（透過 hook/build.dart 和 hook/link.dart，利用 package:hooks 和 package:native_toolchain_c）將 C/C++ 原始程式碼編譯並打包到動態或靜態函式庫（程式碼資產）中。當使用者要求：「設定原生資產」、「編譯 C/C++ 原始碼」、「捆綁動態函式庫」、「建置原生 C 程式碼」、「連結原生資產」、「實作 build.dart 或 link.dart 掛鉤」或「在 Dart/Flutter 中整合 C/C++ 互通」時使用。幫助代理程式避免手動工具鏈編排，並使用 package:record_use 映射配置安全的雜湊驗證二進位下載或進階連結器樹搖動。

@@ -1,0 +1,1 @@
+Gate di triage di sola lettura per una catena di correzione automatica. Decide se un problema del tracker è un difetto reale, ancora non risolto, sul ramo corrente. Interrompe la catena in modo pulito con NO_ACTION_NEEDED quando il problema è già risolto, già in corso da qualcun altro, già coperto da un PR aperto o non effettivamente un bug.

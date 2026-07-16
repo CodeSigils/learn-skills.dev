@@ -1,0 +1,1 @@
+高级 om-auto-create-pr 工作流程，适用于需要可恢复性和严格步骤跟踪的长、多步骤规范实现。使用 PLAN.md、HANDOFF.md 和 NOTIFY.md 在配置的运行目录下创建一个运行文件夹，对每个任务表步骤执行一次精益提交，每 5 个步骤将验证批量验证到 checkpoint-<N>-checks.md（重点集成测试和触摸 UI 时的屏幕截图），运行完整配置的验证门以及存储库的集成套件和规范完成时的任何样式合规性传递，并使用标准化管道标签打开 PR。可通过 om-auto-continue-pr-loop 恢复。使用简单的 om-auto-create-pr 进行小修复。

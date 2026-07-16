@@ -1,1 +1,1 @@
-利用者が知る目的・操作・契約と内部の技術・手順を分離し、長大処理の技術漏出、caller側分岐、誤った責務境界を監査・設計するときに使う。単なるif削減、interface型量産、system全体のarchitecture選定には使わない。
+It is used to separate the purposes, operations, and contracts known to the user from internal technology and procedures, and to audit and design against technical leakage in long processes, caller‑side branching, and incorrect responsibility boundaries. It is not used for mere if‑reduction, mass production of interface types, or selecting the overall system architecture.
