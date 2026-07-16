@@ -1,0 +1,1 @@
+CYPACK (エッジワーカー + CLI) と CYHOST (Vercel でホストされる GUI) にまたがる Cyrus の変更を開発テストするときに呼び出します。ホストされる GUI はこのリポジトリの未リリースの「cyrus-core」を指す必要があります。 `cyrus-core` (および必要に応じて `claude-runner`) を npm `test` dist タグの下の `-test.N` プレリリースとして公開します。これにより、CYHOST は、`latest` dist タグに影響を与えたり、実際のリリースを出荷したりすることなく、`cyrus-core@test` 経由でインストールできるようになります。
