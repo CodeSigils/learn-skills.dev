@@ -1,0 +1,1 @@
+诊断并修复面向 iOS 的 Kotlin 多平台项目中缓慢的 Kotlin/Native 编译和链接。当用户报告缓慢的 iOS 或共享框架构建、较长的 linkDebug*/linkRelease* 或 XCFramework 任务、重新下载 Kotlin/Native 工具链、KSP 或本机路径上其他生成的代码的冷 CI 构建、transitiveExport 使用或要求本地开发与 CI 构建性能计划时使用。

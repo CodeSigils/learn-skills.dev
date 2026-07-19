@@ -1,6 +1,11 @@
-新手写作双模式 Skill。面向学员和用户，不要求先有个人 profile、长期记忆沉淀或代表作。
-当用户想“先写出一篇很强的文章”，但自己没有足够素材、经历或风格资产时，优先使用这个 skill。
-当用户明确说想“像某个内置作者写”，尤其是当前内置作者 Dan Koe、粥左罗、Justin Welsh、刘润、梁宁、薛辉时，也应使用这个 skill。
-即使用户没有直接说“强文章模式”或“高拟态模式”，只要意图是“低门槛起稿”或“先体验某个作者方向”，都应触发本 skill。
-不要在“用户已经有自己的成熟风格资产、要像自己写”的场景使用它；那是 `writing-clone-profile` 的职责。
-当前已落地范围包括：共同标准、强文章首批原型、Dan Koe / 粥左罗 / Justin Welsh / 刘润 / 梁宁 / 薛辉 正式作者 profile 雏形、runtime 收口协议。硬约束：本 skill 不使用 form-normalized-anchors。
+Newcomer Writing Dual-Mode Skill. Intended for students and users, it does not require an existing personal profile, long-term memory accumulation, or representative works.
+
+When a user wants to “write a strong article first” but lacks sufficient material, experience, or stylistic assets, prioritize using this skill.
+
+When a user explicitly says they want to “write like a specific built-in author,” especially the current built-in authors Dan Koe, Zhou Zuoluo, Justin Welsh, Liu Run, Liang Ning, or Xue Hui, this skill should also be used.
+
+Even if the user does not directly mention “strong article mode” or “high-fidelity mode,” as long as the intention is “low-threshold drafting” or “first experiencing a particular author’s direction,” this skill should be triggered.
+
+Do not use it in scenarios where “the user already has their own mature stylistic assets and wants to write as themselves”; that is the responsibility of `writing-clone-profile`.
+
+The currently implemented scope includes: common standards, the first batch of strong article prototypes, formal author profile prototypes for Dan Koe / Zhou Zuoluo / Justin Welsh / Liu Run / Liang Ning / Xue Hui, and runtime closure protocols. Hard constraint: this skill does not use form-normalized-anchors.

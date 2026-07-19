@@ -1,0 +1,1 @@
+使用此技能可以自动执行受管软件包安装后配置。与包无关 — 适用于任何托管包（LMA、FMA、work.com、Certinia 等）。在以下情况下触发：用户安装托管软件包并需要安装后配置，提及 LMA/FMA/work.com 安装后设置，要求为已安装的软件包配置权限集/FLS/页面布局，显示“安装后”、“软件包设置”、“配置 LMA”、“设置 FMA”、“安装后步骤”。请勿触发：独立权限集分配（使用 dx-org-permission-set-assign）、生成权限集元数据 XML（使用 platform-permission-set-generate）、软件包安装或组织切换。

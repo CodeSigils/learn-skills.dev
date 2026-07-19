@@ -1,0 +1,1 @@
+通过 Kinesis Data Streams（或 MSK）构建从事务数据库（Aurora DSQL、Aurora Postgres、RDS）到 Redshift Serverless、S3 或任何其他接收器的实时变更数据捕获管道。涵盖生产者设置、消费者 Lambda 正确性、仅附加事件日志 + 重建模式、使用 SUPER + JSON_PARSE 进行模式漂移处理以及操作陷阱（Redshift Data API 参数上限、异步语句轮询、有害记录处理、重试和二分）。当用户请求“CDC 到 Redshift”、“流更改数据捕获”、“Aurora CDC”、“DSQL CDC”、“Postgres 复制到 S3”或“为 Kinesis CDC 构建 Lambda 使用方”时使用。 Aurora DSQL 公共预览版细节已标记；其余的与来源无关。

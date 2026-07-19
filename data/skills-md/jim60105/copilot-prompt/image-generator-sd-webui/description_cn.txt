@@ -1,0 +1,1 @@
+通过 Stable Diffusion WebUI / Forge HTTP API（兼容 AUTOMATIC1111 的“/sdapi/v1/*”）生成图像。当用户想要 (1) 从正在运行的 sd-webui 服务器发现或选择模型/额外模块 (TE/VAE)/采样器/调度程序/样式预设，(2) 生成具有给定提示的图像 (txt2img)，(3) 检查生成进度，(4) 取消/中断正在进行的生成，(5) 检查或更改全局 sd-webui 选项（例如活动检查点）或 (6) 测试连接时使用。此技能与*通用* sd-webui 兼容服务器（AUTOMATIC1111、Forge、reForge、sd-webui-forge-classic）进行对话。不要触发纯粹编写提示本身的请求。

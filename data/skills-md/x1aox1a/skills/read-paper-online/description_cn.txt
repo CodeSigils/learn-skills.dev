@@ -1,0 +1,8 @@
+使用 HuggingFace Papers API 和 arxiv2md 在线搜索、浏览和阅读学术论文。
+触发时间：用户要求在线搜索论文、查找最近的论文、查找有关某个主题的论文、
+搜索 arXiv/HuggingFace 论文，查看研究领域的最新动态，浏览 HuggingFace 每日论文，
+获取有关特定论文的详细信息（作者、摘要、关键字、github）、阅读论文全文
+通过 arXiv ID 在线，或以 Markdown 形式下载论文。
+不要在以下情况下触发：用户想要阅读本地纸张文件夹或已本地下载的纸张
+（使用read-paper-local技能），将论文导入Zotero（使用zotero-connector技能），
+或转换本地 PDF（使用 pdf-to markdown 技能）。
