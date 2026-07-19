@@ -1,0 +1,1 @@
+iOS를 대상으로 하는 Kotlin 다중 플랫폼 프로젝트에서 느린 Kotlin/Native 컴파일 및 연결을 진단하고 수정합니다. 사용자가 느린 iOS 또는 공유 프레임워크 빌드, 긴 linkDebug*/linkRelease* 또는 XCFramework 작업, Kotlin/Native 툴체인, KSP 또는 기타 생성된 코드를 기본 경로에서 다시 다운로드하는 콜드 CI 빌드, transitiveExport 사용을 보고하거나 로컬 개발 대 CI 빌드 성능 계획을 요청할 때 사용합니다.

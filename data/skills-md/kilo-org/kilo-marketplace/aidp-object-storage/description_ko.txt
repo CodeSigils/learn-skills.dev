@@ -1,0 +1,1 @@
+`oci://` URI 체계를 사용하여 AIDP 노트북에서 기본적으로 OCI Object Storage를 읽고 씁니다. 사용자가 OCI Object Storage, "oci://", 외부 볼륨, Object Storage가 지원하는 외부 테이블, 버킷의 CSV/Parquet/JSON/Delta 파일을 언급하거나 OCI 버킷에 데이터를 저장하려는 경우에 사용합니다. 인증은 작업공간의 IAM ID를 통해 암시적으로 이루어지며 노트북에는 키가 없습니다.
