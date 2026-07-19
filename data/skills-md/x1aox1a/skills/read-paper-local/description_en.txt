@@ -1,0 +1,6 @@
+Read and work with local academic paper folders exported by ZoFiles from Zotero.
+TRIGGER when: user asks to read/summarize/cite/review/compare a paper that is already downloaded locally,
+references a local paper folder or path, works with paper.md/paper.bib/kimi.md files, browses the local
+paper library by topic, or asks to update/refresh the paper library directory structure.
+DO NOT TRIGGER when: user asks to search for papers online, find new papers, look up papers on a topic online,
+browse HuggingFace daily papers, or read a paper by arXiv ID without a local copy (use read-paper-online skill).

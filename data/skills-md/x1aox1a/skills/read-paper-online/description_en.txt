@@ -1,0 +1,8 @@
+Search, browse, and read academic papers online using HuggingFace Papers API and arxiv2md.
+TRIGGER when: user asks to search for papers online, find recent papers, look up papers on a topic,
+search arXiv/HuggingFace for papers, check what's new in a research area, browse HuggingFace daily papers,
+get detailed info about a specific paper (authors, abstract, keywords, github), read a paper's full text
+by arXiv ID online, or download a paper as markdown.
+DO NOT TRIGGER when: user wants to read a local paper folder or paper already downloaded locally
+(use read-paper-local skill), import papers into Zotero (use zotero-connector skill),
+or convert a local PDF (use pdf-to-markdown skill).
