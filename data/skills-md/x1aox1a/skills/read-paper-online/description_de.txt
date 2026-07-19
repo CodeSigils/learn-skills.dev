@@ -1,0 +1,8 @@
+Suchen, durchsuchen und lesen Sie wissenschaftliche Arbeiten online mit der HuggingFace Papers API und arxiv2md.
+TRIGGER, wenn: Der Benutzer möchte online nach Artikeln suchen, aktuelle Artikel finden, nach Artikeln zu einem Thema suchen,
+Durchsuchen Sie arXiv/HuggingFace nach Artikeln, prüfen Sie, was es Neues in einem Forschungsgebiet gibt, stöbern Sie in HuggingFace-Tageszeitungen,
+Erhalten Sie detaillierte Informationen zu einem bestimmten Artikel (Autoren, Zusammenfassung, Schlüsselwörter, Github) und lesen Sie den vollständigen Text eines Artikels
+per arXiv-ID online oder laden Sie ein Papier als Preisnachlass herunter.
+NICHT AUSLÖSEN, wenn: Der Benutzer einen lokalen Papierordner oder ein bereits lokal heruntergeladenes Papier lesen möchte
+(nutzen Sie den Read-Paper-Local-Skill), importieren Sie Papiere in Zotero (nutzen Sie den Zotero-Connector-Skill),
+oder konvertieren Sie ein lokales PDF (verwenden Sie die PDF-to-Markdown-Fähigkeit).
