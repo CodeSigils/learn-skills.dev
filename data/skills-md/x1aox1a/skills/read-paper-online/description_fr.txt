@@ -1,0 +1,8 @@
+Recherchez, parcourez et lisez des articles universitaires en ligne à l'aide de l'API HuggingFace Papers et d'arxiv2md.
+DÉCLENCHEMENT lorsque : l'utilisateur demande à rechercher des articles en ligne, à trouver des articles récents, à rechercher des articles sur un sujet,
+recherchez des articles sur arXiv/HuggingFace, vérifiez les nouveautés dans un domaine de recherche, parcourez les journaux quotidiens de HuggingFace,
+obtenir des informations détaillées sur un article spécifique (auteurs, résumé, mots-clés, github), lire le texte intégral d'un article
+par arXiv ID en ligne, ou téléchargez un article en démarque.
+NE PAS DÉCLENCHER lorsque : l'utilisateur souhaite lire un dossier papier local ou un document déjà téléchargé localement
+(utilisez la compétence lecture-papier-local), importez des articles dans Zotero (utilisez la compétence zotero-connecteur),
+ou convertissez un PDF local (utilisez la compétence PDF-to-markdown).
