@@ -1,0 +1,8 @@
+使用 HuggingFace Papers API 和 arxiv2md 在線搜尋、瀏覽和閱讀學術論文。
+觸發時間：使用者要求在線上搜尋論文、尋找最近的論文、尋找有關某個主題的論文、
+搜尋 arXiv/HuggingFace 論文，查看研究領域的最新動態，瀏覽 HuggingFace 每日論文，
+取得特定論文的詳細資訊（作者、摘要、關鍵字、github）、閱讀論文全文
+透過 arXiv ID 在線，或以 Markdown 形式下載論文。
+請勿在以下情況觸發：使用者想要閱讀本機紙張資料夾或已本機下載的紙張
+（使用read-paper-local技能），將論文導入Zotero（使用zotero-connector技能），
+或轉換本地 PDF（使用 pdf-to markdown 技能）。

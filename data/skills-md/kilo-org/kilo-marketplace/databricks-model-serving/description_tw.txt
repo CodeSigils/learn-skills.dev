@@ -1,0 +1,1 @@
+Databricks 模型服務端點生命週期與操作。當要求時使用： CRUD 服務端點（CLI 或 MLflow 部署客戶端）；為 A/B/金絲雀部署和零停機版本交換配置流量路由；檢索 OpenAPI 模式；檢查日誌、指標或權限；管理 AI 網關速率限制；在運行時發現基礎模型 API 端點；將端點整合到 Databricks 應用程式中傳輸或從平台。不適用於：訓練、MLflow 自動記錄、UC 註冊、自訂 PyFunc/ResponsesAgent 創作 (databricks-ml-training)；知識助理/主管代理（databricks-agent-bricks）；MLflow 評估（databricks-mlflow-evaluation）。

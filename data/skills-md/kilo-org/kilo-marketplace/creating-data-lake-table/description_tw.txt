@@ -1,0 +1,1 @@
+使用 Amazon S3 資料表（s3tables API 命名空間）建立託管 Iceberg 資料表，並進行自動壓縮和快照管理。設定表存儲桶、命名空間、表、模式、Glue 目錄註冊、分區、IAM 存取控制。觸發條件：建立表格、資料湖表、分析表、結構化資料儲存、S3 表、Iceberg、Athena 表、分區策略、存取權限。請勿用於：匯入文件（使用 ingesting-into-data-lake）、向量儲存（使用 storage-and-querying-vectors）、查詢現有表（使用 querying-data-lake）或定位現有表（使用finding-data-lake-assets）。
