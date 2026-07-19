@@ -1,0 +1,8 @@
+Cerca, sfoglia e leggi documenti accademici online utilizzando l'API HuggingFace Papers e arxiv2md.
+SI ATTIVA quando: l'utente chiede di cercare documenti online, trovare documenti recenti, cercare documenti su un argomento,
+cercare documenti in arXiv/HuggingFace, controllare le novità in un'area di ricerca, sfogliare i giornali quotidiani di HuggingFace,
+ottenere informazioni dettagliate su un articolo specifico (autori, abstract, parole chiave, github), leggere il testo completo di un articolo
+tramite arXiv ID online o scarica un documento come sconto.
+NON SI ATTIVA quando: l'utente desidera leggere una cartella di documenti locali o un documento già scaricato in locale
+(usa l'abilità read-paper-local), importa documenti in Zotero (usa l'abilità zotero-connector),
+o convertire un PDF locale (usa la capacità pdf-to-markdown).

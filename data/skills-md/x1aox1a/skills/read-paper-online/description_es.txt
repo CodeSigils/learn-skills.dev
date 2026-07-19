@@ -1,0 +1,8 @@
+Busque, explore y lea artículos académicos en línea utilizando la API HuggingFace Papers y arxiv2md.
+DISPARAR cuando: el usuario solicita buscar artículos en línea, encontrar artículos recientes, buscar artículos sobre un tema,
+busque artículos en arXiv/HuggingFace, consulte las novedades en un área de investigación, explore los artículos diarios de HuggingFace,
+obtener información detallada sobre un artículo específico (autores, resumen, palabras clave, github), leer el texto completo de un artículo
+por arXiv ID en línea, o descargue un documento como descuento.
+NO DISPARAR cuando: el usuario quiera leer una carpeta de papel local o un papel ya descargado localmente
+(use la habilidad local de lectura de papel), importe documentos a Zotero (use la habilidad de conector zotero),
+o convierta un PDF local (use la habilidad de pdf a markdown).
