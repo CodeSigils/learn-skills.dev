@@ -1,0 +1,10 @@
+Produire une revue d'architecture fondée sur des preuves ou une critique de décision de conception - une carte d'architecture,
+le centre de complexité douloureuse, 3 à 6 lentilles d'examen choisies, les résultats classés avec les preuves file:line,
+des alternatives pourquoi pas, et un contrôle contradictoire rouge/bleu - fondé sur "A Philosophy" de John Ousterhout
+de conception de logiciels" (APoSD). Déclenchez toute question de qualité d’architecture ou de conception de système :
+limites des modules/paquets, profondeur d'abstraction, modules profonds ou peu profonds, masquage d'informations,
+direction de dépendance, amplification de changement, propriété, limites d'erreur ou division ou fusion -
+y compris 架构审查, 架构 review, 模块边界, 依赖方向, 抽象太浅, 复杂度太高, 这个设计合不合理,
+ou une revue APoSD / Ousterhout. Soyez insistant : déclenchez-le même s'ils disent seulement "cette structure est-elle
+ok", "ces modules semblent emmêlés", "dois-je diviser cela" ou "pourquoi toucher X force-t-il les modifications
+partout".

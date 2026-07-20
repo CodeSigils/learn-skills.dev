@@ -1,0 +1,12 @@
+Vérifie un document dérivé et corrigé bloc par bloc - par rapport aux conclusions actuelles, le
+base de code et tout ce qui est vérifiable - puis le réécrit autour des preuves : bloque cela
+survivre à la vérification conserver leur libellé d'origine, les blocs qui échouent sont supprimés (jamais réparés)
+dans une solution d'apparence plausible), et le résultat est livré sous forme de document réécrit plus un
+table de disposition (conserver / supprimer / indécis, chacun citant le chèque) et une question ouverte
+liste. À utiliser chaque fois qu'un document s'est accumulé
+des affirmations désordonnées et douteuses au cours de séries de discussions et l'utilisateur souhaite qu'elles soient vérifiées et nettoyées,
+pas encore patché. Déclencheur sur 重写这份文档, 这文档已经烂了, 文档已经不对了, 逐条核实这份文档,
+把不对的内容删掉, 按最新结论重写, 文档跟讨论结论对不上, 别再缝缝补补了,推倒重写 et anglais
+comme "réécrire ce document", "vérifier ce document et supprimer ce qui ne va pas", "ce document a dérivé". Pour
+un rapport de conclusions sans réécriture, utilisez hai-audit-docs-internally ; si le document est un PRD, utilisez
+hai-prd; s'il s'agit d'un plan ou d'un document d'objectif, utilisez hai-goal.

@@ -1,0 +1,12 @@
+Auditer et concevoir des modèles de données d'entité dans un rapport de démarque champ par champ : un rapport cible/actuel
+table d'audit par entité, une classification de chaque champ (colonne de table / blob de configuration /
+calculé à l'exécution/suppression), une liste groupée de modifications de migration et des justifications de décision de conception.
+
+Utilisez-le chaque fois que l'utilisateur explique quels champs une entité devrait avoir ou où elle devrait
+en direct, même s'ils ne disent jamais "audit" : concevoir un modèle de données, vérifier les champs PRD par rapport à une base de données
+schéma, décider du magasin par rapport au calcul ou de la colonne par rapport à jsonb, repérer un modèle gonflé ou sur-modélisé
+entité ou planifier une migration de schéma. Déclencheur
+même lorsqu'ils collent simplement un modèle PRD, schéma ou Prisma/SQLAlchemy et demandent « les champs sont-ils
+à droite", "ce qui manque", "cela devrait-il être une colonne ou un jsonb", "ce champ est-il même nécessaire". Aussi
+sur 实体建模, 数据模型审核, 字段审查, 字段太多了, 这个表设计得对吗, PRD 对齐, 模型设计,
+该存还是该算, 列还是配置, 帮我看下这个模型.

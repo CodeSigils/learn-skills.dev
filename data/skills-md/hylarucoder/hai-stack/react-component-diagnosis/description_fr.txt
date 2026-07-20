@@ -1,0 +1,9 @@
+Produit un rapport de diagnostic structuré sur la conception d'un composant React : une carte de pointage en 7 dimensions
+(API grand public, flux de données, testabilité, extensibilité, performances, modèle mental, limites et
+contrats - chacun a obtenu une note de 1 à 5 avec des preuves de code), les points forts de la conception et les recommandations P0/P1/P2
+avec des estimations d'effort, chaque score est fondé sur une lecture ligne par ligne. Soyez insistant : déclenchez à tout moment
+l'utilisateur pointe sur un répertoire de composants ou un fichier .tsx et s'enquiert de sa conception, de sa qualité,
+props/API, ou comportement de rendu, même avec désinvolture — 组件诊断, 组件体检, 架构审查, 设计分析, 组件评审,
+API, accessoires 设计, 组件要不要重构, "这个组件设计得怎么样", "帮我看看这个组件", « 为什么每次都
+re-render", "useEffect 写对了吗", "props 设计合理吗", "revoir ce composant React", "est-ce que c'est
+composant bien conçu", "auditer ce composant", "dois-je refactoriser ce composant".
