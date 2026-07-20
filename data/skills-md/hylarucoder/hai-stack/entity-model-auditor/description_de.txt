@@ -1,0 +1,12 @@
+Prüfen und gestalten Sie Entitätsdatenmodelle in einem feldweisen Markdown-Bericht: ein Ziel-gegen-Strom-Bericht
+Prüftabelle pro Entität, eine Klassifizierung jedes Feldes (Tabellenspalte / Konfigurationsblob /
+laufzeitberechnet/entfernen), eine gruppierte Migrationsänderungsliste und Begründungen für Entwurfsentscheidungen.
+
+Verwenden Sie dies immer dann, wenn der Benutzer darüber nachdenkt, welche Felder eine Entität haben sollte oder wo sie sein sollten
+live, auch wenn sie nie „Audit“ sagen: Entwerfen eines Datenmodells, Überprüfen von PRD-Feldern anhand einer Datenbank
+Schema, Entscheidung zwischen Store vs. Compute oder Spalte vs. JSONB, Erkennung eines aufgeblähten oder übermodellierten Schemas
+Entität oder planen Sie eine Schemamigration. Auslöser
+selbst wenn sie einfach ein PRD-, Schema- oder Prisma/SQLAlchemy-Modell einfügen und fragen: „Sind die Felder?“
+richtig“, „was fehlt“, „sollte dies eine Spalte oder JSONB sein“, „wird dieses Feld überhaupt benötigt“. Auch
+auf 实体建模, 数据模型审核, 字段审查, 字段太多了, 这个表设计得对吗, PRD 对齐, 模型设计,
+该存还是该算, 列还是配置, 帮我看下这个模型.

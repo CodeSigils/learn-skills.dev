@@ -1,0 +1,1 @@
+6 Beispiele:upload_image、init_video_upload、upload_video_part、complete_video_upload、get_video_upload_result、cancel_video_upload。path 为 api/v2/media/...（module=130）。当用户提到 Shopee media上传、v2.media.upload_image、media模块上传图片 时触发。media_space（module=91）接口名相同但 path 不同，按网关白名单选用。

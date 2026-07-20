@@ -1,0 +1,9 @@
+Prüft die Dokumentation anhand des tatsächlichen Codes, der Konfiguration, der Schemata und der API-Verträge und erstellt eine
+Bericht nach Schweregrad (P0-P3 + Bedarfsnachweis) für jeden veralteten oder nicht übereinstimmenden Anspruch, jeweils mit einem Dokument
+Standort, eine Code-/Vertragsreferenz, die Auswirkungen und ein minimaler Lösungsvorschlag. Verwenden Sie wann immer der Benutzer
+möchte README/docs/API-Dokumente mit der Implementierung vergleichen, prüfen, ob Dokumente in Verzug geraten sind, oder
+Bestätigen Sie, dass die Einrichtungsschritte / Umgebungsvariablen / Endpunkte / Beispiele nach einer Umbenennung oder Umgestaltung immer noch mit dem Code übereinstimmen –
+sogar bei gelegentlichen Fragen wie „是不是过时了“, „README 和代码对不上“, „readme 还准吗“, „我们改了接口文档忘了更新吧“,
+„Überprüfen Sie unsere Dokumente“ oder „stimmen die Dokumente noch überein“. Auslöser auf 文档和代码一致性, 文档是否过时, 文档跟实现不一致,
+API-Analyse, OpenAPI-Analyse, Überprüfung von Dokumenten anhand von Code, Dokumentation gegenüber Implementierung. Für doc-vs-doc
+Interne Widersprüche ohne Codevergleich, verwenden Sie stattdessen hai-audit-docs-internally.
