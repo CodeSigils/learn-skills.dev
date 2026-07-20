@@ -1,0 +1,1 @@
+Shopee（虾皮）店铺优惠券 Voucher（与 linkfox-shopee-store-auth 同系列），经 /shopee/developerProxy 转发 Shopee Open API Voucher 模块全部 6 个接口：add_voucher、get_voucher_list、get_voucher、update_voucher、end_voucher、delete_voucher。当用户提到 Shopee 优惠券、Voucher、店铺券、add_voucher、voucher_id、满减券、折扣码 时触发。即使未明确提及"优惠券"，只要涉及已授权 Shopee 店铺的 Voucher 活动管理，也应触发。

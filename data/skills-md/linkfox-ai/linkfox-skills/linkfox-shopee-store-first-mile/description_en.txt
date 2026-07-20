@@ -1,0 +1,1 @@
+Shopee（虾皮）头程物流 FirstMile（与 linkfox-shopee-store-auth 同系列），经 /shopee/developerProxy 转发 Shopee Open API FirstMile 模块全部 16 个接口：get_unbind_order_list、generate_first_mile_tracking_number、bind_first_mile_tracking_number、get_waybill、get_channel_list 等。当用户提到 Shopee 头程、FirstMile、头程运单、绑定头程、first mile tracking、中转仓、get_unbind_order_list 时触发。即使未明确提及"头程"，只要涉及已授权 Shopee 店铺的头程运单绑定或面单，也应触发。

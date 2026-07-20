@@ -1,0 +1,12 @@
+Verifies a drifted, patched-over document block by block — against the current conclusions, the
+codebase, and anything else checkable — then rewrites it around the evidence: blocks that
+survive verification keep their original wording, blocks that fail are removed (never repaired
+into a plausible-looking fix), and the result ships as the rewritten document plus a
+disposition table (keep / delete / undecided, each citing the check) and an open-questions
+list. Use whenever a document has accumulated
+messy, doubtful claims through rounds of discussion and the user wants it verified and cleaned,
+not patched again. Trigger on 重写这份文档, 这文档已经烂了, 文档已经不对了, 逐条核实这份文档,
+把不对的内容删掉, 按最新结论重写, 文档跟讨论结论对不上, 别再缝缝补补了, 推倒重写, and English
+like "rewrite this doc", "verify this doc and strip what's wrong", "this doc has drifted". For
+a findings report without a rewrite use hai-audit-docs-internally; if the document is a PRD use
+hai-prd; if it is a plan or goal document use hai-goal.

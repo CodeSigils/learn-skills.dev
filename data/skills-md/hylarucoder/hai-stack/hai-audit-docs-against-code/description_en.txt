@@ -1,0 +1,9 @@
+Audits documentation against the actual code, config, schemas, and API contracts and produces a
+severity-ranked (P0-P3 + needs-evidence) report of every stale or mismatched claim, each with a doc
+location, a code/contract reference, the impact, and a minimal suggested fix. Use whenever the user
+wants to verify README/docs/API docs against the implementation, check whether docs fell behind, or
+confirm setup steps / env vars / endpoints / examples still match the code after a rename or refactor —
+even on casual asks like "是不是过时了", "README 和代码对不上", "readme 还准吗", "我们改了接口文档忘了更新吧",
+"audit our docs", or "do the docs still match". Trigger on 文档和代码一致性, 文档是否过时, 文档跟实现不一致,
+这个 API 文档还准不准, openapi 和文档对得上吗, verify docs against code, docs vs implementation. For doc-vs-doc
+internal contradictions with no code comparison, use hai-audit-docs-internally instead.

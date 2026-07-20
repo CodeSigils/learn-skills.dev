@@ -1,0 +1,9 @@
+Produces a structured diagnosis report on one React component's design: a 7-dimension scorecard
+(consumer API, data flow, testability, extensibility, performance, mental model, boundaries &
+contracts — each scored 1-5 with code evidence), design highlights, and P0/P1/P2 recommendations
+with effort estimates, every score grounded in line-by-line reading. Be pushy: trigger whenever
+the user points at a component directory or .tsx file and asks about its design, quality,
+props/API, or re-render behavior, even casually — 组件诊断, 组件体检, 架构审查, 设计分析, 组件评审,
+组件 API, props 设计, 组件要不要重构, "这个组件设计得怎么样", "帮我看看这个组件", "为什么每次都
+re-render", "useEffect 写对了吗", "props 设计合理吗", "review this React component", "is this
+component well designed", "audit this component", "should I refactor this component".

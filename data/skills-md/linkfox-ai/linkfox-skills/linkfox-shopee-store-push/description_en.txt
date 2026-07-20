@@ -1,0 +1,1 @@
+Shopee（虾皮）Push 推送机制（与 linkfox-shopee-store-auth 同系列），经 /shopee/developerProxy 转发 Shopee Open API Push 模块全部 4 个接口：set_app_push_config、get_app_push_config、get_lost_push_message、confirm_consumed_lost_push_message。当用户提到 Shopee Push、推送回调、Push Mechanism、set_app_push_config、丢失推送补推、webhook 配置 时触发。即使未明确提及"Push"，只要涉及 Shopee 开放平台 Push 配置或补推消息管理，也应触发。

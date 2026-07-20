@@ -1,0 +1,1 @@
+Meta-router for the tmux-agent-tools plugin. Invoke BEFORE choosing a wrapper or delegating any tmux-agent work — it decides inline vs worker, picks the right script, and points at the canonical capability table. Even a 1% chance this applies means invoke it.

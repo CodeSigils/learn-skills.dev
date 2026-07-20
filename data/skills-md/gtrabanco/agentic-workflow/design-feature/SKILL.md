@@ -1,0 +1,332 @@
+---
+name: design-feature
+user-invocable: true
+version: 2.3.0
+argument-hint: <idea | NN-slug> [<instruction>]
+author: "Gabriel Trabanco <gtrabanco@users.noreply.github.com>"
+license: MIT
+description: >
+  Turn an idea or a feature request into an exhaustive, checkable product
+  definition — the stage before engineering planning. The core mechanism is
+  **capability closure**: a checklist that forces every entity, capability, and
+  role a feature introduces to be walked to its full surface (CRUD + state
+  transitions + UI entry point + API + test, or an explicit design-time `n/a`),
+  so non-frontier executor models stop silently omitting the implicit work
+  ("auth with dashboard management and ACLs" must not collapse to a users
+  table + a list view). Closure has three fixed checklists: **entity closure**
+  (each entity to full surface), **integration closure** (the feature
+  reconciled against every subsystem in the project's capability inventory,
+  `docs/CAPABILITIES.md` — auth, ACL, navigation, notifications, …), and the
+  **role matrix** (every inventory role explicitly allowed/denied per
+  capability) — plus an **expectation sweep** that forces what a competent
+  human would implicitly assume ("a blog has drafts") into
+  in-scope/out-of-scope/deferred, never left unstated. Writes the SPEC's
+  **product half** and stamps the
+  `## Design status: designed` marker `plan-feature` reads before it will plan
+  a feature's engineering half. Bare `design-feature <slug>` reviews and asks
+  what to change; `design-feature <slug> <instruction>` applies a change
+  directly. On Claude Code and want hand-tuned per-skill model/effort tiers?
+  Install the `#claude` branch instead (`npx skills add gtrabanco/agentic-workflow#claude`)
+  — see the README. This branch is model-agnostic: the skill inherits whatever
+  model and effort your agent session is already using.
+  Triggers: "add feature", "add a feature", "new feature", "design a feature",
+  "design the product half of NN", "capability closure for NN", "define the
+  feature before planning it".
+---
+
+# Design Feature
+
+Product definition — the stage that turns an idea or a feature request into an
+exhaustive, checkable set of acceptance criteria, before any engineering
+planning happens. **Docs only — no code, no branch.**
+
+## Turn contract — verify before ending the turn
+
+```
+✓ The Product half of the SPEC is filled (Context, Business goals, Scope,
+  Capability closure, Expectation sweep, Tooling, Product decisions, Deferred
+  decisions) OR a `NEEDS_INPUT` question is pending — never a half-filled
+  section left silently incomplete
+✓ Every Capability closure row resolves to a filled surface (UI + API + test)
+  or an explicit `n/a: <reason>` — a blank row is not a valid end state
+✓ Integration closure walked the capability inventory (`docs/CAPABILITIES.md`,
+  or the derived inventory when the project has none) with one resolved row
+  per subsystem — zero subsystems skipped; every capability's role matrix
+  lists EVERY inventory role as `allowed`/`denied`
+✓ The Expectation sweep table is present and fully resolved (≥ 10 rows M/L,
+  ≥ 5 XS/S; each `in-scope`/`out-of-scope`/`deferred` with a pointer) — an
+  enumerated expectation left unresolved is not a valid end state
+✓ Interview questions (when any were needed) went out ONE per turn — never a
+  batched round
+✓ `## Design status` is set to `designed` only when the Spec-lint product
+  boxes all tick (closure complete included) — otherwise it stays
+  `not designed` and the turn reports the failed boxes
+✓ The roadmap row's status is set to `defined` in lockstep with `designed`
+  (added at `idea` first if it didn't exist) — never `defined` with an
+  incomplete closure, never `designed` with the roadmap row left at `idea`
+✓ Upsert discipline honored: an existing SPEC/decisions.md was re-read first;
+  nothing recorded there was destroyed; revisions were appended, not overwritten
+✓ Artifact language: explicit user instruction > the project's declared docs
+  language > English. The CONVERSATION language never decides — a Spanish
+  prompt still produces an English SPEC/decisions unless one of the first two
+  says otherwise
+✓ The closing `→ Next:` block is printed as the ABSOLUTE last output
+```
+
+About to end the turn with any box unchecked? The turn is NOT done — complete
+the missing box first (weak models drop end-of-document duties; this list is
+first on purpose).
+
+## When to use
+
+- A rough idea, no issue yet, and no SPEC: `design-feature "<idea>"`.
+- An existing feature slug whose SPEC is not yet marked `designed`:
+  `design-feature <NN-slug>`.
+- Revising an already-designed feature's product definition:
+  `design-feature <NN-slug> "<change>"` (instruction mode), or bare
+  `design-feature <NN-slug>` for review mode (see *Interaction & upsert*).
+- `plan-feature` redirects here automatically when it detects an undesigned
+  feature — you don't have to notice the gap yourself.
+
+## Step 0 — Discover the project (always first)
+
+Per the agent guide's **Workflow conventions** + **documentation map**, then
+read what THIS skill needs: `docs/features/_TEMPLATE/SPEC.md` (the two-halves
+layout + `## Design status` marker), the roadmap (`docs/features/ROADMAP.md`),
+the **capability inventory** (`docs/CAPABILITIES.md` — the substrate the
+Integration closure walks; if the project has none, derive an ad-hoc inventory
+from the architecture doc + codebase during step 5 and offer to seed the file
+from the template), and — if the slug already has a folder — its existing
+`SPEC.md` and `decisions.md` in full (upsert never starts blind). Skim the
+architecture doc
+and domain/style docs relevant to the idea's area only far enough to ground
+capability closure in the project's real entities and roles — deep engineering
+research is the Engineering half's job, not this one.
+
+## Process
+
+1. **Resolve the slug.** A raw idea with no existing folder → propose a number
+   (next free roadmap slot) and a kebab-case slug; confirm before writing. An
+   existing `NN-slug` → that folder's `SPEC.md` (create the folder + copy the
+   template if the roadmap has the row but no folder yet).
+2. **Interaction rule (fixed — no interpretation):**
+   - **Bare `design-feature <slug>`** (existing SPEC/decisions found): print a
+     summary of what the feature currently does (or would do, from a fresh
+     idea) → ask what to add / remove / change. This doubles as review mode.
+   - **`design-feature <slug> <instruction>`**: apply the instruction
+     directly, no questions — touch only what the instruction implies. Still
+     re-reads the existing SPEC/decisions first (upsert, never blind).
+   - **Nothing exists yet** (brand-new idea, no prior SPEC): go straight to
+     step 3 (interview), since there is nothing to review or upsert.
+3. **Raw-idea interview (folded in, only when starting from zero or the
+   instruction leaves genuine gaps).** Fixed protocol — structural, not
+   judgement:
+   - **One question per turn, never batched.** Each question carries a
+     recommended default the user can accept with one word. Ask nothing the
+     docs or the instruction already answer.
+   - **Vagueness rubric (fixed slots — the question list IS this list).**
+     Probe each slot until it is filled or explicitly `n/a: <reason>`:
+     1. **Affected users/roles** — who uses it; who must not.
+     2. **Error & edge states** — what happens on failure / empty / invalid.
+     3. **Data shape** — what is stored and shown, roughly.
+     4. **Boundaries & limits** — sizes, counts, rates, thresholds.
+     5. **Out of scope** — what this deliberately does NOT do.
+     6. **Success criteria** — how we verify it worked.
+   - **Mandatory-question rule.** A stated requirement that has no verifiable
+     acceptance criterion yet is automatically the next question — no
+     requirement enters the SPEC without one.
+   - **Reframe, don't interrogate.** Restate each vague requirement as
+     measurable criteria ("fast" → "list renders < 200 ms at 1k rows") and
+     ask: "are these the right targets?" — a yes converts directly into
+     acceptance criteria.
+   - **Deferred decisions.** An answer of "decide later" is recorded as a row
+     in the SPEC's `### Deferred decisions` (with a decide-by trigger) —
+     never dropped, never silently guessed.
+   - **Escalation (structural).** If, after the interview, **≥ 3 rubric slots
+     remain empty** (neither filled nor `n/a`), do not guess: end the turn
+     `NEEDS_INPUT`, listing the empty slots verbatim as the pending
+     questions — the feature is not designable yet.
+   - The identity questions ride the same one-per-turn protocol: problem &
+     goal, business goals, size estimate (`XS/S/M/L` — XS/S stays SPEC-only,
+     M/L gets the full artifact set), non-goals / future work, traceability
+     (offer a tracking issue; if created, the eventual PR will `Closes #n`).
+4. **Proportional research.** Capability closure (step 5) is cheap and comes
+   first. Reach for external or domain research **only** when the feature
+   touches a domain genuinely new to the project (a regulation, an unfamiliar
+   integration, an industry convention with no precedent in the codebase) —
+   never as a systematic per-feature step.
+5. **Capability closure (the core).** Walk the SPEC template's **three fixed
+   checklists** (`docs/features/_TEMPLATE/SPEC.md` → `### Capability closure`
+   is the authoritative block — instantiate it, never paraphrase it) and write
+   the result into the SPEC's `### Capability closure` section. Every row
+   resolves to a filled surface **or** an explicit `n/a: <reason>` — a blank
+   row is not a valid state, it is an unfinished design:
+   1. **Entity closure** — for every entity the feature introduces or
+      touches: Create/Read/Update/Delete/state-transitions, each with UI
+      entry point + API surface + test.
+   2. **Integration closure** — reconcile the feature against **every**
+      subsystem in the capability inventory (`docs/CAPABILITIES.md`), one row
+      per subsystem, none skipped: how does this feature touch auth, ACL,
+      navigation, notifications, search, audit, settings, …? ("blog" ⇒ ACL
+      gets a `blog:write` permission; the dashboard gets an "Articles" link
+      with drafts above published and a "New article" button; auth is
+      required to write.) **No inventory file** → derive the inventory from
+      the architecture doc + codebase, record it in the section, walk it, and
+      offer to seed `docs/CAPABILITIES.md` from the template (upsert-safe,
+      user confirms).
+   3. **Role matrix** — for every capability, EVERY role in the inventory is
+      explicitly `allowed` or `denied` — no role unlisted, no "admins
+      obviously can" left implicit.
+
+   The filled rows **become the Acceptance criteria** — copy each resolved row
+   (or its `n/a` line) into `## Acceptance criteria` as an objective, checkable
+   condition. Do not restate them loosely; the checklist row *is* the
+   criterion.
+6. **Expectation sweep (the implicit-knowledge gate).** Enumerate **≥ 10
+   candidate expectations** (M/L; **≥ 5** for XS/S) a competent human would
+   assume ship with a feature of this kind without being told — domain
+   conventions, not project specifics ("a blog has drafts and a publish
+   action", "a list has an empty state", "a delete asks for confirmation").
+   Fill the SPEC's `### Expectation sweep` table: each row resolves to exactly
+   one of `in-scope` (add/point to an acceptance criterion), `out-of-scope`
+   (add to *Out of scope / non-goals*), or `deferred` (row in *Deferred
+   decisions*) — **never left unmentioned**. Rows the user rejects are
+   recorded as out-of-scope, not dropped: a rejected expectation is a future
+   surprise defused. When a resolution genuinely needs the user's call, it
+   rides the step-3 interview protocol (one question per turn, recommended
+   default).
+7. **Scale-down for XS features.** The gate stays uniform — every closure row
+   and inventory subsystem is still walked, the sweep still runs (≥ 5 rows) —
+   but for a small feature most rows resolve to `n/a: out of scope for this
+   slice` in one pass, and the interview (step 3) may be a single confirming
+   question. Passing the gate is cheap; the gate itself never opens.
+9. **Per-feature tooling notes.** Check which installed skills/MCPs are
+   relevant to *this* feature (e.g. a payments MCP for a billing feature) and
+   record them in `## Tooling`. This is not a global discovery sweep — that is
+   `product-audit`'s job; record only what this feature will actually use.
+10. **Write the Product half.** Fill `Context`, `Business goals`, `Scope`
+   (in/out), `Capability closure`, `Acceptance criteria`, `Tooling`,
+   `Product decisions`, and `Deferred decisions` (`none` if empty) in the
+   SPEC. When instantiating the closure, **replace** the template's fenced
+   example block with the filled rows (keeping it fails the spec-lint's
+   placeholder box). Record every non-obvious call in `Product decisions`
+   with its rationale, and log any residual unknown as an open question in
+   `decisions.md` rather than guessing.
+11. **Run the Spec-lint product boxes, then stamp.** Mechanically check the
+   SPEC template's `### Spec-lint` **product boxes**
+   (`docs/features/_TEMPLATE/SPEC.md`) and paste the box results. All
+   product boxes tick → set the marker to `designed` **and**
+   set this feature's `docs/features/ROADMAP.md` row status to `defined` (the
+   `idea → defined` transition this skill owns — see the roadmap's Status
+   legend). If the row doesn't exist yet (brand-new feature, no prior `idea`
+   row), add it first at `idea` (number, slug, dependencies), then promote it
+   to `defined` in the same edit — no feature is ever registered directly at
+   `defined` without passing through `idea`. Any spec-lint product box FAILing
+   (a blank closure row, an unlabelled prose criterion, an in-scope item with
+   no criterion, …), or an unresolved question blocking closure → leave
+   `## Design status` at `not designed`, leave the roadmap row at `idea` (or
+   unadded), and end the turn with the failed boxes / pending question stated
+   plainly instead of a false `designed` stamp or a premature `defined` write.
+12. **Confirm the roadmap row.** The row from step 11 carries the right number,
+    slug, dependencies, and status (`defined`). Beyond `defined`, status
+    transitions (`planned`, `in-progress`, `done`) are `plan-feature-scaffold`'s
+    and `execute-phase`'s job — this skill never writes past `defined`.
+13. **Upsert semantics (never destroy).** Re-running on an existing slug
+    re-reads the SPEC and `decisions.md` first; a revision **appends** to
+    `decisions.md` (dated, with what changed and why) — it never rewrites or
+    deletes a prior decision. The only path that starts the product half from
+    zero is an explicit "delete and redesign" in the prompt; even then, record
+    that reset itself in `decisions.md`. **This is the retrofit path
+    `audit-pr`'s closure-integrity gate routes to:** a legacy SPEC with no
+    `Capability closure` block trips that gate's dated `design-debt:
+    closure absent, SPEC predates the rule` warning (never a blocker) on the
+    next PR touching the feature; re-running `design-feature <slug>` there
+    fills only the missing closure rows via this same upsert — it never
+    rewrites what's already recorded.
+14. **Hand off.** Once `designed`, print the closing block (see *Done when*)
+    recommending `/plan-feature <slug>`.
+
+## Guardrails
+
+- Docs only — no code, no branch (that is `execute-phase`), no engineering
+  content (architecture, design, phases, testing — that is `plan-feature`'s
+  Engineering half; do not pre-fill it here even if the answer seems obvious).
+- Never stamp `## Design status: designed` with a blank Capability closure row,
+  a skipped inventory subsystem, an incomplete role matrix, or an unresolved
+  Expectation sweep row — a skipped row silently un-does the entire point of
+  this skill.
+- The Expectation sweep enumerates **domain conventions**, not new scope: it
+  may only route each expectation to in-scope / out-of-scope / deferred — it
+  never silently grows the feature beyond what the user confirms.
+- No systematic per-feature market research; no global skill/MCP discovery
+  sweep (`product-audit`'s job); no `--update` flag — upsert is always the
+  default behavior, not an opt-in.
+- Don't build a separate `DESIGN.md` — one SPEC, two halves, always.
+- **Composition tier.** This skill is planning-class (judgment work — run it
+  on your strongest model / highest effort). `plan-feature-from-issue`
+  composing this skill in-turn for a thin issue is allowed only when it runs
+  at ≥ this skill's tier; otherwise it must hand off (`run /design-feature
+  <slug>`) rather than under-power it.
+- Otherwise per the project's **Workflow conventions** (docs-language).
+
+## Interaction & upsert (worked shape)
+
+```
+design-feature <slug>                → print summary → ask what to add/remove/change
+design-feature <slug> "<instruction>" → apply directly, no questions, scoped to the instruction
+design-feature "<new idea>"           → interview from zero (no prior SPEC to review)
+design-feature <slug> "delete and redesign, <new direction>" → the only from-zero reset path
+```
+
+## Portability (agents other than Claude Code)
+
+The workflow is the contract; Claude Code features are conveniences. On an
+agent that lacks one, apply the fallback — never skip the step the feature
+enables:
+
+- **No slash-command menu** — where this skill says `/<skill>`, open that
+  skill's `SKILL.md` (wherever your agent installed the skills) and follow it
+  literally, in a fresh conversation: hand-offs assume a clean context.
+- **No per-skill `model:`/`effort:`** — on the `#claude` branch the
+  frontmatter pins these tiers; here, pick tiers yourself: capability closure
+  is judgment work — run it on your **strongest** model available.
+- **No `/loop`** — re-invoke this skill by hand when a review round or an
+  instruction-mode revision is needed; follow the closing `→ Next:` block each
+  time.
+
+## Relationship to other skills
+
+- `plan-feature` **redirects here** (no bypass flag) when a feature's product
+  half is not marked `designed`; once this skill hands off, `plan-feature`
+  fills the Engineering half and scaffolds the artifacts.
+- `plan-feature-from-issue` may compose this skill in-turn for a thin issue
+  (only at ≥ tier — see *Guardrails*), or hand off to it directly.
+- `triage-issue`'s `promote-to-feature` verdict routes through `plan-feature`,
+  which redirects here if the promoted issue is still undesigned.
+- `execute-phase` never calls this skill — it only executes an already-planned
+  SPEC's Engineering half.
+
+## Done when
+
+- The Product half of the SPEC is filled and every Capability closure row is
+  resolved (filled surface or explicit `n/a`).
+- `## Design status` accurately reflects the outcome (`designed` only when
+  closure is complete).
+- The roadmap row exists (created at `idea` if this was a brand-new feature)
+  and its status matches the outcome — `defined` when `designed`, left at
+  `idea` on `NEEDS_INPUT`.
+- **The closing `→ Next:` block is printed:**
+
+  ```
+  → Next: /plan-feature <slug> — product half designed, ready for engineering planning
+    · more to design → re-run /design-feature <slug> "<instruction>" (upsert, destroys nothing)
+    · recurring gap in this project's capability closure → /product-audit (a systemic pattern,
+      not a one-off design fix)
+  ```
+
+  When ending `NEEDS_INPUT` instead:
+
+  ```
+  → Next: answer the pending question, then re-run /design-feature <slug>
+    · unsure how to scope it → propose the smallest version and confirm
+  ```
