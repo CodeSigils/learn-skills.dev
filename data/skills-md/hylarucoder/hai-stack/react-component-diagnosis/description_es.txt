@@ -1,0 +1,9 @@
+Produce un informe de diagnóstico estructurado sobre el diseño de un componente de React: un cuadro de mando de 7 dimensiones
+(API del consumidor, flujo de datos, capacidad de prueba, extensibilidad, rendimiento, modelo mental, límites y
+contratos (cada uno obtuvo una puntuación de 1 a 5 con evidencia de código), aspectos destacados del diseño y recomendaciones P0/P1/P2
+con estimaciones de esfuerzo, cada puntuación se basa en la lectura línea por línea. Sea agresivo: dispare cuando sea
+el usuario señala un directorio de componentes o un archivo .tsx y pregunta sobre su diseño, calidad,
+props/API, o comportamiento de re-renderizado, incluso de manera casual: 组件诊断, 组件体检, 架构审查, 设计分析, 组件评审,
+组件 API, accesorios 设计, 组件要不要重构, "这个组件设计得怎么样", "帮我看看这个组件", "为什么每次都
+volver a renderizar", "useEffect 写对了吗", "props 设计合理吗", "revisar este componente de React", "¿es esto?"
+componente bien diseñado", "auditar este componente", "¿debería refactorizar este componente?".

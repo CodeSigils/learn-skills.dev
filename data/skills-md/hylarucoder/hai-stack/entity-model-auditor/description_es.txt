@@ -1,0 +1,12 @@
+Audite y diseñe modelos de datos de entidades en un informe de rebajas campo por campo: un objetivo frente al actual
+tabla de auditoría por entidad, una clasificación de cada campo (columna de tabla/blob de configuración/
+runtime-computer/remove), una lista de cambios de migración agrupada y justificaciones de decisiones de diseño.
+
+Utilice esto siempre que el usuario razone sobre qué campos debería tener una entidad o dónde debería
+en vivo, incluso si nunca dicen "auditoría": diseñar un modelo de datos, comparar los campos PRD con una base de datos
+esquema, decidir tienda-vs-computación o columna-vs-jsonb, detectar un inflado o sobremodelado
+entidad o planificar una migración de esquema. gatillo
+incluso cuando simplemente pegan un modelo PRD, esquema o Prisma/SQLAlchemy y preguntan "¿son los campos
+"derecha", "qué falta", "debería ser una columna o jsonb", "¿es necesario este campo?". también
+en 实体建模, 数据模型审核, 字段审查, 字段太多了, 这个表设计得对吗, PRD 对齐, 模型设计,
+该存还是该算, 列还是配置, 帮我看下这个模型.

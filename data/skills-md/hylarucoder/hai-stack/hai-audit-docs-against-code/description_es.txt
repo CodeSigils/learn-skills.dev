@@ -1,0 +1,9 @@
+Audita la documentación comparándola con el código, la configuración, los esquemas y los contratos API reales y produce un
+informe clasificado por gravedad (P0-P3 + evidencia de necesidades) de cada reclamo obsoleto o no coincidente, cada uno con un documento
+ubicación, una referencia de código/contrato, el impacto y una solución mínima sugerida. Usar siempre que el usuario
+quiere verificar los documentos README/docs/API con la implementación, comprobar si los documentos se retrasaron o
+confirme los pasos de configuración/env vars/endpoints/ejemplos que aún coinciden con el código después de un cambio de nombre o refactorización:
+incluso en preguntas casuales como "是不是过时了", "README 和代码对不上", "readme 还准吗", "我们改了接口文档忘了更新吧",
+"auditar nuestros documentos" o "los documentos aún coinciden". Activar en 文档和代码一致性, 文档是否过时, 文档跟实现不一致,
+这个 API 文档还准不准, openapi 和文档对得上吗, verificar documentos con código, documentos versus implementación. Para doc-vs-doc
+contradicciones internas sin comparación de código, use hai-audit-docs-internally en su lugar.
