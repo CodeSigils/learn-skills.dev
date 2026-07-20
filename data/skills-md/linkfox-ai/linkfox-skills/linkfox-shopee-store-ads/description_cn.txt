@@ -1,1 +1,1 @@
-Shopee（虾皮）店铺内部广告（Ads，与linkfox-shopee-store-auth同系列）通过/shopee/developerProxy转发到Shopee Open API Ads模块的23个接口：get_total_balance、create_manual_product_ads、get_product_campaign_daily_performance、GMS ads等。广告效果、投资回报率或 get_total_balance，应该被触发。即使没有明确提及“广告”，任何提及 Shopee 授权商店的广告帐户、促销或效果查询也应该触发它。
+虾皮店内广告 Ads（与 linkfox‑shopee‑store‑auth 同系列）通过/shopee/developerProxy 转发到 Shopee Open API Ads 模块，涵盖 get_total_balance、create_manual_product_ads、get_product_campaign_daily_performance、GMS ads 等 23 个接口。广告、广告活动、广告效果、投资回报率或 get_total_balance，应该被触发。即使没有明确提及“广告”，只要查询涉及虾皮授权店铺的广告账号、促销或业绩，也应该被触发。
