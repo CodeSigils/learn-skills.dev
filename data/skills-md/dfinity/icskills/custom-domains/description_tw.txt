@@ -1,0 +1,1 @@
+透過 HTTP 閘道自訂網域服務註冊和管理 IC 容器的自訂網域。涵蓋 DNS 記錄配置（CNAME、TXT、ACME 質詢）、.well-known/ic-domains 檔案、透過 REST API 進行的網域註冊/驗證/更新/刪除、TLS 憑證設定和 HttpAgent 主機設定。當使用者想要在自訂網域下提供容器服務、為 IC 配置 DNS、向邊界節點註冊網域、解決自訂網域問題或更新/刪除自訂網域時使用。請勿在沒有自訂網域的情況下用於一般前端託管或資產容器配置 - 請改用 asset-canister。

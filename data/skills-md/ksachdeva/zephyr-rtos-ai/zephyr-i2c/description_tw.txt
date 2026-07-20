@@ -1,0 +1,1 @@
+用於積體電路間匯流排通訊的全面 Zephyr I2C 子系統專業知識。在下列情況下使用：(1) 透過 devicetree 或 Kconfig 配置 I2C 控制器或設備，(2) 使用 i2c_transfer/i2c_read/i2c_write 實作同步 I2C 傳輸，(3) 使用 i2c_reg_read_byte/i2c_reg_write_byte 等暫存器存取助理，(45%) 使用非同步(4505) RT_p設定 I2C 速度模式（標準） 100kHz、快速 400kHz、快速加 1MHz），(6) 透過回呼實現 I2C 目標/從機模式，(7) 使用 SMBus 協定函數，(8) 排除 I2C 通訊問題（NACK、匯流排卡住、時脈拉伸）。

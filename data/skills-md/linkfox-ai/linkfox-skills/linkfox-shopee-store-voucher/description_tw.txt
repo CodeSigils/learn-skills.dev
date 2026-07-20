@@ -1,0 +1,1 @@
+Shopee（XiaPi）店鋪優惠券（與linkfox-shopee-store-auth同系列），通過/shopee/developerProxy轉發到Shopee Open API Voucher模塊的所有六個接口：add_voucher、get_voucher_list、get_voucher、update_voucher、end_voucher、delete_voucher。當用戶提及 Shopee 優惠券、Voucher、商店優惠券、add_voucher、voucher_id、折扣券或折扣碼時觸發。即使沒有明確提及“優惠券”，任何有關管理 Shopee 授權商店的優惠券活動的提及也應該觸發。

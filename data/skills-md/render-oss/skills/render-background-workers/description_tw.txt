@@ -1,0 +1,1 @@
+在渲染器上設定和配置後台工作人員以進行基於佇列的作業處理。當使用者需要處理非同步作業、從佇列中消費、執行 Celery/Sidekiq/BullMQ/Asynq/Oban 工作程序、使用 SIGTERM 正常關閉、將工作程序連接到鍵值 (Redis) 或在工作程序和 cron 作業之間進行選擇以進行後台工作時使用。觸發術語：後台工作者、非同步作業、佇列消費者、Celery、Sidekiq、BullMQ、Asynq、Oban、作業處理、SIGTERM、正常關閉。

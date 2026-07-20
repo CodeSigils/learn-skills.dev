@@ -1,0 +1,1 @@
+蝦皮店鋪退貨退款（與linkfox-shopee-store-auth同系列），透過/shopee/developerProxy轉寄至蝦皮開放API退貨模組，涵蓋所有15個介面：get_return_list、get_return_detail、confirm、distribute、offer、accept_offer、upload_protrack、getre_proof、getre_proof_offer、upload_protracking_offer。當用戶提及蝦皮退貨、退款、return_sn、退貨清單、確認退貨時，退貨糾紛，爭議，或逆向物流，都應該觸發。即使沒有明確提及“退貨”，任何針對 Shopee 授權商店的退貨/退款查詢或處理也應該觸發它。
