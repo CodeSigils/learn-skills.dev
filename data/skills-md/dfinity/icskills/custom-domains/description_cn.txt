@@ -1,0 +1,1 @@
+通过 HTTP 网关自定义域服务注册和管理 IC 容器的自定义域。涵盖 DNS 记录配置（CNAME、TXT、ACME 质询）、.well-known/ic-domains 文件、通过 REST API 进行的域注册/验证/更新/删除、TLS 证书配置和 HttpAgent 主机配置。当用户想要在自定义域下提供容器服务、为 IC 配置 DNS、向边界节点注册域、解决自定义域问题或更新/删除自定义域时使用。请勿在没有自定义域的情况下用于一般前端托管或资产容器配置 - 请改用 asset-canister。

@@ -1,0 +1,1 @@
+Shopee（虾皮）媒体上传媒体模块（与 linkfox-shopee-store-auth 同系列），经 /shopee/developerProxy 转发 Shopee Open API 媒体模块全部 6 个接口：upload_image、init_video_upload、upload_video_part、complete_video_upload、get_video_upload_result、cancel_video_upload。path 为api/v2/media/...（module=130）。当用户提到虾皮媒体上传、v2.media.upload_image、media模块上传图片时触发。与media_space（module=91）接口名相同路径不同，按网关白名单选用。

@@ -1,0 +1,1 @@
+在渲染器上设置和配置后台工作人员以进行基于队列的作业处理。当用户需要处理异步作业、从队列中消费、运行 Celery/Sidekiq/BullMQ/Asynq/Oban 工作程序、使用 SIGTERM 正常关闭、将工作程序连接到键值 (Redis) 或在工作程序和 cron 作业之间进行选择以进行后台工作时使用。触发术语：后台工作者、异步作业、队列消费者、Celery、Sidekiq、BullMQ、Asynq、Oban、作业处理、SIGTERM、正常关闭。

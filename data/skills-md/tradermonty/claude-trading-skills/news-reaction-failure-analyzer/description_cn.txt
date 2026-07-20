@@ -1,0 +1,1 @@
+判断市场是否未能对有利于拥挤的投机头寸的消息做出反应——Jason Shapiro 的 COT 逆势流程的第二步。使用 cot-contrarian- detector 报告（或明确的方向）加上 Claude 策划的事件 JSON，使用记录的回退链获取基础价格序列，并使用统计验证的漂移显着性测试（不是简单的失败率，它会在纯噪声上进行错误确认）生成失败关闭的 CONFIRMED / NOT_CONFIRMED / INSUFFICIENT_EVIDENCE 判决。 COT 之外的通用 — 可重复用于 PEAD 和宏拥挤新闻失败检查。当用户要求检查新闻失败确认时使用，无论是拥挤的市场“摆脱”好/坏消息，还是想要在 CROWDED_LONG/CROWDED_SHORT 市场上运行 Shapiro 步骤 2。

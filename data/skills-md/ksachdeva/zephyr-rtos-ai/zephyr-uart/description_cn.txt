@@ -1,0 +1,1 @@
+用于串行通信的全面 Zephyr UART 子系统专业知识。在以下情况下使用：(1) 通过 devicetree 或 Kconfig 配置 UART 外设，(2) 使用 uart_poll_in/uart_poll_out 实现基于轮询的 UART 读/写，(3) 使用 uart_irq_* 函数和回调实现中断驱动的 UART，(4) 使用 uart_tx/uart_rx_enable 和事件回调实现基于异步 DMA 的 UART，(5) 在轮询、中断或回调之间进行选择用于用例的异步 API，(6) 排除 UART 通信问题（波特率、流量控制、错误），(7) 了解 UART 配置结构（奇偶校验、停止位、数据位、流量控制）。

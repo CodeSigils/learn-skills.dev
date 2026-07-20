@@ -1,0 +1,1 @@
+Shopee（XiaPi）Push机制（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发所有四个Shopee Open API Push模块接口set_app_push_config、get_app_push_config、get_lost_push_message、confirm_consumed_lost_push_message。当用户提及 Shopee Push、推送回调、推送机制、set_app_push_config、丢失推送重试或 webhook 配置时会触发该事件。即使没有明确提及“推送”，只要涉及虾皮开放平台推送配置或重试消息管理，就应该被触发。

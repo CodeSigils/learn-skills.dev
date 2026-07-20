@@ -1,0 +1,1 @@
+用于集成电路间总线通信的全面 Zephyr I2C 子系统专业知识。在以下情况下使用：(1) 通过 devicetree 或 Kconfig 配置 I2C 控制器或设备，(2) 使用 i2c_transfer/i2c_read/i2c_write 实现同步 I2C 传输，(3) 使用 i2c_reg_read_byte/i2c_reg_write_byte 等寄存器访问助手，(4) 使用 i2c_transfer_cb 或 RTIO 实现异步 I2C，(5) 设置 I2C 速度模式（标准） 100kHz、快速 400kHz、快速加 1MHz），(6) 通过回调实现 I2C 目标/从机模式，(7) 使用 SMBus 协议函数，(8) 排除 I2C 通信问题（NACK、总线卡住、时钟拉伸）。

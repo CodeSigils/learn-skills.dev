@@ -1,0 +1,1 @@
+虾皮（下邳）店铺退货退款（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发整套15个虾皮开放API退货模块接口：get_return_list、get_return_detail、confirm、distribution、offer、accept_offer、upload_proof、get_reverse_tracking_info等。当用户提及虾皮退货、退款、return_sn、return时列出，确认退货，退货纠纷，争议，或者逆向物流，都会触发。即使没有明确提及“退货”，也应该触发与授权 Shopee 商店的退货/退款相关的任何查询或处理。

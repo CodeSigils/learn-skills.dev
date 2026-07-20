@@ -1,0 +1,1 @@
+macOS 上机器级开发人员工具链的只读审核（zsh；降级的 bash 支持）。盘点Python、Node、Java/JVM、Go、Rust、Ruby、Swift/Objective-C、PHP、Lua、Zig、Julia、Dart/Flutter、Erlang/Elixir、C/C++、Git等已安装的SDK和安装渠道；检测冲突的版本管理器、陈旧的 shell 设置、终端/GUI/脚本方案（包括 path_helper）之间的 PATH 差异，以及不完整或损坏的外部 SSD 缓存重定位。根据权威/本地管理人员生成健康报告和每种语言的迁移计划，同时尊重健全的现有设置。用于整机或单语言审核、SDK 库存、错误/旧命令解析、管理器清理、PATH/shell 冲突或缓存重定位检查。切勿安装、卸载、编辑配置或下载；它仅探测并提供可审查的命令供用户运行。

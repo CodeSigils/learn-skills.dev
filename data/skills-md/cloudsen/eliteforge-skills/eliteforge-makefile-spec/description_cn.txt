@@ -1,0 +1,1 @@
+识别存储库并通过统一的命令界面生成或重构根级 Makefile。用户请求创建、标准化、审查或更新 Makefile，统一 make help/doctor/install/clean/format/lint/test/build/dev/deploy 目标，支持 VERSION、SKIP_TESTS 等动态参数，发布 JAR 等版本化工件，适应 Docker 推送、Electron/Tauri/Capacitor 应用程序 shell，或者需要与 GNU Make 3.81、macOS 和 Windows 兼容时。

@@ -1,0 +1,9 @@
+Produce un rapporto diagnostico strutturato sulla progettazione di un componente React: una scorecard a 7 dimensioni
+(API di consumo, flusso di dati, testabilità, estensibilità, prestazioni, modello mentale, confini e
+contratti: ciascuno ha ottenuto un punteggio da 1 a 5 con prove del codice), punti salienti della progettazione e raccomandazioni P0/P1/P2
+con stime dello sforzo, ogni punteggio è basato sulla lettura riga per riga. Sii invadente: attivalo ogni volta
+l'utente punta alla directory di un componente o a un file .tsx e ne chiede informazioni su design, qualità,
+props/API o comportamenti di re-rendering, anche casualmente — 组件诊断, 组件体检, 架构审查, 设计分析, 组件评审,
+组件 API, oggetti di scena 设计, 组件要不要重构, "这个组件设计得怎么样", "帮我看看这个组件", "为什么每次都
+re-render", "useEffect 写对了吗", "props 设计合理吗", "rivedi questo componente React", "è questo
+componente ben progettato", "controlla questo componente", "devo rifattorizzare questo componente".

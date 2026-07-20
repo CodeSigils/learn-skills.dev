@@ -1,0 +1,1 @@
+Shopee（XiaPi）账户健康（Account Health，与 linkfox‑shopee‑store‑auth 同系列），通过 /shopee/developerProxy 转发到 Shopee Open API Account Health 模块的六个接口：get_shop_performance、get_metric_source_detail、get_penalty_point_history、get_punishment_history、get_listings_with_issues 和 get_late_orders。当用户提及Shopee账户健康、账户健康、店铺业绩、罚分记录、惩罚历史、逾期订单或listing问题时触发。即使没有明确提及“账户健康状况”，也应该触发有关授权 Shopee 商店的健康指标或处罚数据的任何查询。
