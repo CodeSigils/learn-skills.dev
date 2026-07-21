@@ -1,0 +1,1 @@
+연구 결과를 토대로 GitHub 문제를 원자적 결과물로 생성합니다. 전체 스웜 패턴(TeamCreate → TaskCreate → Agent(team_name) → SendMessage → TeamDelete)을 사용하여 이슈 아키텍트 에이전트를 조정합니다. 사용자가 /sigint:issues를 호출할 때 이 기술을 사용하세요.

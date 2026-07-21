@@ -1,0 +1,1 @@
+Shopee（XiaPi）店铺闪购 Shop Flash Sale（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发到Shopee Open API Shop Flash Sale模块，共有11个接口：get_time_slot_id、create_shop_flash_sale、get_shop_flash_sale_list、add_shop_flash_sale_items、update_shop_flash_sale等触发当用户提到 Shopee 商店闪购、商店闪购、限时闪购、get_time_slot_id、flash_sale_id 或闪购时间段时。即使没有明确提及“闪购”，只要涉及到虾皮授权店铺闪购活动的管理，就应该触发。

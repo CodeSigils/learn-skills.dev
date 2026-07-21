@@ -1,0 +1,1 @@
+Shopee媒体上传MediaSpace（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发到Shopee Open API MediaSpace模块的六个接口：init_video_upload、upload_video_part、complete_video_upload、get_video_upload_result、cancel_video_upload、upload_image。当用户提到Shopee图片上传、视频上传、media_space、init_video_upload、upload_image、视频块上传或获取Shopee图片URL时触发。即使没有明确提及“媒体”，只要涉及为 Shopee 授权商店上传图片/视频文件，也应该被触发。

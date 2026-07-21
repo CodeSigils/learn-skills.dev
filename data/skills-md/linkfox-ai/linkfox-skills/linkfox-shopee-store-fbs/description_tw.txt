@@ -1,0 +1,1 @@
+Shopee（XiaPi）FBS巴西倉儲（與linkfox-shopee-store-auth同系列），透過/shopee/developerProxy轉送至Shopee Open API FBS模組的四個介面：query_br_shop_enrollment_status、query_br_m_invoice_error、query_br_bshop_status、query_br_m_invoice_error、query_brlock_bshop_status。當使用者提及 Shopee FBS、巴西 FBS、商店註冊狀態、發票錯誤、封鎖狀態或 query_br_shop_enrollment_status 時會觸發。即使沒有明確提及“FBS”，只要查詢涉及 Shopee 巴西授權店舖的 FBS 的註冊/屏蔽/發票狀態，也應該被觸發。
