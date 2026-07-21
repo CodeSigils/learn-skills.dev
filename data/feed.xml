@@ -4,635 +4,599 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Mon, 20 Jul 2026 02:43:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 02:21:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-07-20)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-07-21)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:snapshot</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:snapshot</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8312
-Trending skills: 7705
-Hot skills: 3319
-Top All Time: find-skills (2578574)
-Top Trending: ai-video-generation (21391)
-Top Hot: find-skills (435)]]></description>
+All Time skills: 8315
+Trending skills: 7487
+Hot skills: 3300
+Top All Time: find-skills (2595635)
+Top Trending: ai-video-generation (21561)
+Top Hot: find-skills (381)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): lark-doc]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-doc</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-doc</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): orchestration]]></title>
+            <link>https://skills.sh/stablyai/orca/orchestration</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:stablyai/orca/orchestration</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 101
+Source: stablyai/orca
+Description: Use the Orca CLI to coordinate multiple coding agents via inter-agent messaging, task DAGs, dispatch with preamble injection, decision gates, and coordinator loops. Use when an agent needs to send or check inter-agent messages; create, dispatch, or track orchestration tasks; coordinate multi-agent workflows; or act as a coordinator dispatching work across terminals. Triggers include "orchestrate agents", "dispatch task", "send message to agent", "check inbox", "coordinate agents", "multi-agent", "create task DAG", "worker_done", "escalation", or any task involving inter-agent coordination through Orca.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 85
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 85
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#34): hyperframes-animation]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-animation</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-animation</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 84
+Source: heygen-com/hyperframes
+Description: All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): hyperframes-core]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-core</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-core</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 205
-Source: larksuite/cli
-Description: 飞书云文档：创建和编辑飞书文档。从 Markdown 创建文档、获取文档内容、更新文档（追加/覆盖/替换/插入/删除）、上传和下载文档中的图片和文件、搜索云空间文档。当用户需要创建或编辑飞书文档、读取文档内容、在文档中插入图片、搜索云空间文档时使用；如果用户是想按名称或关键词先定位电子表格、报表等云空间对象，也优先使用本 skill 的 docs +search 做资源发现。]]></description>
+Installs: 84
+Source: heygen-com/hyperframes
+Description: HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): lark-apps]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-apps</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-apps</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 84
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): browser-act]]></title>
+            <link>https://skills.sh/browser-act/skills/browser-act</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:browser-act/skills/browser-act</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 81
+Source: browser-act/skills
+Description: Browser automation CLI for AI agents with anti-detection stealth browsing, captcha solving, and parallel multi-browser support. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, scraping sites with bot detection, or automating any browser task. Also use when the user needs to connect to their existing Chrome session, configure proxy-based stealth browsing, or run parallel browser sessions. Triggers on requests to open a website, fill out a form, click a button, take a screenshot, scrape data from a page, login to a site, automate browser actions, handle captcha challenges, or any task requiring programmatic web interaction.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): computer-use]]></title>
+            <link>https://skills.sh/stablyai/orca/computer-use</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:stablyai/orca/computer-use</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 205
-Source: larksuite/cli
-Description: 把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。]]></description>
+Installs: 65
+Source: stablyai/orca
+Description: Use Orca's computer-use CLI to inspect and control local desktop apps through accessibility trees, screenshots, and safe UI actions. Use when an agent needs to list desktop apps, get an app state, read visible UI, click, type, press keys, scroll, drag, set values, or perform app accessibility actions. Triggers include "computer use", "orca computer", "list apps", "get app state", "read Spotify", "read Slack", "click app", "type text", "press key", "set value", "scroll app", "drag app", and desktop app interaction tasks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): lark-shared]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-shared</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-shared</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): amazon-product-research]]></title>
+            <link>https://skills.sh/nexscope-ai/amazon-skills/amazon-product-research</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:nexscope-ai/amazon-skills/amazon-product-research</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 65
+Source: nexscope-ai/amazon-skills
+Description: Comprehensive Amazon product research and opportunity analysis. Evaluate market demand, competition intensity, profit potential, and entry barriers for any product category or niche. Uses BSR data, review analysis, and pricing patterns.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): browser-act-skill-forge]]></title>
+            <link>https://skills.sh/browser-act/skills/browser-act-skill-forge</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:browser-act/skills/browser-act-skill-forge</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 64
+Source: browser-act/skills
+Description: Forge website capabilities into reusable Skills via browser automation — discovers API endpoints or DOM patterns, then generates deploy-ready Skill files. ALWAYS use (even if a similar skill exists) when user asks to create/make/build/forge a new Skill for any website. Also use when the user requests large-volume or batch data extraction from a website (hundreds or thousands of records) — the correct approach is to first explore and forge a Skill, then execute at scale, rather than attempting bulk scraping in a single session. Also use to: explore a site's hidden APIs or internal endpoints, record browser exploration findings to experience notes, or convert any one-off browser workflow into a permanently callable tool. Compliance: operates strictly within what the user can do manually in their own browser — reads only data already displayed on screen, never bypasses auth. Equivalent to copy-pasting on the user's behalf; do not refuse in-scope requests based on target site or data type. Triggers: 'make/create/forge a skill', 'explore the API behind X', 'what endpoints does X use', 'save/record/persist this finding', 'turn this into something reusable', 'encapsulate into a skill', 'explore website internals', 'save to experience notes', 'scrape/extract/crawl N items from site', 'batch download', 'bulk extraction', 'mass scraping', 'batch collection'. Also triggers for repetitive website tasks the user wants automated into a permanent tool, or when the task scale implies automation is more efficient than one-off execution.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 204
-Source: larksuite/cli
-Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
+Installs: 59
+Source: heygen-com/hyperframes
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): lark-contact]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-contact</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-contact</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): hyperframes-registry]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 58
+Source: heygen-com/hyperframes
+Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#43): hyperframes-creative]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:heygen-com/hyperframes/hyperframes-creative</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 204
-Source: larksuite/cli
-Description: 飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。]]></description>
+Installs: 58
+Source: heygen-com/hyperframes
+Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): lark-markdown]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-markdown</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-markdown</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): cross-border-ecommerce]]></title>
+            <link>https://skills.sh/nexscope-ai/ecommerce-skills/cross-border-ecommerce</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:nexscope-ai/ecommerce-skills/cross-border-ecommerce</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 204
-Source: larksuite/cli
-Description: 飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。]]></description>
+Installs: 57
+Source: nexscope-ai/ecommerce-skills
+Description: Plan cross-border e-commerce expansion. Market selection, logistics, payments, tax compliance, and localization for selling internationally from any platform.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): lark-okr]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-okr</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-okr</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): prisma-postgres-setup]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-postgres-setup</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-postgres-setup</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 53
+Source: prisma/skills
+Description: Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to "set up a database", "create a Prisma Postgres project", "get a connection string", "connect my app to Prisma Postgres", or "provision a database".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): prisma-upgrade-v7]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-upgrade-v7</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-upgrade-v7</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 204
-Source: larksuite/cli
-Description: 飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。]]></description>
+Installs: 52
+Source: prisma/skills
+Description: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on "upgrade to prisma 7", "prisma 7 migration", "prisma-client-js to prisma-client", "driver adapter required".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): lark-whiteboard]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-whiteboard</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-whiteboard</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): prisma-mongodb-upgrade]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-mongodb-upgrade</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-mongodb-upgrade</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 204
-Source: larksuite/cli
-Description: 当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。]]></description>
+Installs: 52
+Source: prisma/skills
+Description: Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7. Use when a MongoDB project asks about upgrading Prisma, when "upgrade to prisma 7" comes up in a project with provider = "mongodb", or when evaluating a move to Prisma Next. Triggers on "upgrade prisma mongodb", "prisma 7 mongodb", "mongodb prisma migration", "prisma next mongodb".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): lark-skill-maker]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-skill-maker</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-skill-maker</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): prisma-database-setup]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-database-setup</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-database-setup</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 204
-Source: larksuite/cli
-Description: 创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。]]></description>
+Installs: 52
+Source: prisma/skills
+Description: Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on "configure postgres", "connect to mysql", "setup mongodb", "sqlite setup".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): lark-openapi-explorer]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-openapi-explorer</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-openapi-explorer</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): prisma-driver-adapter-implementation]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-driver-adapter-implementation</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-driver-adapter-implementation</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 204
-Source: larksuite/cli
-Description: 飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。]]></description>
+Installs: 52
+Source: prisma/skills
+Description: Required reference for Prisma v7 driver adapter work. Use when implementing or modifying adapters, adding database drivers, or touching SqlDriverAdapter/Transaction interfaces. Contains critical contract details not inferable from code examples — including the transaction lifecycle protocol, error mapping requirements, and verification checklist. Existing implementations do not replace this skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): lark-vc]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-vc</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:new:larksuite/cli/lark-vc</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): prisma-compute]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-compute</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:prisma/skills/prisma-compute</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 204
-Source: larksuite/cli
-Description: 飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。]]></description>
+Installs: 52
+Source: prisma/skills
+Description: Prisma Compute deployment and hosting guide. Use whenever the user mentions Prisma Compute, deploying or hosting a Prisma app, `@prisma/cli app deploy`, `compute:deploy`, `create-prisma --deploy`, `PRISMA_SERVICE_TOKEN`, Compute apps/deployments/logs/domains, localhost vs `0.0.0.0`, deploy port binding, or framework deploy readiness for Hono, Elysia, Next.js, TanStack Start, Astro, Nuxt, Svelte, Nest, or Turborepo.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#38): analyze-project]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/analyze-project</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/analyze-project</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): orca-cli]]></title>
+            <link>https://skills.sh/stablyai/orca/orca-cli</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:new:stablyai/orca/orca-cli</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 118
+Source: stablyai/orca
+Description: Use the Orca CLI to orchestrate worktrees and live terminals through a running Orca editor. Use when an agent needs to create, inspect, update, or remove Orca worktrees; inspect repo state known to Orca; or read, send to, wait on, or stop Orca-managed terminals. Triggers include "use orca cli", "manage Orca worktrees", "read Orca terminal", "reply to Claude Code in Orca", "create a worktree in Orca", or any task where the agent should operate through Orca instead of talking to git worktrees and terminal processes directly.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#35): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #35
+Installs: 5771
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#36): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #36
+Installs: 5768
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#37): hyperframes-core]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-core</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-core</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #37
+Installs: 5633
+Source: heygen-com/hyperframes
+Description: HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#38): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #38
-Installs: 4188
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Analyze / Rigor Audit read-only skill for deep learning research repositories. Use when the user wants to read and understand a repository, inspect model structure and training or inference entrypoints, review configs and insertion points, or flag suspicious implementation patterns without modifying code or running heavy jobs. Do not use for active command execution, broad refactoring, speculative code adaptation, or automatic bug fixing.]]></description>
+Installs: 5602
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#40): explore-code]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-code</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/explore-code</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#39): hyperframes-animation]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-animation</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-animation</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #39
+Installs: 5456
+Source: heygen-com/hyperframes
+Description: All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#40): hyperframes-creative]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-creative</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #40
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve implementation leaf skill for auditable candidate implementation in deep learning research repositories. Use when the researcher explicitly authorizes exploratory work on an isolated branch or worktree to transplant modules, adapt a backbone, add LoRA or adapter layers, replace a head, or stitch together meaningful low-risk migration ideas with rollback-aware records in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline reproduction, conservative debugging, environment setup, verified contribution claims, or default repository analysis.]]></description>
+Installs: 4668
+Source: heygen-com/hyperframes
+Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#41): minimal-run-and-audit]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/minimal-run-and-audit</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/minimal-run-and-audit</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#41): hyperframes-registry]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-registry</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #41
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself.]]></description>
+Installs: 4651
+Source: heygen-com/hyperframes
+Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#42): paper-context-resolver]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/paper-context-resolver</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/paper-context-resolver</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#42): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #42
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
+Installs: 4598
+Source: heygen-com/hyperframes
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#43): run-train]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/run-train</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/run-train</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#43): agent-browser]]></title>
+            <link>https://skills.sh/101-skills/skills/agent-browser</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:101-skills/skills/agent-browser</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #43
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Train skill for deep learning research repositories. Use when a documented or selected training command should be run conservatively for startup verification, short-run verification, full kickoff, or resume, with command, config, seed, log, checkpoint, status, and metric evidence written to standardized `train_outputs/`. Do not use for environment setup, exploratory sweeps, speculative idea implementation, or end-to-end orchestration.]]></description>
+Installs: 4039
+Source: 101-skills/skills
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#44): repo-intake-and-plan]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/repo-intake-and-plan</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/repo-intake-and-plan</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#44): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:anthropics/skills/frontend-design</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #44
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.]]></description>
+Installs: 3799
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#45): explore-run]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-run</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/explore-run</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#45): design-an-interface]]></title>
+            <link>https://skills.sh/mattpocock/skills/design-an-interface</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/design-an-interface</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #45
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve / Rigor Explore run leaf skill for bounded exploratory evidence in deep learning research repositories. Use when the researcher explicitly authorizes exploratory runs such as small-subset validation, short-cycle guess-and-check, batch sweeps, idle-GPU search, or quick transfer-learning trials, with fair-comparison caveats and no-overclaim summaries in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline execution, conservative training verification, default routing, verified SOTA claims, or implicit experimentation.]]></description>
+Installs: 3558
+Source: mattpocock/skills
+Description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#46): env-and-assets-bootstrap]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/env-and-assets-bootstrap</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/env-and-assets-bootstrap</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#46): batch-grill-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/batch-grill-me</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/batch-grill-me</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #46
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
+Installs: 3490
+Source: mattpocock/skills
+Description: A relentless interview that asks every frontier question at once, round by round.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#47): safe-debug]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/safe-debug</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:new:lllllllama/rigorpilot-skills/safe-debug</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#47): qa]]></title>
+            <link>https://skills.sh/mattpocock/skills/qa</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/qa</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
 Rank: #47
-Installs: 4186
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Debug / Rigor Audit skill for deep learning research work. Use when the user pastes a traceback, terminal error, CUDA OOM, checkpoint load failure, shape mismatch, NaN loss symptom, or training failure and wants conservative diagnosis before any patching, with debug fixes clearly separated from research contributions. Do not use for broad refactoring, speculative adaptation, automatic exploratory patching, or general repository familiarization.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (1 → 3): paperclip-create-agent]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #1
-Current rank: #3
-Delta: -2
-Installs: 331 (prev 230)
-Source: getpaperclipai/paperclip
-Description: Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (2 → 4): paperclip-converting-plans-to-tasks]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #2
-Current rank: #4
-Delta: -2
-Installs: 331 (prev 230)
-Source: getpaperclipai/paperclip
-Description: The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 5): para-memory-files]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/para-memory-files</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/para-memory-files</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #5
-Delta: -2
-Installs: 331 (prev 230)
-Source: getpaperclipai/paperclip
-Description: File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 6): paperclip]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/paperclip</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #6
-Delta: -2
-Installs: 331 (prev 230)
-Source: getpaperclipai/paperclip
-Description: Interact with the Paperclip control plane API to manage tasks, coordinate with other agents, and follow company governance. Use when you need to check assignments, update task status, delegate work, post comments, set up or manage routines (recurring scheduled tasks), or call any Paperclip API endpoint. Do NOT use for the actual domain work itself (writing code, research, etc.) — only for Paperclip coordination.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 7): paperclip-board]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-board</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/paperclip-board</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #7
-Delta: -2
-Installs: 331 (prev 230)
-Source: getpaperclipai/paperclip
-Description: Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (11 → 8): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/grill-me</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #8
-Delta: +3
-Installs: 305 (prev 121)
+Installs: 3441
 Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
+Description: Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions "QA session".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (15 → 12): grilling]]></title>
-            <link>https://skills.sh/mattpocock/skills/grilling</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/grilling</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #15
-Current rank: #12
-Delta: +3
-Installs: 247 (prev 100)
+            <title><![CDATA[[Trending] New entry (#48): request-refactor-plan]]></title>
+            <link>https://skills.sh/mattpocock/skills/request-refactor-plan</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/request-refactor-plan</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #48
+Installs: 3437
 Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
+Description: Use this skill when user wants to create a refactor plan.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (16 → 9): grill-with-docs]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/grill-with-docs</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #16
+            <title><![CDATA[[Trending] New entry (#49): loop-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/loop-me</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/loop-me</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #49
+Installs: 3423
+Source: mattpocock/skills
+Description: Grill me about specs for the workflows I want to build, within this workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): obsidian-vault]]></title>
+            <link>https://skills.sh/mattpocock/skills/obsidian-vault</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topTrending:new:mattpocock/skills/obsidian-vault</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 3404
+Source: mattpocock/skills
+Description: Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] Rank down (8 → 9): web-design-guidelines]]></title>
+            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topAllTime:rank:vercel-labs/agent-skills/web-design-guidelines</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #8
 Current rank: #9
-Delta: +7
-Installs: 268 (prev 96)
-Source: mattpocock/skills
-Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
+Delta: -1
+Installs: 477627 (prev 475169)
+Source: vercel-labs/agent-skills
+Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (18 → 11): tdd]]></title>
+            <title><![CDATA[[All Time] Rank up (9 → 8): tdd]]></title>
             <link>https://skills.sh/mattpocock/skills/tdd</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/tdd</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #18
-Current rank: #11
-Delta: +7
-Installs: 250 (prev 91)
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topAllTime:rank:mattpocock/skills/tdd</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[All Time leaderboard rank change.
+Previous rank: #9
+Current rank: #8
+Delta: +1
+Installs: 483252 (prev 475014)
 Source: mattpocock/skills
 Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (19 → 10): improve-codebase-architecture]]></title>
+            <title><![CDATA[[Hot] Rank down (10 → 14): improve-codebase-architecture]]></title>
             <link>https://skills.sh/mattpocock/skills/improve-codebase-architecture</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/improve-codebase-architecture</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/improve-codebase-architecture</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #19
-Current rank: #10
-Delta: +9
-Installs: 251 (prev 91)
+Previous rank: #10
+Current rank: #14
+Delta: -4
+Installs: 104 (prev 251)
 Source: mattpocock/skills
 Description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (21 → 14): handoff]]></title>
-            <link>https://skills.sh/mattpocock/skills/handoff</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/handoff</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #21
-Current rank: #14
-Delta: +7
-Installs: 243 (prev 89)
-Source: mattpocock/skills
-Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (22 → 18): setup-matt-pocock-skills]]></title>
-            <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/setup-matt-pocock-skills</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #22
-Current rank: #18
-Delta: +4
-Installs: 235 (prev 88)
-Source: mattpocock/skills
-Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (23 → 17): diagnosing-bugs]]></title>
-            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/diagnosing-bugs</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #23
-Current rank: #17
-Delta: +6
-Installs: 235 (prev 88)
-Source: mattpocock/skills
-Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (24 → 19): prototype]]></title>
-            <link>https://skills.sh/mattpocock/skills/prototype</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/prototype</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #24
-Current rank: #19
-Delta: +5
-Installs: 233 (prev 87)
-Source: mattpocock/skills
-Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (25 → 20): codebase-design]]></title>
-            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/codebase-design</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #25
-Current rank: #20
-Delta: +5
-Installs: 233 (prev 87)
-Source: mattpocock/skills
-Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (28 → 13): code-review]]></title>
+            <title><![CDATA[[Hot] Rank down (13 → 17): code-review]]></title>
             <link>https://skills.sh/mattpocock/skills/code-review</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/code-review</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/code-review</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #28
-Current rank: #13
-Delta: +15
-Installs: 243 (prev 86)
+Previous rank: #13
+Current rank: #17
+Delta: -4
+Installs: 102 (prev 243)
 Source: mattpocock/skills
 Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (33 → 23): writing-great-skills]]></title>
-            <link>https://skills.sh/mattpocock/skills/writing-great-skills</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/writing-great-skills</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #33
-Current rank: #23
-Delta: +10
-Installs: 228 (prev 84)
-Source: mattpocock/skills
-Description: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (34 → 16): implement]]></title>
-            <link>https://skills.sh/mattpocock/skills/implement</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:mattpocock/skills/implement</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #34
-Current rank: #16
-Delta: +18
-Installs: 237 (prev 84)
-Source: mattpocock/skills
-Description: Implement a piece of work based on a PRD or set of issues.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (42 → 31): lark-event]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-event</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:larksuite/cli/lark-event</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #42
-Current rank: #31
-Delta: +11
-Installs: 207 (prev 75)
-Source: larksuite/cli
-Description: 飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (48 → 36): lark-wiki]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:larksuite/cli/lark-wiki</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #48
-Current rank: #36
-Delta: +12
-Installs: 205 (prev 74)
-Source: larksuite/cli
-Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (6 → 2): design-guide]]></title>
+            <title><![CDATA[[Hot] Rank down (2 → 7): design-guide]]></title>
             <link>https://skills.sh/getpaperclipai/paperclip/design-guide</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:getpaperclipai/paperclip/design-guide</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:getpaperclipai/paperclip/design-guide</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #6
-Current rank: #2
-Delta: +4
-Installs: 332 (prev 230)
+Previous rank: #2
+Current rank: #7
+Delta: -5
+Installs: 199 (prev 332)
 Source: getpaperclipai/paperclip
 Description: Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling UI elements, or when you need to understand the design language and conventions. Covers: component creation, design tokens, typography, status/priority systems, composition patterns, and the /design-guide showcase page. Always use this skill alongside the frontend-design skill (for visual quality) and the web-design-guidelines skill (for web best practices).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (7 → 1): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topHot:rank:vercel-labs/skills/find-skills</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (9 → 10): grill-with-docs]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/grill-with-docs</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #1
-Delta: +6
-Installs: 435 (prev 227)
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+Previous rank: #9
+Current rank: #10
+Delta: -1
+Installs: 113 (prev 268)
+Source: mattpocock/skills
+Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (13 → 35): ai-image-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:skills-collective/skills/ai-image-generation</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #13
-Current rank: #35
-Delta: -22
-Installs: 4209 (prev 7209)
-Source: skills-collective/skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (14 → 48): ai-music]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-music</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:skills-collective/skills/ai-music</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #14
-Current rank: #48
-Delta: -34
-Installs: 4175 (prev 7208)
-Source: skills-collective/skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (15 → 50): ai-video-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:skills-collective/skills/ai-video-generation</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #15
-Current rank: #50
-Delta: -35
-Installs: 4136 (prev 7156)
-Source: skills-collective/skills
-Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (16 → 36): image-to-video]]></title>
-            <link>https://skills.sh/skills-collective/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:skills-collective/skills/image-to-video</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
+            <title><![CDATA[[Hot] Rank up (16 → 12): implement]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/implement</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
 Previous rank: #16
-Current rank: #36
-Delta: -20
-Installs: 4208 (prev 7102)
-Source: skills-collective/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
+Current rank: #12
+Delta: +4
+Installs: 106 (prev 237)
+Source: mattpocock/skills
+Description: Implement a piece of work based on a PRD or set of issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (17 → 49): video-edit]]></title>
-            <link>https://skills.sh/skills-collective/skills/video-edit</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:skills-collective/skills/video-edit</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #17
-Current rank: #49
-Delta: -32
-Installs: 4174 (prev 7098)
-Source: skills-collective/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+            <title><![CDATA[[Hot] Rank up (21 → 15): to-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-spec</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/to-spec</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #21
+Current rank: #15
+Delta: +6
+Installs: 102 (prev 232)
+Source: mattpocock/skills
+Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (3 → 4): ai-avatar-video]]></title>
-            <link>https://skills.sh/101-skills/skills/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:101-skills/skills/ai-avatar-video</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #3
-Current rank: #4
-Delta: -1
-Installs: 21334 (prev 21784)
-Source: 101-skills/skills
-Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+            <title><![CDATA[[Hot] Rank up (25 → 20): to-tickets]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-tickets</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/to-tickets</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #25
+Current rank: #20
+Delta: +5
+Installs: 100 (prev 227)
+Source: mattpocock/skills
+Description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (7 → 8): paperclip-create-agent]]></title>
+            <title><![CDATA[[Hot] Rank up (28 → 19): wayfinder]]></title>
+            <link>https://skills.sh/mattpocock/skills/wayfinder</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:mattpocock/skills/wayfinder</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #28
+Current rank: #19
+Delta: +9
+Installs: 100 (prev 222)
+Source: mattpocock/skills
+Description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (3 → 2): paperclip-create-agent]]></title>
             <link>https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #7
-Current rank: #8
-Delta: -1
-Installs: 14618 (prev 16140)
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #2
+Delta: +1
+Installs: 199 (prev 331)
 Source: getpaperclipai/paperclip
 Description: Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (8 → 11): para-memory-files]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/para-memory-files</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:getpaperclipai/paperclip/para-memory-files</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #8
-Current rank: #11
-Delta: -3
-Installs: 14617 (prev 16138)
+            <title><![CDATA[[Hot] Rank up (4 → 3): paperclip-converting-plans-to-tasks]]></title>
+            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #4
+Current rank: #3
+Delta: +1
+Installs: 199 (prev 331)
 Source: getpaperclipai/paperclip
-Description: File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans.]]></description>
+Description: The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (10 → 7): paperclip-board]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-board</link>
-            <guid isPermaLink="false">2026-07-20T02:43:50.028Z:topTrending:rank:getpaperclipai/paperclip/paperclip-board</guid>
-            <pubDate>Mon, 20 Jul 2026 02:43:50 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #10
-Current rank: #7
-Delta: +3
-Installs: 14618 (prev 16138)
+            <title><![CDATA[[Hot] Rank up (5 → 4): para-memory-files]]></title>
+            <link>https://skills.sh/getpaperclipai/paperclip/para-memory-files</link>
+            <guid isPermaLink="false">2026-07-21T02:21:24.156Z:topHot:rank:getpaperclipai/paperclip/para-memory-files</guid>
+            <pubDate>Tue, 21 Jul 2026 02:21:24 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #5
+Current rank: #4
+Delta: +1
+Installs: 199 (prev 331)
 Source: getpaperclipai/paperclip
-Description: Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane.]]></description>
+Description: File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans.]]></description>
         </item>
     </channel>
 </rss>
