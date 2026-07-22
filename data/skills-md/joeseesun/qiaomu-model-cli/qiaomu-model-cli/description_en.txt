@@ -1,0 +1,14 @@
+Call local Grok CLI, Kimi Code CLI, and Claude Code CLI with the strongest
+current default models and native tools. Use this qiaomu skill workflow when
+the user wants to run Grok
+4.5 for X/web search, image/video generation, research, or multi-tool agent
+work; run Kimi K3 (1M) for frontend UI/CSS/React/Vue work; run Claude Fable 5,
+Opus 4.8, or Sonnet 5 for coding/review/refactors; run independent multi-model
+comparisons concurrently with native stream progress, artifact verification,
+private logs, cancellation, and failed-job retry; choose between the three
+CLIs; or wrap non-interactive CLI invocations. Trigger on phrases
+like "用 grok cli", "用 kimi cli", "grok 搜 X", "kimi 写前端",
+"qiaomu-model-cli", "调用 grok4.5", "调用 k3 1m", "用 claude code",
+"用 fable 5", "opus 4.8 改代码", "分别调用三个模型", "多模型横评".
+Not for generic cloud API
+registry management (use qiaomu-llm) or OpenCLI site adapters.
