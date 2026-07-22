@@ -1,0 +1,1 @@
+在編寫 Wix 程式碼之前查找 Wix API/SDK 文件以確認確切的端點、HTTP 方法、請求/回應形狀、欄位、枚舉或錯誤 - 永遠不要憑記憶猜測 Wix API。尋找是一個簡短的流程：找到正確的頁面，然後閱讀它。兩種方式：(1) 普通的“curl”（零依賴） - 透過**語義搜尋**（“POST /mcp-docs-search/v1/docs/search”，自然語言“{ search_term, document_type }”）**或透過從“llms.txt”根瀏覽到文檔樹作為選單（將“mdix” MCP 文件工具（如果您的代理擁有）。觸發器：尋找 Wix API、尋找 Wix 端點/方法、確認 Wix 請求正文或欄位、驗證 Wix API 形狀、探索 Wix 文件、我呼叫哪個 Wix API、讀取 Wix 方法架構。

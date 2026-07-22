@@ -1,0 +1,9 @@
+Générateur de solutions de suivi et de conception métrique. À partir des exigences du produit/du flux principal, il produit un document complet de solution de suivi (événements, champs, timing de déclenchement, explications de définition, liste de contrôle de vérification QA).
+
+Condition de déclenchement : l'utilisateur mentionne des mots-clés tels que « 埋点 », « suivi », « conception d'événement », « collecte de données », « système de reporting », « système de suivi », « spécification d'événement », « conception de champ », « définition métrique », « acceptation des données », « vérification QA », etc.
+
+Applicable également : l'utilisateur fournit un document PRD/exigences du produit et demande un système de suivi ; l'utilisateur fournit un flux d'utilisateurs principal et demande de décomposer les événements ; l'utilisateur demande une dénomination d'événement ou des définitions de champs standardisées ; l'utilisateur demande un plan d'acceptation des données.
+
+Entrée typique : conventions de dénomination d'événement + dictionnaire de champs + description/organigramme du flux principal.
+
+Non applicable : analyse de données pure (utiliser pm-analytics), création de tableaux de bord BI purs, écriture de requêtes SQL pures.

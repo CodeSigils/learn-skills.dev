@@ -1,0 +1,1 @@
+框架（OSS）。將現有的 Apple/Swift Expo 本機模組從 Expo Modules API 1.0 定義 DSL 遷移到 2.0 巨集 API（有時稱為 v2），同時保留其 JavaScript 和 TypeScript 契約。在現有模組中轉換或逐步採用 @ExpoModule、@JS、@Event、@SharedObject 或 @Record 時使用。請勿用於建立新模組、常規 Expo SDK 升級或 Android/Kotlin 遷移。

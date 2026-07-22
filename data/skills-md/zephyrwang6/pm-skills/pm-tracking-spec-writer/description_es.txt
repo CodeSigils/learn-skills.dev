@@ -1,0 +1,9 @@
+Generador de soluciones de seguimiento y diseño métrico. A partir de los requisitos del producto/flujo principal, produce un documento completo de solución de seguimiento (eventos, campos, tiempos de activación, explicaciones de definiciones, lista de verificación de control de calidad).
+
+Condición de activación: el usuario menciona palabras clave como "埋点", "seguimiento", "diseño de evento", "recopilación de datos", "esquema de informes", "esquema de seguimiento", "especificación de evento", "diseño de campo", "definición de métrica", "aceptación de datos", "verificación de calidad", etc.
+
+También aplicable: el usuario proporciona un documento PRD/requisitos del producto y solicita un esquema de seguimiento; el usuario proporciona un flujo de usuario principal y solicita desglosar los eventos; el usuario solicita nombres de eventos o definiciones de campos estandarizados; el usuario solicita un plan de aceptación de datos.
+
+Entrada típica: convenciones de nomenclatura de eventos + diccionario de campos + descripción/diagrama de flujo del flujo principal.
+
+No aplicable: análisis de datos puro (use pm-analytics), creación de paneles de BI puro, escritura de consultas SQL pura.

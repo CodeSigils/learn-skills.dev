@@ -1,0 +1,1 @@
+将开放 PR 从其编号驱动到合并就绪状态 — 合并最新的基础，然后循环审查自动修复 (om-auto-review-pr)、内置 CI 稳定和 UI 验证 (om-auto-qa-pr)，直到获得批准、绿色和 QA 证明。 --ci-only 模式仅在 PR 或普通分支上驱动 CI 绿色。为 nits 归档后续问题，规范化标签，交给 om-approve-merge-pr — 从不合并自身。用于“准备好 PR 123 合并”。

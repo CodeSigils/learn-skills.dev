@@ -1,0 +1,9 @@
+Generatore di soluzioni di monitoraggio e progettazione metrica. Partendo dai requisiti del prodotto/flusso principale, produce un documento completo della soluzione di tracciamento (eventi, campi, tempistiche di attivazione, spiegazioni delle definizioni, checklist di verifica QA).
+
+Condizione di attivazione: l'utente menziona parole chiave come "埋点", "monitoraggio", "progettazione dell'evento", "raccolta dati", "schema di reporting", "schema di monitoraggio", "specifica dell'evento", "progettazione del campo", "definizione della metrica", "accettazione dei dati", "verifica QA", ecc.
+
+Applicabile anche: l'utente fornisce un documento PRD/requisiti del prodotto e richiede uno schema di tracciamento; l'utente fornisce un flusso utente principale e chiede di suddividere gli eventi; l'utente richiede nomi di eventi o definizioni di campi standardizzati; l'utente richiede un piano di accettazione dei dati.
+
+Input tipico: convenzioni di denominazione degli eventi+dizionario dei campi+descrizione/diagramma di flusso del flusso principale.
+
+Non applicabile: pura analisi dei dati (utilizzare pm-analytics), pura creazione di dashboard BI, pura scrittura di query SQL.
