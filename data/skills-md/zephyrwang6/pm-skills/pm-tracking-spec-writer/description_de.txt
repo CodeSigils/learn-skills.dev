@@ -1,9 +1,5 @@
-Lösungsgenerator für Tracking und metrisches Design. Ausgehend von den Produktanforderungen/dem Kernfluss wird ein vollständiges Tracking-Lösungsdokument erstellt (Ereignisse, Felder, Trigger-Timing, Definitionserklärungen, Checkliste zur Qualitätssicherung).
-
-Auslösebedingung: Der Benutzer erwähnt Schlüsselwörter wie „埋点“, „Tracking“, „Ereignisdesign“, „Datenerfassung“, „Berichtsschema“, „Tracking-Schema“, „Ereignisspezifikation“, „Felddesign“, „Metrikdefinition“, „Datenakzeptanz“, „QA-Überprüfung“ usw.
-
-Also applicable: the user provides a product PRD/requirements document and requests a tracking scheme; the user provides a core user flow and asks to break down events; the user requests standardized event naming or field definitions; Der Benutzer fordert einen Datenabnahmeplan an.
-
-Typical input: event naming conventions + field dictionary + core flow description/flowchart.
-
-Not applicable: pure data analysis (use pm-analytics), pure BI dashboard building, pure SQL query writing.
+Ereignisverfolgung und Metrik-Designplangenerator. Ausgehend von den Produktanforderungen oder dem Kernarbeitsablauf wird ein vollständiges Ereignisverfolgungsplandokument ausgegeben (Ereignisse, Felder, Trigger-Timing, Definitionshinweise, Checkliste zur Qualitätssicherung).  
+Auslösebedingung: Der Benutzer erwähnt Schlüsselwörter wie „Ereignisverfolgung“, „Verfolgung“, „Ereignisdesign“, „Datenerfassung“, „Berichtsplan“, „Ereignisverfolgungsplan“, „Ereignisspezifikation“, „Felddesign“, „Metrikdefinition“, „Datenakzeptanz“, „QA-Überprüfung“ usw.  
+Gilt auch, wenn: der Benutzer ein Produkt-PRD/Anforderungsdokument bereitstellt und einen Ereignisverfolgungsplan anfordert; Der Benutzer stellt einen Kernbenutzerfluss bereit und möchte, dass die Ereignisse aufgeschlüsselt werden. Der Benutzer fordert standardisierte Ereignisbenennungen oder Felddefinitionen an. Der Benutzer fordert einen Datenabnahmeplan an.  
+Typische Eingabe: Benennungskonventionen für Ereignisse + Feldwörterbuch + Kern-Workflow-Beschreibung/Flussdiagramm.  
+Nicht anwendbar für: reine Datenanalyse (mit PM-Analytics), reine BI-Dashboard-Erstellung, reines SQL-Abfrageschreiben.
