@@ -1,0 +1,1 @@
+Salla 앱 기능 저장 및 게시 — `sala_functions action=save`는 데모 스토어에 배포(`action=deploy_status` 설문조사)한 다음 앱이 게시됩니다. 핸들러의 유효성을 검사한 후 프로덕션에 함수를 배포하고 제공할 준비가 되면 사용하세요. salla-app-functions에서 라우팅됩니다. 먼저 테스트 → salla-app-functions-test; 앱 게시 → salla-app-builder / salla-publication-consistency; OAuth/토큰 → salla-app-auth; 웹훅 확인 → salla-webhooks.

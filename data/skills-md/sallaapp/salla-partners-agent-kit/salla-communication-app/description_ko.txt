@@ -1,0 +1,1 @@
+판매자를 대신하여 SMS, WhatsApp 또는 이메일을 전달하는 Salla 커뮤니케이션 앱을 구축하세요. 채널 앱 구축, OTP/알림 전달, communications.*.send 이벤트 구축 시 사용하세요. Salla deltas: sub_category_id 없음, 기본 웹후크 없음, 채널은 게시하기 전에 지원되는 기능을 통해 선언해야 하며(다른 403), 각 전송 이벤트는 앱 기능 트리거입니다. 앱 기능을 선호합니다. 앱 생성 → salla-app-builder; 자격 증명 → salla-app-settings; 핸들러 코드 → salla-app-functions; 토큰/OAuth → salla-app-auth.

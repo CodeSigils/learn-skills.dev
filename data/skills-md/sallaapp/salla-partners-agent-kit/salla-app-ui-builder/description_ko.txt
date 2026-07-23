@@ -1,0 +1,1 @@
+Salla 앱의 App Store 목록 페이지(판매자가 설치하기 전에 보는 페이지). 해당 목록 페이지를 사용자 정의할 때 사용합니다. `app_page_builder` MCP 도구를 통해 순서가 지정된 블록 목록으로 빌드하세요. 블록의 요소를 편집하면 공유 목록 콘텐츠(이름, 설명, 로고, 스크린샷, 혜택)가 앱의 초안 발행물에 기록됩니다. 전제 조건: 초안을 생성하려면 먼저 `app_publish action=open`을 호출하세요. 그때까지는 빌더가 비활성화됩니다. `sala_upload`를 사용하여 미디어를 업로드하세요. 초안/게시 흐름 및 `short_description` → salla-publication-consistency. 스키마 → salla-docs.

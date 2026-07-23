@@ -1,0 +1,1 @@
+Salla 앱의 애드온 청구 수명 주기 — 애드온 정의, app.subscription.started에서 활성화(item_type "addon", item_slug와 일치), 자격 유지 및 갱신/취소/만료 처리. 판매자가 애드온을 구매한 후 어떤 일이 발생하는지 연결하거나, 애드온 구독을 추적하거나, 애드온별 기능을 제어할 때 사용하세요. iframe 내 구매 UX는 임베디드 흐름 → salla-addon-purchase-embedded의 일부입니다. 계획/가격/자격 기본 요소 → salla-app-billing; 웹훅 위생 → salla-webhooks.

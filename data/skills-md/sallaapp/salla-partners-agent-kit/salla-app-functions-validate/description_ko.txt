@@ -1,0 +1,1 @@
+Salla 앱 기능을 저장하기 전 필수: 래퍼 내부의 모든 코드(호이스팅된 const/helper 없음)와 함께 템플릿 래퍼(첫 번째 줄과 마지막 줄)를 정확하게 유지하고, 편집기 표시줄에 있는 트리거의 '유형'(.d.ts URL)에 대해 TypeScript 컴파일러를 사용하여 핸들러의 유형을 확인하고(엄격하지 않고 사용되지 않은 항목 무시(TS6133)) OpenAPI 스키마에 대해 문서화된 Admin API 호출을 검증합니다. (sala-api-core 루프). `sala_functions action=save`는 해당 래퍼 라인만 유효성을 검사합니다. salla-app-functions에서 라우팅됩니다. salla-app-functions-release로 릴리스하세요.
