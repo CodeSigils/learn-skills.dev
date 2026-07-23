@@ -1,0 +1,1 @@
+Salla アプリ関数を保存して公開する — `salla_functions action=save` がデモ ストアにデプロイされ (`action=deploy_status` をポーリング)、アプリが公開されます。ハンドラーを検証した後、関数を実稼働環境にデプロイして出荷する準備ができたときに使用します。 salla-app-functions からルーティングされます。最初にテスト → salla-app-functions-test;アプリの公開 → salla-app-builder / salla-publication-consistency; OAuth/トークン → salla-app-auth; Webhook の検証 → Salla-Webhook。

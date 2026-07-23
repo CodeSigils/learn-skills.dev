@@ -1,0 +1,1 @@
+販売者に代わって SMS、WhatsApp、または電子メールを配信する Salla コミュニケーション アプリを構築します。チャネル アプリ、OTP/通知配信、または communication.*.send イベントを構築するときに使用します。 Salla デルタ: sub_category_id なし、デフォルト Webhook なし、チャネルは公開前にサポート対象機能経由で宣言する必要があります (else 403)。各送信イベントは App Function トリガーです。App Function を推奨します。アプリ作成→salla-app-builder;資格情報 → salla-app-settings;ハンドラーコード → salla-app-functions;トークン/OAuth → salla-app-auth。

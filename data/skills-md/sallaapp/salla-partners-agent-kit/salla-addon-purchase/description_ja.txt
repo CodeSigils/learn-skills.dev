@@ -1,0 +1,1 @@
+Salla アプリのアドオン請求ライフサイクル — アドオンの定義、app.subscription.started (item_type "addon"、item_slug と一致) でのアクティブ化、資格の永続化、および更新/キャンセル/有効期限の処理。販売者がアドオンを購入した後に何が起こるかを配線する場合、アドオンのサブスクリプションを追跡する場合、またはアドオンごとに機能をゲートする場合に使用します。 iframe 内購入 UX は、埋め込みフロー → salla-addon-purchase-embedded の一部です。プラン/価格設定/資格のプリミティブ → salla-app-billing; webhook の衛生状態 → salla-webhook。
