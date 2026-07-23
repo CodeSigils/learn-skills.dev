@@ -1,0 +1,7 @@
+Guía del sistema de construcción Turborepo monorepo. Activadores en: `turbo.json`, canalizaciones de tareas,
+`dependsOn`, almacenamiento en caché, caché remoto, CLI `turbo`, `--filter`, `--affected`, optimización de CI,
+variables de entorno, paquetes internos, estructura monorepo y límites del paquete.
+
+Se utiliza cuando el usuario configura tareas o flujos de trabajo, crea paquetes, configura un
+monorepo, comparte código entre aplicaciones, ejecuta paquetes modificados, depura el comportamiento de la caché,
+o funciona en un espacio de trabajo `apps/` más `packages/`.
