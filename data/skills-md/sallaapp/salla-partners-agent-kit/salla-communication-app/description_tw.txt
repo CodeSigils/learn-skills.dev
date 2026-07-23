@@ -1,0 +1,1 @@
+建立 Salla 通訊應用程序，代表商家發送簡訊、WhatsApp 或電子郵件。在建置頻道應用程式、OTP/通知傳送或通訊.*.發送事件時使用。 Salla deltas：沒有 sub_category_id，零預設 webhook，必須在發布之前通過支援的功能聲明通道（否則 403），並且每個發送事件都是應用程式功能觸發器 - 更喜歡應用程式功能。應用程式建立 → salla-app-builder；憑證 → salla-app-settings；處理程序代碼 → salla-app-functions；令牌/OAuth → salla-app-auth。

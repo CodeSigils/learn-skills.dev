@@ -1,0 +1,1 @@
+用於測試的單前門。解析子命令——run、qa、tdd、e2e、coverage、init或regression——並路由到正確的測試引擎：test-runner（運行測試、修復故障）、qa-reviewer（對已完成工作進行結構化驗證）、tdd（紅綠重構工作流程）、playwright-e2-incgitage（前端閾值hooks）、testing-cicd-init（Vitest + GitHub Actions CI 設定）或 ai-regression-testing（針對 AI 盲點的設計回歸測試）。支援 /test 命令。當被要求執行測試、編寫測試、設定測試、檢查覆蓋率或啟動 TDD 時使用，並且必須從「run」、「qa」、「tdd」、「e2e」、「coverage」、「init」或「regression」等參數中選擇操作。

@@ -1,0 +1,1 @@
+儲存並發布 Salla 應用程式功能 — `salla_functions action=save` 部署到示範商店（輪詢 `action=deploy_status`），然後發布應用程式。當您準備好部署函數並將其交付到生產環境時，請在驗證處理程序後使用。從 salla-app-functions 路由；首先測試 → salla-app-functions-test；應用程式發布 → salla-app-builder / salla-publication-consistency; OAuth/令牌 → salla-app-auth；webhook 驗證 → salla-webhooks。

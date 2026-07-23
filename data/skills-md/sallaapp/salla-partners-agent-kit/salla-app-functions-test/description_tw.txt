@@ -1,0 +1,1 @@
+使用「salla_functions action=preview」（app_id、觸發器、store_id 和觸發器的表單欄位作為 REAL id）在示範商店上執行已儲存的 Salla 應用程式函數。在儲存後使用以在發布前驗證行為；在仍在部署時輪詢 `salla_functions action=deploy_status`。從 salla-app-functions 路由；使用 salla-api-core 取得真實的 id。

@@ -1,0 +1,1 @@
+儲存 Salla 應用程式功能之前需要：準確保留範本的包裝器 — 其第一行和最後一行 — 以及包裝器內的所有程式碼（無提升的 const/helper），並使用 TypeScript 編譯器根據編輯器欄上觸發器的「類型」（.d.ts URL）對處理程序進行類型檢查 — 非嚴格，忽略未使用的 (TS 133) Open呼叫（salla-api-核心循環）。 `salla_functions action=save` 只驗證那些包裝行。從 salla-app-functions 路由；使用 salla-app-functions-release 進行發布。
