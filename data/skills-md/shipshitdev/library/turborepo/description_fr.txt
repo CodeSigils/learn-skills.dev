@@ -1,0 +1,7 @@
+Guide du système de construction Turborepo monorepo. Déclencheurs sur : `turbo.json`, pipelines de tâches,
+`dependsOn`, mise en cache, cache distant, CLI `turbo`, `--filter`, `--affected`, optimisation CI,
+variables d'environnement, packages internes, structure monorepo et limites des packages.
+
+À utiliser lorsque l'utilisateur configure des tâches ou des flux de travail, crée des packages, configure un
+monorepo, partage le code entre les applications, exécute les packages modifiés, débogue le comportement du cache,
+ou fonctionne dans un espace de travail `apps/` plus `packages/`.
