@@ -1,0 +1,1 @@
+Run a saved Salla App Function on a demo store with `salla_functions action=preview` (app_id, trigger, store_id, and the trigger's form fields as REAL ids). Use after save to verify behavior before publishing; poll `salla_functions action=deploy_status` while it is still deploying. Routed from salla-app-functions; uses salla-api-core to fetch real ids.

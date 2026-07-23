@@ -1,0 +1,5 @@
+Use the AskUserQuestion tool (the same multiple-choice mechanism plan mode uses) to get clarity from the user.
+Each question is multiple-choice plus a free-format "Other" escape. Ask in small batches — up to 4 questions
+per call (the tool's max), more if needed across calls. Use when scoping work, resolving ambiguity,
+or surfacing answers a research pass already raised. Triggers: `/turn-based`, `ask me`, `clarify`,
+`discovery mode`, `interview me`.

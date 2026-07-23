@@ -1,0 +1,1 @@
+Shopee（虾皮）店铺分类 Shop Category（与 linkfox-shopee-store-auth 同系列），经 /shopee/developerProxy 转发 Shopee Open API Shop Category 模块全部 7 个接口：add_shop_category、get_shop_category_list、update_shop_category、add_item_list、get_item_list、delete_item_list 等。当用户提到 Shopee 店铺分类、Shop Category、自定义分类、add_shop_category、shop_category_id、分类商品 时触发。即使未明确提及"分类"，只要涉及已授权 Shopee 店铺的 Shop Category 管理，也应触发。

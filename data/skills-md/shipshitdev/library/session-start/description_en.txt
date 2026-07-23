@@ -1,0 +1,1 @@
+Loads critical project context and recent session history at the start of each session or after `/clear` — reads `.agents/memory/` source-of-truth files, surfaces open next steps from the latest session log, and activates the session-documenter. Triggers on: session start, `/clear`, "load context", "start session", or first message in a new agent session.

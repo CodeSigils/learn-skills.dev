@@ -1,0 +1,7 @@
+Turborepo monorepo build system guidance. Triggers on: `turbo.json`, task pipelines,
+`dependsOn`, caching, remote cache, the `turbo` CLI, `--filter`, `--affected`, CI optimization,
+environment variables, internal packages, monorepo structure, and package boundaries.
+
+Use when the user configures tasks or workflows, creates packages, sets up a
+monorepo, shares code between apps, runs changed packages, debugs cache behavior,
+or works in an `apps/` plus `packages/` workspace.

@@ -1,0 +1,1 @@
+Review every open pull request targeting the default/trunk branch, merge the approved ones into the trunk, then prune the merged branches and stale worktrees left behind. Confirmation-gated and squash-merge aware via delegated cleanup. Use when the user asks to merge all open PRs, review and land the open PRs, batch-merge to the trunk and clean up afterward, or runs /merge.
