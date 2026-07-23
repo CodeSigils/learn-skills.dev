@@ -1,1 +1,1 @@
-`salla_functions action=preview`(app_id, Trigger, store_id 및 트리거의 양식 필드를 REAL ID로)를 사용하여 데모 스토어에서 저장된 Salla 앱 기능을 실행합니다. 게시하기 전에 동작을 확인하려면 저장 후 사용하세요. 아직 배포되는 동안 `sala_functions action=deploy_status`를 폴링하세요. salla-app-functions에서 라우팅됩니다. 실제 ID를 가져오기 위해 salla-api-core를 사용합니다.
+`salla_functions action=preview`(app_id, Trigger, store_id 및 트리거의 양식 필드를 REAL ID로)를 사용하여 데모 스토어에서 저장된 Salla 앱 기능을 실행합니다. 게시하기 전에 동작을 확인하려면 저장 후 사용하세요. 배포가 진행되는 동안 `salla_functions action=deploy_status`를 폴링하세요. salla-app-functions에서 라우팅됩니다. 실제 ID를 가져오기 위해 salla-api-core를 사용합니다.

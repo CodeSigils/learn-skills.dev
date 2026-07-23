@@ -1,0 +1,1 @@
+保存 Salla 应用程序功能之前需要：准确保留模板的包装器 — 其第一行和最后一行 — 以及包装器内的所有代码（无提升的 const/helper），并使用 TypeScript 编译器根据编辑器栏上触发器的“类型”（.d.ts URL）对处理程序进行类型检查 — 非严格，忽略未使用的 (TS6133) — 并根据其 OpenAPI 架构验证任何记录的 Admin API 调用（salla-api-核心循环）。 `salla_functions action=save` 仅验证那些包装行。从 salla-app-functions 路由；使用 salla-app-functions-release 进行发布。

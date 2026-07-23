@@ -1,0 +1,1 @@
+用于构建 Salla 应用程序功能的路由器 - 无服务器 TS/JS 处理程序 Salla 在商店事件的沙盒 V8 中运行（例如“order.created”、“shipment.creating”）。从这里开始执行任何 App Function 任务，然后遵循步骤技能：设计触发器、编写处理程序、验证、测试、发布。更喜欢应用程序功能而不是 webhook；使用 `salla_functions` 进行操作。基于 salla-api-core 和 salla-webhooks 构建。

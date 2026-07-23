@@ -1,0 +1,1 @@
+使用“salla_functions action=preview”（app_id、触发器、store_id 和触发器的表单字段作为 REAL id）在演示商店上运行保存的 Salla 应用程序函数。在保存后使用以在发布前验证行为；在仍在部署时轮询 `salla_functions action=deploy_status`。从 salla-app-functions 路由；使用 salla-api-core 来获取真实的 id。

@@ -1,0 +1,7 @@
+Guida al sistema di compilazione Turborepo monorepo. Trigger su: "turbo.json", pipeline di attività,
+`dependsOn`, memorizzazione nella cache, cache remota, CLI `turbo`, `--filter`, `--affected`, ottimizzazione CI,
+variabili di ambiente, pacchetti interni, struttura monorepo e limiti del pacchetto.
+
+Da utilizzare quando l'utente configura attività o flussi di lavoro, crea pacchetti, imposta a
+monorepo, condivide il codice tra app, esegue pacchetti modificati, esegue il debug del comportamento della cache,
+oppure funziona in uno spazio di lavoro `apps/` più `packages/`.

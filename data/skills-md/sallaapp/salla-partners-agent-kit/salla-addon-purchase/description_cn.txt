@@ -1,0 +1,1 @@
+Salla 应用程序的插件计费生命周期 — 定义插件、在 app.subscription.started 上激活（item_type“addon”，与 item_slug 匹配）、保留权利以及处理续订/取消/到期。在连接商家购买插件后发生的情况、跟踪插件订阅或通过插件控制功能时使用。 iframe 内购买用户体验是嵌入式流程的一部分 → salla-addon-purchase-embedded。计划/定价/权利原语 → salla-app-billing； webhook 卫生 → salla-webhooks。

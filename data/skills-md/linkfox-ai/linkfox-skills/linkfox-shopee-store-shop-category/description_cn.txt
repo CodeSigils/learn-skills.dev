@@ -1,0 +1,1 @@
+Shopee（小皮）店铺类别 店铺类别（与 linkfox-shopee-store-auth 同系列），通过 /shopee/developerProxy 转发到 Shopee Open API 店铺类别模块，包含所有七个接口：add_shop_category、get_shop_category_list、update_shop_category、add_item_list、get_item_list、delete_item_list 等。当用户提及 Shopee 店铺类别时，Shopee类别、自定义类别、add_shop_category、shop_category_id或类别产品，应该被触发。即使没有明确提及“品类”，只要涉及到虾皮授权店铺的店铺品类管理，也应该被触发。

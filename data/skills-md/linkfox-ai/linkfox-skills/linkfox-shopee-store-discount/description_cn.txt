@@ -1,0 +1,1 @@
+Shopee（小皮）店铺折扣促销“Discount”（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发到Shopee Open API Discount模块，覆盖所有12个接口：add_discount、get_discount_list、update_discount、add_discount_item、end_discount、SIP折扣等。当用户提及Shopee折扣、Discount、促销活动、限时时触发折扣、add_discount、discount_id、折扣事件等。即使没有明确提及“折扣”，只要涉及为 Shopee 授权店铺创建或管理折扣活动，就应该触发。

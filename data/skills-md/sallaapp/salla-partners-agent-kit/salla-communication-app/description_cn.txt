@@ -1,0 +1,1 @@
+构建 Salla 通信应用程序，代表商家发送短信、WhatsApp 或电子邮件。在构建渠道应用程序、OTP/通知传送或通信.*.发送事件时使用。 Salla deltas：没有 sub_category_id，零默认 webhook，必须在发布之前通过支持的功能声明通道（否则 403），并且每个发送事件都是应用程序功能触发器 - 更喜欢应用程序功能。应用程序创建 → salla-app-builder；凭证 → salla-app-settings；处理程序代码 → salla-app-functions；令牌/OAuth → salla-app-auth。

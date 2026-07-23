@@ -1,0 +1,1 @@
+Salla 应用程序的 App Store 列表页面（商家在安装前看到的页面）。自定义该列表页面时使用。通过“app_page_builder”MCP 工具将其构建为有序的块列表；编辑块的元素会将共享列表内容（名称、描述、徽标、屏幕截图、优点）写入应用程序的草稿出版物中。先决条件：首先调用 `app_publish action=open` 创建草稿 - 在此之前构建器被禁用。使用“salla_upload”上传媒体。草稿/发布流程和“简短描述” → salla-publication-consistency。模式 → salla-docs。
