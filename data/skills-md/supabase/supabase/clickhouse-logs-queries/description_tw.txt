@@ -1,0 +1,1 @@
+針對 ClickHouse 支援的「logs」表（「logs.all.otel」分析端點）編寫、檢視和遷移 Supabase 日誌查詢。每當任務涉及日誌瀏覽器 SQL、“log_attributes”映射、查詢日誌“來源”（edge_logs、postgres_logs、auth_logs 等）、將舊 BigQuery“交叉連接 unnest（元資料）”日誌查詢轉換為 ClickHouse 或在“apps/studio/data/logs”中連接分析即使使用者只是說「日誌查詢」、「日誌資源管理器」或貼上 BigQuery 日誌查詢進行轉換，也可以使用它，而不僅僅是在他們命名 ClickHouse 時。

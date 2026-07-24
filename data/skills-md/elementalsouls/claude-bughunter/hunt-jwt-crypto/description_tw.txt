@@ -1,0 +1,1 @@
+Hunt JWT 加密失敗 — alg:none 簽章剝離和 RS256→HS256 金鑰混淆，讓攻擊者在不知道秘密的情況下為任何身分（例如管理員）偽造令牌。當應用程式使用 JSON Web 令牌（授權標頭中的「eyJ...」承載令牌、cookie 或登入回應）進行身份驗證時使用。此技能擁有 JWT 簽章/加密偽造（alg:none、金鑰混淆、kid/jku 標頭注入）； Hunt-ato 將 JWT 為 ATO 路徑，hunt-auth-bypass 涵蓋 SSO/SAML 令牌信任，hunt-api-misconfig 涵蓋非加密 JWT 處理。當偽造的令牌授予對其他使用者的資料或僅限管理的端點的存取權限時，這一點至關重要。

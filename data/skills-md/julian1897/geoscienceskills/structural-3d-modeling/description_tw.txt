@@ -1,0 +1,1 @@
+3D 結構建模（構造地質學和岩石學）。建立 GemPy 地質模型 (GeoModel) 對象，定義三維建模空間的地理範圍和體素解析度。範圍以 [xmin, xm…] 給出。當使用者詢問構造地質學和岩石學任務時使用，例如：使用 GemPy 基於地質圖和方向資料建立 3D 地質模型；這個區域有複雜的褶皺，幫我用LoopStructural建模；在 3D 模型上切割幾個橫截面並將其與地震剖面進行比較。核心工具：geovista_bridge_from_netcdf、meshio_read_mesh。

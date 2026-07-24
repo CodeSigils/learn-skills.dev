@@ -1,0 +1,1 @@
+使用 npm、Vite/Webpack/Rollup、裸 ESM 導入映射和 TypeScript 的 Three.js 應用程式的引導和工具鏈指南。涵蓋「三」核心與「三/外掛程式/」（範例/jsm 重新匯出）的規格匯入路徑，與 https://thirdjs.org/docs/ 的版本對齊，以及修復載入器和控制項的「找不到模組」。在建立新的 3D 專案、遷移捆綁程式或偵錯外掛程式解析度時使用 - 不要用於渲染 API 詳細資訊（請參閱 Threejs-renderers）或資產載入邏輯（請參閱 Threejs-loaders）。

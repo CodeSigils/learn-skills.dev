@@ -1,0 +1,1 @@
+使用外部 HTTP/REST API（而非 Active Record 模型）支援 Avo 資源 — 透過「self.http_adapter」直接透過 API 列出、顯示、建立、更新和刪除記錄，無需資料庫表。當使用者想要為外部/第三方/SaaS REST API 建立管理面板時使用，顯示來自 API 而不是資料庫的記錄，透過 Avo 在沒有本地表的情況下 CRUD 遠端服務，將 Avo 的排序/過濾 UI 映射到 API 查詢參數，在每個請求上發送身份驗證標頭，解析包裝的 JSON 回應（結果/元/資料），使用 APIEprror，針對 APIEprror自訂建立/更新/銷毀，混淆 URL 中的記錄 ID，或透過 HTTP 偵錯控制台準確調試資源發送和接收的內容。付費附加 gem (`avo-http_resource`)，開放測試版。
