@@ -1,0 +1,1 @@
+端到端 iOS 红队管道 — IPA 获取（App Store 提取、TestFlight、企业/临时侧载）、类转储/Hopper/Ghidra 静态分析、Info.plist + 权利 + 钥匙串秘密提取、应用程序传输安全 (ATS) 错误配置 + 证书固定绕过（frida-ios-dump、反对、SSL Kill Switch 2）、URL 方案/通用链接劫持、导出服务枚举、Frida 运行时检测。与 apk-redteam-pipeline 配套，用于移动应用程序目录的 iOS 端。当目标具有 iOS 应用程序（App Store 列表、TestFlight 链接、企业 MDM 分发）时、当发现 IPA URL 托管在 Web 服务器上时或当侦察后在范围内与 Apple 开发者帐户一起提及“iOS 应用程序”/“移动应用程序”时使用。

@@ -1,0 +1,1 @@
+使用 npm、Vite/Webpack/Rollup、裸 ESM 导入映射和 TypeScript 的 Three.js 应用程序的引导和工具链指南。涵盖“三”核心与“三/插件/”（示例/jsm 重新导出）的规范导入路径，与 https://thirdjs.org/docs/ 的版本对齐，以及修复加载器和控件的“找不到模块”。在构建新的 3D 项目、迁移捆绑程序或调试插件分辨率时使用 - 不要用于渲染 API 详细信息（请参阅 Threejs-renderers）或资产加载逻辑（请参阅 Threejs-loaders）。

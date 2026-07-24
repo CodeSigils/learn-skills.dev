@@ -1,0 +1,1 @@
+寻找 Laravel 特定漏洞 - 调试模式泄漏（APP_DEBUG=true 暴露完整堆栈跟踪 + 环境变量）、Laravel Telescope/Horizo​​n 仪表板未经授权的访问、Ignition RCE (CVE-2021-3129)、签名 URL 操作、队列工作器滥用、通过 Eloquent 进行批量分配、通过 cookie 进行反序列化、.env 文件暴露。当目标运行 Laravel (PHP) 时使用 - 通过 X-Powered-By、Laravel 会话 cookie 或 /storage/ 路径检测到。

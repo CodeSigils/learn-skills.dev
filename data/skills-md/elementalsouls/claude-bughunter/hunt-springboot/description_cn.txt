@@ -1,0 +1,1 @@
+寻找 Spring Boot 特定漏洞 - 执行器端点（heapdump、env、记录器、映射、关闭）、Spring 表达式语言 (SpEL) 注入 → RCE、H2 控制台 RCE、Jolokia JMX 暴露、Spring4Shell (CVE-2022-22965)、Spring Cloud Function SPEL (CVE-2022-22963)、堆转储凭证提取。当目标运行 Spring Boot 时使用 - 通过 X-Application-Context 标头、/actuator、Whitelabel 错误页面或 Java 堆栈跟踪检测到。

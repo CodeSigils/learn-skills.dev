@@ -1,0 +1,1 @@
+使用 EffectComposer、Pass 基类、RenderPass 和 Stock Pass（例如 UnrealBloomPass、SSAOPass、SSRPass、BokehPass、OutlinePass、FXAAPass/SMAAPass、TAARenderPass 和 ShaderPass）对 Three.js 进行附加屏幕空间后处理；引用底层着色器模块的 Shaders 插件组；与 Node/WebGPU 堆栈中使用的核心 PostProcessing 类形成对比（请参阅 Threejs-node-tsl 和 Threejs-renderers）。在构建作曲家链时使用，而不是单独用于基本渲染器色调映射（trijs-renderers）。

@@ -1,0 +1,1 @@
+当用户需要调用StarMap平台（AstraFlow / UModelVerse）的管理API时使用，涵盖创建或管理推理API密钥、查询账单和订单、检索模型市场数据、导出或查询推理请求日志等场景。它为UCloud通用签名认证提供了完整的准备（如何获取PublicKey/PrivateKey、如何计算Signature、如何确定Region和ProjectId），并在references/目录中包含了所有21个已知管理API的详细请求/响应参数规范。

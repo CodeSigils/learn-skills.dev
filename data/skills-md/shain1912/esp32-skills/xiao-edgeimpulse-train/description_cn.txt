@@ -1,0 +1,1 @@
+仅使用 Edge Impulse REST API 为 XIAO ESP32S3 (Sense) 训练和部署 TinyML 模型 - 无需 Edge-impulse-cli（其串行端口 dep 无法在现代 Node/Windows 上构建）。涵盖：数据集上传、脉冲创建（音频 MFCC / 视觉迁移学习）、训练作业、下载 Arduino 库以及在 ESP32-S3 上实际运行它所需的设备上修复。每当用户想要训练/重新训练模型（“재훈련”、“edge脉冲”、“TinyML 훈련”、“모델 배포”）、将数据集上传到Edge Impulse或获得EI Arduino库构建/运行时错误（mel filterbank、objs.a、tensor arena、 EI_MAX_OVERFLOW_BUFFER_COUNT)。

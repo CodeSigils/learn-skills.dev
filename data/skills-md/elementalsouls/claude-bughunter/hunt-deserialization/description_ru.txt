@@ -1,0 +1,1 @@
+Охота на небезопасную десериализацию — цепочки гаджетов Java (ysserial), внедрение объектов PHP (phpggc), RCE Python Pickle, .NET BinaryFormatter, Ruby Marshal.load, JNDI/Log4Shell. RCE посредством десериализации почти всегда является критическим. Используйте, когда цель запускает Java, сериализацию PHP, Python Pickle, .NET или Ruby on Rails.

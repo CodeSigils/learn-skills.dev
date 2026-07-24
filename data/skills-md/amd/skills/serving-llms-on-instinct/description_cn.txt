@@ -1,0 +1,1 @@
+使用 vLLM 在 AMD Instinct GPU 硬件上提供 AI 模型。每当用户想要在 AMD GPU、AMD Instinct、MI300X、MI325X、MI350X 或 MI355X 上运行、服务、部署、启动、托管或启动语言模型时，请使用此技能。当用户提及 ROCm 上的 vLLM、AMD 上的 vLLM、HBM 上的服务或询问如何在 AMD 数据中心硬件上运行模型时也可使用。当用户询问“运行 Qwen3”、“服务 DeepSeek”、“启动 vLLM 端点”、“让模型在我的 AMD 计算机上运行”或任何类似的措辞时使用。处理整个流程：GPU 检测、环境验证、vLLM 配置、启动和运行状况验证。请勿用于 NVIDIA GPU、消费类 AMD GPU（RX 系列、Radeon）、Ryzen AI、NPU、MI250X 或 MI100。

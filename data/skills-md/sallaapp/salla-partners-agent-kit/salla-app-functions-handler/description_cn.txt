@@ -1,0 +1,1 @@
+构建 Salla 应用程序功能的第 3 步：从触发器的“模板”编写处理程序主体。在编码逻辑时使用 — 读取键入的“上下文”（有效负载/商家/设置），通过“Resp”（或实体“Shipment”）构建器返回响应合约，留在 V8 隔离沙箱内（Web 标准 API，HTTP 的“fetch”），并将每个“fetch”绑定到同步/异步超时。从 salla-app-functions 路由；接下来使用 salla-app-functions-validate 进行验证。令牌处理 → salla-app-auth； API 详细信息 → salla-api-core。
