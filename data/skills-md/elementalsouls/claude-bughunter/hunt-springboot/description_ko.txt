@@ -1,0 +1,1 @@
+Spring Boot 관련 취약점 헌트 — 액추에이터 엔드포인트(힙 덤프, 환경, 로거, 매핑, 종료), SpEL(Spring Expression Language) 주입 → RCE, H2 콘솔 RCE, Jolokia JMX 노출, Spring4Shell(CVE-2022-22965), Spring Cloud Function SPEL(CVE-2022-22963), 힙 덤프 자격 증명 추출. 대상이 Spring Boot를 실행할 때 사용합니다. X-Application-Context 헤더, /actuator, Whitelabel 오류 페이지 또는 Java 스택 추적을 통해 감지됩니다.

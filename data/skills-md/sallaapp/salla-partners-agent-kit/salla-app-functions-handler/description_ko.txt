@@ -1,0 +1,1 @@
+Salla 앱 기능 구축 3단계: 트리거의 '템플릿'에서 핸들러 본문을 작성합니다. 로직을 코딩할 때 사용합니다. 입력된 '컨텍스트'(페이로드/판매자/설정) 읽기, 'Resp'(또는 엔터티 'Shipment') 빌더를 통해 응답 계약 반환, V8 격리 샌드박스(웹 표준 API, HTTP의 경우 'fetch') 내부 유지, 각 'fetch'를 동기화/비동기 시간 초과로 제한합니다. salla-app-functions에서 라우팅됩니다. salla-app-functions-validate로 다음을 검증하세요. 토큰 처리 → salla-app-auth; API 세부정보 → salla-api-core.

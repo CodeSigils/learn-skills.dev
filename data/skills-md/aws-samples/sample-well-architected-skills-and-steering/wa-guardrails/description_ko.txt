@@ -1,0 +1,1 @@
+예방적 Well-Architected 가드레일(AWS Config 규칙, 서비스 제어 정책, 권한 경계, CloudWatch 경보, IaC 정책 확인(CDK Aspects, cfn-guard, OPA/Sentinel))과 선택적 거버넌스 조정 문서를 생성하여 워크로드가 한 번 평가되는 대신 시간이 지남에 따라 Well-Architected 모범 사례에 맞춰 유지되도록 합니다. 사용자가 CI에서 모범 사례를 시행하고, 안전하지 않거나 규정을 준수하지 않는 구성의 배송을 방지하고, 구성 드리프트를 감지하고, Well-Architected 검토의 수정 사항을 지속적인 제어로 성문화하거나, AI 코딩 에이전트에 대한 상시 조정 파일로 표준을 캡처하려는 경우에 사용합니다.

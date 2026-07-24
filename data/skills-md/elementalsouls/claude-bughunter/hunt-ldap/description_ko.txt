@@ -1,0 +1,1 @@
+헌트 LDAP 주입 및 XPath 주입 - 인증 우회, 문자별 숨은 문자 속성 추출, AD 사용자/그룹 열거, XML 저장소 XPath 우회. LDAP 특수 문자 집합(* ( ) \ NUL /), 검색 필터 컨텍스트와 DN 주입, 괄호 밸런싱, AND/OR 필터 논리, 비 AD 디렉터리의 {SSHA}/{CRYPT} userPassword exfil을 다룹니다. 대상이 LDAP/AD 인증, 디렉터리 백엔드가 있는 기업 SSO, 주소록/사람 검색 API 또는 XPath로 쿼리되는 XML 기반 데이터 저장소를 사용할 때 사용합니다.

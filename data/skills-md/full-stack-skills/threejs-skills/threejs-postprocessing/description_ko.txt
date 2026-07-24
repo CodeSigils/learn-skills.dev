@@ -1,0 +1,1 @@
+EffectComposer, Pass 기본 클래스, RenderPass 및 UnrealBloomPass, SSAOPass, SSRPass, BokehPass, OutlinePass, FXAAPass/SMAAPass, TAARenderPass 및 ShaderPass와 같은 스톡 패스를 사용하여 three.js에 대한 화면 공간 사후 처리를 추가합니다. 기본 셰이더 모듈에 대한 셰이더 애드온 그룹을 참조합니다. 노드/WebGPU 스택에 사용되는 핵심 PostProcessing 클래스와 대조됩니다(3js-node-tsl 및 threejs-renderers 참조). 기본 렌더러 톤 매핑(3js-renderers)에만 사용되지 않고 작곡가 체인을 구축할 때 사용합니다.
