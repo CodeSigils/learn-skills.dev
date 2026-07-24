@@ -1,0 +1,1 @@
+NTLM をハントし、インターネットにアクセス可能な IIS/SharePoint/Exchange 上で情報開示をネゴシエートします。匿名 NTLM Type-2 チャレンジ キャプチャにより、AV_PAIRS 構造を介して NetBIOS ドメイン、内部 DNS フォレスト、コンピュータ名、AD タイムスタンプが漏洩します。デフォルトの Windows インストーラー ホスト名 (WIN-XXXXXXXXXXX パターン) は遅延プロビジョニングを示します。ターゲットが「WWW-Authenticate: NTLM」または「Negotiate」ヘッダーを匿名でアドバタイズする場合に使用します。
