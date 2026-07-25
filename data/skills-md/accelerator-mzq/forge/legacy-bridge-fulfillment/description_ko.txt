@@ -1,0 +1,1 @@
+forge Legacy-bridge 또는 forge archive 명령이 에이전트 이행이 필요한 작업 매니페스트(forge/.cache/legacy-bridge-task-<op>.json)를 내보낼 때 사용합니다. 매니페스트를 읽고, LLM 작업을 수행하고, 결과를 쓰고, --apply를 실행합니다. 작업에는 맵/인덱스/재생성/동기화 확인/추출이 포함됩니다.

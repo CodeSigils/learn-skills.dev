@@ -1,0 +1,7 @@
+Regeln zum Schreiben von Code, den Programmieragenten (und Menschen) finden und verstehen können
+Klartextsuche. Anwenden, wenn Code geschrieben oder umbenannt wird: Funktionen, Typen, Konstanten,
+Dateien, Fehlermeldungen, Dokumentkommentare.
+
+Basierend auf Messungen: Agenten navigieren per Klartextsuche, nicht per AST oder
+Sprachserver, daher ist jeder Bezeichner eine Suchanfrage und jede Suche ein Fehlschlag
+Kosten für verschwendete Lesevorgänge.

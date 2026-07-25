@@ -1,0 +1,7 @@
+Reglas para escribir código que los agentes codificadores (y los humanos) puedan encontrar y comprender a través de
+búsqueda de texto plano. Aplicar siempre que se escriba o cambie el nombre del código: funciones, tipos, constantes,
+archivos, mensajes de error, comentarios de documentos.
+
+Basado en la medición: los agentes navegan mediante búsquedas de texto plano, no mediante AST o
+servidor de idioma, por lo que cada identificador es una consulta de búsqueda y cada búsqueda falla
+cuesta lecturas desperdiciadas.

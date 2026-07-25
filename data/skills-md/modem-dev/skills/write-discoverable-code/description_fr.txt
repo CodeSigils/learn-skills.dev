@@ -1,0 +1,7 @@
+Règles d'écriture de code que les agents de codage (et les humains) peuvent trouver et comprendre grâce à
+recherche en texte brut. A appliquer à chaque fois que vous écrivez ou renommez du code : fonctions, types, constantes,
+fichiers, messages d'erreur, commentaires de doc.
+
+Fondé sur la mesure : les agents naviguent par recherche en texte brut, et non par AST ou
+serveur de langue, donc chaque identifiant est une requête de recherche et chaque recherche manquée
+coûts de lecture gaspillés.

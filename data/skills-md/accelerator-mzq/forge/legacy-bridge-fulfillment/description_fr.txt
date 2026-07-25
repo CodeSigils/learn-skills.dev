@@ -1,0 +1,1 @@
+À utiliser lorsqu'une commande forge Legacy-bridge ou Forge archive émet un manifeste de tâche (forge/.cache/legacy-bridge-task-<op>.json) qui nécessite l'exécution d'un agent - lit le manifeste, exécute l'opération LLM, écrit les résultats, exécute --apply. Les opérations incluent la carte/index/régénération/vérification de synchronisation/extraction.

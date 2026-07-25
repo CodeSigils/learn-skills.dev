@@ -1,0 +1,1 @@
+编写、审查和重写 PostgreSQL 的 Django 迁移，并保证零停机。每当用户提到迁移、Django 架构更改或部署安全时，即使他们没有明确表示“零停机时间”，也要使用此技能。触发：“检查此迁移”、“此迁移安全吗？”、“为...编写迁移”、“重写此迁移”、“如何添加 NOT NULL 列/删除列/添加索引/重命名列/添加 FK 而无需停机”、“此迁移会导致锁定吗？”、“此迁移会阻塞生产”。涵盖：SeparateDatabaseAndState 两文件分割、AddIndexConcurrently、FK NOT VALID + VALIDATE、NOT NULL 列的 db_default、lock_timeout 和 RunPython 安全规则。
