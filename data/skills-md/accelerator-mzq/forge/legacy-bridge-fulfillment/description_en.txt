@@ -1,0 +1,1 @@
+Use when a forge legacy-bridge or forge archive command emits a Task manifest (forge/.cache/legacy-bridge-task-<op>.json) that needs agent fulfillment - reads the manifest, performs the LLM op, writes results, runs --apply. Ops include map / index / regenerate / sync-check / extract.
