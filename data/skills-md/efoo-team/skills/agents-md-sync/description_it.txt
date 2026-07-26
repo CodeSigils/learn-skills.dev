@@ -1,0 +1,3 @@
+Da utilizzare solo quando l'utente invoca esplicitamente /agents‑md‑sync (o $agents‑md‑sync nel Codex). Non eseguire mai il richiamo automatico.
+
+Analizza l'intero repository e genera o aggiorna una knowledge base AGENTS.md per ciascuna gerarchia (la radice e le sottodirectory selezionate mediante punteggio). Ogni volta che viene eseguito rileva qualsiasi deriva tra AGENTS.md esistente e il codice base, segue lo stato più recente e mantiene anche un bridge CLAUDE.md per Claude Code. Usalo quando devi creare, inizializzare o aggiornare AGENTS.md o per creare una knowledge base paragonabile a un'operazione init-deep. Per i principi di progettazione su cosa inserire nel file di istruzioni, fare riferimento alla progettazione del progetto nativo dell'agente.
