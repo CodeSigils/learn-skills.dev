@@ -1,1 +1,1 @@
-连接 ibl.ai 组织以进行 API 访问。获取用户登录（如果是新用户，则为 ibl.ai/join；如果返回，则为 login.iblai.app/me），捕获其组织密钥和用户名，创建平台 API 令牌，并将 IBLAI_ORG / IBLAI_USERNAME / IBLAI_API_KEY 写入 .env。如果您已经持有组织凭据（密钥 + 秘密），则秘密可直接用作 Api 令牌 — 无需浏览器。在任何其他 iblai-* 技能之前先运行此命令。
+连接 ibl.ai 组织以进行 API 访问。获取用户登录（如果是新用户，则为 ibl.ai/join；如果返回，则为 login.iblai.app/me），捕获其组织密钥和用户名，创建平台 API 令牌，并将 IBLAI_ORG / IBLAI_USERNAME / IBLAI_API_KEY 写入 .env。如果您已经持有组织凭据（密钥 + 秘密），则秘密可直接用作 Api 令牌 - 无需浏览器。在任何其他 iblai-* 技能之前先运行此命令。

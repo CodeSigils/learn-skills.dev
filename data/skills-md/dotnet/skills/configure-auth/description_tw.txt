@@ -1,0 +1,1 @@
+為 Blazor Web 應用程式新增身分驗證和授權，考慮應用程式的呈現模式。當使用者需要在頁面、AuthorizeView、基於角色或政策的存取、登入/登出身分頁或 AuthenticationStateProvider 上 [Authorize] 時使用。另外，當 WebAssembly 載入後驗證狀態為 null、SignInManager 拋出互動式元件、<NotAuthorized> 內容永遠不會在靜態 SSR 中呈現或 HttpContext.User 在互動式元件中為 null 時，請使用。請勿用於一般元件創作（請參閱作者元件）、與驗證無關的預先渲染問題（請參閱支援預渲染）或管理非驗證級聯狀態（請參閱協調元件）。

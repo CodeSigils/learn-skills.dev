@@ -1,0 +1,1 @@
+顯示使用者在 Senpi 計劃中的地位 - 積分和等級、忠誠度等級和費用、Agents Arena 位置以及建議收入。用於「我有多少積分？」、「我的排名/等級是多少？」、「我的費用是多少？」、「我在競技場中表現如何？」、「我的推薦獎勵」。使用這個而不是一一呼叫 user_get_senpi_points + get_loyalty_tiers + arena_* 。隱藏引擎 (scripts/status.py) 在一次呼叫中完成所有操作。需要用戶範圍的 Senpi 令牌。

@@ -1,0 +1,1 @@
+提供測試分析技能的特定於語言的參考文件的文件路徑（斷言品質、測試反模式、測試差距分析、測試氣味檢測、測試標記）。呼叫此技能來發現可用的擴充檔案（例如，.NET/MSTest/xUnit/NUnit/TUnit 的 dotnet.md、pytest/unittest 的 python.md、Jest/Vitest/Mocha 的 typescript.md、JUnit/TestNG 的 java.md 等）。不要直接使用 - 由測試品質審核代理和多語言分析技能調用，需要特定於框架的查找表（測試標記、斷言 API、跳過註釋、睡眠模式、神秘來賓指示器、集成標記、設置/拆卸、標籤支援功能）。

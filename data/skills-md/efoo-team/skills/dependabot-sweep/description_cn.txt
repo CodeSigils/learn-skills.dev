@@ -1,1 +1,1 @@
-仅当用户显式调用 /dependabot-sweep（或 Codex 中的 $dependabot-sweep）时使用。切勿自动调用。分析 Dependabot 批量创建的所有依赖项更新 PR，并创建一个将所有更新合并到一个分支中的单个 PR。不要单独合并每个 Dependabot PR，而是将它们组合成一个集成的 PR，并在留下评论后关闭原始 PR。
+仅当用户显式调用 /dependabot-sweep（或 Codex 中的 $dependabot-sweep）时使用。切勿自动调用。分析 Dependabot 批量创建的依赖项更新 PR，并创建一个将所有更新合并到一个分支中的单个 PR。不要单独合并每个 Dependabot PR，而是将它们组合成一个合并的 PR，并在留下评论的情况下关闭原始 PR。

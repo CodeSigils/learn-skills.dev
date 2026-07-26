@@ -1,1 +1,1 @@
-仅当用户显式调用 /search-history（或 Codex 中的 $search-history）时使用。切勿自动调用。 Claude Code / Codex CLI 的本地聊天历史记录 (JSONL) 通过关键字进行交叉搜索，并呈现匹配的会话和对话片段。历史文件被视为只读。
+仅当用户显式调用 /search-history（或 Codex 中的 $search-history）时使用。切勿自动调用。跨关键字搜索 Claude Code /Codex CLI 的本地聊天记录（JSONL），并呈现相关会话和对话片段。历史文件被视为只读。

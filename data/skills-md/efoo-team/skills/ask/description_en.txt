@@ -1,3 +1,1 @@
-Only use when the user explicitly invokes /ask (or $ask in Codex). Never auto‑invoke. A read‑only skill that provides analysis and answers based on facts without performing any implementation or editing in response to questions. For questions about how code works, implementation policies, error causes, design validity, etc., answer based on the facts of the implementation and documentation rather than speculation.
-
-Please always respond in the user's language.
+Only use when the user explicitly invokes /ask (or $ask in Codex). Never auto-invoke. A read‑only skill that, for questions, provides analysis and answers based on facts without performing any implementation or editing. It answers questions about code mechanisms, implementation policies, error causes, design validity, etc., based on factual implementation and documentation rather than speculation. Please always respond in the user's language.

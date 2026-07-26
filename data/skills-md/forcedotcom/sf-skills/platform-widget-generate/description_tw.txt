@@ -1,0 +1,1 @@
+使用此技能創建完整的 HXL WidgetBundle（UEM body + schema.json + -meta.xml）。觸發時間：使用者請求任何主題、領域、特徵或實體名詞的小部件、馬賽克、片段、卡片或豐富的 UI 介面；提示僅命名實體或資料形狀，而不呼叫 Lightning 類型、CLT 或 Apex 支援的類型。不要在以下情況下觸發：提示明確顯示「Lightning Type」、「CLT」、「Custom Lightning Type」、「Apex-backed type」或引用「@apexClassType/...」（使用 platform-lightning-type-widget-coordinate）；為自訂閃電類型 建立自訂 LWC 類型渲染器（版本 LWC-D-gene-gene率）。

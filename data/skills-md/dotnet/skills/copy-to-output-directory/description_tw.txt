@@ -1,0 +1,1 @@
+選擇 MSBuild CopyToOutputDirectory / CopyToPublishDirectory 模式：Never、PreserveNewest、Always 和 IfDifferent (MSBuild 17.13+)，加上 $(SkipUndFilesOnCopyAlways)。用途：刪除每次建置時始終複製效能命中；重置在建置之間發生變化的輸出檔案。請勿用於：一般增量建置診斷（使用增量建置）；非 MSBuild 建置系統。

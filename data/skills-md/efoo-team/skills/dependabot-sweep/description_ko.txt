@@ -1,0 +1,1 @@
+사용자가 명시적으로 /dependentabot-sweep(또는 Codex의 $dependentabot-sweep)을 호출하는 경우에만 사용하세요. 절대로 자동 호출하지 마세요. Sendabot이 생성한 종속성 업데이트 PR을 대량으로 분석하고 모든 업데이트를 하나의 분기로 통합하는 단일 PR을 생성합니다. 각 dependencyabot PR을 개별적으로 병합하는 대신 통합 PR로 결합하고 설명을 남겨두고 원본 PR을 닫습니다.

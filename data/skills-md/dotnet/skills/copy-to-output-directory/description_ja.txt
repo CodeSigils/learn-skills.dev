@@ -1,0 +1,1 @@
+MSBuild CopyToOutputDirectory / CopyToPublishDirectory モードの選択: Never、PreserveNewest、Always、IfDifferent (MSBuild 17.13 以降)、および $(SkipUnchangedFilesOnCopyAlways)。用途: ビルドごとの削除 常にパフォーマンス ヒットをコピーします。ビルド間で変更された出力ファイルをリセットします。以下の用途には使用しないでください: 一般的なインクリメンタル ビルド診断 (インクリメンタル ビルドを使用)。 MSBuild 以外のビルド システム。

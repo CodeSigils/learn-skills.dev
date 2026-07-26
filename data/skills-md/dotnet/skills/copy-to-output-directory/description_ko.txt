@@ -1,0 +1,1 @@
+MSBuild CopyToOutputDirectory / CopyToPublishDirectory 모드 선택: Never, PreserveNewest, Always 및 IfDifferent(MSBuild 17.13+) 및 $(SkipUnchangedFilesOnCopyAlways). 용도: 빌드별 제거 Always copy perf hit; 빌드 간에 변경된 출력 파일을 재설정합니다. 사용하지 마십시오: 일반 증분 빌드 진단(증분 빌드 사용); MSBuild가 아닌 빌드 시스템.

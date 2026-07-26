@@ -1,0 +1,1 @@
+僅當使用者明確呼叫 /dependabot-sweep（或 Codex 中的 $dependabot-sweep）時使用。切勿自動呼叫。分析 Dependabot 批次建立的相依性更新 PR，並建立一個將所有更新合併到一個分支中的單一 PR。不要單獨合併每個 Dependabot PR，而是將它們組合成一個合併的 PR，並在留下評論的情況下關閉原始 PR。

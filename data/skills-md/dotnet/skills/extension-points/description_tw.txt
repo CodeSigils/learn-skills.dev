@@ -1,0 +1,1 @@
+MSBuild 擴充性指南：CustomBefore/CustomAfter 掛鉤、按字母順序排序的通配符導入、帶有控制項屬性的導入門控、NuGet 套件建立擴充佈局 (build/buildTransitive) 以及 MicrosoftCommonPropsHasBeenImported 防護。用途：診斷和修復 MSBuild 導入和掛鉤模式，檢查和修復 Directory.Build 檔案中的擴展點反模式，修復破壞新克隆的導入中缺少的 Exists() 保護，修復 NuGet 包掛鉤被靜默刪除而不是附加，使構建目標可擴展用於其他項目，將自定義邏輯構建包，創建一個擴展包請勿用於：目標創作模式（使用目標創作）、道具與目標放置（使用目錄建立組織）、一般反模式（使用 msbuild-antipatterns）、非 MSBuild 建置系統。

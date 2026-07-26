@@ -1,0 +1,1 @@
+透過 CARTO MCP 伺服器的 view_map 工具，根據 Deck.gl 聲明性規格在聊天中渲染內聯的臨時互動式地圖。每當使用者要求繪製、視覺化或顯示點、多邊形、六邊形、四邊形、簇、密度（熱圖）或柵格的地理分佈時使用 - 並且該地圖是探索性或一次性的，並不意味著保存為永久的 CARTO Builder 地圖。觸發「在地圖上顯示 X」、「視覺化 Y」、「製作 Z 的熱圖」、「渲染 W 的點/簇/柵格」。與 carto-create-builder-maps（永久地圖的 CLI 創作）、carto-preview-builder-map（加載現有保存的 Builder 地圖）和 carto-develop-app（用 TypeScript / JavaScript 從頭開始編寫 Deck.gl 應用程式）不同。

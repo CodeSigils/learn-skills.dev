@@ -1,0 +1,1 @@
+僅適用於常規電子表格 Sheet 和多維表 Bitable/Base，而不是所有資料或 JSON 請求的通用入口點。當使用者需要讀取/寫入單元格、匯入/匯出表格、設定樣式/過濾視圖/條件/下拉清單/浮動圖像，或操作多維表格中的表格、欄位、記錄、檢視、角色、協作者、儀表板、表單、工作流程和資料聚合時使用它；當覆蓋 --asbot cron/無人值守的 Bitable 場景時也必須使用它。明確禁止文件權限/協作者、訊息/事件訂閱和未包裝的 OpenAPI 通用傳遞；它們分別使用 feishu-cli-storage、feishu-cli-messaging 和 feishu-cli-platform。文件中的Markdown表格使用feishu-cli-docs；資料圖表顯示使用feishu-cli-visual。

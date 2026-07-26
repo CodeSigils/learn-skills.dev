@@ -1,0 +1,1 @@
+連接 ibl.ai 組織以進行 API 存取。取得使用者登入（如果是新用戶，則為 ibl.ai/join；如果返回，則為 login.iblai.app/me），捕獲其組織金鑰和用戶名，建立平台 API 令牌，並將 IBLAI_ORG / IBLAI_USERNAME / IBLAI_API_KEY 寫入 .env。如果您已經持有組織憑證（密鑰 + 秘密），則秘密可直接用作 Api 令牌 - 無需瀏覽器。在任何其他 iblai-* 技能之前先執行此指令。

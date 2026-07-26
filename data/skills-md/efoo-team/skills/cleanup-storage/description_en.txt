@@ -1,1 +1,2 @@
-Only use when the user explicitly invokes /cleanup-storage (or $cleanup-storage in Codex). Never auto‑invoke. A skill to alleviate storage pressure on the local machine. It examines disk usage, organizes deletion candidates by safety category, presents them, obtains user approval for each category before deleting, and reports the change in free space.
+Only use when the user explicitly invokes /cleanup‑storage (or $cleanup‑storage in Codex). Never auto‑invoke.  
+A skill to relieve storage pressure on the local machine. It examines disk usage, organizes deletion candidates in order of safety categories and presents them, obtains user approval for each category before deleting, and reports the change in free space.
