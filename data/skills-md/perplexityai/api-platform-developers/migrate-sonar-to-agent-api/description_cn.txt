@@ -1,0 +1,1 @@
+将代码从 Perplexity 的 Sonar API（聊天完成）迁移到 Agent API（/v1/agent、response.create）。映射端点、请求参数、模型段（sonar、sonar-pro、sonar-reasoning、sonar-deep-research）、响应解析、流式传输和引用。从 Sonar 迁移、将聊天完成移动到 Agent API、替换已弃用的 sonar-pro 或 sonar-reasoning 模型，或者在尝试迁移后修复 400 个未知字段错误和缺失引用时使用。

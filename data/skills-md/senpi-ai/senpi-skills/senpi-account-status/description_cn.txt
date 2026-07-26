@@ -1,0 +1,1 @@
+显示用户在 Senpi 计划中的地位 - 积分和等级、忠诚度等级和费用、Agents Arena 位置以及推荐收入。用于“我有多少积分？”、“我的排名/等级是多少？”、“我的费用是多少？”、“我在竞技场中表现如何？”、“我的推荐奖励”。使用这个而不是一一调用 user_get_senpi_points + get_loyalty_tiers + arena_* 。隐藏引擎 (scripts/status.py) 在一次调用中完成所有操作。需要用户范围的 Senpi 令牌。

@@ -1,0 +1,1 @@
+交互式地构建或编辑 Senpi 交易策略，一次做出一个决定。用于“构建策略”、“从头开始创建策略”、“设计策略”、“我有一个交易想法”或任何需要 DSL 的策略（运行时监督退出：止损、追踪止损、利润锁定阶梯）——此处编写的 runtime.yaml 是携带 DSL 的唯一方法；原始 MCP Strategy_create* / create_position 调用不能且绝不能支持命名或受保护的策略。首先提供最接近的模板（通过 senpi-strategy-discover），然后根据用户选择进行 fork-or-scratch。不适用于安装（senpi-strategy-ops）或选择一个来运行（senpi-strategy-discover）。

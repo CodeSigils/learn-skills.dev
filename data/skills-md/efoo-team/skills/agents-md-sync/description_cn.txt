@@ -1,0 +1,1 @@
+仅当用户显式调用 /agents-md-sync （或 Codex 中的 $agents-md-sync）时使用。切勿自动调用。一种分析整个存储库并生成/更新分层 AGENTS.md 知识库（通过评分选择的根目录和子目录）的技能。每次运行时，它都会检测现有 AGENTS.md 和代码库之间的差异，使它们保持最新状态，并维护 Claude 代码的 CLAUDE.md 桥。当您需要维护、初始化或更新AGENTS.md，或者构建相当于init-deep的知识库时，可以使用它。有关指令文件中写入内容的设计原则，请参阅agent-native-project-design。

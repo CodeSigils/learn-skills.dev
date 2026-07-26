@@ -1,0 +1,1 @@
+向 Blazor Web 应用程序添加身份验证和授权，考虑应用程序的呈现模式。当用户需要在页面、AuthorizeView、基于角色或策略的访问、登录/注销身份页面或 AuthenticationStateProvider 上 [Authorize] 时使用。另外，当 WebAssembly 加载后身份验证状态为 null、SignInManager 抛出交互式组件、<NotAuthorized> 内容永远不会在静态 SSR 中呈现或 HttpContext.User 在交互式组件中为 null 时，请使用。请勿用于一般组件创作（请参阅作者组件）、与身份验证无关的预渲染问题（请参阅支持预渲染）或管理非身份验证级联状态（请参阅协调组件）。

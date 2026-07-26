@@ -1,0 +1,1 @@
+通过 CARTO MCP 服务器的 load_builder_map 工具在聊天中预览现有保存的 CARTO Builder 地图。每当用户引用已保存的构建器地图时使用 - 通过 URL、ID 或名称（首先通过 list_maps 解析）。渲染轻量级只读预览（图层、底图、视口、弹出窗口、图例）。不包括小部件、SQL 参数、地图描述和其他 Builder 独有的功能；用户可以单击“在 Builder 中打开”以获得完整体验。触发“显示 X 地图”、“打开 Y 地图”、“预览 Z 地图”以及新创建的地图的 CLI 创建后内联预览。与 carto-create-builder-maps（CLI 创作）、carto-render-inline-map（ad-hoc Deck.gl 规范）和 carto-develop-app（开发人员应用程序）不同。

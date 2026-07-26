@@ -1,0 +1,1 @@
+选择 MSBuild CopyToOutputDirectory / CopyToPublishDirectory 模式：Never、PreserveNewest、Always 和 IfDifferent (MSBuild 17.13+)，加上 $(SkipUnchangedFilesOnCopyAlways)。用途：删除每次构建时始终复制性能命中；重置在构建之间发生变化的输出文件。请勿用于：一般增量构建诊断（使用增量构建）；非 MSBuild 构建系统。

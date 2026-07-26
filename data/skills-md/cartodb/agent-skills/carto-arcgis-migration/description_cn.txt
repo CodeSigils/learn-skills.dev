@@ -1,0 +1,1 @@
+端到端 ArcGIS Portal / AGOL → CARTO 迁移。当用户想要将 ArcGIS 内容迁移到 CARTO、计划迁移、询问“我的门户中有什么”、命名门户/AGOL URL 或要求迁移数据集/Web 地图/简单应用程序时触发。运行三个阶段 - 发现（枚举项目 + 写入 MIGRATION_MANIFEST.md）、迁移数据（托管要素图层/表 → CARTO 表）、迁移地图（Web 地图 + 简单仪表板/Web 体验/Web 地图应用程序 → CARTO Builder 地图）。默认模式为批处理；迁移的地图始终标记为“来自 ArcGIS”并创建为私有地图。
