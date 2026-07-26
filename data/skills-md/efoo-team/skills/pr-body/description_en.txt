@@ -1,0 +1,1 @@
+Only use when the user explicitly invokes /pr-body (or $pr-body in Codex). Never auto-invoke. AIに実装させた変更を抽象度の階層構造で分析し、構造化されたGitHub PR本文として出力する（本文生成のみ。Git操作は行わない。旧名 github-pull-request）。大規模変更でも、システム構成図→データ構造→API→処理フロー→実装詳細の順で抽象→具体へ整理する。画像エビデンスを含むPR本文の組み立て方も扱う。

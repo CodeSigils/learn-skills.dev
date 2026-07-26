@@ -1,0 +1,1 @@
+Use when one Python service must send each agent's, tenant's, team's, or request's spans to its correct Arize space and project using application metadata. Covers dynamic OpenTelemetry routing for custom agent builders and multi-tenant applications, including register_with_routing, set_routing_context, multi-space tracing, and custom span routing.

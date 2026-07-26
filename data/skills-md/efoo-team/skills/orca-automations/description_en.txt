@@ -1,0 +1,1 @@
+Only use when the user explicitly invokes /orca-automations (or $orca-automations in Codex). Never auto-invoke. Orca の自動化（Automations）を orca CLI で作成・管理するスキル。「毎朝9時に◯◯して」「定期実行・スケジュール実行する automation を作って」「自動化の一覧・実行履歴・削除」を Orca 利用環境で求められたときに使用する。フラグ仕様はインストール済み CLI への問い合わせに委譲し最新仕様に追従する。OS の cron・CI のスケジュール・Claude Code 自身の定期実行には使わない。

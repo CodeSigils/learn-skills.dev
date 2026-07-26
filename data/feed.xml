@@ -4,595 +4,639 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 25 Jul 2026 02:29:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jul 2026 02:38:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-07-25)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-07-26)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:snapshot</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:snapshot</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8327
-Trending skills: 7527
-Hot skills: 2040
-Top All Time: find-skills (2663366)
-Top Trending: ai-video-generation (21800)
-Top Hot: ai-music (342)]]></description>
+All Time skills: 8336
+Trending skills: 7782
+Hot skills: 2304
+Top All Time: find-skills (2674880)
+Top Trending: ai-video-generation (21410)
+Top Hot: video-edit (401)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): ai-image-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:skills-collective/skills/ai-image-generation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 336
-Source: skills-collective/skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
+            <title><![CDATA[[All Time] New entry (#49): caveman]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topAllTime:new:juliusbrussee/caveman/caveman</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #49
+Installs: 382036
+Source: juliusbrussee/caveman
+Description: Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): image-to-video]]></title>
-            <link>https://skills.sh/skills-collective/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:skills-collective/skills/image-to-video</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): orchestration]]></title>
+            <link>https://skills.sh/stablyai/orca/orchestration</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:stablyai/orca/orchestration</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 336
-Source: skills-collective/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
+Rank: #15
+Installs: 104
+Source: stablyai/orca
+Description: Use the Orca CLI to coordinate multiple coding agents via inter-agent messaging, task DAGs, dispatch with preamble injection, decision gates, and coordinator loops. Use when an agent needs to send or check inter-agent messages; create, dispatch, or track orchestration tasks; coordinate multi-agent workflows; or act as a coordinator dispatching work across terminals. Triggers include "orchestrate agents", "dispatch task", "send message to agent", "check inbox", "coordinate agents", "multi-agent", "create task DAG", "worker_done", "escalation", or any task involving inter-agent coordination through Orca.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): hyperframes-cli]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:heygen-com/hyperframes/hyperframes-cli</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): orca-cli]]></title>
+            <link>https://skills.sh/stablyai/orca/orca-cli</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:stablyai/orca/orca-cli</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #36
+Rank: #19
+Installs: 90
+Source: stablyai/orca
+Description: Use the Orca CLI to orchestrate worktrees and live terminals through a running Orca editor. Use when an agent needs to create, inspect, update, or remove Orca worktrees; inspect repo state known to Orca; or read, send to, wait on, or stop Orca-managed terminals. Triggers include "use orca cli", "manage Orca worktrees", "read Orca terminal", "reply to Claude Code in Orca", "create a worktree in Orca", or any task where the agent should operate through Orca instead of talking to git worktrees and terminal processes directly.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): computer-use]]></title>
+            <link>https://skills.sh/stablyai/orca/computer-use</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:stablyai/orca/computer-use</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
 Installs: 87
-Source: heygen-com/hyperframes
-Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+Source: stablyai/orca
+Description: Use Orca's computer-use CLI to inspect and control local desktop apps through accessibility trees, screenshots, and safe UI actions. Use when an agent needs to list desktop apps, get an app state, read visible UI, click, type, press keys, scroll, drag, set values, or perform app accessibility actions. Triggers include "computer use", "orca computer", "list apps", "get app state", "read Spotify", "read Slack", "click app", "type text", "press key", "set value", "scroll app", "drag app", and desktop app interaction tasks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): media-use]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:heygen-com/hyperframes/media-use</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
-Rank: #38
-Installs: 75
+Rank: #46
+Installs: 64
 Source: heygen-com/hyperframes
-Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): hyperframes]]></title>
+            <title><![CDATA[[Hot] New entry (#47): ai-video-generation]]></title>
+            <link>https://skills.sh/101-skills/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:101-skills/skills/ai-video-generation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 58
+Source: 101-skills/skills
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): twitter-automation]]></title>
+            <link>https://skills.sh/101-skills/skills/twitter-automation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:101-skills/skills/twitter-automation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 56
+Source: 101-skills/skills
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): ai-avatar-video]]></title>
+            <link>https://skills.sh/101-skills/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:101-skills/skills/ai-avatar-video</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 56
+Source: 101-skills/skills
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): remotion-render]]></title>
+            <link>https://skills.sh/101-skills/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:new:101-skills/skills/remotion-render</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 56
+Source: 101-skills/skills
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#19): twitter-automation]]></title>
+            <link>https://skills.sh/magentosh/skills/twitter-automation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:magentosh/skills/twitter-automation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #19
+Installs: 7215
+Source: magentosh/skills
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#20): ai-avatar-video]]></title>
+            <link>https://skills.sh/magentosh/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:magentosh/skills/ai-avatar-video</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #20
+Installs: 7210
+Source: magentosh/skills
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#21): ai-image-generation]]></title>
+            <link>https://skills.sh/magentosh/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:magentosh/skills/ai-image-generation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #21
+Installs: 7210
+Source: magentosh/skills
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#22): remotion-render]]></title>
+            <link>https://skills.sh/magentosh/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:magentosh/skills/remotion-render</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #22
+Installs: 7210
+Source: magentosh/skills
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#23): ai-video-generation]]></title>
+            <link>https://skills.sh/magentosh/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:magentosh/skills/ai-video-generation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #23
+Installs: 7210
+Source: magentosh/skills
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#38): hyperframes]]></title>
             <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #39
-Installs: 61
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #38
+Installs: 5182
 Source: heygen-com/hyperframes
 Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): hyperframes-registry]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 57
-Source: heygen-com/hyperframes
-Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#5): reddit-automation]]></title>
-            <link>https://skills.sh/doany-skills/skills/reddit-automation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:doany-skills/skills/reddit-automation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #5
-Installs: 330
-Source: doany-skills/skills
-Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#6): ai-video-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:new:skills-collective/skills/ai-video-generation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #6
-Installs: 322
-Source: skills-collective/skills
-Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#10): ai-music]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-music</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:new:skills-collective/skills/ai-music</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Trending] New entry (#39): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[New entry in Trending leaderboard.
-Rank: #10
-Installs: 15557
+Rank: #39
+Installs: 5161
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): hyperframes-core]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-core</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:new:heygen-com/hyperframes/hyperframes-core</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 4847
+Source: heygen-com/hyperframes
+Description: HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (1 → 3): ai-music]]></title>
+            <link>https://skills.sh/skills-collective/skills/ai-music</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:skills-collective/skills/ai-music</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #1
+Current rank: #3
+Delta: -2
+Installs: 374 (prev 342)
 Source: skills-collective/skills
 Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] New entry (#11): video-edit]]></title>
-            <link>https://skills.sh/skills-collective/skills/video-edit</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:new:skills-collective/skills/video-edit</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #11
-Installs: 15411
-Source: skills-collective/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#7): ai-image-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:new:skills-collective/skills/ai-image-generation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #7
-Installs: 16287
-Source: skills-collective/skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#8): image-to-video]]></title>
-            <link>https://skills.sh/skills-collective/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:new:skills-collective/skills/image-to-video</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #8
-Installs: 16009
-Source: skills-collective/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#9): ai-video-generation]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:new:skills-collective/skills/ai-video-generation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #9
-Installs: 15958
-Source: skills-collective/skills
-Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (1 → 13): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:vercel-labs/skills/find-skills</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #1
-Current rank: #13
-Delta: -12
-Installs: 141 (prev 251)
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (10 → 16): grilling]]></title>
-            <link>https://skills.sh/mattpocock/skills/grilling</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/grilling</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #10
-Current rank: #16
-Delta: -6
-Installs: 105 (prev 172)
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (11 → 21): domain-modeling]]></title>
-            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/domain-modeling</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #11
-Current rank: #21
-Delta: -10
-Installs: 98 (prev 157)
-Source: mattpocock/skills
-Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (12 → 17): handoff]]></title>
+            <title><![CDATA[[Hot] Rank down (17 → 31): handoff]]></title>
             <link>https://skills.sh/mattpocock/skills/handoff</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/handoff</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #12
-Current rank: #17
-Delta: -5
-Installs: 103 (prev 157)
-Source: mattpocock/skills
-Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (14 → 27): code-review]]></title>
-            <link>https://skills.sh/mattpocock/skills/code-review</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/code-review</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #14
-Current rank: #27
-Delta: -13
-Installs: 94 (prev 151)
-Source: mattpocock/skills
-Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (15 → 19): improve-codebase-architecture]]></title>
-            <link>https://skills.sh/mattpocock/skills/improve-codebase-architecture</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/improve-codebase-architecture</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #15
-Current rank: #19
-Delta: -4
-Installs: 102 (prev 150)
-Source: mattpocock/skills
-Description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (17 → 31): to-spec]]></title>
-            <link>https://skills.sh/mattpocock/skills/to-spec</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/to-spec</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/handoff</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
 Previous rank: #17
 Current rank: #31
 Delta: -14
-Installs: 93 (prev 149)
+Installs: 85 (prev 103)
 Source: mattpocock/skills
-Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
+Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (2 → 14): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/grill-me</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (18 → 30): tdd]]></title>
+            <link>https://skills.sh/mattpocock/skills/tdd</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/tdd</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #2
-Current rank: #14
+Previous rank: #18
+Current rank: #30
 Delta: -12
-Installs: 120 (prev 233)
+Installs: 85 (prev 102)
 Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (20 → 30): diagnosing-bugs]]></title>
-            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/diagnosing-bugs</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (20 → 37): prototype]]></title>
+            <link>https://skills.sh/mattpocock/skills/prototype</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/prototype</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
 Previous rank: #20
-Current rank: #30
-Delta: -10
-Installs: 93 (prev 148)
-Source: mattpocock/skills
-Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (23 → 35): ask-matt]]></title>
-            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/ask-matt</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #23
-Current rank: #35
-Delta: -12
-Installs: 88 (prev 139)
-Source: mattpocock/skills
-Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 12): design-guide]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/design-guide</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/design-guide</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #12
-Delta: -9
-Installs: 226 (prev 221)
-Source: getpaperclipai/paperclip
-Description: Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling UI elements, or when you need to understand the design language and conventions. Covers: component creation, design tokens, typography, status/priority systems, composition patterns, and the /design-guide showcase page. Always use this skill alongside the frontend-design skill (for visual quality) and the web-design-guidelines skill (for web best practices).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (35 → 49): prisma-upgrade-v7]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-upgrade-v7</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:prisma/skills/prisma-upgrade-v7</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #35
-Current rank: #49
-Delta: -14
-Installs: 57 (prev 81)
-Source: prisma/skills
-Description: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on "upgrade to prisma 7", "prisma 7 migration", "prisma-client-js to prisma-client", "driver adapter required".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (36 → 47): prisma-postgres-setup]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-postgres-setup</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:prisma/skills/prisma-postgres-setup</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #36
-Current rank: #47
-Delta: -11
-Installs: 57 (prev 81)
-Source: prisma/skills
-Description: Set up a new Prisma Postgres database and connect it to a local project using the Management API. Use when asked to "set up a database", "create a Prisma Postgres project", "get a connection string", "connect my app to Prisma Postgres", or "provision a database".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (37 → 50): prisma-database-setup]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-database-setup</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:prisma/skills/prisma-database-setup</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #37
-Current rank: #50
-Delta: -13
-Installs: 57 (prev 81)
-Source: prisma/skills
-Description: Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on "configure postgres", "connect to mysql", "setup mongodb", "sqlite setup".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 7): paperclip-create-agent]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #7
-Delta: -3
-Installs: 226 (prev 220)
-Source: getpaperclipai/paperclip
-Description: Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 8): paperclip-converting-plans-to-tasks]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #8
-Delta: -3
-Installs: 226 (prev 220)
-Source: getpaperclipai/paperclip
-Description: The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (6 → 9): para-memory-files]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/para-memory-files</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/para-memory-files</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #6
-Current rank: #9
-Delta: -3
-Installs: 226 (prev 220)
-Source: getpaperclipai/paperclip
-Description: File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (7 → 10): paperclip]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/paperclip</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #10
-Delta: -3
-Installs: 226 (prev 220)
-Source: getpaperclipai/paperclip
-Description: Interact with the Paperclip control plane API to manage tasks, coordinate with other agents, and follow company governance. Use when you need to check assignments, update task status, delegate work, post comments, set up or manage routines (recurring scheduled tasks), or call any Paperclip API endpoint. Do NOT use for the actual domain work itself (writing code, research, etc.) — only for Paperclip coordination.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (8 → 11): paperclip-board]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-board</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:getpaperclipai/paperclip/paperclip-board</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #11
-Delta: -3
-Installs: 226 (prev 220)
-Source: getpaperclipai/paperclip
-Description: Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (9 → 15): grill-with-docs]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/grill-with-docs</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #9
-Current rank: #15
-Delta: -6
-Installs: 111 (prev 184)
-Source: mattpocock/skills
-Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (26 → 20): prototype]]></title>
-            <link>https://skills.sh/mattpocock/skills/prototype</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:mattpocock/skills/prototype</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #26
-Current rank: #20
-Delta: +6
-Installs: 99 (prev 137)
+Current rank: #37
+Delta: -17
+Installs: 82 (prev 99)
 Source: mattpocock/skills
 Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (31 → 4): video-edit]]></title>
-            <link>https://skills.sh/skills-collective/skills/video-edit</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:skills-collective/skills/video-edit</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank down (22 → 38): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/triage</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #31
-Current rank: #4
-Delta: +27
-Installs: 335 (prev 109)
+Previous rank: #22
+Current rank: #38
+Delta: -16
+Installs: 80 (prev 96)
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (25 → 35): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/teach</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #25
+Current rank: #35
+Delta: -10
+Installs: 83 (prev 95)
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (3 → 6): image-to-video]]></title>
+            <link>https://skills.sh/skills-collective/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:skills-collective/skills/image-to-video</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #3
+Current rank: #6
+Delta: -3
+Installs: 358 (prev 336)
+Source: skills-collective/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (21 → 18): domain-modeling]]></title>
+            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/domain-modeling</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #21
+Current rank: #18
+Delta: +3
+Installs: 91 (prev 98)
+Source: mattpocock/skills
+Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (27 → 20): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:mattpocock/skills/code-review</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #27
+Current rank: #20
+Delta: +7
+Installs: 90 (prev 94)
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (38 → 27): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #38
+Current rank: #27
+Delta: +11
+Installs: 86 (prev 75)
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (39 → 22): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #39
+Current rank: #22
+Delta: +17
+Installs: 88 (prev 61)
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank up (4 → 1): video-edit]]></title>
+            <link>https://skills.sh/skills-collective/skills/video-edit</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:skills-collective/skills/video-edit</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Hot leaderboard rank change.
+Previous rank: #4
+Current rank: #1
+Delta: +3
+Installs: 401 (prev 335)
 Source: skills-collective/skills
 Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (32 → 1): ai-music]]></title>
-            <link>https://skills.sh/skills-collective/skills/ai-music</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:skills-collective/skills/ai-music</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank up (5 → 4): reddit-automation]]></title>
+            <link>https://skills.sh/doany-skills/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:doany-skills/skills/reddit-automation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #32
-Current rank: #1
-Delta: +31
-Installs: 342 (prev 99)
-Source: skills-collective/skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+Previous rank: #5
+Current rank: #4
+Delta: +1
+Installs: 373 (prev 330)
+Source: doany-skills/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank up (50 → 40): hyperframes-creative]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topHot:rank:heygen-com/hyperframes/hyperframes-creative</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Hot] Rank up (6 → 5): ai-video-generation]]></title>
+            <link>https://skills.sh/skills-collective/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topHot:rank:skills-collective/skills/ai-video-generation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #50
-Current rank: #40
-Delta: +10
-Installs: 61 (prev 71)
-Source: heygen-com/hyperframes
-Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (10 → 15): paperclip-board]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-board</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:getpaperclipai/paperclip/paperclip-board</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #10
-Current rank: #15
-Delta: -5
-Installs: 14350 (prev 14347)
-Source: getpaperclipai/paperclip
-Description: Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (11 → 18): paperclip]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:getpaperclipai/paperclip/paperclip</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #11
-Current rank: #18
-Delta: -7
-Installs: 14349 (prev 14347)
-Source: getpaperclipai/paperclip
-Description: Interact with the Paperclip control plane API to manage tasks, coordinate with other agents, and follow company governance. Use when you need to check assignments, update task status, delegate work, post comments, set up or manage routines (recurring scheduled tasks), or call any Paperclip API endpoint. Do NOT use for the actual domain work itself (writing code, research, etc.) — only for Paperclip coordination.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (13 → 19): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:mattpocock/skills/grill-me</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #13
-Current rank: #19
-Delta: -6
-Installs: 10827 (prev 11650)
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (14 → 20): grill-with-docs]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:mattpocock/skills/grill-with-docs</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #14
-Current rank: #20
-Delta: -6
-Installs: 8990 (prev 9706)
-Source: mattpocock/skills
-Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (6 → 12): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:vercel-labs/skills/find-skills</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
 Previous rank: #6
-Current rank: #12
+Current rank: #5
+Delta: +1
+Installs: 359 (prev 322)
+Source: skills-collective/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (12 → 18): find-skills]]></title>
+            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:vercel-labs/skills/find-skills</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #12
+Current rank: #18
 Delta: -6
-Installs: 15332 (prev 16589)
+Installs: 11558 (prev 15332)
 Source: vercel-labs/skills
 Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (7 → 13): design-guide]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/design-guide</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:getpaperclipai/paperclip/design-guide</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (23 → 37): handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/handoff</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/handoff</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #7
-Current rank: #13
-Delta: -6
-Installs: 14386 (prev 14384)
-Source: getpaperclipai/paperclip
-Description: Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling UI elements, or when you need to understand the design language and conventions. Covers: component creation, design tokens, typography, status/priority systems, composition patterns, and the /design-guide showcase page. Always use this skill alongside the frontend-design skill (for visual quality) and the web-design-guidelines skill (for web best practices).]]></description>
+Previous rank: #23
+Current rank: #37
+Delta: -14
+Installs: 5205 (prev 8096)
+Source: mattpocock/skills
+Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (8 → 17): paperclip-converting-plans-to-tasks]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank down (24 → 41): tdd]]></title>
+            <link>https://skills.sh/mattpocock/skills/tdd</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/tdd</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #8
-Current rank: #17
-Delta: -9
-Installs: 14350 (prev 14347)
+Previous rank: #24
+Current rank: #41
+Delta: -17
+Installs: 5143 (prev 8074)
+Source: mattpocock/skills
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (25 → 42): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/code-review</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #25
+Current rank: #42
+Delta: -17
+Installs: 5135 (prev 7961)
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (26 → 43): domain-modeling]]></title>
+            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/domain-modeling</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #26
+Current rank: #43
+Delta: -17
+Installs: 5101 (prev 7891)
+Source: mattpocock/skills
+Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (27 → 45): to-tickets]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-tickets</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/to-tickets</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #27
+Current rank: #45
+Delta: -18
+Installs: 4965 (prev 7797)
+Source: mattpocock/skills
+Description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (28 → 44): to-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-spec</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/to-spec</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #28
+Current rank: #44
+Delta: -16
+Installs: 4972 (prev 7767)
+Source: mattpocock/skills
+Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (29 → 47): setup-matt-pocock-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/setup-matt-pocock-skills</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #29
+Current rank: #47
+Delta: -18
+Installs: 4939 (prev 7727)
+Source: mattpocock/skills
+Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (3 → 4): ai-avatar-video]]></title>
+            <link>https://skills.sh/101-skills/skills/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:101-skills/skills/ai-avatar-video</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #3
+Current rank: #4
+Delta: -1
+Installs: 21324 (prev 21725)
+Source: 101-skills/skills
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (30 → 48): codebase-design]]></title>
+            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/codebase-design</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #30
+Current rank: #48
+Delta: -18
+Installs: 4928 (prev 7661)
+Source: mattpocock/skills
+Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (31 → 46): implement]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/implement</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #31
+Current rank: #46
+Delta: -15
+Installs: 4939 (prev 7592)
+Source: mattpocock/skills
+Description: Implement a piece of work based on a PRD or set of issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (34 → 49): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:mattpocock/skills/teach</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #34
+Current rank: #49
+Delta: -15
+Installs: 4878 (prev 7464)
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (4 → 5): remotion-render]]></title>
+            <link>https://skills.sh/101-skills/skills/remotion-render</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:101-skills/skills/remotion-render</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #4
+Current rank: #5
+Delta: -1
+Installs: 21324 (prev 21721)
+Source: 101-skills/skills
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (6 → 7): reddit-automation]]></title>
+            <link>https://skills.sh/doany-skills/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:doany-skills/skills/reddit-automation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #6
+Current rank: #7
+Delta: -1
+Installs: 19988 (prev 16306)
+Source: doany-skills/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank down (7 → 10): ai-image-generation]]></title>
+            <link>https://skills.sh/skills-collective/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:skills-collective/skills/ai-image-generation</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #7
+Current rank: #10
+Delta: -3
+Installs: 19912 (prev 16287)
+Source: skills-collective/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (11 → 8): video-edit]]></title>
+            <link>https://skills.sh/skills-collective/skills/video-edit</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:skills-collective/skills/video-edit</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #11
+Current rank: #8
+Delta: +3
+Installs: 19936 (prev 15411)
+Source: skills-collective/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] Rank up (17 → 13): paperclip-converting-plans-to-tasks]]></title>
+            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
+            <description><![CDATA[Trending leaderboard rank change.
+Previous rank: #17
+Current rank: #13
+Delta: +4
+Installs: 14196 (prev 14350)
 Source: getpaperclipai/paperclip
 Description: The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank down (9 → 16): paperclip-create-agent]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank up (41 → 27): prisma-client-api]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-client-api</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:prisma/skills/prisma-client-api</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #9
-Current rank: #16
-Delta: -7
-Installs: 14350 (prev 14347)
-Source: getpaperclipai/paperclip
-Description: Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request.]]></description>
+Previous rank: #41
+Current rank: #27
+Delta: +14
+Installs: 5315 (prev 6930)
+Source: prisma/skills
+Description: Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring Prisma Client. Triggers on "prisma query", "findMany", "create", "update", "delete", "$transaction".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Trending] Rank up (44 → 6): reddit-automation]]></title>
-            <link>https://skills.sh/doany-skills/skills/reddit-automation</link>
-            <guid isPermaLink="false">2026-07-25T02:29:23.446Z:topTrending:rank:doany-skills/skills/reddit-automation</guid>
-            <pubDate>Sat, 25 Jul 2026 02:29:23 GMT</pubDate>
+            <title><![CDATA[[Trending] Rank up (42 → 29): prisma-database-setup]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-database-setup</link>
+            <guid isPermaLink="false">2026-07-26T02:38:05.116Z:topTrending:rank:prisma/skills/prisma-database-setup</guid>
+            <pubDate>Sun, 26 Jul 2026 02:38:05 GMT</pubDate>
             <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #44
-Current rank: #6
-Delta: +38
-Installs: 16306 (prev 6133)
-Source: doany-skills/skills
-Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
+Previous rank: #42
+Current rank: #29
+Delta: +13
+Installs: 5306 (prev 6910)
+Source: prisma/skills
+Description: Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on "configure postgres", "connect to mysql", "setup mongodb", "sqlite setup".]]></description>
         </item>
     </channel>
 </rss>
