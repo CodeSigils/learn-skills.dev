@@ -1,0 +1,1 @@
+اختيار وضع MSBuild CopyToOutputDirectory / CopyToPublishDirectory: أبدًا، وPreserveNewest، وAlways، وIfDifferent (MSBuild 17.13+)، بالإضافة إلى $(SkipUnchangedFilesOnCopyAlways). الاستخدام من أجل: إزالة نتائج النسخ دائمًا لكل إنشاء؛ إعادة تعيين ملفات الإخراج المتحورة بين البنيات. لا تستخدم من أجل: تشخيص البناء التزايدي العام (استخدم البناء التزايدي)؛ أنظمة البناء غير MSBuild.
