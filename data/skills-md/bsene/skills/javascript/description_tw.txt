@@ -1,0 +1,3 @@
+JavaScript 最佳實踐和規則執行 - 命名約定、現代語法習慣用法、「this」處理、模組結構、陣列/迭代效能和可空性。適用於純 JavaScript，是 TypeScript 建置的基礎。
+觸發條件：語言（JavaScript、JS、.js、.mjs、.cjs、Node.js、瀏覽器 JS、ES模組、ESM、CommonJS）、語法（const/let、解構、模板文字、可選連結、無效合併、箭頭函數）、模式（此綁定、回調、分離方法、純函數與方法、模組導入、桶檔案、index.js）、效能（陣列鏈、filter().map()、中間陣列、熱路徑、GC 壓力檢查）、命名（camelCase、PascalCase、kebab-case、布林前綴）、ask（慣用的 JavaScript、JS 約定、JS 最佳實務、JS 程式碼審查）。也適用於 TypeScript——它是 TS 構建的基礎；將其與“typescript”一起加載到“.ts”/“.tsx”上。對於特定於類型的規則（類型斷言 `as T`、介面、泛型、`readonly` 修飾符、`as const`、返回類型註解），`typescript` 技能在頂部添加了指導。
+不要用作類型系統問題的主要技能（有區別的聯合、泛型、“as”、接口、縮小）→ 通往“typescript”/“typescript-type-system”的路線；這個技巧仍然適用於命名和 JS 習慣用法。

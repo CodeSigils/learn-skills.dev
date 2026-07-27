@@ -1,0 +1,9 @@
+Générateur de plan de conception de suivi et de KPI. À partir des exigences du produit ou des flux d'utilisateurs principaux, il produit un document de plan de suivi complet (événements, champs, timing de déclenchement, spécifications de définition, liste de contrôle de validation QA).
+
+Condition de déclenchement : l'utilisateur mentionne des mots-clés tels que « 埋点 » (suivi), « suivi », « conception d'événement », « collecte de données », « plan de reporting », « plan de suivi », « spécification d'événement », « conception de terrain », « définition de KPI », « acceptation des données », « validation QA », etc.
+
+Applicable également lorsque : l'utilisateur fournit un document PRD/exigences du produit et demande un plan de suivi ; l'utilisateur fournit un flux utilisateur principal et a besoin d'événements décomposés ; l'utilisateur demande une dénomination d'événement ou des définitions de champs standardisées ; l'utilisateur demande un plan d'acceptation des données.
+
+Entrée typique : conventions de dénomination d'événement + dictionnaire de champs + description/organigramme du flux principal.
+
+Ne s'applique pas à : l'analyse pure de données (à l'aide de pm‑analytics), la création de tableaux de bord purement BI, l'écriture de requêtes SQL pures.

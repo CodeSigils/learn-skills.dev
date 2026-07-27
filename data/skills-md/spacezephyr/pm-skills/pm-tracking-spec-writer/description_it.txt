@@ -1,0 +1,9 @@
+Generatore di piani di progettazione di monitoraggio e KPI. Partendo dai requisiti del prodotto o dai flussi utente core, produce un documento completo del piano di tracciamento (eventi, campi, tempistiche di attivazione, specifiche di definizione, checklist di validazione QA).
+
+Condizione di attivazione: l'utente menziona parole chiave come "埋点" (tracciamento), "tracciamento", "progettazione dell'evento", "raccolta dati", "piano di reporting", "piano di monitoraggio", "specifica dell'evento", "progettazione del campo", "definizione KPI", "accettazione dei dati", "convalida QA", ecc.
+
+Applicabile anche quando: l'utente fornisce un documento PRD/requisiti del prodotto e richiede un piano di monitoraggio; l'utente fornisce un flusso utente principale e necessita di eventi suddivisi; l'utente richiede nomi di eventi o definizioni di campi standardizzati; l'utente richiede un piano di accettazione dei dati.
+
+Input tipico: convenzioni di denominazione degli eventi+dizionario dei campi+descrizione/diagramma di flusso del flusso principale.
+
+Non applicabile a: pura analisi dei dati (utilizzando pm‑analytics), pura creazione di dashboard BI, pura scrittura di query SQL.
