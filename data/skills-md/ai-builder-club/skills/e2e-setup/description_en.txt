@@ -1,0 +1,1 @@
+Set up an end-to-end test suite in any repo, following practices that make e2e a reliable per-PR gate: real flows over bypass, layered assertions, a reusable auth/session helper, video+trace evidence, and a compounding suite. Use when a repo has no e2e (or weak e2e) and you want system-level tests — "set up e2e", "add end-to-end tests", "scaffold a test gate".
