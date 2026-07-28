@@ -1,0 +1,9 @@
+Create visually rich PowerPoint (.pptx) presentations from academic papers, research notes,
+or any content the user wants in slide format. Uses PptxGenJS + LaTeX formula rendering.
+Always use this skill when the user wants PPT/PPTX output instead of Beamer/LaTeX slides.
+Trigger on: powerpoint, pptx, PPT, make a ppt, 做PPT, 做幻灯片, make slides (non-LaTeX),
+prepare a presentation (when context implies PPT), 做个报告, presentation slides,
+help me prepare a talk (when not Beamer), convert paper to slides (when PPT implied).
+Even if the user just says "make slides" or "做个演示" without specifying format, trigger this
+skill and ask whether they want PPT or Beamer — don't silently default to Beamer.
+Do NOT trigger on: beamer, latex slides, .tex files, tikz — those belong to the beamer skill.

@@ -1,0 +1,1 @@
+Use when the user invokes /todo-archive, says "compact tasks.md", "archive this project", "clean up the hub", "tidy the index", "this tasks file is huge", or a SessionStart archive-candidate report appears. Losslessly moves completed revision detail to anchored journal entries, leaves direct tombstones, and moves completed project rows from active index.md to cold archive.md.
