@@ -1,0 +1,7 @@
+Treasures Finance: negociación de acciones tokenizadas (xStocks / Ondo), puente USDC y operaciones de billetera delegadas en Solana y Ethereum.
+
+Úselo cuando ejecute operaciones financieras enrutadas por Treasures (por ejemplo, descubrir acciones tokenizadas, cotizar/ejecutar una operación, conectar USDC a través de cadenas, verificar la cartera de una billetera delegada).
+
+La URL base necesita el prefijo `/public/v1` (host básico 404). Las rutas comerciales (`/quote/*`, `/trade/submit`, `/bridge/quote`) están geocercadas en el balanceador de carga de AWS → 451 desde EE. UU. y GB, antes de la autenticación: enruta esas llamadas a través de la habilidad `sc-vpn` con un proxy por solicitud (DE/NL/SE/CH/SG/HK/JP son claros); lee el trabajo desde cualquier lugar. Un 451 nunca es un problema de firma. Consulte la sección "Lea esto antes de cualquier intento comercial".
+
+Monedero: POR DEFECTO a la billetera Privy del usuario a través de `treasures-b2b-api` (la billetera firma `ownership_proof` para cotizaciones + cargas útiles firmadas por tramo para `/trade/submit`; use la habilidad `wallet` para firmar). Ruta por donde viven los activos: activos en la billetera Privy/EOA → `treasures-b2b-api`; Utilice únicamente la habilidad delegada `treasures-wallet` cuando el usuario solicite explícitamente la billetera proporcionada por Treasures o los activos que se encuentran en ella.

@@ -1,0 +1,1 @@
+Shopee（虾皮）店铺产品管理（与linkfox-shopee-store-auth同系列），通过/shopee/developerProxy转发，处理Shopee开放API产品模块的所有57个端点：get_category、get_item_list、add_item、update_item、update_price、update_stock、boost_item、search_item等。当用户提及Shopee产品、Shopee清单、listing时，下架、SKU、库存、价格、类别、属性、get_item_list、add_item、产品评论、boost pinning，它会触发。即使没有明确提及“产品”，在授权 Shopee 商店中对产品的任何查询、创建或更新都应该触发。

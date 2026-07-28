@@ -1,0 +1,7 @@
+Treasures Finance: Handel mit tokenisierten Aktien (xStocks/Ondo), USDC-Überbrückung und delegierte Wallet-Operationen auf Solana und Ethereum.
+
+Wird verwendet, wenn von Treasures geleitete Finanzoperationen ausgeführt werden (z. B. tokenisierte Aktien entdecken, einen Handel quotieren/ausführen, USDC über Ketten hinweg überbrücken, das Portfolio einer delegierten Wallet prüfen).
+
+Die Basis-URL benötigt das Präfix „/public/v1“ (Bare Host 404s). Handelspfade (`/quote/*`, `/trade/submit`, `/bridge/quote`) werden am AWS Load Balancer → 451 von den USA und GB vor der Authentifizierung geografisch eingegrenzt – leiten Sie diese Anrufe über den Skill „sc-vpn“ mit einem Pro-Request-Proxy weiter (DE/NL/SE/CH/SG/HK/JP sind klar); liest Arbeiten von überall. Ein 451 ist nie ein Signierproblem. Lesen Sie den Abschnitt „Lesen Sie dies vor jedem Handelsversuch“.
+
+Wallet: STANDARD an die Privy-Wallet des Benutzers über „treasures-b2b-api“ (die Wallet signiert „ownership_proof“ für Angebote + signierte Payloads pro Leg für „/trade/submit“ – verwenden Sie zum Signieren die Fähigkeit „wallet“). Route nach dem Speicherort der Vermögenswerte: Vermögenswerte im Privy/EOA-Wallet → „treasures-b2b-api“; Verwenden Sie die delegierte Fähigkeit „Treasures-Wallet“ nur, wenn der Benutzer ausdrücklich nach der von Treasures bereitgestellten Wallet fragt oder die Vermögenswerte darin liegen.

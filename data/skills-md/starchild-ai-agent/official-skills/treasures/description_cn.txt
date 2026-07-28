@@ -1,0 +1,7 @@
+Treasures Finance：代币化股票 (xStocks / Ondo) 交易、USDC 桥接以及 Solana 和以太坊上的委托钱包操作。
+
+在运行 Treasures 路由的金融操作时使用（例如，发现代币化股票、报价/执行交易、跨链连接 USDC、检查委托钱包的投资组合）。
+
+基本 URL 需要 `/public/v1` 前缀（裸主机 404s）。贸易路径（“/quote/*”、“/trade/submit”、“/bridge/quote”）在 AWS 负载均衡器上进行地理围栏→来自美国和英国的 451，在身份验证之前 — 使用每个请求代理通过“sc-vpn”技能路由这些调用（德国/荷兰/瑞典/瑞士/新加坡/香港/日本是明确的）；从任何地方读取工作。 451 从来都不是签名问题。请参阅“在尝试任何交易之前阅读此内容”部分。
+
+钱包：默认通过“treasures-b2b-api”发送到用户的 Privy 钱包（钱包为报价签署“ownership_proof”+为“/trade/submit”签署每条腿的有效负载 — 使用“wallet”技能进行签名）。资产所在路径：Privy/EOA 钱包中的资产 → `treasures-b2b-api`；仅当用户明确要求提供 Treasures 钱包或其中的资产时，才使用“treasures-wallet”委托技能。

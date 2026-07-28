@@ -1,0 +1,9 @@
+Créez des présentations PowerPoint (.pptx) visuellement riches à partir d'articles universitaires, de notes de recherche,
+ou tout contenu souhaité par l'utilisateur au format diapositive. Utilise le rendu de formule PptxGenJS + LaTeX.
+Utilisez toujours cette compétence lorsque l'utilisateur souhaite une sortie PPT/PPTX au lieu de diapositives Beamer/LaTeX.
+Déclenchez : powerpoint, pptx, PPT, créer un ppt, 做PPT, 做幻灯片, créer des diapositives (non-LaTeX),
+préparer une présentation (lorsque le contexte implique PPT), des diapositives de présentation,
+aidez-moi à préparer un exposé (quand ce n'est pas Beamer), à convertir du papier en diapositives (lorsque PPT est implicite).
+Même si l'utilisateur dit simplement « créer des diapositives » ou « 做个演示 » sans spécifier le format, déclenchez cette opération.
+compétence et demandez-leur s'ils veulent PPT ou Beamer - ne passez pas silencieusement par défaut à Beamer.
+Ne déclenchez PAS sur : le vidéoprojecteur, les diapositives en latex, les fichiers .tex, tikz – ceux-ci appartiennent à la compétence vidéoprojecteur.

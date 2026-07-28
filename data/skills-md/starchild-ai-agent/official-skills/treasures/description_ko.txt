@@ -1,0 +1,7 @@
+Treasures Finance: 토큰화된 주식(xStocks / Ondo) 거래, USDC 브리징, 솔라나 및 이더리움 지갑 운영 위임.
+
+Treasures로 전달되는 금융 작업을 실행할 때 사용합니다(예: 토큰화된 주식 검색, 거래 견적/실행, 체인 간에 USDC 연결, 위임된 지갑의 포트폴리오 확인).
+
+기본 URL에는 '/public/v1' 접두사가 필요합니다(베어 호스트 404). 거래 경로(`/quote/*`, `/trade/submit`, `/bridge/quote`)는 인증 전 미국 및 영국의 451번 AWS 로드 밸런서에서 지오펜싱됩니다. 요청별 프록시를 사용하여 `sc-vpn` 기술을 통해 해당 호출을 라우팅합니다(DE/NL/SE/CH/SG/HK/JP는 명확함). 어디서나 작품을 읽습니다. 451은 서명 문제가 아닙니다. "거래를 시도하기 전에 읽어보세요" 섹션을 참조하세요.
+
+지갑: 'treasures-b2b-api'를 통해 사용자의 Privy 지갑에 대한 기본 설정입니다(지갑은 견적에 대해 'ownership_proof'에 서명하고 '/trade/submit'에 대해 다리별로 서명된 페이로드에 서명합니다. 서명하려면 'wallet' 기술을 사용하세요). 자산이 있는 곳으로 경로 지정: Privy/EOA 지갑의 자산 → `treasures-b2b-api`; 사용자가 Treasures 제공 지갑을 명시적으로 요청하거나 그 안에 자산이 있는 경우에만 'treasures-wallet' 위임 스킬을 사용하세요.

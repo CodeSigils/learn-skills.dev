@@ -1,0 +1,1 @@
+(NS) GitLab 문제를 처음부터 끝까지 실행합니다. 첫 번째 작업 상태, 분기 재사용 및 소스 분기 게이트, 단일 작업 트리 격리, 원자 전달, MR 수명 주기, 제한된 수정 루프가 있는 필수 코드 검토 게이트입니다. 사용자가 GitLab ISSUE_URL을 제공하거나 GitLab 문제를 직접 구현하도록 요청할 때 사용합니다. 로컬 전용 임시 코딩(ns-code-coder 사용) 또는 GitLab이 아닌 자율 실행(ns-code-autonomous 독립 실행형 사용)에는 사용할 수 없습니다. 실제 코딩을 ns-code-autonomous 엔진에 위임합니다. MCP에는 mcp-gitlab-usage가 필요하고 리뷰 게이트에는 ns-code-reviewer가 필요합니다.

@@ -1,0 +1,1 @@
+作為實施者將編碼任務委託給單獨的 Claude Code CLI 流程或另一個 Claude 會話，然後檢查其差異並自行解決。僅當使用者明確要求將實作委託給 Claude Code、另一個 Claude 會話或「claude」 CLI 時使用 - 例如，「讓另一個 Claude 實現此操作」、「將其委託給 Claude Code」或「透過單獨的 Claude 會話執行此佇列」。不要僅僅因為當前編排者是Claude而觸發，也不要在用戶要求當前Claude直接執行而無需委託時使用。

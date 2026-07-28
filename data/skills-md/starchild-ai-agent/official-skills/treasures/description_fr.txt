@@ -1,0 +1,7 @@
+Treasures Finance : négociation d'actions tokenisées (xStocks / Ondo), pontage USDC et opérations de portefeuille déléguées sur Solana et Ethereum.
+
+À utiliser lors de l'exécution d'opérations financières acheminées par Treasures (par exemple, découvrir des actions tokenisées, coter/exécuter une transaction, relier l'USDC entre les chaînes, vérifier le portefeuille d'un portefeuille délégué).
+
+L'URL de base nécessite le préfixe « /public/v1 » (hôte nu 404). Les chemins commerciaux (`/quote/*`, `/trade/submit`, `/bridge/quote`) sont géo-clôturés au niveau de l'équilibreur de charge AWS → 451 depuis les États-Unis et la Grande-Bretagne, avant l'authentification — acheminez ces appels via la compétence `sc-vpn` avec un proxy par demande (DE/NL/SE/CH/SG/HK/JP sont clairs) ; lit le travail de n'importe où. Un 451 n'est jamais un problème de signature. Voir la section « À lire avant toute tentative d'échange ».
+
+Portefeuille : par défaut sur le portefeuille Privy de l'utilisateur via `treasures-b2b-api` (le portefeuille signe `ownership_proof` pour les devis + charges utiles signées par jambe pour `/trade/submit` — utilisez la compétence `wallet` pour signer). Itinéraire par où vivent les actifs : actifs dans le portefeuille Privy/EOA → `treasures-b2b-api` ; n'utilisez la compétence déléguée « treasures-wallet » que lorsque l'utilisateur demande explicitement le portefeuille fourni par Treasures ou que les actifs s'y trouvent.

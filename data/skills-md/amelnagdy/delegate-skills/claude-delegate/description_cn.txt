@@ -1,0 +1,1 @@
+作为实施者将编码任务委托给单独的 Claude Code CLI 流程或另一个 Claude 会话，然后检查其差异并自行解决。仅当用户明确要求将实现委托给 Claude Code、另一个 Claude 会话或“claude” CLI 时使用 - 例如，“让另一个 Claude 实现此操作”、“将其委托给 Claude Code”或“通过单独的 Claude 会话运行此队列”。不要仅仅因为当前编排者是Claude而触发，也不要在用户要求当前Claude直接执行而无需委托时使用。

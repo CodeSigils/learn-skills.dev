@@ -1,0 +1,1 @@
+(NS) 将现有的 GitLab 问题与本地规划和执行同步 - 里程碑、RF 标签、状态转换、受让人、估计、花费时间。在实施过程中，当任务链接到 GitLab 问题时或在 plan-version-from-gitlab 同步之后使用 — 不用于创建新问题（使用 mcp-gitlab-usage）。始终使用原子 set_issue_labels 和三步状态循环。阅读 mcp-gitlab-usage 了解工具合约。
