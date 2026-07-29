@@ -1,0 +1,1 @@
+在此存储库中编写或查看调用 Deepgram Text-to-Speech v1 (`/v1/speak`) 进行音频合成的 JavaScript/TypeScript 时使用。涵盖通过“client.speak.v1.audio.generate”的一次性 REST 和通过“client.speak.v1.createConnection()”/“connect()”流式传输 WebSocket。当您需要全双工 STT + LLM + TTS 而不是单向合成时，请使用“deepgram-js-voice-agent”。触发器包括“TTS”、“文本到语音”、“说话”、“aura”、“流式 TTS”和“speak.v1”。
