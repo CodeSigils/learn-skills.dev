@@ -1,0 +1,1 @@
+把用户给的口播音频 + SRT 字幕做成画面跟着声音走的成片（用 HyperFrames，HTML 即视频）：音频和 SRT 是唯一事实源，场景按 cue 时间轴排、内容读自 SRT、音频自动合流。当用户交来 mp3/wav + srt 想出片，或说「把音频做成视频」「做一期视频」「audio + srt to video」「把这期早读做成视频」「render this narration into a video」，或给了一段录音 + 字幕（解读 / 日报 / 口播）时用本 skill。只有口播文本、没有音频/SRT → 先跑 listenhub-tts 再回来。不做幻灯片 deck（用 slides 类 skill）。

@@ -1,2 +1,4 @@
-Save the current diagnostic key state locally so you can continue using it next time you return.  
-Trigger methods: /dbs-save, /archive, “save this diagnosis”, “note it down”, “keep this conclusion”.
+把当前诊断的关键状态存到本地，下次回来可以接着用。
+触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」
+Save the current diagnosis state to disk for cross-session recall.
+Trigger: /dbs-save, "save this diagnosis", "remember this"
