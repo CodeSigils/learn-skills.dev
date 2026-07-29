@@ -1,0 +1,1 @@
+오디오 합성을 위해 Deepgram Text-to-Speech v1(`/v1/speak`)을 호출하는 이 저장소에서 JavaScript/TypeScript를 작성하거나 검토할 때 사용합니다. `client.speak.v1.audio.generate`를 통한 원샷 REST와 `client.speak.v1.createConnection()` / `connect()`를 통한 스트리밍 WebSocket을 다룹니다. 단방향 합성 대신 전이중 STT + LLM + TTS가 필요한 경우 `deepgram-js-voice-agent`를 사용하세요. 트리거에는 "TTS", "텍스트 음성 변환", "말하기", "aura", "스트리밍 TTS" 및 "speak.v1"이 포함됩니다.

@@ -1,0 +1,1 @@
+Plannotator의 코드 검토 UI에서 @pierre/diffs 통합이 중단되지 않도록 보호하세요. DiffViewer.tsx를 수정하거나, @pierre/diffs 패키지를 업그레이드하거나, unsafeCSS 삽입을 변경하거나, FileDiff에 새 prop을 추가하거나, Pierre의 그림자 경계를 가로지르는 Shadow DOM 선택기 또는 CSS 변수를 만질 때마다 이 기술을 사용하세요. 또한 누군가가 "이것이 diff 뷰어를 깨뜨릴까요?", "이것을 변경해도 안전한가요?"라고 물을 때 또는 리뷰-에디터 패키지를 건드리는 PR을 리뷰할 ​​때에도 트리거됩니다.
