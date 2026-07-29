@@ -1,0 +1,1 @@
+防止破壞 Plannotator 的程式碼審查 UI 中的 @pierre/diffs 整合。每當修改 DiffViewer.tsx、升級 @pierre/diffs 套件、更改 unsafeCSS 注入、向 FileDiff 添加新的 props 或觸摸跨越 Pierre 陰影邊界的陰影 DOM 選擇器或 CSS 變數時，請使用此技能。當有人問“這會破壞 diff 檢視器嗎”、“更改是否安全”，或者在審查涉及審查編輯器包的 PR 時也會觸發。

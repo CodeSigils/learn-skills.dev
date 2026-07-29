@@ -1,0 +1,1 @@
+在此儲存庫中編寫或檢視 JavaScript/TypeScript 時使用，呼叫 Deepgram Conversational STT v2 / Flux (`/v2/listen`) 進行回合感知流轉錄。涵蓋「client.listen.v2.createConnection()」/「connect()」、Flux 模型以及「TurnInfo」等轉向事件。使用“deepgram-js-speech-to-text”來實現標準 v1 ASR，使用“deepgram-js-voice-agent”來實現全雙工助手。觸發器包括「flux」、「v2 Listen」、「對話式 STT」、「回合偵測」、「回合結束」、「EOT」和「listen.v2」。

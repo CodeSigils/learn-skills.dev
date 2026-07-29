@@ -1,0 +1,1 @@
+使用 Classy DRF (https://www.cdrf.co) 的 Django REST Framework 基於類別的視圖的專家指南。在選擇或偵錯 APIView、GenericAPIView、特定通用視圖、mixin 組合或 ViewSet/GenericViewSet/ModelViewSet 行為時使用；追蹤方法解析順序(MRO)；了解要重寫的方法（「create」與「perform_create」、「update」與「perform_update」、「destroy」與「perform_destroy」、「get_queryset」、「get_serializer_class」）；並比較不同 DRF 版本的行為。請勿用於基於函數的視圖、GraphQL、FastAPI/Flask、前端工作或非 DRF 後端框架。
