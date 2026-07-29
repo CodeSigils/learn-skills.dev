@@ -1,0 +1,1 @@
+このリポジトリで、音声合成のために Deepgram Text-to-Speech v1 (`/v1/speak`) を呼び出す JavaScript/TypeScript を作成またはレビューするときに使用します。 「client.speak.v1.audio.generate」を介したワンショット REST と、「client.speak.v1.createConnection()」/「connect()」を介したストリーミング WebSocket をカバーします。一方向合成の代わりに全二重 STT + LLM + TTS が必要な場合は、「deepgram-js-voice-agent」を使用します。トリガーには、「TTS」、「テキスト読み上げ」、「スピーク」、「オーラ」、「ストリーミング TTS」、および「speak.v1」が含まれます。
