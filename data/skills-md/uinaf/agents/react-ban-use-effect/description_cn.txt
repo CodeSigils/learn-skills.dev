@@ -1,0 +1,1 @@
+禁止在 React 代码中直接使用 `useEffect`。在编写、重构、审查或迁移导入、调用、添加或替换直接 `useEffect` 的 React 组件或挂钩时使用；当代理达到派生状态、获取、事件反应、重置或外部同步的效果时；或者为 no-direct-useEffect 策略添加 lint/agent 规则时。不要用于没有效果气味、非 React 代码或 React 之外的合法效果架构的普通 React 工作。

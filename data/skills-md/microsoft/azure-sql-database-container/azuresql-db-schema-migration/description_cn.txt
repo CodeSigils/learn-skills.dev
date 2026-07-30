@@ -1,0 +1,1 @@
+针对本地 Azure SQL Developer 运行数据库架构迁移，因此相同的迁移同样适用于本地引擎和 Azure 云中。当被要求“针对本地 SQL 运行迁移”、“将架构应用到容器”、“应用 EF Core / dotnet ef 数据库更新”、“Prisma 迁移开发/部署”、“Alembic 升级头”或将 DACPAC / SqlPackage 部署到容器时使用。首先介绍在 master 上配置 appdb，然后将架构应用到用户数据库，以及每个工具的命令和连接字符串卫生。这是 Azure SQL 数据库引擎 (EngineEdition 5)，而不是 SQL Server 映像；每当模式迁移工具以本地容器为目标时，就需要使用此技能。

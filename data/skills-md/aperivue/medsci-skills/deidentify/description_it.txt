@@ -1,0 +1,1 @@
+Anonimizzare i dati della ricerca clinica prima dell'analisi assistita da LLM. La CLI Python autonoma rileva PHI tramite regex + euristica con 10 pacchetti di impostazioni locali per paese (kr, us, jp, cn, de, uk, fr, ca, au, in). Revisione del terminale interattivo. Nessun LLM tocca i dati grezzi: lo script viene eseguito localmente senza chiamate di rete o AI.

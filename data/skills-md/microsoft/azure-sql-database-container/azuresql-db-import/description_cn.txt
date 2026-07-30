@@ -1,0 +1,1 @@
+使用 SqlPackage 将现有 Azure SQL 数据库或 SQL Server 架构和数据导入本地 Azure SQL Developer。当要求“导入 bacpac”、“在本地加载现有数据库”、“将 dacpac 恢复到容器中”、“将我的产品架构引入开发容器”、“针对本地 Azure SQL 引擎运行我的 .bacpac/.dacpac”或将现有数据库迁移到预览容器时使用。首先在 master 上处理配置目标数据库，然后针对配置的用户数据库运行 SqlPackage /Action:Import。将此用于任何“让我的真实数据库在容器中运行”请求，而不是手写 SqlPackage 标志。

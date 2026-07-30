@@ -1,0 +1,1 @@
+使用 SqlPackage 將現有 Azure SQL 資料庫或 SQL Server 架構和資料匯入本機 Azure SQL Developer。當要求「匯入 bacpac」、「在本機載入現有資料庫」、「將 dacpac 還原到容器」、「將我的產品架構引入開發容器」、「針對本機 Azure SQL 引擎執行我的 .bacpac/.dacpac」或將現有資料庫遷移到預覽容器時使用。首先在 master 上處理設定目標資料庫，然後針對配置的使用者資料庫執行 SqlPackage /Action:Import。將此用於任何「讓我的真實資料庫在容器中運行」請求，而不是手寫 SqlPackage 標誌。

@@ -1,0 +1,1 @@
+針對本機 Azure SQL Developer 執行資料庫架構遷移，因此相同的遷移同樣適用於本機引擎和 Azure 雲端。當被要求「針對本機 SQL 執行遷移」、「將架構套用到容器」、「套用 EF Core / dotnet ef 資料庫更新」、「Prisma 遷移開發/部署」、「Alembic 升級頭」或將 DACPAC / SqlPackage 部署到容器時使用。首先介紹在 master 上設定 appdb，然後將架構套用到使用者資料庫，以及每個工具的指令和連接字串衛生。這是 Azure SQL 資料庫引擎 (EngineEdition 5)，而不是 SQL Server 映像；每當模式移轉工具以本機容器為目標時，就需要使用此技能。

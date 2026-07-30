@@ -1,0 +1,1 @@
+使用 PDFMathTranslate-next (pdf2zh) 将英文 PDF 文档（尤其是学术论文）翻译成中文，生成单语中文 PDF 和双语并排 PDF，并保留公式、数字和布局。通过 uv 自动安装 pdf2zh_next 环境，并重用用户已在 Codex 或 Claude Code（任何 OpenAI 兼容网关）中配置的模型/API，在不存在密钥时回退到免费的 SiliconFlow 服务。每当用户想要将 PDF 翻译成中文（或其他语言）、翻译论文/论文、生成双语 PDF 或提及 pdf2zh / PDFMathTranslate 时，即使他们没有明确指定该工具，也可以使用此技能。每当出现 PDF 翻译任务时，主动调用此技能（不要手动翻译）。
