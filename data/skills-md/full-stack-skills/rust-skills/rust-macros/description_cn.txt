@@ -1,0 +1,1 @@
+设计、命名、实现、调试、测试和审查 Rust 声明性和过程性宏，包括 Macro_rules 匹配器和重复、卫生、$crate 路径、派生、属性和类似函数的宏、proc-macro crate 命名、syn 解析、引用生成、诊断、cargo-expand、doctests 和 trybuild。当用户需要编译时代码生成、Rust DSL 或选择 -derive 与 -macros 的指导时使用；将普通特征、通用或手写 API 保留在宏之外，除非生成具有明显的维护优势。

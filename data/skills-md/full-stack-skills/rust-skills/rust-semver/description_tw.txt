@@ -1,0 +1,1 @@
+管理 Rust crate 語意版本控制 - 什麼算是公共 API（可見項 + 透過重新匯出可存取）、1.0 之前的規則（0.x.y 相容性）、透過 Cargo-semver-checks（270+ lints）進行破壞性變更偵測、使用 Cargo-Workspaces 進行工作區鎖定步驟發布、撤回/丟棄工作流程、「處理」意義、密封特徵、隱藏模組、功能標誌和特徵實現添加。當使用者詢問更改是否會破壞、想要安全地發布新版本、運行 Cargo-semver-checks、協調多板條箱工作區發布或處理撤回/諮詢情況時使用；將 Cargo 清單機制交給 rust-cargo-build，將 API 設計選擇交給 rust-api-design，將 CI 配置交給 rust-style-clippy。

@@ -1,0 +1,1 @@
+用于在 OpenKnowledge 项目中工作的权威代理运行时合约——通过 MCP 公开的 markdown-CRDT 知识库。在读取、列出、搜索、编辑或检查项目中的任何“.md”或“.mdx”文件时以及在任何“mcp__open-knowledge__*”工具调用（“exec”、“search”、“write”、“edit”、“lint”等）之前使用。由“ok init”安装，因此它的存在意味着这是一个 OpenKnowledge 项目，它管理这里的每个 markdown 文件。涵盖读/写工具表面、基础和链接规则、文件夹/模板约定、实时浏览器预览以及 OK 的 MCP 工具（绝不是本机文件工具）处理范围内降价的规则。

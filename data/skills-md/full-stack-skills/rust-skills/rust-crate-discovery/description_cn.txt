@@ -1,0 +1,1 @@
+发现、评估、评分和比较 Rust crate 以供采用 - 搜索 crates.io，从 4 个来源（crates.io API、docs.rs、GitHub API、RustSec 咨询数据库）获取元数据，在采用/维护/文档/成熟度/社区/许可证中应用加权 0-100 评分模型，标记红色问题（未维护、建议、无文档、单一维护者），并推荐最合适的方案。当用户询问“我应该为 X 使用哪个 crate”、“这个 crate 维护/安全/受欢迎吗”、“比较这 3 个 crate”或需要在采用之前选择一个依赖项时使用；将采用后治理（货物拒绝、许可政策、咨询响应）交给 rust-dependency，将 semver 和重大变更分类交给 rust-semver，并将清单机制交给 rust-cargo-build。

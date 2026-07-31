@@ -1,1 +1,1 @@
-当实现用户驱动的大文件导出或批量序列化（Excel/CSV/JSON/JSONL/PDF，数据量未知或超过 1 万行/10 MB）时触发；普通小文件下载、静态资源下载、非导出 Writer/Report 类不触发。防止 OOM、临时文件残留、同步导出阻塞 HTTP 线程和表格公式注入。
+Triggered when implementing user‑driven large file export or batch serialization (Excel/CSV/JSON/JSONL/PDF, with unknown data size or exceeding 10,000 rows/10 MB); normal small file downloads, static resource downloads, and non‑export Writer/Report classes do not trigger. Prevent OOM, temporary file residue, synchronous export blocking HTTP threads, and spreadsheet formula injection.

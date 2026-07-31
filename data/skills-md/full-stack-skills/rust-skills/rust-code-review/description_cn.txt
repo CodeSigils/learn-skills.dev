@@ -1,0 +1,1 @@
+应用 Rust API 指南清单（C-PANIC、C-UNWRAP、C-TRANSMUTE、C-BOOL、C-NEWTYPE、C-COMMON-TRAITS、C-CONVERT、C-SEALED、C-NON-EXHAUSTIVE），检查 Rust 更改的正确性、内存和线程安全、错误语义、不必要的分配或克隆、锁定范围、API 兼容性、测试差距、文档和依赖风险。在审查 Rust 差异、拉取请求、库、不安全边界或生产事件时使用；在摘要之前按严重性报告可操作的结果，将自动格式化或 lint 策略路由到 rust-style-clippy，并将 API 形状决策（特征密封、错误分类、新类型设计、构建器模式）路由到 rust-api-design。

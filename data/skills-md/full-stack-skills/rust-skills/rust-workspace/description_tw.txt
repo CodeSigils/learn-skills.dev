@@ -1,0 +1,1 @@
+設計 Rust 專案拓撲 — 單一 crate 套件、多 crate 工作區（虛擬清單、平面/分組/巢狀佈局）、工作區層級配置（共用 deps、lints、套件資料）、依賴方向 DAG 和 crate 邊界決策。當使用者詢問如何將專案拆分為 crate、配置工作區、避免依賴循環、重構混合根包工作區（rbatis 樣式）或在一個 crate 中的模組與單獨 crate 之間做出決定時使用。对于板条箱内的 src/ 布局，请参阅 rust-module-layout。

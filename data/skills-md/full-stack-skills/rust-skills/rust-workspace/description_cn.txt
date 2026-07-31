@@ -1,0 +1,1 @@
+设计 Rust 项目拓扑 — 单 crate 包、多 crate 工作区（虚拟清单、平面/分组/嵌套布局）、工作区级别配置（共享 deps、lints、包元数据）、依赖方向 DAG 和 crate 边界决策。当用户询问如何将项目拆分为 crate、配置工作区、避免依赖循环、重构混合根包工作区（rbatis 样式）或在一个 crate 中的模块与单独 crate 之间做出决定时使用。对于板条箱内的 src/ 布局，请参阅 rust-module-layout。

@@ -1,0 +1,14 @@
+Assistant de publication automatisé en un clic du workflow Git qui exécute le processus complet de « livraison » : bifurquez du dernier main → commit → push → créer PR → squash merge → retour à main.
+
+Il ne doit être déclenché que lorsque l'utilisateur exprime explicitement une intention d'« expédier », par exemple :
+- Dire directement "ship", "/ship", "git ship"
+- Demander clairement d'exécuter le flux Git complet : "Aidez-moi à suivre le processus Git", "Tirez principal, branchez, ouvrez un PR, fusionnez"
+- Utiliser des expressions telles que « publier ces modifications », « transformer ces modifications en PR et fusionner »
+
+Il ne doit pas être déclenché dans des cas tels que :
+- L'utilisateur veut seulement s'engager
+- L'utilisateur souhaite uniquement créer un PR
+- L'utilisateur souhaite uniquement pousser le code
+- Discuter de questions liées à Git ou expliquer les concepts de Git
+
+Veuillez toujours répondre dans la langue de l’utilisateur.

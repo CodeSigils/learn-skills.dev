@@ -1,0 +1,1 @@
+使用 Mozilla UniFFI 建置、產生、測試、打包共享 Rust 元件和跨平台綁定並進行故障排除。當使用者想要在 Rust 中編寫一次業務邏輯並從 Swift、iOS、macOS、Kotlin、Android、JVM、Python、Ruby、JavaScript、瀏覽器、桌面應用程式或多平台呼叫或重用它時自動使用 - 即使他們沒有提到 UniFFI；當他們要求與 Rust/Kotlin/Android/iOS 橋接器時選擇、記錄、枚舉、錯誤、物件、特徵、回呼、自訂類型、uniffi.toml、uniffi-bindgen、非同步匯出、產生綁定診斷、本機程式庫載入、打包、ABI 或升級時。驗證鎖定的 UniFFI 版本是否支援每個要求的目標；將手寫的 C ABI 工作路由到 rust-unsafe-ffi。

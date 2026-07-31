@@ -1,0 +1,1 @@
+À utiliser lorsqu'un nœud Hetzner est inaccessible, que SSH échoue, que cloud-init semble interrompu ou que le provisionnement se bloque. Démarre en mode de secours via hcloud CLI pour inspecter le système de fichiers, les journaux, les clés SSH, la configuration sshd et l'état d'initialisation du cloud sans avoir besoin d'un accès SSH au nœud lui-même.

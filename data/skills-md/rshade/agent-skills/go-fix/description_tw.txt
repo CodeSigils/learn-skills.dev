@@ -1,0 +1,1 @@
+使用 Go 1.26+ 中重建的 go fix 指令對 Go 程式碼進行現代化改造。將安全的、版本感知的重寫套用到較新的語言和 stdlib 習慣用法（interface{} 到任何、3 個子句循環到 range-over-int、min/max、strings.Cut、new(expr) 和 20 多個），迭代到一個固定點並隨後驗證建置。每當 Go 程式碼應該現代化、清理或變得慣用時使用－在 go.mod 版本升級之後，當舊式或 AI 產生的模式累積時，當將呼叫者從已棄用或重命名的 API（go:fix 內聯指令）遷移時，當使用者提到 go fix 或 gofix 時，或強制將現代習慣作為 CI 閘門時。不適用於 gofmt 格式化、相依性升級或 go vet bug 查找。

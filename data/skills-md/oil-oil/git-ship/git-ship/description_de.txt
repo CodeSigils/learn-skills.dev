@@ -1,0 +1,14 @@
+Automatisierter Ein-Klick-Release-Assistent für den Git-Workflow, der den gesamten „Versand“-Prozess ausführt: vom neuesten Main abzweigen → Commit → Push → PR erstellen → Squash-Merge → zurück zum Main.
+
+Es sollte nur ausgelöst werden, wenn der Benutzer explizit die Absicht zum „Versenden“ zum Ausdruck bringt, zum Beispiel:
+- Sagen Sie direkt „Schiff“, „/Schiff“, „Git Schiff“
+- Eindeutige Aufforderung, den gesamten Git-Ablauf auszuführen: „Helfen Sie mir, durch den Git-Prozess zu gehen“, „Haupt ziehen, verzweigen, PR öffnen, zusammenführen“
+- Verwendung von Formulierungen wie „Diese Änderungen freigeben“, „Diese Änderungen in eine PR umwandeln und zusammenführen“
+
+Es sollte in folgenden Fällen nicht ausgelöst werden:
+- Der Benutzer möchte nur einen Commit durchführen
+- Der Benutzer möchte nur eine PR erstellen
+- Der Benutzer möchte nur Code übertragen
+- Besprechen Sie Git-bezogene Fragen oder erklären Sie Git-Konzepte
+
+Bitte antworten Sie immer in der Sprache des Benutzers.

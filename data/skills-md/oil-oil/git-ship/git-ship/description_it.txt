@@ -1,0 +1,14 @@
+Assistente di rilascio con un solo clic del flusso di lavoro Git automatizzato che esegue l'intero processo di "spedizione": diramazione dall'ultimo main → commit → push → crea PR → squash merge → torna a main.
+
+Dovrebbe essere attivato solo quando l'utente esprime esplicitamente un intento di "spedire", ad esempio:
+- Dire direttamente "ship", "/ship", "git ship"
+- Richiesta chiara di eseguire il flusso Git completo: "Aiutami a seguire il processo Git", "Pull main, branch, open a PR, merge"
+- Usare frasi come "rilascia queste modifiche", "trasforma queste modifiche in una PR e uniscile"
+
+Non dovrebbe essere attivato in casi come:
+- L'utente vuole solo impegnarsi
+- L'utente desidera solo creare un PR
+- L'utente vuole solo inserire il codice
+- Discutere domande relative a Git o spiegare i concetti di Git
+
+Si prega di rispondere sempre nella lingua dell'utente.

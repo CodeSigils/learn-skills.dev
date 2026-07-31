@@ -1,0 +1,1 @@
+設計和實作單一 Rust 箱的內部佈局 - lib.rs/main.rs 作為瘦索引、語義命名的目錄模組、「mod」聲明、「pub」可見性和有針對性的重新匯出。當使用者詢問如何組織 src/、編寫 lib.rs、將不斷增長的 crate 拆分為子目錄、在 `foo.rs` 和 `foo/mod.rs` 之間進行選擇、命名模組、避免平面 lib.rs「索引加 glob 重新導出」反模式或將 Java 風格或 Python 風格的 Rust 模組遷移到慣用模組時的使用模式或將 Java 風格或 Python 風格的 Rust Python 模組遷移到慣用模式。

@@ -1,0 +1,14 @@
+Asistente de lanzamiento con un solo clic del flujo de trabajo automatizado de Git que ejecuta el proceso completo de “envío”: bifurcarse desde el último principal → confirmar → empujar → crear PR → fusionar → volver al principal.
+
+Solo debe activarse cuando el usuario expresa explícitamente una intención de "enviar", por ejemplo:
+- Decir directamente "barco", "/barco", "git barco"
+- Solicitar claramente ejecutar el flujo completo de Git: "Ayúdame a realizar el proceso de Git", "Extraer principal, bifurcar, abrir un PR, fusionar"
+- Usar frases como "publicar estos cambios", "convertir estos cambios en un PR y fusionarlos"
+
+No debe activarse en casos como:
+- El usuario sólo quiere comprometerse
+- El usuario solo quiere crear un PR
+- El usuario sólo quiere insertar código.
+- Discutir preguntas relacionadas con Git o explicar conceptos de Git.
+
+Por favor responda siempre en el idioma del usuario.

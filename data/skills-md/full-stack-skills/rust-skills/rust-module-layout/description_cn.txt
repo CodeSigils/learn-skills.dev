@@ -1,0 +1,1 @@
+设计和实施单个 Rust 箱的内部布局 - lib.rs/main.rs 作为瘦索引、语义命名的目录模块、“mod”声明、“pub”可见性和有针对性的重新导出。当用户询问如何组织 src/、编写 lib.rs、将不断增长的 crate 拆分为子目录、在 `foo.rs` 和 `foo/mod.rs` 之间进行选择、命名模块、避免平面 lib.rs“索引加 glob 重新导出”反模式或将 Java 风格或 Python 风格的平面项目迁移到惯用的 Rust 模块树时使用。
