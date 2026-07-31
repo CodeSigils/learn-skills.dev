@@ -1,0 +1,1 @@
+Use this skill when running inside Herdr to coordinate workspaces, tabs, panes, sibling agents, server/test/log panes, agent-to-agent messages, or multi-agent delegation. Send a lightweight herdr-msg (reply-to + task), then stop and end the turn. Do not poll siblings and do not block-wait for replies; handle the peer message when it is injected into your pane.

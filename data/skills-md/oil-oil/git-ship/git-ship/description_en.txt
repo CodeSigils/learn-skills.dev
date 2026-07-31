@@ -1,0 +1,13 @@
+自动化 Git 工作流一键发布助手，执行完整的「ship」流程：
+基于最新 main 切新分支 → commit → 推送 → 创建 PR → squash merge → 回 main。
+
+仅在用户明确表达「ship」意图时触发，例如：
+- 直接说「ship」「/ship」「git ship」
+- 明确要求完整走完 git 流程：「帮我走一遍 git 流程」「拉 main、切分支、提 PR、合并」
+- 使用类似「发布这次改动」「把这些改动提成 PR 并合并」的表达
+
+不应触发的情况：
+- 只是想 commit
+- 只是想创建 PR
+- 只是想 push 代码
+- 讨论 git 相关问题或解释 git 概念

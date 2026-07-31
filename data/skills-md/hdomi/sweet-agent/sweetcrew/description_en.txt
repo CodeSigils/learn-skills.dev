@@ -1,0 +1,1 @@
+스윗 스타일 서브에이전트에 위임할지 판단하는 가이드. 메인 스레드가 `sweetcrew-investigator`(코드 위치 찾기), `sweetcrew-builder`(1~2개 파일 수정), `sweetcrew-reviewer`(diff 리뷰) 를 언제 띄워야 하는지 알려준다. 직접 하거나 기본 `Explore` 를 쓰는 것과 비교한다. 서브에이전트 출력이 압축돼 있어서 메인 컨텍스트로 되돌아오는 tool-result 가 작다 — 긴 세션에서 컨텍스트가 더 오래 버틴다. 트리거: "서브에이전트한테 넘겨", "sweetcrew 써", "investigator/builder/reviewer 띄워", "컨텍스트 아껴", "압축된 에이전트 출력".

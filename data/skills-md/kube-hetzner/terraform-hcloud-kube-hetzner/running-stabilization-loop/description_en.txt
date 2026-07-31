@@ -1,0 +1,1 @@
+Use after major refactors or risky infrastructure changes to run iterative stabilization loops in kube-test: clean state, run the v3 matrix (k3s/rke2, autoscaler, leapmicro/microos, multi-arch), proactively debug failures over SSH/journalctl, apply fixes, retest until green, then validate upgrade paths from the latest tag to current staging.
