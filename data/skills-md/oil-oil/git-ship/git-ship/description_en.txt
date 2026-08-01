@@ -1,14 +1,13 @@
-Automated Git workflow one‑click release assistant that executes the full “ship” process: branch off from the latest main → commit → push → create PR → squash merge → back to main.
+自动化 Git 工作流一键发布助手，执行完整的「ship」流程：
+基于最新 main 切新分支 → commit → 推送 → 创建 PR → squash merge → 回 main。
 
-It should only be triggered when the user explicitly expresses a “ship” intent, for example:
-- Directly saying “ship”, “/ship”, “git ship”
-- Clearly requesting to run the complete Git flow: “Help me go through the Git process”, “Pull main, branch, open a PR, merge”
-- Using phrasing like “release these changes”, “turn these changes into a PR and merge”
+仅在用户明确表达「ship」意图时触发，例如：
+- 直接说「ship」「/ship」「git ship」
+- 明确要求完整走完 git 流程：「帮我走一遍 git 流程」「拉 main、切分支、提 PR、合并」
+- 使用类似「发布这次改动」「把这些改动提成 PR 并合并」的表达
 
-It should not be triggered in cases such as:
-- The user only wants to commit
-- The user only wants to create a PR
-- The user only wants to push code
-- Discussing Git‑related questions or explaining Git concepts
-
-Please always respond in the user’s language.
+不应触发的情况：
+- 只是想 commit
+- 只是想创建 PR
+- 只是想 push 代码
+- 讨论 git 相关问题或解释 git 概念
