@@ -1,0 +1,1 @@
+使用 DataStoreService 将玩家数据保留在 Roblox 中：GetDataStore、GetAsync/SetAsync/UpdateAsync/IncrementAsync 封装在 pcall、load-on-join 和 save-on-leave 以及 BindToClose、重试和 OrderedDataStore 排行榜中。在 Roblox 体验中保存或加载持久数据时使用 - 当用户提及 DataStore、DataStoreService、GetAsync、SetAsync、UpdateAsync、保存玩家数据或排行榜时。对于一般 Luau 脚本，请使用 roblox-luau。

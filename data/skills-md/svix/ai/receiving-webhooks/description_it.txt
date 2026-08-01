@@ -1,0 +1,1 @@
+Linee guida generali per la creazione di un ricevitore/gestore webhook robusto: verifica delle firme, accesso al corpo non elaborato, protezione dalla riproduzione, elaborazione asincrona, nuovi tentativi e disabilitazione automatica dell'endpoint. Da utilizzare ogni volta che scrivi, rivedi o esegui il debug di un gestore che utilizza webhook in entrata da qualsiasi provider.

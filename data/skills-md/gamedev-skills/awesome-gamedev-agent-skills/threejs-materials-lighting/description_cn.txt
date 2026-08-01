@@ -1,0 +1,1 @@
+对 Three.js 场景进行照明和着色：选择材质（MeshStandardMaterial PBR 与未照明的 MeshBasicMaterial），添加环境光/半球/方向光/点/聚光灯，打开阴影贴图，并使用环境贴图 (IBL) 实现逼真的反射。当 Three.js 模型看起来黑色、扁平或错误时使用 - 当用户提到 Three.js 材质、MeshStandardMaterial、灯光、阴影、envMap 或 PBR 时。对于渲染器/循环设置，请使用 Threejs-scene-setup；要加载模型，请使用 Threejs-gltf-loading。
