@@ -1,0 +1,1 @@
+カスタム Resource クラスを使用してデータ駆動型の Godot 4.x ゲームを設計します。class_name + @export を使用して型付きデータを定義し、.tres/.res ファイル、インスタンスおよび複製リソースを保存/ロードし、ResourceLoader を使用してオンデマンドでロードします (スレッド読み込みを含む)。 Godot プロジェクトのデータとして項目/統計/構成をモデル化する場合、.tres リソースを作成する場合、またはカスタム Resource サブクラスおよび ResourceLoader/ResourceSaver を操作する場合に使用します。

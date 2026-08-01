@@ -1,0 +1,1 @@
+DataStoreService: GetDataStore、GetAsync/ SetAsync/UpdateAsync/IncrementAsync を pcall、load-on-join、save-on-leave に加えて BindToClose、再試行、OrderedDataStore リーダーボードでラップして Roblox にプレーヤー データを保持します。 Roblox エクスペリエンスで永続データを保存またはロードするとき、つまりユーザーが DataStore、DataStoreService、GetAsync、SetAsync、UpdateAsync、プレーヤー データの保存、またはリーダーボードについて言及するときに使用します。一般的な Luau スクリプトには roblox-luau を使用します。

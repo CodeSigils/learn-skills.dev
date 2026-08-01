@@ -1,0 +1,1 @@
+three.js シーンのライトとシェーディング: マテリアルを選択し (MeshStandardmaterial PBR と消灯の MeshBasicマテリアル)、アンビエント/半球/指向性/ポイント/スポット ライトを追加し、シャドウ マップをオンにして、リアルな反射のために環境マップ (IBL) を使用します。 three.js モデルが黒く見えたり、平坦であったり、間違っているように見える場合、つまりユーザーがthree.js マテリアル、MeshStandardmaterial、ライト、シャドウ、envMap、または PBR について言及した場合に使用します。レンダラ/ループのセットアップには、threejs-scene-setup を使用します。モデルをロードするには、threejs-gltf-loading を使用します。
