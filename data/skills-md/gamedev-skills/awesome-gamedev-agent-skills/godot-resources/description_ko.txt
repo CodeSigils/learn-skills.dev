@@ -1,0 +1,1 @@
+사용자 정의 리소스 클래스를 사용하여 데이터 기반 Godot 4.x 게임을 디자인합니다. class_name + @export로 유형이 지정된 데이터를 정의하고, .tres/.res 파일, 인스턴스 및 복제 리소스를 저장/로드하고, ResourceLoader(스레드 로딩 포함)를 사용하여 요청 시 로드합니다. 항목/상태/구성을 Godot 프로젝트의 데이터로 모델링하거나, .tres 리소스를 생성하거나, 사용자 정의 리소스 하위 클래스 및 ResourceLoader/ResourceSaver로 작업할 때 사용합니다.

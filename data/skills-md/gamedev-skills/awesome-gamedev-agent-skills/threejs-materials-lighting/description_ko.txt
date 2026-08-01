@@ -1,0 +1,1 @@
+three.js 장면 조명 및 음영 처리: 재질(MeshStandardMaterial PBR 대 조명이 없는 MeshBasicMaterial)을 선택하고, 주변/반구/방향성/점/스팟 라이트를 추가하고, 그림자 맵을 켜고, 사실적인 반사를 위해 환경 맵(IBL)을 사용합니다. 사용자가 three.js 재질, MeshStandardMaterial, 조명, 그림자, envMap 또는 PBR을 언급할 때 three.js 모델이 검거나 밋밋하거나 잘못된 것처럼 보일 때 사용하세요. 렌더러/루프 설정의 경우 threejs-scene-setup을 사용하세요. 모델을 로드하려면 threejs-gltf-loading을 사용하세요.
