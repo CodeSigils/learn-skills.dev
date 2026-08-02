@@ -1,0 +1,1 @@
+配置应用程序内和 Web 消息传递 (MIAW) 的嵌入式消息传递部署。当用户需要使用默认值的 Connect API 从头开始​​创建新的嵌入式消息传递部署，或使用元数据 API 更新现有部署的设置时使用。生成用于新部署的 Connect API 请求负载和用于更新的 EmbeddedServiceConfig 元数据 XML。当用户提及嵌入式消息部署、嵌入式服务部署、MIAW 部署、消息小部件设置、聊天小部件配置、嵌入式聊天部署或引用 .EmbeddedServiceConfig-meta.xml 文件时触发。当用户创建消息通道（使用 service-digital-engagement-channel-configure）、配置旧版 Live Agent 嵌入式服务或生成用于网站嵌入的 JavaScript 代码片段时，请勿触发。
