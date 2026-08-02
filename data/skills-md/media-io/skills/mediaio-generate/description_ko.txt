@@ -1,0 +1,19 @@
+Mediaio AI를 통해 이미지/비디오/3D 자산/오디오를 생성합니다. 기본값:
+이미지/디자인/텍스트는 GPT Image 2, Seedance 2.0은
+동영상, 캐릭터/참조용 Nano Banana 2/Lite/Pro
+이미지, 광고용 Marketing Studio, 오디오용 Seed Audio 1.0.
+사용 시기: "이미지 생성", "비디오 만들기", "애니메이션 만들기"
+이 사진", "이미지를 비디오로", "이 사진을 편집/스타일화/리믹스합니다.
+이미지", "동영상 재구성", "이 동영상을 다음에서 편집하세요.
+스케치", "3D 모델/GLB 만들기", "음향 효과 만들기",
+"음악 만들기", "텍스트를 오디오로", "광고 만들기", "UGC 만들기"
+비디오", "언박싱", "발표자 비디오", "에서 제품 가져오기
+URL' 또는 '비디오 입소문 분석'. 이미지-3D 지원
+(`multi_image_to_3d`),
+텍스트-오디오/음악(`seed_audio`), 워크플로 생성
+(`draw_to_video`, `reframe`), Marketing Studio 및
+바이러스성 예측기(`brain_activity`).
+얼굴/신원 일관성을 위해 mediaio-soul-id가 포함된 체인입니다.
+해당되지 않음: 영혼 훈련, 사진 촬영, 카드, 설명(사용
+mediaio-video-explainer), 플레이 가능한 게임/자산(사용
+mediaio-game-generation) 또는 TTS입니다.

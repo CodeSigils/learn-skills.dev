@@ -1,0 +1,1 @@
+配置應用程式內和 Web 訊息傳遞 (MIAW) 的嵌入式訊息傳遞部署。當使用者需要使用預設值的 Connect API 從頭開始建立新的嵌入式訊息傳遞部署，或使用元資料 API 更新現有部署的設定時使用。產生用於新部署的 Connect API 請求負載和用於更新的 EmbeddedServiceConfig 元資料 XML。當使用者提及嵌入式訊息部署、嵌入式服務部署、MIAW 部署、訊息小工具設定、聊天小工具配置、嵌入式聊天部署或引用 .EmbeddedServiceConfig-meta.xml 檔案時觸發。當使用者建立訊息通道（使用 service-digital-engagement-channel-configure）、設定舊版 Live Agent 嵌入式服務或產生用於網站嵌入的 JavaScript 程式碼片段時，請勿觸發。

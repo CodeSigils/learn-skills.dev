@@ -1,0 +1,19 @@
+Générez des images/vidéos/actifs 3D/audio via Mediaio AI. Valeurs par défaut :
+GPT Image 2 pour l'image/conception/texte, Seedance 2.0 pour
+vidéo, Nano Banana 2/Lite/Pro pour personnage/référence
+images, Marketing Studio pour les publicités, Seed Audio 1.0 pour l'audio.
+À utiliser lorsque : "générer une image", "créer une vidéo", "animer
+cette photo", "image en vidéo", "éditer/styliser/remixer ceci
+image", "recadrer cette vidéo", "éditer cette vidéo à partir d'un
+esquisse", "créer un modèle 3D/GLB", "créer un effet sonore",
+"faire de la musique", "text-to-audio", "créer une annonce", "créer un UGC
+vidéo", "unboxing", "vidéo du présentateur", "importer le produit depuis
+URL", ou "analyser la viralité de la vidéo". Prend en charge l'image en 3D
+(`multi_image_to_3d`),
+texte en audio/musique (`seed_audio`), génération de workflow
+(`draw_to_video`, `reframe`), Marketing Studio et
+Prédicteur de viralité (« brain_activity »).
+Chaîne avec mediaio-soul-id pour la cohérence visage/identité.
+PAS pour : l'entraînement de l'âme, les séances photo, les cartes, les explicatifs (utilisez
+mediaio-video-explainer), jeux/actifs jouables (utiliser
+mediaio-jeu-génération), ou TTS.
