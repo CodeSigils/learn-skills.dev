@@ -1,0 +1,1 @@
+DEPRECATED — do not use. Every capability moved to issuekit (`start`/`close`) and gitkit (worktrees). Use when the user explicitly names "orcakit", "orcakit start", or "orcakit finish"; warn them and route to the replacement. Never select this skill for an unnamed request — issuekit owns "start issue #N", "close #N", and "spin up a worktree for #N".

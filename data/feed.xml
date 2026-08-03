@@ -4,599 +4,575 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sun, 02 Aug 2026 03:03:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 02:35:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-02)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-03)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:snapshot</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:snapshot</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8328
-Trending skills: 7888
-Hot skills: 683
-Top All Time: find-skills (2776818)
-Top Trending: ai-video-generation (21667)
-Top Hot: reddit-automation (25)]]></description>
+All Time skills: 8326
+Trending skills: 7698
+Hot skills: 3515
+Top All Time: find-skills (2787493)
+Top Trending: ai-video-generation (21589)
+Top Hot: reddit-automation (435)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): notion-api]]></title>
-            <link>https://skills.sh/intellectronica/agent-skills/notion-api</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:intellectronica/agent-skills/notion-api</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #13
-Installs: 6
-Source: intellectronica/agent-skills
-Description: This skill provides comprehensive instructions for interacting with the Notion API via REST calls. This skill should be used whenever the user asks to interact with Notion, including reading, creating, updating, or deleting pages, databases, blocks, comments, or any other Notion content. The skill covers authentication, all available endpoints, pagination, error handling, and best practices.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#14): playwright-cli]]></title>
-            <link>https://skills.sh/microsoft/playwright-cli/playwright-cli</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:microsoft/playwright-cli/playwright-cli</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 6
-Source: microsoft/playwright-cli
-Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#2): 5dive-cli]]></title>
-            <link>https://skills.sh/5dive-ai/skills/5dive-cli</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:5dive-ai/skills/5dive-cli</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #2
-Installs: 9
-Source: 5dive-ai/skills
-Description: Use the local `5dive` CLI on a 5dive runtime VM to spawn, inspect, send to, and tear down sibling agents. Trigger when the user wants a worker, sub-agent, side task, parallel run, fan-out, or to delegate — or names a sibling agent ("ask X", "ping X", "tell X", "hand off to X", "coordinate with X"); confirm it exists via `5dive agent list --json`, then `agent send`. Also for inspecting/restarting/pairing an existing agent, a machine-readable health check (`5dive doctor --json`), the host-shared task queue + org chart (`5dive task`, `5dive org`), recurring/scheduled work (`task add --recurring`, `5dive heartbeat`), parking a question on a human (`task need`), or declarative fleets (`5dive up`, `5dive team import`). When a request came over a chat channel (Telegram/Discord `<channel>` tag) and another agent should handle it, pass the chat context via `--reply-to-chat=<id> --reply-to-msg=<id>` so that agent replies from its own bot — don't relay. Always prefer `5dive` over running coding CLIs by hand.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#20): playwright-best-practices]]></title>
-            <link>https://skills.sh/currents-dev/playwright-best-practices-skill/playwright-best-practices</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:currents-dev/playwright-best-practices-skill/playwright-best-practices</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #20
-Installs: 4
-Source: currents-dev/playwright-best-practices-skill
-Description: Comprehensive guide for writing, debugging, and maintaining Playwright tests in TypeScript. Use when writing new Playwright tests, reviewing test code, fixing flaky tests, debugging test failures, setting up test infrastructure, implementing Page Object Model, configuring CI/CD pipelines, optimizing test performance, fixing selector issues, handling authentication, mocking APIs, organizing test suites, or troubleshooting Playwright issues. Covers E2E, component, API, and visual regression testing.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#21): remotion-upgrade]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-upgrade</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-upgrade</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #21
-Installs: 4
-Source: remotion-dev/skills
-Description: Upgrade Remotion, its related packages, compatible Mediabunny packages, and installed Remotion Agent Skills. Use when asked to upgrade or update a Remotion project.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#22): remotion-captions]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-captions</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-captions</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #22
-Installs: 4
-Source: remotion-dev/skills
-Description: Dealing with captions in Remotion]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#23): remotion-saas]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-saas</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-saas</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #23
-Installs: 4
-Source: remotion-dev/skills
-Description: Building video apps with Remotion - framework, rendering and Player advice]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#24): remotion-maps]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-maps</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-maps</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #24
-Installs: 4
-Source: remotion-dev/skills
-Description: Best practices for animating Maps in Remotion]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#25): remotion-multimedia]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-multimedia</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-multimedia</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #25
-Installs: 4
-Source: remotion-dev/skills
-Description: Interacting with Mediabunny]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#26): remotion-markup]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-markup</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-markup</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #26
-Installs: 4
-Source: remotion-dev/skills
-Description: Best practices for writing Remotion React Markup]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#27): remotion-docs]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-docs</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-docs</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #27
-Installs: 4
-Source: remotion-dev/skills
-Description: Search and fetch Remotion documentation pages]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#28): remotion-interactivity]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-interactivity</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-interactivity</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #28
-Installs: 4
-Source: remotion-dev/skills
-Description: Best practices for writing Remotion animations that stay intuitive for agents and editable in Remotion Studio Visual Mode.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#29): remotion-create]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-create</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-create</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #29
-Installs: 4
-Source: remotion-dev/skills
-Description: Creating a new Remotion video]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#3): openagent]]></title>
-            <link>https://skills.sh/5dive-ai/skills/openagent</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:5dive-ai/skills/openagent</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #3
-Installs: 9
-Source: 5dive-ai/skills
-Description: Author your own OpenAgent persona and mint your shareable holo trading card. Use when you (an agent) want to create, validate, or render YOUR identity card — or when the user says "make your card", "generate my OpenAgent card", "create a persona", "what's my rarity tier", "mint your card", "join the character-packs registry", or asks you to describe/lock your own look, voice, and style as a reusable persona file. Wraps the `@5dive/openagent` CLI (validate / tier / card) and the OpenAgent v0.2 identity spec. Self-service flow, where you write a `<id>.persona.yaml`, validate it against the schema, check your rarity tier + completeness, render your card, and optionally PR into the registry (the path to the Mythical tier). Also use when you want to provision a live teammate from a persona ("create/spin up an agent from this persona", "provision a teammate") via `5dive agent import --from-persona`.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#30): remotion-render]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-render</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-render</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #30
-Installs: 4
-Source: remotion-dev/skills
-Description: Best practices for rendering videos]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#31): remotion-best-practices]]></title>
-            <link>https://skills.sh/remotion-dev/skills/remotion-best-practices</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:remotion-dev/skills/remotion-best-practices</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #31
-Installs: 4
-Source: remotion-dev/skills
-Description: Best practices for Remotion - Video creation in React]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#32): product-launch-video]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/product-launch-video</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:heygen-com/hyperframes/product-launch-video</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #32
-Installs: 4
-Source: heygen-com/hyperframes
-Description: Use when the user wants a product launch, SaaS promo, feature reveal, app/company/site marketing video, or a script/brief turned into a product-focused video. Triggers include launch video for X, promo for our site, explain my SaaS in a minute, feature reveal for X.com, and turn this script into a 60s promo. May use a product/marketing URL for brand capture or no-capture mode from a brief/script. Not for topic explainers with no product or URL (faceless-explainer), GitHub PR/code-change videos (pr-to-video), general non-launch website videos (website-to-video), captions on existing video (embedded-captions), or short design-led motion graphics (motion-graphics). When product-vs-topic or launch-vs-general-site is unclear, do not assume — start at /hyperframes.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#33): hyperframes-registry]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-registry</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:heygen-com/hyperframes/hyperframes-registry</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #33
-Installs: 4
-Source: heygen-com/hyperframes
-Description: Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#34): hyperframes-keyframes]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #34
-Installs: 4
-Source: heygen-com/hyperframes
-Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#35): hyperframes-creative]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:heygen-com/hyperframes/hyperframes-creative</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #35
-Installs: 4
-Source: heygen-com/hyperframes
-Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#40): sleek-design-mobile-apps]]></title>
-            <link>https://skills.sh/design-layers/agent-skills/sleek-design-mobile-apps</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:design-layers/agent-skills/sleek-design-mobile-apps</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #40
-Installs: 4
-Source: design-layers/agent-skills
-Description: Use when the user wants to design a mobile app or UI screens, when they mention their Sleek (sleek.design) projects, or when implementing Sleek designs in code (HTML, React Native, SwiftUI).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#41): browser-mcp-agent]]></title>
-            <link>https://skills.sh/antibrow/anti-detect-browser-skills/browser-mcp-agent</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:antibrow/anti-detect-browser-skills/browser-mcp-agent</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 3
-Source: antibrow/anti-detect-browser-skills
-Description: Give an AI agent its own real browser over MCP tool calls - launch, navigate, click, fill, screenshot, extract text, run JS - with a kernel-level real-device fingerprint and a persistent profile, so the session stays logged in between runs and pages see one coherent device instead of a headless build. No Playwright or SDK code to write. Use when an agent should operate a site itself, when a computer-use / browser-use setup needs a captured real fingerprint rather than a synthetic one, when agent sessions keep losing their login, or when comparing hosted agent-browser services. Also for 'MCP browser', 'browser MCP server', 'let my agent browse the web', 'agent browser control', 'browser-use MCP', 'computer use browser', 'Browserbase alternative', 'Steel browser alternative', 'headless browser detected'. Node (npx) or Python; Windows x64, macOS Intel + Apple Silicon, Linux x64 / arm64. SDK and REST reference is anti-detect-browser; account isolation is multi-account-isolation.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): multi-account-isolation]]></title>
-            <link>https://skills.sh/antibrow/anti-detect-browser-skills/multi-account-isolation</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:antibrow/anti-detect-browser-skills/multi-account-isolation</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #42
-Installs: 3
-Source: antibrow/anti-detect-browser-skills
-Description: The full checklist for keeping several accounts you own or are authorized to run from being correlated into one operator - profile, cookies, exit IP, timezone, WebRTC, account metadata, payment instrument, behaviour - not just the browser fingerprint. Use when someone runs multiple social / marketplace / ad accounts from one machine and wants to know what actually ties them together, why an isolation setup failed even though the fingerprint tested clean, how to pair one sticky proxy per account, how to verify a profile before trusting it (CreepJS, whoer, browserleaks WebRTC, pixelscan, liarjs), or which layers no browser can fix - shared recovery email, shared payout account, identical posting cadence. Also for 'account association', 'accounts got linked', 'multi-account setup', 'one proxy per account', 'profile isolation checklist', '账号关联', '防关联', '多账号运营'. The browser layer is implemented by the anti-detect-browser skill; MCP control is browser-mcp-agent.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#43): anti-detect-browser]]></title>
-            <link>https://skills.sh/antibrow/anti-detect-browser-skills/anti-detect-browser</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:antibrow/anti-detect-browser-skills/anti-detect-browser</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #43
-Installs: 3
-Source: antibrow/anti-detect-browser-skills
-Description: Launch and manage anti-detect browsers with unique real-device fingerprints for multi-account operations, web scraping, ad verification, and AI agent automation. Use when the user needs to run multiple browser sessions with distinct identities, manage persistent browser profiles, automate tasks across accounts, or build agentic workflows that require browser fingerprint isolation. Also use when the user mentions antibrow, anti-detect browser, or fingerprint browser.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#44): extension-camera]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-camera</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-camera</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #44
-Installs: 3
-Source: caffeinelabs/skills
-Description: Web-camera support.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#45): connector-googlecalendar]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/connector-googlecalendar</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/connector-googlecalendar</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #45
-Installs: 3
-Source: caffeinelabs/skills
-Description: MANDATORY recipe for every Caffeine build that lists upcoming events or creates events on the user's own Google Calendar. The ONLY supported path is the `googlecalendar-client` mops package (Calendar REST API v3) combined with the `google-oauth` mops package (token exchange + refresh + PKCE). Hand-rolling `ic.http_request` calls to `oauth2.googleapis.com` or `www.googleapis.com/calendar/v3` is a FORBIDDEN anti-pattern — it bypasses bearer auth, replication-cost safeguards, and the `google-oauth` library's percent-encoding and JSON parsing. Load this skill whenever the user, spec, or any prior task mentions scheduling, calendar events, appointments, meetings, "add to calendar", or any equivalent phrasing — and BEFORE writing any code that touches a Google endpoint.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#46): extension-stripe]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-stripe</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-stripe</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #46
-Installs: 3
-Source: caffeinelabs/skills
-Description: Payment support based on Stripe, supporting credit cards and debit cards]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#47): extension-email-verification]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-email-verification</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-email-verification</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #47
-Installs: 3
-Source: caffeinelabs/skills
-Description: Support for sending an email with a link the recipient can click to prove they own the email address.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#48): extension-posting-to-x]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-posting-to-x</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-posting-to-x</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #48
-Installs: 3
-Source: caffeinelabs/skills
-Description: MANDATORY recipe for every Caffeine build that posts to X (Twitter). The ONLY supported path is the `x-client` mops package with OAuth 2.0 PKCE. Hand-rolling `ic.http_request` or `icBooking.http_request` calls to `api.x.com/2/tweets`, `api.x.com/2/oauth2/token`, or any other X endpoint is a FORBIDDEN anti-pattern — it bypasses bearer auth, replication-cost safeguards, and `x-client`'s null-field handling. Load this skill whenever the user, spec, or any prior task mentions tweeting, live-tweeting, posting-to-X, posting-a-status, sharing-to-Twitter, or any equivalent phrasing — and BEFORE writing any code that touches `api.x.com`.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#49): extension-http-outcalls]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-http-outcalls</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-http-outcalls</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #49
-Installs: 3
-Source: caffeinelabs/skills
-Description: HTTP outcalls performed by the backend canister (not in the frontend).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#50): extension-object-storage]]></title>
-            <link>https://skills.sh/caffeinelabs/skills/extension-object-storage</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:new:caffeinelabs/skills/extension-object-storage</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #50
-Installs: 3
-Source: caffeinelabs/skills
-Description: General file/object storage, such as for images, videos, files, documents and other bulk data. Perfect fit for image galleries, video galleries, and other file or object management. Supports large files beyond IC limit, with browser-cached HTTP URL access.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#20): hyperframes-cli]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:heygen-com/hyperframes/hyperframes-cli</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #20
-Installs: 6541
-Source: heygen-com/hyperframes
-Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#23): hyperframes]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:heygen-com/hyperframes/hyperframes</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #23
-Installs: 5735
-Source: heygen-com/hyperframes
-Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#25): hyperframes-core]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-core</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:heygen-com/hyperframes/hyperframes-core</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #25
-Installs: 5584
-Source: heygen-com/hyperframes
-Description: HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#27): media-use]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:heygen-com/hyperframes/media-use</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #27
-Installs: 5411
-Source: heygen-com/hyperframes
-Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#34): prisma-upgrade-v7]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-upgrade-v7</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:prisma/skills/prisma-upgrade-v7</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #34
-Installs: 5285
-Source: prisma/skills
-Description: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on "upgrade to prisma 7", "prisma 7 migration", "prisma-client-js to prisma-client", "driver adapter required".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#37): prisma-mongodb-upgrade]]></title>
-            <link>https://skills.sh/prisma/skills/prisma-mongodb-upgrade</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topTrending:new:prisma/skills/prisma-mongodb-upgrade</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #37
-Installs: 5278
-Source: prisma/skills
-Description: Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7. Use when a MongoDB project asks about upgrading Prisma, when "upgrade to prisma 7" comes up in a project with provider = "mongodb", or when evaluating a move to Prisma Next. Triggers on "upgrade prisma mongodb", "prisma 7 mongodb", "mongodb prisma migration", "prisma next mongodb".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[All Time] Rank down (10 → 15): web-design-guidelines]]></title>
-            <link>https://skills.sh/vercel-labs/agent-skills/web-design-guidelines</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topAllTime:rank:vercel-labs/agent-skills/web-design-guidelines</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[All Time leaderboard rank change.
-Previous rank: #10
-Current rank: #15
-Delta: -5
-Installs: 508209 (prev 506283)
-Source: vercel-labs/agent-skills
-Description: Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[All Time] Rank down (9 → 14): setup-matt-pocock-skills]]></title>
+            <title><![CDATA[[Hot] New entry (#10): setup-matt-pocock-skills]]></title>
             <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topAllTime:rank:mattpocock/skills/setup-matt-pocock-skills</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[All Time leaderboard rank change.
-Previous rank: #9
-Current rank: #14
-Delta: -5
-Installs: 521861 (prev 516973)
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/setup-matt-pocock-skills</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #10
+Installs: 207
 Source: mattpocock/skills
 Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] Rank up (11 → 9): ai-video-generation]]></title>
-            <link>https://skills.sh/101-skills/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topAllTime:rank:101-skills/skills/ai-video-generation</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[All Time leaderboard rank change.
-Previous rank: #11
-Current rank: #9
-Delta: +2
-Installs: 527693 (prev 506146)
-Source: 101-skills/skills
-Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+            <title><![CDATA[[Hot] New entry (#11): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/teach</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #11
+Installs: 202
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] Rank up (12 → 10): ai-image-generation]]></title>
-            <link>https://skills.sh/101-skills/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topAllTime:rank:101-skills/skills/ai-image-generation</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[All Time leaderboard rank change.
-Previous rank: #12
-Current rank: #10
-Delta: +2
-Installs: 526069 (prev 504591)
-Source: 101-skills/skills
-Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
+            <title><![CDATA[[Hot] New entry (#12): prototype]]></title>
+            <link>https://skills.sh/mattpocock/skills/prototype</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/prototype</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #12
+Installs: 198
+Source: mattpocock/skills
+Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] Rank down (10 → 17): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:mattpocock/skills/grill-me</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): to-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-spec</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/to-spec</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #13
+Installs: 197
+Source: mattpocock/skills
+Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#14): research]]></title>
+            <link>https://skills.sh/mattpocock/skills/research</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/research</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #14
+Installs: 196
+Source: mattpocock/skills
+Description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#15): implement]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/implement</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #15
+Installs: 196
+Source: mattpocock/skills
+Description: Implement a piece of work based on a PRD or set of issues.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#16): to-tickets]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-tickets</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/to-tickets</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #16
+Installs: 194
+Source: mattpocock/skills
+Description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#17): codebase-design]]></title>
+            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/codebase-design</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #17
+Installs: 194
+Source: mattpocock/skills
+Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#18): diagnosing-bugs]]></title>
+            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/diagnosing-bugs</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #18
+Installs: 193
+Source: mattpocock/skills
+Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#19): domain-modeling]]></title>
+            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/domain-modeling</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #19
+Installs: 193
+Source: mattpocock/skills
+Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#20): wayfinder]]></title>
+            <link>https://skills.sh/mattpocock/skills/wayfinder</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/wayfinder</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #20
+Installs: 192
+Source: mattpocock/skills
+Description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#21): writing-great-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-great-skills</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/writing-great-skills</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #21
+Installs: 188
+Source: mattpocock/skills
+Description: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#22): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/triage</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #22
+Installs: 186
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#23): ask-matt]]></title>
+            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/ask-matt</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #23
+Installs: 186
+Source: mattpocock/skills
+Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#24): resolving-merge-conflicts]]></title>
+            <link>https://skills.sh/mattpocock/skills/resolving-merge-conflicts</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/resolving-merge-conflicts</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #24
+Installs: 183
+Source: mattpocock/skills
+Description: Use when you need to resolve an in-progress git merge/rebase conflict.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#25): what-leaked-about-you]]></title>
+            <link>https://skills.sh/useosint/osint-skills/what-leaked-about-you</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:useosint/osint-skills/what-leaked-about-you</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #25
+Installs: 175
+Source: useosint/osint-skills
+Description: Check and interpret data-breach exposure for an email, username, phone or name using Have I Been Pwned, the Pwned Passwords k-anonymity range API, DeHashed, IntelX and Snusbase. Use when checking breach or leak exposure, finding which services an account was registered with, interpreting a combolist or credential dump, assessing credential compromise, or auditing your own leaked personal data. Applies to incident response and account-takeover triage, executive and VIP protection, pre-employment and vendor risk screening, and personal privacy audits. Reference at useosint.com/skills/what-leaked-about-you.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#26): investigate-without-getting-made]]></title>
+            <link>https://skills.sh/useosint/osint-skills/investigate-without-getting-made</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:useosint/osint-skills/investigate-without-getting-made</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #26
+Installs: 172
+Source: useosint/osint-skills
+Description: Investigator OPSEC — threat-model who might notice you, control your attribution surface across IP, ASN, browser and TLS fingerprint, timing and logged-in accounts, separate research identity from real identity, build and age a sockpuppet research persona, and choose between VPN, residential proxy and Tor. Use when setting up a research account, avoiding tipping off a subject, worrying about LinkedIn profile-view leakage, needing a burner phone or email, or hardening a research VM or browser profile. Applies to covert due diligence, insider-threat investigation, source protection in journalism, and law-enforcement online work. Reference at useosint.com/skills/investigate-without-getting-made.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#27): find-the-original-image]]></title>
+            <link>https://skills.sh/useosint/osint-skills/find-the-original-image</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:useosint/osint-skills/find-the-original-image</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #27
+Installs: 161
+Source: useosint/osint-skills
+Description: Reverse image search across Yandex, Google Lens, Bing Visual Search, TinEye and Baidu to find where a picture came from and who published it first. Use when reverse image searching, identifying a photo, face, logo, product, uniform or building, tracing a profile picture or avatar, finding the oldest copy of an image, checking whether a photo is stock or a repost, or reverse-searching a video by keyframes. Applies to romance and investment scam investigation, fake-profile and synthetic-identity detection, disinformation and media verification, counterfeit and brand-infringement work, and insurance claim review. Reference at useosint.com/skills/find-the-original-image.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#28): is-this-photo-real]]></title>
+            <link>https://skills.sh/useosint/osint-skills/is-this-photo-real</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:useosint/osint-skills/is-this-photo-real</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #28
+Installs: 159
+Source: useosint/osint-skills
+Description: Verify whether an image or video is authentic, original and correctly captioned — provenance checks, error level analysis, noise and JPEG compression analysis, clone and copy-move detection, lighting and shadow consistency, C2PA Content Credentials, deepfake and AI-generation tells, and the honest limits of AI-detector tools. Use when fact-checking a photo or video, checking for a deepfake or AI-generated image, spotting manipulation, or testing whether footage is recycled or miscaptioned. Applies to KYC and onboarding fraud, insurance claim review, disinformation analysis, and evidence admissibility. Reference at useosint.com/skills/is-this-photo-real.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#29): wind-mcp-skill]]></title>
+            <link>https://skills.sh/wind-information-co-ltd/wind-skills/wind-mcp-skill</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:wind-information-co-ltd/wind-skills/wind-mcp-skill</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #29
+Installs: 151
+Source: wind-information-co-ltd/wind-skills
+Description: 访问万得 Wind 金融数据。覆盖 A 股 / 港股 / 美股股票行情（最新价 / K 线 / 分钟）与财务基本面（财报 / 股本 / 事件 / 技术指标 / 风险）、ETF / 公募基金行情与全维数据（档案 / 财务 / 持仓 / 业绩 / 持有人 / 管理公司）、指数 / 板块行情与档案 / 基本面 / 技术、债券基本档案 / 发债主体 / 行情估值 / 主体财务、上市公司公告与财经新闻、宏观经济与行业指标。需要 WIND_API_KEY（登录 aimarket.wind.com.cn/#/user/overview 开发者中心获取）。**不包含**：欧股 / 日股、汇率 / 期货盘口、加密货币、非金融数据。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): orca-cli]]></title>
+            <link>https://skills.sh/stablyai/orca/orca-cli</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:stablyai/orca/orca-cli</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #31
+Installs: 124
+Source: stablyai/orca
+Description: Use the Orca CLI to orchestrate worktrees and live terminals through a running Orca editor. Use when an agent needs to create, inspect, update, or remove Orca worktrees; inspect repo state known to Orca; or read, send to, wait on, or stop Orca-managed terminals. Triggers include "use orca cli", "manage Orca worktrees", "read Orca terminal", "reply to Claude Code in Orca", "create a worktree in Orca", or any task where the agent should operate through Orca instead of talking to git worktrees and terminal processes directly.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#32): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #32
+Installs: 110
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#33): orchestration]]></title>
+            <link>https://skills.sh/stablyai/orca/orchestration</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:stablyai/orca/orchestration</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #33
+Installs: 94
+Source: stablyai/orca
+Description: Use the Orca CLI to coordinate multiple coding agents via inter-agent messaging, task DAGs, dispatch with preamble injection, decision gates, and coordinator loops. Use when an agent needs to send or check inter-agent messages; create, dispatch, or track orchestration tasks; coordinate multi-agent workflows; or act as a coordinator dispatching work across terminals. Triggers include "orchestrate agents", "dispatch task", "send message to agent", "check inbox", "coordinate agents", "multi-agent", "create task DAG", "worker_done", "escalation", or any task involving inter-agent coordination through Orca.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#36): design-taste-frontend]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/design-taste-frontend</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:leonxlnx/taste-skill/design-taste-frontend</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #36
+Installs: 85
+Source: leonxlnx/taste-skill
+Description: Senior UI/UX Engineer. Architect digital interfaces overriding default LLM biases. Enforces metric-based rules, strict component architecture, CSS hardware acceleration, and balanced design engineering.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#37): ubiquitous-language]]></title>
+            <link>https://skills.sh/mattpocock/skills/ubiquitous-language</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/ubiquitous-language</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #37
+Installs: 84
+Source: mattpocock/skills
+Description: Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions "domain model" or "DDD".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#38): batch-grill-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/batch-grill-me</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/batch-grill-me</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #38
+Installs: 84
+Source: mattpocock/skills
+Description: A relentless interview that asks every frontier question at once, round by round.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#39): qa]]></title>
+            <link>https://skills.sh/mattpocock/skills/qa</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/qa</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 84
+Source: mattpocock/skills
+Description: Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions "QA session".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): grill-with-docs]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/grill-with-docs</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #4
+Installs: 235
+Source: mattpocock/skills
+Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#40): design-an-interface]]></title>
+            <link>https://skills.sh/mattpocock/skills/design-an-interface</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/design-an-interface</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #40
+Installs: 84
+Source: mattpocock/skills
+Description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#41): frontend-design]]></title>
+            <link>https://skills.sh/anthropics/skills/frontend-design</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:anthropics/skills/frontend-design</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 84
+Source: anthropics/skills
+Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): prisma-client-api]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-client-api</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:prisma/skills/prisma-client-api</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #42
+Installs: 84
+Source: prisma/skills
+Description: Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring Prisma Client. Triggers on "prisma query", "findMany", "create", "update", "delete", "$transaction".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#44): claude-handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/claude-handoff</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/claude-handoff</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #44
+Installs: 83
+Source: mattpocock/skills
+Description: Hand the current conversation off to a fresh background agent that picks up the work immediately.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#45): request-refactor-plan]]></title>
+            <link>https://skills.sh/mattpocock/skills/request-refactor-plan</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/request-refactor-plan</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #45
+Installs: 82
+Source: mattpocock/skills
+Description: Use this skill when user wants to create a refactor plan.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#46): prisma-cli]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-cli</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:prisma/skills/prisma-cli</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #46
+Installs: 82
+Source: prisma/skills
+Description: Prisma CLI commands reference covering all available commands, options, and usage patterns. Use when running Prisma CLI commands, setting up projects, generating client, running migrations, or managing databases. Triggers on "prisma init", "prisma generate", "prisma migrate", "prisma db", "prisma studio".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#47): loop-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/loop-me</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/loop-me</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #47
+Installs: 81
+Source: mattpocock/skills
+Description: Grill me about specs for the workflows I want to build, within this workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#48): prisma-upgrade-v7]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-upgrade-v7</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:prisma/skills/prisma-upgrade-v7</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #48
+Installs: 81
+Source: prisma/skills
+Description: Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on "upgrade to prisma 7", "prisma 7 migration", "prisma-client-js to prisma-client", "driver adapter required".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#49): prisma-mongodb-upgrade]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-mongodb-upgrade</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:prisma/skills/prisma-mongodb-upgrade</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #49
+Installs: 81
+Source: prisma/skills
+Description: Decision and migration guide for Prisma ORM MongoDB projects on v6, which have no upgrade path to v7. Use when a MongoDB project asks about upgrading Prisma, when "upgrade to prisma 7" comes up in a project with provider = "mongodb", or when evaluating a move to Prisma Next. Triggers on "upgrade prisma mongodb", "prisma 7 mongodb", "mongodb prisma migration", "prisma next mongodb".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#5): grilling]]></title>
+            <link>https://skills.sh/mattpocock/skills/grilling</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/grilling</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #5
+Installs: 224
+Source: mattpocock/skills
+Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#50): prisma-driver-adapter-implementation]]></title>
+            <link>https://skills.sh/prisma/skills/prisma-driver-adapter-implementation</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:prisma/skills/prisma-driver-adapter-implementation</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #50
+Installs: 81
+Source: prisma/skills
+Description: Required reference for Prisma v7 driver adapter work. Use when implementing or modifying adapters, adding database drivers, or touching SqlDriverAdapter/Transaction interfaces. Contains critical contract details not inferable from code examples — including the transaction lifecycle protocol, error mapping requirements, and verification checklist. Existing implementations do not replace this skill.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#6): tdd]]></title>
+            <link>https://skills.sh/mattpocock/skills/tdd</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/tdd</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #6
+Installs: 212
+Source: mattpocock/skills
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#7): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/code-review</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #7
+Installs: 209
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): improve-codebase-architecture]]></title>
+            <link>https://skills.sh/mattpocock/skills/improve-codebase-architecture</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/improve-codebase-architecture</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 209
+Source: mattpocock/skills
+Description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/handoff</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:new:mattpocock/skills/handoff</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 209
+Source: mattpocock/skills
+Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#39): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:mattpocock/skills/teach</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #39
+Installs: 4908
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#43): writing-great-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-great-skills</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:mattpocock/skills/writing-great-skills</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #43
+Installs: 4724
+Source: mattpocock/skills
+Description: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#44): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:mattpocock/skills/triage</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #44
+Installs: 4677
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#46): ask-matt]]></title>
+            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:mattpocock/skills/ask-matt</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #46
+Installs: 4641
+Source: mattpocock/skills
+Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#47): resolving-merge-conflicts]]></title>
+            <link>https://skills.sh/mattpocock/skills/resolving-merge-conflicts</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:mattpocock/skills/resolving-merge-conflicts</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #47
+Installs: 4547
+Source: mattpocock/skills
+Description: Use when you need to resolve an in-progress git merge/rebase conflict.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Trending] New entry (#50): agent-browser]]></title>
+            <link>https://skills.sh/101-skills/skills/agent-browser</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topTrending:new:101-skills/skills/agent-browser</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
+            <description><![CDATA[New entry in Trending leaderboard.
+Rank: #50
+Installs: 4057
+Source: 101-skills/skills
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] Rank down (10 → 35): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-08-03T02:35:14.668Z:topHot:rank:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Mon, 03 Aug 2026 02:35:14 GMT</pubDate>
             <description><![CDATA[Hot leaderboard rank change.
 Previous rank: #10
-Current rank: #17
-Delta: -7
-Installs: 6 (prev 111)
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (2 → 5): design-guide]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/design-guide</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:getpaperclipai/paperclip/design-guide</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #2
-Current rank: #5
-Delta: -3
-Installs: 8 (prev 301)
-Source: getpaperclipai/paperclip
-Description: Paperclip UI design system guide for building consistent, reusable frontend components. Use when creating new UI components, modifying existing ones, adding pages or features to the frontend, styling UI elements, or when you need to understand the design language and conventions. Covers: component creation, design tokens, typography, status/priority systems, composition patterns, and the /design-guide showcase page. Always use this skill alongside the frontend-design skill (for visual quality) and the web-design-guidelines skill (for web best practices).]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (3 → 4): paperclip-create-agent]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-create-agent</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:getpaperclipai/paperclip/paperclip-create-agent</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #3
-Current rank: #4
-Delta: -1
-Installs: 8 (prev 300)
-Source: getpaperclipai/paperclip
-Description: Create new agents in Paperclip with governance-aware hiring. Use when you need to inspect adapter configuration options, compare existing agent configs, draft a new agent prompt/config, and submit a hire request.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (4 → 7): paperclip-converting-plans-to-tasks]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:getpaperclipai/paperclip/paperclip-converting-plans-to-tasks</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #4
-Current rank: #7
-Delta: -3
-Installs: 8 (prev 300)
-Source: getpaperclipai/paperclip
-Description: The Paperclip way of converting a plan into executable tasks. Use whenever you are asked to plan, scope, or break down work inside a Paperclip company. Industry-agnostic guidance on how to translate a plan into assigned issues with the right specialty, dependencies, and parallelization so Paperclip's executor can pick up the work — it does not prescribe a plan format. Pair with the `paperclip` skill, which covers the mechanics of writing the plan document and reassigning the issue.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (5 → 9): para-memory-files]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/para-memory-files</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:getpaperclipai/paperclip/para-memory-files</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #5
-Current rank: #9
-Delta: -4
-Installs: 8 (prev 300)
-Source: getpaperclipai/paperclip
-Description: File-based memory system using Tiago Forte's PARA method. Use this skill whenever you need to store, retrieve, update, or organize knowledge across sessions. Covers three memory layers: (1) Knowledge graph in PARA folders with atomic YAML facts, (2) Daily notes as raw timeline, (3) Tacit knowledge about user patterns. Also handles planning files, memory decay, weekly synthesis, and recall via qmd. Trigger on any memory operation: saving facts, writing daily notes, creating entities, running weekly synthesis, recalling past context, or managing plans.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (7 → 8): paperclip-board]]></title>
-            <link>https://skills.sh/getpaperclipai/paperclip/paperclip-board</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:getpaperclipai/paperclip/paperclip-board</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #7
-Current rank: #8
-Delta: -1
-Installs: 8 (prev 300)
-Source: getpaperclipai/paperclip
-Description: Manage a Paperclip company as a board member via chat. Covers onboarding (company creation, CEO setup, hiring plans), agent management, approvals, task monitoring, cost oversight, and work product review. Use this skill whenever the user wants to interact with their Paperclip control plane.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank down (8 → 12): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:vercel-labs/skills/find-skills</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #8
-Current rank: #12
-Delta: -4
-Installs: 7 (prev 188)
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (33 → 19): hyperframes-animation]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-animation</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:heygen-com/hyperframes/hyperframes-animation</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #33
-Current rank: #19
-Delta: +14
-Installs: 5 (prev 73)
+Current rank: #35
+Delta: -25
+Installs: 86 (prev 7)
 Source: heygen-com/hyperframes
-Description: All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (43 → 18): ai-video-generation]]></title>
-            <link>https://skills.sh/101-skills/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-08-02T03:03:42.907Z:topHot:rank:101-skills/skills/ai-video-generation</guid>
-            <pubDate>Sun, 02 Aug 2026 03:03:42 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #43
-Current rank: #18
-Delta: +25
-Installs: 5 (prev 67)
-Source: 101-skills/skills
-Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
     </channel>
 </rss>

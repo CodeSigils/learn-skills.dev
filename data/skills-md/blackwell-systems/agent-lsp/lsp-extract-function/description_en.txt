@@ -1,0 +1,1 @@
+Extract a selected code block into a named function. Primary path uses the language server's extract-function code action; falls back to manual extraction when no code action is available. Validates captured variables, scope shadowing, and compilation after extraction.

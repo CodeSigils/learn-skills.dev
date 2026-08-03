@@ -1,0 +1,1 @@
+Concurrency safety audit for a type or file. Maps all fields, traces which are accessed from concurrent contexts (goroutines, threads, async tasks), and flags fields that lack synchronization. Produces a field-level safety report. Language-agnostic across 4 concurrency families.

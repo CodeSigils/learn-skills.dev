@@ -1,0 +1,1 @@
+Only use when the user explicitly invokes /issue-report-dev (or $issue-report-dev in Codex). Never auto-invoke. エンジニア自身が書く GitHub issue の起票スキル。ログ・スタックトレース・失敗テストを取り込み、サブエージェントでファイル/シンボル単位まで根本原因を調査し、原因の仮説・修正方針案・受入条件まで含む issue を起草する。技術的な質問と期待仕様の確認を制限なく行い、想定変更領域の重なりでグルーピングして登録・統合する。非エンジニアからの報告受付は issue-report-user を使う。

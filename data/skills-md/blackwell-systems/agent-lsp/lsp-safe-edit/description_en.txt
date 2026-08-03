@@ -1,0 +1,1 @@
+Wrap any code edit with before/after diagnostic comparison. Speculatively previews the change first (preview_edit), then applies to disk only if the error delta is acceptable. If post-edit errors appear, surfaces code actions for quick fixes. Handles single and multi-file edits.
