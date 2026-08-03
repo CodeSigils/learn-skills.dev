@@ -1,0 +1,1 @@
+Úselo después de que `oms commit` o `oms pull` mueva la confirmación de trabajo de un submódulo, para registrar el puntero raíz de gitlink movido con `oms record`. Cubre el bucle de confirmación o extracción y luego grabación de comandos cruzados para que un cambio de fuente de submódulo no quede sin un puntero raíz grabado y el puntero raíz no se confirme por error.

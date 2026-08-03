@@ -1,0 +1,1 @@
+Auditoría de seguridad de concurrencia para un tipo o archivo. Asigna todos los campos, rastrea los que se acceden desde contextos concurrentes (gorrutinas, subprocesos, tareas asíncronas) y marca los campos que carecen de sincronización. Produce un informe de seguridad a nivel de campo. Independiente del idioma en 4 familias de concurrencia.
