@@ -1,7 +1,1 @@
-신성진(CDSA) 스타일의 편집 가능한 실제 PowerPoint 강의안 PPTX 생성 스킬. cdsa-lecture-wiki가 회수한 강의 원장이나 첨부 자료를
-잉크블랙·다크브라운·크림의 에디토리얼 모노톤 + 카멜 단일 액센트,
-Pretendard(sans) 제목 + Noto Serif KR(장식 숫자)로 실습 중심 강의 슬라이드를 pptxgenjs로 찍어낸다.
-검증된 정본(assets/reference_deck.js, 39슬라이드)의 헬퍼와 슬라이드 패턴을 그대로 재사용해,
-내용 문자열만 새 주제로 교체하는 방식. 사용자가 "ssjppt1", "신성진 스타일 강의안", "강의안 PPT/pptx",
-"강의 슬라이드/deck을 PPTX로 만들어줘", "편집 가능한 파워포인트 강의안"을 요청하면 사용한다. HTML 산출물은 lecture-deck 또는 ssjhtml3을 사용한다.
-(문서형 한글 서식은 cdsa-hwptemp, 고밀도 레이아웃 규칙은 스킬에 내장되어 있다(slide-density 헌장 동일).)
+Editable real PowerPoint lecture PPTX generation skill in Shin Seong‑jin (CDSA) style. Using the lecture originals or attached materials retrieved by cdsa‑lecture‑wiki, create practice‑focused lecture slides with an editorial monochrome of ink black, dark brown, and cream plus a single camel accent, using Pretendard (sans) for titles and Noto Serif KR (decorative numerals) via pptxgenjs. Reuse the verified master (assets/reference_deck.js, 39 slides) helpers and slide patterns exactly, replacing only the content strings with a new topic. It is invoked when the user requests “ssjppt1”, “Shin Seong‑jin style lecture deck”, “lecture PPT/pptx”, “make the lecture slide/deck into PPTX”, “editable PowerPoint lecture deck”. The HTML output uses lecture‑deck or ssjhtml3. (The Korean document template is cdsa‑hwptemp, and the high‑density layout rules are built into the skill (same as the slide‑density charter).)
