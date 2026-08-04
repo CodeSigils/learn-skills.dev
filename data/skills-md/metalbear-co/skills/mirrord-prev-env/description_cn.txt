@@ -1,0 +1,1 @@
+帮助用户创建和管理镜像预览环境 - 在共享 Kubernetes 集群中将修改后的服务作为隔离的 Pod 运行，其范围由环境密钥和 HTTP/队列流量过滤确定，以便团队可以根据实际流量验证和审查更改，而不会影响实时服务。当开发人员想要临时运行“镜像预览”、通过链接 (mirrord-share-ingress) 共享预览或使用 metalbear-co/mirrord-preview GitHub Action 将预览环境连接到 CI 时使用（例如，按 PR 预览、最低权限集群访问）。

@@ -1,0 +1,5 @@
+Überprüft den aktuellen Eingabeaufforderungsverlauf, um den Entwicklungskontext wiederherzustellen.
+Liest Eingabeaufforderungsdatensatzdateien aus dem Verzeichnis prompts/ (erstellt durch commit-with-prompts).
+synthetisiert Schlüsselkontexte (Benutzerschwerpunkte, technische Entscheidungen, Designentscheidungen),
+und fragt den Benutzer, ob er mit diesem Kontext fortfahren oder neu beginnen soll.
+Mit /recap aufrufen.

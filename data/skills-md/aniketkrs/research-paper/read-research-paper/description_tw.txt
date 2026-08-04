@@ -1,0 +1,1 @@
+將任何研究論文（URL / arXiv ID / DOI / PDF / 粘貼文字）渲染成視覺吸引的多格式閱讀體驗——包括心智圖、方法流程圖、關鍵發現資訊圖、比較表、相關工作時間線，以及與技術內容並列的淺顯英語層。可透過斜線指令（`/read-research-paper`、`/read-paper`、`/explain-paper`、`/visualize-paper`）或自然語言請求，如「閱讀此研究論文[URL]」、「解釋這篇論文[URL]」、「將此論文視覺化[URL]」來啟動。將每篇抓取的論文本地快取，重複請求即時回應。內建一套正典論文語料庫，以供離線備援。交由 `research-paper` 處理引用重用，交由 `get-research-paper` 處理相關工作擴展。執行環境中立。

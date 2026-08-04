@@ -1,0 +1,6 @@
+Speichert Benutzeraufforderungen aus der aktuellen Claude Code-Sitzung in der Versionskontrolle, wenn Git-Commits vorgenommen werden.
+MUSS immer dann verwendet werden, wenn der Benutzer einen Commit anfordert, einen Commit erstellt oder eine Commit-bezogene Aktion ausführt –
+einschließlich „commit“, „提交“, „提交代码“, „git commit“, „/commit“ oder jede Variation.
+Erweitert den normalen Commit-Workflow, indem die Eingabeaufforderungen beibehalten werden, die zu Codeänderungen geführt haben.
+Behandeln von Eingabeaufforderungen als Quellcode. Verwenden Sie diese Fähigkeit, auch wenn der Benutzer dies nicht ausdrücklich erwähnt
+Eingabeaufforderungen – es wird automatisch als Teil jedes Commits ausgeführt.

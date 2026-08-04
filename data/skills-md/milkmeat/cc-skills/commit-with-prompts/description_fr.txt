@@ -1,0 +1,6 @@
+Enregistre les invites utilisateur de la session Claude Code actuelle dans le contrôle de version lors des commits git.
+DOIT être utilisé chaque fois que l'utilisateur demande une validation, crée une validation ou toute action liée à la validation -
+y compris "commit", "提交", "提交代码", "git commit", "/commit" ou toute variante.
+Augmente le flux de travail de validation normal en préservant les invites qui ont conduit aux modifications de code,
+traiter les invites comme du code source. Utilisez cette compétence même si l'utilisateur ne le mentionne pas explicitement
+invites - il s'exécute automatiquement dans le cadre de chaque validation.

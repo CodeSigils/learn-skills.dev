@@ -1,0 +1,6 @@
+Salva i prompt dell'utente dalla sessione corrente di Claude Code al controllo della versione quando si effettuano commit git.
+DEVE essere utilizzato ogni volta che l'utente chiede di impegnarsi, creare un commit o qualsiasi azione relativa al commit —
+incluso "commit", "提交", "提交代码", "git commit", "/commit" o qualsiasi variazione.
+Aumenta il normale flusso di lavoro di commit preservando le richieste che hanno portato alle modifiche del codice,
+trattare i prompt come codice sorgente. Utilizza questa abilità anche se l'utente non la menziona esplicitamente
+richiede: viene eseguito automaticamente come parte di ogni commit.

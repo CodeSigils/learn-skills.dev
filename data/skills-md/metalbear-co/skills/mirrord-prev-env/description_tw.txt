@@ -1,0 +1,1 @@
+協助使用者建立與管理 mirrord 預覽環境——將修改過的服務以孤立的 Pod 形式在共享的 Kubernetes 叢集上執行，透過環境金鑰與 HTTP/佇列流量過濾進行範圍限制，讓團隊能在不影響實際服務的情況下，針對真實流量驗證與審查變更。當開發者想即時執行「mirrord preview」、透過連結分享預覽（mirrord‑share‑ingress）或將預覽環境串接至 CI，使用 metalbear‑co/mirrord‑preview GitHub Action（例如每個 PR 的預覽、最小權限叢集存取）時，即可使用此功能。

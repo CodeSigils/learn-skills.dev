@@ -1,0 +1,1 @@
+为 XIAO ESP32S3 构建多板仪表板：每块板子加入 WiFi（STA 模式），通过 MQTT 发布其触摸传感器数值，并接受 LED 开/关指令，同时浏览器仪表板实时显示每块板子并允许你切换每个 LED。每当用户需要多个 ESP32S3 板子向同一个网页报告、基于 MQTT 的传感器仪表板、"여러 esp32s3 대시보드"、"MQTT로 여러 보드 연결"，或提到 Mosquitto/Eclipse MQTT 与 ESP32S3 时，请使用此技能。对于没有 broker 的单块板子，请改用 `xiao-esp32s3` 技能自带的 SoftAP + Web 服务器示例。
