@@ -1,0 +1,5 @@
+Reviews recent prompt history to restore development context.
+Reads prompt record files from the prompts/ directory (created by commit-with-prompts),
+synthesizes key context (user focus areas, technical choices, design decisions),
+and asks the user whether to continue with this context or start fresh.
+Invoke with /recap.

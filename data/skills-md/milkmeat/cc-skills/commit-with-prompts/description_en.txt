@@ -1,0 +1,6 @@
+Saves user prompts from the current Claude Code session to version control when making git commits.
+MUST be used whenever the user asks to commit, create a commit, or any commit-related action —
+including "commit", "提交", "提交代码", "git commit", "/commit", or any variation.
+Augments the normal commit workflow by preserving the prompts that drove code changes,
+treating prompts as source code. Use this skill even if the user doesn't explicitly mention
+prompts — it runs automatically as part of every commit.
