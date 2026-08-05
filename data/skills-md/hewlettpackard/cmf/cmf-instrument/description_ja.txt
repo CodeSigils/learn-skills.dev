@@ -1,0 +1,1 @@
+CMF メタデータ トラッキングを既存の Python ML パイプライン コードに追加する場合、または新しい CMF をインストルメント化したパイプライン ステージを最初から作成する場合に使用します。 Cmf() API: create_context、create_execution、log_dataset、log_model、log_metric、commit_metrics、log_execution_metrics、およびfinalize()をカバーします。一般的な ML パイプライン ステージ用のコピー＆ペーストのテンプレートが含まれています。

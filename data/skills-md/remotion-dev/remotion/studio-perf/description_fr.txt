@@ -1,0 +1,1 @@
+Optimisez les performances de rendu de Remotion Studio en minimisant les surfaces des composants réactifs aux images, en privilégiant les lectures impératives de l'état de la chronologie et en mémorisant les limites de rendu stables. À utiliser lorsque le code lit l'image actuelle avec `useTimelinePosition()` ou que les composants s'affichent inutilement sur chaque image.

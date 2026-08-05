@@ -1,0 +1,1 @@
+Playwright, Puppeteer, Selenium 또는 CDP 기반 브라우저가 이미 보유하고 있는 페이지(navigator.webdriver, HeadlessChrome 토큰, 작업자 대 메인 스레드 ID, 패치된 API 무결성, WebGL 대 WebGPU GPU ID)에 대한 라이브러리로 liarjs를 사용하여 일관된 지문을 제공하는지 확인하세요. 자동화된 브라우저가 정상적인 브라우저처럼 보이는지 묻는 경우, 헤드리스 설정이나 스텔스 플러그인의 효과를 가정하기보다는 측정해야 하는 경우, 지문 품질에 대한 주장이 테스트 스위트에 속하는 경우에 사용합니다.

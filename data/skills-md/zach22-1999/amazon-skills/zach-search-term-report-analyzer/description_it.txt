@@ -1,0 +1,5 @@
+Analizza i report sui termini di ricerca SP/SB/SD di Amazon Ads. Uno script deterministico gestisce la pulizia, l'aggregazione delle finestre temporali, il clustering delle radici e i calcoli decisionali, mentre un assistente AI o un essere umano gestisce la classificazione semantica a livello delle radici; ereditando le radici, riduce la percentuale di termini a coda lunga in attesa di determinazione e genera sei formati di risultati: Markdown, CSV, HTML e JSON.  
+
+Casi d'uso: decidere se un termine di ricerca deve essere negato, controllare i costi, continuare i test o aumentare le dimensioni, analizzare le modifiche CVR e ACOS a 7, 14 e 30 giorni o estrarre termini di attributi e scenari che possono essere inseriti nell'elenco.  
+
+Frase trigger: /zach-search-term-report-analyzer

@@ -1,0 +1,1 @@
+기존 Python ML 파이프라인 코드에 CMF 메타데이터 추적을 추가하거나 처음부터 새로운 CMF 계측 파이프라인 단계를 작성할 때 사용합니다. Cmf() API: create_context, create_execution, log_dataset, log_model, log_metric, commit_metrics, log_execution_metrics 및 finalize()를 다룹니다. 일반적인 ML 파이프라인 단계를 위한 복사-붙여넣기 템플릿이 포함되어 있습니다.

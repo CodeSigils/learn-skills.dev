@@ -1,0 +1,5 @@
+Analysez les rapports sur les termes de recherche Amazon Ads SP/SB/SD. Un script déterministe gère le nettoyage, l'agrégation de fenêtres temporelles, le regroupement de tiges et les calculs de décision, tandis qu'un assistant IA ou un humain gère la classification sémantique au niveau de la tige ; en héritant des tiges, il réduit la proportion de termes à longue traîne en attente de détermination et génère six formats de résultats : Markdown, CSV, HTML et JSON.  
+
+Cas d'utilisation : décidez si un terme de recherche doit être annulé, contrôlez les coûts, continuez les tests ou augmentez-les, analysez les modifications CVR et ACOS sur 7, 14 et 30 jours, ou extrayez les termes d'attributs et de scénarios qui peuvent être réinjectés dans la liste.  
+
+Phrase déclencheur : /zach-search-term-report-analyzer

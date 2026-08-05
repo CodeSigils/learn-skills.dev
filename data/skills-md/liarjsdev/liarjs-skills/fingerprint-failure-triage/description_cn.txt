@@ -1,0 +1,1 @@
+读取 liarjs 指纹报告，并将每个失败检查归因于生成它的组件 - 检查 ID 测量的内容、信号是否来自启动配置、页面修改层、网络路径或机器映像，以及哪些故障是无头或数据中心环境固有的。当指纹扫描返回低分时，或者当检查 ID（例如 webdriver、worker-consistency、gpu-triad、native-integrity 或 tz）需要解释时使用。

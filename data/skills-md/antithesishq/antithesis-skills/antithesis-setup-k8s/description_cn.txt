@@ -1,0 +1,1 @@
+为运行 Kubernetes 的客户构建 Antithesis 工具：将 helm 图表、kustomize 模板或原始 Kubernetes 清单转换为 Antithesis 的最小化清单集。使用 snouty validate 和本地集群部署验证 Kubernetes 清单的形状是否正确。如果用户想要提交运行，请将其交给对立启动。最后，用户准备好运行对立工作负载来构建测试。如果所需的设置是 docker-compose，请遵循对立设置技能。

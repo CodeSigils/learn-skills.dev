@@ -1,0 +1,1 @@
+Kubernetes を実行している顧客向けに Antithesis ハーネスを足場にします。ヘルム チャート、カスタマイズしたテンプレート、または生の Kubernetes マニフェストを、Antithesis 用の最小化されたマニフェスト セットに変換します。 snouty validate とローカル クラスターのデプロイを使用して、Kubernetes マニフェストが正しい形式であることを確認します。ユーザーが実行を送信したい場合は、それを antithesis-launch に渡します。最後に、ユーザーは antithesis-workload を実行してテストを構築する準備が整います。必要なセットアップが docker-compose である場合は、antithesis-setup スキルに従います。
