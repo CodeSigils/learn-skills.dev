@@ -1,0 +1,1 @@
+Optimize Remotion Studio render performance by minimizing frame-reactive component surfaces, preferring imperative timeline state reads, and memoizing stable render boundaries. Use when code reads the current frame with `useTimelinePosition()` or components unnecessarily render on every frame.
