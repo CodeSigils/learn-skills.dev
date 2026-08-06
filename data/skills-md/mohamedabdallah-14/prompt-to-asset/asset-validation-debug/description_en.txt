@@ -1,0 +1,1 @@
+Diagnose and repair asset-generation failures. Maps tier-0/1/2 validation codes (checkerboard, missing alpha, safe-zone violation, palette drift, garbled wordmark, low contrast) to concrete repair primitives (matte, inpaint, route change, seed sweep, composite). Applies a retry budget so Claude does not loop on hopeless regenerations.

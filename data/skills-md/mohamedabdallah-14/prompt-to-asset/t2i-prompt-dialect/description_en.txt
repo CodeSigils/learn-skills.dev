@@ -1,0 +1,1 @@
+Rewrite an asset brief into the exact prompt dialect of the target image model (OpenAI gpt-image-1, Google Imagen/Gemini, SDXL, Flux.1/Flux.2, Midjourney, Ideogram, Recraft). Handles negative-prompt translation, token budgets, transparency quirks, brand-palette injection, and text-in-image ceilings so that `asset_generate_*` submissions succeed on the first try.

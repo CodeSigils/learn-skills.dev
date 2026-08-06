@@ -1,0 +1,1 @@
+**MANDATORY prerequisite** — load this BEFORE calling any Trello MCP tool (`trelloRead*`, `trelloWrite*`, `trelloSearch`). Covers the ARI id format every tool requires and the cross-cutting rules (current-user lookup, UTC date handling, Inbox vs boards, ordered creation, pagination). Skipping it causes malformed-id errors and wrong due-date/timezone results.

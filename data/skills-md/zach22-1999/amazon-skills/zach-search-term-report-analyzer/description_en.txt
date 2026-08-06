@@ -1,5 +1,3 @@
-Analyze Amazon Ads SP / SB / SD search term reports. A deterministic script handles cleaning, time‑window aggregation, stem clustering, and decision calculations, while an AI assistant or human handles stem‑level semantic classification; by inheriting stems, it reduces the proportion of long‑tail terms pending determination and outputs six result formats: Markdown, CSV, HTML, and JSON.  
-
-Use cases: decide whether a search term should be negated, control cost, continue testing or scale up, analyze 7‑, 14‑, and 30‑day CVR and ACOS changes, or extract attribute and scenario terms that can be fed back to the listing.  
-
-Trigger phrase: /zach-search-term-report-analyzer
+分析 Amazon Ads SP / SB / SD 搜索词报告。确定性脚本负责清洗、时间窗聚合、词根聚类和决策计算，AI 助手或人工负责词根级语义分类；通过词根继承减少长尾词的待判定比例，输出 Markdown、CSV、HTML 和 JSON 六类结果。
+使用时机：判断搜索词是否应该否定、控成本、继续测试或放量，分析 7/14/30 天 CVR 与 ACOS 变化，或者提炼可反馈给 Listing 的属性词和场景词。
+触发词：/zach-search-term-report-analyzer

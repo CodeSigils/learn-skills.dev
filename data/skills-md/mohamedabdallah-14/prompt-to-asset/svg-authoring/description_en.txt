@@ -1,0 +1,1 @@
+Author production-grade inline SVG (logos, favicons, icon packs, stickers, transparent marks) when the P2A `inline_svg` execution mode is selected. Enforces viewBox, path-budget, palette, optical balance, and small-scale legibility rules so the emitted `<svg>` survives `asset_save_inline_svg` validation and renders crisp from 16×16 through 1024×1024.
