@@ -1,0 +1,15 @@
+Generate images or videos via CawCut official node capabilities using the
+local `cawcut` CLI. Defaults: gpt-image-2 for image/edit; Seedance 2.0 for
+video when live discovery is unavailable.
+Use when: "generate an image", "make a video", "text-to-image",
+"text to image", "text-to-video", "text to video", "image-to-image",
+"image to image", "edit/stylize/remix this image", "image-to-video",
+"image to video", "animate this photo", "omni-to-video", "omni to video",
+"/cawcut-generate", or free-form content descriptions (e.g. "a cute
+little hedgehog"). Supports text-to-image, text-to-video, image-to-image,
+image-to-video, and omni-to-video. Checks the App catalog first; hands
+off to cawcut-app-run on a similar App match.
+Requires `cawcut` installed and `cawcut auth login` completed.
+NOT for: running an App already chosen (use cawcut-app-run), app
+discovery/browsing ("what apps are there", "what can an app generate"),
+OAuth setup alone, or Web UI-only flows without the CLI.

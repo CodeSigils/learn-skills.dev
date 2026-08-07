@@ -1,0 +1,16 @@
+Catch-all for anything CawCut-App related via the local `cawcut` CLI:
+running published Apps, and open-ended requests like "what can <app> do",
+"what does <app> generate", "what apps are there", "list official apps",
+browsing/listing available Apps, or checking an App's inputs/outputs.
+Use when: "/cawcut-app-run", "run my CawCut app", "invoke published app",
+"list available CawCut apps", "what apps are available", or the user
+describes a workflow/template-style creative request (ads, campaigns,
+multi-step templates) that may match a published app. Fetches the live
+App catalog and scores intent before routing; hands off simple one-step
+text-to-image/video or image-to-image/video generation with no App match
+to cawcut-generate, which will hand back here if it later finds a
+matching App.
+Requires `cawcut` installed and authenticated. NOT for: OAuth consent
+alone, or Apps the user cannot access. When unsure whether a request
+needs an App or raw generation, start here — this skill decides and
+delegates.

@@ -1,0 +1,1 @@
+Orchestrator for open-ended analytics requests. Use when the user has a business question and a dataset but has not scoped which analysis type to run. Always runs data-quality-check → exploratory-data-analysis first, then dynamically selects any combination of diagnostic skills based on EDA findings, and closes with stakeholder-memo.
