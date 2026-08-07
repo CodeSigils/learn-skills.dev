@@ -1,0 +1,16 @@
+Alles rund um die CawCut-App über die lokale „cawcut“-CLI:
+Ausführen veröffentlichter Apps und offene Anfragen wie „Was kann <App>?“
+„Was generiert <App>“, „Welche Apps gibt es“, „Offizielle Apps auflisten“,
+Durchsuchen/Auflisten verfügbarer Apps oder Überprüfen der Ein-/Ausgaben einer App.
+Verwenden Sie, wenn: „/cawcut-app-run“, „meine CawCut-App ausführen“, „veröffentlichte App aufrufen“,
+„Verfügbare CawCut-Apps auflisten“, „Welche Apps sind verfügbar“ oder der Benutzer
+beschreibt eine kreative Anfrage im Workflow-/Vorlagenstil (Anzeigen, Kampagnen,
+mehrstufige Vorlagen), die möglicherweise mit einer veröffentlichten App übereinstimmen. Ruft das Live ab
+App-Katalog und Bewertung der Absicht vor dem Routing; Hände weg, einfacher Schritt
+Text-zu-Bild/Video- oder Bild-zu-Bild/Video-Generierung ohne App-Übereinstimmung
+zu cawcut-generate, das hier zurückgegeben wird, wenn es später ein findet
+passende App.
+Erfordert die Installation und Authentifizierung von „cawcut“. NICHT für: OAuth-Zustimmung
+allein oder Apps, auf die der Benutzer nicht zugreifen kann. Wenn Sie unsicher sind, ob eine Anfrage vorliegt
+benötigt eine App oder eine Rohgenerierung, beginnen Sie hier – diese Fähigkeit entscheidet und
+Delegierte.

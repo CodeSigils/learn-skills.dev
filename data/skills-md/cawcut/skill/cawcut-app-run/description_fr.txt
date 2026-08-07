@@ -1,0 +1,16 @@
+Fourre-tout pour tout ce qui concerne CawCut-App via la CLI locale « cawcut » :
+exécuter des applications publiées et des requêtes ouvertes telles que « que peut faire <app> »,
+"qu'est-ce que <app> génère", "quelles sont les applications présentes", "lister les applications officielles",
+parcourir/répertorier les applications disponibles ou vérifier les entrées/sorties d'une application.
+À utiliser lorsque : "/cawcut-app-run", "exécuter mon application CawCut", "invoquer une application publiée",
+"liste des applications CawCut disponibles", "quelles applications sont disponibles" ou l'utilisateur
+décrit une demande de création de type workflow/modèle (annonces, campagnes,
+modèles en plusieurs étapes) qui peuvent correspondre à une application publiée. Récupère le live
+Catalogue d'applications et intention de scores avant le routage ; sans intervention, une seule étape simple
+génération de texte à image/vidéo ou d'image à image/vidéo sans correspondance d'application
+à cawcut-generate, qui restituera ici s'il trouve plus tard un
+application correspondante.
+Nécessite `cawcut` installé et authentifié. PAS pour : consentement OAuth
+seul, ou des applications auxquelles l'utilisateur ne peut pas accéder. Lorsque vous ne savez pas si une demande
+a besoin d'une application ou d'une génération brute, commencez ici - cette compétence décide et
+délégués.

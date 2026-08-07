@@ -1,0 +1,1 @@
+在分析Web JS加密参数（例如“这个sign怎么生成的”/“这个w参数怎么破”/“定位加密函数”）、处理混淆（OB shell/eval-Function shell）、识别JSVMP/Worker/WASM载体、选择反混淆/重用方案或修补iv8环境以在本地运行目标JS时，可以使用此技能。涵盖完整链：HAR 参数跟踪、通过“_initiator.stack”进行加密点本地化、本地反混淆、Python 重写与 iv8 env 修补方案选择以及针对 HAR 实际值的本地验证。请勿用于一般 Web 开发、爬虫工程、基于 frida 的运行时挂钩、二进制协议逆向工程（非 Web-JS）或 RPC/浏览器自动化（Puppeteer/Playwright/Selenium - 明确禁止）。

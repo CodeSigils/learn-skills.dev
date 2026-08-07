@@ -1,0 +1,1 @@
+将 Markdown 文件或内容转换为可编辑的 DOCX，支持主题颜色、中文字体、基本正文字体大小、分层标题、GFM 表格和列表、代码高亮、图像、Mermaid 和 LaTeX。当用户需要将 Markdown/MD 转换为 Word/DOCX、导出技术文档或执行自动转换时使用。所需依赖项：Markdown>=3.6,<4, beautifulsoup4>=4.12,<5, Pillow>=10,<12, python-docx>=1.2,<2, Pygments>=2.17,<3;可选公式依赖：matplotlib>=3.8,<4； Mermaid 可以通过全局 mmdc 或通过 Bunx/npx 调用 @mermaid-js/mermaid-cli 来使用。

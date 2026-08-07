@@ -1,0 +1,1 @@
+使用 Structurizr DSL（C4 參考實作）在本地生成、驗證和查看 C4 軟體架構圖作為程式碼，無需使用 Docker。當使用者想要建立、更新或檢視架構圖（C4 模型 - 系統上下文、容器、元件、部署、動態）、編寫或修復 Structurizrworkspace.dsl、將圖匯出到 Mermaid/PlantUML/C4-PlantUML 或執行本地圖檢視器時使用。觸發器 - “C4”、“Structurizr”、“架構圖”、“diagrama de arquitectura”、“workspace.dsl”、“圖表即代碼”。需要 Java 21 和捆綁的 strz CLI，它會從原始程式碼自動建立 Structurizr vNext。

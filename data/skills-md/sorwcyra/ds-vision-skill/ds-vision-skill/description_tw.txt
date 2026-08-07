@@ -1,0 +1,1 @@
+在純文字推理模型中加入視覺功能。使用者提供圖像、螢幕截圖、照片、圖表、UI 螢幕截圖、程式碼螢幕截圖、數學問題圖像、掃描件、PDF 或文檔，並要求描述、理解、推理、閱讀、OCR、文字提取、圖表解析或內容分析。預設情況下，invokescripts/vision-router.ps1用於自動路由：影像理解首先經過自由競賽池GLM/Agnes，然後經過custom-1/custom-2/custom-3/local；文件解析使用MinerU；純文字辨識使用百度OCR或Windows OCR。所有工具輸出都是標準的JSON，然後交給主模型進行推理和總結。

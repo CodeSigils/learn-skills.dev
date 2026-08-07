@@ -1,0 +1,1 @@
+在分析Web JS加密參數（例如「這個sign怎麼產生的」/「這個w參數怎麼破」/「定位加密函數」）、處理混淆（OB shell/eval-Function shell）、識別JSVMP/Worker/WASM載體、選擇反混淆/重用方案或修補iv8環境時，可以使用此技能。涵蓋完整鏈：HAR 參數追蹤、透過「_initiator.stack」進行加密點本地化、本地反混淆、Python 重寫與 iv8 env 修補方案選擇以及針對 HAR 實際值的本地驗證。請勿用於一般 Web 開發、爬蟲工程、基於 frida 的運行時掛鉤、二進制協議逆向工程（非 Web-JS）或 RPC/瀏覽器自動化（Puppeteer/Playwright/Selenium - 明確禁止）。

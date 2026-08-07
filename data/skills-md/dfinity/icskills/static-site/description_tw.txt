@@ -1,0 +1,1 @@
+使用 @dfinity/static-site 配方（認證資產容器）將前端或任何靜態站點部署到 IC。涵蓋 icp.yaml 配方配置、使用 _redirects 的 SPA 路由、使用 _headers 的自訂標頭/CSP、乾淨的 URL、私有應用程式的存取保護、自訂網域以及針對容器 ID 進行建置。這是在 IC 上託管前端和靜態文件的建議方法。也是舊版 @dfinity/asset-canister 配方和 .ic-assets.json5（請參閱舊版參考）以及將現有資產罐遷移到認證資產的入口點。在託管前端、部署靜態檔案、資產容器或在 IC 上設定 SPA 路由時使用。請勿用於容器級 HTTP 程式碼模式或自訂網域 DNS 設定 - 對 DNS 使用自訂網域。

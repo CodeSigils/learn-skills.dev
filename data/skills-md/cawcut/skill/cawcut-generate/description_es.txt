@@ -1,0 +1,15 @@
+Genere imágenes o videos a través de las capacidades del nodo oficial de CawCut usando el
+CLI local `cawcut`. Valores predeterminados: gpt-image-2 para imagen/edición; Semilla 2.0 para
+vídeo cuando el descubrimiento en vivo no está disponible.
+Úselo cuando: "generar una imagen", "hacer un video", "texto a imagen",
+"texto a imagen", "texto a vídeo", "texto a vídeo", "imagen a imagen",
+"imagen a imagen", "editar/estilizar/remezclar esta imagen", "imagen a vídeo",
+"imagen a vídeo", "animar esta foto", "omni-a-vídeo", "omni a vídeo",
+"/cawcut-generate", o descripciones de contenido de formato libre (por ejemplo, "un lindo
+pequeño erizo"). Admite texto a imagen, texto a vídeo, imagen a imagen,
+imagen a vídeo y omnia vídeo. Comprueba primero el catálogo de aplicaciones; manos
+vaya a cawcut-app-run en una coincidencia de aplicación similar.
+Requiere `cawcut` instalado y `cawcut auth login` completado.
+NO para: ejecutar una aplicación ya elegida (use cawcut-app-run), aplicación
+descubrimiento/navegación ("qué aplicaciones hay", "qué puede generar una aplicación"),
+Configuración de OAuth sola o flujos de interfaz de usuario web únicamente sin la CLI.

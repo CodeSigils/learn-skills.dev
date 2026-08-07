@@ -1,0 +1,15 @@
+Generieren Sie Bilder oder Videos über die offiziellen Knotenfunktionen von CawCut mit dem
+lokale „cawcut“-CLI. Standardeinstellungen: gpt-image-2 für Bild/Bearbeitung; Seedance 2.0 für
+Video, wenn die Live-Erkennung nicht verfügbar ist.
+Verwendung bei: „Bild erzeugen“, „Video erstellen“, „Text-zu-Bild“,
+„Text zu Bild“, „Text zu Video“, „Text zu Video“, „Bild zu Bild“,
+„Bild zu Bild“, „Dieses Bild bearbeiten/stilisieren/remixen“, „Bild zu Video“,
+„Bild zu Video“, „Dieses Foto animieren“, „Omni-zu-Video“, „Omni-zu-Video“,
+„/cawcut-generate“ oder frei formulierte Inhaltsbeschreibungen (z. B. „a niedlich
+kleiner Igel"). Unterstützt Text-zu-Bild, Text-zu-Video, Bild-zu-Bild,
+Bild-zu-Video und Omni-zu-Video. Überprüft zuerst den App-Katalog. Hände
+Ausgehend von cawcut-app-run bei einer ähnlichen App-Übereinstimmung.
+Erfordert die Installation von „cawcut“ und den Abschluss von „cawcut auth login“.
+NICHT für: Ausführen einer bereits ausgewählten App (verwenden Sie cawcut-app-run), app
+Entdecken/Browsen („Welche Apps gibt es“, „Was kann eine App generieren“),
+OAuth-Einrichtung allein oder reine Web-UI-Flows ohne die CLI.
