@@ -1,0 +1,1 @@
+ユーザーが Web ページの URL、HTML、ZIP、静的な Web アーティファクト、またはブラウザーでレンダリングされたページを Pixso にインポートまたは変換するように要求する場合は、Pixso MCP の「code_to_design」を呼び出す前にこのスキルを使用します。トリガーには、Pixso への Web ページ、Pixso への URL/HTML/ZIP、code_to_design、Pixso への Web ページのインポートが含まれます。 URL 入力はローカルでレンダリング/キャプチャし、実際の `htmlBuffer` としてパッケージ化する必要があります。ユーザーの確認なしに URL を直接渡したり、近似再構築に切り替えたりしないでください。

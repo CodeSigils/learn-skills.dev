@@ -1,0 +1,1 @@
+使用八個本地 ai-i18n MCP 工具檢查遺失或孤立的翻譯、更新配置的 JSON 或 SQLite 翻譯記憶庫以及管理審核的 overrides.json 值。使用 ai_i18n_list_translations、ai_i18n_set_translations、ai_i18n_clear_translations、ai_i18n_list_orphan_messages、ai_i18n_delete_orphan_messages、ai_i18n_list_overs、airide或ai_i18n_delete_overrides，特別是當 monorepo 需要先解析一個 Vite 應用程式的 i18n 目錄時。

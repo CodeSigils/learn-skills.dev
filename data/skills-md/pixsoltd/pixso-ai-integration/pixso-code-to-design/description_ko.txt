@@ -1,0 +1,1 @@
+사용자가 웹 페이지 URL, HTML, ZIP, 정적 웹 아티팩트 또는 브라우저 렌더링 페이지를 Pixso로 가져오거나 변환하도록 요청할 때 Pixso MCP `code_to_design`을 호출하기 전에 이 기술을 사용하세요. 트리거에는 Pixso에 대한 웹페이지, Pixso에 대한 URL/HTML/ZIP, code_to_design 및 웹페이지를 Pixso에 가져오기가 포함됩니다. URL 입력은 로컬로 렌더링/캡처되어야 하며 실제 `htmlBuffer`로 패키지되어야 합니다. 사용자 확인 없이 URL을 직접 전달하거나 대략적인 재구성으로 전환하지 마십시오.
