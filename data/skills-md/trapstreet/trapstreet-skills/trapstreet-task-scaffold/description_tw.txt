@@ -1,0 +1,1 @@
+設計並建立一個新的 trapstreet.run 任務來評估給定的代理/技能/工具 - 與 trapstreet-solution-scaffold （針對現有任務建立解決方案）相反。產生機械部分（traptask.yaml、judge.py/grader.py 匹配 TRAPTASK_MANIFEST 合約、build_cases.py 的 validate-then-render 管道），並通過結構化面試指導判斷重的部分（這個代理/技能實際上做了什麼、什麼算正確、基本從何而來、評分如何每當用戶想要建立新的評估任務、將代理/技能轉變為基準、為工具設計測試案例或詢問諸如「我們可以由此製作任務嗎」、「如何在 trapstreet 上評估我的代理」、「為 X 設計基準」之類的問題時使用 - 即使他們沒有說「任務」或「trapstreet-tasks」的名稱。

@@ -1,0 +1,1 @@
+将路由意图的自然语言描述转换为有效的 Lemonade“collection.router”策略 JSON。该技能仅生成并验证 JSON - 它不会注册它或调用实时服务器。当用户想要在模型之间路由请求时使用（“将敏感查询路由到 X，将其他所有内容路由到 Y”）、生成路由器/混合路由器配置或策略、编写 collection.router JSON、在小型本地模型和大型/云模型之间分割流量、将 PII/越狱/主题分类器添加到路由，或提及 Lemonade Router、路由规则、routing.router、candidates/default_model、keywords_any、semantic_similarity 或LLM 作为路由器。使用安全默认值填充用户未指定的每个字段。
