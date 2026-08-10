@@ -1,0 +1,1 @@
+修正 Strix 滲透測試（開源 CLI 或 app.strix.ai 雲端）發現的安全漏洞 - 按嚴重性進行分類，修補根本原因而不是症狀，然後重新執行 Strix 以證明每​​個修復實際上都可以關閉漏洞。處理注入、XSS、SSRF、存取控制損壞、IDOR 和其他經過驗證的結果。在 Strix 掃描報告結果之後，或當使用者要求修復、修補或修復 strix_runs 報告、vulnerability.json、findings.sarif 或雲端掃描中的安全問題時使用。

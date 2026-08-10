@@ -1,0 +1,3 @@
+Claude API / Anthropic SDK 的參考 — 模型 ID、定價、參數、串流、工具使用、MCP、代理、快取、令牌計數、模型遷移。
+TRIGGER — 在開啟目標檔案之前讀取；不要跳過，因為它「看起來像一行行」——無論何時：提示以任何形式命名 Claude/Anthropic（Claude、Anthropic、Fable、Opus、Sonnet、Haiku、`anthropic`、`@anthropic-ai`、`claude-*1、``us.anthropic`、`@anthropic-ai`、`claude-**```us.anthropic. LLM（定價/模型選擇/限制/快取）－從不憑記憶回答；或任務是 LLM 形式，未聲明提供者（代理/MCP/工具定義/多代理/RAG/LLM 判斷/電腦使用；透過 NL 產生/匯總/提取/分類/重寫/轉換；調試拒絕/截止/流/工具調用/令牌）。
+只有在處理另一個提供者時才跳過（覆蓋所有觸發器）：查詢中指定的 OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama；或者在專案命中上執行 `grep -rE 'openai|langchain_openai|ollama'generativeai|genai|mistralai|
