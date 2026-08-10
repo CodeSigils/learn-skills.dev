@@ -1,0 +1,1 @@
+修复 Strix 渗透测试（开源 CLI 或 app.strix.ai 云）发现的安全漏洞 - 按严重性进行分类，修补根本原因而不是症状，然后重新运行 Strix 以证明每个修复实际上都可以关闭漏洞。处理注入、XSS、SSRF、访问控制损坏、IDOR 和其他经过验证的结果。在 Strix 扫描报告结果之后，或者当用户要求修复、修补或修复 strix_runs 报告、vulnerability.json、findings.sarif 或云扫描中的安全问题时使用。

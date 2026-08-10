@@ -1,0 +1,1 @@
+NVIDIA 官方编写的PhysicsNeMo ShardTensor 域并行性指南 — 使用 DDP 或 FSDP2 将域并行性集成到训练/推理脚本（新的或现有的）中，编写和注册分片补丁以启用新的层/操作，以及引导多 GPU 正确性测试。在使用 ShardTensor、scatter_tensor、域并行性、序列/空间分片、环注意、DeviceMesh + DDP/FSDP2 混合并行性或物理nemo.domain_parallel 时使用。请勿用于没有域并行性的通用 PyTorch DDP/FSDP 设置、选择PhysicsNeMo 模型或示例（使用物理nemo-discover）或非分布式训练问题。

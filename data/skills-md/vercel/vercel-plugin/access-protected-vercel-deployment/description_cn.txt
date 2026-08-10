@@ -1,0 +1,1 @@
+访问和测试受 Vercel 身份验证、SSO 或部署保护保护的 Vercel 部署。当curl、代理浏览器、Playwright 或其他自动请求到达 Vercel 登录或保护页面时使用；当受保护的预览或生产 URL 返回 401 或 403 时；当 TRUSTED_SOURCES_ENVIRONMENT_MISMATCH 出现时；或者在“vercel curl”和“x-vercel-trusted-oidc-idp-token”标头之间进行选择时。

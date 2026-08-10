@@ -1,0 +1,1 @@
+Next.js/Node monorepo 的 TypeScript 项目架构合约 — tsconfig 严格模式基线、ESLint 平面配置 + Prettier、pnpm 工作区 + Turborepo 布局和包边界规则。这是 Gradle 模块图的 TS 模拟：TS 没有编译器强制的模块边界，因此工作区布局和 lint 规则一起*是*所有其他技能假设的架构契约。

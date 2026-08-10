@@ -1,0 +1,1 @@
+从任何已安装的 Electron 应用程序（“.asar”包）中提取资源和 JavaScript，在可用时从“.js.map”文件恢复原始源，否则使用 Prettier 格式化缩小的代码。当用户想要“提取 Electron 应用程序”、“反编译 Electron”、“获取 <app> 的源代码”、“检查 app.asar”、“看 Electron 应用源码”、“提取 .asar”或询问如何构建桌面 Electron 应用程序时使用。跳过 `node_modules` 并支持 macOS 和 Windows。

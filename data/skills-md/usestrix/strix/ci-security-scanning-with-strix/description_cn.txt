@@ -1,0 +1,1 @@
+使用 Strix（GitHub Actions、GitLab CI 或任何管道）向 CI/CD 添加安全扫描，因此每个拉取请求都会获得一个范围不同的 AI 渗透测试，在合并之前阻止易受攻击的代码，并将结果作为 PR 评论和 SARIF 上传到代码扫描。涵盖自托管开源 CLI（在运行器中运行）和托管 app.strix.ai 平台（GitHub/GitLab 应用程序或 API，无运行器基础设施）。当用户要求向其 CI 管道、预合并门或 PR 工作流程添加安全扫描、SAST/DAST、渗透测试、漏洞检查或自动安全审查时使用。

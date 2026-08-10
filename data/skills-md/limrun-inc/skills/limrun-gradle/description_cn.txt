@@ -1,0 +1,1 @@
+从任何环境（Linux、Windows、macOS、VM、容器）使用“lim gradle build”（而不是本地 Gradle 或 Android Studio）在远程 Gradle 沙箱上构建 Android 应用程序。当用户想要为本机 Android 项目、React Native 和 Expo 构建 APK 或 AAB、使用上传密钥签署版本或准备 Play 商店发布时使用。要在模拟器上运行、点击、屏幕截图或以其他方式与构建的 APK 进行交互，请使用此处显示的“lim android”命令。对于 iOS 构建，请使用 limrun-xcode 或 limrun-expo-development。
