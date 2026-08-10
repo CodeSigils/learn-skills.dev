@@ -1,0 +1,1 @@
+Vercel deployment for a Next.js app — project config via vercel.json, environment variables scoped to Development/Preview/Production, automatic preview deployments per PR, and the Edge vs Node.js runtime choice per route. Covers the Turborepo monorepo case where only the affected app should rebuild, and the secret-leak risk of committing env files even to a private repo.
