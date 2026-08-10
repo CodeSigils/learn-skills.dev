@@ -1,0 +1,1 @@
+Next.js/Node monorepo에 대한 TypeScript 프로젝트 아키텍처 계약 — tsconfig strict-mode 기준선, ESLint 플랫 구성 + Prettier, pnpm 작업 공간 + Turborepo 레이아웃 및 패키지 경계 규칙. 이것은 Gradle 모듈 그래프의 TS 아날로그입니다. TS에는 컴파일러로 시행되는 모듈 경계가 없으므로 작업공간 레이아웃과 린트 규칙은 함께 *다른 모든 기술이 가정하는 아키텍처 계약입니다*.
