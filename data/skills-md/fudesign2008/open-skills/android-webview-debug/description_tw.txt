@@ -1,0 +1,1 @@
+Android 專案的統一 WebView 遠端偵錯開關。 `android-webview-debug-enable` 將所有 `setWebContentsDebuggingEnabled` 呼叫設為 `true` 並記錄修改的位置及其原始內容； `android-webview-debug-revert` 從記錄中恢復，在末尾列出所有不匹配的條目以供手動確認。觸發器：「開啟WebView偵錯」「恢復WebView偵錯」/ android-webview-debug-enable、a​​​​ndroid-webview-debug-revert。適合需要統一啟用或還原WebView調試的Android專案。

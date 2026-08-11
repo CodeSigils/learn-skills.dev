@@ -1,0 +1,1 @@
+當用戶要求「追蹤我的電子郵件在發送後實際到達的位置」、「閱讀我的種子清單收件匣、垃圾郵件與促銷結果」、「趨勢我的 Gmail Postmaster / Microsoft SNDS 聲譽」或「我上次發送後排名是否下降」時使用；生成每個提供者的收件匣/垃圾郵件/促銷活動、來自 Postmaster + SNDS 的資料域SEND-S 放置快照。不適用於飛行前的預先發送 SPF/DKIM/DMARC 驗證 — 使用傳遞性-qa；不是為了計算 EQS 或運行否決 - 使用 email-quality-auditor。 郵件收件匣落點監控/收件匣與垃圾郵件/Postmaster收集趨勢

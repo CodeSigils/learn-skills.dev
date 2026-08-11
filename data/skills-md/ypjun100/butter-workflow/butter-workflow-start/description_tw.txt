@@ -1,0 +1,2 @@
+觸發器：使用者為該技能或 Butter Workflow 本身命名 - `/butter-workflow-start`、`$butter-workflow-start`、“使用 butter-workflow-start 技能”，或透過名稱提及 Butter Workflow 的請求。對軌道 A/B/C 進行分類，規劃工作分支，引導共享首選項數據，並在暫停審批之前為每個軌道寫入 docs/specs/{TASK-ID} 規範文件。
+跳過：請求僅描述了要做的工作——“開始這個任務”，“讓我們計劃一下”，粘貼的問題鏈接——沒有命名這個技能或黃油工作流程；直接做這項工作。當目前任務已存在已批准的 docs/specs/{TASK-ID}/00-META.md 時（狀態為計劃或稍後），也可以跳過 — 使用 `butter-workflow-implement` 繼續該工作。

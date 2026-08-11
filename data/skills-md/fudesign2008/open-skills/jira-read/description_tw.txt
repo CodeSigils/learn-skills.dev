@@ -1,0 +1,1 @@
+從本機快取或 API 讀取 Jira 問題數據，並透過腳本下載附件（切勿下載到上下文中）。當使用者說出「jira-read [JIRA-ID]」、「讀取 Jira」、「檢視 Jira」、「下載 Jira」、「下載附件」（讀取/檢視/下載 Jira / 下載附件）或需要取得 Jira 問題資料時觸發。需要 $JIRA_CACHE_DIR （例如 ~/.cache/jira）。
