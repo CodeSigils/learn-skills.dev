@@ -1,0 +1,1 @@
+Shared lifecycle contract for manual/auto modes in PDCA-style workflow skills: auto mode always reverts to manual on completion or interruption, re-entering auto requires an explicit trigger, implicit continuation never re-activates it, and batch orchestrators pass mode explicitly. Referenced by PDCA hosts via frontmatter dependencies; load when a host delegates its mode rules.

@@ -1,0 +1,2 @@
+Trigger: the start of every user turn, regardless of what the turn is about. This skill records the turn and, on the first turn of a new day, writes up the previous working day. It applies to coding, questions, review, planning, chat, and everything else — there is no category of user turn it skips.
+Skip: only when you are a subagent dispatched to carry out one specific task. The main agent already recorded that turn, and recording it again double-counts it.

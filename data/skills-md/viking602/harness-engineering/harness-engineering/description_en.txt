@@ -1,0 +1,14 @@
+Designing robust harnesses for long-running agent workflows, repository shaping, routing docs, and multi-agent orchestration.
+
+ALWAYS use this skill when the user discusses:
+- Multi-step agent tasks or long-running workflows (running longer than a few minutes)
+- Repository bootstrapping, scaffolding, or structural changes
+- AGENTS.md or docs/index.md routing and maintenance
+- Generator-evaluator patterns and quality control for autonomous agents
+- Planner/generator/evaluator role separation and handoffs
+- Sprint contracts and explicit work contracts for agent tasks
+- External verification strategies (browser automation, API checks, logs)
+- Context management and reset strategies for extended sessions
+
+Use for any task requiring durable artifacts, explicit contracts, or independent evaluation beyond simple unit tests.
+Do not use for routine feature work inside an already-stable repo with clear local verification.

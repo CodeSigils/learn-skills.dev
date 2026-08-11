@@ -1,0 +1,1 @@
+Cut a full nurb release, one version across the engine and the desktop app. Bumps the four version strings and writes the changelog into one release PR, riding the current branch when work is in flight, then after the merge runs the desktop build and the update feed. Use when the user says "release", "cut a release", "ship it as X.Y.Z", or "push a release".
