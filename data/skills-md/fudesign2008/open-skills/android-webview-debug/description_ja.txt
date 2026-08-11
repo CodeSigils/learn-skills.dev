@@ -1,0 +1,1 @@
+Android プロジェクトの統合 WebView リモート デバッグ切り替え。 `android-webview-debug-enable` は、すべての `setWebContentsDebuggingEnabled` 呼び出しを `true` に設定し、変更された場所を元のコンテンツとともに記録します。 `android-webview-debug-revert` はレコードから復元し、手動で確認できるように最後に不一致のエントリをリストします。トリガー: 「开启 WebView 调试」「恢复 WebView 调试」 / android-webview-debug-enable、a​​ndroid-webview-debug-revert。 WebView デバッグを均一に有効化または復元する必要がある Android プロジェクトに適しています。

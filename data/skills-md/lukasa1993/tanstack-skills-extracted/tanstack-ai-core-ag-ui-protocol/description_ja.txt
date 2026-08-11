@@ -1,0 +1,1 @@
+サーバー側の AG-UI ストリーミング プロトコルの実装: StreamChunk イベント タイプ (RUN_STARTED、TEXT_MESSAGE_START/CONTENT/END、TOOL_CALL_START/ARGS/END、RUN_FINISHED、RUN_ERROR、STEP_STARTED/STEP_FINISHED、STATE_SNAPSHOT/DELTA、CUSTOM)、SSE 形式の toServerSentEventsStream() NDJSON 形式の場合は toHttpStream()。クライアント パッケージを使用せずに AG-UI イベントを提供するバックエンドの場合。

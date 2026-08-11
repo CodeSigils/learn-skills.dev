@@ -1,0 +1,1 @@
+オプションのコード配信規律: この実行にコミット + PR/MR が必要かどうかを決定し、git-commit 経由でコミット/プッシュし、PR/MR を作成または更新します。検証後 (ホストが必要とする場合は OpenSpec アーカイブも)、feature-branch-closeout の前に使用します。保護されたブランチのマージ (merge-discipline) またはリリース→メインの配布 (git-release-finish) には使用しないでください。トリガー - 「提交并开PR」「提交并开MR」「代渡し」「开PR」「开MR」「delivery-discipline」 / コードの配信、PR のコミットとオープン、マージ リクエストのオープン。
