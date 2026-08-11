@@ -1,0 +1,14 @@
+Entwerfen robuster Kabelbäume für lang andauernde Agenten-Workflows, Repository-Gestaltung, Weiterleitung von Dokumenten und Multi-Agenten-Orchestrierung.
+
+Verwenden Sie diese Fähigkeit IMMER, wenn der Benutzer Folgendes bespricht:
+- Mehrstufige Agentenaufgaben oder lang andauernde Arbeitsabläufe (die länger als ein paar Minuten dauern)
+- Repository-Bootstrapping, Gerüstbau oder strukturelle Änderungen
+- AGENTS.md oder docs/index.md Routing und Wartung
+- Generator-Evaluator-Muster und Qualitätskontrolle für autonome Agenten
+- Rollentrennung und Übergabe der Planer-/Generator-/Bewerterrollen
+- Sprintverträge und explizite Arbeitsverträge für Agentenaufgaben
+- Externe Verifizierungsstrategien (Browserautomatisierung, API-Prüfungen, Protokolle)
+- Kontextverwaltung und Reset-Strategien für längere Sitzungen
+
+Verwenden Sie es für jede Aufgabe, die dauerhafte Artefakte, explizite Verträge oder eine unabhängige Bewertung über einfache Komponententests hinaus erfordert.
+Nicht für routinemäßige Funktionsarbeiten in einem bereits stabilen Repo mit eindeutiger lokaler Überprüfung verwenden.
