@@ -1,0 +1,14 @@
+Diseño de arneses sólidos para flujos de trabajo de agentes de larga duración, configuración de repositorios, enrutamiento de documentos y orquestación de múltiples agentes.
+
+SIEMPRE utilice esta habilidad cuando el usuario discuta:
+- Tareas de agentes de varios pasos o flujos de trabajo de larga duración (que duran más de unos pocos minutos)
+- Arranque, andamiaje o cambios estructurales del repositorio
+- Enrutamiento y mantenimiento de AGENTS.md o docs/index.md
+- Generador-evaluador de patrones y control de calidad para agentes autónomos.
+- Separación y traspasos de roles de planificador/generador/evaluador
+- Contratos Sprint y contratos de trabajo explícitos para tareas de agentes.
+- Estrategias de verificación externa (automatización del navegador, comprobaciones de API, registros)
+- Gestión de contexto y estrategias de reinicio para sesiones extendidas.
+
+Úselo para cualquier tarea que requiera artefactos duraderos, contratos explícitos o evaluación independiente más allá de simples pruebas unitarias.
+No lo utilice para trabajos de funciones de rutina dentro de un repositorio ya estable con una verificación local clara.
