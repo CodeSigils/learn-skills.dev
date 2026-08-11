@@ -1,0 +1,1 @@
+선택적 코드 전달 규칙: 이 실행에 커밋 + PR/MR이 필요한지 결정한 다음 git-commit을 통해 커밋/푸시하고 PR/MR을 생성하거나 업데이트합니다. 확인 후(호스트에서 필요할 경우 OpenSpec 아카이브 포함) 기능 분기 종료 전에 사용하세요. 보호 브랜치 병합(merge-discipline) 또는 릴리스→기본 배송(git-release-finish)에는 사용하지 마세요. 트리거 — 「提交并开PR」 「提交并开MR」 「代码交付」 「开PR」 「开MR」 「delivery-discipline」 / 코드 전달, PR 커밋 및 열기, 병합 요청 열기.

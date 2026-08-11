@@ -1,0 +1,1 @@
+작업자가 실행할 수 있도록 컴파일된 Airflow Java SDK 번들을 빌드하고 배포합니다. 사용자가 JVM 작업 번들을 JAR로 패키징하려고 할 때 'org.apache.airflow.sdk' Gradle 플러그인, './gradlew 번들', Maven 셰이드/BOM 설정, 팻 및 씬 JAR, 로깅 통합 아티팩트(JPL, SLF4J, Log4j 2, JUL), 미리보기/스냅샷 빌드 또는 Airflow 작업자(Docker, Kubernetes 또는 Astro)에 JAR 가져오기에 대해 문의할 때 사용합니다. 작업 코드는 저작-java-sdk-tasks를 참조하세요. Airflow 조정자 설정은 구성-airflow-언어-sdks를 참조하세요.

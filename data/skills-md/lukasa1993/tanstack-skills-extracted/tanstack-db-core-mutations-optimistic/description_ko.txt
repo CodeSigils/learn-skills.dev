@@ -1,0 +1,1 @@
+collection.insert, collection.update(Immer 스타일 초안 프록시), collection.delete. createOptimisticAction(onMutate + mutationFn). debounceStrategy, throttleStrategy, queueStrategy를 사용한 createPacedMutations. createTransaction, getActiveTransaction, 주변 트랜잭션 컨텍스트. 트랜잭션 수명 주기(보류 중/지속/완료/실패) 돌연변이 병합. onInsert/onUpdate/onDelete 핸들러. 보류 중인 돌연변이 유형입니다. Transaction.isPersisted.
