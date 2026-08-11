@@ -1,0 +1,14 @@
+Progettazione di cablaggi robusti per flussi di lavoro di agenti di lunga durata, modellazione di repository, instradamento di documenti e orchestrazione multi-agente.
+
+Utilizza SEMPRE questa abilità quando l'utente discute:
+- Attività dell'agente in più fasi o flussi di lavoro di lunga durata (in esecuzione per più di pochi minuti)
+- Bootstrap del repository, impalcature o modifiche strutturali
+- Routing e manutenzione di AGENTS.md o docs/index.md
+- Modelli generatore-valutatore e controllo di qualità per agenti autonomi
+- Separazione e passaggi dei ruoli di pianificatore/generatore/valutatore
+- Contratti sprint e contratti di lavoro espliciti per compiti di agente
+- Strategie di verifica esterna (automazione del browser, controlli API, log)
+- Gestione del contesto e strategie di ripristino per sessioni estese
+
+Utilizzare per qualsiasi attività che richieda artefatti durevoli, contratti espliciti o valutazione indipendente oltre i semplici test unitari.
+Non utilizzare per attività di routine all'interno di un repository già stabile con una chiara verifica locale.
