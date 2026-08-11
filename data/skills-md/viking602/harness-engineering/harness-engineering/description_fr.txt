@@ -1,0 +1,14 @@
+Concevoir des harnais robustes pour les flux de travail d'agent de longue durée, la mise en forme de référentiels, le routage de documents et l'orchestration multi-agents.
+
+Utilisez TOUJOURS cette compétence lorsque l'utilisateur discute :
+- Tâches d'agent en plusieurs étapes ou workflows de longue durée (durée d'exécution supérieure à quelques minutes)
+- Amorçage du référentiel, échafaudage ou changements structurels
+- Routage et maintenance AGENTS.md ou docs/index.md
+- Modèles générateur-évaluateur et contrôle qualité pour agents autonomes
+- Séparation et transferts des rôles de planificateur/générateur/évaluateur
+- Contrats sprint et contrats de travail explicites pour les tâches d'agent
+- Stratégies de vérification externe (automatisation du navigateur, vérifications API, journaux)
+- Gestion du contexte et stratégies de réinitialisation pour les sessions prolongées
+
+À utiliser pour toute tâche nécessitant des artefacts durables, des contrats explicites ou une évaluation indépendante au-delà des simples tests unitaires.
+Ne pas utiliser pour le travail de routine sur les fonctionnalités dans un dépôt déjà stable avec une vérification locale claire.

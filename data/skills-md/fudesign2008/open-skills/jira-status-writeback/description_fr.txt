@@ -1,0 +1,1 @@
+SOP de réécriture Jira post-fusion : transition uniquement vers「已修复」, puis jira_add_comment indépendant avec body. Déclencheurs — 「Jira 状态回写」「回写已修复」「合并后写 Jira」「jira writeback」「jira status writeback」. Ne PAS utiliser pour lire des problèmes, créer des problèmes ou pré-fusionner des commentaires. Chargé par les hôtes de correctifs Jira après la fusion via les dépendances frontales.
