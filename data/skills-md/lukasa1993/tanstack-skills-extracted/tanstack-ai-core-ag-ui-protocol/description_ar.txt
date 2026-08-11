@@ -1,0 +1,1 @@
+تنفيذ بروتوكول دفق AG-UI من جانب الخادم: أنواع أحداث StreamChunk (RUN_STARTED، TEXT_MESSAGE_START/CONTENT/END، TOOL_CALL_START/ARGS/END، RUN_FINISHED، RUN_ERROR، STEP_STARTED/STEP_FINISHED، STATE_SNAPSHOT/DELTA، CUSTOM)، toServerSentEventsStream() لتنسيق SSE، toHttpStream() لتنسيق NDJSON. للواجهات الخلفية التي تخدم أحداث AG-UI بدون حزم العميل.
