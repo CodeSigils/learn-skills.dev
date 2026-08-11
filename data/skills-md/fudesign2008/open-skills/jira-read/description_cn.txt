@@ -1,0 +1,1 @@
+从本地缓存或 API 读取 Jira 问题数据，并通过脚本下载附件（切勿下载到上下文中）。当用户说出“jira-read [JIRA-ID]”、「读取 Jira」、「查看 Jira」、「下载 Jira」、「下载附件」（读取/查看/下载 Jira / 下载附件）或需要获取 Jira 问题数据时触发。需要 $JIRA_CACHE_DIR （例如 ~/.cache/jira）。

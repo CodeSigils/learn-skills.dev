@@ -1,0 +1,1 @@
+Android 项目的统一 WebView 远程调试开关。 `android-webview-debug-enable` 将所有 `setWebContentsDebuggingEnabled` 调用设置为 `true` 并记录修改的位置及其原始内容； `android-webview-debug-revert` 从记录中恢复，在末尾列出所有不匹配的条目以供手动确认。触发器：「开启WebView调试」「恢复WebView调试」/ android-webview-debug-enable、a​​ndroid-webview-debug-revert。适合需要统一启用或恢复WebView调试的Android项目。

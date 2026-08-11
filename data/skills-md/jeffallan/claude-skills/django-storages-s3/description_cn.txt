@@ -1,0 +1,1 @@
+将 Django 配置为使用 django-storages 在 AWS S3 上存储静态文件和媒体文件时使用。在使用 settings.py 中的 STORAGES 设置、S3 存储桶、预签名 URL、CloudFront 或 boto3 支持的文件存储时调用。配置 Django 4.2+ STORAGES dict、公共/私有自定义后端、预签名 GET/POST URL、IAM 策略和 S3 模拟以进行测试。触发条件：django-storages、S3、boto3、S3Boto3Storage、STORAGES、预签名 URL、CloudFront、媒体文件、collectstatic、AWS_STORAGE_BUCKET_NAME。

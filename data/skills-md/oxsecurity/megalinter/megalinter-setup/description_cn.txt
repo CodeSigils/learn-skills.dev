@@ -1,0 +1,1 @@
+在存储库上安装或升级 MegaLinter。当用户想要将 MegaLinter 添加到项目、设置 linting CI、更新 MegaLinter 配置或版本，或者说“安装 megalinter”、“设置 linting”、“添加代码质量检查”、“更新 megalinter 技能”时使用。始终通过 npx mega-linter-runner （--install 或 --upgrade），然后细化 .mega-linter.yml。在升级模式下，它还会刷新已安装的 MegaLinter 技能和子代理。当用户明确要求时，还会设置一个 MegaLinter 自定义风味存储库。

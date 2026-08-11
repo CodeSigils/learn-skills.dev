@@ -1,0 +1,1 @@
+collection.insert、collection.update（Immer 风格草稿代理）、collection.delete。创建OptimisticAction（onMutate +mutationFn）。使用 debounceStrategy、throttleStrategy、queueStrategy 创建 PacedMutations。 createTransaction、getActiveTransaction、环境事务上下文。事务生命周期（待处理/持续/已完成/失败）。突变合并。 onInsert/onUpdate/onDelete 处理程序。 PendingMutation 类型。事务.isPersisted。

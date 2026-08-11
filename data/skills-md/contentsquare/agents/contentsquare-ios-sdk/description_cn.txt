@@ -1,0 +1,1 @@
+集成或升级 Contentsquare iOS SDK（当前版本 1.11.x）——会话重播、屏幕跟踪、交易、分析、屏蔽、隐私选择加入/退出。在任何其他工作之前，始终从强制性的 Contentsquare 项目运行状况检查（解析应用程序包 ID、调用运行状况检查端点、报告项目运行状况）开始。使用 Contentsquare、CSQ、CSQ.start、CSQ.trackScreenview、CSQ.optIn、CSQ.registerWebView、WKWebView 跟踪或从 SDK 版本 1.0–1.6 / `configureProductAnalytics` 迁移到 `CSQ.start(environmentID:options:)` 时使用。

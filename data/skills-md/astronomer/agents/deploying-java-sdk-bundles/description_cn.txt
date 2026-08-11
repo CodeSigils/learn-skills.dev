@@ -1,0 +1,1 @@
+构建并部署已编译的 Airflow Java SDK 捆绑包，以便工作人员可以运行它们。当用户想要将 JVM 任务包打包到 JAR 中、询问“org.apache.airflow.sdk”Gradle 插件、“./gradlew bundle”、Maven 阴影/BOM 设置、胖 JAR 与瘦 JAR、日志集成工件（JPL、SLF4J、Log4j 2、JUL）、预览/快照构建或将 JAR 加载到 Airflow Worker（Docker、Kubernetes 或 Astro）时使用。任务代码请参见authoring-java-sdk-tasks；有关气流协调器设置，请参阅配置气流语言 sdks。
