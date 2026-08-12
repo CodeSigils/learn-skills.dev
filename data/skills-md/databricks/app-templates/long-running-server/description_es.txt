@@ -1,0 +1,1 @@
+Habilite la compatibilidad con tareas en segundo plano de larga duración con LongRunningAgentServer. Úselo cuando: (1) Las tareas del agente pueden exceder el tiempo de espera de HTTP (~120 s), (2) el usuario desea una ejecución en segundo plano/asíncrona, (3) el usuario dice "duración prolongada", "tareas en segundo plano" o "agente asíncrono".
