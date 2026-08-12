@@ -1,0 +1,3 @@
+Importa casi di test QA da CawPlan (casi di sessione Requirement/TestPoint o INLINE) in TestRail con il flusso di lavoro in anteprima.
+Da utilizzare quando: SQA vuole inviare i casi generati da T1 a TestRail; dopo la generazione del punto di test, espandere i casi e importare; reimportare dopo gli aggiornamenti dei requisiti (solo ignora, nessuna sovrascrittura).
+NON per: generare punti di test (utilizzare `cawplan-testpoint-generate`); requisiti di archiviazione (utilizzare `cawplan-requirement-analyze`); creazione di piani/esecuzioni di test (A2, futuro); guasto-difetto (A4); rischio di rilascio (A5).
