@@ -1,0 +1,1 @@
+使用 Databricks MANAGED 記憶體（Unity Catalog 記憶體儲存 REST API）作為工具，為代理程式提供持久的跨會話長期記憶體 — 由 UC 管理，無需客戶運行任何基礎架構。這適用於 OpenAI Agents SDK 或 LangGraph 模板。使用時機：代理應該記住使用者（或團隊/組織的共享）在對話中的偏好/事實/決定；關鍵字「長期記憶」、「託管記憶」、「記憶儲存」、「代理記憶」。這與具有 (agent-openai-memory / agent-langgraph-memory) 技能的自託管 Lakebase 記憶體解決方案是分開的。
