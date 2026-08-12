@@ -1,0 +1,1 @@
+規制文書 (PDF またはテキスト) を分析し、Sumsub 構成計画を作成し、規制要件を Sumsub エンティティ (レベル、アンケート、PoA プリセット、TM ルール、ワークフロー) にマッピングします。ユーザーが規制 PDF、法律法、またはコンプライアンス要件文書を提供し、Sumsub で何を構成するかを知りたい場合にトリガーされます。 sumsub-create-level、sumsub-create-questionnaire、sumsub-create-poa-preset、sumsub-create-workflow、およびその他のスキルを呼び出す前のエントリ ポイントとして機能します。直接エンティティ作成リクエスト (規制コンテキストなし) または Sumsub API 呼び出しの場合は SKIP。
