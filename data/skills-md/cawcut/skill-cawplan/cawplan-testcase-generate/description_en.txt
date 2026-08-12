@@ -1,0 +1,3 @@
+Expand archived test points into executable test cases: Markdown title-state preview first, expand steps on demand, export team CSV when SQA actively requests after review (read-only — does not write to CawPlan).
+Use when: generating test cases (preview first), expanding executable steps in Markdown preview, exporting CSV when SQA asks to export, or hot handoff after A2 ("按上面的生成用例", "generate test cases from above", or similar); cold handoff via Requirement portal link or requirement_id.
+NOT for: test-point coverage outlines (use `cawplan-testpoint-generate`); requirement analysis or archiving (use `cawplan-requirement-analyze`); viewing or editing archived test points in Test Suites (web UI); unarchived five-field drafts only (archive via A1 first).

@@ -1,0 +1,1 @@
+Enable Supervisor API background mode for long-running agent tasks. Use when: (1) Agent needs to run tasks longer than HTTP timeout limits, (2) User says 'background mode', 'long-running', 'supervisor api', (3) Converting from streaming to background polling pattern, (4) Agent needs resilience to connection drops during execution.
