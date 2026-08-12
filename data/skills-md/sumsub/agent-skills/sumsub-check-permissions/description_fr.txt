@@ -1,0 +1,1 @@
+Récupérez les droits autorisés du locataire actuel (liste BackgroundCheckTarget). Renvoie JSON avec « autorisé » (tableau de clés d'autorisation) et « descriptions » (carte de la clé → étiquette lisible par l'homme). Appelé par sumsub-create-level (et d'autres compétences create-*) avant de créer une charge utile pour accéder aux fonctionnalités requises par les droits.
