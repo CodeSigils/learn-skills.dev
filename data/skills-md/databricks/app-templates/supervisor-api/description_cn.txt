@@ -1,0 +1,1 @@
+将客户端代理循环替换为 Databricks Supervisor API（托管工具 + 客户端功能工具）。在以下情况下使用：(1) 用户询问 Supervisor API，(2) 用户希望 Databricks 在服务器端运行代理循环，(3) 将 Genie 空间、UC 功能、代理端点或 MCP 服务器连接为托管工具，(4) 将客户端功能工具（应用程序执行的 Python 可调用）与托管工具混合使用。

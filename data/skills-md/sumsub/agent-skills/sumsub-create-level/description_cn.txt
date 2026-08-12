@@ -1,0 +1,1 @@
+创建或更新 Sumsub 申请人级别。 POST `/resources/applicants/-/levels` 来创建新的，修补相同的路径来更新（正文中的 id），GET `/resources/applicants/-/levels/{id}` 来读回。当用户要求“创建/添加/构建/更新/编辑 Sumsub 级别”、提供申请人流程所需步骤列表（身份/自拍/居住证明/调查问卷/付款方式/电子邮件或电话验证/KYB/电子签名）或想要将级别连接到特定调查表DefId时触发。跳过其他 Sumsub 实体（调查问卷、工作流程、申请人）或紧凑规范未涵盖的一次性子集调整（对这些实体使用“sumsub-api-generic”）。

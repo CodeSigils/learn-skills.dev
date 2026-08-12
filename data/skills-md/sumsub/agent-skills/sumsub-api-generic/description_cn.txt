@@ -1,0 +1,1 @@
+任何与更具体的技能不匹配的 Sumsub API 任务的全面后备（例如“create-sumsub-level”、“sumsub-create-questionnaire”、“sumsub-api-auth”）。当用户想要调用、检查或调试未涵盖的 Sumsub API 端点时触发 - 获取申请人、列出级别、审查 AML 命中、导出数据、生成 SDK 令牌、任何针对“api.sumsub.com”的内容。该过程 — 在 OpenAPI 模式中找到正确的端点，读取其请求/响应形状，构建有效负载，使用应用程序令牌进行签名并进行验证。每当较窄的 Sumsub 技能已涵盖该请求时，请跳过。

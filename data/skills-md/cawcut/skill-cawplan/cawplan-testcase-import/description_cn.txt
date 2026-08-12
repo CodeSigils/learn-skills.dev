@@ -1,0 +1,3 @@
+使用预览优先工作流程将 QA 测试用例从 CawPlan（需求/测试点或内联会话用例）导入 TestRail。
+使用时：SQA想要将T1生成的案例推送到TestRail；测试点生成后，扩展案例并导入；需求更新后重新导入（仅跳过，不覆盖）。
+不适用于：生成测试点（使用“cawplan-testpoint-generate”）；归档需求（使用“cawplan-requirement-analyze”）；创建测试计划/运行（A2，未来）；故障至缺陷 (A4)；释放风险（A5）。

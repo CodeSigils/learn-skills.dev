@@ -1,0 +1,1 @@
+在将现有 JavaScript Lightning Web 组件（.js、.html、.css）转换为具有完整类型注释的 TypeScript 和仅公开组件的“@api”表面的匹配“.d.ts”文件时使用。当用户说“将 LWC 转换为 TypeScript”、“将 LWC 迁移到 TS”、“将此组件的 .js 重命名为 .ts”、“将类型添加到我的 LWC”、“为此 LWC 生成 .d.ts”、“类型注释@api 属性”或“生成声明模块‘c/componentName’定义”时触发。当用户从头开始创作全新的 LWC（使用 experience-lwc-generate）、为现有 LWC 生成 Jest 测试（使用 experience-lwc-generate）或将 Aura 组件迁移到 LWC 时，请勿触发。

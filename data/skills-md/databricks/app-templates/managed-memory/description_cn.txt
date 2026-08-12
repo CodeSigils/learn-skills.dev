@@ -1,0 +1,1 @@
+使用 Databricks MANAGED 内存（Unity Catalog 内存存储 REST API）作为工具，为代理提供持久的跨会话长期内存 — 由 UC 管理，无需客户运行任何基础设施。这适用于 OpenAI Agents SDK 或 LangGraph 模板。使用时机：代理应该记住用户（或团队/组织的共享）在对话中的偏好/事实/决定；关键词“长期记忆”、“托管记忆”、“记忆存储”、“代理记忆”。这与具有 (agent-openai-memory / agent-langgraph-memory) 技能的自托管 Lakebase 内存解决方案是分开的。

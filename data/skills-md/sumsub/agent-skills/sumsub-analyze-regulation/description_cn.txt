@@ -1,0 +1,1 @@
+分析监管文档（PDF 或文本）并生成 Sumsub 配置计划 - 将监管要求映射到 Sumsub 实体（级别、调查问卷、PoA 预设、TM 规则、工作流程）。当用户提供法规 PDF、法律行为或合规性要求文档并希望了解在 Sumsub 中配置哪些内容时触发。作为调用 sumsub-create-level、sumsub-create-questionnaire、sumsub-create-poa-preset、sumsub-create-workflow 和其他技能之前的入口点。跳过直接实体创建请求（无监管上下文）或 Sumsub API 调用。

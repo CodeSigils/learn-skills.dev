@@ -1,0 +1,1 @@
+使用 Docker Compose 和 Nginx 为单个 Linux 服务器规划经过批准的生产部署。在定义部署合同、在私有 Git 源构建和 CI 构建的镜像拉取之间进行选择、生成只读服务器审计、清理和分析审计或执行日志、生成 bootstrap/Nginx/deploy/verify/rollback 包、验证 shell 安全性和工件完整性或诊断部署失败时使用。切勿使用它通过 SSH 连接到服务器或自动执行生产写入。

@@ -1,0 +1,1 @@
+获取当前租户允许的权利（BackgroundCheckTarget 列表）。返回带有“allowed”（权限密钥数组）和“descriptions”（密钥映射 → 人类可读标签）的 JSON。在构建有效负载以控制所需权利的功能之前，由 sumsub-create-level （和其他 create-* 技能）调用。
