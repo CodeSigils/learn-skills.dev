@@ -1,0 +1,1 @@
+Databricks 관리형 메모리(Unity Catalog 메모리 저장소 REST API)를 도구로 사용하여 에이전트에 내구성이 뛰어난 교차 세션 장기 메모리를 제공합니다. 고객이 실행할 인프라 없이 UC로 관리됩니다. 이는 OpenAI Agents SDK 또는 LangGraph 템플릿에서 작동합니다. 사용 시기: 상담원은 대화 전반에 걸쳐 사용자(또는 팀/조직이 공유한) 기본 설정/사실/결정을 기억해야 합니다. 키워드는 '장기 기억', '관리되는 기억', '기억 저장소', '에이전트 기억'입니다. 이는 (agent-openai-memory/agent-langgraph-memory) 기술을 갖춘 자체 호스팅 Lakebase 메모리 솔루션과는 별개입니다.
