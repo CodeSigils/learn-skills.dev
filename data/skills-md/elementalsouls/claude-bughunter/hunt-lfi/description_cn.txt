@@ -1,0 +1,1 @@
+搜索本地文件包含 (LFI)、远程文件包含 (RFI) 和路径遍历 — /etc/passwd 读取、日志中毒 → RCE、PHP 过滤器链 RCE（无需上传）、php:// / data:// / zip:// / phar:// 包装器、通过allow_url_include 的 RFI、目录遍历读/写/删除。涵盖 OOB/盲 LFI 确认和误报纪律。在任何目标上寻找文件包含或路径遍历错误时使用。

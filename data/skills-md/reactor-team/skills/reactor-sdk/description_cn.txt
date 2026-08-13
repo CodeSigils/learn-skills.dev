@@ -1,0 +1,1 @@
+使用 Reactor SDK 构建实时视频 AI 应用程序。当代码导入 `@reactor-team/js-sdk` 或 `reactor-sdk` 时使用；将网络/移动前端连接到 GPU 驱动的 Reactor 模型（Helios 等）时；通过基于命令的控制通过 WebRTC 传输视频时；发布用于视频到视频转换的网络摄像头输入时；处理 Reactor 的 JWT 身份验证时；或者在调试 Reactor 连接生命周期时（断开连接→连接→等待→就绪）。当项目使用不相关的 WebRTC（例如，普通视频通话）或不接触 Reactor 的视频管道时跳过。

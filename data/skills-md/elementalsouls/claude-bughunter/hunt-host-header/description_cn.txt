@@ -1,0 +1,1 @@
+Hunt 主机标头注入 — 密码重置中毒 → ATO、通过未加密的主机/X-Forwarded-Host 进行的 Web 缓存中毒、基于路由的 SSRF（主机选择上游 → 云元数据/内部服务）、路径覆盖 SSRF/ACL 绕过（X-Original-URL/X-Rewrite-URL）、OAuth redirect_uri/issuer 中毒以及电子邮件中的绝对 URL 链接中毒。当达到 ATO 或大量缓存中毒时，从高变为严重。基于公共主机头研究（PortSwigger“实用网络缓存中毒”+ James Kettle，以及经典的密码重置中毒类）。用于任何忘记密码流、CDN/反向代理前端应用程序、OAuth/OIDC 端点或电子邮件中的绝对 URL 功能。
