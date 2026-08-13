@@ -1,0 +1,1 @@
+단일 로컬 이슈 파일(issues/issue-#.md)에 대한 이슈 기반 TDD — red-green-refactor를 작성한 다음 regression-tests/verify-issue-#.sh를 작성하고, ruff+pyright+pytest+regression 스크립트(프로젝트 자체 run-*.sh가 있는 경우, 그렇지 않으면 이 패키지의 기본값)를 실행하고, 이슈가 필요할 때 UI 확인을 수행하고, 이슈의 구현 결과 섹션을 업데이트하고, git add에서 중지합니다. 문제 번호가 없으면 진행 중인 문제를 감지하여 재개하거나 가장 작은 보류 중인 문제를 선택하여 시작하고 먼저 묻습니다. 사용자가 "/tdd2", "tdd2"라고 말할 때 사용합니다.
