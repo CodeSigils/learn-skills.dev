@@ -1,0 +1,1 @@
+rerun.experimental.Mp4Reader を使用して、.mp4 ビデオを Rerun チャンク ストリームに取り込みます。ビデオを VideoStream に変換する場合、ストリーム vs アセット モードを選択する場合、FFmpeg を介してトランスコーディング (B フレーム、出力コーデック、GOP サイズ) を選択する場合、またはビデオ PTS を録画の壁時計タイムラインに揃える場合に読み取ります。 rerun-chunk-processing (ストリームの仕組み) と rerun-data-model (録画内のビデオが属する場所) に基づいて構築されています。

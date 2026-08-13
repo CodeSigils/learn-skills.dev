@@ -1,0 +1,1 @@
+Rust製バックエンドHTTPサーバーフレームワーク fandhe-backendの考え方。 fandhe-backend-core / -http / -routes。Server、BoundServer、Router、Handler。 4拡張点 Middleware / UpgradeHandler / RequestGate / Interceptor（intercept,map_response）。 StreamingResponse、sans-IO HTTP/1.1、グレースフルシャットダウン。 websocket、graphql、openapi、webrtc など。

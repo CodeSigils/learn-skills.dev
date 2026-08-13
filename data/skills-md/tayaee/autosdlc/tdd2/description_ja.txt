@@ -1,0 +1,1 @@
+単一のローカル課題ファイル (issues/issue-#.md) に対する課題主導型 TDD — red-green-refactor、次に regression-tests/verify-issue-#.sh を書き込み、ruff+pyright+pytest+regression スクリプトを実行 (存在する場合はプロジェクト独自の run-*.sh、そうでない場合はこのパッケージのデフォルト)、課題で必要な場合は UI 検証を実行し、課題の 구현 결과 を更新します。セクションでは、git add で停止します。問題番号がない場合は、進行中の問題を検出して再開するか、最小の保留中の問題を選択して開始し、最初に質問します。ユーザーが「/tdd2」、「tdd2」と言うときに使用します。
