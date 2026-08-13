@@ -1,1 +1,1 @@
-Used for generating replacement maps for each Region/Cell of a Phaser 4 Spine Atlas/texture atlas, performing incremental updates, rebuilding brand‑new textures, or validating that there is no fallback to old textures; it requires preserving the Skeleton, Attachment, and Mesh UVs, and being able to safely recover if any Cell fails.
+对 Phaser 4 Spine Atlas/纹理图集的全部 Region/Cell 逐项生成替换图、断点续作、重建全新纹理或验证无旧纹理回退时使用；要求保留 Skeleton、Attachment 与 Mesh UV，并能在任何 Cell 失败时安全恢复。

@@ -1,11 +1,5 @@
-QBV / quant‑buddy‑view (users may write it as /quant‑buddy‑view, /qbv, qbv, or QBV) is used to turn quantitative data into publicly shareable, real‑time web dashboards/landing pages.  
-
-Use this skill when the user asks to create, update, publish, verify, retrofit, or reuse a Quant Buddy dashboard/static page/template, including shareable pages, public URLs, formula packages, share shells, cover/essence cards, poster/share behavior, single‑stock profile pages, valuation/financial profile pages, index‑anomaly boards, multi‑factor screeners, and commodity‑daily pages.  
-
-When used together with quant‑buddy‑skill: a simple, single A‑share comprehensive analysis can, after a trace begin, directly return a real‑time page with `static_page.py new_asset_page`. For other fixed‑page requests, first select an online template page with the `recommend` tag from `templates/template`. Building a custom real‑time page still requires first validating the formula in quant‑buddy‑skill, then registering your own formula package, replacing credentials/text, performing a browser acceptance test, and publishing. By default, do not start from local historical template directories or low‑quality HTML skeletons.  
-
-If the user explicitly invokes /quant‑buddy‑view, /qbv, qbv, or QBV, and the request is not purely a consultation, code maintenance, or documentation explanation, it is by default treated as a shareable live‑page task: simple, single A‑share analyses go through `new_asset_page` for a quick final state; other requests are checked against official selections and community template cards to determine direct/fork/unmatched. By default, a direct request delivers an existing link first, while fork/unmatched requests return the first link via `new_page`. When `config.json._channel=feishu-group`, all branches are prohibited from sending links in advance; only a playground link is delivered at the final stage.  
-
-Do not use this skill for one‑off market data queries, ordinary stock price‑change or valuation Q&A, stock‑picking or back‑testing exploration; those belong to quant‑buddy‑skill unless the user explicitly wants a reusable/shareable page.  
-
-Please always respond in the user's language.
+QBV / quant-buddy-view（用户可能写成 /quant-buddy-view、/qbv、qbv 或 QBV）用于把量化数据做成「公开可分享、实时取数」的网页看板/落地页。
+Use this skill when the user asks to create, update, publish, verify, retrofit, or reuse a Quant Buddy dashboard/static page/template, including shareable pages, public URLs, formula packages, share shell, cover/essence cards, poster/share behavior, single-stock profile pages, valuation/financial profile pages, index-anomaly boards, multi-factor screeners, and commodity daily pages.
+配合 quant-buddy-skill 使用：简单单一 A 股综合分析可在 trace begin 后直接用 static_page.py new_asset_page 返回实时页面；其他固定页面请求先用 templates/template 选择带 recommend 标签的在线范式页。自建实时页仍须先在 quant-buddy-skill 验证公式，再注册自有公式包、替换凭证/文案、浏览器验收并发布。默认不从本地历史样板目录或低质 HTML 骨架起步。
+用户显式唤起 /quant-buddy-view、/qbv、qbv 或 QBV，且请求不是纯咨询/代码维护/文档解释时，默认视为可分享活页任务：简单单一 A 股分析走 new_asset_page 快速终态；其余请求查官方精选+社区范式卡判定 direct/fork/unmatched。默认 direct 先交付现成链接、fork/unmatched 用 new_page 返回首链；当 config.json._channel=feishu-group 时，所有分支都禁止提前发送链接，只在终态交付 playground 链接。
+Do not use this skill for one-off 行情查询、普通股票涨跌幅/估值问答、选股/回测探索；those belong to quant-buddy-skill unless the user explicitly wants a reusable/shareable page.

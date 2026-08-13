@@ -1,0 +1,6 @@
+Reproduce any academic paper figure from an uploaded image using accumulated style experience.
+Use when: user uploads/attaches a paper figure and asks to reproduce or recreate it;
+user says "复现这个图", "reproduce this plot", "match this figure", "照着这个图画";
+or user provides a paper figure PNG/screenshot and wants Python matplotlib code that generates it.
+Includes analysis workflow for font detection, color extraction, proportion matching,
+and mapping to 8 pre-built styles or creating a new style from scratch.
