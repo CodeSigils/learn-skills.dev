@@ -1,0 +1,1 @@
+Hunt 主機標頭注入 — 密碼重設中毒 → ATO、透過未加密的主機/X-Forwarded-Host 進行的 Web 快取中毒、基於路由的 SSRF（主機選擇上游 → 雲元資料/內部服務）、路徑覆蓋 SSRF/ACL 繞過（X-Original-URL/X-Rewrite-URLect、OAc reduirect 以及絕對中毒連結。當達到 ATO 或大量緩存中毒時，從高變為嚴重。基於公共主機頭研究（PortSwigger「實用網路快取中毒」+ James Kettle，以及經典的密碼重置中毒類）。用於任何忘記密碼流、CDN/反向代理前端應用程式、OAuth/OIDC 端點或電子郵件中的絕對 URL 功能。

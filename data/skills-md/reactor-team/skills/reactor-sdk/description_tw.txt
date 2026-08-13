@@ -1,0 +1,1 @@
+使用 Reactor SDK 建立即時視訊 AI 應用程式。當程式碼匯入 `@reactor-team/js-sdk` 或 `reactor-sdk` 時使用；將網路/移動前端連接到 GPU 驅動的 Reactor 模型（Helios 等）；透過基於命令的控制透過 WebRTC 傳輸視訊時；發布用於偵錯視訊轉換的網路攝影機輸入時；處理 Reactor 的 JWT 傳輸視訊時；連接生命週期時（斷開連接→連接→等待→就緒）。當項目使用不相關的 WebRTC（例如，普通視訊通話）或不接觸 Reactor 的視訊管道時跳過。

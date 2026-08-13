@@ -1,0 +1,1 @@
+運行 linting 和格式化。當 lintro 可用時，首選使用 `uv run lintro chk` 進行檢查，使用 `uv run lintro fmt` 進行格式化；僅當 lintro 不可用或其他技能記錄了後續通道（例如 raycast）時，才回退到本機工具。

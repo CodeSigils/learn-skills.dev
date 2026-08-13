@@ -1,0 +1,1 @@
+搜尋本機檔案包含 (LFI)、遠端檔案包含 (RFI) 和路徑遍歷 — /etc/passwd 讀取、日誌中毒 → RCE、PHP 過濾器鏈 RCE（無需上傳）、php:// / data:// / zip:// / phar:// 包裝器、透過allow_url_include 的 RFI、刪除/目錄/目錄。涵蓋 OOB/盲 LFI 確認和誤報紀律。在任何目標上尋找文件包含或路徑遍歷錯誤時使用。
