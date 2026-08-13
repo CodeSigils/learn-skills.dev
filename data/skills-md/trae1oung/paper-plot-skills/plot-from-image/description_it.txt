@@ -1,0 +1,6 @@
+Riproduci qualsiasi figura di carta accademica da un'immagine caricata utilizzando l'esperienza di stile accumulata.
+Utilizzare quando: l'utente carica/allega una figura cartacea e chiede di riprodurla o ricrearla;
+l'utente dice "复现这个图", "riproduci questa trama", "abbina questa figura", "照着这个图画";
+oppure l'utente fornisce una figura di carta PNG/screenshot e desidera il codice matplotlib Python che lo generi.
+Include il flusso di lavoro di analisi per il rilevamento dei caratteri, l'estrazione del colore, la corrispondenza delle proporzioni,
+e mappatura su 8 stili predefiniti o creazione di un nuovo stile da zero.
