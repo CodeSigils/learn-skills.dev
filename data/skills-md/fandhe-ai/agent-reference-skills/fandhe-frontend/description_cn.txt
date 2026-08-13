@@ -1,1 +1,1 @@
-基于 Rust 的前端框架fandhe-frontend 的参考。集成 SSR、SPA、SSG 和视图转换、水化和单一可执行分发。具有默认转义和禁止（unsafe_code）的安全设计。主要包：核心、应用程序、交互式、headless-ui（基元）、pre-styled-ui（主题）、服务器（SSGgenerate_pages/generate_assets）（前缀为 fandhe-frontend-）。 CLI 框架（新、门、结构、影响）。
+基于 Rust 的前端框架 **fandhe-frontend** 的参考。将 SSR、SPA、SSG 和视图转换、水合作用和分发集成为单个可执行文件。具有默认转义和“禁止（不安全代码）”的安全设计。主要包：`core`、`app`、`interactive`、`headless-ui`（基元）、`pre-styled-ui`（主题）、`server`（SSG `generate_pages`/`generate_assets`）——所有都以 `fandhe-frontend-` 为前缀。 CLI 框架（“新”/“门”/“结构”/“影响”）。
