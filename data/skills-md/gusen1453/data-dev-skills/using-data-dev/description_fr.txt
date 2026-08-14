@@ -1,0 +1,10 @@
+Acheminer les demandes d’ingénierie et de gouvernance pour les données de recherche sur les investissements financiers vers la compétence correspondante en fonction de la responsabilité. Lorsqu'un utilisateur mentionne « aidez-moi à créer une table / concevoir un schéma de table de base de données / écrire du DDL », « créer un pipeline de synchronisation de données / incrémental / remplissage », « concevoir une interface pour interroger XX données / outil MCP », « inspection qualité / acceptation / examen d'un lot de tables de données », « contrat de données / gouvernance des données / conformité / lignage / masquage » ou ne sait pas quelle compétence de développement de données utiliser, ce routage est appliqué.  
+
+Routage :  
+- Contrat de données/DDL → finance-ddl-design  
+- Développement de pipeline → finance-pipeline-dev  
+- Interface de requête → finance-query-contrat  
+- Acceptation qualité → finance-data-qc  
+- Gouvernance/conformité des données → exécuteur non encore fourni  
+
+Il gère uniquement le routage et la détermination des responsabilités ; il ne se connecte pas aux sources de données, n'exécute pas de requêtes et ne génère pas de livrables commerciaux. Lorsque la responsabilité première est claire, elle doit aller directement à la compétence correspondante sans s'attarder ici. Si une méthode de conception est nécessaire en premier, vous pouvez utiliser /data‑grill pour finaliser les exigences et /data‑solid pour revoir la structure de l'entrepôt de données.

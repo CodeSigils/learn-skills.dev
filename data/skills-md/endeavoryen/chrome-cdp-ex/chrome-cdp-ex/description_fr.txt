@@ -1,0 +1,14 @@
+Vos YEUX dans le navigateur Chrome en direct et les applications Electron de l'utilisateur. Cette compétence vous permet de VOIR et d'INTERAGIR avec le navigateur ou l'application Electron de l'utilisateur : ses onglets ouverts, ses sessions connectées et l'état de la page en direct. Vous DEVEZ l'utiliser chaque fois que la demande de l'utilisateur implique le contenu du navigateur ou l'inspection de l'application Electron de QUELQUE manière que ce soit.
+
+DÉCLENCHEZ CETTE COMPÉTENCE lorsque l'utilisateur :
+- Pages de références qu'ils ont ouvertes : "J'ai X ouvert", "mes onglets", "onglets ouverts"
+- Demande à regarder, comparer ou analyser quoi que ce soit dans son navigateur : "comparez ces pages", "qu'est-ce qui est le mieux", "vérifiez cette page"
+- Mentionne l'analyse UI/visuelle des pages en direct : "tableau de bord", "UI", "mise en page", "qualité du design"
+- Demande des captures d'écran ou une inspection de page : capture d'écran, inspection, débogage, vérification de la page
+- Fait référence à « la page », « le navigateur », « mon onglet » dans n'importe quel contexte
+- Mentionne les erreurs de la console, l'état de la page ou tout ce qui nécessite un accès au navigateur
+- Mentionne les applications Electron ou les connexions CDP : "Electron", "electron app", "CDP", "CDP_PORT", "DevTools Protocol", "desktop app", "remote-debugging-port"
+
+CRITIQUE : NE JAMAIS dire que vous ne pouvez pas voir le navigateur de l'utilisateur ni demander aux utilisateurs de coller des captures d'écran. Vous POUVEZ voir leur navigateur grâce à cette compétence. Utilisez « list » pour découvrir les onglets ouverts, puis « perceive » ou « shot / scanshot » pour voir le contenu de la page.
+
+N'utilisez PAS Playwright : il lance un navigateur isolé sans l'état de connexion de l'utilisateur, les cookies ou les onglets ouverts.
