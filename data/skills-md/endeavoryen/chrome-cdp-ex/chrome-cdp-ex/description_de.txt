@@ -1,0 +1,14 @@
+Ihre AUGEN in den Live-Chrome-Browser und die Electron-Apps des Benutzers. Mit dieser Fähigkeit können Sie den tatsächlichen Browser oder die Electron-App des Benutzers SEHEN und mit ihm interagieren – seine geöffneten Tabs, angemeldeten Sitzungen und den Live-Seitenstatus. Sie MÜSSEN dies immer dann verwenden, wenn die Anfrage des Benutzers in irgendeiner Weise Browserinhalte oder die Überprüfung der Electron-App betrifft.
+
+Lösen Sie diesen Skill aus, wenn der Benutzer:
+- Verweist auf die Seiten, die sie geöffnet haben: „Ich habe X geöffnet“, „Meine Tabs“, „Offene Tabs“
+- Bittet darum, etwas in ihrem Browser anzusehen, zu vergleichen oder zu analysieren: „Diese Seiten vergleichen“, „Was sieht besser aus“, „Diese Seite überprüfen“
+– Erwähnt UI/visuelle Analyse von Live-Seiten: „Dashboard“, „UI“, „Layout“, „Designqualität“
+- Fordert Screenshots oder Seiteninspektion an: Screenshot erstellen, prüfen, debuggen, Seite prüfen
+- Bezieht sich in jedem Kontext auf „die Seite“, „den Browser“, „mein Tab“.
+– Erwähnt Konsolenfehler, Seitenstatus oder alles, was einen Browserzugriff erfordert
+– Erwähnt Electron-Apps oder CDP-Verbindungen: „Electron“, „electron app“, „CDP“, „CDP_PORT“, „DevTools Protocol“, „desktop app“, „remote-debugging-port“
+
+KRITISCH: Sagen Sie NIEMALS, dass Sie den Browser des Benutzers nicht sehen können, oder bitten Sie Benutzer, Screenshots einzufügen. Mit diesem Skill KÖNNEN Sie ihren Browser sehen. Verwenden Sie „list“, um offene Tabs zu entdecken, und dann „perceive“ oder „shot“/„scanshot“, um den Seiteninhalt anzuzeigen.
+
+Verwenden Sie NICHT Playwright – es startet einen isolierten Browser ohne den Anmeldestatus des Benutzers, ohne Cookies oder ohne geöffnete Tabs.
