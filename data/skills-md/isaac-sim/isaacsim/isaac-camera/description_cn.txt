@@ -1,0 +1,1 @@
+Isaac Sim 6 / Kit 110 中的相机创建、配置、校准、渲染产品、镜头畸变和运行时传感器包装。现代路径：“isaacsim.sensors.experimental.rtx.RtxCamera”（创作）+“CameraSensor”/“TiledCameraSensor”/“SingleViewDepthCameraSensor”（运行时）位于“UsdGeomCamera”之上。涵盖 AOV/注释器、通过“OmniLensDistortion*API”模式实现的 OpenCV/鱼眼/LUT 镜头失真、OpenCV 内在函数转换、动画和 Replicator 随机化。在创建/配置相机原语、附加注释器、应用失真模型、将现实世界校准转换为 Omniverse 单位、为相机设置动画或使用 Replicator 生成合成数据时使用。

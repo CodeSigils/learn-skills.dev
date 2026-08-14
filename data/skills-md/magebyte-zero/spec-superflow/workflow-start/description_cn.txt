@@ -1,0 +1,1 @@
+spec-superflow 状态机工作流程的主要入口点。当用户位于活动的spec-superflow更改目录中时调用（查找.spec-superflow.yaml、changes/<name>/、proposal.md、specs/、design.md、tasks.md或execution-contract.md）并要求启动、继续、恢复、实施、计划或找出下一个工作流程步骤。当用户明确要求启动新的规范超级流更改或通过规范超级流工作流程进行路由时也会调用。不要调用恰好使用“开始”、“继续”、“实施”或“计划”等词语的不相关编码任务。

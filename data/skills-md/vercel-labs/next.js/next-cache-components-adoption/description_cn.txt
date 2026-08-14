@@ -1,0 +1,1 @@
+在 Next.js 应用程序中打开缓存组件并解决其显示的阻塞路由。当用户想要启用、采用或迁移到缓存组件时使用，翻转“cacheComponents”标志，解决大量阻塞预渲染/即时验证错误，运行“cache-components-instant-false”codemod，或者决定使用“export const instant = false”选择退出路由并修复它们。

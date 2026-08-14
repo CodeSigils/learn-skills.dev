@@ -1,0 +1,1 @@
+在 Isaac Sim 6.0（套件 110）中设置和使用 ROS 2 Bridge，以通过模拟发布和订阅 ROS 2 主题。涵盖桥架构、传感器/命令的 OmniGraph 节点设置、Nav2 集成和多机器人命名空间。使用场合：将 Isaac Sim 连接到 ROS 2、将模拟中的传感器数据（相机、LiDAR、里程计）发布到 ROS 2、从 Nav2 或其他 ROS 2 节点订阅机器人命令，或者在模拟中设置多机器人命名空间 ROS 2 通信。触发：ROS 2 桥、OmniGraph ROS2、Nav2 Isaac Sim、isaacsim.ros2.bridge、ROS2PublishLaserScan、cmd_vel 订阅、多机器人命名空间 ROS2。

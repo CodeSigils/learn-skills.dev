@@ -1,0 +1,3 @@
+使用此技能可以在 VS Code launch.json 文件中创建、更新或修改 Renesas 项目和 Renesas 设备的调试配置。
+当用户出现以下情况时，主动激活此技能： - 提及硬件调试、launch.json 或调试配置 - 要求创建、修改或修复硬件调试配置设置 - 参考特定调试器，例如 J-Link、E1、E2、E2LITE、E20、EZ、IECUBE、COMPORT 或模拟器 - 请求更改目标设置、热插拔或服务器参数
+该技能支持以下 Renesas 设备系列：Dialog、RA、RCAR、RH850、RL78、RX、RISCV 和 RZ 设备以及模拟器、Segger J-Link（SEGGERJLINKARM、SEGGERJLINKRX、SEGGERJLINKRISCV）和 Renesas 仿真器（E1、E2、E20、E2LITE、EZ、IECUBE、COMPORT）。

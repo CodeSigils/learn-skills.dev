@@ -1,0 +1,1 @@
+顶级调度程序：将自然语言 Isaac Sim 请求转换为可运行的模拟。拥有 env-var 合约（`$ISAAC_SIM_DIR`、`$ISAAC_LAB_DIR`、`$WORKSPACE_DIR`、`$CIP_ROOT`），将任务分解为功能、通往专业技能的路线（`usd-pipeline`、`isaac-sim-rendering`、`isaac-sim-validator`、`physical-simulation`、`usd-composition-architecture`），并在交付前验证输出。在以下情况下使用：(1) 使用机器人、对象、环境创建模拟场景，(2) 在 Isaac Sim 中控制机器人，(3) 生成渲染或相机捕获，(4) 收集物理 AI 训练数据，(5) 在 GPU 上运行无头模拟，(6) 在仓库中编排多机器人车队。

@@ -1,0 +1,1 @@
+用于 Node/TS 的类型安全 WebSocket 订阅库，是 typesafe-rpc 的伴侣。定义WsSchema（实体/操作/订阅处理程序）、createWsHandler（服务器）、createWsServer（其他后端代码的类型化交叉连接推送句柄）、createWsClient（客户端）、订阅的路由和中间件。在编辑 typesafe-ws、添加订阅操作、连接 WebSocket 服务器或客户端、从处理程序外部将数据推送到订阅或在此存储库中实现订阅处理程序和中间件时使用。

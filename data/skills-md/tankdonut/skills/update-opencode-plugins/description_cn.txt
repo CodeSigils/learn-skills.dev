@@ -1,0 +1,1 @@
+在 opencode.json 中更新、升级或更改 opencode 插件版本时使用（用户级别位于 ~/.config/opencode/opencode.json 或项目级别位于 .opencode/opencode.json），包括通过可选的 7 天冷却时间来解决最新的 npm 版本（跳过太新的版本），并清除 ~/.cache/opencode/packages 中过时的插件缓存，以便 opencode 永远不会回退到旧的缓存版本。
