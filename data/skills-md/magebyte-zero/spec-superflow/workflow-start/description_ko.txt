@@ -1,0 +1,1 @@
+spec-superflow 상태 머신 워크플로의 기본 진입점입니다. 사용자가 활성 spec-superflow 변경 디렉터리(.spec-superflow.yaml,changes/<name>/,proposal.md,specs/,design.md,tasks.md,execution-contract.md 검색) 내에 있을 때 호출하고 시작, 계속, 재개, 구현, 계획 또는 다음 워크플로 단계 파악을 요청합니다. 또한 사용자가 새로운 spec-superflow 변경을 시작하거나 spec-superflow 워크플로를 통해 라우팅하도록 명시적으로 요청하는 경우에도 호출됩니다. 시작, 계속, 구현 또는 계획과 같은 단어를 사용하는 관련 없는 코딩 작업을 호출하지 마세요.

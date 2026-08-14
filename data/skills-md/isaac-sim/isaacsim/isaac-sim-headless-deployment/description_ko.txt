@@ -1,0 +1,1 @@
+배치 시뮬레이션, 자동화된 데이터 생성 및 서버 측 워크로드를 위해 `--no-window`를 사용하여 Isaac Sim 6.0을 헤드리스로 실행합니다. 시작 모드(네이티브 헤드리스, 물리 전용, 독립형 Python), 주요 CLI 플래그, 앱 구성 및 표준 `SimulationApp` 부트스트랩 패턴을 다룹니다. 사용 시기: 디스플레이 없이 Isaac Sim 실행, 서버에서 배치 시뮬레이션 실행, 헤드리스 합성 데이터 생성 또는 헤드리스 'SimulationApp' 라이프사이클에서 독립형 Python 스크립트 래핑. 트리거 대상: 헤드리스 Isaac Sim, --no-window, 배치 시뮬레이션, SimulationApp, 물리 전용, 독립형 Python 스크립트.
