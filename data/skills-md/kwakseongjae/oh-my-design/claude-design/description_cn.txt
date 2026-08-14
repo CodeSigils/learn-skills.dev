@@ -1,3 +1,2 @@
-分析当前代码库（或文件夹）并合成“设计上下文简介”（堆栈/设计令牌/组件/路由/实际 UI 副本/策划资产/存储库链接），然后自动将其发送到 Claude Design (claude.ai/design) 以生成设计，并在终端中以可点击的形式返回结果链接。通过单个终端调用执行代码库 → Claude Design 上下文的传输。 claude.ai/design 在用户登录的 Chrome (claude-in-chrome) 中运行，但如果交互层被阻止（已知的 chrome 扩展冲突错误），它会干净地切换到手动切换。不执行渲染屏幕截图。
-
-触发器：“/claude-design”、“将此代码库移动到 Claude Design”、“分析代码库并发送到 Claude Design”、“生成登陆设计”、“发送到 claude.ai/design”、“向 Claude Design 请求设计”、“使用此参考创建设计”、“向 Claude Design 请求模型”。
+分析当前代码库（或文件夹），合成“设计上下文简介”（堆栈/设计令牌/组件/路由/实际 UI 副本/策划资产/存储库链接），自动将其发送到 Claude Design (claude.ai/design) 以生成设计，并将结果链接作为可点击项目返回到终端中。通过单个终端调用，执行代码库 → Claude Design 上下文的传输。 claude.ai/design 使用用户登录的 Chrome (claude-in-chrome) 运行，但如果交互层被阻止（已知的 chrome 扩展冲突错误），它会干净地切换到手动切换。不执行渲染屏幕截图。  
+触发器：“/claude-design”、“将此代码库移动到 Claude Design”、“分析代码库并交付给 Claude Design”、“生成着陆设计”、“发送到 claude.ai/design”、“向 Claude Design 请求设计”、“使用此参考创建设计”、“向 Claude Design 请求模型”。

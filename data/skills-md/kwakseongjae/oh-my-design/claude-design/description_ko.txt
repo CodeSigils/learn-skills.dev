@@ -1,3 +1,2 @@
-현재 코드베이스(또는 폴더)를 분석하고 "디자인 컨텍스트 개요"(스택/디자인 토큰/구성 요소/경로/실제 UI 사본/큐레이트된 자산/repo 링크)를 합성하고 자동으로 Claude Design(claude.ai/design)으로 전송하여 디자인을 생성하고 결과 링크를 터미널에서 클릭 가능한 형식으로 반환합니다. 단일 터미널 호출로 코드베이스 → Claude Design 컨텍스트 전송을 수행합니다. claude.ai/design은 사용자가 로그인한 Chrome(claude-in-chrome)에서 실행되지만 상호 작용 레이어가 차단된 경우(알려진 크롬 확장 충돌 버그) 완전히 수동 핸드오프로 전환됩니다. 렌더링 스크린샷 캡처가 수행되지 않습니다.
-
-트리거: "/claude-design", "이 코드베이스를 Claude Design으로 이동", "코드베이스를 분석하고 Claude Design으로 보내기", "랜딩 디자인 생성", "claude.ai/design으로 보내기", "Claude Design에서 디자인 요청", "이 참조에서 디자인 만들기", "Claude Design에서 모형 요청".
+현재 코드베이스(또는 폴더)를 분석하고, “디자인 컨텍스트 브리프”(스택/디자인 토큰/컴포넌트/라우트/실제 UI 사본/큐레이트된 자산/repo 링크)를 합성하고 자동으로 Claude Design(claude.ai/design)으로 전송하여 디자인을 생성하고, 결과 링크를 터미널에 클릭 가능한 항목으로 반환합니다. 단일 터미널 호출로 코드베이스 → Claude Design 컨텍스트 전송을 수행합니다. claude.ai/design은 사용자가 로그인한 Chrome(claude-in-chrome)을 사용하여 실행되지만 상호 작용 레이어가 차단된 경우(알려진 크롬 확장 충돌 버그) 완전히 수동 핸드오프로 전환됩니다. 렌더링 스크린샷 캡처가 수행되지 않습니다.  
+트리거: "/claude-design", "이 코드베이스를 Claude Design으로 이동", "코드베이스를 분석하고 Claude Design에 전달", "랜딩 디자인 생성", "claude.ai/design으로 보내기", "Claude Design에서 디자인 요청", "이 참조로 디자인 만들기", "Claude Design에서 모형 요청".
