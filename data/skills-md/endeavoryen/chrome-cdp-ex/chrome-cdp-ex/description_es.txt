@@ -1,0 +1,14 @@
+Sus OJOS en el navegador Chrome en vivo del usuario y las aplicaciones Electron. Esta habilidad le permite VER e INTERACTUAR con el navegador real o la aplicación Electron del usuario: sus pestañas abiertas, sesiones iniciadas y estado de la página en vivo. DEBE utilizar esto siempre que la solicitud del usuario implique la inspección del contenido del navegador o de la aplicación Electron de CUALQUIER forma.
+
+ACTIVA ESTA HABILIDAD cuando el usuario:
+- Páginas de referencias que tienen abiertas: 'Tengo X abiertas', 'mis pestañas', 'pestañas abiertas'
+- Pide mirar, comparar o analizar cualquier cosa en su navegador: "comparar estas páginas", "cuál se ve mejor", "comprobar esta página".
+- Menciona UI/análisis visual de páginas en vivo: 'panel de control', 'UI', 'diseño', 'calidad de diseño'
+- Solicita capturas de pantalla o inspección de la página: captura de pantalla, inspeccionar, depurar, verificar la página
+- Se refiere a 'la página', 'el navegador', 'mi pestaña' en cualquier contexto
+- Menciona errores de la consola, estado de la página o cualquier cosa que requiera acceso al navegador.
+- Menciona aplicaciones de Electron o conexiones CDP: 'Electron', 'aplicación de electrones', 'CDP', 'CDP_PORT', 'Protocolo DevTools', 'aplicación de escritorio', 'puerto de depuración remota'
+
+CRÍTICO: NUNCA diga que no puede ver el navegador del usuario ni solicite a los usuarios que peguen capturas de pantalla. PUEDES ver su navegador a través de esta habilidad. Utilice `list` para descubrir pestañas abiertas, luego `perceive` o `shot`/`scanshot` para ver el contenido de la página.
+
+NO utilice Playwright: inicia un navegador aislado sin el estado de inicio de sesión del usuario, cookies ni pestañas abiertas.
