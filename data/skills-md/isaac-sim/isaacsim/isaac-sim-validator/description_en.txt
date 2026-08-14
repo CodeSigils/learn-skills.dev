@@ -1,0 +1,1 @@
+Validate Isaac Sim simulation scripts and outputs before delivery. Rejects black frames, deprecated `omni.isaac.*` imports, hardcoded user paths/IPs, missing lights, wrong render mode, undersized SimulationApp configs, and bad RL output formats. Use when a sub-agent produces a script, a render, a training artifact, or any USD scene that's about to be handed to the user.

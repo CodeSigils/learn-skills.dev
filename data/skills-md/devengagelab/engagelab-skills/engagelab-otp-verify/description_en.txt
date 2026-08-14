@@ -1,0 +1,1 @@
+Verifies OTP codes that users entered, when EngageLab generated and stored the code (platform-generated mode). Use when checking whether a user-typed verification code matches the one EngageLab sent, completing the login/registration/2FA flow. This skill is only needed for platform-generated mode — if you generated the code yourself, verify it against your own database.
