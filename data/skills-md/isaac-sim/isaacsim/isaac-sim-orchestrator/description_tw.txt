@@ -1,0 +1,1 @@
+頂級調度程序：將自然語言 Isaac Sim 請求轉換為可運行的模擬。擁有 env-var合約（`$ISAAC_SIM_DIR`、`$ISAAC_LAB_DIR`、`$WORKSPACE_DIR`、`$CIP_ROOT`），將任務分解為功能、通往專業技能的路線（`usd-pipeline`、`is aac-sim-rendering`、`isaac-sim-validator`、`physical-simulation`、`usd-composition-architecture`），並在交付前驗證輸出。在以下情況下使用：(1) 使用機器人、物件、環境創建模擬場景，(2) 在 Isaac Sim 中控制機器人，(3) 生成渲染或相機捕獲，(4) 收集實體 AI 訓練數據，(5) 在 GPU 上運行無頭模擬，(6) 在倉庫中編排多機器人車隊。

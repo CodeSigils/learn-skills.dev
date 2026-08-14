@@ -1,0 +1,2 @@
+一種分析當前程式碼庫（或資料夾）以合成「設計上下文簡介」（堆疊/設計令牌/元件/路由/實際 UI 副本/規劃資產/儲存庫連結）的技能，自動將其傳送至 Claude Design (claude.ai/design) 以產生設計，然後在終端機中以可點擊的形式傳回結果連結。透過單一終端調用，它可以執行程式碼庫→Claude Design 上下文的傳輸。 Claude.ai/design 在使用者登入的 Chrome (claude-in-chrome) 中執行，但如果互動層被封鎖（已知的 chrome 擴充功能衝突錯誤），它會乾淨地切換到手動切換。不執行渲染螢幕截圖。  
+觸發器：「/claude-design」、「將此程式碼庫移至 Claude Design」、「分析程式碼庫並交付給 Claude Design」、「產生落地設計」、「傳送至 claude.ai/design」、「向 Claude Design 請求設計」、「使用此參考創建設計」、「向 Claude Design 請求模型」。

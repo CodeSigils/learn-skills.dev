@@ -1,0 +1,1 @@
+將編碼任務委託給 Aider (`aider`) 作為後台實現者，然後檢查其差異並自行著陸。每當使用者想要將實作工作交給 Aider 時（例如「讓 Aider 做 X」、「將其委託給 aider」、「透過 Aider 運行它」或「使用 Aider 來實現/修復/重構」等措辭）或想要透過 Aider 運行一系列編碼任務並同時保持審閱者身份，請使用此選項。這包括要求 Aider 驅動本地或自託管 OpenAI 相容端點（「讓 Aider 使用我的本機模型」、「針對 llama.cpp / Ollama / vLLM / LM Studio 運行 Aider」），Aider 透過 `--api-base` 到達該端點。請勿用於未命名 Aider 的本機模型或編碼請求、小到足以內聯執行的任務，或當使用者希望直接編寫程式碼而無需委派時。

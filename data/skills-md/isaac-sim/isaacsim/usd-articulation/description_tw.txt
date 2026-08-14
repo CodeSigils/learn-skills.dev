@@ -1,0 +1,1 @@
+以美元為 Isaac Sim 6/Lab 驗證並建造多臂機器人關節。涵蓋程式設計組裝（底盤+手臂+「FixedJoint」）、「ArticulationRootAPI」放置、現代 Isaac 機器人架構覆蓋（「IsaacRobotAPI」、「IsaacLinkAPI」、「IsaacJointAPI」、「IsaacSiteAPI」、「IsaacNamedPose」、「KinematicChain」、用於改造現有 USD的「PopulateRobotSchemaFromArticulation」、部署前展平，以及驗證檢查表（關節根、關節連接、機器人架構完整性、浮動臂）。在以美元創建多肢機器人、使用機器人架構改造現有關節、調試「浮動臂」或斷開連接的幾何體、或展平關節以部署到 Isaac Lab 時使用。

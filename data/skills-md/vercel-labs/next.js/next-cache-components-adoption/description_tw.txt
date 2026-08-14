@@ -1,0 +1,1 @@
+在 Next.js 應用程式中開啟快取元件並解決其顯示的阻塞路由。當使用者想要啟用、採用或遷移到快取元件時使用，翻轉「cacheComponents」標誌，解決大量阻塞預先渲染/即時驗證錯誤，執行「cache-components-instant-false」codemod，或決定使用「export const instant = false」選擇退出路由並修復它們。

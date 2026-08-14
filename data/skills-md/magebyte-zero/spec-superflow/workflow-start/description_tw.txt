@@ -1,0 +1,1 @@
+spec-superflow 狀態機工作流程的主要入口點。當使用者位於活動的spec-superflow更改目錄中時呼叫（尋找.spec-superflow.yaml、changes/<name>/、proposal.md、specs/、design.md、tasks.md或execution-contract.md）並要求啟動、繼續、復原、實作、排程或找出下一個工作流程。當使用者明確要求啟動新的規範超級流變更或透過規範超級流工作流程進行路由時也會呼叫。不要呼叫恰好使用「開始」、「繼續」、「實施」或「計畫」等字詞的不相關編碼任務。
