@@ -1,0 +1,1 @@
+spec-superflow ステートマシン ワークフローのプライマリ エントリ ポイント。ユーザーがアクティブな spec-superflow 変更ディレクトリ内にいるときに呼び出し (.spec-superflow.yaml、changes/<name>/、proposal.md、specs/、design.md、tasks.md、またはexecution-contract.mdを探します)、開始、継続、再開、実装、計画、または次のワークフロー ステップの決定を求めます。また、ユーザーが新しい spec-superflow の変更を開始するか、spec-superflow ワークフローを経由するように明示的に要求したときにも呼び出します。開始、継続、実装​​、計画などの単語を使用する無関係なコーディング タスクを呼び出さないでください。
