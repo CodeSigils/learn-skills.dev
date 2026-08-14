@@ -1,0 +1,14 @@
+I tuoi OCCHI sul browser Chrome live dell'utente e sulle app Electron. Questa abilità ti consente di VEDERE e INTERAGIRE con il browser o l'app Electron dell'utente: le schede aperte, le sessioni di accesso e lo stato della pagina attiva. DEVI utilizzarlo ogni volta che la richiesta dell'utente coinvolge il contenuto del browser o l'ispezione dell'app Electron in QUALSIASI modo.
+
+ATTIVA QUESTA ABILITÀ quando l'utente:
+- Pagine di riferimento aperte: "Ho X aperto", "le mie schede", "schede aperte"
+- Chiede di guardare, confrontare o analizzare qualsiasi cosa nel browser: "confronta queste pagine", "che sembra migliore", "controlla questa pagina"
+- Menziona l'interfaccia utente/analisi visiva delle pagine live: "dashboard", "interfaccia utente", "layout", "qualità del design"
+- Richiede screenshot o ispezione della pagina: screenshot, ispeziona, esegui il debug, controlla la pagina
+- Si riferisce a "la pagina", "il browser", "la mia scheda" in qualsiasi contesto
+- Menziona errori della console, stato della pagina o qualsiasi cosa che richieda l'accesso al browser
+- Menziona le app Electron o le connessioni CDP: "Electron", "app electron", "CDP", "CDP_PORT", "Protocollo DevTools", "app desktop", "porta di debug remoto"
+
+FONDAMENTALE: non dire MAI che non puoi vedere il browser dell'utente o chiedere agli utenti di incollare screenshot. PUOI vedere il loro browser attraverso questa abilità. Utilizza `list` per scoprire le schede aperte, quindi `perceive` o `shot`/`scanshot` per vedere il contenuto della pagina.
+
+NON utilizzare Playwright: avvia un browser isolato senza lo stato di accesso dell'utente, i cookie o le schede aperte.
