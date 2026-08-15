@@ -1,0 +1,1 @@
+Decentraland SDK7 场景的横切运行时 API。当用户需要异步工作 (executeTask)、HTTP (fetch/signedFetch) 或 WebSocket、计时器、领域/场景元数据、受限操作（movePlayerTo、传送、表情、外部 URL）、系统执行顺序/优先级或编写场景测试时使用。请勿用于 UI（请参阅 build-ui）、多人游戏同步（请参阅多人同步）、头像/玩家数据（请参阅玩家头像）或基于轮询的输入（请参阅高级输入）。

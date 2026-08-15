@@ -1,0 +1,1 @@
+针对目标组织应用 Salesforce 沙箱复制后自动化 JSON 配置。对于每个条目，该技能从条目的“ConfigurationName”派生正确的工具 API 对象，通过描述探针验证派生，通过 SOQL-over-REST 解析记录 Id，然后使用“sf api request rest”通过复合“Metadata”字段修补记录。当用户要求针对沙箱应用、运行、执行、试运行或预览复制后或刷新后配置文件（例如“post-copy-config.json”）时使用。触发短语：“应用复制后配置”、“运行复制后自动化”、“执行沙箱刷新后 JSON”、“应用沙箱刷新配置”、“刷新后配置沙箱”。不要触发从 SOP 生成配置 JSON（委托给“automation-sandbox-post-copy-config-generate”）或部署元数据 XML。

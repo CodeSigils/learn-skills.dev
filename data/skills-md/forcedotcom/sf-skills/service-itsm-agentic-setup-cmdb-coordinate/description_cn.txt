@@ -1,0 +1,1 @@
+用于在 Service Cloud ITSM 中针对生产或沙盒组织启用端到端 CMDB（配置管理数据库）的 Orchestrator 技能。当用户要求设置 CMDB、启用配置管理数据库、配置 ITSM CMDB、从头开始安装 CMDB、想要 CMDB 启用的指导演练或询问可用的 CMDB 设置步骤时使用。触发条件：设置 CMDB、启用 CMDB、配置 CMDB、CMDB 入门、配置管理数据库设置、ITSM CMDB 演练。不要在以下情况下触发：用户直接询问特定的 CMDB 子步骤（例如，仅安装捆绑包、仅分配权限集）、CMDB 记录 CRUD（创建 CI、关系）、发现/服务图连接器配置或没有 CMDB 设置意图的一般 ITSM 查询。
