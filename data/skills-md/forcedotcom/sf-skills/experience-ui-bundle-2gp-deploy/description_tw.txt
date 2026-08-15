@@ -1,0 +1,1 @@
+當使用者想要將 UI 捆綁包打包、分發或安裝/升級/卸載/升級為 Salesforce 第二代 (2GP) 套件時必須啟動（專案可能包含用於打包任務的 uiBundles/ 或 sfdx-project.json；安裝/升級任務可能缺少本機捆綁檔案）。處理使捆綁包可打包、選擇託管/解鎖風格、使用 sf 包創建包/版本、在另一個組織中安裝/升級以及調試故障。打包、2GP、託管包、解鎖包、AppExchange、包版本、sf 包、sf 包安裝、sf 包升級、安裝包、升級包、跨組織分發上觸發。不要觸發將純源部署到一個組織（使用 experience-ui-bundle-deploy）或建立新捆綁包（使用 experience-ui-bundle-project-generate）。零碎應用－只做要求的部分。

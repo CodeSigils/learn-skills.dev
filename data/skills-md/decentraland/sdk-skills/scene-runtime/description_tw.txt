@@ -1,0 +1,1 @@
+Decentraland SDK7 場景的橫切執行階段 API。當使用者需要非同步工作 (executeTask)、HTTP (fetch/signedFetch) 或 WebSocket、計時器、領域/場景元資料、受限操作（movePlayerTo、傳送、表情、外部 URL）、系統執行順序/優先權或編寫場景測試時使用。請勿用於 UI（請參閱 build-ui）、多人遊戲同步（請參閱多人同步）、個人資料/玩家資料（請參閱玩家個人資料）或基於輪詢的輸入（請參閱進階輸入）。

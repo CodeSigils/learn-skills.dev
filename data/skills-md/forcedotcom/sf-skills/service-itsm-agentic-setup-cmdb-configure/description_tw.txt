@@ -1,0 +1,1 @@
+針對生產或沙箱組織啟用 Service Cloud ITSM 中的 CMDB（設定管理資料庫）功能：驗證 CMDB 組織 SKU、設定 ITOM 租用戶，並啟用可提升 CMDB 存取權的 service-cloud-itsm-cmdb-integration 功能。當使用者要求啟用 CMDB、開啟設定管理資料庫、設定 ITOM 租用戶、啟用 CMDB 功能或修復 CMDB 403 FUNCTIONALITY_NOT_ENABLED 錯誤時使用。觸發條件：啟用 CMDB 功能、設定 ITOM 租用戶、開啟 CMDB、未啟用 CMDB、CMDB 403 錯誤、service-cloud-itsm-cmdb-integration。不要在下列情況下觸發：使用者只想將 CMDB 權限集指派給使用者、僅安裝 CMDB 內容包或直接使用 CMDB 記錄。
