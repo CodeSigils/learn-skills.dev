@@ -1,0 +1,1 @@
+HTTP를 통해 Blob을 저장하고 읽기 위한 Walrus 게시자 및 수집자 REST API입니다. 사용자가 HTTP PUT/GET 요청을 사용하여 Walrus Blob을 저장하거나 읽어야 할 때 사용하고, 모든 프로그래밍 언어에서 Walrus를 통합하고, 스토리지 옵션(epochs, 삭제 가능, 영구, send_object_to)을 구성하거나 API 응답 저장/읽기를 구문 분석해야 할 때 사용합니다. 업로드 후 HTTP API 오류 또는 CDN 캐싱 문제를 해결할 때도 사용하세요. 퀼트 HTTP 엔드포인트에 대해서는 `walrus-quilts` 스킬을 참조하세요. CLI 사용법은 `walrus-cli`를 참조하세요.
