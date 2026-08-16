@@ -1,0 +1,5 @@
+Write code that pays for an HTTP API returning 402 Payment Required, using the x402 protocol and
+a CDP-managed wallet. Covers TypeScript and Python. Use when the user wants to call a paid
+endpoint from their own application or agent, add x402 payments to an HTTP client, hit an API
+that charges per request, migrate an existing x402 client off a raw private key, or is stuck on
+an unexpected 402 response.

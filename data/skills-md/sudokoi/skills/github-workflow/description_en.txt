@@ -1,0 +1,1 @@
+Conventions for authoring and maintaining GitHub Actions workflows. Pin each action to its latest version, read the Node version from .node-version (else latest LTS), and set up pnpm via the setup-pnpm action instead of corepack. Use when creating a workflow, adding or editing jobs or steps, or updating action versions in an existing workflow.
