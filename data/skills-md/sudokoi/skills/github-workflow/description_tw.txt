@@ -1,0 +1,1 @@
+創建和維護 GitHub Actions 工作流程的約定。將每個操作固定到其最新版本，從 .node-version 讀取 Node 版本（其他最新的 LTS），並透過 setup-pnpm 操作而不是 corepack 設定 pnpm。在建立工作流程、新增或編輯作業或步驟或更新現有工作流程中的操作版本時使用。
