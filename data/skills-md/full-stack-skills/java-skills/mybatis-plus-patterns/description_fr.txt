@@ -1,0 +1,5 @@
+MyBatis-Plus améliore les capacités ORM. Couvre le choix entre LambdaQueryWrapper et QueryWrapper (toujours Lambda), la configuration du plugin de pagination (PaginationInnerInterceptor), le verrouillage optimiste (@Version + OptimisticLockerInnerInterceptor), la suppression logique (@TableLogic configuration globale/locale), le remplissage automatique (@TableField fill + MetaObjectHandler), le choix entre les modes ActiveRecord et Mapper, empêchant les mises à jour complètes de la table (BlockAttackInnerInterceptor) et extraire une PageQuery générique.
+
+Utilisé lorsqu'un utilisateur effectue des opérations de base de données avec MyBatis-Plus, configure la pagination et le verrouillage optimiste et sélectionne une méthode de requête.
+
+Complémentaire aux compétences MyBatis : MyBatis se concentre sur l'écriture XML/ResultMap/SQL, tandis que MyBatis-Plus se concentre sur les fonctionnalités améliorées.

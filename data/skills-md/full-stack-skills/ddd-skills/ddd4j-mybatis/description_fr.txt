@@ -1,0 +1,5 @@
+Compétence de convention de couche de persistance DDD4J MyBatis-Plus. Il couvre le mode ActiveRecord (l'entité doit étendre BaseEntity → Model<T>), la suppression logique @TableLogic, le remplissage automatique des champs d'audit (createBy/createTime/updateBy/updateTime), la convention des paramètres XML @Param("model"), le wrapper de pagination PaginationEntity (15 éléments par page, décalage de style Oracle), le système de gestion de type (doubles ensembles BooleanEnum/JSON, fractionnement Liste/Ensemble/Array) et méthodes BaseMapper intégrées telles que getPagedList, setStatus, getCountBy* et autres.
+
+Les utilisateurs ont besoin de cette compétence lors de la définition d'entités/dépôts dans un projet DDD4J, de l'écriture de Mapper XML, de l'utilisation de requêtes paginées ou de la configuration de gestionnaires de types.
+
+Il est utilisé avec la compétence ddd4j‑core.

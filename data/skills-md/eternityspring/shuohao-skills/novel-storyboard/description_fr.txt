@@ -1,0 +1,9 @@
+Créez des storyboards pour les courts métrages dramatiques d'IA : structure à trois couches — Segment (une génération vidéo, ≤ 15 secondes) → Prise de vue (coupes de 2 à 5 secondes dans le segment, revendiquant les rythmes du script) → Image prise (une image clé pour chaque coupe : une épingle de storyboard principale à 0,00 seconde et des épingles de sous-scénario à leurs points de coupe respectifs).
+
+Chaque segment est accompagné d'une invite vidéo MiniMax H3 (la valeur par défaut officielle est l'anglais, saut de ligne par plan ; promptLang peut être commuté en chinois) : les commandes d'alignement et les horodatages de coupe [Shotk] sont dérivés de la structure du storyboard et vérifiés mot par mot ; les lignes de dialogue sont placées mot à mot dans des blocs <d> (les règles de formatage sont internalisées dans references/h3-prompt.md et ne font pas appel à des compétences externes).
+
+Résultats : storyboard.json, Markdown et un rapport de révision d'une seule page (comprenant une piste rythmique du storyboard, une liste de plans par épisode, une feuille de lot de génération, une feuille d'alignement de voix off et un JSON exporté). Les images de prise de vue peuvent être générées en utilisant les images de conception de scène et de personnage comme référence via le codex $imagegen (facultatif).
+
+Les 16 portes de qualité sont vérifiées de manière déterministe par le script ; une exportation en un clic génère le package de production H3 (l'invite de chaque segment plus une liste ordonnée d'images prises par séquence d'images). Zéro dépendance, zéro clé API, en utilisant le quota de session actuel.
+
+À utiliser lorsqu'on vous demande de créer un storyboard, de générer des listes de plans, de couper des plans ou de produire un storyboard pour un court métrage dramatique IA.

@@ -1,0 +1,2 @@
+Apache Commons utilise le langage Commons Lang3 (StringUtils千面判空/isEmpty vs isBlank/Validate avec NullPointerException)、Commons IO (IOUtils.toString/FileUtils.lineIterator/FilenameUtils.normalize)、Commons Collections4(CollectionUtils.union/intersection/subtract)
+Le LLM utilise StringUtils.isBlank vs isEmpty, IOUtils.toString pour OOM et LineIterator avec lang et lang3.
