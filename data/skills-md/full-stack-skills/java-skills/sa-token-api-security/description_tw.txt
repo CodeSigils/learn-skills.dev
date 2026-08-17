@@ -1,0 +1,5 @@
+Sa-Token API安全防禦能力。它涵蓋用於防篡改和防重播的API參數簽章（sa-token-sign）（四步驟演變：時間戳+nonce+sign）、API金鑰（sa-token-apikey）部分授權和範圍控制（可撤銷/有限）以及臨時Token（SaTempUtil中嵌入的核心包）短期連結邀請。  
+
+API簽章支援多重應用（多個金鑰）模式和各種摘要演算法（md5/sha256/sha512）。 API Key支援多帳戶系統和資料庫持久化模式。臨時Token支援前綴修剪、反向查找和JWT整合。  
+
+對於基本登入驗證，請先使用 sa-token 功能。

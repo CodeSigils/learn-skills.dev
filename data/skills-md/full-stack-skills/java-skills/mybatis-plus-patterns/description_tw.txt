@@ -1,0 +1,1 @@
+MyBatis-Plus 增強了 ORM 能力。它涵蓋了 LambdaQueryWrapper 和 QueryWrapper 之間的選擇（始終使用 Lambda）、分頁插件的配置（PaginationInnerInterceptor）、樂觀鎖定（@Version + OptimisticLockerInnerInterceptor）、邏輯刪除（@TableLogic 全域/本地配置）、自動填充@TableFielield模式之間的選擇、防止全表更新（BlockAttackInnerInterceptor）和通用頁面查詢擷取。當使用者使用MyBatis-Plus進行資料庫操作、配置分頁和樂觀鎖以及選擇查詢方法時會用到它。它補充了MyBatis的技能：MyBatis專注於XML/ResultMap/SQL編寫，而MyBatis-Plus則專注於增強功能。

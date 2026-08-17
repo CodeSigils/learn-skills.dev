@@ -1,0 +1,2 @@
+Apache Commons最佳實務模式。從官方文件提煉，覆寫Commons Lang3(StringUtils千面判空/isEmpty vs isBlank/Validate拋NullPointerException遷移)、Commons IO(IOUtils.toString大檔案陷阱/FileUtils.lineIterator逐行讀取模式/FilenameUtils.normalize大檔案陷阱/FileUtils.lineIterator逐行讀取模式/FilenameUtils.normalizesV4)、Fintermalizes14)、43)。
+修正 LLM 錯誤用：不一致 StringUtils.isBlank vs isEmpty、IOUtils.toString 讀大檔案 OOM、不 LineIterator 逐行讀取模式、用 lang 或 lang3 套件名稱。

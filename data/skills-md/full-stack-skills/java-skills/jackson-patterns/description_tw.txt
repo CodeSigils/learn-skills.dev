@@ -1,0 +1,1 @@
+Jackson JSON 序列化技巧。覆蓋日期格式配置（非 ISO-8601）、空序列化規則（數組 → []、字串 → ""、數字 → null）、@JsonView 分層、ObjectMapper 單例規則、TypeReference 通用反序列化、@JsonProperty/@JsonFormat/@JsonIgnore 註解的整合原理以及與 Spring Boot 的整合原理以及與 Spring Boot 的整合原理。當使用者處理 JSON 序列化/反序列化、配置 ObjectMapper 或解決日期格式或 null 處理問題時使用。

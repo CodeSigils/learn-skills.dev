@@ -1,0 +1,3 @@
+Seata分散式事務能力。涵蓋AT、TCC、SAGA、XA四種模式選擇的決策樹； AT模式需要undo_log表； TCC模式使用useTCCFence解決冪等性、掛起、空回滾； SAGA 模式處理長時間運行的狀態機程序；全域事務逾時配置（@GlobalTransactional timeoutMills）；隔離增強（@GlobalLockPDATE UGloATE）。  
+
+LLM的修正：不知道選擇AT/TCC/SAGA中的哪一個，不建立undo_log表，TCCConfirm不是冪等的，也不處理看門狗。

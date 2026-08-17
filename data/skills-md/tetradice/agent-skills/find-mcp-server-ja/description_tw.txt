@@ -1,0 +1,1 @@
+一種日語技能，支援探索、比較、部署公共 MCP（模型上下文協定）伺服器以及透過 add-mcp 連接。當出現諸如「是否有 ___ 的 MCP 伺服器？」、「尋找 MCP 工具」或「我想使用 add-mcp 添加它」等請求時，主動使用它，透過資料庫、外部 API、文件操作、GitHub 整合等處理從候選搜尋到操作測試的所有內容。如果存在單獨的“find-mcp-server”技能，請確保僅載入“find-mcp-server-ja”，並且切勿同時載入“find-mcp-server”和“find-mcp-server”。 「尋找-mcp-伺服器-ja」。

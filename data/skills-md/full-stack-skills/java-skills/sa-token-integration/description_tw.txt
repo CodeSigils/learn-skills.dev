@@ -1,0 +1,1 @@
+Sa-Token整合擴充功能。涵蓋JWT整合（Simple、Mixin、Stateless模式比較表）、Redis持久化（JDK序列化/JSON序列化）、Alone-Redis獨立Redis（認證快取與業務快取分離）、AOP註解授權（使用Service層註解）、SpEL表達式註解（@SaCheckEL）、快速登入（零程式碼登入頁面）、JSON序列化擴充（Jackson/Fastjson/Fastjson2/Snack3）、範本引擎整合（Thymeleaf/Freemarker標籤方言）和 RPC 整合（Dubbo/Dubbo3/gRPC 上下文傳播）。當您需要整合 JWT 進行無狀態驗證、設定 Redis 分散式工作階段、隔離快取、在服務層套用基於註解的授權或快速設定登入頁面時，請使用它。對於基本登入驗證，請先使用 sa-token 功能。

@@ -1,0 +1,1 @@
+XXL-JOB 最佳實踐模式。基於hiwepy/xxljob-spring-boot-starter的客製化包裝器，覆蓋@XxlJobCron註解以取代原生@XxlJob（程式碼作為配置/用程式碼編寫的cron/啟動時自動註冊到管理員），XxlJobTemplate編程式任務管理（CRUD/啟動停止/設定/啟動自動更新），執行器自動設定檔（BSL/SL1），配回連接/啟動連接埠/元組），執行器自動v2/v3雙版本相容性。正確的LLM誤用：使用@Scheduled取代分散式調度，不知道XxlJobTemplate的程式化管理，不知道@XxlJobCron的自啟動自動註冊模式。

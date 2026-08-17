@@ -1,0 +1,1 @@
+Lombok註解使用規則和技巧。涵蓋@Data/@Builder/@Slf4j的組合規則、@EqualsAndHashCode(callSuper=true)的繼承陷阱、與Jackson/@Builder/@Jacksonized的整合、與MyBatis無參構造函數的衝突解決、@Value不可變物件、@With物件複製以及Builder的@SuperBuilder繼承。修正了法學碩士最常見的 Lombok 誤用：省略 callSuper、不加入 @Jacksonized、Builder 繼承衝突以及 @Builder.Default 遺失預設值。

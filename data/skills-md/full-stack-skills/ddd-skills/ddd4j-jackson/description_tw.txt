@@ -1,0 +1,1 @@
+DDD4J Jackson 序列化規則技巧。覆寫日期格式（非 ISO-8601 yyyy-MM-dd HH:mm:ss）、空值序列化規則（數組 → []、字串 → ""、數字/布林值 → 保留 null）、@Sensitive 敏感資料屏蔽（5 種策略）、JacksonKit 和 WebObjectMapper 的雙@Sensitive 敏感資料遮罩（5 種策略)、JacksonKit 和 WebObjectMapper 的雙實例（Tapper for中的精度損失）。當 DDD4J 專案中的使用者使用 Jackson、需要配置 ObjectMapper、處理敏感資料屏蔽以及解決前端/後端 JSON 格式問題時使用。與 ddd4j 核心技能一起使用。

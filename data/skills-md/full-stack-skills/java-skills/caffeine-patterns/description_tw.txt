@@ -1,0 +1,3 @@
+Caffeine JVM 本機快取技巧。本機快取與遠端快取（Redis）選擇的決策樹，expireAfterWrite、expireAfterAccess、refreshAfterWrite三種過期策略的比較及其組合規則（refresh<expire）、CacheLoader載入和非同步重載入模式、Spring Cache@Cacheable整合、maximumSize驅逐策略、recordStats快取統計。  
+
+LLM修正：使用ConcurrentHashMap+手動過期，透過Redis路由所有緩存，refreshAfterWrite>expireAfterWrite導致永不刷新，CacheLoader返回null導致快取穿透。

@@ -1,0 +1,1 @@
+當使用者將 Spree 應用程式部署到生產環境時使用 - Heroku、Render、Fly、AWS、K8s、普通 Docker。涵蓋所需的環境變數、Sidekiq 設定、發布階段命令（`rake spree:upgrade`）、ActiveStorage 後端配置、資產預編譯、docker-entrypoint 行為。常見的短語包括「部署 Spree」、「Heroku 部署」、「渲染部署」、「Kubernetes 上的 Spree」、「Spree 環境變數」、「Spree 發布命令」、「Procfile」、「Sidekiq 部署」、「S3 設定」、「Cloudflare R2」、「資產預編譯失敗」。僅 Spree 特定位元 — 通用 Rails 部署超出了範圍。

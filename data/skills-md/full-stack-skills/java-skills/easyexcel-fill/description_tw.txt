@@ -1,0 +1,1 @@
+基於阿里巴巴EasyExcel（com.alibaba:easyexcel:4.0.3）的Excel模板填滿技巧。內容涵蓋簡單物件填充、清單填充（{.}+forceNewRow）、水平多列組合填滿（FillWrapper+WriteDirectionEnum.HORIZONTAL）、複雜填充（包括總行數/統計行數/寫入前填充）、Spring Boot整合、模板設計規範、轉義字元、Excel 2003/20072003/20072003/2007增量版本。當使用者需要使用 Java 物件或對應資料填入預製 .xlsx 範本（變數語法 {var}、{.}、{prefix.}）以產生報表（薪資、合約、對帳表、發票、財務報表、統計表、總計表）時，請使用此技能。它不適合非模板「以程式設計方式產生 Excel」場景（請使用 easyexcel-write 代替）。

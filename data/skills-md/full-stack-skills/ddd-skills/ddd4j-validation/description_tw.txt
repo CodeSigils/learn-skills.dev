@@ -1,0 +1,1 @@
+DDD4J 自訂驗證規則功能。它涵蓋四個自訂約束（@AllowedValues/@PhoneNumber/@NumberValue/@StringDateValue），一個為@StringDateValue靜默傳遞空字串的規則，禁用驗證器中的預設訊息插值約束，將驗證層定位在（Param/DTO而不是獨立的驗證器），並提供libphonenumber國際電話號碼驗證。當使用者在 DDD4J 專案中編寫參數驗證、電話號碼/日期格式驗證或枚舉值驗證時，需要此功能。它與 ddd4j-core 功能一起使用。

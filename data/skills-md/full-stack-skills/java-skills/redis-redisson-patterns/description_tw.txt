@@ -1,0 +1,3 @@
+Redis + Redisson 快取和分散式鎖定專業知識。涵蓋快取鍵命名約定、過期時間設定原則、RedisTemplate 序列化選擇（JSON、JDK 與 String）、三種主要的 Redisson 分散式鎖模式（看門狗/帶租約時間的 tryLock/不帶租約時間決策的 tryLock）、防止緩存滲透（布隆過濾器/緩存過濾器/緩存）  
+
+LLM 的修正：不要省略過期時間；避免混合 StringRedisTemplate 和 RedisTemplate；始終在 try-finally 區塊中解鎖 Redisson 鎖；當明確設定leaseTime 時，看門狗不起作用。

@@ -1,0 +1,2 @@
+Apache Kafka 訊息佇列技能。涵蓋生產者 acks=all/1/0 選擇決策、冪等性 (enable.idempotence+acks=all) 配置、消費者手動偏移提交 (enable.auto.commit=false)、DLT 死信處理 (@RetryableTopic/@DltHandler)、@KafkaListener+  
+LLM的修正：acks=0可能會遺失訊息，auto.commit可能會遺失訊息，不處理重複消費，不配置DLT。
