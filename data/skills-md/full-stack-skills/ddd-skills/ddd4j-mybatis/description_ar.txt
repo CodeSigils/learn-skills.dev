@@ -1,0 +1,3 @@
+DDD4J MyBatis-Plus مهارة اتفاقية طبقة الثبات. يغطي وضع ActiveRecord (يجب على الكيان توسيع BaseEntity → Model<T>)، والحذف المنطقي @TableLogic، والملء التلقائي لحقول التدقيق (createBy/createTime/updateBy/updateTime)، واتفاقية معلمات XML @Param("model")، وغلاف ترقيم الصفحات PaginationEntity (15 عنصرًا لكل صفحة، وإزاحة نمط Oracle)، ونظام معالج النوع (تقسيم BooleanEnum/JSON المجمع المزدوج/ListSetArray)، و أساليب BaseMapper المضمنة مثل getPagedList وsetStatus وgetCountBy* وغيرها.  
+هذه المهارة مطلوبة عندما يقوم المستخدمون بتعريف الكيان/المستودع في مشروع DDD4J، وكتابة Mapper XML، واستخدام الاستعلامات المرقّمة، وتكوين معالجات النوع.  
+تُستخدم مع مهارة ddd4j الأساسية.
