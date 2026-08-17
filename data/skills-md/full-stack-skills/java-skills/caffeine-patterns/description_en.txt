@@ -1,2 +1,3 @@
-Caffeine JVM 本地缓存技能。覆盖本地缓存 vs 远程缓存(Redis)选择决策树、expireAfterWrite vs expireAfterAccess vs refreshAfterWrite 三种过期策略对比与组合规则(refresh < expire)、CacheLoader加载与reload异步刷新模式、Spring Cache @Cacheable集成、maximumSize驱逐策略、recordStats缓存统计。
-纠正 LLM：用 ConcurrentHashMap+手动过期、所有缓存走Redis、refreshAfterWrite > expireAfterWrite导致永远不刷新、CacheLoader返回null导致缓存穿透。
+Caffeine JVM local caching skills. Decision tree for choosing between local cache vs remote cache (Redis), comparison of the three expiration strategies expireAfterWrite, expireAfterAccess, and refreshAfterWrite and their combination rules (refresh < expire), CacheLoader loading and asynchronous reload mode, Spring Cache @Cacheable integration, maximumSize eviction strategy, recordStats cache statistics.  
+
+Correction for LLM: use ConcurrentHashMap + manual expiration, route all caches through Redis, refreshAfterWrite > expireAfterWrite causes never refreshing, CacheLoader returning null leads to cache penetration.

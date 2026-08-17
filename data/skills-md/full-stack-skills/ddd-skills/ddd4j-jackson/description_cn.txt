@@ -1,0 +1,1 @@
+DDD4J Jackson 序列化规则技巧。覆盖日期格式（非 ISO-8601 yyyy-MM-dd HH:mm:ss）、空值序列化规则（数组 → []、字符串 → ""、数字/布尔值 → 保留 null）、@Sensitive 敏感数据屏蔽（5 种策略）、JacksonKit 和 WebObjectMapper 的双实例（JacksonKit for Redis / ObjectMapper for Web）和 ToLongDeserializer（处理前端 JavaScript 中的精度损失）。当 DDD4J 项目中的用户使用 Jackson、需要配置 ObjectMapper、处理敏感数据屏蔽以及解决前端/后端 JSON 格式问题时使用。与 ddd4j 核心技能一起使用。

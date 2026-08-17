@@ -1,0 +1,1 @@
+当用户使用或迁移出旧版 Spree Platform/Storefront API v2（JSON：“/api/v2/”下的 API 样式）时使用。在“API v2”、“JSON:API”、“平台 API”、“Storefront API”、“v2 到 v3 迁移”、“JSON:API 属性/关系”、“X-Spree-Order-Token”、“承载令牌 API v2”上触发。默认立场是**不要在 v2 上构建新东西** - 将用户指向 v3 等效项（spree-api-v3 技能）。仅使用此技能来 (a) 维护现有的 v2 集成或 (b) 迁移到 v3。

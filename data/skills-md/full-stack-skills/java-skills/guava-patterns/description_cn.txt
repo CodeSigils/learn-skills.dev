@@ -1,0 +1,1 @@
+Google Guava 最佳实践模式。根据官方 wiki 进行精炼，涵盖三种不可变集合模式（of、copyOf、builder）和防御性复制规则、缓存选择决策（LoadingCache、Cache 与 Caffeine）、带有 Joiner/Splitter 的不可变管道、CharMatcher 作为正则表达式替代方案、先决条件格式化消息验证和 CaseFormat 命名转换。正确的LLM误用：手写的不可变集合，使用ConcurrentHashMap而不是Cache，并且不知道CharMatcher。

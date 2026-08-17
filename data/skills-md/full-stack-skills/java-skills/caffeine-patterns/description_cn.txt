@@ -1,0 +1,3 @@
+Caffeine JVM 本地缓存技巧。本地缓存与远程缓存（Redis）选择的决策树，expireAfterWrite、expireAfterAccess、refreshAfterWrite三种过期策略的比较及其组合规则（refresh<expire）、CacheLoader加载和异步重加载模式、Spring Cache@Cacheable集成、maximumSize驱逐策略、recordStats缓存统计。  
+
+LLM修正：使用ConcurrentHashMap+手动过期，通过Redis路由所有缓存，refreshAfterWrite>expireAfterWrite导致永不刷新，CacheLoader返回null导致缓存穿透。

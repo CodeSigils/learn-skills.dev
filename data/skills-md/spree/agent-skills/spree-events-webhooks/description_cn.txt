@@ -1,0 +1,1 @@
+当用户希望 Spree 对发生的事情做出反应时使用 - 将订单同步到 ERP、发送通知、触发 Webhook、与外部服务集成、配置 Webhook 端点、验证 Webhook 签名。常见的短语包括“对 X 做出反应”、“当 X 发生时”、“发送通知”、“同步到外部服务”、“Spree 事件”、“订阅者”、“publish_event”、“webhook 端点”、“webhook 签名”、“X-Spree-Webhook-Signature”、“HMAC”、“webhook 重试”、“webhook 失败”、“webhook.test”。涵盖进程内订阅者（Ruby 副作用）和出站 Webhooks（HTTPS POST 到外部 URL）。

@@ -1,0 +1,1 @@
+当用户想要安装特定的第三方 Spree gem（Stripe、Adyen、PayPal、i18n、搜索、社交登录等）、构建自己的 Spree 扩展以在应用程序之间共享或通过“Spree.dependencies”交换核心 Spree 服务时使用。常见的短语包括“添加 Stripe”、“安装 spree_X”、“什么支付网关”、“创建 Spree 扩展”、“为 Spree 构建 gem”、“spree_dev_tools”、“Spree.dependency”、“服务交换”。要决定使用哪种定制模式，请首先查看“疯狂定制”技能 - 扩展是其决策树的最后两行，大多数单一应用程序工作不需要扩展。

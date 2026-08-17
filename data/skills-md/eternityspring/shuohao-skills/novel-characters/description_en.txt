@@ -1,6 +1,1 @@
-从小说或短故事里拆出角色表、人物画像、形象提示词、音色提示词，
-并给每个角色出角色设定图（左半身像 + 右全身三视图 + 细节条），产出 JSON + Markdown + 可交互的 report.html。
-报告语言可指定（--lang），默认中文，任意语言都支持；
-出图风格可指定（--style），默认半写实，也可以出吉卜力动画风。
-零依赖、零 API key，用当前会话额度；出图走 codex 内置 $imagegen（可选）。
-Use when asked to 拆小说角色、分析人物、生成角色卡、character sheets from a novel。
+Extract a character list, character portraits, visual prompt terms, and voice timbre prompt terms from a novel or short story, and generate a character design illustration for each character (left half‑body portrait + right full‑body three‑view + detail bar), outputting JSON + Markdown + an interactive report.html. The report language can be specified (--lang), default is Chinese, and any language is supported; the illustration style can be specified (--style), default is semi‑realistic, with a Studio Ghibli animation style also available. Zero dependencies, zero API key, using the current session quota; image generation uses the built‑in $imagegen in codex (optional). Use when asked to extract novel characters, analyze characters, generate character cards, character sheets from a novel.

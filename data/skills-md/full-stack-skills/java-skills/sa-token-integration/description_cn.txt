@@ -1,0 +1,1 @@
+Sa-Token集成扩展功能。涵盖JWT集成（Simple、Mixin、Stateless模式对比表）、Redis持久化（JDK序列化/JSON序列化）、Alone-Redis独立Redis（认证缓存与业务缓存分离）、AOP注解授权（使用Service层注解）、SpEL表达式注解（@SaCheckEL）、快速登录（零代码登录页面）、JSON序列化扩展（Jackson/Fastjson/Fastjson2/Snack3）、模板引擎集成（Thymeleaf/Freemarker 标签方言）和 RPC 集成（Dubbo/Dubbo3/gRPC 上下文传播）。当您需要集成 JWT 进行无状态身份验证、配置 Redis 分布式会话、隔离缓存、在服务层应用基于注释的授权或快速设置登录页面时，请使用它。对于基本登录身份验证，请首先使用 sa-token 功能。

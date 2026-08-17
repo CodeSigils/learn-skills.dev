@@ -1,0 +1,3 @@
+Redis + Redisson 缓存和分布式锁专业知识。涵盖缓存键命名约定、过期时间设置原则、RedisTemplate 序列化选择（JSON、JDK 与 String）、三种主要的 Redisson 分布式锁模式（看门狗/带租约时间的 tryLock/不带租约时间决策的 tryLock）、防止缓存渗透（布隆过滤器/空值缓存）、缓存击穿（互斥锁）和缓存雪崩（随机 TTL），以及 Caffeine 和 Redis 之间的决策。  
+
+LLM 的更正：不要省略过期时间；避免混合 StringRedisTemplate 和 RedisTemplate；始终在 try-finally 块中解锁 Redisson 锁；当显式设置leaseTime 时，看门狗不起作用。

@@ -1,0 +1,7 @@
+Sa-Token轻量级Java权限认证框架核心能力。涵盖登录认证、权限/角色认证、注解授权、路由拦截授权、Session处理、踢用户下线、token过期策略、框架配置、token样式和提交前缀、前后分离、记住我模式、同终端互斥登录、NotLoginException场景处理等。
+
+StpUtil是核心外观实用程序类，提供全套身份验证API，例如login、checkLogin、logout、isLogin、getLoginId、getTokenValue等。
+
+当Java Web项目需要集成权限认证、使用StpUtil执行登录/权限检查以及配置路由拦截器或基于注释的授权时，请使用它。
+
+不涉及二次认证、封禁、多账户、SSO、OAuth2、微服务、API安全、JWT、Redis等高级功能；请使用相应的专业技能。

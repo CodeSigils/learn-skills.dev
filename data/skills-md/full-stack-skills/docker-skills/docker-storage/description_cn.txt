@@ -1,0 +1,1 @@
+Docker 存储和数据持久性指南。涵盖存储类型（卷/绑定挂载/Tmpfs）以及比较和用例选择、卷生命周期管理（create/ls/inspect/prune）、绑定挂载模式、临时数据的 tmpfs、备份和恢复策略、存储驱动程序选择（overlay2）、数据库持久性最佳实践（PostgreSQL/MySQL/Redis）以及 NFS/云存储集成。当用户询问 docker 卷、数据持久性、绑定挂载、tmpfs、存储驱动程序、备份、数据卷或需要容器持久存储时使用。 使用场景：docker卷、数据持久化、绑定挂载、tmpfs、存储驱动、数据卷、备份恢复、数据库持久化。

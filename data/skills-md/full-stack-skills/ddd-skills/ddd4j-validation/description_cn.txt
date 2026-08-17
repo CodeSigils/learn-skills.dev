@@ -1,0 +1,1 @@
+DDD4J 自定义验证规则功能。它涵盖四个自定义约束（@AllowedValues/@PhoneNumber/@NumberValue/@StringDateValue），一个为@StringDateValue静默传递空字符串的规则，禁用验证器中的默认消息插值约束，将验证层定位在（Param/DTO而不是独立的验证器），并提供libphonenumber国际电话号码验证。当用户在 DDD4J 项目中编写参数验证、电话号码/日期格式验证或枚举值验证时，需要此功能。它与 ddd4j-core 功能一起使用。

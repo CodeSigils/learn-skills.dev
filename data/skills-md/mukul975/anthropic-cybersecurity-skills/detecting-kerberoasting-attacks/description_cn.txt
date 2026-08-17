@@ -1,0 +1,1 @@
+通过监视针对具有 SPN 的服务帐户的异常 Kerberos TGS 请求（事件 ID 4769）来检测 Kerberoasting 攻击，攻击者离线请求这些请求以破解服务帐户密码。在寻找 MITRE T1558 凭据访问活动或调查 Active Directory Kerberos 日志中可疑的服务帐户密码破解尝试时使用。

@@ -1,3 +1,1 @@
-DDD4J 自定义校验规则技能。覆盖四个自定义约束(@AllowedValues/@PhoneNumber/@NumberValue/@StringDateValue)、@StringDateValue空字符串静默通过规则、校验器禁用默认消息插值约束、校验层位置(Param/DTO而非独立Validator)、libphonenumber国际手机号校验。
-当用户在 DDD4J 项目中编写参数校验、手机号/日期格式校验、枚举值校验时需要此技能。
-配合 ddd4j-core 技能使用。
+DDD4J custom validation rule capability. It covers four custom constraints (@AllowedValues/@PhoneNumber/@NumberValue/@StringDateValue), a rule that silently passes empty strings for @StringDateValue, disables default message interpolation constraints in the validator, positions the validation layer at (Param/DTO rather than a standalone Validator), and provides libphonenumber international phone number validation. This capability is required when users write parameter validation, phone number/date format validation, or enum value validation in DDD4J projects. It is used together with the ddd4j-core capability.

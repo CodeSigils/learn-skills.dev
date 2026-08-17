@@ -1,0 +1,1 @@
+当沙箱阻止钥匙串身份验证、网络访问或 .git 写入时，通过主机上下文运行 Git 和 GitHub CLI 命令。用于 gh auth、存储库或 PR 操作以及 git index.lock 或权限失败。仅处理执行上下文，而不处理 GitHub 工作流设计。

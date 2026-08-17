@@ -1,0 +1,1 @@
+当用户想要扩展 Spree 模型、控制器、帮助器或服务类而不分叉时使用 - 向 Spree::Product 添加关联，向 Spree::Order 添加方法，覆盖验证，添加作用域，在前面添加 before_action，挂钩到 create。常见的短语包括“向产品添加品牌”、“装饰 Spree::X”、“ProductDecorator”、“OrderDecorator”、“Module#prepend”、“spree:model_decorator”、“扩展现有的 Spree 模型”、“向 Spree::Order 添加方法”、“覆盖 Spree 行为”、“猴子补丁 Spree”。提供装饰器模式、生成器、前置（基本）习惯用法和陷阱。提到何时不装饰——保存后副作用的事件、服务交换的依赖项、全新模型的资源生成器。

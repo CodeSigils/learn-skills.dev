@@ -1,0 +1,5 @@
+Sa-Token API安全防御能力。它涵盖用于防篡改和防重放的API参数签名（sa-token-sign）（四步演变：时间戳+nonce+sign）、API密钥（sa-token-apikey）部分授权和范围控制（可撤销/有限）以及临时Token（SaTempUtil中嵌入的核心包）短期链接邀请。  
+
+API签名支持多应用（多个密钥）模式和各种摘要算法（md5/sha256/sha512）。 API Key支持多账户系统和数据库持久化模式。临时Token支持前缀修剪、反向查找和JWT集成。  
+
+对于基本登录身份验证，请首先使用 sa-token 功能。

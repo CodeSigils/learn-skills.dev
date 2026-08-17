@@ -1,9 +1,9 @@
-给 AI 短剧出分镜：三层结构——段（一次视频生成，≤15 秒）→ 分镜（段内 2–5 秒的剪切，认领剧本节拍）
-→ 分镜图（每切一张关键帧：主分镜图钉 0.00 秒，子分镜图钉各自切点）。
-每段自带一条 MiniMax H3 视频提示词（官方口径默认英文、逐镜换行，promptLang 可切中文）：对齐指令和
-[Shot k] 切点时刻由分镜结构推导、逐字对账，台词逐字进 <d> 块（写法规范已内化为
-references/h3-prompt.md，不依赖外部 skill）。
-产出 storyboard.json + Markdown + 单页评审报告（分镜节奏带 / 分集分镜表 / 生成批次单 /
-配音对齐单，含导出 JSON）。分镜图出图拿场景与角色设定图当参考图走 codex $imagegen（可选）。
-16 道质量门全部由脚本确定性检查；export 一键导出 H3 投产包（每段提示词 + 按 Picture 序的分镜图清单）。零依赖、零 API key，用当前会话额度。
-Use when asked to 分镜、出分镜、镜头表、切镜、storyboard for AI short drama。
+Create storyboards for AI short dramas: a three-tier structure — Segment (a single video generation, ≤15 seconds) → Shot (a 2–5 second cut within the segment, claiming the script beat) → Shot image (one key frame per cut: main storyboard pin at 0.00 seconds, sub‑storyboard pins at their respective cut points).
+
+Each segment includes its own MiniMax H3 video prompt (officially defaulting to English, line breaks per shot; promptLang can be switched to Chinese): alignment commands and the [Shot k] cut timestamps are derived from the storyboard structure and verified word by word; dialogue is inserted word by word into <d> blocks (the writing conventions are internalized in references/h3-prompt.md and do not rely on external skills).
+
+Outputs: storyboard.json + Markdown + a single-page review report (storyboard rhythm track / episode storyboard table / generation batch list / voice‑over alignment sheet, including exported JSON). Shot images can be generated using scene and character design images as reference via codex $imagegen (optional).
+
+All 16 quality gates are deterministically checked by the script; “export” provides one‑click export of the H3 production package (each segment’s prompt + a list of shot images ordered by Picture). Zero dependencies, zero API key, using the current session quota.
+
+Use when asked to storyboard, generate storyboards, shot list, cut shots, storyboard for AI short drama.

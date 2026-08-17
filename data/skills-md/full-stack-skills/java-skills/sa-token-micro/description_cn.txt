@@ -1,0 +1,1 @@
+Sa-Token微服务认证能力。涵盖了Same-Token内部服务外网隔离机制、Spring Cloud Gateway的统一认证（与Reactor反应）、通过Feign/Dubbo/gRPC进行内部RPC调用的认证、分布式会话解决方案（Redis会话中心/JWT无状态）、与Reactor/WebFlux框架的集成以及Spring Boot 3/4的依赖适配。当您需要微服务架构中的服务间身份验证、网关令牌转发和验证、内部服务外部网络隔离或分布式会话共享时，请使用它。对于基本登录身份验证，首先使用 sa-token 功能。

@@ -1,2 +1,2 @@
-Apache Kafka 消息队列技能。覆盖生产者 acks=all/1/0 选择决策、幂等性(enable.idempotence + acks=all)配置、消费者手动提交 offset(enable.auto.commit=false)、DLT死信处理(@RetryableTopic/@DltHandler)、@KafkaListener + 异常处理器(DefaultErrorHandler)、顺序消息(同一Key发同一分区)、事务消息。
-纠正 LLM：acks=0 丢消息、auto.commit 漏消息、不处理重复消费、不配置 DLT。
+Apache Kafka message queue skills. Covers producer acks=all/1/0 selection decisions, idempotence (enable.idempotence + acks=all) configuration, consumer manual offset commit (enable.auto.commit=false), DLT dead‑letter handling (@RetryableTopic/@DltHandler), @KafkaListener + exception handler (DefaultErrorHandler), ordered messages (same key to the same partition), transactional messages.  
+Correction for LLM: acks=0 may lose messages, auto.commit may miss messages, does not handle duplicate consumption, and does not configure DLT.

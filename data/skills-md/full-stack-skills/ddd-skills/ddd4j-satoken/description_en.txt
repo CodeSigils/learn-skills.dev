@@ -1,3 +1,5 @@
-DDD4J Sa-Token 鉴权扩展技能。覆盖 StpKit 扩展载荷模式(登录时写user/org/role、获取时用StpUtil.getExtra)、SaTempKit一次性令牌、与ApiRestResponse异常处理集成、跨服务Same-Token配置、@SaCheckPermission在DDD4J Controller中的使用方式。
-当用户在 DDD4J 项目中使用 Sa-Token 做鉴权、需要登录扩展载荷(uuid/username/orgId)、生成一次性临时令牌时需要此技能。
-配合 ddd4j-core 和 sa-token 技能使用。
+DDD4J Sa-Token authentication extension skill. It covers the StpKit extended payload mode (writing user/org/role at login and retrieving them with StpUtil.getExtra), SaTempKit one‑time tokens, integration with ApiRestResponse exception handling, cross‑service Same‑Token configuration, and the usage of @SaCheckPermission in DDD4J controllers.
+
+When users employ Sa-Token for authentication in a DDD4J project and need to add extended login payload (uuid/username/orgId) or generate one‑time temporary tokens, this skill is required.
+
+It is used together with ddd4j‑core and the Sa-Token skill.

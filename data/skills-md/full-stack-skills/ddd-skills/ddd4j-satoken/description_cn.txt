@@ -1,0 +1,5 @@
+DDD4J Sa-Token 认证扩展技能。它涵盖了 StpKit 扩展负载模式（在登录时写入用户/组织/角色并使用 StpUtil.getExtra 检索它们）、SaTempKit 一次性令牌、与 ApiRestResponse 异常处理的集成、跨服务 Same-Token 配置以及 DDD4J 控制器中 @SaCheckPermission 的使用。
+
+当用户在 DDD4J 项目中使用 Sa-Token 进行身份验证并需要添加扩展登录负载（uuid/username/orgId）或生成一次性临时令牌时，需要此技能。
+
+它与 ddd4j-core 和 Sa-Token 技能一起使用。

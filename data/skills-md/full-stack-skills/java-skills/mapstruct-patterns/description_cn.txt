@@ -1,0 +1,1 @@
+MapStruct 最佳实践模式。源自官方参考指南，涵盖了定义Mapper的三种方法（接口、抽象类、默认方法）、Spring注入策略（推荐构造函数/解决循环依赖的setter）、嵌套映射模式（显式子方法>点符号一次性配置）、@Qualifier相对于@Named的安全选择、Lombok集成规则以及@MappingComposition的谨慎使用。它还纠正了最常见的 LLM 错误：使用反射 BeanUtils 而不是编译时 MapStruct、在单个方法中编写所有嵌套映射、以及不知道 setter 注入可以解决循环依赖关系。

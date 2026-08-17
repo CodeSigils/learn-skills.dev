@@ -1,0 +1,2 @@
+Apache Kafka 消息队列技能。涵盖生产者 acks=all/1/0 选择决策、幂等性 (enable.idempotence+acks=all) 配置、消费者手动偏移提交 (enable.auto.commit=false)、DLT 死信处理 (@RetryableTopic/@DltHandler)、@KafkaListener+异常处理程序 (DefaultErrorHandler)、有序消息（同一分区的相同键）、事务性消息。  
+对LLM的更正：acks=0可能会丢失消息，auto.commit可能会丢失消息，不处理重复消费，不配置DLT。
