@@ -1,0 +1,3 @@
+Abilità di estensione di autenticazione DDD4J Sa-Token. Sostituisce la modalità di payload esteso StpKit (scrive utente/organizzazione/ruolo all'accesso, recupera utilizzando StpUtil.getExtra), il token monouso SaTempKit, si integra con la gestione delle eccezioni ApiRestResponse, la configurazione cross-service Same-Token e l'utilizzo di @SaCheckPermission nei controller DDD4J.  
+Quando gli utenti utilizzano Sa-Token per l'autenticazione in un progetto DDD4J e necessitano di estendere il payload di accesso (uuid/nomeutente/orgId) o generare un token temporaneo monouso, questa competenza è richiesta.  
+Utilizzato insieme alle abilità ddd4j-core e sa-token.

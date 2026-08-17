@@ -1,0 +1,9 @@
+Crea storyboard per brevi drammi AI: una struttura a tre livelli: Segmento (una generazione di video, ≤15 secondi) → Inquadratura (tagli di 2-5 secondi all'interno di un segmento, che seguono il ritmo della sceneggiatura) → Immagine inquadrata (un fotogramma chiave per ogni taglio: perno dello storyboard principale a 0,00 secondi, perni dello storyboard secondario ai rispettivi punti di taglio).
+
+Ogni segmento viene fornito con un prompt video MiniMax H3 (impostazione predefinita ufficiale in inglese, interruzione di riga per inquadratura; promptLang può essere cambiato in cinese): i comandi di allineamento e i timestamp di taglio [Shotk] sono derivati ​​dalla struttura dello storyboard, abbinati parola per parola; il dialogo è inserito parola per parola in blocchi <d> (le convenzioni di scrittura sono interiorizzate in references/h3-prompt.md e non si basano su competenze esterne).
+
+Output: storyboard.json + Markdown + un rapporto di revisione a pagina singola (traccia ritmica dello storyboard/tabella dello storyboard per episodio/elenco batch di generazione/foglio di allineamento del doppiaggio, incluso JSON esportato). Le immagini riprese vengono generate utilizzando le immagini della scena e del design dei personaggi come riferimento tramite il codice $ imagegen (opzionale).
+
+Tutte le 16 porte di qualità vengono controllate in modo deterministico dallo script; "Esporta" con un clic esporta un pacchetto di produzione H3 (il prompt di ciascun segmento + un elenco di immagini scattate ordinate per Immagine). Zero dipendenze, zero chiavi API, utilizzando la quota di sessione corrente.
+
+Utilizzare quando viene richiesto di creare storyboard, generare storyboard, elenchi di riprese, riprese tagliate, storyboard per brevi drammi AI.

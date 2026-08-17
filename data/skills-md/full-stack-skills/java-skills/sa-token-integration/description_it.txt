@@ -1,0 +1,5 @@
+Funzionalità di estensione dell'integrazione Sa-Token. Copre l'integrazione JWT (tabella comparativa di tre modalità: Semplice, Mixin, Stateless), persistenza Redis (serializzazione JDK/serializzazione JSON), Redis indipendente Alone-Redis (separazione della cache di autenticazione dalla cache aziendale), autorizzazione all'annotazione AOP (utilizzando annotazioni nel livello di servizio), annotazione dell'espressione SpEL (@SaCheckEL), Quick-Login (pagina di accesso con codice zero), estensioni di serializzazione JSON (Jackson / Fastjson / Fastjson2 / Snack3), integrazione del motore di modelli (dialetti dei tag Thymeleaf / Freemarker), integrazione RPC (propagazione del contesto Dubbo / Dubbo3 / gRPC).
+
+Da utilizzare quando gli utenti devono integrare JWT per l'autenticazione stateless, configurare sessioni distribuite Redis, isolare le cache, applicare l'autorizzazione per le annotazioni a livello di servizio e creare rapidamente una pagina di accesso.
+
+Per l'autenticazione di accesso di base, utilizzare prima la funzionalità sa-token.

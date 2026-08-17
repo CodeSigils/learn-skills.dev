@@ -1,0 +1,5 @@
+Funzionalità di difesa della sicurezza dell'API Sa-Token. Copre la firma dei parametri API (sa-token-sign) per la protezione da manomissioni e riproduzione (timestamp+nonce+sign, un'evoluzione in quattro fasi), la chiave API (sa-token-apikey) per l'autorizzazione parziale e il controllo dell'ambito (revocabile/limitato all'autorizzazione) e i token temporanei (pacchetto principale incorporato SaTempUtil) per inviti ai collegamenti di breve durata.  
+
+La firma API supporta la modalità multiapplicazione (più chiavi segrete) e vari algoritmi hash (MD5, SHA‑256, SHA‑512). La chiave API supporta un sistema multiaccount e una modalità di persistenza del database. I token temporanei supportano il taglio dei prefissi, la ricerca inversa e l'integrazione JWT.  
+
+Per l'autenticazione di accesso di base, utilizzare prima la funzionalità sa-token.

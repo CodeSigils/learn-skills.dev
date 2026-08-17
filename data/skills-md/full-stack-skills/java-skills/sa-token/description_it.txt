@@ -1,0 +1,7 @@
+Sa-Token è un set di competenze fondamentali del framework di autenticazione delle autorizzazioni Java leggero. Copre l'autenticazione dell'accesso, l'autenticazione di permessi/ruoli, l'autorizzazione basata su annotazioni, l'autorizzazione all'intercettazione del percorso, la gestione delle sessioni, l'espulsione degli utenti offline, le strategie di scadenza dei token, la configurazione del framework, gli stili dei token e i prefissi di invio, la separazione fronte-retro, la modalità "ricordami", l'accesso mutuamente esclusivo sullo stesso dispositivo e la gestione dei valori dello scenario NotLoginException.  
+
+StpUtil è la classe di utilità di facciata principale, che fornisce la suite completa di API di autenticazione come login, checkLogin, logout, isLogin, getLoginId, getTokenValue, ecc.  
+
+Usalo quando un progetto Web Java deve integrare l'autenticazione delle autorizzazioni, eseguire controlli di accesso/autorizzazione con StpUtil o configurare intercettori di percorso o autorizzazioni basate su annotazioni.  
+
+Non copre funzionalità avanzate come autenticazione secondaria, ban, account multipli, SSO, OAuth2, microservizi, sicurezza API, JWT, Redis, ecc.; si prega di utilizzare le competenze specializzate corrispondenti per questi.

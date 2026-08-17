@@ -1,0 +1,7 @@
+Sa-Token Competenza specializzata Single Sign-On SSO. Copre tre soluzioni complete in modalità SSO: Modalità 1 (stesso dominio+Redis/cookie condiviso), Modalità 2 (tra domini+stesso Redis/reindirizzamento URL), Modalità 3 (tra domini+ticket Redis/HTTP incrociati).
+
+Configurazione del centro di autenticazione SSO‑Server, integrazione SSO‑Client, single sign‑out, pagina di accesso personalizzata, separazione fronte‑retro SSO (soluzione H5), push dei messaggi, client anonimo, verifica del dominio, integrazione NoSdk non‑Java, routing API personalizzato, reindirizzamento del centro piattaforma.
+
+Da utilizzare quando gli utenti necessitano di accesso/disconnessione unificati su più sistemi, per creare un centro di autenticazione Single Sign-On o per integrare SSO tra domini.
+
+Per l'autenticazione di accesso di base, utilizza prima la competenza sa‑token.

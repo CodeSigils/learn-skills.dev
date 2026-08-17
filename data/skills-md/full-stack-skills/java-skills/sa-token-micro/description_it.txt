@@ -1,0 +1,5 @@
+Funzionalità di autenticazione del microservizio Sa-Token. Copre il meccanismo di isolamento della rete esterna del servizio interno Same-Token, l'autenticazione unificata per Spring Cloud Gateway (reattiva con Reactor), l'autenticazione per le chiamate RPC interne tramite Feign/Dubbo/gRPC, soluzioni di sessioni distribuite (hub di sessione Redis/JWT stateless), integrazione con framework Reactor/WebFlux e adattamento delle dipendenze per Spring Boot 3/4.
+
+Usalo quando hai bisogno dell'autenticazione tra servizi in un'architettura di microservizi, dell'inoltro e della verifica dei token del gateway, dell'isolamento della rete esterna del servizio interno o della condivisione di sessioni distribuite.
+
+Per l'autenticazione di accesso di base, utilizzare innanzitutto la funzionalità sa‑token.
