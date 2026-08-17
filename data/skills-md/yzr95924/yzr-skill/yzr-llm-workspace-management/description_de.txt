@@ -1,0 +1,13 @@
+Wenn der Benutzer mehrere lokale Wikis verwalten muss, die von **yzr-llm-wiki-management** verwaltet werden, verwenden Sie diese Fähigkeit: Scannen Sie alle Wikis auf Arbeitsbereichsebene, generieren und verwalten Sie globale „INDEX.md“, „STATS.md“ und „LINT.md“, führen Sie wikiübergreifende umfassende Fragen und Antworten durch (Routing/Synthese/Vergleich/lokal), pflegen Sie wikiübergreifende Querverweise, führen Sie Lint auf Arbeitsbereichsebene aus und konsolidieren Sie Den privaten Speicher des Cross-Wiki-Agenten in „MEMORY/“ verschieben. Dadurch wird die Einschränkung kompensiert, dass die Arbeitsbereichs-CLI nur Metadaten verarbeiten und keine Inhalte wahrnehmen kann – die CLI ist für deterministische Metadatenoperationen verantwortlich, während diese Fähigkeit Wiki-übergreifende Entscheidungen verarbeitet, die eine LLM-Beurteilung erfordern.  
+
+**Auslöser**:  
+- „Alle Inhalte über X in meinen Wikis zusammenfassen“  
+- „Vergleichen Sie die Ansichten von WikiA und WikiB zu Y“  
+- „Welches Wiki sollte ich für diese Frage überprüfen?“  
+- „Meinen Arbeitsbereich scannen“  
+- „Flusen im gesamten Arbeitsbereich“  
+- „Hinweis: Benutzer bevorzugen die Trennung von Wikis nach Zeitleiste“  
+- „X in WikiA existiert auch in WikiB, fügen Sie einen Link hinzu“  
+- „Arbeitsbereich aktualisieren/auf die neueste Spezifikation migrieren/Arbeitsbereichsversion prüfen“  
+
+**Nicht anwendbar**: Single-Wiki ingest/query/lint (verwaltet von **yzr-llm-wiki-management**); Workspace/Wiki-Metadaten CRUD (verwaltet von der Workspace-CLI); Cloud-kollaboratives Wiki (verwaltet von **yzr-outline-wiki**).

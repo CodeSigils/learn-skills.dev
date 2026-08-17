@@ -1,0 +1,9 @@
+Erstellen Sie Storyboards für KI-Kurzdramen: eine dreistufige Struktur – Segment (eine Videogeneration, ≤ 15 Sekunden) → Aufnahmeliste (2–5-Sekunden-Schnitte innerhalb des Segments, Zuordnung zu Drehbuch-Beats) → Aufnahmebilder (ein Schlüsselbild für jeden Schnitt: Haupt-Storyboard-Pin bei 0,00 Sekunden, Sub-Storyboard-Pins an ihren jeweiligen Schnittpunkten).
+
+Jedes Segment enthält einen MiniMaxH3-Video-Prompt (offizielle Standardeinstellung ist Englisch, Zeilenumbruch pro Aufnahme; promptLang kann auf Chinesisch umgestellt werden): Ausrichtungsbefehle und die [Shotk]-Schnittzeitstempel werden aus der Storyboard-Struktur abgeleitet, Wort für Wort überprüft und der Dialog wird Wort für Wort in <d>-Blöcken platziert (die Formatierungsregeln sind in references/h3-prompt.md integriert und basieren nicht auf externen Fähigkeiten).
+
+Ausgaben: storyboard.json + Markdown + ein einseitiger Überprüfungsbericht (Storyboard-Rhythmusspur / Episoden-Storyboard-Tabelle / Generierungsstapelblatt / Synchronisationsausrichtungsblatt, mit exportiertem JSON). Aufgenommene Bilder können mithilfe von Szenen- und Charakterdesign-Referenzen über den Codex $imagegen generiert werden (optional).
+
+Alle 16 Quality Gates werden vom Skript deterministisch überprüft; Ein „Export“ mit einem Klick erzeugt ein H3-Produktionspaket (die Eingabeaufforderung jedes Segments + eine geordnete Liste der aufgenommenen Bilder nach Bild). Keine Abhängigkeiten, kein API-Schlüssel, Verwendung des aktuellen Sitzungskontingents.
+
+Verwenden Sie dies, wenn Sie aufgefordert werden, ein Storyboard zu erstellen, Aufnahmelisten zu erstellen, Aufnahmen zu schneiden oder ein Storyboard für ein KI-Kurzdrama zu erstellen.

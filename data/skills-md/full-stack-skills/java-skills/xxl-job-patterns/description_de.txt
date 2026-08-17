@@ -1,0 +1,3 @@
+XXL-JOB Best-Practice-Modus. Angepasste Verpackung basierend auf hiwepy/xxljob-spring-boot-starter, die die @XxlJobCron-Annotation zum Ersetzen des nativen @XxlJob (Code-als-Konfiguration/Cron im Code geschrieben/automatisch beim Start beim Administrator registriert), XxlJobTemplate programmatische Aufgabenverwaltung (CRUD/Start-Stopp/Trigger/Sitzungsautomatik-Erneuerung), automatische Executor-Konfiguration (Unirest SSL/Port-Fallback/Nacos-Anpassung) und Micrometer abdeckt Metrikintegration und v2/v3-Dual-Version-Kompatibilität.  
+
+Korrekter LLM-Missbrauch: Verwendung von @Scheduled anstelle von verteilter Planung, Unkenntnis der programmgesteuerten Verwaltung von XxlJobTemplate und Unkenntnis des selbststartenden automatischen Registrierungsmodus von @XxlJobCron.

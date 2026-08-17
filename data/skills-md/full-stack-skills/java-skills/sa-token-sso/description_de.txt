@@ -1,0 +1,4 @@
+Spezialfähigkeit für Sa-Token SSO Single Sign-On. Deckt drei vollständige SSO-Moduslösungen ab: Modus 1 (gleiche Domäne + gemeinsam genutztes Redis/Cookie), Modus 2 (domänenübergreifend + gleiche Redis/URL-Umleitung), Modus 3 (domänenübergreifend + Redis/HTTP-übergreifendes Ticket).  
+Aufbau des SSO-Server-Authentifizierungszentrums, SSO-Client-Integration, einmaliges Abmelden, benutzerdefinierte Anmeldeseite, Front-Back-End-getrenntes SSO (H5-Lösung), Nachrichten-Push, anonymer Client, Domänenüberprüfung, NoSdk-Nicht-Java-Integration, benutzerdefiniertes API-Routing, Plattform-Center-Umleitung.  
+Verwenden Sie es, wenn Benutzer eine einheitliche Anmeldung/Abmeldung über mehrere Systeme hinweg, den Aufbau eines Single-Sign-On-Authentifizierungscenters oder eine domänenübergreifende SSO-Integration benötigen.  
+Für die grundlegende Login-Authentifizierung verwenden Sie bitte zunächst den Sa-Token-Skill.

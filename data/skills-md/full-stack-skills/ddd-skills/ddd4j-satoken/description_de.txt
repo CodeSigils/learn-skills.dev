@@ -1,0 +1,3 @@
+DDD4J Sa-Token-Authentifizierungserweiterungs-Skill. Es behandelt den erweiterten Payload-Modus von StpKit (Benutzer/Organisation/Rolle beim Anmelden schreiben und mit StpUtil.getExtra abrufen), einmalige SaTempKit-Tokens, die Integration mit ApiRestResponse-Ausnahmebehandlung, die dienstübergreifende Same-Token-Konfiguration und die Verwendung von @SaCheckPermission in DDD4J-Controllern.  
+Wenn Benutzer Sa-Token zur Authentifizierung in einem DDD4J-Projekt verwenden und die Anmeldenutzlast (uuid/Benutzername/orgId) erweitern oder einmalige temporäre Token generieren müssen, ist diese Fähigkeit erforderlich.  
+Es wird in Verbindung mit ddd4j-core und dem sa-token-Skill verwendet.
