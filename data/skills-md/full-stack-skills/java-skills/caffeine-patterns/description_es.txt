@@ -1,0 +1,3 @@
+Habilidades de almacenamiento en caché local de JVM con cafeína. Árbol de decisión para elegir entre caché local y caché remoto (Redis), comparación de las tres estrategias de vencimientoexpireAfterWrite, expireAfterAccess y refrescoAfterWrite y sus reglas de combinación (refresh<expire), carga de CacheLoader y modo de recarga asincrónica, integración Spring Cache@Cacheable, estrategia de desalojo de tamaño máximo, estadísticas de caché recordStats.  
+
+Corrección para LLM: usar ConcurrentHashMap+caducidad manual, enrutar todos los cachés a través de Redis, actualizarAfterWrite>expireAfterWrite provoca que nunca se actualice, CacheLoader devuelve nulos conduce a la penetración de caché.

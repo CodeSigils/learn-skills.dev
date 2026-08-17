@@ -1,0 +1,5 @@
+Capacidades de defensa de seguridad de Sa-Token API. Cubre la firma de parámetros de API (sa-token-sign) para antimanipulación y antirreproducción (evolución de cuatro pasos: marca de tiempo+nonce+signo), autorización parcial de clave API (sa-token-apikey) y control de alcance (revocable/limitado) e invitaciones de enlace de corta duración de token temporal (paquete principal integrado en SaTempUtil).  
+
+La firma de API admite el modo de múltiples aplicaciones (múltiples claves secretas) y varios algoritmos de resumen (md5/sha256/sha512). La clave API admite sistemas de múltiples cuentas y modo de persistencia de bases de datos. El token temporal admite el recorte de prefijos, la búsqueda inversa y la integración JWT.  
+
+Para la autenticación de inicio de sesión básica, primero utilice la capacidad sa-token.

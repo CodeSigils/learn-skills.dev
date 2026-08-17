@@ -1,0 +1,9 @@
+Cree guiones gráficos para dramas cortos de IA: una estructura de tres niveles: segmento (una sola generación de video, ≤15 segundos) → Toma (un corte de 2 a 5 segundos dentro del segmento, reclamando el ritmo del guión) → Imagen tomada (un fotograma clave por corte: pin del guión gráfico principal a 0,00 segundos, pines del guión gráfico secundario en sus respectivos puntos de corte).
+
+Cada segmento incluye su propio mensaje de video MiniMax H3 (oficialmente predeterminado en inglés, saltos de línea por toma; el idioma del mensaje se puede cambiar a chino): los comandos de alineación y las marcas de tiempo de corte [Shotk] se derivan de la estructura del guión gráfico y se verifican palabra por palabra; El diálogo se inserta palabra por palabra en bloques <d> (las convenciones de escritura se internalizan en referencias/h3-prompt.md y no dependen de habilidades externas).
+
+Salidas: storyboard.json+Markdown+ un informe de revisión de una sola página (pista de ritmo del guión gráfico/tabla del guión gráfico de episodios/lista de lotes de generación/hoja de alineación de voz en off, incluido el JSON exportado). Las imágenes tomadas se pueden generar utilizando imágenes de diseño de personajes y escenas como referencia a través de codex$imagegen (opcional).
+
+El script verifica de manera determinista las 16 puertas de calidad; “exportar” proporciona exportación con un solo clic del paquete de producción H3 (el mensaje de cada segmento + una lista de imágenes tomadas ordenadas por Imagen). Cero dependencias, cero clave API, utilizando la cuota de sesión actual.
+
+Úselo cuando se le solicite crear un guión gráfico, generar guiones gráficos, lista de tomas, cortar tomas, guión gráfico para dramas cortos de IA.

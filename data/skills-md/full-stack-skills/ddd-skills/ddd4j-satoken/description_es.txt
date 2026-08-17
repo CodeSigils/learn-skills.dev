@@ -1,0 +1,5 @@
+Habilidad de extensión de autenticación DDD4J Sa-Token. Cubre el modo de carga útil extendida de StpKit (escribir usuario/organización/rol al iniciar sesión y recuperarlos con StpUtil.getExtra), tokens únicos de SaTempKit, integración con el manejo de excepciones de ApiRestResponse, configuración de mismo token entre servicios y el uso de @SaCheckPermission en controladores DDD4J.
+
+Cuando los usuarios emplean Sa-Token para la autenticación en un proyecto DDD4J y necesitan agregar una carga útil de inicio de sesión extendida (uuid/nombre de usuario/orgId) o generar tokens temporales únicos, se requiere esta habilidad.
+
+Se utiliza junto con ddd4j‑core y la habilidad Sa-Token.

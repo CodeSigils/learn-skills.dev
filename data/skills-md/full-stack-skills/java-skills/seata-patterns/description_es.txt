@@ -1,0 +1,3 @@
+Capacidades de transacciones distribuidas de Seata. Cubre el árbol de decisión para seleccionar entre los cuatro modos AT, TCC, SAGA y XA; el modo AT requiere una tabla undo_log; el modo TCC usa useTCCFence para resolver idempotencia, bloqueo y reversiones vacías; el modo SAGA maneja procesos de máquina de estado de larga duración; configuración del tiempo de espera de transacción global (@GlobalTransactional timeoutMills); Mejoras en aislamiento de lectura (@GlobalLock + PARA ACTUALIZAR).  
+
+Corrección para LLM: no sabe cuál de AT/TCC/SAGA elegir, no crea la tabla undo_log, TCC Confirm no es idempotente y no maneja el perro guardián.

@@ -1,0 +1,7 @@
+Capacidades principales del marco de autenticación de permisos Java ligero de Sa-Token. Cubre la autenticación de inicio de sesión, la autenticación de permisos/roles, la autorización basada en anotaciones, la autorización de interceptación de rutas, el manejo de sesiones, la expulsión de usuarios fuera de línea, las estrategias de caducidad de tokens, la configuración del marco, el estilo de tokens y el prefijo de envío, la separación frontal y posterior, el modo "recordarme", el inicio de sesión mutuamente excluyente en el mismo terminal y el manejo de escenarios NotLoginException.
+
+StpUtil es la clase de utilidad de fachada principal y proporciona el conjunto completo de API de autenticación, como inicio de sesión, checkLogin, cierre de sesión, isLogin, getLoginId, getTokenValue, etc.
+
+Úselo cuando un proyecto web Java necesite integrar la autenticación de permisos, realizar comprobaciones de inicio de sesión/permisos con StpUtil y configurar interceptores de ruta o autorización basada en anotaciones.
+
+No implica funciones avanzadas como autenticación secundaria, prohibición, cuentas múltiples, SSO, OAuth2, microservicios, seguridad API, JWT, Redis, etc.; utilice las habilidades especializadas correspondientes.

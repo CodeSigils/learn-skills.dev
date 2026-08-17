@@ -1,0 +1,13 @@
+Cuando los usuarios necesitan administrar múltiples wikis locales mantenidos por **yzr-llm-wiki-management**, deben usar esta habilidad: escanea todos los wikis en el nivel del espacio de trabajo, genera y mantiene archivos globales `INDEX.md`, `STATS.md` y `LINT.md`, realiza preguntas y respuestas integrales entre wikis (enrutamiento, síntesis, comparación, respuesta local), mantiene referencias entre wikis, realiza preguntas y respuestas a nivel de espacio de trabajo linting y consolida la memoria privada del agente cross-wiki en el directorio `MEMORY/`. Esto compensa la limitación de la CLI del espacio de trabajo, que solo puede manejar metadatos y no puede percibir contenido; la CLI se encarga de las operaciones deterministas de metadatos, mientras que esta habilidad maneja las decisiones entre wikis que requieren el criterio de LLM.
+
+**Los desencadenantes** incluyen:  
+- “Resumir todo sobre **X** en todos mis wikis”  
+- “Compara las opiniones de wikiA y wikiB sobre **Y**”  
+- “¿Qué wiki debo consultar para esta pregunta?”  
+- "Escanear mi espacio de trabajo"  
+- "Ejecutar un espacio de trabajo completo"  
+- “Nota: el usuario prefiere dividir los wikis por línea de tiempo”  
+- “La **X** en wikiA también existe en wikiB: agrega un enlace”  
+- "Actualizar el espacio de trabajo/migrar a la última especificación/verificar la versión del espacio de trabajo"
+
+**No aplicable**: ingesta/consulta/lint de un solo wiki (gestionado por **yzr-llm-wiki-management**); CRUD de metadatos del espacio de trabajo/wiki (manejado por la CLI del espacio de trabajo); Wikis colaborativos en la nube (manejados por **yzr-outline-wiki**).
