@@ -1,0 +1,1 @@
+사용자가 레거시 Spree Platform/Storefront API v2(`/api/v2/` 아래의 JSON:API 스타일)로 작업하거나 마이그레이션할 때 사용합니다. "API v2", "JSON:API", "플랫폼 API", "Storefront API", "v2에서 v3으로 마이그레이션", "JSON:API 속성/관계", "X-Spree-Order-Token", "Bearer 토큰 API v2"에서 트리거됩니다. 기본 입장은 **v2에 새로운 것을 구축하지 마세요**입니다. 즉, 사용자에게 v3에 해당하는 기능(spree-api-v3 기술)을 알려줍니다. 이 기술은 (a) 기존 v2 통합을 유지 관리하거나 (b) v3으로 마이그레이션하는 경우에만 사용하세요.

@@ -1,0 +1,1 @@
+Sa-Token 마이크로서비스 인증 기능. 이는 Same-Token 내부 서비스 외부 네트워크 격리 메커니즘, Spring Cloud 게이트웨이 통합 인증(Reactor 반응형), Feign/Dubbo/gRPC 내부 RPC 호출 인증, 분산 세션 솔루션(Redis 세션 센터/JWT 상태 비저장), Reactor/WebFlux 프레임워크 통합 및 Spring Boot 3/4 종속성 적응을 다룹니다. 마이크로서비스 아키텍처에서 서비스 간 인증, 게이트웨이 토큰 전달 및 확인, 내부 서비스 외부 네트워크 격리, 분산 세션 공유가 필요할 때 사용하세요. 기본 로그인 인증의 경우 먼저 sa-token 기능을 사용하십시오.

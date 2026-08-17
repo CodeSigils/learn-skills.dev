@@ -1,0 +1,1 @@
+Lombok 주석 사용 지침. @Data/@Builder/@Slf4j에 대한 조합 규칙, @EqualsAndHashCode(callSuper=true)의 상속 함정, Jackson/@Builder/@Jacksonized와의 통합, MyBatis no-arg 생성자와의 충돌 해결, @Value 불변 객체, @With 객체 복사 및 Builder의 @SuperBuilder 상속을 다룹니다. LLM의 가장 일반적인 Lombok 오용(callSuper 생략, @Jacksonized 추가 안 함, Builder 및 상속 충돌, @Builder.Default를 통한 기본값 손실)을 수정합니다.

@@ -1,0 +1,1 @@
+DDD4J Sa-Token 인증 확장 스킬입니다. StpKit 확장 페이로드 모드(로그인 중 사용자/조직/역할 작성 및 StpUtil.getExtra를 사용하여 검색), SaTempKit 일회성 토큰, ApiRestResponse 예외 처리와의 통합, 서비스 간 Same-Token 구성 및 DDD4J 컨트롤러의 @SaCheckPermission 사용을 다룹니다. 사용자가 DDD4J 프로젝트에서 인증을 위해 Sa-Token을 사용하고 로그인 페이로드(uuid/username/orgId)를 확장하거나 일회성 임시 토큰을 생성해야 하는 경우 이 기술이 필요합니다. ddd4j‑core 및 sa‑token 기술과 함께 사용됩니다.

@@ -1,0 +1,3 @@
+Google Guava 모범 사례 패턴. 불변 컬렉션(/copyOf/builder)의 세 가지 패턴과 방어 복사 규칙, 캐시 선택 결정(LoadingCache 대 Cache 대 Caffeine), Joiner/Splitter를 사용한 불변 파이프라인, 정규식 대안인 CharMatcher, 형식화된 메시지 유효성 검사를 위한 전제 조건, 명명 변환을 위한 CaseFormat을 다루는 공식 위키에서 추출되었습니다.
+
+LLM 오용 수정: Cache 대신 ConcurrentHashMap을 사용하고 CharMatcher에 익숙하지 않은 손으로 작성한 불변 컬렉션.

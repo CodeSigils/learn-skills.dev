@@ -1,0 +1,2 @@
+Seata 분산 거래 전문 지식. AT/TCC/SAGA/XA 네 가지 모드 중에서 선택하기 위한 의사결정 트리, AT 모드의 필수 undo_log 테이블, 멱등성/행잉/빈 롤백을 해결하기 위한 TCC 모드의 TCCFence 사용, SAGA 상태 시스템의 긴 프로세스, 전역 트랜잭션 시간 제한 구성(@GlobalTransactional timeoutMills) 및 읽기 격리 향상(@GlobalLock + FOR UPDATE)을 다룹니다.  
+LLM에 대한 수정: AT/TCC/SAGA 중에서 무엇을 선택할지 모르고, undo_log 테이블을 생성하지 않으며, TCC 확인은 멱등성이 아니며, 감시 처리가 누락되었습니다.

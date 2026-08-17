@@ -1,0 +1,1 @@
+Jackson JSON 직렬화 기술. 날짜 형식 구성(비ISO-8601), null 직렬화 규칙(배열 → [], 문자열 → "", 숫자 → null), @JsonView 계층화, ObjectMapper 싱글톤 규칙, TypeReference 일반 역직렬화, @JsonProperty/@JsonFormat/@JsonIgnore 주석 원칙 및 Spring Boot와의 통합을 재정의합니다. 사용자가 JSON 직렬화/역직렬화를 처리하거나, ObjectMapper를 구성하거나, 날짜 형식 또는 null 처리 문제를 해결할 때 사용됩니다.

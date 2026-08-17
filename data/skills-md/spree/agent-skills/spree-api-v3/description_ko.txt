@@ -1,0 +1,1 @@
+사용자가 Spree의 v3 REST API와 통합할 때 사용합니다(고객으로 요청하기, 관리 앱 구축, 웹훅 소비자 작성, 인증 오류 디버깅, API 응답 구문 분석). Store API(고객 대면)와 Admin API(백오피스)를 구별합니다. 일반적인 표현에는 "Spree API", "Store API", "Admin API", "게시 가능 키", "비밀 키", "X-Spree-Api-Key", "API 범위", "API의 접두사가 붙은 ID", "확장", "API 페이지 매김", "Spree 401", "Spree 403", "{데이터, 메타} 봉투", "v3 엔드포인트"가 포함됩니다. API에 새 리소스를 추가하려면 대신 spree-resource 기술을 사용하세요.

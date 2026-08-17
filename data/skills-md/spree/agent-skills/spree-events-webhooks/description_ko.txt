@@ -1,0 +1,1 @@
+사용자가 Spree가 발생한 일에 반응하기를 원할 때 사용합니다. ERP에 명령 동기화, 알림 보내기, 웹훅 실행, 외부 서비스와 통합, 웹훅 엔드포인트 구성, 웹훅 서명 확인 등이 있습니다. 일반적인 표현에는 "X에 반응", "X가 발생할 때", "알림 보내기", "외부 서비스에 동기화", "연속 이벤트", "구독자", "publish_event", "webhook 끝점", "webhook 서명", "X-Spree-Webhook-Signature", "HMAC", "webhook 재시도", "webhook 실패", "webhook.test"가 포함됩니다. 진행 중인 구독자(Ruby 부작용) 및 아웃바운드 웹후크(외부 URL에 대한 HTTPS POST)를 다룹니다.
