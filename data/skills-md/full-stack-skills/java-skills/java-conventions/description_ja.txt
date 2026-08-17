@@ -1,0 +1,1 @@
+Java プロジェクトのコーディング標準とコメント規約を統一します (SLF4J+Lombok ロギング、Bean Lombok アノテーションの選択、Objects/Optional による null チェック、ツール クラスの優先順位: Spring→Apache Commons→Hutool→Guava、複雑なロジックに設計パターンを使用/単純なロジックを分割しない、Controller/Service/ServiceImpl/Mapper 全体で一貫したコメント)。 Java標準に従って「リファクタリング/レビュー/コメントの完成/ロギングの統合/ツールクラスの使用の統合/JavaDocの完成」が必要な場合にこれを使用します。

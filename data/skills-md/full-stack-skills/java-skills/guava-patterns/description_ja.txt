@@ -1,0 +1,1 @@
+Google Guava のベストプラクティス パターン。公式 Wiki から洗練されており、3 つの不変コレクション モード (of、copyOf、builder) と防御的コピー ルール、キャッシュ選択の決定 (LoadingCache 対 Cache 対 Caffeine)、Joiner/Splitter を使用した不変パイプライン、正規表現の代替としての CharMatcher、Preconditions でフォーマットされたメッセージの検証、および CaseFormat の名前変換がカバーされています。 LLM の誤用を修正します。手書きの不変コレクション、キャッシュの代わりに ConcurrentHashMap を使用し、CharMatcher を認識していません。

@@ -1,0 +1,5 @@
+DDD4J Sa-Token 認証拡張スキル。 StpKit 拡張ペイロード モード (ログイン時にユーザー/組織/ロールを書き込み、StpUtil.getExtra で取得する)、SaTempKit ワンタイム トークン、ApiRestResponse 例外処理との統合、サービス間の Same-Token 構成、DDD4J コントローラーでの @SaCheckPermission の使用法について説明します。
+
+ユーザーが DDD4J プロジェクトの認証に Sa-Token を使用し、拡張ログイン ペイロード (uuid/ユーザー名/orgId) を追加するか、ワンタイムの一時トークンを生成する必要がある場合、このスキルが必要です。
+
+ddd4j‑core および Sa-Token スキルと一緒に使用されます。

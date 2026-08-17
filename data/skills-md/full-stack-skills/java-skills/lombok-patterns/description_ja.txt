@@ -1,0 +1,1 @@
+Lombok アノテーションの使用ルールとスキル。 @Data/@Builder/@Slf4j の組み合わせルール、@EqualsAndHashCode(callSuper=true) の継承の落とし穴、Jackson/@Builder/@Jacksonized との統合、MyBatis 引数なしコンストラクターとの競合の解決、@Value 不変オブジェクト、@With オブジェクトのコピー、Builder の @SuperBuilder 継承について説明します。 LLM による最も一般的な Lombok の誤用 (callSuper の省略、@Jacksonized の追加なし、Builder の継承の競合、および @Builder.Default によるデフォルト値の喪失) を修正します。

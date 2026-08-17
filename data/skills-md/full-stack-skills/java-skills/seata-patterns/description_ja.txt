@@ -1,0 +1,3 @@
+Seata 分散トランザクション機能。 AT、TCC、SAGA、XA の 4 つのモードから選択するためのデシジョン ツリーをカバーします。 AT モードには undo_log テーブルが必要です。 TCC モードは us​​eTCCFence を使用して冪等性、ハング、空のロールバックを解決します。 SAGA モードは、長時間実行されるステートマシン プロセスを処理します。グローバル トランザクション タイムアウト構成 (@GlobalTransactional timeoutMills);読み取り分離の強化 (@GlobalLock + FOR UPDATE)。  
+
+LLM の修正: AT/TCC/SAGA のどれを選択すればよいか分からず、undo_log テーブルを作成せず、TCC 確認は冪等ではなく、ウォッチドッグを処理しません。

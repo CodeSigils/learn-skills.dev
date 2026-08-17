@@ -1,0 +1,2 @@
+Apache Commons の最適な実践モード。公式書面からの提案、Commons Lang3(StringUtils千面判空/isEmpty vs isBlank/Validate抛NullPointerException移行)、Commons のオーバーカバーIO(IOUtils.toString大文件陷阱/FileUtils.lineIterator逐次実行モード/FilenameUtils.normalize径路范化)、Commons Collections4(CollectionUtils.union/intersection/subtract集合运算)。
+正しい LLM の使用: StringUtils.isBlank と isEmpty、IOUtils.toString の対話大文件 OOM、不知道 LineIterator の逐次実行モード、lang3 パケット名ではなく lang を使用。

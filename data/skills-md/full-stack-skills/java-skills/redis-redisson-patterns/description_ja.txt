@@ -1,0 +1,3 @@
+Redis + Redisson キャッシュと分散ロックの専門知識。キャッシュキーの命名規則、有効期限設定の原則、RedisTemplate のシリアル化の選択 (JSON 対 JDK 対 String)、3 つの主要な Redisson 分散ロック モード (ウォッチドッグ / リースタイム付きの tryLock / リースタイムの決定なしの TryLock)、キャッシュ侵入に対する保護 (ブルーム フィルター / null 値キャッシュ)、キャッシュの破壊 (ミューテックス ロック)、キャッシュ アバランシェ (ランダム TTL)、および Caffeine 間の決定について説明します。そしてリディス。  
+
+LLM の修正: 有効期限を省略しないでください。 StringRedisTemplate と RedisTemplate を混合しないでください。常に try-finally ブロックで Redisson ロックを解除します。ウォッチドッグは、leaseTime が明示的に設定されている場合には機能しません。

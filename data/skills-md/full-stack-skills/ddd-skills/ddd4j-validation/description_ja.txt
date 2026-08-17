@@ -1,0 +1,1 @@
+DDD4J カスタム検証ルール機能。これは 4 つのカスタム制約 (@AllowedValues/@PhoneNumber/@NumberValue/@StringDateValue)、@StringDateValue に空の文字列をサイレントに渡すルール、バリデーターのデフォルトのメッセージ補間制約を無効にし、検証レイヤーを (スタンドアロンのバリデーターではなく Param/DTO) に配置し、libphonenumber 国際電話番号検証を提供します。この機能は、ユーザーが DDD4J プロジェクトでパラメーターの検証、電話番号/日付形式の検証、または列挙値の検証を作成するときに必要です。これは、ddd4j-core 機能と一緒に使用されます。

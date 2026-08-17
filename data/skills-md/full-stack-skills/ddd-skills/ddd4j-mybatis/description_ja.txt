@@ -1,0 +1,3 @@
+DDD4J MyBatis-Plus 永続層コンベンション スキル。 ActiveRecord モード (エンティティは BaseEntity → Model<T> を拡張する必要があります)、@TableLogic 論理削除、監査フィールドの自動入力 (createBy/createTime/updateBy/updateTime)、@Param("model") XML パラメーター規則、PaginationEntity ページネーション ラッパー (ページごとに 15 項目、Oracle スタイルのオフセット)、タイプ ハンドラー システム (BooleanEnum/JSON ダブル ラッパー/ListSetArray) をカバーします。分割)、および組み込みの BaseMapper メソッド (getPaggedList、setStatus、getCountBy* など)。  
+このスキルは、ユーザーが DDD4J プロジェクトでエンティティ/リポジトリを定義し、Mapper XML を作成し、ページ分割されたクエリを使用し、タイプ ハンドラーを構成するときに必要です。  
+ddd4j‑core スキルと一緒に使用されます。

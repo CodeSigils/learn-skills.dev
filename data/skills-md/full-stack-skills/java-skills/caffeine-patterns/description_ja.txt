@@ -1,0 +1,3 @@
+Caffeine JVM ローカル キャッシュ スキル。ローカル キャッシュとリモート キャッシュ (Redis) のどちらかを選択するためのデシジョン ツリー、expireAfterWrite、expireAfterAccess、refreshAfterWrite の 3 つの有効期限戦略の比較とその組み合わせルール (refresh<expire)、CacheLoader のロードと非同期リロード モード、Spring Cache@Cacheable の統合、maximumSize エビクション戦略、recordStats キャッシュ統計。  
+
+LLM の修正: ConcurrentHashMap + 手動有効期限を使用し、すべてのキャッシュを Redis 経由でルーティングします。refreshAfterWrite>expireAfterWrite では更新が行われず、CacheLoader が null を返すとキャッシュの侵入が発生します。

@@ -1,0 +1,1 @@
+ジャクソンの JSON シリアル化スキル。日付形式設定 (非 ISO-8601)、null シリアル化ルール (配列 → []、文字列 → ""、数値 → null)、@JsonView 階層化、ObjectMapper シングルトン ルール、TypeReference 汎用逆シリアル化、@JsonProperty/@JsonFormat/@JsonIgnore アノテーションの原則、Spring Boot との統合をオーバーライドします。ユーザーが JSON シリアル化/逆シリアル化を処理する場合、ObjectMapper を構成する場合、または日付形式や null 処理の問題を解決する場合に使用されます。

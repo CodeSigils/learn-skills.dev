@@ -1,0 +1,2 @@
+Apache Kafka メッセージ キュー スキル。プロデューサーの acks=all/1/0 選択の決定、冪等性 (enable.idempotence+acks=all) 構成、コンシューマの手動オフセット コミット (enable.auto.commit=false)、DLT デッドレター処理 (@RetryableTopic/@DltHandler)、@KafkaListener+例外ハンドラー (DefaultErrorHandler)、順序付けされたメッセージ (同じパーティションへの同じキー)、トランザクション メッセージをカバーします。  
+LLM の修正: acks=0 はメッセージを失う可能性があり、auto.commit はメッセージを失う可能性があり、重複した消費を処理せず、DLT を構成しません。
