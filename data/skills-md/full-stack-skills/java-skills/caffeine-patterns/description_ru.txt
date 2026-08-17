@@ -1,0 +1,3 @@
+Кофеин Навыки локального кэширования JVM. Дерево решений для выбора между локальным и удаленным кешем (Redis), сравнение трех стратегий истечения срока действияexpireAfterWrite, expireAfterAccess и обновитьAfterWrite и правил их комбинации (refresh<expire), режим загрузки CacheLoader и асинхронной перезагрузки, интеграция Spring Cache@Cacheable, стратегия вытеснения MaximumSize, статистика кэша RecordStats.  
+
+Исправление для LLM: используйте ConcurrentHashMap+истекание вручную, маршрутизируйте все кеши через Redis, replaceAfterWrite>expireAfterWrite приводит к тому, что обновление никогда не происходит, CacheLoader, возвращающий ноль, приводит к проникновению в кеш.
