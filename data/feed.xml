@@ -4,579 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sun, 16 Aug 2026 01:13:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Aug 2026 01:11:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-16)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-17)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:snapshot</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:snapshot</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8149
-Trending skills: 7906
-Hot skills: 306
-Top All Time: find-skills (2966316)
-Top Trending: ai-video-generation (22067)
-Top Hot: migrate-nativewind-to-uniwind (1)]]></description>
+All Time skills: 8148
+Trending skills: 8084
+Hot skills: 5391
+Top All Time: find-skills (2976175)
+Top Trending: ai-video-generation (21437)
+Top Hot: video-edit (793)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): migrate-nativewind-to-uniwind]]></title>
-            <link>https://skills.sh/uni-stack/uniwind/migrate-nativewind-to-uniwind</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:uni-stack/uniwind/migrate-nativewind-to-uniwind</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#48): paper-context-resolver]]></title>
+            <link>https://skills.sh/lllllllama/rigorpilot-skills/paper-context-resolver</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topAllTime:new:lllllllama/rigorpilot-skills/paper-context-resolver</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #48
+Installs: 409070
+Source: lllllllama/rigorpilot-skills
+Description: Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#49): repo-intake-and-plan]]></title>
+            <link>https://skills.sh/lllllllama/rigorpilot-skills/repo-intake-and-plan</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topAllTime:new:lllllllama/rigorpilot-skills/repo-intake-and-plan</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #49
+Installs: 408380
+Source: lllllllama/rigorpilot-skills
+Description: Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[All Time] New entry (#50): minimal-run-and-audit]]></title>
+            <link>https://skills.sh/lllllllama/rigorpilot-skills/minimal-run-and-audit</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topAllTime:new:lllllllama/rigorpilot-skills/minimal-run-and-audit</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #50
+Installs: 408306
+Source: lllllllama/rigorpilot-skills
+Description: Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): video-edit]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/video-edit</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:genmedia-labs/skills/video-edit</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 1
-Source: uni-stack/uniwind
-Description: Migrate a React Native project from NativeWind to Uniwind. Use when the user wants to replace NativeWind with Uniwind, upgrade from NativeWind, switch to Uniwind, or mentions NativeWind-to-Uniwind migration. Handles package removal, config migration, Tailwind 4 upgrade, cssInterop removal, theme conversion, and all breaking changes.]]></description>
+Installs: 793
+Source: genmedia-labs/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): build-x402-client]]></title>
-            <link>https://skills.sh/coinbase/cdp-sdk/build-x402-client</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:coinbase/cdp-sdk/build-x402-client</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 1
-Source: coinbase/cdp-sdk
-Description: Write code that pays for an HTTP API returning 402 Payment Required, using the x402 protocol and
-a CDP-managed wallet. Covers TypeScript and Python. Use when the user wants to call a paid
-endpoint from their own application or agent, add x402 payments to an HTTP client, hit an API
-that charges per request, migrate an existing x402 client off a raw private key, or is stuck on
-an unexpected 402 response.]]></description>
+Installs: 175
+Source: heygen-com/hyperframes
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): okx-growth-competition]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-growth-competition</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-growth-competition</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): grilling]]></title>
+            <link>https://skills.sh/mattpocock/skills/grilling</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/grilling</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 1
-Source: okx/onchainos-skills
-Description: Agentic Wallet exclusive trading competitions. Full lifecycle: discover → view rules → join → trade → check rank → claim reward. Triggers: 'list trading competitions', 'show available competitions', 'view competition details', 'show competition rules', 'show prize pool', 'register for competition', 'join trading contest', 'check my competition status', 'view leaderboard', 'check my ranking', 'claim competition reward', 'did I win', 'winners list', 'show registered wallet', 'export wallet'. Do NOT use for: general DEX swaps (use okx-dex-swap); portfolio / PnL queries outside a competition (use okx-wallet-portfolio or okx-dex-market); wallet login or tx history (use okx-agentic-wallet); any non-competition trading activity. Do NOT use when the user says only a single word like 'competition', 'rank', or 'claim' without naming a specific competition.]]></description>
+Installs: 259
+Source: mattpocock/skills
+Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): qqmusic]]></title>
-            <link>https://skills.sh/tencentmusic/qqmusic-skills/qqmusic</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:tencentmusic/qqmusic-skills/qqmusic</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): hyperframes-animation]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-animation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:heygen-com/hyperframes/hyperframes-animation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 1
-Source: tencentmusic/qqmusic-skills
-Description: QQ Music — search songs, albums, playlists, music videos, artists; daily recommendations; music charts & rankings; AI-powered playlists; personalized listening reports & music insights. QQ音乐官方智能助手：搜索、每日推荐、排行榜、AI歌单、听歌报告、AI解读。]]></description>
+Installs: 178
+Source: heygen-com/hyperframes
+Description: All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). HyperFrames-native: single paused timeline, seek-safe, deterministic.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): okx-ai]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-ai</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-ai</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): orca-cli]]></title>
+            <link>https://skills.sh/stablyai/orca/orca-cli</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:stablyai/orca/orca-cli</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 1
-Source: okx/onchainos-skills
-Description: ERC-8004 Agent identity: 注册/更新/上架/下架/搜索agent, register/update/activate/deactivate/search — User/ASP/Evaluator(买家/卖家/仲裁者); 我的agent/ASP, 找做X的ASP/agent有什么服务/endpoint怎么填/查口碑/传头像. + Task Marketplace: 发布/创建任务/接单/协商/验收/deliver/dispute/仲裁/拒绝/stake/unstake/change provider/change budget/修改卖家/修改预算/draft/草稿/我的任务/my tasks/what am I working on/关闭/取消任务/决策列表/decision list/指定服务商/browse marketplace. + task watch: 监听任务进展/历史消息/未读消息/未决策/outstanding decisions. + okx-a2a missing/uninitialized. Match by meaning. MUST ACTIVATE on inbound envelopes: (1) {agentId, message:{source:"system", event, jobId,...}} system event; (2) {msgType:"a2a-agent-chat", jobId, sender:{role},...} agent-to-agent task chat (sender.role = COUNTERPARTY, not you); (3) literal "Read the okx-ai skill" (or legacy "Read the okx-agent-task skill") in the envelope.]]></description>
+Installs: 132
+Source: stablyai/orca
+Description: Use the Orca CLI to orchestrate worktrees and live terminals through a running Orca editor. Use when an agent needs to create, inspect, update, or remove Orca worktrees; inspect repo state known to Orca; or read, send to, wait on, or stop Orca-managed terminals. Triggers include "use orca cli", "manage Orca worktrees", "read Orca terminal", "reply to Claude Code in Orca", "create a worktree in Orca", or any task where the agent should operate through Orca instead of talking to git worktrees and terminal processes directly.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): gws-shared]]></title>
-            <link>https://skills.sh/streakyc/googleworkspacecli/gws-shared</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:streakyc/googleworkspacecli/gws-shared</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/handoff</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/handoff</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 1
-Source: streakyc/googleworkspacecli
-Description: gws CLI: Shared patterns for authentication, global flags, and output formatting.]]></description>
+Installs: 205
+Source: mattpocock/skills
+Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): okx-defi]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-defi</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-defi</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/code-review</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 1
-Source: okx/onchainos-skills
-Description: OKX-aggregated DeFi (no specific DApp named) — product discovery, deposit/withdraw/claim execution, AND positions viewing. **If the user names ANY third-party protocol/DApp (Aave, Lido, PancakeSwap, Uniswap, Curve, Compound, Morpho, Pendle, Kamino, Raydium, Hyperliquid, Polymarket, …), route to okx-dapp-discovery — NOT here, even for 'show my Aave positions'.** INVEST triggers: 'invest in DeFi', 'earn yield', 'find best APY', 'deposit/stake for yield', 'search DeFi products', 'redeem/withdraw position', 'claim DeFi rewards', 'borrow against asset', 'repay loan', 'add/remove CLMM liquidity', 'APY/TVL history', 'depth chart', yield farming, lending, staking, liquidity pools. PORTFOLIO triggers: 'check my DeFi positions', 'view DeFi holdings/portfolio', 'my staking/lending positions', 'DeFi balance', 'DeFi 持仓', '我的DeFi资产'. Do NOT use for: DEX swaps (okx-agentic-wallet), token prices (okx-dex), wallet token balances (okx-agentic-wallet).]]></description>
+Installs: 203
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): okx-agentic-wallet]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-agentic-wallet</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-agentic-wallet</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): to-spec]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-spec</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/to-spec</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 1
-Source: okx/onchainos-skills
-Description: Use this skill when the user mentions wallet login, sign in, verify OTP, create wallet, switch account, wallet status, logout, wallet balance, assets, holdings, send tokens, transfer ETH, transfer USDC, pay someone, send crypto, send ERC-20, send SPL, transaction history, recent transactions, tx status, tx detail, order list, call smart contract, interact with contract, execute contract function, send calldata, invoke smart contract, show my addresses, wallet addresses, deposit, receive, receive address, top up, fund my wallet. Chinese: 登录钱包, 钱包登录, 验证OTP, 创建钱包, 切换账户, 钱包状态, 退出登录, 余额, 资产, 钱包列表, 账户列表, 发送代币, 转账, 交易历史, 交易记录, 合约调用, 我的地址, 钱包地址, 充值, 充币, 收款, 收款地址, 入金. Manages the wallet lifecycle: auth (login, OTP verify, account creation, switching, status, logout), authenticated balance queries, wallet address display (grouped by XLayer/EVM/Solana), token transfers (native & ERC-20/SPL), transaction history, and smart contract calls. Do NOT use for DEX swaps — use okx-dex-swap. Do NOT use for token search or market data — use okx-dex-token or okx-dex-market. Do NOT use for smart money / whale / KOL signals — use okx-dex-signal. Do NOT use for meme token scanning — use okx-dex-trenches. Do NOT use for transaction broadcasting (non-wallet) — use okx-onchain-gateway. Do NOT use when the user says only a single word like 'wallet' or 'login' without specifying an action or context. Do NOT use for security scanning (token/DApp/tx/sig) — use okx-security. Do NOT use for querying a specific public address's portfolio balance (user provides an explicit address like 0xAbc...) — use okx-wallet-portfolio. Do NOT use for PnL analysis (win rate, realized/unrealized PnL, DEX history) — use okx-dex-market.]]></description>
+Installs: 187
+Source: mattpocock/skills
+Description: Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): instantsearch]]></title>
-            <link>https://skills.sh/algolia/skills/instantsearch</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:algolia/skills/instantsearch</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): to-tickets]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-tickets</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/to-tickets</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 1
-Source: algolia/skills
-Description: Build production-quality search experiences (autocomplete, search results pages, faceted search) using InstantSearch. Use when user asks to add search, autocomplete, search-as-you-type, faceted filtering, or a search results page to a React, Vue, or vanilla JS application, or mentions Algolia, InstantSearch, or react-instantsearch. Do NOT use for backend index operations (records, synonyms, settings, API keys), use algolia-cli instead. Do NOT use for analytics, recommendations, or MCP server queries, use algolia-mcp instead. Do NOT use for AI/agent/conversational search, use algobot-cli instead.]]></description>
+Installs: 185
+Source: mattpocock/skills
+Description: Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): truesheet-usage]]></title>
-            <link>https://skills.sh/lodev09/react-native-true-sheet/truesheet-usage</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:lodev09/react-native-true-sheet/truesheet-usage</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): diagnosing-bugs]]></title>
+            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/diagnosing-bugs</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 1
-Source: lodev09/react-native-true-sheet
-Description: Consumer-side guide for integrating @lodev09/react-native-true-sheet into a React Native app. Use this skill whenever the user wants to add, configure, control, or debug a bottom sheet using TrueSheet — including ref-based sheets, named global sheets, web support with TrueSheetProvider/useTrueSheet, React Navigation or Expo Router sheet flows, Reanimated-driven animations, scrolling content, stacking, headers/footers, detents, side sheets, keyboard handling, dimming, liquid glass, and Jest testing. Also use when the user is migrating from v2 to v3, troubleshooting layout or gesture issues, or asking about any TrueSheet prop, event, or method — even if they don't mention "TrueSheet" by name but describe a bottom sheet in a React Native context.]]></description>
+Installs: 193
+Source: mattpocock/skills
+Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): vss-ask-video]]></title>
-            <link>https://skills.sh/nvidia/skills/vss-ask-video</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:nvidia/skills/vss-ask-video</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): tdd]]></title>
+            <link>https://skills.sh/mattpocock/skills/tdd</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/tdd</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 1
-Source: nvidia/skills
-Description: Use to ask the VSS agent's video_understanding tool a fresh visual question about a recorded clip. Not for prior tool output, search hits, or metadata-answerable questions.]]></description>
+Installs: 202
+Source: mattpocock/skills
+Description: Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions "red-green-refactor", wants integration tests, or asks for test-first development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): gws-gmail-reply]]></title>
-            <link>https://skills.sh/streakyc/googleworkspacecli/gws-gmail-reply</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:streakyc/googleworkspacecli/gws-gmail-reply</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): ai-music]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:genmedia-labs/skills/ai-music</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 1
-Source: streakyc/googleworkspacecli
-Description: Gmail: Reply to a message (handles threading automatically).]]></description>
+Installs: 782
+Source: genmedia-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): api-design-patterns]]></title>
-            <link>https://skills.sh/bobmatnyc/claude-mpm-skills/api-design-patterns</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:bobmatnyc/claude-mpm-skills/api-design-patterns</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): ai-video-generation]]></title>
+            <link>https://skills.sh/skills-101/superpowers/ai-video-generation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:skills-101/superpowers/ai-video-generation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 1
-Source: bobmatnyc/claude-mpm-skills
-Description: Comprehensive API design patterns covering REST, GraphQL, gRPC, versioning, authentication, and modern API best practices]]></description>
+Installs: 784
+Source: skills-101/superpowers
+Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): okx-dex-market]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-dex-market</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-dex-market</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): grill-with-docs]]></title>
+            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/grill-with-docs</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 1
-Source: okx/onchainos-skills
-Description: This skill should be used when the user asks 'what\'s the price of OKB', 'check token price', 'how much is OKB', 'show me the price chart', 'get candlestick data', 'show K-line chart', 'view trade history', 'recent trades for SOL', 'price trend', 'index price', or mentions checking a token\'s current price, viewing price charts, candlestick data, trade history, or historical price trends. Covers real-time on-chain prices, K-line/candlestick charts, trade logs, and index prices across XLayer, Solana, Ethereum, Base, BSC, Arbitrum, Polygon, and 20+ other chains. For token search, market cap, liquidity analysis, trending tokens, or holder distribution, use okx-dex-token instead.]]></description>
+Installs: 211
+Source: mattpocock/skills
+Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): gws-gmail-send]]></title>
-            <link>https://skills.sh/streakyc/googleworkspacecli/gws-gmail-send</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:streakyc/googleworkspacecli/gws-gmail-send</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): improve-codebase-architecture]]></title>
+            <link>https://skills.sh/mattpocock/skills/improve-codebase-architecture</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/improve-codebase-architecture</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 1
-Source: streakyc/googleworkspacecli
-Description: Gmail: Send an email.]]></description>
+Installs: 206
+Source: mattpocock/skills
+Description: Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): uniwind]]></title>
-            <link>https://skills.sh/uni-stack/uniwind/uniwind</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:uni-stack/uniwind/uniwind</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): ai-image-generation]]></title>
+            <link>https://skills.sh/skills-101/superpowers/ai-image-generation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:skills-101/superpowers/ai-image-generation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 1
-Source: uni-stack/uniwind
-Description: Uniwind — Tailwind CSS v4 styling for React Native. Use when adding, building, or styling components in a React Native project that uses Tailwind with className. Triggers on: className on React Native components, Tailwind classes in RN code, global.css with @import 'uniwind', withUniwindConfig, metro.config.js with Uniwind, withUniwind for third-party components, useResolveClassNames, useCSSVariable, useUniwind, dark:/light: theming, platform selectors (ios:/android:/native:/web:/tv:), data-[prop=value] selectors, responsive breakpoints (sm:/md:/lg:), tailwind-variants, tv() component variants, ScopedTheme, Uniwind.setTheme, Uniwind.updateCSSVariables, Uniwind.updateInsets, @layer theme, @variant, @theme directive, @theme static, @utility, CSS variables in React Native, accent- prefix pattern, colorClassName, tintColorClassName, contentContainerClassName, Uniwind Pro (animations, transitions, shadow tree, native insets), safe area utilities (p-safe/pt-safe/-safe-or-/-safe-offset-), gradients in RN, custom CSS classes, hairlineWidth(), fontScale(), pixelRatio(), light-dark(), OKLCH colors, cn utility, tailwind-merge, HeroUI Native, react-native-reusables, Gluestack. Also triggers on: "styles not applying", "className not working", "audit Uniwind setup", "check my config", "add a component", "style a component". Does NOT handle NativeWind-to-Uniwind migration — use the migrate-nativewind-to-uniwind skill for that.]]></description>
+Installs: 782
+Source: skills-101/superpowers
+Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): firecrawl-build-scrape]]></title>
-            <link>https://skills.sh/firecrawl/skills/firecrawl-build-scrape</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:firecrawl/skills/firecrawl-build-scrape</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): ai-avatar-video]]></title>
+            <link>https://skills.sh/skills-101/superpowers/ai-avatar-video</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:skills-101/superpowers/ai-avatar-video</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 1
-Source: firecrawl/skills
-Description: Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL and needs markdown, HTML, links, screenshots, metadata, or structured page output. Prefer this skill over broader crawl patterns when the feature is page-level.]]></description>
+Installs: 782
+Source: skills-101/superpowers
+Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): okx-guide]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-guide</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-guide</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): twitter-automation]]></title>
+            <link>https://skills.sh/skills-101/superpowers/twitter-automation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:skills-101/superpowers/twitter-automation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 1
-Source: okx/onchainos-skills
-Description: Onchain OS onboarding & guide hub — the single entry for first-time, 'what is this / how do I use it', OKX.AI, and customer-support intents; classifies the intent and routes to the right sub-flow via its Intent Routing table. Covers: (1) Onchain OS onboarding + welcome banner — 'what is onchainos', 'what is onchain os', 'what can it do', 'what can onchainos do', 'what does onchainos do', 'how do I use this', 'how do I play', 'how to use onchainos', 'how to play onchainos', 'how does onchainos work', 'how do I start', 'getting started', 'tutorial', 'onboarding', 'first time', 'I just installed', 'now what', 'what do I do now', 'where do I start', 'who are you', 'what are you', 'introduce onchainos', 'tell me about onchainos', 'I'm new'; (2) OKX.AI intro & role-registration routing (the Agent economic system — roles User / ASP / Evaluator) — 'what is OKX.AI', 'OKX.AI 是什么', 'how to use OKX.AI', 'OKX.AI 快速开始', and any spelling / spacing / casing / typo variant (OKXAI, okx ai, okx-ai, lowercase okx.ai, 啥是okxai); (3) customer support / Help Center — 'contact support', 'talk to a human', 'customer service', 'file a complaint', 'give feedback', 'report a bug / system error', 'help center', 'FAQ', 'user guide', 'something is broken'. NOT for: direct on-chain actions (swap / wallet / balance / token) or Agent task lifecycle (publish / accept / deliver / dispute) — those have their own skills.]]></description>
+Installs: 782
+Source: skills-101/superpowers
+Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): gws-gmail-reply-all]]></title>
-            <link>https://skills.sh/streakyc/googleworkspacecli/gws-gmail-reply-all</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:streakyc/googleworkspacecli/gws-gmail-reply-all</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): triage]]></title>
+            <link>https://skills.sh/mattpocock/skills/triage</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/triage</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 1
-Source: streakyc/googleworkspacecli
-Description: Gmail: Reply-all to a message (handles threading automatically).]]></description>
+Installs: 182
+Source: mattpocock/skills
+Description: Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): algolia-data-modeling]]></title>
-            <link>https://skills.sh/algolia/skills/algolia-data-modeling</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:algolia/skills/algolia-data-modeling</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): implement]]></title>
+            <link>https://skills.sh/mattpocock/skills/implement</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/implement</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 1
-Source: algolia/skills
-Description: Algolia data modeling and indexing guidance. Use before or alongside indexing records or building Algolia search UI for net-new search, browse, autocomplete, ecommerce, personalization, Dynamic Re-Ranking, recommendations, or analytics-aware implementations. Makes record shape, objectID, display fields, facets, ranking fields, and event attribution explicit decisions. Use for records, variants, SKUs, indices, replicas, searchable and faceting attributes, denormalization, merchandising fields, timestamps, inventory, event attribution, indexing pipelines, partial updates, secured data, multi-language or multi-region strategies, and migrations. Do NOT use for live imports, exports, record mutations, settings changes, or account actions; use algolia-cli or algolia-mcp. Do NOT use for frontend UI implementation; use algolia-instantsearch-ui, algolia-autocomplete, algolia-ui-libraries, or the official instantsearch skill.]]></description>
+Installs: 163
+Source: mattpocock/skills
+Description: Implement a piece of work based on a PRD or set of issues.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): firecrawl-scrape]]></title>
-            <link>https://skills.sh/firecrawl/cli/firecrawl-scrape</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:firecrawl/cli/firecrawl-scrape</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): wayfinder]]></title>
+            <link>https://skills.sh/mattpocock/skills/wayfinder</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/wayfinder</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 1
-Source: firecrawl/cli
-Description: Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a URL and wants its content, says "scrape", "grab", "fetch", "pull", "get the page", "extract from this URL", or "read this webpage". Handles JS-rendered pages, multiple concurrent URLs, and returns LLM-optimized markdown. Use this instead of WebFetch for any webpage content extraction.]]></description>
+Installs: 181
+Source: mattpocock/skills
+Description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): recoup-platform-api-access]]></title>
-            <link>https://skills.sh/recoupable/skills/recoup-platform-api-access</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:recoupable/skills/recoup-platform-api-access</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): domain-modeling]]></title>
+            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/domain-modeling</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 1
-Source: recoupable/skills
-Description: Call the Recoup API and external connectors directly — fetch any platform resource (artists, socials, organizations, research, documents) and run connector actions (Google Docs/Sheets/Drive edits, Gmail, TikTok, Instagram). Use whenever you need raw Recoup data, a platform resource, to write curl against api.recoupable.dev, or to read/write something outside Recoup like a Google Doc URL or a spreadsheet. The plumbing every other skill rides on. To onboard or operate on an artist use the recoup-roster-* skills; for first-run connection use recoup-platform-connect-account.]]></description>
+Installs: 181
+Source: mattpocock/skills
+Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): gws-gmail]]></title>
-            <link>https://skills.sh/streakyc/googleworkspacecli/gws-gmail</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:streakyc/googleworkspacecli/gws-gmail</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): ai-image-generation]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:genmedia-labs/skills/ai-image-generation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 1
-Source: streakyc/googleworkspacecli
-Description: Gmail: Send, read, and manage email.]]></description>
+Installs: 679
+Source: genmedia-labs/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): aws-sdk-java-v2-rds]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-rds</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-rds</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): research]]></title>
+            <link>https://skills.sh/mattpocock/skills/research</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/research</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides AWS RDS (Relational Database Service) management patterns using AWS SDK for Java 2.x. Use when creating, modifying, monitoring, or managing Amazon RDS database instances, snapshots, parameter groups, and configurations.]]></description>
+Installs: 155
+Source: mattpocock/skills
+Description: Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): recoup-roster-manage-artist]]></title>
-            <link>https://skills.sh/recoupable/skills/recoup-roster-manage-artist</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:recoupable/skills/recoup-roster-manage-artist</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): codebase-design]]></title>
+            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/codebase-design</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 1
-Source: recoupable/skills
-Description: Work inside one artist's folder — read and update their context, brand, songs, and releases. Use for "organize [artist]'s files", "update [artist]'s brand/context", "what's in [artist]'s workspace", or any task about a named artist's files. To list your whole roster use recoup-roster-list-artists; for research/metrics on an artist use recoup-research-artist-overview.]]></description>
+Installs: 172
+Source: mattpocock/skills
+Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): unit-test-exception-handler]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/unit-test-exception-handler</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/unit-test-exception-handler</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): gws-forms]]></title>
+            <link>https://skills.sh/googleworkspace/cli/gws-forms</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:googleworkspace/cli/gws-forms</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns for unit testing @ExceptionHandler and @ControllerAdvice for global exception handling. Use when validating error response formatting and HTTP status codes.]]></description>
+Installs: 50
+Source: googleworkspace/cli
+Description: Read and write Google Forms.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): prompt-engineering]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/prompt-engineering</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/prompt-engineering</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): prototype]]></title>
+            <link>https://skills.sh/mattpocock/skills/prototype</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/prototype</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: This skill should be used when creating, optimizing, or implementing advanced prompt patterns including few-shot learning, chain-of-thought reasoning, prompt optimization workflows, template systems, and system prompt design. It provides comprehensive frameworks for building production-ready prompts with measurable performance improvements.]]></description>
+Installs: 157
+Source: mattpocock/skills
+Description: Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says "prototype this", "let me play with it", "try a few designs".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): spring-data-jpa]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/spring-data-jpa</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/spring-data-jpa</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): teach]]></title>
+            <link>https://skills.sh/mattpocock/skills/teach</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/teach</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns to implement persistence layers with Spring Data JPA. Use when creating repositories, configuring entity relationships, writing queries (derived and @Query), setting up pagination, database auditing, transactions, UUID primary keys, multiple databases, and database indexing.]]></description>
+Installs: 152
+Source: mattpocock/skills
+Description: Teach the user a new skill or concept, within this workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): langchain4j-spring-boot-integration]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/langchain4j-spring-boot-integration</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/langchain4j-spring-boot-integration</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): setup-matt-pocock-skills]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-matt-pocock-skills</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/setup-matt-pocock-skills</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides integration patterns for LangChain4j with Spring Boot. Handles auto-configuration, dependency injection, and Spring ecosystem integration. Use when embedding LangChain4j into Spring Boot applications.]]></description>
+Installs: 155
+Source: mattpocock/skills
+Description: Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): aws-rds-spring-boot-integration]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/aws-rds-spring-boot-integration</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/aws-rds-spring-boot-integration</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): ask-matt]]></title>
+            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/ask-matt</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns to configure AWS RDS (Aurora, MySQL, PostgreSQL) with Spring Boot applications. Use when setting up datasources, connection pooling, security, and production-ready database configuration.]]></description>
+Installs: 151
+Source: mattpocock/skills
+Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): react-patterns]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/react-patterns</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/react-patterns</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): writing-for-agents]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-for-agents</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/writing-for-agents</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Comprehensive React 19 patterns expert covering Server Components, Actions, use() hook, useOptimistic, useFormStatus, useFormState, React Compiler, concurrent features, Suspense, and modern TypeScript development. Proactively use for any React development, component architecture, state management, performance optimization, or when implementing React 19's latest features.]]></description>
+Installs: 141
+Source: mattpocock/skills
+Description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): unit-test-json-serialization]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/unit-test-json-serialization</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/unit-test-json-serialization</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): wait-what]]></title>
+            <link>https://skills.sh/mattpocock/skills/wait-what</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/wait-what</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns for unit testing JSON serialization/deserialization with Jackson and @JsonTest. Use when validating JSON mapping, custom serializers, and date format handling.]]></description>
+Installs: 137
+Source: mattpocock/skills
+Description: Stop. That last message did not land — re-pitch it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): aws-sdk-java-v2-lambda]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-lambda</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-lambda</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): wizard]]></title>
+            <link>https://skills.sh/mattpocock/skills/wizard</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/wizard</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides AWS Lambda patterns using AWS SDK for Java 2.x. Use when invoking Lambda functions, creating/updating functions, managing function configurations, working with Lambda layers, or integrating Lambda with Spring Boot applications.]]></description>
+Installs: 136
+Source: mattpocock/skills
+Description: Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): okx-agent-payments-protocol]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-agent-payments-protocol</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-agent-payments-protocol</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): ai-video-generation]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:genmedia-labs/skills/ai-video-generation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 1
-Source: okx/onchainos-skills
-Description: Unified payment dispatcher covering x402 (`exact` / `aggr_deferred` schemes), MPP (`charge` / `session` intents), and a2a-pay (`a2a_charge` paymentId flow). Detects HTTP 402 protocol from response headers and routes to the matching scheme/intent reference; also handles a2a paymentId mentions without a 402. Loads `references/exact.md` (x402 exact scheme — full EIP-3009 TEE or local-key fallback), `references/aggr_deferred.md` (x402 aggr_deferred scheme — Session Key Ed25519 with sessionCert), `references/charge.md` (MPP one-shot charge in transaction or hash mode, with splits), `references/session.md` (MPP channel: open + voucher loop + topUp + close, with state echo), or `references/a2a_charge.md` (a2a-pay create / pay / auto-poll status). Returns a ready-to-paste authorization header (x402 / MPP) or a tx-hash + status (a2a). Trigger words (English): '402', 'payment required', 'mpp', 'machine payment', 'pay for access', 'payment-gated', 'WWW-Authenticate: Payment', 'x402', 'x402Version', 'PAYMENT-REQUIRED', 'PAYMENT-SIGNATURE', 'X-PAYMENT', 'open channel', 'voucher', 'session payment', 'close channel', 'topup channel', 'top up channel', 'settle channel', 'settle session', 'refund channel', 'channelId', 'channel_id', 'paymentId', 'a2a_', 'a2a payment', 'create payment link', 'payment link', 'payment status'. Trigger words (Chinese): '支付通道', '关闭通道', '关闭会话', '关闭支付通道', '充值通道', '续费通道', '结算通道', '结算会话', '关单', '凭证', '会话支付', '付款链接', '创建支付', '支付状态'. Critical sensitivity rule: any user mention of close / topup / settle / voucher / refund near a `channel_id`, `0x...` channel hash, or 'session' / 'channel' context = MPP mid-session operation — load this skill, jump into `references/session.md`, do NOT search for a separate close/topup tool.]]></description>
+Installs: 673
+Source: genmedia-labs/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): aws-sdk-java-v2-kms]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-kms</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/aws-sdk-java-v2-kms</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): genshijin-commit]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-commit</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-commit</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides AWS Key Management Service (KMS) patterns using AWS SDK for Java 2.x. Use when creating/managing encryption keys, encrypting/decrypting data, generating data keys, digital signing, key rotation, or integrating encryption into Spring Boot applications.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 超圧縮コミットメッセージ生成。Conventional Commits形式で件名≤50文字、 「何を」より「なぜ」を重視。日本語・英語両対応。 「コミットメッセージ作って」「/commit」「/genshijin-commit」で起動。 ステージング変更時に自動起動候補。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): nvidia-skill-finder]]></title>
-            <link>https://skills.sh/nvidia/skills/nvidia-skill-finder</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:nvidia/skills/nvidia-skill-finder</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): genshijin]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 1
-Source: nvidia/skills
-Description: Use for NVIDIA-related requests where an NVIDIA skill might help, even if the user did not ask for a skill. Trigger on NVIDIA products, hardware, software, SDKs, GPUs, Jetson/JetPack/L4T/BSP/SDK Manager/driver/flashing/setup, CUDA, NIM, NeMo, Omniverse/OpenUSD/SimReady, RAPIDS/cuDF, cuPyNumeric, cuOpt, Dynamo, Holoscan, TensorRT, DeepStream, VSS, TAO, NGC/NVCF. Do not use for generic non-NVIDIA route, optimize, deploy, AI, video, data, or infrastructure tasks.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 超圧縮コミュニケーションモード。原始人のように話してトークン使用量を約75%削減。 技術的正確性は完全に維持。強度レベル: 丁寧・通常（デフォルト）・極限の3段階。 「原始人モード」「短く」「簡潔に」「トークン節約」と言うか、/genshijin で起動。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): readme-blueprint-generator]]></title>
-            <link>https://skills.sh/github/awesome-copilot/readme-blueprint-generator</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:github/awesome-copilot/readme-blueprint-generator</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): genshijin-crew]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-crew</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-crew</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 1
-Source: github/awesome-copilot
-Description: Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 原始人スタイル subagent への委譲判断ガイド。`genshijin-investigator` (コード位置特定)、 `genshijin-builder` (1-2ファイル編集)、`genshijin-reviewer` (diff レビュー) を inline作業 or vanilla `Explore` の代わりにスポーンするタイミングを示す。subagent 出力は原始人圧縮 → 主コンテキストに戻る tool-result が約60%縮小 → 長セッション持続。 Trigger: 「subagent 委譲」「genshijin-crew 使用」「investigator/builder/reviewer 起動」「コンテキスト節約」「圧縮 agent 出力」。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): open-knowledge-discovery]]></title>
-            <link>https://skills.sh/inkeep/open-knowledge-skills/open-knowledge-discovery</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:inkeep/open-knowledge-skills/open-knowledge-discovery</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): genshijin-stats]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-stats</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-stats</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 1
-Source: inkeep/open-knowledge-skills
-Description: Read when the user asks what OpenKnowledge is, wants to install it on a repository, wants to open or preview a single markdown file that is not part of an OpenKnowledge project, wants to share an OpenKnowledge project with collaborators, or asks how `ok init` / `ok cowork` / OK Desktop set up a project. Do NOT load to perform OpenKnowledge reads/writes — the runtime guidance for editing markdown inside an initialized OK project ships as a separate project-local skill at `.claude/skills/open-knowledge/` whenever `ok init` runs.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 現セッションのリアルトークン使用量と推定削減量を表示。Claude Code セッションログから直接読込 — AI 推定なし。 `/genshijin-stats` で起動。出力は mode-tracker フックが注入し、モデル自身は数値計算しない。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): nestjs]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/nestjs</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/nestjs</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): genshijin-help]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-help</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-help</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Comprehensive NestJS framework guide with Drizzle ORM integration. Use when building NestJS applications, setting up APIs, implementing authentication, working with databases, or integrating Drizzle ORM. Covers controllers, providers, modules, middleware, guards, interceptors, testing, microservices, GraphQL, and database patterns.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 全 genshijin モード・スキル・コマンドのクイックリファレンスカード。 1回限り表示・モード変更なし・状態永続化なし。 「/genshijin-help」「原始人ヘルプ」「原始人の使い方」で起動。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): recoup-platform-build-os]]></title>
-            <link>https://skills.sh/recoupable/skills/recoup-platform-build-os</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:recoupable/skills/recoup-platform-build-os</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): genshijin-review]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-review</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-review</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 1
-Source: recoupable/skills
-Description: Scaffold and run a label's self-managing "music-company OS" inside its own git repo — the full label-intelligence workspace (folders, a self-managing CLAUDE.md mirrored to AGENTS.md, a read-only doctor + never-stale janitor, compound-learning and self-improvement loops, an in-place plugin) seeded with Recoup's conventions (top-level artists/{slug}/RECOUP.md identity files, releases/{slug}/RELEASE.md) and backed by the Recoup API as system of record. Use for "set up our label OS", "build the org workspace", "turn this repo into our label brain", or onboarding a new org/label repo. Pulls the real roster from the live account (auth via recoup-platform-connect-account), onboards artists API-first via recoup-roster-add-artist, and calls the other recoup-* skills (research/content/release/song/catalog) instead of reinventing them. The single workspace/OS builder — also covers the lightweight "just mirror my roster into folders" case.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 超圧縮PRレビューコメント。1行1指摘: 位置・問題・修正。前置き削除、シグナル優先。 日本語対応。「PRレビューして」「コードレビュー」「/review」「/genshijin-review」で起動。 プルリクエストレビュー時に自動起動候補。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): rag]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/rag</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/rag</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): genshijin-compress]]></title>
+            <link>https://skills.sh/interfacex-co-jp/genshijin/genshijin-compress</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:interfacex-co-jp/genshijin/genshijin-compress</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns to build Retrieval-Augmented Generation (RAG) systems for AI applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases.]]></description>
+Installs: 37
+Source: interfacex-co-jp/genshijin
+Description: 自然言語メモリファイル（CLAUDE.md, todos, 設定）を原始人形式に圧縮し入力トークン削減。 技術内容・コード・URL・構造は完全保持。圧縮版が原ファイルを上書き、人間可読版は FILE.original.md として保存。「/genshijin-compress <filepath>」「メモリファイル圧縮」で起動。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): spring-boot-openapi-documentation]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/spring-boot-openapi-documentation</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/spring-boot-openapi-documentation</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): to-questionnaire]]></title>
+            <link>https://skills.sh/mattpocock/skills/to-questionnaire</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/to-questionnaire</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides patterns to generate comprehensive REST API documentation using SpringDoc OpenAPI 3.0 and Swagger UI in Spring Boot 3.x applications. Use when setting up API documentation, configuring Swagger UI, adding OpenAPI annotations, implementing security documentation, or enhancing REST endpoints with examples and schemas.]]></description>
+Installs: 133
+Source: mattpocock/skills
+Description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): tmeet-skill]]></title>
-            <link>https://skills.sh/tencentcloud/tencentmeeting-cli/tmeet-skill</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:tencentcloud/tencentmeeting-cli/tmeet-skill</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): resolving-merge-conflicts]]></title>
+            <link>https://skills.sh/mattpocock/skills/resolving-merge-conflicts</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:mattpocock/skills/resolving-merge-conflicts</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 1
-Source: tencentcloud/tencentmeeting-cli
-Description: 腾讯会议 CLI（tmeet）：OAuth 授权登录/登出/状态查询、会议管理（创建/更新/取消/查询/受邀者）、录制管理（列表/下载地址/智能纪要/转写）、会议报告（参会人/等候室）。当用户需要通过命令行操作腾讯会议时使用本技能。]]></description>
+Installs: 140
+Source: mattpocock/skills
+Description: Use when you need to resolve an in-progress git merge/rebase conflict.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): qdrant]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/qdrant</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/qdrant</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): neon-postgres]]></title>
+            <link>https://skills.sh/neondatabase/agent-skills/neon-postgres</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:neondatabase/agent-skills/neon-postgres</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides Qdrant vector database integration patterns with LangChain4j. Handles embedding storage, similarity search, and vector management for Java applications. Use when implementing vector-based retrieval for RAG systems, semantic search, or recommendation engines.]]></description>
+Installs: 59
+Source: neondatabase/agent-skills
+Description: Guides and best practices for working with Neon Serverless Postgres. Covers getting started, local development with Neon, choosing a connection method, Neon features, authentication (@neondatabase/auth), PostgREST-style data API (@neondatabase/neon-js), Neon CLI, and Neon's Platform API/SDKs. Use for any Neon-related questions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): okx-activity]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-activity</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-activity</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): image-to-video]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:genmedia-labs/skills/image-to-video</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 1
-Source: okx/onchainos-skills
-Description: OKX.AI Trading Hackathon (交易黑客松 / OKX.AI 交易黑客松 / 报名黑客松 / 黑客马拉松) registration. Use when the user wants to register for / sign up for / enter / join / 报名 / 参加 / 参赛 the OKX.AI trading hackathon — e.g. 'Register me for the OKX.AI Trading Hackathon', '我要参加黑客松', '帮我报名 OKX.AI 的交易黑客松' — or asks about its entry requirements / eligibility / 报名条件 / 参赛资格 / how to enter. The object is always the hackathon itself: it enters a Trading ASP the user already has and never creates one. Each activity carries its own flow, gates, and CLI reference under this skill's references/, picked by the Intent Routing table.]]></description>
+Installs: 653
+Source: genmedia-labs/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): spring-boot-crud-patterns]]></title>
-            <link>https://skills.sh/giuseppe-trisciuoglio/developer-kit/spring-boot-crud-patterns</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:giuseppe-trisciuoglio/developer-kit/spring-boot-crud-patterns</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): caveman]]></title>
+            <link>https://skills.sh/juliusbrussee/caveman/caveman</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:juliusbrussee/caveman/caveman</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 1
-Source: giuseppe-trisciuoglio/developer-kit
-Description: Provides repeatable CRUD workflows for Spring Boot 3 services with Spring Data JPA and feature-focused architecture. Use when modeling aggregates, repositories, controllers, and DTOs for REST APIs.]]></description>
+Installs: 65
+Source: juliusbrussee/caveman
+Description: Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says "caveman mode", "talk like caveman", "use caveman", "less tokens", "be brief", or invokes /caveman. Also auto-triggers when token efficiency is requested.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): open-code-review-delegate]]></title>
-            <link>https://skills.sh/alibaba/open-code-review/open-code-review-delegate</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:alibaba/open-code-review/open-code-review-delegate</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): reddit-automation]]></title>
+            <link>https://skills.sh/flowkit-labs/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-08-17T01:11:37.656Z:topHot:new:flowkit-labs/skills/reddit-automation</guid>
+            <pubDate>Mon, 17 Aug 2026 01:11:37 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 1
-Source: alibaba/open-code-review
-Description: Delegation mode for open-code-review (OCR). Instead of OCR calling an LLM endpoint, this skill instructs the host agent to perform the code review itself, using OCR only for deterministic engineering: file selection and rule resolution. Use when the host agent should drive the review with its own LLM capabilities.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#7): okx-dapp-discovery]]></title>
-            <link>https://skills.sh/okx/onchainos-skills/okx-dapp-discovery</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:okx/onchainos-skills/okx-dapp-discovery</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #7
-Installs: 1
-Source: okx/onchainos-skills
-Description: Plugin router for 20 supported third-party DeFi protocols (Polymarket, Aave, Hyperliquid, PancakeSwap, Morpho, Raydium, Curve, Compound, Pendle, Lido, ether.fi, GMX, Kamino, Orca, Meteora, Clanker, pump.fun, Uniswap) and their protocol-native tokens (HYPE, HLP, eETH, weETH, stETH, wstETH, LDO, GHO, CAKE, CRV, COMP, RAY, ETHFI, GLP, kToken, PT-* / YT-*, $CLANKER). Resolves the named DApp/token to the right plugin, installs it, and forwards the user's prompt — the plugin owns the actual trade/bet/transfer.
-
-Fires on: (1) named DApp + action verb (swap/deposit/stake/long/borrow/buy/sell/snipe/farm/claim, EN or ZH 买/卖/换/存/质押/借/做多/做空/狙击); (2) comparison of two-or-more supported DApps with intent to choose ("Aave vs Compound for stables", "Lido vs ether.fi"); (3) Polymarket UpDown intent (`<COIN> 5min updown`, `<COIN> 5 分钟涨跌`, `预测市场`, `place a bet on Polymarket`); (4) protocol-native token alone with action verb ("deposit USDC into HLP", "PT-stETH on Pendle"); (5) pump.fun WRITE verbs (buy/sell/snipe/ape/swap or 买/卖/狙击/梭哈/帮我买). See body for anti-trigger / disambiguation rules.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#8): baocut]]></title>
-            <link>https://skills.sh/jimliu/baocut/baocut</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:jimliu/baocut/baocut</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #8
-Installs: 1
-Source: jimliu/baocut
-Description: Drive BaoCut from the CLI to transcribe local media or supported video URLs, polish transcripts through Agent workers, create/translate subtitles, review speaker diarization, edit one talking-head source with reversible pause/filler/ retake cuts and B-roll attachments, and export SRT/VTT/ASS/Markdown/video. Use for transcription, captions, subtitle correction/translation, speaker identification, talking-head cleanup, rough cuts, B-roll and final export, including Chinese requests such as 转写、加字幕、改字幕、翻译字幕、识别说话人、 剪口播、去口癖、删停顿、粗剪、加 B-roll、导出成片，and whenever working in the BaoCut repository. Not for motion graphics, music, multicam, generated video or arbitrary multitrack compositing. The CLI never calls an LLM API; persistent Agent workers answer its claim/submit task protocol.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): surf]]></title>
-            <link>https://skills.sh/asksurf-ai/surf-skills/surf</link>
-            <guid isPermaLink="false">2026-08-16T01:13:29.832Z:topHot:new:asksurf-ai/surf-skills/surf</guid>
-            <pubDate>Sun, 16 Aug 2026 01:13:29 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 1
-Source: asksurf-ai/surf-skills
-Description: Your AI agent's crypto brain. One skill, 83+ commands across 14 data domains — real-time prices, wallets, social intelligence, DeFi, on-chain SQL, prediction markets, and more. Natural language in, structured data out. Install once, access everything. Use whenever the user needs crypto data, asks about prices/wallets/tokens/DeFi, wants to investigate on-chain activity, or is building something that consumes crypto data — even if they don't say "surf" explicitly.]]></description>
+Installs: 497
+Source: flowkit-labs/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
         </item>
     </channel>
 </rss>

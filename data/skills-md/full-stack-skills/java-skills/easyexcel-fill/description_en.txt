@@ -1,0 +1,1 @@
+基于 Alibaba EasyExcel（com.alibaba:easyexcel:4.0.3）的 Excel 模板填充技能。覆盖简单对象填充、列表填充（{.}+forceNewRow）、横向多列组合填充（FillWrapper+WriteDirectionEnum.HORIZONTAL）、复杂填充（含合计行/统计行/先 fill 后 write）、Spring Boot 集成、模板设计规范、转义字符、03版/07版差异、性能优化（分次 fill、文件缓存）。当用户需要把 Java 对象或 Map 数据按预制 .xlsx 模板（变量语法 {var}、{.}、{prefix.}）填充生成报表（工资条/合同/对账单/发票/财务报表/统计表/汇总表）时使用此技能，不适用于不基于模板的"程序生成 Excel"场景（改用 easyexcel-write）。
