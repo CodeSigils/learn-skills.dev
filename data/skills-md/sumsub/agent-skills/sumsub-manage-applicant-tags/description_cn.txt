@@ -1,0 +1,1 @@
+通过公共 API 添加、替换或删除 Sumsub 申请人资料上的标签 — `POST /resources/applicants/{applicantId}/tags/add`（添加剂）、`POST .../tags`（覆盖整套）、`DELETE .../tags`（删除）、通过 `GET .../one` 读回。当用户要求“标记/取消标记申请人”、“添加/删除/清除申请人标签”、“标记申请人个人资料”或“替换申请人的标签集”时触发。跳过交易标签、具有评分权重的标签定义或申请人风险评估（使用“sumsub-create-kyt-rules”）、验证工作流程内的自动标记（使用“sumsub-create-workflow”）以及订阅标签更改 webhooks（使用“sumsub-manage-webhooks”）。
