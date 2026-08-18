@@ -1,0 +1,1 @@
+透過公共 API 新增、取代或刪除 Sumsub 申請人資料上的標籤 — `POST /resources/applicants/{applicantId}/tags/add`（添加劑）、`POST .../tags`（覆蓋整套）、`DELETE .../tags`（刪除）、透過 `GET .../one` 讀回。當使用者要求「標記/取消標記申請人」、「新增/刪除/清除申請人標籤」、「標記申請人個人資料」或「替換申請人的標籤集」時觸發。跳過交易標籤、具有評分權重的標籤定義或申請人風險評估（使用「sumsub-create-kyt-rules」）、驗證工作流程內的自動標記（使用「sumsub-create-workflow」）以及訂閱標籤來變更 webhooks（使用「sumsub-manage-webhooks」）。
