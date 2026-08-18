@@ -1,5 +1,10 @@
-When a user wants to convert a local Markdown file or directory (README / technical documentation / notes / draft paper) into a self‑contained HTML file that can be opened in a browser with a double‑click, use this skill: default dark reading theme + sidebar TOC + offline code highlighting, formulas/Mermaid loaded via CDN on demand, and support for `--template` custom templates.  
-
-Triggers: “Convert this README to a nice HTML to send to a colleague,” “This design document has formulas and flowcharts; export it as a web page that can be opened directly,” “Batch convert the .md files under the notes/ directory to HTML,” “After converting to HTML, upload and share with agent‑html‑drop.” As long as the user explicitly wants a one‑way conversion “local .md → self‑contained HTML file” — even if they don’t mention the skill name — this skill must be used.  
-
-Not applicable: writing a web page from scratch / front‑end pages (use basic tools), documentation site / static site generation and deployment (for hosting online pages), Markdown → PDF or other formats, reverse conversion HTML → Markdown, real‑time preview / online editor, uploading to Outline Wiki (use yzr‑outline‑wiki).
+当用户想把一份本地 Markdown 文件 / 目录（README / 技术文档 / 笔记 / 论文草稿）转换成
+自包含、双击即可在浏览器打开的本地 HTML 文件时使用本 skill：默认深色阅读主题 + 侧边栏目录
+TOC + 离线代码高亮，公式 / Mermaid 按需挂 CDN，支持 `--template` 自定义模板。
+触发："把这个 README 转成好看的 HTML 发给同事" / "这份设计文档有公式和流程图，导出成能直接
+打开看的网页" / "把 notes/ 目录下的 .md 批量转成 html" / "转成 html 后用 agent-html-drop
+上传分享"。只要用户明确要"本地 .md → 自包含 HTML 文件"的单向转换——即使没提 skill 名，
+也务必使用本 skill。
+不适用：从零写网页 / 前端页面（走基础工具）、文档站 / 静态站点生成与部署发布（要托管上线
+的在线网页）、Markdown → PDF 或其它格式、HTML → Markdown 反向、实时预览 / 在线编辑器、
+上传到 Outline Wiki（走 yzr-outline-wiki）。

@@ -1,1 +1,6 @@
-Adapt a novel into a short drama outline five-piece kit: adaptation notes, character list, excitement points list, episode summaries, asset inventory; output outline.json + Markdown + a one-page review report (KPI band, key decisions, excitement point timeline, scheduling matrix, scene overview, quality gates). All 13 quality gates are fully determined by script checks (character tier cap, main scene cap dynamically with episode count, excitement point interval ≤ 3 episodes, mandatory hook suspense for each episode, etc.), not relying on model self-awareness; supports health‑check mode: paste an existing outline in, only run the quality gates for diagnosis. Zero dependencies, zero API key, using the current session quota. Use when asked for adaptation outline, short drama outline, outline breakdown, novel‑to‑short drama, adaptation outline.
+把一本小说改编成短剧大纲五件套：改编说明、人物表、爽点表、分集梗概、资产清单，
+产出 outline.json + Markdown + 单页评审报告（KPI 带、关键决策、爽点时间轴、调度矩阵、场景概览、质量门）。
+13 道质量门全部由脚本确定性检查（角色分档上限、主场景上限随集数动态、爽点间隔≤3集、每集钩子悬念必填……），不靠模型自觉；
+支持体检模式：贴一份现成大纲进来，只跑质量门给诊断。
+零依赖、零 API key，用当前会话额度。
+Use when asked to 改编大纲、短剧大纲、拆大纲、小说转短剧、adaptation outline。
