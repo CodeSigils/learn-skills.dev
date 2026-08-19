@@ -1,0 +1,1 @@
+強制實施大小合適的功能優先分層 MVVM Flutter 架構 - 功能是資料夾，橫切基礎只有在編譯牆獲得它時才成為包，嚴格的向下依賴 DAG，每個功能一個 Notifier/AsyncNotifier ViewModel 上的啞視圖，存儲庫作為單一事實來源和返回不可變域值的單一上下文寫入格，僅在上下文中寫入一個真正的地方測試以及一個無法運行的地方。 get_it/injectable/package:provider 容器）。在建立 Flutter 功能或檔案、決定資料夾與套件或類別所屬位置、命名 Screen/Notifier/Repository/Service、連接提供者或合成根/bootstrap.dart、新增用例/網域層、抵制小型應用程式上的過度工程或檢查變更是否尊重層邊界時使用。

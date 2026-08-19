@@ -1,0 +1,1 @@
+인증 + 트랜잭션 이메일 + Mongo 스택의 자산 스토리지, Prisma + MongoDB의 Better Auth(매직 링크, 해시된 토큰 저장), 전달을 위한 AWS SES, 자산을 위한 AWS S3 + CloudFront, zod 검증 서버 환경 및 AWS 클라이언트를 위한 단일 IAM 대체 계약. 로그인/가입 흐름, 인증 포괄 경로, `auth` 구성, 세션 검색, 매직 링크 이메일, `User`/`Session`/`Account`/`Verification` Prisma 모델, 추가 사용자 필드(`role`, `preferredLocale` 등), SES 이메일 발신자, S3 업로드, 인증 후 리디렉션 또는 인증 스키마 확장을 터치할 때 사용합니다.

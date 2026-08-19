@@ -1,0 +1,1 @@
+使用 Starknet Privacy SDK (@starkware-libs/starknet-privacy-sdk) 建立隱私錢包和金鑰持有後端。涵蓋 createPrivateTransfers 接線、註冊、存款、轉帳、提款、多操作批量、影子帳戶（先前的私人子帳戶）、票據發現、設定要求和證明配置。也可用於調試 SDK 提交：provingBlockId、proofFacts、tip 0n、INVALID_NONCE、註釋成熟度、新帳戶排序和 AddressMap 查找。如果應用程式與用戶的錢包通訊而不是持有密鑰，請使用 strk20-wallet-api。對於概念，請使用 strk20-privacy。

@@ -1,0 +1,1 @@
+在診斷 Kubernetes 叢集狀態問題時使用：控制平面不可用、控制平面緩慢、協調停滯、節點故障或存取阻塞。透過 MCP 查詢 Netdata 的 api 伺服器運作狀況、etcd 領導者是否存在、api 伺服器請求延遲 (p99)、etcd wal fsync 延遲、etcd 領導者更改，應用 Netdata 操作手冊中的診斷樹，並建議修復。

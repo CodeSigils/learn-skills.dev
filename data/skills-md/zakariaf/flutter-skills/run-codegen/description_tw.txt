@@ -1,0 +1,1 @@
+使用 --delete-conflicting-outputs 將確定性的 build_runner codegen pass (drift_dev, freezed, json_serialized, Riverpod_generator) 作為一個固定命令運行，始終在 flutter 分析之前，從不手動編輯或強制提交生成 *.g.dart /dart，dartft.dart 輸出。在編輯漂移表或 DAO、凍結值物件、Riverpod 通知程式或提供者或 json_serialized 模型之後，或在新的 git 複製、分支切換或拉取之後，重新產生 codegen、修復「遺失的部分檔案」/「衝突的輸出」/未定義的生成類分析器錯誤時使用。

@@ -1,0 +1,1 @@
+資料庫支援的內容 + i18n 堆疊、MongoDB 上的 `ContentPage` / `ContentString` Prisma 模型、`StringRole` 枚舉、`Languages` 嵌入類型、在 TanStack 查詢中永久快取的公共 `getPageStrings` 伺服器 fn、透過 ``le)、``鉤子、儲存驅動的活動語言環境（Redux / Zustand / 等）、選擇加入的語言環境切換器，作為事實來源的「種子翻譯」腳本，以及用於即時修補程式的門控管理編輯器。在頁面上新增/編輯副本、將「useTranslation」連接到新路徑、新增內容頁面、啟用新語言、變更「StringRole」、觸碰「語言」、保留每個使用者區域設定首選項或處理翻譯管理 UI 時使用。

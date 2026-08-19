@@ -1,0 +1,1 @@
+在設定的主從對上執行一個 CUBRID CTP HA shell 測試案例，判斷 OK/NOK，並在失敗時診斷兩個節點的根本原因。每当有人想要实际运行特定的 HA shell 测试并了解其是否通过以及原因时使用 - 韩语：“ha shell tc 돌려봐”、“ha shell 테스트 실행”、“수행해줘”、“패스하는지 확인」、「검증해줘」、 "실패 원인 알려줘";英文：「執行 ha shell 測試」、「驗證」、「檢查是否通過」。不適用於：建立/編輯 HA 測試（使用 cubrid-ha_shell-tc-create）、單節點 shell 測試（使用 cubrid-shell-tc-verify）或整個迴歸套件。
