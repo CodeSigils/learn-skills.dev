@@ -1,0 +1,1 @@
+在诊断 Kubernetes 集群状态问题时使用：控制平面不可用、控制平面缓慢、协调停滞、节点故障或准入阻塞。通过 MCP 查询 Netdata 的 api 服务器运行状况、etcd 领导者是否存在、api 服务器请求延迟 (p99)、etcd wal fsync 延迟、etcd 领导者更改，应用 Netdata 操作手册中的诊断树，并建议修复。

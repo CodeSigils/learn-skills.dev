@@ -1,0 +1,1 @@
+强制执行 pubspec/lock 规则 - pubspec.yaml 中的插入符范围，以提交的 pubspec.lock 作为唯一的 pin，单独记录的 SDK 版本字符串，版本固定的 very_good_analysis 包含（其丢失的文件默认分析失败，或者默默地删除警告非致命的规则集），添加包之前的传递树审核，拒绝网络/遥测/崩溃/广告/重传递依赖的依赖门策略，并将接口后面的任何总线因子 1 本机插件供应到third_party/。在运行 dart pub add/get/upgrade/outdated/deps、编辑 pubspec.yaml 或 pubspec.lock、碰撞 Flutter/Dart SDK、选择或拒绝新依赖项、删除包或审核依赖项拖入的内容时使用。

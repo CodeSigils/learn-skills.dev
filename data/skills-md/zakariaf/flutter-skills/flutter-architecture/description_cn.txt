@@ -1,0 +1,1 @@
+强制实施大小合适的功能优先分层 MVVM Flutter 架构 - 功能是文件夹，横切基础只有在编译墙获得它时才成为包，严格的向下依赖 DAG，每个功能一个 Notifier/AsyncNotifier ViewModel 上的哑视图，存储库作为单一事实来源和返回不可变域值的单一写入路径，仅在测试中真正无法运行的地方进行抽象，以及 Riverpod 3.x 作为一个上下文无关的DI+状态机制（无 get_it/injectable/package:provider 容器）。在创建 Flutter 功能或文件、决定文件夹与包或类所属位置、命名 Screen/Notifier/Repository/Service、连接提供程序或合成根/bootstrap.dart、添加用例/域层、抵制小型应用程序上的过度工程或检查更改是否尊重层边界时使用。

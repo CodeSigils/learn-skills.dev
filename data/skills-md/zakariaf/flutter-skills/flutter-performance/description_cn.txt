@@ -1,0 +1,1 @@
+强制 Flutter 运行时性能 - const 子树、通过 ref.watch(select) 最小化重建范围、惰性 ListView/GridView 构建器和条子、大小图像解码 (cacheWidth/ResizeImage)、通过计算/隔离进行 UI 隔离的繁重工作、外科手术式 RepaintBoundary、处理所有内容以及在地面设备上以配置文件模式进行测量。在优化 UI、诊断卡顿或丢帧、调整长列表或图像、检查重建/重绘范围或任务提到 const、select、ListView.builder、cacheWidth、compute、RepaintBoundary、AnimatedBuilder、DevTools、光栅线程或 60/120fps 时使用。

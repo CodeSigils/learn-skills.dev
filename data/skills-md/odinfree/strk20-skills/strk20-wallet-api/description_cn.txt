@@ -1,0 +1,1 @@
+通过 Starknet 钱包 API 在 Starknet 上构建私有 dapp。涵盖屏蔽/取消屏蔽、私密转账、屏蔽余额、私密 DeFi 调用以及来自 TypeScript 或 React 的 AVNU 私密交换。每当应用程序要求用户启用隐私功能的钱包执行 STRK20 操作（starknet.js WalletAccountV6、useStrk20 挂钩、strk20InvokeTransaction、STRK20_ACTION、打开笔记、openNoteIds 占位符）时使用。对于 Cairo 帮助端，使用 strk20-anonymizer-contracts；对于持有自己密钥的钱包或后端，使用 strk20-privacy-sdk；对于概念和路由选择，使用 strk20-privacy。
