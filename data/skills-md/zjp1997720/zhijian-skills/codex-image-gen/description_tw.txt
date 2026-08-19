@@ -1,1 +1,1 @@
-為任何已登入 Codex CLI 的代理提供本機映像產生功能，且私有依賴性為零。每當使用者提到產生圖像、繪圖、圖像生成、文字到圖像、插圖、封面、海報、根據提示建立圖像，或想要重複使用本機「~/.codex/auth.json」中的 Codex OAuth 登入狀態作為可執行腳本時，應該先使用此技能。它適用於 Claude Code、Codex、OpenCode 以及任何其他可以運行 bash/python3 腳本的代理程式。
+為登入 Codex CLI 的任何代理程式提供本機映像產生功能，無需私有相依性。每當使用者提到產生圖像、繪圖、圖像生成、文字到圖像、插圖、封面、海報、根據提示建立圖像，或想要重複使用本機「~/.codex/auth.json」中的 Codex OAuth 登入狀態作為可執行腳本時，應優先使用此技能。它適用於 Claude Code、Codex、OpenCode 以及任何其他可以運行 bash 或 python3 腳本的代理程式。

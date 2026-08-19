@@ -1,1 +1,1 @@
-企業微信文件公共管理：搜尋文件（最近檢視/建立）、重新命名文件、新增文件成員權限、設定文件加入規則。適用於所有文件類型（doc文件/線上表格/智慧表格/智慧文件）。使用wecomcli-doc建立或匯入doc文件；使用wecomcli-sheet建立或匯入線上工作表；使用wecomcli-smartsheet對智慧表內容進行CRUD操作；並使用wecomcli-smartpage產生智慧文件。 「瀏覽過哪些文件/瀏覽記錄」類型的請求應該由該技能處理，而不是由wecom_get_user_memory處理。
+企業微信文件公共管理：搜尋文件（最近檢視/建立）、重新命名文件、新增文件成員權限、設定文件加入規則。適用於所有文件類型（doc文件/線上電子表格/智慧工作表/智慧型文件）。若要建立或匯入 doc 文檔，請使用 wecomcli-doc；要建立或匯入線上電子表格，請使用 wecomcli-sheet；對於智慧表內容的 CRUD，請使用 wecomcli-smartsheet；若要產生智慧文檔，請使用 wecomcli-smartpage。 「瀏覽過哪些文件/瀏覽記錄」類型的請求應該使用此技能，而不是 wecom_get_user_memory。
