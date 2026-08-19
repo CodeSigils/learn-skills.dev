@@ -1,0 +1,1 @@
+Linux 上で cmux-tui Rust と Zig が動作するように Blacksmith テストボックスをウォームして実行します。タスクが cmux-tui (カーゴ ビルド、カーゴ テスト、クリッピー、スタートアップ ベンチマーク、Ghostty Zig deps) をコンパイルするとき、またはユーザーが testbox、warm a box、blacksmith、リモート ビルド ボックス、または cmux-tui ベンチマークを指示するときに使用します。ローカル Mac では、cargo、rustc、または zig build を決して実行しないでください。

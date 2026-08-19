@@ -1,0 +1,1 @@
+Kubernetes API サーバーに関する問題 (Webhook ストール、リスト ストーム、etcd レイテンシ カスケード、メモリ クリフ、または rbac/auth スロー ブリード) を診断するときに使用します。 MCP 経由で Netdata に Kubernetes API サーバーの健全性シグナルを問い合わせ、Netdata オペレーター プレイブックからの診断ツリーを適用し、修復を推奨します。
