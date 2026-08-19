@@ -1,0 +1,1 @@
+Verwenden Sie diese Option, wenn Sie Probleme mit dem Kubernetes-API-Server diagnostizieren: den Webhook-Stillstand, den List Storm, die etcd-Latenzkaskade, den Memory Cliff oder den langsamen Rbac/Auth-Bleed. Fragt Netdata über MCP nach Zustandssignalen des Kubernetes-API-Servers ab, wendet den Diagnosebaum aus dem Netdata-Operator-Playbook an und empfiehlt Abhilfemaßnahmen.
