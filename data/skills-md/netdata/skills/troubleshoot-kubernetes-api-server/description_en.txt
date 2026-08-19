@@ -1,0 +1,1 @@
+Use when diagnosing issues with Kubernetes API Server: the webhook stall, the list storm, the etcd latency cascade, the memory cliff, or the rbac/auth slow bleed. Queries Netdata via MCP for Kubernetes API Server health signals, applies the diagnostic tree from the Netdata operator playbook, and recommends remediation.

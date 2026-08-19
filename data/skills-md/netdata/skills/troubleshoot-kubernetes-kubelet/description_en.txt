@@ -1,0 +1,1 @@
+Use when diagnosing issues with Kubernetes Kubelet: pleg stall, resource pressure cascade, api server disconnection, volume mount stuck, or silent new-pod outage. Queries Netdata via MCP for Kubernetes Kubelet health signals, applies the diagnostic tree from the Netdata operator playbook, and recommends remediation.

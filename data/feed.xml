@@ -4,579 +4,573 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 18 Aug 2026 01:09:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Aug 2026 01:10:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-18)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-19)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:snapshot</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:snapshot</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8133
-Trending skills: 7765
-Hot skills: 667
-Top All Time: find-skills (2989788)
-Top Trending: ai-video-generation (22127)
-Top Hot: wecom-unified (5)]]></description>
+All Time skills: 8122
+Trending skills: 7664
+Hot skills: 4554
+Top All Time: find-skills (3005209)
+Top Trending: ai-video-generation (22030)
+Top Hot: review-loop (199)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#41): env-and-assets-bootstrap]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/env-and-assets-bootstrap</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topAllTime:new:lllllllama/rigorpilot-skills/env-and-assets-bootstrap</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #41
-Installs: 417687
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[All Time] New entry (#43): codebase-design]]></title>
-            <link>https://skills.sh/mattpocock/skills/codebase-design</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topAllTime:new:mattpocock/skills/codebase-design</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#43): diagnosing-bugs]]></title>
+            <link>https://skills.sh/mattpocock/skills/diagnosing-bugs</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topAllTime:new:mattpocock/skills/diagnosing-bugs</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #43
-Installs: 415403
+Installs: 417926
 Source: mattpocock/skills
-Description: Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.]]></description>
+Description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): wecom-unified]]></title>
-            <link>https://skills.sh/wecomteam/wecom-unified/wecom-unified</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:wecomteam/wecom-unified/wecom-unified</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): review-loop]]></title>
+            <link>https://skills.sh/2dmurali/review-loop-skill/review-loop</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:2dmurali/review-loop-skill/review-loop</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 5
-Source: wecomteam/wecom-unified
-Description: 企业微信 CLI 全能套件，覆盖通讯录、消息、文档（含文档/智能表格/智能文档（原名智能主页）三种品类）、日程、会议、待办 6 大业务域。支持按姓名/别名查找联系人、收发消息（文本/图片/文件/语音/视频）、以 Markdown 格式创建/读取/编辑文档、管理智能表格结构与记录、创建智能文档并导出智能文档内容为 Markdown、创建/修改/取消日程并查询闲忙、预约/管理会议、创建/跟踪/分派待办任务。即使用户未明确提到'企业微信'，只要涉及消息/日程/待办等场景也应触发本技能]]></description>
+Installs: 199
+Source: 2dmurali/review-loop-skill
+Description: Iterative worker-reviewer cycle that spawns a critic subagent to score work 1-10 and provide actionable feedback, then revises until a quality gate is met. Use when implementing features, writing specs, reviewing existing code, or completing any task where quality matters more than speed. Trigger phrases: "use review-loop", "polish this", "iterate on this", "/review-loop", "review with feedback loop".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): depot-container-builds]]></title>
-            <link>https://skills.sh/posthog/posthog/depot-container-builds</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/depot-container-builds</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 1
-Source: posthog/posthog
-Description: Configures and runs Depot remote container builds using `depot build` and `depot bake`. Use when building Docker images, creating Dockerfiles with Depot, pushing images to registries, building multi-platform/multi-arch images (linux/amd64, linux/arm64), debugging container build failures, optimizing Dockerfile layer caching, using docker-bake.hcl or docker-compose builds, or migrating from `docker build` / `docker buildx build` to Depot. Also use when the user mentions depot build, depot bake, container builds, image builds, or asks about Depot's build cache, build parallelism, or ephemeral registry.]]></description>
+Installs: 195
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): zhang-yiming-perspective]]></title>
-            <link>https://skills.sh/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:alchaincyf/zhang-yiming-skill/zhang-yiming-perspective</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): hyperframes-audio]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-audio</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/hyperframes-audio</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 1
-Source: alchaincyf/zhang-yiming-skill
-Description: 张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、
-表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例，
-提炼5个核心心智模型、7条决策启发式和完整的表达DNA。
-用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。
-当用户提到「用张一鸣的视角」「张一鸣会怎么看」「一鸣的思路」「zhang yiming perspective」时使用。
-即使用户只是说「帮我用张一鸣的角度想想」「如果是字节会怎么做」「切换到张一鸣」也应触发。
-即使用户说「字节怎么看」「头条的逻辑」「一鸣怎么选择」「一鸣」也应触发。]]></description>
+Installs: 188
+Source: heygen-com/hyperframes
+Description: Use when audio already placed in a HyperFrames composition needs to be mixed: a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), or automation envelopes drawn on a track's volume or any effect parameter. Don't use for sourcing or generating audio — finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): improving-drf-endpoints]]></title>
-            <link>https://skills.sh/posthog/posthog/improving-drf-endpoints</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/improving-drf-endpoints</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): general-video]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/general-video</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/general-video</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 1
-Source: posthog/posthog
-Description: Use when editing, reviewing, or auditing DRF viewsets and serializers in PostHog. Triggers on files in posthog/api/, products/*/backend/api/, products/*/backend/presentation/, or any file importing rest_framework serializers or viewsets. Covers OpenAPI spec quality, field typing, schema annotations, and DRF best practices that flow through the type pipeline to generated TypeScript types and MCP tools.]]></description>
+Installs: 115
+Source: heygen-com/hyperframes
+Description: Use as the fallback for custom HyperFrames HTML video composition authoring when no specialized workflow fits. Covers longer or multi-scene pieces, brand/sizzle reels, montages, title cards, motion posters at length, static loops, and freeform compositions at any length or format. Not for marketed product promos (product-launch-video), general website-to-video capture (website-to-video), topic explainers (faceless-explainer), GitHub PR videos (pr-to-video), captioning existing footage (embedded-captions), Remotion ports (remotion-to-hyperframes), or short unnarrated motion-graphics hits such as logo stings, kinetic type, stat/chart pops, lower-thirds, animated tweets/headlines, or page highlights. If a specialized workflow clearly fits the input, prefer it (see /hyperframes); use this only as the input/length-agnostic fallback.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): writing-clickhouse-queries]]></title>
-            <link>https://skills.sh/posthog/posthog/writing-clickhouse-queries</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/writing-clickhouse-queries</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): animate-expo]]></title>
+            <link>https://skills.sh/emilkowalski/skills/animate-expo</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:emilkowalski/skills/animate-expo</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 1
-Source: posthog/posthog
-Description: Guide for writing performant ClickHouse queries in PostHog product code. Use when writing HogQL query runners, designing a ClickHouse table for a new product, adding materialized columns or skip indexes, or choosing a row ID format. For optimizing an existing query that is already too slow, use `/optimizing-clickhouse-and-hogql-queries` instead.]]></description>
+Installs: 48
+Source: emilkowalski/skills
+Description: Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): generating-clickhouse-query-performance-reports]]></title>
-            <link>https://skills.sh/posthog/posthog/generating-clickhouse-query-performance-reports</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/generating-clickhouse-query-performance-reports</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): media-use]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/media-use</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/media-use</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 1
-Source: posthog/posthog
-Description: Produce and structure slow-query performance reports for PostHog's production ClickHouse (US and EU). Use when asked for a slow query report, query performance analysis over the last N days, per-team query cost, OOM or timeout investigation, cluster cost/memory regressions, or materialization candidates. Covers the modern `query_log_archive` source (typed `lc_*` columns, multi-day retention), how to categorize and attribute slow queries, root-cause patterns (unmaterialized JSONExtract, high-cardinality breakdowns, heavy joins), and the report structure. Runs queries via the `query-clickhouse-via-metabase` skill.]]></description>
+Installs: 163
+Source: heygen-com/hyperframes
+Description: Agent Media OS — resolve any media need (BGM, SFX, image, icon) into a frozen local file + ledger record. One verb (`resolve`) handles the full cascade — project cache, global cache, HeyGen catalog search, freeze, register. Keeps search noise on disk, hands the agent a path. Use when a composition needs background music, sound effects, images, or icons.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): setup-web-tests]]></title>
-            <link>https://skills.sh/posthog/posthog/setup-web-tests</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/setup-web-tests</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): setup-ts-deep-modules]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-ts-deep-modules</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/setup-ts-deep-modules</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 1
-Source: posthog/posthog
-Description: Set up Python test environment in Claude Code for web where flox is unavailable. Use when you need to run backend tests and `uv sync` fails due to Python version mismatch.]]></description>
+Installs: 91
+Source: mattpocock/skills
+Description: Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): implementing-agent-modes]]></title>
-            <link>https://skills.sh/posthog/posthog/implementing-agent-modes</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/implementing-agent-modes</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): solana-dev]]></title>
+            <link>https://skills.sh/solana-foundation/solana-dev-skill/solana-dev</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:solana-foundation/solana-dev-skill/solana-dev</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 1
-Source: posthog/posthog
-Description: Guidelines to create/update a new mode for PostHog AI agent. Modes are a way to limit what tools, prompts, and prompt injections are applied and under what conditions. Achieve better results using your plan mode.]]></description>
+Installs: 151
+Source: solana-foundation/solana-dev-skill
+Description: End-to-end Solana development playbook (Jan 2026). Prefer Solana Foundation framework-kit (@solana/client + @solana/react-hooks) for React/Next.js UI. Prefer @solana/kit for all new client/RPC/transaction code. When legacy dependencies require web3.js, isolate it behind @solana/web3-compat (or @solana/web3.js as a true legacy fallback). Covers wallet-standard-first connection (incl. ConnectorKit), Anchor/Pinocchio programs, Codama-based client generation, LiteSVM/Mollusk/Surfpool testing, and security checklists.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): writing-skills]]></title>
-            <link>https://skills.sh/posthog/posthog/writing-skills</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/writing-skills</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): migrate-to-shoehorn]]></title>
+            <link>https://skills.sh/mattpocock/skills/migrate-to-shoehorn</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/migrate-to-shoehorn</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 1
-Source: posthog/posthog
-Description: Guide for writing PostHog agent skills — job-to-be-done templates that teach agents how to use MCP tools to achieve a goal. Use when adding new product functionality that agents should know how to work with, creating a new skill, or updating existing skills in products/*/skills/.]]></description>
+Installs: 92
+Source: mattpocock/skills
+Description: Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): product-requirements]]></title>
-            <link>https://skills.sh/stellarlinkco/myclaude/product-requirements</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:stellarlinkco/myclaude/product-requirements</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): product-launch-video]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/product-launch-video</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/product-launch-video</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 1
-Source: stellarlinkco/myclaude
-Description: Interactive Product Owner skill for requirements gathering, analysis, and PRD generation. Triggers when users request product requirements, feature specification, PRD creation, or need help understanding and documenting project requirements. Uses quality scoring and iterative dialogue to ensure comprehensive requirements before generating professional PRD documents.]]></description>
+Installs: 74
+Source: heygen-com/hyperframes
+Description: Use when the user wants a product launch, SaaS promo, feature reveal, app/company/site marketing video, or a script/brief turned into a product-focused video. Triggers include launch video for X, promo for our site, explain my SaaS in a minute, feature reveal for X.com, and turn this script into a 60s promo. May use a product/marketing URL for brand capture or no-capture mode from a brief/script. Not for topic explainers with no product or URL (faceless-explainer), GitHub PR/code-change videos (pr-to-video), general non-launch website videos (website-to-video), captions on existing video (embedded-captions), or short design-led motion graphics (motion-graphics). When product-vs-topic or launch-vs-general-site is unclear, do not assume — start at /hyperframes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): ingestion-pipeline-doctor-nodejs]]></title>
-            <link>https://skills.sh/posthog/posthog/ingestion-pipeline-doctor-nodejs</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/ingestion-pipeline-doctor-nodejs</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): music-to-video]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/music-to-video</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/music-to-video</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 1
-Source: posthog/posthog
-Description: Ingestion pipeline architecture overview and convention reference. Use when you need a quick orientation to the pipeline framework or want to know which doctor agent to use for a specific concern.]]></description>
+Installs: 68
+Source: heygen-com/hyperframes
+Description: Use when the user has a music track (an audio file, or a video to pull audio from) and wants a beat-synced HyperFrames video, calm to hard-hitting. The music drives everything: one analyzer reads it once, the orchestrator lays out the frames and fills a per-frame plan, and one sub-agent builds each frame. Typography and templates are the floor — a complete video needs zero assets — but any images or videos the user supplies are cut into the frames on the same beat grid (beat-cut / ken-burns). The genre (lyric video, slideshow, kinetic promo) falls out of the per-frame choices; the pipeline never branches on it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): cheat-on-content]]></title>
-            <link>https://skills.sh/xbuilderlab/cheat-on-content/cheat-on-content</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:xbuilderlab/cheat-on-content/cheat-on-content</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-adk-code]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 1
-Source: xbuilderlab/cheat-on-content
-Description: 给所有想把"感觉"变成可校准预测的内容创作者。**方法论通用**——打分 → 盲预测 → T+3d 复盘 → 进化 rubric 的循环适用任何能被量化（播放 / 阅读 / 收听 / 点击）的内容。**rubric 是循环的内容，不是循环本身**——当前内置一份观点视频 rubric（参考博主 25+ 视频拟合），其他形态可借这套起步并 bump 调权重。**强烈建议导入对标账号**作为初始信号源（/cheat-learn-from）。触发词："初始化"/"打分这篇"/"启动预测"/"已发布"/"复盘"/"升级 rubric"/"推荐选题"/"抓热点"/"状态"/"找对标"/"learn from"。**首次使用必须先跑 /cheat-init。**]]></description>
+Installs: 126
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): clickhouse-migrations]]></title>
-            <link>https://skills.sh/posthog/posthog/clickhouse-migrations</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/clickhouse-migrations</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): hyperframes-keyframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-keyframes</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/hyperframes-keyframes</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 1
-Source: posthog/posthog
-Description: ClickHouse migration patterns and rules. Use when creating or modifying ClickHouse migrations.]]></description>
+Installs: 189
+Source: heygen-com/hyperframes
+Description: Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, cursor demos, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): modifying-taxonomic-filter]]></title>
-            <link>https://skills.sh/posthog/posthog/modifying-taxonomic-filter</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/modifying-taxonomic-filter</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): loop-me]]></title>
+            <link>https://skills.sh/mattpocock/skills/loop-me</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/loop-me</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 1
-Source: posthog/posthog
-Description: Guides safe modification of the TaxonomicFilter — PostHog's multi-tab picker for events, actions, properties, cohorts, and more. Front-loads the empirical product reality (what users actually pick and search for) plus the three live variants (legacy-control, legacy-pill behind TAXONOMIC_FILTER_CATEGORY_DROPDOWN, and the opt-in rebuild menu behind TAXONOMIC_FILTER_MENU_REBUILD) so changes are judged against real behavior and mirrored across surfaces, not made against one arm in isolation. Use when adding features, fixing bugs, or refactoring TaxonomicFilter, the rebuild menu, or the headless filter panel.]]></description>
+Installs: 96
+Source: mattpocock/skills
+Description: Grill me about specs for the workflows I want to build, within this workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): officecli-data-dashboard]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-data-dashboard</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:iofficeai/officecli/officecli-data-dashboard</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): scaffold-exercises]]></title>
+            <link>https://skills.sh/mattpocock/skills/scaffold-exercises</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/scaffold-exercises</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill to build a multi-element Excel dashboard — Dashboard sheet on open, multiple formula-driven KPI cards, multiple charts, sparklines, and conditional formatting — from CSV or tabular input. Trigger on: 'dashboard', 'KPI dashboard', 'analytics dashboard', 'executive dashboard', 'metrics dashboard', 'CSV to dashboard', 'data visualization'. Output is a single .xlsx. Scene-layer on officecli-xlsx: inherits every xlsx hard rule. DO NOT invoke for: a single budget tracker / one-sheet CSV-with-formatting (use xlsx), a 3-statement / DCF / LBO financial model (use financial-model), a weekly report with ≤ 1 chart and < 10 rows (use xlsx).]]></description>
+Installs: 92
+Source: mattpocock/skills
+Description: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): playwright-test]]></title>
-            <link>https://skills.sh/posthog/posthog/playwright-test</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/playwright-test</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): writing-beats]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-beats</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/writing-beats</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 1
-Source: posthog/posthog
-Description: Write a playwright test, make sure it runs, and is not flaky.]]></description>
+Installs: 90
+Source: mattpocock/skills
+Description: Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): vfx-text-cursor]]></title>
-            <link>https://skills.sh/nexu-io/open-design/vfx-text-cursor</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:nexu-io/open-design/vfx-text-cursor</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): faceless-explainer]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/faceless-explainer</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/faceless-explainer</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 1
-Source: nexu-io/open-design
-Description: 光标拖光 + 彩色像散射线 + 定向光斑, 适合视频片头逐字揭示金句]]></description>
+Installs: 72
+Source: heygen-com/hyperframes
+Description: faceless-explainer video workflow - arbitrary text (article / notes / topic / brief) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> typography / abstract-graphics / diagram / data-viz video. Typical length up to ~3 min (sweet spot ~30-90s); a genuinely longer piece is general-video, not this workflow. Generates its OWN narration (TTS) — it does not sync to a user-supplied / pre-recorded voiceover (that is general-video). No website capture, no real product screenshots. If the text names a product / its site to promote, that is /product-launch-video; when product-vs-topic is unclear, start at /hyperframes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): social-spotify-card]]></title>
-            <link>https://skills.sh/nexu-io/open-design/social-spotify-card</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:nexu-io/open-design/social-spotify-card</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): git-guardrails-claude-code]]></title>
+            <link>https://skills.sh/mattpocock/skills/git-guardrails-claude-code</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/git-guardrails-claude-code</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 1
-Source: nexu-io/open-design
-Description: Spotify Now Playing 风格卡: 专辑封面 + 进度条 + 播放控制, 适配视频叠加 / 个人主页]]></description>
+Installs: 93
+Source: mattpocock/skills
+Description: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): documenting-warehouse-sources]]></title>
-            <link>https://skills.sh/posthog/posthog/documenting-warehouse-sources</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/documenting-warehouse-sources</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): claude-handoff]]></title>
+            <link>https://skills.sh/mattpocock/skills/claude-handoff</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/claude-handoff</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 1
-Source: posthog/posthog
-Description: Write or update the user-facing posthog.com documentation for a PostHog Data warehouse import source. Use when adding a new source doc, fixing an inconsistent or stub source doc, or standardizing the docs at contents/docs/cdp/sources. Covers the canonical template, shared snippets, the auto-rendered <SourceParameters /> and <SourceTables /> components, frontmatter, and the docsUrl/slug rule that prevents 404s.]]></description>
+Installs: 92
+Source: mattpocock/skills
+Description: Hand the current conversation off to a fresh background agent that picks up the work immediately.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): limrun-xcode]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:limrun-inc/skills/limrun-xcode</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): setup-pre-commit]]></title>
+            <link>https://skills.sh/mattpocock/skills/setup-pre-commit</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/setup-pre-commit</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 1
-Source: limrun-inc/skills
-Description: Build an iOS / Apple app on remote Xcode with `lim xcode build` instead of local xcodebuild, from any environment (Linux, Windows, macOS, VM, container). Use for non-Bazel projects (an `.xcodeproj` / `.xcworkspace`, an XcodeGen `project.yml` with a gitignored project, React Native / Expo native build) when the user wants to build, compile, reload, produce a preview build, or ship a signed device IPA. To run, tap, screenshot, or otherwise interact with the result on a simulator, use limrun-ios-simulator. For Bazel workspaces, use limrun-xcode-bazel.]]></description>
+Installs: 91
+Source: mattpocock/skills
+Description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): adding-personhog-rpc]]></title>
-            <link>https://skills.sh/posthog/posthog/adding-personhog-rpc</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/adding-personhog-rpc</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): writing-fragments]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-fragments</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/writing-fragments</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 1
-Source: posthog/posthog
-Description: Guide for adding a new RPC to personhog-replica and personhog-router. Covers eligibility checks, proto definition, code generation for Python and Node.js clients, Rust implementation (storage trait, postgres queries, service handler, router wiring), and index compatibility validation. Use when adding a new gRPC endpoint to personhog, migrating a Django ORM query to personhog, or extending the personhog service API.]]></description>
+Installs: 89
+Source: mattpocock/skills
+Description: Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions "fragments", "ideate", or "raw material" for writing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): run-posthog]]></title>
-            <link>https://skills.sh/posthog/posthog/run-posthog</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/run-posthog</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): design-taste-frontend-v1]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/design-taste-frontend-v1</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/design-taste-frontend-v1</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 1
-Source: posthog/posthog
-Description: Start, inspect, and drive the PostHog dev stack. Use for /run and /verify on this repo — when asked to launch PostHog, check whether the stack is healthy, inspect a running process, or verify a UI change against the live app.]]></description>
+Installs: 74
+Source: leonxlnx/taste-skill
+Description: The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): officecli-docx]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-docx</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:iofficeai/officecli/officecli-docx</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-observability]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill any time a .docx file is involved -- as input, output, or both. This includes: creating Word documents, reports, letters, memos, or proposals; reading, parsing, or extracting text from any .docx file; editing, modifying, or updating existing documents; working with templates, tracked changes, comments, headers/footers, or tables of contents. Trigger whenever the user mentions 'Word doc', 'document', 'report', 'letter', 'memo', or references a .docx filename.]]></description>
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): survey-sdk-audit]]></title>
-            <link>https://skills.sh/posthog/posthog/survey-sdk-audit</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/survey-sdk-audit</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): install-anti-slop]]></title>
+            <link>https://skills.sh/dmmulroy/anti-slop/install-anti-slop</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:dmmulroy/anti-slop/install-anti-slop</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 1
-Source: posthog/posthog
-Description: Audit PostHog survey SDK features and version requirements]]></description>
+Installs: 34
+Source: dmmulroy/anti-slop
+Description: Install and configure the anti-slop Oxlint plugin in a local TypeScript or JavaScript repository. Use whenever a user asks to add anti-slop lint rules, copy the anti-slop plugin, configure opinionated Oxlint rules, or migrate an existing local anti-slop setup.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): officecli-xlsx]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-xlsx</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:iofficeai/officecli/officecli-xlsx</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): agent-browser]]></title>
+            <link>https://skills.sh/vercel-labs/agent-browser/agent-browser</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:vercel-labs/agent-browser/agent-browser</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill any time a .xlsx file is involved -- as input, output, or both. This includes: creating spreadsheets, financial models, dashboards, or trackers; reading, parsing, or extracting data from any .xlsx file; editing, modifying, or updating existing workbooks; working with formulas, charts, pivot tables, or templates; importing CSV/TSV data into Excel format. Trigger whenever the user mentions 'spreadsheet', 'workbook', 'Excel', 'financial model', 'tracker', 'dashboard', or references a .xlsx/.csv filename.]]></description>
+Installs: 191
+Source: vercel-labs/agent-browser
+Description: Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): monitoring-ingestion-pipeline]]></title>
-            <link>https://skills.sh/posthog/posthog/monitoring-ingestion-pipeline</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/monitoring-ingestion-pipeline</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): writing-shape]]></title>
+            <link>https://skills.sh/mattpocock/skills/writing-shape</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:mattpocock/skills/writing-shape</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 1
-Source: posthog/posthog
-Description: Guide for using the Grafana MCP to monitor and diagnose the Node.js ingestion pipeline workers in production. Use when investigating event lag, drops, pipeline errors, person/group processing, Kafka consumer health, Redis, Postgres, ClickHouse downstream health, or any ingestion worker question. Covers prod-us and prod-eu environments.]]></description>
+Installs: 88
+Source: mattpocock/skills
+Description: Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): managing-github-actions-secrets]]></title>
-            <link>https://skills.sh/posthog/posthog/managing-github-actions-secrets</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/managing-github-actions-secrets</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): imagegen-frontend-mobile]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/imagegen-frontend-mobile</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/imagegen-frontend-mobile</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 1
-Source: posthog/posthog
-Description: Creates and updates GitHub Actions secrets for PostHog workflows. Use when adding a new CI secret, rotating an existing secret, wiring a workflow to an API token, package registry credential, deploy key, or any value referenced via `${{ secrets.* }}` in `.github/workflows/`.]]></description>
+Installs: 75
+Source: leonxlnx/taste-skill
+Description: Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): optimizing-clickhouse-and-hogql-queries]]></title>
-            <link>https://skills.sh/posthog/posthog/optimizing-clickhouse-and-hogql-queries</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/optimizing-clickhouse-and-hogql-queries</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): embedded-captions]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/embedded-captions</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/embedded-captions</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 1
-Source: posthog/posthog
-Description: Workflow for optimizing ClickHouse and HogQL queries. Use when a HogQL query, query runner, insight, or report is too slow; when a hand-written ClickHouse query (via `sync_execute` or in a migration) is too slow; when ClickHouse times out or hits memory limits; when investigating a slow `system.query_log` row; or when reviewing a proposed HogQL printer change for performance. Covers extracting the ClickHouse SQL, common smells (`FROM ... FINAL`, `JSONExtract` over properties, missing skip indexes, self-joins, CTE blow-up), measuring against a real cluster, and applying the fix at the right layer (printer, query runner, or migration). Does NOT cover Postgres / Django ORM / app-database queries; those need pganalyze and the Postgres section of `query-performance-optimization.md`.]]></description>
+Installs: 74
+Source: heygen-com/hyperframes
+Description: Add captions to a talking-head video. ONE catalog (CATALOG.md) of 32 visual identities behind two engines: column-flow (captions composited INTO the scene — matte occlusion + mix-blend; cream/ink/editorial/keynote/documentary/loud/neon/glitch/chrome/velocity) and themed constitutions (anchor/ordnance/terminal/neonsign/stardust/stomp/scoreboard/transit/vhs/arcade/dossier/laser/thunder/hologram/biolume/aurora/spectrum/papercut/popup/chalkboard/graffiti/brush/inkwater/ransom/lastpage/nightcity — e.g. a glyph-decode climax, a neon sign WRITTEN stroke by stroke, or the quiet `anchor` rail default). Route by identity, never by mode. Trigger on "captions/subtitles", "embed/cinematic captions", "VFX captions", "炸/特效/酷炫字幕", a named identity, or top-tier motion-graphics asks. Embedding every word is wrong for most talking-head content — `anchor` is the verbatim default. Pipeline: transcription → hyperframes remove-background matting → HTML render → ffmpeg overlay. Requires hyperframes and a single-subject clip.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): scene-menu-bar]]></title>
-            <link>https://skills.sh/posthog/posthog/scene-menu-bar</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/scene-menu-bar</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): remotion-to-hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/remotion-to-hyperframes</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/remotion-to-hyperframes</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 1
-Source: posthog/posthog
-Description: Conventions for adding or editing the SceneMenuBar above a scene's <SceneTitleSection>. Use when adding new menu items, moving items between menus, gating behind feature flags, building a new scene's menubar, or wiring rich inputs (tags, combobox) into the bar.]]></description>
+Installs: 65
+Source: heygen-com/hyperframes
+Description: Translate a Remotion (React-based) video composition into a HyperFrames HTML composition. Use when (1) the user provides Remotion source (`.tsx` files using `useCurrentFrame`, `Sequence`, `AbsoluteFill`, `interpolate`, `spring`, `staticFile`, etc.) and asks to port, convert, or migrate it to HyperFrames; (2) the user pastes a Remotion entry point (`Root.tsx`, `Composition`) and wants HTML; (3) the user links a Remotion repo and asks for the HyperFrames equivalent; (4) the user says "port my Remotion project", "translate this Remotion code", "rewrite as HTML", or "I have a Remotion comp, make it HyperFrames". Skill detects unsupported patterns (useState, useEffect with side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda` features) and recommends the runtime interop escape hatch instead of attempting a lossy translation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): frame-macos-notification]]></title>
-            <link>https://skills.sh/nexu-io/open-design/frame-macos-notification</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:nexu-io/open-design/frame-macos-notification</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): pr-to-video]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/pr-to-video</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/pr-to-video</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 1
-Source: nexu-io/open-design
-Description: 拟真 macOS 通知 banner + app icon + 标题正文, 适合 video overlay / 产品发布预告]]></description>
+Installs: 62
+Source: heygen-com/hyperframes
+Description: pr-to-video workflow - a GitHub pull request (URL like github.com/<owner>/<repo>/pull/<N>, or <owner>/<repo>#<N>, or "this PR" in a checked-out repo) -> ingested PR facts (title, body, diff, commits, files, +/- stats) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> code-diff / before-after / impact explainer video. Input is a CODE CHANGE. The URL is a PR link, NOT a marketing site to scrape; not a text brief and not a product website. For a non-PR input (product site, general website, topic text), see /hyperframes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): limrun-gradle]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-gradle</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:limrun-inc/skills/limrun-gradle</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): agent-browser]]></title>
+            <link>https://skills.sh/skills-101/superpowers/agent-browser</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:skills-101/superpowers/agent-browser</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 1
-Source: limrun-inc/skills
-Description: Build an Android app on a remote Gradle sandbox with `lim gradle build` instead of local Gradle or Android Studio, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to build an APK or AAB, sign a release with an upload key, or prepare a Play Store publish, for native Android projects, React Native, and Expo. To run, tap, screenshot, or otherwise interact with the built APK on an emulator, use the `lim android` commands shown here. For iOS builds, use limrun-xcode or limrun-expo-development.]]></description>
+Installs: 167
+Source: skills-101/superpowers
+Description: Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): isolating-product-facade-contracts]]></title>
-            <link>https://skills.sh/posthog/posthog/isolating-product-facade-contracts</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/isolating-product-facade-contracts</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): stitch-design-taste]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/stitch-design-taste</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/stitch-design-taste</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 1
-Source: posthog/posthog
-Description: Plan and execute incremental product isolation migrations to a facade plus contract layer in PostHog, following the Visual review architecture. Use when a product still exposes internals (models/logic/views) across boundaries and needs a safe, multi-PR migration toward contracts.py + facade/api.py + presentation separation.]]></description>
+Installs: 71
+Source: leonxlnx/taste-skill
+Description: Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): limrun-expo-development]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-expo-development</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:limrun-inc/skills/limrun-expo-development</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): imagegen-frontend-web]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/imagegen-frontend-web</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/imagegen-frontend-web</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 1
-Source: limrun-inc/skills
-Description: Prepare and run Expo / React Native apps on Limrun with Expo dev-client iteration. Use when the user wants an Expo dev build, Metro tunnel, hot reload, JS/TS iteration without repeated native rebuilds, or to run/test an Expo app on a remote iOS simulator.]]></description>
+Installs: 74
+Source: leonxlnx/taste-skill
+Description: Elite frontend image-direction skill for generating premium, artistic, implementation-friendly website design references. Uses combinatorial variation to avoid repetitive AI aesthetics, enforces cinematic hero minimalism, strong hierarchy, generous spacing, image-led composition, and anti-slop visual discipline. Optimized for hero sections, landing pages, and multi-section site comps that developers or coding models can accurately recreate.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): hogli]]></title>
-            <link>https://skills.sh/posthog/posthog/hogli</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/hogli</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-eval]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 1
-Source: posthog/posthog
-Description: PostHog developer CLI and repo tooling reference. Use when the user mentions hogli, asks about repo CLI tools, bin scripts, Makefiles, how to run/build/test/lint, or any dev environment commands.]]></description>
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): django-startup-time]]></title>
-            <link>https://skills.sh/posthog/posthog/django-startup-time</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/django-startup-time</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): industrial-brutalist-ui]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/industrial-brutalist-ui</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/industrial-brutalist-ui</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 1
-Source: posthog/posthog
-Description: Keep heavy imports off the django.setup() path that every process (web, celery, temporal, migrate, shell, CI) pays for. Use when touching AppConfig.ready(), wiring signal receivers, editing the lazy API router (posthog/api/rest_router.py or its __init__.py shim), deferring a heavy import, when the startup-import-budget guard fails, or when merging master into a long-lived branch that made the router lazy.]]></description>
+Installs: 70
+Source: leonxlnx/taste-skill
+Description: Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dashboards, portfolios, or editorial sites that need to feel like declassified blueprints.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): writing-tests]]></title>
-            <link>https://skills.sh/posthog/posthog/writing-tests</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/writing-tests</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #41
-Installs: 1
-Source: posthog/posthog
-Description: Gates whether a new test should exist and forces it to be efficient, protecting CI from low-value test bloat. Use before adding or substantially changing any pytest, Jest, or Playwright test — whenever an agent or engineer is about to write tests for a new feature, bugfix, or PR. Front-loads the value bar (every test must catch a realistic regression no existing test already catches; test behavior through the public interface, not implementation details; collapse near-duplicates into parameterized cases) and the efficiency bar (deterministic, isolated, fast; pick the cheapest test level; Django TestCase over TransactionTestCase; no sleeps, no real network). Includes a "don't write it" decision tree. For fixing an existing flaky test use `/fixing-flaky-tests`; after this gate says a Playwright test is warranted, use `/playwright-test` for mechanics.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#42): adding-project-secret-api-key-auth]]></title>
-            <link>https://skills.sh/posthog/posthog/adding-project-secret-api-key-auth</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/adding-project-secret-api-key-auth</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): redesign-existing-projects]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/redesign-existing-projects</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/redesign-existing-projects</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 1
-Source: posthog/posthog
-Description: How to gate a PostHog API endpoint with project secret API key (PSAK) auth — a project-scoped, user-less service credential. Use when adding PSAK support to a viewset action, allowing a new scope for PSAKs, handling synthetic users (ProjectSecretAPIKeyUser), or choosing PSAK-aware rate throttles. Trigger terms: PSAK, ProjectSecretAPIKey, project secret API key, phs_ token, service auth, programmatic endpoint auth.]]></description>
+Installs: 79
+Source: leonxlnx/taste-skill
+Description: Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): implementing-mcp-tools]]></title>
-            <link>https://skills.sh/posthog/posthog/implementing-mcp-tools</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/implementing-mcp-tools</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): minimalist-ui]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/minimalist-ui</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/minimalist-ui</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 1
-Source: posthog/posthog
-Description: Guide for exposing PostHog product endpoints as MCP tools. Use when creating new or updating API endpoints, adding MCP tool definitions, scaffolding YAML configs, or writing serializers with good descriptions. Covers the full pipeline from Django serializer to generated TypeScript tool handler.]]></description>
+Installs: 73
+Source: leonxlnx/taste-skill
+Description: Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): debugging-ci-failures]]></title>
-            <link>https://skills.sh/posthog/posthog/debugging-ci-failures</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/debugging-ci-failures</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): full-output-enforcement]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/full-output-enforcement</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/full-output-enforcement</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 1
-Source: posthog/posthog
-Description: Debugs failing GitHub Actions CI runs for PostHog PRs, commits, and branches, and answers broad CI-health questions ("is CI red?", "is master green today?", "what's broken right now?"). Use when the user asks why CI is red, asks for the current CI or master status, or mentions a failing check, GitHub Actions run, Depot runner, workflow, job, shard, flaky test, lint failure, typecheck failure, snapshot diff, migration check, generated types drift, or skills build failure. Start with the `hogli ci:insights` digest (aggregated cross-run CI intelligence), then guides read-only inspection, failure classification, smallest local reproduction with hogli, and safe reporting without rerunning CI or posting to GitHub.]]></description>
+Installs: 72
+Source: leonxlnx/taste-skill
+Description: Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): fixing-flaky-tests]]></title>
-            <link>https://skills.sh/posthog/posthog/fixing-flaky-tests</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/fixing-flaky-tests</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): gpt-taste]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/gpt-taste</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/gpt-taste</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 1
-Source: posthog/posthog
-Description: Guides an agent through reproducing, root-causing, fixing, and validating flaky tests in the PostHog monorepo. Use when a test fails intermittently in CI but passes on rerun or locally, when `hogli ci:insights` or the debugging-ci-failures skill classifies a failure as a flaky test, when given a GitHub Actions URL for a flaky job, or when asked to deflake, stabilize, or fix a flaky Jest, pytest, or Playwright test. Core discipline: reproduce locally before changing anything, fix the root cause (never mask it with sleeps, retries, or bigger timeouts), and prove the fix with an N-run validation loop sized to the observed failure rate.]]></description>
+Installs: 72
+Source: leonxlnx/taste-skill
+Description: Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): implementing-mcp-ui-apps]]></title>
-            <link>https://skills.sh/posthog/posthog/implementing-mcp-ui-apps</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/implementing-mcp-ui-apps</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): lark-wiki]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-wiki</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:larksuite/cli/lark-wiki</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 1
-Source: posthog/posthog
-Description: Guide for adding MCP UI apps — interactive visualizations that render tool results in MCP clients like Claude Desktop. Use when adding a new detail or list view for an MCP tool, creating view components in products/*/mcp/apps/, or linking tools to UI apps via YAML.]]></description>
+Installs: 27
+Source: larksuite/cli
+Description: 飞书知识库：管理知识空间和文档节点。创建和查询知识空间、管理节点层级结构、在知识库中组织文档和快捷方式。当用户需要在知识库中查找或创建文档、浏览知识空间结构、移动或复制节点时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): implementing-warehouse-sources]]></title>
-            <link>https://skills.sh/posthog/posthog/implementing-warehouse-sources</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/implementing-warehouse-sources</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): ip-as-logo]]></title>
+            <link>https://skills.sh/s1dashu/ip-as-logo-skill/ip-as-logo</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:s1dashu/ip-as-logo-skill/ip-as-logo</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 1
-Source: posthog/posthog
-Description: Implement and extend PostHog Data warehouse import sources. Use when adding a new source under posthog/temporal/data_imports/sources, adding datasets/endpoints to an existing source, or adding incremental sync support, pagination, credentials validation, and source tests.]]></description>
+Installs: 15
+Source: s1dashu/ip-as-logo-skill
+Description: Generate highly simplified personified IP mascot logos with Flat-first geometry, rounded heavy forms, two IP colors plus one background color by default, and continuous-gradient neo-skeuomorphic micro-volume. Use when creating an animal, creature, robot, ghost, plant, object, or other character as a minimal square logo or app-icon artwork, including when the agent should infer three product-relevant directions and propose six independent candidates for approval.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): youtube-full]]></title>
-            <link>https://skills.sh/zeropointrepo/youtube-skills/youtube-full</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:zeropointrepo/youtube-skills/youtube-full</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): image-to-code]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/image-to-code</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:leonxlnx/taste-skill/image-to-code</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 1
-Source: zeropointrepo/youtube-skills
-Description: Complete YouTube toolkit — transcripts, search, channels, playlists, and metadata all in one skill. Use when you need comprehensive YouTube access, want to search and then get transcripts, browse channel content, work with playlists, or need the full suite of YouTube data endpoints. The all-in-one YouTube skill for agents.]]></description>
+Installs: 72
+Source: leonxlnx/taste-skill
+Description: Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): academic-search]]></title>
-            <link>https://skills.sh/claude-office-skills/skills/academic-search</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:claude-office-skills/skills/academic-search</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): webapp-testing]]></title>
+            <link>https://skills.sh/anthropics/skills/webapp-testing</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:anthropics/skills/webapp-testing</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 1
-Source: claude-office-skills/skills
-Description: Search and analyze academic literature. Find papers, understand research methodologies, and synthesize academic findings for research projects.]]></description>
+Installs: 32
+Source: anthropics/skills
+Description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): data-visualization]]></title>
-            <link>https://skills.sh/anthropics/knowledge-work-plugins/data-visualization</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:anthropics/knowledge-work-plugins/data-visualization</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-publish]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 1
-Source: anthropics/knowledge-work-plugins
-Description: Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choosing the right chart type for a dataset, creating publication-quality figures, or applying design principles like accessibility and color theory.]]></description>
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): visualizing-change-over-time]]></title>
-            <link>https://skills.sh/posthog/posthog/visualizing-change-over-time</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:posthog/posthog/visualizing-change-over-time</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): lark-shared]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-shared</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:larksuite/cli/lark-shared</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 1
-Source: posthog/posthog
-Description: Helps PostHog engineers and agents pick the right chart when a request is about visualizing change over time, before/after comparisons, or period-over-period movement while building UI with @posthog/quill-charts (dashboards, reports, the mcp_analytics frontend, custom visualizations). Use when a user asks how something "changed", "moved", "grew", "dropped", "improved", or "regressed" between two points or periods, or mentions "before/after", "period over period", "week over week", "delta", "slope graph", "slopegraph", or comparing many series across two snapshots. Surfaces both the `SlopeChart` quill component and the native `ChartDisplayType.SlopeGraph` insight display as options.]]></description>
+Installs: 27
+Source: larksuite/cli
+Description: 飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): social-reddit-card]]></title>
-            <link>https://skills.sh/nexu-io/open-design/social-reddit-card</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:nexu-io/open-design/social-reddit-card</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-workflow]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 1
-Source: nexu-io/open-design
-Description: 拟真 Reddit 帖子卡 + 上下投票 + 评论数, 适合视频叠加 / 故事分享]]></description>
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): limrun-xcode-bazel]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode-bazel</link>
-            <guid isPermaLink="false">2026-08-18T01:09:25.123Z:topHot:new:limrun-inc/skills/limrun-xcode-bazel</guid>
-            <pubDate>Tue, 18 Aug 2026 01:09:25 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-deploy]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 1
-Source: limrun-inc/skills
-Description: Build a Bazel-based iOS / macOS / Apple app on Limrun's remote build execution (RBE) instead of a local Mac, and install it on a remote iOS simulator. Use when the project is a Bazel workspace (MODULE.bazel / WORKSPACE) building rules_apple / rules_swift targets and the user wants to `bazel build` it or run it on a simulator, or when a `--config=limrun` build or install misbehaves. To then tap, type, screenshot, or otherwise interact with the running app, use limrun-ios-simulator. For non-Bazel (plain xcodebuild) projects use limrun-xcode instead.]]></description>
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#8): google-agents-cli-scaffold]]></title>
+            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #8
+Installs: 125
+Source: google/agents-cli
+Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): hyperframes-creative]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-creative</link>
+            <guid isPermaLink="false">2026-08-19T01:10:29.647Z:topHot:new:heygen-com/hyperframes/hyperframes-creative</guid>
+            <pubDate>Wed, 19 Aug 2026 01:10:29 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 166
+Source: heygen-com/hyperframes
+Description: Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.]]></description>
         </item>
     </channel>
 </rss>
