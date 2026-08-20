@@ -1,0 +1,7 @@
+Utilice esta habilidad para crear, editar y validar diagramas de procesos BPMN 2.0 para Camunda 8 (Zeebe).
+
+Úselo para: nuevos procesos BPMN, modificar diagramas existentes, agregar tareas/puertas de enlace/eventos/subprocesos, configurar extensiones Zeebe (taskDefinition, ioMapping, características de bucle), validar BPMN XML.
+
+No lo use para: escribir expresiones FEEL dentro de BPMN (use camunda-feel), diseñar esquemas de formulario (use camunda-forms) o implementar y ejecutar procesos (use camunda-process-mgmt).
+
+**Habilidad de flujo de trabajo**: creación BPMN de varios pasos. Cubre c8ctl bpmn lint para validación.
