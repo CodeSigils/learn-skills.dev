@@ -1,0 +1,1 @@
+Manual-only graded review gate for a finished change: risk grade, one simplify pass, one graded LLM review round, one material correction batch, then a receipt. Leaves a clean local HEAD and never pushes, opens, or merges anything. Invoke only when the user explicitly names review-it or an explicitly invoked workflow delegates its graded gate.

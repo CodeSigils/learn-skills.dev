@@ -1,0 +1,1 @@
+Refactor Kotlin code toward clearer, more idiomatic design without breaking Spring behavior, serialization, persistence, or public contracts. Use when Java-flavored Kotlin needs cleanup, domain modeling should become more expressive, or boilerplate should be reduced, but the refactoring must remain safe for proxies, Jackson, JPA, configuration binding, and existing tests.
