@@ -1,0 +1,7 @@
+このスキルを使用して、Camunda 8 (Zeebe) の BPMN 2.0 プロセス図を作成、編集、検証します。
+
+用途: 新しい BPMN プロセス、既存の図の変更、タスク/ゲートウェイ/イベント/サブプロセスの追加、Zeebe 拡張機能 (taskDefinition、ioMapping、ループ特性) の構成、BPMN XML の検証。
+
+BPMN 内での FEEL 式の作成 (camunda-feel を使用)、フォーム スキーマの設計 (camunda-forms を使用)、またはプロセスのデプロイと実行 (camunda-process-mgmt を使用) には使用しないでください。
+
+**ワークフロー スキル** — マルチステップの BPMN オーサリング。検証のために c8ctl bpmn lint をカバーします。
