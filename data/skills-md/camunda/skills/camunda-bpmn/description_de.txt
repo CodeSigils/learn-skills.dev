@@ -1,0 +1,7 @@
+Verwenden Sie diese Fähigkeit, um BPMN 2.0-Prozessdiagramme für Camunda 8 (Zeebe) zu erstellen, zu bearbeiten und zu validieren.
+
+Verwendung für: neue BPMN-Prozesse, Änderung vorhandener Diagramme, Hinzufügen von Aufgaben/Gateways/Ereignissen/Unterprozessen, Konfiguration von Zeebe-Erweiterungen (taskDefinition, ioMapping, Schleifeneigenschaften), Validierung von BPMN-XML.
+
+Nicht verwenden für: das Schreiben von FEEL-Ausdrücken in BPMN (verwenden Sie camunda-feel), das Entwerfen von Formularschemata (verwenden Sie camunda-forms) oder das Bereitstellen und Ausführen von Prozessen (verwenden Sie camunda-process-mgmt).
+
+**Workflow-Fähigkeit** – mehrstufiges BPMN-Authoring. Deckt c8ctl bpmn lint zur Validierung ab.
