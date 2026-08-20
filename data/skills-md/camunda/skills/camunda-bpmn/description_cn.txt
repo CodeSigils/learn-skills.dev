@@ -1,0 +1,7 @@
+使用此技能为 Camunda 8 (Zeebe) 创建、编辑和验证 BPMN 2.0 流程图。
+
+用于：新的 BPMN 流程、修改现有图表、添加任务/网关/事件/子流程、配置 Zeebe 扩展（任务定义、ioMapping、循环特征）、验证 BPMN XML。
+
+请勿用于：在 BPMN 内编写 FEEL 表达式（使用 camunda-feel）、设计表单模式（使用 camunda-forms）或部署和运行流程（使用 camunda-process-mgmt）。
+
+**工作流程技能** — 多步骤 BPMN 创作。涵盖 c8ctl bpmn lint 进行验证。

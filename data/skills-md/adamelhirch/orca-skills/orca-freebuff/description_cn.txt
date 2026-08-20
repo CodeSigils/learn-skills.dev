@@ -1,0 +1,1 @@
+将任务分派给免费（广告支持的）Freebuff 编码代理作为终端驱动的 TUI 工作人员 — freebuff.com CLI 没有无头模式，因此编排器在任务工作树终端中启动它，使用完成标记合约注入任务提示，轮询终端读取标记，并从驾驶舱模拟worker_done（--from <worker_handle>）。当工作团队应包括零成本代理（DeepSeek V4 Flash 07/31，无限制）以及 opencode/Claude Code 时使用。仅限 Orchestrator 会话。使用 /orca-freebuff 调用。
