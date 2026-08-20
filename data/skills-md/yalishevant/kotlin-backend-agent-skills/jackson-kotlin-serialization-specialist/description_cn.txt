@@ -1,1 +1,1 @@
-诊断和设计Spring应用程序中Kotlin和Jackson的JSON序列化和反序列化行为。当DTO无法反序列化、默认参数或可空性行为出乎意料、日期时间或枚举格式漂移、涉及多态有效负载、补丁语义必须区分NULL和ABSENT ，或ObjectMapper更改存在破坏现有API或消息合约的风险时使用。
+在 Spring 应用程序中诊断和设计 Kotlin 加 Jackson 的 JSON 序列化和反序列化行为。当 DTO 无法反序列化、默认参数或可空性行为异常、日期时间或枚举格式漂移、涉及多态有效负载、PATCH 语义必须区分空值和不存在时使用，或者 ObjectMapper 更改可能会破坏现有 API 或消息契约。
