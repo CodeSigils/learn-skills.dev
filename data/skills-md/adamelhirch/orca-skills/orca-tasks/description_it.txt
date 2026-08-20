@@ -1,0 +1,1 @@
+Trasforma un piano approvato (docs/agents/plan.md) in un'Orca Run e le sue attività con bordi di dipendenza, oltre ai mirror dei problemi del tracker (github o lineare). Crea solo lo spazio dei nomi di orchestrazione: non avvia mai un lavoratore. Solo sessioni dell'orchestratore. Invocare con /orca-tasks.
