@@ -1,0 +1,1 @@
+部署和使用多模式嵌入服务微服务 - 使用预构建的 intel/multimodal-embedding-serving 图像通过 setup.sh + docker compose（从存储库克隆，或者在不存在克隆时从 GitHub 获取相同的文件）启动它，通过端口 9777 上的 REST 嵌入文本/图像/视频，在 19 个模型中进行选择(CLIP/SigLIP/MobileCLIP/CN-CLIP/Blip2/QwenText)，或通过 Python SDK 轮进行进程内集成。当应用需要嵌入来进行相似性搜索或检索时使用。不是为了修改服务的源 - 即 multimodal-embedding-serving-dev。

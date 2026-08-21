@@ -1,4 +1,4 @@
-Obtenga hilos de revisión no resueltos de un PR de GitHub, verifique la validez de cada comentario y luego seleccione solo los comentarios apropiados para editar y confirmar.  
-Manejar los comentarios de todos los revisores (bots y humanos).  
+Obtenga los hilos de revisión no resueltos de un PR de GitHub, verifique la validez de cada comentario y luego seleccione solo los comentarios apropiados para corregirlos y confirmarlos.  
+Procesar comentarios de todos los revisores (bots y humanos).  
 Actívelo en solicitudes como "aplicar la revisión del código", "procesar comentarios de revisión", "aplicar revisión de relaciones públicas", "aplicar comentarios de revisión de relaciones públicas", "manejar comentarios de revisión", "autofix" o "/autofix".  
-En lugar de aplicar comentarios de revisión palabra por palabra, solo aquellos que se consideran apropiados después de la verificación se aplican con la aprobación del usuario (predeterminado) o automáticamente (`--auto`).
+En lugar de aplicar comentarios de revisión palabra por palabra, solo se aplican aquellos que se consideran apropiados después de la verificación, ya sea con la aprobación del usuario (predeterminado) o automáticamente (`--auto`).

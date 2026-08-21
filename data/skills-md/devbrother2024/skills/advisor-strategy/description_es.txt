@@ -1,1 +1,4 @@
-El modelo superior especificado por el usuario se establece como asesor, que consulta en los puntos de decisión de la tarea actual. Se utiliza para revisión antes de confirmar un acercamiento, verificación antes de declarar la finalización y diagnóstico de bloqueos. El modelo de asesor debe ser especificado explícitamente por el usuario cuando lo llame; sin un valor predeterminado, no funciona si no se especifica. Se ejecuta sólo cuando lo invoca el usuario a través de /advisor-strategy.
+Establezca el modelo superior especificado por el usuario como Asesor y haga que consulte en los puntos de decisión del trabajo actual.  
+Úselo para revisión antes de confirmar un acercamiento, verificación antes de declarar la finalización y diagnosticar bloqueos.  
+El modelo de Advisor lo especifica directamente el usuario en el momento de la llamada sin un valor predeterminado; si no se especifica, no funciona.  
+Se ejecuta sólo cuando el usuario lo invoca a través de /advisor‑strategy.

@@ -1,1 +1,4 @@
-Legen Sie das vom Benutzer angegebene übergeordnete Modell als Berater fest und konsultieren Sie an Entscheidungspunkten der aktuellen Aufgabe. Verwenden Sie es zur Überprüfung vor der Bestätigung eines Ansatzes, zur Überprüfung vor der Erklärung des Abschlusses und zur Diagnose von Blockaden. Das Advisor-Modell muss vom Benutzer beim Aufruf explizit und ohne Standard angegeben werden. Ohne Angabe funktioniert es nicht. Es wird nur ausgeführt, wenn der Benutzer es über/advisor-strategy aufruft.
+Legen Sie das vom Benutzer angegebene Topmodell als Berater fest und lassen Sie es an Entscheidungspunkten in der aktuellen Arbeit konsultieren.  
+Verwenden Sie es zur Überprüfung vor der Bestätigung eines Ansatzes, zur Überprüfung vor der Erklärung des Abschlusses und zur Diagnose von Blockaden.  
+Das Advisor-Modell wird vom Benutzer direkt beim Aufruf ohne Vorgabe angegeben; Wenn nicht angegeben, funktioniert es nicht.  
+Es wird nur ausgeführt, wenn der Benutzer es über /advisor-strategy aufruft.

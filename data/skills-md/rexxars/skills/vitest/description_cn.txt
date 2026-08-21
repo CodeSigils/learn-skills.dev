@@ -1,0 +1,1 @@
+在运行 vitest - `vitest`、`npx vitest`、`pnpm vitest`、`npm test`/`pnpm test`/`yarn test` 或调用 vitest 二进制文件的任何命令之前使用 - 以及在编写或编辑涉及环境变量、全局变量或对捕获的错误进行断言的 vitest 测试时使用。防止挂在监视模式下，重新运行套件只是为了重新过滤其输出，在并行工作人员之间改变“process.env”，以及隐藏实际破坏测试的错误的断言。
