@@ -1,0 +1,12 @@
+Mueva pedidos de cumplimiento entre ubicaciones de forma masiva. Acepta un archivo plano
+(XLSX/CSV) de números de pedido, o una lista de ID de producto/SKU para orientar cada
+FO que contiene esos artículos. Mueve todas las líneas de pedido de cumplimiento coincidentes
+de un lugar a otro.
+
+Maneja todo el flujo de trabajo: descubrimiento de ubicación, comprobaciones de estado, cancelación
+solicitudes para procesar FO, ejecución de movimientos e informes de resultados.
+
+Úselo cuando: "órdenes de movimiento masivo", "órdenes de cumplimiento de movimiento", "órdenes de transferencia"
+a nuevo almacén", "cambiar ubicación de cumplimiento", "mover todos los FO para SKU X",
+o cuando un archivo plano de números de pedido o una lista de productos/SKU necesita ubicación
+reasignación.
