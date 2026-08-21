@@ -1,4 +1,4 @@
-Fetch the unresolved review threads of a GitHub PR, verify the validity of each comment, and then select only the appropriate remarks to fix and commit.  
-Process comments from all reviewers (bots and humans).  
-Activate on requests such as “apply the code review,” “process review comments,” “apply PR review,” “apply PR review comments,” “handle review feedback,” “autofix,” or “/autofix.”  
-Instead of applying review comments verbatim, only those judged appropriate after verification are applied, either with user approval (default) or automatically (`--auto`).
+Fetch unresolved review threads of a GitHub PR, verify the validity of each comment, and then select only the appropriate remarks to modify and commit.  
+Handle comments from all reviewers (bots and humans).  
+Activate on requests such as “apply code review”, “handle review comments”, “apply PR review”, “apply PR review comments”, “handle review feedback”, “autofix”, “/autofix”.  
+Instead of applying review comments verbatim, only those judged appropriate in verification are reflected with user approval (default) or automatically (`--auto`).

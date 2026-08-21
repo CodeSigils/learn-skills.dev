@@ -1,4 +1,1 @@
-Set the user‑specified top model as the Advisor and have it consult at decision points in the current work.  
-Use it for review before confirming an approach, verification before declaring completion, and diagnosing blockages.  
-The Advisor model is specified directly by the user at call time without a default; if not specified, it does not operate.  
-It runs only when the user invokes it via /advisor‑strategy.
+Set the user-specified higher-level model as the Advisor to consult at decision points of the current task. It is used for review before confirming an approach, verification before declaring completion, and diagnosing blockages. The advisor model must be explicitly specified by the user when called, without a default; it does not operate if unspecified. It runs only when the user invokes it via /advisor‑strategy.
