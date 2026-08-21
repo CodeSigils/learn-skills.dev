@@ -1,0 +1,12 @@
+Sposta gli ordini di evasione tra sedi in blocco. Accetta un file flat
+(XLSX/CSV) di numeri d'ordine o un elenco di ID prodotto/SKU da scegliere come target
+FO contenente tali elementi. Sposta tutte le voci dell'ordine di evasione corrispondenti
+da una posizione all'altra.
+
+Gestisce l'intero flusso di lavoro: rilevamento della posizione, controlli dello stato, cancellazione
+richieste di elaborazione di FO, esecuzione dello spostamento e reporting dei risultati.
+
+Utilizzare quando: "spostamento di ordini in blocco", "spostamento di ordini di evasione", "ordini di trasferimento".
+nel nuovo magazzino", "cambia sede di evasione", "sposta tutti gli FO per lo SKU X",
+o quando è necessario localizzare un file flat di numeri d'ordine o un elenco di prodotti/SKU
+riassegnazione.
