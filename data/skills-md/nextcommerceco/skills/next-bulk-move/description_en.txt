@@ -1,0 +1,12 @@
+Move fulfillment orders between locations in bulk. Accepts either a flat file
+(XLSX/CSV) of order numbers, or a list of Product IDs / SKUs to target every
+FO containing those items. Moves all matching fulfillment order line items
+from one location to another.
+
+Handles the full workflow: location discovery, status checks, cancellation
+requests for processing FOs, move execution, and results reporting.
+
+Use when: "bulk move orders", "move fulfillment orders", "transfer orders
+to new warehouse", "change fulfillment location", "move all FOs for SKU X",
+or when a flat file of order numbers or a product/SKU list needs location
+reassignment.
