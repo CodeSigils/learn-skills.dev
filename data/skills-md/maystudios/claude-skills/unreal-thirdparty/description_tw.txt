@@ -1,0 +1,1 @@
+將第三方 C/C++ 函式庫整合到虛幻引擎 5.x 專案和外掛程式中的專家指南。涵蓋靜態連結、動態連結 (DLL/SO/dylib)、Build.cs 配置、ModuleType.External、延遲載入、執行時間依賴項暫存、包裝模式、跨平台注意事項 (Windows/macOS/Linux)、ABI 相容性、RTTI/異常、包含 THIRD_PARTY_INCLUDES_START/END 的標頭以及常見陷阱。當使用者詢問新增外部函式庫、第三方程式碼、連結 .lib/.a/.dll/.so/.dylib 檔案、Build.cs PublicAdditionalLibraries、PublicDelayLoadDLLs、RuntimeDependency、ModuleType.External、包裝 UE 的 C++ 程式庫、「載入失敗時使用。

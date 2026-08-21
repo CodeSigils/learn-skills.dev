@@ -1,0 +1,1 @@
+部署和使用多模式嵌入服務微服務 - 使用預先建置的 intel/multimodal-embedding-serving 映像透過 setup.sh + docker compose（從儲存庫克隆，或在不存在克隆時從 GitHub 取得相同的檔案）啟動它，透過連接埠 9777 上的 REST 嵌入文字/影像個模型中進行選擇(CLIP/SigLIP/MobileCLIP/CN-CLIP/Blip2/QwenText)，或透過 Python SDK 輪進行進程內整合。當應用程式需要嵌入來進行相似性搜尋或檢索時使用。不是為了修改服務的來源 - 即 multimodal-embedding-serving-dev。

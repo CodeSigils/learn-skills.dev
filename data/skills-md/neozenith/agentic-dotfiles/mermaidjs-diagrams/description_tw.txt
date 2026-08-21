@@ -1,0 +1,1 @@
+渲染並分析 Markdown 文件中嵌入的 Mermaid.JS 圖表。透過自動分析強制執行視覺複雜性限制和 WCAG 色彩對比要求。每個圖表必須從“resources/color_theming.md”派生其調色板，並在聲明完成之前傳遞“scripts/mermaid_contrast.ts”。在創建或更新架構圖、分析圖複雜度、提高文件清晰度或探索程式碼庫以產生自述文件的雙密度架構圖時使用。
