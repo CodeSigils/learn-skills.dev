@@ -1,0 +1,8 @@
+YouTube creator discovery and evaluation via unified host MCP `topview-mcp`
+(progressive disclosure: use_youtube_kol → get_tool_schema → call_tool;
+deferred youtube_kol_* tools from Topview's owned youtubeagent pool).
+Use when: find YouTube creators, channel detail, competitor creators,
+collaboration quote references from Topview's owned pool.
+NOT for: Amazon/Shopee/TikTok Shop data, Modash Instagram/YouTube
+creator-discovery MCP, or media generation (use other topview-*-ops
+or topview-generate).

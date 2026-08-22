@@ -4,579 +4,583 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Fri, 21 Aug 2026 01:13:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 01:09:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-21)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-22)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:snapshot</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:snapshot</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8109
-Trending skills: 7911
-Hot skills: 5046
-Top All Time: find-skills (3037897)
-Top Trending: ai-video-generation (22110)
-Top Hot: explore-code (239)]]></description>
+All Time skills: 8129
+Trending skills: 8035
+Hot skills: 1139
+Top All Time: find-skills (3053510)
+Top Trending: ai-video-generation (22329)
+Top Hot: ai-video-generation (87)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): explore-code]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-code</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/explore-code</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#47): hyperframes-cli]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topAllTime:new:heygen-com/hyperframes/hyperframes-cli</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #47
+Installs: 418291
+Source: heygen-com/hyperframes
+Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): ai-video-generation]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-video-generation</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-video-generation</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve implementation leaf skill for auditable candidate implementation in deep learning research repositories. Use when the researcher explicitly authorizes exploratory work on an isolated branch or worktree to transplant modules, adapt a backbone, add LoRA or adapter layers, replace a head, or stitch together meaningful low-risk migration ideas with rollback-aware records in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline reproduction, conservative debugging, environment setup, verified contribution claims, or default repository analysis.]]></description>
+Installs: 87
+Source: genmedia-labs/skills
+Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): paper-context-resolver]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/paper-context-resolver</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/paper-context-resolver</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): write-swift]]></title>
+            <link>https://skills.sh/emilkowalski/skills/write-swift</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:emilkowalski/skills/write-swift</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default.]]></description>
+Installs: 4
+Source: emilkowalski/skills
+Description: How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): explore-run]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/explore-run</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/explore-run</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): lark-meeting]]></title>
+            <link>https://skills.sh/larksuite/cli/lark-meeting</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:larksuite/cli/lark-meeting</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Improve / Rigor Explore run leaf skill for bounded exploratory evidence in deep learning research repositories. Use when the researcher explicitly authorizes exploratory runs such as small-subset validation, short-cycle guess-and-check, batch sweeps, idle-GPU search, or quick transfer-learning trials, with fair-comparison caveats and no-overclaim summaries in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline execution, conservative training verification, default routing, verified SOTA claims, or implicit experimentation.]]></description>
+Installs: 3
+Source: larksuite/cli
+Description: 飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): claude-handoff]]></title>
-            <link>https://skills.sh/mattpocock/skills/claude-handoff</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/claude-handoff</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): instagram-api]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/instagram-api</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fetcher-sh/fetcher-skills/instagram-api</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 171
-Source: mattpocock/skills
-Description: Hand the current conversation off to a fresh background agent that picks up the work immediately.]]></description>
+Installs: 2
+Source: fetcher-sh/fetcher-skills
+Description: An Instagram API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no session cookies. Use when the user wants to resolve an Instagram profile by @handle, search users by keyword, pull a profile's posts, reels, stories, tagged posts, followers, or followings, look up a single post by its shortcode, read a post's comments, fetch posts under a hashtag or reel-only hashtag feed, pull posts from a location, or pull posts using a specific audio/music track. Also covers Instagram follower export, hashtag and location monitoring, influencer discovery, competitor content tracking, and Instagram data pipelines without an official Graph API business verification or a headless browser.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): migrate-to-shoehorn]]></title>
-            <link>https://skills.sh/mattpocock/skills/migrate-to-shoehorn</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/migrate-to-shoehorn</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): generative-ai-search]]></title>
+            <link>https://skills.sh/myehia565/google-seo-agent-skills/generative-ai-search</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/generative-ai-search</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 156
-Source: mattpocock/skills
-Description: Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.]]></description>
+Installs: 1
+Source: myehia565/google-seo-agent-skills
+Description: Applies official Google guidance for generative AI search features and AI-generated content. Use when optimizing for AI surfaces or reviewing AI-assisted pages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): scaffold-exercises]]></title>
-            <link>https://skills.sh/mattpocock/skills/scaffold-exercises</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/scaffold-exercises</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): extension-create]]></title>
+            <link>https://skills.sh/quangpl/browser-extension-skills/extension-create</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-create</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 156
-Source: mattpocock/skills
-Description: Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.]]></description>
+Installs: 1
+Source: quangpl/browser-extension-skills
+Description: Auto-scaffold Chrome extensions with WXT or Plasmo. Ask user for name/features, scaffold, configure entrypoints. Use when: create extension, scaffold, new extension.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): setup-ts-deep-modules]]></title>
-            <link>https://skills.sh/mattpocock/skills/setup-ts-deep-modules</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/setup-ts-deep-modules</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): memory-defrag]]></title>
+            <link>https://skills.sh/basicmachines-co/basic-memory/memory-defrag</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-defrag</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 160
-Source: mattpocock/skills
-Description: Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked.]]></description>
+Installs: 1
+Source: basicmachines-co/basic-memory
+Description: Defragment and reorganize agent memory files: split bloated files, merge duplicates, remove stale information, and restructure the memory hierarchy. Use when memory files have grown unwieldy, contain redundancies, or need reorganization. Run periodically (weekly) or on demand.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): grilling]]></title>
-            <link>https://skills.sh/mattpocock/skills/grilling</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/grilling</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): officecli-academic-paper]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-academic-paper</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-academic-paper</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 286
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill to build academic-style .docx output: journal / conference / thesis chapters carrying formal citation style (APA, Chicago, IEEE, MLA), numbered equations, figure & table cross-references, footnotes/endnotes, bibliography, or multi-column journal layout. Trigger on: 'research paper', 'journal paper', 'conference paper', 'manuscript', 'thesis', 'APA', 'MLA', 'Chicago', 'IEEE two-column', 'bibliography', 'hanging indent', 'citation style', 'abstract + keywords', 'equation numbering', 'cross-reference', paper with footnotes/endnotes. Output is a single .docx.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): writing-beats]]></title>
-            <link>https://skills.sh/mattpocock/skills/writing-beats</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/writing-beats</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): watchos-design-guidelines]]></title>
+            <link>https://skills.sh/ehmo/platform-design-skills/watchos-design-guidelines</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/watchos-design-guidelines</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 164
-Source: mattpocock/skills
-Description: Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument.]]></description>
+Installs: 1
+Source: ehmo/platform-design-skills
+Description: Apple Human Interface Guidelines for Apple Watch. Use when building watchOS apps, complications, or workout features. Triggers on tasks involving Watch UI, Digital Crown, glanceable interfaces, or wrist-based interactions.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): writing-fragments]]></title>
-            <link>https://skills.sh/mattpocock/skills/writing-fragments</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/writing-fragments</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): local-whisper]]></title>
+            <link>https://skills.sh/thinkfleetai/thinkfleet-engine/local-whisper</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:thinkfleetai/thinkfleet-engine/local-whisper</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 164
-Source: mattpocock/skills
-Description: Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions "fragments", "ideate", or "raw material" for writing.]]></description>
+Installs: 1
+Source: thinkfleetai/thinkfleet-engine
+Description: Local speech-to-text using OpenAI Whisper. Runs fully offline after model download. High quality transcription with multiple model sizes.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): loop-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/loop-me</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/loop-me</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): memory-ingest]]></title>
+            <link>https://skills.sh/basicmachines-co/basic-memory/memory-ingest</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-ingest</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 164
-Source: mattpocock/skills
-Description: Grill me about specs for the workflows I want to build, within this workspace.]]></description>
+Installs: 1
+Source: basicmachines-co/basic-memory
+Description: Process unstructured external input (meeting transcripts, conversation logs, pasted documents) into structured Basic Memory entities. Extracts entities, searches for existing matches, proposes new entities with approval, creates notes with observations and relations, and captures action items.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): run-train]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/run-train</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/run-train</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): image-to-video]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/image-to-video</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/image-to-video</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Train skill for deep learning research repositories. Use when a documented or selected training command should be run conservatively for startup verification, short-run verification, full kickoff, or resume, with command, config, seed, log, checkpoint, status, and metric evidence written to standardized `train_outputs/`. Do not use for environment setup, exploratory sweeps, speculative idea implementation, or end-to-end orchestration.]]></description>
+Installs: 84
+Source: genmedia-labs/skills
+Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): writing-shape]]></title>
-            <link>https://skills.sh/mattpocock/skills/writing-shape</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/writing-shape</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): officecli-word-form]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-word-form</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-word-form</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 162
-Source: mattpocock/skills
-Description: Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill to create fillable Word forms (.docx) with real Content Controls (SDT) + legacy FormField checkboxes + MERGEFIELD mail-merge placeholders + document protection. Trigger on: 'fillable form', 'form fields', 'content controls', 'SDT', 'word form', 'fill in', 'only editable fields', 'protect document', 'onboarding form', 'HR intake', 'survey template', 'contract / SOW template', 'mail-merge template', 'compliance checklist', 'medical intake questionnaire'. Output is a single .docx where specific fields are editable and the rest is locked. This skill is INDEPENDENT, not a scene layer on docx — payload is `<w:sdt>` + `<w:ffData>` + `<w:fldChar>` + `documentProtection`, none of which docx base skill covers. Do NOT trigger for regular reports, letters, memos, academic papers, pitch decks, or any document with no user-fillable fields — route those to officecli-docx or its scene layers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): setup-pre-commit]]></title>
-            <link>https://skills.sh/mattpocock/skills/setup-pre-commit</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/setup-pre-commit</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): edu-solid-geometry]]></title>
+            <link>https://skills.sh/wy51ai/edulab/edu-solid-geometry</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:wy51ai/edulab/edu-solid-geometry</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 162
-Source: mattpocock/skills
-Description: Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.]]></description>
+Installs: 1
+Source: wy51ai/edulab
+Description: 把一道立体几何题解成一个自包含的交互教学网页：左侧 MathJax 分步解析， 右侧 Three.js 可交互 3D 模型（分步高亮 + 镜头切换）。支持三种入口——给定文字题目、 随机出题、上传题目图片识别后解题。覆盖正方体/长方体、棱锥/棱柱、圆柱/圆锥上的线面角、 二面角、异面直线夹角、点到平面距离、体积等题型，统一用"建系+向量法"，并由 sympy 精确 计算驱动（答案、3D 坐标、步骤数值同源一致）。其他 agent 也可调用本技能生成此类网页。 触发词：立体几何, 线面角, 二面角, 异面直线, 点到平面距离, 正四棱锥, 正方体求角, 解这道几何题, 随机出一道立体几何题, 这张图里的立体几何题; solid geometry, line-plane angle, dihedral angle, angle between skew lines, distance to plane, interactive geometry solution page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): grill-with-docs]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-with-docs</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/grill-with-docs</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): memory-reflect]]></title>
+            <link>https://skills.sh/basicmachines-co/basic-memory/memory-reflect</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-reflect</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 247
-Source: mattpocock/skills
-Description: Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.]]></description>
+Installs: 1
+Source: basicmachines-co/basic-memory
+Description: Sleep-time memory reflection: review recent conversations and daily notes, extract insights, and consolidate into long-term memory. Use when triggered by cron, heartbeat, or explicit request to reflect on recent activity. Runs as background processing to improve memory quality over time.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): writing-for-agents]]></title>
-            <link>https://skills.sh/mattpocock/skills/writing-for-agents</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/writing-for-agents</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): html-wireframe]]></title>
+            <link>https://skills.sh/plannotator/effective-html/html-wireframe</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/html-wireframe</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 206
-Source: mattpocock/skills
-Description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.]]></description>
+Installs: 1
+Source: plannotator/effective-html
+Description: Direct-invocation specialist for low-fidelity, self-contained HTML wireframes that test information hierarchy, content, navigation, task flow, and responsive structure before visual design. Use when the user explicitly invokes html-wireframe or the broad html skill routes a wireframe request here. Do not activate independently from a general request. Do not use for polished mockups or production-like interaction; use html-prototype for those.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): wizard]]></title>
-            <link>https://skills.sh/mattpocock/skills/wizard</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/wizard</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): superset-automate]]></title>
+            <link>https://skills.sh/superset-sh/skills/superset-automate</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-automate</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 197
-Source: mattpocock/skills
-Description: Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets.]]></description>
+Installs: 1
+Source: superset-sh/skills
+Description: Turn a recurring chore into a Superset automation — drafts the agent prompt, confirms schedule and target, creates it with the CLI, and reviews the first run together. Use when the user wants a scheduled or recurring agent, a daily/weekly job, or to automate a repeating task with Superset.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): git-guardrails-claude-code]]></title>
-            <link>https://skills.sh/mattpocock/skills/git-guardrails-claude-code</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/git-guardrails-claude-code</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): search-console-ops]]></title>
+            <link>https://skills.sh/myehia565/google-seo-agent-skills/search-console-ops</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/search-console-ops</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 162
-Source: mattpocock/skills
-Description: Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.]]></description>
+Installs: 1
+Source: myehia565/google-seo-agent-skills
+Description: Uses Search Console and search operators to monitor performance and debug drops. Use when investigating traffic changes or validating indexing after deploys.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): ai-video-generation]]></title>
-            <link>https://skills.sh/skills-101/superpowers/ai-video-generation</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:skills-101/superpowers/ai-video-generation</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): superset-feedback]]></title>
+            <link>https://skills.sh/superset-sh/skills/superset-feedback</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-feedback</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 796
-Source: skills-101/superpowers
-Description: Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse]]></description>
+Installs: 1
+Source: superset-sh/skills
+Description: Collect and submit feedback about Superset — bug reports, feature requests, or general feedback — privately to the Superset team or as a public GitHub issue. Use when the user wants to report a Superset bug, request a feature, or send feedback about Superset.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): ai-image-generation]]></title>
-            <link>https://skills.sh/skills-101/superpowers/ai-image-generation</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:skills-101/superpowers/ai-image-generation</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): computer-automation]]></title>
+            <link>https://skills.sh/web-infra-dev/midscene-skills/computer-automation</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:web-infra-dev/midscene-skills/computer-automation</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 795
-Source: skills-101/superpowers
-Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
+Installs: 1
+Source: web-infra-dev/midscene-skills
+Description: Vision-driven desktop automation using Midscene. Control your desktop (macOS, Windows, Linux) with natural language commands.
+Operates entirely from screenshots — no DOM or accessibility labels required. Can interact with all visible elements on screen regardless of technology stack.
+
+⚠️ Takes over the user's real mouse and keyboard. For web apps, prefer "Browser Automation" instead.
+Only use this for desktop-native apps (Electron, Qt, native macOS/Windows/Linux) that cannot run in a browser.
+
+Triggers: open app, press key, desktop, computer, click on screen, type text, screenshot desktop,
+launch application, switch window, desktop automation, control computer, mouse click, keyboard shortcut,
+screen capture, find on screen, read screen, verify window, close app, test Electron app
+
+Powered by Midscene.js (https://midscenejs.com)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): ai-avatar-video]]></title>
-            <link>https://skills.sh/skills-101/superpowers/ai-avatar-video</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:skills-101/superpowers/ai-avatar-video</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): gitops-cluster-debug]]></title>
+            <link>https://skills.sh/fluxcd/agent-skills/gitops-cluster-debug</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fluxcd/agent-skills/gitops-cluster-debug</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 795
-Source: skills-101/superpowers
-Description: Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc]]></description>
+Installs: 1
+Source: fluxcd/agent-skills
+Description: Debug, troubleshoot, diagnose, inspect, and investigate GitOps pipelines on live Kubernetes clusters. Use this skill when users ask about Flux status, HelmRelease failures, Kustomization errors, reconciliation issues, pod logs, controller problems, or cluster debugging — even if they don't explicitly say "debug".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): twitter-automation]]></title>
-            <link>https://skills.sh/skills-101/superpowers/twitter-automation</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:skills-101/superpowers/twitter-automation</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): competitive-analysis]]></title>
+            <link>https://skills.sh/jayrha/agentskills/competitive-analysis</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:jayrha/agentskills/competitive-analysis</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 795
-Source: skills-101/superpowers
-Description: Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet]]></description>
+Installs: 1
+Source: jayrha/agentskills
+Description: Analyzes competitors and market position through structured data collection, feature/pricing comparison matrices, SWOT, positioning maps, and actionable strategic recommendations. Use this skill when the user asks to "analyze competitors", "do a competitive analysis", "compare us against X and Y", "build a competitor matrix", "find our market positioning", "size up the competition", "create a battlecard", or evaluate market gaps and differentiation opportunities.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): safe-debug]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/safe-debug</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/safe-debug</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): ai-image-generation]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-image-generation</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-image-generation</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Debug / Rigor Audit skill for deep learning research work. Use when the user pastes a traceback, terminal error, CUDA OOM, checkpoint load failure, shape mismatch, NaN loss symptom, or training failure and wants conservative diagnosis before any patching, with debug fixes clearly separated from research contributions. Do not use for broad refactoring, speculative adaptation, automatic exploratory patching, or general repository familiarization.]]></description>
+Installs: 82
+Source: genmedia-labs/skills
+Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): to-questionnaire]]></title>
-            <link>https://skills.sh/mattpocock/skills/to-questionnaire</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/to-questionnaire</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): extension-ui]]></title>
+            <link>https://skills.sh/quangpl/browser-extension-skills/extension-ui</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-ui</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #30
+Installs: 1
+Source: quangpl/browser-extension-skills
+Description: Build polished Chrome extension UIs (popup/sidepanel/options). Analyze existing UI, suggest improvements, set up design systems, enforce a11y and UX best practices.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#31): memory-research]]></title>
+            <link>https://skills.sh/basicmachines-co/basic-memory/memory-research</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-research</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 189
-Source: mattpocock/skills
-Description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.]]></description>
+Installs: 1
+Source: basicmachines-co/basic-memory
+Description: Research an external subject using web search, synthesize findings into a structured Basic Memory entity. Use when asked to research a company, person, technology, or topic — or when a bare name or URL is provided that implies a research request.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): wait-what]]></title>
-            <link>https://skills.sh/mattpocock/skills/wait-what</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/wait-what</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): extension-test]]></title>
+            <link>https://skills.sh/quangpl/browser-extension-skills/extension-test</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-test</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 194
-Source: mattpocock/skills
-Description: Stop. That last message did not land — re-pitch it.]]></description>
+Installs: 1
+Source: quangpl/browser-extension-skills
+Description: Set up and run unit, integration, and E2E tests for Chrome extensions. Covers Jest mocks for chrome.* APIs and Puppeteer E2E with real Chrome.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): handoff]]></title>
-            <link>https://skills.sh/mattpocock/skills/handoff</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/handoff</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): github-actions-efficiency]]></title>
+            <link>https://skills.sh/github/awesome-copilot/github-actions-efficiency</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:github/awesome-copilot/github-actions-efficiency</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 225
-Source: mattpocock/skills
-Description: Compact the current conversation into a handoff document for another agent to pick up.]]></description>
+Installs: 1
+Source: github/awesome-copilot
+Description: Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): implement]]></title>
-            <link>https://skills.sh/mattpocock/skills/implement</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/implement</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): brandkit-interview]]></title>
+            <link>https://skills.sh/arnie936/ai-brand-kit/brandkit-interview</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:arnie936/ai-brand-kit/brandkit-interview</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #34
+Installs: 1
+Source: arnie936/ai-brand-kit
+Description: Führt ein hartnäckiges Interview, aus dem eine belastbare Markenbeschreibung entsteht (brand interview, brand identity, design system, visual identity). Fragt Positionierung, Persönlichkeit, Farben, Typografie, Tonfall und Verbotslisten ab und schreibt daraus eine ausführliche Rohfassung. Nutze diesen Skill, sobald jemand eine Marke, ein Brand Kit, ein Designsystem oder eine visuelle Identität erarbeiten will, oder sagt, seine Webseiten und Grafiken sähen beliebig aus.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#35): officecli-financial-model]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-financial-model</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-financial-model</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 196
-Source: mattpocock/skills
-Description: Implement a piece of work based on a PRD or set of issues.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill when the user wants to build a financial model — 3-statement model, DCF valuation, LBO, SaaS unit economics, sensitivity / scenario analysis, debt schedule, or fundraising projections — in Excel. Trigger on: 'financial model', '3-statement model', 'P&L + BS + CF', 'DCF', 'WACC', 'NPV', 'terminal value', 'LBO', 'debt schedule', 'cash sweep', 'MOIC', 'IRR / XIRR', 'sensitivity table', 'scenario analysis', 'ARR model', 'unit economics', 'CAC / LTV', 'cap table forecast'. Output is a single formula-driven .xlsx. This skill is a scene layer on top of officecli-xlsx — it inherits every xlsx v2 rule (4-color code, visual floor, number formats, cache-drift, Known Issues, Delivery Gate minimum cycle). DO NOT invoke for a simple budget tracker, CSV dump, or operational KPI sheet — route those to officecli-xlsx base.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): domain-modeling]]></title>
-            <link>https://skills.sh/mattpocock/skills/domain-modeling</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/domain-modeling</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): macos-design-guidelines]]></title>
+            <link>https://skills.sh/ehmo/platform-design-skills/macos-design-guidelines</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/macos-design-guidelines</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 247
-Source: mattpocock/skills
-Description: Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.]]></description>
+Installs: 1
+Source: ehmo/platform-design-skills
+Description: Apple Human Interface Guidelines for Mac. Use when building macOS apps with SwiftUI or AppKit, implementing menu bars, toolbars, window management, or keyboard shortcuts. Triggers on tasks involving Mac UI, desktop apps, or Mac Catalyst.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): find-skills]]></title>
-            <link>https://skills.sh/vercel-labs/skills/find-skills</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:vercel-labs/skills/find-skills</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): ccd-account-switch]]></title>
+            <link>https://skills.sh/notdp/.dotfiles/ccd-account-switch</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:notdp/.dotfiles/ccd-account-switch</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 454
-Source: vercel-labs/skills
-Description: Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is there a skill that can...", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.]]></description>
+Installs: 1
+Source: notdp/.dotfiles
+Description: 切换 Claude 账号后恢复 Claude Code 桌面版的 session 列表和 scheduled task（routine）。当用户说切了账号、session 不见了、会话列表空了、历史会话没了、routine 消失、定时任务不跑了时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): grill-me]]></title>
-            <link>https://skills.sh/mattpocock/skills/grill-me</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/grill-me</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): ai-native-helpdesk]]></title>
+            <link>https://skills.sh/hou-152/ai-native-helpdesk/ai-native-helpdesk</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:hou-152/ai-native-helpdesk/ai-native-helpdesk</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 299
-Source: mattpocock/skills
-Description: Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions "grill me".]]></description>
+Installs: 1
+Source: hou-152/ai-native-helpdesk
+Description: 面向 AI／Agent／OpenClaw 社区的薄入口 Helpdesk Skill 导航中心。负责守门、判模并按需路由到子 skill（aihd-diagnosis / aihd-good-question / aihd-thinking / aihd-action / aihd-knowledge）。用户不知道该问谁、要查 AI/Agent/OpenClaw 相关经验或需要社区处理经验时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): repo-intake-and-plan]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/repo-intake-and-plan</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/repo-intake-and-plan</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): superset-setup]]></title>
+            <link>https://skills.sh/superset-sh/skills/superset-setup</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-setup</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #39
+Installs: 1
+Source: superset-sh/skills
+Description: Make a repository Superset-ready — author .superset/config.json with setup/teardown/run scripts so every new workspace boots configured, then verify with a real workspace. Use when the user wants to set up a project or repo for Superset, configure workspace setup scripts, or fix a failing workspace setup.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#4): ai-music]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/ai-music</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-music</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration.]]></description>
+Installs: 49
+Source: genmedia-labs/skills
+Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): pr-to-video]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/pr-to-video</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:heygen-com/hyperframes/pr-to-video</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): officecli-docx]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-docx</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-docx</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 81
-Source: heygen-com/hyperframes
-Description: pr-to-video workflow - a GitHub pull request (URL like github.com/<owner>/<repo>/pull/<N>, or <owner>/<repo>#<N>, or "this PR" in a checked-out repo) -> ingested PR facts (title, body, diff, commits, files, +/- stats) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> code-diff / before-after / impact explainer video. Input is a CODE CHANGE. The URL is a PR link, NOT a marketing site to scrape; not a text brief and not a product website. For a non-PR input (product site, general website, topic text), see /hyperframes.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill any time a .docx file is involved -- as input, output, or both. This includes: creating Word documents, reports, letters, memos, or proposals; reading, parsing, or extracting text from any .docx file; editing, modifying, or updating existing documents; working with templates, tracked changes, comments, headers/footers, or tables of contents. Trigger whenever the user mentions 'Word doc', 'document', 'report', 'letter', 'memo', or references a .docx filename.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): wayfinder]]></title>
-            <link>https://skills.sh/mattpocock/skills/wayfinder</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:mattpocock/skills/wayfinder</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): eng-spec]]></title>
+            <link>https://skills.sh/amit-t/skills/eng-spec</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:amit-t/skills/eng-spec</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #41
+Installs: 1
+Source: amit-t/skills
+Description: Convert an approved PRD into TDD + Engineering Spec + ADRs, run a 5-agent engineering panel review (Architect, DB Designer, Principal SWE, SDET, Performance Engineer), fix blockers, approve, and sync to ralph.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#42): avoid-ai-writing]]></title>
+            <link>https://skills.sh/conorbronsdon/avoid-ai-writing/avoid-ai-writing</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:conorbronsdon/avoid-ai-writing/avoid-ai-writing</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 214
-Source: mattpocock/skills
-Description: Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear.]]></description>
+Installs: 1
+Source: conorbronsdon/avoid-ai-writing
+Description: Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this sound less like AI."]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): simplify]]></title>
-            <link>https://skills.sh/brianlovin/agent-config/simplify</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:brianlovin/agent-config/simplify</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): using-google-seo-skills]]></title>
+            <link>https://skills.sh/myehia565/google-seo-agent-skills/using-google-seo-skills</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/using-google-seo-skills</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 29
-Source: brianlovin/agent-config
-Description: Simplify and refine recently modified code for clarity and consistency. Use after writing code to improve readability without changing functionality.]]></description>
+Installs: 1
+Source: myehia565/google-seo-agent-skills
+Description: Discovers and routes Google Search Central–grounded SEO skills. Use when starting a session or deciding which SEO skill applies. Standalone pack — not affiliated with Google.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): limrun-expo-development]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-expo-development</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-expo-development</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): design-artifact]]></title>
+            <link>https://skills.sh/plannotator/effective-html/design-artifact</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/design-artifact</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 29
-Source: limrun-inc/skills
-Description: Prepare and run Expo / React Native apps on Limrun with Expo dev-client iteration. Use when the user wants an Expo dev build, Metro tunnel, hot reload, JS/TS iteration without repeated native rebuilds, or to run/test an Expo app on a remote iOS simulator.]]></description>
+Installs: 1
+Source: plannotator/effective-html
+Description: Design principles and creative direction for building HTML artifacts — pages, reports, plans, landing pages, demos, decks, and small tools. Use when creating or restyling any visual HTML deliverable and deciding its palette, type pairing, layout, theming, or overall register, or when the output must not look generically AI-generated.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): limrun-xcode]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-xcode</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): officecli-pptx]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-pptx</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-pptx</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 29
-Source: limrun-inc/skills
-Description: Build an iOS / Apple app on remote Xcode with `lim xcode build` instead of local xcodebuild, from any environment (Linux, Windows, macOS, VM, container). Use for non-Bazel projects (an `.xcodeproj` / `.xcworkspace`, an XcodeGen `project.yml` with a gitignored project, React Native / Expo native build) when the user wants to build, compile, reload, produce a preview build, or ship a signed device IPA. To run, tap, screenshot, or otherwise interact with the result on a simulator, use limrun-ios-simulator. For Bazel workspaces, use limrun-xcode-bazel.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill any time a .pptx file is involved -- as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file; editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions 'deck', 'slides', 'presentation', 'pitch', or references a .pptx filename.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): limrun-maestro-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-maestro-testing</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-maestro-testing</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): edu-analytic-geometry]]></title>
+            <link>https://skills.sh/wy51ai/edulab/edu-analytic-geometry</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:wy51ai/edulab/edu-analytic-geometry</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 29
-Source: limrun-inc/skills
-Description: Run Maestro YAML flows against a Limrun cloud iOS simulator with `lim ios maestro`, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to run, write, or debug Maestro flows or `maestro test` on iOS, migrate an existing Maestro suite to remote simulators, or asks for UI testing with Maestro. iOS simulators only today. For Detox suites use limrun-detox-testing; for driving the simulator without a test framework use limrun-ios-simulator.]]></description>
+Installs: 1
+Source: wy51ai/edulab
+Description: 把一道解析几何题解成一个自包含的交互教学网页：左栏题面 + 动态控制台（一个 可变参数滑块驱动实时重算的几何量 + 理论范围/定值指示），中栏 KaTeX 分步解析，右栏 2D Canvas 动态几何画板（椭圆/双曲线/抛物线/圆 + 动直线/动点 + 向量 + 标注 + 画笔涂鸦）。 支持三入口——给定文字题、随机出题、上传题目图片识别后解题。覆盖求标准方程、弦长、向量 数量积范围/定值、三角形面积最值、定点、定值（斜率之积）、轨迹、离心率等题型，统一"设含参 直线 x=my+c + 联立 + 韦达 + 换元/常数分离"，并由 sympy 精确计算驱动（答案、坐标、步骤 数值、交互引擎的理论范围同源一致）。其它 agent 也可调用本技能生成此类网页。形态与 edu-solid-geometry 平行，但用 Canvas-2D + KaTeX（非 Three.js）。 触发词：解析几何, 圆锥曲线, 椭圆, 双曲线, 抛物线, 直线与圆锥曲线, 焦点弦, 弦长, 数量积取值范围, 向量数量积, 定点问题, 定值问题, 斜率之积, 三角形面积最值, 轨迹方程, 离心率, 解这道解析几何题, 随机出一道圆锥曲线题, 这张图里的解析几何题; analytic geometry, conic sections, ellipse, hyperbola, parabola, chord length, dot product range, fixed point, fixed value, locus, eccentricity, interactive analytic geometry solution page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): limrun-gradle]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-gradle</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-gradle</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): eeat-and-trust]]></title>
+            <link>https://skills.sh/myehia565/google-seo-agent-skills/eeat-and-trust</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/eeat-and-trust</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 29
-Source: limrun-inc/skills
-Description: Build an Android app on a remote Gradle sandbox with `lim gradle build` instead of local Gradle or Android Studio, from any environment (Linux, Windows, macOS, VM, container). Use when the user wants to build an APK or AAB, sign a release with an upload key, or prepare a Play Store publish, for native Android projects, React Native, and Expo. To run, tap, screenshot, or otherwise interact with the built APK on an emulator, use the `lim android` commands shown here. For iOS builds, use limrun-xcode or limrun-expo-development.]]></description>
+Installs: 1
+Source: myehia565/google-seo-agent-skills
+Description: Strengthens experience, expertise, author clarity, and trust signals on pages. Use when YMYL topics, missing bylines, or weak authorship/trust cues appear.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): limrun-ios-simulator]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-ios-simulator</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-ios-simulator</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): html-prototype]]></title>
+            <link>https://skills.sh/plannotator/effective-html/html-prototype</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/html-prototype</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 29
-Source: limrun-inc/skills
-Description: Drive an app running on a Limrun cloud iOS simulator: launch, tap, type, read the accessibility element tree, screenshot, record video, and run timed action chains. Use after a build (from any builder) when the user wants to see, test, or interact with their app on a simulator, or says 'show me a screenshot', 'tap', 'run the UI test', 'record a video', or 'launch on simulator'. To build the app first, use limrun-xcode-bazel (Bazel workspaces) or limrun-xcode (xcodebuild projects).]]></description>
+Installs: 1
+Source: plannotator/effective-html
+Description: Direct-invocation specialist for polished, responsive, self-contained HTML mockups and interactive prototypes grounded in the user's conversation, product context, and design language. Use when the user explicitly invokes html-prototype or the broad html skill routes a mockup or prototype request here. Do not activate independently from a general request. Treat a mockup as a noninteractive fidelity mode within this skill, not as a separate skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): limrun-detox-testing]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-detox-testing</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-detox-testing</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): ipados-design-guidelines]]></title>
+            <link>https://skills.sh/ehmo/platform-design-skills/ipados-design-guidelines</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/ipados-design-guidelines</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 29
-Source: limrun-inc/skills
-Description: Configure, run, or debug Detox on Limrun iOS simulators. Use when attaching the Limrun Detox runtime to an app, wiring Detox mediator connectivity, or validating app/tester connections over reverse tunnels.]]></description>
+Installs: 1
+Source: ehmo/platform-design-skills
+Description: Apple Human Interface Guidelines for iPad. Use when building iPad-optimized interfaces, implementing multitasking, pointer support, keyboard shortcuts, or responsive layouts. Triggers on tasks involving iPad, Split View, Stage Manager, sidebar navigation, or trackpad support.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): ai-research-reproduction]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/ai-research-reproduction</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/ai-research-reproduction</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): reddit-automation]]></title>
+            <link>https://skills.sh/flowkit-labs/skills/reddit-automation</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:flowkit-labs/skills/reddit-automation</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Reproduce compatible skill slug for README-first deep learning repository reproduction. Use when the user wants an end-to-end, minimal-trustworthy flow that reads the repository first, selects the smallest documented inference or evaluation target, coordinates intake, setup, trusted execution, optional trusted training, optional repository analysis, and optional paper-gap resolution, enforces conservative patch rules, records evidence assumptions deviations and human decision points, and writes the standardized `repro_outputs/` bundle. Do not use for paper summary, generic environment setup, isolated repo scanning, standalone command execution, silent protocol changes, score chasing, or broad research assistance outside repository-grounded reproduction.]]></description>
+Installs: 45
+Source: flowkit-labs/skills
+Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): limrun-xcode-bazel]]></title>
-            <link>https://skills.sh/limrun-inc/skills/limrun-xcode-bazel</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:limrun-inc/skills/limrun-xcode-bazel</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): officecli-pitch-deck]]></title>
+            <link>https://skills.sh/iofficeai/officecli/officecli-pitch-deck</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-pitch-deck</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 29
-Source: limrun-inc/skills
-Description: Build a Bazel-based iOS / macOS / Apple app on Limrun's remote build execution (RBE) instead of a local Mac, and install it on a remote iOS simulator. Use when the project is a Bazel workspace (MODULE.bazel / WORKSPACE) building rules_apple / rules_swift targets and the user wants to `bazel build` it or run it on a simulator, or when a `--config=limrun` build or install misbehaves. To then tap, type, screenshot, or otherwise interact with the running app, use limrun-ios-simulator. For non-Bazel (plain xcodebuild) projects use limrun-xcode instead.]]></description>
+Installs: 1
+Source: iofficeai/officecli
+Description: Use this skill when the user is building a fundraising / investor pitch deck — seed, Series A / B / C, convertible note, SAFE round, strategic raise. Trigger on: 'pitch deck', 'investor deck', 'Series A deck', 'Series B deck', 'Series C deck', 'fundraising deck', 'seed pitch', 'VC deck', 'raising capital', 'term sheet presentation'. Output is a single .pptx. This skill is a scene layer on top of officecli-pptx — inherits every pptx v2 rule (visual floor, grid, palettes, connector canon, Delivery Gate). DO NOT invoke for a generic board review, sales deck, all-hands, or product launch — route those to officecli-pptx base.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): ai-research-explore]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/ai-research-explore</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/ai-research-explore</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): video-edit]]></title>
+            <link>https://skills.sh/genmedia-labs/skills/video-edit</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/video-edit</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Explore compatible skill slug for meaningful and potentially novel deep learning research candidates. Use when the researcher has chosen the task family, dataset, benchmark, evaluation method, provided SOTA references, and wants candidate-only exploration on top of `current_research` with auditable repo understanding, idea gating, fair comparison, and governed experiments written to `explore_outputs/`. Do not use for README-first trusted reproduction, open-ended direction finding, narrow code-only or run-only exploration, passive repo analysis, verified novelty claims, or implicit experimentation.]]></description>
+Installs: 42
+Source: genmedia-labs/skills
+Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): analyze-project]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/analyze-project</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/analyze-project</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): clanker-discipline]]></title>
+            <link>https://skills.sh/gbasin/clanker-discipline/clanker-discipline</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:gbasin/clanker-discipline/clanker-discipline</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Analyze / Rigor Audit read-only skill for deep learning research repositories. Use when the user wants to read and understand a repository, inspect model structure and training or inference entrypoints, review configs and insertion points, or flag suspicious implementation patterns without modifying code or running heavy jobs. Do not use for active command execution, broad refactoring, speculative code adaptation, or automatic bug fixing.]]></description>
+Installs: 6
+Source: gbasin/clanker-discipline
+Description: Catches state bloat, grab-bag models, and mutation ambiguity from AI coding agents. Use when reviewing state types, boolean flags, optional-field models, or mutable data patterns.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): minimal-run-and-audit]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/minimal-run-and-audit</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/minimal-run-and-audit</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): tiktok-api]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/tiktok-api</link>
+            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fetcher-sh/fetcher-skills/tiktok-api</guid>
+            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#9): env-and-assets-bootstrap]]></title>
-            <link>https://skills.sh/lllllllama/rigorpilot-skills/env-and-assets-bootstrap</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:new:lllllllama/rigorpilot-skills/env-and-assets-bootstrap</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #9
-Installs: 239
-Source: lllllllama/rigorpilot-skills
-Description: Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] New entry (#47): hyperframes-core]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-core</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topTrending:new:heygen-com/hyperframes/hyperframes-core</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
-            <description><![CDATA[New entry in Trending leaderboard.
-Rank: #47
-Installs: 6488
-Source: heygen-com/hyperframes
-Description: HyperFrames HTML composition contract. Use for composition structure, data attributes, clips, tracks, sub-compositions, variables, media playback, deterministic render rules, and validation of minimal renderable projects.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (45 → 34): resolving-merge-conflicts]]></title>
-            <link>https://skills.sh/mattpocock/skills/resolving-merge-conflicts</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:rank:mattpocock/skills/resolving-merge-conflicts</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #45
-Current rank: #34
-Delta: +11
-Installs: 206 (prev 169)
-Source: mattpocock/skills
-Description: Use when you need to resolve an in-progress git merge/rebase conflict.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] Rank up (47 → 30): ask-matt]]></title>
-            <link>https://skills.sh/mattpocock/skills/ask-matt</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topHot:rank:mattpocock/skills/ask-matt</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
-            <description><![CDATA[Hot leaderboard rank change.
-Previous rank: #47
-Current rank: #30
-Delta: +17
-Installs: 220 (prev 175)
-Source: mattpocock/skills
-Description: Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Trending] Rank down (2 → 4): ai-image-generation]]></title>
-            <link>https://skills.sh/skills-101/superpowers/ai-image-generation</link>
-            <guid isPermaLink="false">2026-08-21T01:13:24.665Z:topTrending:rank:skills-101/superpowers/ai-image-generation</guid>
-            <pubDate>Fri, 21 Aug 2026 01:13:24 GMT</pubDate>
-            <description><![CDATA[Trending leaderboard rank change.
-Previous rank: #2
-Current rank: #4
-Delta: -2
-Installs: 22086 (prev 21319)
-Source: skills-101/superpowers
-Description: Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image]]></description>
+Installs: 5
+Source: fetcher-sh/fetcher-skills
+Description: A TikTok API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no app review. Use when the user wants to search TikTok posts by keyword and sort by most-liked or most recent within a date range, look up a post by its share URL or ID, scrape a TikTok profile by @username, pull a user's posts, followers, or followings, fetch a hashtag's posts, pull posts using a specific sound/music track, get posts from a location, or read a post's comments and comment replies. Also covers TikTok trend tracking, hashtag monitoring, influencer discovery, competitor content analysis, and TikTok data pipelines without official TikTok API access or a scraping browser.]]></description>
         </item>
     </channel>
 </rss>

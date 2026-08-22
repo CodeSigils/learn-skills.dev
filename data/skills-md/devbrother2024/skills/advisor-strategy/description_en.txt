@@ -1,1 +1,4 @@
-Set the user-specified higher-level model as the Advisor to consult at decision points of the current task. It is used for review before confirming an approach, verification before declaring completion, and diagnosing blockages. The advisor model must be explicitly specified by the user when called, without a default; it does not operate if unspecified. It runs only when the user invokes it via /advisor‑strategy.
+사용자가 지정한 상위 모델을 Advisor로 세워 현재 작업의 결정점에서 컨설트한다.
+접근 확정 전 검토, 완료 선언 전 검증, 막힘 진단에 쓴다.
+advisor 모델은 디폴트 없이 호출 시 사용자가 직접 지정하며, 미지정이면 동작하지 않는다.
+사용자가 /advisor-strategy로 호출한 경우에만 실행한다.
