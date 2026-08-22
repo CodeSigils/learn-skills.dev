@@ -1,0 +1,1 @@
+沙箱上的 Data Mask 端到端操作：通过 PII 配置屏蔽策略、运行屏蔽作业、轮询其完成、报告屏蔽记录结果以及中止正在进行的运行。当用户需要运行、监控或取消 Salesforce Data Mask 作业、屏蔽 PII/沙盒数据或使用 DataMaskPolicy / DataMaskPolicyJobRun 时使用。在以下情况下触发：用户运行数据屏蔽作业、屏蔽沙箱 PII、轮询屏蔽状态、报告屏蔽记录或中止正在运行的屏蔽。不要在以下情况下触发：手动编写匿名 Apex（使用 platform-apex-generate）、生成测试数据（使用 platform-data-manage）或部署不相关的元数据（使用 platform-metadata-deploy）。

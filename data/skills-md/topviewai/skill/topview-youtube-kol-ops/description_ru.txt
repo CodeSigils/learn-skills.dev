@@ -1,0 +1,8 @@
+Обнаружение и оценка авторов YouTube с помощью единого хоста MCP `topview-mcp`
+(прогрессивное раскрытие: use_youtube_kol → get_tool_schema → call_tool;
+отложенные инструменты youtube_kol_* из пула youtubeagent, принадлежащего Topview).
+Используйте, когда: находите авторов YouTube, сведения о канале, авторов-конкурентов,
+ссылки на предложения о сотрудничестве из пула, принадлежащего Topview.
+НЕ для: данных Amazon/Shopee/TikTok Shop, Modash Instagram/YouTube.
+Creator-Discovery MCP или генерация мультимедиа (используйте другие topview-*-ops
+или topview-generate).

@@ -1,1 +1,1 @@
-연결된 GitHub 문제로 인해 apps/api 또는 apps/core-api에서 외부 API 표면으로 TagMango 엔드포인트를 포팅합니다. 공개 계약을 굽고, 레거시 동작을 보존하고, libs/repository의 데이터 액세스를 통해 libs/services의 기능이 완전한 사용 사례를 제공하므로 나중에 core-api가 레거시 경로를 대체할 수 있습니다. 구현 핸드오프를 생성합니다. 테스트를 절대 작성하지 않습니다. 검토 전용 요청의 경우 audit-external-api-port를 사용하세요.
+연결된 GitHub 문제로 인해 apps/api 또는 apps/core-api에서 외부 API 표면으로 TagMango 엔드포인트를 포팅합니다. 공개 계약을 굽고, 레거시 동작을 보존하고, libs/repository의 데이터 액세스를 통해 libs/services의 기능이 완전한 사용 사례를 제공하므로 core-api가 나중에 레거시 경로를 대체할 수 있습니다. 구현 핸드오프를 생성합니다. 테스트를 절대 작성하지 않습니다. 검토 전용 요청의 경우 audit-external-api-port를 사용하세요.

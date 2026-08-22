@@ -1,0 +1,8 @@
+TikTok تسوق المعلومات العامة عبر المضيف الموحد MCP `topview-mcp`
+(الكشف التدريجي: use_tiktok_data → get_tool_schema → call_tool؛
+أدوات td_* المؤجلة).
+استخدمه عندما: اتجاهات السوق في TikTok Shop، واختيار المنتج، والمواد الفيروسية
+التفاصيل، البرامج النصية، تقويم المحتوى، عمليات الشركاء التابعين/المبدعين، الإعلانات/العمليات المباشرة.
+ليس لـ: Amazon، أو Shopee، أو YouTube KOL، أو جيل الوسائط
+(استخدم topview-amazon-ops، وtopview-shopee-ops، وtopview-youtube-kol-ops،
+أو إنشاء عرض علوي).

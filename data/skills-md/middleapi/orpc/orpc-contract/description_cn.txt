@@ -1,0 +1,1 @@
+首先设计 oRPC v2 API，使用来自“@orpc/contract”的 oc 定义 API 形状，使用来自“@orpc/server”的实现实现它，并使用来自类型安全客户端的合约。当项目依赖于“@orpc/contract”时、使用 oc 定义合约、使用 Implement 实现合约、在服务器和客户端包之间共享 API 合约、从现有 OpenAPI 规范生成合约或将类型化 API 客户端发布到 npm 时使用。偏向于从 oRPC 文档中检索而不是预先训练的知识。对于没有合同的核心构建者、服务和客户端工作，请使用 orpc 技能；有关 REST/OpenAPI 公开、规范生成和 OpenAPILink 详细信息，请使用 orpc-openapi 技能。
