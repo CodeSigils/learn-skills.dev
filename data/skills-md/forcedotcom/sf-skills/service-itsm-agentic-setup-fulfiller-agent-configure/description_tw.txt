@@ -1,0 +1,1 @@
+使用 Salesforce CLI (sf)，從隨附的 ITSM Fulfiller 模板的代理腳本建立並啟動 IT 服務 Fulfiller 代理程式作為下一代創作 (NGA) 本機代理：讀取模板，檢查冪等性，建立 NGA 捆綁包，然後發布並啟動它，然後驗證它是否處於活動狀態。每個開發者名稱都是冪等的。 Fulfiller 代理是 IT 技術人員的助理，負責事件分類、案例總結、現場更新和相關記錄自動化。當系統要求建立履行者代理、設定 IT 服務履行者代理、配置履行者助手或啟動履行者代理時使用。觸發器：建立履行者代理、設定履行者代理、設定履行者代理、啟動履行者代理。請勿觸發：檢查組織先決條件 (service-itsm-agentic-setup-agentforce-studio-validate) 或 CMDB CRUD。

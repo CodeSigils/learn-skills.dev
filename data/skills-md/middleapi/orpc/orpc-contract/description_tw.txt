@@ -1,0 +1,1 @@
+首先設計 oRPC v2 API，使用來自「@orpc/contract」的 oc 定義 API 形狀，使用來自「@orpc/server」的實作實現它，並使用來自類型安全客戶端的合約。當專案依賴「@orpc/contract」時、使用 oc 定義合約、使用 Implement 實作合約、在伺服器和用戶端套件之間共用 API 合約、從現有 OpenAPI 規格產生合約或將類型化 API 用戶端發佈到 npm 時使用。偏向從 oRPC 文件中檢索而不是預先訓練的知識。對於沒有合約的核心建構者、服務和客戶端工作，請使用 orpc 技能；有關 REST/OpenAPI 公開、規範生成和 OpenAPILink 詳細信息，請使用 orpc-openapi 技能。

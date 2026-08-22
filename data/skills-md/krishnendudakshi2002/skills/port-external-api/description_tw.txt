@@ -1,0 +1,1 @@
+由連結的 GitHub 問題驅動，將 TagMango 端點從 apps/api 或 apps/core-api 移植到外部 API 表面。燒烤公共合同，保留遺留行為，並將功能完整的用例放在庫/服務中，並在庫/存儲庫中進行數據訪問，以便 core-api 稍後可以替換遺留路由。產生實施移交；從不編寫測試。對於僅審核請求，請使用audit-external-api-port。

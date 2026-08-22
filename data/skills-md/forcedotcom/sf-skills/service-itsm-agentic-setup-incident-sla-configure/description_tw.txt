@@ -1,0 +1,1 @@
+Service Cloud ITSM 的端對端事件 SLA 設定 — 建立 MilestoneType、事件範圍的 SLA 策略 (SlaProcess)、附加帶有條件的里程碑，並連接權利，以便事件衍生帶有計算的 TargetDate 的 EntityMilestone。當使用者要求在事件上設定 SLA 里程碑、為事件記錄建立 SLA 策略、為 ITSM 設定權利流程、連線里程碑以便它們顯示在事件頁面上或啟用事件管理的 SLA 追蹤時使用。不要在以下情況下觸發：使用者詢問案例權利或案例 SLA（不是事件）、在沒有設定意圖的情況下查詢現有 SLA 策略、與事件無關的一般權利 sObject CRUD，或僅用於報告目的的里程碑查詢。
