@@ -1,0 +1,8 @@
+TikTok Shop renseignements publics via l'hôte unifié MCP `topview-mcp`
+(divulgation progressive : use_tiktok_data → get_tool_schema → call_tool ;
+outils td_* différés).
+À utiliser quand : tendances du marché de la boutique TikTok, sélection de produits, matériel viral
+répartition, scripts, calendrier de contenu, opérations d'affiliation/créateur, publicités/opérations en direct.
+PAS pour : Amazon, Shopee, YouTube KOL pool ou génération de médias
+(utilisez topview-amazon-ops, topview-shopee-ops, topview-youtube-kol-ops,
+ou topview-generate).
