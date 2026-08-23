@@ -1,1 +1,1 @@
-Si applica quando attori simultanei potrebbero scrivere sullo stesso file, ramo, chiave o oggetto stato. Eliminate the sharing first; serializzare strutturalmente solo quando uno scrittore condiviso è un vero invariante.
+Si applica quando attori simultanei potrebbero scrivere sullo stesso file, ramo, chiave o oggetto stato. Elimina prima la condivisione; serializzare strutturalmente solo quando uno scrittore condiviso è un vero invariante.

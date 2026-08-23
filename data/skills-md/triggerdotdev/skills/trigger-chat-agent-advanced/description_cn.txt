@@ -1,0 +1,1 @@
+Trigger.dev 的高级和可操作的 chat.agent 功能，按需加载。在处理原始会话原语（sessions / SessionHandle）、自定义聊天传输或实时有线协议、持久子代理（AgentChat、chat.stream.writer）、人机交互、转向、操作、后台注入（chat.defer / chat.inject）、快速启动（预加载、通过@trigger.dev/sdk/chat-server启动）、上下文恢复（压缩、恢复启动、OOM）时加载此选项大负载）、chat.local 运行范围状态、使用mockChatAgent 进行离线测试或预发布/版本升级。对于日常的 chat.agent({...}) 定义和 useTriggerChatTransport 愉快的路径，请使用触发器创作聊天代理技能。
