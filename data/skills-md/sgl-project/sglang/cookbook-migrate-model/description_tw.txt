@@ -1,0 +1,1 @@
+將遺留範本 SGLang 說明書頁面（docs/src/snippets/autoregressive/ 下的整體每個模型產生器）遷移到設定驅動範本（共用 _deployment.jsx / _playground.jsx 引擎 + 每個模型設定）。當要求遷移、轉換或移植現有說明書頁面時使用 - 不適用於全新模型（對於這些模型，請使用 Cookbook-add-model）。使用 /cookbook-migrate-model <模型頁面名稱運行，例如GLM-5.1>。

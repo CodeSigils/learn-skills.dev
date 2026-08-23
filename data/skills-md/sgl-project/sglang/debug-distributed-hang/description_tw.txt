@@ -1,0 +1,1 @@
+調試 SGLang 分散式推理 (TP/PP/DP/EP) 中的掛起問題。涵蓋透過 py-spy/watchdog/cuda coredump 識別掛起位置、按等級記錄以查找狀態分歧、用於定位第一個分歧點的二分搜尋方法以及修復模式。當多 GPU SGLang 運作在集體操作期間掛起、凍結或逾時時使用。

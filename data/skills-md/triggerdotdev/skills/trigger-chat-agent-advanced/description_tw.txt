@@ -1,0 +1,1 @@
+Trigger.dev 的高級和可操作的 chat.agent 功能，按需載入。在處理原始會話原語（sessions / SessionHandle）、自訂聊天傳輸或即時有線協定、持久性子代理程式（AgentChat、chat.stream.writer）、人機互動、轉向、操作、後台注入（chat.defer / chat.inject）、快速啟動（預先載入、透過@trigger.dev/sdk/chat-server啟動）、上下文恢復（壓縮、恢復啟動、OOM）時載入此選項大負載）、chat.local 運行範圍狀態、使用mockChatAgent 進行離線測試或預發布/版本升級。對於日常的 chat.agent({...}) 定義和 useTriggerChatTransport 愉快的路徑，請使用觸發器建立聊天代理技能。
