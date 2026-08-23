@@ -4,583 +4,579 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Sat, 22 Aug 2026 01:09:39 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Aug 2026 01:14:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-22)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-23)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:snapshot</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:snapshot</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8129
-Trending skills: 8035
-Hot skills: 1139
-Top All Time: find-skills (3053510)
-Top Trending: ai-video-generation (22329)
-Top Hot: ai-video-generation (87)]]></description>
+All Time skills: 8125
+Trending skills: 7931
+Hot skills: 1793
+Top All Time: find-skills (3065007)
+Top Trending: ai-video-generation (21303)
+Top Hot: nx-run-tasks (9)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#47): hyperframes-cli]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/hyperframes-cli</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topAllTime:new:heygen-com/hyperframes/hyperframes-cli</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
-            <description><![CDATA[New entry in All Time leaderboard.
-Rank: #47
-Installs: 418291
-Source: heygen-com/hyperframes
-Description: Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#1): ai-video-generation]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/ai-video-generation</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-video-generation</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): nx-run-tasks]]></title>
+            <link>https://skills.sh/nrwl/nx/nx-run-tasks</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/nx-run-tasks</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 87
-Source: genmedia-labs/skills
-Description: Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate video", "make a video", "text to video", "t2v", "image to video", "i2v", "animate", "AI video", "make X move", "video from prompt", "video from image", or any explicit ask to produce a video clip from prompt or still.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Helps with running tasks in an Nx workspace. USE WHEN the user wants to execute build, test, lint, serve, or run any other tasks defined in the workspace.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): write-swift]]></title>
-            <link>https://skills.sh/emilkowalski/skills/write-swift</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:emilkowalski/skills/write-swift</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): conformetry-generate]]></title>
+            <link>https://skills.sh/jimmypaolini/codebase/conformetry-generate</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:jimmypaolini/codebase/conformetry-generate</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 4
-Source: emilkowalski/skills
-Description: How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing.]]></description>
+Installs: 9
+Source: jimmypaolini/codebase
+Description: Scaffold code with a conformetry generator instead of writing it by hand. Use when adding a module, component, service, application, or package to a workspace that has a conformetry configuration; when deciding whether a generator exists for the shape you are about to create; when a generator run overwrote or misplaced files; or when a conformance run reports a file that a generator should have produced. Covers both the Nx plugin and the conformetry command-line host, whose input contracts differ.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): lark-meeting]]></title>
-            <link>https://skills.sh/larksuite/cli/lark-meeting</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:larksuite/cli/lark-meeting</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): github-issues]]></title>
+            <link>https://skills.sh/github/awesome-copilot/github-issues</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:github/awesome-copilot/github-issues</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 3
-Source: larksuite/cli
-Description: 飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。]]></description>
+Installs: 9
+Source: github/awesome-copilot
+Description: Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feature requests, or task issues, update existing issues, add labels/assignees/milestones, or manage issue workflows. Triggers on requests like "create an issue", "file a bug", "request a feature", "update issue X", or any GitHub issue management task.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): instagram-api]]></title>
-            <link>https://skills.sh/fetcher-sh/fetcher-skills/instagram-api</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fetcher-sh/fetcher-skills/instagram-api</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): anysearch]]></title>
+            <link>https://skills.sh/anysearch-ai/anysearch-skill/anysearch</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:anysearch-ai/anysearch-skill/anysearch</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 2
-Source: fetcher-sh/fetcher-skills
-Description: An Instagram API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no session cookies. Use when the user wants to resolve an Instagram profile by @handle, search users by keyword, pull a profile's posts, reels, stories, tagged posts, followers, or followings, look up a single post by its shortcode, read a post's comments, fetch posts under a hashtag or reel-only hashtag feed, pull posts from a location, or pull posts using a specific audio/music track. Also covers Instagram follower export, hashtag and location monitoring, influencer discovery, competitor content tracking, and Instagram data pipelines without an official Graph API business verification or a headless browser.]]></description>
+Installs: 3
+Source: anysearch-ai/anysearch-skill
+Description: Real-time search engine supporting web search, vertical domain search (23 domains), parallel batch search, and URL content extraction.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): generative-ai-search]]></title>
-            <link>https://skills.sh/myehia565/google-seo-agent-skills/generative-ai-search</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/generative-ai-search</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): developing-genkit-js]]></title>
+            <link>https://skills.sh/genkit-ai/skills/developing-genkit-js</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:genkit-ai/skills/developing-genkit-js</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 1
-Source: myehia565/google-seo-agent-skills
-Description: Applies official Google guidance for generative AI search features and AI-generated content. Use when optimizing for AI surfaces or reviewing AI-assisted pages.]]></description>
+Installs: 2
+Source: genkit-ai/skills
+Description: Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type errors, or API problems.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): extension-create]]></title>
-            <link>https://skills.sh/quangpl/browser-extension-skills/extension-create</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-create</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): cloudflare-deploy]]></title>
+            <link>https://skills.sh/openai/skills/cloudflare-deploy</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:openai/skills/cloudflare-deploy</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 1
-Source: quangpl/browser-extension-skills
-Description: Auto-scaffold Chrome extensions with WXT or Plasmo. Ask user for name/features, scaffold, configure entrypoints. Use when: create extension, scaffold, new extension.]]></description>
+Installs: 2
+Source: openai/skills
+Description: Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): memory-defrag]]></title>
-            <link>https://skills.sh/basicmachines-co/basic-memory/memory-defrag</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-defrag</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): meeting-minutes]]></title>
+            <link>https://skills.sh/github/awesome-copilot/meeting-minutes</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:github/awesome-copilot/meeting-minutes</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 1
-Source: basicmachines-co/basic-memory
-Description: Defragment and reorganize agent memory files: split bloated files, merge duplicates, remove stale information, and restructure the memory hierarchy. Use when memory files have grown unwieldy, contain redundancies, or need reorganization. Run periodically (weekly) or on demand.]]></description>
+Installs: 2
+Source: github/awesome-copilot
+Description: Generate concise, actionable meeting minutes for internal meetings. Includes metadata, attendees, agenda, decisions, action items (owner + due date), and follow-up steps.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): officecli-academic-paper]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-academic-paper</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-academic-paper</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): meeting-notes]]></title>
+            <link>https://skills.sh/claude-office-skills/skills/meeting-notes</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:claude-office-skills/skills/meeting-notes</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill to build academic-style .docx output: journal / conference / thesis chapters carrying formal citation style (APA, Chicago, IEEE, MLA), numbered equations, figure & table cross-references, footnotes/endnotes, bibliography, or multi-column journal layout. Trigger on: 'research paper', 'journal paper', 'conference paper', 'manuscript', 'thesis', 'APA', 'MLA', 'Chicago', 'IEEE two-column', 'bibliography', 'hanging indent', 'citation style', 'abstract + keywords', 'equation numbering', 'cross-reference', paper with footnotes/endnotes. Output is a single .docx.]]></description>
+Installs: 2
+Source: claude-office-skills/skills
+Description: >]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): watchos-design-guidelines]]></title>
-            <link>https://skills.sh/ehmo/platform-design-skills/watchos-design-guidelines</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/watchos-design-guidelines</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): cli-anything]]></title>
+            <link>https://skills.sh/hkuds/cli-anything/cli-anything</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:hkuds/cli-anything/cli-anything</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 1
-Source: ehmo/platform-design-skills
-Description: Apple Human Interface Guidelines for Apple Watch. Use when building watchOS apps, complications, or workout features. Triggers on tasks involving Watch UI, Digital Crown, glanceable interfaces, or wrist-based interactions.]]></description>
+Installs: 2
+Source: hkuds/cli-anything
+Description: Use when the user wants Reasonix to build, refine, test, or validate a CLI-Anything harness for a GUI application or source repository. Adapts the CLI-Anything methodology to Reasonix without changing the generated Python harness format.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): local-whisper]]></title>
-            <link>https://skills.sh/thinkfleetai/thinkfleet-engine/local-whisper</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:thinkfleetai/thinkfleet-engine/local-whisper</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): backend-architect]]></title>
+            <link>https://skills.sh/sickn33/agentic-awesome-skills/backend-architect</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:sickn33/agentic-awesome-skills/backend-architect</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 1
-Source: thinkfleetai/thinkfleet-engine
-Description: Local speech-to-text using OpenAI Whisper. Runs fully offline after model download. High quality transcription with multiple model sizes.]]></description>
+Installs: 2
+Source: sickn33/agentic-awesome-skills
+Description: Expert backend architect specializing in scalable API design, microservices architecture, and distributed systems.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): memory-ingest]]></title>
-            <link>https://skills.sh/basicmachines-co/basic-memory/memory-ingest</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-ingest</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): gh-stack]]></title>
+            <link>https://skills.sh/github/gh-stack/gh-stack</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:github/gh-stack/gh-stack</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 1
-Source: basicmachines-co/basic-memory
-Description: Process unstructured external input (meeting transcripts, conversation logs, pasted documents) into structured Basic Memory entities. Extracts entities, searches for existing matches, proposes new entities with approval, creates notes with observations and relations, and captures action items.]]></description>
+Installs: 9
+Source: github/gh-stack
+Description: Manage stacked branches and pull requests with the gh-stack GitHub CLI extension. Use when the user wants to create, push, rebase, sync, navigate, or view stacks of dependent PRs. Triggers on tasks involving stacked diffs, dependent pull requests, branch chains, or incremental code review workflows.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): image-to-video]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/image-to-video</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/image-to-video</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): monitor-ci]]></title>
+            <link>https://skills.sh/nrwl/nx/monitor-ci</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/monitor-ci</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 84
-Source: genmedia-labs/skills
-Description: Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on "image to video", "image-to-video", "i2v", "animate image", "make this move", or any explicit ask to turn a still into video.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Monitor Nx Cloud CI pipeline and handle self-healing fixes. USE WHEN user says "monitor ci", "watch ci", "ci monitor", "watch ci for this branch", "track ci", "check ci status", wants to track CI status, or needs help with self-healing CI fixes. Prefer this skill over native CI provider tools (gh, glab, etc.) for CI monitoring — it integrates with Nx Cloud self-healing which those tools cannot access.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): officecli-word-form]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-word-form</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-word-form</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): dbs]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dontbesilent2025/dbskill/dbs</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill to create fillable Word forms (.docx) with real Content Controls (SDT) + legacy FormField checkboxes + MERGEFIELD mail-merge placeholders + document protection. Trigger on: 'fillable form', 'form fields', 'content controls', 'SDT', 'word form', 'fill in', 'only editable fields', 'protect document', 'onboarding form', 'HR intake', 'survey template', 'contract / SOW template', 'mail-merge template', 'compliance checklist', 'medical intake questionnaire'. Output is a single .docx where specific fields are editable and the rest is locked. This skill is INDEPENDENT, not a scene layer on docx — payload is `<w:sdt>` + `<w:ffData>` + `<w:fldChar>` + `documentProtection`, none of which docx base skill covers. Do NOT trigger for regular reports, letters, memos, academic papers, pitch decks, or any document with no user-fillable fields — route those to officecli-docx or its scene layers.]]></description>
+Installs: 3
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。
+触发方式：/dbs、/商业、「帮我看看」
+Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.
+Trigger: /dbs, "help me with my business"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): edu-solid-geometry]]></title>
-            <link>https://skills.sh/wy51ai/edulab/edu-solid-geometry</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:wy51ai/edulab/edu-solid-geometry</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): dbs-diagnosis]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-diagnosis</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dontbesilent2025/dbskill/dbs-diagnosis</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 1
-Source: wy51ai/edulab
-Description: 把一道立体几何题解成一个自包含的交互教学网页：左侧 MathJax 分步解析， 右侧 Three.js 可交互 3D 模型（分步高亮 + 镜头切换）。支持三种入口——给定文字题目、 随机出题、上传题目图片识别后解题。覆盖正方体/长方体、棱锥/棱柱、圆柱/圆锥上的线面角、 二面角、异面直线夹角、点到平面距离、体积等题型，统一用"建系+向量法"，并由 sympy 精确 计算驱动（答案、3D 坐标、步骤数值同源一致）。其他 agent 也可调用本技能生成此类网页。 触发词：立体几何, 线面角, 二面角, 异面直线, 点到平面距离, 正四棱锥, 正方体求角, 解这道几何题, 随机出一道立体几何题, 这张图里的立体几何题; solid geometry, line-plane angle, dihedral angle, angle between skew lines, distance to plane, interactive geometry solution page.]]></description>
+Installs: 3
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。
+触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」
+Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business model).
+Trigger: /dbs-diagnosis, "diagnose my business model", "I have a business question"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): memory-reflect]]></title>
-            <link>https://skills.sh/basicmachines-co/basic-memory/memory-reflect</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-reflect</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): authoring-github-workflows]]></title>
+            <link>https://skills.sh/dotnet/skills/authoring-github-workflows</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dotnet/skills/authoring-github-workflows</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 1
-Source: basicmachines-co/basic-memory
-Description: Sleep-time memory reflection: review recent conversations and daily notes, extract insights, and consolidate into long-term memory. Use when triggered by cron, heartbeat, or explicit request to reflect on recent activity. Runs as background processing to improve memory quality over time.]]></description>
+Installs: 2
+Source: dotnet/skills
+Description: Author and review GitHub Actions workflow YAML safely so syntactically-valid YAML can't ship a workflow that GitHub Actions refuses to run. USE FOR: editing, adding, or reviewing any file under .github/workflows/, writing run-name/name/if/env/run values that contain ${{ }} expressions, diagnosing a run that fails with 'This run likely failed because of a workflow file issue' and no jobs starting, deciding when a workflow scalar must be quoted, validating workflows with actionlint. DO NOT USE FOR: authoring application YAML unrelated to GitHub Actions, Azure Pipelines, GitLab CI, or non-workflow YAML. SCOPE: this skill covers *syntactic/structural* correctness of workflow YAML (quoting, parsing, actionlint); for *semantic and functional* workflow design (what a workflow should do, agentic-workflow behavior), see .github/agents/agentic-workflows.agent.md — the two are complementary. INVOKES: actionlint (downloaded pinned binary) plus git/grep for inspection.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): html-wireframe]]></title>
-            <link>https://skills.sh/plannotator/effective-html/html-wireframe</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/html-wireframe</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): composio]]></title>
+            <link>https://skills.sh/composiohq/composio/composio</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:composiohq/composio/composio</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 1
-Source: plannotator/effective-html
-Description: Direct-invocation specialist for low-fidelity, self-contained HTML wireframes that test information hierarchy, content, navigation, task flow, and responsive structure before visual design. Use when the user explicitly invokes html-wireframe or the broad html skill routes a wireframe request here. Do not activate independently from a general request. Do not use for polished mockups or production-like interaction; use html-prototype for those.]]></description>
+Installs: 2
+Source: composiohq/composio
+Description: Route and complete Composio work across Composio For You and Composio Platform. Use when the user mentions Composio; wants an agent to use apps such as Gmail, Slack, GitHub, Notion, Calendar, or Linear; needs first-time setup, an SDK or MCP integration, CLI operation, migration guidance, current documentation, or help diagnosing a connection or tool call.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): superset-automate]]></title>
-            <link>https://skills.sh/superset-sh/skills/superset-automate</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-automate</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): documentation-writer]]></title>
+            <link>https://skills.sh/github/awesome-copilot/documentation-writer</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:github/awesome-copilot/documentation-writer</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 1
-Source: superset-sh/skills
-Description: Turn a recurring chore into a Superset automation — drafts the agent prompt, confirms schedule and target, creates it with the CLI, and reviews the first run together. Use when the user wants a scheduled or recurring agent, a daily/weekly job, or to automate a repeating task with Superset.]]></description>
+Installs: 2
+Source: github/awesome-copilot
+Description: Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): search-console-ops]]></title>
-            <link>https://skills.sh/myehia565/google-seo-agent-skills/search-console-ops</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/search-console-ops</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): dotnet-webapi]]></title>
+            <link>https://skills.sh/dotnet/skills/dotnet-webapi</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dotnet/skills/dotnet-webapi</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 1
-Source: myehia565/google-seo-agent-skills
-Description: Uses Search Console and search operators to monitor performance and debug drops. Use when investigating traffic changes or validating indexing after deploys.]]></description>
+Installs: 2
+Source: dotnet/skills
+Description: Guides creation and modification of ASP.NET Core Web API endpoints with correct HTTP semantics, OpenAPI metadata, and error handling. USE FOR: adding new API endpoints (controllers or minimal APIs), wiring up OpenAPI/Swagger, creating .http test files, setting up global error handling middleware. DO NOT USE FOR: general C# coding style, EF Core data access or query optimization (use optimizing-ef-core-queries), frontend/Blazor work, gRPC services, or SignalR hubs.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): superset-feedback]]></title>
-            <link>https://skills.sh/superset-sh/skills/superset-feedback</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-feedback</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): minimal-api-file-upload]]></title>
+            <link>https://skills.sh/dotnet/skills/minimal-api-file-upload</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dotnet/skills/minimal-api-file-upload</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 1
-Source: superset-sh/skills
-Description: Collect and submit feedback about Superset — bug reports, feature requests, or general feedback — privately to the Superset team or as a public GitHub issue. Use when the user wants to report a Superset bug, request a feature, or send feedback about Superset.]]></description>
+Installs: 2
+Source: dotnet/skills
+Description: File upload endpoints in ASP.NET minimal APIs (.NET 8+)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): computer-automation]]></title>
-            <link>https://skills.sh/web-infra-dev/midscene-skills/computer-automation</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:web-infra-dev/midscene-skills/computer-automation</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): financial-modeling]]></title>
+            <link>https://skills.sh/claude-office-skills/skills/financial-modeling</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:claude-office-skills/skills/financial-modeling</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
 Installs: 1
-Source: web-infra-dev/midscene-skills
-Description: Vision-driven desktop automation using Midscene. Control your desktop (macOS, Windows, Linux) with natural language commands.
-Operates entirely from screenshots — no DOM or accessibility labels required. Can interact with all visible elements on screen regardless of technology stack.
-
-⚠️ Takes over the user's real mouse and keyboard. For web apps, prefer "Browser Automation" instead.
-Only use this for desktop-native apps (Electron, Qt, native macOS/Windows/Linux) that cannot run in a browser.
-
-Triggers: open app, press key, desktop, computer, click on screen, type text, screenshot desktop,
-launch application, switch window, desktop automation, control computer, mouse click, keyboard shortcut,
-screen capture, find on screen, read screen, verify window, close app, test Electron app
-
-Powered by Midscene.js (https://midscenejs.com)]]></description>
+Source: claude-office-skills/skills
+Description: Build integrated financial models with 3-statement projections. Create income statement, balance sheet, and cash flow models with proper linkages.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): gitops-cluster-debug]]></title>
-            <link>https://skills.sh/fluxcd/agent-skills/gitops-cluster-debug</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fluxcd/agent-skills/gitops-cluster-debug</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): data-extractor]]></title>
+            <link>https://skills.sh/claude-office-skills/skills/data-extractor</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:claude-office-skills/skills/data-extractor</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
 Installs: 1
-Source: fluxcd/agent-skills
-Description: Debug, troubleshoot, diagnose, inspect, and investigate GitOps pipelines on live Kubernetes clusters. Use this skill when users ask about Flux status, HelmRelease failures, Kustomization errors, reconciliation issues, pod logs, controller problems, or cluster debugging — even if they don't explicitly say "debug".]]></description>
+Source: claude-office-skills/skills
+Description: >]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): competitive-analysis]]></title>
-            <link>https://skills.sh/jayrha/agentskills/competitive-analysis</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:jayrha/agentskills/competitive-analysis</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): ui-animation]]></title>
+            <link>https://skills.sh/mblode/agent-skills/ui-animation</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:mblode/agent-skills/ui-animation</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
 Installs: 1
-Source: jayrha/agentskills
-Description: Analyzes competitors and market position through structured data collection, feature/pricing comparison matrices, SWOT, positioning maps, and actionable strategic recommendations. Use this skill when the user asks to "analyze competitors", "do a competitive analysis", "compare us against X and Y", "build a competitor matrix", "find our market positioning", "size up the competition", "create a battlecard", or evaluate market gaps and differentiation opportunities.]]></description>
+Source: mblode/agent-skills
+Description: Guidelines and examples for UI motion and animation. Use when designing, implementing, or reviewing motion, easing, timing, and reduced-motion behaviour.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): ai-image-generation]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/ai-image-generation</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-image-generation</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): link-workspace-packages]]></title>
+            <link>https://skills.sh/nrwl/nx/link-workspace-packages</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/link-workspace-packages</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 82
-Source: genmedia-labs/skills
-Description: Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate image", "make a picture", "text to image", "AI image", "make an image of …", "image to image", "i2i", or any explicit ask to create or restyle an image.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Link workspace packages in monorepos (npm, yarn, pnpm, bun). USE WHEN: (1) you just created or generated new packages and need to wire up their dependencies, (2) user imports from a sibling package and needs to add it as a dependency, (3) you get resolution errors for workspace packages (@org/*) like "cannot find module", "failed to resolve import", "TS2307", or "cannot resolve". DO NOT patch around with tsconfig paths or manual package.json edits - use the package manager's workspace commands to fix actual linking.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): extension-ui]]></title>
-            <link>https://skills.sh/quangpl/browser-extension-skills/extension-ui</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-ui</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): checkpoint]]></title>
+            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/checkpoint</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:codewithmukesh/dotnet-claude-kit/checkpoint</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
 Installs: 1
-Source: quangpl/browser-extension-skills
-Description: Build polished Chrome extension UIs (popup/sidepanel/options). Analyze existing UI, suggest improvements, set up design systems, enforce a11y and UX best practices.]]></description>
+Source: codewithmukesh/dotnet-claude-kit
+Description: Mid-session save point: create a descriptive git commit and a brief handoff note, then keep working. Use before a risky change or refactor, when switching tasks, or to bank progress without ending the session. Triggers on: /checkpoint, "checkpoint", "save progress", "commit and handoff", "save state", "pause here", "before a risky change". For the full end-of-session ritual with learning extraction, use /wrap-up instead.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): memory-research]]></title>
-            <link>https://skills.sh/basicmachines-co/basic-memory/memory-research</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:basicmachines-co/basic-memory/memory-research</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): build-loop-codex]]></title>
+            <link>https://skills.sh/buildgreatproducts/builder-os/build-loop-codex</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:buildgreatproducts/builder-os/build-loop-codex</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
 Installs: 1
-Source: basicmachines-co/basic-memory
-Description: Research an external subject using web search, synthesize findings into a structured Basic Memory entity. Use when asked to research a company, person, technology, or topic — or when a bare name or URL is provided that implies a research request.]]></description>
+Source: buildgreatproducts/builder-os
+Description: Use when building features with **Codex** (OpenAI Codex CLI) in any codebase and the work should go through a disciplined build → review → test → fix loop. Triggers on "run the build loop", "build the next task", "continue the plan", "build this feature properly", or any request to implement work from a plan file or a direct feature prompt. Builds from the plan (or the prompt if no plan exists), runs Codex's `/review` on uncommitted changes and fixes every issue found, tests and verifies the feature end to end, fixes anything testing surfaces, and reports back once complete. Repeats until all plan tasks are checked off.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): extension-test]]></title>
-            <link>https://skills.sh/quangpl/browser-extension-skills/extension-test</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:quangpl/browser-extension-skills/extension-test</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): okx-cex-portfolio]]></title>
+            <link>https://skills.sh/okx/agent-skills/okx-cex-portfolio</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:okx/agent-skills/okx-cex-portfolio</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
 Installs: 1
-Source: quangpl/browser-extension-skills
-Description: Set up and run unit, integration, and E2E tests for Chrome extensions. Covers Jest mocks for chrome.* APIs and Puppeteer E2E with real Chrome.]]></description>
+Source: okx/agent-skills
+Description: This skill should be used when the user asks about 'account balance', 'how much USDT do I have', 'my funding account', 'show my positions', 'open positions', 'position P&L', 'unrealized PnL', 'closed positions', 'position history', 'realized PnL', 'account bills', 'transaction history', 'trading fees', 'fee tier', 'account config', 'max order size', 'how much can I buy', 'withdrawable amount', 'transfer funds', 'move USDT to trading account', or 'switch position mode'. Requires API credentials. Do NOT use for market prices (use okx-cex-market), placing/cancelling orders (use okx-cex-trade), or grid/DCA bots (use okx-cex-bot).]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): github-actions-efficiency]]></title>
-            <link>https://skills.sh/github/awesome-copilot/github-actions-efficiency</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:github/awesome-copilot/github-actions-efficiency</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): ai-agent-development]]></title>
+            <link>https://skills.sh/sickn33/agentic-awesome-skills/ai-agent-development</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:sickn33/agentic-awesome-skills/ai-agent-development</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
 Installs: 1
-Source: github/awesome-copilot
-Description: Audit GitHub Actions workflow efficiency and recommend fixes to reduce CI minutes and costs.]]></description>
+Source: sickn33/agentic-awesome-skills
+Description: AI agent development workflow for building autonomous agents, multi-agent systems, and agent orchestration with CrewAI, LangGraph, and custom agents.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): brandkit-interview]]></title>
-            <link>https://skills.sh/arnie936/ai-brand-kit/brandkit-interview</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:arnie936/ai-brand-kit/brandkit-interview</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): httpclient-factory]]></title>
+            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/httpclient-factory</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:codewithmukesh/dotnet-claude-kit/httpclient-factory</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
 Installs: 1
-Source: arnie936/ai-brand-kit
-Description: Führt ein hartnäckiges Interview, aus dem eine belastbare Markenbeschreibung entsteht (brand interview, brand identity, design system, visual identity). Fragt Positionierung, Persönlichkeit, Farben, Typografie, Tonfall und Verbotslisten ab und schreibt daraus eine ausführliche Rohfassung. Nutze diesen Skill, sobald jemand eine Marke, ein Brand Kit, ein Designsystem oder eine visuelle Identität erarbeiten will, oder sagt, seine Webseiten und Grafiken sähen beliebig aus.]]></description>
+Source: codewithmukesh/dotnet-claude-kit
+Description: IHttpClientFactory and typed HTTP clients for .NET 10 applications. Covers named/typed/keyed clients, DelegatingHandlers, resilience with Microsoft.Extensions.Http.Resilience, and testing patterns. Load this skill when configuring HTTP clients, adding retry/circuit breaker policies, or when the user mentions "HttpClient", "IHttpClientFactory", "AddHttpClient", "typed client", "named client", "DelegatingHandler", "resilience", "retry", "circuit breaker", "hedging", "Polly", "AddStandardResilienceHandler", "socket exhaustion", or "Refit".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): officecli-financial-model]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-financial-model</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-financial-model</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): omni-resilience]]></title>
+            <link>https://skills.sh/diegosouzapw/omniroute/omni-resilience</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:diegosouzapw/omniroute/omni-resilience</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
 Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill when the user wants to build a financial model — 3-statement model, DCF valuation, LBO, SaaS unit economics, sensitivity / scenario analysis, debt schedule, or fundraising projections — in Excel. Trigger on: 'financial model', '3-statement model', 'P&L + BS + CF', 'DCF', 'WACC', 'NPV', 'terminal value', 'LBO', 'debt schedule', 'cash sweep', 'MOIC', 'IRR / XIRR', 'sensitivity table', 'scenario analysis', 'ARR model', 'unit economics', 'CAC / LTV', 'cap table forecast'. Output is a single formula-driven .xlsx. This skill is a scene layer on top of officecli-xlsx — it inherits every xlsx v2 rule (4-color code, visual floor, number formats, cache-drift, Known Issues, Delivery Gate minimum cycle). DO NOT invoke for a simple budget tracker, CSV dump, or operational KPI sheet — route those to officecli-xlsx base.]]></description>
+Source: diegosouzapw/omniroute
+Description: Monitor provider health, circuit-breaker states, p50/p95/p99 latency metrics, and budget guard alerts. Inspect connection cooldowns and model lockouts in real time.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): macos-design-guidelines]]></title>
-            <link>https://skills.sh/ehmo/platform-design-skills/macos-design-guidelines</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/macos-design-guidelines</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): git-fork-clone]]></title>
+            <link>https://skills.sh/zc277584121/mygitplugin/git-fork-clone</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:zc277584121/mygitplugin/git-fork-clone</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
 Installs: 1
-Source: ehmo/platform-design-skills
-Description: Apple Human Interface Guidelines for Mac. Use when building macOS apps with SwiftUI or AppKit, implementing menu bars, toolbars, window management, or keyboard shortcuts. Triggers on tasks involving Mac UI, desktop apps, or Mac Catalyst.]]></description>
+Source: zc277584121/mygitplugin
+Description: Fork a GitHub repo and clone it locally with proper remote setup]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): ccd-account-switch]]></title>
-            <link>https://skills.sh/notdp/.dotfiles/ccd-account-switch</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:notdp/.dotfiles/ccd-account-switch</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): env-var-conventions]]></title>
+            <link>https://skills.sh/sgl-project/sglang/env-var-conventions</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:sgl-project/sglang/env-var-conventions</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
 Installs: 1
-Source: notdp/.dotfiles
-Description: 切换 Claude 账号后恢复 Claude Code 桌面版的 session 列表和 scheduled task（routine）。当用户说切了账号、session 不见了、会话列表空了、历史会话没了、routine 消失、定时任务不跑了时使用。]]></description>
+Source: sgl-project/sglang
+Description: Conventions for SGLang environment variables — where to define, how to access, how to name, and how to deprecate. Use when adding, renaming, or reviewing any `SGLANG_*` environment variable (or migrating a legacy `SGL_*` alias), or when touching `python/sglang/srt/environ.py`.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): ai-native-helpdesk]]></title>
-            <link>https://skills.sh/hou-152/ai-native-helpdesk/ai-native-helpdesk</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:hou-152/ai-native-helpdesk/ai-native-helpdesk</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): vertical-slice]]></title>
+            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/vertical-slice</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:codewithmukesh/dotnet-claude-kit/vertical-slice</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
 Installs: 1
-Source: hou-152/ai-native-helpdesk
-Description: 面向 AI／Agent／OpenClaw 社区的薄入口 Helpdesk Skill 导航中心。负责守门、判模并按需路由到子 skill（aihd-diagnosis / aihd-good-question / aihd-thinking / aihd-action / aihd-knowledge）。用户不知道该问谁、要查 AI/Agent/OpenClaw 相关经验或需要社区处理经验时使用。]]></description>
+Source: codewithmukesh/dotnet-claude-kit
+Description: Vertical Slice Architecture (VSA) for .NET applications — one of several supported architectures in dotnet-claude-kit. Covers feature folders, endpoint grouping, and handler patterns for Mediator, Wolverine, and raw handler classes. Load this skill when the architecture-advisor recommends VSA, when working in an existing VSA codebase, when adding features to a feature-folder project, or when discussing vertical slice patterns, feature folders, or handler patterns.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): superset-setup]]></title>
-            <link>https://skills.sh/superset-sh/skills/superset-setup</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:superset-sh/skills/superset-setup</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): vision]]></title>
+            <link>https://skills.sh/kunchenguid/vision/vision</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:kunchenguid/vision/vision</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
 Installs: 1
-Source: superset-sh/skills
-Description: Make a repository Superset-ready — author .superset/config.json with setup/teardown/run scripts so every new workspace boots configured, then verify with a real workspace. Use when the user wants to set up a project or repo for Superset, configure workspace setup scripts, or fix a failing workspace setup.]]></description>
+Source: kunchenguid/vision
+Description: Draft and stress-test a VISION.md for a repository, then iterate with the author on an interactive review board until approved. Use on /vision or when asked to create or refine a project vision.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): ai-music]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/ai-music</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/ai-music</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): nx-import]]></title>
+            <link>https://skills.sh/nrwl/nx/nx-import</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/nx-import</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 49
-Source: genmedia-labs/skills
-Description: Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on "generate music", "make a song", "AI music", "background music", "instrumental track", "soundtrack", "jingle", "theme music", "royalty-free music", "compose", "music with lyrics", "extend music", "fix this song", "inpaint music", or any explicit ask to generate or edit music.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Import, merge, or combine repositories into an Nx workspace using nx import. USE WHEN the user asks to adopt Nx across repos, move projects into a monorepo, or bring code/history from another repository.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): officecli-docx]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-docx</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-docx</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): fixing-motion-performance]]></title>
+            <link>https://skills.sh/master5d/claude-design-skills/fixing-motion-performance</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:master5d/claude-design-skills/fixing-motion-performance</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
 Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill any time a .docx file is involved -- as input, output, or both. This includes: creating Word documents, reports, letters, memos, or proposals; reading, parsing, or extracting text from any .docx file; editing, modifying, or updating existing documents; working with templates, tracked changes, comments, headers/footers, or tables of contents. Trigger whenever the user mentions 'Word doc', 'document', 'report', 'letter', 'memo', or references a .docx filename.]]></description>
+Source: master5d/claude-design-skills
+Description: Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): eng-spec]]></title>
-            <link>https://skills.sh/amit-t/skills/eng-spec</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:amit-t/skills/eng-spec</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): openapi]]></title>
+            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/openapi</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:codewithmukesh/dotnet-claude-kit/openapi</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
 Installs: 1
-Source: amit-t/skills
-Description: Convert an approved PRD into TDD + Engineering Spec + ADRs, run a 5-agent engineering panel review (Architect, DB Designer, Principal SWE, SDET, Performance Engineer), fix blockers, approve, and sync to ralph.]]></description>
+Source: codewithmukesh/dotnet-claude-kit
+Description: Built-in OpenAPI support for .NET 10 applications. Covers document generation, transformers, TypedResults metadata, security schemes, XML comments, build-time generation, and multiple document support. No Swashbuckle needed. Load this skill when setting up API documentation, customizing OpenAPI output, adding security schemes to docs, or when the user mentions "OpenAPI", "AddOpenApi", "MapOpenApi", "document transformer", "operation transformer", "schema transformer", "OpenAPI 3.1", "API documentation", "Swashbuckle replacement", "Produces", "WithSummary", "WithDescription", "ProblemDetails", "Kiota", or "client generation".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): avoid-ai-writing]]></title>
-            <link>https://skills.sh/conorbronsdon/avoid-ai-writing/avoid-ai-writing</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:conorbronsdon/avoid-ai-writing/avoid-ai-writing</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): transcription automation]]></title>
+            <link>https://skills.sh/claude-office-skills/skills/transcription-automation</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:claude-office-skills/skills/transcription-automation</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
 Installs: 1
-Source: conorbronsdon/avoid-ai-writing
-Description: Audit and rewrite content to remove AI writing patterns ("AI-isms"). Use this skill when asked to "remove AI-isms," "clean up AI writing," "edit writing for AI patterns," "audit writing for AI tells," or "make this sound less like AI."]]></description>
+Source: claude-office-skills/skills
+Description: Automate audio/video transcription, meeting notes, subtitle generation, and content processing]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): using-google-seo-skills]]></title>
-            <link>https://skills.sh/myehia565/google-seo-agent-skills/using-google-seo-skills</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/using-google-seo-skills</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): gdrv-cli]]></title>
+            <link>https://skills.sh/dl-alexandre/skills/gdrv-cli</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dl-alexandre/skills/gdrv-cli</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
 Installs: 1
-Source: myehia565/google-seo-agent-skills
-Description: Discovers and routes Google Search Central–grounded SEO skills. Use when starting a session or deciding which SEO skill applies. Standalone pack — not affiliated with Google.]]></description>
+Source: dl-alexandre/skills
+Description: Manage Google Drive files, folders, Sheets, Docs, and Slides using the gdrv CLI. Use when working with Google Drive operations, uploading/downloading files, managing Google Workspace documents, or when the user mentions Google Drive, gdrv, or cloud file storage.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): design-artifact]]></title>
-            <link>https://skills.sh/plannotator/effective-html/design-artifact</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/design-artifact</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): container-publish]]></title>
+            <link>https://skills.sh/codewithmukesh/dotnet-claude-kit/container-publish</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:codewithmukesh/dotnet-claude-kit/container-publish</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
 Installs: 1
-Source: plannotator/effective-html
-Description: Design principles and creative direction for building HTML artifacts — pages, reports, plans, landing pages, demos, decks, and small tools. Use when creating or restyling any visual HTML deliverable and deciding its palette, type pairing, layout, theming, or overall register, or when the output must not look generically AI-generated.]]></description>
+Source: codewithmukesh/dotnet-claude-kit
+Description: Dockerfile-less containerization using the .NET 10 SDK container publishing feature. Covers MSBuild properties, chiseled images, multi-arch builds, and registry publishing — all without writing a Dockerfile. Load this skill when the user wants to containerize without a Dockerfile, or mentions "dotnet publish container", "PublishContainer", "ContainerRepository", "ContainerFamily", "chiseled", "distroless", "container publish", "SDK container", "no Dockerfile", or "containerize without Docker".]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): officecli-pptx]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-pptx</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-pptx</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): video]]></title>
+            <link>https://skills.sh/smixs/visual-skills/video</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:smixs/visual-skills/video</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
 Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill any time a .pptx file is involved -- as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file; editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions 'deck', 'slides', 'presentation', 'pitch', or references a .pptx filename.]]></description>
+Source: smixs/visual-skills
+Description: Use this skill whenever the user asks to create, improve, audit, or split prompts for AI video generators (Seedance, Kling, Veo, Runway, Luma, Pika, Sora, any image-to-video system). The skill also covers storyboards, shot lists, director treatments, dynamic montage, multi-clip story structure, camera direction, lighting, blocking, pacing, character continuity, dialogue, and sound design. Trigger even when the user says things like "придумай сцену для видео", "разбей на склейки", "сделай раскадровку", "улучши промпт для Kling", "переведи сценарий в промпты", "как снять X в AI-видео", or shares a prompt and asks to fix it.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): edu-analytic-geometry]]></title>
-            <link>https://skills.sh/wy51ai/edulab/edu-analytic-geometry</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:wy51ai/edulab/edu-analytic-geometry</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): linkup-fetch]]></title>
+            <link>https://skills.sh/linkupplatform/skills/linkup-fetch</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:linkupplatform/skills/linkup-fetch</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
 Installs: 1
-Source: wy51ai/edulab
-Description: 把一道解析几何题解成一个自包含的交互教学网页：左栏题面 + 动态控制台（一个 可变参数滑块驱动实时重算的几何量 + 理论范围/定值指示），中栏 KaTeX 分步解析，右栏 2D Canvas 动态几何画板（椭圆/双曲线/抛物线/圆 + 动直线/动点 + 向量 + 标注 + 画笔涂鸦）。 支持三入口——给定文字题、随机出题、上传题目图片识别后解题。覆盖求标准方程、弦长、向量 数量积范围/定值、三角形面积最值、定点、定值（斜率之积）、轨迹、离心率等题型，统一"设含参 直线 x=my+c + 联立 + 韦达 + 换元/常数分离"，并由 sympy 精确计算驱动（答案、坐标、步骤 数值、交互引擎的理论范围同源一致）。其它 agent 也可调用本技能生成此类网页。形态与 edu-solid-geometry 平行，但用 Canvas-2D + KaTeX（非 Three.js）。 触发词：解析几何, 圆锥曲线, 椭圆, 双曲线, 抛物线, 直线与圆锥曲线, 焦点弦, 弦长, 数量积取值范围, 向量数量积, 定点问题, 定值问题, 斜率之积, 三角形面积最值, 轨迹方程, 离心率, 解这道解析几何题, 随机出一道圆锥曲线题, 这张图里的解析几何题; analytic geometry, conic sections, ellipse, hyperbola, parabola, chord length, dot product range, fixed point, fixed value, locus, eccentricity, interactive analytic geometry solution page.]]></description>
+Source: linkupplatform/skills
+Description: Use when you already know the exact URL and need its content as clean Markdown — a pricing page, article, docs page, or a URL found in a previous step. ALSO read this when writing code that calls the Linkup Fetch API. Uses the Linkup Fetch API via the `linkup-fetch` MCP tool or direct REST calls. Prefer this over linkup-search when the URL is known; prefer linkup-extract when you need many structured rows from one listing page.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): eeat-and-trust]]></title>
-            <link>https://skills.sh/myehia565/google-seo-agent-skills/eeat-and-trust</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:myehia565/google-seo-agent-skills/eeat-and-trust</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): gpd-cli]]></title>
+            <link>https://skills.sh/dl-alexandre/skills/gpd-cli</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:dl-alexandre/skills/gpd-cli</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
 Installs: 1
-Source: myehia565/google-seo-agent-skills
-Description: Strengthens experience, expertise, author clarity, and trust signals on pages. Use when YMYL topics, missing bylines, or weak authorship/trust cues appear.]]></description>
+Source: dl-alexandre/skills
+Description: Manage Google Play Developer Console using the gpd CLI. Use when working with Android app publishing, Play Store releases, app reviews, Android vitals, in-app purchases, subscriptions, or when the user mentions Google Play, Play Store, Android publishing, or gpd.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): html-prototype]]></title>
-            <link>https://skills.sh/plannotator/effective-html/html-prototype</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:plannotator/effective-html/html-prototype</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): cli-cost-usage]]></title>
+            <link>https://skills.sh/diegosouzapw/omniroute/cli-cost-usage</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:diegosouzapw/omniroute/cli-cost-usage</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
 Installs: 1
-Source: plannotator/effective-html
-Description: Direct-invocation specialist for polished, responsive, self-contained HTML mockups and interactive prototypes grounded in the user's conversation, product context, and design language. Use when the user explicitly invokes html-prototype or the broad html skill routes a mockup or prototype request here. Do not activate independently from a general request. Treat a mockup as a noninteractive fidelity mode within this skill, not as a separate skill.]]></description>
+Source: diegosouzapw/omniroute
+Description: View cost breakdowns, token usage, and call logs from the CLI. Filter by provider, model, or date range. Export usage reports and inspect per-connection spending.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): ipados-design-guidelines]]></title>
-            <link>https://skills.sh/ehmo/platform-design-skills/ipados-design-guidelines</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:ehmo/platform-design-skills/ipados-design-guidelines</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): crm-automation]]></title>
+            <link>https://skills.sh/claude-office-skills/skills/crm-automation</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:claude-office-skills/skills/crm-automation</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
 Installs: 1
-Source: ehmo/platform-design-skills
-Description: Apple Human Interface Guidelines for iPad. Use when building iPad-optimized interfaces, implementing multitasking, pointer support, keyboard shortcuts, or responsive layouts. Triggers on tasks involving iPad, Split View, Stage Manager, sidebar navigation, or trackpad support.]]></description>
+Source: claude-office-skills/skills
+Description: CRM workflow automation for HubSpot, Salesforce, Pipedrive - lead management, deal tracking, and multi-CRM synchronization]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): reddit-automation]]></title>
-            <link>https://skills.sh/flowkit-labs/skills/reddit-automation</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:flowkit-labs/skills/reddit-automation</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): conformetry-validate]]></title>
+            <link>https://skills.sh/jimmypaolini/codebase/conformetry-validate</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:jimmypaolini/codebase/conformetry-validate</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 45
-Source: flowkit-labs/skills
-Description: Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on "find reddit opportunities", "reddit marketing", "reddit automation", "reply on reddit for my product", "reddit community engagement", "reddit lead gen", or any ask to turn Reddit threads into genuine, disclosed marketing replies.]]></description>
+Installs: 9
+Source: jimmypaolini/codebase
+Description: Run a conformetry conformance check and act on what it reports. Use when a conformetry-validate target fails; when a composite lint run reports conformance differences; when a report names a missing file, a missing declaration, a missing comment, an ambiguous instance, or an unmatched instance; when deciding whether to edit an instance or regenerate it; or before claiming generated code is finished. Covers both the Nx plugin and the conformetry command-line host.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): officecli-pitch-deck]]></title>
-            <link>https://skills.sh/iofficeai/officecli/officecli-pitch-deck</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:iofficeai/officecli/officecli-pitch-deck</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): omni-db-backups]]></title>
+            <link>https://skills.sh/diegosouzapw/omniroute/omni-db-backups</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:diegosouzapw/omniroute/omni-db-backups</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
 Installs: 1
-Source: iofficeai/officecli
-Description: Use this skill when the user is building a fundraising / investor pitch deck — seed, Series A / B / C, convertible note, SAFE round, strategic raise. Trigger on: 'pitch deck', 'investor deck', 'Series A deck', 'Series B deck', 'Series C deck', 'fundraising deck', 'seed pitch', 'VC deck', 'raising capital', 'term sheet presentation'. Output is a single .pptx. This skill is a scene layer on top of officecli-pptx — inherits every pptx v2 rule (visual floor, grid, palettes, connector canon, Delivery Gate). DO NOT invoke for a generic board review, sales deck, all-hands, or product launch — route those to officecli-pptx base.]]></description>
+Source: diegosouzapw/omniroute
+Description: Trigger system backups, restore from backup files, and manage the SQLite database lifecycle. Supports export, import, and incremental snapshot strategies.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): video-edit]]></title>
-            <link>https://skills.sh/genmedia-labs/skills/video-edit</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:genmedia-labs/skills/video-edit</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): conformetry-configure]]></title>
+            <link>https://skills.sh/jimmypaolini/codebase/conformetry-configure</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:jimmypaolini/codebase/conformetry-configure</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 42
-Source: genmedia-labs/skills
-Description: Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on "video edit", "edit video", "restyle video", "swap video background", "motion control", "outfit swap video", or any explicit ask to transform a video.]]></description>
+Installs: 9
+Source: jimmypaolini/codebase
+Description: Add or change a conformetry generator, and write the template it renders. Use when a needed generator does not exist yet; when editing a conformetry configuration file; when writing or changing files under a template directory; when choosing placeholders or naming-case variants; when a generated file came out with an empty value or an odd path segment; or when a conformetry command refuses to run because the emitted generator plugin is out of date.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): clanker-discipline]]></title>
-            <link>https://skills.sh/gbasin/clanker-discipline/clanker-discipline</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:gbasin/clanker-discipline/clanker-discipline</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): nx-workspace]]></title>
+            <link>https://skills.sh/nrwl/nx/nx-workspace</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/nx-workspace</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 6
-Source: gbasin/clanker-discipline
-Description: Catches state bloat, grab-bag models, and mutation ambiguity from AI coding agents. Use when reviewing state types, boolean flags, optional-field models, or mutable data patterns.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Explore and understand Nx workspaces. USE WHEN answering any questions about the nx workspace, the projects in it or tasks to run. EXAMPLES: 'What projects are in this workspace?', 'How is project X configured?', 'What targets can I run?', 'What's affected by my changes?', 'Which projects depend on library Y?', or any questions about Nx workspace structure, project configuration, or available tasks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): tiktok-api]]></title>
-            <link>https://skills.sh/fetcher-sh/fetcher-skills/tiktok-api</link>
-            <guid isPermaLink="false">2026-08-22T01:09:39.967Z:topHot:new:fetcher-sh/fetcher-skills/tiktok-api</guid>
-            <pubDate>Sat, 22 Aug 2026 01:09:39 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): nx-plugins]]></title>
+            <link>https://skills.sh/nrwl/nx/nx-plugins</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/nx-plugins</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 5
-Source: fetcher-sh/fetcher-skills
-Description: A TikTok API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no login and no app review. Use when the user wants to search TikTok posts by keyword and sort by most-liked or most recent within a date range, look up a post by its share URL or ID, scrape a TikTok profile by @username, pull a user's posts, followers, or followings, fetch a hashtag's posts, pull posts using a specific sound/music track, get posts from a location, or read a post's comments and comment replies. Also covers TikTok trend tracking, hashtag monitoring, influencer discovery, competitor content analysis, and TikTok data pipelines without official TikTok API access or a scraping browser.]]></description>
+Installs: 9
+Source: nrwl/nx
+Description: Find and add Nx plugins. USE WHEN user wants to discover available plugins, install a new plugin, or add support for a specific framework or technology to the workspace.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#9): nx-generate]]></title>
+            <link>https://skills.sh/nrwl/nx/nx-generate</link>
+            <guid isPermaLink="false">2026-08-23T01:14:12.865Z:topHot:new:nrwl/nx/nx-generate</guid>
+            <pubDate>Sun, 23 Aug 2026 01:14:12 GMT</pubDate>
+            <description><![CDATA[New entry in Hot leaderboard.
+Rank: #9
+Installs: 9
+Source: nrwl/nx
+Description: Generate code using nx generators. USE WHEN scaffolding code or transforming existing code - for example creating libraries or applications, or anything else that is boilerplate code or automates repetitive tasks. ALWAYS use this first when generating code with Nx instead of calling MCP tools or running nx generate immediately.]]></description>
         </item>
     </channel>
 </rss>
