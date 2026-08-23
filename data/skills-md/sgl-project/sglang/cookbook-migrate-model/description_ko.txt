@@ -1,0 +1,1 @@
+레거시 템플릿 SGLang 쿡북 페이지(docs/src/snippets/autoregressive/ 아래의 모놀리식 모델별 생성기)를 구성 기반 템플릿(공유 _deployment.jsx / _playground.jsx 엔진 + 모델별 구성)으로 마이그레이션합니다. 기존 요리책 페이지를 마이그레이션, 변환 또는 포팅하라는 요청을 받을 때 사용합니다. 새로운 모델에는 해당되지 않습니다(이러한 경우에는 cookbook-add-model 사용). /cookbook- migration-model <모델 페이지 이름으로 실행합니다. 예: GLM-5.1>.
