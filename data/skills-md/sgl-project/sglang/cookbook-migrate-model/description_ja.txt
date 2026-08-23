@@ -1,0 +1,1 @@
+レガシー テンプレートの SGLang クックブック ページ (docs/src/snippets/autoregressive/ にあるモノリシックなモデルごとのジェネレーター) を構成主導のテンプレート (共有 _deployment.jsx / _playground.jsx エンジン + モデルごとの構成) に移行します。既存のクックブック ページの移行、変換、または移植を求められた場合に使用します。新しいモデルの場合ではありません (それらの場合は、cookbook-add-model を使用します)。 /cookbook-merge-model <モデル ページ名を指定して実行します。例: GLM-5.1>。
