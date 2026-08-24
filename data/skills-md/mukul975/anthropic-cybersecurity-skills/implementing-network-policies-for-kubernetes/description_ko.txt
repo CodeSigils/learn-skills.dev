@@ -1,0 +1,1 @@
+Calico 또는 Cilium과 같은 모든 규격 CNI에서 작동하는 휴대용 업스트림 Kubernetes NetworkPolicy YAML(기본 거부, DNS 송신, 네임스페이스 및 포드 선택기 규칙)을 작성합니다. 세분화를 CNI 이식 가능으로 유지해야 하는 경우, 기본 거부 상태를 도입하거나 공급업체 CRD에 의존하지 않고 포드와 네임스페이스 간의 동서 트래픽을 제한하는 경우에 사용합니다. 키워드: NetworkPolicy, 기본 거부, podSelector, 네임스페이스Selector, 수신, 송신, CNI 휴대용. Calico 특정 리소스에는 사용하지 마세요. Implement-kubernetes-network-policy-with-calico를 사용하세요.
