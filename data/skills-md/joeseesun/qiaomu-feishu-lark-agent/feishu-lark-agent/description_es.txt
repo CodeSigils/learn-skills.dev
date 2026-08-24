@@ -1,0 +1,10 @@
+Agente de operaciones multiuso Feishu/Lark (mensajes/documentos/tablas multidimensionales/calendario/tareas/usuarios).
+
+⚠️ Reglas de selección de habilidades:
+- Enviar mensaje de texto sin formato → esta habilidad (enviar mensaje)
+- Enviar texto enriquecido/tarjeta → feishu‑post / feishu‑card
+- Verificar asistencia → feishu-asistencia
+- Todas las demás operaciones de Feishu → esta habilidad
+
+Palabras desencadenantes (cualquier coincidencia invocará):
+enviar Feishu, enviar mensaje a, verificar mensajes grupales, responder Feishu, buscar mensajes Feishu, enumerar chats grupales, crear documento Feishu, leer documento Feishu, verificar tabla multidimensional, agregar registro Bitable, actualizar tabla, calendario Feishu, verificar cronograma, agregar cronograma, tareas Feishu, crear tarea, completar tarea, verificar usuario Feishu, buscar contacto, obtener open_id
