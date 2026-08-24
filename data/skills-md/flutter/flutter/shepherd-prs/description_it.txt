@@ -1,0 +1,3 @@
+Automatizza il controllo, il controllo dello stato, l'aggiornamento dei rami e l'inserimento di PR aperti o PR di contributori di terze parti approvati nel repository flutter/flutter utilizzando la CLI gh.
+Quando utilizzarlo: - Quando è necessario verificare lo stato dei PR aperti o dei PR di terze parti gestiti. - Quando è necessario aggiornare rami obsoleti o applicare l'etichetta 'autosubmit' ai PR approvati.
+Quando non utilizzarlo: - Non utilizzare per PR non approvati (a meno che non siano i tuoi e desideri verificarne lo stato). - Non utilizzare per repository diversi da flutter/flutter.
