@@ -1,0 +1,3 @@
+Automate shepherding, checking status, updating branches, and landing open PRs or approved third-party contributor PRs in the flutter/flutter repository using the gh CLI.
+When to use: - When you need to check the status of open PRs or shepherded third-party PRs. - When you need to update stale branches or apply the 'autosubmit' label to land approved PRs.
+When not to use: - Do not use for PRs that are not approved (unless they are your own and you want to check status). - Do not use for repositories other than flutter/flutter.
