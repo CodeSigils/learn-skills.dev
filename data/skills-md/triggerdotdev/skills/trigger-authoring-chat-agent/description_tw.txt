@@ -1,0 +1,1 @@
+使用 @trigger.dev/sdk/ai 中的 chat.agent 編寫並運行持久的 AI 聊天代理：每回合運行循環，為什麼必須先傳播 ...chat.toStreamTextOptions()，返回 StreamTextResult 與調用 chat.pipe()、兩個伺服器操作（chat.createStartSessionAction + auth.createToChat Chat），並將連接到 Chat ChatActionChat。在建置、修改或偵錯聊天後端（代理任務或其生命週期掛鉤）或其 React 傳輸時，在聲明類型化工具或自訂資料部分時，或在將普通 AI SDK StreamText 路由遷移到 chat.agent 時載入此內容。

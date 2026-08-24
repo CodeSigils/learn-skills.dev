@@ -1,0 +1,1 @@
+跨工具偵測運行時的容器逃逸 - 命名空間操作、功能濫用、核心漏洞、敏感主機掛載和異常系統呼叫 - 並解釋哪些訊號很重要，無論 Falco、Sysdig、auditd 或 EDR 正在執行收集。在決定要監視哪些突破行為、調查可疑的 Docker 或 Kubernetes 突破或比較運行時感測器之間的逃逸覆蓋範圍時使用。關鍵字：容器逃逸、突破、命名空間、CAP_SYS_ADMIN、特權、hostPath、核心利用、系統呼叫。不要用於 Falco 規則語法本身 - 使用 detector-container-escape-with-falco-rules；靜態設定掃描，請使用執行容器逃逸偵測。

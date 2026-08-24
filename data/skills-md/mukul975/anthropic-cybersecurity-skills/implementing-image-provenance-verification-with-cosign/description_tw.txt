@@ -1,0 +1,1 @@
+使用 Sigstore Cosign 簽署和驗證容器映像來源，涵蓋基於金鑰和無金鑰的 OIDC 簽章（Fulcio、Rekor 透明度日誌）、SLSA 證明，以及透過 Kubernetes 存取控制強制執行簽章驗證。在對影像進行簽名以確保供應鏈安全、設定無密鑰 OIDC 簽名、附加證明或在准入時強制執行僅經過驗證的影像策略時使用。關鍵字：Cosign、Sigstore、Fulcio、Rekor、免鑰匙、證明、聯合簽名驗證、存取政策。請勿用於基於 in-toto 佈局的管道證明 - 使用 Implementing-supply-chain-security-with-in-toto。

@@ -1,0 +1,1 @@
+透過設計最低權限角色和 ClusterRoles、審核 RoleBindings、消除叢集管理蔓延、分離服務帳戶以及整合外部 OIDC 身分提供者，強化 Kubernetes RBAC。在加強叢集存取控制、刪除過多的 ClusterRoleBindings 或強化服務帳戶權限以防止升級和橫向移動時使用。關鍵字：RBAC、角色、ClusterRole、RoleBinding、最小權限、服務帳戶、OIDC、叢集管理。不要用於發現現有的升級路徑 - 使用auditing-kubernetes-rbac-privilege-escalation。

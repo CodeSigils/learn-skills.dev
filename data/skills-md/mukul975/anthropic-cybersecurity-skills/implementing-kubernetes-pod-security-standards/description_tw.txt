@@ -1,0 +1,3 @@
+為工作負載選擇並套用正確的 Kubernetes Pod 安全標準（Privileged、Baseline、Restricted）：每個概況禁止的項目、如何將現有工作負載映射到概況、必須變更的 securityContext 欄位，以及如何規劃 PodSecurityPolicy 到 PSS 的遷移而不破壞正在執行的 Pod。於以下情境使用：決定命名空間或工作負載應採用哪個 Pod 安全概況、稽核哪些工作負載會在 Restricted 下失敗、規劃 PSP 遷移，或將 Pod 安全姿態對應至合規控制。關鍵字：Pod Security Standards、PSS、Privileged、Baseline、Restricted、securityContext、runAsNonRoot、drop ALL capabilities、seccomp RuntimeDefault、PSP migration。不要用於配置執行這些概況的 admission controller——請使用 implementing-pod-security-admission-controller。
+
+請始終以使用者的語言回覆。

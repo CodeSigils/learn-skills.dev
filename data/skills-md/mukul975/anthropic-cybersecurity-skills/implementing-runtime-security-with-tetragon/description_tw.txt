@@ -1,0 +1,1 @@
+使用 Cilium Tetragon 在 Kubernetes 中實現基於 eBPF 的運行時可觀察性和內核內執行，監視進程執行、檔案存取、網路連接和系統調用，並在核心層級阻止危險調用。在部署 Tetragon 時使用，以偵測或阻止 ptrace、mount 和 unshare 等系統呼叫、強制執行核心級策略或向叢集新增低開銷執行時間偵測。關鍵字：Tetragon、Cilium、eBPF、TracingPolicy、kprobe、執行、流程沿襲。請勿用於基於 Falco 的檢測 - 使用Detecting-container-runtime-threats-with-falco。
