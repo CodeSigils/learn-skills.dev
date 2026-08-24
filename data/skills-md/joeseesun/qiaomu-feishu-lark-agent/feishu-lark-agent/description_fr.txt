@@ -1,0 +1,10 @@
+Agent d'opération polyvalent Feishu/Lark (messages/documents/tableaux multidimensionnels/calendrier/tâches/utilisateurs).
+
+⚠️ Règles de sélection des compétences :
+- Envoyer des messages en texte brut → cette compétence (envoi de msg)
+- Envoyer du texte enrichi/des cartes → feishu‑post / feishu‑card
+- Vérifier la présence → feishu‑présence
+- Toutes les autres opérations Feishu → cette compétence
+
+Mots déclencheurs (n'importe quelle correspondance invoquera) :
+envoyer Feishu, envoyer un message à, rechercher des messages de groupe, répondre à Feishu, rechercher des messages Feishu, répertorier des discussions de groupe, créer un document Feishu, lire un document Feishu, interroger une table multidimensionnelle, ajouter un enregistrement Bitable, mettre à jour la table, le calendrier Feishu, vérifier le calendrier, ajouter un calendrier, tâches Feishu, créer une tâche, terminer une tâche, rechercher un utilisateur Feishu, trouver un contact, obtenir open_id
