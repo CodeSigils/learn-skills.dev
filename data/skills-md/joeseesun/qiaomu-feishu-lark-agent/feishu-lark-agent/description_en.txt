@@ -1,10 +1,15 @@
-Feishu/Lark All-Purpose Operation Agent (messages/documents/multidimensional tables/calendar/tasks/users).
+Feishu/Lark All‑purpose Operation Agent (messages / documents / Bitable / calendar / tasks / users).
 
 ⚠️ Skill selection rules:
-- Send plain text messages → this skill (msg send)
-- Send rich text/cards → feishu‑post / feishu‑card
+- Send plain text message → this skill (msg send)
+- Send rich text/card → feishu‑post / feishu‑card
 - Check attendance → feishu‑attendance
 - All other Feishu operations → this skill
 
 Trigger words (any match will invoke):
-send Feishu, send message to, check group messages, reply to Feishu, search Feishu messages, list group chats, create Feishu document, read Feishu document, check multidimensional table, add Bitable record, update table, Feishu calendar, check schedule, add schedule, Feishu task, create task, complete task, check Feishu user, find contact, get open_id
+send Feishu, send message to, check group messages, reply Feishu, search Feishu messages, list group chats,
+create Feishu document, read Feishu document, check Bitable, add Bitable record, update table,
+Feishu calendar, check schedule, add schedule, Feishu task, create task, complete task,
+check Feishu user, find contact, get open_id
+
+Please always respond in user's language.
