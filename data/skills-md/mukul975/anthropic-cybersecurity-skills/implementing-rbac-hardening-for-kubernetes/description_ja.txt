@@ -1,0 +1,1 @@
+最小権限のロールと ClusterRole の設計、RoleBinding の監査、クラスター管理者のスプロールの排除、サービス アカウントの分離、外部 OIDC ID プロバイダーの統合により、Kubernetes RBAC を強化します。クラスターのアクセス制御を強化する場合、過剰な ClusterRoleBinding を削除する場合、またはエスカレーションや横方向の移動に対してサービス アカウントのアクセス許可を強化する場合に使用します。キーワード: RBAC、ロール、ClusterRole、RoleBinding、最小権限、サービス アカウント、OIDC、クラスター管理者。既存のエスカレーション パスの検出には使用しないでください。auditing-kubernetes-rbac-privilege-escalation を使用してください。
