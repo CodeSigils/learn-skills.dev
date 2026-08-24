@@ -1,12 +1,10 @@
-飛書/Lark 通用操作代理（訊息/文件/多維表格/行事曆/任務/使用者）。
+飞书/Lark全能操作代理（消息/文档/多维表格/日历/任务/用户）。
 
-⚠️ 技能選擇規則：
-- 發送純文字訊息 → 本技能（msg send）
-- 發送富文字/卡片 → feishu‑post / feishu‑card
-- 檢查出勤 → feishu‑attendance
-- 所有其他飛書操作 → 本技能
+⚠️技能選擇規則：
+- 发送纯文本消息→此技能（消息发送）
+- 发送富文本/卡片 → feishu-post / feishu-card
+- 看考勤→飛書-考勤
+- 所有其他飛書操作→該技能
 
-觸發詞（任一匹配即會召喚）：
-send Feishu、send message to、check group messages、reply Feishu、search Feishu messages、list group chats、create Feishu document、read Feishu document、check multi‑dimensional table、add bitable record、update table、Feishu calendar、check schedule、add schedule、Feishu task、create task、complete task、check Feishu user、find contact、get open_id
-
-請始終以使用者的語言回覆。
+觸發詞（任何符合都會呼叫）：
+發送飛書、發送訊息、查看群組訊息、回覆飛書、搜尋飛書訊息、列出群組聊天、建立飛書文件、讀取飛書文件、查看多維表、新增Bitable記錄、更新表格、飛書日曆、查看行程、新增行程、飛書任務、建立任務、完成任務、查看飛書用戶、尋找聯絡人、取得open_id

@@ -1,0 +1,1 @@
+通过设计最低权限角色和 ClusterRoles、审核 RoleBindings、消除集群管理蔓延、分离服务帐户以及集成外部 OIDC 身份提供商，强化 Kubernetes RBAC。在加强集群访问控制、删除过多的 ClusterRoleBindings 或强化服务帐户权限以防止升级和横向移动时使用。关键词：RBAC、角色、ClusterRole、RoleBinding、最小权限、服务帐户、OIDC、集群管理。不要用于发现现有的升级路径 - 使用auditing-kubernetes-rbac-privilege-escalation。

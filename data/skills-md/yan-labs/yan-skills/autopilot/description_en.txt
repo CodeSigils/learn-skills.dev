@@ -1,9 +1,1 @@
-接收一句模糊指令，自动调查、分类、拆解为 XML 阶段计划、选 skill、定完成判定，
-然后以无人值守模式通过 loop/goal + agent-mode 完整执行到底——
-包括自动部署、自动 E2E 测试、自动代码 review，不跳过任何阶段。
-当用户扔过来一句宽泛任务时主动使用——"把 bug 修了"、"补测试"、
-"优化性能"、"把这个功能做完"、"代码扫一遍"、"调查一下为什么 XX"。
-也在用户说"autopilot"、"auto"、"帮我规划"、"自己搞定"、"直接跑"、
-"你来拆"、"别问我怎么做"时触发。即使用户没有说这些关键词，
-只要输入明显是未拆解的宽泛意图，也应该主动激活。
-调用 autopilot = 授权全自动无人值守执行，不需要中途确认。
+Receive a vague instruction, automatically investigate, categorize, and break it down into an XML stage plan, select the appropriate skill, and define completion criteria, then execute it fully in an unattended mode using loop/goal + agent‑mode— including automatic deployment, automatic end‑to‑end testing, and automatic code review, without skipping any stage. When the user throws a broad task such as “fix the bug,” “add tests,” “optimize performance,” “finish this feature,” “run a code scan,” or “investigate why XX,” it should be proactively used. It is also triggered when the user says “autopilot,” “auto,” “help me plan,” “handle it yourself,” “run directly,” “you break it down,” “don’t ask me how,” etc. Even if the user doesn't use these keywords, as long as the input is clearly an un‑decomposed broad intent, it should be proactively activated. Invoking autopilot = authorizing fully automatic unattended execution, with no mid‑process confirmation required.

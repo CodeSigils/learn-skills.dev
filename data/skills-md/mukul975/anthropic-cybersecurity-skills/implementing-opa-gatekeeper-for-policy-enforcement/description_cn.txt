@@ -1,0 +1,1 @@
+通过 Helm 部署 OPA Gatekeeper 作为 Kubernetes 准入控制器，并使用 Rego 和实例化约束编写 ConstraintTemplates，以在准入时验证、改变或拒绝资源请求。在 Kubernetes v1.24+ 上准入时强制执行自定义策略即代码、在调度之前阻止不合规的工作负载或表达内置控件无法实现的规则时使用。关键词：Gatekeeper、ConstraintTemplate、约束、Rego、准入 Webhook、审核、突变。不要用于 Pod 安全准入已经涵盖的标准 pod 安全配置文件 - 使用 Implementing-pod-security-admission-controller。

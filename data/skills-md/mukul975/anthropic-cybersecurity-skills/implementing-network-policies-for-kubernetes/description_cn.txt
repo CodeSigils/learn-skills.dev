@@ -1,0 +1,1 @@
+编写可移植的上游 Kubernetes NetworkPolicy YAML - 默认拒绝所有、DNS 出口、命名空间和 pod 选择器规则 - 适用于任何符合 CNI 的要求，例如 Calico 或 Cilium。当分段必须保持 CNI 可移植、引入默认拒绝状态或限制 Pod 和命名空间之间的东西向流量而不依赖于供应商 CRD 时使用。关键词：NetworkPolicy、默认拒绝、podSelector、namespaceSelector、入口、出口、CNI 可移植。不要用于 Calico 特定的资源 - 使用implementation-kubernetes-network-policy-with-calico。

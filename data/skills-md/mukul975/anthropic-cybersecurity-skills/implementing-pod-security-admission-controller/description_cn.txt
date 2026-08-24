@@ -1,0 +1,1 @@
+配置和操作 Kubernetes Pod 安全准入 (PSA) 控制器，该控制器强制执行 Pod 安全标准：命名空间强制/审核/警告标签、通过AdmissionConfiguration 进行的集群范围默认设置、用户名、运行时类和命名空间的豁免、版本固定以及对控制器拒绝的 Pod 进行故障排除。在集群上连接 PSA、设置集群范围的默认强制、免除系统命名空间、调试 pod 被拒绝的原因或强制未触发的原因，或者读取 PSA 审核和警告输出时使用。关键词：Pod 安全准入、PSA、准入控制器、准入配置、pod-security.kubernetes.io 标签、强制审核警告、豁免、kube-apiserver。不要用于选择工作负载需要的安全配置文件 - 使用implementation-kubernetes-pod-security-standards。

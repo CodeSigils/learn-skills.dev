@@ -1,13 +1,10 @@
-飞书/Lark 全能操作 Agent（消息/文档/多维表格/日历/任务/用户）。
+Feishu/Lark All-Purpose Operation Agent (messages/documents/multidimensional tables/calendar/tasks/users).
 
-⚠️ skill 选择规则：
-- 发普通文本消息 → 本 skill（msg send）
-- 发富文本/卡片 → feishu-post / feishu-card
-- 查考勤 → feishu-attendance
-- 其余所有飞书操作 → 本 skill
+⚠️ Skill selection rules:
+- Send plain text messages → this skill (msg send)
+- Send rich text/cards → feishu‑post / feishu‑card
+- Check attendance → feishu‑attendance
+- All other Feishu operations → this skill
 
-触发词（任一匹配即调用）：
-发飞书、发消息给、查群消息、回复飞书、搜飞书消息、列群聊、
-创建飞书文档、读飞书文档、查多维表、添加bitable记录、更新表格、
-飞书日历、查日程、加日程、飞书任务、创建任务、完成任务、
-查飞书用户、找联系人、获取open_id
+Trigger words (any match will invoke):
+send Feishu, send message to, check group messages, reply to Feishu, search Feishu messages, list group chats, create Feishu document, read Feishu document, check multidimensional table, add Bitable record, update table, Feishu calendar, check schedule, add schedule, Feishu task, create task, complete task, check Feishu user, find contact, get open_id
