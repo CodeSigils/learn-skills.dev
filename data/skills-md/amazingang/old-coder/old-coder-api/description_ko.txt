@@ -1,0 +1,1 @@
+엔드포인트, 요청/응답 모양, 인증 및 권한 부여, 페이지 매김, idempotency, 속도 제한, 버전 관리 및 사용 중단과 같은 HTTP/JSON API 표면을 설계, 변경 또는 검토합니다. HTTP 엔드포인트를 추가 또는 수정하거나, OpenAPI 사양 또는 HTTP 라우트 DIFF를 검토하거나, HTTP API 변경으로 인해 소비자가 중단되는지 여부를 결정할 때 사용합니다. gRPC/protobuf, GraphQL, WebSockets 또는 기타 비-HTTP/JSON 인터페이스에 대한 프로토콜 호환성 검사 목록으로 사용하지 마십시오.
