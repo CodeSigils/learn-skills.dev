@@ -1,3 +1,3 @@
-Revisión adversarial de múltiples perspectivas. En modo completo/ligero, se generan en paralelo cuando los agentes revisores son desplegados; si los agentes faltan, son anómalos o falla la generación, se cambia automáticamente a modo solo, utilizando una rúbrica integrada de respaldo cuando los archivos de referencia no son legibles. Métodos de activación: /story-review, /审查, “审查一下”, “帮我审一下”.
+Revisión adversarial de múltiples perspectivas. En modo completo/ligero, los agentes revisores se generan en paralelo al desplegarse; si faltan agentes, están anómalos o falla su generación, recurre automáticamente al modo individual y utiliza una rúbrica integrada como respaldo cuando los archivos de referencia son ilegibles. Métodos de activación: /story-review, /review, “review it”, “help me review”. 
 
-Por favor, responda siempre en el idioma del usuario.
+Por favor, responde siempre en el idioma del usuario.

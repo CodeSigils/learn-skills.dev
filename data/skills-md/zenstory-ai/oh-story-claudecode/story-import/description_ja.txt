@@ -1,1 +1,1 @@
-既存の小説を逆インポートします。既に書かれた小説（未完成または完成）を、ストーリーロング書き込み/ストーリーショート書き込みの後続の書き込みワークフローと互換性のある標準的なプロジェクトディレクトリ構造に戻して解析します。ストーリーロング分析/ストーリーショート分析の分解パイプラインを内部的に再利用し、長さごとに自動的に迂回します。トリガーメソッド：/ story - import、"import novel "、" reverse parse "、"import "、" bring my book in "。
+既存の小説を逆インポートする。執筆された小説（ドラフトでも完成作品でも）を逆方向に解析し、標準的なプロジェクトディレクトリ構造に変換して、次の story‑long‑write / story‑short‑write ワークフローと互換性を持たせる。内部では story‑long‑analyze / story‑short‑analyze の分解パイプラインを再利用し、長さに基づいて自動的にルーティングする。トリガーメソッド: /story‑import、 “import novel”、 “reverse parse”、 “import”、 “bring my book in”。

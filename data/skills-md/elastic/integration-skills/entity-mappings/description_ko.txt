@@ -1,1 +1,1 @@
-Elastic 통합에서 ECS 엔터티를 추가하거나 감사할 때 사용합니다. * 필드 (엔터티 인벤토리/엔터티 저장소) — 데이터 스트림을 엔터티 대 이벤트로 분류하거나, 공급업체 필드를 entity.attributes. *, entity.lifecycle. * 및 entity.relationships. * 에 매핑하거나, 기존 패키지에서 엔터티 커버리지 격차 분석을 실행합니다./entity-mappings를 사용하여 수동으로 호출합니다.
+Elastic 통합에서 ECS entity.* 필드(엔터티 인벤토리/엔터티 스토어)를 추가하거나 감사할 때 사용합니다 — 데이터 스트림을 엔터티와 이벤트로 구분하고, 벤더 필드를 entity.attributes.*, entity.lifecycle.*, entity.relationships.*에 매핑하거나, 기존 패키지에 대한 엔터티 커버리지 격차 분석을 수행합니다. /entity-mappings 로 수동 호출합니다.
