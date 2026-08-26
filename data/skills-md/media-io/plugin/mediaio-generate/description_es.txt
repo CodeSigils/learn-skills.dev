@@ -1,0 +1,16 @@
+Genere imágenes y videos a través de la CLI de Media.io actualmente instalada.
+Úselo para texto a imagen, imagen a imagen, texto a video, imagen a video,
+referencia a video y flujos de trabajo publicados que aparecen en vivo
+`lista de modelos de mediaio` o `lista de flujo de trabajo de mediaio`. Los efectos sólo pueden usarse
+cuando sus parámetros han sido verificados independientemente porque la corriente
+CLI expone la "lista de efectos" pero no la "obtención de efectos".
+Descubra siempre el tipo de trabajo y el esquema exactos antes de enviarlo. cada
+el envío gasta los créditos del usuario, por lo que siempre ejecute "generar estimación",
+muestre el costo al usuario y deténgase hasta que lo apruebe explícitamente.
+Utilice la salida de descubrimiento legible por humanos, cargue archivos locales antes
+generación, enviar con `generar crear`, esperar con el archivo separado
+comando `generar espera` y recuperar archivos de resultados con `generar descarga`
+en lugar de reproducir las URL de resultados firmadas.
+En los hosts que utilizan redes de comando locales en espacios aislados, la primera red
+La llamada a la herramienta Shell/Bash `mediaio` o `curl` debe solicitar la aprobación del host antes del proceso
+lanzamiento. Nunca pruebe la disponibilidad de la red ejecutándola en el entorno limitado de pruebas predeterminado.
