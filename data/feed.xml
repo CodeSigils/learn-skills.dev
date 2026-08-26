@@ -4,573 +4,646 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Tue, 25 Aug 2026 01:10:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 01:12:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-25)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-26)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:snapshot</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:snapshot</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8091
-Trending skills: 7836
-Hot skills: 1910
-Top All Time: find-skills (3092686)
-Top Trending: ai-video-generation (22545)
-Top Hot: google-agents-cli-observability (81)]]></description>
+All Time skills: 8077
+Trending skills: 7802
+Hot skills: 1845
+Top All Time: find-skills (3109276)
+Top Trending: ai-video-generation (21570)
+Top Hot: fish-audio (40)]]></description>
         </item>
         <item>
-            <title><![CDATA[[All Time] New entry (#48): implement]]></title>
-            <link>https://skills.sh/mattpocock/skills/implement</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topAllTime:new:mattpocock/skills/implement</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#48): hyperframes]]></title>
+            <link>https://skills.sh/heygen-com/hyperframes/hyperframes</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topAllTime:new:heygen-com/hyperframes/hyperframes</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in All Time leaderboard.
 Rank: #48
-Installs: 421454
-Source: mattpocock/skills
-Description: Implement a piece of work based on a PRD or set of issues.]]></description>
+Installs: 424034
+Source: heygen-com/hyperframes
+Description: Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): google-agents-cli-observability]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-observability</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-observability</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#1): fish-audio]]></title>
+            <link>https://skills.sh/acedatacloud/skills/fish-audio</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:acedatacloud/skills/fish-audio</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "set up tracing", "monitor my ADK agent", "configure logging", "add observability", "debug production traffic", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).]]></description>
+Installs: 40
+Source: acedatacloud/skills
+Description: Generate AI text-to-speech audio and clone voices with Fish Audio via AceDataCloud API. Use when creating voiceover/narration audio (TTS), synthesizing speech, or cloning a reference voice. Chinese + multilingual.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): ci-cd-security]]></title>
-            <link>https://skills.sh/superagent-ai/skills/ci-cd-security</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:superagent-ai/skills/ci-cd-security</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): dbs-resonate]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-resonate</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-resonate</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
 Installs: 5
-Source: superagent-ai/skills
-Description: Scan GitHub Actions workflow files for security vulnerabilities by reading the YAML and reporting findings directly — no external tools, no installation, no shell execution. Use this skill whenever the user shares a `.github/workflows/` file, pastes workflow YAML, asks for a CI/CD security review, mentions `pull_request_target`, `workflow_run`, action pinning, `GITHUB_TOKEN` permissions, pwn requests, template injection, cache poisoning, secret exfiltration, supply chain risk, or any GitHub Actions hardening topic. Also trigger when the user is hardening an OSS repo, doing a CI/CD red team assessment, evaluating a target for supply-chain scanning, or writing publicly about CI/CD security. Bias toward triggering this skill rather than answering from memory — CI/CD security defaults are wrong almost everywhere and the rules are unintuitive.]]></description>
+Source: dontbesilent2025/dbskill
+Description: 文稿共鸣诊断。你写完了一段内容但心里没底——怕没流量、怕没戳中观众、怕完播率低。把文稿给这个 skill，它用传播心理学框架诊断有没有引起共鸣、哪里出了问题、具体怎么改。
+触发方式：/dbs-resonate、「这个文稿有没有戳中人」「帮我看看能不能发」「这个完播率会不会低」「文稿发出去有没有流量」
+Draft resonance diagnosis. You finished a draft but aren't sure it will connect. Diagnoses psychological resonance issues and gives specific fixes.
+Trigger: /dbs-resonate, "will this resonate", "check my draft", "will people watch this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): skill-security]]></title>
-            <link>https://skills.sh/superagent-ai/skills/skill-security</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:superagent-ai/skills/skill-security</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): dbs-agent-migration]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-agent-migration</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-agent-migration</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
 Installs: 5
-Source: superagent-ai/skills
-Description: Audit an AI agent skill for security risks before installing or trusting it. Runs a deterministic scanner (regex patterns, Python AST analysis, source-to-sink taint tracking, and YARA signatures) and then reasons about intent — catching prompt injection, credential exfiltration, persistence, memory poisoning, malicious code, supply-chain risks, and description-vs-behavior mismatch. Make sure to use this skill whenever the user wants to scan, audit, vet, review, or check the safety of a skill, plugin, SKILL.md, or agent tool — whether it is a local folder, a zip/.skill file, or a cloned repo — and whenever someone asks "is this skill safe to install?".]]></description>
+Source: dontbesilent2025/dbskill
+Description: Agent 工作台迁移。把任意项目整理成 Claude Code / Codex 双端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。
+触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex」
+Agent workspace migration. Turn any project into a maintainable Claude Code / Codex dual-host workspace by auditing rule files, establishing source-of-truth skills, normalizing names, and generating bridges.
+Trigger: /dbs-agent-migration, /agent-migration, "migrate to Codex", "migrate to Claude Code", "fix AGENTS.md", "organize skill bridges"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): open-knowledge-discovery]]></title>
-            <link>https://skills.sh/inkeep/open-knowledge-skills/open-knowledge-discovery</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:inkeep/open-knowledge-skills/open-knowledge-discovery</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): dbs-wechat-html]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-wechat-html</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-wechat-html</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 6
-Source: inkeep/open-knowledge-skills
-Description: Read when the user asks what OpenKnowledge is, wants to install it on a repository, wants to open or preview a single markdown file that is not part of an OpenKnowledge project, wants to share an OpenKnowledge project with collaborators, or asks how `ok init` / `ok cowork` / OK Desktop set up a project. Do NOT load to perform OpenKnowledge reads/writes — the runtime guidance for editing markdown inside an initialized OK project ships as a separate project-local skill at `.claude/skills/open-knowledge/` whenever `ok init` runs.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 微信公众号 HTML 生成。把 Markdown 转成可粘贴到微信公众号后台的 HTML，内置 15 种经典媒体/科技产品/中文公众号风格。
+触发方式：/dbs-wechat-html、/公众号HTML、「生成公众号 HTML」「做微信公众号版本」「微信排版」
+WeChat Official Account HTML generator. Converts Markdown into WeChat-ready HTML with 15 built-in publishing styles.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): chrome-devtools]]></title>
-            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/chrome-devtools</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:chromedevtools/chrome-devtools-mcp/chrome-devtools</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): dbs-jtbd]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-jtbd</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-jtbd</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 3
-Source: chromedevtools/chrome-devtools-mcp
-Description: Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pages, automating browser interactions, analyzing performance, or inspecting network requests.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent JTBD 任务澄清。用 Jobs to Be Done 识别具体情境中用户想推进的进展、切换方案的力量与可观察的选择标准，据此优化产品、内容、服务、决策和 AI 提示词。调用名：/dbs-jtbd。用户问「到底要解决什么」「为什么会选择这个方案」「用 JTBD 重写提示词」时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): defuddle]]></title>
-            <link>https://skills.sh/kepano/obsidian-skills/defuddle</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:kepano/obsidian-skills/defuddle</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#14): dbs-decision]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-decision</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-decision</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #14
-Installs: 8
-Source: kepano/obsidian-skills
-Description: Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 个人决策系统。把任何一个需要长期跟踪的领域（业务、关系、健康、职业、学习、投资……）做成一个本地知识工程：四层结构、来源标签、写完不改的快照、能炼出规律的概念库。
+触发方式：/dbs-decision、/决策系统、/决策立案、/结果回填、/状态画像
+Personal decision system. Turns any long-running domain into a local knowledge project with four layers, source tags, immutable snapshots, and a concept library that learns patterns over time.
+Trigger: /dbs-decision, /决策系统, /决策立案, /结果回填, /状态画像]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#15): obsidian-bases]]></title>
-            <link>https://skills.sh/kepano/obsidian-skills/obsidian-bases</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:kepano/obsidian-skills/obsidian-bases</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): dbs-chatroom]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-chatroom</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-chatroom</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 7
-Source: kepano/obsidian-skills
-Description: Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): json-canvas]]></title>
-            <link>https://skills.sh/kepano/obsidian-skills/json-canvas</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:kepano/obsidian-skills/json-canvas</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): dbs-content-system]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content-system</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-content-system</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 7
-Source: kepano/obsidian-skills
-Description: Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 内容结构化系统。把本地大量文稿、推文、选题、案例和课程稿搭成一个可持续生长的内容结构化工程：先审计内容规模与边界，再建立新工程、复制素材、抽取内容单元、生成主题地图与选题装配稿。
+触发方式：/dbs-content-system、/内容结构化系统、「把我的内容做成结构化系统」「把本地素材变成可重组系统」「帮我搭内容资产工程」「我想把旧内容变成可复用资产」
+Content structuring system. Audits local content volume, then builds a reusable content knowledge project with units, topic maps, and assembly drafts.
+Trigger: /dbs-content-system, "build a content structuring system", "turn my archive into reusable assets"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): gjalla-spec]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-spec</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-spec</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): dbs-ai-check]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-ai-check</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-ai-check</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 3
-Source: gjalla/engineering
-Description: Create a well-thought-out plan covering problem statement, goals, technical approach, and verification criteria. Use while planning / before implementing any non-trivial feature.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent AI 写作特征识别。扫描文案中的 AI 生成痕迹，输出检测报告。默认只诊断不改。
+触发方式：/dbs-ai-check、/AI检测、「帮我看看有没有 AI 味」「检测一下 AI 特征」
+AI writing fingerprint detection. Scans copy for AI-generated patterns and outputs a diagnostic report. Diagnosis only by default.
+Trigger: /dbs-ai-check, "check for AI writing", "does this sound like AI"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): gjalla-debug]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-debug</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-debug</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): dbs-script-flow]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-script-flow</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-script-flow</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 3
-Source: gjalla/engineering
-Description: Investigate a reported problem down to its root cause, with evidence, before proposing a fix. Use when something is broken, behaving unexpectedly, or a user reports an issue you can't immediately explain.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 短视频逐字稿逻辑延续检查。找出「观众会在哪一秒划走」的风险点：段落间逻辑衔接、段落内信息密度、句子口播流畅度。诊断完默认主动问是否标记式改稿。
+触发方式：/dbs-script-flow、/逻辑延续、「检查逻辑延续」「看看逻辑有没有断」「帮我看看这个稿子顺不顺」「哪里会划走」]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): gjalla-cleanup-audit]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-cleanup-audit</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-cleanup-audit</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): dbs-report]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-report</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-report</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 3
-Source: gjalla/engineering
-Description: Audit a codebase for dead code, unreachable branches, duplicated logic, and vestigial abstractions, then remove them safely with proof. Use to reduce sprawl, pay down tech debt, or clean up after a feature is retired or migrated.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。
+触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」
+Generate a deliverable diagnosis report by merging all dbs-save snapshots.
+Trigger: /dbs-report, "package this up", "make me a report"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): google-agents-cli-adk-code]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-adk-code</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-adk-code</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): dbs]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "write agent code", "build an agent with ADK", "add a tool", "create a callback", "define an agent", "use state management", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).]]></description>
+Installs: 6
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。
+触发方式：/dbs、/商业、「帮我看看」
+Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.
+Trigger: /dbs, "help me with my business"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): postgres-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/postgres-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/postgres-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): dbs-update]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-update</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-update</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 3
-Source: affaan-m/ecc
-Description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dbskill 更新器。用户说「更新 dbskill」「升级 dbskill」「把 dbskill 更新到最新版」「检查 dbskill 更新」或输入 /dbs-update 时使用。只同步 dontbesilent2025/dbskill，不更新用户安装的其他 Skill，不修改用户的 dbskill 存档。
+Update dbskill when the user asks to update, upgrade, or check updates for dbskill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): gjalla-code-review]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-code-review</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-code-review</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): dbs-skill-cleaner]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-skill-cleaner</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-skill-cleaner</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 3
-Source: gjalla/engineering
-Description: Review a code change (diff or PR) for ship-readiness before merge. Use when reviewing your own or someone else's changes prior to committing/merging/etc.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 本地 skill 清理器。扫描 Claude Code、Codex、Grok、通用 Agents 及指定目录中的 skill，识别广告导流、隐蔽商业意图、任务劫持、可疑外部调用、敏感数据读取等违背用户授权的内容；默认只出报告，经用户确认后隔离问题 skill。
+触发方式：/dbs-skill-cleaner、/清理 skill、/检查 skill、「扫描本地 skill」「检测 skill 广告」「清除有问题的 skill」「审查我的 skill」
+Local skill cleaner. Scans installed or specified skills for advertising, covert commercial intent, task hijacking, suspicious external calls, and sensitive-data access. Reports first and quarantines only after explicit confirmation.
+Trigger: /dbs-skill-cleaner, /clean skills, /check skills, "scan my local skills", "detect skill ads", "clean problematic skills"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): gjalla-breakdown]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-breakdown</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-breakdown</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): dbs-deconstruct]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-deconstruct</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-deconstruct</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 3
-Source: gjalla/engineering
-Description: Break a feature spec into intentional waves and bite-sized tasks grouped by dependency. Use after a spec is written to prepare for easy-to-track implementation.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。
+触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」
+Concept deconstruction using Wittgenstein + Austrian economics framework.
+Trigger: /dbs-deconstruct, "deconstruct this concept", "what does this really mean"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): gjalla-test-audit]]></title>
-            <link>https://skills.sh/gjalla/engineering/gjalla-test-audit</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:gjalla/engineering/gjalla-test-audit</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): dbs-good-question]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-good-question</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-good-question</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 3
-Source: gjalla/engineering
-Description: Audit a test suite to find tests that give false confidence — tests that encode bugs, duplicate coverage, or are so heavily mocked they can't catch real regressions. Use to improve robustness, audit coverage, or harden a risky area.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 好问题生成器。把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断它能被自动化解决到什么程度。
+触发方式：/dbs-good-question、/好问题、/问题说明书、/Agent可解性、「这个问题能不能自动化解决」「帮我把问题说清楚」
+Turn fuzzy problems into agent-solvable problem briefs and evaluate automation readiness.
+Trigger: /dbs-good-question, "clarify this problem", "can an agent solve this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): jira-integration]]></title>
-            <link>https://skills.sh/affaan-m/ecc/jira-integration</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/jira-integration</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): dbs-slowisfast]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-slowisfast</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-slowisfast</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 2
-Source: affaan-m/ecc
-Description: Use this skill when retrieving Jira tickets, analyzing requirements, updating ticket status, adding comments, or transitioning issues. Provides Jira API patterns via MCP or direct REST calls.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。
+触发方式：/dbs-slowisfast、/慢就是快、「有没有更慢的方法」「我是不是太快了」
+Slow-is-fast diagnosis. Help entrepreneurs find seemingly slower methods that build assets through friction.
+Trigger: /dbs-slowisfast, "is there a slower way", "am I going too fast"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): release-skills]]></title>
-            <link>https://skills.sh/jimliu/baoyu-design/release-skills</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:jimliu/baoyu-design/release-skills</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): dbs-goal]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-goal</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-goal</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 2
-Source: jimliu/baoyu-design
-Description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, GitHub Releases, annotated tags, historical release backfill, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送", "release notes", "GitHub Release", or "回填 Release".]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 目标清晰化。用维特根斯坦的语言哲学把模糊的目标审计成可检查的交付物。
+触发方式：/dbs-goal、/目标、「帮我搞清楚目标」「我想做个人 IP」「我的目标是成为...」「我想变得更...」
+Goal clarification using Wittgenstein's philosophy of language. Audits fuzzy goals into checkable deliverables.
+Trigger: /dbs-goal, "help me clarify my goal", "I want to become...", "my goal is..."]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): agentic-engineering]]></title>
-            <link>https://skills.sh/affaan-m/ecc/agentic-engineering</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/agentic-engineering</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): dbs-xhs-title]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-xhs-title</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-xhs-title</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 2
-Source: affaan-m/ecc
-Description: Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。
+触发方式：/dbs-xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」
+Xiaohongshu title formula tool. Pick the right formula from 75 proven templates.
+Trigger: /dbs-xhs-title, "xiaohongshu title", "RED title formula"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): frontend-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/frontend-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/frontend-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): dbs-benchmark]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-benchmark</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-benchmark</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 2
-Source: affaan-m/ecc
-Description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。
+触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」
+Benchmark analysis using dontbesilent's five-filter method.
+Trigger: /dbs-benchmark, "find me a benchmark", "who should I copy"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): dashboard-builder]]></title>
-            <link>https://skills.sh/affaan-m/ecc/dashboard-builder</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/dashboard-builder</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): dbs-standard-answer]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-standard-answer</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-standard-answer</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 2
-Source: affaan-m/ecc
-Description: Build monitoring dashboards that answer real operator questions for Grafana, SigNoz, and similar platforms. Use when turning metrics into a working dashboard instead of a vanity board.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 历史同构与标准答案研究。把用户正在经历的复杂困境抽象成结构指纹，在商业史、管理史、技术史、职业史和制度史中寻找真正同构的成功案例、失败案例与反例，比较当事人的约束、决策和结果，提炼反复出现的解法、适用条件与失效边界。
+触发方式：/dbs-standard-answer、/标准答案、「历史上谁遇到过类似问题」「这种情况以前有人经历过吗」「他们当时怎么解决的」「这个问题有没有经典解法」「先帮我找历史类比」「曾经的标准答案是什么」。
+Find structurally analogous historical cases and evidence-backed standard answers. Use when the user wants to locate a present dilemma in history, compare how others handled it, and extract recurring mechanisms with conditions and limits.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): prompt-optimizer]]></title>
-            <link>https://skills.sh/affaan-m/ecc/prompt-optimizer</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/prompt-optimizer</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): dbs-content-risk-check]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content-risk-check</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-content-risk-check</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 2
-Source: affaan-m/ecc
-Description: Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks), and output a ready-to-paste optimized prompt. Advisory role only — never executes the task itself. TRIGGER when: user says "optimize prompt", "improve my prompt", "how to write a prompt for", "help me prompt", "rewrite this prompt", or explicitly asks to enhance prompt quality. Also triggers on Chinese equivalents: "优化prompt", "改进prompt", "怎么写prompt", "帮我优化这个指令". DO NOT TRIGGER when: user wants the task executed directly, or says "just do it" / "直接做". DO NOT TRIGGER when user says "优化代码", "优化性能", "optimize performance", "optimize this code" — those are refactoring/performance tasks, not prompt optimization.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 面向创作者的内容发布风险检查。逐句检查自媒体、社交媒体和内容平台的标题、正文、图片文字、字幕、口播、评论、账号资料及视频画面，分别判断平台机器可能识别什么、内容本身存在什么实质问题，并给出具体位置和最小修改动作；需要明确视频语境边界时，额外生成真实准确的三行贴片小字。用户询问「检查敏感词」「发布前排雷」「这篇内容哪里可能违规」「这条小红书能不能发」「视频上放什么声明」时使用。保留强观点、情绪张力、个人风格和传播钩子。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): google-agents-cli-eval]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-eval</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-eval</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): dbs-save]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-save</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-save</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "run an evaluation", "evaluate my ADK agent", "write an evalset", "debug eval scores", "compare eval results", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 把当前诊断的关键状态存到本地，下次回来可以接着用。
+触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」
+Save the current diagnosis state to disk for cross-session recall.
+Trigger: /dbs-save, "save this diagnosis", "remember this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): agent-architecture-audit]]></title>
-            <link>https://skills.sh/affaan-m/ecc/agent-architecture-audit</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/agent-architecture-audit</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): dbs-knowledge]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-knowledge</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-knowledge</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 2
-Source: affaan-m/ecc
-Description: Full-stack diagnostic for agent and LLM applications. Audits the 12-layer agent stack for wrapper regression, memory pollution, tool discipline failures, hidden repair loops, and rendering corruption. Produces severity-ranked findings with code-first fixes. Essential for developers building agent applications, autonomous loops, or any LLM-powered feature.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 文件夹知识库。把用户已有的本地文件夹变成 Agent 能稳定查找、收录和维护的知识库；用户没有资料时建立最小知识库，有资料时生成知识库导航，后续支持放入新资料、查找答案、识别当前版本、检查知识库、精确更新导航，以及对膨胀的知识库导航进行瘦身和分层治理。用户提到「搭建知识库」「我的文件夹就是知识库」「让 AI 读懂这些文件」「把资料放进知识库」「从知识库找东西」「更新知识库」「更新知识库导航」「优化 SOT」「SOT 太大」「瘦身 Source of Truth」「知识库导航太长」「把明细下沉到 README」「刚才的文件加入知识库」「这条路径写错了」「把这个设为最新版」「哪个文件是最新版」「资料太乱」「建立 Source of Truth」时都应使用。用户无需理解 Source of Truth、RAG 或 Agent 配置。
+Folder-based knowledge base for AI agents. Use whenever the user wants to build, populate, query, organize, audit, slim, or connect a local folder as a knowledge base, including source-of-truth navigation, layered indexing, and version resolution.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): vega-multi-tv-migration]]></title>
-            <link>https://skills.sh/amazonappdev/devices-agent-skills/vega-multi-tv-migration</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:amazonappdev/devices-agent-skills/vega-multi-tv-migration</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): dbs-learning]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-learning</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-learning</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 2
-Source: amazonappdev/devices-agent-skills
-Description: Migrate Vega OS (Amazon Fire TV) applications to multi-platform React Native monorepo supporting Android TV, Apple TV, and other platforms. Covers analysis, implementation, and native module integration. Use when migrating TV apps to support multiple platforms or building new multi-platform TV applications.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 交互式学习。把一个课题拆成连续学习文章，根据用户在上一篇中的反馈调整下一篇的深度、角度和节奏。
+触发方式：/dbs-learning、/dbs-learn、/交互式学习、「带我学一个课题」「继续下一篇」「根据我的反馈写下一篇」
+Interactive learning workflow. Builds an adaptive sequence of learning articles based on user feedback.
+Trigger: /dbs-learning, /dbs-learn, "teach me a topic", "continue the next lesson"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): docker-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/docker-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/docker-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): dbs-chatroom-austrian]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-chatroom-austrian</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-chatroom-austrian</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 2
-Source: affaan-m/ecc
-Description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。
+触发方式：/dbs-chatroom-austrian、/chatroom-austrian、/奥派、「奥派聊天室」
+Austrian economics chatroom. Hayek × Mises × Claude debate.
+Trigger: /dbs-chatroom-austrian, /chatroom-austrian, /奥派, "Austrian chat"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): security-review]]></title>
-            <link>https://skills.sh/affaan-m/ecc/security-review</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/security-review</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): nx-workspace]]></title>
+            <link>https://skills.sh/nrwl/nx-ai-agents-config/nx-workspace</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:nrwl/nx-ai-agents-config/nx-workspace</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 2
-Source: affaan-m/ecc
-Description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.]]></description>
+Installs: 3
+Source: nrwl/nx-ai-agents-config
+Description: Explore and understand Nx workspaces. USE WHEN answering questions about the workspace, projects, or tasks. ALSO USE WHEN an nx command fails or you need to check available targets/configuration before running a task. EXAMPLES: 'What projects are in this workspace?', 'How is project X configured?', 'What depends on library Y?', 'What targets can I run?', 'Cannot find configuration for task', 'debug nx task failure'.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): shopify-dev]]></title>
-            <link>https://skills.sh/shopify/shopify-ai-toolkit/shopify-dev</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:shopify/shopify-ai-toolkit/shopify-dev</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): fastify-best-practices]]></title>
+            <link>https://skills.sh/mcollina/skills/fastify-best-practices</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:mcollina/skills/fastify-best-practices</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 2
-Source: shopify/shopify-ai-toolkit
-Description: Search Shopify developer documentation across all APIs. Use only when no API-specific skill applies.]]></description>
+Installs: 3
+Source: mcollina/skills
+Description: Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): fastapi-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/fastapi-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/fastapi-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): design-doc-mermaid]]></title>
+            <link>https://skills.sh/spillwavesolutions/design-doc-mermaid/design-doc-mermaid</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:spillwavesolutions/design-doc-mermaid/design-doc-mermaid</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 2
-Source: affaan-m/ecc
-Description: FastAPI patterns for async APIs, dependency injection, Pydantic request and response models, OpenAPI docs, tests, security, and production readiness.]]></description>
+Installs: 3
+Source: spillwavesolutions/design-doc-mermaid
+Description: Create Mermaid diagrams (activity, deployment, sequence, architecture) from text descriptions or source code. Use when asked to "create a diagram", "generate mermaid", "document architecture", "code to diagram", "create design doc", or "convert code to diagram". Supports hierarchical on-demand guide loading, Unicode semantic symbols, and Python utilities for diagram extraction and image conversion.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): e2e-testing]]></title>
-            <link>https://skills.sh/affaan-m/ecc/e2e-testing</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/e2e-testing</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): jackin-goal-prompt]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-goal-prompt</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-goal-prompt</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
 Installs: 2
-Source: affaan-m/ecc
-Description: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.]]></description>
+Source: jackin-project/jackin-dev
+Description: Distills a jackin❯ roadmap item — plus optional plan files — into a self-contained /goal prompt capped at 4000 characters.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): cargo-mailbox-management]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mailbox-management</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:getcargohq/cargo-skills/cargo-mailbox-management</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): jackin-merge-pr]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-merge-pr</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-merge-pr</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
 Installs: 2
-Source: getcargohq/cargo-skills
-Description: Send mail from inboxes Cargo owns — provision mailboxes on a sending domain, run provider warm-up and the 5→40/day send ramp, deliver with the `sendEmail` action, and read back threads, replies, delivery events, and the workspace suppression list. Triggers: "set up a sending mailbox", "provision inboxes for outbound", "warm up this mailbox", "how many sends do I have left today", "send this from Cargo", "did they reply", "who unsubscribed", "suppress this recipient", "take me off your list", "never email them again", "what do mailboxes cost", "my mailbox is stuck pending". A mailbox is a recurring monthly credit charge, and every send is gated on basis, suppression, and relevance. Skip when: writing the copy or building the audience — use cargo-gtm; the mailbox belongs in git — use cargo-cdk.]]></description>
+Source: jackin-project/jackin-dev
+Description: Runs the jackin❯ pre-merge gate, retires the roadmap item into docs, and squash-merges a pull request.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): customs-trade-compliance]]></title>
-            <link>https://skills.sh/affaan-m/ecc/customs-trade-compliance</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/customs-trade-compliance</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): jackin-release]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-release</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-release</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
 Installs: 2
-Source: affaan-m/ecc
-Description: Codified expertise for customs documentation, tariff classification, duty optimization, restricted party screening, and regulatory compliance across multiple jurisdictions. Informed by trade compliance specialists with 15+ years experience. Includes HS classification logic, Incoterms application, FTA utilization, and penalty mitigation. Use when handling customs clearance, tariff classification, trade compliance, import/export documentation, or duty optimization.]]></description>
+Source: jackin-project/jackin-dev
+Description: Cuts a jackin❯ release — runs the readiness gates, writes the changelog, recommends a version, then executes cargo release on explicit operator confirmation.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): nestjs-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/nestjs-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/nestjs-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): jackin-create-pr]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-create-pr</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-create-pr</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
 Installs: 2
-Source: affaan-m/ecc
-Description: NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends.]]></description>
+Source: jackin-project/jackin-dev
+Description: Opens a pull request for a small jackin❯ change with the correct body shape and auto-selected verify-locally blocks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): google-agents-cli-publish]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-publish</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-publish</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): dbs-diagnosis]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-diagnosis</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-diagnosis</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "publish an agent", "publish my ADK agent", "register an agent with Gemini Enterprise", "publish to Gemini Enterprise", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。
+触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」
+Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business model).
+Trigger: /dbs-diagnosis, "diagnose my business model", "I have a business question"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): vite-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/vite-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/vite-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): jackin-refresh-pr]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-refresh-pr</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-refresh-pr</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
 Installs: 2
-Source: affaan-m/ecc
-Description: Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.]]></description>
+Source: jackin-project/jackin-dev
+Description: Reconciles an open jackin❯ pull request's title and body against the current diff — regenerates the Verify-locally block selection and rewrites prose that has drifted.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): troubleshooting]]></title>
-            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/troubleshooting</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:chromedevtools/chrome-devtools-mcp/troubleshooting</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): jackin-brainstorm]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-brainstorm</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-brainstorm</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
 Installs: 2
-Source: chromedevtools/chrome-devtools-mcp
-Description: Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pages, new_page, or navigate_page fail, or when the server initialization fails.]]></description>
+Source: jackin-project/jackin-dev
+Description: Turns a jackin❯ roadmap item's intent into concrete design decisions through freeform discussion, written into its]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): python-testing]]></title>
-            <link>https://skills.sh/affaan-m/ecc/python-testing</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/python-testing</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): laravel-project-patterns]]></title>
+            <link>https://skills.sh/hosmelq/skills/laravel-project-patterns</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:hosmelq/skills/laravel-project-patterns</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
 Installs: 2
-Source: affaan-m/ecc
-Description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.]]></description>
+Source: hosmelq/skills
+Description: Project conventions for Laravel projects, including application code, project-supporting PHP, Inertia Blade shells, React Email templates, schema-backed models, and Pest test routing. Use when creating or changing routes, config, localization, bootstrap/public entrypoints, seeders, root tooling PHP, models, migrations, relationships, casts, factories, resources, actions, console commands, middleware, listeners, policies, providers, support classes, resources/views Blade shells, resources/react-email mail templates/exports, or tests under Unit, Integration, Feature, or Architecture, plus Browser only when a real browser suite exists. Encodes strict typed PHP, unguarded Eloquent models, public NanoID route keys, indexed *_id columns without database foreign key constraints, migrations without down() methods, controller/API feature test ordering, and system-logic model integration tests.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): nextjs-turbopack]]></title>
-            <link>https://skills.sh/affaan-m/ecc/nextjs-turbopack</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/nextjs-turbopack</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): reddit-api]]></title>
+            <link>https://skills.sh/fetcher-sh/fetcher-skills/reddit-api</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:fetcher-sh/fetcher-skills/reddit-api</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
 Installs: 2
-Source: affaan-m/ecc
-Description: Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack.]]></description>
+Source: fetcher-sh/fetcher-skills
+Description: A Reddit API alternative on fetcher.sh — pay-per-call in USDC via x402, or prepaid credits with a Bearer key, no OAuth app registration. Use when the user wants to search Reddit posts across every subreddit by keyword and sort by top, hot, new, or most-discussed, search subreddits or users by keyword, fetch a subreddit's info or its hot/new/top post feed, fetch a single post with its comment tree and comment replies, pull the sitewide best/hot/new/top feeds, or fetch a user's profile, posts, and comments. Also covers Reddit sentiment analysis input, subreddit monitoring, keyword tracking, and Reddit data pipelines without Reddit's own API app registration or rate-limit tiers.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): motion-ui]]></title>
-            <link>https://skills.sh/affaan-m/ecc/motion-ui</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/motion-ui</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): jackin-propose]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-propose</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-propose</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
 Installs: 2
-Source: affaan-m/ecc
-Description: Production-ready UI motion system for React/Next.js. Use when implementing animations, transitions, or motion patterns.]]></description>
+Source: jackin-project/jackin-dev
+Description: Opens a jackin❯ feature or idea as a roadmap item draft plus an early PR; never writes code.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): a11y-debugging]]></title>
-            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/a11y-debugging</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:chromedevtools/chrome-devtools-mcp/a11y-debugging</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): jackin-release-check]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-release-check</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-release-check</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
 Installs: 2
-Source: chromedevtools/chrome-devtools-mcp
-Description: Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets, and color contrast.]]></description>
+Source: jackin-project/jackin-dev
+Description: Runs the jackin❯ release-readiness gates.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): debug-optimize-lcp]]></title>
-            <link>https://skills.sh/chromedevtools/chrome-devtools-mcp/debug-optimize-lcp</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:chromedevtools/chrome-devtools-mcp/debug-optimize-lcp</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): jackin-research]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-research</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-research</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
 Installs: 2
-Source: chromedevtools/chrome-devtools-mcp
-Description: Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever the user asks about LCP performance, slow page loads, Core Web Vitals optimization, or wants to understand why their page's main content takes too long to appear. Also use when the user mentions "largest contentful paint", "page load speed", "CWV", or wants to improve how fast their hero image or main content renders.]]></description>
+Source: jackin-project/jackin-dev
+Description: Produces a standalone multi-page research dossier on the jackin❯ docs site, drawing on web and codebase evidence.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): api-design]]></title>
-            <link>https://skills.sh/affaan-m/ecc/api-design</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/api-design</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): dotnet-reverse]]></title>
+            <link>https://skills.sh/zhaoxuya520/reverse-skill/dotnet-reverse</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:zhaoxuya520/reverse-skill/dotnet-reverse</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
 Installs: 2
-Source: affaan-m/ecc
-Description: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.]]></description>
+Source: zhaoxuya520/reverse-skill
+Description: .NET / C# 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C# 编译产物（含 NativeAOT）、红队 Sharp* 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / SmartAssembly / Babel / Eazfuscator）、.NET loader / info-stealer / 套壳 malware 时使用。优先用 dnSpyEx + de4dot，需要 AI 直接操作时联动 dnSpy MCP。不用于纯 native 二进制（走 reverse-engineering / ida-reverse）。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): rust-patterns]]></title>
-            <link>https://skills.sh/affaan-m/ecc/rust-patterns</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/rust-patterns</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): jackin-release-notes]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-release-notes</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-release-notes</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
 Installs: 2
-Source: affaan-m/ecc
-Description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications.]]></description>
+Source: jackin-project/jackin-dev
+Description: Classifies every PR merged since the last tag into Keep a Changelog categories and writes the [Unreleased] section of CHANGELOG.md.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): postgres-pro]]></title>
-            <link>https://skills.sh/jeffallan/claude-skills/postgres-pro</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:jeffallan/claude-skills/postgres-pro</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): jackin-checkout-pr]]></title>
+            <link>https://skills.sh/jackin-project/jackin-dev/jackin-checkout-pr</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:jackin-project/jackin-dev/jackin-checkout-pr</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
 Installs: 2
-Source: jeffallan/claude-skills
-Description: Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database features. Invoke for EXPLAIN analysis, JSONB operations, extension usage, VACUUM tuning, performance monitoring.]]></description>
+Source: jackin-project/jackin-dev
+Description: Switches the current jackin❯ repo onto a pull request's branch via gh pr checkout, guarding the working tree first.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): google-agents-cli-workflow]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-workflow</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-workflow</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): dbs-content]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-content</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "develop an agent", "build an agent using ADK", "run the agent locally", "debug agent code", "test an agent", "deploy an agent", "publish an agent", "monitor an agent", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。
+触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」
+Content creation diagnosis. After topic passes, diagnose how to turn it into good content.
+Trigger: /dbs-content, "how should I create this content", "review my copy"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): codebase-onboarding]]></title>
-            <link>https://skills.sh/affaan-m/ecc/codebase-onboarding</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:affaan-m/ecc/codebase-onboarding</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): feature-sliced-design]]></title>
+            <link>https://skills.sh/feature-sliced/skills/feature-sliced-design</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:feature-sliced/skills/feature-sliced-design</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 2
-Source: affaan-m/ecc
-Description: Analyze an unfamiliar codebase and generate a structured onboarding guide with architecture map, key entry points, conventions, and a starter CLAUDE.md. Use when joining a new project or setting up Claude Code for the first time in a repo.]]></description>
+Installs: 6
+Source: feature-sliced/skills
+Description: Official Feature-Sliced Design (FSD) v2.1 skill for applying the methodology to frontend projects. Use when the task involves organizing project structure with FSD layers, deciding where code belongs, defining public APIs and import boundaries, resolving cross-imports or evaluating the @x pattern, deciding whether logic should remain local or be extracted, migrating from FSD v2.0 or a non-FSD codebase, integrating FSD with frameworks, or implementing common patterns such as auth, API handling, Redux, and React Query within FSD.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): google-agents-cli-deploy]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-deploy</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-deploy</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): dbs-restore]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-restore</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-restore</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "deploy an agent", "deploy my ADK agent", "set up CI/CD", "configure secrets", "troubleshoot a deployment", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。
+触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」
+Restore the most recent diagnosis snapshot saved by dbs-save.
+Trigger: /dbs-restore, "continue from last time", "where did we leave off"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): google-agents-cli-scaffold]]></title>
-            <link>https://skills.sh/google/agents-cli/google-agents-cli-scaffold</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:google/agents-cli/google-agents-cli-scaffold</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): dbs-action]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-action</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-action</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 81
-Source: google/agents-cli
-Description: This skill should be used when the user wants to "create an agent project", "start a new ADK project", "build me a new agent", "add CI/CD to my project", "add deployment", "enhance my project", or "upgrade my project". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。
+触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」
+Execution block diagnosis using Adlerian psychology framework.
+Trigger: /dbs-action, "I know what to do but can't do it", "why do I procrastinate"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): linear-release-setup]]></title>
-            <link>https://skills.sh/linear/linear-release/linear-release-setup</link>
-            <guid isPermaLink="false">2026-08-25T01:10:41.712Z:topHot:new:linear/linear-release/linear-release-setup</guid>
-            <pubDate>Tue, 25 Aug 2026 01:10:41 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): dbs-spread]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-spread</link>
+            <guid isPermaLink="false">2026-08-26T01:12:13.753Z:topHot:new:dontbesilent2025/dbskill/dbs-spread</guid>
+            <pubDate>Wed, 26 Aug 2026 01:12:13 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 7
-Source: linear/linear-release
-Description: Generate CI/CD configuration for Linear Release. Use when setting up release tracking, configuring CI pipelines for Linear, or integrating deployments with Linear releases. Supports GitHub Actions, GitLab CI, CircleCI, and other platforms.]]></description>
+Installs: 5
+Source: dontbesilent2025/dbskill
+Description: 传播心理解码。给定一段内容，用 5 个经典传播学理论解码它为什么能引起受众共鸣，分析受众情绪底层和有效立场，输出聊天室的讨论方向。
+触发方式：/dbs-spread、「传播心理解码」、「为什么这个能火」、「受众想听什么」、「这个内容打中了什么情绪」
+Transmission psychology decoder. Given a piece of content, analyze the psychological mechanism that makes it resonate, identify the emotional core and effective stance, and output direction for chatroom discussion.
+Trigger: /dbs-spread, "why does this resonate", "what emotion does this hit", "decode this content"]]></description>
         </item>
     </channel>
 </rss>

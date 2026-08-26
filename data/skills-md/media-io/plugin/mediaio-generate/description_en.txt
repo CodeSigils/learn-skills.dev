@@ -1,0 +1,16 @@
+Generate images and videos through the currently installed Media.io CLI.
+Use for text-to-image, image-to-image, text-to-video, image-to-video,
+reference-to-video and published workflows that appear in the live
+`mediaio model list` or `mediaio workflow list`. Effects may be used only
+when their parameters have been independently verified because the current
+CLI exposes `effect list` but not `effect get`.
+Always discover the exact job type and schema before submission. Every
+submission spends the user's credits, so always run `generate estimate`,
+show the cost to the user, and stop until they explicitly approve.
+Use the human-readable discovery output, upload local files before
+generation, submit with `generate create`, wait with the separate
+`generate wait` command, and retrieve result files with `generate download`
+instead of reproducing signed result URLs.
+On hosts that sandbox local command networking, the first networked
+`mediaio` or `curl` Shell/Bash tool call must request host approval before process
+launch. Never probe network availability by running it in the default sandbox.
