@@ -1,0 +1,16 @@
+Genera immagini e video tramite la CLI Media.io attualmente installata.
+Utilizzare per testo in immagine, immagine in immagine, testo in video, immagine in video,
+riferimento al video e flussi di lavoro pubblicati che appaiono nel live
+"elenco dei modelli mediaio" o "elenco dei flussi di lavoro mediaio". Gli effetti possono essere utilizzati solo
+quando i loro parametri sono stati verificati in modo indipendente perché la corrente
+La CLI espone "lista effetti" ma non "get effetto".
+Scopri sempre il tipo e lo schema esatti del lavoro prima dell'invio. Ogni
+l'invio spende i crediti dell'utente, quindi esegui sempre "genera stima",
+mostra il costo all'utente e interrompilo finché non lo approva esplicitamente.
+Utilizza l'output di rilevamento leggibile dall'uomo, carica prima i file locali
+generation, invia con `genera create`, attendi con separate
+comando "genera wait" e recupera i file dei risultati con "genera download".
+invece di riprodurre gli URL dei risultati firmati.
+Sugli host che eseguono il comando sandbox di rete locale, il primo si collega in rete
+La chiamata allo strumento Shell/Bash "mediaio" o "curl" deve richiedere l'approvazione dell'host prima dell'elaborazione
+lancio. Non verificare mai la disponibilità della rete eseguendola nella sandbox predefinita.
