@@ -1,0 +1,1 @@
+當使用者編寫、偵錯或檢查 Twingate Terraform 配置時使用。啟動涉及 Twingate 資源、Twingate Terraform 提供者、遠端網路、連接器、資源、群組或服務帳戶的 IaC 配置、提供者版本問題以及涉及 Twingate 的 terraform 應用錯誤的任何 .tf 檔案。當現有 AWS、Azure、GCP 或 Kubernetes Terraform 堆疊需要新增 Twingate 時也會觸發。也會觸發提供者來源/架構問題（「內部/提供者/」）、「group_ids」/「存取」區塊遷移錯誤、提供者發布版本和變更日誌問題，或針對每個雲端的 SE 參考快速啟動 Terraform 模組的請求。

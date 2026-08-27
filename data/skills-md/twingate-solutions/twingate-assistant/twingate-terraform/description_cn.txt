@@ -1,0 +1,1 @@
+当用户编写、调试或检查 Twingate Terraform 配置时使用。激活涉及 Twingate 资源、Twingate Terraform 提供程序、远程网络、连接器、资源、组或服务帐户的 IaC 配置、提供程序版本问题以及涉及 Twingate 的 terraform 应用错误的任何 .tf 文件。当现有 AWS、Azure、GCP 或 Kubernetes Terraform 堆栈需要添加 Twingate 时也会触发。还会触发提供程序源/架构问题（“内部/提供程序/”）、“group_ids”/“访问”块迁移错误、提供程序发布版本和更改日志问题，或针对每个云的 SE 参考快速启动 Terraform 模块的请求。
