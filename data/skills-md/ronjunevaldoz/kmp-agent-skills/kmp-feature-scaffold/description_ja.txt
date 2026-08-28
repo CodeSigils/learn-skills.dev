@@ -1,0 +1,1 @@
+Kotlin Multiplatform（KMP）の本番対応マルチ機能モジュール構成をスキャフォールドします。公式 Kotlin/kmp-wizard の AGP 9 ベースライン（通常は Android、iOS、Web、Desktop、Server 用の `all-targets` ブランチ）から生成してフルプロジェクトを作成するか、既存の KMP プロジェクトに新しい機能モジュール群（:model/:api/:domain/:data/:presenter/:ui）を追加します。AGP 9 以上、build‑logic コンベンションプラグイン、TOML バージョンカタログ（`gradle/libs.versions.toml`）、Compose Multiplatform、Koin 4（アノテーション方式または手動 DI）を使用します。

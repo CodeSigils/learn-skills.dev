@@ -1,0 +1,1 @@
+Compose Multiplatform で適切な状態コンテナを選ぶ：remember と rememberSaveable と ViewModel と rememberCoroutineScope の比較。再コンポジション、設定変更、プロセス終了時に何が残るか、各コンテナを使用すべきタイミング、複雑な型に対するカスタム Saver を使った rememberSaveable、ナビゲーションのバックスタックエントリにスコープされた ViewModel、そして最も一般的な誤った選択（ドロップダウンの状態に ViewModel を使う、回転に耐える必要があるフォームデータに remember を使う）を解説。新しい依存関係は一切不要です。

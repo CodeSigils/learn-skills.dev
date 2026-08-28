@@ -1,0 +1,1 @@
+AgentKit のツールを MCP 経由で公開し、クライアントがユーザーごとのインスタンス URL で呼び出せるようにします。ユーザーが AgentKit を MCP で公開したい場合、ユーザーごとの MCP URL を生成したい場合、または MCP を介して LangChain を接続したい場合に使用します。コネクタの一覧表示（`discover-connectors`）や、アプリコードで接続されたアカウントとトークンを作成すること（`integrate-agentkit`）は行いません。

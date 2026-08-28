@@ -1,0 +1,1 @@
+Kotlin Multiplatform プロジェクトの :core:network 内に、実稼働可能な Ktor 3 ネットワーク層の雛形を作成します。対象は Android、iOS、Desktop (JVM)、Web (JS + WasmJs) 向けのプラットフォームエンジン（OkHttp/Darwin/CIO/Js）、ContentNegotiation、トークン自動リフレッシュ（レースコンディション安全）を備えた Bearer 認証、NetworkResult<T> シールド型への構造化エラー マッピング、リクエスト/レスポンスのロギング、Koin 設定です。プロジェクトは kmp-feature-scaffold で雛形作成されたことを前提としています。

@@ -1,0 +1,1 @@
+AgentKit を統合し、エージェントが接続、接続済みアカウント、認可トークンを作成し、下流の API を呼び出せるようにします。ユーザーがアプリコードで AgentKit を使用したり、Gmail／Slack／Notion の接続済みアカウントや認可リンクを必要とする場合に使用します。コネクタの一覧表示（`discover-connectors`）や MCP 経由でツールを公開する機能（`expose-agentkit-mcp`）は含まれません。

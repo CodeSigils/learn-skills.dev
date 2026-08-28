@@ -1,0 +1,1 @@
+KMP の UI 層テストを完全に実施：Composable に対するセマンティックテストタグ、commonTest における Compose UI のインタラクションテスト（runComposeUiTest、onNodeWithTag、performClick、assertIsDisplayed）をすべてのターゲット（JVM、Android インストゥルメントテスト、iOS シミュレータ、Wasm）で実行し、Roborazzi のスクリーンショットテストで JVM/デスクトップ上の @Preview Composable をキャプチャし、視覚的リグレッション検出を行う。testTag の規約から CI のゴールデンイメージ差分までフルスタックをカバー。UI リグレッションテスト用の kmp-testing-robot に取って代わる。

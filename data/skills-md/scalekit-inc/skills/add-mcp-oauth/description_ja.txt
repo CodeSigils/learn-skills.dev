@@ -1,0 +1,1 @@
+MCP OAuth を追加し、エージェントがユーザーの MCP サーバーを保護できるようにします。ユーザーが MCP OAuth を必要とする場合、または MCP サーバーを保護したい場合に使用します。API キーやクライアント資格情報は追加しません（それは `add-api-auth` です）、また AgentKit ツールを MCP 上に公開もしません（それは `expose-agentkit-mcp` です）。

@@ -1,0 +1,3 @@
+KotlinPoet の FileSpec／TypeSpec／FunSpec／PropertySpec ビルダー、フォーマット指定子、2 モジュール構成のプロセッサ、ServiceLoader 登録、そして KSP の KSType／KSClassDeclaration を KotlinPoet の TypeName／ClassName に変換する kotlinpoet‑ksp インターロップモジュールを用いて、Kotlin ソースを生成するカスタム KSP（Kotlin Symbol Processing）アノテーションプロセッサの構築。プロジェクトが実行時リフレクションではなく、コンパイル時にアノテーションからコード生成したい場合に使用する。既存の KSP プロセッサ（Koin のアノテーションモード、Room など）を利用する方法は含まれない ― それは通常の依存関係の使用であり、このスキルは新しいプロセッサを自作するためのものです。
+
+常にユーザーの言語で回答してください。

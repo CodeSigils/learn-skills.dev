@@ -1,0 +1,1 @@
+KMP と CMP 向けの Jetpack Compose グラフィック修飾子 — 変形、クリッピング、アルファ、エレベーション、レイヤー効果には graphicsLayer を使用し、実際のカスタム描画には Canvas、drawBehind、drawWithCache を使用します。ワークフローエディタやノードベース UI、その他、Composable がカスタム描画された内部の周囲に変形可能なシェルを必要とするシーンに推奨します。

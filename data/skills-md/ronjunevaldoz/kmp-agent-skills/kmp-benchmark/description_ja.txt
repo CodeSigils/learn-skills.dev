@@ -1,0 +1,1 @@
+Kotlin Multiplatform のパフォーマンス測定のために kotlinx-benchmark を設定します。対象: Gradle プラグインと allopen の配線、別個のベンチマーク用ソースセット（commonMain / commonTest に混ぜない）、@State / @Benchmark / @Setup / @TearDown の慣例、ターゲット別の登録（JVM / Native / JS / Wasm）、ベンチマークの実行、JSON/CSV 出力の読み取り。パフォーマンス主張に推測ではなく実数が必要なときは常にこれを使用してください——これは、要求が名前なしであるか、さらにルーティングする前に具体的なターゲットが必要なときに kmp-expert のパフォーマンス意思決定ツリーが辿る「まずはプロファイル」ステップです。

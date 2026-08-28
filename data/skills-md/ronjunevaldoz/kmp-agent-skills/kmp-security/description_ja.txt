@@ -1,0 +1,3 @@
+Kotlin Multiplatform 用のモバイルアプリセキュリティ（Android のみの R8 難読化を超えて）— 証明書/SSL ピンニング（expect/actual、クロスプラットフォームの Ktor サポートはネイティブには存在しない）、freeRASP の本物の KMP バリアントによる root/jailbreak/改ざん検知、KSafe による暗号化ローカルストレージ、iOS/Kotlin-Native のリリースバイナリシンボル除去、そしてこのコレクション全体に対する OWASP Mobile Top 10 2024 カバレッジマップ。Android 固有の R8/ProGuard 難読化は対象外です — それは kmp-proguard-r8 のスコープであり、ここでは重複せずに参照されています。ソース内のシークレットスキャン（gitleaks の pre‑commit）は対象外です — それは kmp-setup-hooks の Option F です。
+
+常にユーザーの言語で回答してください。

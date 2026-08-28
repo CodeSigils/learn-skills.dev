@@ -1,0 +1,1 @@
+BuildKonfig を使用して Kotlin Multiplatform プロジェクトにマルチ環境構成（dev / staging / prod）を設定します。環境固有の BuildKonfig 値、BuildKonfig に連携した Android のプロダクトフレーバー、commonMain にある共有 AppConfig オブジェクト、シークレット管理、ビルド時の環境切り替えをカバーします。プロジェクトは kmp-feature-scaffold でスキャフォールドされたことを前提としています。

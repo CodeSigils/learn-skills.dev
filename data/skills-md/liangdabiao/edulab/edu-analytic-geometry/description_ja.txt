@@ -1,0 +1,6 @@
+解析幾何の問題を、左列に問題文＋動的コンソール（可変パラメータのスライダーで幾何量をリアルタイム再計算し、理論上の範囲／固定値を表示）、中列に KaTeX を用いたステップバイステップ解答、右列に 2D Canvas の動的幾何ボード（楕円・双曲線・放物線・円、可動直線・可動点、ベクトル、注釈、筆跡イラスト）を備えた、自己完結型のインタラクティブ教材ウェブページに変換する。  
+入力モードは 3 種類で、テキストで問題が与えられる場合、ランダムに問題を生成する場合、問題画像をアップロードして認識・解法する場合に対応。  
+対象とする問題タイプは、標準方程式の導出、弦の長さ、ベクトルのドット積の範囲／固定値、三角形面積の極大値、固定点、固定値（傾きの積）、軌跡、離心率 など多岐にわたり、すべて「パラメトリック直線 x = my + c の設定 + 方程式系 + Vieta の公式 + 置換／定数分離」に統合し、sympy による高精度計算（解答、座標、ステップごとの数値、インタラクティブエンジンの理論範囲）がソース上で一貫している。  
+他のエージェントもこの機能を呼び出して同様のページを生成できる。  
+形式は edu‑solid‑geometry に類似するが、使用技術は Canvas‑2D と KaTeX（Three.js ではない）である。  
+トリガーワード：解析幾何、円錐曲線、楕円、双曲線、放物線、直線と円錐曲線、焦点弦、弦の長さ、ドット積の値域、ベクトルドット積、固定点問題、固定値問題、傾きの積、三角形面積の極大値、軌跡方程式、離心率、solve this analytic geometry problem、generate a random conic problem、the analytic geometry problem in this picture、analytic geometry、conic sections、ellipse、hyperbola、parabola、chord length、dot product range、fixed point、fixed value、locus、eccentricity、interactive analytic geometry solution page。

@@ -1,0 +1,3 @@
+Twingate Internet Security — DNS フィルタリング、エグジットネットワーク、ブラウザセキュリティ、DNS-over-HTTPS。ユーザーが DNS フィルタリング、コンテンツフィルタリング、インターネットセキュリティ、エグジットネットワーク、イーグレスルーティング、ブラウザセキュリティ、NextDNS、DoH、DNS カテゴリ、またはプロファイル優先度に言及したときにロードする。さらに、Twingate の文脈で「Internet Security」「DNS Security Profile」「fixed egress IP」「SaaS allowlisting」が出たときにもトリガーする。DNS の競合や症状に基づく DNS クエリにも作動する：Twingate と競合するサードパーティ DNS フィルタや AV 製品（Cisco Umbrella、DNSFilter、AdGuard、Avast Real Site Protection）、CGNAT 範囲の競合（`100.96/12`）、複数ネットワークインターフェースでの DNS 解決問題、「all nameservers have failed」、Linux での DNS リクエスト遅延、Docker コンテナの 2 回目の DNS クエリが誤った IP を返すケース、または Twingate 上に構築された個人/DIY エグジットネットワーク VPN。
+
+常にユーザーの言語で応答してください。

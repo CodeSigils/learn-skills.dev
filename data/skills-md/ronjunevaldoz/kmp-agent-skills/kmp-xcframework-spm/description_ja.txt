@@ -1,0 +1,1 @@
+Kotlin マルチプラットフォーム共有モジュールから XCFramework を構築し、それを Swift Package Manager (SPM) バイナリ ターゲットとして公開します。対象範囲: Gradle XCFramework 構成、assembleReleaseXCFramework タスク、開発用のローカル SPM Package.swift、配布用のリモート バイナリ SPM ターゲット (GitHub リリース)、および Xcode プロジェクトの統合。 AGP 9+ と kmp-feature-scaffold のプロジェクト構造を前提としています。

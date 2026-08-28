@@ -1,0 +1,3 @@
+darkmatter の TypeScript ツールチェーン契約 – Bun（npm/pnpm は使用しない）、tsgo typecheck、vitest、oxlint/biome、changesets、I/O 用の Effect、Alchemy デプロイ（wrangler.toml は禁止）、merge‑queue の main、そして no‑tiny‑functions ルール。darkmatter のリポジトリ（platform、nixmac‑web、omp‑chat、genesis）で TypeScript を書く・修正する・ビルドする・出荷する際に使用します（例: 「TS エラーを修正」「CI を緑に」「パッケージを追加」「このワーカーをデプロイ」「ロックファイルの不満に対処」「I/O が多いコードのライブラリ選定」）。一般的な TS スタイル（coding‑standards）や深い Effect パターン（effect‑typescript）には使用しないでください—このスキルはそれらのための組織固有のツールチェーンの接着剤です。
+
+常にユーザーの言語で応答してください。

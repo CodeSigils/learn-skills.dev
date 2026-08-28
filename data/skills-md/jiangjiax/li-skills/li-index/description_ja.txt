@@ -1,0 +1,8 @@
+ユーザーが「update index」「add this to the index」「added a new file」「added a new book / a note / a document」または「the material library index needs updating」と言ったとき、スキルは **incremental maintenance mode** を使用すべきです。  
+ユーザーが「index health check」「index check‑up」「check index」「index synchronization」または「fill in the index」と言ったとき、スキルは **health‑check mode** を使用し、すべてのライブラリ ↔ INDEX をスキャンして欠損または無効なエントリを検出し、一括で埋めます。  
+対象は INDEX.md を含むすべてのライブラリ：reading notes library、core concepts library、popular script library、04‑methodology リポジトリ、そして将来作成されるライブラリすべてです。  
+インデックスの価値はコンテンツの正確さに依存します。書き込む前に原文を必ず全文読んでから作成し、ファイル名や印象だけで推測するとインデックスの参照価値が失われます。  
+たとえユーザーが「I added a file」や「put this in」だけでも、インデックスに関わる場合はこのスキルを起動すべきです。  
+起動すべきでないケース：インデックスだけを閲覧する（直接 Read）、トピック選択を深める（li‑topic を使用）、スクリプトを生成する（li‑writer を使用）場合。  
+インデックス対象のライブラリに新しいコンテンツを追加したとき、または欠損・古いエントリを検出するために全体的なインデックスヘルスチェックを実行したときに使用してください。  
+常にユーザーの言語で応答してください。

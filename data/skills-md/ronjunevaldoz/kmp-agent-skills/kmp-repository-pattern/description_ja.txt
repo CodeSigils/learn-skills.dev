@@ -1,0 +1,1 @@
+Kotlin Multiplatform におけるリポジトリパターン — ドメインロジックとストレージ/ネットワークの間のデータ層。対象は、:feature:x:api のリポジトリインターフェース、:feature:x:data の実装、SQLDelight Flow を用いた単一の真実の情報源、3 つの取得戦略（network‑first、cache‑first、offline‑first）、リポジトリ境界での NetworkResult からドメインへのマッピング、楽観的更新、そしてネットワーク型をドメインに漏らすことやローカルキャッシュを省くという一般的なミス。kmp-network-layer と kmp-sqldelight-setup が必要です。

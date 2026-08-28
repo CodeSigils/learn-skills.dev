@@ -1,0 +1,1 @@
+Compose Multiplatform Web（wasmJs）ターゲット向けのライブブラウザパフォーマンス分析を、公式 Chrome DevTools MCP サーバー（github.com/ChromeDevTools/chrome-devtools-mcp）を使用して実施します — パフォーマンストレース、Lighthouse 監査、ネットワークウォーターフォール、そして Skiko のキャンバスベースレンダリングに特化した Wasm バンドルサイズの認識。Kotlin 関数のマイクロベンチマーク（kmp‑benchmark 参照）は含まれません — これは、実行中のアプリをリアルブラウザでライブプロファイリングするもので、個別関数の計測ではありません。

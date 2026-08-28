@@ -1,0 +1,9 @@
+https://mcp.getcargo.io/mcp にホストされている MCP サーバーから Cargo を操作します — クライアントを接続し、アクションを検出・見積もりし、単一レコードまたはバッチで実行し、ポーリングして、ワークスペースモデルを取得します。CLI のインストールは不要です。また、`cargo-ai` を外部呼び出しする代わりに MCP ツールを呼び出すべきタイミングも示します。
+
+トリガー: 「connect Cargo to Claude Desktop」「add Cargo to ChatGPT」「Cargo MCP server」「mcp.getcargo.io」「use Cargo without installing anything」「which Cargo tool do I call」「search_actions」「execute_action_batch」「MCP server is showing the wrong workspace」
+
+ツール: whoami、search_actions、get_action_schema、execute_action、execute_action_batch、get_run、query_models。
+
+除外条件: シェルがありジョブがワークフロー、CDK デプロイ、データウェアハウス SQL、またはメールボックスの場合は CLI スキルを使用してください。自分のワークスペースから MCP サーバーを公開する場合や Cargo エージェントに接続する場合は cargo‑ai を使用してください。
+
+常にユーザーの言語で応答してください。

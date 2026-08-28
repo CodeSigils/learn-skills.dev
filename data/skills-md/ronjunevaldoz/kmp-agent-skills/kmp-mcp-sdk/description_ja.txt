@@ -1,0 +1,1 @@
+Kotlinマルチプラットフォーム向けのModel Context Protocol（MCP）を、公式のmodelcontextprotocol/kotlin-sdk（JetBrainsがメンテナンス）を使用して実装します。MCPサーバーの構築（ツール／リソース／プロンプトをLLMクライアント（Claude、Claude Code、MCP Inspector）に公開する）や、Kotlinアプリから外部MCPサーバーに接続するMCPクライアントの構築、トランスポートの選択（STDIO、ストリーム可能HTTP、SSE、WebSocket、テスト用ChannelTransport）および、SDKがKtorエンジンを遅延的にバンドルしないためのKtor配線を扱います。対象はcommonMainからJVM、Native、JS、Wasmです。

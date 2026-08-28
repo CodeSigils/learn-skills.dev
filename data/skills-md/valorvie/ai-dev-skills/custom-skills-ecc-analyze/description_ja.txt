@@ -1,0 +1,14 @@
+ECC（everything‑claude‑code）配布リストをレビューします。モードは2つあります。  
+(A) 既存リストのスリム化：`distribution.yaml.enabled` とファーストパーティの `ai-dev-skills` の重複と品質を分析し、`enabled_remove` の推奨を出す。  
+(B) 新規項目の採用評価：`ecc-catalog.yaml` と直近の更新範囲に基づき、追加された上流の ECC スキルを導入し、適用シナリオを分析して `enabled` に追加すべきかを推奨する。  
+
+使用シーン：  
+1. ECC 配布リストをスリム化すべきか評価するとき  
+2. 新たに追加された上流 ECC スキルを採用するか決めるとき  
+3. エンドユーザー向けに `ecc‑profile.yaml` のスターターを作成したいとき  
+4. 四半期または半期ごとの定期レビューを実施するとき  
+
+トリガー例：  
+「analyze ECC skill」「ECC overlap」「ECC list slimming」「ECC new item」「ECC upstream addition」「whether to adopt」「ecc analyze」「ecc new items review」「ecc profile starter」「ECC quality review」  
+
+常にユーザーの言語で応答してください。

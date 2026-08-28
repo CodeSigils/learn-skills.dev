@@ -1,0 +1,1 @@
+KMP Compose プロジェクトから生のピクセル資産や手書きのベクトルパスを排除します。ラスタ画像（PNG/JPG）と SVG をローカルかつ決定的なツールチェーン（quantize → trace → normalize → codegen）を通じて Kotlin の ImageVector コードにコンパイルします。エージェントはパス座標を手書きで記述することが禁じられており、すべてのベクトル生成は scripts/convert_image_to_imagevector.py に委任されます。プロジェクトでアイコン、ロゴ、またはフラットイラストを Compose の資産として必要とする場合、あるいは PNG アイコンをベクトルに置き換える際に使用してください。

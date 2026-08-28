@@ -1,0 +1,1 @@
+Modular SSO を実装し、エージェントが SAML/OIDC、IdP 主導のログイン、管理ポータルを追加できるようにします。ユーザーが SSO、SAML、OIDC、Modular SSO、または IdP を望むときに使用します。SaaSKit のログインは作成しません（それは `implement-saaskit`）し、ディレクトリからユーザーをプロビジョニングしません（それは `implement-scim`）。

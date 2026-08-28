@@ -1,0 +1,3 @@
+darkmatter/gitops リポジトリの安全な変更プレイブック — コミット前の検証（CI と同一フラグで kubeconform、yq、git diff --check）、SHA 固定イメージ、KSOPS/SOPS シークレット編集ルール、revert によるロールバック、そして ArgoCD がどのようにリコンシリエーションするか。darkmatter/gitops へのあらゆる変更（manifest、Helm values、apps/*.yaml、シークレット）に使用し、イメージタグの更新、シークレットの配線、デプロイのロールバックを求められたときに活用する。また、kubectl apply／edit／patch しようとしたときは必ず「いいえ」と答える。
+
+常にユーザーの言語で回答してください。

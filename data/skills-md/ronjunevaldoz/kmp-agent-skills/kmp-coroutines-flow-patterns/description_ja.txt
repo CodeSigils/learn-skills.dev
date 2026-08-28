@@ -1,0 +1,1 @@
+Kotlin Multiplatform向けの汎用的なKotlinコルーチンとFlowのパターン — 構造化同時実行とスコープ階層、並列分割、cold Flow と StateFlow と SharedFlow の選択、例外の透過性（catch演算子とコレクタ周りのtry/catchの違い）、キャンセル安全なクリーンアップ、そして runTest と Turbine を用いたコルーチン／Flow のテスト。画面レベルの状態／エフェクト配線（kmp-mvi を参照）やリポジトリの Flow 公開規約（kmp-repository-pattern を参照）は取り扱わず、これらは両者が構築する共有基盤です。

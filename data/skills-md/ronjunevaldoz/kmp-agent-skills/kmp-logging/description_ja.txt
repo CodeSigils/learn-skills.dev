@@ -1,0 +1,1 @@
+KMPプロジェクト向けに kotlin-logging または Kermit を設定し、ログレベルやターゲット別ロガーファクトリ、クラッシュ境界の統合（Firebase Crashlytics、Sentry）を行い、Koin 配線により各レイヤーがロガーを直接構築せずに取得できるようにします。

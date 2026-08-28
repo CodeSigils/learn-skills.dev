@@ -1,0 +1,4 @@
+Prisma 8（Prisma Next）を使用した、コントラクトファーストデータレイヤー構築の包括的ガイド。Prisma を使用しているプロジェクトで Prisma コードを扱う際には、データコントラクト（contract.prisma、PSL、TypeScript ビルダー）の作成・編集、マイグレーション、クエリ（db.orm／db.sql）、ランタイム配線（db.ts、ミドルウェア、DATABASE_URL）、ビルドツールとの統合、Supabase／RLS、PN-* 形式のエラーの読み取り、あるいはフィードバックの提出に利用でき、また「Prisma Next とは何か」や他の ORM との比較といった概要質問にも対応します。  
+このスキルが適用されるシグナル: @internal/* のインポート、prisma.config.ts、contract.prisma／contract.json／contract.d.ts、prisma‑next CLI、PN-* エラーコード。  
+また、プロジェクト内での Prisma のアップグレード（「upgrade Prisma 8」や「bump Prisma Next」「move to Prisma Next X.Y」など）や、@internal/* のバージョンアップに対処する方法（コンシューマーアプリや拡張パッケージ内で）もカバーします。  
+Prisma ORM 7 以前（schema.prisma＋@prisma/client プロジェクト）には適用されません。

@@ -1,0 +1,1 @@
+Kotlin Multiplatform アプリのオフラインファースト アーキテクチャ — ローカルファーストの読み取り、バックグラウンド同期、楽観的更新、コンフリクト解消、同期状態の追跡。 カバーする内容: SQLDelight による単一の真実の情報源、WorkManager/BGTaskScheduler を使用した SyncManager パターン、ロールバック付きの楽観的ミューテーション、そして MVI を通じて UI に提示される SyncState シールドクラス。 FCM による同期（プッシュ通知をご参照）や RPC ストリーミング（kotlin-rpcをご参照）はカバーしていません。

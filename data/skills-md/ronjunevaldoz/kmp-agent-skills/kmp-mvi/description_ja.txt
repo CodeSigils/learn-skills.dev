@@ -1,0 +1,1 @@
+Kotlin Multiplatform と Compose Multiplatform 用の MVI（Model‑View‑Intent）アーキテクチャパターン。対象内容：画面ごとの Contract パターン（State／Intent／Effect）、State を保持する StateFlow とワンショット効果用の Channel を備えた MviViewModel 基底クラス、原子性のある状態更新、Compose の画面とコンテンツの分離、Turbine を使った ViewModel のテスト、そして KMP における最も一般的な MVI の落とし穴。新たな依存関係は一切なし ― 既に feature‑scaffold に含まれる androidx.lifecycle.ViewModel と kotlinx.coroutines 上に構築。
