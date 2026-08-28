@@ -1,0 +1,1 @@
+Implements Modular SSO so an agent can add SAML/OIDC, IdP-initiated login, and the admin portal. Use when the user wants SSO, SAML, OIDC, Modular SSO, or IdP. It does not write SaaSKit login (that's `implement-saaskit`) or provision users from a directory (that's `implement-scim`).

@@ -1,0 +1,7 @@
+当用户说「更新索引」「把这个加进索引」「添加了新文件」「新加了一本书/一篇笔记/一个文档」「素材库索引要更新」时，应使用本 skill 的【增量维护模式】。
+当用户说「索引体检」「index 体检」「检查索引」「索引同步」「补齐索引」时，应使用本 skill 的【体检模式】，扫描所有库 ↔ INDEX 找出漏录/失效条目并批量补齐。
+适用于所有带 INDEX.md 的库：读书笔记库、核心概念库、爆款脚本库、04-方法论沉淀，以及未来新建的任何库。
+索引的价值取决于内容准确性——必须先完整读取原文再写入，凭文件名或印象推断会导致索引失去参考价值。
+即使用户只说「我加了一个文件」「这个放进去」，只要涉及索引，也应触发本 skill。
+不应触发：仅查阅索引（直接 Read）、深化选题（用 li-topic）、生成脚本（用 li-writer）。
+Use when the user adds new content to any indexed library, OR runs a global index health-check to find missing/stale entries.

@@ -1,0 +1,1 @@
+Integrates AgentKit so an agent can create a connection, a connected account, and an authorized token, then call one downstream API. Use when the user wants AgentKit in app code, a Gmail/Slack/Notion connected account, or an authorization link. It does not list connectors (that's `discover-connectors`) or expose tools over MCP (that's `expose-agentkit-mcp`).

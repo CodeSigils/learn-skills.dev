@@ -1,0 +1,1 @@
+Exposes AgentKit tools over MCP so a client can call them on a per-user instance URL. Use when the user wants to expose AgentKit over MCP, generate a per-user MCP URL, or connect LangChain via MCP. It does not list connectors (that's `discover-connectors`) or create a connected account and token in app code (that's `integrate-agentkit`).

@@ -1,0 +1,7 @@
+審視 ECC（everything-claude-code）分發名單，包含兩個模式：
+(A) 既有清單瘦身：分析 distribution.yaml.enabled 與第一方 ai-dev-skills 的重疊性與品質，輸出 enabled_remove 建議；
+(B) 新項目導入評估：根據 ecc-catalog.yaml 與上次更新範圍，介紹 ECC 上游新增 skill、分析適用情境、建議是否加入 enabled。
+Use when: (1) 評估 ECC 分發名單是否該瘦身、(2) ECC 上游新增 skill 後決定要不要導入、
+(3) 想為終端使用者產 ecc-profile.yaml starter、(4) 季度 / 半年一次定期審視。
+Triggers: "分析 ECC skill", "ECC 重疊", "ECC 清單瘦身", "ECC 新項目", "ECC 上游新增",
+"要不要導入", "ecc analyze", "ecc new items review", "ecc profile starter", "ECC 品質審視".

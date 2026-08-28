@@ -1,0 +1,1 @@
+Perform a read-only, defect-first review of a specified code change and return every actionable finding, reading the whole diff before running anything. Use when another agent delegates review of uncommitted changes, a base-branch diff, a commit, or custom review instructions. Prefer this over the Codex-bundled review-agent, which carries no read-before-you-run gate.

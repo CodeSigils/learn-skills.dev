@@ -1,0 +1,1 @@
+Use when asked to verify a Laravel project before a PR, after a major refactor or dependency upgrade, or before deploying to staging/production. Runs a phased env-check -> lint -> test -> security -> migration -> deploy-readiness -> queue pipeline, stopping at the first failing gate rather than reporting every phase's output at once.

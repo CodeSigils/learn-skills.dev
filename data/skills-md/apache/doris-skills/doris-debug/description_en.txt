@@ -1,0 +1,1 @@
+Apache Doris production diagnostics router. Use when Apache Doris queries are slow, imports are failing or timing out, compaction is raising -235 errors, nodes are OOM or crashing, materialized views are not rewriting, or tablet/replica health is degraded. Routes to the appropriate doris-debug-* skill. Covers shared-nothing and cloud (storage-compute separation) deployments.

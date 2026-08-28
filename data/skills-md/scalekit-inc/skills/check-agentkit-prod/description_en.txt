@@ -1,0 +1,1 @@
+Checks AgentKit go-live so an agent can sign off only when every item is PASS or WAIVE with a reason. Use when the user wants AgentKit production, or to go live AgentKit. It does not write a connected account or token (that's `integrate-agentkit`) or check SaaSKit go-live (that's `check-saaskit-prod`).

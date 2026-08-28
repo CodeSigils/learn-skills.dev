@@ -4,573 +4,649 @@
         <title>Skills.sh Feed</title>
         <link>https://skills.sh</link>
         <description>Latest skill data from skills.sh</description>
-        <lastBuildDate>Thu, 27 Aug 2026 07:10:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 09:04:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-27)]]></title>
+            <title><![CDATA[[Daily] Skills.sh snapshot (2026-08-28)]]></title>
             <link>https://skills.sh</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:snapshot</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:snapshot</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[Daily snapshot.
 Providers: skills.sh
-All Time skills: 8079
-Trending skills: 7834
-Hot skills: 118
-Top All Time: find-skills (3129327)
-Top Trending: ai-video-generation (21458)
-Top Hot: tailwind (1)]]></description>
+All Time skills: 8096
+Trending skills: 7907
+Hot skills: 6378
+Top All Time: find-skills (3146972)
+Top Trending: ai-video-generation (22135)
+Top Hot: dbs-skill-maker (27)]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#1): tailwind]]></title>
-            <link>https://skills.sh/tartinerlabs/skills/tailwind</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:tartinerlabs/skills/tailwind</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[All Time] New entry (#48): code-review]]></title>
+            <link>https://skills.sh/mattpocock/skills/code-review</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topAllTime:new:mattpocock/skills/code-review</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
+            <description><![CDATA[New entry in All Time leaderboard.
+Rank: #48
+Installs: 432210
+Source: mattpocock/skills
+Description: Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to "review since X".]]></description>
+        </item>
+        <item>
+            <title><![CDATA[[Hot] New entry (#1): dbs-skill-maker]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-skill-maker</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-skill-maker</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #1
-Installs: 1
-Source: tartinerlabs/skills
-Description: Audit and fix Tailwind CSS v4 anti-patterns for spacing, 8px grid, mobile-first, and GPU animations. Use when reviewing or writing Tailwind classes, fixing spacing issues, or enforcing CSS best practices.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 通过需求分析把反复出现的问题制作成可安装、可分级验证的单个 Skill。用户要求做 Skill、把问题沉淀成 Skill、检查或测试候选 Skill 时使用；只有用户明确要求分享或发布时，才准备 GitHub 仓库并验证 `npx skills add`。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#10): insforge-cli]]></title>
-            <link>https://skills.sh/insforge/insforge-skills/insforge-cli</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:insforge/insforge-skills/insforge-cli</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#10): product-photography]]></title>
+            <link>https://skills.sh/skills-101/superpowers/product-photography</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/product-photography</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #10
-Installs: 2
-Source: insforge/insforge-skills
-Description: Use this skill whenever the user needs backend infrastructure management — creating database tables, running SQL, deploying serverless functions, managing storage buckets, deploying frontend apps, adding secrets, setting up cron jobs, or checking logs — especially if the project uses InsForge. Trigger on any of these contexts: creating or altering database tables/schemas, writing RLS policies via SQL, deploying or invoking edge functions, creating storage buckets, deploying frontends to hosting, managing secrets/env vars, setting up scheduled tasks/cron, viewing backend logs, or exporting/importing database backups. If the user asks for these operations generically (e.g., "create a users table", "deploy my app", "set up a cron job") and you're unsure whether they use InsForge, consult this skill and ask. For writing frontend application code with the InsForge SDK (@insforge/sdk), use the insforge skill instead.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#11): insforge-integrations]]></title>
-            <link>https://skills.sh/insforge/insforge-skills/insforge-integrations</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:insforge/insforge-skills/insforge-integrations</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#11): product-hunt-launch]]></title>
+            <link>https://skills.sh/skills-101/superpowers/product-hunt-launch</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/product-hunt-launch</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #11
-Installs: 2
-Source: insforge/insforge-skills
-Description: Use this skill when integrating a third-party provider with InsForge — either an auth provider (Clerk, Auth0, WorkOS, Kinde, Stytch) for JWT-based RLS, or a payment facilitator (OKX x402) for onchain pay-per-use billing. Covers provider-specific dashboard setup, client/server code, database policies, and common gotchas for each supported integration.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#12): insforge]]></title>
-            <link>https://skills.sh/insforge/insforge-skills/insforge</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:insforge/insforge-skills/insforge</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#12): app-store-screenshots]]></title>
+            <link>https://skills.sh/skills-101/superpowers/app-store-screenshots</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/app-store-screenshots</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #12
-Installs: 2
-Source: insforge/insforge-skills
-Description: Use this skill whenever writing frontend code that talks to a backend for database queries, authentication, file uploads, AI features, real-time messaging, or edge function calls — especially if the project uses InsForge or @insforge/sdk. Trigger on any of these contexts: querying/inserting/updating/deleting database rows from frontend code, adding login/signup/OAuth/password-reset flows, uploading or downloading files to storage, invoking serverless functions, calling AI chat completions or image generation, subscribing to real-time WebSocket channels, or writing RLS policies. If the user asks for these features generically (e.g., "add auth to my React app", "fetch data from my database", "upload files") and you're unsure whether they use InsForge, consult this skill and ask. For backend infrastructure (creating tables via SQL, deploying functions, CLI commands), use insforge-cli instead.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#13): huashu-design]]></title>
-            <link>https://skills.sh/alchaincyf/huashu-design/huashu-design</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:alchaincyf/huashu-design/huashu-design</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#13): computer-use]]></title>
+            <link>https://skills.sh/stablyai/orca/computer-use</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:stablyai/orca/computer-use</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #13
-Installs: 1
-Source: alchaincyf/huashu-design
-Description: 花叔Design（Huashu-Design）——用HTML做高保真原型、交互Demo、幻灯片、动画、设计变体探索+设计方向顾问+专家评审的一体化设计能力。HTML是工具不是媒介，根据任务embody不同专家（UX设计师/动画师/幻灯片设计师/原型师），避免web design tropes。触发词：做原型、设计Demo、交互原型、HTML演示、动画Demo、设计变体、hi-fi设计、UI mockup、prototype、设计探索、做个HTML页面、做个可视化、app原型、iOS原型、移动应用mockup、导出MP4、导出GIF、60fps视频、设计风格、设计方向、设计哲学、配色方案、视觉风格、推荐风格、选个风格、做个好看的、评审、好不好看、review this design。**主干能力**：Junior Designer工作流（先给假设+reasoning+placeholder再迭代）、反AI slop清单、React+Babel最佳实践、Tweaks变体切换、Speaker Notes演示、Starter Components（幻灯片外壳/变体画布/动画引擎/设备边框）、App原型专属守则（默认从Wikimedia/Met/Unsplash取真图、每台iPhone包AppPhone状态管理器可交互、交付前跑Playwright点击测试）、Playwright验证、HTML动画→MP4/GIF视频导出（25fps基础 + 60fps插帧 + palette优化GIF + 6首场景化BGM + 自动fade）。**需求模糊时的Fallback**：设计方向顾问模式——从5流派×20种设计哲学（Pentagram信息建筑/Field.io运动诗学/Kenya Hara东方极简/Sagmeister实验先锋等）推荐3个差异化方向，展示24个预制showcase（8场景×3风格），并行生成3个视觉Demo让用户选。**交付后可选**：专家级5维度评审（哲学一致性/视觉层级/细节执行/功能性/创新性各打10分+修复清单）。]]></description>
+Installs: 84
+Source: stablyai/orca
+Description: Use Orca's computer-use CLI to inspect and control local desktop apps through accessibility trees, screenshots, and safe UI actions. Use when an agent needs to list desktop apps, get an app state, read visible UI, click, type, press keys, scroll, drag, set values, or perform app accessibility actions. Triggers include "computer use", "orca computer", "list apps", "get app state", "read Spotify", "read Slack", "click app", "type text", "press key", "set value", "scroll app", "drag app", and desktop app interaction tasks.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#14): cargo-gtm]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-gtm</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-gtm</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
-            <description><![CDATA[New entry in Hot leaderboard.
-Rank: #14
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Front door for any GTM task on Cargo — sourcing, waterfall enrichment, email/phone/LinkedIn lookup, email verification, scoring, qualification, sequencing, CRM sync, and signal monitoring (job changes, funding, tech-stack/hiring intent). Use when the user states a real-world goal involving prospects, leads, accounts, contacts, ICP lists, or campaign activation. Routes to phase guides (Level 2), recipes (Level 2.5), and per-provider playbooks (Level 3) before any action call.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[[Hot] New entry (#15): cargo-orchestration]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-orchestration</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-orchestration</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#15): dbs-benchmark]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-benchmark</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-benchmark</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #15
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Interact with the Cargo platform via CLI. Use when the user wants to execute an action, run a workflow, trigger a batch, message an AI agent, query a data warehouse, fetch segment records, or inspect a model schema.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。
+触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」
+Benchmark analysis using dontbesilent's five-filter method.
+Trigger: /dbs-benchmark, "find me a benchmark", "who should I copy"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#16): cargo-cdk]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-cdk</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-cdk</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#16): dbs-content]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-content</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #16
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Define an entire Cargo workspace in code — connectors, models, plays, tools, agents, MCP servers, context, capacities, territories, segments, folders, files, workers, apps — and deploy it declaratively with `cargo-ai cdk` (init → types → plan → deploy), the way you'd manage cloud infra with Pulumi or the AWS CDK. Use when the user wants to manage Cargo resources as code: reproducibly, version-controlled, in git, from a template, or across environments. Routes to authoring/deploy/typing guides (Level 2), recipes (Level 2.5), and references. For one-off imperative operations (create one connector, read a model, run a workflow), use the matching capability skill instead.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。
+触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」
+Content creation diagnosis. After topic passes, diagnose how to turn it into good content.
+Trigger: /dbs-content, "how should I create this content", "review my copy"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#17): cargo-connection]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-connection</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-connection</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#17): dbs-deconstruct]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-deconstruct</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-deconstruct</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #17
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Manage connectors and integrations using the Cargo CLI. Use when the user wants to list, create, update, or remove connectors, discover available integrations, or understand what connector actions are available for use in workflows.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。
+触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」
+Concept deconstruction using Wittgenstein + Austrian economics framework.
+Trigger: /dbs-deconstruct, "deconstruct this concept", "what does this really mean"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#18): cargo-storage]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-storage</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-storage</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#18): dbs-slowisfast]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-slowisfast</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-slowisfast</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #18
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Manage models, datasets, columns, and relationships using the Cargo CLI. Use when the user wants to inspect or modify data models, create or update columns, list datasets, set model relationships, or understand the schema of their Cargo workspace.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。
+触发方式：/dbs-slowisfast、/慢就是快、「有没有更慢的方法」「我是不是太快了」
+Slow-is-fast diagnosis. Help entrepreneurs find seemingly slower methods that build assets through friction.
+Trigger: /dbs-slowisfast, "is there a slower way", "am I going too fast"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#19): cargo-billing]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-billing</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-billing</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#19): dbs-learning]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-learning</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-learning</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #19
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Pull usage metrics, check subscription status, view invoices, and manage credits using the Cargo CLI. Use when the user wants billing analytics, usage reports, credit usage, cost analysis, subscription details, or invoice history for their Cargo workspace.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 交互式学习。把一个课题拆成连续学习文章，根据用户在上一篇中的反馈调整下一篇的深度、角度和节奏。
+触发方式：/dbs-learning、/dbs-learn、/交互式学习、「带我学一个课题」「继续下一篇」「根据我的反馈写下一篇」
+Interactive learning workflow. Builds an adaptive sequence of learning articles based on user feedback.
+Trigger: /dbs-learning, /dbs-learn, "teach me a topic", "continue the next lesson"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#2): azure-private-link]]></title>
-            <link>https://skills.sh/microsoftdocs/agent-skills/azure-private-link</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:microsoftdocs/agent-skills/azure-private-link</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#2): archify]]></title>
+            <link>https://skills.sh/tt-a1i/archify/archify</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:tt-a1i/archify/archify</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #2
-Installs: 1
-Source: microsoftdocs/agent-skills
-Description: Expert knowledge for Azure Private Link development including troubleshooting, best practices, decision making, architecture & design patterns, limits & quotas, security, and configuration. Use when configuring Private Endpoints, DNS/Private Resolver, High Scale limits, NSP/RBAC, or Azure Firewall inspection, and other Azure Private Link related development tasks. Not for Azure Virtual Network (use azure-virtual-network), Azure VPN Gateway (use azure-vpn-gateway), Azure ExpressRoute (use azure-expressroute), Azure Firewall (use azure-firewall).]]></description>
+Installs: 178
+Source: tt-a1i/archify
+Description: Create professional architecture, workflow, sequence, data-flow, and lifecycle/state diagrams as standalone HTML files with SVG graphics, a built-in dark/light theme toggle, and one-click export to PNG / JPEG / WebP / SVG. Accepts plain-language descriptions or pasted Mermaid code (flowchart, sequenceDiagram, stateDiagram) and lays the diagram out from scratch in archify style. Use when the user asks for system architecture diagrams, infrastructure diagrams, cloud architecture visualizations, security diagrams, network topology, technical workflows, approval flows, runbooks, CI/CD flows, process diagrams, API call sequences, request lifecycles, data pipelines, ETL/ELT maps, PII boundaries, data lineage, state machines, lifecycle diagrams, status transitions, or asks to convert/beautify a Mermaid diagram.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#20): cargo-content]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-content</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-content</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#20): dbs-good-question]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-good-question</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-good-question</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #20
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Manage workspace knowledge files and libraries in the Cargo content domain — upload, list, rename, move, and remove files (PDFs, CSVs, text), and create or sync native and connector-backed libraries for retrieval-augmented generation (RAG). Use when the user wants to upload or organize knowledge files, build a knowledge library, or sync an external knowledge source. To attach these to an agent, use the cargo-ai skill.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 好问题生成器。把模糊问题改写成 Agent 可推理、可批评、可验证的问题说明书，并判断它能被自动化解决到什么程度。
+触发方式：/dbs-good-question、/好问题、/问题说明书、/Agent可解性、「这个问题能不能自动化解决」「帮我把问题说清楚」
+Turn fuzzy problems into agent-solvable problem briefs and evaluate automation readiness.
+Trigger: /dbs-good-question, "clarify this problem", "can an agent solve this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#21): cargo-hosting]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-hosting</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-hosting</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#21): dbs-chatroom]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-chatroom</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-chatroom</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #21
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Build, deploy, and manage Cargo Hosting apps and workers with the Cargo CLI — Vite SPAs served on *.cargo.app and serverless edge HTTP handlers, plus the deployments that ship and promote them. Use when the user wants to scaffold, deploy, promote, or manage a hosted app or worker on Cargo.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#22): cargo-mailbox-management]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-mailbox-management</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-mailbox-management</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#22): dbs-wechat-html]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-wechat-html</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-wechat-html</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #22
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Send mail from inboxes Cargo owns — provision mailboxes on a sending domain, run provider warm-up and the 5→40/day send ramp, deliver with the `sendEmail` action, and read back threads, replies, delivery events, and the workspace suppression list. Triggers: "set up a sending mailbox", "provision inboxes for outbound", "warm up this mailbox", "how many sends do I have left today", "send this from Cargo", "did they reply", "who unsubscribed", "suppress this recipient", "take me off your list", "never email them again", "what do mailboxes cost", "my mailbox is stuck pending". A mailbox is a recurring monthly credit charge, and every send is gated on basis, suppression, and relevance. Skip when: writing the copy or building the audience — use cargo-gtm; the mailbox belongs in git — use cargo-cdk.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 微信公众号 HTML 生成。把 Markdown 转成可粘贴到微信公众号后台的 HTML，内置 15 种经典媒体/科技产品/中文公众号风格。
+触发方式：/dbs-wechat-html、/公众号HTML、「生成公众号 HTML」「做微信公众号版本」「微信排版」
+WeChat Official Account HTML generator. Converts Markdown into WeChat-ready HTML with 15 built-in publishing styles.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#23): cargo-segmentation]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-segmentation</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-segmentation</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#23): dbs-restore]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-restore</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-restore</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #23
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Define and use segments — named, saved filters over a Cargo model that become the audience for a batch run, a play trigger, or an export. Triggers: "build a segment of", "filter my contacts where", "who matches this criteria", "save this as a list", "how many companies match", "the Closed-Won segment", "everyone who has not been emailed", "target only accounts that", "what is in this segment", "narrow this down to". Filter JSON uses `conjonction` (not `conjunction`) — misspelling it fails silently. Skip when: running something over the segment — use cargo-orchestration; exporting its rows — use cargo-analytics; ad-hoc SQL over the model — use cargo-storage.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。
+触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」
+Restore the most recent diagnosis snapshot saved by dbs-save.
+Trigger: /dbs-restore, "continue from last time", "where did we leave off"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#24): cargo-diagnostics]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-diagnostics</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-diagnostics</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#24): dbs-action]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-action</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-action</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #24
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Diagnose and explain Cargo workflow behavior after the fact — trace why a single run produced the wrong output, sweep a batch or play for errors and group them by root cause, and profile where a play's credits go and how to cut the cost. Use when a run failed or "succeeded but looks wrong", a batch has errors, records are missing downstream values, or a play costs more than expected.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。
+触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」
+Execution block diagnosis using Adlerian psychology framework.
+Trigger: /dbs-action, "I know what to do but can't do it", "why do I procrastinate"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#25): cargo-context]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-context</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-context</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#25): dbs-hook]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-hook</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-hook</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #25
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Inspect and edit the workspace's git-backed context repository (the GTM knowledge base of markdown/MDX files) and its runtime sandbox using the Cargo CLI. Use when the user wants to browse/read/write/edit context files, run a command in the sandbox, or inspect the context knowledge graph.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 短视频开头优化。诊断开头问题 + 生成优化方案。
+触发方式：/dbs-hook、/hook、「帮我优化开头」「开头怎么写」
+Short video opening optimization with diagnosis and solutions.
+Trigger: /dbs-hook, "optimize my opening", "how to write opening"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#26): cargo-ai]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-ai</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-ai</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#26): dbs-decision]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-decision</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-decision</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #26
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Create and configure AI agents, upload files for RAG, manage MCP servers, and handle agent memories using the Cargo CLI. Use when the user wants to create or update agents, upload knowledge base files, connect MCP tool servers, or manage agent memories. For sending messages to agents, use the cargo-orchestration skill instead.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 个人决策系统。把任何一个需要长期跟踪的领域（业务、关系、健康、职业、学习、投资……）做成一个本地知识工程：四层结构、来源标签、写完不改的快照、能炼出规律的概念库。
+触发方式：/dbs-decision、/决策系统、/决策立案、/结果回填、/状态画像
+Personal decision system. Turns any long-running domain into a local knowledge project with four layers, source tags, immutable snapshots, and a concept library that learns patterns over time.
+Trigger: /dbs-decision, /决策系统, /决策立案, /结果回填, /状态画像]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#27): agent-reach]]></title>
-            <link>https://skills.sh/panniantong/agent-reach/agent-reach</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:panniantong/agent-reach/agent-reach</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#27): dbs-ai-check]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-ai-check</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-ai-check</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #27
-Installs: 1
-Source: panniantong/agent-reach
-Description: Give your AI agent eyes to see the entire internet. Install and configure upstream tools for Twitter/X, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu, Douyin, LinkedIn, Boss直聘, RSS, and any web page — then call them directly. Use when: (1) setting up platform access tools for the first time, (2) checking which platforms are available, (3) user asks to configure/enable a platform channel. Triggers: "帮我配", "帮我添加", "帮我安装", "agent reach", "install channels", "configure twitter", "enable reddit".]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent AI 写作特征识别。扫描文案中的 AI 生成痕迹，输出检测报告。默认只诊断不改。
+触发方式：/dbs-ai-check、/AI检测、「帮我看看有没有 AI 味」「检测一下 AI 特征」
+AI writing fingerprint detection. Scans copy for AI-generated patterns and outputs a diagnostic report. Diagnosis only by default.
+Trigger: /dbs-ai-check, "check for AI writing", "does this sound like AI"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#28): cargo-workspace-management]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-workspace-management</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-workspace-management</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#28): dbs-report]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-report</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-report</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #28
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Manage workspace users, API tokens, folders, roles, and submit reports to workspace management using the Cargo CLI. Use when the user wants to invite or manage workspace members, create or rotate API tokens, organize resources into folders, inspect workspace roles and permissions, or submit a report to workspace management when the CLI fails or is misused.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。
+触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」
+Generate a deliverable diagnosis report by merging all dbs-save snapshots.
+Trigger: /dbs-report, "package this up", "make me a report"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#29): cargo-observability]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-observability</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-observability</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#29): dbs-diagnosis]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-diagnosis</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-diagnosis</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #29
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Create and manage Cargo alerts — scheduled threshold checks that watch workflow telemetry (spans, runs, records), a storage model's health, or an arbitrary SQL query, and fire actions (a connector, tool, or agent run) when a metric breaches. Use when the user wants to be notified about error-rate spikes, cost blowouts, slow nodes, stalled syncs, stale or empty models, a workflow that stopped running (dead-man's switch), or any "alert me when <metric> crosses <value>" monitoring; and to list, preview, update, or inspect the firing history of those alerts.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。
+触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」
+Business model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business model).
+Trigger: /dbs-diagnosis, "diagnose my business model", "I have a business question"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#3): elestio]]></title>
-            <link>https://skills.sh/elestio/elestio-skill/elestio</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:elestio/elestio-skill/elestio</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#3): landing-page-design]]></title>
+            <link>https://skills.sh/skills-101/superpowers/landing-page-design</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/landing-page-design</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #3
-Installs: 1
-Source: elestio/elestio-skill
-Description: Deploy and manage services on the Elestio DevOps platform. Use when the user wants to deploy apps, databases, or infrastructure on Elestio, manage projects, services, CI/CD pipelines, backups, domains, firewall, volumes, or billing. Covers 400+ open-source templates across 9 cloud providers.]]></description>
+Installs: 78
+Source: skills-101/superpowers
+Description: Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketing, conversion optimization. Triggers: landing page, hero section, above the fold, conversion optimization, landing page design, cta button, hero image, landing page layout, saas landing page, product page design, conversion rate, landing page best practices]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#30): cargo-quickstart]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-quickstart</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-quickstart</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#30): dbs-save]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-save</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-save</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #30
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Guided first-run demo for the Cargo CLI — from a fresh workspace to a real deliverable (25 leads matching the user's buyer persona, with a cost receipt) in under two minutes, ending by saving the demo as a recurring play. Use when the user is new to Cargo, asks for a demo/tour/quickstart, or has an empty workspace and wants to see what the CLI can do. For real GTM work beyond the demo, route to cargo-gtm.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 把当前诊断的关键状态存到本地，下次回来可以接着用。
+触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」
+Save the current diagnosis state to disk for cross-session recall.
+Trigger: /dbs-save, "save this diagnosis", "remember this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#31): cargo-analytics]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo-analytics</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo-analytics</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#31): dbs-agent-migration]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-agent-migration</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-agent-migration</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #31
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Download workflow run results, export segment data, and monitor run metrics using the Cargo CLI. Use when the user wants run metrics, error rates, data export, or download results for their Cargo workspace. For billing and credit usage, use the cargo-billing skill instead.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: Agent 工作台迁移。把任意项目整理成 Claude Code / Codex 双端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。
+触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex」
+Agent workspace migration. Turn any project into a maintainable Claude Code / Codex dual-host workspace by auditing rule files, establishing source-of-truth skills, normalizing names, and generating bridges.
+Trigger: /dbs-agent-migration, /agent-migration, "migrate to Codex", "migrate to Claude Code", "fix AGENTS.md", "organize skill bridges"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#32): cargo]]></title>
-            <link>https://skills.sh/getcargohq/cargo-skills/cargo</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:getcargohq/cargo-skills/cargo</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#32): dbs]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #32
-Installs: 1
-Source: getcargohq/cargo-skills
-Description: Router and overview for the Cargo CLI agent skills. Explains the nine skills (one outcome skill cargo-gtm + eight capability skills), the UUID flow between them, async polling, end-to-end use cases (enrich one record, enrich and sync to CRM, AI lead scoring, custom workflow, error monitoring, fresh-workspace bootstrap, segment export, GTM context authoring), and common gotchas (`conjonction` spelling, run vs batch, model-uuid vs segment-uuid). Load first whenever working with the Cargo CLI, when unsure which sub-skill applies, when stitching multiple sub-skills together, when bootstrapping a workspace, or when the user asks about Cargo skills in general.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。
+触发方式：/dbs、/商业、「帮我看看」
+Main entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.
+Trigger: /dbs, "help me with my business"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#33): story-deslop]]></title>
-            <link>https://skills.sh/zenstory-ai/oh-story-claudecode/story-deslop</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:zenstory-ai/oh-story-claudecode/story-deslop</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#33): dbs-chatroom-austrian]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-chatroom-austrian</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-chatroom-austrian</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #33
-Installs: 1
-Source: zenstory-ai/oh-story-claudecode
-Description: 网文去AI味。检测并清除文本中的AI写作痕迹，让文字回归自然、非模板化。触发方式：/story-deslop、/去AI味、「去AI味」「这篇太AI了」「网文去AI味」。]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。
+触发方式：/dbs-chatroom-austrian、/chatroom-austrian、/奥派、「奥派聊天室」
+Austrian economics chatroom. Hayek × Mises × Claude debate.
+Trigger: /dbs-chatroom-austrian, /chatroom-austrian, /奥派, "Austrian chat"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#34): explain-interface]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/explain-interface</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/explain-interface</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#34): dbs-xhs-title]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-xhs-title</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-xhs-title</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #34
-Installs: 1
-Source: jakubkrehel/skills
-Description: Answers "how was this built?" about an interface. Give it a URL and name the thing you're curious about, and it reads the layers that produce the effect. Reads the whole frontend instead when you don't name a thing. From a screenshot it reconstructs rather than reads and says so.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: 小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。
+触发方式：/dbs-xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」
+Xiaohongshu title formula tool. Pick the right formula from 75 proven templates.
+Trigger: /dbs-xhs-title, "xiaohongshu title", "RED title formula"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#35): variant]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/variant</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/variant</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#35): dbs-goal]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-goal</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-goal</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #35
-Installs: 1
-Source: jakubkrehel/skills
-Description: Answers "which of these?" rather than "is this right?". Builds several genuinely different versions of one piece of UI behind a picker in the real page, so you can flip between them and promote the one that wins.]]></description>
+Installs: 28
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 目标清晰化。用维特根斯坦的语言哲学把模糊的目标审计成可检查的交付物。
+触发方式：/dbs-goal、/目标、「帮我搞清楚目标」「我想做个人 IP」「我的目标是成为...」「我想变得更...」
+Goal clarification using Wittgenstein's philosophy of language. Audits fuzzy goals into checkable deliverables.
+Trigger: /dbs-goal, "help me clarify my goal", "I want to become...", "my goal is..."]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#36): angular-developer]]></title>
-            <link>https://skills.sh/angular/skills/angular-developer</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:angular/skills/angular-developer</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#36): angular-new-app]]></title>
+            <link>https://skills.sh/angular/skills/angular-new-app</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:angular/skills/angular-new-app</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #36
-Installs: 1
+Installs: 28
 Source: angular/skills
-Description: Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling.]]></description>
+Description: Creates a new Angular app using the Angular CLI. This skill should be used whenver a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#37): interface-review]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/interface-review</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/interface-review</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#37): dbs-spread]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-spread</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-spread</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #37
-Installs: 1
-Source: jakubkrehel/skills
-Description: User-invoked interface review of a change rather than a screen: uncommitted work, the current branch, or a pull request. Resolves the change scope, expands it to the surfaces it affects, reads both sides of the diff, and classifies every finding as introduced, a regression, or pre-existing, then hands the review to better-interface for domain routing, severity, and the verdict. Covers interface quality, not correctness, tests, or security. Supports quick and full review modes. Triggers on interface-review, review my branch, review my PR, review the diff, review my changes, review before pushing, design regression check, changed files interface review.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 传播心理解码。给定一段内容，用 5 个经典传播学理论解码它为什么能引起受众共鸣，分析受众情绪底层和有效立场，输出聊天室的讨论方向。
+触发方式：/dbs-spread、「传播心理解码」、「为什么这个能火」、「受众想听什么」、「这个内容打中了什么情绪」
+Transmission psychology decoder. Given a piece of content, analyze the psychological mechanism that makes it resonate, identify the emotional core and effective stance, and output direction for chatroom discussion.
+Trigger: /dbs-spread, "why does this resonate", "what emotion does this hit", "decode this content"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#38): better-writing]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-writing</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-writing</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#38): dbs-skill-cleaner]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-skill-cleaner</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-skill-cleaner</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #38
-Installs: 1
-Source: jakubkrehel/skills
-Description: UX writing and interface copy, from voice and button labels to error messages and empty states. Use when writing or reviewing any user-facing text: button and link labels, form errors, placeholders, settings labels, onboarding flows, notifications, or empty states. Triggers on UX writing, microcopy, interface copy, product copy, copywriting, button labels, link text, error messages, empty states, placeholder text, settings labels, capitalization, title case, sentence case, voice and tone.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 本地 skill 清理器。扫描 Claude Code、Codex、Grok、通用 Agents 及指定目录中的 skill，识别广告导流、隐蔽商业意图、任务劫持、可疑外部调用、敏感数据读取等违背用户授权的内容；默认只出报告，经用户确认后隔离问题 skill。
+触发方式：/dbs-skill-cleaner、/清理 skill、/检查 skill、「扫描本地 skill」「检测 skill 广告」「清除有问题的 skill」「审查我的 skill」
+Local skill cleaner. Scans installed or specified skills for advertising, covert commercial intent, task hijacking, suspicious external calls, and sensitive-data access. Reports first and quarantines only after explicit confirmation.
+Trigger: /dbs-skill-cleaner, /clean skills, /check skills, "scan my local skills", "detect skill ads", "clean problematic skills"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#39): byted-web-search]]></title>
-            <link>https://skills.sh/kotot/byted-web-search/byted-web-search</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:kotot/byted-web-search/byted-web-search</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#39): dbs-script-flow]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-script-flow</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-script-flow</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #39
-Installs: 2
-Source: kotot/byted-web-search
-Description: 火山引擎豆包搜索 API（原联网搜索/融合信息搜索），返回网页/图片结果。联网搜索场景优先使用本 skill。触发词包括：豆包搜索、查/搜/找、真的吗/靠谱吗/确认/核实、最近/今天/最新/近期、出处/来源/链接、Agent Plan、融合信息搜索、Harness、有什么/有哪些/推荐、价格/政策/汇率/行情、对比/区别/哪个好、听说/据说/不太确定、热搜/热门/火、帮我看/了解一下、求证/辟谣、值不值得/该不该。任务依赖在线事实或时效性时优先使用。若回答可能依赖外部事实，优先调用本 skill 再作答。]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 短视频逐字稿逻辑延续检查。找出「观众会在哪一秒划走」的风险点：段落间逻辑衔接、段落内信息密度、句子口播流畅度。诊断完默认主动问是否标记式改稿。
+触发方式：/dbs-script-flow、/逻辑延续、「检查逻辑延续」「看看逻辑有没有断」「帮我看看这个稿子顺不顺」「哪里会划走」]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#4): omada-controller]]></title>
-            <link>https://skills.sh/jakeasmith/omada-controller-skill/omada-controller</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakeasmith/omada-controller-skill/omada-controller</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#4): competitor-teardown]]></title>
+            <link>https://skills.sh/skills-101/superpowers/competitor-teardown</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/competitor-teardown</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #4
-Installs: 1
-Source: jakeasmith/omada-controller-skill
-Description: Interact with TP-Link Omada SDN Controller Open API. Use when querying or managing Omada network devices, clients, sites, access points, switches, gateways, VLANs, firewall rules, VPNs, or any Omada controller configuration. Also use when the user mentions Omada, SDN controller, or needs to authenticate against the Omada API.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#40): better-interface]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-interface</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-interface</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#40): dbs-update]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-update</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-update</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #40
-Installs: 1
-Source: jakubkrehel/skills
-Description: User-invoked, cross-discipline interface review that coordinates better-accessibility, better-layout, better-writing, better-typography, better-colors, and better-ui. Use when explicitly invoked for a holistic review of a screen, flow, feature, or product interface. Supports quick and full review modes. Triggers on better-interface, full interface review, holistic UI audit, cross-discipline design review, review the whole interface.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: dbskill 更新器。用户说「更新 dbskill」「升级 dbskill」「把 dbskill 更新到最新版」「检查 dbskill 更新」或输入 /dbs-update 时使用。只同步 dontbesilent2025/dbskill，不更新用户安装的其他 Skill，不修改用户的 dbskill 存档。
+Update dbskill when the user asks to update, upgrade, or check updates for dbskill.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#41): better-ui]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-ui</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-ui</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#41): dbs-standard-answer]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-standard-answer</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-standard-answer</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #41
-Installs: 1
-Source: jakubkrehel/skills
-Description: Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, micro-interactions, enter/exit animations, or any visual detail work. Triggers on UI polish, design details, "make it feel better", "feels off", stagger animations, border radius, optical alignment, image outlines, box shadows.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 历史同构与标准答案研究。把用户正在经历的复杂困境抽象成结构指纹，在商业史、管理史、技术史、职业史和制度史中寻找真正同构的成功案例、失败案例与反例，比较当事人的约束、决策和结果，提炼反复出现的解法、适用条件与失效边界。
+触发方式：/dbs-standard-answer、/标准答案、「历史上谁遇到过类似问题」「这种情况以前有人经历过吗」「他们当时怎么解决的」「这个问题有没有经典解法」「先帮我找历史类比」「曾经的标准答案是什么」。
+Find structurally analogous historical cases and evidence-backed standard answers. Use when the user wants to locate a present dilemma in history, compare how others handled it, and extract recurring mechanisms with conditions and limits.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#42): better-typography]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-typography</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-typography</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#42): dbs-knowledge]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-knowledge</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-knowledge</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #42
-Installs: 1
-Source: jakubkrehel/skills
-Description: Web typography from choosing fonts to spacing, wrapping and accessibility. Use when picking or pairing typefaces, configuring variable fonts or OpenType features, setting up a type scale, checking heading hierarchy, styling text in components, truncating text, styling underlines, selection, placeholders or carets, or reviewing frontend code for typography. Triggers on typography, fonts, font formats, woff2, variable fonts, font-weight, opentype, font-feature-settings, letter-spacing, line-height, type scale, heading hierarchy, heading levels, tabular numbers, text-wrap, truncation, line clamp, underlines, text-decoration, text selection, iOS input zoom, font smoothing, text contrast, measure, line length, text-box, smart punctuation, drop cap.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 文件夹知识库。把用户已有的本地文件夹变成 Agent 能稳定查找、收录和维护的知识库；用户没有资料时建立最小知识库，有资料时生成知识库导航，后续支持放入新资料、查找答案、识别当前版本、检查知识库、精确更新导航，以及对膨胀的知识库导航进行瘦身和分层治理。用户提到「搭建知识库」「我的文件夹就是知识库」「让 AI 读懂这些文件」「把资料放进知识库」「从知识库找东西」「更新知识库」「更新知识库导航」「优化 SOT」「SOT 太大」「瘦身 Source of Truth」「知识库导航太长」「把明细下沉到 README」「刚才的文件加入知识库」「这条路径写错了」「把这个设为最新版」「哪个文件是最新版」「资料太乱」「建立 Source of Truth」时都应使用。用户无需理解 Source of Truth、RAG 或 Agent 配置。
+Folder-based knowledge base for AI agents. Use whenever the user wants to build, populate, query, organize, audit, slim, or connect a local folder as a knowledge base, including source-of-truth navigation, layered indexing, and version resolution.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#43): better-layout]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-layout</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-layout</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#43): dbs-jtbd]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-jtbd</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-jtbd</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #43
-Installs: 1
-Source: jakubkrehel/skills
-Description: Layout structure for web interfaces, from grouping and alignment to reading order, progressive disclosure, and adaptive breakpoints. Use when structuring a page or component, spacing or aligning controls, deciding what collapses at small sizes, handling RTL layout direction, or reviewing frontend code for layout. Triggers on layout, spacing, alignment, grouping, negative space, whitespace, visual hierarchy, reading order, progressive disclosure, breakpoints, responsive layout, container queries, safe area, full-bleed, edge-to-edge, layout margins, RTL layout, logical properties.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: dontbesilent JTBD 任务澄清。用 Jobs to Be Done 识别具体情境中用户想推进的进展、切换方案的力量与可观察的选择标准，据此优化产品、内容、服务、决策和 AI 提示词。调用名：/dbs-jtbd。用户问「到底要解决什么」「为什么会选择这个方案」「用 JTBD 重写提示词」时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#44): better-colors]]></title>
-            <link>https://skills.sh/jakubkrehel/skills/better-colors</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:jakubkrehel/skills/better-colors</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#44): dbs-resonate]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-resonate</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-resonate</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #44
-Installs: 1
-Source: jakubkrehel/skills
-Description: OKLCH color space for web projects. Convert hex/rgb/hsl to oklch, generate palettes, check contrast, handle gamut boundaries, and theme with Tailwind v4. Triggers on oklch, color conversion, palette generation, contrast ratio, gamut, display p3, design tokens, hue drift, chroma, dark mode colors.]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 文稿共鸣诊断。你写完了一段内容但心里没底——怕没流量、怕没戳中观众、怕完播率低。把文稿给这个 skill，它用传播心理学框架诊断有没有引起共鸣、哪里出了问题、具体怎么改。
+触发方式：/dbs-resonate、「这个文稿有没有戳中人」「帮我看看能不能发」「这个完播率会不会低」「文稿发出去有没有流量」
+Draft resonance diagnosis. You finished a draft but aren't sure it will connect. Diagnoses psychological resonance issues and gives specific fixes.
+Trigger: /dbs-resonate, "will this resonate", "check my draft", "will people watch this"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#45): receiving-code-review]]></title>
-            <link>https://skills.sh/obra/superpowers/receiving-code-review</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:obra/superpowers/receiving-code-review</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#45): dbs-content-risk-check]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content-risk-check</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-content-risk-check</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #45
-Installs: 1
-Source: obra/superpowers
-Description: Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 面向创作者的内容发布风险检查。逐句检查自媒体、社交媒体和内容平台的标题、正文、图片文字、字幕、口播、评论、账号资料及视频画面，分别判断平台机器可能识别什么、内容本身存在什么实质问题，并给出具体位置和最小修改动作；需要明确视频语境边界时，额外生成真实准确的三行贴片小字。用户询问「检查敏感词」「发布前排雷」「这篇内容哪里可能违规」「这条小红书能不能发」「视频上放什么声明」时使用。保留强观点、情绪张力、个人风格和传播钩子。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#46): finishing-a-development-branch]]></title>
-            <link>https://skills.sh/obra/superpowers/finishing-a-development-branch</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:obra/superpowers/finishing-a-development-branch</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#46): dbs-install-skill]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-install-skill</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-install-skill</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #46
-Installs: 1
-Source: obra/superpowers
-Description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: 将单个 Skill 或 Skill 集合安装到通用 Agents、Claude Code、Codex、WorkBuddy、Grok、Hermes Agent、Kiro、Qwen Code、Cline 等 Agent。用户要求跨 Agent 安装、同步、查看、去重或卸载 Skill 时使用。]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#47): writing-skills]]></title>
-            <link>https://skills.sh/obra/superpowers/writing-skills</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:obra/superpowers/writing-skills</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#47): dbs-content-system]]></title>
+            <link>https://skills.sh/dontbesilent2025/dbskill/dbs-content-system</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:dontbesilent2025/dbskill/dbs-content-system</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #47
-Installs: 1
-Source: obra/superpowers
-Description: Use when creating new skills, editing existing skills, or verifying skills work before deployment]]></description>
+Installs: 27
+Source: dontbesilent2025/dbskill
+Description: dontbesilent 内容结构化系统。把本地大量文稿、推文、选题、案例和课程稿搭成一个可持续生长的内容结构化工程：先审计内容规模与边界，再建立新工程、复制素材、抽取内容单元、生成主题地图与选题装配稿。
+触发方式：/dbs-content-system、/内容结构化系统、「把我的内容做成结构化系统」「把本地素材变成可重组系统」「帮我搭内容资产工程」「我想把旧内容变成可复用资产」
+Content structuring system. Audits local content volume, then builds a reusable content knowledge project with units, topic maps, and assembly drafts.
+Trigger: /dbs-content-system, "build a content structuring system", "turn my archive into reusable assets"]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#48): dispatching-parallel-agents]]></title>
-            <link>https://skills.sh/obra/superpowers/dispatching-parallel-agents</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:obra/superpowers/dispatching-parallel-agents</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#48): high-end-visual-design]]></title>
+            <link>https://skills.sh/leonxlnx/taste-skill/high-end-visual-design</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:leonxlnx/taste-skill/high-end-visual-design</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #48
-Installs: 1
-Source: obra/superpowers
-Description: Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies]]></description>
+Installs: 145
+Source: leonxlnx/taste-skill
+Description: Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#49): seam-craft]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/seam-craft</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:heygen-com/hyperframes/seam-craft</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#49): agent-tools]]></title>
+            <link>https://skills.sh/skills-101/superpowers/agent-tools</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/agent-tools</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #49
-Installs: 1
-Source: heygen-com/hyperframes
-Description: Render-correctness doctrine for scene-to-scene seams in HyperFrames launch videos — the prerequisites that make transitions composite correctly on the master timeline. Load when assembling the master timeline / index.html, when a white flash appears at a cut or crossfade seam (especially on dark films), when reasoning about why a transition opacity dip shows through, or when verifying the render-side mechanics of how overlapping scene wrappers blend. Covers the opaque stage-ground (#root background) white-flash guard and how the injector overlaps wrappers, holds final frames, ping-pongs tracks, and stamps lint-clean template code onto the master timeline. Does NOT contain the per-transition catalog — see the transition registry for individual transition entries.]]></description>
+Installs: 141
+Source: skills-101/superpowers
+Description: Run AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#5): conventional-commit]]></title>
-            <link>https://skills.sh/github/awesome-copilot/conventional-commit</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:github/awesome-copilot/conventional-commit</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#5): character-design-sheet]]></title>
+            <link>https://skills.sh/skills-101/superpowers/character-design-sheet</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/character-design-sheet</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #5
-Installs: 1
-Source: github/awesome-copilot
-Description: Prompt and workflow for generating conventional commit messages using a structured XML format. Guides users to create standardized, descriptive commit messages in line with the Conventional Commits specification, including instructions, examples, and validation.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#50): captions-overlay]]></title>
-            <link>https://skills.sh/heygen-com/hyperframes/captions-overlay</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:heygen-com/hyperframes/captions-overlay</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#50): remotion-render]]></title>
+            <link>https://skills.sh/skills-101/superpowers/remotion-render</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/remotion-render</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #50
-Installs: 1
-Source: heygen-com/hyperframes
-Description: Overlay doctrine for the embedded-captions workflow — the caption MODEL (drop / rail / embed) and the rule that captions are an OVERLAY composited on top of the film, never a reserved bottom band you shift content up to avoid. Load when adding captions/subtitles to a talking-head or launch video, when deciding whether a phrase should be dropped, ride the verbatim rail, or be promoted to a scarce embedded climax, when laying out a composition that will carry captions (do NOT reserve a keep-out band), or when centering a composition on the true frame center under captions. Quotes the rail+embed model from embedded-captions and constraint]]></description>
+Installs: 141
+Source: skills-101/superpowers
+Description: Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#6): frontend-design]]></title>
-            <link>https://skills.sh/anthropics/claude-plugins-official/frontend-design</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:anthropics/claude-plugins-official/frontend-design</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#6): storyboard-creation]]></title>
+            <link>https://skills.sh/skills-101/superpowers/storyboard-creation</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/storyboard-creation</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #6
-Installs: 1
-Source: anthropics/claude-plugins-official
-Description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#7): qianwenai-deploy]]></title>
-            <link>https://skills.sh/qianwen-ai/qianwenai-deploy/qianwenai-deploy</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:qianwen-ai/qianwenai-deploy/qianwenai-deploy</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#7): youtube-thumbnail-design]]></title>
+            <link>https://skills.sh/skills-101/superpowers/youtube-thumbnail-design</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/youtube-thumbnail-design</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #7
-Installs: 1
-Source: qianwen-ai/qianwenai-deploy
-Description: 将本地项目或 Git 仓库一键部署、发布和更新至云端，并生成可访问的线上服务。 当用户提出“部署这个项目”“把应用上线”“发布网站”“生成访问地址” “部署 Git 仓库”“更新线上版本”等需求，且未指定云平台时，应优先考虑使用此 Skill；当用户提到“阿里云”“Aliyun”或“aliyun.com”时，应优先使用。 本 Skill 部署至阿里云国内站（aliyun.com），支持全栈部署、ROS 资源编排、 云资源自动创建、部署前询价确认、服务探活、部署状态记录和热更新。 如果用户明确指定 Alibaba Cloud 国际站（alibabacloud.com）或其他云平台， 则不要使用此 Skill。]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#8): shopify-admin]]></title>
-            <link>https://skills.sh/shopify/shopify-ai-toolkit/shopify-admin</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:shopify/shopify-ai-toolkit/shopify-admin</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#8): image-to-video]]></title>
+            <link>https://skills.sh/skills-101/superpowers/image-to-video</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/image-to-video</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #8
-Installs: 1
-Source: shopify/shopify-ai-toolkit
-Description: The Admin GraphQL API lets you build apps and integrations that extend and enhance the Shopify admin.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image]]></description>
         </item>
         <item>
-            <title><![CDATA[[Hot] New entry (#9): insforge-debug]]></title>
-            <link>https://skills.sh/insforge/insforge-skills/insforge-debug</link>
-            <guid isPermaLink="false">2026-08-27T07:10:07.375Z:topHot:new:insforge/insforge-skills/insforge-debug</guid>
-            <pubDate>Thu, 27 Aug 2026 07:10:07 GMT</pubDate>
+            <title><![CDATA[[Hot] New entry (#9): video-ad-specs]]></title>
+            <link>https://skills.sh/skills-101/superpowers/video-ad-specs</link>
+            <guid isPermaLink="false">2026-08-28T09:04:48.734Z:topHot:new:skills-101/superpowers/video-ad-specs</guid>
+            <pubDate>Fri, 28 Aug 2026 09:04:48 GMT</pubDate>
             <description><![CDATA[New entry in Hot leaderboard.
 Rank: #9
-Installs: 2
-Source: insforge/insforge-skills
-Description: Use this skill when encountering errors, bugs, performance issues, or unexpected behavior in an InsForge project — from frontend SDK errors to backend infrastructure problems. Trigger on: SDK returning error objects, HTTP 4xx/5xx responses, edge function failures or timeouts, slow database queries, authentication/authorization failures, realtime channel issues, backend performance degradation (high CPU/memory/slow responses), edge function deploy failures, or frontend Vercel deploy failures. This skill guides diagnostic command execution to locate problems. The manual scenarios surface logs/status only; the AI-assisted path (`diagnose --ai`) additionally returns suggested causes and solutions.]]></description>
+Installs: 77
+Source: skills-101/superpowers
+Description: Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad]]></description>
         </item>
     </channel>
 </rss>

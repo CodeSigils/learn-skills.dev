@@ -1,0 +1,1 @@
+Discovers AgentKit connectors from the live catalog and MCP so an agent can name tools and schemas. Use when the user asks what connectors exist, wants connector tools, or needs input/output schemas. It does not create a connected account or token (that's `integrate-agentkit`) or expose tools over MCP (that's `expose-agentkit-mcp`).

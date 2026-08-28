@@ -1,0 +1,1 @@
+Background task scheduling for Kotlin Multiplatform — WorkManager (Android) and BGTaskScheduler / BGProcessingTask (iOS) behind an expect/actual BackgroundScheduler. Covers one-time work, periodic work, retry with backoff, input/output data, and chained work on Android. iOS uses BGAppRefreshTask for short frequent tasks and BGProcessingTask for long network or maintenance jobs.

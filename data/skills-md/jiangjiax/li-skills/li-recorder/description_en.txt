@@ -1,0 +1,4 @@
+当用户说「记录选题」「新选题」「这个选题怎么样」「我有个想法」「帮我记一下」或分享一个粗糙的内容想法需要评估和记录时，应使用本 skill。即使用户只是随口说出一个内容想法，也应主动触发评估流程，不要等用户明确说「记录」。
+先用 dbs-content 的五维逻辑诊断选题值不值得做，值得做才记录，并举一反三推荐 3-5 个相似选题。
+不应触发：深化选题生成大纲（用 li-topic）、直接写脚本（用 li-writer）、AI 润色或美化选题标题。
+Use when the user wants to "record a topic", "log a topic idea", "is this topic worth doing", or shares a rough content concept needing diagnosis and logging.
