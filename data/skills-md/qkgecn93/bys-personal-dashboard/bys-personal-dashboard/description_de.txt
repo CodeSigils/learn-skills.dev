@@ -1,0 +1,15 @@
+Buyi Shu Personal Dashboard Generator. Durch ein geführtes Interview helfen wir Nutzern (auch denen, die nichts vom Programmieren wissen) ihr eigenes mobiles persönliches Dashboard zu erstellen – eine permanente Funktionsleiste links, ein Karten‑Flow rechts; beim Öffnen zeigt es den Tagesplan, Check‑In, Buchhaltung, Gewicht, Terminplan, Vokabeln, Baum‑Loch und andere Dinge, die sie täglich wirklich benötigen. Es kann bereitgestellt, veröffentlicht und zum Startbildschirm des Telefons hinzugefügt werden, wie eine App verwendet werden.
+
+Wenn der Nutzer sagt „initialize Buyi Shu Personal Dashboard Generator“, „initialize bys‑personal‑dashboard“, „I want to make my own personal dashboard“, „I want that kind of personal dashboard I saw on Douyin“, „turn my daily schedule into a phone page“, muss es ausgelöst werden; selbst wenn der Nutzer nur einen Screenshot eines fremden Dashboards postet und sagt „I want this too“, sollte es ebenfalls ausgelöst werden.
+
+Existiert bereits ein Dashboard und der Nutzer sagt „add an XX feature to my dashboard“, „change the dashboard’s color scheme“, „modify the dashboard“, dann dem Iterationsprozess folgen statt neu zu initialisieren.
+
+Verwendet der Nutzer nicht das Wort „Dashboard“, wird die Absicht anhand von drei Merkmalen bestimmt: ① Nutzung auf einem Telefon, ② tägliches Öffnen, ③ enthält die eigenen privaten Daten des Nutzers (Gewicht, Konten, Check‑Ins, To‑Do, Tagebuch). Sind alle drei zutreffend, auslösen, z. B. „I want to organize my weight, bookkeeping, and to‑do in one place that I can tap on my phone“ – das ist ein Dashboard, auch wenn der Nutzer den Begriff nicht kennt. Fehlt eines der drei Merkmale, nicht auslösen.
+
+Eine einzelne Funktion zählt ebenfalls – „I keep forgetting to take my medicine, I want to tick it off on my phone every day“ ist ein Ausgangsbedarf; nicht ignorieren, nur weil „es wie ein kleines Feature klingt“.
+
+Kriterium ist, wer die Daten besitzt, nicht wo sie gespeichert werden: ein eigenes Buchhaltungs‑Excel, das der Nutzer in eine Tages‑Ansichts‑Seite auf dem Telefon verwandeln möchte, ist ein Dashboard; Unternehmens‑Verkaufsdaten für einen Bericht nicht.
+
+Nicht anwendbar für: einmalige Werkzeuge, die keine persönlichen Daten speichern (Glücksrad, Taschenrechner, Countdowns, die auf Großbildschirmen bei Veranstaltungen oder Livestreams für andere sichtbar sind), Backend‑Management‑Systeme, Mehr‑User‑Kollaborationstools für Teams, persönliche Blogs/Portfolios/persönliche Websites zur externen Anzeige (sie richten sich an andere, nicht für täglichen persönlichen Gebrauch), Unternehmens‑ oder Geschäfts‑Datenbericht‑Dashboards (erstellt mit xlsx o. Ä.), gewöhnliche HTML‑Programmierungsfragen, die nichts mit einem persönlichen Dashboard zu tun haben.
+
+Bitte immer in der Sprache des Nutzers antworten.

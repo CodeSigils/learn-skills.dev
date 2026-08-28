@@ -1,0 +1,3 @@
+Entscheidet, ob ein Umbenennen/Verschieben/Kopieren/Löschen als reiner Text‑Sweep (Markdown, Konfiguration, Skripte, Skill‑Verzeichnisse) sicher durchgeführt werden kann oder an ein echtes, symbole‑bewusstes Werkzeug (Android Studio / IntelliJ Refactor für Kotlin‑Quellcode) delegiert werden muss. Behandelt das verifizierte Text‑Umbenennungsverfahren (git mv, Frontmatter/Header‑Anpassung, massiver Regex‑Sweep, Rest‑Überprüfung, vollständiger Test‑ und Gate‑Durchlauf) und die Checkliste für Modulverschiebungen im Rahmen des 6‑Schichten‑Clean‑Architecture‑Vertrags dieser Sammlung. Implementiert KEINEN AST‑basierten Kotlin‑Umbenennungs‑Engine – dafür ist das Refactoring‑Tool der IDE gedacht. 
+
+Bitte antworte stets in der Sprache des Benutzers.

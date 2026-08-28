@@ -1,0 +1,1 @@
+Richtet Multiplatform‑DataStore für KMP ein: Preferences (Key‑Value) und Proto (typisiert, schema‑gesteuert) Varianten. Behandelt createDataStore {} expect/actual pro Plattform, Flow‑basierte Reads, Coroutine‑Writes, Migration von SharedPreferences und Koin‑Verkabelung, sodass Feature‑Module DataStore nie direkt konstruieren.

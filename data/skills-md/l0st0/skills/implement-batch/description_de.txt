@@ -1,0 +1,1 @@
+Bearbeite eine Warteschlange von agentenbereiten Tracker‑Tickets unbeaufsichtigt — dort, wo das Issue‑Tracker‑Dokument des Repos angibt, dass sie sich befinden. Ein Pre‑Flight fragt alles im Voraus ab, dann implementiert pro Ticket ein Builder‑Subagent, du prüfst, ein Fixer‑Subagent korrigiert; Fehlschläge werden auf einem Branch geparkt. Nie pushen.

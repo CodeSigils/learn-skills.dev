@@ -1,0 +1,5 @@
+Wenn der Benutzer „get transcript“, „transcribe video“, „extract script“, „help me pull it out“, „what does this video say“, „what did this blogger say“ sagt oder direkt einen Videolink bereitstellt und um Inhaltsextraktion bittet, sollte diese Fähigkeit verwendet werden. Auch wenn der Benutzer nur einen Videolink ohne weitere Anweisung droppt, solange der Kontext Benchmark‑Analyse oder Inhaltsextraktion beinhaltet, sollte sie proaktiv ausgelöst werden. Rufe `video2text.py` auf, um das Roh‑Transkript zu erhalten, lasse die KI gängige Spracherkennungsfehler korrigieren, identifiziere den Autor und archiviere es im Verzeichnis benchmark‑blogger. Diese Fähigkeit nicht auslösen für: Analyse viraler Muster (nutze li-analyzer), Aufzeichnung eigener Themenideen (nutze li-recorder), Schreiben des eigenen Skripts (nutze li-writer).
+
+Verwenden, wenn der Benutzer „get transcript“, „transcribe video“, „extract script“ möchte oder einen Videolink zur Inhaltsextraktion liefert. Führt Speech‑to‑Text aus, lässt die KI Korrekturen vornehmen und archiviert im Benchmark‑Blogger‑Verzeichnis.
+
+Bitte immer in der Sprache des Benutzers antworten.
