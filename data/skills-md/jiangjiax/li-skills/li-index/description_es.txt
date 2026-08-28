@@ -1,0 +1,10 @@
+Cuando el usuario dice "actualizar índice", "agregar esto al índice", "agregó un nuevo archivo", "agregó un nuevo libro/una nota/un documento" o "el índice de la biblioteca de materiales necesita actualizarse", se debe usar el **modo de mantenimiento incremental** de la habilidad.  
+Cuando el usuario dice "verificación del estado del índice", "verificación del índice", "verificar índice", "sincronización de índice" o "completar índice", se debe usar el **modo de verificación** de la habilidad: escanear todas las bibliotecas ↔INDEX, encontrar entradas faltantes o no válidas y completarlas por lotes.  
+Se aplica a todas las bibliotecas que contienen un INDEX.md: biblioteca de notas de lectura, biblioteca de conceptos centrales, biblioteca de scripts de gran éxito, acumulación de metodología 04 y cualquier biblioteca creada en el futuro.  
+El valor del índice depende de la exactitud del contenido: el texto original debe leerse en su totalidad antes de escribirlo; Inferir a partir de nombres de archivos o impresiones hará que el índice pierda su valor de referencia.  
+Incluso si el usuario solo dice "Agregué un archivo" o "coloqué esto", siempre que se trate del índice, esta habilidad debería activarse.  
+No debe activarse: simplemente leer el índice (directRead), profundizar en los temas (usandoli-topic), generar guiones (usandoli-writer).  
+
+Úselo cuando el usuario agrega contenido nuevo a cualquier biblioteca indexada O ejecuta una verificación de estado del índice global para encontrar entradas faltantes o obsoletas.  
+
+Por favor responda siempre en el idioma del usuario.

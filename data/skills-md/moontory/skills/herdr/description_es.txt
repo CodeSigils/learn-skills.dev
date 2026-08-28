@@ -1,0 +1,1 @@
+Controle herdr desde dentro para un líder, líder de equipo u orquestador autorizado explícitamente para gestionar contextos de trabajo y delegar. Úselo solo cuando HERDR_ENV=1 y la tarea actual otorga autoridad de coordinador. No lo utilice desde un rol de Explorador, Planificador, Constructor, Revisor u otro trabajador de terminal simplemente porque se ejecuta dentro de Herdr.

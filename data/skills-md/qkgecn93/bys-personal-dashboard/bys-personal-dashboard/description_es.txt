@@ -1,0 +1,15 @@
+Generador de Tablero Personal Buyi Book. A través de una entrevista guiada, ayuda a los usuarios (incluidos aquellos que no saben nada de programación) a crear su propio tablero personal móvil: una barra de funciones permanente a la izquierda, una corriente de tarjetas a la derecha; al abrirlo se muestra el plan del día, registro de asistencia, contabilidad, peso, agenda, vocabulario, un “agujero del árbol” y otras cosas que el usuario realmente necesita cada día. Puede implementarse, ponerse en línea y añadirse a la pantalla de inicio del teléfono, utilizándose como una aplicación.
+
+Cuando el usuario dice “inicializar generador de tablero personal BuYiShu”, “inicializar bys‑personal‑dashboard”, “quiero crear mi propio tablero personal”, “quiero el tipo de tablero personal que vi en Douyin” o “convertir mi agenda diaria en una página móvil”, debe activarse el disparador; incluso si el usuario solo envía una captura de pantalla del tablero de otra persona y dice “quiero esto también”, también debe activarse.
+
+Si ya existe un tablero y el usuario dice “añadir una función XX a mi tablero”, “cambiar el esquema de colores del tablero” o “modificar el tablero”, sigue el proceso de iteración en lugar de volver a inicializar.
+
+Cuando el usuario no usa la palabra “tablero”, utiliza tres características para juzgar: ① se usa en un teléfono, ② se abre todos los días, ③ contiene datos privados del usuario (peso, cuentas, registros de asistencia, lista de tareas, diario). Si los tres están presentes, se activa el flujo; por ejemplo, “quiero organizar mi peso, contabilidad y tareas en un solo lugar al que pueda tocar en mi teléfono” – eso es un tablero, el usuario simplemente no conoce el término. Si falta cualquiera de los tres, no se activa.
+
+Incluso una sola función cuenta—“se me olvida tomar mi medicina, quiero marcarlo en mi teléfono cada día” es una demanda semilla; no lo omitas solo porque “parece una función pequeña”.
+
+El criterio es a quién pertenecen los datos, no dónde se almacenan: un Excel con la contabilidad propia del usuario que quiere como página móvil diaria es un tablero; los datos de ventas de una empresa para un informe no lo son.
+
+No aplicable: herramientas desechables que no almacenan datos personales (ruleta de lotería, calculadora, cuentas regresivas mostradas en una gran pantalla o transmisión en vivo para otros), sistemas de gestión administrativa, herramientas de colaboración multiusuario para un equipo, blogs/portafolios/sitios web personales para exhibición externa (son para otros, no para uso personal diario), tableros de datos de empresa o negocio (creados con habilidades tipo Excel), preguntas habituales de codificación HTML que no guardan relación con un tablero personal.
+
+Responde siempre en el idioma del usuario.

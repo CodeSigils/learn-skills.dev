@@ -1,0 +1,5 @@
+Cuando el usuario dice “get transcript”, “transcribe video”, “extract script”, “help me pull it out”, “what does this video say”, “what did this blogger say”, o proporciona directamente un enlace de video solicitando la extracción de contenido, se debe usar esta habilidad. Incluso si el usuario simplemente deja un enlace de video sin decir qué hacer, siempre que el contexto implique análisis de referencia o extracción de contenido, debe activarse de forma proactiva.  
+Ejecute video2text.py para obtener la transcripción sin procesar, haga que la IA corrija los errores comunes de reconocimiento de voz y, tras identificar al autor, archive el archivo en el directorio benchmark‑blogger.  
+No active esta habilidad para: analizar patrones de contenido viral (usando li‑analyzer), registrar sus propias ideas de tema (usando li‑recorder) o escribir su propio guion (usando li‑writer).  
+
+Por favor, responda siempre en el idioma del usuario.
