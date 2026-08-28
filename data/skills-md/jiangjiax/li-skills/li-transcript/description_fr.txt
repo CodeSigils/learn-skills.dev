@@ -1,0 +1,7 @@
+Lorsqu'un utilisateur dit « obtenir la transcription », « transcrire la vidéo », « extraire le script », « aidez-moi à le gratter », « que dit cette vidéo », « que dit ce blogueur » ou fournit directement un lien vidéo demandant l'extraction de contenu, cette compétence doit être utilisée. Même si l'utilisateur se contente de supprimer un lien vidéo sans préciser quoi faire, tant que le contexte implique une analyse de référence ou une extraction de contenu, celui-ci doit être déclenché de manière proactive.  
+
+Invoquezvideo2text.py pour obtenir la transcription brute, demander à l'IA de relire les erreurs courantes de reconnaissance vocale, d'identifier l'auteur et d'archiver le résultat dans le répertoire du benchmark-blogger.  
+
+Ne déclenchez pas pour : analyser les tendances virales (utiliser li‑analyzer), enregistrer des idées de sujets personnels (utiliser li‑recorder), écrire son propre script (utiliser li‑writer).  
+
+À utiliser lorsque l'utilisateur souhaite « obtenir une transcription », « transcrire une vidéo », « extraire un script » ou fournir un lien vidéo pour l'extraction de contenu. Le processus exécute la synthèse vocale, les relectures IA et les archives dans le répertoire de référence des blogueurs.
