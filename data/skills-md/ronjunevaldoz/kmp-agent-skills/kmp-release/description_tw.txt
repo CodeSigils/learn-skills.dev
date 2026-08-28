@@ -1,0 +1,1 @@
+端到端 KMP 庫與應用程式發布管道。涵蓋版本管理策略（以 gradle.properties 為真實來源）、透過 vanniktech 插件發布至 Maven Central、GPG 簽署、Sonatype Central Portal、使用 git-cliff 與 Conventional Commits 產生變更日誌、GitHub Release 建立、機密管理模式，以及──針對應用程式目標──從單一 semver 來源衍生平台原生版本欄位（Android versionCode、iOS CFBundleVersion）。與 CI 技能（負責 workflow YAML）以及 xcframework‑spm 技能（負責 SPM 二進位分發）不同。

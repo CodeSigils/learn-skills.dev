@@ -1,0 +1,1 @@
+在 Kotlin Multiplatform 專案中設置 SQLDelight 2。涵蓋：Gradle 插件設定、schema（.sq）檔案、遷移、型別適配器、透過 expect/actual 的平台專屬驅動（Android、iOS、Desktop/JVM、Web/JS）、coroutine Flow 查詢，以及在 :core:database 中的 Koin 注入。假設該專案已使用 kmp-feature-scaffold 搭建。

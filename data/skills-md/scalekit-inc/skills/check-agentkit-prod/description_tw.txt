@@ -1,0 +1,1 @@
+檢查 AgentKit 上線情況，使代理只能在每個項目皆為 PASS 或以理由 WAIVE 時簽核。當使用者想要 AgentKit 正式環境或啟用 AgentKit 時使用。它不會寫入連結的帳戶或令牌（那是 `integrate-agentkit`），也不會檢查 SaaSKit 上線（那是 `check-saaskit-prod`）。

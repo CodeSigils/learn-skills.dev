@@ -1,0 +1,1 @@
+在 MCP 上公開 AgentKit 工具，讓客戶端可以透過每位使用者的實例 URL 呼叫它們。當使用者希望在 MCP 上公開 AgentKit、產生每位使用者的 MCP URL，或透過 MCP 連接 LangChain 時使用。它不會列出連接器（那是 `discover-connectors`），也不會在應用程式碼中建立已連接的帳戶與令牌（那是 `integrate-agentkit`）。

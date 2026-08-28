@@ -1,0 +1,1 @@
+針對 Kotlin Multiplatform 應用程式的崩潰回報 —— Android/iOS 上的 Firebase Crashlytics、作為跨平台替代方案的 Sentry、自訂非致命事件記錄，以及 breadcrumb 日誌。涵蓋內容：logger breadcrumb 橋接、Kotlin/Native dSYM 的符號化設定，以及一個 CrashReporter 的 expect/actual 介面，使 commonMain 不需載入平台 SDK。*不* 包括一般的結構化日誌（請參閱 logging 技能）或應用程式分析/事件（請參閱 analytics 技能）。

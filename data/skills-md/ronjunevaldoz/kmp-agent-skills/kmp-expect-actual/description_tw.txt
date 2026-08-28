@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的 expect/actual 機制——何時使用、何時不要使用，以及如何正確實作。涵蓋：真正需要使用 expect/actual 的四大類別（平台 API、平台型別、效能關鍵程式碼、SDK 整合）、先在 `commonMain` 實作的 common‑first 原則（在抽象之前偏好純粹的 `commonMain` 實作）、介面注入的替代方案（能更好處理大多數情況）、「actual everywhere」的反模式、針對平台型別的 `typealias actual`、`@ObjCName` 用於提供乾淨的 Swift API 表面，以及 Kotlin/Native 記憶體考量。零新增相依。

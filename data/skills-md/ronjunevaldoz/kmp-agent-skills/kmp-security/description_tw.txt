@@ -1,0 +1,1 @@
+Kotlin 多平台的移动应用程序安全性超越仅限 Android 的 R8 混淆 - 证书/SSL 固定（预期/实际，本机不存在跨平台 Ktor 支持）、通过 freeRASP 的真实 KMP 变体进行根/越狱/篡改检测、通过 KSafe 进行加密的本地存储、iOS/Kotlin-Native 版本二进制符号剥离，以及跨该集合的 OWASP Mobile Top 10 2024 覆盖图。不涵蓋 Android 特定的 R8/ProGuard 混淆 - 這是 kmp-proguard-r8 自己的範圍，此處交叉引用而不是重複。不涵蓋原始碼掃描中的秘密（gitleaks 預先提交）——這是 kmp-setup-hooks 選項 F。

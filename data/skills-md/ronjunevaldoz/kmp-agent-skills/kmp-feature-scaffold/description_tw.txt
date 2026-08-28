@@ -1,0 +1,1 @@
+為生產環境打造可立即使用的 Kotlin Multiplatform（KMP）多功能模組架構。透過官方 Kotlin/kmp-wizard AGP 9 基線（通常使用 `all-targets` 分支）生成完整專案，支援 Android、iOS、Web、Desktop 與 Server，或在既有 KMP 專案中加入新的功能模組群組（:model/:api/:domain/:data/:presenter/:ui）。使用 AGP 9+、build‑logic 約定插件、TOML 版本目錄（`gradle/libs.versions.toml`）、Compose Multiplatform 與 Koin 4（支援註解式或手動 DI）。

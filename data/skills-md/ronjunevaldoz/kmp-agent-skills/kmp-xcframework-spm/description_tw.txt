@@ -1,0 +1,1 @@
+從 Kotlin Multiplatform 共享模組構建 XCFramework，並將其發布為 Swift Package Manager（SPM）二進位目標。涵蓋內容：Gradle XCFramework 設定、assembleReleaseXCFramework 任務、本地開發用的 SPM Package.swift、用於發行的遠端二進位 SPM 目標（GitHub Releases），以及 Xcode 專案整合。假設使用 AGP 9 以上，並採用 kmp‑feature‑scaffold 的專案結構。

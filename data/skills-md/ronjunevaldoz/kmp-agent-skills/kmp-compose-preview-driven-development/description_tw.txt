@@ -1,0 +1,1 @@
+針對 KMP 的 Preview‑Driven Development（PDD）工作流程：首先編寫 Content 可組合項，於 Desktop JVM 預覽上反覆迭代（速度比 Android 快 3‑5 倍），使用 @PreviewParameterProvider 覆蓋所有狀態，然後直接將預覽升級為 Roborazzi 截圖測試。

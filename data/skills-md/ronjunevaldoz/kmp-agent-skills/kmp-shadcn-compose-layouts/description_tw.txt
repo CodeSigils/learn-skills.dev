@@ -1,0 +1,1 @@
+Composes shadcn-compose 的個別 Shadcn* 元件為完整頁面布局——登入/認證表單、通用資料輸入表單、資料表格畫面以及管理/儀表板外殼——使用直接對照函式庫實際原始碼驗證過的配方，而非僅依類比真實 shadcn/ui 的 React 區塊假設。也會審核現有畫面中未充分利用的 shadcn-compose 原語（自行實作的表單欄位取代 ShadcnField、自行實作的表格取代 ShadcnTable、缺少 ShadcnSidebar 的管理外殼），並提出具體遷移建議。此為 kmp-shadcn-compose 的配套工具，後者僅止於個別元件驗證，未涵蓋頁面層級的組合。

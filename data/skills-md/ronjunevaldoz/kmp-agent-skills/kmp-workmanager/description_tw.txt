@@ -1,0 +1,1 @@
+Kotlin 多平台的背景任務排程 — 透過 expect/actual BackgroundScheduler 包裝 Android 的 WorkManager 與 iOS 的 BGTaskScheduler／BGProcessingTask。涵蓋一次性工作、週期性工作、帶退避的重試、輸入／輸出資料，以及 Android 上的工作鏈接。iOS 使用 BGAppRefreshTask 處理短時間、頻繁的任務，使用 BGProcessingTask 處理長時間的網路或維護工作。請始終以使用者的語言回覆。

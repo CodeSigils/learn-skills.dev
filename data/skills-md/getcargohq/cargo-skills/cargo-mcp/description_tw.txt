@@ -1,0 +1,3 @@
+在 https://mcp.getcargo.io/mcp 上的托管 MCP 伺服器上驅動 Cargo —— 連接客戶端、探索並定價動作、對單筆記錄或批次執行、輪詢結果，並讀取工作區模型，無需安裝 CLI。也說明何時應呼叫 MCP 工具而非直接執行 `cargo-ai`。觸發詞包括：「connect Cargo to Claude Desktop」(將 Cargo 連接至 Claude Desktop)、「add Cargo to ChatGPT」(將 Cargo 加入 ChatGPT)、「Cargo MCP server」(Cargo MCP 伺服器)、「mcp.getcargo.io」(mcp.getcargo.io)、「use Cargo without installing anything」(在不安裝任何東西的情況下使用 Cargo)、「which Cargo tool do I call」(我應該呼叫哪個 Cargo 工具)、「search_actions」(搜尋動作)、「execute_action_batch」(執行動作批次)、「MCP server is showing the wrong workspace」(MCP 伺服器顯示了錯誤的工作區)。可用工具有：whoami、search_actions、get_action_schema、execute_action、execute_action_batch、get_run、query_models。跳過使用情境：當你已有 shell，且工作是工作流程、CDK 部署、資料倉儲 SQL 或郵件箱時——使用 CLI 功能；當在自己的工作區發布 MCP 伺服器或將其連接至 Cargo 代理時——使用 cargo‑ai。
+
+請始終以使用者的語言回覆。

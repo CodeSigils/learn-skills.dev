@@ -1,0 +1,1 @@
+建立一個公開的開發者指南網站（入門指南、教學、程式碼範例、API 參考），用於已發佈的 Kotlin Multiplatform 函式庫，部署於 GitHub Pages。涵蓋使用 MkDocs Material 撰寫的手寫指南內容、Dokka HTML 產生的自動化 API 參考、編譯器驗證的程式碼片段抽取技術，確保程式碼範例不會陳舊，以及 CI 部署工作流程。僅限函式庫——不適用於應用程式專案，因為它們沒有外部使用者需要撰寫開發者指南。與 kmp-library-publishing（負責 Maven Central 發佈流程）以及 kmp-project-docs-maintainer（負責內部、非公開的規劃文件）不同。

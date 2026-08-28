@@ -1,0 +1,1 @@
+執行 codependix 依賴圖匯出，於 `--check` 與 `--write` 之間做選擇，將執行指向工作區根目錄或設定檔，或是讀取它產生的 Mermaid 區塊或 JSON 圖。於執行 codependix 或 `npx codependix` 時使用，當執行結束回傳 0 且未寫入任何內容時使用，當尋找選擇圖類型的旗標時使用，將 codependix 接入 CI 步驟時使用，或是讀取匯出的 Nx Neighborhood、NestJS 模組圖或檔案層級匯入圖時使用。直接覆蓋命令列主機，且不假設任何任務執行器。

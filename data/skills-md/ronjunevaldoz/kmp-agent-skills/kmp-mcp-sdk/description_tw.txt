@@ -1,0 +1,1 @@
+使用官方的 modelcontextprotocol/kotlin-sdk（由 JetBrains 維護）的 Kotlin 多平台 Model Context Protocol（MCP）。涵蓋構建 MCP 伺服器，將工具／資源／提示暴露給 LLM 用戶端（Claude、Claude Code、MCP Inspector），構建 MCP 用戶端，使其從 Kotlin 應用連接到外部 MCP 伺服器，傳輸方式的選擇（STDIO、可串流 HTTP、SSE、WebSocket、測試用的 ChannelTransport），以及 Ktor 配置，因為 SDK 不會傳遞式地捆綁 Ktor 引擎。支援從 commonMain 編譯到 JVM、Native、JS 與 Wasm。

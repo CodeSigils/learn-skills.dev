@@ -1,0 +1,1 @@
+定義 KMP 功能模組的六層乾淨架構合約：:model / :api / :domain / :data / :presenter / :ui。涵蓋層級相依規則、:model 與 :api 的劃分、內部可見性強制、api()/implementation() Gradle 設定邊界（ABI/型別洩漏、消費者編譯夾具、Facade 範圍）、相依循環偵測，以及 Detekt 架構適配度函式，使違規導致建置失敗。

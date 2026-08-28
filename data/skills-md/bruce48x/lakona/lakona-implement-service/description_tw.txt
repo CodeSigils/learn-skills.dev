@@ -1,0 +1,1 @@
+從標示為 RpcService 的共用介面實作或更新 Server/Hotfix 中的 Lakona RPC 服務處理程序。在新增或完成服務、變更 RPC 方法、選擇正確產生的服務呼叫上下文、修復 Hotfix 服務綁定、驗證 RPC 到 Hotfix 連線或偵測服務依賴項（例如資料庫或 Redis 用戶端）必須由穩定的 Server.App ILakonaModule 擁有時使用。

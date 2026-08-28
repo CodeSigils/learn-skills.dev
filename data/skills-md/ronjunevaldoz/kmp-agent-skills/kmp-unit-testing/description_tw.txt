@@ -1,0 +1,1 @@
+KMP 的單元測試模式：使用 runTest + Turbine 進行 Flow 斷言、fake‑over‑mock 規則、:core:testing 共享 fixtures 模組，以及在不依賴 Android 的情況下，透過 :presenter 模組於純 JVM 上執行的 ViewModel 測試。

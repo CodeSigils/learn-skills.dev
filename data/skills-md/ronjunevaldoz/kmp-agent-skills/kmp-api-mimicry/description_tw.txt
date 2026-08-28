@@ -1,0 +1,1 @@
+在從頭構建 Kotlin Multiplatform 函式庫於不同執行時環境（自訂 Vulkan/Metal 渲染器、自訂 RPC 引擎、自訂持久化引擎）時，模仿眾所皆知的參考 API — Jetpack Compose、SwiftUI、Retrofit、Room 等 — 的公開 API 形態（DSL 入口點、可鏈式呼叫的 modifier 物件、slot lambda、標記註解、具範圍的建構器）。不包括消費或封裝真實的參考函式庫——那是正常的相依使用。也不包括構建真實的 Compose-compiler 風格插件；明確僅限於純函式 DSL 模仿，並說明因未撰寫此類插件而放棄的真實重組/跳過機制。

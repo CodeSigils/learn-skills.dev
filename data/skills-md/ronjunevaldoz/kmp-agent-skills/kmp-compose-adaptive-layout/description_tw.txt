@@ -1,0 +1,1 @@
+針對 Kotlin Multiplatform 的自適應 UI — 基於 WindowSizeClass 的版面配置，可正確回應 Compact（手機）、Medium（平板）與 Expanded（桌面）斷點。涵蓋列表‑詳情分割、自適應導航（底部列 → Rail → 抽屜）、單一來源的 WindowSizeClass 傳遞，以及每個斷點的 Roborazzi 測試。強制跨會話的模式一致性，確保專案中的每個畫面都使用相同的自適應策略。

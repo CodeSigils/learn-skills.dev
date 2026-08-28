@@ -1,0 +1,1 @@
+KMP Compose 多平台應用程式的桌面特定問題 - 視窗管理、系統匣、檔案選擇器、鍵盤快速鍵、本機選單列、拖放和打包。涵蓋了 Desktop 目標與 Android/iOS 的偏差：主執行緒上的同步檔案 I/O 在 Desktop 上是安全的，「LocalContext」不存在，且視窗狀態的管理方式必須與 Android Activity 狀態不同。

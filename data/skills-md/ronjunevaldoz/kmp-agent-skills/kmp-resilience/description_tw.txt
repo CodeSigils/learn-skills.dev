@@ -1,0 +1,1 @@
+Kotlin Multiplatform 的彈性模式——使用指數退避與抖動的重試、逾時、斷路器、速率限制、用於安全變更重試的冪等鍵，以及暫時性與致命錯誤的分類。涵蓋 Ktor 內建的 HttpRequestRetry（客戶端）與 RateLimit（伺服器）插件、kotlinx.coroutines 的 withTimeout，並說明為何 KMP 沒有跨平台的斷路器庫（Resilience4j 僅支援 JVM）——自行實作的狀態機是最誠實的預設。亦討論對多個平台特定實作（多個 actual，或多個可選後端）之彈性等價性的稽核——這是一個真實且有證據支撐的缺口：某一實作能處理可恢復失敗，而其兄弟實作卻無法，屬於等價性錯誤，而非平台差異。

@@ -1,0 +1,1 @@
+為 KMP 設置跨平台 DataStore，包含 Preferences（鍵值）與 Proto（具類型、依據 schema）兩種變體。涵蓋每個平台的 createDataStore {} expect/actual、基於 Flow 的讀取、協程寫入、從 SharedPreferences 的遷移，以及 Koin 注入，使功能模組永遠不直接構建 DataStore。

@@ -1,0 +1,3 @@
+讀取一個或多個 consumer KMP 專案中的 `docs/lessons/*.md` 檔案，並提出對 `kmp-agent-skills` 中來源技能的具體修改建議。當使用者希望將消費者回饋納入技能集合、當專案中累積了課程需要上游同步，或在執行技能治理審查時，使用此技能。產生結構化的修訂報告，並可選擇草擬實際的技能差異。當使用者說「harvest lessons」「upstream the lessons」「incorporate feedback」「update skills from consumer projects」或「skills review」時觸發。亦可在偵測到 `docs/lessons/` 目錄中有未處理的檔案時主動觸發。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,9 @@
+檢視 ECC（everything‑claude‑code）分發清單，包含兩種模式：
+(A) 現有清單精簡：分析 `distribution.yaml.enabled` 與第一方 `ai-dev-skills` 之間的重疊與品質，並輸出 `enabled_remove` 建議；
+(B) 新項目整合評估：根據 `ecc-catalog.yaml` 以及最近一次更新的範圍，介紹新加入的上游 ECC 技能，分析適用情境，並建議是否將其加入 `enabled`。
+
+使用情境：(1) 評估是否需要精簡 ECC 分發清單，(2) 決定是否採用新加入的上游 ECC 技能，(3) 想為最終使用者產生 `ecc-profile.yaml` 入門範本，(4) 每季或每半年進行例行審查。
+
+觸發詞：「Analyze ECC skill」「ECC overlap」「ECC list slimming」「ECC new item」「ECC upstream addition」「Whether to adopt」「ecc analyze」「ecc new items review」「ecc profile starter」「ECC quality review」。
+
+請始終以使用者的語言回覆。

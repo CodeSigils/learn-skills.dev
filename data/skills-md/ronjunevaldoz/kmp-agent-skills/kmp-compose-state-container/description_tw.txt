@@ -1,0 +1,1 @@
+在 Compose Multiplatform 中選擇正確的狀態容器：remember vs rememberSaveable vs ViewModel vs rememberCoroutineScope。涵蓋：哪些能在重新組合、配置變更與程式終止後仍然存活；各容器的適用時機；使用自訂 Saver 的 rememberSaveable 以支援複雜型別；ViewModel 的範圍與導覽返回堆疊條目；以及最常見的錯誤選擇（將 ViewModel 用於下拉選單狀態、使用 remember 保存必須在旋轉時仍保留的表單資料）。零額外依賴。

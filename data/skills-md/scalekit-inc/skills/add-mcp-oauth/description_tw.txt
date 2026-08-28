@@ -1,0 +1,1 @@
+新增 MCP OAuth，使代理能保護使用者的 MCP 伺服器。當使用者需要 MCP OAuth 或保護其 MCP 伺服器時使用。它不會新增 API 金鑰或客戶端憑證（那是 `add-api-auth`），也不會在 MCP 上暴露 AgentKit 工具（那是 `expose-agentkit-mcp`）。

@@ -1,0 +1,1 @@
+新增 API 金鑰或客戶端憑證驗證，使代理能保護 API。當使用者需要 API 金鑰或客戶端憑證時使用。它不會在 MCP 伺服器上加入 OAuth 2.1（那是 `add-mcp-oauth`）或編寫 SaaSKit 登入（那是 `implement-saaskit`）。

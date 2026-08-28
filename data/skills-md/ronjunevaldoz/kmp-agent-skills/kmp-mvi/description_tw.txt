@@ -1,0 +1,1 @@
+Kotlin Multiplatform + Compose Multiplatform 的 MVI（模型-視圖-意圖）架構模式。涵蓋：Contract 模式（每個螢幕的狀態/意圖/效果）、MviViewModel 基底類別以及用於狀態的 StateFlow 和用於一次性效果的 Channel、原子狀態更新、Compose 螢幕/內容分割、使用 Turbine 測試 ViewModel 以及 KMP 中最常見的 MVI 陷阱。零新依賴項－建構在功能支架中已經存在的 androidx.lifecycle.ViewModel 和 kotlinx.coroutines 之上。

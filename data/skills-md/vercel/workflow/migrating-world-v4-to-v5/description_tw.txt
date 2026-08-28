@@ -1,0 +1,1 @@
+將自訂 Workflow SDK World 實作從 v4 規格升級到 v5。當套件從“@workflow/world”實現“World”介面並移動到 5.x 時使用 - 事件 ID 是 ULID 而不是插槽位置，重播時“事件 ID 不是插槽編號”，運行時拒絕“specVersion”，“writeToStream”/“closeStream”/“readFromStream”作為頂級 Worldrun 方法，“steps.get”或“neventsIdlist” “step”隊列類型或“__wkf_step_*”主題、“preconditionGuard”功能或“createLocalWorld”/“createVercelWorld”工廠。

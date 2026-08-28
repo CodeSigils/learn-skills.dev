@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的 Repository 模式 —— 位於領域邏輯與儲存/網路之間的資料層。內容包括：:feature:x:api 中的 repository 介面、:feature:x:data 中的實作、透過 SQLDelight Flow 的單一真相來源、三種取得策略（network‑first、cache‑first、offline‑first）、在 repository 邊界將 NetworkResult 轉換為 domain、樂觀更新，以及常見的錯誤──將網路類型洩漏到 domain、忽略本地快取。需要 kmp‑network‑layer 和 kmp‑sqldelight‑setup。

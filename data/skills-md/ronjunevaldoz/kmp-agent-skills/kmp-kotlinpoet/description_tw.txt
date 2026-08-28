@@ -1,0 +1,1 @@
+建構自訂的 KSP（Kotlin Symbol Processing）註解處理器，以 KotlinPoet 產生 Kotlin 原始碼 — 包含 FileSpec、TypeSpec、FunSpec、PropertySpec 建構器、格式說明子、兩模組處理器結構、ServiceLoader 註冊，以及 kotlinpoet‑ksp 互通模組，用於將 KSP 的 KSType/KSClassDeclaration 轉換為 KotlinPoet 的 TypeName/ClassName。適用於專案希望透過註解在編譯期產生程式碼而非在執行期使用反射的情境。此說明不涵蓋使用已有的 KSP 處理器（如 Koin 的註解模式、Room 等）——那僅屬於普通的相依性使用；此技能是用來編寫全新處理器的。

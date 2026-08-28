@@ -1,0 +1,1 @@
+KMP 的完整 UI 層測試：可組合項上的語意測試標籤、在每個目標（JVM、Android 檢測、iOS 模擬器、Wasm）上運行的 commonTest 中的 Compose UI 交互測試（runComposeUiTest、onNodeWith、sperformClick、TagtIsDisplayed）以及在 JVM/Deddor 上捕獲視覺螢幕截圖測試。涵蓋從 testTag 約定到 CI 黃金影像差異的完整堆疊。替換用於 UI 回歸測試的 kmp-testing-robot。

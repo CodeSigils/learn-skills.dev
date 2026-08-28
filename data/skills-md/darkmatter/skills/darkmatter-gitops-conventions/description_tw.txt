@@ -1,0 +1,1 @@
+darkmatter/gitops 倉庫的安全變更手冊——提交前驗證（使用與 CI 完全相同參數的 kubeconform、yq、git diff --check）、SHA 鎖定的映像檔、KSOPS/SOPS 密鑰編輯規則、透過 revert 進行回滾，以及 ArgoCD 的同步機制。適用於對 darkmatter/gitops 的任何變更（manifest、Helm values、apps/*.yaml、祕密），無論是要更新映像標籤、接入祕密，或是回滾部署。當想要使用 kubectl apply/edit/patch 任何內容時，也請依此手冊行事——答案是否定的。

@@ -1,0 +1,1 @@
+Kotlin Multiplatform 的生物辨識驗證 — 在 commonMain 中使用 sealed 的 BiometricResult 類型，expect/actual BiometricAuthenticator，Android 透過帶有 CryptoObject 的 BiometricPrompt，iOS 使用 LocalAuthentication（LAContext.evaluatePolicy），Koin 注入，以及在無法使用生物辨識時優雅地回退至裝置 PIN/密碼。

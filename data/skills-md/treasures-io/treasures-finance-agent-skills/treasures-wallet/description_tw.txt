@@ -1,0 +1,1 @@
+透過 HTTP API 操作 Treasures 委派錢包：上線（配置錢包 + 鑄造受限 API 金鑰）、取得報價、執行買賣（非同步、伺服器簽名——代理程式絕不簽名）、讀取餘額/投資組合/交易歷史，並管理 API 金鑰。當代理程式需要在 Treasures 錢包上以 USDC 交易代幣化股票（xStocks / Ondo）、檢查 Treasures 錢包餘額或損益，或設定 Treasures 錢包存取權限時，即觸發。代理程式只需 HTTPS + API 金鑰——不需要 web3 函式庫、私鑰或 RPC。

@@ -1,0 +1,11 @@
+使用於 Twingate 身份防火牆（IDFW）與 Twingate Gateway——在協定層面執行 SSH、Kubernetes API 以及自託管／內部 Web 應用程式的身份驗證，而不僅僅是網路存取。
+
+在使用者想要授權、保護、單點登入或稽核自託管／內部 Web 應用程式時——將身份資訊轉發／注入至 HTTP 請求，並產生每筆請求的稽核紀錄。
+
+Gateway = 第七層反向代理，注入 ES256 JWT（Gateway Access Token）或受信任的標頭：JWKS 驗證、請求標頭注入、框架中介軟體（Express、Django、Next.js、Auth.js），以及免程式碼單點登入（Grafana、Jenkins）。
+
+涵蓋 Gateway 部署；使用短期憑證的 SSH 特權存取；供應商／承包商存取；憑證機構（X.509／SSH CA，本地或 Vault）；透過 Gateway 使用 kubectl；Terraform／Ansible 自動化；會話錄製（.cast 回放，掃描危險指令或外洩機密）。
+
+假設此技能用於「Twingate 能否將使用者身份傳遞給我的應用程式？」、「稽核誰使用了此應用」或「為我的內部工具提供單點登入」。
+
+請始終以使用者的語言回應。

@@ -1,0 +1,1 @@
+消除 KMP Compose 專案中的原始像素資源和手寫向量路徑。透過本地確定性工具鏈（量化 → 追蹤 → 標準化 → 程式碼產生）將光柵圖像 (PNG/JPG) 和 SVG 編譯為 Kotlin ImageVector 程式碼。禁止代理手動寫入路徑座標－所有向量產生都委託給scripts/convert_image_to_imagevector.py。當項目需要圖示、標誌或平面插圖作為 Compose 資源時，或用向量取代 PNG 圖示時，請使用。
