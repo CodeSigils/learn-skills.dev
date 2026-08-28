@@ -1,0 +1,1 @@
+为生产环境准备的 Kotlin Multiplatform（KMP）多特性模块架构搭建脚手架。通过从官方 Kotlin/kmp-wizard AGP 9 基线生成（通常使用 `all-targets` 分支），创建包括 Android、iOS、Web、Desktop 和 Server 的完整项目，或向已有 KMP 项目添加新的特性模块组（:model/:api/:domain/:data/:presenter/:ui）。使用 AGP 9+、build‑logic 约定插件、TOML 版本目录（`gradle/libs.versions.toml`）、Compose Multiplatform 和 Koin 4（注解式或手动 DI）。

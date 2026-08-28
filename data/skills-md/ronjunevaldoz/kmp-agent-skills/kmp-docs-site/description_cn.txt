@@ -1,0 +1,1 @@
+为已发布的 Kotlin 多平台库搭建公共开发者指南网站（入门、指南、代码示例、API 参考），部署到 GitHub Pages。涵盖使用 MkDocs Material 编写的手写指南内容、Dokka HTML 自动生成的 API 参考、通过编译器验证的代码片段提取技术以防代码示例过时，以及 CI 部署工作流。仅适用于库——不适用于应用项目，因为后者没有外部使用者需要编写开发者指南。区别于 kmp-library-publishing（负责 Maven Central 流水线）和 kmp-project-docs-maintainer（负责内部非公开的计划文档）。

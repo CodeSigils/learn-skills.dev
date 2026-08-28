@@ -1,4 +1,9 @@
-当用户说「获取逐字稿」「转录视频」「提取文稿」「帮我扒一下」「这个视频说了什么」「这个博主说了啥」，或直接给一个视频链接要求提取内容时，应使用本 skill。即使用户只是丢了一个视频链接没说要干嘛，只要上下文涉及对标分析或内容提取，也应主动触发。
-调用 video2text.py 获取原始逐字稿，AI 校对常见语音识别错误，识别作者后归档到对标博主目录。
-不应触发：分析爆款规律（用 li-analyzer）、记录自己的选题想法（用 li-recorder）、写自己的脚本（用 li-writer）。
-Use when the user wants to "get transcript", "transcribe video", "extract script", or gives a video link for content extraction. Runs speech-to-text, AI proofreads, and archives to benchmark blogger directory.
+When the user says “获取逐字稿” (get transcript), “转录视频” (transcribe video), “提取文稿” (extract script), “帮我扒一下” (help me pull it), “这个视频说了什么” (what does this video say), “这个博主说了啥” (what did this blogger say), or directly provides a video link requesting content extraction, this skill should be used. Even if the user only drops a video link without stating a request, as long as the context involves benchmark analysis or content extraction, it should be proactively triggered.
+
+Call video2text.py to obtain the raw transcript, AI proofreads common speech‑recognition errors, identifies the author, and archives to the benchmark‑blogger directory.
+
+Do not trigger for: analyzing viral patterns (use li‑analyzer), recording one’s own topic ideas (use li‑recorder), writing one’s own script (use li‑writer).
+
+Use when the user wants to “get transcript”, “transcribe video”, “extract script”, or gives a video link for content extraction. Runs speech‑to‑text, AI proofreads, and archives to the benchmark blogger directory.
+
+Please always respond in the user’s language.

@@ -1,0 +1,1 @@
+构建一个自定义 KSP（Kotlin 符号处理）注释处理器，该处理器使用 KotlinPoet 生成 Kotlin 源代码 — FileSpec/TypeSpec/FunSpec/ PropertySpec 构建器、格式说明符、两模块处理器结构、ServiceLoader 注册以及用于将 KSP 的 KSType/KSClassDeclaration 转换为 KotlinPoet 的 TypeName/ClassName 的 kotlinpoet-ksp 互操作模块。当项目需要从注释生成编译时代码而不是运行时反射时使用。不包括使用现有的 KSP 处理器（Koin 的注释模式、Room 等）——这是普通的依赖项使用；该技能用于编写新处理器。

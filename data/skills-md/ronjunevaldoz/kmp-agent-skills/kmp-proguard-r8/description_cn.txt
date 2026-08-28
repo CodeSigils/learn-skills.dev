@@ -1,0 +1,1 @@
+针对 KMP Android 构建的 ProGuard 与 R8 混淆——KMP 产物、Koin、Ktor、SQLDelight、kotlinx.serialization 与 Compose 的 keep 规则。覆盖内容：何时开启混淆压缩、如何编写不会破坏 KMP 共享代码的 keep 规则、验证 Release APK，以及 KMP 项目中最常见的收缩崩溃。

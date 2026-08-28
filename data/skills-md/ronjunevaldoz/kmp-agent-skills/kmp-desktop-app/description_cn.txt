@@ -1,0 +1,1 @@
+针对 KMP Compose Multiplatform 应用的桌面特定关注点——窗口管理、系统托盘、文件选择器、键盘快捷键、本机菜单栏、拖放以及打包。涵盖桌面目标相对于 Android/iOS 的差异：在桌面上在主线程进行同步文件 I/O 是安全的，`LocalContext` 不存在，且窗口状态的管理方式必须区别于 Android Activity 的状态管理。

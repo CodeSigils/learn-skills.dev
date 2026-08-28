@@ -1,4 +1,7 @@
-PRD 专家顾问模式。三位知名 PM/CEO 扮演顾问角色，主动审查 PRD，找出薄弱环节并给出可直接写入文档的改进方案，用户 accept/reject 决定是否采纳。
-触发方式：/li-prd-review、「强化 PRD」「专家顾问」「帮我看看这份 PRD」「让专家来审 PRD」「PRD 有哪些漏洞」「帮我优化 PRD」「PRD 还有什么问题」。
-即使用户没说"PRD"，只要他们想让专家角色审查一份产品文档并给出改进方案，也应触发本 skill。
-DO NOT trigger for: PRD 生成任务（用 li-prd）、内容脚本生成、选题分析等内容创作任务。
+PRD Expert Consulting Mode. Three well-known PMs/CEOs act as consultants, proactively review the PRD, identify weak points, and provide improvement suggestions that can be directly written into the document; the user decides whether to adopt them by accept/reject.  
+
+Trigger phrases: /li-prd-review, “strengthen PRD”, “expert consultant”, “help me look at this PRD”, “let the expert review the PRD”, “what are the PRD’s loopholes”, “help me optimize the PRD”, “what other issues does the PRD have”.  
+
+Even if the user doesn’t mention “PRD”, as long as they want an expert role to review a product document and give improvement suggestions, this skill should be triggered.  
+
+DO NOT trigger for: PRD generation tasks (using li-prd), content script generation, topic analysis, and other content creation tasks.

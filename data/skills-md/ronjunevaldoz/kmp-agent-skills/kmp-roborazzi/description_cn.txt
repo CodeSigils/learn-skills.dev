@@ -1,0 +1,1 @@
+为 KMP 完成 UI 层测试：在 composable 上使用语义化测试标签，在 commonTest 中进行 Compose UI 交互测试（runComposeUiTest、onNodeWithTag、performClick、assertIsDisplayed），这些测试可在所有目标平台运行——JVM、Android 仪器测试、iOS 模拟器、Wasm——以及使用 Roborazzi 的截图测试，在 JVM/Desktop 上捕获 @Preview composable，以进行视觉回归检测。涵盖从 testTag 约定到 CI 金色图像差异的完整链路。替代 kmp-testing-robot 进行 UI 回归测试。

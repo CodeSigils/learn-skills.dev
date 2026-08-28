@@ -1,0 +1,1 @@
+将 shadcn-compose 的各个 Shadcn* 组件组合成完整页面布局——登录/认证表单、通用数据录入表单、数据表格页面以及管理员/仪表盘外壳——使用直接对库的真实源码进行验证的配方，而不是通过类比真实 shadcn/ui 的 React 块来假设。并审查现有页面中未充分利用的 shadcn-compose 基元（手写表单字段而非 ShadcnField，手写表格而非 ShadcnTable，缺少 ShadcnSidebar 的管理员外壳），并提出具体的迁移方案。该项目是 kmp-shadcn-compose 的伴随工具，后者仅止步于单组件验证，未涉及页面级组合。

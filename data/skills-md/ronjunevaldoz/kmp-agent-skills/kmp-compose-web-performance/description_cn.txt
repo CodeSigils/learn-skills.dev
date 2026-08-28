@@ -1,0 +1,1 @@
+针对 Compose Multiplatform Web（wasmJs）目标的实时浏览器性能分析，使用官方 Chrome DevTools MCP 服务器（github.com/ChromeDevTools/chrome-devtools-mcp）——包括性能跟踪、Lighthouse 审核、网络瀑布图，以及针对 Skiko 基于画布渲染的 Wasm 包大小感知。此分析不涵盖 Kotlin 函数的微基准测试（见 kmp-benchmark）——它是对运行中应用的实时浏览器 profiling，而非对单独函数的计时。

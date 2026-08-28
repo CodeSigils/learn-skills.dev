@@ -1,0 +1,1 @@
+在不同运行时（自定义 Vulkan/Metal 渲染器、自定义 RPC 引擎、自定义持久化引擎）上从零构建 Kotlin 多平台库时，模仿知名参考 API 的公开 API *形状*（DSL 入口点、可链式调用的修饰对象、槽 lambda、标记注解、作用域构建器）——如 Jetpack Compose、SwiftUI、Retrofit、Room 等。**不**涉及消费或包装真实的参考库——那属于普通依赖使用。**不**涉及构建真正的 Compose‑compiler 风格插件；明确仅限于普通函数 DSL 的模仿，并说明因未编写插件而放弃的真实 recomposition/skip 机制。

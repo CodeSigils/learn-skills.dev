@@ -1,0 +1,1 @@
+面向 Kotlin Multiplatform 应用的离线优先架构——本地优先读取、后台同步、乐观更新、冲突解决以及同步状态跟踪。涵盖：通过 SQLDelight 实现单一真实来源、使用 WorkManager/BGTaskScheduler 的 SyncManager 模式、带回滚的乐观变更，以及通过 MVI 向 UI 暴露的 SyncState 密封类。不包括 FCM 触发的同步（见 push-notifications）或 RPC 流式传输（见 kotlin-rpc）。

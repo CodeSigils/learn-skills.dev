@@ -1,0 +1,1 @@
+在 Compose Multiplatform 中选择正确的状态容器：remember 与 rememberSaveable、ViewModel、rememberCoroutineScope。内容包括：哪些状态在重组、配置更改和进程死亡后仍能保留；每种容器的适用场景；使用自定义 Saver 的 rememberSaveable 处理复杂类型；ViewModel 在导航返回栈条目上的作用域；以及最常见的错误选择（把 ViewModel 用于下拉框状态，把 remember 用于必须在旋转时保留的表单数据）。零新增依赖。

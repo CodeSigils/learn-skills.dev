@@ -1,0 +1,1 @@
+darkmatter/gitops 存储库的安全更改手册 — 提交前验证（具有 CI 相同标志的 kubeconform、yq、git diff --check）、sha 固定图像、KSOPS/SOPS 秘密编辑规则、通过恢复回滚以及 ArgoCD 如何协调。当被要求碰撞图像标签、连接秘密或回滚部署时，用于对 darkmatter/gitops（清单、Helm 值、apps/*.yaml、秘密）的任何更改。当想要 kubectl 应用/编辑/修补任何内容时也可以使用 - 答案是否定的。

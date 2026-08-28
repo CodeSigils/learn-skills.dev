@@ -1,0 +1,1 @@
+从标有 RpcService 的共享接口实现或更新 Server/Hotfix 中的 Lakona RPC 服务处理程序。在添加或完成服务、更改 RPC 方法、选择正确生成的服务调用上下文、修复 Hotfix 服务绑定、验证 RPC 到 Hotfix 连接或检测服务依赖项（例如数据库或 Redis 客户端）必须由稳定的 Server.App ILakonaModule 拥有时使用。

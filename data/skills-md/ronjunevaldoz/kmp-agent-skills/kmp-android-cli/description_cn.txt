@@ -1,0 +1,3 @@
+KMP特定集成指南，针对谷歌官方的 `android` CLI。CLI本身的命令参考已经作为真正的、官方维护的 skill 存在于 github.com/android/skills/tree/main/devtools/android-cli（可通过 `android skills add android-cli` 安装）——该 skill 并未重新文档化该表面。它覆盖了 Kotlin Multiplatform 项目特有的内容：在多模块六层图中定位 Android 目标，为什么在运行 `kmp-feature-scaffold` 后 `android create` 不再适用，以及在已有的 Android/iOS/Desktop/Web 矩阵旁进行 CI 接线。
+
+请始终使用用户的语言回复。

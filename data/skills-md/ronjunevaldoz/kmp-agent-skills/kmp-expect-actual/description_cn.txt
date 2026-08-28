@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的 expect/actual 机制——何时使用、何时不使用以及如何正确使用。涵盖：真正需要 expect/actual 的四大类（平台 API、平台类型、性能关键代码、SDK 集成），在抽象之前优先采用纯 `commonMain` 实现的 common‑first 规则，能够更好处理大多数情况的接口注入方案，“actual everywhere” 反模式，平台类型的 typealias actual，使用 @ObjCName 打造简洁的 Swift API 表面，以及 Kotlin/Native 内存注意事项。零新增依赖。

@@ -1,0 +1,1 @@
+为 Kotlin 多平台性能测量设置 kotlinx-benchmark。涵盖：Gradle 插件 + allopen 配置、独立的基准测试源码集（永不混入 commonMain/commonTest）、@State/@Benchmark/@Setup/@TearDown 约定、按目标注册（JVM/Native/JS/Wasm）、运行基准测试以及读取 JSON/CSV 输出。每当性能声明需要一个真实数值而不是猜测时都使用它——这是 kmp-expert 性能决策树在请求未命名或需要具体目标以便进一步路由时指向的“先分析”（profile first）步骤。

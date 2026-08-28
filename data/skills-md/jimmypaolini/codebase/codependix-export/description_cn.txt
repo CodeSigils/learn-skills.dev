@@ -1,0 +1,1 @@
+运行 codependix 依赖图导出，在 --check 和 --write 之间选择，将运行指向工作区根目录或配置文件，或读取它生成的 Mermaid 块或 JSON 图。适用于以下情况：运行 codependix 或 npx codependix 时、运行退出码为 0 且未写入任何内容时、查找用于选择图类型的标志时、将 codependix 接入 CI 步骤时，或读取导出的 Nx Neighborhood、NestJS 模块图或文件级导入图时。直接覆盖命令行宿主，无需假设任何任务运行器。

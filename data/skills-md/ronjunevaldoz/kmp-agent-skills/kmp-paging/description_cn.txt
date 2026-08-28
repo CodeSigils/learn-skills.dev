@@ -1,0 +1,1 @@
+Kotlin 多平台中的 Paging 3 —— 用于基于游标和基于偏移量的列表加载的 PagingSource、Pager、PagingData 和 collectAsLazyPagingItems。覆盖层级划分（PagingSource 位于 :data，Pager 位于 :presenter，LazyPagingItems 位于 :ui），加载状态处理，使用 RemoteMediator 实现网络 + 数据库，Koin 注入，以及对 PagingSource 的独立单元测试。保持 PagingData 不进入 UiState。

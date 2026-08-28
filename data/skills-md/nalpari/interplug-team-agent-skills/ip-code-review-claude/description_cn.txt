@@ -1,0 +1,1 @@
+我们仅使用 Claude（不订阅 Codex）对 PR 进行对抗性审查。收到 PR 编号和分支并检出后，三个 Opus 5 子代理从不同视角进行对抗性代码审查，随后主 Opus 5 从结果中筛选出只能阻止合并的问题，整理成带有解决方案的表格，并将其作为 PR 评论发布。该流程在请求合并前的 PR 验证时使用，例如使用 “Review the PR”“Review with Claude”“Review without Codex”“Check if it can be merged”“Adversarial code review”“Post the review results as a comment”等语句。

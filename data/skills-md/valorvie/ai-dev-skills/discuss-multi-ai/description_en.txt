@@ -1,3 +1,3 @@
-多 AI 交叉審議工作流。在不同 AI 工具（Claude、Codex、Gemini 等）之間進行程式碼變更的交叉審查。
-使用時機：使用者呼叫 /discuss-multi-ai、提到要讓其他 AI 審查變更、或貼入包含 commit hash 的審議請求。
-即使使用者只是說「幫我產出給另一個 AI 的審議文字」或「把這個變更交給其他 AI 看」，也應觸發此技能。
+Multi‑AI cross‑review workflow. Performs cross‑review of code changes among different AI tools (e.g., Claude, Codex, Gemini, etc.).  
+When to use: when a user invokes /discuss-multi-ai, mentions wanting another AI to review the changes, or pastes a review request that includes a commit hash.  
+Even if the user simply says “Generate review text for another AI” or “Pass this change to another AI for review,” this capability should be triggered.

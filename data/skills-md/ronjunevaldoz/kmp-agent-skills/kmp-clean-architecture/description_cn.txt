@@ -1,0 +1,1 @@
+定义了 KMP 功能模块的 6 层清洁架构约定：:model / :api / :domain / :data / :presenter / :ui。涵盖层级依赖规则、:model 与 :api 的划分、内部可见性强制、api()/implementation() Gradle 配置边界（ABI/类型泄漏、消费者编译夹具、Facade 范围）、依赖循环检测，以及 Detekt 架构适配函数，使违规导致构建失败。

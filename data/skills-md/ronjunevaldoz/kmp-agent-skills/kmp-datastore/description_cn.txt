@@ -1,0 +1,1 @@
+为 KMP 设置多平台数据存储：首选项（键值）和 Proto（类型化、架构驱动）变体。涵盖每个平台的 createDataStore {}expect/actual、基于流的读取、协程写入、从 SharedPreferences 迁移以及 Koin 连接，因此功能模块从不直接构造 DataStore。

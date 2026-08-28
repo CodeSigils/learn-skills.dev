@@ -1,0 +1,1 @@
+Kotlin Multiplatform 中的仓库模式 — 位于领域逻辑与存储/网络之间的数据层。涵盖：在 :feature:x:api 中的仓库接口，:feature:x:data 中的实现，通过 SQLDelight Flow 实现单一真实来源，三种获取策略（network‑first、cache‑first、offline‑first），在仓库边界进行 NetworkResult 到领域模型的映射，乐观更新，以及常见的错误——将网络类型泄漏到领域层以及跳过本地缓存。需要 kmp‑network‑layer 和 kmp‑sqldelight‑setup。

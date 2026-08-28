@@ -1,0 +1,1 @@
+通用的 Kotlin 协程和 Flow 模式用于 Kotlin 多平台 — 结构化并发与作用域层级、并行分解、cold Flow 与 StateFlow 与 SharedFlow 的选择、异常透明性（catch 操作符 与在收集器周围的 try/catch 的区别）、可安全取消的清理，以及使用 runTest 和 Turbine 进行协程/Flow 测试。此内容不涉及屏幕层级的状态/副作用 wiring（参见 kmp-mvi）或仓库 Flow 暴露约定（参见 kmp-repository-pattern）——它是两者构建的共享基础。

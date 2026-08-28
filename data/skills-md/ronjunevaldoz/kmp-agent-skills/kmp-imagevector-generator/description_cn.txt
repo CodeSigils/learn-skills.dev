@@ -1,0 +1,1 @@
+消除 KMP Compose 项目中的原始像素资源和手写矢量路径。通过本地确定性工具链（量化 → 跟踪 → 标准化 → 代码生成）将光栅图像 (PNG/JPG) 和 SVG 编译为 Kotlin ImageVector 代码。禁止代理手动写入路径坐标——所有矢量生成都委托给scripts/convert_image_to_imagevector.py。当项目需要图标、徽标或平面插图作为 Compose 资源时，或者用矢量替换 PNG 图标时，请使用。

@@ -1,0 +1,1 @@
+完整的工作流，用于将现有前端应用迁移到 SGDS 网页组件。当用户想要将其他 UI 库（如 MUI、Chakra UI、shadcn/ui、Ant Design、Vuetify、Angular Material、Bootstrap 等）迁移到 SGDS，或询问如何在已有项目中开始使用 SGDS 时使用此技能。覆盖四个阶段：（1）扫描当前前端技术栈；（2）安装并配置 SGDS，包括字体、基础 CSS 和实用工具；（3）迁移测试（路径 A：Vitest + Playwright，或路径 B：补丁现有的 Jest/RTL）；（4）用 SGDS v3 实用工具替换旧的样式系统，并附加迁移后验证检查清单。完全支持 React。请始终使用用户的语言回复。

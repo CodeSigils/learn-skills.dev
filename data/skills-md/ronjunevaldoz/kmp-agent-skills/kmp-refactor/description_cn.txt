@@ -1,0 +1,1 @@
+决定重命名/移动/复制/删除是否可以安全地作为文本扫描（markdown、配置、脚本、技能目录）进行，或者必须委托给真正的符号感知工具（Android Studio / IntelliJ Refactor，用于 Kotlin 源代码）。涵盖经过验证的文本重命名过程（git mv、frontmatter/header 修复、批量正则表达式扫描、残留检查、完整测试+门运行）以及针对此集合的 6 层干净架构合约的模块移动清单。不实现 AST 级别的 Kotlin 重命名引擎——这就是 IDE 重构工具的用途。
