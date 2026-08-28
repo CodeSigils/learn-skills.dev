@@ -1,0 +1,1 @@
+Kotlin Multiplatform 성능 측정을 위해 kotlinx‑benchmark를 설정합니다. Gradle 플러그인 + allopen 구성, 공통 main/commonTest와 절대 섞지 않는 별도 벤치마크 소스 세트, @State/@Benchmark/@Setup/@TearDown 규칙, 타깃별 등록(JVM/Native/JS/Wasm), 벤치마크 실행 및 JSON/CSV 출력 읽기를 포함합니다. 성능 주장에 추측이 아닌 실제 수치가 필요할 때마다 이 방법을 사용하십시오 — 요청이 이름이 없거나 구체적인 타깃이 필요할 경우 kmp‑expert 성능 의사결정 트리가 라우팅하기 전에 “먼저 프로파일링” 단계로 이동합니다.

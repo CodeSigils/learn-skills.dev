@@ -1,0 +1,1 @@
+엔드투엔드 KMP 라이브러리 및 앱 출시 파이프라인. 버전 관리 전략(진실 소스인 gradle.properties), vanniktech 플러그인을 통한 Maven Central 게시, GPG 서명, Sonatype Central Portal, git-cliff 및 기존 커밋을 사용한 변경 로그 생성, GitHub 릴리스 생성, 비밀 관리 패턴 및 앱 대상의 경우 단일 semver 소스에서 플랫폼 기반 버전 필드(Android versionCode, iOS CFBundleVersion) 파생을 다룹니다. 워크플로 YAML을 소유하는 CI 기술 및 SPM 바이너리 배포를 소유하는 xcframework-spm 기술과 다릅니다.

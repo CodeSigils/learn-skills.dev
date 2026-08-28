@@ -1,0 +1,9 @@
+ECC (everything‑claude‑code) 배포 목록을 검토합니다. 이 목록은 두 가지 모드를 포함합니다:
+(A) 기존 목록 정리: distribution.yaml.enabled와 1차 제공 ai-dev-skills 간의 중복 및 품질을 분석하고 enabled_remove에 대한 제안을 출력합니다;
+(B) 신규 항목 채택 평가: ecc‑catalog.yaml과 이전 업데이트 범위를 기준으로 새로 추가된 상위 ECC 스킬을 소개하고 적용 가능한 시나리오를 분석하여 enabled에 추가할지 여부를 권고합니다.
+
+사용 경우: (1) ECC 배포 목록을 정리할지 평가할 때, (2) 상위 ECC에서 새로운 스킬이 추가된 후 채택 여부를 결정할 때, (3) 최종 사용자를 위한 ecc‑profile.yaml 스타터를 생성하고 싶을 때, (4) 분기별 또는 반기별 정기 검토를 수행할 때.
+
+트리거: “Analyze ECC skill”, “ECC overlap”, “ECC list pruning”, “ECC new items”, “ECC upstream addition”, “whether to adopt”, “ecc analyze”, “ecc new items review”, “ecc profile starter”, “ECC quality review”.
+
+항상 사용자의 언어로 응답하십시오.

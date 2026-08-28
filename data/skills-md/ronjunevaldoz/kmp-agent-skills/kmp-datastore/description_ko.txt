@@ -1,0 +1,1 @@
+KMP용 멀티플랫폼 DataStore를 설정합니다: Preferences(키‑값)와 Proto(타입 지정, 스키마 기반) 변형을 포함합니다. 플랫폼별 createDataStore {} expect/actual, Flow 기반 읽기, 코루틴 쓰기, SharedPreferences에서의 마이그레이션, 그리고 기능 모듈이 직접 DataStore를 생성하지 않도록 Koin 연동을 다룹니다.

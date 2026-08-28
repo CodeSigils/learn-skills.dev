@@ -1,0 +1,9 @@
+사용자가 “get transcript”, “transcribe video”, “extract script”, “help me pull it out”, “what does this video say”, “what does this blogger say”라고 말하거나, 직접 영상 링크를 제공해 콘텐츠 추출을 요청할 경우, 이 기능을 사용해야 합니다.  
+사용자가 목적을 명시하지 않고 영상 링크만 제공하더라도, 컨텍스트가 벤치마크 분석이나 콘텐츠 추출과 관련되어 있으면 적극적으로 트리거되어야 합니다.  
+video2text.py를 호출하여 원문 그대로의 원시 전사본을 얻고, AI가 일반적인 음성인식 오류를 교정하도록 하며, 작성자를 식별하고 벤치마크 블로거 디렉터리에 보관합니다.  
+다음 경우에는 이 기능을 트리거하지 마십시오: 바이럴 패턴 분석 (li-analyzer 사용), 자신의 주제 아이디어 기록 (li-recorder 사용), 자신의 스크립트 작성 (li-writer 사용).  
+
+사용자가 “get transcript”, “transcribe video”, “extract script” 등을 원하거나 콘텐츠 추출을 위한 영상 링크를 제공할 때 사용합니다. 음성‑텍스트 변환을 수행하고, AI가 교정한 뒤 벤치마크 블로거 디렉터리에 보관합니다.  
+
+항상 사용자의 언어로 응답하십시오.  
+항상 사용자의 언어로 응답하십시오.

@@ -1,0 +1,1 @@
+KMP Compose 프로젝트에서 원시 픽셀 에셋과 손으로 작성한 벡터 경로를 제거합니다. 래스터 이미지(PNG/JPG)와 SVG를 로컬의 결정론적 툴체인(quantize → trace → normalize → codegen)을 통해 Kotlin ImageVector 코드로 컴파일합니다. 에이전트는 경로 좌표를 직접 작성하는 것이 금지되며, 모든 벡터 생성은 scripts/convert_image_to_imagevector.py 스크립트에 위임됩니다. 아이콘, 로고, 혹은 평면 일러스트를 Compose 에셋으로 사용하거나 PNG 아이콘을 벡터로 교체해야 할 때 언제든지 사용하십시오.

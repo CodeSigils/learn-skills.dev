@@ -1,0 +1,1 @@
+Kotlin Multiplatform 앱을 위한 크래시 리포팅 — Android/iOS에서는 Firebase Crashlytics, 크로스‑플랫폼 대안으로 Sentry, 커스텀 비치명적 이벤트 기록 및 브레드크럼 로깅. 포함 내용: 로거 브레드크럼 브리지, Kotlin/Native dSYM의 심볼화 설정, 그리고 플랫폼 SDK에 의존하지 않도록 commonMain을 비우는 CrashReporter expect/actual 인터페이스. 일반 구조화 로깅(로그 스킬 참조)이나 앱 분석/이벤트(분석 스킬 참조)는 포함되지 않음.

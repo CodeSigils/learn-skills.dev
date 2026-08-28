@@ -1,0 +1,1 @@
+Compose Multiplatform에서 올바른 상태 컨테이너 선택하기: remember vs rememberSaveable vs ViewModel vs rememberCoroutineScope. 다루는 내용: 재구성, 구성 변경, 프로세스 종료 후 무엇이 유지되는가; 각 컨테이너가 적용되는 경우; 복잡한 타입을 위한 커스텀 Saver와 함께 사용하는 rememberSaveable; 네비게이션 백스택 엔트리마다 스코프되는 ViewModel; 그리고 가장 흔히 저지르는 실수(드롭다운 상태에 ViewModel 사용, 회전 시에도 살아야 할 폼 데이터에 remember 사용). 새로운 의존성은 전혀 필요 없음.

@@ -1,0 +1,1 @@
+Kotlin 멀티플랫폼을 위한 범용 Kotlin 코루틴 및 Flow 패턴 — 구조적 동시성 및 스코프 계층, 병렬 분해, cold Flow와 StateFlow, SharedFlow 선택, 예외 투명성(collector 주변의 catch 연산자 vs try/catch), 취소 안전 정리, 그리고 runTest와 Turbine을 이용한 코루틴/Flow 테스트. 화면 수준의 상태/효과 연결(kmp-mvi 참고)이나 저장소 Flow 노출 규칙(kmp-repository-pattern 참고)은 다루지 않으며, 이는 두 분야가 기반으로 삼는 공유 기반입니다.

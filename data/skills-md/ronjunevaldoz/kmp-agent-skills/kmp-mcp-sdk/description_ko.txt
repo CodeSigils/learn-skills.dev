@@ -1,0 +1,3 @@
+Kotlin Multiplatform용 Model Context Protocol (MCP)을 공식 modelcontextprotocol/kotlin-sdk(JetBrains와 함께 유지 관리)로 사용합니다. LLM 클라이언트(Claude, Claude Code, MCP Inspector)에 도구/리소스/프롬프트를 노출하는 MCP 서버 구축, Kotlin 앱에서 외부 MCP 서버에 연결하는 MCP 클라이언트 구축, 전송 방식 선택(STDIO, Streamable HTTP, SSE, WebSocket, 테스트용 ChannelTransport) 및 SDK가 Ktor 엔진을 전이적으로 번들링하지 않으므로 Ktor 설정을 포함합니다. 공통 메인(commonMain)에서 JVM, Native, JS, Wasm을 타겟팅합니다.
+
+항상 사용자의 언어로 응답하십시오.

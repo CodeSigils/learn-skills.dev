@@ -1,0 +1,1 @@
+Kotlin Multiplatform에서의 리포지터리 패턴 — 도메인 로직과 스토리지·네트워크 사이의 데이터 계층. 포함 내용: :feature:x:api에 있는 리포지터리 인터페이스, :feature:x:data에 구현, SQLDelight Flow를 통한 단일 진실 소스, 세 가지 페치 전략(네트워크 우선, 캐시 우선, 오프라인 우선), 리포지터리 경계에서의 NetworkResult‑to‑domain 매핑, 옵티미스틱 업데이트, 그리고 네트워크 타입을 도메인에 누출하거나 로컬 캐시를 건너뛰는 흔한 실수들. kmp-network-layer와 kmp-sqldelight-setup이 필요합니다. 항상 사용자의 언어로 응답해 주세요.

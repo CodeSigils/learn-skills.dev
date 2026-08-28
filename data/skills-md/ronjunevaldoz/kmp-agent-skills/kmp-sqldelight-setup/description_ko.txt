@@ -1,0 +1,1 @@
+Kotlin 멀티플랫폼 프로젝트에 SQLDelight 2를 설정합니다. 포함 내용: Gradle 플러그인 설정, 스키마(.sq) 파일, 마이그레이션, 타입 어댑터, expect/actual을 통한 플랫폼별 드라이버(Android, iOS, Desktop/JVM, Web/JS), 코루틴 Flow 쿼리, 그리고 :core:database 내부의 Koin 연결. 프로젝트가 kmp-feature-scaffold로 스캐폴딩되었다고 가정합니다.

@@ -1,0 +1,1 @@
+Kotlin Multiplatform 앱을 위한 오프라인‑우선 아키텍처 — 로컬‑우선 읽기, 백그라운드 동기화, 낙관적 업데이트, 충돌 해결, 그리고 동기화 상태 추적. 포함 내용: SQLDelight를 통한 단일 진실 소스, WorkManager/BGTaskScheduler를 활용한 SyncManager 패턴, 롤백이 가능한 낙관적 변이, MVI를 통해 UI에 노출되는 SyncState sealed 클래스. FCM 트리거 동기화(푸시 알림 참고)나 RPC 스트리밍(kotlin‑rpc 참고)은 포함되지 않음.

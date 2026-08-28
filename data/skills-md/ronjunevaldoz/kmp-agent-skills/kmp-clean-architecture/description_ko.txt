@@ -1,0 +1,1 @@
+KMP 기능 모듈을 위한 6계층 클린 아키텍처 계약을 정의합니다: :model / :api / :domain / :data / :presenter / :ui. 계층 의존성 규칙, :model과 :api 구분, 내부 가시성 강제, api()/implementation() Gradle 구성 경계(ABI·타입 누수, 소비자 컴파일 고정물, 파사드 스코프), 의존성 순환 감지, 그리고 위반 시 빌드가 실패하도록 하는 Detekt 아키텍처 적합성 함수를 포함합니다.

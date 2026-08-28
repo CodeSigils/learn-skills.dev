@@ -1,0 +1,1 @@
+AgentKit 도구를 MCP를 통해 노출하여 클라이언트가 사용자별 인스턴스 URL에서 호출할 수 있도록 합니다. 사용자가 AgentKit을 MCP를 통해 노출하고, 사용자별 MCP URL을 생성하거나 MCP를 통해 LangChain을 연결하려는 경우에 사용합니다. 이는 커넥터를 나열하지(`discover-connectors`) 않으며, 앱 코드에서 연결된 계정 및 토큰을 생성하지도(`integrate-agentkit`) 않습니다.

@@ -1,0 +1,1 @@
+KMP용 전체 UI 레이어 테스트: 컴포저블에 대한 의미론적 테스트 태그, commonTest에서 실행되는 Compose UI 인터랙션 테스트(runComposeUiTest, onNodeWithTag, performClick, assertIsDisplayed) — JVM, Android 인스트루멘테이션, iOS 시뮬레이터, Wasm 등 모든 타깃에서 동작 — 그리고 Roborazzi 스크린샷 테스트는 JVM/데스크톱에서 @Preview 컴포저블을 캡처하여 시각적 회귀를 감지합니다. 테스트 태그 규칙부터 CI 골든 이미지 차이까지 전체 스택을 포괄합니다. UI 회귀 테스트에 사용하던 kmp-testing-robot을 대체합니다.

@@ -1,0 +1,3 @@
+docs/lessons/*.md 파일을 하나 이상의 consumer KMP 프로젝트에서 읽어 kmp-agent-skills에 있는 소스 스킬에 대한 구체적인 수정안을 제안합니다. 사용자는 스킬 컬렉션에 소비자 피드백을 반영하고 싶을 때, 프로젝트에 레슨이 누적되어 상류로 올려야 할 때, 혹은 스킬 거버넌스 검토를 진행할 때 이 스킬을 사용합니다. 구조화된 수정 보고서를 생성하며 필요에 따라 실제 스킬 차이(diff)를 초안으로 작성합니다. 사용자가 “harvest lessons”, “upstream the lessons”, “incorporate feedback”, “update skills from consumer projects”, 또는 “skills review” 라고 말하면 트리거됩니다. 또한 처리되지 않은 파일이 있는 docs/lessons/ 디렉터리를 발견하면 사전에 트리거합니다.
+
+항상 사용자의 언어로 응답하십시오.
