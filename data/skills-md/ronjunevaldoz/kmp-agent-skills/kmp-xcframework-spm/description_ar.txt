@@ -1,0 +1,1 @@
+ينشئ XCFramework من وحدة Kotlin Multiplatform المشتركة وينشرها كهدف ثنائي لمدير الحزم Swift (SPM). يغطي: تكوين Gradle XCFramework، ومهمة assembleReleaseXCFramework، وSPM Package.swift المحلي للتطوير، وهدف SPM الثنائي البعيد للتوزيع (إصدارات GitHub)، وتكامل مشروع Xcode. يفترض AGP 9+ وهيكل المشروع من kmp-feature-scaffold.

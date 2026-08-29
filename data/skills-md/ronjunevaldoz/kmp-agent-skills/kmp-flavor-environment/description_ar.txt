@@ -1,0 +1,1 @@
+يقوم بإعداد تكوين متعدد البيئات (dev/staging/prod) في مشروع Kotlin Multiplatform باستخدام BuildKonfig. يغطي: قيم BuildKonfig الخاصة بكل بيئة، نكهات Android المرتبطة بـ BuildKonfig، كائن AppConfig المشترك في commonMain، إدارة الأسرار، وتبديل البيئات عند وقت البناء. تفترض أن المشروع تم إنشاؤه باستخدام kmp-feature-scaffold.

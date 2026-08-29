@@ -1,0 +1,1 @@
+يقوم بإعداد Multiplatform DataStore لـ KMP: إصدارات Preferences (مفتاح‑قيمة) وProto (مُصنّفة، مدفوعة بالمخطط). يغطي ‎createDataStore{}‎ expect/actual لكل منصة، قراءات تعتمد على Flow، عمليات كتابة باستخدام coroutine، ترحيل من SharedPreferences، وتوصيل Koin بحيث لا تقوم وحدات الميزة بإنشاء DataStore مباشرة.

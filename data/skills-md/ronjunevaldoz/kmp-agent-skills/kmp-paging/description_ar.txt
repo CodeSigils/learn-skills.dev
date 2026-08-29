@@ -1,0 +1,1 @@
+الترحيل 3 في Kotlin Multiplatform — PagingSource، وPager، وPagingData، وcollectAsLazyPagingItems لتحميل القائمة المستندة إلى المؤشر والإزاحة. يغطي وضع الطبقة (PagingSource في:data، Pager في:presenter، LazyPagingItems في:ui)، ومعالجة حالة التحميل، وRemoteMediator للشبكة+DB، وأسلاك Koin، واختبار PagingSource بشكل منفصل. يبقي PagingData خارج UiState.
