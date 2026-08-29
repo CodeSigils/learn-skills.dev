@@ -1,0 +1,1 @@
+當 Hetzner 節點無法存取、SSH 失敗、cloud-init 似乎損壞或配置掛起時使用。透過 hcloud CLI 啟動到救援模式，以檢查檔案系統、日誌、SSH 金鑰、sshd 設定和 cloud-init 狀態，而無需透過 SSH 存取節點本身。

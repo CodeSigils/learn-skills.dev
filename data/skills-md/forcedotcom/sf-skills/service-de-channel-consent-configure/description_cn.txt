@@ -1,0 +1,1 @@
+在增强型“MessagingChannel”上配置同意（选择加入/选择退出），以便激活将接受它。给定“{CHANNEL_ID}”，设置频道的“ConsentType”（ImplicitOptIn / ExplicitOptIn / DoubleOptIn）和“OptInPrompt”/“DoubleOptInPrompt”提示字段，然后为每种语言创建或更新一条“MsgChannelLanguageKeyword”记录，其中包含选择加入/双重选择加入/选择退出/帮助/自定义关键字和确认消息。在通道插入和激活之间使用 - 除非存在有效的 ConsentType 和至少一个匹配的语言关键字记录，否则激活无法通过同意就绪检查。

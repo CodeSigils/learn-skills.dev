@@ -1,0 +1,1 @@
+Wird verwendet, wenn ein Hetzner-Knoten nicht erreichbar ist, SSH ausfällt, Cloud-Init fehlerhaft zu sein scheint oder die Bereitstellung hängt. Startet über die hcloud-CLI in den Rettungsmodus, um Dateisystem, Protokolle, SSH-Schlüssel, SSD-Konfiguration und Cloud-Init-Status zu überprüfen, ohne dass SSH-Zugriff auf den Knoten selbst erforderlich ist.

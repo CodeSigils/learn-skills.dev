@@ -1,0 +1,1 @@
+通过元数据 API 以编程方式启用本机语音 (Thunderbird Voice) 的通话录音和通话转录，以在无人使用服务控制台 UI 的情况下提供无头/API 驱动的支持。当用户要求打开、启用或配置无头或自动语音呼叫的本机语音录音和/或转录时，请使用此技能。触发条件：用户提及 Thunderbird Voice、Native Voice、ThunderbirdVoiceSettings、enableCallRecording、enableCallTranscription、“启用录音和转录”、“通过 API 打开通话录音”、无头语音录音或配置语音通话捕获，而无需单击“设置”。不要在以下情况下触发：用户想要从现有录音中编辑或删除 PII、转录提供的音频文件或创作 Flow/Apex - 这些超出了此技能的范围。

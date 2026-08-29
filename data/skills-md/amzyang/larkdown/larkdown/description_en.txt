@@ -1,6 +1,6 @@
-飞书文档与 Markdown 双向转换工具（larkdown CLI）。此 skill 应在以下场景使用：
-(1) 用户提供 feishu.cn / <子域>.feishu.cn 的文档/Wiki/文件夹链接（docx、wiki、folder）
-(2) 提到"飞书"+"下载"/"导出"/"转 Markdown"/"上传"/"同步"/"更新"
-(3) 需要将本地 Markdown 上传到飞书 Wiki
-(4) 询问 larkdown 命令用法、安装或配置
-当用户只是粘贴了一个飞书链接而没有明确说"下载"时，也应使用此 skill。
+Feishu document and Markdown bidirectional conversion tool (larkdown CLI). This skill should be used in the following scenarios:
+1. The user provides a document/Wiki/folder link from feishu.cn or <subdomain>.feishu.cn (docx, wiki, folder).
+2. The user mentions "Feishu" together with "download", "export", "convert to Markdown", "upload", "sync", or "update".
+3. The user needs to upload a local Markdown file to a Feishu Wiki.
+4. The user asks about larkdown command usage, installation, or configuration.
+Even if the user only pastes a Feishu link without explicitly saying "download", this skill should still be applied.

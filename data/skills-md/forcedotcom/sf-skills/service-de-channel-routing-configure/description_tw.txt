@@ -1,0 +1,1 @@
+在新插入的增強型「MessagingChannel」上設定路由，以便啟動能夠接受它。給定“{CHANNEL_ID}”，引導使用者選擇路由類型（全通道佇列、全流、Agentforce 服務代理、數位工作人員或直接使用者），定位或配置路由目標，然後修補通道的“SessionHandlerId”（在需要時加上“FallbackQueueId”）。在插入技能和啟動技能之間使用 - 如果在通道上未設定有效的“SessionHandlerId”，則啟動會在伺服器端失敗，並顯示“nullQueueId”/“LiveMessageSetupException”。

@@ -1,0 +1,1 @@
+顶级编排器：给定消息传递通道类型及其特定于类型的输入，在目标 Salesforce 组织中生成激活的增强型“MessagingChannel”——无需 Meta/LINE/Apple 设置弹出窗口。如果未提供，则提示输入“{MESSAGE_TYPE}”，然后序列插入→路由→同意→通过类型不可知的调度程序（“service-de-channel-create”）加上共享路由/同意/激活叶激活。重新运行时从部分状态恢复。当用户想要从命令行端到端设置增强型消息传递渠道（WhatsApp、Facebook、LINE、Apple 或 SMS/文本）时，请使用此技能，绕过组织内设置弹出窗口。

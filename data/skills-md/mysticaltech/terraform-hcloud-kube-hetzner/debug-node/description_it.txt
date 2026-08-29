@@ -1,0 +1,1 @@
+Da utilizzare quando un nodo Hetzner non è raggiungibile, SSH non riesce, cloud-init sembra non funzionare o il provisioning si blocca. Si avvia in modalità di salvataggio tramite la CLI di hcloud per ispezionare file system, log, chiavi SSH, configurazione sshd e stato cloud-init senza bisogno dell'accesso SSH al nodo stesso.

@@ -1,0 +1,1 @@
+頂級編排器：給定訊息傳遞通道類型及其特定於類型的輸入，在目標 Salesforce 組織中產生已啟動的增強型「MessagingChannel」－無需 Meta/LINE/Apple 設定彈出視窗。如果未提供，則提示輸入“{MESSAGE_TYPE}”，然後序列插入→路由→同意→透過類型不可知的調度程序（“service-de-channel-create”）加上共享路由/同意/啟動葉啟動。重新運行時從部分狀態恢復。當使用者想要從命令列端到端設定增強型訊息傳遞管道（WhatsApp、Facebook、LINE、Apple 或 SMS/文字）時，請使用此技能，繞過組織內設定彈出視窗。

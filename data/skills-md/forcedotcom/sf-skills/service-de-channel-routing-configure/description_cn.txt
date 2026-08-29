@@ -1,0 +1,1 @@
+在新插入的增强型“MessagingChannel”上配置路由，以便激活能够接受它。给定“{CHANNEL_ID}”，引导用户选择路由类型（全通道队列、全流、Agentforce 服务代理、数字工作人员或直接用户），定位或配置路由目标，然后修补通道的“SessionHandlerId”（在需要时加上“FallbackQueueId”）。在插入技能和激活技能之间使用 - 如果在通道上未设置有效的“SessionHandlerId”，则激活会在服务器端失败，并显示“nullQueueId”/“LiveMessageSetupException”。
