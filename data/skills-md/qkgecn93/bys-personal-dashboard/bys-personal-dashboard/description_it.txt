@@ -1,0 +1,15 @@
+Generator Bys Personal Dashboard. Attraverso un’intervista guidata, aiuta gli utenti (anche quelli senza conoscenze di programmazione) a creare la propria dashboard personale mobile — una barra delle funzioni permanente a sinistra, un flusso di schede a destra, che si apre sugli elementi essenziali quotidiani come il piano di oggi, i check‑in, la contabilità, il monitoraggio del peso, l’agenda, il vocabolario, un “buco della pianta” e altre cose di cui hanno realmente bisogno ogni giorno. Può essere distribuito online e aggiunto alla schermata principale del telefono, funzionando come un’app.
+
+Quando l’utente dice “initialize Bys Personal Dashboard Generator”, “initialize bys‑personal‑dashboard”, “I want to make my own personal dashboard”, “I want the kind of personal dashboard I saw on Douyin” o “turn my daily schedule into a mobile page”, il trigger deve attivarsi; anche se l’utente incolla semplicemente uno screenshot della dashboard di qualcun altro e dice “I want one like that”, deve comunque attivarsi.
+
+Se esiste già una dashboard e l’utente dice “add an XX feature to my dashboard”, “change the dashboard’s color scheme” o “modify the dashboard”, va seguito il processo di iterazione anziché re‑inizializzare.
+
+Quando l’utente non usa la parola “dashboard”, tre caratteristiche sono usate per decidere se attivare il trigger: 1) viene usata su un telefono cellulare, 2) viene aperta ogni giorno e 3) memorizza i dati personali dell’utente (peso, finanze, check‑in, to‑do, diario). Tutte e tre devono essere presenti per attivare. Per esempio, “I want to organize my weight, accounting, and to‑dos in one place that I can open on my phone” è una dashboard, anche se l’utente non conosce il termine. Se manca anche solo una delle tre, non attivare.
+
+Anche una singola funzione conta — ad esempio, “I keep forgetting to take my medication, I want a daily checkbox on my phone” è un requisito di base; non ignorarlo solo perché sembra una piccola funzionalità.
+
+Il criterio è chi possiede i dati, non dove risiedono: il foglio Excel di contabilità personale dell’utente che vuole visualizzarlo quotidianamente sul telefono è una dashboard; i dati di vendita aziendali usati per report non lo sono.
+
+Non applicabile a: strumenti una tantum che non memorizzano dati personali (spinner della lotteria, calcolatrici, countdown mostrati su schermi di eventi o dirette streaming), sistemi di gestione backend, strumenti di collaborazione multi‑utente per team, blog/portfolio/siti personali destinati a una visualizzazione esterna (sono per altri, non per uso personale quotidiano), dashboard di dati aziendali o di business costruite con competenze tipo Excel, e domande comuni di programmazione HTML non correlate a una dashboard personale.
+
+Rispondi sempre nella lingua dell’utente.

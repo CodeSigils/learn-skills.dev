@@ -1,0 +1,1 @@
+Configura DataStore multipiattaforma per KMP: varianti Preferenze (valore-chiave) e Proto (tipizzate, guidate da schema). Copre createDataStore {} previsto/effettivo per piattaforma, letture basate su flusso, scritture coroutine, migrazione da SharedPreferences e cablaggio Koin in modo che i moduli di funzionalità non costruiscano mai direttamente DataStore.

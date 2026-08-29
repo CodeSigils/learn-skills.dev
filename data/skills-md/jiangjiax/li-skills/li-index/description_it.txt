@@ -1,0 +1,15 @@
+Quando l'utente dice “update the index”, “add this to the index”, “added a new file”, “just added a book / a note / a document” o “the material library index needs updating”, deve essere utilizzata la Modalità di Manutenzione Incrementale di questa skill.
+
+Quando l'utente dice “index health check”, “index checkup”, “check index”, “index sync” o “fill missing index”, deve essere utilizzata la Modalità di Health‑Check di questa skill, scansionando tutte le librerie ↔ INDEX per trovare voci mancanti o obsolete e riempirle in batch.
+
+Applicabile a tutte le librerie che hanno un INDEX.md: libreria reading‑notes, libreria core‑concepts, libreria hit‑script, repository 04‑methodology e qualsiasi libreria creata in futuro.
+
+Il valore dell'indice dipende dall'accuratezza del contenuto: è necessario leggere completamente il testo originale prima di scrivere; inferire dal nome dei file o dalla memoria farà perdere all'indice il suo valore di riferimento.
+
+Anche se l'utente dice solo “I added a file” o “put this in”, finché riguarda l'indice, questa skill deve essere attivata.
+
+Non deve essere attivata: semplicemente leggere l'indice (Read diretto), approfondire la selezione di argomenti (usando li‑topic), generare script (usando li‑writer).
+
+Usare quando l'utente aggiunge nuovo contenuto a qualsiasi libreria indicizzata, OPPURE esegue un controllo globale dello stato dell'indice per trovare voci mancanti/obsolete.
+
+Rispondi sempre nella lingua dell'utente.

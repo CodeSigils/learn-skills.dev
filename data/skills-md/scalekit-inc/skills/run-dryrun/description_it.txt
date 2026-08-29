@@ -1,0 +1,1 @@
+Esegue il dryrun in modo che un agente possa testare una configurazione di autenticazione SaaSKit prima del go-live. Da utilizzare quando l'utente desidera testare l'autenticazione o eseguire un dryrun. Non scrive il login (è `implement-saaskit`) né termina una checklist di go-live (è `check-saaskit-prod`).
