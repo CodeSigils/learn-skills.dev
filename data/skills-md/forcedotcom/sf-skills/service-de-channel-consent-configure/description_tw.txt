@@ -1,1 +1,1 @@
-在增强型“MessagingChannel”上配置同意（选择加入/选择退出），以便激活将接受它。給定“{CHANNEL_ID}”，設定頻道的“ConsentType”（ImplicitOptIn / ExplicitOptIn / DoubleOptIn）和“OptInPrompt”/“DoubleOptInPrompt”提示欄位，然後為每個字詞建立或更新一條「MsgChannelLanguageKey在通道插入和啟動之間使用 - 除非存在有效的 ConsentType 和至少一個匹配的語言關鍵字記錄，否則啟動無法通過同意就緒檢查。
+在增強型「MessagingChannel」上設定同意（選擇加入/選擇退出），以便啟動將接受它。給定“{CHANNEL_ID}”，設定頻道的“ConsentType”（ImplicitOptIn / ExplicitOptIn / DoubleOptIn）和“OptInPrompt”/“DoubleOptInPrompt”提示欄位，然後為每個字詞建立或更新一條「MsgChannelLanguageKey在通道插入和啟動之間使用 - 除非存在有效的 ConsentType 和至少一個匹配的語言關鍵字記錄，否則啟動無法通過同意就緒檢查。
