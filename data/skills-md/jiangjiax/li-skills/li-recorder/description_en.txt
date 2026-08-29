@@ -1,9 +1,4 @@
-When a user says “record a topic,” “new topic,” “how about this topic,” “I have an idea,” “help me note this,” or shares a rough content idea that needs assessment and recording, this skill should be used. Even if the user merely mentions a content idea in passing, the evaluation process should be proactively triggered; do not wait for the user to explicitly say “record.”
-
-First, use the five‑dimensional logic of dbs‑content to diagnose whether the topic is worth pursuing; only if it is worthwhile should it be recorded, and then, by analogy, recommend 3–5 similar topics.
-
-It should not be triggered for: deepening a topic to generate an outline (using li‑topic), directly writing a script (using li‑writer), or AI polishing/beautifying a topic title.
-
-Use when the user wants to “record a topic,” “log a topic idea,” “is this topic worth doing,” or shares a rough content concept needing diagnosis and logging.
-
-Please always respond in the user’s language.
+当用户说「记录选题」「新选题」「这个选题怎么样」「我有个想法」「帮我记一下」或分享一个粗糙的内容想法需要评估和记录时，应使用本 skill。即使用户只是随口说出一个内容想法，也应主动触发评估流程，不要等用户明确说「记录」。
+先用 dbs-content 的五维逻辑诊断选题值不值得做，值得做才记录，并举一反三推荐 3-5 个相似选题。
+不应触发：深化选题生成大纲（用 li-topic）、直接写脚本（用 li-writer）、AI 润色或美化选题标题。
+Use when the user wants to "record a topic", "log a topic idea", "is this topic worth doing", or shares a rough content concept needing diagnosis and logging.

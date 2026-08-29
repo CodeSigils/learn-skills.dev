@@ -1,0 +1,1 @@
+Use when a Hetzner node is unreachable, SSH fails, cloud-init seems broken, or provisioning hangs. Boots into rescue mode via hcloud CLI to inspect filesystem, logs, SSH keys, sshd config, and cloud-init state without needing SSH access to the node itself.

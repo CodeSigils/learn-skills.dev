@@ -1,5 +1,3 @@
-When the user says “/li”, or requests something related to content creation but the intent is vague or it’s unclear which tool to use, use this skill. As the main entry of the li toolbox, it determines the intent and routes to the corresponding specialized skill.  
-Do not trigger: when the user’s request clearly matches a specific li‑* skill (e.g., “write script” → li-writer, “deepen topic” → li-topic), directly trigger the corresponding skill instead of this entry point.  
-DO NOT trigger for non-content-creation tasks. Use when the user says “/li” or the intent is ambiguous across multiple li‑* tools.  
-
-Please always respond in the user’s language.
+当用户说「/li」，或请求与内容创作相关但意图模糊、不确定用哪个工具时使用本 skill。作为 li 工具箱主入口，判断意图并路由到对应专项 skill。
+不应触发：当用户的请求已明确匹配某个专项 li-* skill 时（如「写脚本」→ li-writer，「深化选题」→ li-topic），直接触发对应 skill 而非本入口。
+DO NOT trigger for non-content-creation tasks. Use when the user says "/li" or the intent is ambiguous across multiple li-* tools.
