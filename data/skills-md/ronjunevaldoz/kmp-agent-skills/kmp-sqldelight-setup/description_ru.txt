@@ -1,0 +1,1 @@
+Настраивает SQLDelight 2 в проекте Kotlin Multiplatform. Охватывает: конфигурацию Gradle‑плагина, файлы схемы (.sq), миграции, адаптеры типов, платформо‑специфические драйверы через expect/actual (Android, iOS, Desktop/JVM, Web/JS), запросы Flow с корутинами и подключение Koin внутри :core:database. Предполагает, что проект был создан с помощью kmp-feature-scaffold.
