@@ -1,0 +1,8 @@
+Create a release from dev branch. Generates changelog entries from commits,
+bumps version, and creates a PR to main.
+
+TRIGGERS - Use this skill when user says:
+- "/release" - create a patch release (default)
+- "/release minor" - create a minor release
+- "/release major" - create a major release
+- "make a release", "cut a release", "ship it", "release to main"
