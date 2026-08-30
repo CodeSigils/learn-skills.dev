@@ -1,0 +1,1 @@
+透過 AWS Bedrock AgentCore 閘道進行 Web 搜索，使用本機 AWS/IAM 憑證 (SigV4) 進行呼叫 — 無 API 金鑰或不記名令牌。當使用者要求透過 AgentCore Web 搜尋網關搜尋網路、尋找當前事件、尋找最近/線上資訊或需要最新 Web 結果的研究主題時使用。觸發器 -「agentcore 搜尋」、「使用 agentcore 搜尋網路」、「網路搜尋」、「尋找」、「線上尋找」、「最新內容」、「目前新聞」、「研究」。需要安裝 agentcore-websearch CLI 並已設定網關（請參閱專案的 README/AGENTS.md）；此技能不會建立或刪除 AWS 資源。

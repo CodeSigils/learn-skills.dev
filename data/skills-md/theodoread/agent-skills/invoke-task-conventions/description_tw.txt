@@ -1,0 +1,1 @@
+在 tasks.py 或 tasks/ 套件中新增、重新命名或審視 Invoke 任務時使用 — 決定 `inv <namespace>.<task>` 的稱呼、名稱應為動詞還是名詞、新任務應放置於何處，或既有名稱是否值得更改。也說明了重新命名實際的代價（任務名稱會出現在文件、CI、Dockerfile 以及其他倉庫中，且 Python 函式名稱會隨 CLI 名稱變動），以及 Invoke 配線的陷阱——會不知不覺地發佈未被宣告的任務。適用於個人倉庫族群——power-user-linux-setup、repo-tasks、scaffoldapy 產生的專案、以及 *-polite-mcp 倉庫。

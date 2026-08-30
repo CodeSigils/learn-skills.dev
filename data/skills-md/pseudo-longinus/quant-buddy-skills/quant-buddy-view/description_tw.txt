@@ -1,0 +1,11 @@
+QBV / quant-buddy-view（使用者可寫成 /quant-buddy-view、/qbv、qbv 或 QBV）用於將量化資料轉換為「可公開分享、即時抓取資料」的網頁儀表板/著陸頁。  
+
+每當使用者要求建立、更新、發布、驗證、改裝或重複使用 Quant Buddy 儀表板/靜態頁面/範本時，都應使用此技能，包括可分享的頁面、公共 URL、公式套件、分享殼、封面/精華卡、海報/分享行為、單一股票資料頁面、估值/財務資料頁面、指數異常看板、多因子篩選器以及商品日報頁面。  
+
+與 quant‑buddy‑skill 協作時：在 `trace begin` 後，一個簡易的單一 A 股全面分析可直接以 `static_page.py new_asset_page` 回傳即時頁面；若使用者提供已有的 QuantBuddy 即時頁面 URL 並要求解讀，請使用 `static_page.py interpret` 讀取頁面的即時資料，無需下載 HTML、顯示簽名或進入模板／頁面建置流程；其他固定頁面的請求應先透過 `templates/template` 選擇標有 `recommend` 標籤的線上模板頁。對於自行建置的即時頁面，首先依資料類型選擇頻道：一般市場資料、估值與財務資料優先使用 Data Grant；自訂計算必須先驗證並註冊為 Formula Package。兩種憑證可混用於同一頁面，之後替換憑證/文字、執行瀏覽器驗收測試，並進行發布。預設情況下，不要從本地歷史樣本目錄或低品質 HTML 骨架開始。  
+
+若使用者明確呼叫 /quant‑buddy‑view、/qbv、qbv 或 QBV，且請求不是純諮詢／程式碼維護／文件說明，則預設視為可分享即時頁面任務：簡易的單一 A 股分析使用 `new_asset_page` 直接產出快速最終結果；其他請求則先對照官方策展 + 社群模板卡，判斷為 `direct`、`fork` 或 `unmatched`。預設情況下，`direct` 先提供現有連結，`fork`／`unmatched` 則透過 `new_page` 回傳第一個連結。當 `config.json._channel=feishu-group` 時，所有分支禁止提前發送連結；連結僅在最終階段以玩耍區連結形式提供。  
+
+不要將此技能用於一次性市場查詢、普通股票漲跌／估值問答、選股／回測探索；這些屬於 quant‑buddy‑skill，除非使用者明確要求可重複使用／可分享的頁面。  
+
+請始終以使用者的語言回應。

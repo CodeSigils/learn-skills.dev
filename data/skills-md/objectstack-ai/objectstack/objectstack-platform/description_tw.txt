@@ -1,0 +1,3 @@
+引導、配置、擴充與操作 ObjectStack 執行環境。涵蓋專案設定（`defineStack`、驅動程式、適配器、腳手架）、插件與服務開發（PluginContext、DI、核心掛鉤例如 `kernel:ready`），以及運作（CLI 指令、遷移、部署、透過 LiteKernel 的測試工具）。當使用者撰寫 `objectstack.config.ts`、建立插件或驅動程式、串接框架適配器、執行 `os` CLI 指令，或規劃部署時使用。請勿用於資料結構設計（請參考 objectstack-data）或查詢模式（請參考 objectstack-query）；資料生命週期掛鉤（beforeInsert / afterUpdate）屬於 objectstack-data — 只在此處處理核心／服務層級的事件。
+
+請始終以使用者的語言回覆。

@@ -1,0 +1,1 @@
+設計 ObjectStack 資料模式 — 物件、欄位、欄位條件規則、關係、驗證、索引、生命週期掛鉤、權限、行級安全性 — 以及載入固定裝置和引用資料的種子 (`defineSeed()`)。當使用者建立或修改「*.object.ts」/「*.seed.ts」檔案、選擇欄位類型、建模關係、編寫「beforeInsert」/「afterUpdate」掛鉤、配置每個物件的存取控製或創作引導/演示資料時使用。用於屬於字段的 `visibleWhen` / `readonlyWhen` / `requiredWhen` 規則。不要用於查詢資料（請參閱 objectstack-query）或外掛程式/核心掛鉤（請參閱 objectstack-platform）。公式/驗證/共享規則/動態種子值中的 CEL 表達式：同時載入物件堆疊公式。

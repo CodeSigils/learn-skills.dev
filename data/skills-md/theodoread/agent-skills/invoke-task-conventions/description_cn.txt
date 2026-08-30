@@ -1,1 +1,1 @@
-在 tasks.py 或 tasks/ 包中添加、重命名或审查 invoke 任务时使用——决定将 `inv <namespace>.<task>` 称为何名，名称是动词还是名词，新任务应放置于何处，或现有名称是否值得更改。还包括重命名的实际代价（任务名称会出现在文档、CI、Dockerfile 及其他仓库中，且 Python 函数名会随 CLI 名称一起改变），以及 invoke 线路中的陷阱——会悄悄发布未声明的任务。适用于整个个人仓库系列——power-user-linux-setup、repo-tasks、scaffoldapy 生成的项目、*‑polite-mcp 仓库。
+在tasks.py或tasks/包中添加、重命名或检查调用任务时使用 - 决定调用什么“inv <namespace>.<task>”，名称应该是动词还是名词，新任务所属的位置，或者现有名称是否值得更改。还涵盖了重命名的实际成本（任务名称在文档、CI、Dockerfile 和其他存储库中引用，Python 函数名称随 CLI 名称更改），以及静默发布无人声明的任务的调用接线陷阱。适用于个人存储库系列 — power-user-linux-setup、repo-tasks、scaffoldapy 生成的项目、*-polite-mcp 存储库。

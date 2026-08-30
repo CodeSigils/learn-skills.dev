@@ -1,0 +1,1 @@
+ObjectStack 전체에서 사용되는 CEL 표현식(수식 필드, 필드 조건부 규칙(`visibleWhen`, `readonlyWhen`, `requiredWhen`), 유효성 검사/공유/가시성 조건자, 흐름 조건 및 동적 시드 값)을 작성합니다. 사용자가 `F`, `P` 또는 `cel` 태그가 지정된 템플릿 리터럴을 작성하거나 "X를 수식/술어로 표현하는 방법"을 묻는 경우에 사용합니다. SQL 조각(드라이버 기본), cron 일정(cron 방언) 또는 L2 후크 본문(objectstack-data에 속함)에는 사용하지 마세요.

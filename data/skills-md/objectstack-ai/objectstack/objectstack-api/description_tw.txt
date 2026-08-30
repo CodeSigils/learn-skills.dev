@@ -1,0 +1,1 @@
+設計 ObjectStack 執行時期公開的伺服器端 API 表面 — REST 端點、驗證提供者、即時通道、錯誤信封、批次/版本控制合約。當使用者新增 `*.endpoint.ts`、設定驗證提供者、定義自訂路由或擴充 REST 生成器時使用。請勿用於： 從客戶端使用 ObjectStack API（這只是標準 HTTP — 無需技能）；自動產生的 CRUD 端點（來自 objectstack-data 的端點）；請求端查詢語法（請參閱 objectstack-query）。路由保護或驗證謂詞中的 CEL 表達式：同時載入 objectstack-formula。

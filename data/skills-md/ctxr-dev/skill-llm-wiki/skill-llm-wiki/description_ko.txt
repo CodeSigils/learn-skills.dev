@@ -1,0 +1,1 @@
+사용자가 마크다운 노트, 문서, 소스 코드 또는 혼합 폴더에서 LLM 최적화 지식 위키를 구축, 확장, 검증, 복구, 재구축 또는 병합하도록 명시적으로 요청할 때 사용합니다. 기본 출력은 `.llmwiki/git/` 아래의 비공개 git 저장소에 전체 기록이 있는 안정적인 단일 `<source>.wiki/`입니다. `--layout-mode in-place`는 소스 폴더 자체를 변환하고 `--layout-mode listed --target <path>`는 사용자가 제공한 `.llmwiki.layout.yaml` 계약을 따릅니다. SKILL.md는 진입점입니다. 자세한 작업 지침은 아래 라우팅 절차에 따라 'guide/'에서 요청 시 로드됩니다.

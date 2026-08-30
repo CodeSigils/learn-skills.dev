@@ -1,0 +1,1 @@
+개인 MCP 서버를 구축, 설치 또는 등록할 때 사용합니다. `[project.scripts]` 진입점을 추가하고, PyPI에 게시하는 대신 로컬 체크아웃에서 `uv tool install`을 사용하여 설치하거나 PyPI에 게시하는 대신 git에서 직접 `uv tool install`을 사용하여 설치하고, `claude mcp add`로 등록하고 로컬/프로젝트/사용자 범위를 선택하고, 재등록 없이 편집 가능한 개발 설치와 릴리스된 설치 간에 전환하고, 저장소별 개발 루프(`inv dev-env.setup`, 'inv quality.precommit', 이러한 서버를 생성하는 저장소에 대해 자동화에 'uv run inv'가 필요한 이유)

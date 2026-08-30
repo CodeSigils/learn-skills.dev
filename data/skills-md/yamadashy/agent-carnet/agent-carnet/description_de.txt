@@ -1,0 +1,9 @@
+Persistentes dateibasiertes Notizbuch (.carnet/<category>/<slug>.md, automatisches Ablaufen nach 30 Tagen Nichtbenutzung) für KI-Agenten und Menschen.
+
+Wird immer dann verwendet, wenn Notizen sitzungsübergreifend gespeichert, abgerufen oder organisiert werden. Zu den impliziten Hinweisen gehört, dass der Benutzer eine knifflige Lösung, die es wert ist, nicht wiederholt zu werden, noch einmal zusammenfasst, fragt: „Was haben wir zu
+
+Verwenden Sie PROAKTIV, wenn Sie etwas entdecken, das ein zukünftiger Agent andernfalls von Grund auf neu ableiten würde – ein nicht offensichtliches Bibliotheksproblem, eine hart erkämpfte Lösung, eine abgelehnte Designalternative, die wahrscheinlich erneut vorgeschlagen wird, ein in Bearbeitung befindlicher Zustand, der es wert ist, wieder aufgenommen zu werden.
+
+ÜBERSPRINGEN für: zeitgebundene TODOs, die nörgeln müssen (TodoWrite/Issues tauchen wieder auf, Carnet nicht), Anmeldeinformationen/Geheimnisse (nicht auf die Festplatte legen), Kontext bereits in einem Commit/PR/ADR (keine doppelte Buchführung).
+
+Im Zweifelsfall ist eine kurze Notiz dem Verlust des Kontexts vorzuziehen: Ungenutzte Notizen verfallen automatisch.

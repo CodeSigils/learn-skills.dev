@@ -1,0 +1,9 @@
+Carnet de notes persistant basé sur des fichiers (.carnet/<category>/<slug>.md, expirant automatiquement après 30 jours d'inutilisation) pour les agents d'IA et les humains.
+
+À utiliser chaque fois que vous enregistrez, rappelez ou organisez des notes au fil des sessions : les indices IMPLICITES incluent l'utilisateur récapitulant une solution délicate qui ne vaut pas la peine de la refaire, demandant « qu'avons-nous décidé à propos de X », transmettant l'état de la tâche ou mettant quelque chose de côté pour le moment.
+
+Utilisez de manière PROACTIVE lorsque vous découvrez quelque chose qu'un futur agent pourrait autrement recréer à partir de zéro : un problème de bibliothèque non évident, un correctif durement gagné, une alternative de conception rejetée susceptible d'être reproposée, un état en cours qui mérite d'être repris.
+
+SAUTER pour : les TODO limitées dans le temps qui doivent harceler (TodoWrite/Issues refont surface, le carnet ne le fait pas), les informations d'identification/secrets (ne les mettez pas sur le disque), le contexte déjà dans un commit/PR/ADR (pas de double comptabilité).
+
+En cas de doute, préférez une brève note plutôt que de perdre le contexte : les notes inutilisées expirent automatiquement.

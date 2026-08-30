@@ -1,0 +1,1 @@
+設計 ObjectStack AI 技能、工具、知識來源、對話、模型登錄項目和 MCP 整合。當使用者加入 `*.skill.ts` / `*.tool.ts`、配置 LLM 提供者、連接代理工具或將 ObjectStack 資料索引為 RAG 的知識來源時使用。代理本身是平台內部的（「ask」/「build」）－第三方透過技能和工具來擴展它們，而不是透過編寫「*.agent.ts」。請勿用於與 ObjectStack 元資料無關的一般 LLM 提示問題。

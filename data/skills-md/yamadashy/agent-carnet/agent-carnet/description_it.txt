@@ -1,0 +1,9 @@
+Notebook persistente basato su file (.carnet/<category>/<slug>.md, con scadenza automatica dopo 30 giorni di inutilizzo) per agenti IA e umani.
+
+Da utilizzare ogni volta che si salvano, richiamano o organizzano note tra sessioni: i segnali IMPLICITI includono l'utente che riassume una soluzione complicata che vale la pena non ripetere, chiedendo "cosa abbiamo deciso riguardo a X", rimandando lo stato di metà attività o mettendo da parte qualcosa per ora.
+
+Utilizzalo in modo PROATTIVO quando scopri qualcosa che un futuro agente altrimenti ricaverebbe da zero: un problema di libreria non ovvio, una soluzione conquistata a fatica, un'alternativa di progettazione rifiutata che potrebbe essere riproposta, uno stato in corso che vale la pena riprendere.
+
+SALTA per: TODO con limiti di tempo che devono essere fastidiosi (TodoWrite/Issues vengono restituiti, il carnet no), credenziali/segreti (non metterli su disco), contesto già in un commit/PR/ADR (nessuna doppia contabilità).
+
+In caso di dubbio, preferisci una breve nota piuttosto che perdere il contesto: le note non utilizzate scadono automaticamente.

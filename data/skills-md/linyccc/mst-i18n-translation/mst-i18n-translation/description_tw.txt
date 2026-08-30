@@ -1,0 +1,1 @@
+偵測react-i18next專案的目前git分支差異中的i18n鍵變更（t（），<Trans i18nKey>）和潛在的未翻譯字串。輸出包含新增鍵（每個語言環境的 AI 翻譯值）和刪除鍵的結構化 JSON。當使用者要求收集 i18n 翻譯、執行翻譯 diff、檢查缺少的 i18n 金鑰或提及「mst-i18n-translation」時使用。

@@ -1,0 +1,9 @@
+Crea una release dal ramo dev. Genera voci del changelog dai commit, incrementa la versione e crea una PR verso il main.
+
+TRIGGER - Usa questa funzione quando l'utente dice:
+- "/release" - crea una release patch (predefinita)
+- "/release minor" - crea una release minore
+- "/release major" - crea una release maggiore
+- "make a release", "cut a release", "ship it", "release to main"
+
+Per favore rispondi sempre nella lingua dell'utente.
