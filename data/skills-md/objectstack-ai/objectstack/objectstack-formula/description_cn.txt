@@ -1,0 +1,1 @@
+编写跨 ObjectStack 使用的 CEL 表达式 — 公式字段、字段条件规则（“visibleWhen”、“readonlyWhen”、“requiredWhen”）、验证/共享/可见性谓词、流条件和动态种子值。当用户编写“F”、“P”或“cel”标记模板文字，或询问“如何将 X 表示为公式/谓词”时使用。不要用于 SQL 片段（驱动程序本机）、cron 计划（cron 方言）或 L2 钩子体（那些属于 objectstack-data 中）。

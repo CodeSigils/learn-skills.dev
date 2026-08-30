@@ -1,0 +1,1 @@
+在 tasks.py 或 tasks/ 包中添加、重命名或审查 invoke 任务时使用——决定将 `inv <namespace>.<task>` 称为何名，名称是动词还是名词，新任务应放置于何处，或现有名称是否值得更改。还包括重命名的实际代价（任务名称会出现在文档、CI、Dockerfile 及其他仓库中，且 Python 函数名会随 CLI 名称一起改变），以及 invoke 线路中的陷阱——会悄悄发布未声明的任务。适用于整个个人仓库系列——power-user-linux-setup、repo-tasks、scaffoldapy 生成的项目、*‑polite-mcp 仓库。

@@ -1,0 +1,1 @@
+在构建、安装或注册个人 MCP 服务器时使用 - 添加其“[project.scripts]”入口点，从本地签出或直接从 git 使用“uv tool install”安装它，而不是发布到 PyPI，使用“claude mcp add”注册并选择本地/项目/用户范围，在可编辑的开发安装和已发布的安装之间切换而无需重新注册，以及每个存储库开发循环（“inv dev-env.setup”、“inv”） Quality.precommit`，为什么自动化需要`uv run inv`）来生成这些服务器的存储库。

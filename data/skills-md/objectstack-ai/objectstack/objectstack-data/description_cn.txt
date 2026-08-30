@@ -1,0 +1,1 @@
+设计 ObjectStack 数据模式 — 对象、字段、字段条件规则、关系、验证、索引、生命周期挂钩、权限、行级安全性 — 以及加载固定装置和引用数据的种子 (`defineSeed()`)。当用户创建或修改“*.object.ts”/“*.seed.ts”文件、选择字段类型、建模关系、编写“beforeInsert”/“afterUpdate”挂钩、配置每个对象的访问控制或创作引导/演示数据时使用。用于属于字段的 `visibleWhen` / `readonlyWhen` / `requiredWhen` 规则。不要用于查询数据（请参阅 objectstack-query）或插件/内核挂钩（请参阅 objectstack-platform）。公式/验证/共享规则/动态种子值中的 CEL 表达式：同时加载对象堆栈公式。

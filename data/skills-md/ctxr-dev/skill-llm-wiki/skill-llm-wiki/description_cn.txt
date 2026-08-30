@@ -1,0 +1,1 @@
+当用户明确要求从 Markdown 笔记、文档、源代码或混合文件夹构建、扩展、验证、修复、重建或合并 LLM 优化的知识 wiki 时使用。默认输出是一个稳定的同级“<source>.wiki/”，在“.llmwiki/git/”下的私有 git 存储库中具有完整的历史记录； `--layout-mode in-place` 转换源文件夹本身，而 `--layout-mode Hosted --target <path>` 遵循用户提供的 `.llmwiki.layout.yaml` 合同。 SKILL.md 是入口点；详细的操作说明根据下面的路由程序从“guide/”中按需加载。
