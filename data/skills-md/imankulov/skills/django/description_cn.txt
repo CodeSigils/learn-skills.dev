@@ -1,0 +1,6 @@
+针对结构良好、可维护的项目的固执己见的 Django 开发模式。
+在编写 Django 模型、迁移、视图、管理配置、Celery 时使用
+任务或外部服务集成。
+也可在审查或重构 Django 代码或创建新的 Django 应用程序时使用。
+请勿用于：Django Ninja API 端点（使用 django-ninja 技能）、FastAPI、Flask、
+通用Python（使用Python技能）、测试文件（使用pytest技能）或前端代码。
