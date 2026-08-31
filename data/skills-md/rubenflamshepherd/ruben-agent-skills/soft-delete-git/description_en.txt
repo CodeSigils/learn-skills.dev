@@ -1,0 +1,1 @@
+Safely soft-delete a merged Git branch by switching to the default branch, pulling latest, and running `git branch -d`. Use when the user wants to clean up, remove, or delete a local branch after merging, or says "soft delete this branch" / "delete my branch". Escalates to the user instead of force-deleting if the branch is unmerged, except squash-merged PRs verified via `gh`.

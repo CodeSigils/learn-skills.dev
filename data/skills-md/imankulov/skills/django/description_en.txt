@@ -1,0 +1,6 @@
+Opinionated Django development patterns for well-structured, maintainable projects.
+Use when writing Django models, migrations, views, admin configuration, Celery
+tasks, or external service integrations.
+Also use when reviewing or refactoring Django code or creating new Django apps.
+Do NOT use for: Django Ninja API endpoints (use django-ninja skill), FastAPI, Flask,
+general Python (use python skill), test files (use pytest skill), or frontend code.
