@@ -1,0 +1,1 @@
+透過 MFA/OTP 在範圍內的目標上取得經過驗證的會話，並發出可重複使用的會話工件（Playwright storageState + Bearer），以便執行者可以測試驗證後的攻擊面。當由於 SMS-OTP 或 TOTP MFA 控制登入而阻止最高價值的身份驗證類別（真實資料 API 上的 BOLA/IDOR/品質分配/注入）時使用。與身分驗證技能（ATTACKS auth）不同；此會話合法地進行身分驗證並將會話交給其餘的參與者。
