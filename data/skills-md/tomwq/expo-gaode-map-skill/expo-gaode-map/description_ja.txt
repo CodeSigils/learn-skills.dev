@@ -1,0 +1,1 @@
+expo-gaode-map、expo-gaode-map-navigation、および expo-gaode-map-web-api を Expo または React Native アプリに統合します。 app.config を作成するよりも既存の app.json を優先し、キーが欠落している場合は config-plugin キー プレースホルダーを書き込み、構成変更後に npx expo prebuild を実行し、Web API またはネイティブ キー構成が使用されていない限り、基本的なマップ コードで initSDK を回避する必要があります。
