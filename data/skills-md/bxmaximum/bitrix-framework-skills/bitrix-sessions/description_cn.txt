@@ -1,0 +1,1 @@
+涵盖 Bitrix 会话 — Application::getSession()、getKernelSession()、getLocalSession()、BX_SECURITY_SESSION_READONLY 和 BX_SECURITY_SESSION_VIRTUAL 模式、存储（缓存、数据库、redis、空会话处理程序）、.settings.php 中的分离会话模式。在优化 AJAX 会话锁、配置替代存储以及分离内核/本地会话时，应用而不是直接 $_SESSION 访问。关键术语 — 会话、getSession、会话存储、BX_SECURITY_SESSION_READONLY、分离会话、getKernelSession、getLocalSession。

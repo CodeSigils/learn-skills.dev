@@ -1,0 +1,1 @@
+设置、配置或载入用于 Beaker 代理优化的 Python 存储库，同时隔离 .beaker 下的评估工具，保持正常运行时行为不变，并且从不添加或修改测试或 CI/CD 自动化。添加 Beaker、脚手架或完成 Beaker @spec 工厂、选择 Beaker 可以优化的存储库文件、配置 beaker.yaml 或 spec.required_env、连接真实标记数据集和代理或 LLM 评估路径、连接 Beaker GitHub 应用程序、使用 beaker run Smoke 进行验证或启动第一个托管代理优化运行时使用。也可在保留显式使用 @spec(repository=None) 的现有逻辑目标规范时使用。

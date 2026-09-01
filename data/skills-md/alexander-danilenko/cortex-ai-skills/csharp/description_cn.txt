@@ -1,0 +1,1 @@
+每当编写或审查 C# 12 / .NET 8+ 代码时，请应用这些固执己见的 C# 约定：启用 nullable 并带有错误警告、记录和主构造函数、通过转换链进行模式匹配、预期失败的结果模式、与 CancellationToken、IOptions 配置、IHttpClientFactory 一路异步，并且从不从 API 返回 EF 实体。

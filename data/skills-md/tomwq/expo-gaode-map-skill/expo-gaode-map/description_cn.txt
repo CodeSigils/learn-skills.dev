@@ -1,0 +1,1 @@
+将 expo-gaode-map、expo-gaode-map-navigation 和 expo-gaode-map-web-api 集成到 Expo 或 React Native 应用程序中。必须优先选择现有的 app.json 而不是创建 app.config，在密钥丢失时编写配置插件密钥占位符，在配置更改后运行 npx expo prebuild，并避免在基本地图代码中使用 initSDK，除非使用 Web API 或不使用本机密钥配置。

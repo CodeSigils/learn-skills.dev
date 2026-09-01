@@ -1,0 +1,1 @@
+始终调用任何涉及文档字符串、JSDoc/TSDoc 或 REST API 文档的任务 — 即使请求看起来无需它即可处理。强制执行 Microsoft 契约优先约定和 Claude 默认情况下不会应用的最低限度规则：从不重述签名、删除仅回显名称和类型的 @param/@returns、始终记录 @throws，并将数据形状记录为 WHAT 而非 WHY。涵盖 Python 文档字符串样式 (Google/NumPy/Sphinx)、TSDoc 标签和 @inheritDoc，以及 NestJS/Express/FastAPI/Django 的 API 文档模式。触发条件：添加或审核文档字符串、冗余或缺失的标签、删除腐烂的评论或生成文档运行状况报告。不要跳过文档任务——一致的约定才是重点。

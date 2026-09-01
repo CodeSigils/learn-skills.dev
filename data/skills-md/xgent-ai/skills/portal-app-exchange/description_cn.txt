@@ -1,0 +1,1 @@
+跨应用程序调用的连接和故障排除（OAuth 令牌交换）。对于涉及让 AppA 从 AppB 读取数据的任何任务（例如，从题库组装考试、调用多模式分析的文件、任务中心读取 LMS）、声明 ExchangeTargets/交换白名单/同意共同授予，或遇到 EXCHANGE_NOT_ALLOWED、EXCHANGE_CONSENT_REQUIRED、CONSENT_REQUIRED、SECRET_INVALID 等症状， GRANT_NOT_ALLOWED，或者跨应用下拉列表神秘地为空，请务必在修改代码之前使用此技能。用于连接或调试跨应用程序令牌交换：授权、白名单、同意共同授予、范围交叉和经典故障模式（秘密漂移、缺少用户同意行、同意缩小）。

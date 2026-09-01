@@ -1,0 +1,1 @@
+涵盖 Bitrix 中的直接数据库工作 — Application::getConnection()、Connection、MysqliConnection、SqlHelper、SqlExpression、通过 query()/queryExecute()/queryScalar() 的原始 SQL 查询、事务（startTransaction/commitTransaction/rollbackTransaction）、DDL 和模式迁移、批量操作（insertBatch、addMulti）、通过 .settings.php 中的连接部分的附加连接。当 ORM 不足时应用 - 批量操作、原始 SQL、迁移、使用外部数据库以及构建自定义查询。关键术语 — 连接、SqlHelper、SqlExpression、事务、原始 SQL、批量插入、DDL、迁移。

@@ -1,0 +1,1 @@
+向 GitHub 进行身份验证并修复身份验证问题 - 每个其他 github-* 技能都依赖的共享原语。当 GitHub 身份验证不确定时，以及每当 GitHub API 调用行为不当时，请在任何创建/查询之前使用此命令：调用返回 401 或 403、“gh 未登录”/令牌丢失、结果返回为空或来自错误的存储库。涵盖两种支持的方法（通过 `gh auth token` 的 gh CLI 或 GH_TOKEN env var）、针对存储库 API 的单行 PowerShell 验证片段以及 401/403/错误存储库故障排除表。当有人说“我从 GitHub 收到 401”、“github-create-issues 说没有令牌”、“gh 身份验证失败”或“在运行之前检查我的 GitHub 登录信息”时调用。
