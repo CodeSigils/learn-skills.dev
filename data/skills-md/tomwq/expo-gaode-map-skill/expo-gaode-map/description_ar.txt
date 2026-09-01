@@ -1,0 +1,1 @@
+قم بدمج expo-gaode-map وexpo-gaode-map-navigation وexpo-gaode-map-web-api في تطبيقات Expo أو React Native. يجب تفضيل app.json الحالي على إنشاء app.config، وكتابة العناصر النائبة لمفتاح config-plugin عندما تكون المفاتيح مفقودة، وتشغيل npx expo prebuild بعد تغييرات التكوين، وتجنب initSDK في رمز الخريطة الأساسي ما لم يتم استخدام Web API أو عدم استخدام تكوين مفتاح أصلي.

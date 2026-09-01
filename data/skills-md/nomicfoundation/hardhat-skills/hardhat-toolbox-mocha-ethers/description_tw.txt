@@ -1,0 +1,1 @@
+當專案依賴「@nomicfoundation/hardhat-toolbox-mocha-ethers」時，與「hardhat」技能一起使用。涵蓋了在「network.create()」、合約互動（「ethers.deployContract」、呼叫函數、「connect」）、TypeChain 類型的合約實例以及來自「@nomicfoundation/hardhat-ethers-chai-matchers」的 chai在匹配器（“.to.emit”、“.to.be.revertedWith*”、“.to.changeEtherBalance(s)”）上公開的以太助手。

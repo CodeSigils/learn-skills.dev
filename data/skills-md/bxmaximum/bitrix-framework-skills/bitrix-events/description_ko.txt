@@ -1,0 +1,1 @@
+Bitrix 이벤트 시스템 — 새 모델(Bitrix\Main\Event, EventResult, EventManager::addEventHandler, make:event, make:eventhandler) 및 이전 모델(CIBlock, CUser, CSale 및 기타 클래식 API의 OnBefore*/OnAfter* 후크)을 다룹니다. 모듈 통합, 엔터티 수명주기 후크, 맞춤 이벤트 게시, 다른 모듈의 이벤트 구독 시 적용됩니다. 주요 용어 — 이벤트, EventManager, EventResult, OnBefore, OnAfter, 핸들러, 구독자, addEventHandler.

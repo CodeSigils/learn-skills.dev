@@ -1,0 +1,1 @@
+透過捆綁的 create-backlog.cs 腳本從 backlog_input.json（classify-work-items 的輸出）建立 Azure DevOps 工作項目。始終先進行試運行驗證，並且僅在使用者明確批准後才建立真實項目。每當有 backlog_input.json 或任何要在 ADO 中歸檔的項目文件時，或者當用戶說“創建這些工作項”、“歸檔待辦事項”、“將這些工作項推送到 Azure DevOps”、“創建票證/錯誤/故事”、“製作工作項”或要求將分類的結果列表轉換為真正的 ADO 待辦事項時，請使用此選項。這是實際寫入組織的步驟，因此當 backlog_input.json 存在時，優於手動 REST/MCP 呼叫。創建後，它會寫入 backlog_result.json 用於 ado-writeback-tracking。

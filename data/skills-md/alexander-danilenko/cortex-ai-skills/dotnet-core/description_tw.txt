@@ -1,0 +1,1 @@
+每當建置或檢視後端服務時，請套用這些固執己見的 .NET 8 架構約定：乾淨的架構分層和方向依賴項，當 CQRS 與 MediatR 值得時，將橫切關注點作為管道行為，按功能分組的最小 API，將 DbContext 保留在基礎設施中，運行狀況檢查和結構化日誌記錄，WebApplication 將 DbConcation 保留在基礎設施中，運行狀況檢查和結構化日誌記錄，WebApplication 將

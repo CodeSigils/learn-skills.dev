@@ -1,0 +1,1 @@
+通过捆绑的 create_github_issues.py 脚本从 github_backlog_input.json （classify-github-issues 的输出）创建 GitHub 问题。始终首先显示可视化的试运行表，并且仅在用户明确批准后才会产生真正的问题。每當 GitHub 中存在 github_backlog_input.json 或任何要歸檔的專案檔案時，或當使用者說「建立這些 GitHub 問題」、「歸檔待辦事項」、「將這些推送到 GitHub」或「建立問題」時，請使用此選項。这是实际写入存储库的步骤，因此优于手动 API 调用。创建后，它会写入 github_backlog_result.json 以用于 github-writeback-tracking。

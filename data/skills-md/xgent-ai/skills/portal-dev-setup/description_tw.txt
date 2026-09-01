@@ -1,0 +1,5 @@
+在您自己的应用程序存储库中，使用 Docker 启动真正的 XGENT.ai 门户（一体机）进行本地集成测试，无需克隆门户、无需修改门户代码、也无需重建门户映像。单个`onebox.sh init`检查本地puller凭据（`.xgent-registry.env`中的`REGISTRY`和`PULLER_AUTH`;如果丢失，停止并让用户从开发团队获取它们）→自动`docker登录`并拉取门户镜像→从镜像中提取compose资产，选择空闲端口，生成`compose.env`；然后，按照固定的顺序，运行 `migrate` → `seed` → `register-app` → 啟動堆疊，最後使用 iframe/curl 驗證全鏈。  
+
+對於任何涉及「第一次將我的應用程式連接到門戶進行調試/啟動一體機/啟動本地門戶/拉取門戶映像/本地門戶集成失敗/一體機重置”的任務，或者當錯誤拉取門戶映像失敗、未經授權、被拒絕、“/svc/<key>”404或502、本地主機無法存取、「連接埠已指派」、「COMPOSE_PROJECT_NAME」衝突導致其他容器被接管等錯誤時，portal-api不斷不健康、「register-app」報告「VALIDATION_FAILED」、內省401、有效 TDT 被判斷為「INVALID_TOKEN」、iframe 白螢幕、跨應用程式交換在啟動器上收到 401 等，請務必在執行「docker compose」之前先使用此技能 - 即使使用者只說「啟動入口網站」。  
+
+當外部應用程式團隊從自己的儲存庫本地啟動、冒煙測試、重置或調試真實的 XGENT 入口網站（一體式 Docker 堆疊）時使用，無需門戶 monorepo。

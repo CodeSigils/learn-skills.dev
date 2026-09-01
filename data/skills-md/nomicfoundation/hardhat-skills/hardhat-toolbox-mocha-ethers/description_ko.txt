@@ -1,0 +1,1 @@
+프로젝트가 `@nomicfoundation/hardhat-toolbox-mocha-ethers`에 의존하는 경우 `hardhat` 기술과 함께 사용하세요. `network.create()`, 계약 상호 작용(`ethers.deployContract`, 함수 호출, `connect`), TypeChain 유형 계약 인스턴스 및 `@nomicfoundation/hardhat-ethers-chai-matchers`(`.to.emit`, `.to.be.revertedWith*`, `.to.changeEtherBalance(s)`의 chai 일치자에 노출된 에테르 헬퍼를 다룹니다.

@@ -1,0 +1,1 @@
+始終呼叫任何涉及文件字串、JSDoc/TSDoc 或 REST API 文件的任務 — 即使請求看起來無需它即可處理。強制執行 Microsoft 契約優先約定和 Claude 預設不會套用的最低限度規則：從不重述簽名、刪除僅回顯名稱和類型的 @param/@returns、始終記錄 @throws，並將資料形狀記錄為 WHAT 而非 WHY。涵蓋 Python 文件字串樣式 (Google/NumPy/Sphinx)、TSDoc 標籤和 @inheritDoc，以及 NestJS/Express/FastAPI/Django 的 API 文件模式。觸發條件：新增或審核文件字串、冗餘或缺少的標籤、刪除腐爛的評論或產生文件運行狀況報告。不要跳過文檔任務－一致的約定才是重點。
