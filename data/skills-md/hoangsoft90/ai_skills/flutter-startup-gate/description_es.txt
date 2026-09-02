@@ -1,0 +1,1 @@
+Úselo cuando una aplicación Flutter falla al inicio con un LateInitializationError o cuando los widgets leen un campo antes de que se complete el inicio asíncrono (base de datos abierta, cableado de servicio). Agregue una puerta de inicio que muestre un inicio hasta que se inicialice, una pantalla de error con reintento en caso de falla y protección contra el doble inicio.

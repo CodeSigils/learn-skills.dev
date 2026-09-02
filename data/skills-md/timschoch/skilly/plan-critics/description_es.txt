@@ -1,0 +1,7 @@
+Critica un plan de implementación, o un mapa/boleto de orientación, desde múltiples ángulos
+(seguridad, simplicidad, casos extremos, variación del alcance, conflictos de base de código, mejores tecnologías específicas
+prácticas) a través de subagentes críticos paralelos.
+Activador: el usuario dice "kritisiere den plan", "plan check", "plan-kritik", "blinde flecken",
+"/plan-critics" — también se invoca cuando un agente de planificación quiere validar su propio plan antes
+presentándolo, o una sesión de wayfinder quiere que se verifique una resolución antes de cerrar un ticket.
+Debe llamarse en el nivel superior (no dentro de un subagente): utiliza la herramienta Tarea.

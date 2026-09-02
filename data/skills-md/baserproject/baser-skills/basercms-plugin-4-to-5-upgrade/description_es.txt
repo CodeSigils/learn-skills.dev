@@ -1,0 +1,25 @@
+Una colección de patrones de reescritura concretos para controladores, tablas, entidades, vistas, ayudas, formularios, Vue/JS al migrar código de complemento interno de baserCMS4 (basado en CakePHP2) a baserCMS5 (basado en CakePHP5). Los patrones incluyen:
+
+- "Migrar complemento de 4 a 5"
+- Mover los métodos `admin_` a `Controller/Admin`
+- Mover declaraciones `públicas $belongsTo/$hasMany` a `initialize()`
+- Reemplazar `ClassRegistry`/`TableRegistry`
+- Convertir `find('all'/'first'/'list', array...)` al generador de consultas
+- Cambie `$this->Model` (nulo) a `fetchTable`
+- Cambiar singular a plural en `getControlSource`
+- Reemplace `$this->Form` con `BcAdminForm`/`control()`
+- Cambiar el nombre de los formularios de búsqueda de `búsquedas/` a `buscar/`
+- Cambiar el argumento de cadena del modelo `FormHelper::create` a nulo
+- Desaprobar `FormHelper::año()`, `mes()`, `domId()`
+- Utilice la sintaxis del patrón ICU para `Hora::formato`
+- `Número::formato` / `Texto::truncar` ya no acepta valores nulos
+- No hay adición automática de "IN" para condiciones de matriz; `nulo` se convierte en `IS`
+- Convierta las URL de administrador de Vue/JS a `$.bcUtil.adminBaseUrl` y reconstruya con webpack
+- `$this->data` / `$View->request` puede hacer que los ayudantes se carguen incorrectamente
+- Manejar `MissingTableClassException`, `MissingHelperException`, “No se encontró ningún proveedor de contexto”
+- Las bibliotecas externas incluidas a través de `App::import` (por ejemplo, leafo/scssphp) no se trasladan a la serie 5 y dejarán de funcionar.
+- Eliminación de PHP8 de `each()`, escape de expresiones regulares inadecuado y otras incompatibilidades de PHP8 en bibliotecas empaquetadas antiguas
+
+Utilícelo como referencia paso a paso para eliminar cada error de pantalla, modelo, plantilla o visualización frontal durante la migración. Esta habilidad se centra en detectar y convertir modismos de la serie 4; Para conocer la sintaxis correcta de la serie 5, consulte **basercms5-plugin-development**.
+
+Los procedimientos generales de migración (instalación, migración de base de datos, conversión de tema/complemento, flujo de trabajo de Git) están documentados en **basercms4-to-5-upgrade**. La migración de temas (centrada en `plantillas`) se encuentra en **basercms-theme-4-to-5-upgrade**. La migración del complemento de 5.2 a 5.3 está cubierta por **basercms-plugin-5x-update**. Las migraciones principales de CakePHP se encuentran en **cakephp-migration**. Las migraciones de PHP‑core se encuentran en **php-migration**. La ejecución de la prueba se describe en **basercms-unittest**. Al mover complementos complementarios de campos personalizados (por ejemplo, para blogs) a **bc-custom-content**, consulte **basercms5-custom-content-development**.

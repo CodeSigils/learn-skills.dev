@@ -1,0 +1,1 @@
+Úselo cuando la "prueba de aleteo" ejecuta menos pruebas de las esperadas o cuando un archivo de prueba parece omitido silenciosamente. `flutter test` solo descubre archivos que terminan en `_test.dart`; `acceptance_tests.dart` es un Dart válido pero nunca se ejecuta con el ejecutor predeterminado. Verifique el nombre, luego el contador.

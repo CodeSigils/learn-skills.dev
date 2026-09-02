@@ -1,0 +1,1 @@
+Úselo al escribir o depurar consultas SQLite FTS5 en Dart (snippet(), bm25(), MATCH) que devuelven resultados vacíos o arrojan resultados. Cubre la trampa de alias (snippet/bm25 son funciones de nivel superior que toman el nombre de la tabla, no métodos en un alias) y el patrón de sonda primero para aislar SQL del código de la aplicación.

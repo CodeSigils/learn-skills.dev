@@ -1,0 +1,7 @@
+Habilidad de diseño de experimentos A/B. A partir del objetivo experimental, genere un plan de experimento completo (hipótesis, agrupación, sistema métrico, estimación del tamaño de la muestra, reglas de limitación de pérdidas, criterios de decisión).  
+Condiciones de activación: el usuario menciona palabras clave como "pruebas A/B", "experimento AB", "diseño de experimento", "experimento de control", "experimento de división del tráfico", "plan de implementación gris", "plan de experimento", "cálculo del tamaño de la muestra", "prueba de significancia", "evaluación del experimento", "valor p", "intervalo de confianza", "MDE", "poder estadístico", "duración del experimento", "regla de parada de pérdidas", etc.  
+También se aplica cuando: el usuario proporciona el objetivo del experimento/puntos modificables/nivel de volumen de datos/restricciones de duración y solicita un plan de experimento; el usuario solicita evaluar si el diseño de un experimento existente es razonable; el usuario solicita desarrollar estándares de decisión experimental y reglas de decisión.  
+Entrada típica: objetivo del experimento + puntos modificables + nivel de volumen de datos actual + duración aceptable del experimento.  
+No aplicable: análisis de datos puro (use pm-analytics), diseño de seguimiento puro (use track-spec-writer), escritura PRD pura (use pm-prd-writer).  
+
+Por favor responda siempre en el idioma del usuario.
