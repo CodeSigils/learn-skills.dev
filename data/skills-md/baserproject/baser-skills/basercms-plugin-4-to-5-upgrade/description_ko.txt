@@ -1,0 +1,25 @@
+baserCMS4(CakePHP2 기반)에서 baserCMS5(CakePHP5 기반)로 내부 플러그인 코드를 마이그레이션할 때 컨트롤러, 테이블, 엔터티, 뷰, 도우미, 양식, Vue/JS에 대한 구체적인 재작성 패턴 모음입니다. 주제는 다음과 같습니다:
+
+- “플러그인을 4에서 5로 마이그레이션”
+- `admin_` 메소드를 `Controller/Admin`으로 이동합니다.
+- `public $belongsTo/$hasMany`를 `initialize()`로 변환합니다.
+- `ClassRegistry`/`TableRegistry` 교체
+- `find(all/first/list, array)`를 쿼리 빌더로 변경합니다.
+- `$this->Model`(null)을 `fetchTable`로 교체하세요.
+- `getControlSource`를 단수형에서 복수형으로 변경합니다.
+- `$this->Form`을 `BcAdminForm`·`control()`로 교체
+- 검색 양식의 이름을 `searches/`에서 `search/`로 바꿉니다.
+- `FormHelper::create` 문자열 모델을 null로 조정
+- `FormHelper::year()`, `month()`, `domId()` 지원 중단
+- `Time::format`에 ICU 패턴을 사용합니다.
+- `Number::format` / `Text::truncate`에서 null을 허용하지 않습니다.
+- 배열 조건에 대한 자동 'IN' 추가가 없습니다. null은 'IS'가 됩니다.
+- Vue/JS 관리 URL을 `$.bcUtil.adminBaseUrl`로 업데이트하고 webpack으로 다시 빌드
+- `$this->data` / `$View->request`가 도우미 오로드를 유발하는 것을 방지합니다.
+- `MissingTableClassException`, `MissingHelperException`, "컨텍스트 공급자를 찾을 수 없음" 처리
+- `App::import` 번들 공급업체 라이브러리(예: leafo/scssphp)는 버전 5로 포팅되지 않아 중단됩니다.
+- 오래된 번들 라이브러리에서 `each()`, 잘못된 정규식 이스케이프 및 기타 PHP8 비호환성과 같은 PHP8 제거 문제를 해결합니다.
+
+작업은 플러그인의 UI, 모델, 템플릿 및 프런트 엔드 디스플레이의 각 오류를 수정하는 것으로 구성됩니다. 이 기술은 4계열 관용구를 감지하고 변환하는 데 중점을 둡니다. 올바른 5 시리즈 구문에 대한 최종 가이드는 **basercms5-plugin-development**입니다.
+
+전체 사이트 마이그레이션 단계(설치/DB 마이그레이션/테마 및 플러그인 변환/Git 워크플로)는 **basercms4-to-5-upgrade**에서 다룹니다. **basercms-theme-4-to-5-upgrade**의 테마(템플릿 중심) 마이그레이션; **basercms-plugin-5x-update**의 5.2→5.3에서 플러그인 마이그레이션; **cakephp-migration**의 CakePHP 코어 문제; **php-migration**의 PHP 코어 문제; **basercms-unittest**에서 테스트 실행; 블로그 등의 사용자 정의 필드 추가 기능 플러그인을 **bc‑custom‑content**로 마이그레이션하는 방법은 **basercms5-custom-content-development**에 설명되어 있습니다.

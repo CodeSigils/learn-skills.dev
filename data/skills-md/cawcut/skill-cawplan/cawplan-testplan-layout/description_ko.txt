@@ -1,0 +1,4 @@
+미리보기 우선 워크플로를 사용하여 버전/티켓 범위의 가져온 사례에서 CawPlan QA Insights TestRail 테스트 계획을 조율합니다.
+사용 시기: 케이스를 가져온 후 CawPlan 버전 또는 하나 이상의 CawPlan 티켓에 대한 A2 TestRail 계획/실행을 생성하거나 실행합니다.
+해당되지 않음: 테스트 사례 가져오기(`cawplan-testcase-import` 사용) 테스트 포인트 생성; 실행 요약; 결함 신고; 릴리스 위험.
+제품 이름을 확인하기 위해 `cawplan api GET /api/v1/public/openapi/product/{product_id}`를 사용하지 마십시오. 해당 경로는 존재하지 않습니다.

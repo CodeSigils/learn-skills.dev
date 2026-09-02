@@ -1,0 +1,5 @@
+QA Insights A4를 통해 실패/차단된 TestRail 결과의 CawPlan 결함을 제출하거나 연결합니다.
+사용 시기: SQA는 TestRail 실패/차단 결과를 CawPlan 티켓으로 전환하고, 테스트/보기 URL을 붙여넣어 결함을 제출하고, A4 결함 초안을 검토하고, BUGFIX/FEATURE 티켓을 생성하거나, 기존 티켓을 TestRail 결함에 다시 연결하려고 합니다.
+테스트/뷰를 사용한 콜드 스타트는 결함 초안 이전에 --test-id 실행 실패를 호출해야 합니다. 초안 경로 result_id로 test_id를 사용하지 마십시오.
+A4 쓰기 경로(create-ticket)는 --body-file 또는 --body JSON을 사용해야 합니다. --description 또는 --result-id와 같은 필드 플래그는 절대 사용하지 마세요.
+해당되지 않음: 테스트 사례 가져오기(`cawplan-testcase-import` 사용) TestRail 계획/실행 생성(`cawplan-testplan-layout` 사용) 방출 위험 평가; 요구사항 또는 테스트 포인트 생성.

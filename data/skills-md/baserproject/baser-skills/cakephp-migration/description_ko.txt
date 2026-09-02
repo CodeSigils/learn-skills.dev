@@ -1,0 +1,23 @@
+baserCMS의 CakePHP 버전 업그레이드(5.0 → 5.1 → 5.2 …)를 위한 더 이상 사용되지 않는 주요 변경 패턴 및 수정 레시피 모음입니다.
+
+- "연결 별칭이 이미 설정되었습니다."
+- "같은 이름의 유효성 검사 규칙이 이미 존재합니다."
+- “_토큰을 찾을 수 없습니다”
+- "헤더가 이미 전송되었습니다."
+- "X라는 플러그인이 이미 로드되었습니다."
+- ResultSet/PaginatedResultSet의 오류
+- 더 이상 사용되지 않는order() / group()
+- 이벤트 리스너의 더 이상 사용되지 않는 반환 값
+- 더 이상 사용되지 않음find('all', $options)
+- Table::get에 대한 배열 옵션이 더 이상 사용되지 않음/명명된 인수 사용
+- 조건 배열에 null 값이 포함된 경우의 예외
+- _cake_core_ 캐시 설정
+- 플러그인Bootstrap에서 후속 플러그인의 settings.php가 로드되지 않고 구성이 null입니다(실시간 반복).
+- _checkFilePath의 ".." 템플릿에 대한 MissingPluginException/500
+- 루트의 parent_id가 null로 설정된 경우 TreeBehavior가 왼쪽/오른쪽을 손상시킵니다.
+- Entity::set를 통한 대량 배열 설정은 더 이상 사용되지 않습니다.
+- AbstractMigration/AbstractSeed 더 이상 사용되지 않음 → BaseMigration/BaseSeed (cakephp/migrations4.5+)
+- config/routes.php에서 fallbacks()를 사용할 때 테스트에서만 404
+- 도우미 실제 메서드는 매직 메서드 위임이 되어 method_exists가 false를 반환하도록 합니다(예: TextHelper::truncate → is_callable 확인).
+
+...그리고 CakePHP 코어 및 관련 패키지에서 발생하는 기타 문제도 있습니다. 이러한 문제를 조사하고 해결할 때 이 문서를 참조하세요. 최신 CakePHP 버전을 지원하는 경우 이 가이드에 버전별 항목을 추가하세요. PHP 자체로 인해 발생하는 문제의 경우 php‑migration 기술을 참조하세요.

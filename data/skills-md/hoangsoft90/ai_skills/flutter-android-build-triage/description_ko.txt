@@ -1,0 +1,1 @@
+Flutter Android 빌드가 실패할 때 사용합니다(`flutter 빌드 apk`, Gradle 오류, 플러그인 비호환성, AGP/Gradle 버전 충돌, sqlite3_initialize와 같은 기본 자산 오류, ENOSPC/디스크 가득 참, 손상된 pub 캐시). Gradle 출력에서 ​​비난 라인을 찾아서 진단하고, 증상 표에서 일치하는 수정 사항을 적용한 다음, 깨끗한 빌드로 확인합니다.
