@@ -1,0 +1,4 @@
+Orchestrate CawPlan QA Insights TestRail test plans from Version/Ticket-scoped imported cases with preview-first workflow.
+Use when: creating or executing A2 TestRail Plans/Runs for a CawPlan version or one or more CawPlan tickets after cases have been imported.
+NOT for: importing test cases (use `cawplan-testcase-import`); generating test points; execution summaries; defect filing; release risk.
+Do NOT use `cawplan api GET /api/v1/public/openapi/product/{product_id}` to resolve product name — that route does not exist.

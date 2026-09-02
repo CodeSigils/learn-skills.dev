@@ -1,0 +1,1 @@
+Use when a Flutter Android build fails (`flutter build apk`, Gradle errors, plugin incompatibility, AGP/Gradle version conflicts, native-assets errors like sqlite3_initialize, ENOSPC/disk full, corrupted pub cache). Diagnose by finding the blame line in the Gradle output, apply the matching fix from the symptom table, then verify with a clean build.

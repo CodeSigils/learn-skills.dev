@@ -1,0 +1,1 @@
+Use when `flutter test` runs fewer tests than expected, or a test file seems silently skipped. `flutter test` only discovers files ending in `_test.dart` — `acceptance_tests.dart` is valid Dart but never runs under the default runner. Verify the naming, then the counter.

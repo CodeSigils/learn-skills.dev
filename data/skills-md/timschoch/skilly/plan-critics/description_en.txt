@@ -1,0 +1,7 @@
+Critiques an implementation plan — or a wayfinder map/ticket — from multiple angles
+(security, simplicity, edge cases, scope creep, codebase conflicts, tech-specific best
+practices) via parallel critic subagents.
+Trigger: user says "kritisiere den plan", "plan check", "plan-kritik", "blinde flecken",
+"/plan-critics" — also invoke when a planning agent wants to validate its own plan before
+presenting it, or a wayfinder session wants a resolution checked before closing a ticket.
+Must be called at top-level (not inside a subagent) — it uses the Task tool.

@@ -1,0 +1,3 @@
+Pull human-input logs from CawPlan (by product, user/member, date range, count, or session), preprocess prev/assistant context like production classify, and open a local web editor to annotate expected category/topic labels for prompt eval fixtures.
+Use when: building or extending a labeled human-input sample JSON for classify prompt testing — e.g. "pull 20 turns from spx's Slack session last week and label them", "sample human inputs for core-product".
+NOT for: running classify accuracy against cloud labels (use cawplan-internal-qa-coding-humaninputs-test), classifying a single sentence (use cawplan-internal-qa-coding-humaninputs), or submitting coding reports.

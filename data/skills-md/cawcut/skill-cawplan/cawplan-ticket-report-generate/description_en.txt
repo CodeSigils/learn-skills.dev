@@ -1,0 +1,4 @@
+Generate and upsert a Ticket-scoped QA Report (PROGRESS or COMPLETION) for any CawPlan Ticket (anchor) + Version: collect anchor-relative subtree/relation/execution data, apply result rules, render ticket-qa-report.1 template, and persist via existing Portal qa_report POST/PUT.
+Use when: SQA asks for a test progress or completion QA report for a ticket and version (Story, requirement sub-ticket, or BUGFIX); republish/update an existing linked report; include related/blocking tickets in report scope.
+NOT for: Version Quality Report or AQA automation rollup; release risk assessment (use A5 separately); importing cases (A1), plan layout (A2), or defect filing (A4).
+V1 zero-BE: Agent-side upsert; approximate coverage; anchor-relative subtree depth ≤ 3.

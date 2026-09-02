@@ -1,0 +1,1 @@
+Verify and fix Android release signing for any Expo/React Native build. Use when Play Console rejects an upload with "signed in debug mode", when a CI-built APK/AAB needs its signer certificate checked, when a release-signing config plugin seems to inject signing wrong, or when jarsigner vs apksigner verification is needed. Not project-specific.

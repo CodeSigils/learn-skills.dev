@@ -1,0 +1,5 @@
+File or link CawPlan defects from failed/blocked TestRail Results via QA Insights A4.
+Use when: SQA wants to turn a TestRail Failed/Blocked Result into a CawPlan Ticket, paste a tests/view URL to file a defect, review an A4 defect draft, create a BUGFIX/FEATURE ticket, or link an existing ticket back to TestRail defects.
+Cold start with tests/view MUST call execution failures --test-id BEFORE defects draft; never use test_id as the draft path result_id.
+A4 write path (create-ticket) MUST use --body-file or --body JSON — never field flags like --description or --result-id.
+NOT for: importing test cases (use `cawplan-testcase-import`); creating TestRail Plans/Runs (use `cawplan-testplan-layout`); release risk assessment; generating requirements or test points.
