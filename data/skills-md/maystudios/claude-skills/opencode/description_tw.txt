@@ -1,0 +1,1 @@
+呼叫 OpenCode CLI 作為子代理，利用替代 AI 模型（GPT-5.x、Codex、本地模型）進行程式碼實施、審查、調試、研究和第二意見。當使用者要求「使用 opencode」、「從 GPT/Codex 取得第二意見」、「使用 opencode 實作」、「使用 opencode 進行審查」、「讓 opencode 處理此問題」、「使用不同的模型」或想要跨模型驗證時使用。當使用者明確命名 OpenCode 模型（例如「使用 gpt-5.4」、「使用 codex」）或想要將任務委託給非 Claude AI 系統時也會觸發。支援在使用者的 OpenCode 安裝中配置的所有提供者（OpenAI、GitHub Copilot、透過 Ollama/LM Studio 的本機模型以及 OpenCode 自己的免費層模型）。

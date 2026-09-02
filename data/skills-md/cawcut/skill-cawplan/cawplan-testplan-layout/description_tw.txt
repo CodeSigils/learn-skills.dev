@@ -1,0 +1,4 @@
+透過預覽優先工作流程，從版本/票證範圍內的導入案例中編排 CawPlan QA Insights TestRail 測試計劃。
+使用時機：在匯入案例後，為 CawPlan 版本或一張或多張 CawPlan 票據建立或執行 A2 TestRail 計畫/運行。
+不適用於：導入測試案例（使用“cawplan-testcase-import”）；產生測試點；執行摘要；缺陷歸檔；釋放風險。
+不要使用“cawplan api GET /api/v1/public/openapi/product/{product_id}”來解析產品名稱 - 該路由不存在。

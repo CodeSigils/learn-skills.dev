@@ -1,0 +1,1 @@
+分析 VictoriaMetrics 查詢追蹤 JSON 以診斷緩慢查詢並產生包含時間細分、瓶頸分析和最佳化建議的結構化效能報告。在以下情況下始終使用此技能：(1) 使用者提及 VictoriaMetrics 或 VM 追蹤、查詢追蹤或追蹤 JSON，(2) 使用者提供或引用包含uration_msec/message/children 欄位的 JSON 文件，(3) 使用者詢問為何 VictoriaMetrics/VM 查詢速度vmselect trace、trace=1 或使用 VictoriaMetrics 進行查詢效能除錯。此技能提供了一個結構化的報告模板，可確保一致、徹底的分析 - 如果沒有它，請勿嘗試分析虛擬機器追蹤。

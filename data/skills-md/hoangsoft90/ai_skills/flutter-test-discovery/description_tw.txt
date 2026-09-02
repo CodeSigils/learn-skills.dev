@@ -1,0 +1,1 @@
+當“flutter test”運行的測試少於預期，或者測試文件似乎被悄悄跳過時使用。 `flutter test` 只發現以 `_test.dart` 結尾的檔案 - `acceptance_tests.dart` 是有效的 Dart，但永遠不會在預設執行器下運作。驗證命名，然後驗證計數器。

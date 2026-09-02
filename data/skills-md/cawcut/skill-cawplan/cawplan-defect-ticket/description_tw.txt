@@ -1,0 +1,5 @@
+透過 QA Insights A4 歸檔或連結失敗/阻止的 TestRail 結果中的 CawPlan 缺陷。
+在以下情況下使用：SQA 想要將 TestRail 失敗/阻止結果轉換為 CawPlan 票證、貼上測試/檢視 URL 來提交缺陷、審查 A4 缺陷草稿、建立 BUGFIX/FEATURE 票證或將現有票證連結回 TestRail 缺陷。
+使用測試/視圖冷啟動必須在缺陷草稿之前呼叫執行失敗 --test-id；切勿使用 test_id 作為草稿路徑 result_id。
+A4 寫入路徑（建立票證）必須使用 --body-file 或 --body JSON — 切勿使用 --description 或 --result-id 等欄位標誌。
+不適用於：導入測試案例（使用“cawplan-testcase-import”）；建立 TestRail 計劃/運行（使用“cawplan-testplan-layout”）；發布風險評估；產生需求或測試點。
