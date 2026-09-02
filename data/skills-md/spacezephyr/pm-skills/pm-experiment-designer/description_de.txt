@@ -1,0 +1,9 @@
+Fähigkeit zum Design von A/B-Experimenten. Erstellen Sie ausgehend vom Versuchsziel einen vollständigen Versuchsplan (Hypothesen, Gruppierung, metrisches System, Schätzung der Stichprobengröße, Stop-Loss-Regeln, Entscheidungsregeln).
+
+Auslösebedingungen: Der Benutzer erwähnt Schlüsselwörter wie „A/B-Testing“, „AB-Experiment“, „Experimentdesign“, „Kontrollexperiment“, „Traffic-Splitting-Experiment“, „Gray Rollout“, „Experimentplan“, „Stichprobengrößenberechnung“, „Signifikanztest“, „Experimentauswertung“, „p-Wert“, „Konfidenzintervall“, „MDE“, „statistische Aussagekraft“, „Experimentdauer“, „Stop-Loss-Regel“ usw.
+
+Gilt auch, wenn: der Benutzer das Versuchsziel / veränderbare Elemente / Datenskala / Dauerbeschränkungen angibt und einen Versuchsplan anfordert; der Benutzer möchte beurteilen, ob ein bestehender Versuchsaufbau sinnvoll ist; Der Benutzer möchte Entscheidungskriterien und Entscheidungsregeln für Experimente definieren.
+
+Typische Eingabe: Versuchsziel + veränderbare Elemente + aktuelle Datenskala + akzeptable Versuchsdauer.
+
+Nicht anwendbar: reine Datenanalyse (verwenden Sie pm-analytics), reines Instrumentierungsdesign (verwenden Sie Tracking-Spec-Writer), reines PRD-Schreiben (verwenden Sie pm-prd-writer).

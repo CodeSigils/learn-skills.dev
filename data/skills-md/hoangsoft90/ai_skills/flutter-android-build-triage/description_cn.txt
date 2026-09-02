@@ -1,0 +1,1 @@
+当 Flutter Android 构建失败时使用（“flutter build apk”、Gradle 错误、插件不兼容、AGP/Gradle 版本冲突、本机资产错误（如 sqlite3_initialize、ENOSPC/磁盘已满、损坏的 pub 缓存））。通过在 Gradle 输出中查找故障行进行诊断，应用症状表中的匹配修复，然后使用干净的构建进行验证。

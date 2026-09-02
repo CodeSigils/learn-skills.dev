@@ -1,0 +1,4 @@
+Generieren und aktualisieren Sie einen Ticket-bezogenen QA-Bericht (PROGRESS oder COMPLETION) für jedes CawPlan-Ticket (Anker) + Version: Sammeln Sie ankerrelative Teilbaum-/Beziehungs-/Ausführungsdaten, wenden Sie Ergebnisregeln an, rendern Sie die Vorlage „ticket-qa-report.1“ und bleiben Sie über den vorhandenen Portal-qa_report-POST/PUT bestehen.
+Verwenden Sie, wenn: SQA einen Testfortschritts- oder Abschluss-QA-Bericht für ein Ticket und eine Version (Story, Anforderungsunterticket oder BUGFIX) anfordert; einen vorhandenen verknüpften Bericht erneut veröffentlichen/aktualisieren; Fügen Sie zugehörige/blockierende Tickets in den Berichtsumfang ein.
+NICHT für: Versionsqualitätsbericht oder AQA-Automatisierungs-Rollup; Bewertung des Freisetzungsrisikos (A5 separat verwenden); Importieren von Fällen (A1), Planlayout (A2) oder Fehlerablage (A4).
+V1 Zero-BE: Agentenseitiger Upsert; ungefähre Abdeckung; Ankerrelative Teilbaumtiefe ≤ 3.

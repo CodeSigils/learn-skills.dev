@@ -1,0 +1,1 @@
+分析 VictoriaMetrics 查询跟踪 JSON 以诊断缓慢查询并生成包含时间细分、瓶颈分析和优化建议的结构化性能报告。在以下情况下始终使用此技能：(1) 用户提及 VictoriaMetrics 或 VM 跟踪、查询跟踪或跟踪 JSON，(2) 用户提供或引用包含uration_msec/message/children 字段的 JSON 文件，(3) 用户询问为什么 VictoriaMetrics/VM 查询速度慢且具有跟踪输出，(4) 用户询问 vmstorage 节点分布、缓存未命中或跟踪上下文中的汇总性能，(5) 用户提到 vmselect trace、trace=1 或使用 VictoriaMetrics 进行查询性能调试。此技能提供了一个结构化的报告模板，可确保一致、彻底的分析 - 如果没有它，请勿尝试分析虚拟机跟踪。

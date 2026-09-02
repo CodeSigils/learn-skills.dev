@@ -1,0 +1,1 @@
+与框架无关的 Roblox/Luau 编码标准。在 Roblox 项目中编写、审查或重构任何 Luau 代码（Script、LocalScript、ModuleScript）时，或者当用户要求牢记最佳实践作为长期指导时使用 — 强制执行变量/函数/初始化布局、命名、性能、内存、网络和安全规则，无论框架、文件夹结构或类型如何。两种模式：默认（按原样应用这些约定）和自适应（首先研究项目现有的样式，确认，然后应用）。适应社区库（ProfileStore、Packet、Trove、Knit、Fusion...）并尊重监督级别（!ask / !bal / !go）。不适用于非 Roblox Lua、Studio UI 或不涉及代码的资产问题，或无需编写或审查 Luau 的游戏设计讨论。

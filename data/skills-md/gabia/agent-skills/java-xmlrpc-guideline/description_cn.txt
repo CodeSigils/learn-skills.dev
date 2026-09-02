@@ -1,0 +1,1 @@
+当 Java XML-RPC API 工作需要针对故障信号和互操作性做出契约决策时使用，包括定义基于 XmlRpcException 的故障、用显式操作结果替换 void 返回、检查返回代码反模式的处理程序以及将 DTO 从 Serialized 迁移到 JAXB。

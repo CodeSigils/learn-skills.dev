@@ -1,0 +1,1 @@
+À utiliser lors de l'écriture ou du débogage de requêtes SQLite FTS5 dans Dart (snippet(), bm25(), MATCH) qui renvoient des résultats vides ou lancent. Couvre le piège d'alias (l'extrait/bm25 sont des fonctions de niveau supérieur prenant le nom de la table, pas les méthodes sur un alias) et le modèle de sonde en premier pour isoler SQL du code de l'application.

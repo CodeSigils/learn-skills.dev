@@ -1,0 +1,4 @@
+Orchestrez les plans de test CawPlan QA Insights TestRail à partir de cas importés au niveau version/ticket avec un flux de travail de prévisualisation en premier.
+À utiliser lors de : la création ou l'exécution de plans/exécutions A2 TestRail pour une version de CawPlan ou un ou plusieurs tickets CawPlan après l'importation des cas.
+PAS pour : importer des cas de test (utilisez `cawplan-testcase-import`) ; générer des points de test ; résumés d'exécution; dépôt de défauts ; risque de libération.
+N'utilisez PAS `cawplan api GET /api/v1/public/openapi/product/{product_id}` pour résoudre le nom du produit — cette route n'existe pas.

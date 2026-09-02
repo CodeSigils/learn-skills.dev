@@ -1,0 +1,5 @@
+QA Insights A4 を介して、失敗またはブロックされた TestRail 結果からの CawPlan 欠陥をファイルまたはリンクします。
+次の場合に使用します: SQA が TestRail の失敗/ブロックされた結果を CawPlan チケットに変換する場合、テスト/表示 URL を貼り付けて欠陥を提出する場合、A4 欠陥ドラフトをレビューする場合、BUGFIX/FEATURE チケットを作成する場合、または既存のチケットを TestRail 欠陥にリンクする場合。
+テスト/ビューによるコールド スタートは、欠陥ドラフトの前に実行失敗 --test-id を呼び出す必要があります。 test_id をドラフト パス result_id として使用しないでください。
+A4 書き込みパス (create-ticket) では、--body-file または --body JSON を使用する必要があります。--description や --result-id のようなフィールド フラグは使用しないでください。
+対象外: テスト ケースのインポート (「cawplan-testcase-import」を使用)。 TestRail プラン/実行の作成 (`cawplan-testplan-layout` を使用);放出リスク評価。要件やテストポイントを生成します。

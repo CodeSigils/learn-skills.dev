@@ -1,0 +1,3 @@
+AI 编码人工输入分类器的内部 QA 检查：通过 cawplan CLI 提取已上传的人工输入，通过 cawplan-internal-qa-coding- humaninputs 对每个输入进行分类，并将类别和/或主题与持久的云标签进行比较（仅类别、仅主题或两者一起模式），报告准确性和具体不匹配情况以供手动审核。
+使用时间：要求测试/验证/检查人工输入分类的准确性 - 例如“测试今天的类别准确性”、“仅检查上周的 spx 主题”、“比较过去 2 天的类别和主题” - 范围可选为一个人、一种产品或两者。
+不适用于：对单个临时句子进行分类（直接使用 cawplan-internal-qa-coding- humaninputs）、提交编码报告（使用 cawplan-coding-commit）、一般成本/使用情况洞察或提示质量分数（使用 cawplan-coding-insights）或创建票证。

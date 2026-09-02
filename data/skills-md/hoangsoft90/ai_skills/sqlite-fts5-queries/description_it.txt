@@ -1,0 +1,1 @@
+Da utilizzare durante la scrittura o il debug di query SQLite FTS5 in Dart (snippet(), bm25(), MATCH) che restituiscono risultati vuoti o generano eccezioni. Copre la trappola degli alias (snippet/bm25 sono funzioni di livello superiore che prendono il nome della tabella, non i metodi su un alias) e il modello "probe-first" per isolare SQL dal codice dell'app.

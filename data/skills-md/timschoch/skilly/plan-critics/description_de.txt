@@ -1,0 +1,7 @@
+Kritisiert einen Umsetzungsplan – oder eine Wegbeschreibung/ein Ticket – aus mehreren Blickwinkeln
+(Sicherheit, Einfachheit, Randfälle, Scope Creep, Codebasiskonflikte, technologiespezifische Bestwerte
+Praktiken) über parallele Kritik-Subagenten.
+Auslöser: Benutzer sagt „kritisiere den Plan“, „plan check“, „plan-kritik“, „blinde flecken“,
+„/plan-critics“ – wird auch aufgerufen, wenn ein Planungsagent seinen eigenen Plan vorher validieren möchte
+beim Präsentieren oder bei einer Wayfinder-Sitzung muss eine Lösung überprüft werden, bevor ein Ticket geschlossen wird.
+Muss auf oberster Ebene aufgerufen werden (nicht innerhalb eines Subagenten) – es verwendet das Task-Tool.

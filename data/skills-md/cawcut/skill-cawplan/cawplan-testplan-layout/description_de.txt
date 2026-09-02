@@ -1,0 +1,4 @@
+Orchestrieren Sie CawPlan QA Insights TestRail-Testpläne aus importierten Fällen mit Versions-/Ticketumfang und Vorschau-First-Workflow.
+Wird verwendet, wenn: A2 TestRail-Pläne/-Läufe für eine CawPlan-Version oder ein oder mehrere CawPlan-Tickets erstellt oder ausgeführt werden, nachdem Fälle importiert wurden.
+NICHT für: Testfälle importieren (verwenden Sie „cawplan-testcase-import“); Testpunkte generieren; Ausführungszusammenfassungen; Mängelrüge; Freisetzungsrisiko.
+Verwenden Sie NICHT „cawplan api GET /api/v1/public/openapi/product/{product_id}“, um den Produktnamen aufzulösen – diese Route existiert nicht.

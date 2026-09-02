@@ -1,0 +1,7 @@
+Critica un piano di implementazione – o una mappa/biglietto di orientamento – da più angolazioni
+(sicurezza, semplicità, casi limite, scorrimento dell'ambito, conflitti di base del codice, migliori tecnologie specifiche
+pratiche) tramite subagenti critici paralleli.
+Trigger: l'utente dice "kritisiere den plan", "plan check", "plan-kritik", "blinde flecken",
+"/plan-critics" — richiamato anche quando un agente di pianificazione desidera convalidare prima il proprio piano
+presentandolo, oppure una sessione wayfinder richiede che venga verificata una risoluzione prima di chiudere un ticket.
+Deve essere chiamato al livello principale (non all'interno di un agente secondario): utilizza lo strumento Attività.

@@ -1,0 +1,7 @@
+Critique un plan de mise en œuvre – ou une carte/un ticket d’orientation – sous plusieurs angles
+(sécurité, simplicité, cas extrêmes, dérive de la portée, conflits de base de code, meilleures spécifications techniques)
+pratiques) via des sous-agents critiques parallèles.
+Déclencheur : l'utilisateur dit "kritisiere den plan", "plan check", "plan-kritik", "blinde flecken",
+"/plan-critics" — également invoqué lorsqu'un agent de planification souhaite valider son propre plan avant
+le présentant, ou une session wayfinder souhaite qu'une résolution soit vérifiée avant de fermer un ticket.
+Doit être appelé au niveau supérieur (pas à l'intérieur d'un sous-agent) — il utilise l'outil Tâche.

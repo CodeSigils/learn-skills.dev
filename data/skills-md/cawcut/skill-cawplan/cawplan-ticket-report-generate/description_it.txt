@@ -1,0 +1,4 @@
+Genera e aggiorna un report QA con ambito ticket (PROGRESS o COMPLETION) per qualsiasi ticket CawPlan (anchor) + versione: raccogli dati di sottoalbero/relazione/esecuzione relativi all'ancora, applica regole di risultato, visualizza il modello ticket-qa-report.1 e persisti tramite il portale qa_report POST/PUT esistente.
+Da utilizzare quando: SQA richiede un report QA sull'avanzamento del test o sul completamento per un ticket e una versione (Storia, sottoticket dei requisiti o BUGFIX); ripubblicare/aggiornare un report collegato esistente; includere ticket correlati/bloccanti nell'ambito del report.
+NON per: Rapporto sulla qualità della versione o rollup automatico AQA; valutazione del rischio di rilascio (utilizzare A5 separatamente); casi di importazione (A1), layout del piano (A2) o archiviazione dei difetti (A4).
+V1 zero-BE: upsert lato agente; copertura approssimativa; profondità della sottostruttura relativa all'ancora ≤ 3.

@@ -1,0 +1,4 @@
+プレビューファーストのワークフローを使用して、バージョン/チケットを対象としたインポートされたケースから CawPlan QA Insights TestRail テスト計画を調整します。
+次の場合に使用します: ケースのインポート後に CawPlan バージョンまたは 1 つ以上の CawPlan チケットの A2 TestRail 計画/実行を作成または実行する。
+対象外: テスト ケースのインポート (「cawplan-testcase-import」を使用)。テストポイントを生成する。実行の概要。欠陥申告。リリースリスク。
+製品名を解決するために「cawplan api GET /api/v1/public/openapi/product/{product_id}」を使用しないでください。そのルートは存在しません。

@@ -1,0 +1,3 @@
+将一段文本（AI 编码的人工输入，可选地及其配对的助理回复和前一个助理尾部）分类到当前 v2 人工输入类别 + 主题分类法中，返回主要类别、完整的优先级排序类别数组、一个主题、topic_reason 和 topic_confidence — 针对 uid.core-product 的分类规则进行纯粹的推理检查，不涉及 CawPlan 数据或 API 调用。
+使用时间：要求根据当前类别和主题规则对特定句子或人工输入进行分类/分类 - 例如“这是什么类别/主题：...”、“用此助理回复对其进行分类”——或者作为 cawplan-internal-qa-coding- humaninputs-test 使用的每行分类步骤。
+不适用于：对许多已上传的人工输入进行批量/批量准确性测试，或者从 CawPlan 获取数据（使用 cawplan-internal-qa-coding- humaninputs-test ）、提交报告或创建票证。

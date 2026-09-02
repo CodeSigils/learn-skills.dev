@@ -1,1 +1,1 @@
-在本機 Docker 環境中執行與調查 baserCMS（CakePHP 5 / PHPUnit）單元測試的流程。當你需要「執行單元測試」、「執行全部測試」、「只執行此測試」、「調查測試失敗」、「單獨執行外掛測試」或「為外掛設定測試環境」時，請參考本文件。內容包含容器名稱、執行指令、用於自動批准權限的指令格式、失敗的彙總與隔離，以及為外掛單獨（獨立）執行單元測試所引入的機制步驟（composer.json / phpunit.xml.dist / tests/bootstrap.php / 完整 TestApp、phinx 0.16.10 版本鎖定）。
+在本地 Docker 环境中运行和研究 baserCMS (CakePHP5 / PHPUnit) 单元测试的程序。當你想要「執行單元測試」、「執行所有測試」、「只執行此測試」、「調查測試失敗」、「單獨執行插件測試」、「為插件設定測試環境」等時，請參閱此內容。它包括容器名稱、執行命令、自動權限批准的命令格式、聚合和隔離失敗的方法，以及引入為獨立插件執行單元測試的機制的步驟（composer.json、phpunit.xml.dist、 test/bootstrap.php、完整的 TestApp 設定和 Phinx0.16.10 引腳陷阱）。

@@ -1,0 +1,1 @@
+Da utilizzare quando `flutter test` esegue meno test del previsto o un file di test sembra ignorato silenziosamente. `flutter test` rileva solo i file che terminano con `_test.dart` — `acceptance_tests.dart` è un Dart valido ma non viene mai eseguito con il runner predefinito. Verificare la denominazione, quindi il contatore.

@@ -1,1 +1,1 @@
-Java XML-RPC API 작업에서 XmlRpcException 기반 오류 정의, void 반환을 명시적 작업 결과로 대체, 반환 코드 안티 패턴에 대한 핸들러 검토, Serialize에서 JAXB로 DTO 마이그레이션 등 오류 신호 및 상호 운용성을 위한 계약 결정이 필요한 경우에 사용합니다.
+Java XML-RPC API 작업에서 XmlRpcException 기반 실패 정의, void 반환을 명시적 작업 결과로 대체, 반환 코드 안티 패턴에 대한 핸들러 검토, Serialize에서 JAXB로 DTO 마이그레이션 등 오류 신호 및 상호 운용성에 대한 계약 결정이 필요한 경우에 사용합니다.

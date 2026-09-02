@@ -1,0 +1,1 @@
+设计 VictoriaMetrics 流聚合规则以减少基数、采样频率或查询负载。每当用户想要应用、计划或排除流聚合故障时使用（`-streamAggr.config`、`-remoteWrite.streamAggr.config`）、询问如何聚合高基数指标、提到在 vmagent 进行下采样、用流聚合替换记录规则、选择正确的聚合输出（`total`、`rate_sum`、`sum_samples`、`quantiles`、`histogram_bucket` 等）、选择聚合间隔，决定将 vmagent 放置在交付管道中的位置，或者是否扩展 vmagent 以进行聚合。还会触发“聚合直方图”、“通过 vmagent 删除标签”、“减少摄取的样本”、“在 vmagent 处预聚合”、“流聚合准确性”和“集群中的流聚合重复项”。

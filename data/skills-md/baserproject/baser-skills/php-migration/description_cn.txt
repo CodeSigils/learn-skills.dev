@@ -1,0 +1,1 @@
+一系列已弃用和重大更改的模式，以及用于 baserCMS PHP 版本升级（8.2、8.4、8.5 等）的修复方法。在调查或修复由 PHP 核心引起的升级警告/错误时使用它，例如“隐式可为空的弃用警告”、“创建动态属性...已弃用”、“fgetcsv 转义警告”、“ReflectionProperty::setValue 弃用”、“不推荐使用 (integer)/(boolean) 等非规范转换”、“不推荐使用 null 作为数组偏移量”、“自动发布函数，例如不推荐使用“curl_close / imagedestroy”，等等。当支持新的 PHP 版本时，请在此文档中添加特定于版本的注释。对于CakePHP本身的问题，请参考cakephp迁移技巧。

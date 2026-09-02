@@ -1,0 +1,1 @@
+用于 macOS 磁盘清理、开发机优化和主动健康警报的实践手册。当Mac已满或缓慢时，当进程持续消耗CPU时，当发生内核恐慌/看门狗超时/vm-compressor-space-shortage/Jetsam事件时，当用户要求释放磁盘空间、审核存储、设置磁盘/内存/CPU警报或在新Mac上恢复相同的监控时使用。围绕用于安全防护的 Mole (`mo` CLI) 以及用于主动警告的基于自定义 LaunchAgent 的警报器构建。涵盖具有繁重 AI/Docker 工作负载的 Apple Silicon 笔记本电脑。不适用于一般 macOS 支持、硬件诊断、网络问题、GUI/窗口管理器错误、时间机器恢复或损坏的应用程序安装。

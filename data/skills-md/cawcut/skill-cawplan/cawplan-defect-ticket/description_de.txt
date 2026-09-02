@@ -1,0 +1,5 @@
+Archivieren oder verknüpfen Sie CawPlan-Defekte aus fehlgeschlagenen/blockierten TestRail-Ergebnissen über QA Insights A4.
+Verwenden Sie diese Option, wenn: SQA ein TestRail-Fehler-/Blockierungsergebnis in ein CawPlan-Ticket umwandeln, eine Test-/Ansichts-URL einfügen möchte, um einen Fehler einzureichen, einen A4-Fehlerentwurf überprüfen, ein BUGFIX-/FEATURE-Ticket erstellen oder ein vorhandenes Ticket wieder mit TestRail-Fehlern verknüpfen möchte.
+Kaltstart mit Tests/Ansicht MUSS Ausführungsfehler aufrufen --test-id BEVOR der Fehlerentwurf erfolgt; Verwenden Sie niemals test_id als Entwurfspfad result_id.
+A4-Schreibpfad (create-ticket) MUSS --body-file oder --body JSON verwenden – niemals Feldflags wie --description oder --result-id.
+NICHT für: Testfälle importieren (verwenden Sie „cawplan-testcase-import“); Erstellen von TestRail-Plänen/-Läufen (verwenden Sie „cawplan-testplan-layout“); Bewertung des Freisetzungsrisikos; Generieren von Anforderungen oder Testpunkten.

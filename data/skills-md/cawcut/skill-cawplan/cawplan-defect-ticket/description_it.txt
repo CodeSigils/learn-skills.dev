@@ -1,0 +1,5 @@
+Archiviare o collegare i difetti CawPlan dai risultati TestRail non riusciti/bloccati tramite QA Insights A4.
+Da utilizzare quando: SQA desidera trasformare un risultato non riuscito/bloccato di TestRail in un ticket CawPlan, incollare un URL di test/visualizzazione per segnalare un difetto, rivedere una bozza di difetto A4, creare un ticket BUGFIX/FEATURE o collegare un ticket esistente ai difetti TestRail.
+L'avvio a freddo con test/visualizzazioni DEVE richiamare gli errori di esecuzione --test-id PRIMA della bozza dei difetti; non utilizzare mai test_id come percorso bozza result_id.
+Il percorso di scrittura A4 (crea-ticket) DEVE utilizzare --body-file o --body JSON: non inserire mai flag come --description o --result-id.
+NON per: importare casi di test (utilizzare `cawplan-testcase-import`); creazione di piani/percorsi TestRail (utilizzare `cawplan-testplan-layout`); valutazione del rischio di rilascio; generare requisiti o punti di test.

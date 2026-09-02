@@ -1,0 +1,5 @@
+Classez ou liez les défauts CawPlan à partir des résultats TestRail ayant échoué/bloqués via QA Insights A4.
+À utiliser lorsque : SQA souhaite transformer un résultat d'échec/blocage de TestRail en ticket CawPlan, coller une URL de tests/vue pour déposer un défaut, examiner un brouillon de défaut A4, créer un ticket BUGFIX/FEATURE ou lier un ticket existant aux défauts TestRail.
+Le démarrage à froid avec les tests/vues DOIT appeler les échecs d'exécution --test-id AVANT le brouillon des défauts ; n'utilisez jamais test_id comme brouillon de chemin result_id.
+Le chemin d'écriture A4 (create-ticket) DOIT utiliser --body-file ou --body JSON — ne jamais champ d'indicateurs comme --description ou --result-id.
+PAS pour : importer des cas de test (utilisez `cawplan-testcase-import`) ; créer des plans/exécutions TestRail (utilisez `cawplan-testplan-layout`) ; évaluation des risques liés à la libération ; générer des exigences ou des points de test.
