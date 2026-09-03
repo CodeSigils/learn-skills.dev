@@ -1,0 +1,5 @@
+Modèles RPC capnweb pour ce dépôt, avec un accent particulier sur le cycle de vie du stub
+et l'élimination. Charger en touchant tout ce qui traverse l'objet durable
+↔ limite de Computerd : packages/rpc, packages/computer, le client Computerd ou le
+Serveur d'objets durables. Les déclencheurs incluent "capnweb", "RpcTarget", "stub",
+" Fil RPC ", " pipeline de promesse ", " élimination des stub ", " RpcPromise ".
