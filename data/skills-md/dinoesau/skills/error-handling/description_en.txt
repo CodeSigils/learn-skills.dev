@@ -1,0 +1,1 @@
+Layers of Trust error handling architecture for this repo. Validate at edges with Result[T,E], parse with Pydantic + branded types, assert in core with assert_ok(). Never use bare assert. Use when writing new code, editing code, fixing bugs, or reviewing error/validation patterns. Load alongside coding-guide for code changes.

@@ -1,0 +1,1 @@
+Use when diagnosing issues with NVIDIA DCGM: hbm degradation, thermal runaway/throttling, nvlink errors, gpu hang (xid 13/31/43/79), or silent performance degradation. Queries Netdata via MCP for NVIDIA DCGM health signals, applies the diagnostic tree from the Netdata operator playbook, and recommends remediation.

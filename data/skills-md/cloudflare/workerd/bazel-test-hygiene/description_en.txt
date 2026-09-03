@@ -1,0 +1,1 @@
+Mandatory rules for running bazel tests during development. Load this skill before running any bazel test command, especially when validating fixes or verifying regression tests. Prevents false confidence from cached results, filter flags that silently match nothing, and partial test runs that miss breakage.

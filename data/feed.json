@@ -2,7 +2,7 @@
   "title": "Skills.sh Feed",
   "description": "Latest skill data from skills.sh",
   "link": "https://skills.sh",
-  "updatedAt": "2026-09-02T02:48:04.263Z",
+  "updatedAt": "2026-09-03T02:53:16.614Z",
   "providers": [
     {
       "id": "skills.sh",
@@ -15,7 +15,7 @@
       "id": "vercel-labs/skills/find-skills",
       "title": "find-skills",
       "source": "vercel-labs/skills",
-      "installs": 3213458,
+      "installs": 3229741,
       "link": "https://skills.sh/vercel-labs/skills/find-skills",
       "providerId": "skills.sh",
       "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
@@ -24,7 +24,7 @@
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 1032403,
+      "installs": 1042887,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -33,7 +33,7 @@
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 880025,
+      "installs": 889098,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
@@ -42,7 +42,7 @@
       "id": "mattpocock/skills/improve-codebase-architecture",
       "title": "improve-codebase-architecture",
       "source": "mattpocock/skills",
-      "installs": 845404,
+      "installs": 853588,
       "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
       "providerId": "skills.sh",
       "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
@@ -51,7 +51,7 @@
       "id": "anthropics/skills/frontend-design",
       "title": "frontend-design",
       "source": "anthropics/skills",
-      "installs": 843849,
+      "installs": 847456,
       "link": "https://skills.sh/anthropics/skills/frontend-design",
       "providerId": "skills.sh",
       "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
@@ -60,7 +60,7 @@
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 817799,
+      "installs": 825903,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
@@ -69,7 +69,7 @@
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 770402,
+      "installs": 778448,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
@@ -78,7 +78,7 @@
       "id": "mattpocock/skills/setup-matt-pocock-skills",
       "title": "setup-matt-pocock-skills",
       "source": "mattpocock/skills",
-      "installs": 754040,
+      "installs": 761642,
       "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
       "providerId": "skills.sh",
       "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
@@ -87,7 +87,7 @@
       "id": "mattpocock/skills/handoff",
       "title": "handoff",
       "source": "mattpocock/skills",
-      "installs": 720034,
+      "installs": 727985,
       "link": "https://skills.sh/mattpocock/skills/handoff",
       "providerId": "skills.sh",
       "description": "Compact the current conversation into a handoff document for another agent to pick up."
@@ -96,7 +96,7 @@
       "id": "mattpocock/skills/triage",
       "title": "triage",
       "source": "mattpocock/skills",
-      "installs": 710737,
+      "installs": 717932,
       "link": "https://skills.sh/mattpocock/skills/triage",
       "providerId": "skills.sh",
       "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
@@ -105,7 +105,7 @@
       "id": "mattpocock/skills/prototype",
       "title": "prototype",
       "source": "mattpocock/skills",
-      "installs": 701789,
+      "installs": 709253,
       "link": "https://skills.sh/mattpocock/skills/prototype",
       "providerId": "skills.sh",
       "description": "Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\"."
@@ -114,7 +114,7 @@
       "id": "vercel-labs/agent-skills/vercel-react-best-practices",
       "title": "vercel-react-best-practices",
       "source": "vercel-labs/agent-skills",
-      "installs": 682505,
+      "installs": 685162,
       "link": "https://skills.sh/vercel-labs/agent-skills/vercel-react-best-practices",
       "providerId": "skills.sh",
       "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
@@ -123,7 +123,7 @@
       "id": "mattpocock/skills/grilling",
       "title": "grilling",
       "source": "mattpocock/skills",
-      "installs": 599818,
+      "installs": 609303,
       "link": "https://skills.sh/mattpocock/skills/grilling",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
@@ -132,7 +132,7 @@
       "id": "vercel-labs/agent-skills/web-design-guidelines",
       "title": "web-design-guidelines",
       "source": "vercel-labs/agent-skills",
-      "installs": 599113,
+      "installs": 602240,
       "link": "https://skills.sh/vercel-labs/agent-skills/web-design-guidelines",
       "providerId": "skills.sh",
       "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
@@ -141,7 +141,7 @@
       "id": "mattpocock/skills/teach",
       "title": "teach",
       "source": "mattpocock/skills",
-      "installs": 575969,
+      "installs": 583322,
       "link": "https://skills.sh/mattpocock/skills/teach",
       "providerId": "skills.sh",
       "description": "Teach the user a new skill or concept, within this workspace."
@@ -150,7 +150,7 @@
       "id": "microsoft/azure-skills/microsoft-foundry",
       "title": "microsoft-foundry",
       "source": "microsoft/azure-skills",
-      "installs": 565812,
+      "installs": 568228,
       "link": "https://skills.sh/microsoft/azure-skills/microsoft-foundry",
       "providerId": "skills.sh",
       "description": "Deploy, evaluate, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, prompt optimization, prompt optimizer workflows, agent.yaml, dataset curation from traces. USE FOR: deploy agent to Foundry, hosted agent, create agent, invoke agent, evaluate agent, run batch eval, optimize prompt, improve prompt, prompt optimization, prompt optimizer, improve agent instructions, optimize agent instructions, optimize system prompt, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, create dataset from traces, dataset versioning, eval trending, create AI Services, Cognitive Services, create Foundry resource, provision resource, knowledge index, agent monitoring, customize deployment, onboard, availability. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare)."
@@ -159,7 +159,7 @@
       "id": "microsoft/azure-skills/azure-diagnostics",
       "title": "azure-diagnostics",
       "source": "microsoft/azure-skills",
-      "installs": 558804,
+      "installs": 561079,
       "link": "https://skills.sh/microsoft/azure-skills/azure-diagnostics",
       "providerId": "skills.sh",
       "description": "Debug and troubleshoot Azure Container Apps and Function Apps production issues using log analysis, health checks, and KQL. WHEN: debug production issues, troubleshoot containerized apps, troubleshoot Azure Functions, analyze logs with KQL, fix image pull failures, investigate health probe failures, troubleshoot cold starts, check resource health, find root cause of errors, function not working."
@@ -168,7 +168,7 @@
       "id": "microsoft/azure-skills/azure-prepare",
       "title": "azure-prepare",
       "source": "microsoft/azure-skills",
-      "installs": 558209,
+      "installs": 560480,
       "link": "https://skills.sh/microsoft/azure-skills/azure-prepare",
       "providerId": "skills.sh",
       "description": "Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). WHEN: \"create app\", \"build web app\", \"create API\", \"create serverless HTTP API\", \"create frontend\", \"create back end\", \"build a service\", \"modernize application\", \"update application\", \"add authentication\", \"add caching\", \"host on Azure\", \"create and deploy\", \"deploy to Azure\", \"deploy to Azure using Terraform\", \"deploy to Azure App Service\", \"deploy to Azure App Service using Terraform\", \"deploy to Azure Container Apps\", \"deploy to Azure Container Apps using Terraform\", \"generate Terraform\", \"generate Bicep\", \"function app\", \"timer trigger\", \"service bus trigger\", \"event-driven function\", \"containerized Node.js app\", \"social media app\", \"static portfolio website\", \"todo list with frontend and API\", \"prepare my Azure application to use Key Vault\", \"managed identity\"."
@@ -177,7 +177,7 @@
       "id": "microsoft/azure-skills/azure-ai",
       "title": "azure-ai",
       "source": "microsoft/azure-skills",
-      "installs": 558122,
+      "installs": 560393,
       "link": "https://skills.sh/microsoft/azure-skills/azure-ai",
       "providerId": "skills.sh",
       "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech."
@@ -186,7 +186,7 @@
       "id": "microsoft/azure-skills/azure-deploy",
       "title": "azure-deploy",
       "source": "microsoft/azure-skills",
-      "installs": 558095,
+      "installs": 560366,
       "link": "https://skills.sh/microsoft/azure-skills/azure-deploy",
       "providerId": "skills.sh",
       "description": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/plan.md from azure-prepare and validated status from azure-validate. WHEN: \"run azd up\", \"run azd deploy\", \"execute deployment\", \"push to production\", \"push to cloud\", \"go live\", \"ship it\", \"bicep deploy\", \"terraform apply\", \"publish to Azure\", \"launch on Azure\". DO NOT USE WHEN: \"create and deploy\", \"build and deploy\", \"create a new app\", \"set up infrastructure\", \"create and deploy to Azure using Terraform\" — use azure-prepare for these."
@@ -195,7 +195,7 @@
       "id": "microsoft/azure-skills/azure-validate",
       "title": "azure-validate",
       "source": "microsoft/azure-skills",
-      "installs": 557574,
+      "installs": 559841,
       "link": "https://skills.sh/microsoft/azure-skills/azure-validate",
       "providerId": "skills.sh",
       "description": "Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment."
@@ -204,7 +204,7 @@
       "id": "microsoft/azure-skills/azure-storage",
       "title": "azure-storage",
       "source": "microsoft/azure-skills",
-      "installs": 557021,
+      "installs": 559288,
       "link": "https://skills.sh/microsoft/azure-skills/azure-storage",
       "providerId": "skills.sh",
       "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics capabilities. Includes access tiers (hot, cool, archive) and lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, lifecycle management. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging)."
@@ -213,7 +213,7 @@
       "id": "microsoft/azure-skills/entra-app-registration",
       "title": "entra-app-registration",
       "source": "microsoft/azure-skills",
-      "installs": 556760,
+      "installs": 559025,
       "link": "https://skills.sh/microsoft/azure-skills/entra-app-registration",
       "providerId": "skills.sh",
       "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), Azure resource security (use azure-security)."
@@ -222,7 +222,7 @@
       "id": "microsoft/azure-skills/appinsights-instrumentation",
       "title": "appinsights-instrumentation",
       "source": "microsoft/azure-skills",
-      "installs": 556510,
+      "installs": 558774,
       "link": "https://skills.sh/microsoft/azure-skills/appinsights-instrumentation",
       "providerId": "skills.sh",
       "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices."
@@ -231,7 +231,7 @@
       "id": "microsoft/azure-skills/azure-resource-visualizer",
       "title": "azure-resource-visualizer",
       "source": "microsoft/azure-skills",
-      "installs": 556434,
+      "installs": 558701,
       "link": "https://skills.sh/microsoft/azure-skills/azure-resource-visualizer",
       "providerId": "skills.sh",
       "description": "Analyze Azure resource groups and generate detailed Mermaid architecture diagrams showing the relationships between individual resources. USE FOR: create architecture diagram, visualize Azure resources, show resource relationships, generate Mermaid diagram, analyze resource group, diagram my resources, architecture visualization, resource topology, map Azure infrastructure DO NOT USE FOR: creating/modifying resources (use azure-deploy), security scanning (use azure-security), performance troubleshooting (use azure-diagnostics), code generation (use relevant service skill)"
@@ -240,7 +240,7 @@
       "id": "microsoft/azure-skills/azure-resource-lookup",
       "title": "azure-resource-lookup",
       "source": "microsoft/azure-skills",
-      "installs": 556426,
+      "installs": 558689,
       "link": "https://skills.sh/microsoft/azure-skills/azure-resource-lookup",
       "providerId": "skills.sh",
       "description": "List, find, and show Azure resources. Answers \"list my VMs\", \"show my storage accounts\", \"list websites\", \"find container apps\", \"what resources do I have\", and similar queries for any Azure resource type. USE FOR: list resources, list virtual machines, list VMs, list storage accounts, list websites, list web apps, list container apps, show resources, find resources, what resources do I have, list resources in resource group, list resources in subscription, find resources by tag, find orphaned resources, resource inventory, count resources by type, cross-subscription resource query, Azure Resource Graph, resource discovery, list container registries, list SQL servers, list Key Vaults, show resource groups, list app services, find resources across subscriptions, find unattached disks, tag analysis. DO NOT USE FOR: deploying resources (use azure-deploy), creating or modifying resources, cost optimization (use azure-cost-optimization), writing application code, non-Azure clouds."
@@ -249,7 +249,7 @@
       "id": "microsoft/azure-skills/azure-compliance",
       "title": "azure-compliance",
       "source": "microsoft/azure-skills",
-      "installs": 556385,
+      "installs": 558650,
       "link": "https://skills.sh/microsoft/azure-skills/azure-compliance",
       "providerId": "skills.sh",
       "description": "Comprehensive Azure compliance and security auditing capabilities including best practices assessment, Key Vault expiration monitoring, and resource configuration validation. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, compliance assessment, resource review, configuration validation, expired certificates, expiring secrets, orphaned resources, policy compliance, security posture evaluation."
@@ -258,7 +258,7 @@
       "id": "microsoft/azure-skills/azure-aigateway",
       "title": "azure-aigateway",
       "source": "microsoft/azure-skills",
-      "installs": 556209,
+      "installs": 558472,
       "link": "https://skills.sh/microsoft/azure-skills/azure-aigateway",
       "providerId": "skills.sh",
       "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway."
@@ -267,7 +267,7 @@
       "id": "microsoft/azure-skills/azure-kusto",
       "title": "azure-kusto",
       "source": "microsoft/azure-skills",
-      "installs": 556134,
+      "installs": 558398,
       "link": "https://skills.sh/microsoft/azure-skills/azure-kusto",
       "providerId": "skills.sh",
       "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection."
@@ -276,7 +276,7 @@
       "id": "mattpocock/skills/domain-modeling",
       "title": "domain-modeling",
       "source": "mattpocock/skills",
-      "installs": 546307,
+      "installs": 554601,
       "link": "https://skills.sh/mattpocock/skills/domain-modeling",
       "providerId": "skills.sh",
       "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
@@ -285,34 +285,16 @@
       "id": "microsoft/azure-skills/azure-messaging",
       "title": "azure-messaging",
       "source": "microsoft/azure-skills",
-      "installs": 545865,
+      "installs": 548125,
       "link": "https://skills.sh/microsoft/azure-skills/azure-messaging",
       "providerId": "skills.sh",
       "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter."
     },
     {
-      "id": "mattpocock/skills/codebase-design",
-      "title": "codebase-design",
-      "source": "mattpocock/skills",
-      "installs": 529876,
-      "link": "https://skills.sh/mattpocock/skills/codebase-design",
-      "providerId": "skills.sh",
-      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
-    },
-    {
-      "id": "mattpocock/skills/diagnosing-bugs",
-      "title": "diagnosing-bugs",
-      "source": "mattpocock/skills",
-      "installs": 521543,
-      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
-      "providerId": "skills.sh",
-      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
-    },
-    {
       "id": "skills-101/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "skills-101/superpowers",
-      "installs": 517957,
+      "installs": 539620,
       "link": "https://skills.sh/skills-101/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
@@ -321,7 +303,7 @@
       "id": "skills-101/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "skills-101/superpowers",
-      "installs": 517401,
+      "installs": 539010,
       "link": "https://skills.sh/skills-101/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
@@ -330,7 +312,7 @@
       "id": "skills-101/superpowers/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "skills-101/superpowers",
-      "installs": 517288,
+      "installs": 538893,
       "link": "https://skills.sh/skills-101/superpowers/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
@@ -339,16 +321,34 @@
       "id": "skills-101/superpowers/twitter-automation",
       "title": "twitter-automation",
       "source": "skills-101/superpowers",
-      "installs": 517174,
+      "installs": 538778,
       "link": "https://skills.sh/skills-101/superpowers/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
     },
     {
+      "id": "mattpocock/skills/codebase-design",
+      "title": "codebase-design",
+      "source": "mattpocock/skills",
+      "installs": 537883,
+      "link": "https://skills.sh/mattpocock/skills/codebase-design",
+      "providerId": "skills.sh",
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
+    },
+    {
+      "id": "mattpocock/skills/diagnosing-bugs",
+      "title": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "installs": 529204,
+      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
+      "providerId": "skills.sh",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
+    },
+    {
       "id": "remotion-dev/skills/remotion-best-practices",
       "title": "remotion-best-practices",
       "source": "remotion-dev/skills",
-      "installs": 505533,
+      "installs": 507254,
       "link": "https://skills.sh/remotion-dev/skills/remotion-best-practices",
       "providerId": "skills.sh",
       "description": "Best practices for Remotion - Video creation in React"
@@ -357,7 +357,7 @@
       "id": "microsoft/azure-skills/azure-compute",
       "title": "azure-compute",
       "source": "microsoft/azure-skills",
-      "installs": 499892,
+      "installs": 502149,
       "link": "https://skills.sh/microsoft/azure-skills/azure-compute",
       "providerId": "skills.sh",
       "description": "Recommend Azure VM sizes, VM Scale Sets (VMSS), and configurations based on workload requirements, performance needs, and budget constraints. No Azure account required — uses public documentation and the Azure Retail Prices API. WHEN: recommend VM size, which VM should I use, choose Azure VM, VM for web/database/ML/batch/HPC, GPU VM, compare VM sizes, cheapest VM, best VM for workload, VM pricing, cost estimate, burstable/compute/memory/storage optimized VM, confidential computing, VM trade-offs, VM families, VMSS, scale set recommendation, autoscale VMs, load balanced VMs, VMSS vs VM, scale out, horizontal scaling, flexible orchestration."
@@ -366,34 +366,34 @@
       "id": "microsoft/azure-skills/azure-cloud-migrate",
       "title": "azure-cloud-migrate",
       "source": "microsoft/azure-skills",
-      "installs": 489904,
+      "installs": 492164,
       "link": "https://skills.sh/microsoft/azure-skills/azure-cloud-migrate",
       "providerId": "skills.sh",
       "description": "Assess and migrate cross-cloud workloads to Azure. Generates assessment reports and converts code from AWS, GCP, or other providers to Azure services. WHEN: migrate Lambda to Azure Functions, migrate AWS to Azure, Lambda migration assessment, convert AWS serverless to Azure, migration readiness report, migrate from AWS, migrate from GCP, cross-cloud migration."
     },
     {
-      "id": "microsoft/azure-skills/azure-rbac",
-      "title": "azure-rbac",
-      "source": "microsoft/azure-skills",
-      "installs": 487375,
-      "link": "https://skills.sh/microsoft/azure-skills/azure-rbac",
-      "providerId": "skills.sh",
-      "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles."
-    },
-    {
       "id": "mattpocock/skills/ask-matt",
       "title": "ask-matt",
       "source": "mattpocock/skills",
-      "installs": 482623,
+      "installs": 490019,
       "link": "https://skills.sh/mattpocock/skills/ask-matt",
       "providerId": "skills.sh",
       "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
     },
     {
+      "id": "microsoft/azure-skills/azure-rbac",
+      "title": "azure-rbac",
+      "source": "microsoft/azure-skills",
+      "installs": 487707,
+      "link": "https://skills.sh/microsoft/azure-skills/azure-rbac",
+      "providerId": "skills.sh",
+      "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles."
+    },
+    {
       "id": "mattpocock/skills/implement",
       "title": "implement",
       "source": "mattpocock/skills",
-      "installs": 475225,
+      "installs": 482716,
       "link": "https://skills.sh/mattpocock/skills/implement",
       "providerId": "skills.sh",
       "description": "Implement a piece of work based on a PRD or set of issues."
@@ -402,7 +402,7 @@
       "id": "juliusbrussee/caveman/caveman",
       "title": "caveman",
       "source": "juliusbrussee/caveman",
-      "installs": 473554,
+      "installs": 476484,
       "link": "https://skills.sh/juliusbrussee/caveman/caveman",
       "providerId": "skills.sh",
       "description": "Ultra-compressed communication mode. Slash token usage ~75% by speaking like caveman while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested."
@@ -411,7 +411,7 @@
       "id": "heygen-com/hyperframes/hyperframes-cli",
       "title": "hyperframes-cli",
       "source": "heygen-com/hyperframes",
-      "installs": 469879,
+      "installs": 475466,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
       "providerId": "skills.sh",
       "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
@@ -420,7 +420,7 @@
       "id": "mattpocock/skills/code-review",
       "title": "code-review",
       "source": "mattpocock/skills",
-      "installs": 464303,
+      "installs": 472608,
       "link": "https://skills.sh/mattpocock/skills/code-review",
       "providerId": "skills.sh",
       "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
@@ -429,7 +429,7 @@
       "id": "heygen-com/hyperframes/hyperframes",
       "title": "hyperframes",
       "source": "heygen-com/hyperframes",
-      "installs": 452067,
+      "installs": 456154,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes",
       "providerId": "skills.sh",
       "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For CLI commands (init, lint, preview, render, transcribe, tts) see the hyperframes-cli skill."
@@ -438,7 +438,7 @@
       "id": "lllllllama/rigorpilot-skills/paper-context-resolver",
       "title": "paper-context-resolver",
       "source": "lllllllama/rigorpilot-skills",
-      "installs": 450782,
+      "installs": 450789,
       "link": "https://skills.sh/lllllllama/rigorpilot-skills/paper-context-resolver",
       "providerId": "skills.sh",
       "description": "Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default."
@@ -447,7 +447,7 @@
       "id": "lllllllama/rigorpilot-skills/repo-intake-and-plan",
       "title": "repo-intake-and-plan",
       "source": "lllllllama/rigorpilot-skills",
-      "installs": 450045,
+      "installs": 450049,
       "link": "https://skills.sh/lllllllama/rigorpilot-skills/repo-intake-and-plan",
       "providerId": "skills.sh",
       "description": "Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration."
@@ -456,7 +456,7 @@
       "id": "lllllllama/rigorpilot-skills/minimal-run-and-audit",
       "title": "minimal-run-and-audit",
       "source": "lllllllama/rigorpilot-skills",
-      "installs": 449958,
+      "installs": 449967,
       "link": "https://skills.sh/lllllllama/rigorpilot-skills/minimal-run-and-audit",
       "providerId": "skills.sh",
       "description": "Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself."
@@ -467,7 +467,7 @@
       "id": "skills-101/superpowers/ai-video-generation",
       "title": "ai-video-generation",
       "source": "skills-101/superpowers",
-      "installs": 21615,
+      "installs": 21689,
       "link": "https://skills.sh/skills-101/superpowers/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
@@ -476,7 +476,7 @@
       "id": "skills-101/superpowers/ai-image-generation",
       "title": "ai-image-generation",
       "source": "skills-101/superpowers",
-      "installs": 21562,
+      "installs": 21636,
       "link": "https://skills.sh/skills-101/superpowers/ai-image-generation",
       "providerId": "skills.sh",
       "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
@@ -485,7 +485,7 @@
       "id": "skills-101/superpowers/ai-avatar-video",
       "title": "ai-avatar-video",
       "source": "skills-101/superpowers",
-      "installs": 21561,
+      "installs": 21633,
       "link": "https://skills.sh/skills-101/superpowers/ai-avatar-video",
       "providerId": "skills.sh",
       "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
@@ -494,16 +494,25 @@
       "id": "skills-101/superpowers/twitter-automation",
       "title": "twitter-automation",
       "source": "skills-101/superpowers",
-      "installs": 21559,
+      "installs": 21631,
       "link": "https://skills.sh/skills-101/superpowers/twitter-automation",
       "providerId": "skills.sh",
       "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
     },
     {
+      "id": "vercel-labs/skills/find-skills",
+      "title": "find-skills",
+      "source": "vercel-labs/skills",
+      "installs": 16417,
+      "link": "https://skills.sh/vercel-labs/skills/find-skills",
+      "providerId": "skills.sh",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+    },
+    {
       "id": "genmedia-labs/skills/video-edit",
       "title": "video-edit",
       "source": "genmedia-labs/skills",
-      "installs": 16597,
+      "installs": 16238,
       "link": "https://skills.sh/genmedia-labs/skills/video-edit",
       "providerId": "skills.sh",
       "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video."
@@ -512,7 +521,7 @@
       "id": "flowkit-labs/skills/reddit-automation",
       "title": "reddit-automation",
       "source": "flowkit-labs/skills",
-      "installs": 16588,
+      "installs": 16221,
       "link": "https://skills.sh/flowkit-labs/skills/reddit-automation",
       "providerId": "skills.sh",
       "description": "Find Reddit threads where people are genuinely asking for what you offer, then draft short, genuinely helpful replies — disclosing your affiliation honestly and naming your product only when it truly answers the question. Two moves: discovery — scan the right subreddits for real needs (recommendation asks, expressed pain, competitor mentions) and rank the few threads where you can actually help; drafting — write from real experience, respect each community's self-promo rules, and keep a human in the loop to review and post. This markets on Reddit the honest way: contribute value, disclose who you are, never astroturf. Distilled from the playbook behind doany.ai's Reddit agent. Triggers on \"find reddit opportunities\", \"reddit marketing\", \"reddit automation\", \"reply on reddit for my product\", \"reddit community engagement\", \"reddit lead gen\", or any ask to turn Reddit threads into genuine, disclosed marketing replies."
@@ -521,34 +530,16 @@
       "id": "genmedia-labs/skills/ai-music",
       "title": "ai-music",
       "source": "genmedia-labs/skills",
-      "installs": 16575,
+      "installs": 16193,
       "link": "https://skills.sh/genmedia-labs/skills/ai-music",
       "providerId": "skills.sh",
       "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music."
     },
     {
-      "id": "genmedia-labs/skills/ai-image-generation",
-      "title": "ai-image-generation",
-      "source": "genmedia-labs/skills",
-      "installs": 16477,
-      "link": "https://skills.sh/genmedia-labs/skills/ai-image-generation",
-      "providerId": "skills.sh",
-      "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image."
-    },
-    {
-      "id": "vercel-labs/skills/find-skills",
-      "title": "find-skills",
-      "source": "vercel-labs/skills",
-      "installs": 16446,
-      "link": "https://skills.sh/vercel-labs/skills/find-skills",
-      "providerId": "skills.sh",
-      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
-    },
-    {
       "id": "genmedia-labs/skills/ai-video-generation",
       "title": "ai-video-generation",
       "source": "genmedia-labs/skills",
-      "installs": 16425,
+      "installs": 16154,
       "link": "https://skills.sh/genmedia-labs/skills/ai-video-generation",
       "providerId": "skills.sh",
       "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still."
@@ -557,16 +548,25 @@
       "id": "genmedia-labs/skills/image-to-video",
       "title": "image-to-video",
       "source": "genmedia-labs/skills",
-      "installs": 16371,
+      "installs": 16135,
       "link": "https://skills.sh/genmedia-labs/skills/image-to-video",
       "providerId": "skills.sh",
       "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video."
     },
     {
+      "id": "genmedia-labs/skills/ai-image-generation",
+      "title": "ai-image-generation",
+      "source": "genmedia-labs/skills",
+      "installs": 16124,
+      "link": "https://skills.sh/genmedia-labs/skills/ai-image-generation",
+      "providerId": "skills.sh",
+      "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image."
+    },
+    {
       "id": "mattpocock/skills/grill-me",
       "title": "grill-me",
       "source": "mattpocock/skills",
-      "installs": 10590,
+      "installs": 10611,
       "link": "https://skills.sh/mattpocock/skills/grill-me",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\"."
@@ -575,7 +575,7 @@
       "id": "mattpocock/skills/grilling",
       "title": "grilling",
       "source": "mattpocock/skills",
-      "installs": 9466,
+      "installs": 9609,
       "link": "https://skills.sh/mattpocock/skills/grilling",
       "providerId": "skills.sh",
       "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
@@ -584,205 +584,259 @@
       "id": "mattpocock/skills/grill-with-docs",
       "title": "grill-with-docs",
       "source": "mattpocock/skills",
-      "installs": 9072,
+      "installs": 9181,
       "link": "https://skills.sh/mattpocock/skills/grill-with-docs",
       "providerId": "skills.sh",
       "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions."
     },
     {
-      "id": "mattpocock/skills/improve-codebase-architecture",
-      "title": "improve-codebase-architecture",
-      "source": "mattpocock/skills",
-      "installs": 8163,
-      "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
-      "providerId": "skills.sh",
-      "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
-    },
-    {
-      "id": "mattpocock/skills/domain-modeling",
-      "title": "domain-modeling",
-      "source": "mattpocock/skills",
-      "installs": 8149,
-      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
-      "providerId": "skills.sh",
-      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
-    },
-    {
       "id": "mattpocock/skills/code-review",
       "title": "code-review",
       "source": "mattpocock/skills",
-      "installs": 8137,
+      "installs": 8402,
       "link": "https://skills.sh/mattpocock/skills/code-review",
       "providerId": "skills.sh",
       "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\"."
     },
     {
+      "id": "mattpocock/skills/domain-modeling",
+      "title": "domain-modeling",
+      "source": "mattpocock/skills",
+      "installs": 8381,
+      "link": "https://skills.sh/mattpocock/skills/domain-modeling",
+      "providerId": "skills.sh",
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model."
+    },
+    {
+      "id": "mattpocock/skills/improve-codebase-architecture",
+      "title": "improve-codebase-architecture",
+      "source": "mattpocock/skills",
+      "installs": 8275,
+      "link": "https://skills.sh/mattpocock/skills/improve-codebase-architecture",
+      "providerId": "skills.sh",
+      "description": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules. Use when user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more AI-navigable."
+    },
+    {
       "id": "mattpocock/skills/tdd",
       "title": "tdd",
       "source": "mattpocock/skills",
-      "installs": 8023,
+      "installs": 8203,
       "link": "https://skills.sh/mattpocock/skills/tdd",
       "providerId": "skills.sh",
       "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
     },
     {
-      "id": "mattpocock/skills/handoff",
-      "title": "handoff",
-      "source": "mattpocock/skills",
-      "installs": 7936,
-      "link": "https://skills.sh/mattpocock/skills/handoff",
-      "providerId": "skills.sh",
-      "description": "Compact the current conversation into a handoff document for another agent to pick up."
-    },
-    {
-      "id": "mattpocock/skills/codebase-design",
-      "title": "codebase-design",
-      "source": "mattpocock/skills",
-      "installs": 7791,
-      "link": "https://skills.sh/mattpocock/skills/codebase-design",
-      "providerId": "skills.sh",
-      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
-    },
-    {
-      "id": "mattpocock/skills/to-spec",
-      "title": "to-spec",
-      "source": "mattpocock/skills",
-      "installs": 7712,
-      "link": "https://skills.sh/mattpocock/skills/to-spec",
-      "providerId": "skills.sh",
-      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed."
-    },
-    {
-      "id": "mattpocock/skills/setup-matt-pocock-skills",
-      "title": "setup-matt-pocock-skills",
-      "source": "mattpocock/skills",
-      "installs": 7654,
-      "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
-      "providerId": "skills.sh",
-      "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
-    },
-    {
-      "id": "mattpocock/skills/diagnosing-bugs",
-      "title": "diagnosing-bugs",
-      "source": "mattpocock/skills",
-      "installs": 7620,
-      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
-      "providerId": "skills.sh",
-      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
-    },
-    {
       "id": "vercel-labs/agent-browser/agent-browser",
       "title": "agent-browser",
       "source": "vercel-labs/agent-browser",
-      "installs": 7583,
+      "installs": 8140,
       "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
       "providerId": "skills.sh",
       "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
     },
     {
-      "id": "mattpocock/skills/to-tickets",
-      "title": "to-tickets",
+      "id": "mattpocock/skills/codebase-design",
+      "title": "codebase-design",
       "source": "mattpocock/skills",
-      "installs": 7571,
-      "link": "https://skills.sh/mattpocock/skills/to-tickets",
+      "installs": 8095,
+      "link": "https://skills.sh/mattpocock/skills/codebase-design",
       "providerId": "skills.sh",
-      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker."
+      "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary."
+    },
+    {
+      "id": "mattpocock/skills/handoff",
+      "title": "handoff",
+      "source": "mattpocock/skills",
+      "installs": 8046,
+      "link": "https://skills.sh/mattpocock/skills/handoff",
+      "providerId": "skills.sh",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up."
+    },
+    {
+      "id": "mattpocock/skills/to-spec",
+      "title": "to-spec",
+      "source": "mattpocock/skills",
+      "installs": 7828,
+      "link": "https://skills.sh/mattpocock/skills/to-spec",
+      "providerId": "skills.sh",
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed."
+    },
+    {
+      "id": "mattpocock/skills/diagnosing-bugs",
+      "title": "diagnosing-bugs",
+      "source": "mattpocock/skills",
+      "installs": 7751,
+      "link": "https://skills.sh/mattpocock/skills/diagnosing-bugs",
+      "providerId": "skills.sh",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow."
+    },
+    {
+      "id": "mattpocock/skills/setup-matt-pocock-skills",
+      "title": "setup-matt-pocock-skills",
+      "source": "mattpocock/skills",
+      "installs": 7691,
+      "link": "https://skills.sh/mattpocock/skills/setup-matt-pocock-skills",
+      "providerId": "skills.sh",
+      "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
     },
     {
       "id": "mattpocock/skills/research",
       "title": "research",
       "source": "mattpocock/skills",
-      "installs": 7568,
+      "installs": 7654,
       "link": "https://skills.sh/mattpocock/skills/research",
       "providerId": "skills.sh",
       "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent."
     },
     {
-      "id": "mattpocock/skills/wayfinder",
-      "title": "wayfinder",
+      "id": "mattpocock/skills/to-tickets",
+      "title": "to-tickets",
       "source": "mattpocock/skills",
-      "installs": 7519,
-      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "installs": 7653,
+      "link": "https://skills.sh/mattpocock/skills/to-tickets",
       "providerId": "skills.sh",
-      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in a local file, or native blocking links on a real tracker."
     },
     {
       "id": "mattpocock/skills/implement",
       "title": "implement",
       "source": "mattpocock/skills",
-      "installs": 7479,
+      "installs": 7576,
       "link": "https://skills.sh/mattpocock/skills/implement",
       "providerId": "skills.sh",
       "description": "Implement a piece of work based on a PRD or set of issues."
     },
     {
+      "id": "google/agents-cli/google-agents-cli-observability",
+      "title": "google-agents-cli-observability",
+      "source": "google/agents-cli",
+      "installs": 7552,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-observability",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"set up tracing\", \"monitor my ADK agent\", \"configure logging\", \"add observability\", \"debug production traffic\", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code)."
+    },
+    {
+      "id": "google/agents-cli/google-agents-cli-eval",
+      "title": "google-agents-cli-eval",
+      "source": "google/agents-cli",
+      "installs": 7552,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-eval",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"run an evaluation\", \"evaluate my ADK agent\", \"write an evalset\", \"debug eval scores\", \"compare eval results\", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold)."
+    },
+    {
+      "id": "google/agents-cli/google-agents-cli-workflow",
+      "title": "google-agents-cli-workflow",
+      "source": "google/agents-cli",
+      "installs": 7551,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-workflow",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"develop an agent\", \"build an agent using ADK\", \"run the agent locally\", \"debug agent code\", \"test an agent\", \"deploy an agent\", \"publish an agent\", \"monitor an agent\", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development."
+    },
+    {
+      "id": "google/agents-cli/google-agents-cli-adk-code",
+      "title": "google-agents-cli-adk-code",
+      "source": "google/agents-cli",
+      "installs": 7551,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-adk-code",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"write agent code\", \"build an agent with ADK\", \"add a tool\", \"create a callback\", \"define an agent\", \"use state management\", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy)."
+    },
+    {
+      "id": "google/agents-cli/google-agents-cli-deploy",
+      "title": "google-agents-cli-deploy",
+      "source": "google/agents-cli",
+      "installs": 7550,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-deploy",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"deploy an agent\", \"deploy my ADK agent\", \"set up CI/CD\", \"configure secrets\", \"troubleshoot a deployment\", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold)."
+    },
+    {
       "id": "mattpocock/skills/prototype",
       "title": "prototype",
       "source": "mattpocock/skills",
-      "installs": 7473,
+      "installs": 7550,
       "link": "https://skills.sh/mattpocock/skills/prototype",
       "providerId": "skills.sh",
       "description": "Build a throwaway prototype to flush out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\"."
     },
     {
-      "id": "mattpocock/skills/teach",
-      "title": "teach",
-      "source": "mattpocock/skills",
-      "installs": 7333,
-      "link": "https://skills.sh/mattpocock/skills/teach",
+      "id": "google/agents-cli/google-agents-cli-scaffold",
+      "title": "google-agents-cli-scaffold",
+      "source": "google/agents-cli",
+      "installs": 7549,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-scaffold",
       "providerId": "skills.sh",
-      "description": "Teach the user a new skill or concept, within this workspace."
+      "description": "This skill should be used when the user wants to \"create an agent project\", \"start a new ADK project\", \"build me a new agent\", \"add CI/CD to my project\", \"add deployment\", \"enhance my project\", or \"upgrade my project\". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy)."
+    },
+    {
+      "id": "google/agents-cli/google-agents-cli-publish",
+      "title": "google-agents-cli-publish",
+      "source": "google/agents-cli",
+      "installs": 7549,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-publish",
+      "providerId": "skills.sh",
+      "description": "This skill should be used when the user wants to \"publish an agent\", \"publish my ADK agent\", \"register an agent with Gemini Enterprise\", \"publish to Gemini Enterprise\", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy)."
+    },
+    {
+      "id": "mattpocock/skills/wayfinder",
+      "title": "wayfinder",
+      "source": "mattpocock/skills",
+      "installs": 7546,
+      "link": "https://skills.sh/mattpocock/skills/wayfinder",
+      "providerId": "skills.sh",
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of investigation tickets on your issue tracker, and resolve them one at a time until the way to the goal is clear."
     },
     {
       "id": "mattpocock/skills/ask-matt",
       "title": "ask-matt",
       "source": "mattpocock/skills",
-      "installs": 7256,
+      "installs": 7474,
       "link": "https://skills.sh/mattpocock/skills/ask-matt",
       "providerId": "skills.sh",
       "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo."
     },
     {
+      "id": "mattpocock/skills/teach",
+      "title": "teach",
+      "source": "mattpocock/skills",
+      "installs": 7434,
+      "link": "https://skills.sh/mattpocock/skills/teach",
+      "providerId": "skills.sh",
+      "description": "Teach the user a new skill or concept, within this workspace."
+    },
+    {
       "id": "mattpocock/skills/triage",
       "title": "triage",
       "source": "mattpocock/skills",
-      "installs": 7210,
+      "installs": 7279,
       "link": "https://skills.sh/mattpocock/skills/triage",
       "providerId": "skills.sh",
       "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow."
     },
     {
-      "id": "mattpocock/skills/writing-for-agents",
-      "title": "writing-for-agents",
-      "source": "mattpocock/skills",
-      "installs": 7144,
-      "link": "https://skills.sh/mattpocock/skills/writing-for-agents",
-      "providerId": "skills.sh",
-      "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
-    },
-    {
       "id": "mattpocock/skills/resolving-merge-conflicts",
       "title": "resolving-merge-conflicts",
       "source": "mattpocock/skills",
-      "installs": 7128,
+      "installs": 7201,
       "link": "https://skills.sh/mattpocock/skills/resolving-merge-conflicts",
       "providerId": "skills.sh",
       "description": "Use when you need to resolve an in-progress git merge/rebase conflict."
     },
     {
-      "id": "heygen-com/hyperframes/hyperframes-cli",
-      "title": "hyperframes-cli",
-      "source": "heygen-com/hyperframes",
-      "installs": 6930,
-      "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
+      "id": "mattpocock/skills/writing-for-agents",
+      "title": "writing-for-agents",
+      "source": "mattpocock/skills",
+      "installs": 7170,
+      "link": "https://skills.sh/mattpocock/skills/writing-for-agents",
       "providerId": "skills.sh",
-      "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
+      "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
     },
     {
       "id": "mattpocock/skills/wait-what",
       "title": "wait-what",
       "source": "mattpocock/skills",
-      "installs": 6892,
+      "installs": 6873,
       "link": "https://skills.sh/mattpocock/skills/wait-what",
       "providerId": "skills.sh",
       "description": "Stop. That last message did not land — re-pitch it."
@@ -791,7 +845,7 @@
       "id": "mattpocock/skills/wizard",
       "title": "wizard",
       "source": "mattpocock/skills",
-      "installs": 6745,
+      "installs": 6750,
       "link": "https://skills.sh/mattpocock/skills/wizard",
       "providerId": "skills.sh",
       "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each step, and writing .env files and GitHub Actions secrets."
@@ -800,570 +854,516 @@
       "id": "mattpocock/skills/to-questionnaire",
       "title": "to-questionnaire",
       "source": "mattpocock/skills",
-      "installs": 6723,
+      "installs": 6740,
       "link": "https://skills.sh/mattpocock/skills/to-questionnaire",
       "providerId": "skills.sh",
       "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in."
     },
     {
-      "id": "mattpocock/skills/loop-me",
-      "title": "loop-me",
-      "source": "mattpocock/skills",
-      "installs": 5297,
-      "link": "https://skills.sh/mattpocock/skills/loop-me",
-      "providerId": "skills.sh",
-      "description": "Grill me about specs for the workflows I want to build, within this workspace."
-    },
-    {
-      "id": "mattpocock/skills/claude-handoff",
-      "title": "claude-handoff",
-      "source": "mattpocock/skills",
-      "installs": 5290,
-      "link": "https://skills.sh/mattpocock/skills/claude-handoff",
-      "providerId": "skills.sh",
-      "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately."
-    },
-    {
-      "id": "mattpocock/skills/git-guardrails-claude-code",
-      "title": "git-guardrails-claude-code",
-      "source": "mattpocock/skills",
-      "installs": 5245,
-      "link": "https://skills.sh/mattpocock/skills/git-guardrails-claude-code",
-      "providerId": "skills.sh",
-      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code."
-    },
-    {
-      "id": "mattpocock/skills/writing-fragments",
-      "title": "writing-fragments",
-      "source": "mattpocock/skills",
-      "installs": 5194,
-      "link": "https://skills.sh/mattpocock/skills/writing-fragments",
-      "providerId": "skills.sh",
-      "description": "Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions \"fragments\", \"ideate\", or \"raw material\" for writing."
-    },
-    {
-      "id": "mattpocock/skills/writing-beats",
-      "title": "writing-beats",
-      "source": "mattpocock/skills",
-      "installs": 5194,
-      "link": "https://skills.sh/mattpocock/skills/writing-beats",
-      "providerId": "skills.sh",
-      "description": "Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument."
-    },
-    {
-      "id": "mattpocock/skills/setup-pre-commit",
-      "title": "setup-pre-commit",
-      "source": "mattpocock/skills",
-      "installs": 5191,
-      "link": "https://skills.sh/mattpocock/skills/setup-pre-commit",
-      "providerId": "skills.sh",
-      "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing."
-    },
-    {
-      "id": "mattpocock/skills/writing-shape",
-      "title": "writing-shape",
-      "source": "mattpocock/skills",
-      "installs": 5187,
-      "link": "https://skills.sh/mattpocock/skills/writing-shape",
-      "providerId": "skills.sh",
-      "description": "Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable."
-    },
-    {
-      "id": "mattpocock/skills/implement-spec",
-      "title": "implement-spec",
-      "source": "mattpocock/skills",
-      "installs": 5151,
-      "link": "https://skills.sh/mattpocock/skills/implement-spec",
-      "providerId": "skills.sh",
-      "description": "Implement a specification in code."
-    },
-    {
-      "id": "mattpocock/skills/scaffold-exercises",
-      "title": "scaffold-exercises",
-      "source": "mattpocock/skills",
-      "installs": 5095,
-      "link": "https://skills.sh/mattpocock/skills/scaffold-exercises",
-      "providerId": "skills.sh",
-      "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section."
-    },
-    {
-      "id": "mattpocock/skills/setup-ts-deep-modules",
-      "title": "setup-ts-deep-modules",
-      "source": "mattpocock/skills",
-      "installs": 5095,
-      "link": "https://skills.sh/mattpocock/skills/setup-ts-deep-modules",
-      "providerId": "skills.sh",
-      "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module — implementation hidden in subfolders, reachable only through its entry-point files. User-invoked."
-    },
-    {
-      "id": "mattpocock/skills/migrate-to-shoehorn",
-      "title": "migrate-to-shoehorn",
-      "source": "mattpocock/skills",
-      "installs": 5075,
-      "link": "https://skills.sh/mattpocock/skills/migrate-to-shoehorn",
-      "providerId": "skills.sh",
-      "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data."
-    },
-    {
-      "id": "mattpocock/skills/retro",
-      "title": "retro",
-      "source": "mattpocock/skills",
-      "installs": 5067,
-      "link": "https://skills.sh/mattpocock/skills/retro",
-      "providerId": "skills.sh",
-      "description": "Conduct a retrospective on a coding session."
-    }
-  ],
-  "topHot": [
-    {
-      "id": "axelfreeman/marketing-mindset/marketing-mindset",
-      "title": "marketing-mindset",
-      "source": "axelfreeman/marketing-mindset",
-      "installs": 54,
-      "link": "https://skills.sh/axelfreeman/marketing-mindset/marketing-mindset",
-      "providerId": "skills.sh",
-      "description": "Use when the user needs a professional marketer's operating mindset for any marketing, growth, or client-acquisition task — finding first customers, writing an ad or landing page, evaluating an idea, deciding whether to do X to get Y, positioning or launching a B2B or SaaS product, running cold outreach, setting up ads, or writing copy — not a tactical template."
-    },
-    {
-      "id": "genmedia-labs/skills/ai-image-generation",
-      "title": "ai-image-generation",
-      "source": "genmedia-labs/skills",
-      "installs": 544,
-      "link": "https://skills.sh/genmedia-labs/skills/ai-image-generation",
-      "providerId": "skills.sh",
-      "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image."
-    },
-    {
-      "id": "vercel-labs/agent-browser/agent-browser",
-      "title": "agent-browser",
-      "source": "vercel-labs/agent-browser",
-      "installs": 243,
-      "link": "https://skills.sh/vercel-labs/agent-browser/agent-browser",
-      "providerId": "skills.sh",
-      "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages."
-    },
-    {
-      "id": "genmedia-labs/skills/ai-video-generation",
-      "title": "ai-video-generation",
-      "source": "genmedia-labs/skills",
-      "installs": 530,
-      "link": "https://skills.sh/genmedia-labs/skills/ai-video-generation",
-      "providerId": "skills.sh",
-      "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still."
-    },
-    {
-      "id": "mcp-use/mcp-use/mcp-apps-builder",
-      "title": "mcp-apps-builder",
-      "source": "mcp-use/mcp-use",
-      "installs": 23,
-      "link": "https://skills.sh/mcp-use/mcp-use/mcp-apps-builder",
-      "providerId": "skills.sh",
-      "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features."
-    },
-    {
-      "id": "danangjoyoo/nerd/nerd-review",
-      "title": "nerd-review",
-      "source": "danangjoyoo/nerd",
-      "installs": 15,
-      "link": "https://skills.sh/danangjoyoo/nerd/nerd-review",
-      "providerId": "skills.sh",
-      "description": "Use when reviewing existing code, implementations, pull requests, or named scopes with stack-aware checks and severity-ranked findings, without edits."
-    },
-    {
-      "id": "danangjoyoo/nerd/nerd-smart",
-      "title": "nerd-smart",
-      "source": "danangjoyoo/nerd",
-      "installs": 15,
-      "link": "https://skills.sh/danangjoyoo/nerd/nerd-smart",
-      "providerId": "skills.sh",
-      "description": "Use when a focused, ambiguous, or multi-goal request needs alignment on intention, endpoint, scope, or working role before substantive work."
-    },
-    {
-      "id": "danangjoyoo/nerd/nerd-patrol",
-      "title": "nerd-patrol",
-      "source": "danangjoyoo/nerd",
-      "installs": 15,
-      "link": "https://skills.sh/danangjoyoo/nerd/nerd-patrol",
-      "providerId": "skills.sh",
-      "description": "Use when examining a confirmed code, pull request, module, application, endpoint, dependency, or configuration scope for vulnerabilities, unsafe behavior, or exploitability."
-    },
-    {
-      "id": "danangjoyoo/nerd/nerd-fast",
-      "title": "nerd-fast",
-      "source": "danangjoyoo/nerd",
-      "installs": 15,
-      "link": "https://skills.sh/danangjoyoo/nerd/nerd-fast",
-      "providerId": "skills.sh",
-      "description": "Use when explicitly invoked or when a concrete latency constraint requires minimizing wall-clock agent time without reducing accuracy."
-    },
-    {
-      "id": "dontbesilent2025/dbskill/dbs-video-extract",
-      "title": "dbs-video-extract",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-video-extract",
-      "providerId": "skills.sh",
-      "description": "接收抖音、小红书、微信视频号等短视频链接或分享文案，查询作品／账号数据并提取语音文字稿，按作者和标题归档为 Markdown。用户希望完整解析短视频、取得数据或文字稿时使用；运行前检查 TikHub 与轻抖使用凭证，缺少时用新手能理解的方式引导购买和安全配置。"
-    },
-    {
-      "id": "genmedia-labs/skills/image-to-video",
-      "title": "image-to-video",
-      "source": "genmedia-labs/skills",
-      "installs": 509,
-      "link": "https://skills.sh/genmedia-labs/skills/image-to-video",
-      "providerId": "skills.sh",
-      "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video."
-    },
-    {
-      "id": "paidaxingyo666/manta/manta-cli",
-      "title": "manta-cli",
-      "source": "paidaxingyo666/manta",
-      "installs": 13,
-      "link": "https://skills.sh/paidaxingyo666/manta/manta-cli",
-      "providerId": "skills.sh",
-      "description": "Use the public `manta` CLI to operate Manta-managed worktrees, folder contexts, terminals, repos, automations, artifacts, skill sharing, worktree comments, and the browser embedded inside the Manta app. Use when the user says \"$manta-cli\", \"use manta cli\", \"Manta worktree\", \"child worktree\", \"cardStatus\", \"spawn codex/claude in a worktree\", \"read/wait/send Manta terminal\", \"terminal send\", \"full handoff\", \"handover\", \"give this to another agent\", \"another worktree\", \"Manta browser\", \"manta artifacts\", \"share HTML/Markdown\", \"public artifact link\", \"share skills\", or \"control the browser inside Manta\". Prefer this over raw `git worktree`, ad hoc PTYs, Playwright, or Computer Use when the task touches Manta-managed state. Use Computer Use for browser windows, webviews, or desktop UI outside Manta's embedded browser."
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-commit",
-      "title": "genshijin-commit",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-commit",
-      "providerId": "skills.sh",
-      "description": "超圧縮コミットメッセージ生成。Conventional Commits形式で件名≤50文字、 「何を」より「なぜ」を重視。日本語・英語両対応。 「コミットメッセージ作って」「/commit」「/genshijin-commit」で起動。 ステージング変更時に自動起動候補。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin",
-      "title": "genshijin",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin",
-      "providerId": "skills.sh",
-      "description": "超圧縮コミュニケーションモード。原始人のように話してトークン使用量を約75%削減。 技術的正確性は完全に維持。強度レベル: 丁寧・通常（デフォルト）・極限の3段階。 「原始人モード」「短く」「簡潔に」「トークン節約」と言うか、/genshijin で起動。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-crew",
-      "title": "genshijin-crew",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-crew",
-      "providerId": "skills.sh",
-      "description": "原始人スタイル subagent への委譲判断ガイド。`genshijin-investigator` (コード位置特定)、 `genshijin-builder` (1-2ファイル編集)、`genshijin-reviewer` (diff レビュー) を inline作業 or vanilla `Explore` の代わりにスポーンするタイミングを示す。subagent 出力は原始人圧縮 → 主コンテキストに戻る tool-result が約60%縮小 → 長セッション持続。 Trigger: 「subagent 委譲」「genshijin-crew 使用」「investigator/builder/reviewer 起動」「コンテキスト節約」「圧縮 agent 出力」。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-stats",
-      "title": "genshijin-stats",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-stats",
-      "providerId": "skills.sh",
-      "description": "現セッションのリアルトークン使用量と推定削減量を表示。Claude Code セッションログから直接読込 — AI 推定なし。 `/genshijin-stats` で起動。出力は mode-tracker フックが注入し、モデル自身は数値計算しない。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-help",
-      "title": "genshijin-help",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-help",
-      "providerId": "skills.sh",
-      "description": "全 genshijin モード・スキル・コマンドのクイックリファレンスカード。 1回限り表示・モード変更なし・状態永続化なし。 「/genshijin-help」「原始人ヘルプ」「原始人の使い方」で起動。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-review",
-      "title": "genshijin-review",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-review",
-      "providerId": "skills.sh",
-      "description": "超圧縮PRレビューコメント。1行1指摘: 位置・問題・修正。前置き削除、シグナル優先。 日本語対応。「PRレビューして」「コードレビュー」「/review」「/genshijin-review」で起動。 プルリクエストレビュー時に自動起動候補。"
-    },
-    {
-      "id": "interfacex-co-jp/genshijin/genshijin-compress",
-      "title": "genshijin-compress",
-      "source": "interfacex-co-jp/genshijin",
-      "installs": 24,
-      "link": "https://skills.sh/interfacex-co-jp/genshijin/genshijin-compress",
-      "providerId": "skills.sh",
-      "description": "自然言語メモリファイル（CLAUDE.md, todos, 設定）を原始人形式に圧縮し入力トークン削減。 技術内容・コード・URL・構造は完全保持。圧縮版が原ファイルを上書き、人間可読版は FILE.original.md として保存。「/genshijin-compress <filepath>」「メモリファイル圧縮」で起動。"
-    },
-    {
-      "id": "gjkim42/kanon-repo/api-review",
-      "title": "api-review",
-      "source": "gjkim42/kanon-repo",
-      "installs": 11,
-      "link": "https://skills.sh/gjkim42/kanon-repo/api-review",
-      "providerId": "skills.sh",
-      "description": "Review the current Kelos branch, or an explicitly specified PR, issue, or diff, for Kubernetes API and CRD design quality. Use when asked for a Kelos API review, CRD/API compatibility review, Kubernetes API convention review, or review of changes under api/, generated CRDs, examples/, or self-development/ manifests. Default to the current branch when no target is specified. This skill is review-only."
-    },
-    {
-      "id": "gjkim42/kanon-repo/design-cleanup",
-      "title": "design-cleanup",
-      "source": "gjkim42/kanon-repo",
-      "installs": 11,
-      "link": "https://skills.sh/gjkim42/kanon-repo/design-cleanup",
-      "providerId": "skills.sh",
-      "description": "Sweep the current branch for leftovers of an abandoned design after a significant mid-work decision change, and rewrite the affected code, comments, tests, and docs so the result reads as if it had been designed this way from the beginning. Use when the user says \"design cleanup\", \"clean up the old approach\", \"erase the journey\", says a design decision changed and asks to clean up after it, or after a pivot in approach mid-branch. This is a rewrite pass over the code touched by the decision only — not a general refactoring or bug-hunting pass."
-    },
-    {
-      "id": "gjkim42/kanon-repo/gjkim-instruction",
-      "title": "gjkim-instruction",
-      "source": "gjkim42/kanon-repo",
-      "installs": 11,
-      "link": "https://skills.sh/gjkim42/kanon-repo/gjkim-instruction",
-      "providerId": "skills.sh",
-      "description": "Create and maintain gjkim_instruction.md, the root document for a loop-engineering effort. The document holds only the minimum requirements and confirmed decisions, and deliberately leaves everything else open so that later iterations are not locked into early guesses. Use whenever the user mentions gjkim_instruction.md, a root document or root doc for a loop, loop engineering, starting a long-running agent loop on a goal, or asks to record a requirement or a confirmed decision for such an effort. Also use at the start of a loop iteration to check what is already decided versus still open."
-    },
-    {
-      "id": "gjkim42/kanon-repo/review-all",
-      "title": "review-all",
-      "source": "gjkim42/kanon-repo",
-      "installs": 11,
-      "link": "https://skills.sh/gjkim42/kanon-repo/review-all",
-      "providerId": "skills.sh",
-      "description": "Run a two-agent code review: spawn two fresh, clean-context agents that examine the SAME committed branch diff in parallel. One agent runs Codex's native `codex review --base` command, while the other independently reviews the code against Google's \"What to look for in a code review\" guidance. Merge both outputs into one agreement-ranked report. Use this whenever the user asks for \"review-all\", a second-opinion review, a dual review, a cross-check before a PR, or a maximum-confidence review of committed branch changes. Do not use it to APPLY fixes; it is review-only."
-    },
-    {
-      "id": "caffeinelabs/skills/connector-twilio",
-      "title": "connector-twilio",
-      "source": "caffeinelabs/skills",
-      "installs": 9,
-      "link": "https://skills.sh/caffeinelabs/skills/connector-twilio",
-      "providerId": "skills.sh",
-      "description": "EXPERIMENTAL, NOT YET VERIFIED AGAINST LIVE TWILIO, and it spends real money — every message is billed, and a US-bound production number additionally needs A2P 10DLC registration (fees, weeks of lead time). Say both things to the user before building. That said, if a Caffeine build does send SMS or MMS, or configures Twilio messaging, from a canister, the `twilio-client` mops package (Twilio REST API) with a canister-held HTTP Basic credential is the only supported path. Hand-rolling `ic.http_request` calls to `api.twilio.com` or `messaging.twilio.com` is a FORBIDDEN anti-pattern — it bypasses the typed bindings, the per-operation host routing, the Basic-Auth header construction, and above all the non-replicated outcall default that stops one `send` from becoming ~13 billed messages. Load this skill whenever the user, spec, or any prior task mentions SMS, MMS, \"text message\", \"send a text\", phone numbers, Twilio, a Messaging Service, A2P 10DLC, toll-free verification, short codes, or an alphanumeric sender — and BEFORE writing any code that touches a Twilio endpoint."
-    },
-    {
       "id": "heygen-com/hyperframes/hyperframes-cli",
       "title": "hyperframes-cli",
       "source": "heygen-com/hyperframes",
-      "installs": 159,
+      "installs": 5662,
       "link": "https://skills.sh/heygen-com/hyperframes/hyperframes-cli",
       "providerId": "skills.sh",
       "description": "Preview, render, lint, validate, scaffold, or troubleshoot HyperFrames compositions. Also use after finishing a composition — lint and preview are the natural next steps."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs",
-      "title": "dbs",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 17,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs",
+      "id": "mattpocock/skills/claude-handoff",
+      "title": "claude-handoff",
+      "source": "mattpocock/skills",
+      "installs": 5543,
+      "link": "https://skills.sh/mattpocock/skills/claude-handoff",
       "providerId": "skills.sh",
-      "description": "dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。\n触发方式：/dbs、/商业、「帮我看看」\nMain entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.\nTrigger: /dbs, \"help me with my business\""
+      "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately."
     },
     {
-      "id": "jakubkrehel/skills/better-layout",
-      "title": "better-layout",
-      "source": "jakubkrehel/skills",
-      "installs": 13,
-      "link": "https://skills.sh/jakubkrehel/skills/better-layout",
+      "id": "mattpocock/skills/loop-me",
+      "title": "loop-me",
+      "source": "mattpocock/skills",
+      "installs": 5336,
+      "link": "https://skills.sh/mattpocock/skills/loop-me",
       "providerId": "skills.sh",
-      "description": "Layout structure for web interfaces, from grouping and alignment to reading order, progressive disclosure, and adaptive breakpoints. Use when structuring a page or component, spacing or aligning controls, deciding what collapses at small sizes, handling RTL layout direction, or reviewing frontend code for layout. Triggers on layout, spacing, alignment, grouping, negative space, whitespace, visual hierarchy, reading order, progressive disclosure, breakpoints, responsive layout, container queries, safe area, full-bleed, edge-to-edge, layout margins, RTL layout, logical properties."
+      "description": "Grill me about specs for the workflows I want to build, within this workspace."
     },
     {
-      "id": "firebase/agent-skills/firebase-firestore",
-      "title": "firebase-firestore",
-      "source": "firebase/agent-skills",
-      "installs": 17,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-firestore",
+      "id": "mattpocock/skills/git-guardrails-claude-code",
+      "title": "git-guardrails-claude-code",
+      "source": "mattpocock/skills",
+      "installs": 5315,
+      "link": "https://skills.sh/mattpocock/skills/git-guardrails-claude-code",
       "providerId": "skills.sh",
-      "description": "Sets up, manages, and executes queries against Cloud Firestore database instances. You MUST unconditionally activate this skill if you plan to use Firestore in any way. Use when listing or creating Firestore databases, configuring security rules, designing data models, writing client SDK queries, or checking indexes."
+      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code."
     },
     {
-      "id": "firebase/agent-skills/firebase-security-rules-auditor",
-      "title": "firebase-security-rules-auditor",
-      "source": "firebase/agent-skills",
-      "installs": 17,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-security-rules-auditor",
+      "id": "mattpocock/skills/writing-beats",
+      "title": "writing-beats",
+      "source": "mattpocock/skills",
+      "installs": 5282,
+      "link": "https://skills.sh/mattpocock/skills/writing-beats",
       "providerId": "skills.sh",
-      "description": "A skill to evaluate how secure Firestore security rules are. Use this when Firestore security rules are updated to ensure that the generated rules are extremely secure and robust."
+      "description": "Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-action",
-      "title": "dbs-action",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 15,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-action",
+      "id": "mattpocock/skills/writing-fragments",
+      "title": "writing-fragments",
+      "source": "mattpocock/skills",
+      "installs": 5277,
+      "link": "https://skills.sh/mattpocock/skills/writing-fragments",
       "providerId": "skills.sh",
-      "description": "dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。\n触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」\nExecution block diagnosis using Adlerian psychology framework.\nTrigger: /dbs-action, \"I know what to do but can't do it\", \"why do I procrastinate\""
+      "description": "Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions \"fragments\", \"ideate\", or \"raw material\" for writing."
+    }
+  ],
+  "topHot": [
+    {
+      "id": "stablyai/orca/orchestration",
+      "title": "orchestration",
+      "source": "stablyai/orca",
+      "installs": 570,
+      "link": "https://skills.sh/stablyai/orca/orchestration",
+      "providerId": "skills.sh",
+      "description": "Use the Orca CLI to coordinate multiple coding agents via inter-agent messaging, task DAGs, dispatch with preamble injection, decision gates, and coordinator loops. Use when an agent needs to send or check inter-agent messages; create, dispatch, or track orchestration tasks; coordinate multi-agent workflows; or act as a coordinator dispatching work across terminals. Triggers include \"orchestrate agents\", \"dispatch task\", \"send message to agent\", \"check inbox\", \"coordinate agents\", \"multi-agent\", \"create task DAG\", \"worker_done\", \"escalation\", or any task involving inter-agent coordination through Orca."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-agent-migration",
-      "title": "dbs-agent-migration",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 15,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-agent-migration",
+      "id": "google/agents-cli/google-agents-cli-observability",
+      "title": "google-agents-cli-observability",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-observability",
       "providerId": "skills.sh",
-      "description": "Agent 工作台迁移。把任意项目整理成 Claude Code / Codex 双端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。\n触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex」\nAgent workspace migration. Turn any project into a maintainable Claude Code / Codex dual-host workspace by auditing rule files, establishing source-of-truth skills, normalizing names, and generating bridges.\nTrigger: /dbs-agent-migration, /agent-migration, \"migrate to Codex\", \"migrate to Claude Code\", \"fix AGENTS.md\", \"organize skill bridges\""
+      "description": "This skill should be used when the user wants to \"set up tracing\", \"monitor my ADK agent\", \"configure logging\", \"add observability\", \"debug production traffic\", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code)."
     },
     {
-      "id": "yuan1z0825/nature-skills/nature-ref-verifier",
-      "title": "nature-ref-verifier",
-      "source": "yuan1z0825/nature-skills",
-      "installs": 13,
-      "link": "https://skills.sh/yuan1z0825/nature-skills/nature-ref-verifier",
+      "id": "google/agents-cli/google-agents-cli-eval",
+      "title": "google-agents-cli-eval",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-eval",
       "providerId": "skills.sh",
-      "description": "对学术文献逐条执行多源交叉验证，逐字段对比作者、标题、年份、卷期、页码， 标记卷年/DOI年冲突、作者顺序异常、页码偏差等问题，输出结构化验证报告。 可批量处理整篇论文/开题报告的参考文献列表，也可单条校验，支持与 Zotero 同步修正。"
+      "description": "This skill should be used when the user wants to \"run an evaluation\", \"evaluate my ADK agent\", \"write an evalset\", \"debug eval scores\", \"compare eval results\", or needs guidance on ADK (Agent Development Kit) evaluation methodology and the eval-fix loop. Covers eval metrics, evalset schema, LLM-as-judge, tool trajectory scoring, and common failure causes. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold)."
     },
     {
-      "id": "yuan1z0825/nature-skills/nature-statistics",
-      "title": "nature-statistics",
-      "source": "yuan1z0825/nature-skills",
-      "installs": 13,
-      "link": "https://skills.sh/yuan1z0825/nature-skills/nature-statistics",
+      "id": "google/agents-cli/google-agents-cli-scaffold",
+      "title": "google-agents-cli-scaffold",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-scaffold",
       "providerId": "skills.sh",
-      "description": "Audit, revise, or draft manuscript statistical reporting for Nature / high-impact journal submissions. Use when the user asks to check statistical analysis sections, p values, confidence intervals, sample size, biological versus technical replicates, randomization, blinding, multiple-comparison correction, model assumptions, figure legends, Results statistics wording, reviewer comments about statistics, or Chinese academic drafts needing publication-ready Statistical analysis text. Also trigger on general paper-statistics requests such as 统计审查、统计分析小节、统计方法、p值、样本量、重复数、多重比较、置信区间、效应量、图注统计、审稿人统计意见."
+      "description": "This skill should be used when the user wants to \"create an agent project\", \"start a new ADK project\", \"build me a new agent\", \"add CI/CD to my project\", \"add deployment\", \"enhance my project\", or \"upgrade my project\". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy)."
     },
     {
-      "id": "zjp1997720/zhijian-skills/codex-cli-model-bridge",
-      "title": "codex-cli-model-bridge",
-      "source": "zjp1997720/zhijian-skills",
-      "installs": 6,
-      "link": "https://skills.sh/zjp1997720/zhijian-skills/codex-cli-model-bridge",
+      "id": "google/agents-cli/google-agents-cli-adk-code",
+      "title": "google-agents-cli-adk-code",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-adk-code",
       "providerId": "skills.sh",
-      "description": "Install, audit, repair, and manage Codex custom model Providers and model catalogs backed by a loopback CLIProxyAPI or Codex Router. Use whenever the user asks to add, remove, upgrade, restore, or diagnose third-party models in Codex or the Codex desktop model picker; mentions Grok, OpenCode Go, DeepSeek, Gemini, GLM Coding Plan, GLM-5.3, subscription-backed CLI models, custom model_provider, model_catalog_json, or Codex Fast mode; or wants the same local proxy models synchronized between Codex and WorkBuddy. Preserve unrelated Codex configuration and credentials. Isolated profile is the default Windows path."
+      "description": "This skill should be used when the user wants to \"write agent code\", \"build an agent with ADK\", \"add a tool\", \"create a callback\", \"define an agent\", \"use state management\", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy)."
     },
     {
-      "id": "firebase/agent-skills/firebase-basics",
-      "title": "firebase-basics",
-      "source": "firebase/agent-skills",
-      "installs": 17,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-basics",
+      "id": "google/agents-cli/google-agents-cli-publish",
+      "title": "google-agents-cli-publish",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-publish",
       "providerId": "skills.sh",
-      "description": "Guide for setting up and using Firebase. Use this skill when the user is getting started with Firebase - setting up local environment, using Firebase for the first time, or adding Firebase to their app."
+      "description": "This skill should be used when the user wants to \"publish an agent\", \"publish my ADK agent\", \"register an agent with Gemini Enterprise\", \"publish to Gemini Enterprise\", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy)."
     },
     {
-      "id": "firebase/agent-skills/firebase-data-connect",
-      "title": "firebase-data-connect",
-      "source": "firebase/agent-skills",
-      "installs": 16,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-data-connect",
+      "id": "google/agents-cli/google-agents-cli-workflow",
+      "title": "google-agents-cli-workflow",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-workflow",
       "providerId": "skills.sh",
-      "description": "Build and deploy Firebase Data Connect backends with PostgreSQL. Use for schema design, GraphQL queries/mutations, authorization, and SDK generation for web, Android, iOS, and Flutter apps."
+      "description": "This skill should be used when the user wants to \"develop an agent\", \"build an agent using ADK\", \"run the agent locally\", \"debug agent code\", \"test an agent\", \"deploy an agent\", \"publish an agent\", \"monitor an agent\", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development."
     },
     {
-      "id": "firebase/agent-skills/firebase-auth-basics",
-      "title": "firebase-auth-basics",
-      "source": "firebase/agent-skills",
-      "installs": 16,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-auth-basics",
+      "id": "google/agents-cli/google-agents-cli-deploy",
+      "title": "google-agents-cli-deploy",
+      "source": "google/agents-cli",
+      "installs": 425,
+      "link": "https://skills.sh/google/agents-cli/google-agents-cli-deploy",
       "providerId": "skills.sh",
-      "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules."
+      "description": "This skill should be used when the user wants to \"deploy an agent\", \"deploy my ADK agent\", \"set up CI/CD\", \"configure secrets\", \"troubleshoot a deployment\", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold)."
     },
     {
-      "id": "firebase/agent-skills/firebase-remote-config-basics",
-      "title": "firebase-remote-config-basics",
-      "source": "firebase/agent-skills",
-      "installs": 16,
-      "link": "https://skills.sh/firebase/agent-skills/firebase-remote-config-basics",
+      "id": "stablyai/orca/computer-use",
+      "title": "computer-use",
+      "source": "stablyai/orca",
+      "installs": 454,
+      "link": "https://skills.sh/stablyai/orca/computer-use",
       "providerId": "skills.sh",
-      "description": "Comprehensive guide for Firebase Remote Config, including template management and SDK usage. Use this skill when the user needs help setting up Remote Config, managing feature flags, or updating app behavior dynamically."
+      "description": "Use Orca's computer-use CLI to inspect and control local desktop apps through accessibility trees, screenshots, and safe UI actions. Use when an agent needs to list desktop apps, get an app state, read visible UI, click, type, press keys, scroll, drag, set values, or perform app accessibility actions. Triggers include \"computer use\", \"orca computer\", \"list apps\", \"get app state\", \"read Spotify\", \"read Slack\", \"click app\", \"type text\", \"press key\", \"set value\", \"scroll app\", \"drag app\", and desktop app interaction tasks."
     },
     {
-      "id": "firebase/agent-skills/xcode-project-setup",
-      "title": "xcode-project-setup",
-      "source": "firebase/agent-skills",
-      "installs": 16,
-      "link": "https://skills.sh/firebase/agent-skills/xcode-project-setup",
+      "id": "heygen-com/hyperframes/motion-doctrine",
+      "title": "motion-doctrine",
+      "source": "heygen-com/hyperframes",
+      "installs": 70,
+      "link": "https://skills.sh/heygen-com/hyperframes/motion-doctrine",
       "providerId": "skills.sh",
-      "description": "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire)."
+      "description": "GATEWAY — load FIRST before composing any HyperFrames animation or video. The high-level motion law that makes a multi-scene video feel like ONE continuous camera move instead of a stack of independently-animated slides. Covers the vector law (how you exit determines how you enter, incl. the Z scale-sign rule), the film's current, carrier elements, causal motion, the Seam Gate (build-gate enforcement), the ban on idle wobble (motion must PERFORM, not breathe), stillness-before-climax, and the sustained-motion routes. Routes to the low-level technique skills (cut-the-curve — the full catalog incl. waterfall entry + nudge curve, oversized-cursor, seam-craft). These rules SUPERSEDE generic / upstream motion guidance. [continuity, direction, vector, momentum, seam, transition, ease, performance, idle-motion, narrative-motion, film-grammar]"
     },
     {
-      "id": "firebase/agent-skills/extension-to-functions-codebase",
-      "title": "extension-to-functions-codebase",
-      "source": "firebase/agent-skills",
-      "installs": 16,
-      "link": "https://skills.sh/firebase/agent-skills/extension-to-functions-codebase",
+      "id": "heygen-com/hyperframes/seam-craft",
+      "title": "seam-craft",
+      "source": "heygen-com/hyperframes",
+      "installs": 69,
+      "link": "https://skills.sh/heygen-com/hyperframes/seam-craft",
       "providerId": "skills.sh",
-      "description": "Skill for converting an installed Firebase Extension (or extension source) to a standalone Cloud Functions for Firebase codebase or publishable npm package, including upgrading triggers from V1 to V2 and configuring lifecycle hooks and declarative security"
+      "description": "Render-correctness doctrine for scene-to-scene seams in HyperFrames launch videos — the prerequisites that make transitions composite correctly on the master timeline. Load when assembling the master timeline / index.html, when a white flash appears at a cut or crossfade seam (especially on dark films), when reasoning about why a transition opacity dip shows through, or when verifying the render-side mechanics of how overlapping scene wrappers blend. Covers the opaque stage-ground (#root background) white-flash guard and how the injector overlaps wrappers, holds final frames, ping-pongs tracks, and stamps lint-clean template code onto the master timeline. Does NOT contain the per-transition catalog — see the transition registry for individual transition entries."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-save",
-      "title": "dbs-save",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-save",
+      "id": "heygen-com/hyperframes/changelog-video",
+      "title": "changelog-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 69,
+      "link": "https://skills.sh/heygen-com/hyperframes/changelog-video",
       "providerId": "skills.sh",
-      "description": "把当前诊断的关键状态存到本地，下次回来可以接着用。\n触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」\nSave the current diagnosis state to disk for cross-session recall.\nTrigger: /dbs-save, \"save this diagnosis\", \"remember this\""
+      "description": "Turn a weekly changelog .md into a finished branded changelog video (square 1080, ~45-60s, Annie VO, animated brand background, mock-UI visualizations, lowkey captions). Use when the user provides a changelog/digest markdown and wants the weekly video, or says \"changelog video\". Self-contained — fonts, background, lexicon, and scripts ship in this skill."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-goal",
-      "title": "dbs-goal",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-goal",
+      "id": "heygen-com/hyperframes/pr-to-video",
+      "title": "pr-to-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 82,
+      "link": "https://skills.sh/heygen-com/hyperframes/pr-to-video",
       "providerId": "skills.sh",
-      "description": "dontbesilent 目标清晰化。用维特根斯坦的语言哲学把模糊的目标审计成可检查的交付物。\n触发方式：/dbs-goal、/目标、「帮我搞清楚目标」「我想做个人 IP」「我的目标是成为...」「我想变得更...」\nGoal clarification using Wittgenstein's philosophy of language. Audits fuzzy goals into checkable deliverables.\nTrigger: /dbs-goal, \"help me clarify my goal\", \"I want to become...\", \"my goal is...\""
+      "description": "pr-to-video workflow - a GitHub pull request (URL like github.com/<owner>/<repo>/pull/<N>, or <owner>/<repo>#<N>, or \"this PR\" in a checked-out repo) -> ingested PR facts (title, body, diff, commits, files, +/- stats) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> code-diff / before-after / impact explainer video. Input is a CODE CHANGE. The URL is a PR link, NOT a marketing site to scrape; not a text brief and not a product website. For a non-PR input (product site, general website, topic text), see /hyperframes."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-spread",
-      "title": "dbs-spread",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-spread",
+      "id": "heygen-com/hyperframes/figma",
+      "title": "figma",
+      "source": "heygen-com/hyperframes",
+      "installs": 80,
+      "link": "https://skills.sh/heygen-com/hyperframes/figma",
       "providerId": "skills.sh",
-      "description": "传播心理解码。给定一段内容，用 5 个经典传播学理论解码它为什么能引起受众共鸣，分析受众情绪底层和有效立场，输出聊天室的讨论方向。\n触发方式：/dbs-spread、「传播心理解码」、「为什么这个能火」、「受众想听什么」、「这个内容打中了什么情绪」\nTransmission psychology decoder. Given a piece of content, analyze the psychological mechanism that makes it resonate, identify the emotional core and effective stance, and output direction for chatroom discussion.\nTrigger: /dbs-spread, \"why does this resonate\", \"what emotion does this hit\", \"decode this content\""
+      "description": "Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → animatics (REST/CLI), and Figma Motion animations + shaders (MCP). Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-resonate",
-      "title": "dbs-resonate",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-resonate",
+      "id": "heygen-com/hyperframes/cut-the-curve",
+      "title": "cut-the-curve",
+      "source": "heygen-com/hyperframes",
+      "installs": 69,
+      "link": "https://skills.sh/heygen-com/hyperframes/cut-the-curve",
       "providerId": "skills.sh",
-      "description": "文稿共鸣诊断。你写完了一段内容但心里没底——怕没流量、怕没戳中观众、怕完播率低。把文稿给这个 skill，它用传播心理学框架诊断有没有引起共鸣、哪里出了问题、具体怎么改。\n触发方式：/dbs-resonate、「这个文稿有没有戳中人」「帮我看看能不能发」「这个完播率会不会低」「文稿发出去有没有流量」\nDraft resonance diagnosis. You finished a draft but aren't sure it will connect. Diagnoses psychological resonance issues and gives specific fixes.\nTrigger: /dbs-resonate, \"will this resonate\", \"check my draft\", \"will people watch this\""
+      "description": "The technique catalog: five velocity-matched SEAMS (zoom-through, INVERSE zoom-through, cut-the-curve, waterfall cut, rack-focus blur-cut) plus the two in-scene techniques — waterfall ENTRY (staggered arrival cascades for title cards / segment openers) and the nudge curve (slow-fast-slow three-phase group slides). Covers partial-travel (~12% of frame) velocity matching via mirrored power4 eases, the Z scale-sign rule, size-scaled blur (10px text / 18-20px full-frame), word-by-word staggered cuts, cascade pacing by element weight, and the 10/65/25 slide ratio. Read before authoring any transition, text-beat handoff, kinetic text entry, or group reposition. [depth, zoom, inverse-zoom, scale-sign, mirrored-zoom, rack-focus, pacing, velocity, cut-the-curve, waterfall, stagger, cascade, kinetic-text, title-card, segment-opener, nudge, slide, easing, group-motion, z-depth, motion-graphics, cinematic, transition, blur, directional-continuity]"
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-install-skill",
-      "title": "dbs-install-skill",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-install-skill",
+      "id": "heygen-com/hyperframes/captions-overlay",
+      "title": "captions-overlay",
+      "source": "heygen-com/hyperframes",
+      "installs": 69,
+      "link": "https://skills.sh/heygen-com/hyperframes/captions-overlay",
       "providerId": "skills.sh",
-      "description": "将单个 Skill 或 Skill 集合安装到通用 Agents、Claude Code、Codex、WorkBuddy、Grok、Hermes Agent、Kiro、Qwen Code、Cline 等 Agent。用户要求跨 Agent 安装、同步、查看、去重或卸载 Skill 时使用。"
+      "description": "Overlay doctrine for the embedded-captions workflow — the caption MODEL (drop / rail / embed) and the rule that captions are an OVERLAY composited on top of the film, never a reserved bottom band you shift content up to avoid. Load when adding captions/subtitles to a talking-head or launch video, when deciding whether a phrase should be dropped, ride the verbatim rail, or be promoted to a scarce embedded climax, when laying out a composition that will carry captions (do NOT reserve a keep-out band), or when centering a composition on the true frame center under captions. Quotes the rail+embed model from embedded-captions and constraint"
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-restore",
-      "title": "dbs-restore",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-restore",
+      "id": "heygen-com/hyperframes/oversized-cursor",
+      "title": "oversized-cursor",
+      "source": "heygen-com/hyperframes",
+      "installs": 69,
+      "link": "https://skills.sh/heygen-com/hyperframes/oversized-cursor",
       "providerId": "skills.sh",
-      "description": "把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。\n触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」\nRestore the most recent diagnosis snapshot saved by dbs-save.\nTrigger: /dbs-restore, \"continue from last time\", \"where did we leave off\""
+      "description": "House-style oversized macOS cursor technique for HyperFrames launch videos. Load whenever a scene involves cursors or a pointer-led action, when kicking off a UI scene, when igniting a morph/transition/typing run with a click, or when a scene reads as static, dead, or stale and needs a cheap high-yield source of motion to carry the viewer's eye and segment them out of the stale state. Covers cursor size/look (incl. brand-motif cursors), the off-screen entry law, tip-targeting and the click tap, click-ignites-the-next-beat, and exit / cross-scene handoff."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-wechat-html",
-      "title": "dbs-wechat-html",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-wechat-html",
+      "id": "heygen-com/hyperframes/embedded-captions",
+      "title": "embedded-captions",
+      "source": "heygen-com/hyperframes",
+      "installs": 85,
+      "link": "https://skills.sh/heygen-com/hyperframes/embedded-captions",
       "providerId": "skills.sh",
-      "description": "微信公众号 HTML 生成。把 Markdown 转成可粘贴到微信公众号后台的 HTML，内置 15 种经典媒体/科技产品/中文公众号风格。\n触发方式：/dbs-wechat-html、/公众号HTML、「生成公众号 HTML」「做微信公众号版本」「微信排版」\nWeChat Official Account HTML generator. Converts Markdown into WeChat-ready HTML with 15 built-in publishing styles."
+      "description": "Add captions to a talking-head video. ONE catalog (CATALOG.md) of 32 visual identities behind two engines: column-flow (captions composited INTO the scene — matte occlusion + mix-blend; cream/ink/editorial/keynote/documentary/loud/neon/glitch/chrome/velocity) and themed constitutions (anchor/ordnance/terminal/neonsign/stardust/stomp/scoreboard/transit/vhs/arcade/dossier/laser/thunder/hologram/biolume/aurora/spectrum/papercut/popup/chalkboard/graffiti/brush/inkwater/ransom/lastpage/nightcity — e.g. a glyph-decode climax, a neon sign WRITTEN stroke by stroke, or the quiet `anchor` rail default). Route by identity, never by mode. Trigger on \"captions/subtitles\", \"embed/cinematic captions\", \"VFX captions\", \"炸/特效/酷炫字幕\", a named identity, or top-tier motion-graphics asks. Embedding every word is wrong for most talking-head content — `anchor` is the verbatim default. Pipeline: transcription → hyperframes remove-background matting → HTML render → ffmpeg overlay. Requires hyperframes and a single-subject clip."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-jtbd",
-      "title": "dbs-jtbd",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-jtbd",
+      "id": "heygen-com/hyperframes/slideshow",
+      "title": "slideshow",
+      "source": "heygen-com/hyperframes",
+      "installs": 79,
+      "link": "https://skills.sh/heygen-com/hyperframes/slideshow",
       "providerId": "skills.sh",
-      "description": "dontbesilent JTBD 任务澄清。用 Jobs to Be Done 识别具体情境中用户想推进的进展、切换方案的力量与可观察的选择标准，据此优化产品、内容、服务、决策和 AI 提示词。调用名：/dbs-jtbd。用户问「到底要解决什么」「为什么会选择这个方案」「用 JTBD 重写提示词」时使用。"
+      "description": "Author a HyperFrames slideshow composition — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching sequences, and hotspot navigation. Read when the request is to build or edit a slideshow, presentation, or pitch deck as a HyperFrames composition."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-decision",
-      "title": "dbs-decision",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-decision",
+      "id": "heygen-com/hyperframes/motion-graphics",
+      "title": "motion-graphics",
+      "source": "heygen-com/hyperframes",
+      "installs": 96,
+      "link": "https://skills.sh/heygen-com/hyperframes/motion-graphics",
       "providerId": "skills.sh",
-      "description": "dontbesilent 个人决策系统。把任何一个需要长期跟踪的领域（业务、关系、健康、职业、学习、投资……）做成一个本地知识工程：四层结构、来源标签、写完不改的快照、能炼出规律的概念库。\n触发方式：/dbs-decision、/决策系统、/决策立案、/结果回填、/状态画像\nPersonal decision system. Turns any long-running domain into a local knowledge project with four layers, source tags, immutable snapshots, and a concept library that learns patterns over time.\nTrigger: /dbs-decision, /决策系统, /决策立案, /结果回填, /状态画像"
+      "description": "Use when the user wants a short, design-led motion graphic where motion is the message: kinetic typography, stat or number count-up, chart/data-viz hit, logo sting, brand lockup, lower-third, callout, social overlay, animated headline/tweet/news item, motion poster, or quick captured-page highlight. Usually under 10s and up to ~30s, with no narration arc, voice-over, or live-action subject. Can render to MP4 or transparent overlay. Not for longer, multi-scene, narrated, or brand-reel pieces (use general-video), narrated website videos (website-to-video), topic explainers (faceless-explainer), product promos (product-launch-video), PR videos (pr-to-video), or captions on existing footage (embedded-captions). When unsure whether it's a quick motion-first piece or a longer / narrated treatment, see /hyperframes."
     },
     {
-      "id": "dontbesilent2025/dbskill/dbs-chatroom",
-      "title": "dbs-chatroom",
-      "source": "dontbesilent2025/dbskill",
-      "installs": 14,
-      "link": "https://skills.sh/dontbesilent2025/dbskill/dbs-chatroom",
+      "id": "stablyai/orca/orca-cli",
+      "title": "orca-cli",
+      "source": "stablyai/orca",
+      "installs": 158,
+      "link": "https://skills.sh/stablyai/orca/orca-cli",
       "providerId": "skills.sh",
-      "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」"
+      "description": "Use the Orca CLI to orchestrate worktrees and live terminals through a running Orca editor. Use when an agent needs to create, inspect, update, or remove Orca worktrees; inspect repo state known to Orca; or read, send to, wait on, or stop Orca-managed terminals. Triggers include \"use orca cli\", \"manage Orca worktrees\", \"read Orca terminal\", \"reply to Claude Code in Orca\", \"create a worktree in Orca\", or any task where the agent should operate through Orca instead of talking to git worktrees and terminal processes directly."
+    },
+    {
+      "id": "heygen-com/hyperframes/talking-head-recut",
+      "title": "talking-head-recut",
+      "source": "heygen-com/hyperframes",
+      "installs": 86,
+      "link": "https://skills.sh/heygen-com/hyperframes/talking-head-recut",
+      "providerId": "skills.sh",
+      "description": "Package an existing talking-head / interview / podcast video by layering timed, designed GRAPHIC OVERLAY cards onto the playing video — titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript. The source video plays in full; the agent designs and writes each card's HTML in conversation, then renders to MP4 via hyperframes. Use when the user asks for graphic overlays, on-screen graphics / lower-thirds / data callouts / kinetic titles on a video, \"package / dress up my video\", \"add overlay cards / graphic cards\", or AI-composed graphic packaging of an existing video. NOT for plain subtitles (→ embedded-captions) or building a video from scratch (→ the creation workflows); when unsure overlays-vs-captions, see /hyperframes."
+    },
+    {
+      "id": "heygen-com/hyperframes/remotion-to-hyperframes",
+      "title": "remotion-to-hyperframes",
+      "source": "heygen-com/hyperframes",
+      "installs": 85,
+      "link": "https://skills.sh/heygen-com/hyperframes/remotion-to-hyperframes",
+      "providerId": "skills.sh",
+      "description": "Translate a Remotion (React-based) video composition into a HyperFrames HTML composition. Use when (1) the user provides Remotion source (`.tsx` files using `useCurrentFrame`, `Sequence`, `AbsoluteFill`, `interpolate`, `spring`, `staticFile`, etc.) and asks to port, convert, or migrate it to HyperFrames; (2) the user pastes a Remotion entry point (`Root.tsx`, `Composition`) and wants HTML; (3) the user links a Remotion repo and asks for the HyperFrames equivalent; (4) the user says \"port my Remotion project\", \"translate this Remotion code\", \"rewrite as HTML\", or \"I have a Remotion comp, make it HyperFrames\". Skill detects unsupported patterns (useState, useEffect with side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda` features) and recommends the runtime interop escape hatch instead of attempting a lossy translation."
+    },
+    {
+      "id": "heygen-com/hyperframes/music-to-video",
+      "title": "music-to-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 81,
+      "link": "https://skills.sh/heygen-com/hyperframes/music-to-video",
+      "providerId": "skills.sh",
+      "description": "Use when the user has a music track (an audio file, or a video to pull audio from) and wants a beat-synced HyperFrames video, calm to hard-hitting. The music drives everything: one analyzer reads it once, the orchestrator lays out the frames and fills a per-frame plan, and one sub-agent builds each frame. Typography and templates are the floor — a complete video needs zero assets — but any images or videos the user supplies are cut into the frames on the same beat grid (beat-cut / ken-burns). The genre (lyric video, slideshow, kinetic promo) falls out of the per-frame choices; the pipeline never branches on it."
+    },
+    {
+      "id": "heygen-com/hyperframes/faceless-explainer",
+      "title": "faceless-explainer",
+      "source": "heygen-com/hyperframes",
+      "installs": 93,
+      "link": "https://skills.sh/heygen-com/hyperframes/faceless-explainer",
+      "providerId": "skills.sh",
+      "description": "faceless-explainer video workflow - arbitrary text (article / notes / topic / brief) -> narrator_scripts.json + audio (voice + BGM) + section_plan.md -> typography / abstract-graphics / diagram / data-viz video. Typical length up to ~3 min (sweet spot ~30-90s); a genuinely longer piece is general-video, not this workflow. Generates its OWN narration (TTS) — it does not sync to a user-supplied / pre-recorded voiceover (that is general-video). No website capture, no real product screenshots. If the text names a product / its site to promote, that is /product-launch-video; when product-vs-topic is unclear, start at /hyperframes."
+    },
+    {
+      "id": "coji/natural-japanese/natural-japanese",
+      "title": "natural-japanese",
+      "source": "coji/natural-japanese",
+      "installs": 26,
+      "link": "https://skills.sh/coji/natural-japanese/natural-japanese",
+      "providerId": "skills.sh",
+      "description": "仕事の日本語文書を読みやすくわかりやすく書く・直すためのスキル。議事録（文字起こしからの議事録化を含む）、調査レポート・分析レポート、社内ガイド・マニュアル、リサーチメモ・ディスカッションペーパー・企画書・提案書・報告書・メール、スライド構成案といったビジネス文書の作成・校正、「結論から書いて」「論旨を明確に」「見出しを端的に」「専門用語をわかりやすく説明して」といった指示のいずれでも使用する。AI臭さの除去（「AIっぽい」「AI臭い」「機械翻訳っぽい」「不自然」「もっと自然な日本語に」「機械っぽい」「人間っぽくして」「単調」「〜することができる、と言えるだろう、のような言い回し」といった直接・間接・口語の指摘、AIで書いたと言われた/疑われた）、読みにくい・わかりにくい文章の改善依頼（語順がおかしい、一文が長い、何が言いたいか分からない、読点の位置がおかしい等）、note記事やブログ記事・エッセイの新規執筆（任意のテーマをゼロから書く・書き起こす依頼を含む）、既存文章のリライト・推敲、AI臭さの診断・採点（「この文章AIが書いた？」「AI臭さをスコアで出して」「どれくらいAIっぽいか判定して」という書き換えを伴わない依頼）、自分の文体を学ばせたい・プロファイル化したいという要望（過去の文章を読ませて自分らしく書いてほしいという依頼も含む）にも対応する。禁止語の除去、リズムの単調さ・段落構造の均質さ・英語統語の直訳調に加え、語順・読点・一文一義・主語述語の距離といった読みやすさの原則にも対応する。技術文書の章構成やMarkdownフォーマットの整形自体（一文一行化・引用ブロック・脚注記法など）は対象外——それは別スキルの領域であり、本スキルは文章の自然さ・読みやすさ・わかりやすさに特化する。"
+    },
+    {
+      "id": "larksuite/cli/lark-attendance",
+      "title": "lark-attendance",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-attendance",
+      "providerId": "skills.sh",
+      "description": "飞书考勤打卡：查询自己的考勤打卡记录"
+    },
+    {
+      "id": "larksuite/cli/lark-apps",
+      "title": "lark-apps",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-apps",
+      "providerId": "skills.sh",
+      "description": "把本地 HTML 文件或目录部署到飞书妙搭（Miaoda），生成可分享访问的 Web 页面并返回 URL；管理应用的创建、更新、列表和访问范围。当用户要把 HTML、静态网站或 Web demo 发布成可分享链接，或提到妙搭 / Miaoda 时使用。不用于：上传普通文件到云空间（用 lark-drive）、编辑飞书云文档内容（用 lark-doc）、创建飞书原生幻灯片 / 演示文稿（用 lark-slides）。"
+    },
+    {
+      "id": "larksuite/cli/lark-note",
+      "title": "lark-note",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-note",
+      "providerId": "skills.sh",
+      "description": "飞书会议纪要（Note）直查：已知 note_id 时查询纪要详情、展示类型、关联文档 token，并读取 unified 原始逐字记录。当用户已持有 note_id，或从文档显式 vc-node-id 获得 note_id 时使用。不负责会议/日程/妙记定位、文档标题搜索或 Docx 正文读取。"
+    },
+    {
+      "id": "larksuite/cli/lark-skill-maker",
+      "title": "lark-skill-maker",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-skill-maker",
+      "providerId": "skills.sh",
+      "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-vc-agent",
+      "title": "lark-vc-agent",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-vc-agent",
+      "providerId": "skills.sh",
+      "description": "飞书视频会议：让机器人代当前用户加入/离开正在进行的会议，并读取会议期间的实时事件（参会人加入与离开、发言、聊天、屏幕共享等）。1. 用户提供 9 位会议号、要求代为入会或离会时使用 +meeting-join / +meeting-leave——会真实产生入会/离会记录。2. 会议进行中用户想知道“谁加入了”“谁离开了”“谁在发言”“有人共享屏幕吗”等会中动态时，机器人入会后用 +meeting-events 读取事件时间线。3. 典型场景：参会机器人、会中助手、代为旁听、代为参会。前提：机器人只能读到它自己参会过且仍在进行中的会议的事件；查询已结束会议的参会名单、纪要或逐字稿请使用 lark-vc 技能。"
+    },
+    {
+      "id": "larksuite/cli/lark-openapi-explorer",
+      "title": "lark-openapi-explorer",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-openapi-explorer",
+      "providerId": "skills.sh",
+      "description": "飞书/Lark 原生 OpenAPI 探索：从官方文档库中挖掘未经 CLI 封装的原生 OpenAPI 接口。当用户的需求无法被现有 lark-* skill 或 lark-cli 已注册命令满足，需要查找并调用原生飞书 OpenAPI 时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-meeting",
+      "title": "lark-meeting",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-meeting",
+      "providerId": "skills.sh",
+      "description": "飞书视频会议：查询会议记录与会议产物(纪要/逐字稿/妙记)、妙记搜索/上传/下载/编辑、机器人参与会议；查询进行中的会议、实时会议内容(发言/聊天/共享文档)问答(会上/会里)、发送会中聊天/表情；基于 meeting_id、meeting_no、event_id、note_id、minute_token、vc-node-id 或妙记 URL 查询相关信息。预约会议、忙闲和会议室管理走 lark-calendar。"
+    },
+    {
+      "id": "larksuite/cli/lark-okr",
+      "title": "lark-okr",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-okr",
+      "providerId": "skills.sh",
+      "description": "飞书 OKR：管理目标与关键结果。查看和编辑 OKR 周期、目标（Objective）、关键结果（Key Result）、对齐关系、量化指标。当用户需要查看或创建 OKR、管理目标和关键结果、查看对齐关系时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-mail",
+      "title": "lark-mail",
+      "source": "larksuite/cli",
+      "installs": 124,
+      "link": "https://skills.sh/larksuite/cli/lark-mail",
+      "providerId": "skills.sh",
+      "description": "飞书邮箱 — draft, compose, send, reply, forward, read, and search emails; manage drafts, folders, labels, contacts, and attachments. Use when user mentions 起草邮件, 写一封邮件, 拟邮件, 草稿, 发通知邮件, 发送邮件, 发邮件, 回复邮件, 转发邮件, 查看邮件, 看邮件, 读邮件, 搜索邮件, 查邮件, 收件箱, 邮件会话, 编辑草稿, 管理草稿, 下载附件, 邮件文件夹, 邮件标签, 邮件联系人, 监听新邮件, draft, compose, send email, reply, forward, inbox, mail thread."
+    },
+    {
+      "id": "larksuite/cli/lark-markdown",
+      "title": "lark-markdown",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-markdown",
+      "providerId": "skills.sh",
+      "description": "飞书 Markdown：查看、创建、上传和编辑 Markdown 文件。当用户需要创建或编辑 Markdown 文件、读取或修改时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-event",
+      "title": "lark-event",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-event",
+      "providerId": "skills.sh",
+      "description": "飞书事件订阅：通过 WebSocket 长连接实时监听飞书事件（消息、通讯录变更、日历变更等），输出 NDJSON 到 stdout，支持 compact Agent 友好格式、正则路由、文件输出。当用户需要实时监听飞书事件、构建事件驱动管道时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-workflow-standup-report",
+      "title": "lark-workflow-standup-report",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-workflow-standup-report",
+      "providerId": "skills.sh",
+      "description": "日程待办摘要：编排 calendar +agenda 和 task +get-my-tasks，生成指定日期的日程与未完成任务摘要。适用于了解今天/明天/本周的安排。"
+    },
+    {
+      "id": "larksuite/cli/lark-workflow-meeting-summary",
+      "title": "lark-workflow-meeting-summary",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-workflow-meeting-summary",
+      "providerId": "skills.sh",
+      "description": "会议纪要整理工作流：汇总指定时间范围内的会议纪要并生成结构化报告。当用户需要整理会议纪要、生成会议周报、回顾一段时间内的会议内容时使用。"
+    },
+    {
+      "id": "heygen-com/hyperframes/product-launch-video",
+      "title": "product-launch-video",
+      "source": "heygen-com/hyperframes",
+      "installs": 90,
+      "link": "https://skills.sh/heygen-com/hyperframes/product-launch-video",
+      "providerId": "skills.sh",
+      "description": "Use when the user wants a product launch, SaaS promo, feature reveal, app/company/site marketing video, or a script/brief turned into a product-focused video. Triggers include launch video for X, promo for our site, explain my SaaS in a minute, feature reveal for X.com, and turn this script into a 60s promo. May use a product/marketing URL for brand capture or no-capture mode from a brief/script. Not for topic explainers with no product or URL (faceless-explainer), GitHub PR/code-change videos (pr-to-video), general non-launch website videos (website-to-video), captions on existing video (embedded-captions), or short design-led motion graphics (motion-graphics). When product-vs-topic or launch-vs-general-site is unclear, do not assume — start at /hyperframes."
+    },
+    {
+      "id": "larksuite/cli/lark-shared",
+      "title": "lark-shared",
+      "source": "larksuite/cli",
+      "installs": 125,
+      "link": "https://skills.sh/larksuite/cli/lark-shared",
+      "providerId": "skills.sh",
+      "description": "飞书/Lark CLI 共享基础：应用配置初始化、认证登录（auth login）、身份切换（--as user/bot）、权限与 scope 管理、Permission denied 错误处理、安全规则。当用户需要第一次配置(`lark-cli config init`)、使用登录授权(`lark-cli auth login`)、遇到权限不足、切换 user/bot 身份、配置 scope、或首次使用 lark-cli 时触发。"
+    },
+    {
+      "id": "larksuite/cli/lark-slides",
+      "title": "lark-slides",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-slides",
+      "providerId": "skills.sh",
+      "description": "飞书幻灯片：以 XML 格式读取和管理 PPT 页面。创建演示文稿优先用 `+create`；XML API 主要用于读取 PPT 全文信息、创建和删除幻灯片页面。当用户需要创建 PPT、读取 PPT 内容、管理幻灯片页面时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-contact",
+      "title": "lark-contact",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-contact",
+      "providerId": "skills.sh",
+      "description": "飞书通讯录：查询组织架构、人员信息和搜索员工。获取当前用户或指定用户的详细信息、通过关键词搜索员工（姓名/邮箱/手机号）。当用户需要查看个人信息、查找同事 open_id 或联系方式、按姓名搜索员工、查询部门结构时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-approval",
+      "title": "lark-approval",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-approval",
+      "providerId": "skills.sh",
+      "description": "飞书审批 API：审批实例、审批任务管理。"
+    },
+    {
+      "id": "larksuite/cli/lark-vc",
+      "title": "lark-vc",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-vc",
+      "providerId": "skills.sh",
+      "description": "飞书视频会议：查询会议记录、获取会议纪要产物（总结、待办、章节、逐字稿）。1. 查询已经结束的会议数量或详情时使用本技能(如昨天 | 上周 | 今天已经开过的会议等场景)，查询未开始的会议日程使用 lark-calendar 技能。2. 支持通过关键词、时间范围、组织者、参与者、会议室等筛选条件搜索会议记录。3. 获取或整理会议纪要时使用本技能。"
+    },
+    {
+      "id": "larksuite/cli/lark-minutes",
+      "title": "lark-minutes",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-minutes",
+      "providerId": "skills.sh",
+      "description": "飞书妙记：获取妙记基础信息（标题、封面、时长）和相关的 AI 产物（总结、待办、章节）。飞书妙记的 URL 格式为: http(s)://<host>/minutes/<minute-token>"
+    },
+    {
+      "id": "larksuite/cli/lark-drive",
+      "title": "lark-drive",
+      "source": "larksuite/cli",
+      "installs": 124,
+      "link": "https://skills.sh/larksuite/cli/lark-drive",
+      "providerId": "skills.sh",
+      "description": "飞书云空间：管理云空间中的文件和文件夹。上传和下载文件、创建文件夹、复制/移动/删除文件、查看文件元数据、管理文档评论、管理文档权限、订阅用户评论变更事件。当用户需要上传或下载文件、整理云空间目录、查看文件详情、管理评论、管理文档权限、订阅用户评论变更事件时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-whiteboard",
+      "title": "lark-whiteboard",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-whiteboard",
+      "providerId": "skills.sh",
+      "description": "当用户要求在飞书云文档中绘制图表，或使用飞书画板绘制架构图、流程图、思维导图、时序图或其他可视化图表时使用此 skill。"
+    },
+    {
+      "id": "larksuite/cli/lark-task",
+      "title": "lark-task",
+      "source": "larksuite/cli",
+      "installs": 123,
+      "link": "https://skills.sh/larksuite/cli/lark-task",
+      "providerId": "skills.sh",
+      "description": "飞书任务：管理任务和清单。创建待办任务、查看和更新任务状态、拆分子任务、组织任务清单、分配协作成员。当用户需要创建待办事项、查看任务列表、跟踪任务进度、管理项目清单或给他人分配任务时使用。"
+    },
+    {
+      "id": "larksuite/cli/lark-base",
+      "title": "lark-base",
+      "source": "larksuite/cli",
+      "installs": 125,
+      "link": "https://skills.sh/larksuite/cli/lark-base",
+      "providerId": "skills.sh",
+      "description": "当需要用 lark-cli 操作飞书多维表格（Base）时调用：适用于建表、字段管理、记录读写、视图配置、历史查询，以及角色/表单/仪表盘管理；也适用于把旧的 +table / +field / +record 写法改成当前命令写法。涉及字段设计、公式字段、查找引用、跨表计算、行级派生指标、数据分析需求时也必须使用本 skill。"
     }
   ]
 }

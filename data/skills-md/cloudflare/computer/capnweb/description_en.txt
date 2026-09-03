@@ -1,0 +1,5 @@
+capnweb RPC patterns for this repo, with a heavy focus on stub lifecycle
+and disposal. Load when touching anything that crosses the Durable Object
+↔ computerd boundary: packages/rpc, packages/computer, the computerd client, or the
+Durable Object server. Triggers include "capnweb", "RpcTarget", "stub",
+"RPC wire", "promise pipelining", "stub disposal", "RpcPromise".

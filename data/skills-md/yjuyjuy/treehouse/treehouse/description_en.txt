@@ -1,0 +1,1 @@
+Operate a pool of reusable git worktrees through the treehouse CLI: lease an isolated worktree non-interactively, read pool state, return a lease, and reclaim slots with prune or destroy. Use whenever work needs an isolated checkout, a pool is full, a slot is stuck dirty or leased, or a worktree path under a .treehouse/ directory needs explaining.
