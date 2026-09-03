@@ -1,0 +1,1 @@
+Figma デザインを高い忠実度で Penpot に移行します: Figma Auto Layout → Penpot flex/grid、Figma Variables → Penpot トークン、Figma コンポーネント セット → Penpot バリアント、階層を維持します。 Figma MCP を介して読み取り、Penpot MCP を介して中間表現 (IR) を介して書き込みます。 Figma MCP が存在しない場合、手動で貼り付けられた Figma データに劣化します。トリガー: 「Figma から移行」、「この Figma ファイルを Penpot にインポート」、「Figma ライブラリを Penpot に移動」、「この Figma デザインを Penpot で再作成」、「Figma から Penpot」。
