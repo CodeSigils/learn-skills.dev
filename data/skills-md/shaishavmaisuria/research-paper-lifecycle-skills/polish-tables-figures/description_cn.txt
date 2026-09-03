@@ -1,0 +1,1 @@
+将 LaTeX 表格和图形打磨至出版质量。当研究人员提到表格格式、书签、图形布局、子图、标题、色盲安全颜色或调色板、cref/cleveref 一致性、溢出的 hbox、列宽，或要求使表格和图形看起来专业或适合场地（ACM、IEEE、NeurIPS、LNCS、CHI）时使用。将 hline-and-vertical-rule 表转换为 booktabs，调整页面预算中的列大小，使用子标题布局子图，应用每个场地系列的标题约定（上面的表格标题，下面的图形标题，ACM 描述替代文本），修复 ref/cref 不一致，并使用捆绑的 stdlib-Python linter 和调色板生成器推荐色盲安全调色板（Okabe-Ito、Paul Tol）。仅编辑演示文稿 - 绝不更改数据值、单位或结果。

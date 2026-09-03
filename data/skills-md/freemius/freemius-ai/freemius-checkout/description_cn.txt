@@ -1,0 +1,1 @@
+在 React 应用程序中构建面向客户的 Freemius Checkout UI - Checkout Provider（覆盖上下文）、Subscribe（订阅定价表）、Topup（一次性/积分定价表）、Paywall 和自定义结帐按钮。在向 React 前端添加定价页面、“升级”/“购买积分”按钮、覆盖结账或付费专区时使用。涵盖 React Starter Kit Checkout 组件和前端 Checkout SDK (`@freemius/checkout`)，以及前端所依赖的瘦结账特定后端端点（购买同步 `POST /api/purchase`、`GET /api/checkout/pricing` 和托管重定向处理程序）；底层的结帐创建和权利同步引擎仍然属于“freemius-core”。

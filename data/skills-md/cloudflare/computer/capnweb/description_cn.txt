@@ -1,0 +1,5 @@
+此存储库的 capnweb RPC 模式，重点关注存根生命周期
+和处置。接触任何穿过耐用物体的物体时加载
+↔computerd 边界：packages/rpc、packages/computer、computerd 客户端或
+持久对象服务器。触发器包括“capnweb”、“RpcTarget”、“stub”、
+“RPC 线”、“承诺管道”、“存根处置”、“RpcPromise”。

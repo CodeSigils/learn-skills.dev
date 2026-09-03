@@ -1,0 +1,1 @@
+Hunt Missing/Weak Rate Limiting — 登录暴力破解、OTP/2FA 暴力破解（10^6 密钥空间）、密码重置令牌暴力破解、凭证填充、通过错误字符串/状态代码/时间差异进行的用户名/电子邮件枚举、弱密码策略、缺少 CAPTCHA（CAPTCHA 令牌重放/一次性/并发窗口绕过细节 → Hunt-captcha-bypass）、基于 IP 的速率限制绕过X-Forwarded-For 和朋友们，ReDoS。区分硬锁定、软 IP 节流、验证码注入和静默影子节流（避免误报“无速率限制”结论）。中到严重取决于暴力达到的程度（OTP→ATO = 严重）。

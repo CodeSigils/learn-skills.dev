@@ -1,0 +1,1 @@
+测试全栈存储库的影响分析。 tdad v0.2.0 的分支，具有 Vue SFC 支持和 CLI 增强功能。当您需要查找哪些测试受到多语言项目中代码更改的影响时使用 - 例如更改了一个Python实用程序+一个Vue组件，想知道要重新运行哪些pytest + vitest + jest文件。当您在项目中看到包含“pyproject.toml”（或“package.json”）和“.vue”文件的“.tdad/”目录时，或者在处理多语言单一存储库时，请激活。替换临时 `git diff | xargs jest --findRelatedTests` 具有一张图的工作流程。

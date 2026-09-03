@@ -1,0 +1,1 @@
+当您需要通过 HTTP 进行真实的、正在运行的沙盒部署时使用 - 例如，根据实时容器验证 SDK 更改、重现用户报告的问题或在不启动“wrangler dev”的情况下试验 API（包括 FUSE 存储桶安装）。记录主机注入时可通过“SANDBOX_WORKER_URL”+“SANDBOX_API_KEY”访问的沙盒桥工作器。

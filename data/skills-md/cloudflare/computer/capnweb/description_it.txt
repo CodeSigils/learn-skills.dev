@@ -1,0 +1,5 @@
+Modelli RPC capnweb per questo repository, con una forte attenzione al ciclo di vita dello stub
+e smaltimento. Carica quando si tocca qualsiasi cosa che attraversa l'oggetto durevole
+↔ limite computerd: pacchetti/rpc, pacchetti/computer, il client computerd o il file
+Server di oggetti durevoli. I trigger includono "capnweb", "RpcTarget", "stub",
+"cavo RPC", "pipelining promessa", "smaltimento stub", "RpcPromise".

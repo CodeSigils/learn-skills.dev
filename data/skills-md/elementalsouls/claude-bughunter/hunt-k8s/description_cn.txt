@@ -1,0 +1,1 @@
+Hunt Kubernetes 和 Docker — API 匿名访问、kubelet 10250 exec（SPDY/WebSocket，不是普通 POST）和更简单的 /run 原语、etcd 2379 unauth、仪表板跳过登录、RBAC 配置错误、secret/SA 令牌滥用、docker.sock 主机逃逸、runc/container-escape（Leaky Vessels CVE-2024-21626）、API 服务器介导节点/代理 RCE、EphemeralContainers 节点 shell、绑定/预计 SA 令牌受众+过期滥用、准入控制器绕过、Helm/Tiller 残余。当目标运行容器化基础设施、公开 K8s 端口 (6443/10250/10255/2379/8443) 或云元数据显示 K8s 服务帐户时使用。

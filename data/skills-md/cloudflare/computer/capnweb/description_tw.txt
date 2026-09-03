@@ -1,5 +1,5 @@
 此儲存庫的 capnweb RPC 模式，重點關注存根生命週期
-和處置。接觸任何穿過耐用物體的物體時加載
+和处置。接觸任何穿過耐用物體的物體時加載
 ↔computerd 邊界：packages/rpc、packages/computer、computerd 用戶端或
-持久對象伺服器。觸發器包括“capnweb”、“RpcTarget”、“stub”、
+持久对象服务器。觸發器包括“capnweb”、“RpcTarget”、“stub”、
 「RPC 線」、「承諾管道」、「存根處置」、「RpcPromise」。
