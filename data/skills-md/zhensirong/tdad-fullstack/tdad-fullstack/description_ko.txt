@@ -1,0 +1,1 @@
+풀스택 저장소에 대한 영향 분석을 테스트합니다. Vue SFC 지원 및 CLI 개선 사항을 갖춘 tdad v0.2.0의 포크입니다. 다중 언어 프로젝트의 코드 변경으로 인해 영향을 받는 테스트를 찾아야 할 때 사용합니다. Python 유틸리티 + Vue 구성 요소를 변경했습니다. 다시 실행할 pytest + vitest + jest 파일을 알고 싶습니다. `pyproject.toml`(또는 `package.json`) 및 `.vue` 파일이 모두 포함된 프로젝트에서 `.tdad/` 디렉터리를 볼 때 또는 다중 언어 모노레포에서 작업할 때 활성화하세요. 임시 `git diff | xargs jest --findRelatedTests` 워크플로우를 하나의 그래프로 사용합니다.

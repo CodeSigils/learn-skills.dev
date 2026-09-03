@@ -1,0 +1,1 @@
+루프의 작업자, vitest-pool-workers 또는 랭글러 없이 실제 FUSE 모드에서 엔드투엔드 컴퓨터로 디버깅합니다. 권한 있는 Docker 컨테이너에서 linux-x64 바이너리를 부팅하고, Node에서 capnweb /api 엔드포인트를 구동하고, SQLiteTestStorage에서 DO 측 동기화를 시뮬레이션하고, FUSE 관련 교착 상태를 격리합니다. 실제 FUSE 버그가 로컬에서 재현되지만 단위 테스트는 통과하는 경우, 하네스 vitest 테스트가 실제 컨테이너에 대해 중단되는 경우 또는 FUSE 대 sync 대 exec에 웨지를 지정해야 하는 경우 로드합니다.
