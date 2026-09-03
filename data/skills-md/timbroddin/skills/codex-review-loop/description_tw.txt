@@ -1,0 +1,1 @@
+請求對當前 PR 進行 Codex 審查，等待它，自動修復結果，然後循環，直到審查結果乾淨為止。當使用者想要「執行 Codex 審核循環」、「讓 Codex 審核並修復」、「@codex 審核並修復備註」、自動迭代 Codex/OpenAI PR 審核回饋或執行 /codex-review-loop 時使用。一輪又一輪地驅動 GitHub Codex 機器人（“@codex review”PR 評論），直到沒有更多可操作的評論或達到最大迭代上限。

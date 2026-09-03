@@ -1,0 +1,1 @@
+在即時 FUSE 模式下進行端對端偵錯，無需循環中的 workd、vitest-pool-workers 或 wrangler。在特權 Docker 容器中啟動 linux-x64 二進位文件，從 Node 驅動其 capnweb /api 端點，從 SQLiteTestStorage 模擬 DO 端同步，並隔離與 FUSE 相關的死鎖。當真正的 FUSE bug 在本地重現但單元測試通過時、當harness vitest 測試掛在真實容器上時、或者當您需要將楔塊歸因於 FUSE、sync 與 exec 時加載。

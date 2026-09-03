@@ -1,0 +1,1 @@
+操作、配置、保護 LiteLLM AI 網關（代理）和 Python SDK 並對其進行故障排除：運行代理 (litellm --config)，透過一個 OpenAI 相容 API 路由到 100 多個供應商，配置模型列表和路由/可靠性、虛擬金鑰、團隊、預算、速率限制、快取、護欄、可觀察性和支出，以及診斷請求失敗。在部署或執行 LiteLLM 代理程式或閘道（config.yaml、ghcr.io/berriai/litellm）、透過其連接 Python SDK 或 OpenAI SDK 或強化面向大眾的部署時使用。請勿用於操作單一推理引擎（vllm、llama-cpp）、引擎選擇方法（ml-engineering）或在 LLM API（後端/前端工程）之上建立應用程式。

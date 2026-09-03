@@ -1,0 +1,5 @@
+逐步完成已錄取論文的最終稿（camera‑ready）準備——出版前最容易出錯的最後階段。適用於研究者提到「camera‑ready」、
+「final version」或「我的論文已錄取，接下來該怎麼做」，以及涉及 ACM eRights、授權表單、TAPS、ORCID、DOI 區塊、IEEE PDF eXpress、會議代號、eCF 版權表單、Xplore、OpenReview 最終上傳、去匿名化或額外最終稿頁數等情況。  
+它會從機器可讀的會議設定檔中解析會議規則，並全程指導完成 ACM eRights、ORCID、授權/DOI 區塊、TAPS 原始檔上傳、IEEE PDF eXpress、會議代號、檔案命名、eCF 完全符合標題、註冊/缺席、NeurIPS 風格的[最終]重新編譯，以及 OpenReview 上傳等步驟。  
+同時產生一份依序的檢查清單，列出截止日期與頁數規則，並透過內建僅使用標準函式庫的腳本對最終 .tex 檔進行匿名資訊遺留與授權區塊缺失的 lint 檢查。  
+注意：此工具僅提供準備、說明與 lint 檢查，絕不會自行填寫表單或提交任何內容。

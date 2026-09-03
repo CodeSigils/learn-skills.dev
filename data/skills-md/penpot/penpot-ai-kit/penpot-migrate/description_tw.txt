@@ -1,0 +1,1 @@
+以高保真度將 Figma 設計移轉到 Penpot：Figma 自動佈局 → Penpot flex/grid、Figma 變數 → Penpot 標記、Figma 元件集 → Penpot 變體，保留層次結構。透過 Figma MCP 讀取，透過 Penpot MCP 寫入，透過中間表示 (IR)。如果 Figma MCP 不存在，則會降級為手動貼上的 Figma 資料。觸發器：“從Figma遷移”，“將此Figma檔案匯入Penpot”，“將我們的Figma庫移至Penpot”，“在Penpot中重新建立此Figma設計”，“Figma到Penpot”。
