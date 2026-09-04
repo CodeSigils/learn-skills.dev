@@ -1,0 +1,2 @@
+關於 yak 腳本與 Yakit UI 交互機制的主題。它清晰說明了 yakit.* 函式庫如何透過 gRPC ExecResult 流驅動 UI 渲染：yakit.Info/Warn/Error/Success 日誌輸出、yakit.SetProgress 進度條、yakit.NewTable/EnableTable/TableData 表格（靜態 vs 動態）、yakit.NewLineGraph/NewBarGraph/NewPieGraph/NewWordCloud 圖表、yakit.StatusCard 狀態卡、yakit.EnableWebsiteTrees 網站樹、yakit.EnableText/TextTabData 文字分頁、yakit.Output 統一輸出通道，以及從前端的 useHoldGRPCStream 消費 ExecResult 到渲染 UI 的完整鏈路。當使用者詢問「腳本如何讓 Yakit 顯示表格/圖表/進度條/卡片？」或「yakit.Info 的輸出去哪裡？」時，使用此說明。  
+請始終以使用者的語言回覆。

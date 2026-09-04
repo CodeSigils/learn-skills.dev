@@ -1,0 +1,1 @@
+当开发人员询问哪个Slack Web API方法做了什么，需要方法的OAuth作用域或令牌类型，想要调用或测试family.method端点（ chat.postMessage、conversations.history、users.info、views.open ） ，正在处理光标分页（ next_cursor ）或速率限制（ tier/ratelimited/Retry-After ） ，或者正在调试missing_scope、invalid_auth或channel_not_found等错误时使用。也可以在粘贴的slack.com/api/网址或docs.slack.dev/reference/methods链接上触发。

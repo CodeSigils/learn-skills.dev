@@ -1,0 +1,1 @@
+从 AG2 `Agent` 返回键入的 Python 值，而不是自由文本。传递 `response_schema=` （Pydantic 模型、数据类、原语、联合、`ResponseSchema` 或 `@response_schema` 验证器）并通过 `await reply.content()` 读取解析结果。当用户需要经过验证的结构化输出、分类、提取或评分时使用。涵盖“ResponseSchema”、“@response_schema”、“PromptedSchema”（对于没有本机结构化输出的提供者）、每轮覆盖、验证重试和原始嵌入。

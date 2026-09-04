@@ -1,2 +1,1 @@
-缺陷修复方法论唯一入口：口喷 bug 定位直修；implement-test-review 循环内的反馈修复也走本 skill（循环内分支，原 impl worker 执行）。触发：修 bug / 有个 bug / 报错了 / 行为不对 / fix / /eo-fix。
-NOT FOR: 明确的业务变更（走 /eo-change）。
+The sole entry point for the defect‑fixing methodology: verbally report a bug, locate and fix it directly; feedback fixes within the implement‑test‑review loop also go through this skill (branch within the loop, performed by the original impl worker). Triggers: fixing a bug / there is a bug / an error occurred / behavior is incorrect / fix / /eo-fix. NOT FOR: explicit business changes (use /eo-change).

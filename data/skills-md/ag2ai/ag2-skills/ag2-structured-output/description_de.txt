@@ -1,0 +1,3 @@
+Holen Sie einen typisierten Python‑Wert von einem AG2 `Agent` zurück, anstatt freien Text. Übergeben Sie `response_schema=` (ein Pydantic‑Modell, Dataclass, Primitive, Union, `ResponseSchema` oder einen `@response_schema`‑Validator) und lesen Sie das geparste Ergebnis über `await reply.content()`. Verwenden Sie dies, wenn der Benutzer validierte strukturierte Ausgaben, Klassifizierung, Extraktion oder Bewertung wünscht. Beinhaltet `ResponseSchema`, `@response_schema`, `PromptedSchema` (für Anbieter ohne native strukturierte Ausgabe), pro‑Turn‑Überschreibung, Validierungs‑Wiederholungen und primitive Einbettung.
+
+Bitte immer in der Sprache des Benutzers antworten.

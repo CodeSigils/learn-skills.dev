@@ -1,2 +1,3 @@
-eo 流程总控：按用户意图圈一段（入口节点 → 出口节点 → 收敛标准），把 eo-change / eo-implement / eo-archive 及可选闸门（eo-change-review / eo-test / eo-review）派发到可插拔执行基底上推进至收敛，窗口化汇报进度。触发：eo-loop / 串起来跑 / 循环推进到收敛 / 总控调度 / /eo-loop。
-NOT FOR: 单点动作（直接调对应 eo-* skill）；派出去不再监督的完全交接（orca-cli full handoff）；bug 口喷（/eo-fix）。
+eo process master control: based on user intent, encapsulate a segment (entry node → exit node → convergence criteria), dispatch eo-change / eo-implement / eo-archive and optional gates (eo-change-review / eo-test / eo-review) to a pluggable execution base to advance toward convergence, with windowed progress reporting. Triggers: eo-loop / chain-run / loop advancement to convergence / master scheduling / /eo-loop.
+
+NOT FOR: single-point actions (directly invoke the corresponding eo-* skill); completely handing off without further supervision (orca-cli full handoff); bug‑spray (/eo-fix).

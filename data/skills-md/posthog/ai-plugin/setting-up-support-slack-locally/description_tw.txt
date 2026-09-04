@@ -1,0 +1,1 @@
+將真實的 Slack 工作區連接到本機 PostHog Conversations（SupportHog Slack 應用程式），以便 Slack 訊息成為支援票證並回覆回發。當使用者想要在本地測試對話 Slack 整合、點擊“未配置支援 Slack OAuth 用戶端 ID”、在 OAuth 回調上出現白屏或“網路錯誤”，或詢問如何為 supporthog Slack 事件設定 SUPPORT_SLACK_APP_CLIENT_ID / 隧道時使用。涵蓋 Slack 應用程式 + 範圍、SUPPORT_SLACK_* 動態設定以及關鍵分割：用於 OAuth 和 UI 的 localhost、僅用於入站事件的公共隧道。

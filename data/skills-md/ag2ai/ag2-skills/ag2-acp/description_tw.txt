@@ -1,0 +1,1 @@
+透過代理客戶端協定 (ACP) 將外部 CLI 編碼代理程式（Claude Code、Codex、OpenCode）驅動為一流 AG2 代理程式：將代理程式指向 ag2.acp 中的 ClaudeCodeConfig / CodexConfig / OpenCodeConfig 詢問的事件流中。在從 Python 編排、觀察或控制 CLI 編碼代理時使用 —permission_policy 詢問/自動/拒絕 HITL 控制、fs_root 限制、轉向逾時、透過 fake_acp_config 進行進程內測試。若要將 AG2 代理程式公開給其他系統，請參閱 ag2-a2a 或 ag2-mcp；如需批准管道，請參閱 ag2-hitl。

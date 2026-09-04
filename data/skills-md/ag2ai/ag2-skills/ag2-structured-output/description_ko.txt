@@ -1,0 +1,1 @@
+자유 텍스트 대신 AG2 `에이전트`에서 입력된 Python 값을 다시 가져옵니다. `response_schema=`(Pydantic 모델, 데이터 클래스, 기본, 공용체, `ResponseSchema` 또는 `@response_schema` 유효성 검사기)를 전달하고 `await reply.content()`를 통해 구문 분석된 결과를 읽습니다. 사용자가 검증된 구조화된 출력, 분류, 추출 또는 점수 매기기를 원할 때 사용합니다. `ResponseSchema`, `@response_schema`, `PromptedSchema`(네이티브 구조화된 출력이 없는 공급자의 경우), 턴별 재정의, 유효성 검사 재시도 및 기본 포함을 다룹니다.

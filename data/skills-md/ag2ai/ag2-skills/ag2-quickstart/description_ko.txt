@@ -1,0 +1,1 @@
+최소 AG2 `에이전트`를 엔드 투 엔드로 구축하세요. 모델 공급자를 선택하고, 프롬프트를 설정하고, `agent.ask()`를 호출한 다음 `reply.ask()`로 대화를 계속하세요(다중 회전). 사용자가 새 AG2 프로젝트를 시작할 때, 아직 작동하는 '에이전트'가 없거나 다중 회전 체인 패턴이 필요할 때 사용합니다. `OpenAIConfig`, `AnthropicConfig`, `GeminiConfig`, `OllamaConfig` 등을 다루고 API 키에 대한 env-var 대체를 다룹니다.

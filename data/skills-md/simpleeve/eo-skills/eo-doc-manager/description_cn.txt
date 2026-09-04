@@ -1,0 +1,1 @@
+管理eo-doc/代码端文档系统（init/modify/sync）：维护changes/INDEX.md、agent-handbook/和templates/的规范部分；当“state.enabled”时，对状态/状态部分执行增量游标重新生成。所有eo-doc下的文档维护操作都必须经过这个技能。触发器：初始化文档/修改文档/组织文档/同步文档//eo-doc-manager。不适合：查询或解释文档内容（使用 /eo-recall）。

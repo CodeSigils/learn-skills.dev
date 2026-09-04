@@ -1,2 +1,2 @@
-按需代码审查：风险信号命中或用户点名时，对已实施代码做 AC 逐条核对 + 代码质量审查，产简版 review.md（P0/P1/P2）。触发：review / 代码审查 / 再找双眼睛看看 / /eo-review。
-NOT FOR: change 方案审查（/eo-change-review，代码还没写时用）；默认主路（无信号时不强制）。
+On-demand code review: when a risk signal is triggered or a user calls it out, perform a line‑by‑line verification of the implemented code against the acceptance criteria plus a code quality review, and produce a concise review.md (P0/P1/P2). Triggers: review / code review / ask another pair of eyes to look / /eo-review.  
+NOT FOR: change plan review (/eo-change-review, used when the code hasn't been written yet); default main path (not mandatory when there is no signal).

@@ -1,0 +1,3 @@
+controllo principale del processo eo: in base all'intento dell'utente, incapsula un segmento (nodo di ingresso → nodo di uscita → criteri di convergenza), invia eo-change / eo-implement / eo-archive e porte opzionali (eo-change-review / eo-test / eo-review) a una base di esecuzione collegabile per avanzare verso la convergenza, con reporting sull'avanzamento in finestre. Trigger: eo-loop / esecuzione a catena / avanzamento del loop alla convergenza / pianificazione generale / /eo-loop.
+
+NON PER: azioni a punto singolo (invoca direttamente l'abilità eo-* corrispondente); passaggio completo senza ulteriore supervisione (orca-cli full handoff); spray anti-insetti (/eo-fix).

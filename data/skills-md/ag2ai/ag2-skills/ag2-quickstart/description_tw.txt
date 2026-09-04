@@ -1,0 +1,1 @@
+端對端建構一個最小的 AG2 `Agent` — 選擇一個模型提供者，設定提示，呼叫 `agent.ask()`，然後繼續使用 `reply.ask()` 進行對話（多輪）。當使用者開始新的 AG2 專案、還沒有可用的「Agent」或需要多輪連結模式時使用。涵蓋 `OpenAIConfig`、`AnthropicConfig`、`GeminiConfig`、`OllamaConfig` 等，以及 API 金鑰的 env-var 回退。

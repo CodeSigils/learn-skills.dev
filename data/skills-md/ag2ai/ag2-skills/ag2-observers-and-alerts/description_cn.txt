@@ -1,0 +1,1 @@
+监视 AG2 代理的流 - 记录事件、检测重复的工具调用、跟踪令牌支出、构建触发器驱动的观察者、将观察者警报路由到模型，并在致命情况下停止。涵盖`@observer(...)`（无状态）、`BaseObserver`（有状态）、内置函数（`TokenMonitor`、`LoopDetector`）、`Watch`原语（`EventWatch`、`CadenceWatch`、`DelayWatch`、`IntervalWatch`、`CronWatch`、`AllOf`、`AnyOf`、`Sequence`）、`ObserverAlert` (`Severity.INFO/WARNING/CRITICAL/FATAL`)、`AlertPolicy` 和 `HaltEvent`。当用户需要可观察性、运行时安全防护、警报或基于批/时间的反应逻辑时使用。

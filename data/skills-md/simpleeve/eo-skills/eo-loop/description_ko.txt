@@ -1,0 +1,3 @@
+eo 프로세스 마스터 제어: 사용자 의도를 기반으로 세그먼트(진입 노드 → 종료 노드 → 수렴 기준)를 캡슐화하고, eo-change/eo-implement/eo-archive 및 선택적 게이트(eo-change-review/eo-test/eo-review)를 플러그형 실행 기반에 전달하여 창형 진행 보고를 통해 수렴을 향해 나아갑니다. 트리거: eo-loop / chain-run / 루프 수렴으로의 발전 / 마스터 스케줄링 / /eo-loop.
+
+NOT FOR: 단일 지점 작업(해당 eo-* 기술을 직접 호출); 추가 감독 없이 완전히 핸드오프(orca-cli 전체 핸드오프) 버그 스프레이(/eo-fix).

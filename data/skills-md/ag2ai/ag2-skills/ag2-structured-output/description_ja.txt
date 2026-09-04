@@ -1,0 +1,1 @@
+フリー テキストの代わりに、AG2 `Agent` から型指定された Python 値を取得します。 `response_schema=` (Pydantic モデル、データクラス、プリミティブ、ユニオン、`ResponseSchema`、または `@response_schema` バリデーター) を渡し、`await Reply.content()` 経由で解析された結果を読み取ります。ユーザーが検証された構造化された出力、分類、抽出、またはスコアリングを必要とする場合に使用します。 「ResponseSchema」、「@response_schema」、「PromptedSchema」 (ネイティブ構造化出力を持たないプロバイダー用)、ターンごとのオーバーライド、検証の再試行、およびプリミティブの埋め込みをカバーします。

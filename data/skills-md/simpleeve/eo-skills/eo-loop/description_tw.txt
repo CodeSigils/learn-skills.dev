@@ -1,0 +1,3 @@
+eo 流程主控制：根據使用者意圖，封裝一個區段（入口節點→出口節點→收斂標準），將 eo-change / eo-implement / eo-archive 和可選門（eo-change-review / eo-test / eo-review）分派到可插入執行庫以推進收斂，並帶有窗口進度報告。觸發器：eo-loop / chain-run / 循環推進到收斂 / 主調度 / /eo-loop。
+
+NOT FOR：單點動作（直接呼叫對應的eo-*技能）；完全切換而無需進一步監督（orca-cli 完全切換）；錯誤噴霧（/eo-fix）。

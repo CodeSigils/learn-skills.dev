@@ -1,0 +1,1 @@
+管理eo-doc/程式碼端文件系統（init/modify/sync）：維護changes/INDEX.md、agent-handbook/和templates/的規格部分；當「state.enabled」時，對狀態/狀態部分執行增量遊標重新產生。所有eo-doc下的文檔維護作業都必須經過這個技能。觸發器：初始化文件/修改文件/組織文件/同步文件//eo-doc-manager。不適合：查詢或解釋文件內容（使用 /eo-recall）。

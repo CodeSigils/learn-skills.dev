@@ -1,0 +1,3 @@
+Contrôle principal du processus eo : en fonction de l'intention de l'utilisateur, encapsulez un segment (nœud d'entrée → nœud de sortie → critères de convergence), répartissez eo-change / eo-implement / eo-archive et des portes facultatives (eo-change-review / eo-test / eo-review) vers une base d'exécution enfichable pour avancer vers la convergence, avec des rapports de progression fenêtrés. Déclencheurs : eo-loop / chain-run / avancement de la boucle vers la convergence / planification principale / /eo-loop.
+
+PAS POUR : les actions en un seul point (invoquez directement la compétence eo-* correspondante) ; transfert complet sans autre supervision (transfert complet orca-cli) ; bug-spray (/eo-fix).
