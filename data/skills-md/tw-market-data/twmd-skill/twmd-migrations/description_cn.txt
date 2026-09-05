@@ -1,0 +1,1 @@
+只需最少的代码更改即可将现有的台湾股票数据管道迁移到 TW Market Data (TWMD) - FinMind、yfinance、twstock、TEJ (tejapi)、经纪商 API (Shioaji 永丰 / Fugle 富果) 和全球供应商 (pandas-datareader、Alpha Vantage、Tiingo、Quandl/Nasdaq Data Link、EOD Historical) 的插入式垫片和数据集映射。当用户已经从其中任何一个提取 TW 数据并想要切换到 TWMD 时使用，或者询问“TWMD 相当于 <vendor> / 如何移植我的 <vendor> 代码”。每个来源的列名称都不同 - 请根据 TWMD 文档进行确认。

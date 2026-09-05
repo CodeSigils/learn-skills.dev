@@ -1,0 +1,3 @@
+Migra una canalización de datos de acciones de Taiwán existente a TW Market Data (TWMD) con cambios mínimos de código — shims de inserción y mapas de conjuntos de datos para FinMind, yfinance, twstock, TEJ (tejapi), APIs de brokers (Shioaji 永豐 / Fugle 富果) y proveedores globales (pandas-datareader, Alpha Vantage, Tiingo, Quandl/Nasdaq Data Link, EOD Historical). Úsalo cuando el usuario ya extrae datos de TW de cualquiera de estos y desea cambiar a TWMD, o pregunta “equivalente TWMD de <vendor> / cómo porto mi código de <vendor>”. Los nombres de columnas difieren según la fuente — verifica contra la documentación de TWMD.
+
+Por favor, siempre responde en el idioma del usuario.

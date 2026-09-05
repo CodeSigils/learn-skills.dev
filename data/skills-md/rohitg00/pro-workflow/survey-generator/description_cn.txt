@@ -1,0 +1,1 @@
+编写有关任何 AI/ML 主题的结构化文献调查。代理从公共锚定资源中策划一个研究包（分类+章节+真实论文的参考书目），然后选定的法学硕士生成调查工件。输出目标是一个 wiki 页面（markdown），而不是一次性的 HTML——调查位于 `<wiki>/categories/surveys/<slug>.md` 中，完整的参考书目行位于 `sources.md` 中。与提供商无关（Anthropic/OpenAI/OpenRouter/Fireworks/自定义 OpenAI 兼容）。当用户要求对某个技术主题进行“调查”、“文献综述”、“文学评论”或“深入研究”时使用。
