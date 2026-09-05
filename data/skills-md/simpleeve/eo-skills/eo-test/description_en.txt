@@ -1,3 +1,2 @@
-On-demand independent testing perspective: When a risk signal is triggered or a user specifically flags an issue, conduct a test audit, gap-filling, and re‑validation of the implemented change, producing a concise test.md. Modifying business code is strictly prohibited. Triggers: find a second set of eyes to run tests / independent verification / add tests for this change / /eo-test.  
-
-NOT FOR: Routine test runs or supplemental unit tests unrelated to the change (just do them directly, no report needed); default main‑line self‑verification (categorized under eo-implement).
+按需独立测试视角：风险信号命中或用户点名时，对已实现 change 做测试审计、补缺与重验证，产简版 test.md。严禁修改业务代码。触发：找双新眼睛跑测试 / 独立验证 / 给这个 change 补测试 / /eo-test。
+NOT FOR: 与 change 无关的日常跑测试或补单测（直接做即可，不产报告）；默认主路的自验（归 eo-implement）。
